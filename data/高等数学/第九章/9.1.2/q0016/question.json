@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $L$ 为圆 $x^2+y^2=a^2$ 时，$\\oint_L[(x^2+y^2)^3+(x+y)^3]ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi a^6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi a^7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi a^7$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi a^8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 原式 $=\\oint_La^6ds+\\oint_L(x+y)^3ds=a^6\\,2\\pi a+\\oint_Lx^3ds+3\\oint_Lx^2yds+3\\oint_Lxy^2ds+\\oint_Ly^3ds$\n\n$$\n=2\\pi a^7\\text{。（后面每项积分显然都为零）}\n$$",
+  "search_text": "当 $L$ 为圆 $x^2+y^2=a^2$ 时，$\\oint_L[(x^2+y^2)^3+(x+y)^3]ds=$（ ） $2\\pi a^6$ $\\pi a^7$ $2\\pi a^7$ $\\pi a^8$ 解答 原式 $=\\oint_La^6ds+\\oint_L(x+y)^3ds=a^6\\,2\\pi a+\\oint_Lx^3ds+3\\oint_Lx^2yds+3\\oint_Lxy^2ds+\\oint_Ly^3ds$\n\n$$\n=2\\pi a^7\\text{。（后面每项积分显然都为零）}\n$$",
+  "sort_order": 16
+}

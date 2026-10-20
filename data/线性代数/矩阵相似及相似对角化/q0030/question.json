@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\end{pmatrix}$，$B=\\begin{pmatrix}4&0&0&0\\\\0&0&0&0\\\\0&0&0&0\\\\0&0&0&0\\end{pmatrix}$，则 $A$ 与 $B$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "相似且正交相似"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不正交相似但相似"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "正交相似但不相似"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不正交相似且不相似"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "矩阵 $A$ 是实对称矩阵，其特征值为 $4,0,0,0$，所以 $A$ 与 $B$ 相似，且 $A$ 与 $B$ 能正交相似。",
+  "search_text": "设 $A=\\begin{pmatrix}1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\end{pmatrix}$，$B=\\begin{pmatrix}4&0&0&0\\\\0&0&0&0\\\\0&0&0&0\\\\0&0&0&0\\end{pmatrix}$，则 $A$ 与 $B$（ ）。 相似且正交相似 不正交相似但相似 正交相似但不相似 不正交相似且不相似 矩阵 $A$ 是实对称矩阵，其特征值为 $4,0,0,0$，所以 $A$ 与 $B$ 相似，且 $A$ 与 $B$ 能正交相似。",
+  "sort_order": 30
+}

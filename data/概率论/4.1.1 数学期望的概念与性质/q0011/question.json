@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(\\xi=k)=p(1-p)^{k-1},k=1,2,\\ldots$，求$E(\\xi)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/p$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p(1-p)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$p$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$kp$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "几何分布期望为$1/p$。",
+  "search_text": "$P(\\xi=k)=p(1-p)^{k-1},k=1,2,\\ldots$，求$E(\\xi)$。 $1/p$ $p(1-p)$ $p$ $kp$ 几何分布期望为$1/p$。",
+  "sort_order": 11
+}

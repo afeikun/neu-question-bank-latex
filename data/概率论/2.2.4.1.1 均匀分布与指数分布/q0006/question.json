@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim U(1,6)$，求方程$x^2+\\xi x+1=0$有实根的概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4/5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2/5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "判别式要求$\\xi^2-4\\ge0$，因$\\xi\\in(1,6)$即$\\xi\\ge2$，概率$4/5$。",
+  "search_text": "$\\xi\\sim U(1,6)$，求方程$x^2+\\xi x+1=0$有实根的概率。 $4/5$ $1/5$ $2/5$ $3/5$ 判别式要求$\\xi^2-4\\ge0$，因$\\xi\\in(1,6)$即$\\xi\\ge2$，概率$4/5$。",
+  "sort_order": 6
+}

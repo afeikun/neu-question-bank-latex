@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime+\\frac1x y=x^3,(x\\ne0)$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac15x^4+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac15x^4+\\frac Cx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac C5x^4+\\frac1x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac15x^4+\\frac1x+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y=e^{-\\int \\frac{1}{x}\\,dx}\\left[\\int x^3e^{\\int \\frac{1}{x}\\,dx}\\,dx+C\\right]=\\frac{1}{5}x^4+\\frac{C}{x}$",
+  "search_text": "$y\\prime+\\frac1x y=x^3,(x\\ne0)$ 的通解为（ ） $\\frac15x^4+C$ $\\frac15x^4+\\frac Cx$ $\\frac C5x^4+\\frac1x$ $\\frac15x^4+\\frac1x+C$ $y=e^{-\\int \\frac{1}{x}\\,dx}\\left[\\int x^3e^{\\int \\frac{1}{x}\\,dx}\\,dx+C\\right]=\\frac{1}{5}x^4+\\frac{C}{x}$",
+  "sort_order": 29
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=y(x)$ 任一点的切线在两坐标轴间的部分长度为 $l$，求满足的微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(x-yy^\\prime)^2+(y-\\frac{x}{y^\\prime})^2=l^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(y-xy^\\prime)^2-(x-\\frac y{y^\\prime})^2=l^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(y-xy^\\prime)^2+(x-\\frac y{y^\\prime})^2=l^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(y+xy^\\prime)^2+(x+\\frac y{y^\\prime})^2=l^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：设点 $M(x,y)$ 的切线为 $Y-y=y'(X-x)$，与 $y$ 轴交于 $(0,y-xy')$，与 $x$ 轴交于 $(x-\\frac{y}{y'},0)$，于是由题意得 $(y-xy')^2+(x-\\frac{y}{y'})^2=l^2$。",
+  "search_text": "曲线 $y=y(x)$ 任一点的切线在两坐标轴间的部分长度为 $l$，求满足的微分方程。 $(x-yy^\\prime)^2+(y-\\frac{x}{y^\\prime})^2=l^2$ $(y-xy^\\prime)^2-(x-\\frac y{y^\\prime})^2=l^2$ $(y-xy^\\prime)^2+(x-\\frac y{y^\\prime})^2=l^2$ $(y+xy^\\prime)^2+(x+\\frac y{y^\\prime})^2=l^2$ 解析：设点 $M(x,y)$ 的切线为 $Y-y=y'(X-x)$，与 $y$ 轴交于 $(0,y-xy')$，与 $x$ 轴交于 $(x-\\frac{y}{y'},0)$，于是由题意得 $(y-xy')^2+(x-\\frac{y}{y'})^2=l^2$。",
+  "sort_order": 22
+}

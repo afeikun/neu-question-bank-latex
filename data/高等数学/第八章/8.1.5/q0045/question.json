@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "球体 $x^2+y^2+z^2\\leq4a^2$ 被圆柱面 $x^2+y^2=2ax(a>0)$ 所截得（含在圆柱面内的部分）立体的体积为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{35}{3}a^2(\\pi-\\frac13)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{16}{3}\\pi a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{55}{6}a^2(2\\pi-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{32}{3}a^3(\\frac\\pi2-\\frac23)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "如图，由对称性，有\n$$\nV=4\\iint_D\\sqrt{4a^2-x^2-y^2}\\,dxdy\n$$\n其中 $D$ 为半圆周 $y=\\sqrt{2ax-x^2}$ 及 $x$ 轴所围成的闭区域。在极坐标系中，积分区域 $D$：\n$$\n0\\leq\\theta\\leq\\frac{\\pi}{2},\\quad 0\\leq r\\leq2a\\cos\\theta\n$$\n$$\nV=4\\iint_D\\sqrt{4a^2-r^2}\\,rdrd\\theta\n=4\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{2a\\cos\\theta}r\\sqrt{4a^2-r^2}\\,dr\n$$\n$$\n=\\frac{32}{3}a^3\\int_0^{\\frac{\\pi}{2}}(1-\\sin^3\\theta)d\\theta\n=\\frac{32}{3}a^3\\left(\\frac{\\pi}{2}-\\frac{2}{3}\\right)\n$$\n\n图示：左图为坐标轴 $x,y,z$ 下的球体截取部分，立体区域以绿色着色；右图为极坐标区域 $D$，边界标为 $r=2a\\cos\\theta$，半径标为 $r$，角标为 $\\theta$，横轴标有 $a,2a$，原点为 $O$。",
+  "search_text": "球体 $x^2+y^2+z^2\\leq4a^2$ 被圆柱面 $x^2+y^2=2ax(a>0)$ 所截得（含在圆柱面内的部分）立体的体积为（ ） $\\frac{35}{3}a^2(\\pi-\\frac13)$ $\\frac{16}{3}\\pi a^3$ $\\frac{55}{6}a^2(2\\pi-1)$ $\\frac{32}{3}a^3(\\frac\\pi2-\\frac23)$ 如图，由对称性，有\n$$\nV=4\\iint_D\\sqrt{4a^2-x^2-y^2}\\,dxdy\n$$\n其中 $D$ 为半圆周 $y=\\sqrt{2ax-x^2}$ 及 $x$ 轴所围成的闭区域。在极坐标系中，积分区域 $D$：\n$$\n0\\leq\\theta\\leq\\frac{\\pi}{2},\\quad 0\\leq r\\leq2a\\cos\\theta\n$$\n$$\nV=4\\iint_D\\sqrt{4a^2-r^2}\\,rdrd\\theta\n=4\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{2a\\cos\\theta}r\\sqrt{4a^2-r^2}\\,dr\n$$\n$$\n=\\frac{32}{3}a^3\\int_0^{\\frac{\\pi}{2}}(1-\\sin^3\\theta)d\\theta\n=\\frac{32}{3}a^3\\left(\\frac{\\pi}{2}-\\frac{2}{3}\\right)\n$$\n\n图示：左图为坐标轴 $x,y,z$ 下的球体截取部分，立体区域以绿色着色；右图为极坐标区域 $D$，边界标为 $r=2a\\cos\\theta$，半径标为 $r$，角标为 $\\theta$，横轴标有 $a,2a$，原点为 $O$。",
+  "sort_order": 45
+}

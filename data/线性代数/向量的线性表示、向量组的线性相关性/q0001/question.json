@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 维向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_m$ 线性无关，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "组中去掉一个向量之后仍然线性无关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "存在不全为 $0$ 的数 $k_1,k_2,\\ldots,k_m$，使等式 $k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_m\\alpha_m=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "组中增加一个任意向量后也线性无关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "组中至少一个向量可由其余向量线性表示"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "线性无关组的任意部分组仍线性无关，因此去掉其中一个向量后仍线性无关。其余说法分别与线性无关的定义或性质矛盾。",
+  "search_text": "设 $n$ 维向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_m$ 线性无关，则（ ）。 组中去掉一个向量之后仍然线性无关 存在不全为 $0$ 的数 $k_1,k_2,\\ldots,k_m$，使等式 $k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_m\\alpha_m=0$ 组中增加一个任意向量后也线性无关 组中至少一个向量可由其余向量线性表示 线性无关组的任意部分组仍线性无关，因此去掉其中一个向量后仍线性无关。其余说法分别与线性无关的定义或性质矛盾。",
+  "sort_order": 1
+}

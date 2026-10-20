@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=x+y$于单位正方形，求$E(\\xi),E(\\eta)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(7/12,7/12)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(5/12,5/12)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(7/12,5/12)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(5/12,7/12)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对称性给出$E(\\xi)=E(\\eta)=\\int_0^1\\int_0^1x(x+y)dxdy=7/12$。",
+  "search_text": "$f(x,y)=x+y$于单位正方形，求$E(\\xi),E(\\eta)$。 $(7/12,7/12)$ $(5/12,5/12)$ $(7/12,5/12)$ $(5/12,7/12)$ 对称性给出$E(\\xi)=E(\\eta)=\\int_0^1\\int_0^1x(x+y)dxdy=7/12$。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\begin{cases}x^2-4y^2+z^2=5\\\\x=-3\\end{cases}$ 表示的曲线为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}z^2-4y^2=25\\\\x=-3\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}z^2-4y^2=5\\\\x=-3\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}z^2-4y^2=9\\\\x=-3\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}z^2-4y^2=16\\\\x=-3\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：将 $x=-3$ 带入 $x^2-4y^2+z^2=5$ 中，得 $z^2-4y^2=16$，即曲线方程为\n$$\n\\begin{cases}\nz^2-4y^2=16\\\\\nx=-3\n\\end{cases}.\n$$",
+  "search_text": "方程 $\\begin{cases}x^2-4y^2+z^2=5\\\\x=-3\\end{cases}$ 表示的曲线为(\\quad)。 $\\begin{cases}z^2-4y^2=25\\\\x=-3\\end{cases}$ $\\begin{cases}z^2-4y^2=5\\\\x=-3\\end{cases}$ $\\begin{cases}z^2-4y^2=9\\\\x=-3\\end{cases}$ $\\begin{cases}z^2-4y^2=16\\\\x=-3\\end{cases}$ 解答：将 $x=-3$ 带入 $x^2-4y^2+z^2=5$ 中，得 $z^2-4y^2=16$，即曲线方程为\n$$\n\\begin{cases}\nz^2-4y^2=16\\\\\nx=-3\n\\end{cases}.\n$$",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)$ 在点 $x_0$ 不连续，则 $f(x)$ 在点 $x_0$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "视 $x_0$ 而定"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "可能可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "一定可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "一定不可导"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "可导必连续，因此不连续必不可导。",
+  "search_text": "若 $f(x)$ 在点 $x_0$ 不连续，则 $f(x)$ 在点 $x_0$（ ）。 视 $x_0$ 而定 可能可导 一定可导 一定不可导 可导必连续，因此不连续必不可导。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\to0$ 时，下列函数中哪一个是其它三个的高阶无穷小（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-\\cos x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln(1+x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\tan x-\\sin x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\tan x-\\sin x\\sim x^3/2$，其阶高于其余三项。",
+  "search_text": "当 $x o0$ 时，下列函数中哪一个是其它三个的高阶无穷小（ ）。 $x^2$ $1-\\cos x$ $\\ln(1+x)$ $ an x-\\sin x$ $\\tan x-\\sin x\\sim x^3/2$，其阶高于其余三项。",
+  "sort_order": 36
+}

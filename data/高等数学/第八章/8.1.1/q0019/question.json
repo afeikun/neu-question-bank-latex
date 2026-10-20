@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于二重积分 $\\iint_{\\frac12\\leq x^2+y^2\\leq1}\\ln(x^2+y^2)\\,dxdy$ 的值说法正确的是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "等于 $0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "大于 $0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无法确定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "小于 $0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由于 $\\frac12\\leq x^2+y^2\\leq1$，所以 $\\ln(x^2+y^2)\\leq0$，且当 $x^2+y^2<1$ 时，$\\ln(x^2+y^2)<0$，\n\n于是 $\\iint_{\\frac12\\leq x^2+y^2\\leq1}\\ln(x^2+y^2)dxdy<0$",
+  "search_text": "关于二重积分 $\\iint_{\\frac12\\leq x^2+y^2\\leq1}\\ln(x^2+y^2)\\,dxdy$ 的值说法正确的是（ ） 等于 $0$ 大于 $0$ 无法确定 小于 $0$ 解答 由于 $\\frac12\\leq x^2+y^2\\leq1$，所以 $\\ln(x^2+y^2)\\leq0$，且当 $x^2+y^2<1$ 时，$\\ln(x^2+y^2)<0$，\n\n于是 $\\iint_{\\frac12\\leq x^2+y^2\\leq1}\\ln(x^2+y^2)dxdy<0$",
+  "sort_order": 19
+}

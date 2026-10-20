@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是 $n$ 阶方阵，如果 $|A|=0$，则 $A$ 的特征值(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "全不为零"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "至少有一个是零"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "可以是任意数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "全为零"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "行列式等于特征值之积，乘积为零说明至少有一个特征值为零，选项 2。",
+  "search_text": "设 $A$ 是 $n$ 阶方阵，如果 $|A|=0$，则 $A$ 的特征值(\\quad)。 全不为零 至少有一个是零 可以是任意数 全为零 行列式等于特征值之积，乘积为零说明至少有一个特征值为零，选项 2。",
+  "sort_order": 8
+}

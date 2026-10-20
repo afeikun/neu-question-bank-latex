@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}\\frac{\\sqrt[n]2+\\cdots+\\sqrt[n]n}{n-1}=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n+2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由夹逼定理，分子中各项的算术平均趋于 $1$，故极限为 $1$。",
+  "search_text": "$\\lim_{n\\to\\infty}\\frac{\\sqrt[n]2+\\cdots+\\sqrt[n]n}{n-1}=$（ ）。 $1$ $n+2$ $n$ $0$ 由夹逼定理，分子中各项的算术平均趋于 $1$，故极限为 $1$。",
+  "sort_order": 5
+}

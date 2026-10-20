@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求函数 $y=x^2/\\sqrt{1-x^2}$ 在区间 $[1/2,\\sqrt3/2]$ 的平均值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1-\\sqrt3}{12}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1+\\sqrt3}{12}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1-\\sqrt3}{6}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1+\\sqrt3}{6}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "按题给区间计算定积分并除以区间长度，得 $\\frac{1+\\sqrt3}{12}\\pi$。",
+  "search_text": "求函数 $y=x^2/\\sqrt{1-x^2}$ 在区间 $[1/2,\\sqrt3/2]$ 的平均值。 $\\frac{1-\\sqrt3}{12}\\pi$ $\\frac{1+\\sqrt3}{12}\\pi$ $\\frac{1-\\sqrt3}{6}\\pi$ $\\frac{1+\\sqrt3}{6}\\pi$ 按题给区间计算定积分并除以区间长度，得 $\\frac{1+\\sqrt3}{12}\\pi$。",
+  "sort_order": 10
+}

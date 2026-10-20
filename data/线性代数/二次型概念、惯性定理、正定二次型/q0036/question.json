@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "实二次型 $f(x_1,x_2,x_3)=2x_1^2+2x_2^2+x_3^2+2tx_1x_2+6x_1x_3+2x_2x_3$ 正定，则 $t$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t>2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2<t<2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t>3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "二次型矩阵为 $A=\\begin{pmatrix}2&t&3\\\\t&2&1\\\\3&1&1\\end{pmatrix}$。正定要求 $2>0$、$\\begin{vmatrix}2&t\\\\t&2\\end{vmatrix}=4-t^2>0$，即 $|t|<2$；但 $|A|=-7-(t-3)^2<0$，不满足正定条件，因此不存在这样的 $t$。",
+  "search_text": "实二次型 $f(x_1,x_2,x_3)=2x_1^2+2x_2^2+x_3^2+2tx_1x_2+6x_1x_3+2x_2x_3$ 正定，则 $t$ 的值为（ ）。 $t>2$ 不存在 $-2<t<2$ $t>3$ 二次型矩阵为 $A=\\begin{pmatrix}2&t&3\\\\t&2&1\\\\3&1&1\\end{pmatrix}$。正定要求 $2>0$、$\\begin{vmatrix}2&t\\\\t&2\\end{vmatrix}=4-t^2>0$，即 $|t|<2$；但 $|A|=-7-(t-3)^2<0$，不满足正定条件，因此不存在这样的 $t$。",
+  "sort_order": 36
+}

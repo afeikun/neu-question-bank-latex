@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$Z\\sim\\chi^2(m)$，样本和$\\sum Z_i$的期望为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$mn$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2nm$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2m/n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$m/n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立卡方变量和期望为$nm$。",
+  "search_text": "$Z\\sim\\chi^2(m)$，样本和$\\sum Z_i$的期望为（）。 $mn$ $2nm$ $2m/n$ $m/n$ 独立卡方变量和期望为$nm$。",
+  "sort_order": 26
+}

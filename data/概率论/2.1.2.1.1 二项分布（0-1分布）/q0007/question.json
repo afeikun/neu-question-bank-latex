@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=3x^2$（$0<x<1$），三次独立观察事件$X\\le2/3$的次数$Y$，求$P(Y=0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(19/27)^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(8/27)^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-(19/27)^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-(8/27)^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$p=P(X\\le2/3)=8/27$，故$P(Y=0)=(1-p)^3=(19/27)^3$。",
+  "search_text": "$f(x)=3x^2$（$0<x<1$），三次独立观察事件$X\\le2/3$的次数$Y$，求$P(Y=0)$。 $(19/27)^3$ $(8/27)^3$ $1-(19/27)^3$ $1-(8/27)^3$ $p=P(X\\le2/3)=8/27$，故$P(Y=0)=(1-p)^3=(19/27)^3$。",
+  "sort_order": 7
+}

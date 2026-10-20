@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体$Z\\sim B(m,p)$，样本均值方差为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$mp(1-p)/n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$mp$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$nmp$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$nmp(1-p)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总体方差$mp(1-p)$，样本均值方差$mp(1-p)/n$。",
+  "search_text": "总体$Z\\sim B(m,p)$，样本均值方差为（）。 $mp(1-p)/n$ $mp$ $nmp$ $nmp(1-p)$ 总体方差$mp(1-p)$，样本均值方差$mp(1-p)/n$。",
+  "sort_order": 16
+}

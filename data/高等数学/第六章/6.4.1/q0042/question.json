@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z$ 轴所在的直线方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}x=0\\\\y=0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}x=0\\\\z=0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：$z$ 轴所在直线可看成 $yOz$ 面与 $zOx$ 面的交线，所以可写成 $\\begin{cases}x=0\\\\y=0\\end{cases}$。",
+  "search_text": "$z$ 轴所在的直线方程为(\\quad)。 $y=0$ $\\begin{cases}x=0\\\\y=0\\end{cases}$ $\\begin{cases}x=0\\\\z=0\\end{cases}$ $x=0$ 解答：$z$ 轴所在直线可看成 $yOz$ 面与 $zOx$ 面的交线，所以可写成 $\\begin{cases}x=0\\\\y=0\\end{cases}$。",
+  "sort_order": 42
+}

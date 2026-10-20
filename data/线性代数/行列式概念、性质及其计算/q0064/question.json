@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}a_1&-a_1&0&0\\\\0&a_2&-a_2&0\\\\0&0&a_3&-a_3\\\\1&1&1&1\\end{vmatrix}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-4a_1a_2a_3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-a_1a_2a_3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a_1a_2a_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4a_1a_2a_3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将四列相加后，按第四行展开并提出因子 $-4$，得 $D=(-4)(-a_1)(-a_2)(-a_3)=4a_1a_2a_3$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}a_1&-a_1&0&0\\\\0&a_2&-a_2&0\\\\0&0&a_3&-a_3\\\\1&1&1&1\\end{vmatrix}$ 的值为（ ）。 $-4a_1a_2a_3$ $-a_1a_2a_3$ $a_1a_2a_3$ $4a_1a_2a_3$ 将四列相加后，按第四行展开并提出因子 $-4$，得 $D=(-4)(-a_1)(-a_2)(-a_3)=4a_1a_2a_3$。",
+  "sort_order": 64
+}

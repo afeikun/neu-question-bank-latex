@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $L$ 为从点 $A(3,2,1)$ 到点 $B(0,0,0)$ 的直线段，计算 $\\int_Lx^3dx+3zy^2dy-x^2ydz$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{87}{4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac45$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解 直线 $AB$ 的方程为\n\n$$\n\\frac{x}{3}=\\frac{y}{2}=\\frac{z}{1}\n$$\n\n化成参数方程得\n\n$$\nx=3t，\\quad y=2t，\\quad z=t，\\quad t\\text{ 从 }1\\text{ 变到 }0。\n$$\n\n所以\n\n$$\n\\begin{aligned}\n\\int_Lx^3\\,\\mathrm{d}x+3zy^2\\,\\mathrm{d}y-x^2y\\,\\mathrm{d}z\n&=\\int_1^0\\left[(3t)^3\\cdot3+3\\cdot(2t)^2\\cdot2-(3t)^2\\cdot2t\\right]\\,\\mathrm{d}t\\\\\n&=87\\int_1^0t^3\\,\\mathrm{d}t=-\\frac{87}{4}。\n\\end{aligned}\n$$",
+  "search_text": "已知 $L$ 为从点 $A(3,2,1)$ 到点 $B(0,0,0)$ 的直线段，计算 $\\int_Lx^3dx+3zy^2dy-x^2ydz$。 $-\\frac{87}{4}$ $4$ $\\frac45$ $3$ 解 直线 $AB$ 的方程为\n\n$$\n\\frac{x}{3}=\\frac{y}{2}=\\frac{z}{1}\n$$\n\n化成参数方程得\n\n$$\nx=3t，\\quad y=2t，\\quad z=t，\\quad t\\text{ 从 }1\\text{ 变到 }0。\n$$\n\n所以\n\n$$\n\\begin{aligned}\n\\int_Lx^3\\,\\mathrm{d}x+3zy^2\\,\\mathrm{d}y-x^2y\\,\\mathrm{d}z\n&=\\int_1^0\\left[(3t)^3\\cdot3+3\\cdot(2t)^2\\cdot2-(3t)^2\\cdot2t\\right]\\,\\mathrm{d}t\\\\\n&=87\\int_1^0t^3\\,\\mathrm{d}t=-\\frac{87}{4}。\n\\end{aligned}\n$$",
+  "sort_order": 1
+}

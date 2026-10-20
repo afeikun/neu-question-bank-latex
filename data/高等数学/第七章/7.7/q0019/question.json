@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=\\\\arctan(y/x)$ 在 $(1,1)$ 沿 $a=(1,1)$ 方向的方向导数是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,1)}=\\left.\\frac{-y}{x^2+y^2}\\right|_{(1,1)}=-\\frac{1}{2}，\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,1)}=\\left.\\frac{x}{x^2+y^2}\\right|_{(1,1)}=\\frac{1}{2}$$\n\n与 $\\vec{a}$ 同方向的单位向量 $\\vec{a}^{\\,0}=(\\frac{1}{\\sqrt{2}},\\frac{1}{\\sqrt{2}})$，\n\n故方向导数为：$\\left.\\frac{\\partial z}{\\partial\\vec{a}}\\right|_{(1,1)}=-\\frac{1}{2}\\frac{1}{\\sqrt{2}}+\\frac{1}{2}\\frac{1}{\\sqrt{2}}=0。$",
+  "search_text": "函数 $z=\\\\arctan(y/x)$ 在 $(1,1)$ 沿 $a=(1,1)$ 方向的方向导数是。 2 -1 1 0 $$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,1)}=\\left.\\frac{-y}{x^2+y^2}\\right|_{(1,1)}=-\\frac{1}{2}，\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,1)}=\\left.\\frac{x}{x^2+y^2}\\right|_{(1,1)}=\\frac{1}{2}$$\n\n与 $\\vec{a}$ 同方向的单位向量 $\\vec{a}^{\\,0}=(\\frac{1}{\\sqrt{2}},\\frac{1}{\\sqrt{2}})$，\n\n故方向导数为：$\\left.\\frac{\\partial z}{\\partial\\vec{a}}\\right|_{(1,1)}=-\\frac{1}{2}\\frac{1}{\\sqrt{2}}+\\frac{1}{2}\\frac{1}{\\sqrt{2}}=0。$",
+  "sort_order": 19
+}

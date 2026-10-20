@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $a$、圆心角为 $2\\varphi$ 的均匀圆弧（圆心位于半坐标原点，圆弧位于 $y$ 轴右侧）关于 $x$ 轴对称的质心横坐标为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{a\\sin\\varphi}{2\\varphi}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2a\\sin\\varphi}{\\varphi}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sin\\varphi}{\\varphi}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{a\\sin\\varphi}{\\varphi}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由对称性可知质心 $(\\bar{x},\\bar{y})$，其中 $\\bar{y}=0$，$\\bar{x}=\\frac{\\int_Lx ds}{\\int_L ds}$，\n\n由 $L:\\begin{cases}x=a\\cos t\\\\y=a\\sin t\\end{cases}\\;(-\\varphi\\leq t\\leq\\varphi)$，则 $\\bar{x}=\\frac{\\int_{-\\varphi}^{\\varphi}a^2\\cos t\\,dt}{\\int_{-\\varphi}^{\\varphi}a\\cdot dt}=\\frac{2a^2\\sin\\varphi}{2a\\varphi}=\\frac{a\\sin\\varphi}{\\varphi}$，",
+  "search_text": "半径为 $a$、圆心角为 $2\\varphi$ 的均匀圆弧（圆心位于半坐标原点，圆弧位于 $y$ 轴右侧）关于 $x$ 轴对称的质心横坐标为（ ） $\\frac{a\\sin\\varphi}{2\\varphi}$ $\\frac{2a\\sin\\varphi}{\\varphi}$ $\\frac{\\sin\\varphi}{\\varphi}$ $\\frac{a\\sin\\varphi}{\\varphi}$ 解答 由对称性可知质心 $(\\bar{x},\\bar{y})$，其中 $\\bar{y}=0$，$\\bar{x}=\\frac{\\int_Lx ds}{\\int_L ds}$，\n\n由 $L:\\begin{cases}x=a\\cos t\\\\y=a\\sin t\\end{cases}\\;(-\\varphi\\leq t\\leq\\varphi)$，则 $\\bar{x}=\\frac{\\int_{-\\varphi}^{\\varphi}a^2\\cos t\\,dt}{\\int_{-\\varphi}^{\\varphi}a\\cdot dt}=\\frac{2a^2\\sin\\varphi}{2a\\varphi}=\\frac{a\\sin\\varphi}{\\varphi}$，",
+  "sort_order": 50
+}

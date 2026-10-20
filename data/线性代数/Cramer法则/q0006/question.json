@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "齐次线性方程组 $$\\begin{cases}\n\\lambda x_1+x_2+2x_3=0\\\\\nx_1+\\lambda x_2-x_3=0\\\\\n\\lambda x_3=0\n\\end{cases}$$ 有非零解，则(    ).",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda\\neq 0$ 且 $\\lambda\\neq\\pm 1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda\\neq\\pm 1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda=0$ 或 $\\lambda=\\pm 1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为当系数行列式 $D=\\begin{vmatrix}\\lambda&1&2\\\\\n1&\\lambda&-1\\\\\n0&0&\\lambda\\end{vmatrix}=\\lambda(\\lambda^2-1)\\neq 0$ 时，方程组只有零解. 所以，\n当 $\\lambda=0$ 或 $\\lambda=\\pm 1$ 时，方程组有非零解.",
+  "search_text": "齐次线性方程组 $$\\begin{cases} \\lambda x_1+x_2+2x_3=0\\\\ x_1+\\lambda x_2-x_3=0\\\\ \\lambda x_3=0 \\end{cases}$$ 有非零解，则( ). $\\lambda\\neq 0$ 且 $\\lambda\\neq\\pm 1$ $\\lambda\\neq\\pm 1$ $\\lambda=0$ 或 $\\lambda=\\pm 1$ $\\lambda=0$ 因为当系数行列式 $D=\\begin{vmatrix}\\lambda&1&2\\\\ 1&\\lambda&-1\\\\ 0&0&\\lambda\\end{vmatrix}=\\lambda(\\lambda^2-1)\\neq 0$ 时，方程组只有零解. 所以， 当 $\\lambda=0$ 或 $\\lambda=\\pm 1$ 时，方程组有非零解.",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一潜水艇在下沉力 $P$（含重力）的作用下向水底下沉，已知水的阻力与下沉速度成正比（比例系数为 $k$），开始下沉速度为零，则速度与时间函数关系为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$v=\\frac Pk(1-e^{-\\frac ktm})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$v=\\frac Pk(1+e^{\\frac ktm})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$v=\\frac Pk(1-e^{\\frac ktm})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$v=\\frac Pk(1+e^{-\\frac ktm})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由题意应满足微分方程 $P-kv=mv'$，解得 $v=\\frac{P}{k}+ce^{-\\frac{k}{m}t}$\n\n代入初始条件 $v(0)=0$，得 $c=-\\frac{P}{k}$，即 $v=\\frac{P}{k}(1-e^{-\\frac{k}{m}t})$",
+  "search_text": "一潜水艇在下沉力 $P$（含重力）的作用下向水底下沉，已知水的阻力与下沉速度成正比（比例系数为 $k$），开始下沉速度为零，则速度与时间函数关系为（ ） $v=\\frac Pk(1-e^{-\\frac ktm})$ $v=\\frac Pk(1+e^{\\frac ktm})$ $v=\\frac Pk(1-e^{\\frac ktm})$ $v=\\frac Pk(1+e^{-\\frac ktm})$ 由题意应满足微分方程 $P-kv=mv'$，解得 $v=\\frac{P}{k}+ce^{-\\frac{k}{m}t}$\n\n代入初始条件 $v(0)=0$，得 $c=-\\frac{P}{k}$，即 $v=\\frac{P}{k}(1-e^{-\\frac{k}{m}t})$",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\dfrac{z^2-2z+5}{(z^2+1)(z-2)}$ 在环形域 $1<|z|<2$ 内的洛朗级数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\sum_{n=0}^{\\infty}\\dfrac{z^n}{2^{n+1}}+2\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac1{z^{2n+2}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\sum_{n=0}^{\\infty}\\dfrac{z^{n+1}}{2^n}+2\\sum_{n=0}^{\\infty}(-1)^n\\dfrac1{z^{2n+2}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\sum_{n=0}^{\\infty}\\dfrac{z^{n+1}}{2^{n+1}}+2\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac1{z^{2n-2}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\sum_{n=0}^{\\infty}\\dfrac{z^n}{2^{n+2}}+2\\sum_{n=0}^{\\infty}(-1)^n\\dfrac1{z^{2n-2}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac{z^2-2z+5}{(z^2+1)(z-2)}=\\dfrac1{z-2}-\\dfrac{2}{z^2+1}$。分别用 $|z|<2$ 与 $|z|>1$ 展开，得 $-\\sum_{n=0}^{\\infty}\\dfrac{z^n}{2^{n+1}}+2\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac1{z^{2n+2}}$。",
+  "search_text": "$\\dfrac{z^2-2z+5}{(z^2+1)(z-2)}$ 在环形域 $1<|z|<2$ 内的洛朗级数为（ ）。 $-\\sum_{n=0}^{\\infty}\\dfrac{z^n}{2^{n+1}}+2\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac1{z^{2n+2}}$ $-\\sum_{n=0}^{\\infty}\\dfrac{z^{n+1}}{2^n}+2\\sum_{n=0}^{\\infty}(-1)^n\\dfrac1{z^{2n+2}}$ $-\\sum_{n=0}^{\\infty}\\dfrac{z^{n+1}}{2^{n+1}}+2\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac1{z^{2n-2}}$ $-\\sum_{n=0}^{\\infty}\\dfrac{z^n}{2^{n+2}}+2\\sum_{n=0}^{\\infty}(-1)^n\\dfrac1{z^{2n-2}}$ $\\dfrac{z^2-2z+5}{(z^2+1)(z-2)}=\\dfrac1{z-2}-\\dfrac{2}{z^2+1}$。分别用 $|z|<2$ 与 $|z|>1$ 展开，得 $-\\sum_{n=0}^{\\infty}\\dfrac{z^n}{2^{n+1}}+2\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac1{z^{2n+2}}$。",
+  "sort_order": 35
+}

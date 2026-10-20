@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\iint_\\Sigma(\\sin x+y+1)\\,dS$，$\\Sigma:z=\\sqrt{1-x^2-y^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：曲面$\\Sigma:z=\\sqrt{1-x^2-y^2}$，投影区域为$D:x^2+y^2\\leq1$。\n\n根据对称性：$\\iint_\\Sigma\\sin x\\,dS=\\iint_\\Sigma y\\,dS=0$\n\n$\\iint_\\Sigma1\\,dS=2\\pi$",
+  "search_text": "求 $\\iint_\\Sigma(\\sin x+y+1)\\,dS$，$\\Sigma:z=\\sqrt{1-x^2-y^2}$。 $\\pi$ $2\\pi$ $2$ $4$ 解答：曲面$\\Sigma:z=\\sqrt{1-x^2-y^2}$，投影区域为$D:x^2+y^2\\leq1$。\n\n根据对称性：$\\iint_\\Sigma\\sin x\\,dS=\\iint_\\Sigma y\\,dS=0$\n\n$\\iint_\\Sigma1\\,dS=2\\pi$",
+  "sort_order": 62
+}

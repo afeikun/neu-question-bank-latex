@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}\\left(\\frac1{\\sqrt{n^2+1}}+\\frac1{\\sqrt{n^2+2}}+\\cdots+\\frac1{\\sqrt{n^2+n}}\\right)$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "夹逼得 $\\frac{n}{\\sqrt{n^2+n}}\\leq\\sum\\leq\\frac{n}{\\sqrt{n^2+1}}$，两端均趋于 1。",
+  "search_text": "$\\lim_{n\\to\\infty}\\left(\\frac1{\\sqrt{n^2+1}}+\\frac1{\\sqrt{n^2+2}}+\\cdots+\\frac1{\\sqrt{n^2+n}}\\right)$（ ）。 $\\frac12$ 0 $e$ 1 夹逼得 $\\frac{n}{\\sqrt{n^2+n}}\\leq\\sum\\leq\\frac{n}{\\sqrt{n^2+1}}$，两端均趋于 1。",
+  "sort_order": 3
+}

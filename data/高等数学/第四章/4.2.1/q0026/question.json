@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}\\frac{\\sqrt[n]{n!}}n$ 可以表示为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1\\ln x\\,dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{\\int_0^1\\ln x\\,dx}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{\\int_1^2\\ln x\\,dx}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1x\\,dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取对数并化为黎曼和，极限为 $e^{\\int_0^1\\ln xdx}=e^{-1}$。",
+  "search_text": "$\\lim_{n\\to\\infty}\\frac{\\sqrt[n]{n!}}n$ 可以表示为 $\\int_0^1\\ln x\\,dx$ $e^{\\int_0^1\\ln x\\,dx}$ $e^{\\int_1^2\\ln x\\,dx}$ $\\int_0^1x\\,dx$ 取对数并化为黎曼和，极限为 $e^{\\int_0^1\\ln xdx}=e^{-1}$。",
+  "sort_order": 26
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=x^y$ 在 $(1,2)$ 沿 $a=(1,1)$ 方向的方向导数是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,2)}=yx^{y-1}\\bigg|_{(1,2)}=2,\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}=x^y\\ln x\\bigg|_{(1,2)}=0,$$\n\n沿 $\\vec{a}=(1,1)$ 方向的转角为 $\\varphi=\\frac{\\pi}{4}$，\n\n则方向导数为：$\\displaystyle\\frac{\\partial z}{\\partial a}=2\\cos\\frac{\\pi}{4}+0\\sin\\frac{\\pi}{4}=\\sqrt{2}$。",
+  "search_text": "函数 $z=x^y$ 在 $(1,2)$ 沿 $a=(1,1)$ 方向的方向导数是。 $\\sqrt2$ $\\frac12$ $\\sqrt3$ 2 $$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,2)}=yx^{y-1}\\bigg|_{(1,2)}=2,\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}=x^y\\ln x\\bigg|_{(1,2)}=0,$$\n\n沿 $\\vec{a}=(1,1)$ 方向的转角为 $\\varphi=\\frac{\\pi}{4}$，\n\n则方向导数为：$\\displaystyle\\frac{\\partial z}{\\partial a}=2\\cos\\frac{\\pi}{4}+0\\sin\\frac{\\pi}{4}=\\sqrt{2}$。",
+  "sort_order": 31
+}

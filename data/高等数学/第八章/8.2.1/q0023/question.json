@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f_2(x,y,z)$ 在有界闭区域 $\\Omega$ 上可积，$F=f_1+f_2$，则 $\\iiint_\\Omega Fdv=\\iiint_\\Omega f_1dv=\\iiint_\\Omega f_2dv$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f_1$ 可积时成立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "上式成立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "上式成立"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f_1$ 可积也未必成立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $f_2(x,y,z)$ 在有界闭区域 $\\Omega$ 上可积 $F(x,y,z)=f_1(x,y,z)+f_2(x,y,z)$，则\n\\[\n\\iiint_\\Omega F(x,y,z)dv=\\iiint_\\Omega f_1(x,y,z)dv=\\iiint_\\Omega f_2(x,y,z)dv。\n\\]",
+  "search_text": "设 $f_2(x,y,z)$ 在有界闭区域 $\\Omega$ 上可积，$F=f_1+f_2$，则 $\\iiint_\\Omega Fdv=\\iiint_\\Omega f_1dv=\\iiint_\\Omega f_2dv$（ ） $f_1$ 可积时成立 上式成立 上式成立 $f_1$ 可积也未必成立 设 $f_2(x,y,z)$ 在有界闭区域 $\\Omega$ 上可积 $F(x,y,z)=f_1(x,y,z)+f_2(x,y,z)$，则\n\\[\n\\iiint_\\Omega F(x,y,z)dv=\\iiint_\\Omega f_1(x,y,z)dv=\\iiint_\\Omega f_2(x,y,z)dv。\n\\]",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{n\\to\\infty}2na_n=1$，且 $\\lim a_n$ 存在，则 $\\lim_{n\\to\\infty}(1-n)a_n=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $2na_n\\to1$ 得 $na_n\\to\\frac12$ 且 $a_n\\to0$，所以 $(1-n)a_n=a_n-na_n\\to-\\frac12$。",
+  "search_text": "若 $\\lim_{n\\to\\infty}2na_n=1$，且 $\\lim a_n$ 存在，则 $\\lim_{n\\to\\infty}(1-n)a_n=(\\ )$。 0 $-\\frac12$ 不存在 $\\frac12$ 由 $2na_n\\to1$ 得 $na_n\\to\\frac12$ 且 $a_n\\to0$，所以 $(1-n)a_n=a_n-na_n\\to-\\frac12$。",
+  "sort_order": 41
+}

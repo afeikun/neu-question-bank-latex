@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 为 $z=\\sqrt{1-x^2-y^2}$ 的上侧，则 $I=\\iint_\\Sigma zdxdy$ 化为二重积分为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iint_{D_{xy}}\\sqrt{1-x^2-y^2}dxdy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iint_{D_{xy}}\\sqrt{1-x^2-y^2}dxdy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\iint_{D_{xy}}\\sqrt{1-x^2-y^2}dxdy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iint_{D_{xy}}\\sqrt{2-x^2-y^2}dxdy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $D_{xy}:x^2+y^2\\le1,z\\ge0,\\quad I=\\iint_\\Sigma zdxdy=\\iint_{D_{xy}}\\sqrt{1-x^2-y^2}\\,dxdy$。",
+  "search_text": "已知 $\\Sigma$ 为 $z=\\sqrt{1-x^2-y^2}$ 的上侧，则 $I=\\iint_\\Sigma zdxdy$ 化为二重积分为（ ） $\\iint_{D_{xy}}\\sqrt{1-x^2-y^2}dxdy$ $\\iint_{D_{xy}}\\sqrt{1-x^2-y^2}dxdy$ $2\\iint_{D_{xy}}\\sqrt{1-x^2-y^2}dxdy$ $\\iint_{D_{xy}}\\sqrt{2-x^2-y^2}dxdy$ 解答 $D_{xy}:x^2+y^2\\le1,z\\ge0,\\quad I=\\iint_\\Sigma zdxdy=\\iint_{D_{xy}}\\sqrt{1-x^2-y^2}\\,dxdy$。",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=\\tan 3x$ 的周期是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi}{3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "正切函数的周期为 $\\pi$，因此 $\\tan 3x$ 的周期为 $T=\\frac{\\pi}{3}$。",
+  "search_text": "函数 $y=\\tan 3x$ 的周期是（ ）。 $\\pi$ $3\\pi$ $2\\pi$ $\\frac{\\pi}{3}$ 正切函数的周期为 $\\pi$，因此 $\\tan 3x$ 的周期为 $T=\\frac{\\pi}{3}$。",
+  "sort_order": 26
+}

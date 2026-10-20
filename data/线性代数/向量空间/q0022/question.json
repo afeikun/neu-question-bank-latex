@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在 $\\mathbb{R}^3$ 中，由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $C=\\begin{pmatrix}1&-1&0\\\\0&1&-1\\\\0&0&1\\end{pmatrix}$，则向量 $\\gamma=2\\beta_1+3\\beta_2+5\\beta_3$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}-1\\\\-2\\\\5\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}2\\\\-3\\\\1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}2\\\\3\\\\-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}2\\\\3\\\\5\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "已知向量 $\\gamma$ 在基 $\\beta_1,\\beta_2,\\beta_3$ 下的坐标为 $y=(2,3,5)^T$，所以其在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $x=Cy=(-1,-2,5)^T$。",
+  "search_text": "在 $\\mathbb{R}^3$ 中，由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $C=\\begin{pmatrix}1&-1&0\\\\0&1&-1\\\\0&0&1\\end{pmatrix}$，则向量 $\\gamma=2\\beta_1+3\\beta_2+5\\beta_3$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为（ ）。 $\\begin{pmatrix}-1\\\\-2\\\\5\\end{pmatrix}$ $\\begin{pmatrix}2\\\\-3\\\\1\\end{pmatrix}$ $\\begin{pmatrix}2\\\\3\\\\-1\\end{pmatrix}$ $\\begin{pmatrix}2\\\\3\\\\5\\end{pmatrix}$ 已知向量 $\\gamma$ 在基 $\\beta_1,\\beta_2,\\beta_3$ 下的坐标为 $y=(2,3,5)^T$，所以其在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $x=Cy=(-1,-2,5)^T$。",
+  "sort_order": 22
+}

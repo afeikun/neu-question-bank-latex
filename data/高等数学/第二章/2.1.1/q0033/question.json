@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)=x(x-1)(x-2)\\cdots(x-1000)$，则 $f\\prime(0)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-$1000!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1000$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1000!$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f\\prime(0)=\\lim_{x\\to0}(x-1)(x-2)\\cdots(x-1000)=1000!$。",
+  "search_text": "已知 $f(x)=x(x-1)(x-2)\\cdots(x-1000)$，则 $f\\prime(0)=$（ ）。 -$1000!$ $1000$ $0$ $1000!$ $f\\prime(0)=\\lim_{x\\to0}(x-1)(x-2)\\cdots(x-1000)=1000!$。",
+  "sort_order": 33
+}

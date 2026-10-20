@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $(y^2-6x)y\\prime+2y=0$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=y^3-c\\frac{y^2}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=cy^3-\\frac{y^2}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=cy^3+\\frac{y^2}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=y^3+\\frac{y^2}{2}+c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "原方程变形为：$\\frac{dx}{dy}-\\frac{3}{y}x=-\\frac{y}{2}$\n\n所求通解为 $x=e^{\\int\\frac{3}{y}\\,dy}\\left(c+\\int-\\frac{y}{2}e^{-\\int\\frac{3}{y}\\,dy}\\,dy\\right)=y^3(c+\\frac{1}{2y})=cy^3+\\frac{y^2}{2}$",
+  "search_text": "微分方程 $(y^2-6x)y\\prime+2y=0$ 的解为（ ） $x=y^3-c\\frac{y^2}{2}$ $x=cy^3-\\frac{y^2}{2}$ $x=cy^3+\\frac{y^2}{2}$ $x=y^3+\\frac{y^2}{2}+c$ 原方程变形为：$\\frac{dx}{dy}-\\frac{3}{y}x=-\\frac{y}{2}$\n\n所求通解为 $x=e^{\\int\\frac{3}{y}\\,dy}\\left(c+\\int-\\frac{y}{2}e^{-\\int\\frac{3}{y}\\,dy}\\,dy\\right)=y^3(c+\\frac{1}{2y})=cy^3+\\frac{y^2}{2}$",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i$为$N(0,\\sigma^2)$样本，以下结论正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{(\\sum_{1}^{9}X_i^2)/9}{(\\sum_{10}^{20}X_i^2)/11}\\sim F(9,11)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1\\sigma\\sum_{1}^{20}X_i\\sim N(0,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{1}^{20}X_i^2/\\sigma^2\\sim\\chi^2(20)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt{11}X_k}{\\sqrt{\\sum_{10}^{20}X_i^2}}\\sim t(11)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立正态样本平方和标准化服从卡方分布，选项3正确；选项1和4也可由定义导出，题目存在多项成立。",
+  "search_text": "$X_i$为$N(0,\\sigma^2)$样本，以下结论正确的是（）。 $\\frac{(\\sum_{1}^{9}X_i^2)/9}{(\\sum_{10}^{20}X_i^2)/11}\\sim F(9,11)$ $\\frac1\\sigma\\sum_{1}^{20}X_i\\sim N(0,1)$ $\\sum_{1}^{20}X_i^2/\\sigma^2\\sim\\chi^2(20)$ $\\frac{\\sqrt{11}X_k}{\\sqrt{\\sum_{10}^{20}X_i^2}}\\sim t(11)$ 独立正态样本平方和标准化服从卡方分布，选项3正确；选项1和4也可由定义导出，题目存在多项成立。",
+  "sort_order": 23
+}

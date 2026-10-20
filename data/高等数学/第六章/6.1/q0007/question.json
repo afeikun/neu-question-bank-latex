@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "与向量 $\\vec a=(16,-15,12)$ 平行、方向相反，且长度为 $75$ 的向量 $\\vec b=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-48,45,-36)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-48,45,36)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(48,45,36)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-48,25,-36)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $\\vec b=\\lambda\\vec a$，方向相反故 $\\lambda<0$。由 $|\\vec b|=75=25|\\lambda|$ 得 $\\lambda=-3$，所以 $\\vec b=(-48,45,-36)$。",
+  "search_text": "与向量 $\\vec a=(16,-15,12)$ 平行、方向相反，且长度为 $75$ 的向量 $\\vec b=(\\quad)$。 $(-48,45,-36)$ $(-48,45,36)$ $(48,45,36)$ $(-48,25,-36)$ 令 $\\vec b=\\lambda\\vec a$，方向相反故 $\\lambda<0$。由 $|\\vec b|=75=25|\\lambda|$ 得 $\\lambda=-3$，所以 $\\vec b=(-48,45,-36)$。",
+  "sort_order": 7
+}

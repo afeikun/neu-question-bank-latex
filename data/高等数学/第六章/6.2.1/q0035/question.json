@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec a,\\vec b,\\vec c$ 两两都成 $60^\\circ$，且 $|\\vec a|=4$，$|\\vec b|=2$，$|\\vec c|=6$，则 $|\\vec a-\\vec b-\\vec c|$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "展开平方得 $|\\vec a-\\vec b-\\vec c|^2=|a|^2+|b|^2+|c|^2-2a\\cdot b+2b\\cdot c-2a\\cdot c=36$，故模长为 $6$。",
+  "search_text": "设 $\\vec a,\\vec b,\\vec c$ 两两都成 $60^\\circ$，且 $|\\vec a|=4$，$|\\vec b|=2$，$|\\vec c|=6$，则 $|\\vec a-\\vec b-\\vec c|$ 为(\\quad)。 $4$ $6$ $5$ $7$ 展开平方得 $|\\vec a-\\vec b-\\vec c|^2=|a|^2+|b|^2+|c|^2-2a\\cdot b+2b\\cdot c-2a\\cdot c=36$，故模长为 $6$。",
+  "sort_order": 35
+}

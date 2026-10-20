@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(s)=\\frac{e^{-5s}}s$，则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$u(t-5)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$u(t+5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$te^{-5t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$te^{5t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由单位阶跃函数的延迟性质，反变换为 $u(t-5)$。",
+  "search_text": "设 $F(s)=\\frac{e^{-5s}}s$，则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$ $u(t-5)$ $u(t+5)$ $te^{-5t}$ $te^{5t}$ 由单位阶跃函数的延迟性质，反变换为 $u(t-5)$。",
+  "sort_order": 28
+}

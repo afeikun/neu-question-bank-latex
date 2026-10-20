@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u,v)$ 由 $f(xg(y),y)=x+g(y)$ 确定，$g(y)\\ne0$，求 $f_{uv}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{g'(v)}{g^2(v)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{g'(v)}{g^2(v)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{g^2(v)}{g'(v)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{g^2(v)}{g'(v)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $u=xg(y)，v=y$ 可得到 $f(u,v)$ 的表达式，再求偏导数即可。\n令 $u=xg(y)，v=y$，则 $f(u,v)=\\frac{u}{g(v)}+g(v)$，\n所以，$$\\frac{\\partial f}{\\partial u}=\\frac{1}{g(v)}，\\quad\\frac{\\partial^2f}{\\partial u\\partial v}=-\\frac{g'(v)}{g^2(v)}。$$",
+  "search_text": "设 $f(u,v)$ 由 $f(xg(y),y)=x+g(y)$ 确定，$g(y)\\ne0$，求 $f_{uv}$。 $-\\frac{g'(v)}{g^2(v)}$ $\\frac{g'(v)}{g^2(v)}$ $-\\frac{g^2(v)}{g'(v)}$ $\\frac{g^2(v)}{g'(v)}$ 令 $u=xg(y)，v=y$ 可得到 $f(u,v)$ 的表达式，再求偏导数即可。\n令 $u=xg(y)，v=y$，则 $f(u,v)=\\frac{u}{g(v)}+g(v)$，\n所以，$$\\frac{\\partial f}{\\partial u}=\\frac{1}{g(v)}，\\quad\\frac{\\partial^2f}{\\partial u\\partial v}=-\\frac{g'(v)}{g^2(v)}。$$",
+  "sort_order": 34
+}

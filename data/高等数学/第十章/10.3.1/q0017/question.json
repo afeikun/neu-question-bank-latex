@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime+y\\tan x=1$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos x(\\ln|\\sec x+\\tan x|+C)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos x(\\ln|\\sec x-\\tan x|+C)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos x(\\sec x+C)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C\\sin x-2\\sin^2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "该方程是一阶线性非齐次方程，其中\n\n$P(x)=\\tan x,Q(x)=1$\n\n$y=e^{-\\int\\tan xdx}(\\int1\\cdot e^{\\int\\tan xdx}dx+C)=\\cos x(\\int\\sec xdx+C)=\\cos x(\\ln|\\sec x+\\tan x|+C)$",
+  "search_text": "$y\\prime+y\\tan x=1$ 的通解为（ ） $\\cos x(\\ln|\\sec x+\\tan x|+C)$ $\\cos x(\\ln|\\sec x-\\tan x|+C)$ $\\cos x(\\sec x+C)$ $C\\sin x-2\\sin^2x$ 该方程是一阶线性非齐次方程，其中\n\n$P(x)=\\tan x,Q(x)=1$\n\n$y=e^{-\\int\\tan xdx}(\\int1\\cdot e^{\\int\\tan xdx}dx+C)=\\cos x(\\int\\sec xdx+C)=\\cos x(\\ln|\\sec x+\\tan x|+C)$",
+  "sort_order": 17
+}

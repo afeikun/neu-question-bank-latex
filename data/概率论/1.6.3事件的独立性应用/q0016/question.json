@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "甲袋4红6白，乙袋6红10白，各取一球，两球颜色相同的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$21/40$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6/40$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$15/40$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$19/40$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(同色)=4/10\\cdot6/16+6/10\\cdot10/16=21/40$。",
+  "search_text": "甲袋4红6白，乙袋6红10白，各取一球，两球颜色相同的概率为（ ）。 $21/40$ $6/40$ $15/40$ $19/40$ $P(同色)=4/10\\cdot6/16+6/10\\cdot10/16=21/40$。",
+  "sort_order": 16
+}

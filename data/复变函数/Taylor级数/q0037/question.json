@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/\\operatorname{sh}z$ 在 $z_0=6i$ 处的泰勒级数收敛半径 $R=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi-6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi-3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi-3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\pi-6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "奇点在 $z=k\\pi i$；到 $6i$ 最近的是 $4\\pi i$，距离 $2\\pi-6$。",
+  "search_text": "函数 $1/\\operatorname{sh}z$ 在 $z_0=6i$ 处的泰勒级数收敛半径 $R=\\underline{\\qquad}$。 $2\\pi-6$ $2\\pi-3$ $\\pi-3$ $3\\pi-6$ 奇点在 $z=k\\pi i$；到 $6i$ 最近的是 $4\\pi i$，距离 $2\\pi-6$。",
+  "sort_order": 37
+}

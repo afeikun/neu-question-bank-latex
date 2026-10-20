@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设数列 $x_n=1+\\frac1{2^2}+\\frac1{3^2}+\\cdots+\\frac1{n^2}$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim x_n=4/3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "数列单调递增且有上界"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim x_n=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "数列单调递增但无上界"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$x_n$ 单调递增，且 $x_n<1+1/2+1/3+\\cdots+1/2^n<2$，故有上界。",
+  "search_text": "设数列 $x_n=1+\\frac1{2^2}+\\frac1{3^2}+\\cdots+\\frac1{n^2}$，则（ ）。 $\\lim x_n=4/3$ 数列单调递增且有上界 $\\lim x_n=0$ 数列单调递增但无上界 $x_n$ 单调递增，且 $x_n<1+1/2+1/3+\\cdots+1/2^n<2$，故有上界。",
+  "sort_order": 19
+}

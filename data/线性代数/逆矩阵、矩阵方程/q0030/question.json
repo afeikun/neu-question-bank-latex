@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是任一 $n$（$n\\ge3$）阶方阵，$A^*$ 是矩阵 $A$ 的伴随矩阵，又 $k$ 为常数，且 $k\\ne0,\\pm1$，则 $(kA)^*=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$kA^*$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k^nA^*$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k^{n-1}A^*$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k^{-1}A^*$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $AA^*=|A|E$，对 $kA$ 应用伴随矩阵公式：$(kA)^*=|kA|(kA)^{-1}=k^n|A|(1/k)A^{-1}=k^{n-1}A^*$。",
+  "search_text": "设 $A$ 是任一 $n$（$n\\ge3$）阶方阵，$A^*$ 是矩阵 $A$ 的伴随矩阵，又 $k$ 为常数，且 $k\\ne0,\\pm1$，则 $(kA)^*=$（ ）。 $kA^*$ $k^nA^*$ $k^{n-1}A^*$ $k^{-1}A^*$ 由 $AA^*=|A|E$，对 $kA$ 应用伴随矩阵公式：$(kA)^*=|kA|(kA)^{-1}=k^n|A|(1/k)A^{-1}=k^{n-1}A^*$。",
+  "sort_order": 30
+}

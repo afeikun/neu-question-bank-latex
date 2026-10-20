@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $z=z(x,y)$ 由方程 $xyz=e^{x+y+z}$ 所确定，则 $\\frac{\\partial z}{\\partial x},\\frac{\\partial z}{\\partial y}$ 为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{e^{x+y+z}+yz}{xy+e^{x+y+z}},\\frac{e^{x+y+z}-xz}{xy+e^{x+y+z}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{e^{x+y+z}-yz}{xy-e^{x+y+z}},\\frac{e^{x+y+z}+xz}{xy-e^{x+y+z}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{e^{x+y+z}+yz}{xy-e^{x+y+z}},\\frac{e^{x+y+z}-xz}{xy-e^{x+y+z}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{e^{x+y+z}-yz}{xy-e^{x+y+z}},\\frac{e^{x+y+z}-xz}{xy-e^{x+y+z}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "有题设可知：$yz\\,dx+xz\\,dy+xy\\,dz=e^{x+y+z}(dx+dy+dz)$\n\n则有：$(xy-e^{x+y+z})dz=(e^{x+y+z}-yz)dx+(e^{x+y+z}-xz)dy$\n\n$$\\frac{\\partial z}{\\partial x}=\\frac{e^{x+y+z}-yz}{xy-e^{x+y+z}},\\quad \\frac{\\partial z}{\\partial y}=\\frac{e^{x+y+z}-xz}{xy-e^{x+y+z}}$$",
+  "search_text": "设函数 $z=z(x,y)$ 由方程 $xyz=e^{x+y+z}$ 所确定，则 $\\frac{\\partial z}{\\partial x},\\frac{\\partial z}{\\partial y}$ 为（　）。 $\\frac{e^{x+y+z}+yz}{xy+e^{x+y+z}},\\frac{e^{x+y+z}-xz}{xy+e^{x+y+z}}$ $\\frac{e^{x+y+z}-yz}{xy-e^{x+y+z}},\\frac{e^{x+y+z}+xz}{xy-e^{x+y+z}}$ $\\frac{e^{x+y+z}+yz}{xy-e^{x+y+z}},\\frac{e^{x+y+z}-xz}{xy-e^{x+y+z}}$ $\\frac{e^{x+y+z}-yz}{xy-e^{x+y+z}},\\frac{e^{x+y+z}-xz}{xy-e^{x+y+z}}$ 有题设可知：$yz\\,dx+xz\\,dy+xy\\,dz=e^{x+y+z}(dx+dy+dz)$\n\n则有：$(xy-e^{x+y+z})dz=(e^{x+y+z}-yz)dx+(e^{x+y+z}-xz)dy$\n\n$$\\frac{\\partial z}{\\partial x}=\\frac{e^{x+y+z}-yz}{xy-e^{x+y+z}},\\quad \\frac{\\partial z}{\\partial y}=\\frac{e^{x+y+z}-xz}{xy-e^{x+y+z}}$$",
+  "sort_order": 43
+}

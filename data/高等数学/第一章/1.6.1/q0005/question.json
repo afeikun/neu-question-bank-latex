@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{2\\arcsin x}{3x}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\arcsin x/x\\to1$，故极限为 $2/3$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{2\\arcsin x}{3x}=[\\quad]$。 $\\frac23$ 不存在 $\\frac32$ 2 $\\arcsin x/x\\to1$，故极限为 $2/3$。",
+  "sort_order": 5
+}

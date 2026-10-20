@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)$ 在区域 $D$ 内解析，$C$ 为 $D$ 内任一负向简单闭曲线，且其内部全含于 $D$，$z_0$ 为 $C$ 内任意一点，则 $\\oint_C\\frac{f\\prime\\prime(z)}{(z-z_0)^2}\\,dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "content_md": "$-2\\pi i f^{(3)}(z_0)$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "-$2\\pi i f\\prime\\prime(z_0)$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$2\\pi i f^{(3)}(z_0)$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$2\\pi i f\\prime\\prime(z_0)$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由二阶Cauchy导数公式并考虑负向，积分为 $-2\\pi i f^{(3)}(z_0)$。",
+  "search_text": "设 $f(z)$ 在区域 $D$ 内解析，$C$ 为 $D$ 内任一负向简单闭曲线，且其内部全含于 $D$，$z_0$ 为 $C$ 内任意一点，则 $\\oint_C\\frac{f\\prime\\prime(z)}{(z-z_0)^2}\\,dz$ 等于（ ）。 $-2\\pi i f^{(3)}(z_0)$ -$2\\pi i f\\prime\\prime(z_0)$ $2\\pi i f^{(3)}(z_0)$ $2\\pi i f\\prime\\prime(z_0)$ 由二阶Cauchy导数公式并考虑负向，积分为 $-2\\pi i f^{(3)}(z_0)$。",
+  "sort_order": 85
+}

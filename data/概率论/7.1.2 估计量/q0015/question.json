@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\bar X^k=n^{-1}\\sum X_i^k$估计$E(X^k)$，其性质是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "一致无偏估计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "一致估计量但未必无偏"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无偏但未必一致"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "未必无偏也未必一致"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本原点矩期望为$E(X^k)$，并由大数定律一致收敛。",
+  "search_text": "$\\bar X^k=n^{-1}\\sum X_i^k$估计$E(X^k)$，其性质是（）。 一致无偏估计量 一致估计量但未必无偏 无偏但未必一致 未必无偏也未必一致 样本原点矩期望为$E(X^k)$，并由大数定律一致收敛。",
+  "sort_order": 15
+}

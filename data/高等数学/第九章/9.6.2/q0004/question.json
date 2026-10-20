@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线积分 $\\int_L2y^2\\cos(2xy)\\,dx+\\sin(2xy)\\,dy$ 的值（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "与曲线 $L$ 的形状有关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "等于 $2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "与曲线 $L$ 的形状无关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "等于零"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n因为 $\\frac{\\partial(2y^2\\cos(2xy))}{\\partial y}=4y\\cos(2xy)-4y^2x\\sin(2xy)$；\n\n$$\\frac{\\partial(\\sin(2xy))}{\\partial x}=2y\\cos(2xy)；$$\n\n即 $\\frac{\\partial P}{\\partial y}\\ne\\frac{\\partial Q}{\\partial x}$，所以与曲线 $L$ 的形状有关。",
+  "search_text": "曲线积分 $\\int_L2y^2\\cos(2xy)\\,dx+\\sin(2xy)\\,dy$ 的值（ ） 与曲线 $L$ 的形状有关 等于 $2\\pi$ 与曲线 $L$ 的形状无关 等于零 解析：\n\n因为 $\\frac{\\partial(2y^2\\cos(2xy))}{\\partial y}=4y\\cos(2xy)-4y^2x\\sin(2xy)$；\n\n$$\\frac{\\partial(\\sin(2xy))}{\\partial x}=2y\\cos(2xy)；$$\n\n即 $\\frac{\\partial P}{\\partial y}\\ne\\frac{\\partial Q}{\\partial x}$，所以与曲线 $L$ 的形状有关。",
+  "sort_order": 4
+}

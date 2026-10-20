@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算二重积分 $\\iint_D\\frac{x^2}{y^2}\\,dxdy$，其中 $D$ 是由曲线 $xy=2,y=1+x^2$ 及直线 $x=2$ 所围成的区域。（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac78-\\arctan2+\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac78+\\arctan2-\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2-\\arctan2-\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2+\\arctan2-\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 原式\n\n$$=\\int_1^2dx\\int_{\\frac{2}{x}}^{1+x^2}\\frac{x^2}{y^2}\\,dy=\\int_1^2x^2(\\frac{x}{2}-\\frac{1}{1+x^2})\\,dx=(\\frac{1}{8}x^4-x+\\arctan x)\\Big|_1^2$$\n\n$$=\\frac{7}{8}+\\arctan2-\\frac{\\pi}{4}$$",
+  "search_text": "计算二重积分 $\\iint_D\\frac{x^2}{y^2}\\,dxdy$，其中 $D$ 是由曲线 $xy=2,y=1+x^2$ 及直线 $x=2$ 所围成的区域。（ ） $\\frac78-\\arctan2+\\frac\\pi4$ $\\frac78+\\arctan2-\\frac\\pi4$ $2-\\arctan2-\\frac\\pi4$ $2+\\arctan2-\\frac\\pi4$ 解答 原式\n\n$$=\\int_1^2dx\\int_{\\frac{2}{x}}^{1+x^2}\\frac{x^2}{y^2}\\,dy=\\int_1^2x^2(\\frac{x}{2}-\\frac{1}{1+x^2})\\,dx=(\\frac{1}{8}x^4-x+\\arctan x)\\Big|_1^2$$\n\n$$=\\frac{7}{8}+\\arctan2-\\frac{\\pi}{4}$$",
+  "sort_order": 31
+}

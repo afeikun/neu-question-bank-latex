@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim N(0,1)$，$\\Phi(2.2)=0.9861,\\Phi(0.8)=0.7881$，求$P(0.8<\\xi<2.2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.1980$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.8020$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.2252$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.7748$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\Phi(2.2)-\\Phi(0.8)=0.9861-0.7881=0.1980$。",
+  "search_text": "$\\xi\\sim N(0,1)$，$\\Phi(2.2)=0.9861,\\Phi(0.8)=0.7881$，求$P(0.8<\\xi<2.2)$。 $0.1980$ $0.8020$ $0.2252$ $0.7748$ $\\Phi(2.2)-\\Phi(0.8)=0.9861-0.7881=0.1980$。",
+  "sort_order": 4
+}

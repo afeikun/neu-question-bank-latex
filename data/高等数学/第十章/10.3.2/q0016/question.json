@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y^2dx+(xy-1)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=\\frac1y+\\ln y+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=\\frac1y\\ln y+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=\\ln y+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=\\frac1y(\\ln y+C)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方程可化为 $\\frac{dx}{dy}+\\frac{1}{y}x=y^{-2}$\n\n通解为：$x=e^{-\\int\\frac{1}{y}\\,dy}\\left(\\int y^{-2}\\cdot e^{\\int\\frac{1}{y}\\,dy}\\,dy+C\\right)=\\frac{1}{y}(\\int y^{-2}\\cdot y\\,dy+C)=\\frac{1}{y}(\\ln y+C)$",
+  "search_text": "$y^2dx+(xy-1)dy=0$ 的通解为（ ） $x=\\frac1y+\\ln y+C$ $x=\\frac1y\\ln y+C$ $x=\\ln y+C$ $x=\\frac1y(\\ln y+C)$ 方程可化为 $\\frac{dx}{dy}+\\frac{1}{y}x=y^{-2}$\n\n通解为：$x=e^{-\\int\\frac{1}{y}\\,dy}\\left(\\int y^{-2}\\cdot e^{\\int\\frac{1}{y}\\,dy}\\,dy+C\\right)=\\frac{1}{y}(\\int y^{-2}\\cdot y\\,dy+C)=\\frac{1}{y}(\\ln y+C)$",
+  "sort_order": 16
+}

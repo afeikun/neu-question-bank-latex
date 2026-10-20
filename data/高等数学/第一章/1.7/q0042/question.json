@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac1{x^3}\\left[(\\frac{2+\\cos x}{3})^x-1\\right]$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-6"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "6"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对数展开首项为 $x\\ln((2+\\cos x)/3)\\sim-x^3/6$，极限为 $-1/6$。",
+  "search_text": "$\\lim_{x\\to0}\\frac1{x^3}\\left[(\\frac{2+\\cos x}{3})^x-1\\right]$ 的值为（ ）。 -6 $\\frac16$ 6 $-\\frac16$ 对数展开首项为 $x\\ln((2+\\cos x)/3)\\sim-x^3/6$，极限为 $-1/6$。",
+  "sort_order": 42
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(xy+yz+zx)\\,dS$，$\\Sigma$ 为圆锥面 $z=\\sqrt{x^2+y^2}$ 被柱面 $x^2+y^2=2ax$ 截下的有限部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{64}{15}a^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{32\\sqrt2}{15}a^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{64\\sqrt2}{15}a^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{128}{15}a^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：根据奇函数性质，\n\n$\\iint_\\Sigma(xy+yz+zx)\\,dS=\\iint_\\Sigma(zx)\\,dS=\\iint_D(x\\sqrt{x^2+y^2})\\sqrt{2}\\,dxdy=\\sqrt{2}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2a\\cos\\theta}r\\cos\\theta\\cdot r\\cdot r\\,dr=\\frac{64}{15}\\sqrt{2}a^4$，",
+  "search_text": "计算 $\\iint_\\Sigma(xy+yz+zx)\\,dS$，$\\Sigma$ 为圆锥面 $z=\\sqrt{x^2+y^2}$ 被柱面 $x^2+y^2=2ax$ 截下的有限部分。 $\\frac{64}{15}a^4$ $\\frac{32\\sqrt2}{15}a^4$ $\\frac{64\\sqrt2}{15}a^4$ $\\frac{128}{15}a^4$ 解答：根据奇函数性质，\n\n$\\iint_\\Sigma(xy+yz+zx)\\,dS=\\iint_\\Sigma(zx)\\,dS=\\iint_D(x\\sqrt{x^2+y^2})\\sqrt{2}\\,dxdy=\\sqrt{2}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2a\\cos\\theta}r\\cos\\theta\\cdot r\\cdot r\\,dr=\\frac{64}{15}\\sqrt{2}a^4$，",
+  "sort_order": 55
+}

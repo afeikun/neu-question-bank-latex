@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "双纽线 $(x^2+y^2)^2=2a^2(x^2-y^2)$ 和 $x^2+y^2\\geq a^2$ 所围图形的面积（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\left(\\sqrt3-\\frac{2\\pi}3\\right)a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt3}2\\pi a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\left(\\sqrt3-\\frac\\pi3\\right)a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac43\\pi a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "根据对称性有 $D=4D_1$，在极坐标系下\n\n$$\nx^2+y^2=a^2\\Rightarrow r=a,\\quad (x^2+y^2)^2=2a^2(x^2-y^2)\\Rightarrow r=a\\sqrt{2\\cos2\\theta},\n$$\n\n由\n\n$$\n\\begin{cases}r=a\\\\r=a\\sqrt{2\\cos2\\theta}\\end{cases}\n$$\n\n得交点 $A=(a,\\frac\\pi6)$，故所求面积\n\n$$\nS=\\iint_D dxdy=4\\iint_{D_1}dxdy=4\\iint_{D_1}r\\,drd\\theta=4\\int_0^{\\frac\\pi6}d\\theta\\int_a^{a\\sqrt{2\\cos2\\theta}}r\\,dr\n$$\n\n$$\n=(\\sqrt3-\\frac\\pi3)a^2\n$$\n\n示意图：坐标轴标为 $x,y$，原点为 $O$；图中标出圆 $x^2+y^2=a^2$ 和双纽线 $(x^2+y^2)^2=2a^2(x^2-y^2)$，交点 $A$、正 $x$ 轴上的 $a$ 与 $\\sqrt2a$；左右阴影区域分别标为 $D$ 和 $D_1$。",
+  "search_text": "双纽线 $(x^2+y^2)^2=2a^2(x^2-y^2)$ 和 $x^2+y^2\\geq a^2$ 所围图形的面积（ ） $\\left(\\sqrt3-\\frac{2\\pi}3\\right)a^2$ $\\frac{\\sqrt3}2\\pi a^2$ $\\left(\\sqrt3-\\frac\\pi3\\right)a^2$ $\\frac43\\pi a^2$ 根据对称性有 $D=4D_1$，在极坐标系下\n\n$$\nx^2+y^2=a^2\\Rightarrow r=a,\\quad (x^2+y^2)^2=2a^2(x^2-y^2)\\Rightarrow r=a\\sqrt{2\\cos2\\theta},\n$$\n\n由\n\n$$\n\\begin{cases}r=a\\\\r=a\\sqrt{2\\cos2\\theta}\\end{cases}\n$$\n\n得交点 $A=(a,\\frac\\pi6)$，故所求面积\n\n$$\nS=\\iint_D dxdy=4\\iint_{D_1}dxdy=4\\iint_{D_1}r\\,drd\\theta=4\\int_0^{\\frac\\pi6}d\\theta\\int_a^{a\\sqrt{2\\cos2\\theta}}r\\,dr\n$$\n\n$$\n=(\\sqrt3-\\frac\\pi3)a^2\n$$\n\n示意图：坐标轴标为 $x,y$，原点为 $O$；图中标出圆 $x^2+y^2=a^2$ 和双纽线 $(x^2+y^2)^2=2a^2(x^2-y^2)$，交点 $A$、正 $x$ 轴上的 $a$ 与 $\\sqrt2a$；左右阴影区域分别标为 $D$ 和 $D_1$。",
+  "sort_order": 54
+}

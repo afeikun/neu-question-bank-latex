@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left[\\dfrac1{\\sin z}-\\dfrac1z,k\\pi\\right]=(\\ )$，其中 $k=\\pm1,\\pm2,\\ldots$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1)^k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-1)^{k+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1)^{k-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=k\\pi$ 是 $1/\\sin z$ 的一阶极点，$1/z$ 在该处解析，留数为 $(-1)^k$。",
+  "search_text": "$\\operatorname{Res}\\left[\\dfrac1{\\sin z}-\\dfrac1z,k\\pi\\right]=(\\ )$，其中 $k=\\pm1,\\pm2,\\ldots$。 $(-1)^k$ $-1$ $(-1)^{k+1}$ $(-1)^{k-1}$ $z=k\\pi$ 是 $1/\\sin z$ 的一阶极点，$1/z$ 在该处解析，留数为 $(-1)^k$。",
+  "sort_order": 54
+}

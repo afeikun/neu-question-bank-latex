@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=f(x,y)$ 有二阶连续偏导数，在 $P_0$ 处 $f_x=f_y=0,f_{xx}=f_{yy}=0,f_{xy}=f_{yx}=2$，则。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P_0$ 是极小值点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P_0$ 不是极值点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P_0$ 是极大值点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "条件不够，无法判断"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由题意可知，点 $P_0(x_0,y_0)$ 为函数的驻点，又由于 $\\left.(f_{xx}f_{yy}-f_{xy}^2)\\right|_{P_0}=-4<0$，根据极值的判定定理，可得 $P_0$ 非函数 $z$ 的极值点。因此选 A。",
+  "search_text": "设 $z=f(x,y)$ 有二阶连续偏导数，在 $P_0$ 处 $f_x=f_y=0,f_{xx}=f_{yy}=0,f_{xy}=f_{yx}=2$，则。 $P_0$ 是极小值点 $P_0$ 不是极值点 $P_0$ 是极大值点 条件不够，无法判断 由题意可知，点 $P_0(x_0,y_0)$ 为函数的驻点，又由于 $\\left.(f_{xx}f_{yy}-f_{xy}^2)\\right|_{P_0}=-4<0$，根据极值的判定定理，可得 $P_0$ 非函数 $z$ 的极值点。因此选 A。",
+  "sort_order": 2
+}

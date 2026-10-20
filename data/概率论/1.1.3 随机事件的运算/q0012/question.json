@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 为两个事件，若 $AB=\\overline A\\,\\overline B$，则下列说法正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A\\cap B=\\varnothing$ 且 $A\\cup B=S$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A\\cap B=\\varnothing$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A\\cup B=S$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A\\cap B=A$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由对偶律及已知条件可得 $AB=\\overline{A\\cup B}$；按题图解析，$A,B$ 互为对立事件。",
+  "search_text": "设 $A,B$ 为两个事件，若 $AB=\\overline A\\,\\overline B$，则下列说法正确的是(\\quad)。 $A\\cap B=\\varnothing$ 且 $A\\cup B=S$ $A\\cap B=\\varnothing$ $A\\cup B=S$ $A\\cap B=A$ 由对偶律及已知条件可得 $AB=\\overline{A\\cup B}$；按题图解析，$A,B$ 互为对立事件。",
+  "sort_order": 12
+}

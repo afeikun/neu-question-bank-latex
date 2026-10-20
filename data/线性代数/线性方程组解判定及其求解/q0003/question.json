@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若齐次线性方程组 $\\begin{cases}ax_1+x_2+x_3=0,\\\\x_1+ax_2+x_3=0,\\\\x_1+x_2+ax_3=0\\end{cases}$ 有非零解，则 $a$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "任意值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$ 或 $-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "系数矩阵 $A=\\begin{pmatrix}a&1&1\\\\1&a&1\\\\1&1&a\\end{pmatrix}$。齐次线性方程组有非零解当且仅当 $|A|=(a-1)^2(a+2)=0$，故 $a=1$ 或 $a=-2$。",
+  "search_text": "若齐次线性方程组 $\\begin{cases}ax_1+x_2+x_3=0,\\\\x_1+ax_2+x_3=0,\\\\x_1+x_2+ax_3=0\\end{cases}$ 有非零解，则 $a$ 的值为（ ）。 任意值 $-2$ $1$ 或 $-2$ $1$ 系数矩阵 $A=\\begin{pmatrix}a&1&1\\\\1&a&1\\\\1&1&a\\end{pmatrix}$。齐次线性方程组有非零解当且仅当 $|A|=(a-1)^2(a+2)=0$，故 $a=1$ 或 $a=-2$。",
+  "sort_order": 3
+}

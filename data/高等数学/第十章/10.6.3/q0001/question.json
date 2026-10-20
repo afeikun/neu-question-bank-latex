@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求方程 $y\\prime\\prime-2y\\prime-3y=3x+1$ 的一个特解（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^*=x+\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^*=-x+\\frac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^*=-2x+\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^*=-x+\\frac23$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "题设方程右端的自由项为 $f(x)=P_m(x)e^{\\lambda x}$ 型，其中 $P_m(x)=3x+1,\\lambda=0$。\n\n对应的齐次方程的特征方程为 $r^2-2r-3=0$，特征根为 $r_1=-1,r_2=3$。\n\n由于 $\\lambda=0$ 不是特征方程的根，所以设特解为 $y^*=b_0x+b_1$。\n\n把它代入题设方程得 $-3b_0x-2b_0-3b_1=3x+1$，\n\n比较系数得 $\\begin{cases}-3b_0=3\\\\-2b_0-3b_1=1\\end{cases}$ 解得 $\\begin{cases}b_0=-1\\\\b_1=1/3\\end{cases}$。\n\n于是，所求特解为 $y^*=-x+\\frac{1}{3}$。",
+  "search_text": "求方程 $y\\prime\\prime-2y\\prime-3y=3x+1$ 的一个特解（ ） $y^*=x+\\frac13$ $y^*=-x+\\frac13$ $y^*=-2x+\\frac13$ $y^*=-x+\\frac23$ 题设方程右端的自由项为 $f(x)=P_m(x)e^{\\lambda x}$ 型，其中 $P_m(x)=3x+1,\\lambda=0$。\n\n对应的齐次方程的特征方程为 $r^2-2r-3=0$，特征根为 $r_1=-1,r_2=3$。\n\n由于 $\\lambda=0$ 不是特征方程的根，所以设特解为 $y^*=b_0x+b_1$。\n\n把它代入题设方程得 $-3b_0x-2b_0-3b_1=3x+1$，\n\n比较系数得 $\\begin{cases}-3b_0=3\\\\-2b_0-3b_1=1\\end{cases}$ 解得 $\\begin{cases}b_0=-1\\\\b_1=1/3\\end{cases}$。\n\n于是，所求特解为 $y^*=-x+\\frac{1}{3}$。",
+  "sort_order": 1
+}

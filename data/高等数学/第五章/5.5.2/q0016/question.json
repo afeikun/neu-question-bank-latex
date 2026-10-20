@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $1/x$ 在 $x_0=2$ 处展开成幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(x-2)^n/2^{n+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{(-1)^n(x-2)^n}{2^{n+1}},\\quad |x-2|<2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(x+2)^n/2^{n-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(x-2)^n/2^{n+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$1/x=\\frac12\\sum_{n=0}^{\\infty}[-(x-2)/2]^n$，收敛半径2。",
+  "search_text": "将 $1/x$ 在 $x_0=2$ 处展开成幂级数。 $\\sum_{n=0}^{\\infty}(-1)^n(x-2)^n/2^{n+1}$ $\\sum_{n=0}^{\\infty}\\frac{(-1)^n(x-2)^n}{2^{n+1}},\\quad |x-2|<2$ $\\sum_{n=0}^{\\infty}(-1)^n(x+2)^n/2^{n-1}$ $\\sum_{n=0}^{\\infty}(-1)^n(x-2)^n/2^{n+1}$ $1/x=\\frac12\\sum_{n=0}^{\\infty}[-(x-2)/2]^n$，收敛半径2。",
+  "sort_order": 16
+}

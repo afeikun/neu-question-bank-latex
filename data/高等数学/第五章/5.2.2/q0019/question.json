@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$a$ 为正实数，若级数 $\\sum_{n=1}^{\\infty}\\frac{\\ln(n+2)}{(a+1/n)^n}$ 收敛，则 $a$ 满足？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a>1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0<a\\le1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0<a<1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a\\ge1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "比值极限为 $1/a$，且 $a=1$ 时通项不趋于零，故 $a>1$。",
+  "search_text": "$a$ 为正实数，若级数 $\\sum_{n=1}^{\\infty}\\frac{\\ln(n+2)}{(a+1/n)^n}$ 收敛，则 $a$ 满足？ $a>1$ $0<a\\le1$ $0<a<1$ $a\\ge1$ 比值极限为 $1/a$，且 $a=1$ 时通项不趋于零，故 $a>1$。",
+  "sort_order": 19
+}

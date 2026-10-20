@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $x_0$ 的某个邻域内有三阶连续导数，且 $f\\prime(x_0)=0$，$f\\prime\\prime(x_0)=0$，$f\\prime\\prime\\prime(x_0)>0$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x_0$ 是 $f(x)$ 的极大值点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x_0$ 不是 $f(x)$ 的极值点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x_0$ 是 $f(x)$ 的极小值点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不能判断 $x_0$ 是否为 $f(x)$ 的极值点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f\\prime\\prime(x_0)=0$ 且 $f\\prime\\prime\\prime(x_0)>0$ 表明 $f\\prime$ 在 $x_0$ 处取极小值；结合 $f\\prime(x_0)=0$，其附近 $f\\prime$ 两侧为正，故 $f$ 不在 $x_0$ 处取极值。",
+  "search_text": "函数 $f(x)$ 在 $x_0$ 的某个邻域内有三阶连续导数，且 $f\\prime(x_0)=0$，$f\\prime\\prime(x_0)=0$，$f\\prime\\prime\\prime(x_0)>0$，则（ ）。 $x_0$ 是 $f(x)$ 的极大值点 $x_0$ 不是 $f(x)$ 的极值点 $x_0$ 是 $f(x)$ 的极小值点 不能判断 $x_0$ 是否为 $f(x)$ 的极值点 $f\\prime\\prime(x_0)=0$ 且 $f\\prime\\prime\\prime(x_0)>0$ 表明 $f\\prime$ 在 $x_0$ 处取极小值；结合 $f\\prime(x_0)=0$，其附近 $f\\prime$ 两侧为正，故 $f$ 不在 $x_0$ 处取极值。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "圆柱面 $x^2+y^2=R^2$ 介于 $z=0$ 与 $z=H$ 之间，面密度 $\\rho=1/(x^2+y^2+z^2)$，求其绕原点的转动惯量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi RH$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$12\\pi RH$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi RH$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi RH$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：对原点的转动惯量为：\n\n$\\iint_\\Sigma\\frac{x^2+y^2+z^2}{x^2+y^2+z^2}\\,dS=\\iint_\\Sigma1\\,dS=2\\pi RH$，",
+  "search_text": "圆柱面 $x^2+y^2=R^2$ 介于 $z=0$ 与 $z=H$ 之间，面密度 $\\rho=1/(x^2+y^2+z^2)$，求其绕原点的转动惯量。 $2\\pi RH$ $12\\pi RH$ $\\pi RH$ $4\\pi RH$ 解答：对原点的转动惯量为：\n\n$\\iint_\\Sigma\\frac{x^2+y^2+z^2}{x^2+y^2+z^2}\\,dS=\\iint_\\Sigma1\\,dS=2\\pi RH$，",
+  "sort_order": 49
+}

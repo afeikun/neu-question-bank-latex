@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\ln(\\pi x)$，$x>0$，则 $dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$dx/(\\pi x)$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$(1/\\pi+1/x)dx$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$dx/x$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$\\pi dx/x$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$dy=y\\prime dx=dx/x$。",
+  "search_text": "设 $y=\\ln(\\pi x)$，$x>0$，则 $dy=$（ ）。 $$dx/(\\pi x)$$ $$(1/\\pi+1/x)dx$$ $$dx/x$$ $$\\pi dx/x$$ $dy=y\\prime dx=dx/x$。",
+  "sort_order": 46
+}

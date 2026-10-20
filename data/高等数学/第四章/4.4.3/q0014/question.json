@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "y=sin x（0≤x≤π）与x轴围成的平面图形面积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2π"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "π"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "面积为∫₀^πsin x dx=2。",
+  "search_text": "y=sin x（0≤x≤π）与x轴围成的平面图形面积 2 2π π 1 面积为∫₀^πsin x dx=2。",
+  "sort_order": 14
+}

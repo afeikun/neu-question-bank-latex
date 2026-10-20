@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x,y)$ 在区域 $D:y^2\\leq-x,x^2\\leq y$ 上连续，则二重积分 $\\iint_Df(x,y)dxdy$ 可化累次积分为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{-1}^0dx\\int_{-\\sqrt x}^{x^2}f(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1dy\\int_{\\sqrt y}^{y^2}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dy\\int_{-\\sqrt y}^{-y^2}f(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{-1}^0dx\\int_{-\\sqrt x}^{x^2}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 由 $y^2=-x,x^2=y$ 解得交点为 $(0,0),(-1,1)$，所以\n$$\n\\iint_Df(x,y)dxdy=\\int_0^1dy\\int_{-\\sqrt{y}}^{-y^2}f(x,y)dx.\n$$",
+  "search_text": "设函数 $f(x,y)$ 在区域 $D:y^2\\leq-x,x^2\\leq y$ 上连续，则二重积分 $\\iint_Df(x,y)dxdy$ 可化累次积分为[\\quad] $\\int_{-1}^0dx\\int_{-\\sqrt x}^{x^2}f(x,y)dy$ $\\int_0^1dy\\int_{\\sqrt y}^{y^2}f(x,y)dx$ $\\int_0^1dy\\int_{-\\sqrt y}^{-y^2}f(x,y)dx$ $\\int_{-1}^0dx\\int_{-\\sqrt x}^{x^2}f(x,y)dy$ 解答 由 $y^2=-x,x^2=y$ 解得交点为 $(0,0),(-1,1)$，所以\n$$\n\\iint_Df(x,y)dxdy=\\int_0^1dy\\int_{-\\sqrt{y}}^{-y^2}f(x,y)dx.\n$$",
+  "sort_order": 37
+}

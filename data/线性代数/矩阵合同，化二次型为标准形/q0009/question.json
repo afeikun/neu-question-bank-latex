@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&2\\end{pmatrix}, B=\\begin{pmatrix}1&0&0\\\\0&4&2\\\\0&2&2\\end{pmatrix}$，则 $A$ 与 $B$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "合同但不相似"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不合同也不相似"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "相似但不合同"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "合同且相似"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$A$、$B$ 的特征值不同，所以不相似；图示合同变换可将 $A$ 化为 $B$，选项 1。",
+  "search_text": "设 $A=\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&2\\end{pmatrix}, B=\\begin{pmatrix}1&0&0\\\\0&4&2\\\\0&2&2\\end{pmatrix}$，则 $A$ 与 $B$(\\quad)。 合同但不相似 不合同也不相似 相似但不合同 合同且相似 $A$、$B$ 的特征值不同，所以不相似；图示合同变换可将 $A$ 化为 $B$，选项 1。",
+  "sort_order": 9
+}

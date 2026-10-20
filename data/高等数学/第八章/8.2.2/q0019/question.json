@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega:z\\leq\\sqrt{x^2+y^2}\\leq\\sqrt{3z},0\\leq z\\leq4$，则 $\\iiint_\\Omega zdv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$64\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$128\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$96\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$32\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "\\Omega 可以表示为 $0\\leq z\\leq4$，$D：\\ z\\leq\\sqrt{x^2+y^2}\\leq\\sqrt{3z}$，利用平行截面法可得，\n\n$$\n\\text{原式 }\\Omega=\\int_0^4 zS_D dz\n$$\n\n$$\n=\\pi\\int_0^4 2z^3 dz\n$$\n\n$$\n=128\\pi\n$$",
+  "search_text": "$\\Omega:z\\leq\\sqrt{x^2+y^2}\\leq\\sqrt{3z},0\\leq z\\leq4$，则 $\\iiint_\\Omega zdv$ 的值为（ ） $64\\pi$ $128\\pi$ $96\\pi$ $32\\pi$ \\Omega 可以表示为 $0\\leq z\\leq4$，$D：\\ z\\leq\\sqrt{x^2+y^2}\\leq\\sqrt{3z}$，利用平行截面法可得，\n\n$$\n\\text{原式 }\\Omega=\\int_0^4 zS_D dz\n$$\n\n$$\n=\\pi\\int_0^4 2z^3 dz\n$$\n\n$$\n=128\\pi\n$$",
+  "sort_order": 19
+}

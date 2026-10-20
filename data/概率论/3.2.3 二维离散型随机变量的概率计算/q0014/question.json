@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "均匀硬币抛三次，$\\xi$为前两次正面次数，$\\eta$为第三次正面次数，二维变量可能值对有多少？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\xi\\in\\{0,1,2\\},\\eta\\in\\{0,1\\}$，共$3\\times2=6$对。",
+  "search_text": "均匀硬币抛三次，$\\xi$为前两次正面次数，$\\eta$为第三次正面次数，二维变量可能值对有多少？ $6$ $2$ $3$ $8$ $\\xi\\in\\{0,1,2\\},\\eta\\in\\{0,1\\}$，共$3\\times2=6$对。",
+  "sort_order": 14
+}

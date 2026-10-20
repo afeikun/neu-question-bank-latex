@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime+2y\\prime+y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1+C_2xe^{-x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=(C_1+C_2x)e^{-2x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=(C_1+C_2x)e^{-x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=(C_1+C_2x)e^{-3x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2+2\\lambda+1=0$，其特征根为 $\\lambda=-1$。（二重根）因此齐次方程的通解为\n$$y=(C_1+C_2x)e^{-x}$$\n\n因此选 A。",
+  "search_text": "微分方程 $y\\prime\\prime+2y\\prime+y=0$ 的通解为（ ） $y=C_1+C_2xe^{-x}$ $y=(C_1+C_2x)e^{-2x}$ $y=(C_1+C_2x)e^{-x}$ $y=(C_1+C_2x)e^{-3x}$ 解答 齐次方程的特征方程为 $\\lambda^2+2\\lambda+1=0$，其特征根为 $\\lambda=-1$。（二重根）因此齐次方程的通解为\n$$y=(C_1+C_2x)e^{-x}$$\n\n因此选 A。",
+  "sort_order": 45
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\frac{1}{2\\pi i}\\oint_C\\frac{z^2e^z}{(z-a)^2}\\,dz$ 等于（ ），其中 $C$ 为正向简单闭曲线，且点 $a$ 位于 $C$ 内。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^a(2a+a^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{a+1}{2}e^a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^a(2+a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^a a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因 $z^2e^z$ 在 $C$ 内解析，由Cauchy导数公式得 $(z^2e^z)\\prime|_{z=a}=e^a(2a+a^2)$。",
+  "search_text": "积分 $\\frac{1}{2\\pi i}\\oint_C\\frac{z^2e^z}{(z-a)^2}\\,dz$ 等于（ ），其中 $C$ 为正向简单闭曲线，且点 $a$ 位于 $C$ 内。 $e^a(2a+a^2)$ $\\frac{a+1}{2}e^a$ $e^a(2+a)$ $e^a a$ 因 $z^2e^z$ 在 $C$ 内解析，由Cauchy导数公式得 $(z^2e^z)\\prime|_{z=a}=e^a(2a+a^2)$。",
+  "sort_order": 67
+}

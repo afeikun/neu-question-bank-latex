@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是上半球体 $1\\leq z\\leq1+\\sqrt{1-x^2-y^2}$ 与圆柱体 $x^2+y^2\\leq1,0\\leq z\\leq1$ 所拼接而成，则 $\\iiint_\\Omega z\\,dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{17}{12}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{17}3\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{17}6\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r\\cos\\varphi\\cdot r^2\\sin\\varphi\\,dr+\\int_0^{2\\pi}d\\theta\\int_0^1r\\,dr\\int_0^1z\\,dz\n$$\n$$\n=8\\pi\\int_0^{\\frac{\\pi}{4}}\\cos^5\\varphi\\sin\\varphi\\,d\\varphi+2\\pi\\int_0^1\\frac{r^3}{2}=\\frac{17}{12}\\pi.\n$$",
+  "search_text": "若 $\\Omega$ 是上半球体 $1\\leq z\\leq1+\\sqrt{1-x^2-y^2}$ 与圆柱体 $x^2+y^2\\leq1,0\\leq z\\leq1$ 所拼接而成，则 $\\iiint_\\Omega z\\,dv=$（ ） $\\frac43\\pi$ $\\frac{17}{12}\\pi$ $\\frac{17}3\\pi$ $\\frac{17}6\\pi$ $$\n\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r\\cos\\varphi\\cdot r^2\\sin\\varphi\\,dr+\\int_0^{2\\pi}d\\theta\\int_0^1r\\,dr\\int_0^1z\\,dz\n$$\n$$\n=8\\pi\\int_0^{\\frac{\\pi}{4}}\\cos^5\\varphi\\sin\\varphi\\,d\\varphi+2\\pi\\int_0^1\\frac{r^3}{2}=\\frac{17}{12}\\pi.\n$$",
+  "sort_order": 45
+}

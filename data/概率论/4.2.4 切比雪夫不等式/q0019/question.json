@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i$独立同分布，$E(X_i)=1,D(X_i)=1,i=1,\\ldots,9$，求正确的概率估计。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(|\\sum X_i-9|<\\varepsilon)\\ge1-9/\\varepsilon^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(|\\sum X_i-1|<\\varepsilon)\\ge1-1/\\varepsilon^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(|\\sum X_i-1|<\\varepsilon)\\ge1-9/\\varepsilon^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(|\\sum X_i-9|<\\varepsilon)\\ge1-1/\\varepsilon^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "和的均值和方差均为9，应用切比雪夫得选项1。",
+  "search_text": "$X_i$独立同分布，$E(X_i)=1,D(X_i)=1,i=1,\\ldots,9$，求正确的概率估计。 $P(|\\sum X_i-9|<\\varepsilon)\\ge1-9/\\varepsilon^2$ $P(|\\sum X_i-1|<\\varepsilon)\\ge1-1/\\varepsilon^2$ $P(|\\sum X_i-1|<\\varepsilon)\\ge1-9/\\varepsilon^2$ $P(|\\sum X_i-9|<\\varepsilon)\\ge1-1/\\varepsilon^2$ 和的均值和方差均为9，应用切比雪夫得选项1。",
+  "sort_order": 19
+}

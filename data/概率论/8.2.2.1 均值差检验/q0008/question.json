@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设总体X~N(μ1,σ²)、Y~N(μ2,σ²)，方差σ²未知，独立样本容量各10。检验H0:μ1−μ2=4，H1:μ1−μ2≠4，α=0.10，拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|(\\bar x-\\bar y-4)\\sqrt{10}/\\sqrt{s_1^2+s_2^2}|>t_{0.05}(18)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|(\\bar x-\\bar y)\\sqrt{10}/\\sqrt{s_1^2+s_2^2}|>t_{0.05}(18)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|(\\bar x-\\bar y)\\sqrt5/\\sqrt{s_1^2+s_2^2}|>t_{0.05}(18)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|(\\bar x-\\bar y-4)\\sqrt5/\\sqrt{s_1^2+s_2^2}|>t_{0.05}(18)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧t检验统计量减去μ0=4；合并样本方差自由度18。",
+  "search_text": "设总体X~N(μ1,σ²)、Y~N(μ2,σ²)，方差σ²未知，独立样本容量各10。检验H0:μ1−μ2=4，H1:μ1−μ2≠4，α=0.10，拒绝域为（）。 $|(\\bar x-\\bar y-4)\\sqrt{10}/\\sqrt{s_1^2+s_2^2}|>t_{0.05}(18)$ $|(\\bar x-\\bar y)\\sqrt{10}/\\sqrt{s_1^2+s_2^2}|>t_{0.05}(18)$ $|(\\bar x-\\bar y)\\sqrt5/\\sqrt{s_1^2+s_2^2}|>t_{0.05}(18)$ $|(\\bar x-\\bar y-4)\\sqrt5/\\sqrt{s_1^2+s_2^2}|>t_{0.05}(18)$ 双侧t检验统计量减去μ0=4；合并样本方差自由度18。",
+  "sort_order": 8
+}

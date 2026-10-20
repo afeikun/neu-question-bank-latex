@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$服从参数为2的指数分布，令$Y=1-e^{-2X}$，求$Y$的分布。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U(0,1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "仍服从指数分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "正态分布"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "参数2的泊松分布"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "变换单调且反函数为$-\\frac12\\ln(1-y)$，由分布函数可得$F_Y(y)=y$，故$Y\\sim U(0,1)$。",
+  "search_text": "$X$服从参数为2的指数分布，令$Y=1-e^{-2X}$，求$Y$的分布。 $U(0,1)$ 仍服从指数分布 正态分布 参数2的泊松分布 变换单调且反函数为$-\\frac12\\ln(1-y)$，由分布函数可得$F_Y(y)=y$，故$Y\\sim U(0,1)$。",
+  "sort_order": 5
+}

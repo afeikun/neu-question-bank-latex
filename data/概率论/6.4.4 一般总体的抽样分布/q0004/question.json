@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体$X$服从自由度$m$的$\\chi^2(m)$分布，密度为$\\varphi(x,m)$，容量$n$样本均值$\\bar X$的密度为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\varphi(nx,nm)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n\\varphi(nx,nm)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n\\varphi(x,m)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1n\\varphi(nx,nm)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\sum X_i\\sim\\chi^2(mn)$，且$\\bar X=(\\sum X_i)/n$，变量缩放后密度为$n\\varphi(nx,nm)$。",
+  "search_text": "总体$X$服从自由度$m$的$\\chi^2(m)$分布，密度为$\\varphi(x,m)$，容量$n$样本均值$\\bar X$的密度为（）。 $\\varphi(nx,nm)$ $n\\varphi(nx,nm)$ $n\\varphi(x,m)$ $\\frac1n\\varphi(nx,nm)$ $\\sum X_i\\sim\\chi^2(mn)$，且$\\bar X=(\\sum X_i)/n$，变量缩放后密度为$n\\varphi(nx,nm)$。",
+  "sort_order": 4
+}

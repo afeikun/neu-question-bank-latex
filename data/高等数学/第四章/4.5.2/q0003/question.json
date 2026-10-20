@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "判断I=∫₀²dx/(x²−7x+12)的敛散性",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1/2)ln(2/3)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "ln(3/2)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "−(1/2)ln3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "区间内分母在x=3处为零，广义积分发散。",
+  "search_text": "判断I=∫₀²dx/(x²−7x+12)的敛散性 (1/2)ln(2/3) ln(3/2) −(1/2)ln3 发散 区间内分母在x=3处为零，广义积分发散。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\ln x+\\ln^2x+\\cdots+\\ln^nx+\\cdots$ 的收敛域是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/e\\le x\\le e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x<e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x>e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/e<x<e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "几何级数要求 $|\\ln x|<1$。",
+  "search_text": "幂级数 $\\ln x+\\ln^2x+\\cdots+\\ln^nx+\\cdots$ 的收敛域是？ $1/e\\le x\\le e$ $x<e$ $x>e$ $1/e<x<e$ 几何级数要求 $|\\ln x|<1$。",
+  "sort_order": 2
+}

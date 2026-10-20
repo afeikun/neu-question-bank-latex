@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在球面 $x^2+y^2+z^2=1$ 上取 $A(1,0,0),B(0,1,0),C(\\frac1{\\sqrt2},0,\\frac1{\\sqrt2})$ 三点为顶点的球面三角形，若球面密度为 $\\rho=x^2+z^2$，则此球面三角形块的质量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{5\\pi}6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 设此球面三角块的质量为 $M$，则\n\n$$\nM=\\iint_S\\rho\\,dS=\\iint_S(x^2+z^2)\\,dS。\n$$\n\n根据被积函数的表达式，将 $S$ 向 $xoz$ 坐标面上投影。由 $y=\\sqrt{1-x^2-z^2}$，得\n\n$$\ndS=\\sqrt{1+y_x^2+y_z^2}\\,dx\\,dz=\\frac{dx\\,dz}{\\sqrt{1-x^2-z^2}},\n$$\n\n从而\n\n$$\n\\begin{aligned}\nM&=\\iint_{D_{xz}}\\frac{x^2+z^2}{\\sqrt{1-x^2-z^2}}\\,dx\\,dz\n=\\int_0^{\\pi/4}d\\theta\\int_0^1\\frac{\\rho^2}{\\sqrt{1-\\rho^2}}\\rho\\,d\\rho\\\\\n&=\\frac{\\pi}{4}\\int_0^1\\frac{\\rho^3}{\\sqrt{1-\\rho^2}}\\,d\\rho\n\\xrightarrow{\\sqrt{1-\\rho^2}=u}\n=-\\frac{\\pi}{4}\\int_1^0\\frac{u(1-u^2)}{u}\\,du\n=\\frac{\\pi}{4}\\int_0^1(1-u^2)\\,du\n=\\frac{\\pi}{6}。\n\\end{aligned}\n$$",
+  "search_text": "在球面 $x^2+y^2+z^2=1$ 上取 $A(1,0,0),B(0,1,0),C(\\frac1{\\sqrt2},0,\\frac1{\\sqrt2})$ 三点为顶点的球面三角形，若球面密度为 $\\rho=x^2+z^2$，则此球面三角形块的质量为（ ） $\\frac\\pi6$ $\\frac\\pi5$ $\\frac{5\\pi}6$ $\\frac\\pi3$ 解答 设此球面三角块的质量为 $M$，则\n\n$$\nM=\\iint_S\\rho\\,dS=\\iint_S(x^2+z^2)\\,dS。\n$$\n\n根据被积函数的表达式，将 $S$ 向 $xoz$ 坐标面上投影。由 $y=\\sqrt{1-x^2-z^2}$，得\n\n$$\ndS=\\sqrt{1+y_x^2+y_z^2}\\,dx\\,dz=\\frac{dx\\,dz}{\\sqrt{1-x^2-z^2}},\n$$\n\n从而\n\n$$\n\\begin{aligned}\nM&=\\iint_{D_{xz}}\\frac{x^2+z^2}{\\sqrt{1-x^2-z^2}}\\,dx\\,dz\n=\\int_0^{\\pi/4}d\\theta\\int_0^1\\frac{\\rho^2}{\\sqrt{1-\\rho^2}}\\rho\\,d\\rho\\\\\n&=\\frac{\\pi}{4}\\int_0^1\\frac{\\rho^3}{\\sqrt{1-\\rho^2}}\\,d\\rho\n\\xrightarrow{\\sqrt{1-\\rho^2}=u}\n=-\\frac{\\pi}{4}\\int_1^0\\frac{u(1-u^2)}{u}\\,du\n=\\frac{\\pi}{4}\\int_0^1(1-u^2)\\,du\n=\\frac{\\pi}{6}。\n\\end{aligned}\n$$",
+  "sort_order": 16
+}

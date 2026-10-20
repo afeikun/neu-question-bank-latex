@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "泊松分布满足$P(\\xi=7)=P(\\xi=9)$，求$\\lambda$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\sqrt2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\sqrt2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\sqrt6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6\\sqrt2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\lambda^7/7!=\\lambda^9/9!$，得$\\lambda^2=72$，故$\\lambda=6\\sqrt2$。",
+  "search_text": "泊松分布满足$P(\\xi=7)=P(\\xi=9)$，求$\\lambda$。 $4\\sqrt2$ $3\\sqrt2$ $2\\sqrt6$ $6\\sqrt2$ $\\lambda^7/7!=\\lambda^9/9!$，得$\\lambda^2=72$，故$\\lambda=6\\sqrt2$。",
+  "sort_order": 11
+}

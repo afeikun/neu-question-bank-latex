@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=y(x)$ 任一点切线的 $y$ 轴截距等于 $\\frac2{x^2}\\int_0^x ty(t)\\,dt$，求曲线。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac{C_1}{x}+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac{C_1}{x^2}+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1\\ln x+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac{C_1}{x}+C_2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：过曲线$y=y(x)$上的点$(x,y)$的切线为$Y-y=y'(X-x)$，它在$y$轴上的截距为$Y=y-xy'$，由题意得$y-xy'=\\frac{2}{x^2}\\int_0^x ty(t)\\,dt$，即$x^2y-x^3y'=2\\int_0^x ty(t)\\,dt$，\n\n关于$x$求导得：$xy''+2y'=0$，积分得$y=\\frac{C_1}{x}+C_2$。",
+  "search_text": "曲线 $y=y(x)$ 任一点切线的 $y$ 轴截距等于 $\\frac2{x^2}\\int_0^x ty(t)\\,dt$，求曲线。 $y=\\frac{C_1}{x}+C_2$ $y=\\frac{C_1}{x^2}+C_2$ $y=C_1\\ln x+C_2$ $y=\\frac{C_1}{x}+C_2x$ 解析：过曲线$y=y(x)$上的点$(x,y)$的切线为$Y-y=y'(X-x)$，它在$y$轴上的截距为$Y=y-xy'$，由题意得$y-xy'=\\frac{2}{x^2}\\int_0^x ty(t)\\,dt$，即$x^2y-x^3y'=2\\int_0^x ty(t)\\,dt$，\n\n关于$x$求导得：$xy''+2y'=0$，积分得$y=\\frac{C_1}{x}+C_2$。",
+  "sort_order": 55
+}

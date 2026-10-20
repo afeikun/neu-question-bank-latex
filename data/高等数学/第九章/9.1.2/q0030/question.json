@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是椭圆 $\\frac{x^2}{4}+\\frac{y^2}{3}=1$，其周长为 $a$，则 $\\oint_L(3x^2+4y^2+2xy)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $L$ 即 $3x^2+4y^2=12$，原式 $=\\oint_L(3x^2+4y^2)ds+2\\oint_Lxyds=\\oint_L12ds+0=12a$",
+  "search_text": "设 $L$ 是椭圆 $\\frac{x^2}{4}+\\frac{y^2}{3}=1$，其周长为 $a$，则 $\\oint_L(3x^2+4y^2+2xy)ds=$（ ） $12a$ $8a$ $4a$ $6a$ 解答 $L$ 即 $3x^2+4y^2=12$，原式 $=\\oint_L(3x^2+4y^2)ds+2\\oint_Lxyds=\\oint_L12ds+0=12a$",
+  "sort_order": 30
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 由 $y+z=1,x=\\sqrt y,x=0,z=0,y=1$ 围成，则 $\\iiint_\\Omega xzdv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$26/105$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$32/105$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8/105$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$16/105$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "积分区域 $\\Omega$ 在 $xOy$ 面上的投影 $D$ 由 $x=0,y=1,x=\\sqrt{y}$ 围成，对于 $(x,y)\\in D$，$0\\leq z\\leq1-y$，因此\n\n$$\n\\iiint_{\\Omega}xzdv=\\iint_D dxdy\\int_0^{1-y}xzdz=\\frac{1}{2}\\iint_D x(1-y)^2dxdy=\\frac{1}{2}\\int_0^1dy\\int_0^{\\sqrt{y}}(1-y)^2dx\n$$\n\n$$\n=\\frac{1}{2}\\int_0^1\\sqrt{y}(1-y)^2dy=\\frac{8}{105}。\n$$",
+  "search_text": "$\\Omega$ 由 $y+z=1,x=\\sqrt y,x=0,z=0,y=1$ 围成，则 $\\iiint_\\Omega xzdv$ 的值为（ ） $26/105$ $32/105$ $8/105$ $16/105$ 积分区域 $\\Omega$ 在 $xOy$ 面上的投影 $D$ 由 $x=0,y=1,x=\\sqrt{y}$ 围成，对于 $(x,y)\\in D$，$0\\leq z\\leq1-y$，因此\n\n$$\n\\iiint_{\\Omega}xzdv=\\iint_D dxdy\\int_0^{1-y}xzdz=\\frac{1}{2}\\iint_D x(1-y)^2dxdy=\\frac{1}{2}\\int_0^1dy\\int_0^{\\sqrt{y}}(1-y)^2dx\n$$\n\n$$\n=\\frac{1}{2}\\int_0^1\\sqrt{y}(1-y)^2dy=\\frac{8}{105}。\n$$",
+  "sort_order": 29
+}

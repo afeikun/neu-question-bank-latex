@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "投篮最多3次，第$i$次命中得$4-i$分，命中率$p$，未中$q=1-p$，求平均得分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$q^3+2pq^2+3pq$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$pq^2+2pq+3p$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$q^3+pq^2+pq+p$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$p+2pq^2+3pq$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "得分为1,2,3的概率分别$q^2p,qp,p$，均值$pq^2+2pq+3p$。",
+  "search_text": "投篮最多3次，第$i$次命中得$4-i$分，命中率$p$，未中$q=1-p$，求平均得分。 $q^3+2pq^2+3pq$ $pq^2+2pq+3p$ $q^3+pq^2+pq+p$ $p+2pq^2+3pq$ 得分为1,2,3的概率分别$q^2p,qp,p$，均值$pq^2+2pq+3p$。",
+  "sort_order": 17
+}

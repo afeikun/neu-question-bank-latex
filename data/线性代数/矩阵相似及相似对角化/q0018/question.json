@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n$ 阶矩阵 $A$ 与对角阵相似的充分必要条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A$ 的特征方程没有重根"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$ 有 $n$ 个特征值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A$ 有 $n$ 个线性无关的特征向量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A$ 的行列式 $|A|\ne 0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$n$ 阶矩阵 $A$ 与对角阵相似的充分必要条件是 $A$ 有 $n$ 个线性无关的特征向量。",
+  "search_text": "$n$ 阶矩阵 $A$ 与对角阵相似的充分必要条件是（ ）。 $A$ 的特征方程没有重根 $A$ 有 $n$ 个特征值 $A$ 有 $n$ 个线性无关的特征向量 $A$ 的行列式 $|A| e 0$ $n$ 阶矩阵 $A$ 与对角阵相似的充分必要条件是 $A$ 有 $n$ 个线性无关的特征向量。",
+  "sort_order": 18
+}

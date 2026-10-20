@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\tan x-\\ln x\\cos x$，则 $y\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sec x\\tan x-\\frac1x\\cos x+\\sin x\\ln x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sec x-\\frac1x\\cos x+\\sin x\\ln x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sec^2x-\\frac1x\\cos x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sec^2x-\\frac1x\\cos x+\\sin x\\ln x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$y\\prime=\\sec^2x-\\frac1x\\cos x+\\sin x\\ln x$。",
+  "search_text": "设 $y=\\tan x-\\ln x\\cos x$，则 $y\\prime=$（ ）。 $\\sec x\\tan x-\\frac1x\\cos x+\\sin x\\ln x$ $\\sec x-\\frac1x\\cos x+\\sin x\\ln x$ $\\sec^2x-\\frac1x\\cos x$ $\\sec^2x-\\frac1x\\cos x+\\sin x\\ln x$ $y\\prime=\\sec^2x-\\frac1x\\cos x+\\sin x\\ln x$。",
+  "sort_order": 21
+}

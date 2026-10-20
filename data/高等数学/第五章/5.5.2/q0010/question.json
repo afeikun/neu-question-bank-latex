@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $\\ln(1/(2+2x+x^2))$ 展开成 $x+1$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n(x+1)^{2n}/n,\\ (-2,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n(x+1)^{2n}/(n+1),\\ [-2,0]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n(x+1)^{2n}/n,\\ [-2,0]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n(x-1)^{2n}/n,\\ [-2,0]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "化为 $-\\ln(1+(x+1)^2)$ 后用对数级数。",
+  "search_text": "将 $\\ln(1/(2+2x+x^2))$ 展开成 $x+1$ 的幂级数。 $\\sum_{n=1}^{\\infty}(-1)^n(x+1)^{2n}/n,\\ (-2,0)$ $\\sum_{n=1}^{\\infty}(-1)^n(x+1)^{2n}/(n+1),\\ [-2,0]$ $\\sum_{n=1}^{\\infty}(-1)^n(x+1)^{2n}/n,\\ [-2,0]$ $\\sum_{n=1}^{\\infty}(-1)^n(x-1)^{2n}/n,\\ [-2,0]$ 化为 $-\\ln(1+(x+1)^2)$ 后用对数级数。",
+  "sort_order": 10
+}

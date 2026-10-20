@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(u,v,w)$ 有一阶连续偏导数，$F_u=\\sqrt3,F_v=-2,F_w=1$ 于 $(3,-3,-6)$，曲面 $F(x,xy,xyz)=0$ 过点 $(3,-1,2)$，求曲面在 $P$ 处法线与 $yOz$ 平面的夹角。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac\\pi3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac\\pi6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $G(x,y,z)=F(x,xy,xyz)$，\n\n$$\\vec{n}=(G'_x,G'_y,G'_z)|_P=(F'_u+F'_v y+F'_w yz,F'_v x+F'_w xz,F'_w xy)|_{(3,-1,2)}=(\\sqrt{3},0,-3),$$\n\n$yOz$ 平面的法向量 $\\vec{n}_1=(1,0,0)$，夹角为 $\\varphi$，\n\n$$\\sin\\varphi=\\frac{|\\sqrt{3}\\times1+0+0|}{\\sqrt{(\\sqrt{3})^2+0^2+3^2}\\times\\sqrt{1}}=\\frac{\\sqrt{3}}{2\\sqrt{3}}=\\frac{1}{2},$$\n\n夹角为：$\\varphi=\\frac{\\pi}{6}$。",
+  "search_text": "设 $F(u,v,w)$ 有一阶连续偏导数，$F_u=\\sqrt3,F_v=-2,F_w=1$ 于 $(3,-3,-6)$，曲面 $F(x,xy,xyz)=0$ 过点 $(3,-1,2)$，求曲面在 $P$ 处法线与 $yOz$ 平面的夹角。 $\\frac\\pi3$ $-\\frac\\pi3$ $\\frac\\pi6$ $-\\frac\\pi6$ 令 $G(x,y,z)=F(x,xy,xyz)$，\n\n$$\\vec{n}=(G'_x,G'_y,G'_z)|_P=(F'_u+F'_v y+F'_w yz,F'_v x+F'_w xz,F'_w xy)|_{(3,-1,2)}=(\\sqrt{3},0,-3),$$\n\n$yOz$ 平面的法向量 $\\vec{n}_1=(1,0,0)$，夹角为 $\\varphi$，\n\n$$\\sin\\varphi=\\frac{|\\sqrt{3}\\times1+0+0|}{\\sqrt{(\\sqrt{3})^2+0^2+3^2}\\times\\sqrt{1}}=\\frac{\\sqrt{3}}{2\\sqrt{3}}=\\frac{1}{2},$$\n\n夹角为：$\\varphi=\\frac{\\pi}{6}$。",
+  "sort_order": 4
+}

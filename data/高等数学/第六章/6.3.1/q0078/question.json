@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平面 $3x+5=0$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "平行于 $yoz$ 轴"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "平行于 $x$ 轴"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "平行于 $zox$ 面"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "平行于 $xoy$ 面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "法向量 $(1,0,0)$，平面平行于 $yoz$ 面。",
+  "search_text": "平面 $3x+5=0$(\\quad)。 平行于 $yoz$ 轴 平行于 $x$ 轴 平行于 $zox$ 面 平行于 $xoy$ 面 法向量 $(1,0,0)$，平面平行于 $yoz$ 面。",
+  "sort_order": 78
+}

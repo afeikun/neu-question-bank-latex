@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a>0$，则 $\\iint_\\Sigma z\\,dx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac43\\pi a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7\\pi a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：由高斯公式 $\\oiint_{\\Sigma}=\\iiint_{\\Omega}(1+1+1)dv=3\\iiint_{\\Omega}dv=3\\cdot\\frac{4}{3}\\pi a^3=4\\pi a^3$",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a>0$，则 $\\iint_\\Sigma z\\,dx\\,dy=$（ ） $4\\pi a^3$ $\\frac43\\pi a^3$ $2\\pi a^2$ $7\\pi a^3$ 解析：由高斯公式 $\\oiint_{\\Sigma}=\\iiint_{\\Omega}(1+1+1)dv=3\\iiint_{\\Omega}dv=3\\cdot\\frac{4}{3}\\pi a^3=4\\pi a^3$",
+  "sort_order": 17
+}

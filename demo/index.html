@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>题库 JSON 渲染 Demo</title>
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="vendor/katex/katex.min.js"></script>
+  <script defer src="vendor/marked.umd.js"></script>
+  <script defer src="vendor/purify.min.js"></script>
+  <script defer src="render.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>题库 JSON 渲染 Demo</h1>
+    <p>选择题库中的 JSON 文件，预览 Markdown 和数学公式。支持多文件及题目数组。</p>
+    <label class="button" for="files">选择 JSON</label>
+    <input id="files" type="file" accept=".json,application/json" multiple>
+    <select id="questions" aria-label="选择题目" hidden></select>
+    <p id="status" role="status">尚未选择文件。</p>
+  </header>
+  <main id="content" hidden>
+    <section><h2>题干</h2><div id="stem"></div></section>
+    <section id="options-section"><h2>选项</h2><div id="options"></div></section>
+    <section><h2>答案</h2><div id="answer"></div></section>
+    <section><h2>解析</h2><div id="analysis"></div></section>
+    <details><summary>查看原始 JSON</summary><pre id="raw"></pre></details>
+  </main>
+</body>
+</html>

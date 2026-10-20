@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$的分布函数$F$为严格单调连续函数，令$Y=F(X)$，下列哪项不正确？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$Y$服从$[0,1]$均匀分布"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$Y$不服从$[0,1]$均匀分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$g(y)=1(0\\le y\\le1)$，其他0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$G(y)=0(y<0),y(0\\le y\\le1),1(y>1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "概率积分变换表明$Y$服从$[0,1]$均匀分布，故第二项不正确。",
+  "search_text": "$X$的分布函数$F$为严格单调连续函数，令$Y=F(X)$，下列哪项不正确？ $Y$服从$[0,1]$均匀分布 $Y$不服从$[0,1]$均匀分布 $g(y)=1(0\\le y\\le1)$，其他0 $G(y)=0(y<0),y(0\\le y\\le1),1(y>1)$ 概率积分变换表明$Y$服从$[0,1]$均匀分布，故第二项不正确。",
+  "sort_order": 9
+}

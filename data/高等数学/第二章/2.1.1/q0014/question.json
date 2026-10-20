@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\lim_{x\\to0}\\frac{f(2x)-f(0)}{\\ln(1+3x)}=1$，则 $f\\prime(0)$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to0}\\frac{f(2x)-f(0)}{2x}=\\frac32$，即 $f\\prime(0)=3/2$。",
+  "search_text": "设 $\\lim_{x\\to0}\\frac{f(2x)-f(0)}{\\ln(1+3x)}=1$，则 $f\\prime(0)$ 等于（ ）。 $\\frac32$ $\\frac16$ $\\frac23$ $6$ $\\lim_{x\\to0}\\frac{f(2x)-f(0)}{2x}=\\frac32$，即 $f\\prime(0)=3/2$。",
+  "sort_order": 14
+}

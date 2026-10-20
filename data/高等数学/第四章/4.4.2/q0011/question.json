@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₁⁵√(2x−1)/x dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "π/2+arctan3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4+π/2−2arctan3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "4+π/2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "4−arctan3"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令t=√(2x−1)，结果为4+π/2−2arctan3。",
+  "search_text": "计算∫₁⁵√(2x−1)/x dx π/2+arctan3 4+π/2−2arctan3 4+π/2 4−arctan3 令t=√(2x−1)，结果为4+π/2−2arctan3。",
+  "sort_order": 11
+}

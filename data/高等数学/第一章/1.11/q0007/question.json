@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 在 $[0,1]$ 上连续，且 $f(0)=f(1)$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "一定存在 $\\xi\\in[0,\\frac12]$，使 $f(\\xi)=f(\\xi+\\frac12)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在这样的实数 $\\xi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)$ 在 $[0,1]$ 上有零点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不一定存在这样的实数 $\\xi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $F(x)=f(x)-f(x+1/2)$，由端点条件及介值定理可知存在零点。",
+  "search_text": "设 $f(x)$ 在 $[0,1]$ 上连续，且 $f(0)=f(1)$，则（ ）。 一定存在 $\\xi\\in[0,\\frac12]$，使 $f(\\xi)=f(\\xi+\\frac12)$ 不存在这样的实数 $\\xi$ $f(x)$ 在 $[0,1]$ 上有零点 不一定存在这样的实数 $\\xi$ 令 $F(x)=f(x)-f(x+1/2)$，由端点条件及介值定理可知存在零点。",
+  "sort_order": 7
+}

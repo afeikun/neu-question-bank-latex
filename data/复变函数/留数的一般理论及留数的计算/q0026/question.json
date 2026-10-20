@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(z^2\\tan\\dfrac1z,0\\right)=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\dfrac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac16$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\dfrac16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\tan(1/z)=1/z+1/(3z^3)+\\cdots$，$z^2\\tan(1/z)$ 的 $z^{-1}$ 项系数为 $1/3$。",
+  "search_text": "$\\operatorname{Res}\\left(z^2\\tan\\dfrac1z,0\\right)=(\\ \\ )$。 $\\dfrac13$ $-\\dfrac13$ $\\dfrac16$ $-\\dfrac16$ 由 $\\tan(1/z)=1/z+1/(3z^3)+\\cdots$，$z^2\\tan(1/z)$ 的 $z^{-1}$ 项系数为 $1/3$。",
+  "sort_order": 26
+}

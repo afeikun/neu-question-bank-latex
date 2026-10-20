@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\lim_{n\\to\\infty}n^\\lambda[\\ln(1+n)-\\ln n]=3$（$\\lambda>0$），正项级数 $\\sum_{n=1}^{\\infty} V_n$ 的敛散性说法正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "敛散性与 $\\lambda$ 无关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda>2$ 时发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda\\le2$ 时发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无法确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$V_n$ 与 $1/n^{\\lambda-1}$ 同阶；当 $\\lambda\\le2$ 时发散。",
+  "search_text": "设 $\\lim_{n\\to\\infty}n^\\lambda[\\ln(1+n)-\\ln n]=3$（$\\lambda>0$），正项级数 $\\sum_{n=1}^{\\infty} V_n$ 的敛散性说法正确的是？ 敛散性与 $\\lambda$ 无关 $\\lambda>2$ 时发散 $\\lambda\\le2$ 时发散 无法确定 $V_n$ 与 $1/n^{\\lambda-1}$ 同阶；当 $\\lambda\\le2$ 时发散。",
+  "sort_order": 21
+}

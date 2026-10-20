@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "“当 $x\\to x_0$ 时，$f(x)-A$ 是无穷小”是“$\\lim_{x\\to x_0}f(x)=A$”的（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "必要但非充分条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "既非充分条件，亦非必要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "充分但非必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "充分必要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\lim f(x)=A$ 等价于 $f(x)=A+\\alpha$，其中 $\\alpha\\to0$。",
+  "search_text": "“当 $x\\to x_0$ 时，$f(x)-A$ 是无穷小”是“$\\lim_{x\\to x_0}f(x)=A$”的（ ）。 必要但非充分条件 既非充分条件，亦非必要条件 充分但非必要条件 充分必要条件 $\\lim f(x)=A$ 等价于 $f(x)=A+\\alpha$，其中 $\\alpha\\to0$。",
+  "sort_order": 5
+}

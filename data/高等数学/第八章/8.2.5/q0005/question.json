@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是空间有界立体，$\\Omega$ 上每点 $(x,y,z)$ 处体密度为该点到平面 $Ax+By+Cz+D=0$ 的距离，$\\Omega$ 关于直线 $L:\\frac{x-x_0}{0}=\\frac{y-y_0}{0}=\\frac z1$ 的转动惯量 $I=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iiint_\\Omega[(x-x_0)^2+(y-y_0)^2+z^2]\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}dv$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iiint_\\Omega z^2\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}dv$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iiint_\\Omega[(x-x_0)^2+(y-y_0)^2]\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}dv$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iiint_\\Omega\\sqrt{(x-x_0)^2+(y-y_0)^2}\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}dv$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "点到直线 $L$ 的距离平方为 $(x-x_0)^2+(y-y_0)^2$，体密度为 $\\rho=\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}$。因此 $I=\\iiint_\\Omega[(x-x_0)^2+(y-y_0)^2]\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}\\,dv$，选 C。",
+  "search_text": "$\\Omega$ 是空间有界立体，$\\Omega$ 上每点 $(x,y,z)$ 处体密度为该点到平面 $Ax+By+Cz+D=0$ 的距离，$\\Omega$ 关于直线 $L:\\frac{x-x_0}{0}=\\frac{y-y_0}{0}=\\frac z1$ 的转动惯量 $I=$（ ） $\\iiint_\\Omega[(x-x_0)^2+(y-y_0)^2+z^2]\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}dv$ $\\iiint_\\Omega z^2\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}dv$ $\\iiint_\\Omega[(x-x_0)^2+(y-y_0)^2]\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}dv$ $\\iiint_\\Omega\\sqrt{(x-x_0)^2+(y-y_0)^2}\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}dv$ 点到直线 $L$ 的距离平方为 $(x-x_0)^2+(y-y_0)^2$，体密度为 $\\rho=\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}$。因此 $I=\\iiint_\\Omega[(x-x_0)^2+(y-y_0)^2]\\frac{|Ax+By+Cz+D|}{\\sqrt{A^2+B^2+C^2}}\\,dv$，选 C。",
+  "sort_order": 5
+}

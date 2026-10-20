@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由平面 $z=0,z=y,y=1$ 及曲面 $y=x^2$ 所围成闭区域，则 $\\iiint_\\Omega xz dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "原式 $=\\int_{-1}^{1}dx\\int_{x^2}^{1}dy\\int_0^y xz dz$\n\n$$\n=\\int_{-1}^{1}dx\\int_{x^2}^{1}\\frac{1}{2}xy^2dy\n$$\n\n$$\n=\\frac{1}{6}\\int_{-1}^{1}x(1-x^6)dx\n$$\n\n$$\n=0\n$$",
+  "search_text": "$\\Omega$ 是由平面 $z=0,z=y,y=1$ 及曲面 $y=x^2$ 所围成闭区域，则 $\\iiint_\\Omega xz dv$ 的值为（ ） $-1$ $1$ $\\frac16$ $0$ 原式 $=\\int_{-1}^{1}dx\\int_{x^2}^{1}dy\\int_0^y xz dz$\n\n$$\n=\\int_{-1}^{1}dx\\int_{x^2}^{1}\\frac{1}{2}xy^2dy\n$$\n\n$$\n=\\frac{1}{6}\\int_{-1}^{1}x(1-x^6)dx\n$$\n\n$$\n=0\n$$",
+  "sort_order": 13
+}

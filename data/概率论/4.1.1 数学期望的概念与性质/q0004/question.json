@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立，$f_X(x)=8/x^3$（$x>2$），$f_Y(y)=2y$（$0<y<1$），求$E(XY)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8/3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4/3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5/3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7/3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X)=4,E(Y)=2/3$，故$E(XY)=8/3$。",
+  "search_text": "$X,Y$独立，$f_X(x)=8/x^3$（$x>2$），$f_Y(y)=2y$（$0<y<1$），求$E(XY)$。 $8/3$ $4/3$ $5/3$ $7/3$ $E(X)=4,E(Y)=2/3$，故$E(XY)=8/3$。",
+  "sort_order": 4
+}

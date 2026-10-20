@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to1}\\frac{\\sqrt[3]{x^2}-2\\sqrt[3]x+1}{(x-1)^2}=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "6"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac19$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "9"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $t=\\sqrt[3]x$，分子为 $(t-1)^2$，分母为 $(t^3-1)^2$，极限为 $1/(1+1+1)^2=1/9$。",
+  "search_text": "$\\lim_{x\\to1}\\frac{\\sqrt[3]{x^2}-2\\sqrt[3]x+1}{(x-1)^2}=(\\ )$。 6 $\\frac19$ 9 $\\frac16$ 令 $t=\\sqrt[3]x$，分子为 $(t-1)^2$，分母为 $(t^3-1)^2$，极限为 $1/(1+1+1)^2=1/9$。",
+  "sort_order": 59
+}

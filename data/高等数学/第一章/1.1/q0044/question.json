@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)=\\frac{1-x}{1+x}$，则 $f(\\frac1x)=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x}{x+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-1}{x+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x}{x-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x+1}{x-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f(\\frac1x)=\\frac{1-\\frac1x}{1+\\frac1x}=\\frac{x-1}{x+1}$。",
+  "search_text": "设函数 $f(x)=\\frac{1-x}{1+x}$，则 $f(\\frac1x)=$（ ）。 $\\frac{x}{x+1}$ $\\frac{x-1}{x+1}$ $\\frac{x}{x-1}$ $\\frac{x+1}{x-1}$ $f(\\frac1x)=\\frac{1-\\frac1x}{1+\\frac1x}=\\frac{x-1}{x+1}$。",
+  "sort_order": 44
+}

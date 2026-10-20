@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=1}^{\\infty}\\frac{e^{in+1}}{(in)^p}(z+2)^n$（$p$为正整数）的收敛圆是____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|z+2|<1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|z+2|<2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|z+2|<e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|z+2|<+\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "系数比值模趋于 $1$，故收敛半径为 $1$。",
+  "search_text": "幂级数 $\\sum_{n=1}^{\\infty}\\frac{e^{in+1}}{(in)^p}(z+2)^n$（$p$为正整数）的收敛圆是____。 $|z+2|<1$ $|z+2|<2$ $|z+2|<e$ $|z+2|<+\\infty$ 系数比值模趋于 $1$，故收敛半径为 $1$。",
+  "sort_order": 43
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $\\sin(x+y)=\\cos x\\ln y$ 确定 $y=y(x)$，求 $y^\\prime$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\cos(x+y)-\\sin x\\ln y}{\\cos x-y\\cos(x+y)}y$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\cos(x+y)+\\sin x\\ln y}{\\cos x-y\\cos(x+y)}y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\cos(x+y)+\\sin x\\ln y}{\\cos x+y\\cos(x+y)}y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\cos(x+y)-\\sin x\\ln y}{\\cos x+y\\cos(x+y)}y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时对$x$求导可得\n$\\cos(x+y)(1+y')=-\\sin x\\ln y+\\cos x\\cdot\\frac{y'}{y}$，则有$y'=\\frac{\\cos(x+y)+\\sin x\\ln y}{\\cos x-y\\cos(x+y)}$",
+  "search_text": "由 $\\sin(x+y)=\\cos x\\ln y$ 确定 $y=y(x)$，求 $y^\\prime$。 $\\frac{\\cos(x+y)-\\sin x\\ln y}{\\cos x-y\\cos(x+y)}y$ $\\frac{\\cos(x+y)+\\sin x\\ln y}{\\cos x-y\\cos(x+y)}y$ $\\frac{\\cos(x+y)+\\sin x\\ln y}{\\cos x+y\\cos(x+y)}y$ $\\frac{\\cos(x+y)-\\sin x\\ln y}{\\cos x+y\\cos(x+y)}y$ 解答 方程两边同时对$x$求导可得\n$\\cos(x+y)(1+y')=-\\sin x\\ln y+\\cos x\\cdot\\frac{y'}{y}$，则有$y'=\\frac{\\cos(x+y)+\\sin x\\ln y}{\\cos x-y\\cos(x+y)}$",
+  "sort_order": 15
+}

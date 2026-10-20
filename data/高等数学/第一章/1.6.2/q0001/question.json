@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}(\\frac{2x+3}{2x+1})^{x-1}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2e"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "写为 $(1+2/(2x+1))^{x-1}$，极限为 $e$。",
+  "search_text": "$\\lim_{x\\to\\infty}(\\frac{2x+3}{2x+1})^{x-1}=[\\quad]$。 $e^2$ 2e $e^{-1}$ $e$ 写为 $(1+2/(2x+1))^{x-1}$，极限为 $e$。",
+  "sort_order": 1
+}

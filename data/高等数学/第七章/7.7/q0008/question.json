@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z$ 为曲面 $2x^2+3y^2+z^2=6$ 在 $P(1,1,1)$ 处指向外侧的法向量，求 $u=\\frac1z(6x^2+8y^2)^{1/2}$ 沿此法向的方向导数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac7{11}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{11}{7}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{11}{7}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac7{11}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $F(x,y,z)=2x^2+3y^2+z^2-6$，\n\n$$F_x|_P=4x|_P=4，\\quad F_y|_P=6y|_P=6，\\quad F_z|_P=2z|_P=2，$$\n\n故 $\\vec{n}=\\{F_x,F_y,F_z\\}|_P，\\quad |\\vec{n}|=\\sqrt{4^2+6^2+2^2}=2\\sqrt{14}，$\n\n方向余弦为：$\\cos\\alpha=\\frac{2}{\\sqrt{14}}，\\quad \\cos\\beta=\\frac{3}{\\sqrt{14}}，\\quad \\cos\\gamma=\\frac{1}{\\sqrt{14}}$\n\n$$\\left.\\frac{\\partial u}{\\partial x}\\right|_P=\\left.\\frac{6x}{z\\sqrt{6x^2+8y^2}}\\right|_P=\\frac{6}{\\sqrt{14}}，\\quad \\left.\\frac{\\partial u}{\\partial y}\\right|_P=\\left.\\frac{8y}{z\\sqrt{6x^2+8y^2}}\\right|_P=\\frac{8}{\\sqrt{14}}；$$\n\n$$\\left.\\frac{\\partial u}{\\partial z}\\right|_P=\\left.-\\frac{\\sqrt{6x^2+8y^2}}{z^2}\\right|_P=-\\sqrt{14}；$$\n\n所以 $\\left.\\frac{\\partial u}{\\partial\\vec{n}}\\right|_P=\\left.\\left(\\frac{\\partial u}{\\partial x}\\cos\\alpha+\\frac{\\partial u}{\\partial y}\\cos\\beta+\\frac{\\partial u}{\\partial z}\\cos\\gamma\\right)\\right|_P=\\frac{11}{7}。$",
+  "search_text": "设 $z$ 为曲面 $2x^2+3y^2+z^2=6$ 在 $P(1,1,1)$ 处指向外侧的法向量，求 $u=\\frac1z(6x^2+8y^2)^{1/2}$ 沿此法向的方向导数。 $\\frac7{11}$ $\\frac{11}{7}$ $-\\frac{11}{7}$ $-\\frac7{11}$ 令 $F(x,y,z)=2x^2+3y^2+z^2-6$，\n\n$$F_x|_P=4x|_P=4，\\quad F_y|_P=6y|_P=6，\\quad F_z|_P=2z|_P=2，$$\n\n故 $\\vec{n}=\\{F_x,F_y,F_z\\}|_P，\\quad |\\vec{n}|=\\sqrt{4^2+6^2+2^2}=2\\sqrt{14}，$\n\n方向余弦为：$\\cos\\alpha=\\frac{2}{\\sqrt{14}}，\\quad \\cos\\beta=\\frac{3}{\\sqrt{14}}，\\quad \\cos\\gamma=\\frac{1}{\\sqrt{14}}$\n\n$$\\left.\\frac{\\partial u}{\\partial x}\\right|_P=\\left.\\frac{6x}{z\\sqrt{6x^2+8y^2}}\\right|_P=\\frac{6}{\\sqrt{14}}，\\quad \\left.\\frac{\\partial u}{\\partial y}\\right|_P=\\left.\\frac{8y}{z\\sqrt{6x^2+8y^2}}\\right|_P=\\frac{8}{\\sqrt{14}}；$$\n\n$$\\left.\\frac{\\partial u}{\\partial z}\\right|_P=\\left.-\\frac{\\sqrt{6x^2+8y^2}}{z^2}\\right|_P=-\\sqrt{14}；$$\n\n所以 $\\left.\\frac{\\partial u}{\\partial\\vec{n}}\\right|_P=\\left.\\left(\\frac{\\partial u}{\\partial x}\\cos\\alpha+\\frac{\\partial u}{\\partial y}\\cos\\beta+\\frac{\\partial u}{\\partial z}\\cos\\gamma\\right)\\right|_P=\\frac{11}{7}。$",
+  "sort_order": 8
+}

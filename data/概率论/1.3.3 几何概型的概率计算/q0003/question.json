@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "（会面问题）甲、乙两人相约在 7 点到 8 点之间在某地会面，先到者等候另一人 20 分钟，这时就离开。如果每个人可在指定的一小时内任意时刻到达，则二人能够会面的概率(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac59$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac79$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac29$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac49$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "以分钟计到达时刻 $x,y$，样本空间为 $0\\le x,y\\le60$ 的正方形；会面事件为 $|x-y|\\le20$。因此概率为 $\\frac{60^2-40^2}{60^2}=\\frac59$。",
+  "search_text": "（会面问题）甲、乙两人相约在 7 点到 8 点之间在某地会面，先到者等候另一人 20 分钟，这时就离开。如果每个人可在指定的一小时内任意时刻到达，则二人能够会面的概率(\\quad)。 $\\frac59$ $\\frac79$ $\\frac29$ $\\frac49$ 以分钟计到达时刻 $x,y$，样本空间为 $0\\le x,y\\le60$ 的正方形；会面事件为 $|x-y|\\le20$。因此概率为 $\\frac{60^2-40^2}{60^2}=\\frac59$。",
+  "sort_order": 3
+}

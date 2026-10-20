@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,\\sigma^2)$，$Y$指数分布且均值$1/\\lambda$，下列不正确的是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$D(X+Y)=\\sigma^2+\\lambda^{-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E(X+Y)=\\mu+\\lambda^{-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$E(X^2+Y^2)=\\sigma^2+\\mu^2+2\\lambda^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$E(X^2)=\\mu^2+\\sigma^2,E(Y^2)=2\\lambda^{-2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$X,Y$未必独立，和方差还包含协方差项，选项1不一定成立。",
+  "search_text": "$X\\sim N(\\mu,\\sigma^2)$，$Y$指数分布且均值$1/\\lambda$，下列不正确的是。 $D(X+Y)=\\sigma^2+\\lambda^{-2}$ $E(X+Y)=\\mu+\\lambda^{-1}$ $E(X^2+Y^2)=\\sigma^2+\\mu^2+2\\lambda^{-2}$ $E(X^2)=\\mu^2+\\sigma^2,E(Y^2)=2\\lambda^{-2}$ $X,Y$未必独立，和方差还包含协方差项，选项1不一定成立。",
+  "sort_order": 25
+}

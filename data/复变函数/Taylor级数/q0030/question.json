@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\sin z-\\arctan z$，则 $f^{(6)}(0)=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$190$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$185$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$197$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$160$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "按幂级数中 $z^6$ 系数读取，源图答案为 $190$。",
+  "search_text": "设 $f(z)=\\sin z-\\arctan z$，则 $f^{(6)}(0)=\\underline{\\qquad}$。 $190$ $185$ $197$ $160$ 按幂级数中 $z^6$ 系数读取，源图答案为 $190$。",
+  "sort_order": 30
+}

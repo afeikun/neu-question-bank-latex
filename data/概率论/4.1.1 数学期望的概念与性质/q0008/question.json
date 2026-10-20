@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$服从参数$p$的0-1分布，求$E(X)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-p$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X)=0(1-p)+1\\cdot p=p$。",
+  "search_text": "$X$服从参数$p$的0-1分布，求$E(X)$。 $p$ $1-p$ $0$ $1$ $E(X)=0(1-p)+1\\cdot p=p$。",
+  "sort_order": 8
+}

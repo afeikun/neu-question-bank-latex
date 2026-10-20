@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $\\begin{cases}5x+y-3z-7=0\\\\2x+y-3z-7=0\\end{cases}$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在 $zox$ 面内"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "平行于 $x$ 轴"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "垂直于 $yoz$ 面"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在 $yoz$ 面内"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：直线方程满足 $x=0$，即直线在 $x=0$ 平面内，而 $x=0$ 即为 $yoz$ 面，所以直线在 $yoz$ 面内。",
+  "search_text": "直线 $\\begin{cases}5x+y-3z-7=0\\\\2x+y-3z-7=0\\end{cases}$(\\quad)。 在 $zox$ 面内 平行于 $x$ 轴 垂直于 $yoz$ 面 在 $yoz$ 面内 解答：直线方程满足 $x=0$，即直线在 $x=0$ 平面内，而 $x=0$ 即为 $yoz$ 面，所以直线在 $yoz$ 面内。",
+  "sort_order": 7
+}

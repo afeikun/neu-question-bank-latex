@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L:x=t,y=t^2,z=t^3$（$0\\le t\\le1$）按参数增大方向，求 $\\int_L(y^2-z^2)dx+2yzdy-x^2dz$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{35}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$11$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解：由题意，原式\n\n$$\n\\begin{aligned}\n&=\\int_0^1\\left\\{(t^4-t^6)+4t^6-3t^4\\right\\}\\,\\mathrm{d}t\\\\\n&=\\int_0^1(3t^6-2t^4)\\,\\mathrm{d}t\\\\\n&=\\frac{1}{35}\n\\end{aligned}\n$$",
+  "search_text": "$L:x=t,y=t^2,z=t^3$（$0\\le t\\le1$）按参数增大方向，求 $\\int_L(y^2-z^2)dx+2yzdy-x^2dz$。 $12$ $\\frac1{35}$ $11$ $0$ 解：由题意，原式\n\n$$\n\\begin{aligned}\n&=\\int_0^1\\left\\{(t^4-t^6)+4t^6-3t^4\\right\\}\\,\\mathrm{d}t\\\\\n&=\\int_0^1(3t^6-2t^4)\\,\\mathrm{d}t\\\\\n&=\\frac{1}{35}\n\\end{aligned}\n$$",
+  "sort_order": 15
+}

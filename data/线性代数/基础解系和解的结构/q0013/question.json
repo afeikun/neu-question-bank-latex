@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设四元非齐次线性方程组 $AX=b$ 的系数矩阵 $A$ 的秩为 $3$，已知 $\\eta_1,\\eta_2,\\eta_3$ 是它的三个解向量，且 $\\eta_1=(4,1,0,2)^T,\\ \\eta_2+\\eta_3=(1,0,1,2)^T$，则通解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X=k(4,1,0,2)^T+(7,2,1,2)^T,\\ k\\in\\mathbb R$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X=k(7,2,1,2)^T+(4,1,0,2)^T,\\ k\\in\\mathbb R$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X=k(4,1,0,2)^T+(-7,-2,1,-2)^T,\\ k\\in\\mathbb R$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X=k(-7,-2,1,-2)^T+(4,1,0,2)^T,\\ k\\in\\mathbb R$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由 $\\eta_2+\\eta_3-2\\eta_1=(-7,-2,1,-2)^T$ 可得齐次方程的解；秩为 $3$，故零空间维数为 $1$。取 $\\eta_1$ 为特解，通解为 $X=k(-7,-2,1,-2)^T+(4,1,0,2)^T$。原答案标记为 opt4，但视觉推导得到的正确选项为 opt2；保留原答案字段并记为 SOURCE_SUSPECTED_ERROR。",
+  "search_text": "设四元非齐次线性方程组 $AX=b$ 的系数矩阵 $A$ 的秩为 $3$，已知 $\\eta_1,\\eta_2,\\eta_3$ 是它的三个解向量，且 $\\eta_1=(4,1,0,2)^T,\\ \\eta_2+\\eta_3=(1,0,1,2)^T$，则通解为（ ）。 $X=k(4,1,0,2)^T+(7,2,1,2)^T,\\ k\\in\\mathbb R$ $X=k(7,2,1,2)^T+(4,1,0,2)^T,\\ k\\in\\mathbb R$ $X=k(4,1,0,2)^T+(-7,-2,1,-2)^T,\\ k\\in\\mathbb R$ $X=k(-7,-2,1,-2)^T+(4,1,0,2)^T,\\ k\\in\\mathbb R$ 由 $\\eta_2+\\eta_3-2\\eta_1=(-7,-2,1,-2)^T$ 可得齐次方程的解；秩为 $3$，故零空间维数为 $1$。取 $\\eta_1$ 为特解，通解为 $X=k(-7,-2,1,-2)^T+(4,1,0,2)^T$。原答案标记为 opt4，但视觉推导得到的正确选项为 opt2；保留原答案字段并记为 SOURCE_SUSPECTED_ERROR。",
+  "sort_order": 13
+}

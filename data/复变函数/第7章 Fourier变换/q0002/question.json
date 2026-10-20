@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\beta>0$ 为常数，已知 $\\mathcal F^{-1}\\left[\\dfrac\\pi\\beta e^{-\\beta|\\omega|}\\right]=\\dfrac1{\\beta^2+t^2}$，则 $\\mathcal F\\left[\\dfrac{t}{(\\beta^2+t^2)^2}\\right]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac{i\\omega\\pi}{2\\beta}e^{-\\beta|\\omega|}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{i\\omega\\pi}{2\\beta}e^{-\\beta|\\omega|}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-e^{-\\beta|\\omega|}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-\\beta|\\omega|}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal F\\left[\\dfrac{t}{(\\beta^2+t^2)^2}\\right]=-\\dfrac{i\\omega}{2}\\mathcal F\\left[\\dfrac1{\\beta^2+t^2}\\right]=-\\dfrac{i\\omega\\pi}{2\\beta}e^{-\\beta|\\omega|}$。",
+  "search_text": "设 $\\beta>0$ 为常数，已知 $\\mathcal F^{-1}\\left[\\dfrac\\pi\\beta e^{-\\beta|\\omega|}\\right]=\\dfrac1{\\beta^2+t^2}$，则 $\\mathcal F\\left[\\dfrac{t}{(\\beta^2+t^2)^2}\\right]=(\\ \\ )$。 $-\\dfrac{i\\omega\\pi}{2\\beta}e^{-\\beta|\\omega|}$ $\\dfrac{i\\omega\\pi}{2\\beta}e^{-\\beta|\\omega|}$ $-e^{-\\beta|\\omega|}$ $e^{-\\beta|\\omega|}$ $\\mathcal F\\left[\\dfrac{t}{(\\beta^2+t^2)^2}\\right]=-\\dfrac{i\\omega}{2}\\mathcal F\\left[\\dfrac1{\\beta^2+t^2}\\right]=-\\dfrac{i\\omega\\pi}{2\\beta}e^{-\\beta|\\omega|}$。",
+  "sort_order": 2
+}

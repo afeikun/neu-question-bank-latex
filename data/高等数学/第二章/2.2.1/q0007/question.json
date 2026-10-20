@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=3\\sin\\sqrt{x},\\ 0<x<\\pi^2/4$，则其反函数 $x=x(y)$ 的导数 $dx/dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\sqrt{x}/(2\\cot\\sqrt{x})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\sqrt{x}/(3\\cot\\sqrt{x})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\sqrt{x}/(3\\cos\\sqrt{x})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\sqrt{x}/(2\\cos\\sqrt{x})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$dy/dx=3\\cos\\sqrt{x}/(2\\sqrt{x})$，故 $dx/dy=2\\sqrt{x}/(3\\cos\\sqrt{x})$。",
+  "search_text": "设 $y=3\\sin\\sqrt{x},\\ 0<x<\\pi^2/4$，则其反函数 $x=x(y)$ 的导数 $dx/dy=$（ ）。 $3\\sqrt{x}/(2\\cot\\sqrt{x})$ $2\\sqrt{x}/(3\\cot\\sqrt{x})$ $2\\sqrt{x}/(3\\cos\\sqrt{x})$ $3\\sqrt{x}/(2\\cos\\sqrt{x})$ $dy/dx=3\\cos\\sqrt{x}/(2\\sqrt{x})$，故 $dx/dy=2\\sqrt{x}/(3\\cos\\sqrt{x})$。",
+  "sort_order": 7
+}

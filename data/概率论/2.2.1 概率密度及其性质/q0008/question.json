@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\varphi(x)=\\frac{x}{c}e^{-x^2/(2c)}$（$x>0$），其余为0，求$c$的条件。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "任意正常数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "仅取1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "仅取-1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "任意非零常数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "当$c>0$时积分为$[-e^{-x^2/(2c)}]_0^\\infty=1$，故$c$可取任意正数。",
+  "search_text": "$\\varphi(x)=\\frac{x}{c}e^{-x^2/(2c)}$（$x>0$），其余为0，求$c$的条件。 任意正常数 仅取1 仅取-1 任意非零常数 当$c>0$时积分为$[-e^{-x^2/(2c)}]_0^\\infty=1$，故$c$可取任意正数。",
+  "sort_order": 8
+}

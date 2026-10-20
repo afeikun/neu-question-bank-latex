@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x^2\\left(\\frac{dy}{dx}\\right)^2+3xy\\frac{dy}{dx}+3y^2=0$ 的解的情况是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不确定"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无穷解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "只有零解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无零解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答对所给微分方程配方，得\n\n$$\n\\left(x\\frac{dy}{dx}+\\frac{3}{2}y\\right)^2+\\frac{3}{4}y^2=0，\n$$\n\n由此必有\n\n$$\nx\\frac{dy}{dx}+\\frac{3}{2}y=0\n$$\n\n且 $y=0$，由此必有\n\n$$\nx\\frac{dy}{dx}+\\frac{3}{2}y=0，\n$$\n\n即\n\n$$\nx\\frac{dy}{dx}=0，\n$$\n\n即 $\\frac{dy}{dx}=0$，因此 $y(x)$ 必为常数，从而 $y(x)=0$，故选择 $B$。",
+  "search_text": "方程 $x^2\\left(\\frac{dy}{dx}\\right)^2+3xy\\frac{dy}{dx}+3y^2=0$ 的解的情况是（ ） 不确定 无穷解 只有零解 无零解 解答对所给微分方程配方，得\n\n$$\n\\left(x\\frac{dy}{dx}+\\frac{3}{2}y\\right)^2+\\frac{3}{4}y^2=0，\n$$\n\n由此必有\n\n$$\nx\\frac{dy}{dx}+\\frac{3}{2}y=0\n$$\n\n且 $y=0$，由此必有\n\n$$\nx\\frac{dy}{dx}+\\frac{3}{2}y=0，\n$$\n\n即\n\n$$\nx\\frac{dy}{dx}=0，\n$$\n\n即 $\\frac{dy}{dx}=0$，因此 $y(x)$ 必为常数，从而 $y(x)=0$，故选择 $B$。",
+  "sort_order": 10
+}

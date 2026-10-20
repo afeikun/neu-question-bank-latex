@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 与 $\\beta_1,\\beta_2,\\beta_3$ 是 $\\mathbb{R}^3$ 的两组基，已知由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $A$，那么由基 $\\beta_1,\\beta_2,\\beta_3$ 到基 $\\alpha_1,\\alpha_2,\\alpha_3$ 的过渡矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A^{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为 $(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1,\\alpha_2,\\alpha_3)A$，且过渡矩阵 $A$ 可逆，所以 $(\\alpha_1,\\alpha_2,\\alpha_3)=(\\beta_1,\\beta_2,\\beta_3)A^{-1}$。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 与 $\\beta_1,\\beta_2,\\beta_3$ 是 $\\mathbb{R}^3$ 的两组基，已知由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $A$，那么由基 $\\beta_1,\\beta_2,\\beta_3$ 到基 $\\alpha_1,\\alpha_2,\\alpha_3$ 的过渡矩阵为（ ）。 $A^{-1}$ $A^2$ $A^{-2}$ $A$ 因为 $(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1,\\alpha_2,\\alpha_3)A$，且过渡矩阵 $A$ 可逆，所以 $(\\alpha_1,\\alpha_2,\\alpha_3)=(\\beta_1,\\beta_2,\\beta_3)A^{-1}$。",
+  "sort_order": 32
+}

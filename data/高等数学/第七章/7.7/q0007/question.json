@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=1+\\frac{x^2}{6}+\\frac{y^2}{12}+\\frac{z^2}{18}$，求点 $(1,2,3)$ 沿单位向量 $(1,1,1)/\\sqrt3$ 的方向导数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt3}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac3{\\sqrt3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial u}{\\partial x}\\right|_{(1,2,3)}=\\frac{1}{3}，\\quad \\left.\\frac{\\partial u}{\\partial y}\\right|_{(1,2,3)}=\\left.\\frac{y}{6}\\right|_{(1,2,3)}=\\frac{1}{3}，\\quad \\left.\\frac{\\partial u}{\\partial z}\\right|_{(1,2,3)}=\\left.\\frac{z}{9}\\right|_{(1,2,3)}=\\frac{1}{3}$$\n\n则\n\n$$\\left.\\frac{\\partial u}{\\partial n}\\right|_{(1,2,3)}=\\frac{1}{3}\\cdot\\frac{1}{\\sqrt{3}}+\\frac{1}{3}\\cdot\\frac{1}{\\sqrt{3}}+\\frac{1}{3}\\cdot\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}。$$",
+  "search_text": "设 $u=1+\\frac{x^2}{6}+\\frac{y^2}{12}+\\frac{z^2}{18}$，求点 $(1,2,3)$ 沿单位向量 $(1,1,1)/\\sqrt3$ 的方向导数。 $\\frac{\\sqrt3}{3}$ $\\frac3{\\sqrt3}$ 1 $\\frac13$ $$\\left.\\frac{\\partial u}{\\partial x}\\right|_{(1,2,3)}=\\frac{1}{3}，\\quad \\left.\\frac{\\partial u}{\\partial y}\\right|_{(1,2,3)}=\\left.\\frac{y}{6}\\right|_{(1,2,3)}=\\frac{1}{3}，\\quad \\left.\\frac{\\partial u}{\\partial z}\\right|_{(1,2,3)}=\\left.\\frac{z}{9}\\right|_{(1,2,3)}=\\frac{1}{3}$$\n\n则\n\n$$\\left.\\frac{\\partial u}{\\partial n}\\right|_{(1,2,3)}=\\frac{1}{3}\\cdot\\frac{1}{\\sqrt{3}}+\\frac{1}{3}\\cdot\\frac{1}{\\sqrt{3}}+\\frac{1}{3}\\cdot\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}。$$",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$d(\\frac{\\ln x}{\\sqrt{x}})=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$(2+\\ln x)/(2x\\sqrt{x})dx$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$(2+\\ln x)/(2\\sqrt{x})dx$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$(2-\\ln x)/(2x\\sqrt{x})dx$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$(2-\\ln x)/(2\\sqrt{x})dx$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "求导得 $(2-\\ln x)/(2x\\sqrt{x})dx$。",
+  "search_text": "$d(\\frac{\\ln x}{\\sqrt{x}})=$（ ）。 $$(2+\\ln x)/(2x\\sqrt{x})dx$$ $$(2+\\ln x)/(2\\sqrt{x})dx$$ $$(2-\\ln x)/(2x\\sqrt{x})dx$$ $$(2-\\ln x)/(2\\sqrt{x})dx$$ 求导得 $(2-\\ln x)/(2x\\sqrt{x})dx$。",
+  "sort_order": 4
+}

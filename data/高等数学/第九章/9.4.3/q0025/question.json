@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Sigma$ 是以原点为中心，边长为 $a$ 的正立方体的整个表面的外侧，则 $\\iint_\\Sigma(x+y)dydz+(y+z)dzdx+(z+x)dxdy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 的顶部 $\\Sigma_1:z=\\frac a2\\ (|x|\\le\\frac a2,|y|\\le\\frac a2)$ 取上侧，$\\Sigma$ 的底部 $\\Sigma_2:z=-\\frac a2\\ (|x|\\le\\frac a2,|y|\\le\\frac a2)$ 取下侧，利用对称性。\n\n原式$=3\\iint_\\Sigma(z+x)dxdy=3\\left[\\iint_{\\Sigma_1}(z+x)dxdy+\\iint_{\\Sigma_2}(z+x)dxdy\\right]=3\\left[\\iint_{D_{xy}}(\\frac a2+x)dxdy-\\iint_{D_{xy}}(-\\frac a2+x)dxdy\\right]=3a\\iint_{D_{xy}}dxdy=3a^3$。\n\n图示：正立方体内部画有三条坐标轴，标为 $x,y,Z$ 并标有正向箭头；部分棱和坐标轴用虚线表示。",
+  "search_text": "$\\Sigma$ 是以原点为中心，边长为 $a$ 的正立方体的整个表面的外侧，则 $\\iint_\\Sigma(x+y)dydz+(y+z)dzdx+(z+x)dxdy=$（ ）。 $2a^3$ $0$ $3a^3$ $a^3$ 解答 $\\Sigma$ 的顶部 $\\Sigma_1:z=\\frac a2\\ (|x|\\le\\frac a2,|y|\\le\\frac a2)$ 取上侧，$\\Sigma$ 的底部 $\\Sigma_2:z=-\\frac a2\\ (|x|\\le\\frac a2,|y|\\le\\frac a2)$ 取下侧，利用对称性。\n\n原式$=3\\iint_\\Sigma(z+x)dxdy=3\\left[\\iint_{\\Sigma_1}(z+x)dxdy+\\iint_{\\Sigma_2}(z+x)dxdy\\right]=3\\left[\\iint_{D_{xy}}(\\frac a2+x)dxdy-\\iint_{D_{xy}}(-\\frac a2+x)dxdy\\right]=3a\\iint_{D_{xy}}dxdy=3a^3$。\n\n图示：正立方体内部画有三条坐标轴，标为 $x,y,Z$ 并标有正向箭头；部分棱和坐标轴用虚线表示。",
+  "sort_order": 25
+}

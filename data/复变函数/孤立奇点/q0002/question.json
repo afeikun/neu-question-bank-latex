@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=\\dfrac\\pi3$ 为函数 $f(z)=\\dfrac{\\sin(z-\\pi/3)}{3z-\\pi}$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可去奇点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "一级极点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "一级零点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "本性奇点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=\\dfrac\\pi3$ 为 $\\sin(z-\\pi/3)$ 的一级零点，也为 $3z-\\pi$ 的一级零点，故该点是可去奇点。",
+  "search_text": "$z=\\dfrac\\pi3$ 为函数 $f(z)=\\dfrac{\\sin(z-\\pi/3)}{3z-\\pi}$ 的（ ）。 可去奇点 一级极点 一级零点 本性奇点 $z=\\dfrac\\pi3$ 为 $\\sin(z-\\pi/3)$ 的一级零点，也为 $3z-\\pi$ 的一级零点，故该点是可去奇点。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若线性空间 $\\mathbb R[x]_3$ 中线性变换 $T$ 满足：$T(x^2+x-2)=x^2+1$，$T(x-1)=2x+1$，$T(1)=x$，则 $T$ 在基 $\\alpha_1=x^2+x-2$，$\\alpha_2=x-1$，$\\alpha_3=1$ 下的矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\1&1&1\\\\-2&-1&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\1&2&1\\\\2&1&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\-1&2&1\\\\2&3&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\0&2&1\\\\1&1&0\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$T(\\alpha_1)=x^2+1=\\alpha_1-\\alpha_2+2\\alpha_3$，$T(\\alpha_2)=2x+1=2\\alpha_2+3\\alpha_3$，$T(\\alpha_3)=x=\\alpha_2+\\alpha_3$，故矩阵为 $\\begin{pmatrix}1&0&0\\\\-1&2&1\\\\2&3&1\\end{pmatrix}$。",
+  "search_text": "若线性空间 $\\mathbb R[x]_3$ 中线性变换 $T$ 满足：$T(x^2+x-2)=x^2+1$，$T(x-1)=2x+1$，$T(1)=x$，则 $T$ 在基 $\\alpha_1=x^2+x-2$，$\\alpha_2=x-1$，$\\alpha_3=1$ 下的矩阵为（ ）。 $\\begin{pmatrix}1&0&0\\\\1&1&1\\\\-2&-1&1\\end{pmatrix}$ $\\begin{pmatrix}1&0&0\\\\1&2&1\\\\2&1&1\\end{pmatrix}$ $\\begin{pmatrix}1&0&0\\\\-1&2&1\\\\2&3&1\\end{pmatrix}$ $\\begin{pmatrix}1&0&0\\\\0&2&1\\\\1&1&0\\end{pmatrix}$ $T(\\alpha_1)=x^2+1=\\alpha_1-\\alpha_2+2\\alpha_3$，$T(\\alpha_2)=2x+1=2\\alpha_2+3\\alpha_3$，$T(\\alpha_3)=x=\\alpha_2+\\alpha_3$，故矩阵为 $\\begin{pmatrix}1&0&0\\\\-1&2&1\\\\2&3&1\\end{pmatrix}$。",
+  "sort_order": 13
+}

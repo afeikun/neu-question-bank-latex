@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 先从 $O$ 沿 $y=x^2$ 到 $A(1,1)$，再沿直线 $y=x$ 回到原点，计算 $\\oint_L\\arctan(y/x)dy-dx$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac45$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解：$$I_1=\\int_{OA}\\arctan\\frac{y}{x}dy-dx=\\int_0^1(2x\\arctan x-1)dx$$\n$$=[x^2\\arctan x-x+\\arctan x-x]^1_0=\\frac{\\pi}{2}-2$$\n$$I_2=\\int_{AO}\\arctan\\frac{y}{x}dy-dx=\\int_1^0(\\arctan1-1)dx=1-\\frac{\\pi}{4}$$\n所以原式$$=I_1+I_2=\\frac{\\pi}{2}-2+1-\\frac{\\pi}{4}=\\frac{\\pi}{4}-1$$",
+  "search_text": "$L$ 先从 $O$ 沿 $y=x^2$ 到 $A(1,1)$，再沿直线 $y=x$ 回到原点，计算 $\\oint_L\\arctan(y/x)dy-dx$。 $\\frac\\pi4$ $\\frac\\pi4-1$ $-1$ $\\frac45$ 解：$$I_1=\\int_{OA}\\arctan\\frac{y}{x}dy-dx=\\int_0^1(2x\\arctan x-1)dx$$\n$$=[x^2\\arctan x-x+\\arctan x-x]^1_0=\\frac{\\pi}{2}-2$$\n$$I_2=\\int_{AO}\\arctan\\frac{y}{x}dy-dx=\\int_1^0(\\arctan1-1)dx=1-\\frac{\\pi}{4}$$\n所以原式$$=I_1+I_2=\\frac{\\pi}{2}-2+1-\\frac{\\pi}{4}=\\frac{\\pi}{4}-1$$",
+  "sort_order": 24
+}

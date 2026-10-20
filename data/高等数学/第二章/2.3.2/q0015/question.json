@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=\\sin^2x$，则 $y^{(100)}(0)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$-2^{99}$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$2^{100}$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$2^{99}$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$-2^{100}$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y\\prime=\\sin2x$，故 $y^{(100)}(0)=-2^{99}$。",
+  "search_text": "$y=\\sin^2x$，则 $y^{(100)}(0)=$（ ）。 $$-2^{99}$$ $$2^{100}$$ $$2^{99}$$ $$-2^{100}$$ $y\\prime=\\sin2x$，故 $y^{(100)}(0)=-2^{99}$。",
+  "sort_order": 15
+}

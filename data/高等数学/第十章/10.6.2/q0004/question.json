@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime+2y\\prime+5y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^{-2x}(C_1\\cos x+C_2\\sin x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{2x}(C_1\\cos x+C_2\\sin x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^{-x}(C_1\\cos2x+C_2\\sin2x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^x(C_1\\cos2x+C_2\\sin2x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 特征方程为 $\\lambda^2+2\\lambda+5=0$，特征根为 $\\lambda=-1\\pm2i$，\n\n故方程的通解为 $y=e^{-x}(C_1\\cos2x+C_2\\sin2x)$。\n\n因此选 D。",
+  "search_text": "微分方程 $y\\prime\\prime+2y\\prime+5y=0$ 的通解为（ ） $y=e^{-2x}(C_1\\cos x+C_2\\sin x)$ $y=e^{2x}(C_1\\cos x+C_2\\sin x)$ $y=e^{-x}(C_1\\cos2x+C_2\\sin2x)$ $y=e^x(C_1\\cos2x+C_2\\sin2x)$ 解答 特征方程为 $\\lambda^2+2\\lambda+5=0$，特征根为 $\\lambda=-1\\pm2i$，\n\n故方程的通解为 $y=e^{-x}(C_1\\cos2x+C_2\\sin2x)$。\n\n因此选 D。",
+  "sort_order": 4
+}

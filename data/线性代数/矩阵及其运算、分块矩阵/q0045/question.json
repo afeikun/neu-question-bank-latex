@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&2&3\\\\-1&x&2\\\\0&0&y\\end{pmatrix}$，$B=\\begin{pmatrix}z&1&s\\\\-2&s&t\\\\x&y&z\\end{pmatrix}$，$A+B=\\begin{pmatrix}3&3&2\\\\-3&-2&3\\\\x&y&0\\end{pmatrix}$，则 $x,y$ 分别为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=1,\\ y=2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=-1,\\ y=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=-1,\\ y=-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=1,\\ y=-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$A+B=\\begin{pmatrix}1+z&3&3+s\\\\-3&x+s&2+t\\\\x&y&y+z\\end{pmatrix}$，$\\begin{cases}1+z=3,\\\\3+s=2,\\\\x+s=-2,\\\\2+t=3,\\\\y+z=0\\end{cases}$，$x=-1,y=-2,z=2,s=-1,t=1$。",
+  "search_text": "设 $A=\\begin{pmatrix}1&2&3\\\\-1&x&2\\\\0&0&y\\end{pmatrix}$，$B=\\begin{pmatrix}z&1&s\\\\-2&s&t\\\\x&y&z\\end{pmatrix}$，$A+B=\\begin{pmatrix}3&3&2\\\\-3&-2&3\\\\x&y&0\\end{pmatrix}$，则 $x,y$ 分别为（ ）。 $x=1,\\ y=2$ $x=-1,\\ y=2$ $x=-1,\\ y=-2$ $x=1,\\ y=-2$ $A+B=\\begin{pmatrix}1+z&3&3+s\\\\-3&x+s&2+t\\\\x&y&y+z\\end{pmatrix}$，$\\begin{cases}1+z=3,\\\\3+s=2,\\\\x+s=-2,\\\\2+t=3,\\\\y+z=0\\end{cases}$，$x=-1,y=-2,z=2,s=-1,t=1$。",
+  "sort_order": 45
+}

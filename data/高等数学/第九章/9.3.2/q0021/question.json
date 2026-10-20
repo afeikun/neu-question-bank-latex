@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_Ly^2dx$，$L$ 为从 $A(a,0)$ 沿 $x$ 轴到 $B(-a,0)$ 的线段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac45$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解$L$的方程为$y=0，x从a变到-a$。\n因此$$\\int_Ly^2dx=\\int_a^{-a}0dx=0.\\quad$$",
+  "search_text": "计算 $\\int_Ly^2dx$，$L$ 为从 $A(a,0)$ 沿 $x$ 轴到 $B(-a,0)$ 的线段。 $4$ $\\frac45$ $0$ $3$ 解$L$的方程为$y=0，x从a变到-a$。\n因此$$\\int_Ly^2dx=\\int_a^{-a}0dx=0.\\quad$$",
+  "sort_order": 21
+}

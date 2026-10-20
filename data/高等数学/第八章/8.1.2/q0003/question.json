@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $I=\\iint_Dy[1+xf(x^2+y^2)]\\,dxdy$（其中积分区域 $D$ 由曲线 $y=x^2$ 与 $y=1$ 所围成）的值是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac34$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac45$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac56$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 令 $g(x,y)=xyf(x^2+y^2)$，因为 $D$ 关于 $y$ 轴对称，且 $g(-x,y)=-g(x,y)$，故\n\n$$\\iint_Dxyf(x^2+y^2)\\,dxdy=0\\Rightarrow I=\\iint_Dy\\,dxdy=\\int_{-1}^1dx\\int_{x^2}^1y\\,dy=\\frac{1}{2}\\int_{-1}^1(1-x^4)\\,dx=\\frac{4}{5}$$",
+  "search_text": "二重积分 $I=\\iint_Dy[1+xf(x^2+y^2)]\\,dxdy$（其中积分区域 $D$ 由曲线 $y=x^2$ 与 $y=1$ 所围成）的值是（ ） $\\frac34$ $\\frac45$ $\\frac23$ $\\frac56$ 解答 令 $g(x,y)=xyf(x^2+y^2)$，因为 $D$ 关于 $y$ 轴对称，且 $g(-x,y)=-g(x,y)$，故\n\n$$\\iint_Dxyf(x^2+y^2)\\,dxdy=0\\Rightarrow I=\\iint_Dy\\,dxdy=\\int_{-1}^1dx\\int_{x^2}^1y\\,dy=\\frac{1}{2}\\int_{-1}^1(1-x^4)\\,dx=\\frac{4}{5}$$",
+  "sort_order": 3
+}

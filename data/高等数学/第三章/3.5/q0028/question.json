@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=x^5+x$ 在 $[-2,2]$ 上的最小值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$30$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-34$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-28$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$34$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f\\prime=5x^4+1>0$，故函数递增，最小值为 $f(-2)=-34$。",
+  "search_text": "函数 $f(x)=x^5+x$ 在 $[-2,2]$ 上的最小值为（ ）。 $30$ $-34$ $-28$ $34$ $f\\prime=5x^4+1>0$，故函数递增，最小值为 $f(-2)=-34$。",
+  "sort_order": 28
+}

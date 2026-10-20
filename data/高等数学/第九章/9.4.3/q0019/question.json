@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $S$ 是球面 $x^2+y^2+z^2=1$ 的外侧，则 $I=\\iint_S\\frac{2dydz}{x\\cos^2x}-\\frac{dzdx}{y\\cos^2y}-\\frac{dxdy}{z\\cos^2z}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi\\sec1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi\\tan1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi\\tan1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi\\sec1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 利用轮换对称性，有\n$$\\iint_S\\frac{2dydz}{x\\cos^2x}=\\iint_S\\frac{2dxdy}{z\\cos^2z}，\\quad\\iint_S\\frac{dzdx}{\\cos^2y}=\\iint_S\\frac{dxdy}{\\cos^2z}=0，$$\n$$I=\\iint_S\\frac{dxdy}{z\\cos^2z}=2\\iint_{x^2+y^2\\le1}\\frac{dxdy}{\\sqrt{1-x^2-y^2}\\cos^2\\sqrt{1-x^2-y^2}}=2\\int_0^{2\\pi}d\\theta\\int_0^1\\frac{rdr}{\\sqrt{1-r^2}\\cos^2\\sqrt{1-r^2}}$$\n$$=-4\\pi\\int_0^1\\frac{d\\sqrt{1-r^2}}{\\cos^2\\sqrt{1-r^2}}=4\\pi\\tan1。$$",
+  "search_text": "设 $S$ 是球面 $x^2+y^2+z^2=1$ 的外侧，则 $I=\\iint_S\\frac{2dydz}{x\\cos^2x}-\\frac{dzdx}{y\\cos^2y}-\\frac{dxdy}{z\\cos^2z}=$（ ） $2\\pi\\sec1$ $4\\pi\\tan1$ $2\\pi\\tan1$ $4\\pi\\sec1$ 解答 利用轮换对称性，有\n$$\\iint_S\\frac{2dydz}{x\\cos^2x}=\\iint_S\\frac{2dxdy}{z\\cos^2z}，\\quad\\iint_S\\frac{dzdx}{\\cos^2y}=\\iint_S\\frac{dxdy}{\\cos^2z}=0，$$\n$$I=\\iint_S\\frac{dxdy}{z\\cos^2z}=2\\iint_{x^2+y^2\\le1}\\frac{dxdy}{\\sqrt{1-x^2-y^2}\\cos^2\\sqrt{1-x^2-y^2}}=2\\int_0^{2\\pi}d\\theta\\int_0^1\\frac{rdr}{\\sqrt{1-r^2}\\cos^2\\sqrt{1-r^2}}$$\n$$=-4\\pi\\int_0^1\\frac{d\\sqrt{1-r^2}}{\\cos^2\\sqrt{1-r^2}}=4\\pi\\tan1。$$",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是三阶方阵，且 $|A-E|=|A+2E|=|2A+3E|=0$，则 $|2A^*-3E|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$116$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$136$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$126$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$106$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "特征值为 $1,-2,-3/2$，行列式 $|A|=3$，于是 $2A^*-3E$ 的特征值为 $3,-6,-7$，行列式为 126，选项 3。",
+  "search_text": "设 $A$ 是三阶方阵，且 $|A-E|=|A+2E|=|2A+3E|=0$，则 $|2A^*-3E|=(\\quad)$。 $116$ $136$ $126$ $106$ 特征值为 $1,-2,-3/2$，行列式 $|A|=3$，于是 $2A^*-3E$ 的特征值为 $3,-6,-7$，行列式为 126，选项 3。",
+  "sort_order": 26
+}

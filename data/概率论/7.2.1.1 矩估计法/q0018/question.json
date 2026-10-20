@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "样本3.1,2.6,2.8,3.3,2.9,3.2,2.4,2.5，求样本二阶中心矩。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.0975$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.0883$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.0624$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.0075$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar x=2.85$，$n^{-1}\\sum(x_i-\\bar x)^2=0.0975$。",
+  "search_text": "样本3.1,2.6,2.8,3.3,2.9,3.2,2.4,2.5，求样本二阶中心矩。 $0.0975$ $0.0883$ $0.0624$ $0.0075$ $\\bar x=2.85$，$n^{-1}\\sum(x_i-\\bar x)^2=0.0975$。",
+  "sort_order": 18
+}

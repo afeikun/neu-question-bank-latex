@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$W=(aX+3Y)^2,E(X)=E(Y)=0,D(X)=4,D(Y)=16,\\rho_{XY}=-0.5$，求$E(W)$最小值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$108$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$27$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$54$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$81$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(W)=4a^2+144-24a=4[(a-3)^2+27]$，最小值108。",
+  "search_text": "$W=(aX+3Y)^2,E(X)=E(Y)=0,D(X)=4,D(Y)=16,\\rho_{XY}=-0.5$，求$E(W)$最小值。 $108$ $27$ $54$ $81$ $E(W)=4a^2+144-24a=4[(a-3)^2+27]$，最小值108。",
+  "sort_order": 20
+}

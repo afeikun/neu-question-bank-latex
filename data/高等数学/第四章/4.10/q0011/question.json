@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "以每秒 $a$ 的速度向开口向上的半球形容器（半径 $R$）中注水，求水深为 $h(0<h<R)$ 时水面上升速度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{a}{\\pi(2Rh-h^2)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{a}{\\pi h^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{a}{\\pi(R^2-h^2)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{a}{\\pi R^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$V(h)=\\int_0^h\\pi(2Ry-y^2)dy=at$，微分得 $dh/dt=a/[\\pi(2Rh-h^2)]$。",
+  "search_text": "以每秒 $a$ 的速度向开口向上的半球形容器（半径 $R$）中注水，求水深为 $h(0<h<R)$ 时水面上升速度。 $\\frac{a}{\\pi(2Rh-h^2)}$ $\\frac{a}{\\pi h^2}$ $\\frac{a}{\\pi(R^2-h^2)}$ $\\frac{a}{\\pi R^2}$ $V(h)=\\int_0^h\\pi(2Ry-y^2)dy=at$，微分得 $dh/dt=a/[\\pi(2Rh-h^2)]$。",
+  "sort_order": 11
+}

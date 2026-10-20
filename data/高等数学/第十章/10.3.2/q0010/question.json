@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{dy}{dx}+y=e^{-x}$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^x(x+c)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{-x}(x+c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=xe^x+c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=xe^{-x}+c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$y=e^{-\\int1\\,dx}\\left[\\int e^{-x}\\cdot e^{\\int1\\,dx}\\,dx+c\\right]=e^{-x}\\left(\\int e^{-x}\\cdot e^x\\,dx+c\\right)=e^{-x}(x+c)$$",
+  "search_text": "$\\frac{dy}{dx}+y=e^{-x}$ 的通解为（ ） $y=e^x(x+c)$ $y=e^{-x}(x+c)$ $y=xe^x+c$ $y=xe^{-x}+c$ $$y=e^{-\\int1\\,dx}\\left[\\int e^{-x}\\cdot e^{\\int1\\,dx}\\,dx+c\\right]=e^{-x}\\left(\\int e^{-x}\\cdot e^x\\,dx+c\\right)=e^{-x}(x+c)$$",
+  "sort_order": 10
+}

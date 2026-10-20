@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设f(x)在[a,b]上连续，以下说法正确的个数为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "①"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "命题①与③正确，命题②不成立，因此正确命题有2个。",
+  "search_text": "设f(x)在[a,b]上连续，以下说法正确的个数为 ① 0 1 2 命题①与③正确，命题②不成立，因此正确命题有2个。",
+  "sort_order": 33
+}

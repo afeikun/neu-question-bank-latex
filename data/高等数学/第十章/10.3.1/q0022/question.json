@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y^3dx+(2xy^2-1)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=\\frac1{y^2}(\\ln|y|+c)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=\\frac1{y^2}(\\ln|xy|+c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=c-\\frac1{y^2}\\ln|y|$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=\\frac1y(\\ln|y|+c)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将 $x$ 看做 $y$ 的函数，方程化为 $\\frac{dx}{dy}+\\frac{2}{y}x=\\frac{1}{y^3}$，\n\n则方程的通解为\n\n$$x=e^{-\\int\\frac{2}{y}\\,dy}\\left(\\int\\frac{1}{y^3}e^{\\int\\frac{2}{y}\\,dy}\\,dy+c\\right)$$\n\n$$=e^{-2\\ln|y|}\\left(\\int\\frac{1}{y^3}e^{2\\ln|y|}\\,dy+c\\right)$$\n\n$$=\\frac{1}{y^2}(\\ln|y|+c)\\quad(c\\text{为任意常数})$$",
+  "search_text": "微分方程 $y^3dx+(2xy^2-1)dy=0$ 的通解为（ ） $x=\\frac1{y^2}(\\ln|y|+c)$ $x=\\frac1{y^2}(\\ln|xy|+c)$ $x=c-\\frac1{y^2}\\ln|y|$ $x=\\frac1y(\\ln|y|+c)$ 将 $x$ 看做 $y$ 的函数，方程化为 $\\frac{dx}{dy}+\\frac{2}{y}x=\\frac{1}{y^3}$，\n\n则方程的通解为\n\n$$x=e^{-\\int\\frac{2}{y}\\,dy}\\left(\\int\\frac{1}{y^3}e^{\\int\\frac{2}{y}\\,dy}\\,dy+c\\right)$$\n\n$$=e^{-2\\ln|y|}\\left(\\int\\frac{1}{y^3}e^{2\\ln|y|}\\,dy+c\\right)$$\n\n$$=\\frac{1}{y^2}(\\ln|y|+c)\\quad(c\\text{为任意常数})$$",
+  "sort_order": 22
+}

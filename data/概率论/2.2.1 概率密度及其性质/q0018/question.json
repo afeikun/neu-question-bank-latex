@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\varphi(x)=\\cos x$于区间$G$，其余为0，以下哪区间使其成为密度？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[0,\\pi/2]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[0,\\pi]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[-\\pi/2,\\pi]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[3\\pi/2,7\\pi/4]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\cos x$非负且积分为1的区间为$[0,\\pi/2]$。",
+  "search_text": "$\\varphi(x)=\\cos x$于区间$G$，其余为0，以下哪区间使其成为密度？ $[0,\\pi/2]$ $[0,\\pi]$ $[-\\pi/2,\\pi]$ $[3\\pi/2,7\\pi/4]$ $\\cos x$非负且积分为1的区间为$[0,\\pi/2]$。",
+  "sort_order": 18
+}

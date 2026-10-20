@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$D(X)=9,D(Y)=16,\\rho_{XY}=1/2$，求$D(X+Y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$37$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$36$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$38$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$35$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$9+16+2(1/2)(3)(4)=37$。",
+  "search_text": "$D(X)=9,D(Y)=16,\\rho_{XY}=1/2$，求$D(X+Y)$。 $37$ $36$ $38$ $35$ $9+16+2(1/2)(3)(4)=37$。",
+  "sort_order": 8
+}

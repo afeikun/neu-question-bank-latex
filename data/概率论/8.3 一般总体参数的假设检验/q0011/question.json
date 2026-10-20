@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两个总体X、Y均服从两点分布，成功率分别为p1、p2，独立抽样，检验H0:p1=p2，H1:p1≠p2。大样本检验统计量是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U=(\\bar p_1-\\bar p_2)/\\sqrt{\\bar p(1-\\bar p)(1/n_1+1/n_2)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "以第一组样本率估计合并方差的统计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "以第二组样本率估计合并方差的统计量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "以未合并样本率构造错误标准误"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两率相等原假设下用合并率p̄=(n1p̂1+n2p̂2)/(n1+n2)，统计量近似标准正态。",
+  "search_text": "两个总体X、Y均服从两点分布，成功率分别为p1、p2，独立抽样，检验H0:p1=p2，H1:p1≠p2。大样本检验统计量是（）。 $U=(\\bar p_1-\\bar p_2)/\\sqrt{\\bar p(1-\\bar p)(1/n_1+1/n_2)}$ 以第一组样本率估计合并方差的统计量 以第二组样本率估计合并方差的统计量 以未合并样本率构造错误标准误 两率相等原假设下用合并率p̄=(n1p̂1+n2p̂2)/(n1+n2)，统计量近似标准正态。",
+  "sort_order": 11
+}

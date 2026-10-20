@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "I=∫π/4π/2 lnsinx dx，J=∫π/4π/2 lncotx dx，K=∫π/4π/2 lncosx dx，比较大小",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "I<K<J"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "K<J<I"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "J<I<K"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "I<J<K"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在区间上比较三个被积函数的大小。",
+  "search_text": "I=∫π/4π/2 lnsinx dx，J=∫π/4π/2 lncotx dx，K=∫π/4π/2 lncosx dx，比较大小 I<K<J K<J<I J<I<K I<J<K 在区间上比较三个被积函数的大小。",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "椭圆域x²/a²+y²/b²≤1绕x轴旋转所得体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(2/3)πa²b"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(4/3)πab²"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1/3)πa²b"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(4/3)πa²b"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "V=π∫₋aᵃb²(1−x²/a²)dx=4πa b²/3? 依据源解答按椭圆截面公式。",
+  "search_text": "椭圆域x²/a²+y²/b²≤1绕x轴旋转所得体积 (2/3)πa²b (4/3)πab² (1/3)πa²b (4/3)πa²b V=π∫₋aᵃb²(1−x²/a²)dx=4πa b²/3? 依据源解答按椭圆截面公式。",
+  "sort_order": 3
+}

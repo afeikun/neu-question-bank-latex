@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=e^t\\sin2t,\\ y=e^t\\cos2t$ 在 $t=0$ 处的切线方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=-\\frac12x+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y-1=-2x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y-1=2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac12x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=e^t\\sin 2t+2e^t\\cos 2t,\\quad \\frac{dy}{dt}=e^t\\cos 2t-2e^t\\sin 2t,$$\n\n可得\n\n$$\\frac{dy}{dx}\\bigg|_{t=0}=\\frac{dy/dt}{dx/dt}\\bigg|_{t=0}=\\frac{\\cos 2t-2\\sin 2t}{\\sin 2t+2\\cos 2t}\\bigg|_{t=0}=\\frac{1}{2}.$$\n\n带入初值可得 $y(0)=1,x(0)=0$ 则切线方程为 $y-1=\\frac{1}{2}x$",
+  "search_text": "$x=e^t\\sin2t,\\ y=e^t\\cos2t$ 在 $t=0$ 处的切线方程。 $y=-\\frac12x+1$ $y-1=-2x$ $y-1=2x$ $y=\\frac12x+1$ 解答方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=e^t\\sin 2t+2e^t\\cos 2t,\\quad \\frac{dy}{dt}=e^t\\cos 2t-2e^t\\sin 2t,$$\n\n可得\n\n$$\\frac{dy}{dx}\\bigg|_{t=0}=\\frac{dy/dt}{dx/dt}\\bigg|_{t=0}=\\frac{\\cos 2t-2\\sin 2t}{\\sin 2t+2\\cos 2t}\\bigg|_{t=0}=\\frac{1}{2}.$$\n\n带入初值可得 $y(0)=1,x(0)=0$ 则切线方程为 $y-1=\\frac{1}{2}x$",
+  "sort_order": 12
+}

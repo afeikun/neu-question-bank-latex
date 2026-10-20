@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正数列 $\\{a_n\\}$ 单调上升且有界，关于两个级数 $\\sum_{n=1}^{\\infty}(a_{n+1}-a_n)$、$\\sum_{n=1}^{\\infty}(1-a_n/a_{n+1})$ 的正确说法？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)收敛，(2)发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)和(2)都发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)发散，(2)收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)和(2)都收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "(1)望远镜且有界；(2)小于常数倍 $a_{n+1}-a_n$，均收敛。",
+  "search_text": "正数列 $\\{a_n\\}$ 单调上升且有界，关于两个级数 $\\sum_{n=1}^{\\infty}(a_{n+1}-a_n)$、$\\sum_{n=1}^{\\infty}(1-a_n/a_{n+1})$ 的正确说法？ (1)收敛，(2)发散 (1)和(2)都发散 (1)发散，(2)收敛 (1)和(2)都收敛 (1)望远镜且有界；(2)小于常数倍 $a_{n+1}-a_n$，均收敛。",
+  "sort_order": 38
+}

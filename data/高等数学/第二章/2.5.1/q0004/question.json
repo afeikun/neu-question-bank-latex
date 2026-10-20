@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $xy+\\ln y=1$ 确定 $y=f(x)$，求曲线在 $M(1,1)$ 处切线方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+2y+3=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-2y-3=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+2y-3=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-2y+3=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时对$x$求导可得\n$y+xy'+\\frac{y'}{y}=0$，带入初值可得$y'(1)=-\\frac{1}{2}$，则切线方程为$y-1=-\\frac{1}{2}(x-1)$",
+  "search_text": "由 $xy+\\ln y=1$ 确定 $y=f(x)$，求曲线在 $M(1,1)$ 处切线方程。 $x+2y+3=0$ $x-2y-3=0$ $x+2y-3=0$ $x-2y+3=0$ 解答 方程两边同时对$x$求导可得\n$y+xy'+\\frac{y'}{y}=0$，带入初值可得$y'(1)=-\\frac{1}{2}$，则切线方程为$y-1=-\\frac{1}{2}(x-1)$",
+  "sort_order": 4
+}

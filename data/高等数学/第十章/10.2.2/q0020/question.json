@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\prime=\\tan^2(x+y+1)$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+y+1+\\ln(x+y+1)=c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2(x+y+1)+\\sin2(x+y+1)=4x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+y+1-\\tan(x+y)=c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+y+1=\\sin(x+c)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $x+y+1=u$，则 $\\frac{dy}{dx}=\\frac{du}{dx}-1$\n\n代入 $\\frac{du}{dx}=\\sec^2u$，$\\cos^2u\\,du=dx$，$\\frac{1+\\cos2u}{2}du=dx$，\n\n积分 $u+\\frac{1}{2}\\sin2u=2x+C$，$2u+\\sin2u=4x+C$\n\n即 $2(x+y+1)+\\sin2(x+y+1)=4x+C$",
+  "search_text": "方程 $y\\prime=\\tan^2(x+y+1)$ 的通解为（ ） $x+y+1+\\ln(x+y+1)=c$ $2(x+y+1)+\\sin2(x+y+1)=4x+C$ $x+y+1-\\tan(x+y)=c$ $x+y+1=\\sin(x+c)$ 设 $x+y+1=u$，则 $\\frac{dy}{dx}=\\frac{du}{dx}-1$\n\n代入 $\\frac{du}{dx}=\\sec^2u$，$\\cos^2u\\,du=dx$，$\\frac{1+\\cos2u}{2}du=dx$，\n\n积分 $u+\\frac{1}{2}\\sin2u=2x+C$，$2u+\\sin2u=4x+C$\n\n即 $2(x+y+1)+\\sin2(x+y+1)=4x+C$",
+  "sort_order": 20
+}

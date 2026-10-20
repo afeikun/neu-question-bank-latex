@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一个向量终点为 $B(2,-1,7)$，它在 $x,y,z$ 轴上的投影分别为 $4,-4,7$，则该向量的起点 $A$ 的坐标为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2,-3,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(2,3,0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-2,3,0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-2,-3,0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设 $A=(x,y,z)$，则 $\\overrightarrow{AB}=(2-x,-1-y,7-z)$。由投影条件得 $2-x=4$，$-1-y=-4$，$7-z=7$，解得 $A=(-2,3,0)$。",
+  "search_text": "一个向量终点为 $B(2,-1,7)$，它在 $x,y,z$ 轴上的投影分别为 $4,-4,7$，则该向量的起点 $A$ 的坐标为(\\quad)。 $(2,-3,0)$ $(2,3,0)$ $(-2,3,0)$ $(-2,-3,0)$ 设 $A=(x,y,z)$，则 $\\overrightarrow{AB}=(2-x,-1-y,7-z)$。由投影条件得 $2-x=4$，$-1-y=-4$，$7-z=7$，解得 $A=(-2,3,0)$。",
+  "sort_order": 5
+}

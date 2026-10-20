@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设积分路径 $C$ 为从 $1$ 到 $i$ 沿逆时针方向的单位圆周上的一段弧，则 $\\int_C\\ln z\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-\\frac{\\pi}{2}-i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{\\pi}{2}-i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi}{2}i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_C\\ln z\\,dz=(z\\ln z-z)\\big|_1^i=1-\\frac{\\pi}{2}-i$。",
+  "search_text": "设积分路径 $C$ 为从 $1$ 到 $i$ 沿逆时针方向的单位圆周上的一段弧，则 $\\int_C\\ln z\\,dz=(\\quad)$。 $1-\\frac{\\pi}{2}-i$ $1-i$ $-\\frac{\\pi}{2}-i$ $\\frac{\\pi}{2}i$ $\\int_C\\ln z\\,dz=(z\\ln z-z)\\big|_1^i=1-\\frac{\\pi}{2}-i$。",
+  "sort_order": 27
+}

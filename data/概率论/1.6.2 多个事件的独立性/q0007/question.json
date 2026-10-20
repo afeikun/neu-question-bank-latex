@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$A,B,C$为三个事件，且$A,B$相互独立，则以下结论中不正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若$C\\subset B$，则$A$与$C$也独立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若$P(C)=1$，则$AC$与$BC$也独立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若$P(C)=1$，则$A\\cup C$与$B$独立"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若$P(C)=0$，则$A\\cup C$与$B$独立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$C\\subset B$不保证$A$与$C$独立，因此选项1不正确。其余结论由零概率或几乎必然事件可得。",
+  "search_text": "设$A,B,C$为三个事件，且$A,B$相互独立，则以下结论中不正确的是（ ）。 若$C\\subset B$，则$A$与$C$也独立 若$P(C)=1$，则$AC$与$BC$也独立 若$P(C)=1$，则$A\\cup C$与$B$独立 若$P(C)=0$，则$A\\cup C$与$B$独立 $C\\subset B$不保证$A$与$C$独立，因此选项1不正确。其余结论由零概率或几乎必然事件可得。",
+  "sort_order": 7
+}

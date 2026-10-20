@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若方程组 $\\begin{cases}3\\lambda x_1+3x_2+2x_3=0,\\\\x_1+x_2-x_3=0,\\\\(4\\lambda-1)x_1+3x_2+2x_3=0\\end{cases}$ 有非零解，则 $\\lambda$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda\\ne-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda\\ne1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda=-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程组有非零解 $\\Rightarrow |A|=0$，而 $|A|=5-5\\lambda$，故当且仅当 $\\lambda=1$ 时方程组有非零解。",
+  "search_text": "若方程组 $\\begin{cases}3\\lambda x_1+3x_2+2x_3=0,\\\\x_1+x_2-x_3=0,\\\\(4\\lambda-1)x_1+3x_2+2x_3=0\\end{cases}$ 有非零解，则 $\\lambda$ 为（ ）。 $\\lambda=1$ $\\lambda\\ne-1$ $\\lambda\\ne1$ $\\lambda=-1$ 方程组有非零解 $\\Rightarrow |A|=0$，而 $|A|=5-5\\lambda$，故当且仅当 $\\lambda=1$ 时方程组有非零解。",
+  "sort_order": 23
+}

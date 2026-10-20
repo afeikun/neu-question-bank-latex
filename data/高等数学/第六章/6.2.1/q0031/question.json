@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\vec a=2\\vec i-3\\vec j+\\vec k$，$\\vec b=\\vec i-\\vec j+3\\vec k$，$\\vec c=\\vec i-2\\vec j$，则 $(\\vec a\\cdot\\vec b)\\vec c-(\\vec a\\cdot\\vec c)\\vec b$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8\\vec j-24\\vec k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8\\vec j+24\\vec k$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-8\\vec j+24\\vec k$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-8\\vec j-24\\vec k$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "计算 $\\vec a\\cdot\\vec b=8$、$\\vec a\\cdot\\vec c=8$，原式 $=8\\vec c-8\\vec b=-8\\vec j-24\\vec k$。",
+  "search_text": "已知 $\\vec a=2\\vec i-3\\vec j+\\vec k$，$\\vec b=\\vec i-\\vec j+3\\vec k$，$\\vec c=\\vec i-2\\vec j$，则 $(\\vec a\\cdot\\vec b)\\vec c-(\\vec a\\cdot\\vec c)\\vec b$ 为(\\quad)。 $8\\vec j-24\\vec k$ $8\\vec j+24\\vec k$ $-8\\vec j+24\\vec k$ $-8\\vec j-24\\vec k$ 计算 $\\vec a\\cdot\\vec b=8$、$\\vec a\\cdot\\vec c=8$，原式 $=8\\vec c-8\\vec b=-8\\vec j-24\\vec k$。",
+  "sort_order": 31
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y,z)=xy^2+yz^2+zx^2$，下列偏导数计算中错误的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f_{xz}(1,0,2)=2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f_{yz}(0,-1,0)=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f_{zzx}(1,1,1)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f_{xx}(0,0,1)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial f}{\\partial x}=y^2+2xz，\\quad \\frac{\\partial^2f}{\\partial x^2}=2z，\\quad \\frac{\\partial^2f}{\\partial x\\partial z}=2x，\\quad \\frac{\\partial f}{\\partial y}=2xy+z^2，\\quad \\frac{\\partial^2f}{\\partial y\\partial z}=2z，\\quad \\frac{\\partial f}{\\partial z}=2yz+x^2，\\quad \\frac{\\partial^2f}{\\partial z^2}=2y，$\n\n$\\frac{\\partial^3f}{\\partial z^2\\partial x}=0，\\quad \\text{所以}\\quad \\frac{\\partial^2f}{\\partial x^2}(0,0,1)=2，\\quad \\frac{\\partial^2f}{\\partial x\\partial z}(1,0,2)=2，\\quad \\frac{\\partial^2f}{\\partial y\\partial z}(0,-1,0)=0，$\n\n$\\frac{\\partial^3f}{\\partial z^2\\partial x}(1,1,1)=0。$",
+  "search_text": "设 $f(x,y,z)=xy^2+yz^2+zx^2$，下列偏导数计算中错误的是(\\quad)。 $f_{xz}(1,0,2)=2$ $f_{yz}(0,-1,0)=0$ $f_{zzx}(1,1,1)=0$ $f_{xx}(0,0,1)=0$ $\\frac{\\partial f}{\\partial x}=y^2+2xz，\\quad \\frac{\\partial^2f}{\\partial x^2}=2z，\\quad \\frac{\\partial^2f}{\\partial x\\partial z}=2x，\\quad \\frac{\\partial f}{\\partial y}=2xy+z^2，\\quad \\frac{\\partial^2f}{\\partial y\\partial z}=2z，\\quad \\frac{\\partial f}{\\partial z}=2yz+x^2，\\quad \\frac{\\partial^2f}{\\partial z^2}=2y，$\n\n$\\frac{\\partial^3f}{\\partial z^2\\partial x}=0，\\quad \\text{所以}\\quad \\frac{\\partial^2f}{\\partial x^2}(0,0,1)=2，\\quad \\frac{\\partial^2f}{\\partial x\\partial z}(1,0,2)=2，\\quad \\frac{\\partial^2f}{\\partial y\\partial z}(0,-1,0)=0，$\n\n$\\frac{\\partial^3f}{\\partial z^2\\partial x}(1,1,1)=0。$",
+  "sort_order": 25
+}

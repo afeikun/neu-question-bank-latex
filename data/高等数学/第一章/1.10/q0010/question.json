@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}\\tan^n\\left(\\frac\\pi4+\\frac1n\\right)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\tan(\\pi/4+1/n)=\\frac{1+\\tan(1/n)}{1-\\tan(1/n)}$，故极限为 $e^2$。",
+  "search_text": "$\\lim_{n\\to\\infty}\\tan^n\\left(\\frac\\pi4+\\frac1n\\right)=$（ ）。 $e$ $e^2$ $e^{-2}$ $1$ $\\tan(\\pi/4+1/n)=\\frac{1+\\tan(1/n)}{1-\\tan(1/n)}$，故极限为 $e^2$。",
+  "sort_order": 10
+}

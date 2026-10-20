@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $\\mathbb R$ 上可导，方程 $f'(x)=0$ 没有实根，则方程 $f(x)=0$ 最多可以有 $(\\quad)$ 个不同的实根。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "若 $f$ 有两个不同实根，罗尔定理会保证它们之间存在 $\\xi$ 使 $f'(\\xi)=0$，与条件矛盾，故最多一个实根。",
+  "search_text": "函数 $f(x)$ 在 $\\mathbb R$ 上可导，方程 $f'(x)=0$ 没有实根，则方程 $f(x)=0$ 最多可以有 $(\\quad)$ 个不同的实根。 2 3 4 1 若 $f$ 有两个不同实根，罗尔定理会保证它们之间存在 $\\xi$ 使 $f'(\\xi)=0$，与条件矛盾，故最多一个实根。",
+  "sort_order": 16
+}

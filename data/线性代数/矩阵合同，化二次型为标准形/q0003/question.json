@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知三阶实对称矩阵 $A$，其特征值为 $\\lambda_1=\\lambda_2=1,\\lambda_3=4$，设 $B=\\operatorname{diag}(1,1,4)$，则 $A$ 与 $B$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不相似也不合同"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "相似但不合同"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不相似但合同"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "相似且合同"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "实对称矩阵可正交对角化，$A$ 与 $B$ 具有相同特征值，因此相似且合同，选项 4。",
+  "search_text": "已知三阶实对称矩阵 $A$，其特征值为 $\\lambda_1=\\lambda_2=1,\\lambda_3=4$，设 $B=\\operatorname{diag}(1,1,4)$，则 $A$ 与 $B$(\\quad)。 不相似也不合同 相似但不合同 不相似但合同 相似且合同 实对称矩阵可正交对角化，$A$ 与 $B$ 具有相同特征值，因此相似且合同，选项 4。",
+  "sort_order": 3
+}

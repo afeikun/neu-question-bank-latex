@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sum_{n=1}^{\\infty}|u_n|$ 收敛是 $\\sum_{n=1}^{\\infty} u_n^2$ 收敛的什么条件？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必要且充分条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "充分但非必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既非充分也非必要"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "绝对收敛推出 $u_n\\to0$，最终 $|u_n|<1$，故 $u_n^2\\le|u_n|$；反向不成立。",
+  "search_text": "$\\sum_{n=1}^{\\infty}|u_n|$ 收敛是 $\\sum_{n=1}^{\\infty} u_n^2$ 收敛的什么条件？ 必要条件 必要且充分条件 充分但非必要条件 既非充分也非必要 绝对收敛推出 $u_n\\to0$，最终 $|u_n|<1$，故 $u_n^2\\le|u_n|$；反向不成立。",
+  "sort_order": 7
+}

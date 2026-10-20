@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $R$ 的球浸入水中，球心距水面为 $H$，求球表面所受水压力 $P$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi R^2Hg$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi R^2Hg$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi R^2Hg$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5\\pi R^2Hg$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "将球面分层积分，$P=\\int_{-R}^R(H-y)g\\,2\\pi Rdy=4\\pi R^2Hg$。",
+  "search_text": "半径为 $R$ 的球浸入水中，球心距水面为 $H$，求球表面所受水压力 $P$。 $\\pi R^2Hg$ $4\\pi R^2Hg$ $3\\pi R^2Hg$ $5\\pi R^2Hg$ 将球面分层积分，$P=\\int_{-R}^R(H-y)g\\,2\\pi Rdy=4\\pi R^2Hg$。",
+  "sort_order": 6
+}

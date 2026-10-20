@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=z^2\\sqrt{1+z}$（取主值支），则 $f^{(5)}(0)=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$15/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$13/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$17/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$16/3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "展开 $z^2\\sqrt{1+z}$ 后，$z^5$ 系数应为 $1/16$，故五阶导数为 $5!/16=15/2$；原图解析中的系数表述疑似有误。",
+  "search_text": "设 $f(z)=z^2\\sqrt{1+z}$（取主值支），则 $f^{(5)}(0)=\\underline{\\qquad}$。 $15/2$ $13/4$ $17/2$ $16/3$ 展开 $z^2\\sqrt{1+z}$ 后，$z^5$ 系数应为 $1/16$，故五阶导数为 $5!/16=15/2$；原图解析中的系数表述疑似有误。",
+  "sort_order": 16
+}

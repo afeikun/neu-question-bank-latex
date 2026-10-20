@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Gamma$ 是螺旋线 $x=a\\cos t,y=a\\sin t,z=Kt$ 上对应 $t=0$ 到 $t=2\\pi$ 的弧段，则曲线积分 $I=\\int_\\Gamma(x^2+y^2+z^2)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac23\\pi\\sqrt{a^2+K^2}(3a^2+4K^2\\pi^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23\\pi\\sqrt{a^2+K^2}(3a^2-4\\pi^2K^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi\\sqrt{a^2+K^2}(3a^2+4K^2\\pi^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi\\sqrt{a^2+K^2}(3a^2+4K^2\\pi^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答\n\n$$\nI=\\int_0^{2\\pi}(a^2+K^2t^2)\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt=\\int_0^{2\\pi}(a^2+K^2t^2)\\sqrt{a^2+K^2}\\,dt\n$$\n\n$$\n=2\\pi a^2\\sqrt{a^2+K^2}+\\frac{8\\pi^3K^2}{3}\\sqrt{a^2+K^2}=\\frac{2\\pi}{3}\\sqrt{a^2+K^2}(3a^2+4K^2\\pi^2)\n$$",
+  "search_text": "设 $\\Gamma$ 是螺旋线 $x=a\\cos t,y=a\\sin t,z=Kt$ 上对应 $t=0$ 到 $t=2\\pi$ 的弧段，则曲线积分 $I=\\int_\\Gamma(x^2+y^2+z^2)ds=$（ ） $\\frac23\\pi\\sqrt{a^2+K^2}(3a^2+4K^2\\pi^2)$ $\\frac23\\pi\\sqrt{a^2+K^2}(3a^2-4\\pi^2K^2)$ $\\pi\\sqrt{a^2+K^2}(3a^2+4K^2\\pi^2)$ $2\\pi\\sqrt{a^2+K^2}(3a^2+4K^2\\pi^2)$ 解答\n\n$$\nI=\\int_0^{2\\pi}(a^2+K^2t^2)\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt=\\int_0^{2\\pi}(a^2+K^2t^2)\\sqrt{a^2+K^2}\\,dt\n$$\n\n$$\n=2\\pi a^2\\sqrt{a^2+K^2}+\\frac{8\\pi^3K^2}{3}\\sqrt{a^2+K^2}=\\frac{2\\pi}{3}\\sqrt{a^2+K^2}(3a^2+4K^2\\pi^2)\n$$",
+  "sort_order": 33
+}

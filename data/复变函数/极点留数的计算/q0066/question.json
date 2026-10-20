@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac{2z-3\\pi}{\\cos^2z},\\frac{3\\pi}{2}\\right)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "用二级极点极限公式，结果为 $2$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac{2z-3\\pi}{\\cos^2z},\\frac{3\\pi}{2}\\right)=(\\ )$。 $2$ $-2$ $4$ $-4$ 用二级极点极限公式，结果为 $2$。",
+  "sort_order": 66
+}

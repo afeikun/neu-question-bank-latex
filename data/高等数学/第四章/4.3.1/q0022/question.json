@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f连续，以下变限积分函数中必为偶函数的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀ˣ t[f(t)+f(−t)]dt"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₀ˣ[f(t)]²dt"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀ˣ t[f(t)−f(−t)]dt"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀ˣf(t²)dt"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一项的被积函数为奇函数，其积分函数为偶函数。",
+  "search_text": "f连续，以下变限积分函数中必为偶函数的是 ∫₀ˣ t[f(t)+f(−t)]dt ∫₀ˣ[f(t)]²dt ∫₀ˣ t[f(t)−f(−t)]dt ∫₀ˣf(t²)dt 第一项的被积函数为奇函数，其积分函数为偶函数。",
+  "sort_order": 22
+}

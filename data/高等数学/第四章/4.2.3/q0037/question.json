@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "I₁=∫₀¹(x+4)dx，I₂=∫₀¹(x²−x−4)dx，比较大小",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "I₁＜I₂"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "I₁＞I₂"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "I₁＝I₂"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无法判断 I₁ 与 I₂ 的大小关系"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "差函数为8+2x−x²>0。",
+  "search_text": "I₁=∫₀¹(x+4)dx，I₂=∫₀¹(x²−x−4)dx，比较大小 I₁＜I₂ I₁＞I₂ I₁＝I₂ 无法判断 I₁ 与 I₂ 的大小关系 差函数为8+2x−x²>0。",
+  "sort_order": 37
+}

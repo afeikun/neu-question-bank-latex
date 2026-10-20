@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $y=x^3-8x+7$ 和 $x=f(t)$，设 $t=0$ 时 $x=3,f\\prime(0)=2$，则 $t=0$ 时 $dy/dt=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$38$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$-8$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$-19$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$19$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$dy/dt=(3x^2-8)f\\prime(t)$，代入得 $38$。",
+  "search_text": "已知 $y=x^3-8x+7$ 和 $x=f(t)$，设 $t=0$ 时 $x=3,f\\prime(0)=2$，则 $t=0$ 时 $dy/dt=$（ ）。 $$38$$ $$-8$$ $$-19$$ $$19$$ $dy/dt=(3x^2-8)f\\prime(t)$，代入得 $38$。",
+  "sort_order": 44
+}

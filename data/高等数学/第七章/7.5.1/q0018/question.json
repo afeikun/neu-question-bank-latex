@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $x^2+y^2-1=0$（$y=f(x)>0$）的一阶导数在 $x=0$ 处的值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "函数的一阶导数为\n\n$$\n\\frac{dy}{dx}=-\\frac{F_x}{F_y}=-\\frac{x}{y},\\quad \\left.\\frac{dy}{dx}\\right|_{x=0}=0\n$$",
+  "search_text": "函数 $x^2+y^2-1=0$（$y=f(x)>0$）的一阶导数在 $x=0$ 处的值为。 -1 2 0 1 函数的一阶导数为\n\n$$\n\\frac{dy}{dx}=-\\frac{F_x}{F_y}=-\\frac{x}{y},\\quad \\left.\\frac{dy}{dx}\\right|_{x=0}=0\n$$",
+  "sort_order": 18
+}

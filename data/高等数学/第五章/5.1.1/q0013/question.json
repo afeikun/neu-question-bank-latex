@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\sum_{n=1}^{\\infty}u_{2n}=\\sum_{n=1}^{\\infty}(-1)^nu_n=3$，求 $\\sum_{n=1}^{\\infty}u_n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "交错和等于偶数项和减奇数项和，已知两者均为 $3$，故奇数项和为 $0$，总和为 $3$。",
+  "search_text": "已知 $\\sum_{n=1}^{\\infty}u_{2n}=\\sum_{n=1}^{\\infty}(-1)^nu_n=3$，求 $\\sum_{n=1}^{\\infty}u_n$。 $-6$ $6$ $3$ $0$ 交错和等于偶数项和减奇数项和，已知两者均为 $3$，故奇数项和为 $0$，总和为 $3$。",
+  "sort_order": 13
+}

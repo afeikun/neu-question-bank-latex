@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\cos29^\\circ$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.87476$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.87673$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.87403$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.87368$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "取 $f(x)=\\cos x$，则 $f'(x)=-\\sin x$，$f'(30^\\circ)=-\\frac12$。因此 $\\cos29^\\circ\\approx\\cos30^\\circ+f'(30^\\circ)\\left(-\\frac{\\pi}{180}\\right)=\\frac{\\sqrt3}{2}+\\frac12\\cdot\\frac{\\pi}{180}\\approx0.87476$。",
+  "search_text": "$\\cos29^\\circ$ 的近似值为 $(\\quad)$。 $0.87476$ $0.87673$ $0.87403$ $0.87368$ 取 $f(x)=\\cos x$，则 $f'(x)=-\\sin x$，$f'(30^\\circ)=-\\frac12$。因此 $\\cos29^\\circ\\approx\\cos30^\\circ+f'(30^\\circ)\\left(-\\frac{\\pi}{180}\\right)=\\frac{\\sqrt3}{2}+\\frac12\\cdot\\frac{\\pi}{180}\\approx0.87476$。",
+  "sort_order": 18
+}

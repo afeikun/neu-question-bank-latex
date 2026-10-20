@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列计算过程中不正确的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀^{2π}cos x sin x dx=(1/2)sin²x|₀^{2π}=0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₁²(x+1/x)²dx=29/6"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₄⁹√x(1+√x)dx=271/6"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀²x/(1−x²)dx=−(1/2)ln3"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "第四个积分在x=1处有不可积奇点，不能按普通原函数跨越奇点计算。",
+  "search_text": "下列计算过程中不正确的是 ∫₀^{2π}cos x sin x dx=(1/2)sin²x|₀^{2π}=0 ∫₁²(x+1/x)²dx=29/6 ∫₄⁹√x(1+√x)dx=271/6 ∫₀²x/(1−x²)dx=−(1/2)ln3 第四个积分在x=1处有不可积奇点，不能按普通原函数跨越奇点计算。",
+  "sort_order": 1
+}

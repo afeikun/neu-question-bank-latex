@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 在 $(1-\\delta,1+\\delta)$ 内二阶可导，$f\\prime(x)$ 严格单调减少，且 $f(1)=f\\prime(1)=1$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "左邻域 $f(x)>x$，右邻域 $f(x)<x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "两侧邻域都有 $f(x)>x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "两侧邻域都有 $f(x)<x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "左邻域 $f(x)<x$，右邻域 $f(x)>x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $h(x)=x-f(x)$，则 $h\\prime(x)=1-f\\prime(x)$。因 $f\\prime$ 严格递减且 $f\\prime(1)=1$，左侧 $h$ 递减、右侧 $h$ 递增，且 $h(1)=0$，故两侧 $h(x)>0$，即 $f(x)<x$。",
+  "search_text": "$f(x)$ 在 $(1-\\delta,1+\\delta)$ 内二阶可导，$f\\prime(x)$ 严格单调减少，且 $f(1)=f\\prime(1)=1$，则（ ）。 左邻域 $f(x)>x$，右邻域 $f(x)<x$ 两侧邻域都有 $f(x)>x$ 两侧邻域都有 $f(x)<x$ 左邻域 $f(x)<x$，右邻域 $f(x)>x$ 令 $h(x)=x-f(x)$，则 $h\\prime(x)=1-f\\prime(x)$。因 $f\\prime$ 严格递减且 $f\\prime(1)=1$，左侧 $h$ 递减、右侧 $h$ 递增，且 $h(1)=0$，故两侧 $h(x)>0$，即 $f(x)<x$。",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(z)$ 在简单闭曲线 $C$ 所围区域内除 $z=z_0$ 外解析，且 $z_0$ 是 $f(z)$ 的 $k$ 级极点，当 $\\phi(z)=(z-z_0)^kf(z)$ 时，积分 $\\displaystyle\\oint_Cf(z)\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{2\\pi i}{(k-1)!}\\phi^{(k-1)}(z_0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{2\\pi i}{(k+1)!}\\phi^{(k+1)}(z_0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{2\\pi i}{k!}\\phi^{(k)}(z_0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{2\\pi i}{(k-2)!}\\phi^{(k-2)}(z_0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由留数定理，$\\operatorname{Res}[f,z_0]=\\phi^{(k-1)}(z_0)/(k-1)!$，故积分为 $2\\pi i\\phi^{(k-1)}(z_0)/(k-1)!$。",
+  "search_text": "若 $f(z)$ 在简单闭曲线 $C$ 所围区域内除 $z=z_0$ 外解析，且 $z_0$ 是 $f(z)$ 的 $k$ 级极点，当 $\\phi(z)=(z-z_0)^kf(z)$ 时，积分 $\\displaystyle\\oint_Cf(z)\\,dz=(\\ \\ )$。 $\\dfrac{2\\pi i}{(k-1)!}\\phi^{(k-1)}(z_0)$ $\\dfrac{2\\pi i}{(k+1)!}\\phi^{(k+1)}(z_0)$ $\\dfrac{2\\pi i}{k!}\\phi^{(k)}(z_0)$ $\\dfrac{2\\pi i}{(k-2)!}\\phi^{(k-2)}(z_0)$ 由留数定理，$\\operatorname{Res}[f,z_0]=\\phi^{(k-1)}(z_0)/(k-1)!$，故积分为 $2\\pi i\\phi^{(k-1)}(z_0)/(k-1)!$。",
+  "sort_order": 101
+}

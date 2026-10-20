@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=c\\lambda e^{-\\lambda x}$（$x>a$），其余0，求常数关系及$P(a-1<X\\le a+1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P=e^{-\\lambda}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$c=e^{\\lambda a}-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P=1-e^{-\\lambda}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$c=e^{\\lambda a}+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "归一化得$c=e^{\\lambda a}$；区间与支持集相交为$(a,a+1]$，概率$1-e^{-\\lambda}$。",
+  "search_text": "$f(x)=c\\lambda e^{-\\lambda x}$（$x>a$），其余0，求常数关系及$P(a-1<X\\le a+1)$。 $P=e^{-\\lambda}$ $c=e^{\\lambda a}-2$ $P=1-e^{-\\lambda}$ $c=e^{\\lambda a}+1$ 归一化得$c=e^{\\lambda a}$；区间与支持集相交为$(a,a+1]$，概率$1-e^{-\\lambda}$。",
+  "sort_order": 14
+}

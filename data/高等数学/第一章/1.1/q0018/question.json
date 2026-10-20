@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)=\\begin{cases}\\sqrt{1-x^2},&|x|<1,\\\\x^2+1,&|x|\\ge1,\\end{cases}$，则 $f(f(x))$ 为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}-x,&-1<x<0,\\\\2,&x=0,\\\\x,&0<x<1,\\\\x^4+2x^2+4,&|x|\\ge1\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}-4x,&-1<x<0,\\\\2,&x=0,\\\\x,&0<x<1,\\\\x^4+2x^2+2,&|x|\\ge1\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}-x,&-1<x<0,\\\\2,&x=0,\\\\x,&0<x<1,\\\\x^4+2x^2+2,&|x|\\ge1\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}-x,&-1<x<0,\\\\2x,&x=0,\\\\x,&0<x<1,\\\\x^4+2x^2+2,&|x|\\ge1\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "分段计算得：$-x$（$-1<x<0$），$2$（$x=0$），$x$（$0<x<1$），以及 $x^4+2x^2+2$（$|x|\\ge1$）。",
+  "search_text": "已知 $f(x)=\\begin{cases}\\sqrt{1-x^2},&|x|<1,\\\\x^2+1,&|x|\\ge1,\\end{cases}$，则 $f(f(x))$ 为（ ）。 $\\begin{cases}-x,&-1<x<0,\\\\2,&x=0,\\\\x,&0<x<1,\\\\x^4+2x^2+4,&|x|\\ge1\\end{cases}$ $\\begin{cases}-4x,&-1<x<0,\\\\2,&x=0,\\\\x,&0<x<1,\\\\x^4+2x^2+2,&|x|\\ge1\\end{cases}$ $\\begin{cases}-x,&-1<x<0,\\\\2,&x=0,\\\\x,&0<x<1,\\\\x^4+2x^2+2,&|x|\\ge1\\end{cases}$ $\\begin{cases}-x,&-1<x<0,\\\\2x,&x=0,\\\\x,&0<x<1,\\\\x^4+2x^2+2,&|x|\\ge1\\end{cases}$ 分段计算得：$-x$（$-1<x<0$），$2$（$x=0$），$x$（$0<x<1$），以及 $x^4+2x^2+2$（$|x|\\ge1$）。",
+  "sort_order": 18
+}

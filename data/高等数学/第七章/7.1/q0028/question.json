@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=x^2+y^2$，$\\varphi(x,y)=xy$，则 $f[f(x,y),\\varphi(x,y)]=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(x^2+y^2)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(x^2+y^2)^2+(xy)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2+y^2+(xy)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x^2+y^2)^2+2(xy)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f[f(x,y),\\varphi(x,y)]=f(x^2+y^2,xy)=(x^2+y^2)^2+(xy)^2$.",
+  "search_text": "设 $f(x,y)=x^2+y^2$，$\\varphi(x,y)=xy$，则 $f[f(x,y),\\varphi(x,y)]=(\\quad)$。 $(x^2+y^2)^2$ $(x^2+y^2)^2+(xy)^2$ $x^2+y^2+(xy)^2$ $(x^2+y^2)^2+2(xy)^2$ $f[f(x,y),\\varphi(x,y)]=f(x^2+y^2,xy)=(x^2+y^2)^2+(xy)^2$.",
+  "sort_order": 28
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $(y+\\sqrt{x^2+y^2})dx-xdy=0,\\ y(1)=0$ 的解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=x^3+2xy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac12(x^2-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\arctan x+2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac14x^4+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程化为 $\\frac{dy}{dx}=\\frac{y}{x}+\\sqrt{1+(\\frac{y}{x})^2}$\n\n设 $u=\\frac{y}{x}$，有 $\\frac{du}{\\sqrt{1+u^2}}=\\frac{dx}{x}$\n\n积分得 $u+\\sqrt{1+u^2}=cx$，由 $y(1)=0$，$c=1$",
+  "search_text": "微分方程 $(y+\\sqrt{x^2+y^2})dx-xdy=0,\\ y(1)=0$ 的解是（ ） $y=x^3+2xy$ $y=\\frac12(x^2-1)$ $y=\\arctan x+2$ $y=\\frac14x^4+1$ 方程化为 $\\frac{dy}{dx}=\\frac{y}{x}+\\sqrt{1+(\\frac{y}{x})^2}$\n\n设 $u=\\frac{y}{x}$，有 $\\frac{du}{\\sqrt{1+u^2}}=\\frac{dx}{x}$\n\n积分得 $u+\\sqrt{1+u^2}=cx$，由 $y(1)=0$，$c=1$",
+  "sort_order": 21
+}

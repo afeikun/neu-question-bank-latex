@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x^3y^{\\prime\\prime\\prime}+2x^2y^{\\prime\\prime}=0$ 的通解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1+C_2\\ln|x|+C_3x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1x+C_2x\\ln|x|+C_3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1+C_2\\ln|x|$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1x^2+C_2x\\ln|x|+C_3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解：令 $y''=z$，将方程转化为一阶线性方程 $xz'+2z=0$，解得 $z=\\frac{C_1}{x^2}$。\n\n即有 $y''=\\frac{C_1}{x^2}$，积分得 $y'=-\\frac{C_1}{x}+C_2$，再积分得其通解为 $y=C_1+C_2\\ln|x|+C_3x$。",
+  "search_text": "方程 $x^3y^{\\prime\\prime\\prime}+2x^2y^{\\prime\\prime}=0$ 的通解为（ ）。 $y=C_1+C_2\\ln|x|+C_3x$ $y=C_1x+C_2x\\ln|x|+C_3$ $y=C_1+C_2\\ln|x|$ $y=C_1x^2+C_2x\\ln|x|+C_3$ 解：令 $y''=z$，将方程转化为一阶线性方程 $xz'+2z=0$，解得 $z=\\frac{C_1}{x^2}$。\n\n即有 $y''=\\frac{C_1}{x^2}$，积分得 $y'=-\\frac{C_1}{x}+C_2$，再积分得其通解为 $y=C_1+C_2\\ln|x|+C_3x$。",
+  "sort_order": 35
+}

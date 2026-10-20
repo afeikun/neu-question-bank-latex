@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "放射性元素铀的衰变速度与当时未衰变的铀原子的含量 $M$ 成正比，已知 $t=0$ 时铀的含量为 $M_0$，求在衰变过程中铀含量 $M(t)$ 随时间 $t$ 变化的规律。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$M=M_0e^{-\\lambda t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$M=M_0e^{\\lambda t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$M=M_0\\ln\\lambda t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$M=M_0\\ln(\\lambda t+2),\\ \\lambda>0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\frac{dM}{dt}=-\\lambda M$\n\n由 $\\frac{dM}{M}=-\\lambda\\,dt$ 积分得 $\\ln M=-\\lambda t+\\ln c,\\quad M=ce^{-\\lambda t}$，由 $M(0)=M_0$ 得 $c=M_0$",
+  "search_text": "放射性元素铀的衰变速度与当时未衰变的铀原子的含量 $M$ 成正比，已知 $t=0$ 时铀的含量为 $M_0$，求在衰变过程中铀含量 $M(t)$ 随时间 $t$ 变化的规律。 $M=M_0e^{-\\lambda t}$ $M=M_0e^{\\lambda t}$ $M=M_0\\ln\\lambda t$ $M=M_0\\ln(\\lambda t+2),\\ \\lambda>0$ $\\frac{dM}{dt}=-\\lambda M$\n\n由 $\\frac{dM}{M}=-\\lambda\\,dt$ 积分得 $\\ln M=-\\lambda t+\\ln c,\\quad M=ce^{-\\lambda t}$，由 $M(0)=M_0$ 得 $c=M_0$",
+  "sort_order": 2
+}

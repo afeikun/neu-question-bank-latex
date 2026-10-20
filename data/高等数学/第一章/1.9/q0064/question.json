@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 在点 $x_0$ 的某邻域内有定义，且 $f(x)$ 在 $x_0$ 间断，则在 $x_0$ 处必定间断的函数是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)\\sin x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)+\\sin x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|f(x)|$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f^2(x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "若 $f(x)+\\sin x$ 在 $x_0$ 连续，则 $f(x)$ 也连续，与已知条件矛盾。",
+  "search_text": "设函数 $f(x)$ 在点 $x_0$ 的某邻域内有定义，且 $f(x)$ 在 $x_0$ 间断，则在 $x_0$ 处必定间断的函数是（ ）。 $f(x)\\sin x$ $f(x)+\\sin x$ $|f(x)|$ $f^2(x)$ 若 $f(x)+\\sin x$ 在 $x_0$ 连续，则 $f(x)$ 也连续，与已知条件矛盾。",
+  "sort_order": 64
+}

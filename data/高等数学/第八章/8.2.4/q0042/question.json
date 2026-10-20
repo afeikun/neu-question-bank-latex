@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是由 $1\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定的闭区域，则 $\\iiint_\\Omega\\frac1{x^2+y^2+z^2}dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\sqrt2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi\\ln2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\sqrt2-\\ln2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2\\sqrt2-2-\\ln2)\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\n\\Omega\\text{即}\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\\n\\frac{1}{\\cos\\varphi}\\leq r\\leq\\sqrt{2}\n\\end{array}\\right.,\\quad\\text{于是}\n$$\n原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_{\\frac{1}{\\cos\\varphi}}^{\\sqrt{2}}\\frac{1}{r^2}r^2\\sin\\varphi\\,dr=2\\pi\\int_0^{\\frac{\\pi}{4}}(\\sqrt{2}\\sin\\varphi-\\tan\\varphi)\\,d\\varphi\n$$\n$$\n=2\\pi\\cdot(-\\sqrt{2}\\cos\\varphi+\\ln\\cos\\varphi)\\bigg|_0^{\\frac{\\pi}{4}}=(2\\sqrt{2}-2-\\ln2)\\pi.\n$$",
+  "search_text": "若 $\\Omega$ 是由 $1\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定的闭区域，则 $\\iiint_\\Omega\\frac1{x^2+y^2+z^2}dv=$（ ） $2\\sqrt2\\pi$ $\\pi\\ln2$ $2\\sqrt2-\\ln2$ $(2\\sqrt2-2-\\ln2)\\pi$ $$\n\\Omega\\text{即}\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\\n\\frac{1}{\\cos\\varphi}\\leq r\\leq\\sqrt{2}\n\\end{array}\\right.,\\quad\\text{于是}\n$$\n原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_{\\frac{1}{\\cos\\varphi}}^{\\sqrt{2}}\\frac{1}{r^2}r^2\\sin\\varphi\\,dr=2\\pi\\int_0^{\\frac{\\pi}{4}}(\\sqrt{2}\\sin\\varphi-\\tan\\varphi)\\,d\\varphi\n$$\n$$\n=2\\pi\\cdot(-\\sqrt{2}\\cos\\varphi+\\ln\\cos\\varphi)\\bigg|_0^{\\frac{\\pi}{4}}=(2\\sqrt{2}-2-\\ln2)\\pi.\n$$",
+  "sort_order": 42
+}

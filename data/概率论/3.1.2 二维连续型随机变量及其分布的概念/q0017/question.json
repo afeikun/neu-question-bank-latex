@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(\\xi,\\eta)$的联合分布函数为$F(x,y)$，$\\eta$的边缘分布函数为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to+\\infty}F(x,y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{y\\to-\\infty}F(x,y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(x,0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(0,x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对第一坐标取正无穷极限，得$F_\\eta(y)=\\lim_{x\\to+\\infty}F(x,y)$。",
+  "search_text": "$(\\xi,\\eta)$的联合分布函数为$F(x,y)$，$\\eta$的边缘分布函数为？ $\\lim_{x\\to+\\infty}F(x,y)$ $\\lim_{y\\to-\\infty}F(x,y)$ $F(x,0)$ $F(0,x)$ 对第一坐标取正无穷极限，得$F_\\eta(y)=\\lim_{x\\to+\\infty}F(x,y)$。",
+  "sort_order": 17
+}

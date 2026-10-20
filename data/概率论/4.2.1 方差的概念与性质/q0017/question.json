@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设随机变量 $X,Y$ 相互独立，其概率密度分别为 $f_X(x)=\\begin{cases}2e^{-2x},&x>0,\\\\0,&x\\le0,\\end{cases}$、$f_Y(y)=\\begin{cases}4e^{-4y},&y>0,\\\\0,&y\\le0,\\end{cases}$，则 $D(X+Y)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{5}{16}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac18$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{16}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由指数分布参数分别为2、4，$D(X)=1/4$、$D(Y)=1/16$。因二者独立，$D(X+Y)=1/4+1/16=5/16$。",
+  "search_text": "设随机变量 $X,Y$ 相互独立，其概率密度分别为 $f_X(x)=\\begin{cases}2e^{-2x},&x>0,\\\\0,&x\\le0,\\end{cases}$、$f_Y(y)=\\begin{cases}4e^{-4y},&y>0,\\\\0,&y\\le0,\\end{cases}$，则 $D(X+Y)=(\\quad)$。 $\\frac{5}{16}$ $\\frac14$ $\\frac18$ $\\frac1{16}$ 由指数分布参数分别为2、4，$D(X)=1/4$、$D(Y)=1/16$。因二者独立，$D(X+Y)=1/4+1/16=5/16$。",
+  "sort_order": 17
+}

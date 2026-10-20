@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Gamma$ 为圆周 $x^2+y^2+z^2=a^2,x+y+z=0$ 的交线，从 $x$ 轴正向看取逆时针方向，则计算 $\\oint_\\Gamma ydx+zdy+xdz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt3\\pi a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\sqrt3\\pi a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt3\\pi a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2\\pi a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取平面 $x+y+z=0$ 被圆周所围部分的上侧，单位法向量为 $(1,1,1)/\\sqrt3$。由斯托克斯公式，原积分 $=\\iint_\\Sigma(-1/\\sqrt3-1/\\sqrt3-1/\\sqrt3)dS=-\\sqrt3S$。平面经过球心，故 $S=\\pi a^2$，结果为 $-\\sqrt3\\pi a^2$，选第二项。",
+  "search_text": "已知 $\\Gamma$ 为圆周 $x^2+y^2+z^2=a^2,x+y+z=0$ 的交线，从 $x$ 轴正向看取逆时针方向，则计算 $\\oint_\\Gamma ydx+zdy+xdz=$（ ） $\\sqrt3\\pi a^2$ $-\\sqrt3\\pi a^2$ $\\sqrt3\\pi a^3$ $-2\\pi a^2$ 取平面 $x+y+z=0$ 被圆周所围部分的上侧，单位法向量为 $(1,1,1)/\\sqrt3$。由斯托克斯公式，原积分 $=\\iint_\\Sigma(-1/\\sqrt3-1/\\sqrt3-1/\\sqrt3)dS=-\\sqrt3S$。平面经过球心，故 $S=\\pi a^2$，结果为 $-\\sqrt3\\pi a^2$，选第二项。",
+  "sort_order": 15
+}

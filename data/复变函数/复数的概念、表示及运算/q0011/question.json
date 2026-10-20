@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $|z|=\\sqrt5$，则 $\\arg(z-i)=\\dfrac{3\\pi}4$，则 $z=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1+2i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2+i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2-i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-2i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $z=x+iy$，则 $x^2+y^2=5$，$\\dfrac{y-1}{x}=\\tan\\dfrac{3\\pi}4=-1$，$x<0$，解得 $x=-1,y=2$。",
+  "search_text": "设 $|z|=\\sqrt5$，则 $\\arg(z-i)=\\dfrac{3\\pi}4$，则 $z=(\\quad)$。 $-1+2i$ $2+i$ $2-i$ $1-2i$ 设 $z=x+iy$，则 $x^2+y^2=5$，$\\dfrac{y-1}{x}=\\tan\\dfrac{3\\pi}4=-1$，$x<0$，解得 $x=-1,y=2$。",
+  "sort_order": 11
+}

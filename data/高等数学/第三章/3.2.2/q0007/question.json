@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\frac1{1-x}$ 的 $n$ 阶 Taylor 多项式 $p_n(x)=a_0+a_1x+a_2x^2+\\cdots+a_nx^n$ 中 $a_n=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{(-1)^n}{n}$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1n$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1)^n$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\frac1{1-x}=1+x+x^2+\\cdots+x^n+o(x^n)$，所以 $a_n=1$。",
+  "search_text": "设 $f(x)=\\frac1{1-x}$ 的 $n$ 阶 Taylor 多项式 $p_n(x)=a_0+a_1x+a_2x^2+\\cdots+a_nx^n$ 中 $a_n=(\\quad)$。 $1$； $\\frac{(-1)^n}{n}$； $\\frac1n$； $(-1)^n$； $\\frac1{1-x}=1+x+x^2+\\cdots+x^n+o(x^n)$，所以 $a_n=1$。",
+  "sort_order": 7
+}

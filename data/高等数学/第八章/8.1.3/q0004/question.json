@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_De^{-(x^2+y^2)}\\,d\\sigma$（其中 $D$ 是由 $x^2+y^2=R^2$ 所围成的闭区域）的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi-e^{-R^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi R(1-e)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi(1-e^{-R^2})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e\\pi R^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答　如图，在极坐标系下，积分区域 $D$ 的积分限为 $0\\leq\\theta\\leq2\\pi,0\\leq r\\leq R$，于是\n\n$$\\iint_D e^{-(x^2+y^2)}d\\sigma=\\int_0^{2\\pi}d\\theta\\int_0^R e^{-r^2}rdr=2\\pi\\int_0^R e^{-r^2}rdr=-\\pi\\int_0^R e^{-r^2}d(-r^2)=\\pi(1-e^{-R^2}).$$\n\n图示：圆心为 $O$ 的圆，坐标轴为 $x,y$，圆的右端标记 $R$；圆内半径 $r$ 指向第一象限，半径与正 $x$ 轴夹角标记为 $\\theta$。",
+  "search_text": "二重积分 $\\iint_De^{-(x^2+y^2)}\\,d\\sigma$（其中 $D$ 是由 $x^2+y^2=R^2$ 所围成的闭区域）的值为[\\quad] $\\pi-e^{-R^2}$ $\\pi R(1-e)$ $\\pi(1-e^{-R^2})$ $e\\pi R^2$ 解答　如图，在极坐标系下，积分区域 $D$ 的积分限为 $0\\leq\\theta\\leq2\\pi,0\\leq r\\leq R$，于是\n\n$$\\iint_D e^{-(x^2+y^2)}d\\sigma=\\int_0^{2\\pi}d\\theta\\int_0^R e^{-r^2}rdr=2\\pi\\int_0^R e^{-r^2}rdr=-\\pi\\int_0^R e^{-r^2}d(-r^2)=\\pi(1-e^{-R^2}).$$\n\n图示：圆心为 $O$ 的圆，坐标轴为 $x,y$，圆的右端标记 $R$；圆内半径 $r$ 指向第一象限，半径与正 $x$ 轴夹角标记为 $\\theta$。",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "独立重复试验成功率为$p$，到第8次试验才取得3次成功的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$C_5^3p^3(1-p)^5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$C_7^2p^3(1-p)^5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$C_8^3p^3(1-p)^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8p^3(1-p)^5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "前7次中成功2次，且第8次成功，概率$C_7^2p^2(1-p)^5p=C_7^2p^3(1-p)^5$。",
+  "search_text": "独立重复试验成功率为$p$，到第8次试验才取得3次成功的概率为（ ）。 $C_5^3p^3(1-p)^5$ $C_7^2p^3(1-p)^5$ $C_8^3p^3(1-p)^5$ $8p^3(1-p)^5$ 前7次中成功2次，且第8次成功，概率$C_7^2p^2(1-p)^5p=C_7^2p^3(1-p)^5$。",
+  "sort_order": 1
+}

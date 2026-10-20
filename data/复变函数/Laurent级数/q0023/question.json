@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\dfrac{1}{z(1-z)^2}$ 在环形域 $0<|z|<1$ 内的洛朗级数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}nz^{n-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(n+1)z^{n-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(n-2)z^{n-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(n-1)z^{n-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac{1}{z(1-z)^2}=\\dfrac1z\\left(\\dfrac1{1-z}\\right)^\\prime=\\dfrac1z\\left(\\sum_{n=0}^{\\infty}z^n\\right)^\\prime=\\sum_{n=0}^{\\infty}(n+1)z^{n-1}$。源页面高亮答案与解析推导不一致，按 DOM 高亮保留选项 1。",
+  "search_text": "$\\dfrac{1}{z(1-z)^2}$ 在环形域 $0<|z|<1$ 内的洛朗级数为（ ）。 $\\sum_{n=0}^{\\infty}nz^{n-2}$ $\\sum_{n=0}^{\\infty}(n+1)z^{n-1}$ $\\sum_{n=0}^{\\infty}(n-2)z^{n-2}$ $\\sum_{n=0}^{\\infty}(n-1)z^{n-1}$ $\\dfrac{1}{z(1-z)^2}=\\dfrac1z\\left(\\dfrac1{1-z}\\right)^\\prime=\\dfrac1z\\left(\\sum_{n=0}^{\\infty}z^n\\right)^\\prime=\\sum_{n=0}^{\\infty}(n+1)z^{n-1}$。源页面高亮答案与解析推导不一致，按 DOM 高亮保留选项 1。",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=0$ 是函数 $\\cot\\dfrac1z$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "非孤立奇点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "可去奇点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "本性奇点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\cot\\dfrac1z=\\dfrac{\\cos(1/z)}{\\sin(1/z)}$ 的奇点包括 $z=0$ 和 $z_k=1/(k\\pi)$（$k=\\pm1,\\pm2,\\ldots$）。因 $z_k\\to0$，所以 $z=0$ 是非孤立奇点。",
+  "search_text": "$z=0$ 是函数 $\\cot\\dfrac1z$ 的（ ）。 非孤立奇点 可去奇点 极点 本性奇点 $\\cot\\dfrac1z=\\dfrac{\\cos(1/z)}{\\sin(1/z)}$ 的奇点包括 $z=0$ 和 $z_k=1/(k\\pi)$（$k=\\pm1,\\pm2,\\ldots$）。因 $z_k\\to0$，所以 $z=0$ 是非孤立奇点。",
+  "sort_order": 55
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n=9,\\bar x=4.484$，检验$H_0:\\mu=4.55$双侧，错误说法（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|U|\\ge u_\\alpha$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu=4.55,H_1:\\mu\\ne4.55$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$U=(\\bar X-4.55)/(0.108/\\sqrt9)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "接受$H_0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧检验应使用$u_{\\alpha/2}$，不是$u_\\alpha$。",
+  "search_text": "$n=9,\\bar x=4.484$，检验$H_0:\\mu=4.55$双侧，错误说法（）。 $|U|\\ge u_\\alpha$ $H_0:\\mu=4.55,H_1:\\mu\\ne4.55$ $U=(\\bar X-4.55)/(0.108/\\sqrt9)$ 接受$H_0$ 双侧检验应使用$u_{\\alpha/2}$，不是$u_\\alpha$。",
+  "sort_order": 26
+}

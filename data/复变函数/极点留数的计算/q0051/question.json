@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=z+\\dfrac1z+\\dfrac1{\\sin z}$，则 $\\sum_{k=-2}^{2}\\operatorname{Res}[f(z),k\\pi]=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$k\\pi$（$k=-2,-1,0,1,2$）为一阶极点；按源解析逐点求和为 $2$。",
+  "search_text": "设 $f(z)=z+\\dfrac1z+\\dfrac1{\\sin z}$，则 $\\sum_{k=-2}^{2}\\operatorname{Res}[f(z),k\\pi]=(\\ )$。 $2$ $1$ $-5$ $-1$ $k\\pi$（$k=-2,-1,0,1,2$）为一阶极点；按源解析逐点求和为 $2$。",
+  "sort_order": 51
+}

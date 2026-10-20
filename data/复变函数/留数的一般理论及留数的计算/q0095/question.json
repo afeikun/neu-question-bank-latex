@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\displaystyle\\oint_{|z-i|=1}\\dfrac{e^{iz}}{1+z^2}\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1{2ie}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac e{2i}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内 $z=i$ 处留数为 $e^{-1}/(2i)$，乘以 $2\\pi i$ 得积分 $\\pi/e$。",
+  "search_text": "积分 $\\displaystyle\\oint_{|z-i|=1}\\dfrac{e^{iz}}{1+z^2}\\,dz=(\\ \\ )$。 $\\dfrac\\pi e$ $\\pi e$ $\\dfrac1{2ie}$ $\\dfrac e{2i}$ 圆内 $z=i$ 处留数为 $e^{-1}/(2i)$，乘以 $2\\pi i$ 得积分 $\\pi/e$。",
+  "sort_order": 95
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求由方程 $e^y+x^2y-y-1=0$ 确定的隐函数 $y=y(x)$ 在 $(1,0)$ 点处的二阶导数（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两次隐式求导并代入 $(1,0)$ 得 $y\\prime\\prime(1)=0$。",
+  "search_text": "求由方程 $e^y+x^2y-y-1=0$ 确定的隐函数 $y=y(x)$ 在 $(1,0)$ 点处的二阶导数（ ）。 $0$ $1$ $-1$ $-2$ 两次隐式求导并代入 $(1,0)$ 得 $y\\prime\\prime(1)=0$。",
+  "sort_order": 15
+}

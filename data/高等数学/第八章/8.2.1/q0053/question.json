@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算由曲面 $z=1-4x^2-y^2$ 及 $xOy$ 面所围立体的体积（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设立体在第一卦限上的体积为 $V_1$，由立体的对称性，所求立体体积 $V=4V_1$。立体在第一卦限部分可以看成是一个曲顶柱体，它的曲顶为 $z=1-4x^2-y^2$，它的底为\n\n$$\nD_1:\\begin{cases}0\\le x\\le\\frac12\\\\0\\le y\\le\\sqrt{1-4x^2}\\end{cases}\n$$\n\n于是\n\n$$\nV=\\iint_D(1-4x^2-y^2)\\,dxdy=\\int_0^{\\frac12}dx\\int_0^{\\sqrt{1-4x^2}}(1-4x^2-y^2)\\,dy\n$$\n\n$$\n=\\frac23\\int_0^{\\frac12}(1-4x^2)^{\\frac32}\\,dx\\quad x=\\frac{\\sin t}{2}\\quad=\\frac23\\cdot\\frac12\\int_0^{\\frac\\pi2}\\cos^4t\\,dt=\\frac\\pi{16}\n$$\n\n所求立体的体积为 $V=\\frac\\pi4$。\n\n示意图：两幅立体图均标出 $x,y,z$ 轴、原点 $O$、$z=1$、$x=\\frac12$、$y=1$；平面区域图标出 $D$，边界曲线 $y=\\sqrt{1-4x^2}$，并标有 $y=1$、$x=\\frac12$ 及 $x,y$ 轴。",
+  "search_text": "计算由曲面 $z=1-4x^2-y^2$ 及 $xOy$ 面所围立体的体积（ ） $\\frac\\pi3$ $\\frac\\pi2$ $\\pi$ $\\frac\\pi4$ 设立体在第一卦限上的体积为 $V_1$，由立体的对称性，所求立体体积 $V=4V_1$。立体在第一卦限部分可以看成是一个曲顶柱体，它的曲顶为 $z=1-4x^2-y^2$，它的底为\n\n$$\nD_1:\\begin{cases}0\\le x\\le\\frac12\\\\0\\le y\\le\\sqrt{1-4x^2}\\end{cases}\n$$\n\n于是\n\n$$\nV=\\iint_D(1-4x^2-y^2)\\,dxdy=\\int_0^{\\frac12}dx\\int_0^{\\sqrt{1-4x^2}}(1-4x^2-y^2)\\,dy\n$$\n\n$$\n=\\frac23\\int_0^{\\frac12}(1-4x^2)^{\\frac32}\\,dx\\quad x=\\frac{\\sin t}{2}\\quad=\\frac23\\cdot\\frac12\\int_0^{\\frac\\pi2}\\cos^4t\\,dt=\\frac\\pi{16}\n$$\n\n所求立体的体积为 $V=\\frac\\pi4$。\n\n示意图：两幅立体图均标出 $x,y,z$ 轴、原点 $O$、$z=1$、$x=\\frac12$、$y=1$；平面区域图标出 $D$，边界曲线 $y=\\sqrt{1-4x^2}$，并标有 $y=1$、$x=\\frac12$ 及 $x,y$ 轴。",
+  "sort_order": 53
+}

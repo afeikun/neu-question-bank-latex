@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}\\frac{x^2+2x+b}{x-1},&x\\ne1,\\\\a,&x=1.\\end{cases}$ 且 $\\lim_{x\\to1}f(x)=A$，则下列结果正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$b=-3,A=4,a$ 可取任意实数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "仅当 $a=4,A=4,b=-3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a,b,A$ 都可能取任意实数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "仅当 $a=4,A=4,b$ 可取任意实数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "有限极限要求分子在 $x=1$ 处为零，故 $b=-3$；约分后极限 $A=4$。极限与 $f(1)=a$ 无关，$a$ 任意。",
+  "search_text": "设 $f(x)=\\begin{cases}\\frac{x^2+2x+b}{x-1},&x\\ne1,\\\\a,&x=1.\\end{cases}$ 且 $\\lim_{x\\to1}f(x)=A$，则下列结果正确的是（ ）。 $b=-3,A=4,a$ 可取任意实数 仅当 $a=4,A=4,b=-3$ $a,b,A$ 都可能取任意实数 仅当 $a=4,A=4,b$ 可取任意实数 有限极限要求分子在 $x=1$ 处为零，故 $b=-3$；约分后极限 $A=4$。极限与 $f(1)=a$ 无关，$a$ 任意。",
+  "sort_order": 39
+}

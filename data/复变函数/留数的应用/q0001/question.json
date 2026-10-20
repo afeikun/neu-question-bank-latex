@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\displaystyle\\int_0^{2\\pi}\\dfrac{d\\theta}{a+b\\cos\\theta}$（$0<b<a$）=（\\quad）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{2\\pi}{\\sqrt{a^2-b^2}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi{\\sqrt{a^2-b^2}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi{2\\sqrt{a^2-b^2}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{4\\pi}{\\sqrt{a^2-b^2}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将 $z=e^{i\\theta}$ 代入并用留数定理，圆内只有一个极点，计算得 $\\displaystyle\\int_0^{2\\pi}\\dfrac{d\\theta}{a+b\\cos\\theta}=\\dfrac{2\\pi}{\\sqrt{a^2-b^2}}$。",
+  "search_text": "$\\displaystyle\\int_0^{2\\pi}\\dfrac{d\\theta}{a+b\\cos\\theta}$（$0<b<a$）=（\\quad）。 $\\dfrac{2\\pi}{\\sqrt{a^2-b^2}}$ $\\dfrac\\pi{\\sqrt{a^2-b^2}}$ $\\dfrac\\pi{2\\sqrt{a^2-b^2}}$ $\\dfrac{4\\pi}{\\sqrt{a^2-b^2}}$ 将 $z=e^{i\\theta}$ 代入并用留数定理，圆内只有一个极点，计算得 $\\displaystyle\\int_0^{2\\pi}\\dfrac{d\\theta}{a+b\\cos\\theta}=\\dfrac{2\\pi}{\\sqrt{a^2-b^2}}$。",
+  "sort_order": 1
+}

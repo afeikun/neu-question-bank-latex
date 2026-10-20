@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\frac{x^2-x}{|x|(x^2-1)}$ 在点 $x=0$ 处有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无穷间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "跳跃间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "振荡间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可去间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$x\\to0^+$ 与 $x\\to0^-$ 时极限分别为 $1$ 与 $-1$。",
+  "search_text": "函数 $f(x)=\\frac{x^2-x}{|x|(x^2-1)}$ 在点 $x=0$ 处有（ ）。 无穷间断点 跳跃间断点 振荡间断点 可去间断点 $x\\to0^+$ 与 $x\\to0^-$ 时极限分别为 $1$ 与 $-1$。",
+  "sort_order": 99
+}

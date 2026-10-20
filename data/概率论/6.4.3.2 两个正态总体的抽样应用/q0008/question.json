@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$相互独立，分别服从$N(0,1/n)$与$N(0,1/m)$，样本容量分别为$k,l$。使$(\\sum_{i=1}^kX_i)/(\\sqrt{\\sum_{i=1}^lY_i^2})$服从$t$分布，$k,l$应满足（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k/l=n/m$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k=l$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$kl=nm$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k/l=m/n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分子标准化后为标准正态，分母平方和经方差尺度化后为$\\chi^2(l)$；匹配$t(l)$的尺度要求$k/l=n/m$。",
+  "search_text": "$X,Y$相互独立，分别服从$N(0,1/n)$与$N(0,1/m)$，样本容量分别为$k,l$。使$(\\sum_{i=1}^kX_i)/(\\sqrt{\\sum_{i=1}^lY_i^2})$服从$t$分布，$k,l$应满足（）。 $k/l=n/m$ $k=l$ $kl=nm$ $k/l=m/n$ 分子标准化后为标准正态，分母平方和经方差尺度化后为$\\chi^2(l)$；匹配$t(l)$的尺度要求$k/l=n/m$。",
+  "sort_order": 8
+}

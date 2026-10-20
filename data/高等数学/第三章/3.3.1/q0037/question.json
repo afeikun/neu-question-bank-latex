@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}x\\cot2x=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$x\\cot2x=\\frac{x}{\\tan2x}\\to\\frac12$。",
+  "search_text": "$\\lim_{x\\to0}x\\cot2x=(\\quad)$。 $\\infty$ $0$ $1$ $\\frac12$ $x\\cot2x=\\frac{x}{\\tan2x}\\to\\frac12$。",
+  "sort_order": 37
+}

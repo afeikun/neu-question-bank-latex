@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{x^2\\sin(2/x)}{\\tan x}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "化为 $x\\sin(2/x)\\cdot\\cos x/(\\sin x/x)$，由夹逼得 0。",
+  "search_text": "$\\lim_{x\\to0}\\frac{x^2\\sin(2/x)}{\\tan x}=[\\quad]$。 2 1 0 不存在 化为 $x\\sin(2/x)\\cdot\\cos x/(\\sin x/x)$，由夹逼得 0。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{x\\to0}\\frac{\\sqrt{1+f(x)\\sin x}-1}{e^{3x}-1}=2$，则 $\\lim_{x\\to0}f(x)$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "6"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "12"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "分子约为 $f(x)\\sin x/2$，分母约为 $3x$，故 $f(x)/6\\to2$，极限为 12。",
+  "search_text": "若 $\\lim_{x\\to0}\\frac{\\sqrt{1+f(x)\\sin x}-1}{e^{3x}-1}=2$，则 $\\lim_{x\\to0}f(x)$ 的值为（ ）。 3 6 2 12 分子约为 $f(x)\\sin x/2$，分母约为 $3x$，故 $f(x)/6\\to2$，极限为 12。",
+  "sort_order": 6
+}

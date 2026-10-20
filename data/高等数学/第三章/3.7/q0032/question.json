@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\frac{\\ln x}{x}$ 的渐近线为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=0$ 与 $x=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=1$ 与 $x=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x\\to+\\infty$ 时 $y\\to0$，$x\\to0^+$ 时 $y\\to-\\infty$，所以有水平渐近线 $y=0$ 和铅直渐近线 $x=0$。",
+  "search_text": "曲线 $y=\\frac{\\ln x}{x}$ 的渐近线为（ ）。 $x=0$ $y=0$ $y=0$ 与 $x=0$ $y=1$ 与 $x=0$ $x\\to+\\infty$ 时 $y\\to0$，$x\\to0^+$ 时 $y\\to-\\infty$，所以有水平渐近线 $y=0$ 和铅直渐近线 $x=0$。",
+  "sort_order": 32
+}

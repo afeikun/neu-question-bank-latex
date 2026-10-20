@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0^+$ 时，$\\sqrt{x}\\sin^2x\\sim x^a$，则 $a$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac52$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\sin^2x\\sim x^2$，乘以 $\\sqrt{x}$ 得 $x^{5/2}$。",
+  "search_text": "当 $x\\to0^+$ 时，$\\sqrt{x}\\sin^2x\\sim x^a$，则 $a$ 等于（ ）。 2 $\\frac32$ $\\frac52$ $\\frac12$ $\\sin^2x\\sim x^2$，乘以 $\\sqrt{x}$ 得 $x^{5/2}$。",
+  "sort_order": 12
+}

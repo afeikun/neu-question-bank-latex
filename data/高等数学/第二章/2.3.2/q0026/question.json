@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $z=g(y),y=f(x)$ 均有三阶导数，则复合函数 $z=g[f(x)]$ 的三阶导数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$g\\prime\\prime\\prime(f(x))[f\\prime(x)]^3+6g\\prime\\prime(f(x))f\\prime(x)f\\prime\\prime(x)+g\\prime(f(x))f\\prime\\prime\\prime(x)$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$g\\prime\\prime\\prime(f(x))[f\\prime(x)]^3+3g\\prime\\prime(f(x))f\\prime(x)f\\prime\\prime(x)+g\\prime(f(x))f\\prime\\prime\\prime(x)$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$g\\prime\\prime(f(x))[f\\prime(x)]^2+3g\\prime\\prime(f(x))f\\prime(x)f\\prime\\prime(x)+g\\prime(f(x))f\\prime\\prime\\prime(x)$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$g\\prime\\prime\\prime(f\\prime(x))[f\\prime(x)]^3+3g\\prime\\prime(f(x))f\\prime(x)f\\prime\\prime(x)+g\\prime(f(x))f\\prime\\prime\\prime(x)$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "逐次链式求导可得标准三阶复合导数公式。",
+  "search_text": "设函数 $z=g(y),y=f(x)$ 均有三阶导数，则复合函数 $z=g[f(x)]$ 的三阶导数为（ ）。 $$g\\prime\\prime\\prime(f(x))[f\\prime(x)]^3+6g\\prime\\prime(f(x))f\\prime(x)f\\prime\\prime(x)+g\\prime(f(x))f\\prime\\prime\\prime(x)$$ $$g\\prime\\prime\\prime(f(x))[f\\prime(x)]^3+3g\\prime\\prime(f(x))f\\prime(x)f\\prime\\prime(x)+g\\prime(f(x))f\\prime\\prime\\prime(x)$$ $$g\\prime\\prime(f(x))[f\\prime(x)]^2+3g\\prime\\prime(f(x))f\\prime(x)f\\prime\\prime(x)+g\\prime(f(x))f\\prime\\prime\\prime(x)$$ $$g\\prime\\prime\\prime(f\\prime(x))[f\\prime(x)]^3+3g\\prime\\prime(f(x))f\\prime(x)f\\prime\\prime(x)+g\\prime(f(x))f\\prime\\prime\\prime(x)$$ 逐次链式求导可得标准三阶复合导数公式。",
+  "sort_order": 26
+}

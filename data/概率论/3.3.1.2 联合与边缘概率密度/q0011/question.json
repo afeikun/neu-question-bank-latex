@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=\\frac12(x+y)xy$，$0<x<1,0<y<2$，求$X$边缘密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x(x+4/3),0<x\\le1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2+x/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12(1-x^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x(1+x/2),0<x\\le2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f_X(x)=\\int_0^2\\frac12(x+y)xy dy=x(x+4/3)$。",
+  "search_text": "$f(x,y)=\\frac12(x+y)xy$，$0<x<1,0<y<2$，求$X$边缘密度。 $x(x+4/3),0<x\\le1$ $x^2+x/2$ $\\frac12(1-x^2)$ $x(1+x/2),0<x\\le2$ $f_X(x)=\\int_0^2\\frac12(x+y)xy dy=x(x+4/3)$。",
+  "sort_order": 11
+}

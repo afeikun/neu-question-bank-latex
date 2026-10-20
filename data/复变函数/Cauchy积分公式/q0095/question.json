@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_C\\frac{\\cos(iz)}{z^2-z}\\,dz=(\\quad)$（$C$ 为包含 $0$ 和 $1$ 的正向简单闭曲线）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi i(\\cos i-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos i-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$i\\cos i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i\\sin i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\frac1{z^2-z}=\\frac1{z-1}-\\frac1z$，积分为 $2\\pi i(\\cos i-1)$。",
+  "search_text": "$\\oint_C\\frac{\\cos(iz)}{z^2-z}\\,dz=(\\quad)$（$C$ 为包含 $0$ 和 $1$ 的正向简单闭曲线）。 $2\\pi i(\\cos i-1)$ $\\cos i-1$ $i\\cos i$ $2\\pi i\\sin i$ 由 $\\frac1{z^2-z}=\\frac1{z-1}-\\frac1z$，积分为 $2\\pi i(\\cos i-1)$。",
+  "sort_order": 95
+}

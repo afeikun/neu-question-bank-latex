@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $zOx$ 面上的曲线 $z^2=5x$ 绕 $x$ 轴旋转一周所成的曲面为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^2+z^2=-5x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^2-z^2=5x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^2-z^2=-5x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^2+z^2=5x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：在方程 $z^2=5x$ 中，令 $x$ 不变，用 $\\pm\\sqrt{y^2+z^2}$ 代替 $z$，得旋转曲面方程为\n$$\n\\left(\\pm\\sqrt{y^2+z^2}\\right)^2=5x,\n$$\n即 $y^2+z^2=5x$。",
+  "search_text": "将 $zOx$ 面上的曲线 $z^2=5x$ 绕 $x$ 轴旋转一周所成的曲面为(\\quad)。 $y^2+z^2=-5x$ $y^2-z^2=5x$ $y^2-z^2=-5x$ $y^2+z^2=5x$ 解答：在方程 $z^2=5x$ 中，令 $x$ 不变，用 $\\pm\\sqrt{y^2+z^2}$ 代替 $z$，得旋转曲面方程为\n$$\n\\left(\\pm\\sqrt{y^2+z^2}\\right)^2=5x,\n$$\n即 $y^2+z^2=5x$。",
+  "sort_order": 10
+}

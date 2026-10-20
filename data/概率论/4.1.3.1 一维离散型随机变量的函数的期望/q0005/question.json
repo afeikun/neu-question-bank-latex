@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(\\xi=x_k)=p_k$，若$E(h(\\xi))$存在，求其表达式。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{k=1}^\\infty h(x_k)p_k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum x_kp_k$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum x_kp_k$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{k=1}^n h(x_k)p_k$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "离散随机变量函数期望为$E[h(\\xi)]=\\sum_kh(x_k)p_k$。",
+  "search_text": "$P(\\xi=x_k)=p_k$，若$E(h(\\xi))$存在，求其表达式。 $\\sum_{k=1}^\\infty h(x_k)p_k$ $\\sum x_kp_k$ $\\sum x_kp_k$ $\\sum_{k=1}^n h(x_k)p_k$ 离散随机变量函数期望为$E[h(\\xi)]=\\sum_kh(x_k)p_k$。",
+  "sort_order": 5
+}

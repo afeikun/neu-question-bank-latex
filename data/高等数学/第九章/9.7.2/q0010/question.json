@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=\\ln\\sqrt{x^2+y^2+z^2}$，则 $\\operatorname{div}(\\operatorname{grad}u)_{(1,1,1)}$ 为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$$grad\\,u=(u_x,u_y,u_z)=\\left(\\frac{x}{x^2+y^2+z^2},\\frac{y}{x^2+y^2+z^2},\\frac{z}{x^2+y^2+z^2}\\right)$$\n\n$$div(grad\\,u)=\\frac{\\partial\\left(\\frac{x}{x^2+y^2+z^2}\\right)}{\\partial x}+\\frac{\\partial\\left(\\frac{y}{x^2+y^2+z^2}\\right)}{\\partial y}+\\frac{\\partial\\left(\\frac{z}{x^2+y^2+z^2}\\right)}{\\partial z}=\\frac{1}{3}$$",
+  "search_text": "设 $u=\\ln\\sqrt{x^2+y^2+z^2}$，则 $\\operatorname{div}(\\operatorname{grad}u)_{(1,1,1)}$ 为（ ） $0$ $\\frac13$ $2$ $1$ 参考答案：\n\n$$grad\\,u=(u_x,u_y,u_z)=\\left(\\frac{x}{x^2+y^2+z^2},\\frac{y}{x^2+y^2+z^2},\\frac{z}{x^2+y^2+z^2}\\right)$$\n\n$$div(grad\\,u)=\\frac{\\partial\\left(\\frac{x}{x^2+y^2+z^2}\\right)}{\\partial x}+\\frac{\\partial\\left(\\frac{y}{x^2+y^2+z^2}\\right)}{\\partial y}+\\frac{\\partial\\left(\\frac{z}{x^2+y^2+z^2}\\right)}{\\partial z}=\\frac{1}{3}$$",
+  "sort_order": 10
+}

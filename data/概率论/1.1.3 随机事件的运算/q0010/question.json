@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 为两个不同事件，下列等式中有哪个是正确的(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\overline{A\\cap B}=\\overline A\\cup\\overline B$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\overline{A\\cap B}=A\\cap B$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\overline{A\\cup B}=A\\cup B$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\overline{A\\cup B}=(A\\cap B)\\cup(AB)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由事件运算规律的对偶律，$\\overline{A\\cap B}=\\overline A\\cup\\overline B$。",
+  "search_text": "设 $A,B$ 为两个不同事件，下列等式中有哪个是正确的(\\quad)。 $\\overline{A\\cap B}=\\overline A\\cup\\overline B$ $\\overline{A\\cap B}=A\\cap B$ $\\overline{A\\cup B}=A\\cup B$ $\\overline{A\\cup B}=(A\\cap B)\\cup(AB)$ 由事件运算规律的对偶律，$\\overline{A\\cap B}=\\overline A\\cup\\overline B$。",
+  "sort_order": 10
+}

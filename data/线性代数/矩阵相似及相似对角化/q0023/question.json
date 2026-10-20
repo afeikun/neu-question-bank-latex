@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha=(1,1,1)^T，\\beta=(1,0,k)^T$，若矩阵 $\\alpha\\beta^T$ 相似于 $\\begin{pmatrix}3&0&0\\\\0&0&0\\\\0&0&0\\end{pmatrix}$，则 $k=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由题设知，$\\alpha\\beta^T=\\begin{pmatrix}1&0&k\\\\1&0&k\\\\1&0&k\\end{pmatrix}\\sim\\begin{pmatrix}3&0&0\\\\0&0&0\\\\0&0&0\\end{pmatrix}$，而相似矩阵有相同的特征值，所以矩阵 $\\alpha\\beta^T$ 的特征值为 $3,0,0$，于是 $1+0+k=3+0+0\\Rightarrow k=2$。",
+  "search_text": "设 $\\alpha=(1,1,1)^T，\\beta=(1,0,k)^T$，若矩阵 $\\alpha\\beta^T$ 相似于 $\\begin{pmatrix}3&0&0\\\\0&0&0\\\\0&0&0\\end{pmatrix}$，则 $k=$（ ）。 $2$ $5$ $3$ $0$ 由题设知，$\\alpha\\beta^T=\\begin{pmatrix}1&0&k\\\\1&0&k\\\\1&0&k\\end{pmatrix}\\sim\\begin{pmatrix}3&0&0\\\\0&0&0\\\\0&0&0\\end{pmatrix}$，而相似矩阵有相同的特征值，所以矩阵 $\\alpha\\beta^T$ 的特征值为 $3,0,0$，于是 $1+0+k=3+0+0\\Rightarrow k=2$。",
+  "sort_order": 23
+}

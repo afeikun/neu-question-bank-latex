@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程组 $Ax=0$ 仅有零解的充分必要条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A$ 的列向量组线性无关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$ 的列向量组线性相关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A$ 的行向量组线性相关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A$ 的行向量组线性无关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "齐次方程组 $A_{m\\times n}x=0$ 仅有零解当且仅当 $r(A)=n$，即 $A$ 的列向量组线性无关。",
+  "search_text": "方程组 $Ax=0$ 仅有零解的充分必要条件是（ ）。 $A$ 的列向量组线性无关 $A$ 的列向量组线性相关 $A$ 的行向量组线性相关 $A$ 的行向量组线性无关 齐次方程组 $A_{m\\times n}x=0$ 仅有零解当且仅当 $r(A)=n$，即 $A$ 的列向量组线性无关。",
+  "sort_order": 5
+}

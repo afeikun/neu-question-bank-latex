@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=0}^\\infty (n+1)^n x^n/n!$ 的收敛半径是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "e"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/e^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "系数比值趋于 $e$，半径为 $1/e$。",
+  "search_text": "幂级数 $\\sum_{n=0}^\\infty (n+1)^n x^n/n!$ 的收敛半径是？ e $1/e$ $e^2$ $1/e^2$ 系数比值趋于 $e$，半径为 $1/e$。",
+  "sort_order": 54
+}

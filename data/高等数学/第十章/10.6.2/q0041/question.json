@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $3y\\prime\\prime-2y\\prime-y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1xe^x+C_2xe^{-x/3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2xe^{-x/3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^x+C_2e^{-x/3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1xe^x+C_2e^{-x/3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析 特征方程为 $3\\lambda^2-2\\lambda-1=0$，即 $(\\lambda-1)(3\\lambda+1)=0$，特征根 $\\lambda=1$ 或 $\\lambda=-\\frac13$，故通解为\n$$y=C_1e^x+C_2e^{-\\frac13x}.$$\n\n因此选 A。",
+  "search_text": "微分方程 $3y\\prime\\prime-2y\\prime-y=0$ 的通解为（ ） $y=C_1xe^x+C_2xe^{-x/3}$ $y=C_1e^x+C_2xe^{-x/3}$ $y=C_1e^x+C_2e^{-x/3}$ $y=C_1xe^x+C_2e^{-x/3}$ 解析 特征方程为 $3\\lambda^2-2\\lambda-1=0$，即 $(\\lambda-1)(3\\lambda+1)=0$，特征根 $\\lambda=1$ 或 $\\lambda=-\\frac13$，故通解为\n$$y=C_1e^x+C_2e^{-\\frac13x}.$$\n\n因此选 A。",
+  "sort_order": 41
+}

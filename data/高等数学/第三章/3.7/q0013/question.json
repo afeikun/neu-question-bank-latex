@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\frac{2(x-2)(x+3)}{x-1}$ 的斜渐近线为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=4-2x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=2x-4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=4+2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=2x+4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "多项式除法得 $y=2x+4+8/(x-1)$，斜渐近线为 $y=2x+4$。",
+  "search_text": "曲线 $y=\\frac{2(x-2)(x+3)}{x-1}$ 的斜渐近线为（ ）。 $y=4-2x$ $y=2x-4$ $y=4+2x$ $y=2x+4$ 多项式除法得 $y=2x+4+8/(x-1)$，斜渐近线为 $y=2x+4$。",
+  "sort_order": 13
+}

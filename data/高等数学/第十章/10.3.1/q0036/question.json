@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime+y\\tan x=2\\sin x$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos x(2x+C)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos x(x+C)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos x(\\sec x+C)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C\\sin x-2\\sin^2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "该方程是一阶线性非齐次方程，其中\n\n$$P(x)=\\tan x,Q(x)=2\\sin x$$\n\n$$y=e^{-\\int\\tan x\\,dx}\\left(\\int2\\sin x\\cdot e^{\\int\\tan x\\,dx}\\,dx+C\\right)=\\cos x\\left(\\int2\\sin x\\sec x\\,dx+C\\right)=\\cos x(2x+C)$$",
+  "search_text": "$y\\prime+y\\tan x=2\\sin x$ 的通解为（ ） $\\cos x(2x+C)$ $\\cos x(x+C)$ $\\cos x(\\sec x+C)$ $C\\sin x-2\\sin^2x$ 该方程是一阶线性非齐次方程，其中\n\n$$P(x)=\\tan x,Q(x)=2\\sin x$$\n\n$$y=e^{-\\int\\tan x\\,dx}\\left(\\int2\\sin x\\cdot e^{\\int\\tan x\\,dx}\\,dx+C\\right)=\\cos x\\left(\\int2\\sin x\\sec x\\,dx+C\\right)=\\cos x(2x+C)$$",
+  "sort_order": 36
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在线性方程组 $$\\begin{cases}\n5x_1+6x_2=1\\\\\nx_1+5x_2+6x_3=0\\\\\nx_2+5x_3+6x_4=0\\\\\nx_3+5x_4+6x_5=0\\\\\nx_4+5x_5=1\n\\end{cases}$$ 中，$x_1=(\\quad)$.",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1507}{665}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{1145}{665}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{212}{665}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{703}{665}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D=\\begin{vmatrix}5&6&0&0&0\\\\\n1&5&6&0&0\\\\\n0&1&5&6&0\\\\\n0&0&1&5&6\\\\\n0&0&0&1&5\\end{vmatrix}=665$，$D_1=\\begin{vmatrix}1&6&0&0&0\\\\\n0&5&6&0&0\\\\\n0&1&5&6&0\\\\\n0&0&1&5&6\\\\\n1&0&0&1&5\\end{vmatrix}=1507$，\n所以 $x_1=\\frac{D_1}{D}=\\frac{1507}{665}$.",
+  "search_text": "在线性方程组 $$\\begin{cases} 5x_1+6x_2=1\\\\ x_1+5x_2+6x_3=0\\\\ x_2+5x_3+6x_4=0\\\\ x_3+5x_4+6x_5=0\\\\ x_4+5x_5=1 \\end{cases}$$ 中，$x_1=(\\quad)$. $\\frac{1507}{665}$ $-\\frac{1145}{665}$ $\\frac{212}{665}$ $\\frac{703}{665}$ $D=\\begin{vmatrix}5&6&0&0&0\\\\ 1&5&6&0&0\\\\ 0&1&5&6&0\\\\ 0&0&1&5&6\\\\ 0&0&0&1&5\\end{vmatrix}=665$，$D_1=\\begin{vmatrix}1&6&0&0&0\\\\ 0&5&6&0&0\\\\ 0&1&5&6&0\\\\ 0&0&1&5&6\\\\ 1&0&0&1&5\\end{vmatrix}=1507$， 所以 $x_1=\\frac{D_1}{D}=\\frac{1507}{665}$.",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{1-\\pi i}^{1+\\pi i}\\sinh 2z\\,dz=(\\quad)$，其中积分路径是从下限到上限的任意简单曲线。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cosh2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\sinh2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $\\sinh2z$ 在复平面上处处解析，且 $\\frac12\\cosh2z$ 是它的一个原函数，所以积分等于 $\\frac12(\\cosh(2+2\\pi i)-\\cosh(2-2\\pi i))=0$。",
+  "search_text": "$\\int_{1-\\pi i}^{1+\\pi i}\\sinh 2z\\,dz=(\\quad)$，其中积分路径是从下限到上限的任意简单曲线。 $0$ $\\cosh2$ $e^2$ $2\\sinh2$ 由于 $\\sinh2z$ 在复平面上处处解析，且 $\\frac12\\cosh2z$ 是它的一个原函数，所以积分等于 $\\frac12(\\cosh(2+2\\pi i)-\\cosh(2-2\\pi i))=0$。",
+  "sort_order": 20
+}

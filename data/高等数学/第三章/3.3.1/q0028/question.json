@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$a>0,a\\ne1$，则 $\\lim_{x\\to0}\\frac{a^{2x}-1}{4x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\ln a}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{\\ln a}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$a^{2x}=1+2x\\ln a+o(x)$，极限为 $\\ln a/2$。",
+  "search_text": "$a>0,a\\ne1$，则 $\\lim_{x\\to0}\\frac{a^{2x}-1}{4x}=(\\quad)$。 $\\frac{\\ln a}{2}$ $-\\frac{\\ln a}{2}$ $\\ln a$ $1/2$ $a^{2x}=1+2x\\ln a+o(x)$，极限为 $\\ln a/2$。",
+  "sort_order": 28
+}

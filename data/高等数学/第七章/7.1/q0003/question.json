@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列函数的间断点说法正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z=\\ln\\frac{|x|}{\\sqrt{x^2+y^2}}$ 的间断点为 $x$ 轴上的所有点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$u=\\ln\\frac{|x-y|}{|x|+|y|+|z|}$ 的间断点为平面 $y=x$ 上的所有点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z=\\frac{x^2+y^2}{xy-\\sin(xy)}$ 的间断点为 $x$ 轴上的所有点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z=\\frac{x+y}{x^3+y^3}$ 的间断点为直线 $x-y=0$ 上的所有点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$u=\\ln\\frac{|x-y|}{|x|+|y|+|z|},\\quad\\text{因为原函数连续必须满足}\\begin{cases}|x-y|\\ne0,\\\\|x|+|y|+|z|\\ne0,\\end{cases}\\Rightarrow x\\ne y，\\text{因此间断点为平面 }y=x\\text{ 上的所有点；}$$\n\n$$z=\\frac{x^2+y^2}{xy-\\sin(xy)},\\quad\\text{由于原函数连续必须满足 }xy-\\sin(xy)\\ne0，\\text{则原函数的间断点为 }x\\text{ 轴及 }y\\text{ 轴上的所有点；}$$\n\n$$z=\\ln\\frac{|x|}{\\sqrt{x^2+y^2}},\\quad\\text{由于原函数连续必须满足 }\\begin{cases}|x|\\ne0,\\\\\\sqrt{x^2+y^2}\\ne0\\end{cases}\\Rightarrow x\\ne0，\\text{所以间断点为 }y\\text{ 轴上的所有点；}$$\n\n$$z=\\frac{x+y}{x^3+y^3},\\quad\\text{由于原式}=\\frac{x+y}{(x+y)(x^2-xy+y^2)}，\\text{因此需满足 }\\begin{cases}x+y\\ne0,\\\\x^2-xy+y^2\\ne0.\\end{cases}\\text{才能保证原函数连续，因此间断点为直线 }x+y=0\\text{ 上的所有点。}$$",
+  "search_text": "下列函数的间断点说法正确的是(\\quad)。 $z=\\ln\\frac{|x|}{\\sqrt{x^2+y^2}}$ 的间断点为 $x$ 轴上的所有点 $u=\\ln\\frac{|x-y|}{|x|+|y|+|z|}$ 的间断点为平面 $y=x$ 上的所有点 $z=\\frac{x^2+y^2}{xy-\\sin(xy)}$ 的间断点为 $x$ 轴上的所有点 $z=\\frac{x+y}{x^3+y^3}$ 的间断点为直线 $x-y=0$ 上的所有点 $$u=\\ln\\frac{|x-y|}{|x|+|y|+|z|},\\quad\\text{因为原函数连续必须满足}\\begin{cases}|x-y|\\ne0,\\\\|x|+|y|+|z|\\ne0,\\end{cases}\\Rightarrow x\\ne y，\\text{因此间断点为平面 }y=x\\text{ 上的所有点；}$$\n\n$$z=\\frac{x^2+y^2}{xy-\\sin(xy)},\\quad\\text{由于原函数连续必须满足 }xy-\\sin(xy)\\ne0，\\text{则原函数的间断点为 }x\\text{ 轴及 }y\\text{ 轴上的所有点；}$$\n\n$$z=\\ln\\frac{|x|}{\\sqrt{x^2+y^2}},\\quad\\text{由于原函数连续必须满足 }\\begin{cases}|x|\\ne0,\\\\\\sqrt{x^2+y^2}\\ne0\\end{cases}\\Rightarrow x\\ne0，\\text{所以间断点为 }y\\text{ 轴上的所有点；}$$\n\n$$z=\\frac{x+y}{x^3+y^3},\\quad\\text{由于原式}=\\frac{x+y}{(x+y)(x^2-xy+y^2)}，\\text{因此需满足 }\\begin{cases}x+y\\ne0,\\\\x^2-xy+y^2\\ne0.\\end{cases}\\text{才能保证原函数连续，因此间断点为直线 }x+y=0\\text{ 上的所有点。}$$",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 为由曲线 $y=4-x^2$ 和 $y=-\\sqrt{4-x^2}$ 围成平面有界闭区域的正向边界曲线，向量场 $A=(xy^2+e^x\\cos y)\\mathbf i+(x^2y-e^x\\sin y)\\mathbf j$ 沿 $L$ 的正向环量是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由题意知，环量为 $\\oint_L(xy^2+e^x\\cos y)\\mathbf i+(x^2y-e^x\\sin y)\\mathbf j$\n\n$P=xy^2+e^x\\cos y,Q=x^2y-e^x\\sin y$\n\n$\\frac{\\partial P}{\\partial y}=2xy-e^x\\sin y,\\quad \\frac{\\partial Q}{\\partial x}=2xy-e^x\\sin y$\n\n$\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$\n\n所以 $\\oint_L(xy^2+e^x\\cos y)\\mathbf i+(x^2y-e^x\\sin y)\\mathbf j=0$",
+  "search_text": "设 $L$ 为由曲线 $y=4-x^2$ 和 $y=-\\sqrt{4-x^2}$ 围成平面有界闭区域的正向边界曲线，向量场 $A=(xy^2+e^x\\cos y)\\mathbf i+(x^2y-e^x\\sin y)\\mathbf j$ 沿 $L$ 的正向环量是（ ） $0$ $\\frac\\pi2$ $\\pi$ $2\\pi$ 由题意知，环量为 $\\oint_L(xy^2+e^x\\cos y)\\mathbf i+(x^2y-e^x\\sin y)\\mathbf j$\n\n$P=xy^2+e^x\\cos y,Q=x^2y-e^x\\sin y$\n\n$\\frac{\\partial P}{\\partial y}=2xy-e^x\\sin y,\\quad \\frac{\\partial Q}{\\partial x}=2xy-e^x\\sin y$\n\n$\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$\n\n所以 $\\oint_L(xy^2+e^x\\cos y)\\mathbf i+(x^2y-e^x\\sin y)\\mathbf j=0$",
+  "sort_order": 7
+}

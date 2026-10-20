@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=2x$（$0<x<1$），三次独立观察事件$X\\le1/3$，出现次数$Y$，求$P(Y=2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8/729$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8/243$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8/81$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/81$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$p=P(X\\le1/3)=1/9$，$P(Y=2)=C_3^2(1/9)^2(8/9)=8/243$。",
+  "search_text": "$f(x)=2x$（$0<x<1$），三次独立观察事件$X\\le1/3$，出现次数$Y$，求$P(Y=2)$。 $8/729$ $8/243$ $8/81$ $1/81$ $p=P(X\\le1/3)=1/9$，$P(Y=2)=C_3^2(1/9)^2(8/9)=8/243$。",
+  "sort_order": 27
+}

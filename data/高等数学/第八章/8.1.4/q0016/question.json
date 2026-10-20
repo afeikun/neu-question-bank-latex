@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 为连续函数，$D:x^2+y^2\\leq x$，则二重积分 $\\iint_Df(x,y)dxdy$ 的累次积分为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{-1/2}^{1/2}dy\\int_{\\frac{1-\\sqrt{1-4y^2}}2}^{\\frac{1+\\sqrt{1-4y^2}}2}f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{1/2}dy\\int_{\\frac{1-\\sqrt{1-4y^2}}2}^{\\frac{1+\\sqrt{1-4y^2}}2}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dx\\int_{-\\sqrt{x-x^2}}^{\\sqrt{x-x^2}}f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dx\\int_{-\\sqrt{x^2-x}}^{\\sqrt{x^2-x}}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 原式=$\\int_0^1dx\\int_{-\\sqrt{x-x^2}}^{\\sqrt{x-x^2}}f(x,y)dy$，原式=$\\int_0^{\\frac{1}{2}}dy\\int_{\\frac{1-\\sqrt{1-4y^2}}{2}}^{\\frac{1+\\sqrt{1-4y^2}}{2}}f(x,y)dx$。",
+  "search_text": "设 $f(x,y)$ 为连续函数，$D:x^2+y^2\\leq x$，则二重积分 $\\iint_Df(x,y)dxdy$ 的累次积分为[\\quad] $\\int_{-1/2}^{1/2}dy\\int_{\\frac{1-\\sqrt{1-4y^2}}2}^{\\frac{1+\\sqrt{1-4y^2}}2}f(x,y)dx$ $\\int_0^{1/2}dy\\int_{\\frac{1-\\sqrt{1-4y^2}}2}^{\\frac{1+\\sqrt{1-4y^2}}2}f(x,y)dx$ $\\int_0^1dx\\int_{-\\sqrt{x-x^2}}^{\\sqrt{x-x^2}}f(x,y)dy$ $\\int_0^1dx\\int_{-\\sqrt{x^2-x}}^{\\sqrt{x^2-x}}f(x,y)dy$ 解答 原式=$\\int_0^1dx\\int_{-\\sqrt{x-x^2}}^{\\sqrt{x-x^2}}f(x,y)dy$，原式=$\\int_0^{\\frac{1}{2}}dy\\int_{\\frac{1-\\sqrt{1-4y^2}}{2}}^{\\frac{1+\\sqrt{1-4y^2}}{2}}f(x,y)dx$。",
+  "sort_order": 16
+}

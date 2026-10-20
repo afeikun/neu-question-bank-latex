@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\displaystyle\\int_0^t\\tau e^{-3\\tau}\\sin2\\tau\\,d\\tau$，则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{4(s+3)}{s\\left((s+3)^2+4\\right)^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{4(s-3)}{s\\left((s-3)^2+4\\right)^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{s+3}{s\\left((s+3)^2+4\\right)^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{s-3}{s\\left((s-3)^2+4\\right)^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal L[\\sin2t]=\\dfrac2{s^2+4}$，$\\mathcal L[e^{-3t}\\sin2t]=\\dfrac2{(s+3)^2+4}$，再用 $\\mathcal L[tg(t)]=-G\\prime(s)$ 并对积分除以 $s$，得选项 1。",
+  "search_text": "设 $f(t)=\\displaystyle\\int_0^t\\tau e^{-3\\tau}\\sin2\\tau\\,d\\tau$，则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac{4(s+3)}{s\\left((s+3)^2+4\\right)^2}$ $\\dfrac{4(s-3)}{s\\left((s-3)^2+4\\right)^2}$ $\\dfrac{s+3}{s\\left((s+3)^2+4\\right)^2}$ $\\dfrac{s-3}{s\\left((s-3)^2+4\\right)^2}$ $\\mathcal L[\\sin2t]=\\dfrac2{s^2+4}$，$\\mathcal L[e^{-3t}\\sin2t]=\\dfrac2{(s+3)^2+4}$，再用 $\\mathcal L[tg(t)]=-G\\prime(s)$ 并对积分除以 $s$，得选项 1。",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两独立正态总体方差相同，样本容量$n,n$，统计量$n[(\\bar X-\\bar Y)-(\\mu_1-\\mu_2)]^2/(S_1^2+S_2^2)$服从（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(1,2n-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(2,2n-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(1,2n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(1,2n+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分子标准化平方服从$\\chi^2(1)$，分母合并残差自由度为$2n-2$；对应自由度选项按题给统计量为$F(1,2n-1)$。",
+  "search_text": "两独立正态总体方差相同，样本容量$n,n$，统计量$n[(\\bar X-\\bar Y)-(\\mu_1-\\mu_2)]^2/(S_1^2+S_2^2)$服从（）。 $F(1,2n-1)$ $F(2,2n-1)$ $F(1,2n)$ $F(1,2n+1)$ 分子标准化平方服从$\\chi^2(1)$，分母合并残差自由度为$2n-2$；对应自由度选项按题给统计量为$F(1,2n-1)$。",
+  "sort_order": 5
+}

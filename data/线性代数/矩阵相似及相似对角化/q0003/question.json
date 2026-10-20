@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设两个 $n$ 阶方阵 $A$ 与 $B$ 有相同的特征多项式，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A$ 与 $B$ 合同"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$ 与 $B$ 相似"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "以上三条均不对"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A$ 与 $B$ 等价"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "两个 $n$ 阶方阵 $A$ 与 $B$ 有相同的特征多项式，只能说明 $A$ 与 $B$ 有相同的特征值，并不能说明 $A$ 与 $B$ 相似、等价或者合同。",
+  "search_text": "设两个 $n$ 阶方阵 $A$ 与 $B$ 有相同的特征多项式，则（ ）。 $A$ 与 $B$ 合同 $A$ 与 $B$ 相似 以上三条均不对 $A$ 与 $B$ 等价 两个 $n$ 阶方阵 $A$ 与 $B$ 有相同的特征多项式，只能说明 $A$ 与 $B$ 有相同的特征值，并不能说明 $A$ 与 $B$ 相似、等价或者合同。",
+  "sort_order": 3
+}

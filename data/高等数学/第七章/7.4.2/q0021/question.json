@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=u^2+v^2$，$u=x+y$，$v=x-y$，求 $(z_x,z_y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2x,2y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(4x,4y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(x^2,y^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x,y)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\frac{\\partial z}{\\partial x}=2u\\cdot u_x'+2v\\cdot v_x'=2(u+v)=4x,\\quad\\frac{\\partial z}{\\partial y}=2u\\cdot u_y'+2v\\cdot v_y'=2(u-v)=4y$$",
+  "search_text": "设 $z=u^2+v^2$，$u=x+y$，$v=x-y$，求 $(z_x,z_y)$。 $(2x,2y)$ $(4x,4y)$ $(x^2,y^2)$ $(x,y)$ $$\\frac{\\partial z}{\\partial x}=2u\\cdot u_x'+2v\\cdot v_x'=2(u+v)=4x,\\quad\\frac{\\partial z}{\\partial y}=2u\\cdot u_y'+2v\\cdot v_y'=2(u-v)=4y$$",
+  "sort_order": 21
+}

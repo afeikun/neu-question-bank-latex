@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac{e^{\\pi z}}{1+z^2},-i\\right)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac i2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac i2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=-i$ 为一阶极点，留数 $e^{-\\pi i}/(2z)|_{z=-i}=-i/2$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac{e^{\\pi z}}{1+z^2},-i\\right)=(\\ )$。 $-\\frac i2$ $-\\frac12$ $\\frac i2$ $\\frac12$ $z=-i$ 为一阶极点，留数 $e^{-\\pi i}/(2z)|_{z=-i}=-i/2$。",
+  "sort_order": 52
+}

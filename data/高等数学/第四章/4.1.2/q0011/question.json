@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int\\frac{\\ln x+1}{1+x\\ln x}\\,dx$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln|1+\\ln x|+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln|1+x\\ln x|+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln|1-\\ln x|+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln|1-x\\ln x|+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "注意 $(x\\ln x)\\prime=\\ln x+1$，故积分为 $\\ln|1+x\\ln x|+C$。",
+  "search_text": "不定积分 $\\int\\frac{\\ln x+1}{1+x\\ln x}\\,dx$ 的值为 $\\ln|1+\\ln x|+C$ $\\ln|1+x\\ln x|+C$ $\\ln|1-\\ln x|+C$ $\\ln|1-x\\ln x|+C$ 注意 $(x\\ln x)\\prime=\\ln x+1$，故积分为 $\\ln|1+x\\ln x|+C$。",
+  "sort_order": 11
+}

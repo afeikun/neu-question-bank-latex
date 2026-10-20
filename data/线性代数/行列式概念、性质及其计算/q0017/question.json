@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\begin{vmatrix}a_{11}&a_{12}&a_{13}\\\\a_{21}&a_{22}&a_{23}\\\\a_{31}&a_{32}&a_{33}\\end{vmatrix}=1$，则 $\\begin{vmatrix}6a_{11}&-2a_{12}&-10a_{13}\\\\-3a_{21}&a_{22}&5a_{23}\\\\-3a_{31}&a_{32}&5a_{33}\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$10$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-10$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-30$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$30$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将矩阵写成左乘对角矩阵 $\\operatorname{diag}(2,-1,-1)$、原矩阵及右乘对角矩阵 $\\operatorname{diag}(3,-1,-5)$ 的乘积，故所求行列式为 $(2 \\cdot (-1) \\cdot (-1))(3 \\cdot (-1) \\cdot (-5)) \\cdot 1=30$。",
+  "search_text": "已知 $\\begin{vmatrix}a_{11}&a_{12}&a_{13}\\\\a_{21}&a_{22}&a_{23}\\\\a_{31}&a_{32}&a_{33}\\end{vmatrix}=1$，则 $\\begin{vmatrix}6a_{11}&-2a_{12}&-10a_{13}\\\\-3a_{21}&a_{22}&5a_{23}\\\\-3a_{31}&a_{32}&5a_{33}\\end{vmatrix}$ 等于（ ）。 $10$ $-10$ $-30$ $30$ 将矩阵写成左乘对角矩阵 $\\operatorname{diag}(2,-1,-1)$、原矩阵及右乘对角矩阵 $\\operatorname{diag}(3,-1,-5)$ 的乘积，故所求行列式为 $(2 \\cdot (-1) \\cdot (-1))(3 \\cdot (-1) \\cdot (-5)) \\cdot 1=30$。",
+  "sort_order": 17
+}

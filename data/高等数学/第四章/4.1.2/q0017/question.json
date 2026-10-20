@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int\\frac1{3x^2+3x-1}\\,dx$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sqrt{21}}\\ln\\left|\\frac{\\sqrt3(2x+1)-\\sqrt7}{\\sqrt3(x+1)+\\sqrt7}\\right|+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt{21}}\\ln\\left|\\frac{\\sqrt3(2x+1)-\\sqrt7}{(2x+1)+\\sqrt7}\\right|+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sqrt{21}}\\ln\\left|\\frac{\\sqrt3(2x+1)-\\sqrt7}{\\sqrt3(2x+1)+\\sqrt7}\\right|+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{\\sqrt{21}}\\ln\\left|\\frac{\\sqrt3(x+1)-\\sqrt7}{(2x+1)-\\sqrt7}\\right|+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "配方并用凑微分法，原积分化为对数式。",
+  "search_text": "不定积分 $\\int\\frac1{3x^2+3x-1}\\,dx$ 的值为 $\\frac1{\\sqrt{21}}\\ln\\left|\\frac{\\sqrt3(2x+1)-\\sqrt7}{\\sqrt3(x+1)+\\sqrt7}\\right|+C$ $\\frac1{\\sqrt{21}}\\ln\\left|\\frac{\\sqrt3(2x+1)-\\sqrt7}{(2x+1)+\\sqrt7}\\right|+C$ $\\frac1{\\sqrt{21}}\\ln\\left|\\frac{\\sqrt3(2x+1)-\\sqrt7}{\\sqrt3(2x+1)+\\sqrt7}\\right|+C$ $\\frac1{\\sqrt{21}}\\ln\\left|\\frac{\\sqrt3(x+1)-\\sqrt7}{(2x+1)-\\sqrt7}\\right|+C$ 配方并用凑微分法，原积分化为对数式。",
+  "sort_order": 17
+}

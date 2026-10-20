@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_C(z+\\bar z)\\,dz=(\\quad)$，$C$ 为圆周 $|z|=1$ 的上半部，方向为正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$10$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "按源解析参数化计算，结果为 $-2$。",
+  "search_text": "$\\int_C(z+\\bar z)\\,dz=(\\quad)$，$C$ 为圆周 $|z|=1$ 的上半部，方向为正向。 $-2$ $-4$ $10$ $0$ 按源解析参数化计算，结果为 $-2$。",
+  "sort_order": 3
+}

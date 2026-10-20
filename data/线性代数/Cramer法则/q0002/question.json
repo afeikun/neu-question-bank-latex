@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "齐次线性方程组 $$\\begin{cases}\n(1-\\lambda)x_1-2x_2+4x_3=0\\\\\n2x_1+(3-\\lambda)x_2+x_3=0\\\\\nx_1+x_2+(1-\\lambda)x_3=0\n\\end{cases}$$ 有非零解，则 $\\lambda$ 等于(    ).",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda=0$，$\\lambda=2$ 或 $\\lambda=3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda=2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda=3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$D=\\begin{vmatrix}1-\\lambda&-2&4\\\\\n2&3-\\lambda&1\\\\\n1&1&1-\\lambda\\end{vmatrix}=-\\lambda(\\lambda-2)(\\lambda-3)$.\n齐次线性方程组有非零解，则其系数行列式等于零，即 $\\lambda=0$，$\\lambda=2$ 或 $\\lambda=3$.",
+  "search_text": "齐次线性方程组 $$\\begin{cases} (1-\\lambda)x_1-2x_2+4x_3=0\\\\ 2x_1+(3-\\lambda)x_2+x_3=0\\\\ x_1+x_2+(1-\\lambda)x_3=0 \\end{cases}$$ 有非零解，则 $\\lambda$ 等于( ). $\\lambda=0$ $\\lambda=0$，$\\lambda=2$ 或 $\\lambda=3$ $\\lambda=2$ $\\lambda=3$ $D=\\begin{vmatrix}1-\\lambda&-2&4\\\\ 2&3-\\lambda&1\\\\ 1&1&1-\\lambda\\end{vmatrix}=-\\lambda(\\lambda-2)(\\lambda-3)$. 齐次线性方程组有非零解，则其系数行列式等于零，即 $\\lambda=0$，$\\lambda=2$ 或 $\\lambda=3$.",
+  "sort_order": 2
+}

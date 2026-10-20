@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\oint_{|z-1|=1}\\frac{\\sin(\\pi z)}{(z^2-1)^2}dz$ 等于（ ），正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\pi^2i/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\pi/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\pi i/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内二阶极点 $z=1$，导数公式计算得 $-\\pi^2i/2$。",
+  "search_text": "积分 $I=\\oint_{|z-1|=1}\\frac{\\sin(\\pi z)}{(z^2-1)^2}dz$ 等于（ ），正向。 $-\\pi^2i/2$ $-\\pi/4$ $-\\pi i/2$ $0$ 圆内二阶极点 $z=1$，导数公式计算得 $-\\pi^2i/2$。",
+  "sort_order": 30
+}

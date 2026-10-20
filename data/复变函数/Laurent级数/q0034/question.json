@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\dfrac{1}{z^2(z-i)}$ 在环形域 $0<|z-i|<1$ 内的洛朗级数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^{n-2}}{i^{n-1}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^{n-2}}{i^n}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^n}{i^{n+1}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^n}{i^n}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac{1}{z^2(z-i)}=\\dfrac1{z-i}\\left(\\dfrac1{i+(z-i)}\\right)^2=\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^{n-2}}{i^{n-1}}$。",
+  "search_text": "$\\dfrac{1}{z^2(z-i)}$ 在环形域 $0<|z-i|<1$ 内的洛朗级数为（ ）。 $\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^{n-2}}{i^{n-1}}$ $\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^{n-2}}{i^n}$ $\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^n}{i^{n+1}}$ $\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^n}{i^n}$ $\\dfrac{1}{z^2(z-i)}=\\dfrac1{z-i}\\left(\\dfrac1{i+(z-i)}\\right)^2=\\sum_{n=1}^{\\infty}(-1)^n n\\dfrac{(z-i)^{n-2}}{i^{n-1}}$。",
+  "sort_order": 34
+}

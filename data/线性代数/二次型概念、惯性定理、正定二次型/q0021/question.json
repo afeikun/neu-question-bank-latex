@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "实二次型 $f(x_1,x_2,x_3)=x^T\\begin{pmatrix}1&2&1\\\\0&1&0\\\\1&2&1\\end{pmatrix}x$ 的秩为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "二次型的矩阵应取原矩阵的对称部分。题中二次型化为 $f=x_1^2+x_2^2+x_3^2+2x_1x_2+2x_1x_3+2x_2x_3$，其矩阵为 $\\begin{pmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{pmatrix}$，故 $R(f)=1$。",
+  "search_text": "实二次型 $f(x_1,x_2,x_3)=x^T\\begin{pmatrix}1&2&1\\\\0&1&0\\\\1&2&1\\end{pmatrix}x$ 的秩为（ ）。 $0$ $2$ $3$ $1$ 二次型的矩阵应取原矩阵的对称部分。题中二次型化为 $f=x_1^2+x_2^2+x_3^2+2x_1x_2+2x_1x_3+2x_2x_3$，其矩阵为 $\\begin{pmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{pmatrix}$，故 $R(f)=1$。",
+  "sort_order": 21
+}

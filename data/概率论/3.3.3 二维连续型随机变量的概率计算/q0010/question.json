@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=6xy^2$于$0<x,y<1$，求$P(\\xi\\le1/2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2/3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\int_0^{1/2}\\int_0^1 6xy^2dydx=1/4$。",
+  "search_text": "$f(x,y)=6xy^2$于$0<x,y<1$，求$P(\\xi\\le1/2)$。 $2/3$ $1/3$ $1/4$ $1/2$ $\\int_0^{1/2}\\int_0^1 6xy^2dydx=1/4$。",
+  "sort_order": 10
+}

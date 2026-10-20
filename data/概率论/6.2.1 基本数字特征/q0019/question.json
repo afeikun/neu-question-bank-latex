@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$S^2=\\frac1{n-1}\\sum(X_i-\\bar X)^2$，下列结论正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$E(S^2)=D(X)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E(S^2)=\\frac n{n-1}D(X)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$E(S^2)=\\frac{n-1}nD(X)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$E(S^2)=\\frac n{(n-1)^2}D(X)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "无偏样本方差满足$E(S^2)=D(X)$。",
+  "search_text": "$S^2=\\frac1{n-1}\\sum(X_i-\\bar X)^2$，下列结论正确的是（）。 $E(S^2)=D(X)$ $E(S^2)=\\frac n{n-1}D(X)$ $E(S^2)=\\frac{n-1}nD(X)$ $E(S^2)=\\frac n{(n-1)^2}D(X)$ 无偏样本方差满足$E(S^2)=D(X)$。",
+  "sort_order": 19
+}

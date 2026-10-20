@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim N(0,1)$且$\\Phi(1.96)=0.975$，求$P(|\\xi|>1.96)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.05$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.025$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.10$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.075$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(|\\xi|>1.96)=1-[2\\Phi(1.96)-1]=0.05$。",
+  "search_text": "$\\xi\\sim N(0,1)$且$\\Phi(1.96)=0.975$，求$P(|\\xi|>1.96)$。 $0.05$ $0.025$ $0.10$ $0.075$ $P(|\\xi|>1.96)=1-[2\\Phi(1.96)-1]=0.05$。",
+  "sort_order": 7
+}

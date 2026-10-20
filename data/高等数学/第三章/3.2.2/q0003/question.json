@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\ln(1+x)$ 的 Maclaurin 公式为 $\\ln(1+x)=a_1x+a_2x^2+\\cdots+a_nx^n+R_n(x)$ 中 $a_k=(\\quad)$（$k=1,2,\\ldots,n$）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{(-1)^k}{k}$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1k$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{(-1)^k}{k+1}$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{(-1)^{k-1}}{k}$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由 $\\ln(1+x)=x-\\frac{x^2}{2}+\\frac{x^3}{3}-\\cdots$，系数为 $a_k=\\frac{(-1)^{k-1}}k$。",
+  "search_text": "$\\ln(1+x)$ 的 Maclaurin 公式为 $\\ln(1+x)=a_1x+a_2x^2+\\cdots+a_nx^n+R_n(x)$ 中 $a_k=(\\quad)$（$k=1,2,\\ldots,n$）。 $\\frac{(-1)^k}{k}$； $\\frac1k$； $\\frac{(-1)^k}{k+1}$； $\\frac{(-1)^{k-1}}{k}$； 由 $\\ln(1+x)=x-\\frac{x^2}{2}+\\frac{x^3}{3}-\\cdots$，系数为 $a_k=\\frac{(-1)^{k-1}}k$。",
+  "sort_order": 3
+}

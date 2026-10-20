@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=f(x,x/y)$，求 $z_{xx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f_{uu}+f_{vv}+\\frac1{2y^2}f_{uv}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f_{uu}+\\frac2y f_{vu}+\\frac1{y^2}f_{vv}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f_{uu}+\\frac2y f_{vu}+\\frac1{y^2}f_{vv}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f_{uv}+\\frac2y f_{vv}+\\frac1{2y^2}f_{uu}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial^2z}{\\partial x^2}=\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial f}{\\partial u}+\\frac{1}{y}\\frac{\\partial f}{\\partial v}\\right)=\\frac{\\partial^2f}{\\partial u^2}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^2f}{\\partial u\\partial v}\\frac{\\partial v}{\\partial x}+\\frac{1}{y}\\left(\\frac{\\partial^2f}{\\partial u\\partial v}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^2f}{\\partial v^2}\\frac{\\partial v}{\\partial x}\\right)$\n\n$=\\frac{\\partial^2f}{\\partial u^2}+\\frac{2}{y}\\frac{\\partial^2f}{\\partial v\\partial u}+\\frac{1}{y^2}\\frac{\\partial^2f}{\\partial v^2}$",
+  "search_text": "设 $z=f(x,x/y)$，求 $z_{xx}$。 $f_{uu}+f_{vv}+\\frac1{2y^2}f_{uv}$ $f_{uu}+\\frac2y f_{vu}+\\frac1{y^2}f_{vv}$ $f_{uu}+\\frac2y f_{vu}+\\frac1{y^2}f_{vv}$ $f_{uv}+\\frac2y f_{vv}+\\frac1{2y^2}f_{uu}$ $\\frac{\\partial^2z}{\\partial x^2}=\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial f}{\\partial u}+\\frac{1}{y}\\frac{\\partial f}{\\partial v}\\right)=\\frac{\\partial^2f}{\\partial u^2}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^2f}{\\partial u\\partial v}\\frac{\\partial v}{\\partial x}+\\frac{1}{y}\\left(\\frac{\\partial^2f}{\\partial u\\partial v}\\frac{\\partial u}{\\partial x}+\\frac{\\partial^2f}{\\partial v^2}\\frac{\\partial v}{\\partial x}\\right)$\n\n$=\\frac{\\partial^2f}{\\partial u^2}+\\frac{2}{y}\\frac{\\partial^2f}{\\partial v\\partial u}+\\frac{1}{y^2}\\frac{\\partial^2f}{\\partial v^2}$",
+  "sort_order": 5
+}

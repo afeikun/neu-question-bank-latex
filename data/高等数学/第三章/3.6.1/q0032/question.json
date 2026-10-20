@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $y=x^3+12x+1$，则在区间 $(-\\infty,0)$ 内函数（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "单调减少，曲线为凸"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调减少，曲线为凹"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单调增加，曲线为凹"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "单调增加，曲线为凸"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$y\\prime=3x^2+12>0$，函数单调增加；$y\\prime\\prime=6x<0$，曲线为凸。",
+  "search_text": "设函数 $y=x^3+12x+1$，则在区间 $(-\\infty,0)$ 内函数（ ）。 单调减少，曲线为凸 单调减少，曲线为凹 单调增加，曲线为凹 单调增加，曲线为凸 $y\\prime=3x^2+12>0$，函数单调增加；$y\\prime\\prime=6x<0$，曲线为凸。",
+  "sort_order": 32
+}

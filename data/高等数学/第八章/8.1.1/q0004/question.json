@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y),g(x,y)$ 连续，有界闭域为 $D_1,D_2$，下列结论正确的是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$D_1\\supset D_2$ 时，在 $D_2$ 上 $f\\geq g$，则 $\\iint_{D_1}f\\,d\\sigma\\geq\\iint_{D_2}g\\,d\\sigma$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$D_1\\supset D_2$ 时，在 $D_1$ 上 $f\\geq g$，则 $\\iint_{D_1}f\\,d\\sigma\\geq\\iint_{D_2}g\\,d\\sigma$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D_1=D_2$，而 $f\\geq g$ 时，$\\iint_{D_1}f\\,d\\sigma\\geq\\iint_{D_2}g\\,d\\sigma$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$D_1\\supset D_2$ 时，$\\iint_{D_1}f\\,d\\sigma\\geq\\iint_{D_2}f\\,d\\sigma$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 如果在闭区域 $D$ 上，有 $f(x,y)\\geq g(x,y)$，则 $\\iint_Df(x,y)d\\sigma\\geq\\iint_Dg(x,y)d\\sigma$；",
+  "search_text": "设 $f(x,y),g(x,y)$ 连续，有界闭域为 $D_1,D_2$，下列结论正确的是（ ） $D_1\\supset D_2$ 时，在 $D_2$ 上 $f\\geq g$，则 $\\iint_{D_1}f\\,d\\sigma\\geq\\iint_{D_2}g\\,d\\sigma$ $D_1\\supset D_2$ 时，在 $D_1$ 上 $f\\geq g$，则 $\\iint_{D_1}f\\,d\\sigma\\geq\\iint_{D_2}g\\,d\\sigma$ $D_1=D_2$，而 $f\\geq g$ 时，$\\iint_{D_1}f\\,d\\sigma\\geq\\iint_{D_2}g\\,d\\sigma$ $D_1\\supset D_2$ 时，$\\iint_{D_1}f\\,d\\sigma\\geq\\iint_{D_2}f\\,d\\sigma$ 解答 如果在闭区域 $D$ 上，有 $f(x,y)\\geq g(x,y)$，则 $\\iint_Df(x,y)d\\sigma\\geq\\iint_Dg(x,y)d\\sigma$；",
+  "sort_order": 4
+}

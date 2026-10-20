@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=(a_{ij})_{3\\times3}$，$B=\\begin{bmatrix}a_{21}&a_{22}&a_{23}\\\\a_{11}&a_{12}&a_{13}\\\\a_{31}+a_{11}&a_{32}+a_{12}&a_{33}+a_{13}\\end{bmatrix}$，$P_1=\\begin{bmatrix}0&1&0\\\\1&0&0\\\\0&0&1\\end{bmatrix}$，$P_2=\\begin{bmatrix}1&0&0\\\\0&1&0\\\\1&0&1\\end{bmatrix}$，则必有(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P_1P_2A=B$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P_2P_1A=B$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$AP_1P_2=B$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$AP_2P_1=B$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "先将第一行加到第三行，再交换第一、二行，故 $B=P_1P_2A$，选项 1。",
+  "search_text": "设矩阵 $A=(a_{ij})_{3\\times3}$，$B=\\begin{bmatrix}a_{21}&a_{22}&a_{23}\\\\a_{11}&a_{12}&a_{13}\\\\a_{31}+a_{11}&a_{32}+a_{12}&a_{33}+a_{13}\\end{bmatrix}$，$P_1=\\begin{bmatrix}0&1&0\\\\1&0&0\\\\0&0&1\\end{bmatrix}$，$P_2=\\begin{bmatrix}1&0&0\\\\0&1&0\\\\1&0&1\\end{bmatrix}$，则必有(\\quad)。 $P_1P_2A=B$ $P_2P_1A=B$ $AP_1P_2=B$ $AP_2P_1=B$ 先将第一行加到第三行，再交换第一、二行，故 $B=P_1P_2A$，选项 1。",
+  "sort_order": 55
+}

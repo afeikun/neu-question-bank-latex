@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x\\frac{d^2y}{dx^2}+\\frac{dy}{dx}=x^2,\\ x>0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac19x^3+C_1e^x+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac19x^3+C_1\\ln x+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1{27}x^3+C_1e^x+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=-\\frac19x^4+C_1\\ln x+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 这是不显含 $y$ 型的方程，故可设 $\\frac{dy}{dx}=p$，于是 $\\frac{d^2y}{dx^2}=\\frac{dp}{dx}$，方程变形为\n\n$$\nx\\frac{dp}{dx}+p=x^2，\n$$\n\n解之得\n\n$$\np=\\frac{1}{x}\\left(\\frac{1}{3}x^3+C_1\\right)。\n$$\n\n于是有\n\n$$\n\\frac{dy}{dx}=\\frac{1}{3}x^2+\\frac{C_1}{x}。\n$$\n\n方程的通解为\n\n$$\ny=\\frac{1}{9}x^3+C_1\\ln x+C_2\n$$\n\n其中 $C_1$ 与 $C_2$ 是任意常数。",
+  "search_text": "方程 $x\\frac{d^2y}{dx^2}+\\frac{dy}{dx}=x^2,\\ x>0$ 的通解是（ ） $y=\\frac19x^3+C_1e^x+C_2$ $y=\\frac19x^3+C_1\\ln x+C_2$ $y=\\frac1{27}x^3+C_1e^x+C_2$ $y=-\\frac19x^4+C_1\\ln x+C_2$ 解答 这是不显含 $y$ 型的方程，故可设 $\\frac{dy}{dx}=p$，于是 $\\frac{d^2y}{dx^2}=\\frac{dp}{dx}$，方程变形为\n\n$$\nx\\frac{dp}{dx}+p=x^2，\n$$\n\n解之得\n\n$$\np=\\frac{1}{x}\\left(\\frac{1}{3}x^3+C_1\\right)。\n$$\n\n于是有\n\n$$\n\\frac{dy}{dx}=\\frac{1}{3}x^2+\\frac{C_1}{x}。\n$$\n\n方程的通解为\n\n$$\ny=\\frac{1}{9}x^3+C_1\\ln x+C_2\n$$\n\n其中 $C_1$ 与 $C_2$ 是任意常数。",
+  "sort_order": 19
+}

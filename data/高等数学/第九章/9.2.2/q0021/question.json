@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(x+z)\\,dS$，其中 $\\Sigma$ 是平面 $\\frac{x^2}{1}+\\frac{y^2}{2}+\\frac{z^2}{3}=1$ 在点 $(1,1,1)$ 处切平面位于第一卦限内的部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$14$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{14}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{28}{3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答切平面为：$\\frac{x}{1}+\\frac{y}{2}+\\frac{z}{3}=1$\n\n根据对称性，$\\iint_\\Sigma\\left(\\frac{x}{1}\\right)dS=\\iint_\\Sigma\\left(\\frac{y}{2}\\right)dS=\\iint_\\Sigma\\left(\\frac{z}{3}\\right)dS=\\frac{1}{3}\\iint_\\Sigma\\left(\\frac{x}{1}+\\frac{y}{2}+\\frac{z}{3}\\right)dS=$\n\n$\\frac{1}{3}\\iint_\\Sigma1\\,dS=\\frac{1}{3}A$，$A$ 为曲面 $\\Sigma$ 的面积。$A=\\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\frac{7}{2}$，$\\vec{a},\\vec{b}$ 为三角形邻边向量。\n\n$$\\iint_\\Sigma x+z\\,dS=\\frac{7}{6}+\\frac{7}{2}=\\frac{14}{3}$$",
+  "search_text": "计算 $\\iint_\\Sigma(x+z)\\,dS$，其中 $\\Sigma$ 是平面 $\\frac{x^2}{1}+\\frac{y^2}{2}+\\frac{z^2}{3}=1$ 在点 $(1,1,1)$ 处切平面位于第一卦限内的部分。 $1$ $14$ $\\frac{14}{3}$ $\\frac{28}{3}$ 解答切平面为：$\\frac{x}{1}+\\frac{y}{2}+\\frac{z}{3}=1$\n\n根据对称性，$\\iint_\\Sigma\\left(\\frac{x}{1}\\right)dS=\\iint_\\Sigma\\left(\\frac{y}{2}\\right)dS=\\iint_\\Sigma\\left(\\frac{z}{3}\\right)dS=\\frac{1}{3}\\iint_\\Sigma\\left(\\frac{x}{1}+\\frac{y}{2}+\\frac{z}{3}\\right)dS=$\n\n$\\frac{1}{3}\\iint_\\Sigma1\\,dS=\\frac{1}{3}A$，$A$ 为曲面 $\\Sigma$ 的面积。$A=\\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\frac{7}{2}$，$\\vec{a},\\vec{b}$ 为三角形邻边向量。\n\n$$\\iint_\\Sigma x+z\\,dS=\\frac{7}{6}+\\frac{7}{2}=\\frac{14}{3}$$",
+  "sort_order": 21
+}

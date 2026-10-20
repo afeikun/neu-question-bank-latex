@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f连续，I=t∫₀^{s/t}f(tx)dx (t>0,s>0)，I的值",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "依赖s、t和x"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "依赖s和t"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "只依赖t和x"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "只依赖s，与t无关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令u=tx，I=∫₀ˢf(u)du，只依赖s。",
+  "search_text": "f连续，I=t∫₀^{s/t}f(tx)dx (t>0,s>0)，I的值 依赖s、t和x 依赖s和t 只依赖t和x 只依赖s，与t无关 令u=tx，I=∫₀ˢf(u)du，只依赖s。",
+  "sort_order": 4
+}

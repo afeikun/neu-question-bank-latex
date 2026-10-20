@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "讨论 $\\sum_{n=1}^{\\infty}(n/(an+1))^n$（$a>0$），正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a\\ge1$ 时收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a>1$ 时收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a\\le1$ 时收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a<1$ 时收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "根值趋 $1/a$，$a>1$ 时收敛。",
+  "search_text": "讨论 $\\sum_{n=1}^{\\infty}(n/(an+1))^n$（$a>0$），正确的是？ $a\\ge1$ 时收敛 $a>1$ 时收敛 $a\\le1$ 时收敛 $a<1$ 时收敛 根值趋 $1/a$，$a>1$ 时收敛。",
+  "sort_order": 46
+}

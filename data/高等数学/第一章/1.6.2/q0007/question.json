@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}(\\cos x)^{1/x^2}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{1/2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-1/2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $\\ln(\\cos x)\\sim-x^2/2$，对数极限为 $-1/2$，原极限为 $e^{-1/2}$。",
+  "search_text": "$\\lim_{x\\to0}(\\cos x)^{1/x^2}=[\\quad]$。 $e^{1/2}$ $e^{-1/2}$ 1 0 由 $\\ln(\\cos x)\\sim-x^2/2$，对数极限为 $-1/2$，原极限为 $e^{-1/2}$。",
+  "sort_order": 7
+}

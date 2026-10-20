@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=5z^2+10z+5$，则 $z=-1$ 是 $f(z)$ 的（ ）阶零点。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime(z)=10z+10$，$f\\prime\\prime(z)=10$，因为 $f\\prime(-1)=0$、$f\\prime\\prime(-1)\\ne0$，所以 $z=-1$ 是 $f(z)$ 的二级零点。",
+  "search_text": "设 $f(z)=5z^2+10z+5$，则 $z=-1$ 是 $f(z)$ 的（ ）阶零点。 2 4 3 1 $f\\prime(z)=10z+10$，$f\\prime\\prime(z)=10$，因为 $f\\prime(-1)=0$、$f\\prime\\prime(-1)\\ne0$，所以 $z=-1$ 是 $f(z)$ 的二级零点。",
+  "sort_order": 1
+}

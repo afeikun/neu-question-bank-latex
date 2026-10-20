@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设线性变换 $T$ 在基 $\\alpha_1,\\alpha_2$ 下的矩阵为 $A=\\begin{pmatrix}0&1\\\\1&2\\end{pmatrix}$，则 $T$ 在基 $2\\alpha_2,\\alpha_1$ 下的矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&1\\\\2&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&1\\\\1&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}2&\\frac12\\\\2&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "已知 $T(\\alpha_1)=\\alpha_2$、$T(\\alpha_2)=\\alpha_1+2\\alpha_2$。新基向量依次为 $2\\alpha_2,\\alpha_1$，故 $T(2\\alpha_2)=2\\alpha_1+4\\alpha_2=2(2\\alpha_2)+2\\alpha_1$，$T(\\alpha_1)=\\alpha_2=\\frac12(2\\alpha_2)$。所以矩阵为 $\\begin{pmatrix}2&\\frac12\\\\2&0\\end{pmatrix}$。",
+  "search_text": "设线性变换 $T$ 在基 $\\alpha_1,\\alpha_2$ 下的矩阵为 $A=\\begin{pmatrix}0&1\\\\1&2\\end{pmatrix}$，则 $T$ 在基 $2\\alpha_2,\\alpha_1$ 下的矩阵为（ ）。 $\\begin{pmatrix}1&1\\\\2&0\\end{pmatrix}$ $\\begin{pmatrix}1&1\\\\1&0\\end{pmatrix}$ $\\begin{pmatrix}2&\\frac12\\\\2&0\\end{pmatrix}$ $\\begin{pmatrix}1&2\\\\2&1\\end{pmatrix}$ 已知 $T(\\alpha_1)=\\alpha_2$、$T(\\alpha_2)=\\alpha_1+2\\alpha_2$。新基向量依次为 $2\\alpha_2,\\alpha_1$，故 $T(2\\alpha_2)=2\\alpha_1+4\\alpha_2=2(2\\alpha_2)+2\\alpha_1$，$T(\\alpha_1)=\\alpha_2=\\frac12(2\\alpha_2)$。所以矩阵为 $\\begin{pmatrix}2&\\frac12\\\\2&0\\end{pmatrix}$。",
+  "sort_order": 28
+}

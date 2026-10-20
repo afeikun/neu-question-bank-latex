@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=x^2+y^2$ 在 $(1,1)$ 沿 $l=(-1,-1)$ 方向的方向导数为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "最小"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "最大"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,1)}=2x\\bigg|_{(1,1)}=2,\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,1)}=2y\\bigg|_{(1,1)}=2,$$\n\n故向量 $\\vec{l}=(-1,-1)$ 方向的方向导数为：\n\n$$\\frac{\\partial z}{\\partial l}=2\\cos\\frac{5\\pi}{4}+2\\sin\\frac{5\\pi}{4}=-2\\sqrt{2},$$\n\n明显为最小值。",
+  "search_text": "函数 $z=x^2+y^2$ 在 $(1,1)$ 沿 $l=(-1,-1)$ 方向的方向导数为。 最小 0 最大 1 由于 $$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,1)}=2x\\bigg|_{(1,1)}=2,\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,1)}=2y\\bigg|_{(1,1)}=2,$$\n\n故向量 $\\vec{l}=(-1,-1)$ 方向的方向导数为：\n\n$$\\frac{\\partial z}{\\partial l}=2\\cos\\frac{5\\pi}{4}+2\\sin\\frac{5\\pi}{4}=-2\\sqrt{2},$$\n\n明显为最小值。",
+  "sort_order": 23
+}

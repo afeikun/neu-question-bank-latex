@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设有一个等腰直角三角形薄片，腰长 $a$ 为各点处的面密度等于该点到斜边顶点的距离的平方，该薄片的质心为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{2a}5,\\frac{2a}5)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac a5,\\frac a5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{4a}5,\\frac{4a}5)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{3a}5,\\frac{3a}5)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "以等腰直角三角形的两直角边为坐标轴建立坐标系，如图所示由题意知，$\\mu(x,y)=x^2+y^2$。根据对称性可知质心坐标为 $\\bar{x}=\\bar{y}$，\n\n$$\nM=\\iint_D\\mu(x,y)\\,dxdy\n=\\int_0^a dx\\int_0^{a-x}(x^2+y^2)\\,dy\n=\\frac{1}{6}a^4\n$$\n\n$$\n\\bar{x}\n=\\frac{\\iint_D x\\mu(x,y)\\,dxdy}{M}\n=\\frac{\\int_0^a x\\,dx\\int_0^{a-x}(x^2+y^2)\\,dy}{\\frac{1}{6}a^4}\n=\\frac{2a}{5}\n$$\n\n故所求质心为 $\\left(\\frac{2a}{5},\\frac{2a}{5}\\right)$。\n\n图示：等腰直角三角形位于坐标轴第一象限，顶点标为 $O$，两条直角边的端点标为 $a$，斜边标为 $x+y=a$；纵轴标为 $y$，横轴标为 $x$。",
+  "search_text": "设有一个等腰直角三角形薄片，腰长 $a$ 为各点处的面密度等于该点到斜边顶点的距离的平方，该薄片的质心为（ ） $(\\frac{2a}5,\\frac{2a}5)$ $(\\frac a5,\\frac a5)$ $(\\frac{4a}5,\\frac{4a}5)$ $(\\frac{3a}5,\\frac{3a}5)$ 以等腰直角三角形的两直角边为坐标轴建立坐标系，如图所示由题意知，$\\mu(x,y)=x^2+y^2$。根据对称性可知质心坐标为 $\\bar{x}=\\bar{y}$，\n\n$$\nM=\\iint_D\\mu(x,y)\\,dxdy\n=\\int_0^a dx\\int_0^{a-x}(x^2+y^2)\\,dy\n=\\frac{1}{6}a^4\n$$\n\n$$\n\\bar{x}\n=\\frac{\\iint_D x\\mu(x,y)\\,dxdy}{M}\n=\\frac{\\int_0^a x\\,dx\\int_0^{a-x}(x^2+y^2)\\,dy}{\\frac{1}{6}a^4}\n=\\frac{2a}{5}\n$$\n\n故所求质心为 $\\left(\\frac{2a}{5},\\frac{2a}{5}\\right)$。\n\n图示：等腰直角三角形位于坐标轴第一象限，顶点标为 $O$，两条直角边的端点标为 $a$，斜边标为 $x+y=a$；纵轴标为 $y$，横轴标为 $x$。",
+  "sort_order": 13
+}

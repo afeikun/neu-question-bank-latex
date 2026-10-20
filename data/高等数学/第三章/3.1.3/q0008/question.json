@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $0<a<b$，函数 $f(x)$ 在区间 $[a,b]$ 上满足拉格朗日中值定理条件，那么结论：存在 $\\xi\\in(a,b)$，使 $bf(b)-af(a)=\\left[\\xi f(\\xi)+\\xi^2f'(\\xi)\\right]\\ln\\frac ba$ 成立，可由选项 $(\\quad)$ 得出。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$xf(x)$ 与 $\\ln x$ 在 $[a,b]$ 上使用柯西中值定理；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2f(x)$ 在 $[a,b]$ 上使用拉格朗日中值定理；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xf(x)$ 在 $[a,b]$ 上使用拉格朗日中值定理；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2f(x)$ 与 $\\ln x$ 在 $[a,b]$ 上使用柯西中值定理。"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 $F(x)=xf(x)$ 与 $G(x)=\\ln x$ 应用柯西中值定理，$F'=f+xf'$、$G'=1/x$，即得所给结论。",
+  "search_text": "设 $0<a<b$，函数 $f(x)$ 在区间 $[a,b]$ 上满足拉格朗日中值定理条件，那么结论：存在 $\\xi\\in(a,b)$，使 $bf(b)-af(a)=\\left[\\xi f(\\xi)+\\xi^2f'(\\xi)\\right]\\ln\\frac ba$ 成立，可由选项 $(\\quad)$ 得出。 $xf(x)$ 与 $\\ln x$ 在 $[a,b]$ 上使用柯西中值定理； $x^2f(x)$ 在 $[a,b]$ 上使用拉格朗日中值定理； $xf(x)$ 在 $[a,b]$ 上使用拉格朗日中值定理； $x^2f(x)$ 与 $\\ln x$ 在 $[a,b]$ 上使用柯西中值定理。 对 $F(x)=xf(x)$ 与 $G(x)=\\ln x$ 应用柯西中值定理，$F'=f+xf'$、$G'=1/x$，即得所给结论。",
+  "sort_order": 8
+}

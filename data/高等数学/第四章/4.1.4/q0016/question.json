@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int\\ln(1+\\sqrt{x})\\,dx$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(x-1)\\ln(1+\\sqrt{x})-\\frac x2+\\sqrt{x}+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x\\ln(1+\\sqrt{x})-\\frac{\\sqrt{x}}2+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x\\ln(1+\\sqrt{x})-\\frac x2+\\sqrt{x}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x-1)\\ln(1+\\sqrt{x})-\\frac{\\sqrt{x}}2+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $I=x\\ln(1+\\sqrt{x})-\\frac{1}{2}\\int\\frac{\\sqrt{x}\\,dx}{1+\\sqrt{x}}=x\\ln(1+\\sqrt{x})-\\frac{1}{2}x+\\frac{1}{2}\\int\\frac{dx}{1+\\sqrt{x}}$。令 $x=t^2$，有\n\n$$\\int\\frac{dx}{1+\\sqrt{x}}=2\\int\\frac{t\\,dt}{1+t}=2t-\\int\\frac{dt}{1+t}=2\\sqrt{x}-2\\ln(1+\\sqrt{x})+C，$$\n\n从而可得\n\n$$I=(x-1)\\ln(1+\\sqrt{x})-\\frac{x}{2}+\\sqrt{x}+C。$$",
+  "search_text": "不定积分 $\\int\\ln(1+\\sqrt{x})\\,dx$ 的值为（ ） $(x-1)\\ln(1+\\sqrt{x})-\\frac x2+\\sqrt{x}+C$ $x\\ln(1+\\sqrt{x})-\\frac{\\sqrt{x}}2+C$ $x\\ln(1+\\sqrt{x})-\\frac x2+\\sqrt{x}+C$ $(x-1)\\ln(1+\\sqrt{x})-\\frac{\\sqrt{x}}2+C$ 解答 $I=x\\ln(1+\\sqrt{x})-\\frac{1}{2}\\int\\frac{\\sqrt{x}\\,dx}{1+\\sqrt{x}}=x\\ln(1+\\sqrt{x})-\\frac{1}{2}x+\\frac{1}{2}\\int\\frac{dx}{1+\\sqrt{x}}$。令 $x=t^2$，有\n\n$$\\int\\frac{dx}{1+\\sqrt{x}}=2\\int\\frac{t\\,dt}{1+t}=2t-\\int\\frac{dt}{1+t}=2\\sqrt{x}-2\\ln(1+\\sqrt{x})+C，$$\n\n从而可得\n\n$$I=(x-1)\\ln(1+\\sqrt{x})-\\frac{x}{2}+\\sqrt{x}+C。$$",
+  "sort_order": 16
+}

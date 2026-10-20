@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $X,Y$ 相互独立且均服从正态分布 $N(0,\\frac12)$，则 $|X-Y|$ 的数学期望为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{2/\\pi}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt{\\pi/2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{2\\pi}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $Z=X-Y$，则 $Z\\sim N(0,1)$。所以 $E|X-Y|=E|Z|=\\frac2{\\sqrt{2\\pi}}\\int_0^{\\infty}z e^{-z^2/2}\\,dz=\\sqrt{2/\\pi}$。",
+  "search_text": "设 $X,Y$ 相互独立且均服从正态分布 $N(0,\\frac12)$，则 $|X-Y|$ 的数学期望为（ ）。 $\\sqrt{2/\\pi}$ $\\sqrt{\\pi/2}$ $\\sqrt\\pi$ $\\sqrt{2\\pi}$ 令 $Z=X-Y$，则 $Z\\sim N(0,1)$。所以 $E|X-Y|=E|Z|=\\frac2{\\sqrt{2\\pi}}\\int_0^{\\infty}z e^{-z^2/2}\\,dz=\\sqrt{2/\\pi}$。",
+  "sort_order": 5
+}

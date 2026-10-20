@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "抛物面壳 $z=\\frac12(x^2+y^2)\\ (0\\le z\\le2)$ 的面密度为 $\\rho=z$，则其质量为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2\\pi(25\\sqrt5-1)}{15}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2\\pi(25\\sqrt5+1)}{15}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\pi(25\\sqrt5+1)}{15}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi(25\\sqrt5-1)}{15}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 由已知有 $z_x=x,\\ z_y=y,\\ x^2+y^2\\le4$，\n\n$M=\\iint_\\Sigma zdS=\\iint_{D_{xy}}\\frac12(x^2+y^2)\\sqrt{1+x^2+y^2}\\,dxdy=\\int_0^{2\\pi}d\\theta\\int_0^2\\frac12r^3\\sqrt{1+r^2}dr$\n\n$=\\frac\\pi2\\int_0^2[(r^2+1)-1]\\sqrt{1+r^2}d(1+r^2)\\overset{1+r^2=t}{=}\\frac\\pi2\\int_1^5(t^{3/2}-t^{1/2})dt=\\frac{2\\pi(25\\sqrt5+1)}{15}$。",
+  "search_text": "抛物面壳 $z=\\frac12(x^2+y^2)\\ (0\\le z\\le2)$ 的面密度为 $\\rho=z$，则其质量为（ ）。 $\\frac{2\\pi(25\\sqrt5-1)}{15}$ $\\frac{2\\pi(25\\sqrt5+1)}{15}$ $\\frac{\\pi(25\\sqrt5+1)}{15}$ $\\frac{\\pi(25\\sqrt5-1)}{15}$ 解答 由已知有 $z_x=x,\\ z_y=y,\\ x^2+y^2\\le4$，\n\n$M=\\iint_\\Sigma zdS=\\iint_{D_{xy}}\\frac12(x^2+y^2)\\sqrt{1+x^2+y^2}\\,dxdy=\\int_0^{2\\pi}d\\theta\\int_0^2\\frac12r^3\\sqrt{1+r^2}dr$\n\n$=\\frac\\pi2\\int_0^2[(r^2+1)-1]\\sqrt{1+r^2}d(1+r^2)\\overset{1+r^2=t}{=}\\frac\\pi2\\int_1^5(t^{3/2}-t^{1/2})dt=\\frac{2\\pi(25\\sqrt5+1)}{15}$。",
+  "sort_order": 14
+}

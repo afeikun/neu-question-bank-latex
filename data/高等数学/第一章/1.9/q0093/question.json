@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=x\\left[\\frac1x\\right]$，则 $x=0$ 是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "跳跃间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "连续点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "第二类间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可去间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$x[1/x]$ 在 $x\\to0$ 时有有限极限，故为可去间断点。",
+  "search_text": "设 $y=x\\left[\\frac1x\\right]$，则 $x=0$ 是（ ）。 跳跃间断点 连续点 第二类间断点 可去间断点 $x[1/x]$ 在 $x\\to0$ 时有有限极限，故为可去间断点。",
+  "sort_order": 93
+}

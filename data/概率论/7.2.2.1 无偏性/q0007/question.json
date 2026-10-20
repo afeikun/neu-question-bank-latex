@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(X=1)=1-\\theta,P(X=2)=\\theta-\\theta^2,P(X=3)=\\theta^2$，用频数估计$\\theta$，系数$a_1,a_2,a_3$为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0,1/n,1/n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/n,1/n,1/n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/n,0,1/n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/n,1/n,0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(N_i)=np_i$，令$E(\\sum a_iN_i)=\\theta$，可得$a_1=0,a_2=a_3=1/n$。",
+  "search_text": "$P(X=1)=1-\\theta,P(X=2)=\\theta-\\theta^2,P(X=3)=\\theta^2$，用频数估计$\\theta$，系数$a_1,a_2,a_3$为（）。 $0,1/n,1/n$ $1/n,1/n,1/n$ $1/n,0,1/n$ $1/n,1/n,0$ $E(N_i)=np_i$，令$E(\\sum a_iN_i)=\\theta$，可得$a_1=0,a_2=a_3=1/n$。",
+  "sort_order": 7
+}

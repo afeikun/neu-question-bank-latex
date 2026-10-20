@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A、B$ 为同阶可逆矩阵，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "存在可逆矩阵 $P$，使得 $P^{-1}AP=B$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "存在可逆矩阵 $C$，使得 $C^TAC=B$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "存在可逆矩阵 $P、Q$，使得 $PAQ=B$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$AB=BA$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "取 $P=A^{-1}$、$Q=B$，则 $PAQ=A^{-1}AB=B$，所以总存在可逆矩阵 $P、Q$ 使 $PAQ=B$。",
+  "search_text": "设 $A、B$ 为同阶可逆矩阵，则（ ）。 存在可逆矩阵 $P$，使得 $P^{-1}AP=B$ 存在可逆矩阵 $C$，使得 $C^TAC=B$ 存在可逆矩阵 $P、Q$，使得 $PAQ=B$ $AB=BA$ 取 $P=A^{-1}$、$Q=B$，则 $PAQ=A^{-1}AB=B$，所以总存在可逆矩阵 $P、Q$ 使 $PAQ=B$。",
+  "sort_order": 3
+}

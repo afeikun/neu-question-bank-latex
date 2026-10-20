@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下面的函数中，（ ）不是方程 $xy\\prime\\prime-2y\\prime=0$ 的解",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=x^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1x^3+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "直接代入验证。",
+  "search_text": "下面的函数中，（ ）不是方程 $xy\\prime\\prime-2y\\prime=0$ 的解 $y=e^x$ $y=2$ $y=x^3$ $y=C_1x^3+C_2$ 直接代入验证。",
+  "sort_order": 3
+}

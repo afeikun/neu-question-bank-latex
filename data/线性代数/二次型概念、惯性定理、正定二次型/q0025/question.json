@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是 $m\\times n$ 矩阵，则下列正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $R(A)<n$，则 $A^TA$ 为正定矩阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若 $R(A)=n$，则 $A^TA$ 为正定矩阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若 $R(A)<m$，则 $A^TA$ 为正定矩阵"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若 $R(A)=m$，则 $A^TA$ 为正定矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$A^TA$ 为 $n$ 阶半正定矩阵。当 $R(A^TA)=R(A)=n$ 时，$|A^TA|\\ne0$，其特征值全为正，所以 $A^TA$ 正定；故选项 $2$ 正确。",
+  "search_text": "设 $A$ 是 $m\\times n$ 矩阵，则下列正确的是（ ）。 若 $R(A)<n$，则 $A^TA$ 为正定矩阵 若 $R(A)=n$，则 $A^TA$ 为正定矩阵 若 $R(A)<m$，则 $A^TA$ 为正定矩阵 若 $R(A)=m$，则 $A^TA$ 为正定矩阵 $A^TA$ 为 $n$ 阶半正定矩阵。当 $R(A^TA)=R(A)=n$ 时，$|A^TA|\\ne0$，其特征值全为正，所以 $A^TA$ 正定；故选项 $2$ 正确。",
+  "sort_order": 25
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\overrightarrow{OA}=\\vec a$，$\\overrightarrow{OB}=\\vec b$，$\\angle ODA=\\frac\\pi2$，如图所示，则 $\\triangle ODA$ 的面积为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{|a\\cdot b||a\\times b|}{2|a|^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2|a\\cdot b||a\\times b|}{|b|^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2|a\\cdot b||a\\times b|}{|a|^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{|a\\cdot b||a\\times b|}{2|b|^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "面积 $S=\\frac12|a|^2\\sin\\theta\\cos\\theta=\\frac{|a\\cdot b||a\\times b|}{2|b|^2}$。",
+  "search_text": "已知 $\\overrightarrow{OA}=\\vec a$，$\\overrightarrow{OB}=\\vec b$，$\\angle ODA=\\frac\\pi2$，如图所示，则 $\\triangle ODA$ 的面积为(\\quad)。 $\\frac{|a\\cdot b||a\\times b|}{2|a|^2}$ $\\frac{2|a\\cdot b||a\\times b|}{|b|^2}$ $\\frac{2|a\\cdot b||a\\times b|}{|a|^2}$ $\\frac{|a\\cdot b||a\\times b|}{2|b|^2}$ 面积 $S=\\frac12|a|^2\\sin\\theta\\cos\\theta=\\frac{|a\\cdot b||a\\times b|}{2|b|^2}$。",
+  "sort_order": 19
+}

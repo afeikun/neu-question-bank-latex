@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "集合 $\\{z\\mid|\\operatorname{Im}\\bar z|\\le1\\}$ 的内点全体为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{z\\mid|\\operatorname{Re}z|<1\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{z\\mid|\\operatorname{Im}z|<1\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{z\\mid|\\operatorname{Re}z|>1\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{z\\mid|\\operatorname{Im}z|>1\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\operatorname{Im}\\bar z=-\\operatorname{Im}z$ 可得内点满足 $|\\operatorname{Im}z|<1$。",
+  "search_text": "集合 $\\{z\\mid|\\operatorname{Im}\\bar z|\\le1\\}$ 的内点全体为（ ）。 $\\{z\\mid|\\operatorname{Re}z|<1\\}$ $\\{z\\mid|\\operatorname{Im}z|<1\\}$ $\\{z\\mid|\\operatorname{Re}z|>1\\}$ $\\{z\\mid|\\operatorname{Im}z|>1\\}$ 由 $\\operatorname{Im}\\bar z=-\\operatorname{Im}z$ 可得内点满足 $|\\operatorname{Im}z|<1$。",
+  "sort_order": 19
+}

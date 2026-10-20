@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_L(y-x)\\,dy$，$L$ 沿抛物线 $y=(x-1)^2$ 从 $A(1,1)$ 到 $B(2,3)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{25}{6}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "抛物线：$y=(x-1)^2，\\quad1\\le x\\le2，$\n$$\\int_Lxy\\,dx+(y-x)dy=\\int_1^2\\left[(x-1)^2-x\\right]2(x-1)dx=-1$$",
+  "search_text": "计算 $\\int_L(y-x)\\,dy$，$L$ 沿抛物线 $y=(x-1)^2$ 从 $A(1,1)$ 到 $B(2,3)$。 $-1$ $\\frac{25}{6}$ $3$ $2$ 抛物线：$y=(x-1)^2，\\quad1\\le x\\le2，$\n$$\\int_Lxy\\,dx+(y-x)dy=\\int_1^2\\left[(x-1)^2-x\\right]2(x-1)dx=-1$$",
+  "sort_order": 9
+}

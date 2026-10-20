@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立且$X\\sim N(\\mu_1,\\sigma_1^2),Y\\sim N(\\mu_2,\\sigma_2^2)$，求$X+Y$分布。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$N(\\mu_1+\\mu_2,\\sigma_1^2+\\sigma_2^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$N(\\mu_1\\mu_2,\\sigma_1^2+\\sigma_2^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$N(\\mu_1+\\mu_2,\\sigma_1\\sigma_2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$N(\\mu_1+\\mu_2,\\sigma_1^2\\sigma_2^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立正态变量和仍正态，均值相加、方差相加。",
+  "search_text": "$X,Y$独立且$X\\sim N(\\mu_1,\\sigma_1^2),Y\\sim N(\\mu_2,\\sigma_2^2)$，求$X+Y$分布。 $N(\\mu_1+\\mu_2,\\sigma_1^2+\\sigma_2^2)$ $N(\\mu_1\\mu_2,\\sigma_1^2+\\sigma_2^2)$ $N(\\mu_1+\\mu_2,\\sigma_1\\sigma_2)$ $N(\\mu_1+\\mu_2,\\sigma_1^2\\sigma_2^2)$ 独立正态变量和仍正态，均值相加、方差相加。",
+  "sort_order": 14
+}

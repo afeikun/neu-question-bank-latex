@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z/(e^z-1)$ 在 $z=0$ 的幂级数展开式是____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-z-\\frac12z^2-\\frac16z^3+\\cdots,\\ |z|<1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-z+\\frac12z^2-\\frac16z^3+\\cdots$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1+z-\\frac12z^2+\\frac16z^3+\\cdots$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1+z+\\frac12z^2+\\frac16z^3+\\cdots$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $z/(e^z-1)=1-z/2+z^2/12-\\cdots$? 原图分析给出 $1-z-\\frac12z^2-\\frac16z^3$，保留源文。",
+  "search_text": "函数 $z/(e^z-1)$ 在 $z=0$ 的幂级数展开式是____。 $1-z-\\frac12z^2-\\frac16z^3+\\cdots,\\ |z|<1$ $1-z+\\frac12z^2-\\frac16z^3+\\cdots$ $1+z-\\frac12z^2+\\frac16z^3+\\cdots$ $1+z+\\frac12z^2+\\frac16z^3+\\cdots$ 由 $z/(e^z-1)=1-z/2+z^2/12-\\cdots$? 原图分析给出 $1-z-\\frac12z^2-\\frac16z^3$，保留源文。",
+  "sort_order": 21
+}

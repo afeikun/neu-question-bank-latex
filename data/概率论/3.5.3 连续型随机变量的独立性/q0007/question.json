@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立同分布，密度$f(x)=3x^2/8$于$0<x<2$。令$A=\\{X>a\\},B=\\{Y>a\\}$，若$P(A\\cup B)=3/4$，求$a$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt[3]{4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt[4]{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt[5]{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt[3]{6}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由独立性$P(X\\le a)^2=1/4$，故$a^3/8=1/2$，$a=\\sqrt[3]{4}$。",
+  "search_text": "$X,Y$独立同分布，密度$f(x)=3x^2/8$于$0<x<2$。令$A=\\{X>a\\},B=\\{Y>a\\}$，若$P(A\\cup B)=3/4$，求$a$。 $\\sqrt[3]{4}$ $\\sqrt[4]{3}$ $\\sqrt[5]{2}$ $\\sqrt[3]{6}$ 由独立性$P(X\\le a)^2=1/4$，故$a^3/8=1/2$，$a=\\sqrt[3]{4}$。",
+  "sort_order": 7
+}

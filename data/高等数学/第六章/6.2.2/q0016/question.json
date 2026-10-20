@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知点 $A(1,0,0)$、点 $B(0,2,1)$ 及点 $C(0,0,c)$，则 $c$ 取(\\quad)时三角形 $ABC$ 面积达到最小。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac15$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "面积平方与 $5c^2-2c+5$ 成正比，二次函数在 $c=\\frac15$ 处取最小值。",
+  "search_text": "已知点 $A(1,0,0)$、点 $B(0,2,1)$ 及点 $C(0,0,c)$，则 $c$ 取(\\quad)时三角形 $ABC$ 面积达到最小。 $\\frac13$ $\\frac12$ $\\frac14$ $\\frac15$ 面积平方与 $5c^2-2c+5$ 成正比，二次函数在 $c=\\frac15$ 处取最小值。",
+  "sort_order": 16
+}

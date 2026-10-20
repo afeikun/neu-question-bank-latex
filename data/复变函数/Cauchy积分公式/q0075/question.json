@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z|=2}\\frac{\\sin(iz)}{z^2+2}\\,dz=(\\quad)$（方向正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\sqrt2\\pi\\sin\\sqrt2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sin\\sqrt2}{\\sqrt2}i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi\\sin2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt2\\pi\\sin2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\frac1{z^2+2}=\\frac1{2\\sqrt2 i}(\\frac1{z-\\sqrt2i}-\\frac1{z+\\sqrt2i})$，积分为 $-\\sqrt2\\pi\\sin\\sqrt2$。",
+  "search_text": "$\\oint_{|z|=2}\\frac{\\sin(iz)}{z^2+2}\\,dz=(\\quad)$（方向正向）。 $-\\sqrt2\\pi\\sin\\sqrt2$ $\\frac{\\sin\\sqrt2}{\\sqrt2}i$ $\\pi\\sin2$ $\\sqrt2\\pi\\sin2$ 由 $\\frac1{z^2+2}=\\frac1{2\\sqrt2 i}(\\frac1{z-\\sqrt2i}-\\frac1{z+\\sqrt2i})$，积分为 $-\\sqrt2\\pi\\sin\\sqrt2$。",
+  "sort_order": 75
+}

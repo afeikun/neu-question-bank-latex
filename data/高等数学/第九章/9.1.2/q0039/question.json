@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是下半圆 $y=-\\sqrt{1-x^2}$，则 $I=\\int_L(x^2+y^2)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答\n\n$$\nI=\\int_L1ds=\\pi\n$$",
+  "search_text": "设 $L$ 是下半圆 $y=-\\sqrt{1-x^2}$，则 $I=\\int_L(x^2+y^2)ds=$（ ） $-\\pi$ $-\\frac\\pi2$ $\\frac\\pi2$ $\\pi$ 解答\n\n$$\nI=\\int_L1ds=\\pi\n$$",
+  "sort_order": 39
+}

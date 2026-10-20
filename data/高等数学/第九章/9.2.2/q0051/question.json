@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(2x+y+z)\\,dS$，$\\Sigma$ 是球 $x^2+y^2+z^2\\le4$ 与平面 $2x+y+z=1$ 的交圆盘。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{15\\pi}{4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{28\\pi}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\iint_\\Sigma2x+y+z\\,dS=\\iint_\\Sigma1\\,dS=A$，$A$为曲面$\\Sigma$的面积。曲面$\\Sigma$为的圆面，球心到此圆面的距离为$\\frac{1}{2}$，因此其半径为$\\sqrt{4-\\frac{1}{4}}=\\frac{\\sqrt{15}}{2}$因此$A=\\frac{15\\pi}{4}$，",
+  "search_text": "计算 $\\iint_\\Sigma(2x+y+z)\\,dS$，$\\Sigma$ 是球 $x^2+y^2+z^2\\le4$ 与平面 $2x+y+z=1$ 的交圆盘。 $\\frac{15\\pi}{4}$ $\\frac{28\\pi}{3}$ $\\pi$ $2\\pi$ $\\iint_\\Sigma2x+y+z\\,dS=\\iint_\\Sigma1\\,dS=A$，$A$为曲面$\\Sigma$的面积。曲面$\\Sigma$为的圆面，球心到此圆面的距离为$\\frac{1}{2}$，因此其半径为$\\sqrt{4-\\frac{1}{4}}=\\frac{\\sqrt{15}}{2}$因此$A=\\frac{15\\pi}{4}$，",
+  "sort_order": 51
+}

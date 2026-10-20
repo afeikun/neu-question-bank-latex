@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{x\\to x_0}f(x)=A$，则函数 $f(x)$ 在 $x_0$ 的某个去心邻域内有界，那么其界的最小值 $M$ 为（　）（其中 $\\varepsilon$ 为任意正实数）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|A-\\varepsilon|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|A+\\varepsilon|$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\max\\{|A-\\varepsilon|,|A+\\varepsilon|\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由极限定义，$A-\\varepsilon<f(x)<A+\\varepsilon$，故可取 $M=\\max\\{|A-\\varepsilon|,|A+\\varepsilon|\\}$。",
+  "search_text": "若 $\\lim_{x\\to x_0}f(x)=A$，则函数 $f(x)$ 在 $x_0$ 的某个去心邻域内有界，那么其界的最小值 $M$ 为（ ）（其中 $\\varepsilon$ 为任意正实数）。 $|A-\\varepsilon|$ $|A+\\varepsilon|$ $A$ $\\max\\{|A-\\varepsilon|,|A+\\varepsilon|\\}$ 由极限定义，$A-\\varepsilon<f(x)<A+\\varepsilon$，故可取 $M=\\max\\{|A-\\varepsilon|,|A+\\varepsilon|\\}$。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设数列由递推公式 $u_1=b$，$u_{n+1}=u_n^2+(1-2a)u_n+a^2$ 确定。当 $a$ 与 $b$ 为何值时，数列收敛？其极限为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "任意 $a,b$，均收敛于 $a+b$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "任意 $a,b$，都不收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "当 $a-1\\leq b\\leq a$ 时收敛且极限为 $a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "任意 $a,b$，均收敛于 $a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "递推式可写为 $u_{n+1}=u_n+(u_n-a)^2$，当 $a-1\\leq u_1=b\\leq a$ 时单调有界，极限为 $a$。",
+  "search_text": "设数列由递推公式 $u_1=b$，$u_{n+1}=u_n^2+(1-2a)u_n+a^2$ 确定。当 $a$ 与 $b$ 为何值时，数列收敛？其极限为（ ）。 任意 $a,b$，均收敛于 $a+b$ 任意 $a,b$，都不收敛 当 $a-1\\leq b\\leq a$ 时收敛且极限为 $a$ 任意 $a,b$，均收敛于 $a$ 递推式可写为 $u_{n+1}=u_n+(u_n-a)^2$，当 $a-1\\leq u_1=b\\leq a$ 时单调有界，极限为 $a$。",
+  "sort_order": 10
+}

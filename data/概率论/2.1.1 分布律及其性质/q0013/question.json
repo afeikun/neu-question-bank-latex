@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$取正整数$N$，且概率与$N^2$成反比，求分布律。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6/(\\pi^2N^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6/(\\pi N)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6/(\\pi N^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6/(\\pi^2N)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令$p_N=c/N^2$，由$\\sum_{N=1}^\\infty1/N^2=\\pi^2/6$得$c=6/\\pi^2$。",
+  "search_text": "$X$取正整数$N$，且概率与$N^2$成反比，求分布律。 $6/(\\pi^2N^2)$ $6/(\\pi N)$ $6/(\\pi N^2)$ $6/(\\pi^2N)$ 令$p_N=c/N^2$，由$\\sum_{N=1}^\\infty1/N^2=\\pi^2/6$得$c=6/\\pi^2$。",
+  "sort_order": 13
+}

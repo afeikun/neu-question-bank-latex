@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "长5米的梯子斜靠墙上，下端以0.5米/秒滑离墙，当下端离墙3米时，求上端向下滑落速度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac78$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac18$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac38$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac58$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 由题，可设 $x,y$ 分别表示梯子下端离墙的距离及梯子上端到地面的距离，则 $x=\\frac{t}{2},\\ y=\\sqrt{25-\\frac{t^2}{4}}$，\n\n则梯子上端向下滑动的位移为 $s(t)=5-\\sqrt{25-\\frac{t^2}{4}}$，速度为 $v=s'=\\frac{-\\frac{2t}{4}}{2\\sqrt{25-\\frac{t^2}{4}}}=\\frac{t}{2\\sqrt{100-t^2}}$，则\n\n$x=3,t=6$，故 $v=\\frac{3}{8}(m/s)$.",
+  "search_text": "长5米的梯子斜靠墙上，下端以0.5米/秒滑离墙，当下端离墙3米时，求上端向下滑落速度。 $\\frac78$ $\\frac18$ $\\frac38$ $\\frac58$ 解答 由题，可设 $x,y$ 分别表示梯子下端离墙的距离及梯子上端到地面的距离，则 $x=\\frac{t}{2},\\ y=\\sqrt{25-\\frac{t^2}{4}}$，\n\n则梯子上端向下滑动的位移为 $s(t)=5-\\sqrt{25-\\frac{t^2}{4}}$，速度为 $v=s'=\\frac{-\\frac{2t}{4}}{2\\sqrt{25-\\frac{t^2}{4}}}=\\frac{t}{2\\sqrt{100-t^2}}$，则\n\n$x=3,t=6$，故 $v=\\frac{3}{8}(m/s)$.",
+  "sort_order": 11
+}

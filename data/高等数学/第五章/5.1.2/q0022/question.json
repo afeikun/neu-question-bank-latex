@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{n\\to\\infty}b_n/a_n=1$，则正项级数 $\\sum_{n=1}^{\\infty} a_n$ 收敛是 $\\sum_{n=1}^{\\infty} b_n$ 收敛的什么条件？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "充分但非必要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "既非充分又非必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "必要但非充分条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "极限比值为1的正项级数由极限比较判别法具有相同敛散性，故充分必要。",
+  "search_text": "若 $\\lim_{n\\to\\infty}b_n/a_n=1$，则正项级数 $\\sum_{n=1}^{\\infty} a_n$ 收敛是 $\\sum_{n=1}^{\\infty} b_n$ 收敛的什么条件？ 充分必要条件 充分但非必要条件 既非充分又非必要条件 必要但非充分条件 极限比值为1的正项级数由极限比较判别法具有相同敛散性，故充分必要。",
+  "sort_order": 22
+}

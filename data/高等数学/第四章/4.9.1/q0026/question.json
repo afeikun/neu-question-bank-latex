@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "弹簧拉力与伸长量成正比。弹簧拉伸 $1cm$ 需力 $3N$，若拉长 $l$ 厘米做功 $0.135$ 焦，求 $l$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$k=300$，由 $\\int_0^l kx dx=0.135$（按米换算）得 $l=3cm$。",
+  "search_text": "弹簧拉力与伸长量成正比。弹簧拉伸 $1cm$ 需力 $3N$，若拉长 $l$ 厘米做功 $0.135$ 焦，求 $l$。 $5$ $6$ $4$ $3$ $k=300$，由 $\\int_0^l kx dx=0.135$（按米换算）得 $l=3cm$。",
+  "sort_order": 26
+}

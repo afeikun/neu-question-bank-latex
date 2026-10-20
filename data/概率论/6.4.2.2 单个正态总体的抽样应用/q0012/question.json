@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,16)$，容量10样本，已知$P(S^2>a)=0.975$，求$a$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4.8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3.712$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4.08$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3.172$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$9S^2/16$服从$\\chi^2(9)$，查给定分位数得$a\\approx4.8$。",
+  "search_text": "$X\\sim N(\\mu,16)$，容量10样本，已知$P(S^2>a)=0.975$，求$a$。 $4.8$ $3.712$ $4.08$ $3.172$ $9S^2/16$服从$\\chi^2(9)$，查给定分位数得$a\\approx4.8$。",
+  "sort_order": 12
+}

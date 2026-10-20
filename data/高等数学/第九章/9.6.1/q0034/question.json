@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 是由曲线 $y=x^2$ 及直线 $x=1$，$x$ 轴所围成的区域 $D$ 的逆时针方向边界，则曲线积分 $\\oint_L(e^x\\sin x+y)dx-(x+\\cos y\\ln y)dy=(\\ )$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n这里 $P=e^x\\sin x+y，\\quad Q=-(x+\\cos y\\ln y)，$\n\n由格林公式\n\n$\\oint_L(e^x\\sin x+y)dx-(x+\\cos y\\ln y)dy$\n\n$=-2\\iint_Ddxdy$\n\n$=-\\int_0^1dx\\int_0^{x^2}dy=-\\int_0^1x^2dx=-\\frac13$",
+  "search_text": "$L$ 是由曲线 $y=x^2$ 及直线 $x=1$，$x$ 轴所围成的区域 $D$ 的逆时针方向边界，则曲线积分 $\\oint_L(e^x\\sin x+y)dx-(x+\\cos y\\ln y)dy=(\\ )$ $-1$ $1$ $2$ $-\\frac13$ 解析：\n\n这里 $P=e^x\\sin x+y，\\quad Q=-(x+\\cos y\\ln y)，$\n\n由格林公式\n\n$\\oint_L(e^x\\sin x+y)dx-(x+\\cos y\\ln y)dy$\n\n$=-2\\iint_Ddxdy$\n\n$=-\\int_0^1dx\\int_0^{x^2}dy=-\\int_0^1x^2dx=-\\frac13$",
+  "sort_order": 34
+}

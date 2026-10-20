@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "使用柯西中值定理，当 $x>0$ 时表达式 $\\frac{x(\\sqrt[n]{x}-1)}{\\ln x}$ 可化为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{n}\\xi^{1/n},\\ \\xi>0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{n-1}\\xi^{1/(n-1)},\\ \\xi>0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\xi^{1/n-1},\\ \\xi>0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1n\\xi^{1/n},\\ \\xi>0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 $f(t)=\\sqrt[n]{t}$ 与 $g(t)=\\ln t$ 应用柯西中值定理，导数比为 $\\frac{\\xi^{1/n-1}/n}{1/\\xi}=\\frac1n\\xi^{1/n}$。",
+  "search_text": "使用柯西中值定理，当 $x>0$ 时表达式 $\\frac{x(\\sqrt[n]{x}-1)}{\\ln x}$ 可化为 $(\\quad)$。 $\\frac1{n}\\xi^{1/n},\\ \\xi>0$ $\\frac1{n-1}\\xi^{1/(n-1)},\\ \\xi>0$ $\\xi^{1/n-1},\\ \\xi>0$ $\\frac1n\\xi^{1/n},\\ \\xi>0$ 对 $f(t)=\\sqrt[n]{t}$ 与 $g(t)=\\ln t$ 应用柯西中值定理，导数比为 $\\frac{\\xi^{1/n-1}/n}{1/\\xi}=\\frac1n\\xi^{1/n}$。",
+  "sort_order": 3
+}

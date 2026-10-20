@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0^+}\\left[\\frac{a^x-x\\ln a}{b^x-x\\ln b}\\right]^{1/x^2}=(\\quad)$（其中 $a,b$ 为正数）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{\\frac12(\\ln^2a+\\ln^2b)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{\\ln(ab)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{\\frac12(\\ln^2a-\\ln^2b)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{\\frac13(\\ln^2a-\\ln^2b)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "展开指数函数至二阶，取对数后极限为 $\\frac12(\\ln^2a-\\ln^2b)$，故结果为 $e^{\\frac12(\\ln^2a-\\ln^2b)}$。",
+  "search_text": "$\\lim_{x\\to0^+}\\left[\\frac{a^x-x\\ln a}{b^x-x\\ln b}\\right]^{1/x^2}=(\\quad)$（其中 $a,b$ 为正数）。 $e^{\\frac12(\\ln^2a+\\ln^2b)}$ $e^{\\ln(ab)}$ $e^{\\frac12(\\ln^2a-\\ln^2b)}$ $e^{\\frac13(\\ln^2a-\\ln^2b)}$ 展开指数函数至二阶，取对数后极限为 $\\frac12(\\ln^2a-\\ln^2b)$，故结果为 $e^{\\frac12(\\ln^2a-\\ln^2b)}$。",
+  "sort_order": 39
+}

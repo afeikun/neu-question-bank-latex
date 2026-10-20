@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_D(x^2+4y^2+9)\\,d\\sigma$ 的取值范围为（ ）。（其中 $D$ 是圆形区域：$x^2+y^2\\leq4$。）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[64\\pi,121\\pi]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[36\\pi,100\\pi]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[20\\pi,60\\pi]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[0,50\\pi]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $\\sigma=\\pi\\cdot2^2=4\\pi$，在 $D$ 中 $x^2+y^2+9\\leq x^2+4y^2+9\\leq4(x^2+y^2)+9$，即\n\n$$9\\leq x^2+4y^2+9\\leq25,\\quad\\therefore\\ 9\\iint_Dd\\sigma\\leq\\iint_D(x^2+4y^2+9)d\\sigma\\leq25\\iint_Dd\\sigma.$$\n\n即 $36\\pi\\leq\\iint_D(x^2+4y^2+9)d\\sigma\\leq100\\pi.$",
+  "search_text": "二重积分 $\\iint_D(x^2+4y^2+9)\\,d\\sigma$ 的取值范围为（ ）。（其中 $D$ 是圆形区域：$x^2+y^2\\leq4$。） $[64\\pi,121\\pi]$ $[36\\pi,100\\pi]$ $[20\\pi,60\\pi]$ $[0,50\\pi]$ 解答 $\\sigma=\\pi\\cdot2^2=4\\pi$，在 $D$ 中 $x^2+y^2+9\\leq x^2+4y^2+9\\leq4(x^2+y^2)+9$，即\n\n$$9\\leq x^2+4y^2+9\\leq25,\\quad\\therefore\\ 9\\iint_Dd\\sigma\\leq\\iint_D(x^2+4y^2+9)d\\sigma\\leq25\\iint_Dd\\sigma.$$\n\n即 $36\\pi\\leq\\iint_D(x^2+4y^2+9)d\\sigma\\leq100\\pi.$",
+  "sort_order": 24
+}

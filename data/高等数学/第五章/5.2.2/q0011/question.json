@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$a$ 为正数，若 $\\sum_{n=1}^{\\infty} a^n n!/n^n$ 发散，且 $\\sum_{n=2}^{\\infty}(\\sqrt{n+2}-\\sqrt{n-2})/n^a$ 收敛，则？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2<a<e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1<a<e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a>e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0<a<1/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "第一条件要求 $a\\ge e$，第二要求 $a>1$；原页解析得合并条件为 $a>e$。",
+  "search_text": "$a$ 为正数，若 $\\sum_{n=1}^{\\infty} a^n n!/n^n$ 发散，且 $\\sum_{n=2}^{\\infty}(\\sqrt{n+2}-\\sqrt{n-2})/n^a$ 收敛，则？ $1/2<a<e$ $1<a<e$ $a>e$ $0<a<1/2$ 第一条件要求 $a\\ge e$，第二要求 $a>1$；原页解析得合并条件为 $a>e$。",
+  "sort_order": 11
+}

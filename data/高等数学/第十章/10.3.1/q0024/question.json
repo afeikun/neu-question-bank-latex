@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime+\\frac1x y=x$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac{x^2}{3}+\\frac cx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=c\\frac{x^2}{3}+\\frac1x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac{x^2}{3}-\\frac cx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=-\\frac{x^2}{3}+\\frac cx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "该方程是一阶线性非齐次方程，其中\n\n$$P(x)=\\frac{1}{x},Q(x)=x$$\n\n利用求解公式，得 $y=e^{-\\int\\frac{1}{x}\\,dx}\\left(\\int xe^{\\int\\frac{1}{x}\\,dx}\\,dx+c\\right)=\\frac{x^2}{3}+\\frac{c}{x}$",
+  "search_text": "微分方程 $y\\prime+\\frac1x y=x$ 的解为（ ） $y=\\frac{x^2}{3}+\\frac cx$ $y=c\\frac{x^2}{3}+\\frac1x$ $y=\\frac{x^2}{3}-\\frac cx$ $y=-\\frac{x^2}{3}+\\frac cx$ 该方程是一阶线性非齐次方程，其中\n\n$$P(x)=\\frac{1}{x},Q(x)=x$$\n\n利用求解公式，得 $y=e^{-\\int\\frac{1}{x}\\,dx}\\left(\\int xe^{\\int\\frac{1}{x}\\,dx}\\,dx+c\\right)=\\frac{x^2}{3}+\\frac{c}{x}$",
+  "sort_order": 24
+}

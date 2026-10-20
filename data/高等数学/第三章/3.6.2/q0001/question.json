@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)$ 二阶可导，且 $f\\prime(0)=0$，$\\displaystyle\\lim_{x\\to0}\\frac{f\\prime\\prime(x)}{|x|}=-1$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,f(0))$ 不是拐点，$f(0)$ 是极大值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,f(0))$ 不是拐点，$f(0)$ 是极小值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0,f(0))$ 是拐点，$f(0)$ 是极大值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,f(0))$ 是拐点，$f(0)$ 是极小值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime\\prime(x)<0$ 在零点两侧成立，所以导数在 $0$ 左侧为正、右侧为负，$f(0)$ 为极大值，且不是拐点。",
+  "search_text": "若 $f(x)$ 二阶可导，且 $f\\prime(0)=0$，$\\displaystyle\\lim_{x\\to0}\\frac{f\\prime\\prime(x)}{|x|}=-1$，则（ ）。 $(0,f(0))$ 不是拐点，$f(0)$ 是极大值 $(0,f(0))$ 不是拐点，$f(0)$ 是极小值 $(0,f(0))$ 是拐点，$f(0)$ 是极大值 $(0,f(0))$ 是拐点，$f(0)$ 是极小值 $f\\prime\\prime(x)<0$ 在零点两侧成立，所以导数在 $0$ 左侧为正、右侧为负，$f(0)$ 为极大值，且不是拐点。",
+  "sort_order": 1
+}

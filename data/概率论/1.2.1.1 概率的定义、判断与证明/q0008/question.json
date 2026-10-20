@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "随机事件 $A,B$ 满足 $B\\subset A$，则以下各式错误的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(B\\mid A)=P(B)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A\\cup B)=P(A)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(\\overline A\\,\\overline B)=P(\\overline A)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(B)\\le P(A)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $B\\subset A$ 可知 $A\\cup B=A$、$AB=B$ 且 $P(B)\\le P(A)$，并有 $P(\\overline A\\,\\overline B)=P(\\overline A)$。一般 $P(B\\mid A)=P(B)/P(A)$，不等于 $P(B)$。",
+  "search_text": "随机事件 $A,B$ 满足 $B\\subset A$，则以下各式错误的是(\\quad)。 $P(B\\mid A)=P(B)$ $P(A\\cup B)=P(A)$ $P(\\overline A\\,\\overline B)=P(\\overline A)$ $P(B)\\le P(A)$ 由 $B\\subset A$ 可知 $A\\cup B=A$、$AB=B$ 且 $P(B)\\le P(A)$，并有 $P(\\overline A\\,\\overline B)=P(\\overline A)$。一般 $P(B\\mid A)=P(B)/P(A)$，不等于 $P(B)$。",
+  "sort_order": 8
+}

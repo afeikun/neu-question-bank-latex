@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=a(t-\\sin t),\\ y=a(1-\\cos t)$，求 $\\frac{d^2y}{dx^2}$（$t\\ne2n\\pi$）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\csc^4(t/2)}{4a}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{\\csc^2(t/2)}2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\csc^2(t/2)}2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{\\csc^4(t/2)}{4a}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=a(1-\\cos t),\\quad \\frac{dy}{dt}=a\\sin t,\\quad \\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{\\sin t}{1-\\cos t}=\\cot\\frac{t}{2}.$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }\\frac{d^2y}{dx^2}=\\frac{d\\left(\\frac{dy}{dx}\\right)}{dx}=\\frac{d\\left(\\frac{dy}{dx}\\right)/dt}{dx/dt}=\\frac{-\\frac{1}{2}\\csc^2\\frac{t}{2}}{a(1-\\cos t)}=-\\frac{\\csc^4\\frac{t}{2}}{4a},\\quad (t\\ne 2n\\pi,n\\in Z)$$",
+  "search_text": "$x=a(t-\\sin t),\\ y=a(1-\\cos t)$，求 $\\frac{d^2y}{dx^2}$（$t\\ne2n\\pi$）。 $\\frac{\\csc^4(t/2)}{4a}$ $-\\frac{\\csc^2(t/2)}2$ $\\frac{\\csc^2(t/2)}2$ $-\\frac{\\csc^4(t/2)}{4a}$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=a(1-\\cos t),\\quad \\frac{dy}{dt}=a\\sin t,\\quad \\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{\\sin t}{1-\\cos t}=\\cot\\frac{t}{2}.$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }\\frac{d^2y}{dx^2}=\\frac{d\\left(\\frac{dy}{dx}\\right)}{dx}=\\frac{d\\left(\\frac{dy}{dx}\\right)/dt}{dx/dt}=\\frac{-\\frac{1}{2}\\csc^2\\frac{t}{2}}{a(1-\\cos t)}=-\\frac{\\csc^4\\frac{t}{2}}{4a},\\quad (t\\ne 2n\\pi,n\\in Z)$$",
+  "sort_order": 15
+}

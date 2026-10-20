@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲边梯形0≤y≤f(x)，a≤x≤b，绕y轴旋转所得体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2π∫ₐᵇxf(x)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "π∫ₐᵇxf(x)dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫ₐᵇf²(x)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫ₐᵇxf′(x)dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆柱壳法体积为2π∫ₐᵇxf(x)dx。",
+  "search_text": "曲边梯形0≤y≤f(x)，a≤x≤b，绕y轴旋转所得体积 2π∫ₐᵇxf(x)dx π∫ₐᵇxf(x)dx ∫ₐᵇf²(x)dx ∫ₐᵇxf′(x)dx 圆柱壳法体积为2π∫ₐᵇxf(x)dx。",
+  "sort_order": 23
+}

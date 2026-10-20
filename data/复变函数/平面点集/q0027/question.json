@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $|z+1|+|z-2|=3$ 表示的平面图形为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "直线段"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "椭圆"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "直线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "到 $-1$ 和 $2$ 的距离之和等于两焦点距离，表示线段。",
+  "search_text": "方程 $|z+1|+|z-2|=3$ 表示的平面图形为（ ）。 直线段 椭圆 圆 直线 到 $-1$ 和 $2$ 的距离之和等于两焦点距离，表示线段。",
+  "sort_order": 27
+}

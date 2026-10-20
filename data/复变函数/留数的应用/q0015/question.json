@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^\\pi\\dfrac{\\cos2t}{1-2a\\cos t+a^2}\\,dt$（$a^2<1$）$=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{\\pi a^2}{1-a^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{2\\pi a^2}{1-a^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{3\\pi a^2}{5(1-a^2)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{4\\pi a^2}{1-a^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=e^{it}$，$\\cos t=(z^2+1)/(2z)$。化为单位圆积分并计算 $z=0$ 与 $z=a$ 处的留数，得 $I=\\dfrac{\\pi a^2}{1-a^2}$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^\\pi\\dfrac{\\cos2t}{1-2a\\cos t+a^2}\\,dt$（$a^2<1$）$=(\\ \\ )$。 $\\dfrac{\\pi a^2}{1-a^2}$ $\\dfrac{2\\pi a^2}{1-a^2}$ $\\dfrac{3\\pi a^2}{5(1-a^2)}$ $\\dfrac{4\\pi a^2}{1-a^2}$ 令 $z=e^{it}$，$\\cos t=(z^2+1)/(2z)$。化为单位圆积分并计算 $z=0$ 与 $z=a$ 处的留数，得 $I=\\dfrac{\\pi a^2}{1-a^2}$。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由方程 $x^2+y^2+z^2-2x+2y-4z-10=0$ 确定的 $z=f(x,y)$ 的极值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "极大值6，极小值-6"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "极大值6，极小值2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极大值2，极小值-2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "极大值6，极小值-2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将方程两边分别对 $x,y$ 求偏导：\n\n$$\\left\\{\\begin{aligned}2x+2z\\cdot z_x-2-4z_x&=0\\\\2y+2z\\cdot z_y+2-4z_y&=0\\end{aligned}\\right.$$ \n\n由函数取极值的必要条件，知驻点 $P(1,-1)$，将上方程组再分别对 $x,y$ 求偏导：\n\n$$A=z_{xx}\\big|_P=\\frac{1}{2-z},\\quad B=z_{xy}\\big|_P=0,\\quad C=z_{yy}\\big|_P=\\frac{1}{2-z},$$\n\n故 $AC-B^2=\\frac{1}{(2-z)^2}>0\\ (z\\ne2)$，函数在 $P$ 有极值。将 $P(1,-1)$ 代入原方程，有 $z_1=-2,z_2=6$，当 $z_1=-2$ 时，$A=\\frac{1}{4}>0$，故 $z=f(1,-1)=-2$ 为极小值；当 $z_2=6$ 时，$A=-\\frac{1}{4}<0$，故 $z=f(1,-1)=6$。",
+  "search_text": "由方程 $x^2+y^2+z^2-2x+2y-4z-10=0$ 确定的 $z=f(x,y)$ 的极值为。 极大值6，极小值-6 极大值6，极小值2 极大值2，极小值-2 极大值6，极小值-2 将方程两边分别对 $x,y$ 求偏导：\n\n$$\\left\\{\\begin{aligned}2x+2z\\cdot z_x-2-4z_x&=0\\\\2y+2z\\cdot z_y+2-4z_y&=0\\end{aligned}\\right.$$ \n\n由函数取极值的必要条件，知驻点 $P(1,-1)$，将上方程组再分别对 $x,y$ 求偏导：\n\n$$A=z_{xx}\\big|_P=\\frac{1}{2-z},\\quad B=z_{xy}\\big|_P=0,\\quad C=z_{yy}\\big|_P=\\frac{1}{2-z},$$\n\n故 $AC-B^2=\\frac{1}{(2-z)^2}>0\\ (z\\ne2)$，函数在 $P$ 有极值。将 $P(1,-1)$ 代入原方程，有 $z_1=-2,z_2=6$，当 $z_1=-2$ 时，$A=\\frac{1}{4}>0$，故 $z=f(1,-1)=-2$ 为极小值；当 $z_2=6$ 时，$A=-\\frac{1}{4}<0$，故 $z=f(1,-1)=6$。",
+  "sort_order": 6
+}

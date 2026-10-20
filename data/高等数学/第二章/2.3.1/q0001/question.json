@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x=1+t^2,y=\\cos t$，则 $\\frac{d^2y}{dx^2}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "\\frac{\\sin t-t\\cos t}{4t^3}"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "\\frac{t\\cos t-\\sin t}{2t^2}"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "\\frac{\\sin t-t\\cos t}{2t^2}"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "\\frac{t\\cos t-\\sin t}{4t^3}"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$dy/dx=-\\sin t/(2t)$，再次用参数求导得 $d^2y/dx^2=(\\sin t-t\\cos t)/(4t^3)$。",
+  "search_text": "设 $x=1+t^2,y=\\cos t$，则 $\\frac{d^2y}{dx^2}=$（ ）。 \\frac{\\sin t-t\\cos t}{4t^3} \\frac{t\\cos t-\\sin t}{2t^2} \\frac{\\sin t-t\\cos t}{2t^2} \\frac{t\\cos t-\\sin t}{4t^3} $dy/dx=-\\sin t/(2t)$，再次用参数求导得 $d^2y/dx^2=(\\sin t-t\\cos t)/(4t^3)$。",
+  "sort_order": 1
+}

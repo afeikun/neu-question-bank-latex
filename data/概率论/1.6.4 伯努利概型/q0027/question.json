@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "命中率0.4，独立射击$n$次，至少命中一次概率大于0.9，$n$的最小值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1-(1-0.4)^n>0.9$，即$n>\\lg(0.1)/\\lg(0.6)\\approx4.50$，最小整数为5。",
+  "search_text": "命中率0.4，独立射击$n$次，至少命中一次概率大于0.9，$n$的最小值为（ ）。 $5$ $3$ $6$ $4$ $1-(1-0.4)^n>0.9$，即$n>\\lg(0.1)/\\lg(0.6)\\approx4.50$，最小整数为5。",
+  "sort_order": 27
+}

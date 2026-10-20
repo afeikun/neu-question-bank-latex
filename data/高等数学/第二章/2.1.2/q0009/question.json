@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\begin{cases}(x-3)\\arctan\\frac1{x-3},&x\\ne3\\\\0,&x=3\\end{cases}$，则右导数 $f\\prime_+(3)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac\\pi2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "按题干右导数取 $x\\to3^+$，$\\arctan(1/(x-3))\\to\\pi/2$；原解析按左侧计算得 $-\\pi/2$。",
+  "search_text": "$f(x)=\\begin{cases}(x-3)\\arctan\\frac1{x-3},&x\\ne3\\\\0,&x=3\\end{cases}$，则右导数 $f\\prime_+(3)=$（ ）。 $-\\frac\\pi4$ $\\frac\\pi4$ $\\frac\\pi2$ $-\\frac\\pi2$ 按题干右导数取 $x\\to3^+$，$\\arctan(1/(x-3))\\to\\pi/2$；原解析按左侧计算得 $-\\pi/2$。",
+  "sort_order": 9
+}

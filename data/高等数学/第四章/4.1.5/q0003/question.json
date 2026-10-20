@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int\\frac{dx}{\\sqrt{x}(1+\\sqrt[3]{x})}$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6(\\sqrt[6]{x}-\\arctan\\sqrt[6]{x})+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3(\\sqrt[3]{x}-\\arctan\\sqrt[3]{x})+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3(\\sqrt[3]{x}+\\arctan\\sqrt[3]{x})+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6(\\sqrt[6]{x}+\\arctan\\sqrt[6]{x})+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $x=t^6$，积分为 $6\\int\\frac{t^2}{1+t^2}dt=6(t-\\arctan t)+C$。",
+  "search_text": "$\\int\\frac{dx}{\\sqrt{x}(1+\\sqrt[3]{x})}$ 的值为 $6(\\sqrt[6]{x}-\\arctan\\sqrt[6]{x})+C$ $3(\\sqrt[3]{x}-\\arctan\\sqrt[3]{x})+C$ $3(\\sqrt[3]{x}+\\arctan\\sqrt[3]{x})+C$ $6(\\sqrt[6]{x}+\\arctan\\sqrt[6]{x})+C$ 令 $x=t^6$，积分为 $6\\int\\frac{t^2}{1+t^2}dt=6(t-\\arctan t)+C$。",
+  "sort_order": 3
+}

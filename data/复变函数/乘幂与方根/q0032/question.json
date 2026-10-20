@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $w^6+1-\\sqrt3i=0$ 的全部根是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt[6]2e^{i\\pi/9},\\sqrt[6]2e^{i4\\pi/9},\\sqrt[6]2e^{i7\\pi/9},-\\sqrt[6]2e^{i\\pi/9},-\\sqrt[6]2e^{i4\\pi/9},-\\sqrt[6]2e^{i7\\pi/9}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt[3]2e^{i\\pi/9},\\sqrt[3]2e^{i4\\pi/9},\\sqrt[3]2e^{i7\\pi/9}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt[6]2e^{i\\pi/9},\\sqrt[6]2e^{i4\\pi/9},\\sqrt[6]2e^{i7\\pi/9}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{i\\pi/9},e^{i4\\pi/9},e^{i7\\pi/9}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$w^6=\\sqrt3i-1=2e^{2\\pi i/3}$，六个根为 $\\sqrt[6]2e^{i(\\pi+3k\\pi)/9}$，$k=0,\\ldots,5$。",
+  "search_text": "方程 $w^6+1-\\sqrt3i=0$ 的全部根是（ ）。 $\\sqrt[6]2e^{i\\pi/9},\\sqrt[6]2e^{i4\\pi/9},\\sqrt[6]2e^{i7\\pi/9},-\\sqrt[6]2e^{i\\pi/9},-\\sqrt[6]2e^{i4\\pi/9},-\\sqrt[6]2e^{i7\\pi/9}$ $\\sqrt[3]2e^{i\\pi/9},\\sqrt[3]2e^{i4\\pi/9},\\sqrt[3]2e^{i7\\pi/9}$ $\\sqrt[6]2e^{i\\pi/9},\\sqrt[6]2e^{i4\\pi/9},\\sqrt[6]2e^{i7\\pi/9}$ $e^{i\\pi/9},e^{i4\\pi/9},e^{i7\\pi/9}$ $w^6=\\sqrt3i-1=2e^{2\\pi i/3}$，六个根为 $\\sqrt[6]2e^{i(\\pi+3k\\pi)/9}$，$k=0,\\ldots,5$。",
+  "sort_order": 32
+}

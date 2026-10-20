@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\frac{e^{iz}}{z^2+1}\\,dz=-2\\pi\\sinh1$，路径 $C$ 应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "圆周 $|z|=2$，正向"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "圆周 $|z-i|=1$，负向"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆周 $|z-2i|=\\frac32$，正向"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "椭圆 $|z+i|+|z-i|=2\\sqrt2$，负向"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|z|=2$ 同时包含 $i,-i$，积分值为 $-2\\pi\\sinh1$。",
+  "search_text": "为使 $\\oint_C\\frac{e^{iz}}{z^2+1}\\,dz=-2\\pi\\sinh1$，路径 $C$ 应为（ ）。 圆周 $|z|=2$，正向 圆周 $|z-i|=1$，负向 圆周 $|z-2i|=\\frac32$，正向 椭圆 $|z+i|+|z-i|=2\\sqrt2$，负向 $|z|=2$ 同时包含 $i,-i$，积分值为 $-2\\pi\\sinh1$。",
+  "sort_order": 3
+}

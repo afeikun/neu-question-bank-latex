@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum u_n$ 收敛，且其和 $S\\ne0$，则下述结论成立的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum\\sqrt{|u_n|}$ 收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum(u_n-S)$ 收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum u_{n+1}$ 收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum 1/u_n$ 收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "去掉收敛级数首项仍收敛，故 $\\sum u_{n+1}$ 收敛。",
+  "search_text": "若级数 $\\sum u_n$ 收敛，且其和 $S\\ne0$，则下述结论成立的是？ $\\sum\\sqrt{|u_n|}$ 收敛 $\\sum(u_n-S)$ 收敛 $\\sum u_{n+1}$ 收敛 $\\sum 1/u_n$ 收敛 去掉收敛级数首项仍收敛，故 $\\sum u_{n+1}$ 收敛。",
+  "sort_order": 2
+}

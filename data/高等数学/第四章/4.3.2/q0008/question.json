@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列式子正确的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫ₐᵇf′(x)dx=f(b)−f(a)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(∫ₐᵇf(x)dx)′=f(x)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫ₐᵇf(x)dx=f(x)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫ₐᵇf′(x)dx=f(b)−f(a)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "牛顿—莱布尼兹公式。",
+  "search_text": "下列式子正确的是 ∫ₐᵇf′(x)dx=f(b)−f(a) (∫ₐᵇf(x)dx)′=f(x) ∫ₐᵇf(x)dx=f(x) ∫ₐᵇf′(x)dx=f(b)−f(a) 牛顿—莱布尼兹公式。",
+  "sort_order": 8
+}

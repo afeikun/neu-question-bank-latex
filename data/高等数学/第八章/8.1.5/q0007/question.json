@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "位于两圆 $r=2\\sin\\theta$ 和 $r=4\\sin\\theta$ 之间的均匀薄片的重心为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,\\frac73)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0,0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "如图，因为闭区域 $D$ 对称于 $y$ 轴，故重心 $C(\\bar{x},\\bar{y})$ 必位于 $y$ 轴上，于是\n$$\n\\bar{x}=0,\\bar{y}=\\frac{1}{A}\\iint_Dyd\\sigma\n$$\n易见积分区域 $D$ 的面积等于这两个圆的面积之差，即 $A=3\\pi$。再利用极坐标计算积分\n$$\n\\iint_Dyd\\sigma=\\iint_Dr^2\\sin\\theta drd\\theta=\\int_0^\\pi\\sin\\theta d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}r^2dr=7\\pi\n$$\n因此，所求重心是 $\\left(0,\\frac{7}{3}\\right)$。\n\n图示：阴影区域标记为 $D$，由内外两圆围成；坐标轴标记为 $x$、$y$，原点为 $O$，$y$ 轴上标有 $4$，并有两个红色点位于 $y$ 轴上。",
+  "search_text": "位于两圆 $r=2\\sin\\theta$ 和 $r=4\\sin\\theta$ 之间的均匀薄片的重心为（ ） $(0,\\frac73)$ $(0,2)$ $(0,0)$ $(0,3)$ 如图，因为闭区域 $D$ 对称于 $y$ 轴，故重心 $C(\\bar{x},\\bar{y})$ 必位于 $y$ 轴上，于是\n$$\n\\bar{x}=0,\\bar{y}=\\frac{1}{A}\\iint_Dyd\\sigma\n$$\n易见积分区域 $D$ 的面积等于这两个圆的面积之差，即 $A=3\\pi$。再利用极坐标计算积分\n$$\n\\iint_Dyd\\sigma=\\iint_Dr^2\\sin\\theta drd\\theta=\\int_0^\\pi\\sin\\theta d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}r^2dr=7\\pi\n$$\n因此，所求重心是 $\\left(0,\\frac{7}{3}\\right)$。\n\n图示：阴影区域标记为 $D$，由内外两圆围成；坐标轴标记为 $x$、$y$，原点为 $O$，$y$ 轴上标有 $4$，并有两个红色点位于 $y$ 轴上。",
+  "sort_order": 7
+}

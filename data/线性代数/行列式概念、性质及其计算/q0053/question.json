@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $D=\\begin{vmatrix}0&4&5&-1&2\\\\-5&0&2&0&1\\\\7&2&0&3&-4\\\\-3&1&-1&-5&0\\\\2&-3&0&1&3\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-349$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$349$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-799$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$799$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "按图示交换列并作行变换化为上三角行列式，计算得 $D=-799$。",
+  "search_text": "设 $D=\\begin{vmatrix}0&4&5&-1&2\\\\-5&0&2&0&1\\\\7&2&0&3&-4\\\\-3&1&-1&-5&0\\\\2&-3&0&1&3\\end{vmatrix}$ 等于（ ）。 $-349$ $349$ $-799$ $799$ 按图示交换列并作行变换化为上三角行列式，计算得 $D=-799$。",
+  "sort_order": 53
+}

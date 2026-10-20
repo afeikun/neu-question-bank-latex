@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{1-i}^{1+i}ze^{z^2}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$i\\sin 2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2e\\cos1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e\\sin1-1+ie\\cos1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sin1+\\cos1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_{1-i}^{1+i}ze^{z^2}\\,dz=\\frac12e^{z^2}\\big|_{1-i}^{1+i}=i\\sin2$。",
+  "search_text": "$\\int_{1-i}^{1+i}ze^{z^2}\\,dz=(\\quad)$。 $i\\sin 2$ $2e\\cos1$ $e\\sin1-1+ie\\cos1$ $\\sin1+\\cos1$ $\\int_{1-i}^{1+i}ze^{z^2}\\,dz=\\frac12e^{z^2}\\big|_{1-i}^{1+i}=i\\sin2$。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{\\cos x-e^{-x^2/2}}{x^2[x+\\ln(1-x)]}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "Maclaurin 展开后分子首项 $-x^4/12$，分母首项 $-x^4/2$，比值为 $1/6$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{\\cos x-e^{-x^2/2}}{x^2[x+\\ln(1-x)]}=(\\quad)$。 $\\frac13$ $1$ $\\frac12$ $\\frac16$ Maclaurin 展开后分子首项 $-x^4/12$，分母首项 $-x^4/2$，比值为 $1/6$。",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若平面 $x+y+z+1=0$ 平行于平面 $4x+ky+4z-9=0$，则 $k=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "法向量成比例，比较 $x,z$ 分量得比例为 $1/4$，故 $1/k=1/4$，$k=4$。",
+  "search_text": "若平面 $x+y+z+1=0$ 平行于平面 $4x+ky+4z-9=0$，则 $k=(\\quad)$。 $2$ $4$ $3$ $1$ 法向量成比例，比较 $x,z$ 分量得比例为 $1/4$，故 $1/k=1/4$，$k=4$。",
+  "sort_order": 18
+}

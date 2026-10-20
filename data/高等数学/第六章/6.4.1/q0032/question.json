@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $\\frac{x-12}{4}=\\frac{y-9}{3}=\\frac{z-1}{1}$ 与平面 $3x+5y-z-2=0$ 的交点为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(12,9,1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,0,2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(4,3,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,0,-2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：直线的参数式方程为 $\\begin{cases}x=4t+12\\\\y=3t+9\\\\z=t+1\\end{cases}$，代入到平面方程 $3x+5y-z-2=0$，得 $3(4t+12)+5(3t+9)-(t+1)-2=0\\Rightarrow t=-3$，所以交点坐标为 $(0,0,-2)$。",
+  "search_text": "直线 $\\frac{x-12}{4}=\\frac{y-9}{3}=\\frac{z-1}{1}$ 与平面 $3x+5y-z-2=0$ 的交点为(\\quad)。 $(12,9,1)$ $(0,0,2)$ $(4,3,1)$ $(0,0,-2)$ 解答：直线的参数式方程为 $\\begin{cases}x=4t+12\\\\y=3t+9\\\\z=t+1\\end{cases}$，代入到平面方程 $3x+5y-z-2=0$，得 $3(4t+12)+5(3t+9)-(t+1)-2=0\\Rightarrow t=-3$，所以交点坐标为 $(0,0,-2)$。",
+  "sort_order": 32
+}

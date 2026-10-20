@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x^{7/5}$ 的拐点为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无拐点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1,-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=\\frac{14}{25}x^{-3/5}$ 在零点两侧变号，曲线通过原点，所以 $(0,0)$ 为拐点。",
+  "search_text": "曲线 $y=x^{7/5}$ 的拐点为（ ）。 $(0,0)$ 无拐点 $(1,1)$ $(-1,-1)$ $y\\prime\\prime=\\frac{14}{25}x^{-3/5}$ 在零点两侧变号，曲线通过原点，所以 $(0,0)$ 为拐点。",
+  "sort_order": 27
+}

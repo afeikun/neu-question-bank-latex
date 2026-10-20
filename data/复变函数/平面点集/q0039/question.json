@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $0<\\arg(z-1)<\\frac\\pi4$ 与 $2\\le\\operatorname{Re}z\\le3$ 所确定的点集是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "非开集，亦非闭区域"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "闭区域"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "区域"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "开集，但非区域"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "点集由四条直线围成，包含边界 $x=2,x=3$，不包含另两边界。",
+  "search_text": "由 $0<\\arg(z-1)<\\frac\\pi4$ 与 $2\\le\\operatorname{Re}z\\le3$ 所确定的点集是（ ）。 非开集，亦非闭区域 闭区域 区域 开集，但非区域 点集由四条直线围成，包含边界 $x=2,x=3$，不包含另两边界。",
+  "sort_order": 39
+}

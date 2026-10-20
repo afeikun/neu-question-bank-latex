@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{dy}{dx}+y\\cot x=5e^{\\cos x}$ 在初始条件 $y|_{x=\\pi/2}=-4$ 的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1-5e^{\\sin x}}{\\sin x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1-5e^{\\cos x}}{\\cos x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1-5e^{\\sin x}}{\\cos x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1-5e^{\\cos x}}{\\sin x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$y=e^{-\\int\\cot x\\,dx}\\left(\\int 5e^{\\cos x}\\cdot e^{\\int\\cot x\\,dx}\\,dx+C\\right)=\\frac{1}{\\sin x}\\left(\\int 5e^{\\cos x}\\cdot\\sin x\\,dx+C\\right)=\\frac{1}{\\sin x}(-5e^{\\cos x}+C)$$\n\n带入初值 $x=\\frac{\\pi}{2}$，$y=-4$ 得 $C=1$",
+  "search_text": "$\\frac{dy}{dx}+y\\cot x=5e^{\\cos x}$ 在初始条件 $y|_{x=\\pi/2}=-4$ 的特解为（ ） $\\frac{1-5e^{\\sin x}}{\\sin x}$ $\\frac{1-5e^{\\cos x}}{\\cos x}$ $\\frac{1-5e^{\\sin x}}{\\cos x}$ $\\frac{1-5e^{\\cos x}}{\\sin x}$ $$y=e^{-\\int\\cot x\\,dx}\\left(\\int 5e^{\\cos x}\\cdot e^{\\int\\cot x\\,dx}\\,dx+C\\right)=\\frac{1}{\\sin x}\\left(\\int 5e^{\\cos x}\\cdot\\sin x\\,dx+C\\right)=\\frac{1}{\\sin x}(-5e^{\\cos x}+C)$$\n\n带入初值 $x=\\frac{\\pi}{2}$，$y=-4$ 得 $C=1$",
+  "sort_order": 25
+}

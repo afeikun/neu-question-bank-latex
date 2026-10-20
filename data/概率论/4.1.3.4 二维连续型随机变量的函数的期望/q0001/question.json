@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立，$f_X(x)=3x^2,f_Y(y)=2y$于$(0,1)$，求先到者等待时间期望$E|X-Y|$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_0^1\\int_0^1|x-y|6x^2y\\,dxdy=1/4$。",
+  "search_text": "$X,Y$独立，$f_X(x)=3x^2,f_Y(y)=2y$于$(0,1)$，求先到者等待时间期望$E|X-Y|$。 $1/4$ $1/6$ $1/12$ $1/8$ $\\int_0^1\\int_0^1|x-y|6x^2y\\,dxdy=1/4$。",
+  "sort_order": 1
+}

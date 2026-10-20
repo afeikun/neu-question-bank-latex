@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 由 $2z=x^2+y^2,z=2,z=8$ 围成，则 $\\iiint_\\Omega(x^2+y^2)\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{211}{3}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{844}{9}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{422}{3}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{844}{3}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\Omega$ 可以表示为 $4\\leq x^2+y^2\\leq 16,\\quad \\frac{x^2+y^2}{2}\\leq z\\leq 8$，利用柱面坐标变换可得，\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_2^4r\\,dr\\int_{\\frac{r^2}{2}}^8r^2\\,dz$\n\n$=\\frac{844}{3}\\pi$",
+  "search_text": "$\\Omega$ 由 $2z=x^2+y^2,z=2,z=8$ 围成，则 $\\iiint_\\Omega(x^2+y^2)\\,dv$ 的值为（ ） $\\frac{211}{3}\\pi$ $\\frac{844}{9}\\pi$ $\\frac{422}{3}\\pi$ $\\frac{844}{3}\\pi$ $\\Omega$ 可以表示为 $4\\leq x^2+y^2\\leq 16,\\quad \\frac{x^2+y^2}{2}\\leq z\\leq 8$，利用柱面坐标变换可得，\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_2^4r\\,dr\\int_{\\frac{r^2}{2}}^8r^2\\,dz$\n\n$=\\frac{844}{3}\\pi$",
+  "sort_order": 15
+}

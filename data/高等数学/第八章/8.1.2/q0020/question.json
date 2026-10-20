@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $D$ 是由 $x+y=1,x-y=1,x=0$ 所围成的三角形区域，则 $\\iint_D\\sin^3y\\,d\\sigma=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $\\sin^3y$ 为奇函数，$D$ 对称与 $x$ 轴，故 $\\iint_D\\sin^3y\\,d\\sigma=0$",
+  "search_text": "设 $D$ 是由 $x+y=1,x-y=1,x=0$ 所围成的三角形区域，则 $\\iint_D\\sin^3y\\,d\\sigma=（ ）$ $0$ $1$ $\\frac\\pi2$ $\\pi$ 解答 $\\sin^3y$ 为奇函数，$D$ 对称与 $x$ 轴，故 $\\iint_D\\sin^3y\\,d\\sigma=0$",
+  "sort_order": 20
+}

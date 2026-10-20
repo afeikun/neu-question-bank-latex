@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由曲面 $x^2=y^2+z^2$ 及平面 $x=2,x=4$ 所围成的区域，积分 $\\iiint_\\Omega(1+x^4)dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2340+\\frac{16}{21}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2340+\\frac{20}{21}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2320+\\frac{20}{21}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2320+\\frac{16}{21}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_\\Omega(1+x^4)\\,dv=\\int_2^4dx\\iint_D(1+x^4)\\,dydz=\\pi\\int_2^4x^2(1+x^4)\\,dx=2340\\frac{20}{21}\\pi\n$$",
+  "search_text": "$\\Omega$ 是由曲面 $x^2=y^2+z^2$ 及平面 $x=2,x=4$ 所围成的区域，积分 $\\iiint_\\Omega(1+x^4)dv$ 的值为（ ） $2340+\\frac{16}{21}\\pi$ $2340+\\frac{20}{21}\\pi$ $2320+\\frac{20}{21}\\pi$ $2320+\\frac{16}{21}\\pi$ $$\n\\iiint_\\Omega(1+x^4)\\,dv=\\int_2^4dx\\iint_D(1+x^4)\\,dydz=\\pi\\int_2^4x^2(1+x^4)\\,dx=2340\\frac{20}{21}\\pi\n$$",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\alpha_1=(1,1,1)^T,\\ \\alpha_2=(a,0,b)^T,\\ \\alpha_3=(1,3,2)^T$。若向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性相关，则 $a,b$ 满足（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=-2b$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=2b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=-b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令以三个向量为列组成的行列式为零，计算可得 $a=2b$。",
+  "search_text": "$\\alpha_1=(1,1,1)^T,\\ \\alpha_2=(a,0,b)^T,\\ \\alpha_3=(1,3,2)^T$。若向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性相关，则 $a,b$ 满足（ ）。 $a=-2b$ $a=2b$ $a=-b$ $a=b$ 令以三个向量为列组成的行列式为零，计算可得 $a=2b$。",
+  "sort_order": 26
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 可导，$F(x)=f(x)(1-|\\sin x|)$，若 $F(x)$ 在 $x=0$ 处可导，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f\\prime(0)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(0)-f\\prime(0)=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(0)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(0)+f\\prime(0)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$F\\prime_+(0)=f\\prime(0)-f(0)$，$F\\prime_-(0)=f\\prime(0)+f(0)$；两者相等要求 $f(0)=0$。",
+  "search_text": "$f(x)$ 可导，$F(x)=f(x)(1-|\\sin x|)$，若 $F(x)$ 在 $x=0$ 处可导，则必有（ ）。 $f\\prime(0)=0$ $f(0)-f\\prime(0)=0$ $f(0)=0$ $f(0)+f\\prime(0)=0$ $F\\prime_+(0)=f\\prime(0)-f(0)$，$F\\prime_-(0)=f\\prime(0)+f(0)$；两者相等要求 $f(0)=0$。",
+  "sort_order": 8
+}

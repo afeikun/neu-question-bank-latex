@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\sum_{n=1}^{\\infty} u_n^2$ 收敛，则 $\\sum_{n=1}^{\\infty}(-1)^{n-1}u_n$？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "可能收敛，也可能发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取 $u_n=1/n$ 可收敛；取 $u_n=(-1)^{n-1}/n$ 则交错因子抵消而发散。",
+  "search_text": "若 $\\sum_{n=1}^{\\infty} u_n^2$ 收敛，则 $\\sum_{n=1}^{\\infty}(-1)^{n-1}u_n$？ 绝对收敛 可能收敛，也可能发散 条件收敛 发散 取 $u_n=1/n$ 可收敛；取 $u_n=(-1)^{n-1}/n$ 则交错因子抵消而发散。",
+  "sort_order": 30
+}

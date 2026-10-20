@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=\\frac{xe^y}{y^2}$ 在点 $(2,1)$ 沿 $a=(1,2)$ 方向的方向导数是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac e{\\sqrt5}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{2e}{\\sqrt3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac e2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{3e}{\\sqrt5}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(2,1)}=\\left.\\frac{e^y}{y^2}\\right|_{(2,1)}=e，\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(2,1)}=\\left.x\\frac{e^y\\cdot y-2e^y}{y^3}\\right|_{(2,1)}=-2e，$$\n\n沿 $\\vec{a}=(1,2)$ 方向的转角的正，余弦为：$\\cos\\alpha=\\frac{1}{\\sqrt{5}}，\\quad \\sin\\alpha=\\frac{2}{\\sqrt{5}}，$\n\n则方向导数为：$\\frac{\\partial z}{\\partial\\vec{a}}=e\\frac{1}{\\sqrt{5}}-2e\\frac{2}{\\sqrt{5}}=-\\frac{3e}{\\sqrt{5}}。$",
+  "search_text": "函数 $z=\\frac{xe^y}{y^2}$ 在点 $(2,1)$ 沿 $a=(1,2)$ 方向的方向导数是。 $\\frac e{\\sqrt5}$ $-\\frac{2e}{\\sqrt3}$ $\\frac e2$ $-\\frac{3e}{\\sqrt5}$ $$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(2,1)}=\\left.\\frac{e^y}{y^2}\\right|_{(2,1)}=e，\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(2,1)}=\\left.x\\frac{e^y\\cdot y-2e^y}{y^3}\\right|_{(2,1)}=-2e，$$\n\n沿 $\\vec{a}=(1,2)$ 方向的转角的正，余弦为：$\\cos\\alpha=\\frac{1}{\\sqrt{5}}，\\quad \\sin\\alpha=\\frac{2}{\\sqrt{5}}，$\n\n则方向导数为：$\\frac{\\partial z}{\\partial\\vec{a}}=e\\frac{1}{\\sqrt{5}}-2e\\frac{2}{\\sqrt{5}}=-\\frac{3e}{\\sqrt{5}}。$",
+  "sort_order": 6
+}

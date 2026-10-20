@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立，均值均为0、方差均为1，求$E[(X+2Y)^2]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E[(X+2Y)^2]=D(X+2Y)=1+4=5$。",
+  "search_text": "$X,Y$独立，均值均为0、方差均为1，求$E[(X+2Y)^2]$。 $5$ $1$ $3$ $7$ $E[(X+2Y)^2]=D(X+2Y)=1+4=5$。",
+  "sort_order": 1
+}

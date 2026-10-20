@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$服从参数为2的泊松分布，$Y=3X-2$，下列说法不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\operatorname{cov}(X,Y)=3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E(Y)=4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(Y)=18$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\rho_{XY}=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\operatorname{cov}(X,Y)=3D(X)=6$，所以选项1错误。",
+  "search_text": "$X$服从参数为2的泊松分布，$Y=3X-2$，下列说法不正确的是（）。 $\\operatorname{cov}(X,Y)=3$ $E(Y)=4$ $D(Y)=18$ $\\rho_{XY}=1$ $\\operatorname{cov}(X,Y)=3D(X)=6$，所以选项1错误。",
+  "sort_order": 14
+}

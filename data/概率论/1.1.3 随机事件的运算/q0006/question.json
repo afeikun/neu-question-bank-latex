@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列各式不正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\overline{A-B}=\\overline A\\cup B$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A\\cup B=A\\cup(\\overline A B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\overline{AB}-\\overline{A\\overline B}=B-A$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\overline{AB}\\cup\\overline{A\\overline B}=\\overline A\\cup\\overline B$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "根据 $A-B=A\\overline B$，有 $\\overline{A-B}=\\overline{A\\overline B}=\\overline A\\cup B$；并且 $A\\cup B=A\\cup(\\overline A B)$。",
+  "search_text": "下列各式不正确的是(\\quad)。 $\\overline{A-B}=\\overline A\\cup B$ $A\\cup B=A\\cup(\\overline A B)$ $\\overline{AB}-\\overline{A\\overline B}=B-A$ $\\overline{AB}\\cup\\overline{A\\overline B}=\\overline A\\cup\\overline B$ 根据 $A-B=A\\overline B$，有 $\\overline{A-B}=\\overline{A\\overline B}=\\overline A\\cup B$；并且 $A\\cup B=A\\cup(\\overline A B)$。",
+  "sort_order": 6
+}

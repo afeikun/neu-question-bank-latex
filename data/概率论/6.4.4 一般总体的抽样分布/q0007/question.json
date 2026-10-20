@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "简单随机样本$X_1,\\ldots,X_n$取自概率密度$\\varphi(x)$的总体，则有（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_i\\sim\\varphi(x),i=1,\\ldots,n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\min(X_1,\\ldots,X_n)\\sim\\varphi(x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n^{-1}\\sum X_i\\sim\\varphi(x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum X_i$与$\\sum X_i^2$独立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "简单随机样本的每个观测都服从总体分布，且彼此独立。",
+  "search_text": "简单随机样本$X_1,\\ldots,X_n$取自概率密度$\\varphi(x)$的总体，则有（）。 $X_i\\sim\\varphi(x),i=1,\\ldots,n$ $\\min(X_1,\\ldots,X_n)\\sim\\varphi(x)$ $n^{-1}\\sum X_i\\sim\\varphi(x)$ $\\sum X_i$与$\\sum X_i^2$独立 简单随机样本的每个观测都服从总体分布，且彼此独立。",
+  "sort_order": 7
+}

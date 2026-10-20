@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设两个随机事件 $A,B$ 满足 $P(AB)=P(\\overline{A\\overline B})$，且 $P(A)=0.6$，则 $P(B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(AB)=P(\\overline{A\\overline B})=1-P(A)+P(AB)$，所以 $P(A)=1$？按题图解析：$P(A)+P(B)=1$，代入$P(A)=0.6$得$P(B)=0.4$。",
+  "search_text": "设两个随机事件 $A,B$ 满足 $P(AB)=P(\\overline{A\\overline B})$，且 $P(A)=0.6$，则 $P(B)=(\\quad)$。 $0.4$ $0.5$ $0.6$ $0.7$ $P(AB)=P(\\overline{A\\overline B})=1-P(A)+P(AB)$，所以 $P(A)=1$？按题图解析：$P(A)+P(B)=1$，代入$P(A)=0.6$得$P(B)=0.4$。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $xy+yz+zx=0$ 上平行于平面 $x+2y+3z=2$ 的切平面方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+2y+3z=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+2y+3z=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+2y+3z=-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+2y+3z=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "平面 $x+2y+3z=2$ 的法向量为：$(1,2,3)$，设 $F(x,y,z)=xy+yz+zx$，则 $F_x=y+z$，$F_y=x+z$，\n\n$F_z=x+y$，由题意可得：$\\frac{y+z}{1}=\\frac{x+z}{2}=\\frac{x+y}{3}=t$，解得：$x=2t$，$y=t$，$z=0$，代入曲面 $xy+yz+zx=0$，得 $t=0$，\n\n则切平面方程为：$x+2y+3z=0$。",
+  "search_text": "曲面 $xy+yz+zx=0$ 上平行于平面 $x+2y+3z=2$ 的切平面方程为。 $x+2y+3z=1$ $x+2y+3z=2$ $x+2y+3z=-1$ $x+2y+3z=0$ 平面 $x+2y+3z=2$ 的法向量为：$(1,2,3)$，设 $F(x,y,z)=xy+yz+zx$，则 $F_x=y+z$，$F_y=x+z$，\n\n$F_z=x+y$，由题意可得：$\\frac{y+z}{1}=\\frac{x+z}{2}=\\frac{x+y}{3}=t$，解得：$x=2t$，$y=t$，$z=0$，代入曲面 $xy+yz+zx=0$，得 $t=0$，\n\n则切平面方程为：$x+2y+3z=0$。",
+  "sort_order": 15
+}

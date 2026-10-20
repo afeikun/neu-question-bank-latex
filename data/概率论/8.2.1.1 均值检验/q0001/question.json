@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "5种含铁物质两种分析法作成对试验，检验两方法平均值是否相同；给定样本差值，以下说法不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "拒绝域为$t_{0.025}(4),+\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu_z=0,H_1:\\mu_z\\ne0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T=\\bar Z/(S/\\sqrt n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可认为两方法均值相同"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧检验拒绝域应为$|T|>t_{\\alpha/2}(n-1)$，不能写成仅右尾。",
+  "search_text": "5种含铁物质两种分析法作成对试验，检验两方法平均值是否相同；给定样本差值，以下说法不正确的是（）。 拒绝域为$t_{0.025}(4),+\\infty$ $H_0:\\mu_z=0,H_1:\\mu_z\\ne0$ $T=\\bar Z/(S/\\sqrt n)$ 可认为两方法均值相同 双侧检验拒绝域应为$|T|>t_{\\alpha/2}(n-1)$，不能写成仅右尾。",
+  "sort_order": 1
+}

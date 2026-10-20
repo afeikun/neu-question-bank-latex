@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立同分布，$P(X=-1)=P(Y=-1)=p,P(X=1)=P(Y=1)=1-p$，求$P(X=Y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2p^2-2p+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p^2+1-p$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$p/3+q$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(p+2q)/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(X=Y)=p^2+(1-p)^2=2p^2-2p+1$。",
+  "search_text": "$X,Y$独立同分布，$P(X=-1)=P(Y=-1)=p,P(X=1)=P(Y=1)=1-p$，求$P(X=Y)$。 $2p^2-2p+1$ $p^2+1-p$ $p/3+q$ $(p+2q)/4$ $P(X=Y)=p^2+(1-p)^2=2p^2-2p+1$。",
+  "sort_order": 11
+}

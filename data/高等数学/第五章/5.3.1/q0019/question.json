@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $0\\le u_{n+1}<u_n$ 且 $u_n\\to0$，下列结论正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^nu_n^2$ 与 $\\sum_{n=1}^{\\infty}(-1)^n\\sqrt{u_n}$ 都发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^nu_n^2$ 收敛而 $\\sum_{n=1}^{\\infty}(-1)^n\\sqrt{u_n}$ 发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^nu_n^2$ 发散而 $\\sum_{n=1}^{\\infty}(-1)^n\\sqrt{u_n}$ 收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "两者都收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$u_n^2$ 与 $\\sqrt{u_n}$ 均单调趋零，两个交错级数都收敛。",
+  "search_text": "设 $0\\le u_{n+1}<u_n$ 且 $u_n\\to0$，下列结论正确的是？ $\\sum_{n=1}^{\\infty}(-1)^nu_n^2$ 与 $\\sum_{n=1}^{\\infty}(-1)^n\\sqrt{u_n}$ 都发散 $\\sum_{n=1}^{\\infty}(-1)^nu_n^2$ 收敛而 $\\sum_{n=1}^{\\infty}(-1)^n\\sqrt{u_n}$ 发散 $\\sum_{n=1}^{\\infty}(-1)^nu_n^2$ 发散而 $\\sum_{n=1}^{\\infty}(-1)^n\\sqrt{u_n}$ 收敛 两者都收敛 $u_n^2$ 与 $\\sqrt{u_n}$ 均单调趋零，两个交错级数都收敛。",
+  "sort_order": 19
+}

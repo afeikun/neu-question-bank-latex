@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f\\prime(\\sin^2 x)=\\cos^2 x$，则 $f(x)=$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-\\frac12x^4+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin^2x-\\frac12\\sin^4x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-\\frac12x^2+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sin x-\\frac12\\sin^2x+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $f\\prime(\\sin^2x)=1-\\sin^2x$，得 $f\\prime(x)=1-x$，积分可得 $f(x)=x-\\frac12x^2+C$。",
+  "search_text": "设 $f\\prime(\\sin^2 x)=\\cos^2 x$，则 $f(x)=$ $x-\\frac12x^4+C$ $\\sin^2x-\\frac12\\sin^4x+C$ $x-\\frac12x^2+C$ $\\sin x-\\frac12\\sin^2x+C$ 由 $f\\prime(\\sin^2x)=1-\\sin^2x$，得 $f\\prime(x)=1-x$，积分可得 $f(x)=x-\\frac12x^2+C$。",
+  "sort_order": 10
+}

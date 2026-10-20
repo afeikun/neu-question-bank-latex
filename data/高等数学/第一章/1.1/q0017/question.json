@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=[x]$ 在 $\\mathbb R$ 上是（　）函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "增"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "减"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "严格增"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "严格减"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对任意 $x_1<x_2$ 有 $[x_1]\\le[x_2]$，但取 $x_1=0,x_2=\\frac12$ 可见不严格递增，故为增函数。",
+  "search_text": "函数 $y=[x]$ 在 $\\mathbb R$ 上是（ ）函数。 增 减 严格增 严格减 对任意 $x_1<x_2$ 有 $[x_1]\\le[x_2]$，但取 $x_1=0,x_2=\\frac12$ 可见不严格递增，故为增函数。",
+  "sort_order": 17
+}

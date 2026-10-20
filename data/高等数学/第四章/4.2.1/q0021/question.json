@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}(\\frac{2^{1/n}}{n+1}+\\frac{2^{2/n}}{n+1/2}+\\cdots+\\frac{2^{n/n}}{n+1/n})$ 可以表示为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1 2^x dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1 x^2 dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1 2^x dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_1^2 2^x dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "夹逼后为黎曼和 $\\int_0^1 2^x dx$。",
+  "search_text": "$\\lim_{n\\to\\infty}(\\frac{2^{1/n}}{n+1}+\\frac{2^{2/n}}{n+1/2}+\\cdots+\\frac{2^{n/n}}{n+1/n})$ 可以表示为 $\\int_0^1 2^x dx$ $\\int_0^1 x^2 dx$ $\\int_0^1 2^x dx$ $\\int_1^2 2^x dx$ 夹逼后为黎曼和 $\\int_0^1 2^x dx$。",
+  "sort_order": 21
+}

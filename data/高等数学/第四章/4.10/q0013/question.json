@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知当 $x>0$ 时，$f'(\\ln x)=x$，$f(0)=3/2$，求 $f(x)$ 在 $[0,4]$ 上的平均值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(e^4+1)/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(e^4+1)/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(e^4-1)/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(e^4-e+3/2)/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $t=\\ln x$，得 $f'(t)=e^t$，故 $f(x)=e^x+1/2$，平均值为 $(e^4+1)/4$。",
+  "search_text": "已知当 $x>0$ 时，$f'(\\ln x)=x$，$f(0)=3/2$，求 $f(x)$ 在 $[0,4]$ 上的平均值。 $(e^4+1)/4$ $(e^4+1)/2$ $(e^4-1)/4$ $(e^4-e+3/2)/4$ 令 $t=\\ln x$，得 $f'(t)=e^t$，故 $f(x)=e^x+1/2$，平均值为 $(e^4+1)/4$。",
+  "sort_order": 13
+}

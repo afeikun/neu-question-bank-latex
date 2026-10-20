@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "极坐标曲线 $\\rho=a(\\cos\\theta+\\sin\\theta)$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cot(2\\theta+\\frac\\pi4)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cot2\\theta$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\tan2\\theta$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\tan(2\\theta+\\frac\\pi4)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由极坐标方程可得参数方程 $\\left\\{\\begin{array}{l}x=a\\cos^2\\theta+a\\sin\\theta\\cos\\theta\\\\y=a\\sin\\theta\\cos\\theta+a\\sin^2\\theta\\end{array}\\right.$ 两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=a\\cos 2\\theta-a\\sin 2\\theta,\\quad \\frac{dy}{d\\theta}=a\\cos 2\\theta+a\\sin 2\\theta,$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a(\\cos 2\\theta+\\sin 2\\theta)}{a(\\cos 2\\theta-\\sin 2\\theta)}=\\tan\\left(2\\theta+\\frac{\\pi}{4}\\right).$",
+  "search_text": "极坐标曲线 $\\rho=a(\\cos\\theta+\\sin\\theta)$，求 $\\frac{dy}{dx}$。 $\\cot(2\\theta+\\frac\\pi4)$ $\\cot2\\theta$ $\\tan2\\theta$ $\\tan(2\\theta+\\frac\\pi4)$ 解答 由极坐标方程可得参数方程 $\\left\\{\\begin{array}{l}x=a\\cos^2\\theta+a\\sin\\theta\\cos\\theta\\\\y=a\\sin\\theta\\cos\\theta+a\\sin^2\\theta\\end{array}\\right.$ 两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=a\\cos 2\\theta-a\\sin 2\\theta,\\quad \\frac{dy}{d\\theta}=a\\cos 2\\theta+a\\sin 2\\theta,$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a(\\cos 2\\theta+\\sin 2\\theta)}{a(\\cos 2\\theta-\\sin 2\\theta)}=\\tan\\left(2\\theta+\\frac{\\pi}{4}\\right).$",
+  "sort_order": 27
+}

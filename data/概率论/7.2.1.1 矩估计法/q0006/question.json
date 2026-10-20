@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x;\\theta)=\\theta x^{\\theta-1},0<x<1$，以$\\bar X,\\overline{X^2},\\overline{X^3}$作矩，错误的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\bar X/(1-\\bar X)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\overline{X^2}/(1-\\overline{X^2})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\overline{X^2}/(1-\\overline{X^2})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\overline{X^3}/(1-\\overline{X^3})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X^k)=\\theta/(\\theta+k)$，故$\\theta=k\\mu_k/(1-\\mu_k)$，选项1公式缺系数。",
+  "search_text": "$f(x;\\theta)=\\theta x^{\\theta-1},0<x<1$，以$\\bar X,\\overline{X^2},\\overline{X^3}$作矩，错误的是（）。 $\\bar X/(1-\\bar X)$ $\\overline{X^2}/(1-\\overline{X^2})$ $2\\overline{X^2}/(1-\\overline{X^2})$ $3\\overline{X^3}/(1-\\overline{X^3})$ $E(X^k)=\\theta/(\\theta+k)$，故$\\theta=k\\mu_k/(1-\\mu_k)$，选项1公式缺系数。",
+  "sort_order": 6
+}

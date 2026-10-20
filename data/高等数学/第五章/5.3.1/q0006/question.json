@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列四个级数中发散的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n\\ln n/\\sqrt n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty} n^2/2^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}1/n^{1+1/n}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n[3+(-1)^n2]^n/6^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "第三个通项与 $1/n$ 同阶，故发散。",
+  "search_text": "下列四个级数中发散的是哪一个？ $\\sum_{n=1}^{\\infty}(-1)^n\\ln n/\\sqrt n$ $\\sum_{n=1}^{\\infty} n^2/2^n$ $\\sum_{n=1}^{\\infty}1/n^{1+1/n}$ $\\sum_{n=1}^{\\infty}(-1)^n[3+(-1)^n2]^n/6^n$ 第三个通项与 $1/n$ 同阶，故发散。",
+  "sort_order": 6
+}

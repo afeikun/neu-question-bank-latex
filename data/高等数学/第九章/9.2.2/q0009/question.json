@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\iint_\\Sigma z\\,dS$，曲面 $\\Sigma:z=\\sqrt{a^2-x^2-y^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi a^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：曲面 $\\Sigma:z=\\sqrt{a^2-x^2-y^2}$，投影区域为 $D:x^2+y^2\\leq a^2$。\n\n$$\\iint_\\Sigma z\\,dS=\\iint_D\\sqrt{a^2-x^2-y^2}\\frac{a}{\\sqrt{a^2-x^2-y^2}}\\,dxdy=\\pi a^3$$",
+  "search_text": "求 $\\iint_\\Sigma z\\,dS$，曲面 $\\Sigma:z=\\sqrt{a^2-x^2-y^2}$。 $\\pi a^3$ $a^3$ $\\pi a^4$ $a$ 解答：曲面 $\\Sigma:z=\\sqrt{a^2-x^2-y^2}$，投影区域为 $D:x^2+y^2\\leq a^2$。\n\n$$\\iint_\\Sigma z\\,dS=\\iint_D\\sqrt{a^2-x^2-y^2}\\frac{a}{\\sqrt{a^2-x^2-y^2}}\\,dxdy=\\pi a^3$$",
+  "sort_order": 9
+}

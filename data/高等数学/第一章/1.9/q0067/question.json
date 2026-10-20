@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列函数可以补充 $x=0$ 点的函数值，使之成为连续函数的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x\\sin\\frac1x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin\\frac1x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)=\\begin{cases}e^{1/x},&x<0\\\\1,&x>0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1x-\\frac{x-1}{x^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to0}x\\sin\\frac1x=0$；其余选项在 $x=0$ 的极限不存在或发散。",
+  "search_text": "下列函数可以补充 $x=0$ 点的函数值，使之成为连续函数的是（ ）。 $x\\sin\\frac1x$ $\\sin\\frac1x$ $f(x)=\\begin{cases}e^{1/x},&x<0\\\\1,&x>0\\end{cases}$ $\\frac1x-\\frac{x-1}{x^2}$ $\\lim_{x\\to0}x\\sin\\frac1x=0$；其余选项在 $x=0$ 的极限不存在或发散。",
+  "sort_order": 67
+}

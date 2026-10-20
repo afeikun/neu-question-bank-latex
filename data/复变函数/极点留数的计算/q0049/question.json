@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=z^2\\sin\\frac1z$，则 $\\operatorname{Res}[f(z),0]=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{5!}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z^2\\sin(1/z)=z\\sum_{n\\ge0}(-1)^n/((2n+1)!z^{2n})$，$z^{-1}$ 项系数为 $-1/6$。",
+  "search_text": "设 $f(z)=z^2\\sin\\frac1z$，则 $\\operatorname{Res}[f(z),0]=(\\ )$。 $-\\frac16$ $\\frac1{5!}$ $1$ $0$ $z^2\\sin(1/z)=z\\sum_{n\\ge0}(-1)^n/((2n+1)!z^{2n})$，$z^{-1}$ 项系数为 $-1/6$。",
+  "sort_order": 49
+}

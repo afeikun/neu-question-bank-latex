@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算由曲面 $z=1-4x^2-y^2$ 及 $xOy$ 面所围成的立体的体积（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设立体在第一卦限上的体积为 $V_1$，由立体的对称性，所求立体体积 $V=4V_1$。立体在第一卦限部分可以看成是一个曲顶柱体，它的曲顶为 $z=1-4x^2-y^2$，它的底为\n$$\nD_1:\\begin{cases}0\\leq x\\leq\\frac{1}{2}\\\\0\\leq y\\leq\\sqrt{1-4x^2}\\end{cases}\n$$\n于是\n$$\nV=\\iint_{D_1}(1-4x^2-y^2)dxdy=\\int_0^{\\frac{1}{2}}dx\\int_0^{\\sqrt{1-4x^2}}(1-4x^2-y^2)dy\n$$\n$$\n=\\frac{2}{3}\\int_0^{\\frac{1}{2}}(1-4x^2)^{\\frac{3}{2}}dx\n\\quad x=\\frac{\\sin t}{2}\\quad\n=\\frac{2}{3}\\cdot\\frac{1}{2}\\int_0^{\\frac{\\pi}{2}}\\cos^4t\\,dt=\\frac{\\pi}{16}\n$$\n所求立体的体积为 $V=\\frac{\\pi}{4}$。\n\n图示：下方有三个立体/底面示意图。前两个立体图标出 $z$、$y$、$x$ 坐标轴，刻度 $1$、$1/2$ 和原点 $O$，并以虚线表示底部区域；第三个底面区域标记为 $D$，边界标记 $y=\\sqrt{1-4x^2}$，坐标轴标记为 $x,y$，原点为 $O$，刻度标有 $x=1/2,y=1$。",
+  "search_text": "计算由曲面 $z=1-4x^2-y^2$ 及 $xOy$ 面所围成的立体的体积（ ） $\\frac\\pi4$ $\\frac\\pi3$ $\\frac\\pi2$ $\\pi$ 设立体在第一卦限上的体积为 $V_1$，由立体的对称性，所求立体体积 $V=4V_1$。立体在第一卦限部分可以看成是一个曲顶柱体，它的曲顶为 $z=1-4x^2-y^2$，它的底为\n$$\nD_1:\\begin{cases}0\\leq x\\leq\\frac{1}{2}\\\\0\\leq y\\leq\\sqrt{1-4x^2}\\end{cases}\n$$\n于是\n$$\nV=\\iint_{D_1}(1-4x^2-y^2)dxdy=\\int_0^{\\frac{1}{2}}dx\\int_0^{\\sqrt{1-4x^2}}(1-4x^2-y^2)dy\n$$\n$$\n=\\frac{2}{3}\\int_0^{\\frac{1}{2}}(1-4x^2)^{\\frac{3}{2}}dx\n\\quad x=\\frac{\\sin t}{2}\\quad\n=\\frac{2}{3}\\cdot\\frac{1}{2}\\int_0^{\\frac{\\pi}{2}}\\cos^4t\\,dt=\\frac{\\pi}{16}\n$$\n所求立体的体积为 $V=\\frac{\\pi}{4}$。\n\n图示：下方有三个立体/底面示意图。前两个立体图标出 $z$、$y$、$x$ 坐标轴，刻度 $1$、$1/2$ 和原点 $O$，并以虚线表示底部区域；第三个底面区域标记为 $D$，边界标记 $y=\\sqrt{1-4x^2}$，坐标轴标记为 $x,y$，原点为 $O$，刻度标有 $x=1/2,y=1$。",
+  "sort_order": 9
+}

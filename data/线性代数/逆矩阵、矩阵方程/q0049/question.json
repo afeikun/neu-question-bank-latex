@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 为 $n$ 阶可逆方阵，则下列等式中必定成立的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(AB)^*=B^*A^*$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|A+B|=|A|+|B|$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(A+B)(A-B)=A^2-B^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(A+B)^{-1}=A^{-1}+B^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $(AB)^*=|AB|(AB)^{-1}=|A||B|B^{-1}A^{-1}=(|B|B^{-1})(|A|A^{-1})=B^*A^*$。",
+  "search_text": "设 $A,B$ 为 $n$ 阶可逆方阵，则下列等式中必定成立的是（ ）。 $(AB)^*=B^*A^*$ $|A+B|=|A|+|B|$ $(A+B)(A-B)=A^2-B^2$ $(A+B)^{-1}=A^{-1}+B^{-1}$ 由 $(AB)^*=|AB|(AB)^{-1}=|A||B|B^{-1}A^{-1}=(|B|B^{-1})(|A|A^{-1})=B^*A^*$。",
+  "sort_order": 49
+}

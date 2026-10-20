@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}3^n n!/[1\\cdot3\\cdots(2n-1)]$ (1) 和 $\\sum_{n=1}^{\\infty}6^n/(7^n-5^n)$ (2) 的敛散性？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)(2)都收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)(2)都发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)收敛(2)发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)发散(2)收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "(1)比值趋3/2发散；(2)比值趋6/7收敛。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}3^n n!/[1\\cdot3\\cdots(2n-1)]$ (1) 和 $\\sum_{n=1}^{\\infty}6^n/(7^n-5^n)$ (2) 的敛散性？ (1)(2)都收敛 (1)(2)都发散 (1)收敛(2)发散 (1)发散(2)收敛 (1)比值趋3/2发散；(2)比值趋6/7收敛。",
+  "sort_order": 31
+}

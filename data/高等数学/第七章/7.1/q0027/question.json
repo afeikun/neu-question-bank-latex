@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{xy}{x^2+y^2}$ 的值为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "取 $y=kx$（$k$为常数），则\n\\[\n\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{xy}{x^2+y^2}\n=\\lim_{x\\to0}\\frac{kx^2}{x^2+(kx)^2}\n=\\frac{k}{1+k^2},\n\\]\n极限值随着 $k$ 的变化而变化，故极限不存在.",
+  "search_text": "$\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{xy}{x^2+y^2}$ 的值为(\\quad)。 $1$ $-1$ 不存在 $0$ 取 $y=kx$（$k$为常数），则\n\\[\n\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{xy}{x^2+y^2}\n=\\lim_{x\\to0}\\frac{kx^2}{x^2+(kx)^2}\n=\\frac{k}{1+k^2},\n\\]\n极限值随着 $k$ 的变化而变化，故极限不存在.",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec A=2\\vec a+\\vec b$，$\\vec B=k\\vec a+\\vec b$，其中 $|\\vec a|=1$，$|\\vec b|=2$，且 $\\vec a\\perp\\vec b$，则 $k$ 取(\\quad)时以 $\\vec A,\\vec B$ 为邻边的平行四边形面积为 $6$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "面积 $|\\vec A\\times\\vec B|=|2-k||\\vec a\\times\\vec b|=2|2-k|$，令其为 $6$ 得 $k=-1$ 或 $5$；选项中为 $-1$。",
+  "search_text": "设 $\\vec A=2\\vec a+\\vec b$，$\\vec B=k\\vec a+\\vec b$，其中 $|\\vec a|=1$，$|\\vec b|=2$，且 $\\vec a\\perp\\vec b$，则 $k$ 取(\\quad)时以 $\\vec A,\\vec B$ 为邻边的平行四边形面积为 $6$。 $0$ $-1$ $1$ $-5$ 面积 $|\\vec A\\times\\vec B|=|2-k||\\vec a\\times\\vec b|=2|2-k|$，令其为 $6$ 得 $k=-1$ 或 $5$；选项中为 $-1$。",
+  "sort_order": 8
+}

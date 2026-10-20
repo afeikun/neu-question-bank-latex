@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0$ 时，变量 $\\frac1{x^2}\\sin\\frac1x$ 是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无穷大"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无界，但不是无穷大"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "有界，但不是无穷小"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "沿 $1/x=k\\pi$ 可得函数值为 $0$；沿 $1/x=(k+\\frac12)\\pi$ 可得绝对值趋于无穷，因此无界但不是无穷大。",
+  "search_text": "当 $x\\to0$ 时，变量 $\\frac1{x^2}\\sin\\frac1x$ 是（ ）。 无穷大 无穷小 无界，但不是无穷大 有界，但不是无穷小 沿 $1/x=k\\pi$ 可得函数值为 $0$；沿 $1/x=(k+\\frac12)\\pi$ 可得绝对值趋于无穷，因此无界但不是无穷大。",
+  "sort_order": 7
+}

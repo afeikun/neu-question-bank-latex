@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f_x,f_y$ 连续是 $z=f(x,y)$ 可微分的(\\quad)条件。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充要"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "必要"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "充分"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "偏导数连续，一定可微，反之未必，例如\n\n$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2\\ne0\\end{cases}$",
+  "search_text": "$f_x,f_y$ 连续是 $z=f(x,y)$ 可微分的(\\quad)条件。 充要 无关 必要 充分 偏导数连续，一定可微，反之未必，例如\n\n$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2\\ne0\\end{cases}$",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $\\dfrac{z}{(z-1)(z-2)}$ 在环形域 $1<|z|<2$ 内的洛朗展开式为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\sum_{n=0}^{\\infty}\\left[\\dfrac{(-1)^{n+1}}{z^{n+1}}+\\left(\\dfrac{z}{2}\\right)^n\\right]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\left[\\dfrac{(-1)^{n+1}}{z^{n+1}}+\\left(\\dfrac{z}{2}\\right)^n\\right]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\left[\\dfrac{(-1)^n}{z^{n+1}}-\\left(\\dfrac{z}{2}\\right)^n\\right]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\left[\\left(\\dfrac{z}{2}\\right)^n-\\dfrac{(-1)^{n+1}}{z^{n+1}}\\right]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\dfrac{z}{(z-1)(z-2)}=-\\dfrac{1}{z-1}+\\dfrac{2}{z-2}$，利用 $|z|>1$ 展开第一项、利用 $|z|<2$ 展开第二项。原图的选项/解析展开在符号上疑似不一致，按页面高亮保留选项 1。",
+  "search_text": "函数 $\\dfrac{z}{(z-1)(z-2)}$ 在环形域 $1<|z|<2$ 内的洛朗展开式为（ ）。 $-\\sum_{n=0}^{\\infty}\\left[\\dfrac{(-1)^{n+1}}{z^{n+1}}+\\left(\\dfrac{z}{2}\\right)^n\\right]$ $\\sum_{n=0}^{\\infty}\\left[\\dfrac{(-1)^{n+1}}{z^{n+1}}+\\left(\\dfrac{z}{2}\\right)^n\\right]$ $\\sum_{n=0}^{\\infty}\\left[\\dfrac{(-1)^n}{z^{n+1}}-\\left(\\dfrac{z}{2}\\right)^n\\right]$ $\\sum_{n=0}^{\\infty}\\left[\\left(\\dfrac{z}{2}\\right)^n-\\dfrac{(-1)^{n+1}}{z^{n+1}}\\right]$ 由 $\\dfrac{z}{(z-1)(z-2)}=-\\dfrac{1}{z-1}+\\dfrac{2}{z-2}$，利用 $|z|>1$ 展开第一项、利用 $|z|<2$ 展开第二项。原图的选项/解析展开在符号上疑似不一致，按页面高亮保留选项 1。",
+  "sort_order": 8
+}

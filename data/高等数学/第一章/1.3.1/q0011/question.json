@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to2$ 时，$y=x^2\\to4$，当 $|x-2|<\\delta$ 时，$|y-4|<0.001$，则 $\\delta=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.002$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.0002$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.01$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.001$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "限制 $1<x<3$，则 $|x^2-4|=|x-2||x+2|<5|x-2|$；取 $\\delta=0.001/5=0.0002$。",
+  "search_text": "当 $x\\to2$ 时，$y=x^2\\to4$，当 $|x-2|<\\delta$ 时，$|y-4|<0.001$，则 $\\delta=$（ ）。 $0.002$ $0.0002$ $0.01$ $0.001$ 限制 $1<x<3$，则 $|x^2-4|=|x-2||x+2|<5|x-2|$；取 $\\delta=0.001/5=0.0002$。",
+  "sort_order": 11
+}

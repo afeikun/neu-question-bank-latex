@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=0}^{\\infty}(-1)^n x^n/(5^n\\sqrt{n+1})$ 的收敛域是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1/5,1/5)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[0,5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-5,5]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\sqrt5,\\sqrt5)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "半径5；正端交错收敛，负端正项发散。",
+  "search_text": "级数 $\\sum_{n=0}^{\\infty}(-1)^n x^n/(5^n\\sqrt{n+1})$ 的收敛域是？ $(-1/5,1/5)$ $[0,5)$ $(-5,5]$ $(-\\sqrt5,\\sqrt5)$ 半径5；正端交错收敛，负端正项发散。",
+  "sort_order": 61
+}

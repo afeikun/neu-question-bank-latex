@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=\\frac{x}{y^2}+\\frac yx$，则 $u_{xx}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2y^2}{3x^3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{y^3}{2x^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2y}{x^3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2y}{5x^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial x}=\\frac{1}{y^2}-\\frac{y}{x^2}$，则 $\\frac{\\partial^2u}{\\partial x^2}=\\frac{2y}{x^3}$",
+  "search_text": "设 $u=\\frac{x}{y^2}+\\frac yx$，则 $u_{xx}=(\\quad)$。 $\\frac{2y^2}{3x^3}$ $\\frac{y^3}{2x^2}$ $\\frac{2y}{x^3}$ $\\frac{2y}{5x^2}$ $\\frac{\\partial u}{\\partial x}=\\frac{1}{y^2}-\\frac{y}{x^2}$，则 $\\frac{\\partial^2u}{\\partial x^2}=\\frac{2y}{x^3}$",
+  "sort_order": 10
+}

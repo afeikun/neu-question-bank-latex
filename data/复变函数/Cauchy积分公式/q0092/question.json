@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为正向圆周 $|z-2i|=\\frac32$，则 $\\oint_C\\frac{e^{iz}}{z^2+1}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi}{e}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2\\pi\\sinh1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆内只有奇点 $i$，积分为 $2\\pi i\\frac{e^{iz}}{z+i}|_{z=i}=\\frac{\\pi}{e}$。",
+  "search_text": "设 $C$ 为正向圆周 $|z-2i|=\\frac32$，则 $\\oint_C\\frac{e^{iz}}{z^2+1}\\,dz=(\\quad)$。 $\\frac{\\pi}{e}$ $-2\\pi\\sinh1$ $2\\pi i$ $0$ 被积函数在圆内只有奇点 $i$，积分为 $2\\pi i\\frac{e^{iz}}{z+i}|_{z=i}=\\frac{\\pi}{e}$。",
+  "sort_order": 92
+}

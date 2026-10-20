@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列极限中，极限值为 $e$ 的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to\\infty}(1+1/x)^{-x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{x\\to0}(1-x)^{-2/x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{x\\to0}(1+x)^{-1/x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{x\\to0}(1-x)^{-1/x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "第四个极限的对数趋于 1，故其值为 $e$。",
+  "search_text": "下列极限中，极限值为 $e$ 的是（ ）。 $\\lim_{x\\to\\infty}(1+1/x)^{-x}$ $\\lim_{x\\to0}(1-x)^{-2/x}$ $\\lim_{x\\to0}(1+x)^{-1/x}$ $\\lim_{x\\to0}(1-x)^{-1/x}$ 第四个极限的对数趋于 1，故其值为 $e$。",
+  "sort_order": 18
+}

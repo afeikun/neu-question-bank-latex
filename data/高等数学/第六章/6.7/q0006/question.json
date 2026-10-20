@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x^2+y^2+az^2=0\\ (a>0)$ 在空间中表示(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "一点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "球面"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "抛物面"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "圆锥"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：由方程解得：$x=y=z=0$，因此方程的图像为原点。",
+  "search_text": "方程 $x^2+y^2+az^2=0\\ (a>0)$ 在空间中表示(\\quad)。 一点 球面 抛物面 圆锥 解答：由方程解得：$x=y=z=0$，因此方程的图像为原点。",
+  "sort_order": 6
+}

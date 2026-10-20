@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a>0$，则 $\\iint_\\Sigma z\\,dx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43\\pi a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac73\\pi a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由高斯公式\n\n$$\\oiint_{\\Sigma}zdxdy=\\iiint_{\\Omega}1dv=\\frac{4}{3}\\pi a^3$$",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a>0$，则 $\\iint_\\Sigma z\\,dx\\,dy=$（ ） $\\frac43\\pi a^3$ $2\\pi a^3$ $\\frac73\\pi a^3$ $2\\pi a^2$ 由高斯公式\n\n$$\\oiint_{\\Sigma}zdxdy=\\iiint_{\\Omega}1dv=\\frac{4}{3}\\pi a^3$$",
+  "sort_order": 6
+}

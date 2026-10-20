@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列命题正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $A^2=0$，则 $A=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若 $A$ 可逆，则 $A^*$ 可逆"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若 $AX=AY$ 且 $A\\ne 0$，则 $X=Y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若 $A^2=A$，则 $A=0$ 或 $A=E$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $AA^*=|A|E$ 可知，当 $A$ 可逆时 $|A|\\ne0$，故 $A^*$ 可逆。",
+  "search_text": "下列命题正确的是（ ）。 若 $A^2=0$，则 $A=0$ 若 $A$ 可逆，则 $A^*$ 可逆 若 $AX=AY$ 且 $A\\ne 0$，则 $X=Y$ 若 $A^2=A$，则 $A=0$ 或 $A=E$ 由 $AA^*=|A|E$ 可知，当 $A$ 可逆时 $|A|\\ne0$，故 $A^*$ 可逆。",
+  "sort_order": 32
+}

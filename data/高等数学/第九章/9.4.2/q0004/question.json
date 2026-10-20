@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=1$ 的下半部分曲面的下侧，则计算 $\\iint_\\Sigma x^3dydz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac25\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac15\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在 $yoz$ 面上的投影区域为 $D:-\\sqrt{1-y^2}\\le z\\le0$，\n$$\\iint_\\Sigma x^3dydz=2\\iint_D(1-y^2-z^2)^{\\frac{3}{2}}dydz=2\\int_\\pi^{2\\pi}d\\theta\\int_0^1(1-r^2)^{\\frac{3}{2}}r^2dr=2\\cdot\\pi\\cdot\\frac{1}{5}=\\frac{2}{5}\\pi。$$",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=1$ 的下半部分曲面的下侧，则计算 $\\iint_\\Sigma x^3dydz=$（ ） $\\frac25\\pi$ $\\frac15\\pi$ $\\frac23\\pi$ $\\frac13\\pi$ 解答 $\\Sigma$ 在 $yoz$ 面上的投影区域为 $D:-\\sqrt{1-y^2}\\le z\\le0$，\n$$\\iint_\\Sigma x^3dydz=2\\iint_D(1-y^2-z^2)^{\\frac{3}{2}}dydz=2\\int_\\pi^{2\\pi}d\\theta\\int_0^1(1-r^2)^{\\frac{3}{2}}r^2dr=2\\cdot\\pi\\cdot\\frac{1}{5}=\\frac{2}{5}\\pi。$$",
+  "sort_order": 4
+}

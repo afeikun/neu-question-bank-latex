@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=e^u\\sin v$，$u=xy$，$v=x+y$，下面关于 $z_x,z_y$ 的计算正确的是哪一组？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2,3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2,4"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1,3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1,4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial x}=\\frac{\\partial z}{\\partial u}\\cdot\\frac{\\partial u}{\\partial x}+\\frac{\\partial z}{\\partial v}\\cdot\\frac{\\partial v}{\\partial x}=e^u\\sin v\\cdot y+e^u\\cos v\\cdot1$\n\n$=e^u(y\\sin v+\\cos v)=e^{xy}\\left[y\\sin(x+y)+\\cos(x+y)\\right]$\n\n$\\frac{\\partial z}{\\partial y}=\\frac{\\partial z}{\\partial u}\\cdot\\frac{\\partial u}{\\partial y}+\\frac{\\partial z}{\\partial v}\\cdot\\frac{\\partial v}{\\partial y}=e^u\\sin v\\cdot x+e^u\\cos v\\cdot1$\n\n$=e^u(x\\sin v+\\cos v)=e^{xy}\\left[x\\sin(x+y)+\\cos(x+y)\\right]$",
+  "search_text": "设 $z=e^u\\sin v$，$u=xy$，$v=x+y$，下面关于 $z_x,z_y$ 的计算正确的是哪一组？ 2,3 2,4 1,3 1,4 $\\frac{\\partial z}{\\partial x}=\\frac{\\partial z}{\\partial u}\\cdot\\frac{\\partial u}{\\partial x}+\\frac{\\partial z}{\\partial v}\\cdot\\frac{\\partial v}{\\partial x}=e^u\\sin v\\cdot y+e^u\\cos v\\cdot1$\n\n$=e^u(y\\sin v+\\cos v)=e^{xy}\\left[y\\sin(x+y)+\\cos(x+y)\\right]$\n\n$\\frac{\\partial z}{\\partial y}=\\frac{\\partial z}{\\partial u}\\cdot\\frac{\\partial u}{\\partial y}+\\frac{\\partial z}{\\partial v}\\cdot\\frac{\\partial v}{\\partial y}=e^u\\sin v\\cdot x+e^u\\cos v\\cdot1$\n\n$=e^u(x\\sin v+\\cos v)=e^{xy}\\left[x\\sin(x+y)+\\cos(x+y)\\right]$",
+  "sort_order": 36
+}

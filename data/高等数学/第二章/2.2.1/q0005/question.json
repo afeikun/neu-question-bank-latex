@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设方程 $x=y^y$ 确定 $y$ 是 $x$ 的函数，则 $dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$dx/[x^2(1+\\ln y)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$dx/[x(1+\\ln y)]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$dx/[x(1+y\\ln y)]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x\\,dx/[x(1+\\ln y)]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$dx/dy=y^y(1+\\ln y)=x(1+\\ln y)$，故 $dy=dx/[x(1+\\ln y)]$。",
+  "search_text": "设方程 $x=y^y$ 确定 $y$ 是 $x$ 的函数，则 $dy=$（ ）。 $dx/[x^2(1+\\ln y)]$ $dx/[x(1+\\ln y)]$ $dx/[x(1+y\\ln y)]$ $x\\,dx/[x(1+\\ln y)]$ $dx/dy=y^y(1+\\ln y)=x(1+\\ln y)$，故 $dy=dx/[x(1+\\ln y)]$。",
+  "sort_order": 5
+}

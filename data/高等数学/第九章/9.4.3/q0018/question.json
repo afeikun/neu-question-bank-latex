@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $S$ 为球面 $x^2+y^2+z^2=a^2$ 的外侧。计算 $\\iint_S\\frac{x\\,dy\\,dz+y\\,dz\\,dx+z\\,dx\\,dy}{(x^2+y^2+z^2)^{3/2}}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "球面外侧单位法向量为 $\\boldsymbol n=(x/a,y/a,z/a)$。在球面上分母为 $a^3$，将第二类曲面积分化为第一类，原积分 $=\\frac1{a^3}\\iint_S(x\\cos\\alpha+y\\cos\\beta+z\\cos\\gamma)dS=\\frac1{a^4}\\iint_S(x^2+y^2+z^2)dS=\\frac1{a^2}\\iint_SdS=\\frac1{a^2}\\cdot4\\pi a^2=4\\pi$，选第二项。",
+  "search_text": "已知 $S$ 为球面 $x^2+y^2+z^2=a^2$ 的外侧。计算 $\\iint_S\\frac{x\\,dy\\,dz+y\\,dz\\,dx+z\\,dx\\,dy}{(x^2+y^2+z^2)^{3/2}}=$（ ）。 $2\\pi$ $4\\pi$ $\\pi$ $3\\pi$ 球面外侧单位法向量为 $\\boldsymbol n=(x/a,y/a,z/a)$。在球面上分母为 $a^3$，将第二类曲面积分化为第一类，原积分 $=\\frac1{a^3}\\iint_S(x\\cos\\alpha+y\\cos\\beta+z\\cos\\gamma)dS=\\frac1{a^4}\\iint_S(x^2+y^2+z^2)dS=\\frac1{a^2}\\iint_SdS=\\frac1{a^2}\\cdot4\\pi a^2=4\\pi$，选第二项。",
+  "sort_order": 18
+}

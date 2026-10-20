@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(2x+y+2z)\\,dS$，$\\Sigma$ 为圆柱 $x^2+y^2\\le4$ 与平面 $2x+y+2z=1$ 的交面。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{28\\pi}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\iint_\\Sigma2x+y+2z\\,dS=\\iint_\\Sigma1\\,dS=A$，$A$为曲面$\\Sigma$的面积。曲面$\\Sigma$为平面，在 xoy 平面投影为圆面，投影面积为：$4\\pi$。$2x+y+2z=1$与 xoy 平面的夹角余弦为：$\\frac{(2,1,2)\\cdot(0,0,1)}{\\sqrt{4+1+4}\\cdot\\sqrt{1}}=\\frac{2}{3}$，因此$A=4\\pi\\cdot\\frac{3}{2}=6\\pi$，",
+  "search_text": "计算 $\\iint_\\Sigma(2x+y+2z)\\,dS$，$\\Sigma$ 为圆柱 $x^2+y^2\\le4$ 与平面 $2x+y+2z=1$ 的交面。 $\\pi$ $2\\pi$ $\\frac{28\\pi}{3}$ $6\\pi$ $\\iint_\\Sigma2x+y+2z\\,dS=\\iint_\\Sigma1\\,dS=A$，$A$为曲面$\\Sigma$的面积。曲面$\\Sigma$为平面，在 xoy 平面投影为圆面，投影面积为：$4\\pi$。$2x+y+2z=1$与 xoy 平面的夹角余弦为：$\\frac{(2,1,2)\\cdot(0,0,1)}{\\sqrt{4+1+4}\\cdot\\sqrt{1}}=\\frac{2}{3}$，因此$A=4\\pi\\cdot\\frac{3}{2}=6\\pi$，",
+  "sort_order": 60
+}

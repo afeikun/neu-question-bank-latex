@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $z=x^2+y^2,y=x^2,y=1,z=0$ 所围立体的体积为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{88}{105}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{27}{85}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{89}{95}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{16}{35}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于所围立体的底部为区域 $D:x^2\\leq y\\leq 1,-1\\leq x\\leq 1$，顶部是旋转抛物面 $z=x^2+y^2$，所以\n\\[\nV=\\int_{-1}^1dx\\int_{x^2}^1(x^2+y^2)dy=\\int_{-1}^1\\left(x^2y+\\frac{1}{3}y^3\\right)\\bigg|_{x^2}^1dx\n\\]\n\\[\n=\\int_{-1}^1\\left(x^2+\\frac{1}{3}-x^4-\\frac{1}{3}x^6\\right)dx=2\\int_0^1\\left(x^2+\\frac{1}{3}-x^4-\\frac{1}{3}x^6\\right)dx=\\frac{88}{105}\n\\]\n图示：立体顶部为弯曲曲面，底部及侧面围成区域；坐标轴标为 $z,y,x$，原点为 $O$，$z$ 轴向上、$y$ 轴向右、$x$ 轴向左下。",
+  "search_text": "曲面 $z=x^2+y^2,y=x^2,y=1,z=0$ 所围立体的体积为（ ） $\\frac{88}{105}$ $\\frac{27}{85}$ $\\frac{89}{95}$ $\\frac{16}{35}$ 由于所围立体的底部为区域 $D:x^2\\leq y\\leq 1,-1\\leq x\\leq 1$，顶部是旋转抛物面 $z=x^2+y^2$，所以\n\\[\nV=\\int_{-1}^1dx\\int_{x^2}^1(x^2+y^2)dy=\\int_{-1}^1\\left(x^2y+\\frac{1}{3}y^3\\right)\\bigg|_{x^2}^1dx\n\\]\n\\[\n=\\int_{-1}^1\\left(x^2+\\frac{1}{3}-x^4-\\frac{1}{3}x^6\\right)dx=2\\int_0^1\\left(x^2+\\frac{1}{3}-x^4-\\frac{1}{3}x^6\\right)dx=\\frac{88}{105}\n\\]\n图示：立体顶部为弯曲曲面，底部及侧面围成区域；坐标轴标为 $z,y,x$，原点为 $O$，$z$ 轴向上、$y$ 轴向右、$x$ 轴向左下。",
+  "sort_order": 20
+}

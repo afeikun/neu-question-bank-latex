@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\oint_{|z|=2}\\frac{\\cos(\\pi z/2)+(z-1)e^z}{(z-3)(z-1)^2}\\,dz$ 等于（ ），方向沿 $|z|=2$ 的正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac\\pi2-e)\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi/4-e/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\pi i e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi^2 i/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分别用二阶Cauchy公式和简单极点留数计算，得到 $(\\pi/2-e)\\pi i$。",
+  "search_text": "积分 $I=\\oint_{|z|=2}\\frac{\\cos(\\pi z/2)+(z-1)e^z}{(z-3)(z-1)^2}\\,dz$ 等于（ ），方向沿 $|z|=2$ 的正向。 $(\\frac\\pi2-e)\\pi i$ $\\pi/4-e/2$ $-\\pi i e$ $\\pi^2 i/2$ 分别用二阶Cauchy公式和简单极点留数计算，得到 $(\\pi/2-e)\\pi i$。",
+  "sort_order": 1
+}

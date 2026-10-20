@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质量为 $m$ 的船以速度 $V_0$ 运动，推进器停止后阻力与速度平方成正比，系数 $k$，求速度与时间关系。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1V-\\frac1{V_0}=\\frac{2k}{m}t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1V-\\frac1{V_0}=\\frac{k}{m}t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1V+\\frac1{V_0}=\\frac{k}{m}t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1V+\\frac1{V_0}=\\frac{2k}{m}t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：依题意得$-kV^2=ma=mV'$，得$\\frac{1}{V}=\\frac{k}{m}t+C$，由$V(0)=V_0$得$C=\\frac{1}{V_0}$，代入得$\\frac{1}{V}-\\frac{1}{V_0}=\\frac{k}{m}t$。",
+  "search_text": "质量为 $m$ 的船以速度 $V_0$ 运动，推进器停止后阻力与速度平方成正比，系数 $k$，求速度与时间关系。 $\\frac1V-\\frac1{V_0}=\\frac{2k}{m}t$ $\\frac1V-\\frac1{V_0}=\\frac{k}{m}t$ $\\frac1V+\\frac1{V_0}=\\frac{k}{m}t$ $\\frac1V+\\frac1{V_0}=\\frac{2k}{m}t$ 解析：依题意得$-kV^2=ma=mV'$，得$\\frac{1}{V}=\\frac{k}{m}t+C$，由$V(0)=V_0$得$C=\\frac{1}{V_0}$，代入得$\\frac{1}{V}-\\frac{1}{V_0}=\\frac{k}{m}t$。",
+  "sort_order": 60
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^{\\pi/2}\\dfrac1{1+\\sin^2x}\\,dx=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi{2\\sqrt2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi{\\sqrt2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac\\pi3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由三角函数公式化为整周积分，再用留数定理计算，得 $I=\\dfrac\\pi{2\\sqrt2}$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^{\\pi/2}\\dfrac1{1+\\sin^2x}\\,dx=(\\ \\ )$。 $\\dfrac\\pi{2\\sqrt2}$ $\\dfrac\\pi{\\sqrt2}$ $\\dfrac\\pi2$ $\\dfrac\\pi3$ 由三角函数公式化为整周积分，再用留数定理计算，得 $I=\\dfrac\\pi{2\\sqrt2}$。",
+  "sort_order": 18
+}

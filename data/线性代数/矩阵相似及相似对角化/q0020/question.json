@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A$ 与矩阵 $B$ 相似，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "矩阵 $\\lambda E-A$ 与 $\\lambda E-B$ 相等"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$ 与 $B$ 有相同的行列式"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A$ 与 $B$ 有相同的特征向量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A$ 与 $B$ 相似于同一对角阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "矩阵 $A$ 与矩阵 $B$ 相似，则存在可逆矩阵 $P$，使得 $P^{-1}AP=B$，$\\Rightarrow |B|=|P^{-1}AP|=|A|$，且 $|\\lambda E-A|=|\\lambda E-B|$，故有相同的特征值，于是对应的行列式相等。但矩阵 $\\lambda E-A$ 和矩阵 $\\lambda E-B$ 不一定相等，矩阵 $A$ 与矩阵 $B$ 不一定能对角化，故不一定相似于对角阵，也不一定有相同的特征向量。",
+  "search_text": "设矩阵 $A$ 与矩阵 $B$ 相似，则必有（ ）。 矩阵 $\\lambda E-A$ 与 $\\lambda E-B$ 相等 $A$ 与 $B$ 有相同的行列式 $A$ 与 $B$ 有相同的特征向量 $A$ 与 $B$ 相似于同一对角阵 矩阵 $A$ 与矩阵 $B$ 相似，则存在可逆矩阵 $P$，使得 $P^{-1}AP=B$，$\\Rightarrow |B|=|P^{-1}AP|=|A|$，且 $|\\lambda E-A|=|\\lambda E-B|$，故有相同的特征值，于是对应的行列式相等。但矩阵 $\\lambda E-A$ 和矩阵 $\\lambda E-B$ 不一定相等，矩阵 $A$ 与矩阵 $B$ 不一定能对角化，故不一定相似于对角阵，也不一定有相同的特征向量。",
+  "sort_order": 20
+}

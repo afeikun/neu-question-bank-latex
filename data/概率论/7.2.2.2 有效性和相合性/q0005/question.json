@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\bar X$及各$X_i$均为$E(X)=\\mu$的无偏估计量，以下正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\bar X$比$X_i$更有效"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$D(\\bar X)=\\sigma^2/(n-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(\\bar X)=\\sigma^2/(n+1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X$比$X_i$更无效"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(\\bar X)=\\sigma^2/n<\\sigma^2=D(X_i)$。",
+  "search_text": "$\\bar X$及各$X_i$均为$E(X)=\\mu$的无偏估计量，以下正确的是（）。 $\\bar X$比$X_i$更有效 $D(\\bar X)=\\sigma^2/(n-1)$ $D(\\bar X)=\\sigma^2/(n+1)$ $\\bar X$比$X_i$更无效 $D(\\bar X)=\\sigma^2/n<\\sigma^2=D(X_i)$。",
+  "sort_order": 5
+}

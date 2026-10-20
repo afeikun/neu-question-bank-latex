@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知$\\sigma$，均值置信区间长度不超过$0.5\\sigma_0$，置信度95%，求$n$至少为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$62$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$54$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$75$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$87$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$n\\ge(2(1.96)/0.5)^2=61.47$，取整62。",
+  "search_text": "已知$\\sigma$，均值置信区间长度不超过$0.5\\sigma_0$，置信度95%，求$n$至少为（）。 $62$ $54$ $75$ $87$ $n\\ge(2(1.96)/0.5)^2=61.47$，取整62。",
+  "sort_order": 18
+}

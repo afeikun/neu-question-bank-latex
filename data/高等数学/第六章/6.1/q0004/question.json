@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知菱形 $ABCD$ 的对角线 $\\overrightarrow{AC}=\\vec a$，$\\overrightarrow{BD}=\\vec b$，则用向量 $\\vec a,\\vec b$ 表示 $\\overrightarrow{AB}$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12(\\vec a+\\vec b)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12(\\vec a+\\vec b)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12(\\vec a-\\vec b)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12(\\vec b-\\vec a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设 $O$ 为对角线交点，则 $\\overrightarrow{AB}=\\overrightarrow{AO}+\\overrightarrow{OB}=\\frac12\\vec a-\\frac12\\vec b=\\frac12(\\vec a-\\vec b)$。",
+  "search_text": "已知菱形 $ABCD$ 的对角线 $\\overrightarrow{AC}=\\vec a$，$\\overrightarrow{BD}=\\vec b$，则用向量 $\\vec a,\\vec b$ 表示 $\\overrightarrow{AB}$ 为(\\quad)。 $\\frac12(\\vec a+\\vec b)$ $-\\frac12(\\vec a+\\vec b)$ $\\frac12(\\vec a-\\vec b)$ $\\frac12(\\vec b-\\vec a)$ 设 $O$ 为对角线交点，则 $\\overrightarrow{AB}=\\overrightarrow{AO}+\\overrightarrow{OB}=\\frac12\\vec a-\\frac12\\vec b=\\frac12(\\vec a-\\vec b)$。",
+  "sort_order": 4
+}

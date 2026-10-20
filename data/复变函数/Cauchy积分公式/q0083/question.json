@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z|=1$，方向正向，则 $\\oint_C\\frac{e^z}{z(z^2+1)}\\,dz=(\\quad)$，其中 $C:|z-i|=\\frac12$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi(\\sin1-i\\cos1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi(\\cos1+i\\sin1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内只有奇点 $i$，由 Cauchy 积分公式，积分为 $\\pi e^i/i=\\pi(\\sin1-i\\cos1)$。",
+  "search_text": "设 $C$ 为圆周 $|z|=1$，方向正向，则 $\\oint_C\\frac{e^z}{z(z^2+1)}\\,dz=(\\quad)$，其中 $C:|z-i|=\\frac12$。 $\\pi(\\sin1-i\\cos1)$ $\\pi(\\cos1+i\\sin1)$ $0$ $\\pi i$ 圆内只有奇点 $i$，由 Cauchy 积分公式，积分为 $\\pi e^i/i=\\pi(\\sin1-i\\cos1)$。",
+  "sort_order": 83
+}

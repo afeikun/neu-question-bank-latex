@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(X=i)=a(2\\lambda)^i/i!$，$i=0,1,\\ldots$，求$a$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-2\\lambda}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-\\lambda}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{\\lambda}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{2\\lambda}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "概率和为1要求$a\\sum_{i=0}^\\infty(2\\lambda)^i/i!=a e^{2\\lambda}=1$，故$a=e^{-2\\lambda}$。",
+  "search_text": "$P(X=i)=a(2\\lambda)^i/i!$，$i=0,1,\\ldots$，求$a$。 $e^{-2\\lambda}$ $e^{-\\lambda}$ $e^{\\lambda}$ $e^{2\\lambda}$ 概率和为1要求$a\\sum_{i=0}^\\infty(2\\lambda)^i/i!=a e^{2\\lambda}=1$，故$a=e^{-2\\lambda}$。",
+  "sort_order": 6
+}

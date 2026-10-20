@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=\\begin{pmatrix}-a&b\\\\b&a\\end{pmatrix}$，其中 $a>b>0$，$a^2+b^2=1$，则 $A$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正定矩阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "负定矩阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "初等矩阵"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "正交矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$AA^T=\\begin{pmatrix}-a&b\\\\b&a\\end{pmatrix}\\begin{pmatrix}-a&b\\\\b&a\\end{pmatrix}=\\begin{pmatrix}a^2+b^2&0\\\\0&a^2+b^2\\end{pmatrix}=E$，故 $A$ 是正交矩阵。由于其特征值异号，既非正定也非负定。",
+  "search_text": "设矩阵 $A=\\begin{pmatrix}-a&b\\\\b&a\\end{pmatrix}$，其中 $a>b>0$，$a^2+b^2=1$，则 $A$ 为（ ）。 正定矩阵 负定矩阵 初等矩阵 正交矩阵 $AA^T=\\begin{pmatrix}-a&b\\\\b&a\\end{pmatrix}\\begin{pmatrix}-a&b\\\\b&a\\end{pmatrix}=\\begin{pmatrix}a^2+b^2&0\\\\0&a^2+b^2\\end{pmatrix}=E$，故 $A$ 是正交矩阵。由于其特征值异号，既非正定也非负定。",
+  "sort_order": 57
+}

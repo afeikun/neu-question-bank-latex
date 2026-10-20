@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$D(\\xi)=5/2$，用切比雪夫估计$P(|\\xi-E(\\xi)|\\ge15/2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\le2/45$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\le2/15$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\le1/15$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\le1/45$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(|X-EX|\\ge a)\\le D(X)/a^2=(5/2)/(15/2)^2=2/45$。",
+  "search_text": "$D(\\xi)=5/2$，用切比雪夫估计$P(|\\xi-E(\\xi)|\\ge15/2)$。 $\\le2/45$ $\\le2/15$ $\\le1/15$ $\\le1/45$ $P(|X-EX|\\ge a)\\le D(X)/a^2=(5/2)/(15/2)^2=2/45$。",
+  "sort_order": 5
+}

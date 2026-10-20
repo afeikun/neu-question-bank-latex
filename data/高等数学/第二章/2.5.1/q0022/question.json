@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列隐函数求导结果计算错误的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$xy=e^{x+y},\\ y^\\prime=\\frac{e^{x+y}-y}{x-e^{x+y}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=1+xe^y,\\ y^\\prime=\\frac{e^y}{1-xe^y}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{xy}+y^3-5x=0,\\ y^\\prime=\\frac{5-ye^{xy}}{xe^{xy}+3y^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xy-\\sin(\\pi y^2)=0,\\ y^\\prime=\\frac{y}{2\\pi y\\cos(\\pi y^2)-x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $e^{xy}+y^3-5x=0$，方程两边同时对 $x$ 求导可得\n\n$$e^{xy}(y+xy')+3y^2\\cdot y'-5=0，\\text{则有 }\\frac{dy}{dx}=\\frac{5-ye^{xy}}{xe^{xy}+3y^2}。$$",
+  "search_text": "下列隐函数求导结果计算错误的是哪一个？ $xy=e^{x+y},\\ y^\\prime=\\frac{e^{x+y}-y}{x-e^{x+y}}$ $y=1+xe^y,\\ y^\\prime=\\frac{e^y}{1-xe^y}$ $e^{xy}+y^3-5x=0,\\ y^\\prime=\\frac{5-ye^{xy}}{xe^{xy}+3y^2}$ $xy-\\sin(\\pi y^2)=0,\\ y^\\prime=\\frac{y}{2\\pi y\\cos(\\pi y^2)-x}$ 解答 $e^{xy}+y^3-5x=0$，方程两边同时对 $x$ 求导可得\n\n$$e^{xy}(y+xy')+3y^2\\cdot y'-5=0，\\text{则有 }\\frac{dy}{dx}=\\frac{5-ye^{xy}}{xe^{xy}+3y^2}。$$",
+  "sort_order": 22
+}

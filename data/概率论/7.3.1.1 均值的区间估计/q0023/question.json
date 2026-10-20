@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sigma=1.5$，置信度95%且均值区间长度小于1.7，求最小样本容量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n=12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n=11$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n=13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n=14$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$n\\ge(2\\cdot1.5\\cdot1.96/1.7)^2\\approx11.96$，取12。",
+  "search_text": "$\\sigma=1.5$，置信度95%且均值区间长度小于1.7，求最小样本容量。 $n=12$ $n=11$ $n=13$ $n=14$ $n\\ge(2\\cdot1.5\\cdot1.96/1.7)^2\\approx11.96$，取12。",
+  "sort_order": 23
+}

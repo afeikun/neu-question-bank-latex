@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Omega$ 是由 $z\\geq\\sqrt{x^2+y^2}$ 和 $x^2+y^2+z^2\\leq2$ 围成的立体，则三重积分 $\\iiint_\\Omega z\\,dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{8\\pi}5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{3\\pi}2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $z=\\sqrt{x^2+y^2}$ 与 $x^2+y^2+z^2=2$ 联立得 $x^2+y^2=1,z=1$。球面坐标下 $0\\leq\\theta\\leq2\\pi,0\\leq\\varphi\\leq\\pi/4,0\\leq r\\leq\\sqrt2$，故 $\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{\\sqrt2}r\\cos\\varphi\\cdot r^2\\sin\\varphi\\,dr=2\\pi\\int_0^{\\pi/4}\\sin\\varphi\\cos\\varphi\\,d\\varphi=\\pi/2$。",
+  "search_text": "已知 $\\Omega$ 是由 $z\\geq\\sqrt{x^2+y^2}$ 和 $x^2+y^2+z^2\\leq2$ 围成的立体，则三重积分 $\\iiint_\\Omega z\\,dv=$（ ） $\\frac\\pi4$ $\\frac{8\\pi}5$ $\\frac\\pi2$ $\\frac{3\\pi}2$ 由 $z=\\sqrt{x^2+y^2}$ 与 $x^2+y^2+z^2=2$ 联立得 $x^2+y^2=1,z=1$。球面坐标下 $0\\leq\\theta\\leq2\\pi,0\\leq\\varphi\\leq\\pi/4,0\\leq r\\leq\\sqrt2$，故 $\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{\\sqrt2}r\\cos\\varphi\\cdot r^2\\sin\\varphi\\,dr=2\\pi\\int_0^{\\pi/4}\\sin\\varphi\\cos\\varphi\\,d\\varphi=\\pi/2$。",
+  "sort_order": 1
+}

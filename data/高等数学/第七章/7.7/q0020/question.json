@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=2x^2+y^2-y$，求 $(2,3)$ 处增长最快方向与 $x$ 轴正向夹角。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\\\arctan(\\frac58)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\\\arcsin(\\frac13)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\\\arccos(\\frac18)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\\\arctan(\\frac38)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$f_x|_{(2,3)}=4x|_{(2,3)}=8，\\quad f_y|_{(2,3)}=(2y-1)|_{(2,3)}=5，$$\n\n则 $\\left.\\frac{\\partial f}{\\partial l}\\right|_{(2,3)}=8\\cos\\theta+5\\sin\\theta=\\sqrt{8^2+5^2}\\sin(\\theta+\\varphi)，$\n\n要取其最大值为 $\\sqrt{89}$，则方向 $l$ 与 $x$ 轴正向的夹角 $\\tan\\alpha=\\frac{5}{8}，$\n\n即：$\\alpha=\\arctan\\frac{5}{8}。$",
+  "search_text": "设 $f(x,y)=2x^2+y^2-y$，求 $(2,3)$ 处增长最快方向与 $x$ 轴正向夹角。 $\\\\arctan(\\frac58)$ $\\\\arcsin(\\frac13)$ $\\\\arccos(\\frac18)$ $\\\\arctan(\\frac38)$ $$f_x|_{(2,3)}=4x|_{(2,3)}=8，\\quad f_y|_{(2,3)}=(2y-1)|_{(2,3)}=5，$$\n\n则 $\\left.\\frac{\\partial f}{\\partial l}\\right|_{(2,3)}=8\\cos\\theta+5\\sin\\theta=\\sqrt{8^2+5^2}\\sin(\\theta+\\varphi)，$\n\n要取其最大值为 $\\sqrt{89}$，则方向 $l$ 与 $x$ 轴正向的夹角 $\\tan\\alpha=\\frac{5}{8}，$\n\n即：$\\alpha=\\arctan\\frac{5}{8}。$",
+  "sort_order": 20
+}

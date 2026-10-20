@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\lim_{x\\to0}\\frac{f(a+x)-f(a-3x)}x=1$，$f(x)$ 在 $x=a$ 处可导，则 $f\\prime(a)$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "分子的一阶项为 $4xf\\prime(a)$，故 $4f\\prime(a)=1$。",
+  "search_text": "设 $\\lim_{x\\to0}\\frac{f(a+x)-f(a-3x)}x=1$，$f(x)$ 在 $x=a$ 处可导，则 $f\\prime(a)$ 等于（ ）。 1 $\\frac13$ $\\frac14$ 不存在 分子的一阶项为 $4xf\\prime(a)$，故 $4f\\prime(a)=1$。",
+  "sort_order": 32
+}

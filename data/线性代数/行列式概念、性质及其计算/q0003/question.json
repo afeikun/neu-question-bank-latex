@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}1&1&1&0\\\\4&3&-5&1\\\\-2&5&2&1\\\\3&-2&1&1\\end{vmatrix}$，$A_{i2}$ 为 $D$ 中元素 $a_{i2}$（$i=1,2,3,4$）的代数余子式，则 $\\sum_{i=2}^{4}A_{i2}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$35$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-29$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$29$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\sum_{i=2}^{4}A_{i2}=A_{22}+A_{32}+A_{42}=\\begin{vmatrix}1&0&1&0\\\\4&1&-5&1\\\\-2&1&2&1\\\\3&1&1&1\\end{vmatrix}=0$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}1&1&1&0\\\\4&3&-5&1\\\\-2&5&2&1\\\\3&-2&1&1\\end{vmatrix}$，$A_{i2}$ 为 $D$ 中元素 $a_{i2}$（$i=1,2,3,4$）的代数余子式，则 $\\sum_{i=2}^{4}A_{i2}=$（ ）。 $0$ $35$ $-29$ $29$ $\\sum_{i=2}^{4}A_{i2}=A_{22}+A_{32}+A_{42}=\\begin{vmatrix}1&0&1&0\\\\4&1&-5&1\\\\-2&1&2&1\\\\3&1&1&1\\end{vmatrix}=0$。",
+  "sort_order": 3
+}

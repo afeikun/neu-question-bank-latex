@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=x\\ln(xy)$，则 $u_{xy}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac xy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac yx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial x}=\\ln xy+1，\\quad \\frac{\\partial^2u}{\\partial x\\partial y}=\\frac{1}{y}$",
+  "search_text": "设 $u=x\\ln(xy)$，则 $u_{xy}=(\\quad)$。 $\\frac1x$ $\\frac xy$ $\\frac yx$ $\\frac1y$ $\\frac{\\partial u}{\\partial x}=\\ln xy+1，\\quad \\frac{\\partial^2u}{\\partial x\\partial y}=\\frac{1}{y}$",
+  "sort_order": 9
+}

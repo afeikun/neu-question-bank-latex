@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若直角三角形的一直角边与斜边之和为常数，则有最大面积的直角三角形的锐角为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$15^\\circ$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$30^\\circ$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$22.5^\\circ$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$45^\\circ$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设两直角边为 $x,y$，斜边 $z$，约束 $x+z=c$ 且 $x^2+y^2=z^2$。面积最大时两直角边之比为 $1:\\sqrt3$，锐角为 $30^\\circ$。",
+  "search_text": "若直角三角形的一直角边与斜边之和为常数，则有最大面积的直角三角形的锐角为（ ）。 $15^\\circ$ $30^\\circ$ $22.5^\\circ$ $45^\\circ$ 设两直角边为 $x,y$，斜边 $z$，约束 $x+z=c$ 且 $x^2+y^2=z^2$。面积最大时两直角边之比为 $1:\\sqrt3$，锐角为 $30^\\circ$。",
+  "sort_order": 19
+}

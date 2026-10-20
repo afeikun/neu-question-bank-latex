@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "给定抛物线 $y=x^2-x+2$，则过点 $(1,2)$ 的切线方程与法线方程分别是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "切线 $y=x-1$；法线 $y=-x+3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "切线 $y=-x+1$；法线 $y=x-3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "切线 $y=x+1$；法线 $y=-x+3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "切线 $y=-x-1$；法线 $y=x-3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y\\prime=2x-1$，在 $x=1$ 处斜率为 $1$，切线 $y=x+1$，法线 $y=-x+3$。",
+  "search_text": "给定抛物线 $y=x^2-x+2$，则过点 $(1,2)$ 的切线方程与法线方程分别是（ ）。 切线 $y=x-1$；法线 $y=-x+3$ 切线 $y=-x+1$；法线 $y=x-3$ 切线 $y=x+1$；法线 $y=-x+3$ 切线 $y=-x-1$；法线 $y=x-3$ $y\\prime=2x-1$，在 $x=1$ 处斜率为 $1$，切线 $y=x+1$，法线 $y=-x+3$。",
+  "sort_order": 6
+}

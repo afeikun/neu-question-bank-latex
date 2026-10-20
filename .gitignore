@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+.npmrc
+*.key
+*.pem
+*.pfx
+node_modules/
+*.zip

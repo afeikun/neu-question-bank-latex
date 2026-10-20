@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$a_n>0$，若 $\\sum_{n=1}^{\\infty} a_n$ 发散且 $\\sum_{n=1}^{\\infty}(-1)^{n-1}a_n$ 收敛，下列结论正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(a_{2n-1}-a_{2n})$ 收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "偶数项和收敛而奇数项和发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "奇数项和收敛而偶数项和发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(a_{2n-1}+a_{2n})$ 收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "交错级数正负配对后的部分和收敛，故第一项正确。",
+  "search_text": "$a_n>0$，若 $\\sum_{n=1}^{\\infty} a_n$ 发散且 $\\sum_{n=1}^{\\infty}(-1)^{n-1}a_n$ 收敛，下列结论正确的是？ $\\sum_{n=1}^{\\infty}(a_{2n-1}-a_{2n})$ 收敛 偶数项和收敛而奇数项和发散 奇数项和收敛而偶数项和发散 $\\sum_{n=1}^{\\infty}(a_{2n-1}+a_{2n})$ 收敛 交错级数正负配对后的部分和收敛，故第一项正确。",
+  "sort_order": 21
+}

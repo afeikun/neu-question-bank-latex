@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=x+iy$，$1^z$ 的表达式是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-2k\\pi y}(\\cos2k\\pi x+i\\sin2k\\pi x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-2k\\pi x}(\\cos2k\\pi y+i\\sin2k\\pi y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cos2k\\pi x+i\\sin2k\\pi x$，其中 $k\\in\\mathbb Z$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\operatorname{Ln}1=2k\\pi i$，$k\\in\\mathbb Z$，得 $1^z=e^{z\\operatorname{Ln}1}=e^{(x+iy)2k\\pi i}=e^{-2k\\pi y}(\\cos2k\\pi x+i\\sin2k\\pi x)$，$k\\in\\mathbb Z$，选第一项。",
+  "search_text": "设 $z=x+iy$，$1^z$ 的表达式是（ ）。 $e^{-2k\\pi y}(\\cos2k\\pi x+i\\sin2k\\pi x)$ $1$ $e^{-2k\\pi x}(\\cos2k\\pi y+i\\sin2k\\pi y)$ $\\cos2k\\pi x+i\\sin2k\\pi x$，其中 $k\\in\\mathbb Z$ 由 $\\operatorname{Ln}1=2k\\pi i$，$k\\in\\mathbb Z$，得 $1^z=e^{z\\operatorname{Ln}1}=e^{(x+iy)2k\\pi i}=e^{-2k\\pi y}(\\cos2k\\pi x+i\\sin2k\\pi x)$，$k\\in\\mathbb Z$，选第一项。",
+  "sort_order": 47
+}

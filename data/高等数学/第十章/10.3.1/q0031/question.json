@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime-y\\tan x=\\sec x$ 满足初始条件 $y|_{x=0}=0$ 的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=x\\cos x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x\\sec x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=x\\sin x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=x\\tan x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程的特解为\n\n$$y=e^{\\int\\frac{\\sin x}{\\cos x}\\,dx}\\left(c+\\int\\sec x\\,e^{\\ln\\cos x}\\,dx\\right)$$\n\n$$=\\sec x(c+\\int1\\,dx)=(c+x)\\sec x$$\n\n代入初值，得 $c=0$，故所求特解为 $y=x\\sec x$",
+  "search_text": "微分方程 $y\\prime-y\\tan x=\\sec x$ 满足初始条件 $y|_{x=0}=0$ 的特解为（ ） $y=x\\cos x$ $y=x\\sec x$ $y=x\\sin x$ $y=x\\tan x$ 方程的特解为\n\n$$y=e^{\\int\\frac{\\sin x}{\\cos x}\\,dx}\\left(c+\\int\\sec x\\,e^{\\ln\\cos x}\\,dx\\right)$$\n\n$$=\\sec x(c+\\int1\\,dx)=(c+x)\\sec x$$\n\n代入初值，得 $c=0$，故所求特解为 $y=x\\sec x$",
+  "sort_order": 31
+}

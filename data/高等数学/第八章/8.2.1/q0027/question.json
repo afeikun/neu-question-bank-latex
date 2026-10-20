@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设薄片所占闭区域介于两个圆 $\\rho=a\\cos\\theta,\\rho=b\\cos\\theta\\ (0<a<b)$ 之间，密度为1，质心（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{a^2+ab+b^2}{3(a+b)},0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{a^2+3ab+b^2}{3(a+b)},0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{a^2+2ab+b^2}{3(a+b)},0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{a^2+ab+b^2}{2(a+b)},0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "如图所示，由对称性可知\n\n图示：$x$ 轴水平、$y$ 轴竖直，原点标为 $O$；两圆之间的环形区域作斜线阴影，$x$ 轴上标出 $a$ 和 $b$。\n\\[\n\\bar{y}=0,A=\\iint_D1dxdy=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{a\\cos\\theta}^{b\\cos\\theta}rdr=\\frac{\\pi(b^2-a^2)}{4},\n\\]\n\\[\n\\bar{x}=\\frac{1}{A}\\iint_Dx\\,dxdy=\\frac{1}{A}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{a\\cos\\theta}^{b\\cos\\theta}r^2\\cos\\theta\\,dr=\\frac{a^2+ab+b^2}{2(a+b)}\n\\]\n所以质心坐标为 $\\left(\\frac{a^2+ab+b^2}{2(a+b)},0\\right)$。",
+  "search_text": "设薄片所占闭区域介于两个圆 $\\rho=a\\cos\\theta,\\rho=b\\cos\\theta\\ (0<a<b)$ 之间，密度为1，质心（ ） $(\\frac{a^2+ab+b^2}{3(a+b)},0)$ $(\\frac{a^2+3ab+b^2}{3(a+b)},0)$ $(\\frac{a^2+2ab+b^2}{3(a+b)},0)$ $(\\frac{a^2+ab+b^2}{2(a+b)},0)$ 如图所示，由对称性可知\n\n图示：$x$ 轴水平、$y$ 轴竖直，原点标为 $O$；两圆之间的环形区域作斜线阴影，$x$ 轴上标出 $a$ 和 $b$。\n\\[\n\\bar{y}=0,A=\\iint_D1dxdy=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{a\\cos\\theta}^{b\\cos\\theta}rdr=\\frac{\\pi(b^2-a^2)}{4},\n\\]\n\\[\n\\bar{x}=\\frac{1}{A}\\iint_Dx\\,dxdy=\\frac{1}{A}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{a\\cos\\theta}^{b\\cos\\theta}r^2\\cos\\theta\\,dr=\\frac{a^2+ab+b^2}{2(a+b)}\n\\]\n所以质心坐标为 $\\left(\\frac{a^2+ab+b^2}{2(a+b)},0\\right)$。",
+  "sort_order": 27
+}

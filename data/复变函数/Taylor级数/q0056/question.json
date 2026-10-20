@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)$ 在点 $a$ 解析，点 $b$ 是 $f(z)$ 的奇点中离 $a$ 最近的奇点，则 Taylor 收敛圆半径是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|a-b|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$b-a+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a+b+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|a+b|$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "Taylor 级数半径由展开中心到最近奇点的距离给出。",
+  "search_text": "设 $f(z)$ 在点 $a$ 解析，点 $b$ 是 $f(z)$ 的奇点中离 $a$ 最近的奇点，则 Taylor 收敛圆半径是（ ）。 $|a-b|$ $b-a+1$ $a+b+1$ $|a+b|$ Taylor 级数半径由展开中心到最近奇点的距离给出。",
+  "sort_order": 56
+}

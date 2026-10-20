@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "复数 $f(z)=u(x,y)+iv(x,y)$ 在点 $z_0=x_0+iy_0$ 处连续的充要条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$u(x,y)$ 和 $v(x,y)$ 在 $(x_0,y_0)$ 处连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$v(x,y)$ 在 $(x_0,y_0)$ 处连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$u(x,y)$ 在 $(x_0,y_0)$ 处连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$u(x,y)+v(x,y)$ 在 $(x_0,y_0)$ 处连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $|f(z)-f(z_0)|^2=(u(x,y)-u(x_0,y_0))^2+(v(x,y)-v(x_0,y_0))^2$，可得 $|u(x,y)-u(x_0,y_0)|\\le|f(z)-f(z_0)|$，$|v(x,y)-v(x_0,y_0)|\\le|f(z)-f(z_0)|$，故 $f(z)$ 连续蕴含 $u,v$ 连续。反之，$|f(z)-f(z_0)|\\le|u(x,y)-u(x_0,y_0)|+|v(x,y)-v(x_0,y_0)|$，故 $u,v$ 连续蕴含 $f(z)$ 连续。",
+  "search_text": "复数 $f(z)=u(x,y)+iv(x,y)$ 在点 $z_0=x_0+iy_0$ 处连续的充要条件是（ ）。 $u(x,y)$ 和 $v(x,y)$ 在 $(x_0,y_0)$ 处连续 $v(x,y)$ 在 $(x_0,y_0)$ 处连续 $u(x,y)$ 在 $(x_0,y_0)$ 处连续 $u(x,y)+v(x,y)$ 在 $(x_0,y_0)$ 处连续 由 $|f(z)-f(z_0)|^2=(u(x,y)-u(x_0,y_0))^2+(v(x,y)-v(x_0,y_0))^2$，可得 $|u(x,y)-u(x_0,y_0)|\\le|f(z)-f(z_0)|$，$|v(x,y)-v(x_0,y_0)|\\le|f(z)-f(z_0)|$，故 $f(z)$ 连续蕴含 $u,v$ 连续。反之，$|f(z)-f(z_0)|\\le|u(x,y)-u(x_0,y_0)|+|v(x,y)-v(x_0,y_0)|$，故 $u,v$ 连续蕴含 $f(z)$ 连续。",
+  "sort_order": 9
+}

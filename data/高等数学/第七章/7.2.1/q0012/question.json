@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=x^{y^z}$，则 $\\left.\\frac{\\partial u}{\\partial x}\\right|_{(3,2,1)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$;"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$;"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$;"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5$;"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial x}=y^z x^{y^z-1}$，则 $\\left.\\frac{\\partial u}{\\partial x}\\right|_{(3,2,1)}=6$",
+  "search_text": "设 $u=x^{y^z}$，则 $\\left.\\frac{\\partial u}{\\partial x}\\right|_{(3,2,1)}=(\\quad)$。 $1$; $0$; $6$; $5$; $\\frac{\\partial u}{\\partial x}=y^z x^{y^z-1}$，则 $\\left.\\frac{\\partial u}{\\partial x}\\right|_{(3,2,1)}=6$",
+  "sort_order": 12
+}

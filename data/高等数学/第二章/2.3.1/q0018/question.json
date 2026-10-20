@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x=f\\prime(t),y=tf\\prime(t)-f(t)$，$f\\prime\\prime(t)$ 存在且不为零，则 $d^2y/dx^2=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1/f\\prime\\prime(t)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/f\\prime\\prime(t)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/f\\prime\\prime(t)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1/f\\prime\\prime(t)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$dy/dx=t$，故 $d^2y/dx^2=dt/dx=1/f\\prime\\prime(t)$。",
+  "search_text": "设 $x=f\\prime(t),y=tf\\prime(t)-f(t)$，$f\\prime\\prime(t)$ 存在且不为零，则 $d^2y/dx^2=$（ ）。 $-1/f\\prime\\prime(t)$ $1/f\\prime\\prime(t)$ $1/f\\prime\\prime(t)$ $-1/f\\prime\\prime(t)$ $dy/dx=t$，故 $d^2y/dx^2=dt/dx=1/f\\prime\\prime(t)$。",
+  "sort_order": 18
+}

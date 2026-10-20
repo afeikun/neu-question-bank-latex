@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=1}^{\\infty}(-1)^n x^n/n$ 的收敛域为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[-1,1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-1,1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-1,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[-1,1]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$x=1$ 交错调和收敛，$x=-1$ 调和发散。",
+  "search_text": "幂级数 $\\sum_{n=1}^{\\infty}(-1)^n x^n/n$ 的收敛域为？ $[-1,1)$ $(-1,1]$ $(-1,1)$ $[-1,1]$ $x=1$ 交错调和收敛，$x=-1$ 调和发散。",
+  "sort_order": 31
+}

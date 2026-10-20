@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^a dx\\int_0^xf(x,y)dy\\ (a>0)$ 的积分次序后结果为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^a dy\\int_y^af(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^a dy\\int_x^af(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^a dy\\int_a^yf(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^a dy\\int_0^af(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 题设二次积分的积分限 $D:0\\le x\\le a,\\ 0\\le y\\le x$，可改写成 $y\\le x\\le a,\\ 0\\le y\\le a$，所以\n\n$\\int_0^a dx\\int_0^x f(x,y)\\,dy=\\int_0^a dy\\int_y^a f(x,y)\\,dx。$",
+  "search_text": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^a dx\\int_0^xf(x,y)dy\\ (a>0)$ 的积分次序后结果为[\\quad] $\\int_0^a dy\\int_y^af(x,y)dx$ $\\int_0^a dy\\int_x^af(x,y)dx$ $\\int_0^a dy\\int_a^yf(x,y)dx$ $\\int_0^a dy\\int_0^af(x,y)dx$ 解答 题设二次积分的积分限 $D:0\\le x\\le a,\\ 0\\le y\\le x$，可改写成 $y\\le x\\le a,\\ 0\\le y\\le a$，所以\n\n$\\int_0^a dx\\int_0^x f(x,y)\\,dy=\\int_0^a dy\\int_y^a f(x,y)\\,dx。$",
+  "sort_order": 11
+}

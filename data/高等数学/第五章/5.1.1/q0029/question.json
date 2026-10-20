@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\sum_{n=1}^{\\infty}(-1)^{n-1}u_n=2$，$\\sum_{n=1}^{\\infty}u_{2n-1}=5$，求 $\\sum_{n=1}^{\\infty}u_n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "交错和为奇数项和减偶数项和，故偶数项和为 $3$，总和为 $8$。",
+  "search_text": "已知 $\\sum_{n=1}^{\\infty}(-1)^{n-1}u_n=2$，$\\sum_{n=1}^{\\infty}u_{2n-1}=5$，求 $\\sum_{n=1}^{\\infty}u_n$。 $8$ $7$ $-3$ $3$ 交错和为奇数项和减偶数项和，故偶数项和为 $3$，总和为 $8$。",
+  "sort_order": 29
+}

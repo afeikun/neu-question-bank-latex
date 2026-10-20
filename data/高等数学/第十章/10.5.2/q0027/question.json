@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x\\frac{d^2y}{dx^2}=x^2+\\frac{dy}{dx}$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac13x^3+\\frac12C_1x^2+C_2x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac13x^3+\\frac12C_1x^2+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac13x^3+\\frac12C_1x^2+C_2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac16x^3+\\frac12C_1x^2+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 令 $\\frac{dy}{dx}=p$，则 $\\frac{d^2y}{dx^2}=\\frac{dp}{dx}$。原微分方程化为 $\\frac{dp}{dx}-\\frac{1}{x}p=x$。其通解为\n\n$$p=e^{-\\int\\frac{1}{x}\\,dx}\\left(\\int xe^{\\int\\frac{1}{x}\\,dx}\\,dx+C_1\\right)=x(x+C_1)$$\n\n所以原微分方程得通解为 $y=\\frac{1}{3}x^3+\\frac{1}{2}C_1x^2+C_2$。",
+  "search_text": "方程 $x\\frac{d^2y}{dx^2}=x^2+\\frac{dy}{dx}$ 的通解是（ ） $y=\\frac13x^3+\\frac12C_1x^2+C_2x$ $y=\\frac13x^3+\\frac12C_1x^2+C_2$ $y=\\frac13x^3+\\frac12C_1x^2+C_2x$ $y=\\frac16x^3+\\frac12C_1x^2+C_2$ 解答 令 $\\frac{dy}{dx}=p$，则 $\\frac{d^2y}{dx^2}=\\frac{dp}{dx}$。原微分方程化为 $\\frac{dp}{dx}-\\frac{1}{x}p=x$。其通解为\n\n$$p=e^{-\\int\\frac{1}{x}\\,dx}\\left(\\int xe^{\\int\\frac{1}{x}\\,dx}\\,dx+C_1\\right)=x(x+C_1)$$\n\n所以原微分方程得通解为 $y=\\frac{1}{3}x^3+\\frac{1}{2}C_1x^2+C_2$。",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}(e^{ax}-1)/x,&x\\ne0,\\\\b,&x=0,\\end{cases}$，且 $\\lim_{x\\to0}f(x)=A$，则 $a,b,A$ 关系为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a$ 任意，$A=b$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$b$ 任意，$A=a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a$ 任意，$A=b=a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a,b$ 任意，$A=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to0}(e^{ax}-1)/x=a$，故 $A=a$，而 $b$ 任意。",
+  "search_text": "设 $f(x)=\\begin{cases}(e^{ax}-1)/x,&x\\ne0,\\\\b,&x=0,\\end{cases}$，且 $\\lim_{x\\to0}f(x)=A$，则 $a,b,A$ 关系为（ ）。 $a$ 任意，$A=b$ $b$ 任意，$A=a$ $a$ 任意，$A=b=a$ $a,b$ 任意，$A=1$ $\\lim_{x\\to0}(e^{ax}-1)/x=a$，故 $A=a$，而 $b$ 任意。",
+  "sort_order": 6
+}

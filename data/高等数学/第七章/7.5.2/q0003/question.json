@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x=x(r,s),y=y(r,s)$ 由 $x^2+y^2+r^2-2s=0, x^3-y^3-r^3+3s=1$ 确定，求 $(x_r,y_s)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{r(r+y)}{x(x+y)},\\frac{x-1}{y(x+y)})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{r(r-y)}{x(x+y)},\\frac{y+1}{y(x+y)})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{r(r-y)}{y(x+y)},\\frac{x+1}{x(x+y)})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{r(r-y)}{x(x+y)},\\frac{x+1}{y(x+y)})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由题设可得：\n$$\n\\begin{cases}\n2x\\,dx+2y\\,dy+2r\\,dr-2\\,ds=0\\\\\n3x^2\\,dx-3y^2\\,dy-3r^2\\,dr+3\\,ds=0\n\\end{cases}\n$$\n则有：\n$$\n\\begin{cases}\ndx=\\dfrac{(y-1)\\,ds+r(r-y)\\,dr}{x(x+y)}\\\\[2mm]\ndy=\\dfrac{(x+1)\\,ds-r(r+x)\\,dr}{y(x+y)}\n\\end{cases}\n$$\n$$\n\\frac{\\partial x}{\\partial r}=\\frac{r(r-y)}{x(x+y)},\\quad\n\\frac{\\partial x}{\\partial s}=\\frac{y-1}{x(x+y)},\\quad\n\\frac{\\partial y}{\\partial r}=-\\frac{r(r+x)}{y(x+y)},\\quad\n\\frac{\\partial y}{\\partial s}=\\frac{x+1}{y(x+y)}\n$$",
+  "search_text": "设 $x=x(r,s),y=y(r,s)$ 由 $x^2+y^2+r^2-2s=0, x^3-y^3-r^3+3s=1$ 确定，求 $(x_r,y_s)$。 $(\\frac{r(r+y)}{x(x+y)},\\frac{x-1}{y(x+y)})$ $(\\frac{r(r-y)}{x(x+y)},\\frac{y+1}{y(x+y)})$ $(\\frac{r(r-y)}{y(x+y)},\\frac{x+1}{x(x+y)})$ $(\\frac{r(r-y)}{x(x+y)},\\frac{x+1}{y(x+y)})$ 由题设可得：\n$$\n\\begin{cases}\n2x\\,dx+2y\\,dy+2r\\,dr-2\\,ds=0\\\\\n3x^2\\,dx-3y^2\\,dy-3r^2\\,dr+3\\,ds=0\n\\end{cases}\n$$\n则有：\n$$\n\\begin{cases}\ndx=\\dfrac{(y-1)\\,ds+r(r-y)\\,dr}{x(x+y)}\\\\[2mm]\ndy=\\dfrac{(x+1)\\,ds-r(r+x)\\,dr}{y(x+y)}\n\\end{cases}\n$$\n$$\n\\frac{\\partial x}{\\partial r}=\\frac{r(r-y)}{x(x+y)},\\quad\n\\frac{\\partial x}{\\partial s}=\\frac{y-1}{x(x+y)},\\quad\n\\frac{\\partial y}{\\partial r}=-\\frac{r(r+x)}{y(x+y)},\\quad\n\\frac{\\partial y}{\\partial s}=\\frac{x+1}{y(x+y)}\n$$",
+  "sort_order": 3
+}

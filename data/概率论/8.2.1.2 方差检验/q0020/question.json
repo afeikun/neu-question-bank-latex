@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "电池方差由5000变为是否显著变化，$n=26,s^2=9200$，说法不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "拒绝域仅$\\chi^2\\ge44.314$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\sigma^2=5000,H_1:\\sigma^2\\ne5000$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\chi^2=25S^2/5000$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可认为波动有显著变化"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧拒绝域还包括下尾，选项1只写上尾不完整。",
+  "search_text": "电池方差由5000变为是否显著变化，$n=26,s^2=9200$，说法不正确的是（）。 拒绝域仅$\\chi^2\\ge44.314$ $H_0:\\sigma^2=5000,H_1:\\sigma^2\\ne5000$ $\\chi^2=25S^2/5000$ 可认为波动有显著变化 双侧拒绝域还包括下尾，选项1只写上尾不完整。",
+  "sort_order": 20
+}

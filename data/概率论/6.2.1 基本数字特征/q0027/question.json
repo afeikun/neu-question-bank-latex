@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$Z\\sim\\chi^2(m)$，求样本均值$\\bar\\xi$期望。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$m$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$nm$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2m/n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$m/n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本均值期望等于总体均值$m$。",
+  "search_text": "$Z\\sim\\chi^2(m)$，求样本均值$\\bar\\xi$期望。 $m$ $nm$ $2m/n$ $m/n$ 样本均值期望等于总体均值$m$。",
+  "sort_order": 27
+}

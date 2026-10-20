@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=t,y=4\\sqrt t,z=t^2$ 在点 $(4,8,16)$ 处的法平面方程是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-y+8z=124$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-y-8z=-132$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+y-8z=116$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+y+8z=140$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由点 $(4,8,16)$ 在法平面上，我们可求出：$t=4$，则 $x'|_{t=4}=1$，$y'|_{t=4}=2\\frac{1}{\\sqrt{t}}=1$，$z'|_{t=4}=2t=8$，\n\n则曲线法平面方程为：$(x-4)+(y-8)+8(z-16)=0$，整理后得到：$x+y+8z=140$。",
+  "search_text": "曲线 $x=t,y=4\\sqrt t,z=t^2$ 在点 $(4,8,16)$ 处的法平面方程是。 $x-y+8z=124$ $x-y-8z=-132$ $x+y-8z=116$ $x+y+8z=140$ 由点 $(4,8,16)$ 在法平面上，我们可求出：$t=4$，则 $x'|_{t=4}=1$，$y'|_{t=4}=2\\frac{1}{\\sqrt{t}}=1$，$z'|_{t=4}=2t=8$，\n\n则曲线法平面方程为：$(x-4)+(y-8)+8(z-16)=0$，整理后得到：$x+y+8z=140$。",
+  "sort_order": 31
+}

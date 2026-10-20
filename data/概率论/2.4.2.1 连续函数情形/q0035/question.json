@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim U[0,1]$，$Y=X^2+1$，则？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(0\\le Y\\le1)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$Y\\sim U[0,1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(0\\le Y\\le1)=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$Y\\sim U[0,3]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$Y$支持集为$[1,2]$，故$P(0\\le Y\\le1)=0$。",
+  "search_text": "$X\\sim U[0,1]$，$Y=X^2+1$，则？ $P(0\\le Y\\le1)=0$ $Y\\sim U[0,1]$ $P(0\\le Y\\le1)=1$ $Y\\sim U[0,3]$ $Y$支持集为$[1,2]$，故$P(0\\le Y\\le1)=0$。",
+  "sort_order": 35
+}

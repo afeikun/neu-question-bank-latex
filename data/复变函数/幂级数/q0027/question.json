@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=0}^{\\infty}(z^{n+1}-z^n)$ 的收敛范围是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z=1$ 和 $|z|<1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z=-1$ 和 $|z|<1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|z|<1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|z|\\le1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "部分和为 $z^{n+1}-1$；当 $|z|<1$ 或 $z=1$ 时极限存在，故选第一项。",
+  "search_text": "级数 $\\sum_{n=0}^{\\infty}(z^{n+1}-z^n)$ 的收敛范围是（ ） $z=1$ 和 $|z|<1$ $z=-1$ 和 $|z|<1$ $|z|<1$ $|z|\\le1$ 部分和为 $z^{n+1}-1$；当 $|z|<1$ 或 $z=1$ 时极限存在，故选第一项。",
+  "sort_order": 27
+}

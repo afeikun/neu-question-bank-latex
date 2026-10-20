@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "底为 $a$、高为 $h$ 的等腰三角形薄板竖直置于水中，底与水面相齐，两腰中点连线将板分为上、下两部分，求两部分压力之比。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P_1>P_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P_1=P_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无法确定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P_1<P_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "分别对上、下三角形的水平薄层积分，两侧压力相等。",
+  "search_text": "底为 $a$、高为 $h$ 的等腰三角形薄板竖直置于水中，底与水面相齐，两腰中点连线将板分为上、下两部分，求两部分压力之比。 $P_1>P_2$ $P_1=P_2$ 无法确定 $P_1<P_2$ 分别对上、下三角形的水平薄层积分，两侧压力相等。",
+  "sort_order": 10
+}

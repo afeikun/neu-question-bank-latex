@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一个非齐次线性方程组的全部解为 $(x_1,x_2,x_3)^T=(1,-1,3)^T+k_1(-1,3,2)^T+k_2(2,-3,1)^T$（$k_1,k_2\\in\\mathbb R$），则此方程组为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$9x_1-5x_2-3x_3=5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9x_1+5x_2-3x_3=-5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}-x_1+3x_2+2x_3=0,\\\\2x_1-3x_2+x_3=8\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}-x_1+3x_2+2x_3=2,\\\\2x_1-3x_2+x_3=8\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设方程为 $a_1x_1+a_2x_2+a_3x_3=b$。令两个齐次方向向量代入，得 $(a_1,a_2,a_3)$ 与 $(9,5,-3)$ 成比例；再代入特解得常数项为 $-5$，所以方程为 $9x_1+5x_2-3x_3=-5$。",
+  "search_text": "一个非齐次线性方程组的全部解为 $(x_1,x_2,x_3)^T=(1,-1,3)^T+k_1(-1,3,2)^T+k_2(2,-3,1)^T$（$k_1,k_2\\in\\mathbb R$），则此方程组为（ ）。 $9x_1-5x_2-3x_3=5$ $9x_1+5x_2-3x_3=-5$ $\\begin{cases}-x_1+3x_2+2x_3=0,\\\\2x_1-3x_2+x_3=8\\end{cases}$ $\\begin{cases}-x_1+3x_2+2x_3=2,\\\\2x_1-3x_2+x_3=8\\end{cases}$ 设方程为 $a_1x_1+a_2x_2+a_3x_3=b$。令两个齐次方向向量代入，得 $(a_1,a_2,a_3)$ 与 $(9,5,-3)$ 成比例；再代入特解得常数项为 $-5$，所以方程为 $9x_1+5x_2-3x_3=-5$。",
+  "sort_order": 34
+}

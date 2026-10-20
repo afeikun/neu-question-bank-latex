@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{d(\\arcsin x)}{d(\\arccos x)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\tan x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arctan x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "导数之比为 $\\frac{1/\\sqrt{1-x^2}}{-1/\\sqrt{1-x^2}}=-1$。",
+  "search_text": "$\\frac{d(\\arcsin x)}{d(\\arccos x)}=$（ ）。 $\\tan x$ $\\arctan x$ $1$ $-1$ 导数之比为 $\\frac{1/\\sqrt{1-x^2}}{-1/\\sqrt{1-x^2}}=-1$。",
+  "sort_order": 3
+}

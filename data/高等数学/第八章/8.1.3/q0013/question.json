@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_D\\sin\\sqrt{x^2+y^2}\\,dxdy$（其中 $D$ 由 $x^2+y^2=\\pi^2,x^2+y^2=4\\pi^2,y=x,y=2x$ 所围成的第一象限内闭区域）的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-3\\pi(\\arctan2-\\frac\\pi4)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4\\pi^2\\arctan2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\pi^2\\arctan2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac34\\pi^2\\arctan2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答　经极坐标变换，边界曲线方程为 $r=\\pi,r=2\\pi,\\theta=\\frac{\\pi}{4},\\theta=\\arctan2$，故 $D:\\frac{\\pi}{4}\\leq\\theta\\leq\\arctan2,\\pi\\leq r\\leq2\\pi$，于是\n\n$$\\iint_D\\sin\\sqrt{x^2+y^2}dxdy=\\int_{\\frac{\\pi}{4}}^{\\arctan2}d\\theta\\int_\\pi^{2\\pi}r\\sin r dr=(\\arctan2-\\frac{\\pi}{4})\\int_\\pi^{2\\pi}r d(-\\cos r)$$\n\n$$=-3\\pi(\\arctan2-\\frac{\\pi}{4}).$$\n\n图示：$x,y$ 坐标轴与原点 $O$；第一象限内两条射线标记 $\\theta=\\frac{\\pi}{4}$、$\\theta=\\arctan2$，两条虚线圆弧标记 $\\pi$、$2\\pi$，射线之间的环形扇区为区域 $D$。",
+  "search_text": "二重积分 $\\iint_D\\sin\\sqrt{x^2+y^2}\\,dxdy$（其中 $D$ 由 $x^2+y^2=\\pi^2,x^2+y^2=4\\pi^2,y=x,y=2x$ 所围成的第一象限内闭区域）的值为[\\quad] $-3\\pi(\\arctan2-\\frac\\pi4)$ $-4\\pi^2\\arctan2$ $-2\\pi^2\\arctan2$ $-\\frac34\\pi^2\\arctan2$ 解答　经极坐标变换，边界曲线方程为 $r=\\pi,r=2\\pi,\\theta=\\frac{\\pi}{4},\\theta=\\arctan2$，故 $D:\\frac{\\pi}{4}\\leq\\theta\\leq\\arctan2,\\pi\\leq r\\leq2\\pi$，于是\n\n$$\\iint_D\\sin\\sqrt{x^2+y^2}dxdy=\\int_{\\frac{\\pi}{4}}^{\\arctan2}d\\theta\\int_\\pi^{2\\pi}r\\sin r dr=(\\arctan2-\\frac{\\pi}{4})\\int_\\pi^{2\\pi}r d(-\\cos r)$$\n\n$$=-3\\pi(\\arctan2-\\frac{\\pi}{4}).$$\n\n图示：$x,y$ 坐标轴与原点 $O$；第一象限内两条射线标记 $\\theta=\\frac{\\pi}{4}$、$\\theta=\\arctan2$，两条虚线圆弧标记 $\\pi$、$2\\pi$，射线之间的环形扇区为区域 $D$。",
+  "sort_order": 13
+}

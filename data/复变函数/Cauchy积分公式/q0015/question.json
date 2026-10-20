@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为单位圆周 $|z|=1$，方向为正向，则 $\\oint_C\\frac{\\sin^3z+3}{z^2+2iz}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac32i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆内只有奇点 $0$，所以 $\\oint_C\\frac{\\sin^3z+3}{z^2+2iz}\\,dz=\\oint_C\\frac{f(z)}z\\,dz=2\\pi i f(0)=3\\pi$。",
+  "search_text": "设 $C$ 为单位圆周 $|z|=1$，方向为正向，则 $\\oint_C\\frac{\\sin^3z+3}{z^2+2iz}\\,dz=(\\quad)$。 $3\\pi$ $4\\pi i$ $\\pi i$ $\\frac32i$ 被积函数在圆内只有奇点 $0$，所以 $\\oint_C\\frac{\\sin^3z+3}{z^2+2iz}\\,dz=\\oint_C\\frac{f(z)}z\\,dz=2\\pi i f(0)=3\\pi$。",
+  "sort_order": 15
+}

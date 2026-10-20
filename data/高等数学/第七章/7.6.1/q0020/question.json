@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=e^t\\cos t,y=e^t\\sin t,z=2e^t$ 在 $t=0$ 处的切线与 $Oz$ 轴夹角余弦为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt3}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt3}{6}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt6}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt6}{6}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由于：\n$$\nx'_t\\big|_{t=0}=e^t\\cos t-e^t\\sin t=1,\\quad\ny'_t\\big|_{t=0}=e^t\\sin t+e^t\\cos t=1,\\quad\nz'_t\\big|_{t=0}=2e^t=2,\n$$\n可得曲线在 $t=0$ 处的切向量：$(1,1,2)$，$Oz$ 轴方向向量为 $(0,0,1)$，则相应于 $t=0$ 处的切线与 $Oz$ 轴夹角的余弦\n$$\n\\cos\\gamma=\\frac{|2\\cdot1|}{\\sqrt{1+1+2^2}}=\\frac{\\sqrt{6}}{3}.\n$$",
+  "search_text": "曲线 $x=e^t\\cos t,y=e^t\\sin t,z=2e^t$ 在 $t=0$ 处的切线与 $Oz$ 轴夹角余弦为。 $\\frac{\\sqrt3}{3}$ $\\frac{\\sqrt3}{6}$ $\\frac{\\sqrt6}{3}$ $\\frac{\\sqrt6}{6}$ 由于：\n$$\nx'_t\\big|_{t=0}=e^t\\cos t-e^t\\sin t=1,\\quad\ny'_t\\big|_{t=0}=e^t\\sin t+e^t\\cos t=1,\\quad\nz'_t\\big|_{t=0}=2e^t=2,\n$$\n可得曲线在 $t=0$ 处的切向量：$(1,1,2)$，$Oz$ 轴方向向量为 $(0,0,1)$，则相应于 $t=0$ 处的切线与 $Oz$ 轴夹角的余弦\n$$\n\\cos\\gamma=\\frac{|2\\cdot1|}{\\sqrt{1+1+2^2}}=\\frac{\\sqrt{6}}{3}.\n$$",
+  "sort_order": 20
+}

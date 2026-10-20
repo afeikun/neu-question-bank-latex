@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A,B,C$ 都是 $n$ 阶方阵，其中 $B,C$ 均可逆，若 $2AB=A+CB$，则 $A$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2B-E)^{-1}BC$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(2B-E)^{-1}CB$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$B(2B-E)^{-1}C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C(2B-E)^{-1}B$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "移项得 $A(2B-E)=CB$。因 $B,C$ 均可逆，$2B-E$ 也可逆，故 $A=CB(2B-E)^{-1}=C(2B-E)^{-1}B$。",
+  "search_text": "已知 $A,B,C$ 都是 $n$ 阶方阵，其中 $B,C$ 均可逆，若 $2AB=A+CB$，则 $A$ 为（ ）。 $(2B-E)^{-1}BC$ $(2B-E)^{-1}CB$ $B(2B-E)^{-1}C$ $C(2B-E)^{-1}B$ 移项得 $A(2B-E)=CB$。因 $B,C$ 均可逆，$2B-E$ 也可逆，故 $A=CB(2B-E)^{-1}=C(2B-E)^{-1}B$。",
+  "sort_order": 21
+}

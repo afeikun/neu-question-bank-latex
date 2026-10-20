@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "从一副扑克牌中任取一张，事件$A$为抽到K，$B$为抽到黑色牌，则$A,B$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "相互独立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "互斥"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "互为对立事件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不相容且不独立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(AB)=2/52=(4/52)(26/52)=P(A)P(B)$，故相互独立。",
+  "search_text": "从一副扑克牌中任取一张，事件$A$为抽到K，$B$为抽到黑色牌，则$A,B$（ ）。 相互独立 互斥 互为对立事件 不相容且不独立 $P(AB)=2/52=(4/52)(26/52)=P(A)P(B)$，故相互独立。",
+  "sort_order": 6
+}

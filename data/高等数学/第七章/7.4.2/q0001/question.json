@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=f(x+y,x-y,xy)$，求 $z_{xy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f_3'+f_{11}''-f_{22}''+xyf_{33}''+(x-y)f_{13}''+(x-y)f_{23}''$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f_3'+f_{11}''-f_{22}''+xyf_{33}''+(x+y)f_{13}''+(x-y)f_{23}''$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f_3'+f_{11}''+xyf_{33}''+(x+y)f_{13}''+(x-y)f_{23}''$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f_3'+f_{11}''-f_{22}''+xyf_{33}''+(x+y)f_{13}''+(x+y)f_{23}''$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial x}=f_1'+f_2'+yf_3'$\n\n$\\frac{\\partial z}{\\partial y}=f_1'-f_2'+xf_3'$\n\n$\\frac{\\partial^2z}{\\partial x\\partial y}=f_{11}''\\cdot1+f_{12}''\\cdot(-1)+f_{13}''\\cdot x+f_{21}''\\cdot1+f_{22}''\\cdot(-1)+f_{23}''\\cdot x+f_3'+y[f_{31}''\\cdot1+f_{32}''\\cdot(-1)+f_{33}''\\cdot x]$\n\n$=f_3'+f_{11}''-f_{22}''+xyf_{33}''+(x+y)f_{13}''+(x-y)f_{23}''$",
+  "search_text": "设 $z=f(x+y,x-y,xy)$，求 $z_{xy}$。 $f_3'+f_{11}''-f_{22}''+xyf_{33}''+(x-y)f_{13}''+(x-y)f_{23}''$ $f_3'+f_{11}''-f_{22}''+xyf_{33}''+(x+y)f_{13}''+(x-y)f_{23}''$ $f_3'+f_{11}''+xyf_{33}''+(x+y)f_{13}''+(x-y)f_{23}''$ $f_3'+f_{11}''-f_{22}''+xyf_{33}''+(x+y)f_{13}''+(x+y)f_{23}''$ $\\frac{\\partial z}{\\partial x}=f_1'+f_2'+yf_3'$\n\n$\\frac{\\partial z}{\\partial y}=f_1'-f_2'+xf_3'$\n\n$\\frac{\\partial^2z}{\\partial x\\partial y}=f_{11}''\\cdot1+f_{12}''\\cdot(-1)+f_{13}''\\cdot x+f_{21}''\\cdot1+f_{22}''\\cdot(-1)+f_{23}''\\cdot x+f_3'+y[f_{31}''\\cdot1+f_{32}''\\cdot(-1)+f_{33}''\\cdot x]$\n\n$=f_3'+f_{11}''-f_{22}''+xyf_{33}''+(x+y)f_{13}''+(x-y)f_{23}''$",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "铁矿10个配对样本用方法A、B测定质量分数，检验两方法均值是否有差异（α=0.05）。应选择检验统计量及结论（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$T=(\\bar X_A-\\bar X_B)/(S_w\\sqrt{1/n_1+1/n_2})$，接受H0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$T=(\\bar X_A-\\bar X_B)/\\sqrt{S_1^2/n_1+S_2^2/n_2}$，接受H0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "合并方差统计量，拒绝H0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "Welch统计量，拒绝H0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "题图计算s_w=3.792，|t|=0.0076<2.1009，接受H0，认为均值无显著差异。",
+  "search_text": "铁矿10个配对样本用方法A、B测定质量分数，检验两方法均值是否有差异（α=0.05）。应选择检验统计量及结论（）。 $T=(\\bar X_A-\\bar X_B)/(S_w\\sqrt{1/n_1+1/n_2})$，接受H0 $T=(\\bar X_A-\\bar X_B)/\\sqrt{S_1^2/n_1+S_2^2/n_2}$，接受H0 合并方差统计量，拒绝H0 Welch统计量，拒绝H0 题图计算s_w=3.792，|t|=0.0076<2.1009，接受H0，认为均值无显著差异。",
+  "sort_order": 24
+}

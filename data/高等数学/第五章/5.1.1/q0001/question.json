@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $|a|>1$，则级数 $\\sum_{n=0}^{\\infty}(-1)^n/a^n$ 的和为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/(1-a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a/(1+a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a/(a-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(1+a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "公比为 $-1/a$，和为 $1/(1+1/a)=a/(1+a)$。",
+  "search_text": "若 $|a|>1$，则级数 $\\sum_{n=0}^{\\infty}(-1)^n/a^n$ 的和为？ $1/(1-a)$ $a/(1+a)$ $a/(a-1)$ $1/(1+a)$ 公比为 $-1/a$，和为 $1/(1+1/a)=a/(1+a)$。",
+  "sort_order": 1
+}

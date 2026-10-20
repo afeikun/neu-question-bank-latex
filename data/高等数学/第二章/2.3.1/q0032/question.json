@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=y(x)$ 由方程组 $\\begin{cases}x=e^t+t-1\\\\e^y\\cos t+y-1=0\\end{cases}$ 确定，则 $d^2y/dx^2|_{x=0}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "参数求导并代入 $t=0,y=0$ 得 $1/8$。",
+  "search_text": "设 $y=y(x)$ 由方程组 $\\begin{cases}x=e^t+t-1\\\\e^y\\cos t+y-1=0\\end{cases}$ 确定，则 $d^2y/dx^2|_{x=0}=$（ ）。 $1/4$ $1/2$ $1/8$ $1/16$ 参数求导并代入 $t=0,y=0$ 得 $1/8$。",
+  "sort_order": 32
+}

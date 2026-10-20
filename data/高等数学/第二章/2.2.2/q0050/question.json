@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=(\\frac ab)^x(\\frac xa)^{bx}$（$a,b$ 为常数且 $a>0,b>0$），则 $y\\prime(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$(\\frac ab)^x\\ln(\\frac ab)(\\frac xa)^{bx}+(\\frac ab)^x b(\\frac xa)^{bx-1}/a$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$(\\frac ab)^x\\ln(\\frac ab)(\\frac xa)^{bx}+(\\frac ab)^x(\\frac xa)^{bx-1}/a$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$(\\frac ab)^x\\ln(\\frac ab)(\\frac xa)^{bx}+(\\frac ab)^x$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$\\ln(\\frac ab)(\\frac xa)^{bx}+(\\frac xa)^{bx-1}/a$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "乘积求导，第二因子导数为 $b(\\frac xa)^{bx-1}/a$。",
+  "search_text": "设 $y=(\\frac ab)^x(\\frac xa)^{bx}$（$a,b$ 为常数且 $a>0,b>0$），则 $y\\prime(x)=$（ ）。 $$(\\frac ab)^x\\ln(\\frac ab)(\\frac xa)^{bx}+(\\frac ab)^x b(\\frac xa)^{bx-1}/a$$ $$(\\frac ab)^x\\ln(\\frac ab)(\\frac xa)^{bx}+(\\frac ab)^x(\\frac xa)^{bx-1}/a$$ $$(\\frac ab)^x\\ln(\\frac ab)(\\frac xa)^{bx}+(\\frac ab)^x$$ $$\\ln(\\frac ab)(\\frac xa)^{bx}+(\\frac xa)^{bx-1}/a$$ 乘积求导，第二因子导数为 $b(\\frac xa)^{bx-1}/a$。",
+  "sort_order": 50
+}

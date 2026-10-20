@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\oint_{|z|=2}\\frac{\\sin(\\pi z/2)+ze^z}{(z-2)^2z^2}\\,dz$ 等于（ ），方向为正向。",
+  "options_json": [
+    {
+      "content_md": "$-(\\frac\\pi2+e)\\pi i$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "$\\frac\\pi4-\\frac e2$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$-\\pi i e$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$\\frac{\\pi^2}{2}i$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分别计算 $z=0$ 与 $z=2$ 处的贡献，得 $I=-(\\pi/2+e)\\pi i$。",
+  "search_text": "积分 $I=\\oint_{|z|=2}\\frac{\\sin(\\pi z/2)+ze^z}{(z-2)^2z^2}\\,dz$ 等于（ ），方向为正向。 $-(\\frac\\pi2+e)\\pi i$ $\\frac\\pi4-\\frac e2$ $-\\pi i e$ $\\frac{\\pi^2}{2}i$ 分别计算 $z=0$ 与 $z=2$ 处的贡献，得 $I=-(\\pi/2+e)\\pi i$。",
+  "sort_order": 80
+}

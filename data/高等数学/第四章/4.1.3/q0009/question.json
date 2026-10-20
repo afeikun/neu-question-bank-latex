@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int\\frac{dx}{x^4\\sqrt{1+x^2}}$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{(1+x^2)^{3/2}}{3x^3}+\\frac{\\sqrt{1+x^2}}x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{(1+x^2)^{3/2}}{3x}+\\frac{\\sqrt{1+x^2}}x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{(1+x^2)^{3/2}}{3x^3}+\\frac{\\sqrt{1+x^2}}{x^2}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{(1+x^2)^{3/2}}{3x^3}+\\frac{\\sqrt{1+x^2}}{x^2}+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $x=1/u$ 并凑微分，积分结果为 $-\\frac{(1+x^2)^{3/2}}{3x^3}+\\frac{\\sqrt{1+x^2}}x+C$。",
+  "search_text": "$\\int\\frac{dx}{x^4\\sqrt{1+x^2}}$ 的值为 $-\\frac{(1+x^2)^{3/2}}{3x^3}+\\frac{\\sqrt{1+x^2}}x+C$ $-\\frac{(1+x^2)^{3/2}}{3x}+\\frac{\\sqrt{1+x^2}}x+C$ $-\\frac{(1+x^2)^{3/2}}{3x^3}+\\frac{\\sqrt{1+x^2}}{x^2}+C$ $-\\frac{(1+x^2)^{3/2}}{3x^3}+\\frac{\\sqrt{1+x^2}}{x^2}+C$ 令 $x=1/u$ 并凑微分，积分结果为 $-\\frac{(1+x^2)^{3/2}}{3x^3}+\\frac{\\sqrt{1+x^2}}x+C$。",
+  "sort_order": 9
+}

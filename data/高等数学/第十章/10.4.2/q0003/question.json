@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(y\\cos x-x\\sin x)dx+(y\\sin x+x\\cos x)dy=0$ 的积分因子是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\nP(x,y)=y\\cos x-x\\sin x,\\quad Q(x,y)=y\\sin x+x\\cos x,\n$$\n\n$$\n\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}=-y\\cos x+x\\sin x,\n$$\n\n$$\n\\frac{1}{-P}\\left(\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}\\right)=1,\n$$\n\n故积分因子为 $\\mu(y)=e^{\\int 1\\,dy}=e^y,$",
+  "search_text": "$(y\\cos x-x\\sin x)dx+(y\\sin x+x\\cos x)dy=0$ 的积分因子是（ ） $e^{-x}$ $e^x$ $e^y$ $e^{-x}$ $$\nP(x,y)=y\\cos x-x\\sin x,\\quad Q(x,y)=y\\sin x+x\\cos x,\n$$\n\n$$\n\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}=-y\\cos x+x\\sin x,\n$$\n\n$$\n\\frac{1}{-P}\\left(\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}\\right)=1,\n$$\n\n故积分因子为 $\\mu(y)=e^{\\int 1\\,dy}=e^y,$",
+  "sort_order": 3
+}

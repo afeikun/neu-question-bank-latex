@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim a_n/a_{n+1}=1/8$，则幂级数 $\\sum_{n=0}^{\\infty} a_nx^{3n}$ 在何范围收敛？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|x|<2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|x|<8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|x|>1/8$ 时发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|x|>1/2$ 时发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "关于 $t=x^3$ 的半径为8，故 $|x|<2$。",
+  "search_text": "若 $\\lim a_n/a_{n+1}=1/8$，则幂级数 $\\sum_{n=0}^{\\infty} a_nx^{3n}$ 在何范围收敛？ $|x|<2$ $|x|<8$ $|x|>1/8$ 时发散 $|x|>1/2$ 时发散 关于 $t=x^3$ 的半径为8，故 $|x|<2$。",
+  "sort_order": 27
+}

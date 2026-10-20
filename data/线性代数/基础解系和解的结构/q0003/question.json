@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若齐次线性方程组 $\\begin{cases}\\lambda x_1+x_2+x_3=0,\\\\x_1+\\lambda x_2+x_3=0,\\\\x_1+x_2+\\lambda x_3=0\\end{cases}$ 仅有零解，则 $\\lambda$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda\\ne-2$ 且 $\\lambda\\ne1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda\\ne-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda\\ne\\pm1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda\\ne\\pm2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "仅有零解要求系数矩阵可逆。其行列式为 $(\\lambda-1)^2(\\lambda+2)$，故 $\\lambda\\ne1$ 且 $\\lambda\\ne-2$。",
+  "search_text": "若齐次线性方程组 $\\begin{cases}\\lambda x_1+x_2+x_3=0,\\\\x_1+\\lambda x_2+x_3=0,\\\\x_1+x_2+\\lambda x_3=0\\end{cases}$ 仅有零解，则 $\\lambda$ 的值为（ ）。 $\\lambda\\ne-2$ 且 $\\lambda\\ne1$ $\\lambda\\ne-1$ $\\lambda\\ne\\pm1$ $\\lambda\\ne\\pm2$ 仅有零解要求系数矩阵可逆。其行列式为 $(\\lambda-1)^2(\\lambda+2)$，故 $\\lambda\\ne1$ 且 $\\lambda\\ne-2$。",
+  "sort_order": 3
+}

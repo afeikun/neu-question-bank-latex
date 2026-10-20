@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $|\\vec p|=2$，$|\\vec q|=3$，$(\\widehat{\\vec p,\\vec q})=\\frac\\pi3$，则 $\\vec a=3\\vec p-4\\vec q$ 和 $\\vec b=\\vec p+2\\vec q$ 为两邻边的平行四边形的周长为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2(6\\sqrt3+2\\sqrt{13})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6\\sqrt3+2\\sqrt{13}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2(6\\sqrt{13}+2\\sqrt3)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6\\sqrt{13}+2\\sqrt3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "计算得 $|\\vec a|^2=108$、$|\\vec b|^2=52$，周长为 $2(|\\vec a|+|\\vec b|)=2(6\\sqrt3+2\\sqrt{13})$。",
+  "search_text": "已知 $|\\vec p|=2$，$|\\vec q|=3$，$(\\widehat{\\vec p,\\vec q})=\\frac\\pi3$，则 $\\vec a=3\\vec p-4\\vec q$ 和 $\\vec b=\\vec p+2\\vec q$ 为两邻边的平行四边形的周长为(\\quad)。 $2(6\\sqrt3+2\\sqrt{13})$ $6\\sqrt3+2\\sqrt{13}$ $2(6\\sqrt{13}+2\\sqrt3)$ $6\\sqrt{13}+2\\sqrt3$ 计算得 $|\\vec a|^2=108$、$|\\vec b|^2=52$，周长为 $2(|\\vec a|+|\\vec b|)=2(6\\sqrt3+2\\sqrt{13})$。",
+  "sort_order": 25
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "利用幂级数展开式求 $\\sin11^\\circ$（误差不超过 $10^{-5}$）的近似值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0.19081"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0.19578"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0.19643"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0.19243"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "用 $\\sin t\\approx t-t^3/6$，取 $t=11\\pi/180$，得约0.19081。",
+  "search_text": "利用幂级数展开式求 $\\sin11^\\circ$（误差不超过 $10^{-5}$）的近似值。 0.19081 0.19578 0.19643 0.19243 用 $\\sin t\\approx t-t^3/6$，取 $t=11\\pi/180$，得约0.19081。",
+  "sort_order": 8
+}

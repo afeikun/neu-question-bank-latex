@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$N(m,1)$样本，$\\hat m_1=2X_1/3+X_2/3,\\hat m_2=X_1/4+3X_2/4,\\hat m_3=(X_1+X_2)/2$，错误的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "三者都是$m$的一致估计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "三者都是$m$的无偏估计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\hat m_3$比$\\hat m_1,\\hat m_2$有效"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\hat m_3$比$(\\hat m_1+\\hat m_2)/2$有效"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "固定样本量下不能称这些估计量为一致估计量；选项1不成立。",
+  "search_text": "$N(m,1)$样本，$\\hat m_1=2X_1/3+X_2/3,\\hat m_2=X_1/4+3X_2/4,\\hat m_3=(X_1+X_2)/2$，错误的是（）。 三者都是$m$的一致估计量 三者都是$m$的无偏估计量 $\\hat m_3$比$\\hat m_1,\\hat m_2$有效 $\\hat m_3$比$(\\hat m_1+\\hat m_2)/2$有效 固定样本量下不能称这些估计量为一致估计量；选项1不成立。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=2kx^3-3kx^2-12kx$ 在 $[-1,2]$ 上单调增加，则 $k$ 的取值范围为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\infty,+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k<0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k>0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k<1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime=6k(x-2)(x+1)$。在 $[-1,2]$ 内 $(x-2)(x+1)\\le0$，要使函数单调增加需 $k<0$。",
+  "search_text": "函数 $y=2kx^3-3kx^2-12kx$ 在 $[-1,2]$ 上单调增加，则 $k$ 的取值范围为（ ）。 $(-\\infty,+\\infty)$ $k<0$ $k>0$ $k<1$ $y\\prime=6k(x-2)(x+1)$。在 $[-1,2]$ 内 $(x-2)(x+1)\\le0$，要使函数单调增加需 $k<0$。",
+  "sort_order": 17
+}

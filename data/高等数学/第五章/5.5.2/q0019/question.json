@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将函数 $\\cos x$，在 $x_0=\\frac\\pi3$ 处展开成幂级数[　]。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}-\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12\\sum_{n=0}^{\\infty}\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}-\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}+\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}-\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\cos x=\\cos(x-\\frac\\pi3+\\frac\\pi3)=\\frac12\\cos(x-\\frac\\pi3)-\\frac{\\sqrt3}{2}\\sin(x-\\frac\\pi3)$\n$=\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}-\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$。",
+  "search_text": "将函数 $\\cos x$，在 $x_0=\\frac\\pi3$ 处展开成幂级数[　]。 $\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}-\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$ $\\frac12\\sum_{n=0}^{\\infty}\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}-\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$； $\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}+\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$； $\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}-\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$； $\\cos x=\\cos(x-\\frac\\pi3+\\frac\\pi3)=\\frac12\\cos(x-\\frac\\pi3)-\\frac{\\sqrt3}{2}\\sin(x-\\frac\\pi3)$\n$=\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n}}{(2n)!}-\\frac{\\sqrt3}{2}\\sum_{n=0}^{\\infty}(-1)^n\\frac{(x-\\frac\\pi3)^{2n+1}}{(2n+1)!},\\ x\\in(-\\infty,\\infty)$。",
+  "sort_order": 19
+}

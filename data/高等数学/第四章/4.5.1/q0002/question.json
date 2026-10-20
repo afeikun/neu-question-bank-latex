@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列广义积分中收敛的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀¹dx/x^{1.2}"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₁²dx/[x(ln x)²]"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₁^∞dx/[x√(1+x)]"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀^∞dx/√(1+x)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "只有第三个在无穷远处按x⁻³/²衰减并收敛。",
+  "search_text": "下列广义积分中收敛的是 ∫₀¹dx/x^{1.2} ∫₁²dx/[x(ln x)²] ∫₁^∞dx/[x√(1+x)] ∫₀^∞dx/√(1+x) 只有第三个在无穷远处按x⁻³/²衰减并收敛。",
+  "sort_order": 2
+}

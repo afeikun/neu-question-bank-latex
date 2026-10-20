@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "电池寿命方差由5000变为是否有显著变化，应提出假设（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$H_0:\\sigma^2=5000,H_1:\\sigma^2\\ne5000$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\sigma^2=9200,H_1:\\sigma^2\\ne9200$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$H_0:\\sigma^2>5000,H_1:\\sigma^2\\le5000$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$H_0:\\sigma^2<5000,H_1:\\sigma^2\\ge5000$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "检验方差是否变化采用双侧假设，以原方差5000为原假设。",
+  "search_text": "电池寿命方差由5000变为是否有显著变化，应提出假设（）。 $H_0:\\sigma^2=5000,H_1:\\sigma^2\\ne5000$ $H_0:\\sigma^2=9200,H_1:\\sigma^2\\ne9200$ $H_0:\\sigma^2>5000,H_1:\\sigma^2\\le5000$ $H_0:\\sigma^2<5000,H_1:\\sigma^2\\ge5000$ 检验方差是否变化采用双侧假设，以原方差5000为原假设。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设分段光滑曲线 $L:x=\\varphi(t),y=\\psi(t)$，$\\alpha\\le t\\le\\beta$，第二类曲线积分计算公式为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_\\alpha^\\beta[P(\\varphi,\\psi)+Q(\\varphi,\\psi)]\\psi\\prime(t)dt$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_\\alpha^\\beta[P(\\varphi,\\psi)+Q(\\varphi,\\psi)]\\varphi\\prime(t)dt$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_\\alpha^\\beta[P(\\varphi,\\psi)+Q(\\varphi,\\psi)]dt$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_\\alpha^\\beta[P(\\varphi,\\psi)\\varphi\\prime(t)+Q(\\varphi,\\psi)\\psi\\prime(t)]dt$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解：因为积分曲线的路径由参数方程\n\n$$\nL:\\left\\{\\begin{aligned}x&=\\varphi(t)\\\\y&=\\psi(t)\\end{aligned}\\right.，\\quad(\\alpha\\leq t\\leq\\beta)\n$$\n\n给出，把参数方程代入曲线积分中，得：\n\n$$\n\\int_\\alpha^\\beta\\left[P(\\varphi(t),\\psi(t))\\varphi'(t)+Q(\\varphi(t),\\psi(t))\\psi'(t)\\right]\\,\\mathrm{d}t\n$$",
+  "search_text": "设分段光滑曲线 $L:x=\\varphi(t),y=\\psi(t)$，$\\alpha\\le t\\le\\beta$，第二类曲线积分计算公式为（ ） $\\int_\\alpha^\\beta[P(\\varphi,\\psi)+Q(\\varphi,\\psi)]\\psi\\prime(t)dt$ $\\int_\\alpha^\\beta[P(\\varphi,\\psi)+Q(\\varphi,\\psi)]\\varphi\\prime(t)dt$ $\\int_\\alpha^\\beta[P(\\varphi,\\psi)+Q(\\varphi,\\psi)]dt$ $\\int_\\alpha^\\beta[P(\\varphi,\\psi)\\varphi\\prime(t)+Q(\\varphi,\\psi)\\psi\\prime(t)]dt$ 解：因为积分曲线的路径由参数方程\n\n$$\nL:\\left\\{\\begin{aligned}x&=\\varphi(t)\\\\y&=\\psi(t)\\end{aligned}\\right.，\\quad(\\alpha\\leq t\\leq\\beta)\n$$\n\n给出，把参数方程代入曲线积分中，得：\n\n$$\n\\int_\\alpha^\\beta\\left[P(\\varphi(t),\\psi(t))\\varphi'(t)+Q(\\varphi(t),\\psi(t))\\psi'(t)\\right]\\,\\mathrm{d}t\n$$",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi_1,\\ldots,\\xi_n$独立同服从$B(1,p)$，求$E(\\xi_k\\sum_{i=1}^n\\xi_i)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p[1+(n-1)p]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(n-1)p^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$np^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$p+np^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\xi_k^2)=p$，其余$n-1$项各贡献$p^2$，合计$p+(n-1)p^2$。",
+  "search_text": "$\\xi_1,\\ldots,\\xi_n$独立同服从$B(1,p)$，求$E(\\xi_k\\sum_{i=1}^n\\xi_i)$。 $p[1+(n-1)p]$ $(n-1)p^2$ $np^2$ $p+np^2$ $E(\\xi_k^2)=p$，其余$n-1$项各贡献$p^2$，合计$p+(n-1)p^2$。",
+  "sort_order": 16
+}

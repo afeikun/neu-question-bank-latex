@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算二重积分 $\\iint_D|y-2x|\\,dxdy$，其中 $D:0\\leq x\\leq1,0\\leq y\\leq2$。（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac43$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 计算原式 $=\\int_0^1dx\\int_0^{2x}(2x-y)\\,dy+\\int_0^1dx\\int_{2x}^2(y-2x)\\,dy=\\int_0^1(4x^2-4x+2)\\,dx=\\frac{4}{3}$",
+  "search_text": "计算二重积分 $\\iint_D|y-2x|\\,dxdy$，其中 $D:0\\leq x\\leq1,0\\leq y\\leq2$。（ ） $1$ $\\frac12$ $\\frac23$ $\\frac43$ 解答 计算原式 $=\\int_0^1dx\\int_0^{2x}(2x-y)\\,dy+\\int_0^1dx\\int_{2x}^2(y-2x)\\,dy=\\int_0^1(4x^2-4x+2)\\,dx=\\frac{4}{3}$",
+  "sort_order": 29
+}

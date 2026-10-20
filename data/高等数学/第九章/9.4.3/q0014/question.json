@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 为柱面 $x^2+z^2=R^2$ 在 $x\\ge0,z\\ge0$ 两卦限内被平面 $y=-H$ 及 $y=H$ 所截下部分曲面的外侧，$R,H$ 均为正数，则计算 $\\iint_\\Sigma xy^2z\\,dxdz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2R^3H^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac45R^3H^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac25R^3H^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac29R^3H^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在 $xoy$ 面上的投影区域为 $D:0\\le x\\le R,0\\le y\\le H$，由对称性可知，\n$$\\iint_\\Sigma xy^2zdxdz=2\\iint_Dxy^2\\sqrt{R^2-x^2}dxdy=2\\int_0^Rx\\sqrt{R^2-x^2}dx\\int_0^Hy^2dy=2\\cdot\\frac{R^3}{3}\\cdot\\frac{H^3}{3}=\\frac{2}{9}R^3H^3。$$",
+  "search_text": "已知 $\\Sigma$ 为柱面 $x^2+z^2=R^2$ 在 $x\\ge0,z\\ge0$ 两卦限内被平面 $y=-H$ 及 $y=H$ 所截下部分曲面的外侧，$R,H$ 均为正数，则计算 $\\iint_\\Sigma xy^2z\\,dxdz=$（ ） $2R^3H^3$ $\\frac45R^3H^3$ $\\frac25R^3H^3$ $\\frac29R^3H^3$ 解答 $\\Sigma$ 在 $xoy$ 面上的投影区域为 $D:0\\le x\\le R,0\\le y\\le H$，由对称性可知，\n$$\\iint_\\Sigma xy^2zdxdz=2\\iint_Dxy^2\\sqrt{R^2-x^2}dxdy=2\\int_0^Rx\\sqrt{R^2-x^2}dx\\int_0^Hy^2dy=2\\cdot\\frac{R^3}{3}\\cdot\\frac{H^3}{3}=\\frac{2}{9}R^3H^3。$$",
+  "sort_order": 14
+}

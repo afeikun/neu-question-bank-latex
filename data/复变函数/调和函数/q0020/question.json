@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $v=\\dfrac{y}{x^2+y^2}$ 为解析函数 $f(z)$ 的虚部且 $f(2)=0$，则 $f(z)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12-\\frac1z$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1z-\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12+\\frac1z$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1z+\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime(z)=v_y+iv_x=\\dfrac1{z^2}$，故 $f(z)=-\\dfrac1z+C$。由 $f(2)=0$ 得 $C=\\frac12$。",
+  "search_text": "设 $v=\\dfrac{y}{x^2+y^2}$ 为解析函数 $f(z)$ 的虚部且 $f(2)=0$，则 $f(z)=(\\quad)$。 $\\frac12-\\frac1z$ $\\frac1z-\\frac12$ $\\frac12+\\frac1z$ $\\frac1z+\\frac12$ $f\\prime(z)=v_y+iv_x=\\dfrac1{z^2}$，故 $f(z)=-\\dfrac1z+C$。由 $f(2)=0$ 得 $C=\\frac12$。",
+  "sort_order": 20
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "有一质量为 $m$ 的物体，在空气中由静止开始下落，如果空气阻力为 $R=Cv^2,C$ 为常数，$v$ 为速度，则物体下落的距离 $s$ 与时间 $t$ 的函数关系是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$s=\\frac{mg}{C}(t-\\frac{m}{C}e^{-Ct/m}+\\frac{m}{C})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$s=\\frac{mg}{C}(t+\\frac{m}{C}e^{Ct/m}-\\frac{m}{C})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$s=\\frac{mg}{C}(t-\\frac{m}{C}e^{-Ct/m}-\\frac{m}{C})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$s=\\frac{mg}{C}(t+\\frac{m}{C}e^{-Ct/m}+\\frac{m}{C})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 由牛顿第二定律得 $m\\frac{d^2s}{dt^2}=mg-C\\frac{ds}{dt}$，令 $\\frac{ds}{dt}=p$，$\\frac{d^2s}{dt^2}=p'$，原方程化为\n\n$$m\\frac{dp}{dt}=mg-pC,$$ 即 $\\frac{dp}{g-\\frac{Cp}{m}}=dt$，积分得 $\\frac{m}{C}\\ln\\left|g-\\frac{Cp}{m}\\right|=-t+C_3$，即 $g-\\frac{Cp}{m}=C_2e^{\\frac{Ct}{m}}$，由 $s'(0)=0$，得 $C_2=g$。故 $p=s'=\\frac{mg}{C}\\left(1-e^{-\\frac{Ct}{m}}\\right)$，两边同时积分得\n\n$$s=\\frac{mg}{C}\\left(t+\\frac{m}{C}e^{-\\frac{Ct}{m}}\\right)+C_1,$$ 由 $s(0)=0$，得 $C_1=-\\frac{m^2g}{C^2}$，\n\n故 $s=\\frac{mg}{C}\\left(t+\\frac{m}{C}e^{-\\frac{Ct}{m}}-\\frac{m}{C}\\right)$。",
+  "search_text": "有一质量为 $m$ 的物体，在空气中由静止开始下落，如果空气阻力为 $R=Cv^2,C$ 为常数，$v$ 为速度，则物体下落的距离 $s$ 与时间 $t$ 的函数关系是（ ） $s=\\frac{mg}{C}(t-\\frac{m}{C}e^{-Ct/m}+\\frac{m}{C})$ $s=\\frac{mg}{C}(t+\\frac{m}{C}e^{Ct/m}-\\frac{m}{C})$ $s=\\frac{mg}{C}(t-\\frac{m}{C}e^{-Ct/m}-\\frac{m}{C})$ $s=\\frac{mg}{C}(t+\\frac{m}{C}e^{-Ct/m}+\\frac{m}{C})$ 解答 由牛顿第二定律得 $m\\frac{d^2s}{dt^2}=mg-C\\frac{ds}{dt}$，令 $\\frac{ds}{dt}=p$，$\\frac{d^2s}{dt^2}=p'$，原方程化为\n\n$$m\\frac{dp}{dt}=mg-pC,$$ 即 $\\frac{dp}{g-\\frac{Cp}{m}}=dt$，积分得 $\\frac{m}{C}\\ln\\left|g-\\frac{Cp}{m}\\right|=-t+C_3$，即 $g-\\frac{Cp}{m}=C_2e^{\\frac{Ct}{m}}$，由 $s'(0)=0$，得 $C_2=g$。故 $p=s'=\\frac{mg}{C}\\left(1-e^{-\\frac{Ct}{m}}\\right)$，两边同时积分得\n\n$$s=\\frac{mg}{C}\\left(t+\\frac{m}{C}e^{-\\frac{Ct}{m}}\\right)+C_1,$$ 由 $s(0)=0$，得 $C_1=-\\frac{m^2g}{C^2}$，\n\n故 $s=\\frac{mg}{C}\\left(t+\\frac{m}{C}e^{-\\frac{Ct}{m}}-\\frac{m}{C}\\right)$。",
+  "sort_order": 13
+}

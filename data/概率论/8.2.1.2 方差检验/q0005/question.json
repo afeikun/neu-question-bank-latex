@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体已知均值，检验$H_0:\\sigma^2=\\sigma_0^2,H_1:\\sigma^2\\ne\\sigma_0^2$，拒绝域（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,\\chi^2_{1-\\alpha/2}(n))\\cup(\\chi^2_{\\alpha/2}(n),+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,\\chi^2_{1-\\alpha}(n))$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\chi^2_\\alpha(n),+\\infty)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,\\chi^2_{1-\\alpha}(n))\\cup(\\chi^2_\\alpha(n),+\\infty)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧卡方检验在分布两端各分配$\\alpha/2$。",
+  "search_text": "正态总体已知均值，检验$H_0:\\sigma^2=\\sigma_0^2,H_1:\\sigma^2\\ne\\sigma_0^2$，拒绝域（）。 $(0,\\chi^2_{1-\\alpha/2}(n))\\cup(\\chi^2_{\\alpha/2}(n),+\\infty)$ $(0,\\chi^2_{1-\\alpha}(n))$ $(\\chi^2_\\alpha(n),+\\infty)$ $(0,\\chi^2_{1-\\alpha}(n))\\cup(\\chi^2_\\alpha(n),+\\infty)$ 双侧卡方检验在分布两端各分配$\\alpha/2$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $xy\\prime\\prime-y\\prime-x^2e^x=0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1x^3+(x-1)e^x+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1x^3+(x+1)e^x+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1x^2+(x-1)e^{2x}+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1x^2+(x-1)e^x+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $y'=p(x)$，则 $y''=\\frac{dp}{dx}$，原方程化为 $x\\frac{dp}{dx}-p-x^2e^x=0$，这是一阶线性微分方程，由通解公式得\n\n$$y'=p(x)=x(C+e^x),$$ 故原方程的通解为 $y=C_1x^2+(x-1)e^x+C_2$。",
+  "search_text": "方程 $xy\\prime\\prime-y\\prime-x^2e^x=0$ 的通解是（ ） $y=C_1x^3+(x-1)e^x+C_2$ $y=C_1x^3+(x+1)e^x+C_2$ $y=C_1x^2+(x-1)e^{2x}+C_2$ $y=C_1x^2+(x-1)e^x+C_2$ 令 $y'=p(x)$，则 $y''=\\frac{dp}{dx}$，原方程化为 $x\\frac{dp}{dx}-p-x^2e^x=0$，这是一阶线性微分方程，由通解公式得\n\n$$y'=p(x)=x(C+e^x),$$ 故原方程的通解为 $y=C_1x^2+(x-1)e^x+C_2$。",
+  "sort_order": 26
+}

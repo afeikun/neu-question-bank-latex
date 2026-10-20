@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\to0$ 时，下列无穷小量中，最高阶的无穷小是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{1-x^2}-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\tan x-\\sin x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln(x+\\sqrt{1+x^2})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^x+e^{-x}-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "各项分别为二阶、三阶、一阶、二阶无穷小，因此最高阶为 $\\tan x-\\sin x$。",
+  "search_text": "当 $x o0$ 时，下列无穷小量中，最高阶的无穷小是（ ）。 $\\sqrt{1-x^2}-1$ $\\tan x-\\sin x$ $\\ln(x+\\sqrt{1+x^2})$ $e^x+e^{-x}-2$ 各项分别为二阶、三阶、一阶、二阶无穷小，因此最高阶为 $\\tan x-\\sin x$。",
+  "sort_order": 25
+}

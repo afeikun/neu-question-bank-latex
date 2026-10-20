@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₀¹x√(3x+1)dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "58/135"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "29/135"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "127/135"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "116/135"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令t=√(3x+1)换元，结果为116/135。",
+  "search_text": "计算∫₀¹x√(3x+1)dx 58/135 29/135 127/135 116/135 令t=√(3x+1)换元，结果为116/135。",
+  "sort_order": 1
+}

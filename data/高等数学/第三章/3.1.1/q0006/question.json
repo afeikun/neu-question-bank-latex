@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不求导数，判断 $f(x)=(x-1)(x-2)(x-3)$ 的导数有 $(\\quad)$ 零点。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无法判断"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(1)=f(2)=f(3)=0$。由罗尔定理，$f'$ 在 $(1,2)$ 与 $(2,3)$ 各有一根；$f'$ 是二次多项式，故恰有两个零点。",
+  "search_text": "不求导数，判断 $f(x)=(x-1)(x-2)(x-3)$ 的导数有 $(\\quad)$ 零点。 2 个 无法判断 3 个 1 个 $f(1)=f(2)=f(3)=0$。由罗尔定理，$f'$ 在 $(1,2)$ 与 $(2,3)$ 各有一根；$f'$ 是二次多项式，故恰有两个零点。",
+  "sort_order": 6
+}

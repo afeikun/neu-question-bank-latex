@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=(xy-x^2)\\mathbf i+(yz-y^2)\\mathbf j+(zx-z^2)\\mathbf k$，则 $\\operatorname{div}A=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+y+2z$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+2y-z$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2x-y-z$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-x-y-z$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$$\\frac{\\partial A_x}{\\partial x}=y-2x,\\frac{\\partial A_y}{\\partial y}=z-2y,\\frac{\\partial A_z}{\\partial z}=x-2z$$\n\n$$divA=-(x+y+z)$$",
+  "search_text": "设 $A=(xy-x^2)\\mathbf i+(yz-y^2)\\mathbf j+(zx-z^2)\\mathbf k$，则 $\\operatorname{div}A=$（ ） $x+y+2z$ $x+2y-z$ $2x-y-z$ $-x-y-z$ 参考答案：\n\n$$\\frac{\\partial A_x}{\\partial x}=y-2x,\\frac{\\partial A_y}{\\partial y}=z-2y,\\frac{\\partial A_z}{\\partial z}=x-2z$$\n\n$$divA=-(x+y+z)$$",
+  "sort_order": 5
+}

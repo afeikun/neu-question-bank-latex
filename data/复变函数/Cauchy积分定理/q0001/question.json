@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C:|z|=1$，方向为正向，则 $\\oint_C\\dfrac{e^{az}}{1+e^z}\\,dz=(\\quad)$，$a$ 为任意实数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\cos a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆内解析，积分直接得零。",
+  "search_text": "设 $C:|z|=1$，方向为正向，则 $\\oint_C\\dfrac{e^{az}}{1+e^z}\\,dz=(\\quad)$，$a$ 为任意实数。 $0$ $2\\cos a$ $e$ $1$ 被积函数在圆内解析，积分直接得零。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量 $a=(1,-2), b=(-3,4), c=(3,2)$，则内积 $[a+2b,c]=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-11$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-15,12)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$[a+2b,c]=[a,c]+2[b,c]=1\\cdot3-2\\cdot2+2((-3)\\cdot3+4\\cdot2)=-3$，选项 3。",
+  "search_text": "设向量 $a=(1,-2), b=(-3,4), c=(3,2)$，则内积 $[a+2b,c]=(\\quad)$。 $0$ $-11$ $-3$ $(-15,12)$ $[a+2b,c]=[a,c]+2[b,c]=1\\cdot3-2\\cdot2+2((-3)\\cdot3+4\\cdot2)=-3$，选项 3。",
+  "sort_order": 4
+}

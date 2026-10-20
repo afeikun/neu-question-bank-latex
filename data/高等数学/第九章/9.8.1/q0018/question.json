@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Gamma$ 为圆周 $\\{y^2+z^2=R^2,x=0\\}$，且对着 $x$ 轴正向看 $\\Gamma$ 方向为逆时针，$R>0$，则 $\\oint_\\Gamma(e^x+x^2y^2z^2)dx+(e^y-y^2z)dy+(e^z+yz^2)dz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3R^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi6R^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi4R^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi2R^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "取圆盘 $\\Sigma:x=0,y^2+z^2\\le R^2$，法线沿 $Ox$ 轴正向。由斯托克斯公式，原积分 $=\\iint_\\Sigma(y^2+z^2)dy\\,dz$，其余投影项为零。令 $y=r\\cos\\theta,z=r\\sin\\theta$，得 $\\int_0^{2\\pi}\\int_0^Rr^3dr\\,d\\theta=\\pi R^4/2$，选第四项。",
+  "search_text": "已知 $\\Gamma$ 为圆周 $\\{y^2+z^2=R^2,x=0\\}$，且对着 $x$ 轴正向看 $\\Gamma$ 方向为逆时针，$R>0$，则 $\\oint_\\Gamma(e^x+x^2y^2z^2)dx+(e^y-y^2z)dy+(e^z+yz^2)dz=$（ ） $\\frac\\pi3R^4$ $\\frac\\pi6R^4$ $\\frac\\pi4R^4$ $\\frac\\pi2R^4$ 取圆盘 $\\Sigma:x=0,y^2+z^2\\le R^2$，法线沿 $Ox$ 轴正向。由斯托克斯公式，原积分 $=\\iint_\\Sigma(y^2+z^2)dy\\,dz$，其余投影项为零。令 $y=r\\cos\\theta,z=r\\sin\\theta$，得 $\\int_0^{2\\pi}\\int_0^Rr^3dr\\,d\\theta=\\pi R^4/2$，选第四项。",
+  "sort_order": 18
+}

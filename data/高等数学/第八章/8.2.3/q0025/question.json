@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由 $x^2+y^2=16,y+z=4,z=4$ 围成的区域，则 $\\iiint_\\Omega\\sqrt{x^2+y^2}\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{128}{3}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1024}{3}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{512}{3}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{512}{3}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "利用柱面坐标变换，\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^4r^2\\,dr\\int_0^{4-r\\sin\\theta}dz=\\int_0^{2\\pi}d\\theta\\int_0^4(4r^2-r^3)\\,dr$\n\n$=\\int_0^{2\\pi}(\\frac{256}{3}-64\\sin\\theta)\\,d\\theta=\\frac{512}{3}\\pi$。",
+  "search_text": "$\\Omega$ 是由 $x^2+y^2=16,y+z=4,z=4$ 围成的区域，则 $\\iiint_\\Omega\\sqrt{x^2+y^2}\\,dv$ 的值为（ ） $\\frac{128}{3}\\pi$ $\\frac{1024}{3}\\pi$ $\\frac{512}{3}\\pi$ $\\frac{512}{3}\\pi$ 利用柱面坐标变换，\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^4r^2\\,dr\\int_0^{4-r\\sin\\theta}dz=\\int_0^{2\\pi}d\\theta\\int_0^4(4r^2-r^3)\\,dr$\n\n$=\\int_0^{2\\pi}(\\frac{256}{3}-64\\sin\\theta)\\,d\\theta=\\frac{512}{3}\\pi$。",
+  "sort_order": 25
+}

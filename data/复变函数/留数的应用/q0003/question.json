@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac{d\\theta}{5+3\\cos\\theta}=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{3\\pi}2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=e^{i\\theta}$，可写成 $I=\\dfrac2i\\oint_{|z|=1}\\dfrac1{(3z+1)(z+3)}\\,dz$。圆内极点 $z=-1/3$ 的留数给出 $I=\\dfrac\\pi2$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac{d\\theta}{5+3\\cos\\theta}=(\\ \\ )$。 $\\dfrac\\pi2$ $\\pi$ $2\\pi$ $\\dfrac{3\\pi}2$ 令 $z=e^{i\\theta}$，可写成 $I=\\dfrac2i\\oint_{|z|=1}\\dfrac1{(3z+1)(z+3)}\\,dz$。圆内极点 $z=-1/3$ 的留数给出 $I=\\dfrac\\pi2$。",
+  "sort_order": 3
+}

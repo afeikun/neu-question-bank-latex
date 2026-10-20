@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}(2^n+3^n+4^n+5^n)^{1/n}=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "提取主导项 $5^n$ 后可得极限为 $5$。",
+  "search_text": "$\\lim_{n\\to\\infty}(2^n+3^n+4^n+5^n)^{1/n}=$（ ）。 $4$ $3$ $2$ $5$ 提取主导项 $5^n$ 后可得极限为 $5$。",
+  "sort_order": 6
+}

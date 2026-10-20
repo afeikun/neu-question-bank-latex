@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $0<a<b$，函数 $f(x)$ 在 $[a,b]$ 上连续、在 $(a,b)$ 上可导。那么结论：存在 $\\xi\\in(a,b)$，使得 $f(b)-f(a)=\\left[\\xi f'(\\xi)\\right]\\ln\\frac ba$ 成立，可由选项 $(\\quad)$ 得出。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$xf(x)$ 在 $[a,b]$ 上使用拉格朗日中值定理；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$xf(x)$ 与 $\\ln x$ 在 $[a,b]$ 上使用柯西中值定理；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)$ 与 $\\ln x$ 在 $[a,b]$ 上使用柯西中值定理；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)$ 在 $[a,b]$ 上使用拉格朗日中值定理；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对 $f(x)$ 与 $\\ln x$ 应用柯西中值定理，可得 $\\frac{f(b)-f(a)}{\\ln b-ln a}=\\frac{f'(\\xi)}{1/\\xi}=\\xi f'(\\xi)$。",
+  "search_text": "设 $0<a<b$，函数 $f(x)$ 在 $[a,b]$ 上连续、在 $(a,b)$ 上可导。那么结论：存在 $\\xi\\in(a,b)$，使得 $f(b)-f(a)=\\left[\\xi f'(\\xi)\\right]\\ln\\frac ba$ 成立，可由选项 $(\\quad)$ 得出。 $xf(x)$ 在 $[a,b]$ 上使用拉格朗日中值定理； $xf(x)$ 与 $\\ln x$ 在 $[a,b]$ 上使用柯西中值定理； $f(x)$ 与 $\\ln x$ 在 $[a,b]$ 上使用柯西中值定理； $f(x)$ 在 $[a,b]$ 上使用拉格朗日中值定理； 对 $f(x)$ 与 $\\ln x$ 应用柯西中值定理，可得 $\\frac{f(b)-f(a)}{\\ln b-ln a}=\\frac{f'(\\xi)}{1/\\xi}=\\xi f'(\\xi)$。",
+  "sort_order": 9
+}

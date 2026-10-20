@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\begin{cases}\\dfrac{x^3y}{x^2+y^2},&z\\ne0,\\\\1,&z=0,\\end{cases}$，则在 $z=0$ 处（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(z)$ 不连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(z)$ 连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(z)$ 可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)$ 解析"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $|f(z)|=\\dfrac{x^2|xy|}{x^2+y^2}\\le\\dfrac{x^2}{2}$，所以当 $z\\to0$ 时，$f(z)\\to0$，而 $f(0)=1$，故 $f(z)$ 在 $z=0$ 处不连续。",
+  "search_text": "设 $f(z)=\\begin{cases}\\dfrac{x^3y}{x^2+y^2},&z\\ne0,\\\\1,&z=0,\\end{cases}$，则在 $z=0$ 处（ ）。 $f(z)$ 不连续 $f(z)$ 连续 $f(z)$ 可导 $f(x)$ 解析 由于 $|f(z)|=\\dfrac{x^2|xy|}{x^2+y^2}\\le\\dfrac{x^2}{2}$，所以当 $z\\to0$ 时，$f(z)\\to0$，而 $f(0)=1$，故 $f(z)$ 在 $z=0$ 处不连续。",
+  "sort_order": 2
+}

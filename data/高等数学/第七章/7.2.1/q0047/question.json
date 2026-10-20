@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=\\frac{x}{\\sqrt{x^2+y^2}}$，则 $u_x^2+u_y^2=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x^2}{(x^2+y^2)^{3/2}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1+y^2}{(x^2+y^2)^3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x+y}{x^2+y^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{y^2}{(x^2+y^2)^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$u_x=\\frac{\\sqrt{x^2+y^2}-x\\cdot2x\\cdot\\frac12(x^2+y^2)^{-\\frac12}}{x^2+y^2}=\\frac{y^2}{(x^2+y^2)^{\\frac32}}$，$u_y=\\frac{-xy}{(x^2+y^2)^{\\frac32}}$，则 $u_x^2+u_y^2=\\frac{y^4}{(x^2+y^2)^3}+\\frac{x^2y^2}{(x^2+y^2)^3}=\\frac{y^2}{(x^2+y^2)^2}$",
+  "search_text": "设 $u=\\frac{x}{\\sqrt{x^2+y^2}}$，则 $u_x^2+u_y^2=(\\quad)$。 $\\frac{x^2}{(x^2+y^2)^{3/2}}$ $\\frac{1+y^2}{(x^2+y^2)^3}$ $\\frac{x+y}{x^2+y^2}$ $\\frac{y^2}{(x^2+y^2)^2}$ $u_x=\\frac{\\sqrt{x^2+y^2}-x\\cdot2x\\cdot\\frac12(x^2+y^2)^{-\\frac12}}{x^2+y^2}=\\frac{y^2}{(x^2+y^2)^{\\frac32}}$，$u_y=\\frac{-xy}{(x^2+y^2)^{\\frac32}}$，则 $u_x^2+u_y^2=\\frac{y^4}{(x^2+y^2)^3}+\\frac{x^2y^2}{(x^2+y^2)^3}=\\frac{y^2}{(x^2+y^2)^2}$",
+  "sort_order": 47
+}

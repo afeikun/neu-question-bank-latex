@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 阶方阵 $A$ 的秩 $r<n$，则在 $A$ 的 $n$ 个行向量中，（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "任一行向量均可由其它 $r$ 个行向量线性表示"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "任意 $r$ 个行向量均可构成极大无关组"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "任意 $r$ 个行向量均线性无关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "必有 $r$ 个行向量线性无关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "矩阵秩为 $r$ 表示行向量组中必存在 $r$ 个线性无关的向量；不保证任意选取的 $r$ 行均线性无关。原答案标记为 opt3，但正确结论应为“必有 $r$ 个行向量线性无关”（opt4）；保留源答案并记为 SOURCE_SUSPECTED_ERROR。",
+  "search_text": "设 $n$ 阶方阵 $A$ 的秩 $r<n$，则在 $A$ 的 $n$ 个行向量中，（ ）。 任一行向量均可由其它 $r$ 个行向量线性表示 任意 $r$ 个行向量均可构成极大无关组 任意 $r$ 个行向量均线性无关 必有 $r$ 个行向量线性无关 矩阵秩为 $r$ 表示行向量组中必存在 $r$ 个线性无关的向量；不保证任意选取的 $r$ 行均线性无关。原答案标记为 opt3，但正确结论应为“必有 $r$ 个行向量线性无关”（opt4）；保留源答案并记为 SOURCE_SUSPECTED_ERROR。",
+  "sort_order": 22
+}

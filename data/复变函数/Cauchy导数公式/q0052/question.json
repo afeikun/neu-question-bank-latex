@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)$ 在区域 $D$ 内解析，$C$ 为 $D$ 内绕 $z_0$ 的任一简单正向闭曲线，且其内部全含于 $D$，则 $\\frac{1}{2\\pi i}\\oint_C\\frac{f\\prime(z)+f\\prime\\prime(z)}{(z-z_0)^3}\\,dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "content_md": "$\\frac12[f^{(3)}(z_0)+f^{(4)}(z_0)]$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "$\\frac12f^{(4)}(z_0)$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$f^{(3)}(z_0)$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$f^{(3)}(z_0)+\\frac12f^{(4)}(z_0)$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分别对 $f\\prime$ 与 $f\\prime\\prime$ 使用二阶Cauchy导数公式，结果为 $\\frac12[f^{(3)}(z_0)+f^{(4)}(z_0)]$。",
+  "search_text": "设 $f(z)$ 在区域 $D$ 内解析，$C$ 为 $D$ 内绕 $z_0$ 的任一简单正向闭曲线，且其内部全含于 $D$，则 $\\frac{1}{2\\pi i}\\oint_C\\frac{f\\prime(z)+f\\prime\\prime(z)}{(z-z_0)^3}\\,dz$ 等于（ ）。 $\\frac12[f^{(3)}(z_0)+f^{(4)}(z_0)]$ $\\frac12f^{(4)}(z_0)$ $f^{(3)}(z_0)$ $f^{(3)}(z_0)+\\frac12f^{(4)}(z_0)$ 分别对 $f\\prime$ 与 $f\\prime\\prime$ 使用二阶Cauchy导数公式，结果为 $\\frac12[f^{(3)}(z_0)+f^{(4)}(z_0)]$。",
+  "sort_order": 52
+}

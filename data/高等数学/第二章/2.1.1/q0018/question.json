@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha$ 是实数，欲使函数 $f(x)=\\begin{cases}\\frac1{(x-1)^\\alpha}\\cos\\frac1{x-1},&x\\ne1\\\\0,&x=1\\end{cases}$ 在 $x=1$ 处可导应有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha\\ge1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha<-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1\\le\\alpha<0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0\\le\\alpha<1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "可导要求差商 $(x-1)^{-\\alpha-1}\\cos(1/(x-1))\\to0$，故 $\\alpha<-1$。",
+  "search_text": "设 $\\alpha$ 是实数，欲使函数 $f(x)=\\begin{cases}\\frac1{(x-1)^\\alpha}\\cos\\frac1{x-1},&x\\ne1\\\\0,&x=1\\end{cases}$ 在 $x=1$ 处可导应有（ ）。 $\\alpha\\ge1$ $\\alpha<-1$ $-1\\le\\alpha<0$ $0\\le\\alpha<1$ 可导要求差商 $(x-1)^{-\\alpha-1}\\cos(1/(x-1))\\to0$，故 $\\alpha<-1$。",
+  "sort_order": 18
+}

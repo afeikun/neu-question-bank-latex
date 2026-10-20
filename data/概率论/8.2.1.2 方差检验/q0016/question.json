@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "电工样本$n=10,s=11$，检验$H_0:\\sigma\\ge0.04,H_1:\\sigma<0.04$，正确结论是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "接受$H_0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9S^2/0.04^2<\\chi^2_{0.05}(9)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$10S^2/0.04^2<\\chi^2_{0.05}(9)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "拒绝$H_0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "统计量约7.70，大于下尾临界值3.325，没有落入拒绝域。",
+  "search_text": "电工样本$n=10,s=11$，检验$H_0:\\sigma\\ge0.04,H_1:\\sigma<0.04$，正确结论是（）。 接受$H_0$ $9S^2/0.04^2<\\chi^2_{0.05}(9)$ $10S^2/0.04^2<\\chi^2_{0.05}(9)$ 拒绝$H_0$ 统计量约7.70，大于下尾临界值3.325，没有落入拒绝域。",
+  "sort_order": 16
+}

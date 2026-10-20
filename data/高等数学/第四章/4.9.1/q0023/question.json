@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "底面积为 $S$ 的圆柱形容器中有一定量气体，等温膨胀时把活塞从 $a$ 移动到 $b$，求气体压力作功。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k(b-a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k\\ln(b/a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k\\ln(b^2/a^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k\\ln(b-a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "等温时 $P=k/V$，活塞位移 $x$ 对应功元 $dW=(k/x)dx$，故 $W=k\\ln(b/a)$。",
+  "search_text": "底面积为 $S$ 的圆柱形容器中有一定量气体，等温膨胀时把活塞从 $a$ 移动到 $b$，求气体压力作功。 $k(b-a)$ $k\\ln(b/a)$ $k\\ln(b^2/a^2)$ $k\\ln(b-a)$ 等温时 $P=k/V$，活塞位移 $x$ 对应功元 $dW=(k/x)dx$，故 $W=k\\ln(b/a)$。",
+  "sort_order": 23
+}

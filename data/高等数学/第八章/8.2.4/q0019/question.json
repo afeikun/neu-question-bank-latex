@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega: \\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$，则 $\\iiint_\\Omega y^2dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{8\\sqrt2-10}{15}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{8\\sqrt2}{15}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{4\\sqrt2+10}{15}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{8\\sqrt2+10}{15}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\iiint_\\Omega y^2\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}(r\\sin\\varphi\\sin\\theta)^2\\cdot r^2\\sin\\varphi\\,dr$\n\n$=\\int_0^{2\\pi}\\sin^2\\theta\\,d\\theta\\cdot\\int_0^{\\frac{\\pi}{4}}\\sin^3\\varphi\\,d\\varphi\\cdot\\int_0^{\\sqrt{2}}r^4\\,dr=\\pi\\cdot\\frac{8-5\\sqrt{2}}{12}\\cdot\\frac{4\\sqrt{2}}{5}=\\frac{8\\sqrt{2}-10}{15}\\pi$。\n\n或者 $\\iiint_\\Omega y^2\\,dv=\\frac{1}{2}\\iiint_\\Omega(x^2+y^2)\\,dv$\n\n$=\\frac{1}{2}\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^4\\cdot\\sin^3\\varphi\\,dr=\\frac{4\\sqrt{2}}{5}\\pi\\int_0^{\\frac{\\pi}{4}}\\sin^3\\varphi\\,d\\varphi=\\frac{8\\sqrt{2}-10}{15}\\pi$。",
+  "search_text": "若 $\\Omega: \\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$，则 $\\iiint_\\Omega y^2dv=$（ ） $\\frac{8\\sqrt2-10}{15}\\pi$ $\\frac{8\\sqrt2}{15}\\pi$ $\\frac{4\\sqrt2+10}{15}\\pi$ $\\frac{8\\sqrt2+10}{15}\\pi$ $\\iiint_\\Omega y^2\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}(r\\sin\\varphi\\sin\\theta)^2\\cdot r^2\\sin\\varphi\\,dr$\n\n$=\\int_0^{2\\pi}\\sin^2\\theta\\,d\\theta\\cdot\\int_0^{\\frac{\\pi}{4}}\\sin^3\\varphi\\,d\\varphi\\cdot\\int_0^{\\sqrt{2}}r^4\\,dr=\\pi\\cdot\\frac{8-5\\sqrt{2}}{12}\\cdot\\frac{4\\sqrt{2}}{5}=\\frac{8\\sqrt{2}-10}{15}\\pi$。\n\n或者 $\\iiint_\\Omega y^2\\,dv=\\frac{1}{2}\\iiint_\\Omega(x^2+y^2)\\,dv$\n\n$=\\frac{1}{2}\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^4\\cdot\\sin^3\\varphi\\,dr=\\frac{4\\sqrt{2}}{5}\\pi\\int_0^{\\frac{\\pi}{4}}\\sin^3\\varphi\\,d\\varphi=\\frac{8\\sqrt{2}-10}{15}\\pi$。",
+  "sort_order": 19
+}

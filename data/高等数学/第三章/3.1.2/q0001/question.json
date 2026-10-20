@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "应用拉格朗日中值定理，在 $x>0$ 时，$\\sin\\sqrt{x+1}-\\sin\\sqrt{x}$ 可化为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\cos\\sqrt\\xi}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos\\sqrt\\xi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\cos\\sqrt\\xi}{2\\sqrt\\xi}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\cos\\sqrt\\xi}{\\sqrt\\xi}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对 $\\sin\\sqrt{x}$ 在 $[x,x+1]$ 应用拉格朗日中值定理，导数为 $\\frac{\\cos\\sqrt\\xi}{2\\sqrt\\xi}$。",
+  "search_text": "应用拉格朗日中值定理，在 $x>0$ 时，$\\sin\\sqrt{x+1}-\\sin\\sqrt{x}$ 可化为 $(\\quad)$。 $\\frac{\\cos\\sqrt\\xi}{2}$ $\\cos\\sqrt\\xi$ $\\frac{\\cos\\sqrt\\xi}{2\\sqrt\\xi}$ $\\frac{\\cos\\sqrt\\xi}{\\sqrt\\xi}$ 对 $\\sin\\sqrt{x}$ 在 $[x,x+1]$ 应用拉格朗日中值定理，导数为 $\\frac{\\cos\\sqrt\\xi}{2\\sqrt\\xi}$。",
+  "sort_order": 1
+}

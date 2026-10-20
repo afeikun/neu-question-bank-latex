@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal{L}^{-1}[\\frac{s^2+1}{s^2+2s+1}]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\delta(t)-2e^{-t}+2te^{-t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2(t-1)e^{-t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\delta(t)+2e^{-t}+2te^{-t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2(t+1)e^{-t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分解 $\\frac{s^2+1}{(s+1)^2}=1-\\frac{2s}{(s+1)^2}$，反变换为 $\\delta(t)-2e^{-t}+2te^{-t}$。",
+  "search_text": "$\\mathcal{L}^{-1}[\\frac{s^2+1}{s^2+2s+1}]=(\\quad).$ $\\delta(t)-2e^{-t}+2te^{-t}$ $2(t-1)e^{-t}$ $\\delta(t)+2e^{-t}+2te^{-t}$ $2(t+1)e^{-t}$ 分解 $\\frac{s^2+1}{(s+1)^2}=1-\\frac{2s}{(s+1)^2}$，反变换为 $\\delta(t)-2e^{-t}+2te^{-t}$。",
+  "sort_order": 1
+}

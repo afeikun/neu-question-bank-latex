@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两条异面直线 $l_1:\\begin{cases}x+y-1=0\\\\x-y+z+1=0\\end{cases}$ 与 $l_2:\\begin{cases}2x-y+z-1=0\\\\x+y-z+1=0\\end{cases}$ 间的距离为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt3}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2\\sqrt3}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：$\\vec{s}_1=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&1&0\\\\1&-1&1\\end{vmatrix}=(1,-1,-2)，\\vec{s}_2=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\2&-1&1\\\\1&1&-1\\end{vmatrix}=(0,3,3)=3(0,1,1)$。$l_1$ 与 $l_2$ 上分别取一点 $P(0,1,0)\\in l_1，Q(0,0,1)\\in l_2，\\overrightarrow{PQ}=(0,-1,1)$。$\\vec{s}_1\\times\\vec{s}_2=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&-1&-2\\\\0&1&1\\end{vmatrix}=(1,-1,1)，|\\vec{s}_1\\times\\vec{s}_2|=\\sqrt{3}$，\n\n$[\\vec{s}_1,\\vec{s}_2,\\overrightarrow{PQ}]=(\\vec{s}_1\\times\\vec{s}_2)\\cdot\\overrightarrow{PQ}=(1,-1,1)\\cdot(0,-1,1)=2$。\n\n由异面直线间距离公式 $d=\\frac{|[\\vec{s}_1,\\vec{s}_2,\\overrightarrow{PQ}]|}{|\\vec{s}_1\\times\\vec{s}_2|}=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}$。",
+  "search_text": "两条异面直线 $l_1:\\begin{cases}x+y-1=0\\\\x-y+z+1=0\\end{cases}$ 与 $l_2:\\begin{cases}2x-y+z-1=0\\\\x+y-z+1=0\\end{cases}$ 间的距离为(\\quad)。 $\\frac{\\sqrt3}{3}$ $\\frac{2\\sqrt3}{3}$ $\\sqrt3$ $\\sqrt2$ 解答：$\\vec{s}_1=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&1&0\\\\1&-1&1\\end{vmatrix}=(1,-1,-2)，\\vec{s}_2=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\2&-1&1\\\\1&1&-1\\end{vmatrix}=(0,3,3)=3(0,1,1)$。$l_1$ 与 $l_2$ 上分别取一点 $P(0,1,0)\\in l_1，Q(0,0,1)\\in l_2，\\overrightarrow{PQ}=(0,-1,1)$。$\\vec{s}_1\\times\\vec{s}_2=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&-1&-2\\\\0&1&1\\end{vmatrix}=(1,-1,1)，|\\vec{s}_1\\times\\vec{s}_2|=\\sqrt{3}$，\n\n$[\\vec{s}_1,\\vec{s}_2,\\overrightarrow{PQ}]=(\\vec{s}_1\\times\\vec{s}_2)\\cdot\\overrightarrow{PQ}=(1,-1,1)\\cdot(0,-1,1)=2$。\n\n由异面直线间距离公式 $d=\\frac{|[\\vec{s}_1,\\vec{s}_2,\\overrightarrow{PQ}]|}{|\\vec{s}_1\\times\\vec{s}_2|}=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}$。",
+  "sort_order": 46
+}

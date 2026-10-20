@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=1$ 是函数 $(z-1)^2\\cos\\dfrac1{z-1}$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "本性奇点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "极点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "可去奇点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "非孤立奇点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$(z-1)^2\\cos\\dfrac1{z-1}=(z-1)^2\\sum_{n=0}^{\\infty}\\dfrac{(-1)^n}{(2n)!}\\left(\\dfrac1{z-1}\\right)^{2n}$，仍含有无限多个负幂项，故 $z=1$ 为本性奇点。",
+  "search_text": "$z=1$ 是函数 $(z-1)^2\\cos\\dfrac1{z-1}$ 的（ ）。 本性奇点 极点 可去奇点 非孤立奇点 $(z-1)^2\\cos\\dfrac1{z-1}=(z-1)^2\\sum_{n=0}^{\\infty}\\dfrac{(-1)^n}{(2n)!}\\left(\\dfrac1{z-1}\\right)^{2n}$，仍含有无限多个负幂项，故 $z=1$ 为本性奇点。",
+  "sort_order": 11
+}

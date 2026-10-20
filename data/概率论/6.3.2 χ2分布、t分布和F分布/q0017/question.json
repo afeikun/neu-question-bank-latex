@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$k$个独立正态总体分别抽样，总样本量$n$，组内离差平方和$W=\\frac1{\\sigma^2}\\sum_i\\sum_j(X_{ij}-\\bar X_i)^2$服从（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\chi^2(n-k)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\chi^2(n-k+1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\chi^2(n-k-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\chi^2(n-k+2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "组内平方和自由度为$\\sum_i(n_i-1)=n-k$。",
+  "search_text": "$k$个独立正态总体分别抽样，总样本量$n$，组内离差平方和$W=\\frac1{\\sigma^2}\\sum_i\\sum_j(X_{ij}-\\bar X_i)^2$服从（）。 $\\chi^2(n-k)$ $\\chi^2(n-k+1)$ $\\chi^2(n-k-1)$ $\\chi^2(n-k+2)$ 组内平方和自由度为$\\sum_i(n_i-1)=n-k$。",
+  "sort_order": 17
+}

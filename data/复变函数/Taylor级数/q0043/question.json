@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/(e^z-2i)$ 在 $z_0=\\frac\\pi2 i$ 处的泰勒级数收敛半径 $R=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\ln2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\ln3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "奇点满足 $e^z=2i$，最近的奇点距中心为 $\\ln2$。",
+  "search_text": "函数 $1/(e^z-2i)$ 在 $z_0=\\frac\\pi2 i$ 处的泰勒级数收敛半径 $R=\\underline{\\qquad}$。 $\\ln2$ $\\ln3$ $2\\ln2$ $2\\ln3$ 奇点满足 $e^z=2i$，最近的奇点距中心为 $\\ln2$。",
+  "sort_order": 43
+}

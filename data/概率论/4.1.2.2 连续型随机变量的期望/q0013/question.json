@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f_X(x)=kx^a$于$0<x<1$，$k,a>0$，且$E(X)=0.75$，求$(k,a)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(3,2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(3,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2,3)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1,2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$k/(a+1)=1,k/(a+2)=3/4$，解得$(k,a)=(3,2)$。",
+  "search_text": "$f_X(x)=kx^a$于$0<x<1$，$k,a>0$，且$E(X)=0.75$，求$(k,a)$。 $(3,2)$ $(3,1)$ $(2,3)$ $(1,2)$ $k/(a+1)=1,k/(a+2)=3/4$，解得$(k,a)=(3,2)$。",
+  "sort_order": 13
+}

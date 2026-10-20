@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim N(-1,4)$容量8，$Y_i\\sim N(2,25)$容量10，样本方差$S_1^2,S_2^2$，求$F(7,9)$统计量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$25S_1^2/(4S_2^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2S_1^2/(5S_2^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5S_1^2/(2S_2^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4S_1^2/(25S_2^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F=(S_1^2/4)/(S_2^2/25)=25S_1^2/(4S_2^2)$。",
+  "search_text": "$X_i\\sim N(-1,4)$容量8，$Y_i\\sim N(2,25)$容量10，样本方差$S_1^2,S_2^2$，求$F(7,9)$统计量。 $25S_1^2/(4S_2^2)$ $2S_1^2/(5S_2^2)$ $5S_1^2/(2S_2^2)$ $4S_1^2/(25S_2^2)$ $F=(S_1^2/4)/(S_2^2/25)=25S_1^2/(4S_2^2)$。",
+  "sort_order": 2
+}

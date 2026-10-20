@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知弧 $AmB$ 是螺线 $x=a\\cos\\varphi,y=a\\sin\\varphi,z=\\frac{h\\varphi}{2\\pi}$ 上从 $A(a,0,0)$ 到 $B(a,0,h)$ 的一段曲线，计算 $\\int_{AmB}(x^2-yz)dx+(y^2-xz)dy+(z^2-xy)dz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2h^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12h^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13h^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$h^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由直线段 $BA$ 补成闭合曲线，$BA$ 上 $x=a,y=0$。令 $P=x^2-yz,Q=y^2-xz,R=z^2-xy$，有 $R_y-Q_z=P_z-R_x=Q_x-P_y=0$，故闭合积分为零。于是螺线 $AmB$ 上积分等于直线段 $AB$ 上积分，即 $\\int_0^h z^2dz=h^3/3$，选第三项。",
+  "search_text": "已知弧 $AmB$ 是螺线 $x=a\\cos\\varphi,y=a\\sin\\varphi,z=\\frac{h\\varphi}{2\\pi}$ 上从 $A(a,0,0)$ 到 $B(a,0,h)$ 的一段曲线，计算 $\\int_{AmB}(x^2-yz)dx+(y^2-xz)dy+(z^2-xy)dz=$（ ） $2h^3$ $\\frac12h^3$ $\\frac13h^3$ $h^3$ 由直线段 $BA$ 补成闭合曲线，$BA$ 上 $x=a,y=0$。令 $P=x^2-yz,Q=y^2-xz,R=z^2-xy$，有 $R_y-Q_z=P_z-R_x=Q_x-P_y=0$，故闭合积分为零。于是螺线 $AmB$ 上积分等于直线段 $AB$ 上积分，即 $\\int_0^h z^2dz=h^3/3$，选第三项。",
+  "sort_order": 17
+}

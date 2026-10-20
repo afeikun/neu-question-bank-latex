@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim N(0,1)$样本，以下结论正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum X_i^2\\sim\\chi^2(n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X\\sim N(0,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n\\bar X\\sim N(0,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X/S\\sim t(n-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准正态样本平方和服从自由度$n$的卡方分布。",
+  "search_text": "$X_i\\sim N(0,1)$样本，以下结论正确的是（）。 $\\sum X_i^2\\sim\\chi^2(n)$ $\\bar X\\sim N(0,1)$ $n\\bar X\\sim N(0,1)$ $\\bar X/S\\sim t(n-1)$ 标准正态样本平方和服从自由度$n$的卡方分布。",
+  "sort_order": 1
+}

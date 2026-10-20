@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim B(1,p)$，$p$未知，样本均值为$\\bar X$，求$P\\{\\bar X=k/n\\}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$C_n^k p^k(1-p)^{n-k}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-p$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C_n^k(1-p)^kp^{n-k}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$n\\bar X=\\sum X_i\\sim B(n,p)$，因此概率为$C_n^kp^k(1-p)^{n-k}$。",
+  "search_text": "$X\\sim B(1,p)$，$p$未知，样本均值为$\\bar X$，求$P\\{\\bar X=k/n\\}$。 $C_n^k p^k(1-p)^{n-k}$ $p$ $1-p$ $C_n^k(1-p)^kp^{n-k}$ $n\\bar X=\\sum X_i\\sim B(n,p)$，因此概率为$C_n^kp^k(1-p)^{n-k}$。",
+  "sort_order": 2
+}

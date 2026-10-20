@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=x^2(2+y^2)+y\\ln y$ 的极值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "没有极值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "极小值 $\\frac1e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极大值 $-\\frac1e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "极小值 $-\\frac1e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令\n$$\n\\begin{cases}\nf'_x=2x(2+y^2)=0\\\\\nf'_y=2x^2y+\\ln y+1=0\n\\end{cases}\n$$\n，解得驻点 $x=0,\\ y=\\dfrac{1}{e}$，又\n\n$A=f''_{xx}(0,\\dfrac{1}{e})=2(2+y^2)\\big|_{(0,\\frac{1}{e})}=2(2+\\dfrac{1}{e^2})$，$B=f''_{xy}(0,\\dfrac{1}{e})=4xy\\big|_{(0,\\frac{1}{e})}=0$，\n\n$C=f''_{yy}(0,\\dfrac{1}{e})=(2x^2+\\dfrac{1}{y})\\big|_{(0,\\frac{1}{e})}=e\\Rightarrow AC-B^2>0$，$A>0$，\n\n$\\therefore f(x,y)$ 在 $(0,\\dfrac{1}{e})$ 处取得极小值为：$f(0,\\dfrac{1}{e})=-\\dfrac{1}{e}$。",
+  "search_text": "函数 $f(x,y)=x^2(2+y^2)+y\\ln y$ 的极值为。 没有极值 极小值 $\\frac1e$ 极大值 $-\\frac1e$ 极小值 $-\\frac1e$ 令\n$$\n\\begin{cases}\nf'_x=2x(2+y^2)=0\\\\\nf'_y=2x^2y+\\ln y+1=0\n\\end{cases}\n$$\n，解得驻点 $x=0,\\ y=\\dfrac{1}{e}$，又\n\n$A=f''_{xx}(0,\\dfrac{1}{e})=2(2+y^2)\\big|_{(0,\\frac{1}{e})}=2(2+\\dfrac{1}{e^2})$，$B=f''_{xy}(0,\\dfrac{1}{e})=4xy\\big|_{(0,\\frac{1}{e})}=0$，\n\n$C=f''_{yy}(0,\\dfrac{1}{e})=(2x^2+\\dfrac{1}{y})\\big|_{(0,\\frac{1}{e})}=e\\Rightarrow AC-B^2>0$，$A>0$，\n\n$\\therefore f(x,y)$ 在 $(0,\\dfrac{1}{e})$ 处取得极小值为：$f(0,\\dfrac{1}{e})=-\\dfrac{1}{e}$。",
+  "sort_order": 15
+}

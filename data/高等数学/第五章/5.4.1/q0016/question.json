@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a_n\\to a\\ne0$，则 $\\sum_{n=1}^{\\infty}(x/a_n)^n$？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|a|<1$ 时发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|x|<|a|$ 时绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|x|>1$ 时发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|x|<|a|$ 时条件收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "根值判别得到收敛条件 $|x/a|<1$。",
+  "search_text": "设 $a_n\\to a\\ne0$，则 $\\sum_{n=1}^{\\infty}(x/a_n)^n$？ $|a|<1$ 时发散 $|x|<|a|$ 时绝对收敛 $|x|>1$ 时发散 $|x|<|a|$ 时条件收敛 根值判别得到收敛条件 $|x/a|<1$。",
+  "sort_order": 16
+}

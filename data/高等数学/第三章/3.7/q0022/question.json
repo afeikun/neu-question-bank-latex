@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\sqrt{x^2-a^2}$ 的渐近线条数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$x\\to+\\infty$ 有斜渐近线 $y=x$，$x\\to-\\infty$ 有斜渐近线 $y=-x$，共 $2$ 条。",
+  "search_text": "曲线 $y=\\sqrt{x^2-a^2}$ 的渐近线条数为（ ）。 $3$ $1$ $0$ $2$ $x\\to+\\infty$ 有斜渐近线 $y=x$，$x\\to-\\infty$ 有斜渐近线 $y=-x$，共 $2$ 条。",
+  "sort_order": 22
+}

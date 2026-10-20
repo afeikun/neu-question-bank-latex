@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "使用$x$小时后，元件在随后$\\Delta x$小时内损坏概率为$\\lambda\\Delta x+o(\\Delta x)$，求$t$小时内损坏概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(X\\le t)=1+e^{-\\lambda t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(X\\le t)=e^{-\\lambda t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(X\\le t)=-e^{-\\lambda t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(X\\le t)=1-e^{-\\lambda t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "危险率为$\\lambda$且$F(0)=0$，解得$F(t)=1-e^{-\\lambda t}$（$t>0$）。",
+  "search_text": "使用$x$小时后，元件在随后$\\Delta x$小时内损坏概率为$\\lambda\\Delta x+o(\\Delta x)$，求$t$小时内损坏概率。 $P(X\\le t)=1+e^{-\\lambda t}$ $P(X\\le t)=e^{-\\lambda t}$ $P(X\\le t)=-e^{-\\lambda t}$ $P(X\\le t)=1-e^{-\\lambda t}$ 危险率为$\\lambda$且$F(0)=0$，解得$F(t)=1-e^{-\\lambda t}$（$t>0$）。",
+  "sort_order": 5
+}

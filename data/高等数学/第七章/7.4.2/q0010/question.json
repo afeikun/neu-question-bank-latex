@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=\\ln(\\sqrt{x}+\\sqrt{y})$，求 $xz_x+yz_y$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\\frac{\\partial z}{\\partial x}=\\frac{1}{2\\sqrt{x}(\\sqrt{x}+\\sqrt{y})},\\quad\\frac{\\partial z}{\\partial y}=\\frac{1}{2\\sqrt{y}(\\sqrt{x}+\\sqrt{y})}$$\n\n$$x\\frac{\\partial z}{\\partial x}+y\\frac{\\partial z}{\\partial y}=\\frac{x}{2\\sqrt{x}(\\sqrt{x}+\\sqrt{y})}+\\frac{y}{2\\sqrt{y}(\\sqrt{x}+\\sqrt{y})}=\\frac12$$",
+  "search_text": "设 $z=\\ln(\\sqrt{x}+\\sqrt{y})$，求 $xz_x+yz_y$。 $\\frac12$ 1 -1 0 $$\\frac{\\partial z}{\\partial x}=\\frac{1}{2\\sqrt{x}(\\sqrt{x}+\\sqrt{y})},\\quad\\frac{\\partial z}{\\partial y}=\\frac{1}{2\\sqrt{y}(\\sqrt{x}+\\sqrt{y})}$$\n\n$$x\\frac{\\partial z}{\\partial x}+y\\frac{\\partial z}{\\partial y}=\\frac{x}{2\\sqrt{x}(\\sqrt{x}+\\sqrt{y})}+\\frac{y}{2\\sqrt{y}(\\sqrt{x}+\\sqrt{y})}=\\frac12$$",
+  "sort_order": 10
+}

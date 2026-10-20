@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "假设检验处理中两类错误的一般原则是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "控制第一类错误概率给定$\\alpha$，再尽量减小$\\beta$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "只控制第一类错误"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "同时控制两类错误为零"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "只控制第二类错误"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "通常先给定显著性水平控制第一类错误，再通过增大样本量降低第二类错误。",
+  "search_text": "假设检验处理中两类错误的一般原则是（）。 控制第一类错误概率给定$\\alpha$，再尽量减小$\\beta$ 只控制第一类错误 同时控制两类错误为零 只控制第二类错误 通常先给定显著性水平控制第一类错误，再通过增大样本量降低第二类错误。",
+  "sort_order": 15
+}

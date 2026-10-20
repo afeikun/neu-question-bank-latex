@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知方程组 $\\begin{cases}x_1+x_2+x_3+x_4=1,\\\\3x_1+2x_2+2x_3+3x_4=a,\\\\x_2+x_3+x_4=1,\\\\5x_1+3x_2+3x_3+5x_4=b\\end{cases}$ 有解，则 $a,b$ 应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=2,b=5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=3,b=3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=3,b=5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=3,b=4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "增广矩阵行化简得到相容条件 $b-2a+1=0$。选项中满足该条件的是 $a=3,b=5$。",
+  "search_text": "已知方程组 $\\begin{cases}x_1+x_2+x_3+x_4=1,\\\\3x_1+2x_2+2x_3+3x_4=a,\\\\x_2+x_3+x_4=1,\\\\5x_1+3x_2+3x_3+5x_4=b\\end{cases}$ 有解，则 $a,b$ 应为（ ）。 $a=2,b=5$ $a=3,b=3$ $a=3,b=5$ $a=3,b=4$ 增广矩阵行化简得到相容条件 $b-2a+1=0$。选项中满足该条件的是 $a=3,b=5$。",
+  "sort_order": 38
+}

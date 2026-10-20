@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "y=sin x（0≤x≤π）与x轴围成的平面图形绕y轴旋转一周的立体体积V",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2π²"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "π²"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2π"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "π"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "用圆柱壳法，V=2π∫₀^πx sin x dx=2π²。",
+  "search_text": "y=sin x（0≤x≤π）与x轴围成的平面图形绕y轴旋转一周的立体体积V 2π² π² 2π π 用圆柱壳法，V=2π∫₀^πx sin x dx=2π²。",
+  "sort_order": 15
+}

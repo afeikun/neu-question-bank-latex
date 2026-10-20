@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2,x_3)$ 经过正交变换可化为标准形 $f=2y_2^2+2y_3^2$，则 $f$ 所对应的矩阵一定是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "半正定"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "正定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "正交"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准形系数非负且有零特征值，因此对应矩阵为半正定，选项 1。",
+  "search_text": "二次型 $f(x_1,x_2,x_3)$ 经过正交变换可化为标准形 $f=2y_2^2+2y_3^2$，则 $f$ 所对应的矩阵一定是(\\quad)。 半正定 不定 正定 正交 标准形系数非负且有零特征值，因此对应矩阵为半正定，选项 1。",
+  "sort_order": 40
+}

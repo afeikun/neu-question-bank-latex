@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim U(0,1)$，$Y=X^2$，求$(0,1)$上的密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/\\sqrt y$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2/\\sqrt y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(2\\sqrt y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/\\sqrt{2y}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x=\\sqrt y$，所以$f_Y(y)=1/(2\\sqrt y)$。",
+  "search_text": "$X\\sim U(0,1)$，$Y=X^2$，求$(0,1)$上的密度。 $1/\\sqrt y$ $2/\\sqrt y$ $1/(2\\sqrt y)$ $1/\\sqrt{2y}$ $x=\\sqrt y$，所以$f_Y(y)=1/(2\\sqrt y)$。",
+  "sort_order": 29
+}

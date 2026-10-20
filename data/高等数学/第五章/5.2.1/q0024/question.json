@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若数列 $\\{na_n\\}$ 有界，则级数 $\\sum_{n=1}^{\\infty} a_n^2$ 如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "收敛性与数列 $\\{na_n\\}$ 的收敛性相同"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "收敛性无法判定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$|a_n|\\le M/n$，故 $a_n^2\\le M^2/n^2$，收敛。",
+  "search_text": "若数列 $\\{na_n\\}$ 有界，则级数 $\\sum_{n=1}^{\\infty} a_n^2$ 如何？ 收敛性与数列 $\\{na_n\\}$ 的收敛性相同 发散 收敛 收敛性无法判定 $|a_n|\\le M/n$，故 $a_n^2\\le M^2/n^2$，收敛。",
+  "sort_order": 24
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $P(A)=0.7$，$P(A-B)=0.3$，则 $P(\\overline{AB})=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(A-B)=P(A)-P(AB)$，得$P(AB)=0.4$，所以$P(\\overline{AB})=1-P(AB)=0.6$。",
+  "search_text": "已知 $P(A)=0.7$，$P(A-B)=0.3$，则 $P(\\overline{AB})=(\\quad)$。 $0.6$ $0.7$ $0.4$ $0.3$ $P(A-B)=P(A)-P(AB)$，得$P(AB)=0.4$，所以$P(\\overline{AB})=1-P(AB)=0.6$。",
+  "sort_order": 4
+}

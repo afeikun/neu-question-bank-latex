@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列错误的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z=\\frac{\\ln(x+y)}{\\sqrt{x}}$ 的定义域为 $\\{(x,y)\\mid x>0,x+y>0\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z=\\frac{\\arcsin x}{y}$ 的定义域为 $\\{(x,y)\\mid -1\\le x\\le1,y\\ne0\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z=\\sqrt{y-x}+\\frac{\\ln x}{\\sqrt{1-x^2-y^2}}$ 的定义域为 $\\{(x,y)\\mid y\\ge x,x>0,x^2+y^2<1\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z=\\arctan\\frac{y}{\\sqrt{1-x}}$ 的定义域为 $\\{(x,y)\\mid x<1,y^2<\\frac{\\pi^2}{4}(1-x)\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$z=\\arctan\\frac{y}{\\sqrt{1-x}}$，因为\n\\[\n\\begin{cases}\n-\\infty<\\dfrac{y}{\\sqrt{1-x}}<+\\infty\\\\\n1-x>0\n\\end{cases}\n\\]\n所以 $\\{(x,y)\\mid x<1,\\ -\\infty<y<+\\infty\\}$；\n\n$z=\\dfrac{\\arcsin x}{y}$，因为\n\\[\n\\begin{cases}\n|x|\\le 1\\\\\ny\\ne 0\n\\end{cases}\n\\]\n所以 $\\{(x,y)\\mid -1\\le x\\le 1,\\ y\\ne 0\\}$；\n\n$z=\\sqrt{y-x}+\\dfrac{\\ln x}{\\sqrt{1-x^2-y^2}}$，因为\n\\[\n\\begin{cases}\ny-x\\ge 0\\\\\nx>0\\\\\n1-x^2-y^2>0\n\\end{cases}\n\\]\n所以 $\\{(x,y)\\mid y\\ge x,\\ x>0,\\ x^2+y^2<1\\}$；\n\n$z=\\dfrac{\\ln(x+y)}{\\sqrt{x}}$，因为\n\\[\n\\begin{cases}\nx+y>0\\\\\nx>0\n\\end{cases}\n\\]\n因此 $\\{(x,y)\\mid x>0,\\ x+y>0\\}$.",
+  "search_text": "下列错误的是(\\quad)。 $z=\\frac{\\ln(x+y)}{\\sqrt{x}}$ 的定义域为 $\\{(x,y)\\mid x>0,x+y>0\\}$ $z=\\frac{\\arcsin x}{y}$ 的定义域为 $\\{(x,y)\\mid -1\\le x\\le1,y\\ne0\\}$ $z=\\sqrt{y-x}+\\frac{\\ln x}{\\sqrt{1-x^2-y^2}}$ 的定义域为 $\\{(x,y)\\mid y\\ge x,x>0,x^2+y^2<1\\}$ $z=\\arctan\\frac{y}{\\sqrt{1-x}}$ 的定义域为 $\\{(x,y)\\mid x<1,y^2<\\frac{\\pi^2}{4}(1-x)\\}$ $z=\\arctan\\frac{y}{\\sqrt{1-x}}$，因为\n\\[\n\\begin{cases}\n-\\infty<\\dfrac{y}{\\sqrt{1-x}}<+\\infty\\\\\n1-x>0\n\\end{cases}\n\\]\n所以 $\\{(x,y)\\mid x<1,\\ -\\infty<y<+\\infty\\}$；\n\n$z=\\dfrac{\\arcsin x}{y}$，因为\n\\[\n\\begin{cases}\n|x|\\le 1\\\\\ny\\ne 0\n\\end{cases}\n\\]\n所以 $\\{(x,y)\\mid -1\\le x\\le 1,\\ y\\ne 0\\}$；\n\n$z=\\sqrt{y-x}+\\dfrac{\\ln x}{\\sqrt{1-x^2-y^2}}$，因为\n\\[\n\\begin{cases}\ny-x\\ge 0\\\\\nx>0\\\\\n1-x^2-y^2>0\n\\end{cases}\n\\]\n所以 $\\{(x,y)\\mid y\\ge x,\\ x>0,\\ x^2+y^2<1\\}$；\n\n$z=\\dfrac{\\ln(x+y)}{\\sqrt{x}}$，因为\n\\[\n\\begin{cases}\nx+y>0\\\\\nx>0\n\\end{cases}\n\\]\n因此 $\\{(x,y)\\mid x>0,\\ x+y>0\\}$.",
+  "sort_order": 6
+}

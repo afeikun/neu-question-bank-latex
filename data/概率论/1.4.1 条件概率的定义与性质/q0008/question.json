@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $P(A)>0$，$P(B)>0$，则下列公式正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(AB\\mid A)=P(B\\mid A)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A-B)=P(A)[1-P(B)]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(AB)=P(A)P(B)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(A\\mid B)=P(B\\mid A)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由条件概率定义，$P(AB\\mid A)=P(AB)/P(A)=P(B\\mid A)$。其余等式需要额外的独立或等概率条件。",
+  "search_text": "设 $P(A)>0$，$P(B)>0$，则下列公式正确的是(\\quad)。 $P(AB\\mid A)=P(B\\mid A)$ $P(A-B)=P(A)[1-P(B)]$ $P(AB)=P(A)P(B)$ $P(A\\mid B)=P(B\\mid A)$ 由条件概率定义，$P(AB\\mid A)=P(AB)/P(A)=P(B\\mid A)$。其余等式需要额外的独立或等概率条件。",
+  "sort_order": 8
+}

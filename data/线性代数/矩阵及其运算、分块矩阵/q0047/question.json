@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n\\times1$ 阶矩阵 $\\alpha=(\\frac12\\quad0\\quad\\cdots\\quad0\\quad\\frac12)$，矩阵 $A=E-\\alpha^T\\alpha$，$B=E+2\\alpha^T\\alpha$，其中 $E$ 是 $n$ 阶单位矩阵，则 $AB=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$O$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-E$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$E$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$E+\\alpha^T\\alpha$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$AB=(E-\\alpha^T\\alpha)(E+2\\alpha^T\\alpha)=E+2\\alpha^T\\alpha-\\alpha^T\\alpha-2\\alpha^T\\alpha\\alpha^T\\alpha=E+\\alpha^T\\alpha-2\\alpha^T(\\alpha\\alpha^T)\\alpha=E$。",
+  "search_text": "设 $n\\times1$ 阶矩阵 $\\alpha=(\\frac12\\quad0\\quad\\cdots\\quad0\\quad\\frac12)$，矩阵 $A=E-\\alpha^T\\alpha$，$B=E+2\\alpha^T\\alpha$，其中 $E$ 是 $n$ 阶单位矩阵，则 $AB=$（ ）。 $O$ $-E$ $E$ $E+\\alpha^T\\alpha$ $AB=(E-\\alpha^T\\alpha)(E+2\\alpha^T\\alpha)=E+2\\alpha^T\\alpha-\\alpha^T\\alpha-2\\alpha^T\\alpha\\alpha^T\\alpha=E+\\alpha^T\\alpha-2\\alpha^T(\\alpha\\alpha^T)\\alpha=E$。",
+  "sort_order": 47
+}

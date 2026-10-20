@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{-1}^1dx\\int_{-\\sqrt{1-x^2}}^{\\sqrt{1-x^2}}dy\\int_{-1}^{-\\sqrt{x^2+y^2}}z\\sqrt{x^2+y^2}\\,dz$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac2{15}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac2{15}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac4{15}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac4{15}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$-1\\leq x\\leq 1,\\quad -\\sqrt{1-x^2}\\leq y\\leq\\sqrt{1-x^2}$，表示的区域为圆 $D:\\ x^2+y^2\\leq 1$，因此利用柱面坐标变换可得，\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^1r\\,dr\\int_{-1}^{-r}rz\\,dz$\n\n$=2\\pi\\int_0^1r\\frac{r^2-1}{2}\\,dr$\n\n$=-\\frac{2}{15}\\pi$",
+  "search_text": "$\\int_{-1}^1dx\\int_{-\\sqrt{1-x^2}}^{\\sqrt{1-x^2}}dy\\int_{-1}^{-\\sqrt{x^2+y^2}}z\\sqrt{x^2+y^2}\\,dz$ 的值为（ ） $-\\frac2{15}\\pi$ $\\frac2{15}\\pi$ $\\frac4{15}\\pi$ $-\\frac4{15}\\pi$ $-1\\leq x\\leq 1,\\quad -\\sqrt{1-x^2}\\leq y\\leq\\sqrt{1-x^2}$，表示的区域为圆 $D:\\ x^2+y^2\\leq 1$，因此利用柱面坐标变换可得，\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^1r\\,dr\\int_{-1}^{-r}rz\\,dz$\n\n$=2\\pi\\int_0^1r\\frac{r^2-1}{2}\\,dr$\n\n$=-\\frac{2}{15}\\pi$",
+  "sort_order": 22
+}

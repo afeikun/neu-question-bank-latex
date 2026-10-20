@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $m\\times n$ 矩阵，$Ax=0$ 是非齐次线性方程组 $Ax=b$ 的导出组，则下列结论中正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $Ax=0$ 仅有零解，则 $Ax=b$ 有唯一解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若 $Ax=b$ 有无穷多个解，则 $Ax=0$ 仅有零解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若 $Ax=b$ 有无穷多个解，则 $Ax=0$ 有非零解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若 $Ax=0$ 有非零解，则 $Ax=b$ 有无穷多个解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "若 $Ax=b$ 有无穷多个解，则 $r(A)=r(A|b)<n$，所以对应齐次方程组 $Ax=0$ 有非零解。",
+  "search_text": "设 $A$ 为 $m\\times n$ 矩阵，$Ax=0$ 是非齐次线性方程组 $Ax=b$ 的导出组，则下列结论中正确的是（ ）。 若 $Ax=0$ 仅有零解，则 $Ax=b$ 有唯一解 若 $Ax=b$ 有无穷多个解，则 $Ax=0$ 仅有零解 若 $Ax=b$ 有无穷多个解，则 $Ax=0$ 有非零解 若 $Ax=0$ 有非零解，则 $Ax=b$ 有无穷多个解 若 $Ax=b$ 有无穷多个解，则 $r(A)=r(A|b)<n$，所以对应齐次方程组 $Ax=0$ 有非零解。",
+  "sort_order": 12
+}

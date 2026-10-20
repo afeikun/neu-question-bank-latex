@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "只有当 $z=x+iy$ 满足条件（ ）时，$\\operatorname{sh}z$ 的值才是纯虚数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=0$ 且 $y\\ne k\\pi$ 或 $y=\\frac\\pi2+k\\pi$（$k$ 为整数）"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=0$ 或 $y=\\frac\\pi2+k\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac\\pi2+k\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y\\ne k\\pi$ 或 $y=\\frac\\pi2+k\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\operatorname{sh}z$ 的实部 $(e^x-e^{-x})\\cos y/2=0$ 得。",
+  "search_text": "只有当 $z=x+iy$ 满足条件（ ）时，$\\operatorname{sh}z$ 的值才是纯虚数。 $x=0$ 且 $y\\ne k\\pi$ 或 $y=\\frac\\pi2+k\\pi$（$k$ 为整数） $x=0$ 或 $y=\\frac\\pi2+k\\pi$ $y=\\frac\\pi2+k\\pi$ $y\\ne k\\pi$ 或 $y=\\frac\\pi2+k\\pi$ 由 $\\operatorname{sh}z$ 的实部 $(e^x-e^{-x})\\cos y/2=0$ 得。",
+  "sort_order": 4
+}

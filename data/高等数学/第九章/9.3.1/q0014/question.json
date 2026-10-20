@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_\\Gamma xyz\\,dz$，$\\Gamma$ 为平面 $y=z$ 截单位球面所得曲线，从 $z$ 轴正方向看沿逆时针方向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt2\\pi}{16}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解：因在 $\\Gamma$ 上有 $x^2+2y^2=1$，故 $\\Gamma$：\n\n$$\n\\left\\{\\begin{aligned}x&=\\cos t\\\\y&=\\frac{1}{\\sqrt{2}}\\sin t\\\\z&=\\frac{1}{\\sqrt{2}}\\sin t\\end{aligned}\\right.\\quad(0\\leq t\\leq2\\pi)\n$$\n\n$$\n\\begin{aligned}\n\\text{原式}&=\\frac{1}{2\\sqrt{2}}\\int_0^{2\\pi}\\cos^2t\\sin^2t\\,\\mathrm{d}t\n=\\frac{1}{2\\sqrt{2}}\\cdot4\\int_0^{\\frac{\\pi}{2}}\\cos^2t(1-\\cos^2t)\\,\\mathrm{d}t\\\\\n&=\\sqrt{2}\\left(\\frac{1}{2}\\cdot\\frac{\\pi}{2}-\\frac{3}{4}\\cdot\\frac{1}{2}\\cdot\\frac{\\pi}{2}\\right)=\\frac{\\sqrt{2}\\pi}{16}\n\\end{aligned}\n$$",
+  "search_text": "计算 $\\int_\\Gamma xyz\\,dz$，$\\Gamma$ 为平面 $y=z$ 截单位球面所得曲线，从 $z$ 轴正方向看沿逆时针方向。 $\\frac{\\sqrt2\\pi}{16}$ $\\pi$ $\\frac\\pi3$ $-\\pi$ 解：因在 $\\Gamma$ 上有 $x^2+2y^2=1$，故 $\\Gamma$：\n\n$$\n\\left\\{\\begin{aligned}x&=\\cos t\\\\y&=\\frac{1}{\\sqrt{2}}\\sin t\\\\z&=\\frac{1}{\\sqrt{2}}\\sin t\\end{aligned}\\right.\\quad(0\\leq t\\leq2\\pi)\n$$\n\n$$\n\\begin{aligned}\n\\text{原式}&=\\frac{1}{2\\sqrt{2}}\\int_0^{2\\pi}\\cos^2t\\sin^2t\\,\\mathrm{d}t\n=\\frac{1}{2\\sqrt{2}}\\cdot4\\int_0^{\\frac{\\pi}{2}}\\cos^2t(1-\\cos^2t)\\,\\mathrm{d}t\\\\\n&=\\sqrt{2}\\left(\\frac{1}{2}\\cdot\\frac{\\pi}{2}-\\frac{3}{4}\\cdot\\frac{1}{2}\\cdot\\frac{\\pi}{2}\\right)=\\frac{\\sqrt{2}\\pi}{16}\n\\end{aligned}\n$$",
+  "sort_order": 14
+}

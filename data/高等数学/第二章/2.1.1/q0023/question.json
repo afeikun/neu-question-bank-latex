@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f\\prime(x)$ 存在，则 $\\lim_{h\\to0}\\frac{f(x+4h)-f(x-5h)}h=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$9f\\prime(x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-9f\\prime(x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "拆成两个差商，极限为 $4f\\prime(x)+5f\\prime(x)=9f\\prime(x)$。",
+  "search_text": "设 $f\\prime(x)$ 存在，则 $\\lim_{h\\to0}\\frac{f(x+4h)-f(x-5h)}h=$（ ）。 $9f\\prime(x)$ $-9f\\prime(x)$ 不存在 $0$ 拆成两个差商，极限为 $4f\\prime(x)+5f\\prime(x)=9f\\prime(x)$。",
+  "sort_order": 23
+}

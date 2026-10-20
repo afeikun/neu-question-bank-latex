@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int x^2\\cos x\\,dx$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2\\sin x+2x\\cos x+2\\sin x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2\\sin x+2x\\cos x-2\\sin x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2\\sin x-x\\cos x-2\\sin x+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2\\sin x+x\\cos x+2\\sin x+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 原式$=\\int x^2\\cos x\\,dx=\\int x^2\\,d\\sin x=x^2\\sin x-\\int2x\\,d\\sin x=x^2\\sin x+2x\\cos x-2\\sin x+C$",
+  "search_text": "不定积分 $\\int x^2\\cos x\\,dx$ 的值为（ ） $x^2\\sin x+2x\\cos x+2\\sin x+C$ $x^2\\sin x+2x\\cos x-2\\sin x+C$ $x^2\\sin x-x\\cos x-2\\sin x+C$ $x^2\\sin x+x\\cos x+2\\sin x+C$ 解答 原式$=\\int x^2\\cos x\\,dx=\\int x^2\\,d\\sin x=x^2\\sin x-\\int2x\\,d\\sin x=x^2\\sin x+2x\\cos x-2\\sin x+C$",
+  "sort_order": 2
+}

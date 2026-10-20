@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sigma=3,n=40,\\bar x=642$，求总体均值95%上下限。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "上限642.93，下限641.07"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "上限232.93，下限641.07"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "上限642.93，下限551.07"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "上限642.93，下限641.11"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "误差$1.96(3/\\sqrt{40})\\approx0.93$。",
+  "search_text": "$\\sigma=3,n=40,\\bar x=642$，求总体均值95%上下限。 上限642.93，下限641.07 上限232.93，下限641.07 上限642.93，下限551.07 上限642.93，下限641.11 误差$1.96(3/\\sqrt{40})\\approx0.93$。",
+  "sort_order": 4
+}

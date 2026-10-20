@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)=\\begin{cases}\\sqrt{|x|}\\sin\\frac1{x^2},&x\\ne0,\\\\0,&x=0,\\end{cases}$，则 $f(x)$ 在点 $x=0$ 处（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "极限不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "只有右极限存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极限存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "只有左极限存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $|f(x)|\\le\\sqrt{|x|}\\to0$，左右极限均为 $0$，极限存在。",
+  "search_text": "设函数 $f(x)=\\begin{cases}\\sqrt{|x|}\\sin\\frac1{x^2},&x\\ne0,\\\\0,&x=0,\\end{cases}$，则 $f(x)$ 在点 $x=0$ 处（ ）。 极限不存在 只有右极限存在 极限存在 只有左极限存在 由 $|f(x)|\\le\\sqrt{|x|}\\to0$，左右极限均为 $0$，极限存在。",
+  "sort_order": 5
+}

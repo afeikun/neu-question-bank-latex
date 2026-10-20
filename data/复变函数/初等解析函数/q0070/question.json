@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(\\sin i)^{2i}$ 的值是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-(4k+1)\\pi}[\\cos(2\\ln\\operatorname{sh}1)+i\\sin(2\\ln\\operatorname{sh}1)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{\\pi/2}[\\cos(\\ln\\operatorname{sh}1)+i\\sin(\\ln\\operatorname{sh}1)]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos(\\ln\\operatorname{sh}1)+i\\sin(\\ln\\operatorname{sh}1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-(2k+1)\\pi}[\\cos(\\ln\\operatorname{sh}1)+i\\sin(\\ln\\operatorname{sh}1)]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\sin i=i\\operatorname{sh}1$，代入复幂定义。",
+  "search_text": "$(\\sin i)^{2i}$ 的值是（ ）。 $e^{-(4k+1)\\pi}[\\cos(2\\ln\\operatorname{sh}1)+i\\sin(2\\ln\\operatorname{sh}1)]$ $e^{\\pi/2}[\\cos(\\ln\\operatorname{sh}1)+i\\sin(\\ln\\operatorname{sh}1)]$ $\\cos(\\ln\\operatorname{sh}1)+i\\sin(\\ln\\operatorname{sh}1)$ $e^{-(2k+1)\\pi}[\\cos(\\ln\\operatorname{sh}1)+i\\sin(\\ln\\operatorname{sh}1)]$ $\\sin i=i\\operatorname{sh}1$，代入复幂定义。",
+  "sort_order": 70
+}

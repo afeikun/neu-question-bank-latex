@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "limₙ→∞∫₀π/4sinⁿx dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "−1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数几乎处处趋于0且受控，极限为0。",
+  "search_text": "limₙ→∞∫₀π/4sinⁿx dx 0 1 不存在 −1 被积函数几乎处处趋于0且受控，极限为0。",
+  "sort_order": 31
+}

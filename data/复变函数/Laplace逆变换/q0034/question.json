@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal{L}^{-1}[\\frac{e^{-5s}}{(s-2)^4}]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac16(t-5)^3e^{2(t-5)}u(t-5)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16(t+5)^3e^{2(t+5)}u(t+5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13(t-5)^3e^{2(t-5)}u(t-5)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13(t+5)^3e^{2(t+5)}u(t+5)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\mathcal{L}^{-1}[1/(s-2)^4]=t^3e^{2t}/3!$，再应用第二平移定理。",
+  "search_text": "$\\mathcal{L}^{-1}[\\frac{e^{-5s}}{(s-2)^4}]=(\\quad).$ $\\frac16(t-5)^3e^{2(t-5)}u(t-5)$ $\\frac16(t+5)^3e^{2(t+5)}u(t+5)$ $\\frac13(t-5)^3e^{2(t-5)}u(t-5)$ $\\frac13(t+5)^3e^{2(t+5)}u(t+5)$ 由 $\\mathcal{L}^{-1}[1/(s-2)^4]=t^3e^{2t}/3!$，再应用第二平移定理。",
+  "sort_order": 34
+}

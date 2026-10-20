@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "洒水车水箱为横放椭圆柱体，截面椭圆长轴 $2m$、短轴 $1.5m$，水箱长 $4m$，盛半箱水时一端面所受水压力是多少？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5\\rho g/8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\rho g/8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\rho g/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\rho g/8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对端面半椭圆按水深积分，结果为 $3\\rho g/8$。",
+  "search_text": "洒水车水箱为横放椭圆柱体，截面椭圆长轴 $2m$、短轴 $1.5m$，水箱长 $4m$，盛半箱水时一端面所受水压力是多少？ $5\\rho g/8$ $3\\rho g/8$ $3\\rho g/4$ $\\rho g/8$ 对端面半椭圆按水深积分，结果为 $3\\rho g/8$。",
+  "sort_order": 15
+}

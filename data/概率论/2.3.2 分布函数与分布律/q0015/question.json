@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F(x)=0(x<-2),0.4(-2\\le x<0),1(x\\ge0)$，则$X$属于哪类随机变量？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "离散型"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "连续型"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "既非连续型也非离散型"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无法判断"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分布函数有跳跃，$X$为离散型随机变量。",
+  "search_text": "$F(x)=0(x<-2),0.4(-2\\le x<0),1(x\\ge0)$，则$X$属于哪类随机变量？ 离散型 连续型 既非连续型也非离散型 无法判断 分布函数有跳跃，$X$为离散型随机变量。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=u(x,y)+iv(x,y)$ 在点 $z_0$ 处解析且仅当（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(z)$ 在 $z_0$ 及其某邻域内处处可导"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(z)$ 在 $z_0$ 处可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(z)$ 在 $z_0$ 处连续且可微"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$u(x,y)$ 与 $v(x,y)$ 在 $z_0$ 处可微，且满足柯西—黎曼方程"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(z)$ 在 $z_0$ 及其某邻域内处处可导。",
+  "search_text": "函数 $f(z)=u(x,y)+iv(x,y)$ 在点 $z_0$ 处解析且仅当（ ）。 $f(z)$ 在 $z_0$ 及其某邻域内处处可导 $f(z)$ 在 $z_0$ 处可导 $f(z)$ 在 $z_0$ 处连续且可微 $u(x,y)$ 与 $v(x,y)$ 在 $z_0$ 处可微，且满足柯西—黎曼方程 $f(z)$ 在 $z_0$ 及其某邻域内处处可导。",
+  "sort_order": 3
+}

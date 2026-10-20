@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=(x+y)^{1-y}$，则 $\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,1)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial x}=(1-y)(x+y)^{-y}$，则 $\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,1)}=0$.",
+  "search_text": "设 $z=(x+y)^{1-y}$，则 $\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,1)}=(\\quad)$。 $1$ $-1$ $2$ $0$ $\\frac{\\partial z}{\\partial x}=(1-y)(x+y)^{-y}$，则 $\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,1)}=0$.",
+  "sort_order": 6
+}

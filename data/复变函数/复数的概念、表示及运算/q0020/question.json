@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(z)=1+z+\\cdots+z^n$，则 $\\max_{|z|\\le1}|f(z)|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "小于 $n+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "小于 $n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|f(z)|\\le1+|z|+\\cdots+|z|^n\\le n+1$，而 $f(1)=n+1$，故最大值为 $n+1$。",
+  "search_text": "已知 $f(z)=1+z+\\cdots+z^n$，则 $\\max_{|z|\\le1}|f(z)|=(\\quad)$。 $n+1$ 小于 $n+1$ $n$ 小于 $n$ $|f(z)|\\le1+|z|+\\cdots+|z|^n\\le n+1$，而 $f(1)=n+1$，故最大值为 $n+1$。",
+  "sort_order": 20
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=y(x)$ 在 $x_0$ 二阶可导，则下面结论不正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y\\prime\\prime(x)$ 在 $x_0$ 连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y\\prime(x)$ 在 $x_0$ 连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y\\prime(x)$ 在 $x_0$ 某邻域存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y(x)$ 在 $x_0$ 连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "二阶导数在一点存在不能保证二阶导函数在该点连续。",
+  "search_text": "函数 $y=y(x)$ 在 $x_0$ 二阶可导，则下面结论不正确的是（ ）。 $y\\prime\\prime(x)$ 在 $x_0$ 连续 $y\\prime(x)$ 在 $x_0$ 连续 $y\\prime(x)$ 在 $x_0$ 某邻域存在 $y(x)$ 在 $x_0$ 连续 二阶导数在一点存在不能保证二阶导函数在该点连续。",
+  "sort_order": 27
+}

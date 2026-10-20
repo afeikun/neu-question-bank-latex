@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "四阶行列式 $D=\\begin{vmatrix}a_1&0&0&b_1\\\\0&a_2&b_2&0\\\\0&b_3&a_3&0\\\\b_4&0&0&a_4\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(a_1a_4+b_1b_4)(a_2a_3-b_2b_3)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(a_1a_4-b_1b_4)(a_2a_3+b_2b_3)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(a_1a_4+b_1b_4)(a_2a_3+b_2b_3)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(a_1a_4-b_1b_4)(a_2a_3-b_2b_3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "利用行列式的性质，按第一行展开：$D=a_1a_4(a_2a_3-b_2b_3)-b_1b_4(a_2a_3-b_2b_3)=(a_1a_4-b_1b_4)(a_2a_3-b_2b_3)$。",
+  "search_text": "四阶行列式 $D=\\begin{vmatrix}a_1&0&0&b_1\\\\0&a_2&b_2&0\\\\0&b_3&a_3&0\\\\b_4&0&0&a_4\\end{vmatrix}$ 等于（ ）。 $(a_1a_4+b_1b_4)(a_2a_3-b_2b_3)$ $(a_1a_4-b_1b_4)(a_2a_3+b_2b_3)$ $(a_1a_4+b_1b_4)(a_2a_3+b_2b_3)$ $(a_1a_4-b_1b_4)(a_2a_3-b_2b_3)$ 利用行列式的性质，按第一行展开：$D=a_1a_4(a_2a_3-b_2b_3)-b_1b_4(a_2a_3-b_2b_3)=(a_1a_4-b_1b_4)(a_2a_3-b_2b_3)$。",
+  "sort_order": 29
+}

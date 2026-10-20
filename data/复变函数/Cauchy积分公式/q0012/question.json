@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z-i|=2$，方向为正向，则 $\\oint_C\\frac{\\sinh z}{z^2+4}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sin2}{2}\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆内只有奇点 $2i$，所以 $\\oint_C\\frac{\\sinh z}{z^2+4}\\,dz=2\\pi i\\frac{\\sinh(2i)}{4i}=\\frac{\\sin2}{2}\\pi i$。",
+  "search_text": "设 $C$ 为圆周 $|z-i|=2$，方向为正向，则 $\\oint_C\\frac{\\sinh z}{z^2+4}\\,dz=(\\quad)$。 $\\frac{\\sin2}{2}\\pi i$ $4\\pi i$ $\\pi i$ $-\\pi$ 被积函数在圆内只有奇点 $2i$，所以 $\\oint_C\\frac{\\sinh z}{z^2+4}\\,dz=2\\pi i\\frac{\\sinh(2i)}{4i}=\\frac{\\sin2}{2}\\pi i$。",
+  "sort_order": 12
+}

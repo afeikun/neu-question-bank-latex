@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\int_L(2a-y)dx+xdy$，$L:x=a(t-\\sin t),y=a(1-\\cos t)$，$0\\le t\\le2\\pi$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2\\pi a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12\\pi a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi a^3}{3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解：$$(2a-y)dx+xdy=a(1+\\cos t)\\cdot a(1-\\cos t)dt+a(t-\\sin t)\\cdot a\\sin tdt=a^2t\\sin tdt$$\n原式=$$a^2\\int_0^{2\\pi}t\\sin tdt=a^2\\left[-t\\cos t-\\sin t\\right]_0^{2\\pi}=-2\\pi a^2$$",
+  "search_text": "求 $\\int_L(2a-y)dx+xdy$，$L:x=a(t-\\sin t),y=a(1-\\cos t)$，$0\\le t\\le2\\pi$。 $-2\\pi a^2$ $-\\frac12\\pi a^2$ $3\\pi a^2$ $\\frac{\\pi a^3}{3}$ 解：$$(2a-y)dx+xdy=a(1+\\cos t)\\cdot a(1-\\cos t)dt+a(t-\\sin t)\\cdot a\\sin tdt=a^2t\\sin tdt$$\n原式=$$a^2\\int_0^{2\\pi}t\\sin tdt=a^2\\left[-t\\cos t-\\sin t\\right]_0^{2\\pi}=-2\\pi a^2$$",
+  "sort_order": 13
+}

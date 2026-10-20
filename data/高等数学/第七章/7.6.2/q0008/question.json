@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "椭球面 $2x^2+3y^2+z^2=6$ 在点 $(1,1,1)$ 处的切平面方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+y+z-6=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+3y+z-6=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2x+3y+z-6=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2x+y+z-6=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=2x^2+3y^2+z^2-6$，则 $F_x(P)=4x=4，F_y(P)=6y=6，F_z(P)=2z=2$，则曲面在点 $P(1,1,1)$ 处的切平面方程：$4(x-1)+6(y-1)+2(z-1)=0$，即：$2x+3y+z-6=0$。",
+  "search_text": "椭球面 $2x^2+3y^2+z^2=6$ 在点 $(1,1,1)$ 处的切平面方程为。 $x+y+z-6=0$ $x+3y+z-6=0$ $2x+3y+z-6=0$ $2x+y+z-6=0$ 设 $F(x,y,z)=2x^2+3y^2+z^2-6$，则 $F_x(P)=4x=4，F_y(P)=6y=6，F_z(P)=2z=2$，则曲面在点 $P(1,1,1)$ 处的切平面方程：$4(x-1)+6(y-1)+2(z-1)=0$，即：$2x+3y+z-6=0$。",
+  "sort_order": 8
+}

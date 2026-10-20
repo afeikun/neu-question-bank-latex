@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\frac{\\cos\\frac\\pi2x}{x(x-1)}$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=0$ 为跳跃间断点，$x=1$ 为可去间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=0,x=1$ 都是第二类间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=0$ 为第二类间断点，$x=1$ 为跳跃间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=0$ 为第二类间断点，$x=1$ 为可去间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$x\\to0$ 时函数发散；$x\\to1$ 时极限为 $-\\pi/2$，故 $x=1$ 可去。",
+  "search_text": "$f(x)=\\frac{\\cos\\frac\\pi2x}{x(x-1)}$，则（ ）。 $x=0$ 为跳跃间断点，$x=1$ 为可去间断点 $x=0,x=1$ 都是第二类间断点 $x=0$ 为第二类间断点，$x=1$ 为跳跃间断点 $x=0$ 为第二类间断点，$x=1$ 为可去间断点 $x\\to0$ 时函数发散；$x\\to1$ 时极限为 $-\\pi/2$，故 $x=1$ 可去。",
+  "sort_order": 52
+}

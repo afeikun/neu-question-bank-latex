@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $\\tan(x+2y^2+3z^3)=0$ 在点 $(1,-1,-1)$ 处的法线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-1=\\frac{y+1}{-4}=\\frac{z+1}{-9}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-1=\\frac{y+1}{4}=\\frac{z+1}{9}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=\\frac{y-3}{4}=\\frac{z+10}{9}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=\\frac{y-3}{-4}=\\frac{z+10}{9}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=\\tan(x+2y^2+3z^3)$，则\n\n$$F_x|_{(1,-1,-1)}=\\sec^2(x+2y^2+3z^3)=1,$$\n\n$$F_y|_{(1,-1,-1)}=4y\\sec^2(x+2y^2+3z^3)=-4,$$\n\n$$F_z|_{(1,-1,-1)}=9z^2\\sec^2(x+2y^2+3z^3)=9,$$\n\n法线方程为 $\\frac{x-1}{1}=\\frac{y+1}{-4}=\\frac{z+1}{9}$，又点 $(0,3,-10)$ 在法线上，整理得 $x=\\frac{y-3}{-4}=\\frac{z+10}{9}$。",
+  "search_text": "曲面 $\\tan(x+2y^2+3z^3)=0$ 在点 $(1,-1,-1)$ 处的法线方程为。 $x-1=\\frac{y+1}{-4}=\\frac{z+1}{-9}$ $x-1=\\frac{y+1}{4}=\\frac{z+1}{9}$ $x=\\frac{y-3}{4}=\\frac{z+10}{9}$ $x=\\frac{y-3}{-4}=\\frac{z+10}{9}$ 设 $F(x,y,z)=\\tan(x+2y^2+3z^3)$，则\n\n$$F_x|_{(1,-1,-1)}=\\sec^2(x+2y^2+3z^3)=1,$$\n\n$$F_y|_{(1,-1,-1)}=4y\\sec^2(x+2y^2+3z^3)=-4,$$\n\n$$F_z|_{(1,-1,-1)}=9z^2\\sec^2(x+2y^2+3z^3)=9,$$\n\n法线方程为 $\\frac{x-1}{1}=\\frac{y+1}{-4}=\\frac{z+1}{9}$，又点 $(0,3,-10)$ 在法线上，整理得 $x=\\frac{y-3}{-4}=\\frac{z+10}{9}$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\ln\\sqrt{1+\\tan(x+\\frac1x)}$，则 $y\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{(1+\\frac1{x^2})\\sec^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{(1-\\frac1{x^2})\\sec^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{(1-\\frac1{x^2})\\csc^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{(1+\\frac1{x^2})\\sec^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime=\\frac{(1-\\frac1{x^2})\\sec^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$。",
+  "search_text": "设 $y=\\ln\\sqrt{1+\\tan(x+\\frac1x)}$，则 $y\\prime=$（ ）。 $\\frac{(1+\\frac1{x^2})\\sec^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$ $\\frac{(1-\\frac1{x^2})\\sec^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$ $\\frac{(1-\\frac1{x^2})\\csc^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$ $\\frac{(1+\\frac1{x^2})\\sec^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$ $y\\prime=\\frac{(1-\\frac1{x^2})\\sec^2(x+\\frac1x)}{2(1+\\tan(x+\\frac1x))}$。",
+  "sort_order": 23
+}

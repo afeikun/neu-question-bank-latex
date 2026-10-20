@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_1\\sim B(1,p)$，下列结论正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_1$是$p$的无偏统计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X_1$是$p$的有偏统计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X_1^2$是$p^2$无偏统计量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X_1^2$是$p$有偏统计量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X_1)=E(X_1^2)=p$，故选项1正确（题面也使选项4表述成立，存在多解）。",
+  "search_text": "$X_1\\sim B(1,p)$，下列结论正确的是（）。 $X_1$是$p$的无偏统计量 $X_1$是$p$的有偏统计量 $X_1^2$是$p^2$无偏统计量 $X_1^2$是$p$有偏统计量 $E(X_1)=E(X_1^2)=p$，故选项1正确（题面也使选项4表述成立，存在多解）。",
+  "sort_order": 21
+}

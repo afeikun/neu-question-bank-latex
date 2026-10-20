@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(x-y,y-z,z-x)=0$，且 $F_2'-F_3'\\ne0$，求 $z_x+z_y$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "-1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由题意知方程确定函数 $z=z(x,y)$，在题设方程两边取微分\n\n得：$dF(x-y,y-z,z-x)=d0=0$\n\n即有：$F_1'(dx-dy)+F_2'(dy-dz)+F_3'(dz-dx)=0$\n\n合并得：$(F_1'-F_3')dx+(F_2'-F_1')dy=(F_2'-F_3')dz$\n\n解得：$dz=\\frac{F_1'-F_3'}{F_2'-F_3'}dx+\\frac{F_2'-F_1'}{F_2'-F_3'}dy$，从而 $\\frac{\\partial z}{\\partial x}=\\frac{F_1'-F_3'}{F_2'-F_3'},\\quad\\frac{\\partial z}{\\partial y}=\\frac{F_2'-F_1'}{F_2'-F_3'}$\n\n于是：$\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=1$",
+  "search_text": "设 $F(x-y,y-z,z-x)=0$，且 $F_2'-F_3'\\ne0$，求 $z_x+z_y$。 2 1 0 -1 由题意知方程确定函数 $z=z(x,y)$，在题设方程两边取微分\n\n得：$dF(x-y,y-z,z-x)=d0=0$\n\n即有：$F_1'(dx-dy)+F_2'(dy-dz)+F_3'(dz-dx)=0$\n\n合并得：$(F_1'-F_3')dx+(F_2'-F_1')dy=(F_2'-F_3')dz$\n\n解得：$dz=\\frac{F_1'-F_3'}{F_2'-F_3'}dx+\\frac{F_2'-F_1'}{F_2'-F_3'}dy$，从而 $\\frac{\\partial z}{\\partial x}=\\frac{F_1'-F_3'}{F_2'-F_3'},\\quad\\frac{\\partial z}{\\partial y}=\\frac{F_2'-F_1'}{F_2'-F_3'}$\n\n于是：$\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=1$",
+  "sort_order": 18
+}

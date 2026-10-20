@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知向量 $\\vec a=-\\vec i+3\\vec j$，$\\vec b=3\\vec i+\\vec j$，向量 $\\vec c$ 的模 $|\\vec c|=r$，则当 $\\vec c$ 满足关系式 $\\vec a=\\vec b\\times\\vec c$ 时，$r$ 的最小值为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt{35}}5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt{10}}{10}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$|a|=|b|=\\sqrt{10}$，且 $a=b\\times c$ 要求 $b\\perp a$，由 $|b\\times c|=|a|$ 得最小 $|c|=1$。",
+  "search_text": "已知向量 $\\vec a=-\\vec i+3\\vec j$，$\\vec b=3\\vec i+\\vec j$，向量 $\\vec c$ 的模 $|\\vec c|=r$，则当 $\\vec c$ 满足关系式 $\\vec a=\\vec b\\times\\vec c$ 时，$r$ 的最小值为(\\quad)。 $\\frac{\\sqrt{35}}5$ $1$ $2$ $\\frac{\\sqrt{10}}{10}$ $|a|=|b|=\\sqrt{10}$，且 $a=b\\times c$ 要求 $b\\perp a$，由 $|b\\times c|=|a|$ 得最小 $|c|=1$。",
+  "sort_order": 11
+}

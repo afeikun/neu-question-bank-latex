@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $y=x^3-1$，在 $x=2$ 处，下列说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\Delta x=2$ 时 $\\Delta y=48,dy=24$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\Delta x=0.1$ 时 $\\Delta y=1.3,dy=1.2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Delta x=1$ 时 $\\Delta y=18,dy=12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\Delta x=0.01$ 时 $\\Delta y=0.120601,dy=0.12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\Delta x=0.01$ 时按增量公式算得 $\\Delta y=0.120601$，$dy=0.12$。",
+  "search_text": "已知 $y=x^3-1$，在 $x=2$ 处，下列说法正确的是（ ）。 $\\Delta x=2$ 时 $\\Delta y=48,dy=24$ $\\Delta x=0.1$ 时 $\\Delta y=1.3,dy=1.2$ $\\Delta x=1$ 时 $\\Delta y=18,dy=12$ $\\Delta x=0.01$ 时 $\\Delta y=0.120601,dy=0.12$ $\\Delta x=0.01$ 时按增量公式算得 $\\Delta y=0.120601$，$dy=0.12$。",
+  "sort_order": 5
+}

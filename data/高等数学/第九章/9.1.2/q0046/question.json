@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $L$ 是圆 $x=a\\cos t,y=a\\sin t,t\\in[0,2\\pi]$，则 $\\int_L(x^2+y^2)^n ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi a^{2n}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi a^{n+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi a^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi a^{2n+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 $\\oint_L(x^2+y^2)^nds=\\oint_La^{2n}ds=a^{2n}\\oint_L1ds=a^{2n}\\bullet2\\pi a=2\\pi a^{2n+1}$",
+  "search_text": "若 $L$ 是圆 $x=a\\cos t,y=a\\sin t,t\\in[0,2\\pi]$，则 $\\int_L(x^2+y^2)^n ds=$（ ） $2\\pi a^{2n}$ $\\pi a^{n+1}$ $2\\pi a^n$ $2\\pi a^{2n+1}$ 解答 $\\oint_L(x^2+y^2)^nds=\\oint_La^{2n}ds=a^{2n}\\oint_L1ds=a^{2n}\\bullet2\\pi a=2\\pi a^{2n+1}$",
+  "sort_order": 46
+}

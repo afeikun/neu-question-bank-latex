@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "洗衣粉包装样本均值502，已知$\\sigma=2,n=9$，双侧检验500，错误说法是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "拒绝域仅$U\\le-1.96$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "用U检验"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "认为工作不正常"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$H_0:\\mu=500,H_1:\\mu\\ne500$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧拒绝域两侧均应包括，选项1漏掉右尾。",
+  "search_text": "洗衣粉包装样本均值502，已知$\\sigma=2,n=9$，双侧检验500，错误说法是（）。 拒绝域仅$U\\le-1.96$ 用U检验 认为工作不正常 $H_0:\\mu=500,H_1:\\mu\\ne500$ 双侧拒绝域两侧均应包括，选项1漏掉右尾。",
+  "sort_order": 27
+}

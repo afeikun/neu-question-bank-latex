@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若非齐次线性方程组 $Ax=b$ 中方程个数少于未知量个数，那么（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$Ax=0$ 必有非零解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$Ax=0$ 一定无解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$Ax=0$ 只有零解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$Ax=b$ 必有无穷多解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设方程个数为 $m$、未知量个数为 $n$，且 $m<n$，则 $r(A)\\le m<n$，故齐次方程组 $Ax=0$ 必有非零解。",
+  "search_text": "若非齐次线性方程组 $Ax=b$ 中方程个数少于未知量个数，那么（ ）。 $Ax=0$ 必有非零解 $Ax=0$ 一定无解 $Ax=0$ 只有零解 $Ax=b$ 必有无穷多解 设方程个数为 $m$、未知量个数为 $n$，且 $m<n$，则 $r(A)\\le m<n$，故齐次方程组 $Ax=0$ 必有非零解。",
+  "sort_order": 7
+}

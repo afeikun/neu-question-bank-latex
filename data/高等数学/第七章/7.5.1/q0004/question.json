@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $xy-z\\ln y+e^{xz}=1$ 在点 $(0,1,1)$ 附近可确定哪些隐函数？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "仅能确定一个具有连续偏导数的隐函数 $z=z(x,y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "可确定 $x=x(y,z)$ 和 $y=y(x,z)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "可确定 $y=y(x,z)$ 和 $z=z(x,y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可确定 $x=x(y,z)$ 和 $z=z(x,y)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "本题考查隐函数存在定理，只需令 $F(x,y,z)=xy-z\\ln y+e^{xz}-1$，分别求出三个偏导数 $F_z,F_x,F_y$，再考虑在点 $(0,1,1)$ 处哪个偏导数不为 $0$，则可确定相应的隐函数。\n\n令 $F(x,y,z)=xy-z\\ln y+e^{xz}-1$，则 $F_x'=y+e^{xz}z,\\quad F_y'=x-\\frac{z}{y},\\quad F_z'=-\\ln y+e^{xz}x$，\n\n且 $F_x'(0,1,1)=2,\\quad F_y'(0,1,1)=-1,\\quad F_z'(0,1,1)=0$。由此可确定相应的隐函数 $x=x(y,z)$ 和 $y=y(x,z)$。",
+  "search_text": "方程 $xy-z\\ln y+e^{xz}=1$ 在点 $(0,1,1)$ 附近可确定哪些隐函数？ 仅能确定一个具有连续偏导数的隐函数 $z=z(x,y)$ 可确定 $x=x(y,z)$ 和 $y=y(x,z)$ 可确定 $y=y(x,z)$ 和 $z=z(x,y)$ 可确定 $x=x(y,z)$ 和 $z=z(x,y)$ 本题考查隐函数存在定理，只需令 $F(x,y,z)=xy-z\\ln y+e^{xz}-1$，分别求出三个偏导数 $F_z,F_x,F_y$，再考虑在点 $(0,1,1)$ 处哪个偏导数不为 $0$，则可确定相应的隐函数。\n\n令 $F(x,y,z)=xy-z\\ln y+e^{xz}-1$，则 $F_x'=y+e^{xz}z,\\quad F_y'=x-\\frac{z}{y},\\quad F_z'=-\\ln y+e^{xz}x$，\n\n且 $F_x'(0,1,1)=2,\\quad F_y'(0,1,1)=-1,\\quad F_z'(0,1,1)=0$。由此可确定相应的隐函数 $x=x(y,z)$ 和 $y=y(x,z)$。",
+  "sort_order": 4
+}

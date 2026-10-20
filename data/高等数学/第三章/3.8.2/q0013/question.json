@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x^2-3xy+y^2=1$ 在点 $(1,0)$ 处的曲率半径 $R=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{13}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt{13}}{10}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{13\\sqrt{13}}{10}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$13\\sqrt{13}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "隐函数求导得 $y\\prime(1,0)=2/3$、$y\\prime\\prime(1,0)=-10/27$，由曲率公式得 $R=13\\sqrt{13}/10$。",
+  "search_text": "曲线 $x^2-3xy+y^2=1$ 在点 $(1,0)$ 处的曲率半径 $R=$（ ）。 $\\sqrt{13}$ $\\frac{\\sqrt{13}}{10}$ $\\frac{13\\sqrt{13}}{10}$ $13\\sqrt{13}$ 隐函数求导得 $y\\prime(1,0)=2/3$、$y\\prime\\prime(1,0)=-10/27$，由曲率公式得 $R=13\\sqrt{13}/10$。",
+  "sort_order": 13
+}

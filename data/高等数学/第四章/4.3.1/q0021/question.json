@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $y=f(x)$ 由方程 $\\int_0^y e^t\\,dt+\\int_0^{xy}\\cos t\\,dt=x$ 确定，则 $\\left.\\dfrac{dy}{dx}\\right|_{x=0}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "8"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "积分方程等价于 $e^y-1+\\sin(xy)=x$。当 $x=0$ 时 $y=0$；两边对 $x$ 求导得 $e^y y\\prime+\\cos(xy)(y+xy\\prime)=1$，代入 $(0,0)$ 得 $y\\prime(0)=1$。",
+  "search_text": "设函数 $y=f(x)$ 由方程 $\\int_0^y e^t\\,dt+\\int_0^{xy}\\cos t\\,dt=x$ 确定，则 $\\left.\\dfrac{dy}{dx}\\right|_{x=0}=$（ ）。 4 2 1 8 积分方程等价于 $e^y-1+\\sin(xy)=x$。当 $x=0$ 时 $y=0$；两边对 $x$ 求导得 $e^y y\\prime+\\cos(xy)(y+xy\\prime)=1$，代入 $(0,0)$ 得 $y\\prime(0)=1$。",
+  "sort_order": 21
+}

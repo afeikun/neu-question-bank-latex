@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_{x^2+y^2\\leq1}\\sqrt[3]{x^2+y^2}\\,d\\sigma$ 的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac53\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{10}{11}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac34\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{10}{7}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答　令 $x=r\\cos\\theta,y=r\\sin\\theta,0\\leq\\theta\\leq2\\pi,0\\leq r\\leq1$，则有\n\n原式$=\\int_0^{2\\pi}d\\theta\\int_0^1r^{\\frac{2}{3}}rdr=\\frac{3}{4}\\pi$。",
+  "search_text": "二重积分 $\\iint_{x^2+y^2\\leq1}\\sqrt[3]{x^2+y^2}\\,d\\sigma$ 的值为[\\quad] $\\frac53\\pi$ $\\frac{10}{11}\\pi$ $\\frac34\\pi$ $\\frac{10}{7}\\pi$ 解答　令 $x=r\\cos\\theta,y=r\\sin\\theta,0\\leq\\theta\\leq2\\pi,0\\leq r\\leq1$，则有\n\n原式$=\\int_0^{2\\pi}d\\theta\\int_0^1r^{\\frac{2}{3}}rdr=\\frac{3}{4}\\pi$。",
+  "sort_order": 16
+}

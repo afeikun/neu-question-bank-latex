@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$取1,2,3，概率分别为$a,2a,0.4$，求$a$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$a+2a+0.4=1$，得$a=0.2$。",
+  "search_text": "$X$取1,2,3，概率分别为$a,2a,0.4$，求$a$。 $0.2$ $0.1$ $1$ $2$ $a+2a+0.4=1$，得$a=0.2$。",
+  "sort_order": 18
+}

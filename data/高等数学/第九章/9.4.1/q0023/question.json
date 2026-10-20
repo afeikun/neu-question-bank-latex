@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$D_{xy}:x^2+y^2\\le a^2$，则必有（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\oiint_\\Sigma z^3dxdy=3\\iint_{D_{xy}}(a^2-x^2-y^2)dxdy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\oiint_\\Sigma z^3dxdy=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\oiint_\\Sigma z^2dxdy=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\oiint_\\Sigma z^2dxdy=2\\iint_{D_{xy}}(a^2-x^2-y^2)dxdy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 分为上半球 $\\Sigma_1$ 和下半球 $\\Sigma_2$，$\\Sigma_1$ 取上侧，$\\Sigma_2$ 取下侧，\n$$\\iint_\\Sigma z^2dxdy=\\iint_{\\Sigma_1}z^2dxdy+\\iint_{\\Sigma_2}z^2dxdy=\\iint_{D_{xy}}z^2dxdy-\\iint_{D_{xy}}z^2dxdy=0$$",
+  "search_text": "设 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$D_{xy}:x^2+y^2\\le a^2$，则必有（ ） $\\oiint_\\Sigma z^3dxdy=3\\iint_{D_{xy}}(a^2-x^2-y^2)dxdy$ $\\oiint_\\Sigma z^3dxdy=0$ $\\oiint_\\Sigma z^2dxdy=0$ $\\oiint_\\Sigma z^2dxdy=2\\iint_{D_{xy}}(a^2-x^2-y^2)dxdy$ 解答 $\\Sigma$ 分为上半球 $\\Sigma_1$ 和下半球 $\\Sigma_2$，$\\Sigma_1$ 取上侧，$\\Sigma_2$ 取下侧，\n$$\\iint_\\Sigma z^2dxdy=\\iint_{\\Sigma_1}z^2dxdy+\\iint_{\\Sigma_2}z^2dxdy=\\iint_{D_{xy}}z^2dxdy-\\iint_{D_{xy}}z^2dxdy=0$$",
+  "sort_order": 23
+}

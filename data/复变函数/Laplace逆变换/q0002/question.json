@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(s)=\\frac{5e^{-s}}{s^3+s^2+4s+4}$，则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(e^{-(t-1)}-\\cos 2(t-1)+\\frac12\\sin 2(t-1))u(t-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(e^{-(t-1)}+\\cos 2(t-1)+\\frac12\\sin 2(t-1))u(t-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac12\\sin 2(t-1)-\\cos 2(t-1))u(t-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac12\\sin 2(t-1)+\\cos 2(t-1))u(t-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "先作部分分式分解，再用第二平移定理，得到选项1。",
+  "search_text": "设 $F(s)=\\frac{5e^{-s}}{s^3+s^2+4s+4}$，则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$ $(e^{-(t-1)}-\\cos 2(t-1)+\\frac12\\sin 2(t-1))u(t-1)$ $(e^{-(t-1)}+\\cos 2(t-1)+\\frac12\\sin 2(t-1))u(t-1)$ $(\\frac12\\sin 2(t-1)-\\cos 2(t-1))u(t-1)$ $(\\frac12\\sin 2(t-1)+\\cos 2(t-1))u(t-1)$ 先作部分分式分解，再用第二平移定理，得到选项1。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体抽样值1502,1453,1367,1650，矩估计$\\mu,\\sigma^2$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1493,10551.5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1497,8441.2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1493,14068.7$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1493,8441.2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\hat\\mu=1493$，按$n^{-1}$中心矩计算$\\hat\\sigma^2=10551.5$。",
+  "search_text": "正态总体抽样值1502,1453,1367,1650，矩估计$\\mu,\\sigma^2$。 $1493,10551.5$ $1497,8441.2$ $1493,14068.7$ $1493,8441.2$ $\\hat\\mu=1493$，按$n^{-1}$中心矩计算$\\hat\\sigma^2=10551.5$。",
+  "sort_order": 5
+}

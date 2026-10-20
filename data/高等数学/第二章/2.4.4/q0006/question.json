@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\cos60^\\circ30'$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{\\sqrt3\\pi}{720}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12-\\frac{\\sqrt3\\pi}{720}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12-\\frac{\\sqrt3\\pi}{360}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12+\\frac{\\sqrt3\\pi}{720}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取 $f(x)=\\cos x$，$f'(\\frac\\pi3)=-\\frac{\\sqrt3}{2}$。于是 $\\cos(60^\\circ30')\\approx f(\\frac\\pi3)+f'(\\frac\\pi3)\\frac{\\pi}{360}=\\frac12-\\frac{\\sqrt3\\pi}{720}$。",
+  "search_text": "$\\cos60^\\circ30'$ 的近似值为 $(\\quad)$。 $-\\frac{\\sqrt3\\pi}{720}$ $\\frac12-\\frac{\\sqrt3\\pi}{720}$ $\\frac12-\\frac{\\sqrt3\\pi}{360}$ $\\frac12+\\frac{\\sqrt3\\pi}{720}$ 取 $f(x)=\\cos x$，$f'(\\frac\\pi3)=-\\frac{\\sqrt3}{2}$。于是 $\\cos(60^\\circ30')\\approx f(\\frac\\pi3)+f'(\\frac\\pi3)\\frac{\\pi}{360}=\\frac12-\\frac{\\sqrt3\\pi}{720}$。",
+  "sort_order": 6
+}

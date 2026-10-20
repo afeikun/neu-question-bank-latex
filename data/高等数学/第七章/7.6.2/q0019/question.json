@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $xe^{yz}+y^2e^{2z}+z^3e^{3x}=\\frac2e+1$ 在点 $P(2,-1,0)$ 处的法线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-2=\\frac{y+1}{2-2e}=\\frac z e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-2=\\frac{y+1}{2-e}=\\frac z e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-2=\\frac{y+1}{2-e}=\\frac z{2e}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-2=\\frac{y+1}{2-2e}=\\frac z{2e}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=xe^{yz}+y^2e^{2z}+z^3e^{3x}-\\frac{2}{e}-1$，则：\n\n$$F_x=e^{yz}+3z^3e^{3x},\\quad F_y=xe^{yz}+2ye^{2z},\\quad F_z=2y^2e^{2z}+3z^2e^{3x},$$\n\n$$F_x(P)=e^{-1},\\quad F_y(P)=2e^{-1}-2,\\quad F_z(P)=2,$$\n\n则曲线在点 $P$ 处的法线方程为：\n\n$$\\frac{x-2}{e^{-1}}=\\frac{y+1}{2e^{-1}-2}=\\frac{z}{2},$$\n\n即：$x-2=\\frac{y+1}{2-2e}=\\frac{z}{2e}$。",
+  "search_text": "曲面 $xe^{yz}+y^2e^{2z}+z^3e^{3x}=\\frac2e+1$ 在点 $P(2,-1,0)$ 处的法线方程为。 $x-2=\\frac{y+1}{2-2e}=\\frac z e$ $x-2=\\frac{y+1}{2-e}=\\frac z e$ $x-2=\\frac{y+1}{2-e}=\\frac z{2e}$ $x-2=\\frac{y+1}{2-2e}=\\frac z{2e}$ 设 $F(x,y,z)=xe^{yz}+y^2e^{2z}+z^3e^{3x}-\\frac{2}{e}-1$，则：\n\n$$F_x=e^{yz}+3z^3e^{3x},\\quad F_y=xe^{yz}+2ye^{2z},\\quad F_z=2y^2e^{2z}+3z^2e^{3x},$$\n\n$$F_x(P)=e^{-1},\\quad F_y(P)=2e^{-1}-2,\\quad F_z(P)=2,$$\n\n则曲线在点 $P$ 处的法线方程为：\n\n$$\\frac{x-2}{e^{-1}}=\\frac{y+1}{2e^{-1}-2}=\\frac{z}{2},$$\n\n即：$x-2=\\frac{y+1}{2-2e}=\\frac{z}{2e}$。",
+  "sort_order": 19
+}

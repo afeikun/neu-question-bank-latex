@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不求导数，判断 $f(x)=(x-1)(x-2)(x-3)(x-4)$ 的二阶导数有 $(\\quad)$ 零点。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无法判断"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由罗尔定理，$f'$ 在三个相邻根区间各有一根。再对 $f'$ 在这些根之间应用罗尔定理，$f''$ 至少有两个零点；$f''$ 为二次多项式，故恰有两个零点。",
+  "search_text": "不求导数，判断 $f(x)=(x-1)(x-2)(x-3)(x-4)$ 的二阶导数有 $(\\quad)$ 零点。 3 个 2 个 1 个 无法判断 由罗尔定理，$f'$ 在三个相邻根区间各有一根。再对 $f'$ 在这些根之间应用罗尔定理，$f''$ 至少有两个零点；$f''$ 为二次多项式，故恰有两个零点。",
+  "sort_order": 14
+}

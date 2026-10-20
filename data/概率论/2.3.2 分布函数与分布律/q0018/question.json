@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F(x)=0(x<-2),\\frac12(-2\\le x<0),1(x\\ge0)$，它是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不可能为分布函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "某离散型随机变量分布函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "既非连续也非离散型分布函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "某连续型随机变量分布函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "这是阶梯型分布函数，对应离散型随机变量。",
+  "search_text": "$F(x)=0(x<-2),\\frac12(-2\\le x<0),1(x\\ge0)$，它是？ 不可能为分布函数 某离散型随机变量分布函数 既非连续也非离散型分布函数 某连续型随机变量分布函数 这是阶梯型分布函数，对应离散型随机变量。",
+  "sort_order": 18
+}

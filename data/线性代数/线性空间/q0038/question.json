@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知向量空间 $V=\\left\\{\\begin{pmatrix}a&b\\\\a+b&a-b\\end{pmatrix}\\middle|a,b\\in\\mathbb{R}\\right\\}$，则 $V$ 的维数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$V=\\operatorname{span}\\left\\{\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix},\\begin{pmatrix}0&1\\\\1&-1\\end{pmatrix}\\right\\}$，两个生成矩阵线性无关，因此 $\\operatorname{dim}V=2$。",
+  "search_text": "已知向量空间 $V=\\left\\{\\begin{pmatrix}a&b\\\\a+b&a-b\\end{pmatrix}\\middle|a,b\\in\\mathbb{R}\\right\\}$，则 $V$ 的维数为（ ）。 $3$ $0$ $2$ $1$ $V=\\operatorname{span}\\left\\{\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix},\\begin{pmatrix}0&1\\\\1&-1\\end{pmatrix}\\right\\}$，两个生成矩阵线性无关，因此 $\\operatorname{dim}V=2$。",
+  "sort_order": 38
+}

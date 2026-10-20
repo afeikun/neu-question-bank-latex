@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "摆线 $x=a\\cos^3t,y=a\\sin^3t$ 上各点线密度等于该点到原点距离的立方，原点有单位质点，求第一象限弧段对该质点的引力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F_x=F_y=\\frac35ka^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F_x=\\frac35ka^2,\\ F_y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F_x=F_y=a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F_x=F_y=\\frac34ka^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "按弧长微元积分，两个分量相同，$F_x=F_y=3ka^2/5$。",
+  "search_text": "摆线 $x=a\\cos^3t,y=a\\sin^3t$ 上各点线密度等于该点到原点距离的立方，原点有单位质点，求第一象限弧段对该质点的引力。 $F_x=F_y=\\frac35ka^2$ $F_x=\\frac35ka^2,\\ F_y=0$ $F_x=F_y=a^2$ $F_x=F_y=\\frac34ka^2$ 按弧长微元积分，两个分量相同，$F_x=F_y=3ka^2/5$。",
+  "sort_order": 2
+}

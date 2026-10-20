@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $U(x_0,\\delta)$ 内可导，且在点 $x_0$ 处取得极大值，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f\\prime\\prime(x_0)<0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f\\prime(x_0)=0$ 或 $f\\prime\\prime(x_0)<0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f\\prime(x_0)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(x_0)=0$ 或 $f\\prime(x_0)$ 不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "函数在邻域内可导且在 $x_0$ 处有极值，由费马定理必有 $f\\prime(x_0)=0$。",
+  "search_text": "函数 $f(x)$ 在 $U(x_0,\\delta)$ 内可导，且在点 $x_0$ 处取得极大值，则必有（ ）。 $f\\prime\\prime(x_0)<0$ $f\\prime(x_0)=0$ 或 $f\\prime\\prime(x_0)<0$ $f\\prime(x_0)=0$ $f\\prime(x_0)=0$ 或 $f\\prime(x_0)$ 不存在 函数在邻域内可导且在 $x_0$ 处有极值，由费马定理必有 $f\\prime(x_0)=0$。",
+  "sort_order": 17
+}

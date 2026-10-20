@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}2^n n!/n^n$ (1) 与 $\\sum_{n=1}^{\\infty}3^n n!/n^n$ (2)，则？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)(2)都收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)收敛(2)发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)发散(2)收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)(2)都发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "比值极限分别为 $2/e<1$、$3/e>1$，故(1)收敛、(2)发散。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}2^n n!/n^n$ (1) 与 $\\sum_{n=1}^{\\infty}3^n n!/n^n$ (2)，则？ (1)(2)都收敛 (1)收敛(2)发散 (1)发散(2)收敛 (1)(2)都发散 比值极限分别为 $2/e<1$、$3/e>1$，故(1)收敛、(2)发散。",
+  "sort_order": 34
+}

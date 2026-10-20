@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=\\begin{pmatrix}1&1&-1\\\\-1&1&1\\\\1&-1&1\\end{pmatrix}$，矩阵 $X$ 满足 $A^*X=A^{-1}+2X$，其中 $A^*$ 是 $A$ 的伴随矩阵，则 $X=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac14\\begin{pmatrix}1&1&0\\\\0&-1&1\\\\1&0&-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12\\begin{pmatrix}1&1&0\\\\0&-1&1\\\\1&0&-1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $A^*X=A^{-1}+2X$，得 $(|A|E-2A)X=E$。又 $|A|=4$，所以 $|A|E-2A=2\\begin{pmatrix}1&-1&1\\\\1&1&-1\\\\-1&1&1\\end{pmatrix}$，其逆矩阵为 $\\frac14\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{pmatrix}$。",
+  "search_text": "设矩阵 $A=\\begin{pmatrix}1&1&-1\\\\-1&1&1\\\\1&-1&1\\end{pmatrix}$，矩阵 $X$ 满足 $A^*X=A^{-1}+2X$，其中 $A^*$ 是 $A$ 的伴随矩阵，则 $X=$（ ）。 $\\frac14\\begin{pmatrix}1&1&0\\\\0&-1&1\\\\1&0&-1\\end{pmatrix}$ $\\frac12\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{pmatrix}$ $\\frac14\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{pmatrix}$ $\\frac12\\begin{pmatrix}1&1&0\\\\0&-1&1\\\\1&0&-1\\end{pmatrix}$ 由 $A^*X=A^{-1}+2X$，得 $(|A|E-2A)X=E$。又 $|A|=4$，所以 $|A|E-2A=2\\begin{pmatrix}1&-1&1\\\\1&1&-1\\\\-1&1&1\\end{pmatrix}$，其逆矩阵为 $\\frac14\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{pmatrix}$。",
+  "sort_order": 22
+}

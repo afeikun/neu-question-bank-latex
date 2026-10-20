@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知三角形的顶点为 $A(1,1,1)$，$B(2,3,4)$，$C(4,3,2)$，则 $\\triangle ABC$ 的面积为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\sqrt6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\sqrt6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\overrightarrow{AB}=(1,2,3)$，$\\overrightarrow{AC}=(3,2,1)$，面积 $S=\\frac12|\\overrightarrow{AB}\\times\\overrightarrow{AC}|=2\\sqrt6$。",
+  "search_text": "已知三角形的顶点为 $A(1,1,1)$，$B(2,3,4)$，$C(4,3,2)$，则 $\\triangle ABC$ 的面积为(\\quad)。 $4\\sqrt6$ $\\sqrt6$ $3\\sqrt3$ $2\\sqrt6$ $\\overrightarrow{AB}=(1,2,3)$，$\\overrightarrow{AC}=(3,2,1)$，面积 $S=\\frac12|\\overrightarrow{AB}\\times\\overrightarrow{AC}|=2\\sqrt6$。",
+  "sort_order": 1
+}

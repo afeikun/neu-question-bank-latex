@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha=(1\\quad0\\quad-1)^T$，矩阵 $A=\\alpha\\alpha^T$，$n$ 为正整数，则 $|bE-A^n|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$b^2(b+2^n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$b^2(b-2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$b^2(b-2^n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$b^2(b+2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由于 $A=\\alpha\\alpha^T=\\begin{pmatrix}1&0&-1\\\\0&0&0\\\\-1&0&1\\end{pmatrix}$，$\\alpha^T\\alpha=2$，所以 $A^2=\\alpha(\\alpha^T\\alpha)\\alpha^T=2\\alpha\\alpha^T=2A$，$A^n=2^{n-1}A$。所以 $|bE-A^n|=|bE-2^{n-1}A|=\\begin{vmatrix}b-2^{n-1}&0&2^{n-1}\\\\0&b&0\\\\2^{n-1}&0&b-2^{n-1}\\end{vmatrix}=b^2(b-2^n)$。",
+  "search_text": "设 $\\alpha=(1\\quad0\\quad-1)^T$，矩阵 $A=\\alpha\\alpha^T$，$n$ 为正整数，则 $|bE-A^n|=$（ ）。 $b^2(b+2^n)$ $b^2(b-2)$ $b^2(b-2^n)$ $b^2(b+2)$ 由于 $A=\\alpha\\alpha^T=\\begin{pmatrix}1&0&-1\\\\0&0&0\\\\-1&0&1\\end{pmatrix}$，$\\alpha^T\\alpha=2$，所以 $A^2=\\alpha(\\alpha^T\\alpha)\\alpha^T=2\\alpha\\alpha^T=2A$，$A^n=2^{n-1}A$。所以 $|bE-A^n|=|bE-2^{n-1}A|=\\begin{vmatrix}b-2^{n-1}&0&2^{n-1}\\\\0&b&0\\\\2^{n-1}&0&b-2^{n-1}\\end{vmatrix}=b^2(b-2^n)$。",
+  "sort_order": 65
+}

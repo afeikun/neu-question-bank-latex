@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $[a,b]$ 上可积的必要条件是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)$ 在 $[a,b]$ 上存在极值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)$ 在 $[a,b]$ 上有界"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)$ 在 $[a,b]$ 上可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)$ 在 $[a,b]$ 上连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "可积函数在闭区间上必有界。",
+  "search_text": "函数 $f(x)$ 在 $[a,b]$ 上可积的必要条件是 $f(x)$ 在 $[a,b]$ 上存在极值 $f(x)$ 在 $[a,b]$ 上有界 $f(x)$ 在 $[a,b]$ 上可导 $f(x)$ 在 $[a,b]$ 上连续 可积函数在闭区间上必有界。",
+  "sort_order": 31
+}

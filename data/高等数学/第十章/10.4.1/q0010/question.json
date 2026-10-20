@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\frac{(y^2+2xy+ax^2)dx-(x^2+2xy+by^2)dy}{(x^2+y^2)^2}$ 是某二元函数的全微分，求 $a,b$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=-1,b=-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=-1,b=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=1,b=-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=1,b=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P=\\frac{y^2+2xy+ax^2}{(x^2+y^2)^2},Q=-\\frac{x^2+2xy+by^2}{(x^2+y^2)^2}$；\n\n$$\\frac{\\partial P}{\\partial y}=\\frac{2y+2x}{(x^2+y^2)^2}-\\frac{4y(y^2+2xy+ax^2)}{(x^2+y^2)^3},$$\n\n$$\\frac{\\partial Q}{\\partial x}=-\\frac{2y+2x}{(x^2+y^2)^2}+\\frac{4x(x^2+2xy+by^2)}{(x^2+y^2)^3},$$\n\n由全微分条件 $\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$，\n\n故 $(a+1)x^2y+(b+1)xy^2=0$，\n\n即 $a=-1,b=-1$。",
+  "search_text": "若 $\\frac{(y^2+2xy+ax^2)dx-(x^2+2xy+by^2)dy}{(x^2+y^2)^2}$ 是某二元函数的全微分，求 $a,b$（ ） $a=-1,b=-1$ $a=-1,b=1$ $a=1,b=-1$ $a=1,b=1$ $P=\\frac{y^2+2xy+ax^2}{(x^2+y^2)^2},Q=-\\frac{x^2+2xy+by^2}{(x^2+y^2)^2}$；\n\n$$\\frac{\\partial P}{\\partial y}=\\frac{2y+2x}{(x^2+y^2)^2}-\\frac{4y(y^2+2xy+ax^2)}{(x^2+y^2)^3},$$\n\n$$\\frac{\\partial Q}{\\partial x}=-\\frac{2y+2x}{(x^2+y^2)^2}+\\frac{4x(x^2+2xy+by^2)}{(x^2+y^2)^3},$$\n\n由全微分条件 $\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$，\n\n故 $(a+1)x^2y+(b+1)xy^2=0$，\n\n即 $a=-1,b=-1$。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $L$ 为 $z=x^2+y^2$ 与 $x^2+y^2=2ay$ 的交线，从 $z$ 轴正向看去为顺时针方向，计算 $\\oint_L y^2dx+x^2dz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\pi a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "图示标签：$z$ 轴向上，$x$ 轴向右，$y$ 轴斜向左下；标有 $O$、$2a$、$\\vec n$，虚线画出上方椭圆及两侧边界，底部画有椭圆，内部实线曲线上有箭头。\n\n由斯托克斯公式\n\n$$\\oint_L y^2dx+x^2dz=\\iint_\\Sigma\\begin{vmatrix}dydz&dzdx&dxdy\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\y^2&0&x^2\\end{vmatrix}=\\iint_\\Sigma-2x\\,dzdx-2y\\,dxdy=\\iint_{D_{zx}}(-2x)dzdx-\\iint_{D_{xy}}(-2y)dxdy$$\n\n其中 $D_{zx},D_{xy}$ 分别为 $\\Sigma$ 在 $zOx$ 面与 $xOy$ 面上的投影区域，由 $\\Sigma$ 的对称性易知，$D_{zx}$ 关于 $z$ 轴对称，而 $-2x$ 为 $x$ 的奇函数，所以\n\n$$\\iint_{D_{zx}}(-2x)dzdx=0$$\n\n$$\\oint_L y^2dx+x^2dz=2\\iint_{D_{xy}}ydxdy=2\\iint_{x^2+y^2\\leq 2ay}ydxdy=2\\int_0^\\pi d\\theta\\int_0^{2a\\sin\\theta}r\\sin\\theta\\,rdr$$\n\n故\n\n$$=2\\int_0^\\pi\\sin\\theta\\cdot\\left.\\frac{r^3}{3}\\right|_{r=0}^{r=2a\\sin\\theta}d\\theta=\\frac{16}{3}a^3\\int_0^\\pi\\sin^4\\theta\\,d\\theta=2\\pi a^3$$",
+  "search_text": "已知 $L$ 为 $z=x^2+y^2$ 与 $x^2+y^2=2ay$ 的交线，从 $z$ 轴正向看去为顺时针方向，计算 $\\oint_L y^2dx+x^2dz=$（ ） $2\\pi a^3$ $\\pi a^3$ $-2\\pi a^3$ $-\\pi a^3$ 图示标签：$z$ 轴向上，$x$ 轴向右，$y$ 轴斜向左下；标有 $O$、$2a$、$\\vec n$，虚线画出上方椭圆及两侧边界，底部画有椭圆，内部实线曲线上有箭头。\n\n由斯托克斯公式\n\n$$\\oint_L y^2dx+x^2dz=\\iint_\\Sigma\\begin{vmatrix}dydz&dzdx&dxdy\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\y^2&0&x^2\\end{vmatrix}=\\iint_\\Sigma-2x\\,dzdx-2y\\,dxdy=\\iint_{D_{zx}}(-2x)dzdx-\\iint_{D_{xy}}(-2y)dxdy$$\n\n其中 $D_{zx},D_{xy}$ 分别为 $\\Sigma$ 在 $zOx$ 面与 $xOy$ 面上的投影区域，由 $\\Sigma$ 的对称性易知，$D_{zx}$ 关于 $z$ 轴对称，而 $-2x$ 为 $x$ 的奇函数，所以\n\n$$\\iint_{D_{zx}}(-2x)dzdx=0$$\n\n$$\\oint_L y^2dx+x^2dz=2\\iint_{D_{xy}}ydxdy=2\\iint_{x^2+y^2\\leq 2ay}ydxdy=2\\int_0^\\pi d\\theta\\int_0^{2a\\sin\\theta}r\\sin\\theta\\,rdr$$\n\n故\n\n$$=2\\int_0^\\pi\\sin\\theta\\cdot\\left.\\frac{r^3}{3}\\right|_{r=0}^{r=2a\\sin\\theta}d\\theta=\\frac{16}{3}a^3\\int_0^\\pi\\sin^4\\theta\\,d\\theta=2\\pi a^3$$",
+  "sort_order": 2
+}

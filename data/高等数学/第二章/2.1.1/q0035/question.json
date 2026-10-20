@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f\\prime(a)$ 存在，则 $\\lim_{x\\to a}\\frac{xf(a)-af(x)}{x-a}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$af\\prime(a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-af\\prime(a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(a)-af\\prime(a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "分子展开为 $(x-a)f(a)-a(f(x)-f(a))$，故极限为 $f(a)-af\\prime(a)$。",
+  "search_text": "已知 $f\\prime(a)$ 存在，则 $\\lim_{x\\to a}\\frac{xf(a)-af(x)}{x-a}=$（ ）。 $af\\prime(a)$ $-af\\prime(a)$ $f(a)-af\\prime(a)$ $f\\prime(a)$ 分子展开为 $(x-a)f(a)-a(f(x)-f(a))$，故极限为 $f(a)-af\\prime(a)$。",
+  "sort_order": 35
+}

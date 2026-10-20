@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f在[−a,a]连续，求∫₋ₐᵃ x³[f(x)+f(−x)]dx的值",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "小于0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "大于0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "等于0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不等于0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "被积函数为奇函数，对称区间积分为零。",
+  "search_text": "f在[−a,a]连续，求∫₋ₐᵃ x³[f(x)+f(−x)]dx的值 小于0 大于0 等于0 不等于0 被积函数为奇函数，对称区间积分为零。",
+  "sort_order": 3
+}

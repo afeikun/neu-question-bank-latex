@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\lim_{x\\to0}\\frac{\\sqrt[10]{1+x}-1}{x}$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "10"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "9"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{10}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac19$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $y=(1+x)^{1/10}$，则 $x=y^{10}-1$，极限为 $1/(1+1+\\cdots+1)=1/10$。",
+  "search_text": "求 $\\lim_{x\\to0}\\frac{\\sqrt[10]{1+x}-1}{x}$（ ）。 10 9 $\\frac1{10}$ $\\frac19$ 令 $y=(1+x)^{1/10}$，则 $x=y^{10}-1$，极限为 $1/(1+1+\\cdots+1)=1/10$。",
+  "sort_order": 60
+}

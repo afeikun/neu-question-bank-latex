@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=\\begin{cases}x\\arctan\\frac yx,&x\\ne0\\\\0,&x=0\\end{cases}$ 不连续的点集为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=0,y\\le0$ 的点集"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=0,y\\ge0$ 的点集"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y$ 轴上的所有点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "空集"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由题知，不连续的点可能为 $x=0$，因为 $\\lim_{x\\to0}f(x,y)=\\lim_{x\\to0}x\\arctan\\frac{y}{x}=f(0,0)$，所以不连续点集为空集.",
+  "search_text": "函数 $f(x,y)=\\begin{cases}x\\arctan\\frac yx,&x\\ne0\\\\0,&x=0\\end{cases}$ 不连续的点集为(\\quad)。 $x=0,y\\le0$ 的点集 $x=0,y\\ge0$ 的点集 $y$ 轴上的所有点 空集 由题知，不连续的点可能为 $x=0$，因为 $\\lim_{x\\to0}f(x,y)=\\lim_{x\\to0}x\\arctan\\frac{y}{x}=f(0,0)$，所以不连续点集为空集.",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&1&1\\\\0&1&1\\\\0&0&1\\end{pmatrix},\\ B=\\begin{pmatrix}-3\\\\2\\\\-1\\end{pmatrix}$，则使 $AX=B$ 的 $X$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1,2,2)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1,-1,2)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-5,3,-1)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-3,-1,2)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解三角方程组或计算 $X=A^{-1}B$，得 $(-5,3,-1)^T$，选项 3。",
+  "search_text": "设 $A=\\begin{pmatrix}1&1&1\\\\0&1&1\\\\0&0&1\\end{pmatrix},\\ B=\\begin{pmatrix}-3\\\\2\\\\-1\\end{pmatrix}$，则使 $AX=B$ 的 $X$ 为(\\quad)。 $(1,2,2)^T$ $(1,-1,2)^T$ $(-5,3,-1)^T$ $(-3,-1,2)^T$ 解三角方程组或计算 $X=A^{-1}B$，得 $(-5,3,-1)^T$，选项 3。",
+  "sort_order": 40
+}

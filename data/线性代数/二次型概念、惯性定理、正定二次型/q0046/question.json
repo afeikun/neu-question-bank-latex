@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A、B$ 为同阶正定矩阵，则下列正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A+B$ 不一定正定，但 $AB$ 正定"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$AB、A+B$ 都正定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$AB、A+B$ 都不正定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$AB$ 不一定正定，但 $A+B$ 正定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对任意非零向量 $x$，有 $x^TAx>0$、$x^TBx>0$，所以 $x^T(A+B)x>0$，故 $A+B$ 正定；但 $AB$ 不一定对称，也不一定正定。因此选项 $4$ 正确。",
+  "search_text": "设 $A、B$ 为同阶正定矩阵，则下列正确的是（ ）。 $A+B$ 不一定正定，但 $AB$ 正定 $AB、A+B$ 都正定 $AB、A+B$ 都不正定 $AB$ 不一定正定，但 $A+B$ 正定 对任意非零向量 $x$，有 $x^TAx>0$、$x^TBx>0$，所以 $x^T(A+B)x>0$，故 $A+B$ 正定；但 $AB$ 不一定对称，也不一定正定。因此选项 $4$ 正确。",
+  "sort_order": 46
+}

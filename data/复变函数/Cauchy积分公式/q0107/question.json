@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z-2|=1}\\frac{\\sinh(\\frac{\\pi}{2}(z-1)i)}{z^2-2z}\\,dz=(\\quad)$（方向正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sinh\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆内只有奇点 $2$，积分为 $2\\pi i f(2)=\\pi i\\sinh(\\frac{\\pi i}{2})=-\\pi$。",
+  "search_text": "$\\oint_{|z-2|=1}\\frac{\\sinh(\\frac{\\pi}{2}(z-1)i)}{z^2-2z}\\,dz=(\\quad)$（方向正向）。 $-\\pi$ $\\sinh\\frac\\pi2$ $i$ $\\frac12i$ 被积函数在圆内只有奇点 $2$，积分为 $2\\pi i f(2)=\\pi i\\sinh(\\frac{\\pi i}{2})=-\\pi$。",
+  "sort_order": 107
+}

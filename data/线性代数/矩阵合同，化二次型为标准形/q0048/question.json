@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x$ 为 $n$ 维单位列向量，$H=E-2xx^T$，则矩阵 $H$ 是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正交但不对称"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "对称且正交"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "对称但不正交"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不正交也不对称"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$H^T=H$，且 $HH^T=(E-2xx^T)^2=E$（因 $x^Tx=1$），所以 $H$ 对称且正交，选项 2。",
+  "search_text": "设 $x$ 为 $n$ 维单位列向量，$H=E-2xx^T$，则矩阵 $H$ 是(\\quad)。 正交但不对称 对称且正交 对称但不正交 不正交也不对称 $H^T=H$，且 $HH^T=(E-2xx^T)^2=E$（因 $x^Tx=1$），所以 $H$ 对称且正交，选项 2。",
+  "sort_order": 48
+}

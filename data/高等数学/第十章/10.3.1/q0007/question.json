@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime-xy=\\frac5{x^2}e^{x^2/2}$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^{-x^2/2}(-\\frac5x+c)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{-x^2/2}(\\frac5x+c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^{x^2/2}(-\\frac5x+c)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^{x^2/2}(\\frac5x+c)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "该方程是一阶线性非齐次方程，其中\n\n$P(x)=-x,Q(x)=\\frac{5}{x^2}e^{\\frac{1}{2}x^2}$\n\n利用求解公式，得 $y=e^{\\int xdx}\\left(\\int\\frac{5}{x^2}e^{\\frac{x^2}{2}}e^{-\\int xdx}dx+c\\right)=e^{\\frac{x^2}{2}}(-\\frac{5}{x}+c)$",
+  "search_text": "微分方程 $y\\prime-xy=\\frac5{x^2}e^{x^2/2}$ 的解为（ ） $y=e^{-x^2/2}(-\\frac5x+c)$ $y=e^{-x^2/2}(\\frac5x+c)$ $y=e^{x^2/2}(-\\frac5x+c)$ $y=e^{x^2/2}(\\frac5x+c)$ 该方程是一阶线性非齐次方程，其中\n\n$P(x)=-x,Q(x)=\\frac{5}{x^2}e^{\\frac{1}{2}x^2}$\n\n利用求解公式，得 $y=e^{\\int xdx}\\left(\\int\\frac{5}{x^2}e^{\\frac{x^2}{2}}e^{-\\int xdx}dx+c\\right)=e^{\\frac{x^2}{2}}(-\\frac{5}{x}+c)$",
+  "sort_order": 7
+}

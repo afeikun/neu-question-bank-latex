@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两直线 $l_1:x-1=y=-(z+1)$ 与 $l_2:x=-(y-1)=\\frac{z+1}{0}$ 的位置关系为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "异面且垂直"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "异面但不垂直"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "相交且垂直"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "相交但不垂直"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：因 $\\vec{s}_1=(1,1,-1)，\\vec{s}_2=(1,-1,0)$ 且 $\\frac{1}{1}\\ne\\frac{1}{-1}$，所以两直线不平行。在 $l_1，l_2$ 上分别取一点 $P(1,0,-1)，Q(0,1,-1)$，则 $\\overrightarrow{QP}=(1,-1,0)$，因 $[\\vec{s}_1\\vec{s}_2\\overrightarrow{QP}]=\\begin{vmatrix}1&1&-1\\\\1&-1&0\\\\1&-1&0\\end{vmatrix}=0$，所以两直线共面且相交，\n\n又因 $\\vec{s}_1\\cdot\\vec{s}_2=(1,1,-1)\\cdot(1,-1,0)=0$，所以两直线垂直，即两直线相交且垂直。",
+  "search_text": "两直线 $l_1:x-1=y=-(z+1)$ 与 $l_2:x=-(y-1)=\\frac{z+1}{0}$ 的位置关系为(\\quad)。 异面且垂直 异面但不垂直 相交且垂直 相交但不垂直 解答：因 $\\vec{s}_1=(1,1,-1)，\\vec{s}_2=(1,-1,0)$ 且 $\\frac{1}{1}\\ne\\frac{1}{-1}$，所以两直线不平行。在 $l_1，l_2$ 上分别取一点 $P(1,0,-1)，Q(0,1,-1)$，则 $\\overrightarrow{QP}=(1,-1,0)$，因 $[\\vec{s}_1\\vec{s}_2\\overrightarrow{QP}]=\\begin{vmatrix}1&1&-1\\\\1&-1&0\\\\1&-1&0\\end{vmatrix}=0$，所以两直线共面且相交，\n\n又因 $\\vec{s}_1\\cdot\\vec{s}_2=(1,1,-1)\\cdot(1,-1,0)=0$，所以两直线垂直，即两直线相交且垂直。",
+  "sort_order": 8
+}

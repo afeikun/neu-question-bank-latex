@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "独立射击直到第二次命中，$\\xi$为第一次命中射击次数，$\\eta$为第一次命中后又射击的次数，命中率$p$，求联合分布律。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p^2q^{m+k-2},m,k\\ge1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\binom{m+k}{2}p^2q^{m+k-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$p^2q^{m+k-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\binom{m+k}{2}p^2q^{m+k-2},m,k\\ge1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "前$m-1$次未中、第$m$次中；之后$k-1$次未中、第$k$次中，概率$p^2q^{m+k-2}$。",
+  "search_text": "独立射击直到第二次命中，$\\xi$为第一次命中射击次数，$\\eta$为第一次命中后又射击的次数，命中率$p$，求联合分布律。 $p^2q^{m+k-2},m,k\\ge1$ $\\binom{m+k}{2}p^2q^{m+k-2}$ $p^2q^{m+k-2}$ $\\binom{m+k}{2}p^2q^{m+k-2},m,k\\ge1$ 前$m-1$次未中、第$m$次中；之后$k-1$次未中、第$k$次中，概率$p^2q^{m+k-2}$。",
+  "sort_order": 4
+}

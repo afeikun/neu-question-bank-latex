@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\oint_{|\\xi|=3}\\frac{3\\xi^2+7\\xi+1}{\\xi-z}\\,d\\xi$，沿圆周的正向，则 $f'(1+i)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi(13i-6)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi(8i-13)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6i+13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(z)=2\\pi i(3z^2+7z+1)$，所以 $f'(1+i)=2\\pi i(6z+7)|_{z=1+i}=2\\pi(13i-6)$。",
+  "search_text": "设 $f(z)=\\oint_{|\\xi|=3}\\frac{3\\xi^2+7\\xi+1}{\\xi-z}\\,d\\xi$，沿圆周的正向，则 $f'(1+i)=(\\quad)$。 $2\\pi(13i-6)$ $2\\pi(8i-13)$ $6i+13$ $0$ $f(z)=2\\pi i(3z^2+7z+1)$，所以 $f'(1+i)=2\\pi i(6z+7)|_{z=1+i}=2\\pi(13i-6)$。",
+  "sort_order": 37
+}

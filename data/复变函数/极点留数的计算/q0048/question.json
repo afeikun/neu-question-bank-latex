@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $z=0$ 是函数 $f(z)$ 的 $n$ 级极点，则 $\\operatorname{Res}[f\\prime(z)/f(z),0]=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac n2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $f(z)=z^{-n}\\varphi(z)$，则 $f\\prime/f=-n/z+\\varphi\\prime/\\varphi$，故留数为 $-n$。",
+  "search_text": "已知 $z=0$ 是函数 $f(z)$ 的 $n$ 级极点，则 $\\operatorname{Res}[f\\prime(z)/f(z),0]=(\\ )$。 $-n$ $n$ $0$ $\\dfrac n2$ 令 $f(z)=z^{-n}\\varphi(z)$，则 $f\\prime/f=-n/z+\\varphi\\prime/\\varphi$，故留数为 $-n$。",
+  "sort_order": 48
+}

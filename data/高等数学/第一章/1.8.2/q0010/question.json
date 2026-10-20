@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\lim_{n\\to\\infty}\\frac{x^{2n+1}+ax^2+bx}{x^{2n}+1}$，若 $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，则 $a,b$ 的值分别为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1,0)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(-1,0)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(0,-1)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(0,1)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "分段计算可知在 $x=1$ 连续要求 $a+b=1$，在 $x=-1$ 连续要求 $a-b=-1$，解得 $a=0,b=1$。",
+  "search_text": "设 $f(x)=\\lim_{n\\to\\infty}\\frac{x^{2n+1}+ax^2+bx}{x^{2n}+1}$，若 $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，则 $a,b$ 的值分别为（ ）。 (1,0) (-1,0) (0,-1) (0,1) 分段计算可知在 $x=1$ 连续要求 $a+b=1$，在 $x=-1$ 连续要求 $a-b=-1$，解得 $a=0,b=1$。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac{z^{2n}}{1+z^n},e^{\\frac{2k+1}{n}\\pi i}\\right)=(\\ )$（$k=0,1,\\ldots,n-1$）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac1n e^{\\frac{2k+1}{n}\\pi i}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1n e^{\\frac{2k+1}{n}\\pi i}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac1n e^{-\\frac{2k+1}{n}\\pi i}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac1n e^{-\\frac{2k+1}{n}\\pi i}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "按一阶极点公式，题解计算为 $-\\frac1n e^{(2k+1)\\pi i/n}$；DOM 绿色标记为第一项。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac{z^{2n}}{1+z^n},e^{\\frac{2k+1}{n}\\pi i}\\right)=(\\ )$（$k=0,1,\\ldots,n-1$）。 $-\\dfrac1n e^{\\frac{2k+1}{n}\\pi i}$ $\\dfrac1n e^{\\frac{2k+1}{n}\\pi i}$ $-\\dfrac1n e^{-\\frac{2k+1}{n}\\pi i}$ $\\dfrac1n e^{-\\frac{2k+1}{n}\\pi i}$ 按一阶极点公式，题解计算为 $-\\frac1n e^{(2k+1)\\pi i/n}$；DOM 绿色标记为第一项。",
+  "sort_order": 72
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\frac{d^2y}{dx^2}+\\frac1x\\frac{dy}{dx}=x^2$ 满足 $y(1)=1,\\ y\\prime(1)=1$ 的解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac18x^4+\\frac12\\ln x+\\frac78$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac1{32}x^4+\\frac18\\ln x+\\frac{31}{32}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1{16}x^4+\\frac14\\ln x+\\frac{15}{16}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac12x^4-\\ln x+\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 设 $\\frac{dy}{dx}=p，\\frac{d^2y}{dx^2}=\\frac{dp}{dx}$，方程化成\n\n$$\n\\frac{dp}{dx}+\\frac{1}{x}p=x^2。\n$$\n\n上面方程的通解为\n\n$$\np=e^{-\\int \\frac{1}{x}dx}\\left(\\int x^2e^{\\int \\frac{1}{x}dx}dx+C\\right)=\\frac{1}{x}\\left(\\frac{1}{4}x^4+C\\right)=\\frac{1}{4}x^3+\\frac{C}{x}。\n$$\n\n原方程得通解为\n\n$$\ny=\\frac{1}{16}x^4+C_1\\ln x+C_2。\n$$\n\n将初始条件代入有，$1=\\frac{1}{16}+C_2，\\quad 1=\\frac{1}{4}+C_1$。\n\n解出 $C_1=\\frac{3}{4}，C_2=\\frac{15}{16}$。所以初值问题的解为\n\n$$\ny=\\frac{1}{16}x^4+\\frac{3}{4}\\ln x+\\frac{15}{16}\n$$",
+  "search_text": "方程 $\\frac{d^2y}{dx^2}+\\frac1x\\frac{dy}{dx}=x^2$ 满足 $y(1)=1,\\ y\\prime(1)=1$ 的解是（ ） $y=\\frac18x^4+\\frac12\\ln x+\\frac78$ $y=\\frac1{32}x^4+\\frac18\\ln x+\\frac{31}{32}$ $y=\\frac1{16}x^4+\\frac14\\ln x+\\frac{15}{16}$ $y=\\frac12x^4-\\ln x+\\frac12$ 解答 设 $\\frac{dy}{dx}=p，\\frac{d^2y}{dx^2}=\\frac{dp}{dx}$，方程化成\n\n$$\n\\frac{dp}{dx}+\\frac{1}{x}p=x^2。\n$$\n\n上面方程的通解为\n\n$$\np=e^{-\\int \\frac{1}{x}dx}\\left(\\int x^2e^{\\int \\frac{1}{x}dx}dx+C\\right)=\\frac{1}{x}\\left(\\frac{1}{4}x^4+C\\right)=\\frac{1}{4}x^3+\\frac{C}{x}。\n$$\n\n原方程得通解为\n\n$$\ny=\\frac{1}{16}x^4+C_1\\ln x+C_2。\n$$\n\n将初始条件代入有，$1=\\frac{1}{16}+C_2，\\quad 1=\\frac{1}{4}+C_1$。\n\n解出 $C_1=\\frac{3}{4}，C_2=\\frac{15}{16}$。所以初值问题的解为\n\n$$\ny=\\frac{1}{16}x^4+\\frac{3}{4}\\ln x+\\frac{15}{16}\n$$",
+  "sort_order": 16
+}

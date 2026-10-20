@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\begin{cases}e^{-1/x^2},&x\\ne0,\\\\0,&x=0,\\end{cases}\\quad g(x)=\\begin{cases}\\sin x/|x|,&x\\ne0,\\\\1,&x=0,\\end{cases}$，在 $x=0$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不连续，不连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "连续，连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不连续，连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "连续，不连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f(x)\\to0=f(0)$，连续；$g$ 左右极限不同，故不连续。",
+  "search_text": "$f(x)=\\begin{cases}e^{-1/x^2},&x\\ne0,\\\\0,&x=0,\\end{cases}\\quad g(x)=\\begin{cases}\\sin x/|x|,&x\\ne0,\\\\1,&x=0,\\end{cases}$，在 $x=0$（ ）。 不连续，不连续 连续，连续 不连续，连续 连续，不连续 $f(x)\\to0=f(0)$，连续；$g$ 左右极限不同，故不连续。",
+  "sort_order": 4
+}

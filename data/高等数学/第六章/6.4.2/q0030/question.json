@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两直线 $l_1:\\begin{cases}x+y-1=0\\\\x-y+z+1=0\\end{cases}$ 与 $l_2:\\begin{cases}2x-y+z-1=0\\\\x+y-z+1=0\\end{cases}$ 的位置关系为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "相交且垂直"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "平行"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "相交但不垂直"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "异面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：$\\vec{s}_1=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&1&0\\\\1&-1&1\\end{vmatrix}=(1,-1,-2)$，$\\vec{s}_2=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\2&-1&1\\\\1&1&-1\\end{vmatrix}=(0,3,3)=3(0,1,1)$，所以两直线不平行且不垂直。\n\n$P(0,1,0)\\in l_1，Q(0,0,1)\\in l_2，\\overrightarrow{PQ}=(0,-1,1)$，因\n\n$$\n[\\vec{s}_1,\\vec{s}_2,\\overrightarrow{PQ}]=\\begin{vmatrix}1&-1&2\\\\0&1&1\\\\0&-1&1\\end{vmatrix}=\\begin{vmatrix}1&-1&2\\\\0&1&1\\\\0&0&2\\end{vmatrix}=2\\ne0，\n$$\n\n所以两直线不共面，即异面。",
+  "search_text": "两直线 $l_1:\\begin{cases}x+y-1=0\\\\x-y+z+1=0\\end{cases}$ 与 $l_2:\\begin{cases}2x-y+z-1=0\\\\x+y-z+1=0\\end{cases}$ 的位置关系为(\\quad)。 相交且垂直 平行 相交但不垂直 异面 解答：$\\vec{s}_1=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&1&0\\\\1&-1&1\\end{vmatrix}=(1,-1,-2)$，$\\vec{s}_2=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\2&-1&1\\\\1&1&-1\\end{vmatrix}=(0,3,3)=3(0,1,1)$，所以两直线不平行且不垂直。\n\n$P(0,1,0)\\in l_1，Q(0,0,1)\\in l_2，\\overrightarrow{PQ}=(0,-1,1)$，因\n\n$$\n[\\vec{s}_1,\\vec{s}_2,\\overrightarrow{PQ}]=\\begin{vmatrix}1&-1&2\\\\0&1&1\\\\0&-1&1\\end{vmatrix}=\\begin{vmatrix}1&-1&2\\\\0&1&1\\\\0&0&2\\end{vmatrix}=2\\ne0，\n$$\n\n所以两直线不共面，即异面。",
+  "sort_order": 30
+}

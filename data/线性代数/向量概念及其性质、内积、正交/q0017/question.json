@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量 $2\\alpha=(\\quad)$，其中 $\\alpha=(2,3,2,1)^T$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(4,3,4,2)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(4,6,4,2)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(4,6,2,2)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2,6,4,2)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "逐分量乘以 2，得 $(4,6,4,2)^T$，选项 2。",
+  "search_text": "向量 $2\\alpha=(\\quad)$，其中 $\\alpha=(2,3,2,1)^T$。 $(4,3,4,2)^T$ $(4,6,4,2)^T$ $(4,6,2,2)^T$ $(2,6,4,2)^T$ 逐分量乘以 2，得 $(4,6,4,2)^T$，选项 2。",
+  "sort_order": 17
+}

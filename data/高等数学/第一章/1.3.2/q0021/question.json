@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)=\\begin{cases}\\frac{\\sin2x}{x},&x<0,\\\\\\frac{2x^2+3x-1}{x^3+1},&x\\ge0,\\end{cases}$，则 $\\lim_{x\\to-\\infty}f(x)=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "当 $x\\to-\\infty$，$|\\sin2x/x|\\le1/|x|\\to0$。",
+  "search_text": "已知 $f(x)=\\begin{cases}\\frac{\\sin2x}{x},&x<0,\\\\\\frac{2x^2+3x-1}{x^3+1},&x\\ge0,\\end{cases}$，则 $\\lim_{x\\to-\\infty}f(x)=$（ ）。 $0$ 不存在 $-1$ $1$ 当 $x\\to-\\infty$，$|\\sin2x/x|\\le1/|x|\\to0$。",
+  "sort_order": 21
+}

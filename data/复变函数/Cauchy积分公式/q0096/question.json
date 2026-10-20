@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为正向圆周 $|z-i|=\\frac12$，则 $\\oint_C\\frac{e^{iz}}{z(z^2+1)}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\pi i e^{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi(\\cos1+i\\sin1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi i e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内只有奇点 $i$，Cauchy 积分公式给出积分 $-\\pi i e^{-1}$。",
+  "search_text": "设 $C$ 为正向圆周 $|z-i|=\\frac12$，则 $\\oint_C\\frac{e^{iz}}{z(z^2+1)}\\,dz=(\\quad)$。 $-\\pi i e^{-1}$ $\\pi(\\cos1+i\\sin1)$ $0$ $-\\pi i e$ 圆内只有奇点 $i$，Cauchy 积分公式给出积分 $-\\pi i e^{-1}$。",
+  "sort_order": 96
+}

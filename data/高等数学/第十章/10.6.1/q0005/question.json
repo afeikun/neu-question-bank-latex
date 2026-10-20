@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\cos x$ 与 $xe^x$ 为某 $n$ 阶常系数线性齐次方程的两个解，则最小的 $n$ 与相应首项系数为 $1$ 的方程分别为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4,\\ y^{(4)}+2y^{(3)}-2y\\prime\\prime+2y\\prime-y=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3,\\ y^{(3)}-2y\\prime\\prime+2y\\prime+y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4,\\ y^{(4)}-2y^{(3)}+2y\\prime\\prime-2y\\prime+y=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3,\\ y^{(3)}-2y\\prime\\prime+2y\\prime+y=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析 由题知 $\\pm i$ 是它的特征根，$1$ 至少是其二重特征根，故 $n=4$，相应的特征方程为\n\n$$(r-i)(r+i)(r-1)^2=0,$$\n\n即 $r^4-2r^3+2r^2-2r+1=0$，相应的微分方程为 $y^{(4)}-2y^{(3)}+2y''-2y'+y=0$。\n\n因此选 C。",
+  "search_text": "设 $\\cos x$ 与 $xe^x$ 为某 $n$ 阶常系数线性齐次方程的两个解，则最小的 $n$ 与相应首项系数为 $1$ 的方程分别为（ ） $4,\\ y^{(4)}+2y^{(3)}-2y\\prime\\prime+2y\\prime-y=0$ $3,\\ y^{(3)}-2y\\prime\\prime+2y\\prime+y=0$ $4,\\ y^{(4)}-2y^{(3)}+2y\\prime\\prime-2y\\prime+y=0$ $3,\\ y^{(3)}-2y\\prime\\prime+2y\\prime+y=0$ 解析 由题知 $\\pm i$ 是它的特征根，$1$ 至少是其二重特征根，故 $n=4$，相应的特征方程为\n\n$$(r-i)(r+i)(r-1)^2=0,$$\n\n即 $r^4-2r^3+2r^2-2r+1=0$，相应的微分方程为 $y^{(4)}-2y^{(3)}+2y''-2y'+y=0$。\n\n因此选 C。",
+  "sort_order": 5
+}

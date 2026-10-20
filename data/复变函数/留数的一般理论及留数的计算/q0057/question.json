@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left[z^ne^{1/z}+\\dfrac1z,0\\right]=(\\ \\ )$，其中 $n$ 为自然数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1+\\dfrac1{(n+1)!}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1+\\dfrac1{n!}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1{n!}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z^ne^{1/z}=\\sum_{k=0}^{\\infty}\\dfrac{z^n}{k!z^k}$，留数项对应 $k=n+1$，系数为 $1/(n+1)!$；另有 $1/z$ 项，故总留数为 $1+1/(n+1)!$。",
+  "search_text": "$\\operatorname{Res}\\left[z^ne^{1/z}+\\dfrac1z,0\\right]=(\\ \\ )$，其中 $n$ 为自然数。 $1+\\dfrac1{(n+1)!}$ $1+\\dfrac1{n!}$ $\\dfrac1{n!}$ $1$ $z^ne^{1/z}=\\sum_{k=0}^{\\infty}\\dfrac{z^n}{k!z^k}$，留数项对应 $k=n+1$，系数为 $1/(n+1)!$；另有 $1/z$ 项，故总留数为 $1+1/(n+1)!$。",
+  "sort_order": 57
+}

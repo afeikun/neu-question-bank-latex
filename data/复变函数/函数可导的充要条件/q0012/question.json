@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=z^2-\\bar z$，则在复平面上 $f(z)$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "处处不解析"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "处处不可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在 $z=0$ 处解析"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "除 $z=0$ 外解析"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "柯西－黎曼方程只在 $z=0$ 成立，函数在平面上不解析。",
+  "search_text": "设 $f(z)=z^2-\\bar z$，则在复平面上 $f(z)$（ ）。 处处不解析 处处不可导 在 $z=0$ 处解析 除 $z=0$ 外解析 柯西－黎曼方程只在 $z=0$ 成立，函数在平面上不解析。",
+  "sort_order": 12
+}

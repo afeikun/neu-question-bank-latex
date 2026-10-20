@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=\\log_a[x(\\sec x+\\tan x)]$，则 $dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\ln a}(\\frac1x+\\sec x)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\ln a}(\\frac1x+\\sec x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\ln a}(\\frac1x+\\frac1a+\\sec x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{\\ln a}(\\frac1{ax}+\\sec x)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$dy=\\frac1{x\\ln a}(1+x\\sec x)dx$。",
+  "search_text": "$y=\\log_a[x(\\sec x+\\tan x)]$，则 $dy=$（ ）。 $\\frac1{\\ln a}(\\frac1x+\\sec x)dx$ $\\frac1{\\ln a}(\\frac1x+\\sec x)$ $\\frac1{\\ln a}(\\frac1x+\\frac1a+\\sec x)$ $\\frac1{\\ln a}(\\frac1{ax}+\\sec x)dx$ $dy=\\frac1{x\\ln a}(1+x\\sec x)dx$。",
+  "sort_order": 3
+}

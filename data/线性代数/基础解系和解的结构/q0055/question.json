@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设四元非齐次线性方程组 $AX=b$ 的系数矩阵 $A$ 的秩为 $3$，已知 $\\eta_1,\\eta_2,\\eta_3,\\eta_4$ 是它的四个解向量，且 $\\eta_1=(0,1,0,1)^T,\\ \\eta_2+\\eta_3+\\eta_4=(1,5,2,8)^T$，则其通解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k(0,1,0,1)^T+(1,2,2,5)^T,\\ k\\in\\mathbb R$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k(1,2,2,5)^T+(0,1,0,1)^T,\\ k\\in\\mathbb R$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k_1(0,1,0,1)^T+k_2(1,2,2,5)^T,\\ k_1,k_2\\in\\mathbb R$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k(0,1,0,1)^T+(\\frac13,\\frac53,\\frac23,\\frac83)^T,\\ k\\in\\mathbb R$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\eta_2+\\eta_3+\\eta_4-3\\eta_1=(1,2,2,5)^T$ 是对应齐次方程的非零解，$\\eta_1$ 是特解。零空间维数为 $1$，故通解为 $X=k(1,2,2,5)^T+(0,1,0,1)^T$。",
+  "search_text": "设四元非齐次线性方程组 $AX=b$ 的系数矩阵 $A$ 的秩为 $3$，已知 $\\eta_1,\\eta_2,\\eta_3,\\eta_4$ 是它的四个解向量，且 $\\eta_1=(0,1,0,1)^T,\\ \\eta_2+\\eta_3+\\eta_4=(1,5,2,8)^T$，则其通解为（ ）。 $k(0,1,0,1)^T+(1,2,2,5)^T,\\ k\\in\\mathbb R$ $k(1,2,2,5)^T+(0,1,0,1)^T,\\ k\\in\\mathbb R$ $k_1(0,1,0,1)^T+k_2(1,2,2,5)^T,\\ k_1,k_2\\in\\mathbb R$ $k(0,1,0,1)^T+(\\frac13,\\frac53,\\frac23,\\frac83)^T,\\ k\\in\\mathbb R$ $\\eta_2+\\eta_3+\\eta_4-3\\eta_1=(1,2,2,5)^T$ 是对应齐次方程的非零解，$\\eta_1$ 是特解。零空间维数为 $1$，故通解为 $X=k(1,2,2,5)^T+(0,1,0,1)^T$。",
+  "sort_order": 55
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 连续，交换二次积分 $\\int_0^1dy\\int_0^{2y}f(x,y)dx+\\int_1^3dy\\int_0^{3-y}f(x,y)dx$ 的积分次序，正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^2dx\\int_0^{x/2}f(x,y)dy+\\int_2^3dx\\int_0^{3-x}f(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^2dx\\int_{x/2}^{3-x}f(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^3dx\\int_{x/2}^{3-x}f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^2dx\\int_0^{x/2}f(x,y)dy+\\int_2^3dx\\int_0^{x/2}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两子域合并为 $0\\le x\\le2,x/2\\le y\\le3-x$，故正确换序积分为第二项。",
+  "search_text": "设 $f(x,y)$ 连续，交换二次积分 $\\int_0^1dy\\int_0^{2y}f(x,y)dx+\\int_1^3dy\\int_0^{3-y}f(x,y)dx$ 的积分次序，正确的是（ ）。 $\\int_0^2dx\\int_0^{x/2}f(x,y)dy+\\int_2^3dx\\int_0^{3-x}f(x,y)dy$ $\\int_0^2dx\\int_{x/2}^{3-x}f(x,y)dy$ $\\int_0^3dx\\int_{x/2}^{3-x}f(x,y)dy$ $\\int_0^2dx\\int_0^{x/2}f(x,y)dy+\\int_2^3dx\\int_0^{x/2}f(x,y)dy$ 两子域合并为 $0\\le x\\le2,x/2\\le y\\le3-x$，故正确换序积分为第二项。",
+  "sort_order": 17
+}

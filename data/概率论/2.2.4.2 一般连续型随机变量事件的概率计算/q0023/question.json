@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\frac{2(1+x)}{27}(2\\le x\\le7)$，求$P(X<4)$及$P(3<X<4)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{16}{27},\\frac13)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{11}{27},\\frac13)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{11}{27},\\frac23)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{16}{27},\\frac23)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "积分得$P(X<4)=\\frac{16}{27}$，$P(3<X<4)=\\frac13$。",
+  "search_text": "$f(x)=\\frac{2(1+x)}{27}(2\\le x\\le7)$，求$P(X<4)$及$P(3<X<4)$。 $(\\frac{16}{27},\\frac13)$ $(\\frac{11}{27},\\frac13)$ $(\\frac{11}{27},\\frac23)$ $(\\frac{16}{27},\\frac23)$ 积分得$P(X<4)=\\frac{16}{27}$，$P(3<X<4)=\\frac13$。",
+  "sort_order": 23
+}

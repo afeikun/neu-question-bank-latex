@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质量 $m$ 的物体以初速度 $v_0$ 在空气中竖直上抛，阻力与速度平方成正比系数 $k$，以竖直向上为正，求运动方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$mg+k(x^\\prime)^2=-mx^{\\prime\\prime}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$mg-k(x^\\prime)^2=mx^{\\prime\\prime}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$mg-k(x^\\prime)^2=-mx^{\\prime\\prime}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$mg+k(x^\\prime)^2=mx^{\\prime\\prime}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "根据牛顿第二定律得$mg+k\\left(\\frac{dx}{dt}\\right)^2=-m\\frac{d^2x}{dt^2}$。",
+  "search_text": "质量 $m$ 的物体以初速度 $v_0$ 在空气中竖直上抛，阻力与速度平方成正比系数 $k$，以竖直向上为正，求运动方程。 $mg+k(x^\\prime)^2=-mx^{\\prime\\prime}$ $mg-k(x^\\prime)^2=mx^{\\prime\\prime}$ $mg-k(x^\\prime)^2=-mx^{\\prime\\prime}$ $mg+k(x^\\prime)^2=mx^{\\prime\\prime}$ 根据牛顿第二定律得$mg+k\\left(\\frac{dx}{dt}\\right)^2=-m\\frac{d^2x}{dt^2}$。",
+  "sort_order": 42
+}

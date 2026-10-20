@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知微分方程 $y\\prime\\prime-5y\\prime+6y=xe^x$ 的一个特解为 $y^*=(\\frac12x+\\frac34)e^x$，则其通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{-2x}+C_2e^{-3x}+(\\frac13x+\\frac34)e^x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^{2x}+C_2e^{3x}+(\\frac12x+\\frac34)e^x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{-2x}+C_2e^{-3x}+(\\frac12x+\\frac34)e^{-x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{2x}+C_2e^{3x}+(\\frac12x+\\frac34)e^x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2-5\\lambda+6=0$，其特征根为 $\\lambda_1=2,\\lambda_2=3$，因此对应的齐次方程的通解为\n\n$$C_1e^{2x}+C_2e^{3x}.$$\n\n又非齐次方程的特解为 $y^*=\\left(\\frac12x+\\frac34\\right)e^x$。\n\n所以原方程得通解为 $y=C_1e^{2x}+C_2e^{3x}+\\left(\\frac12x+\\frac34\\right)e^x$。\n\n因此选 D。",
+  "search_text": "已知微分方程 $y\\prime\\prime-5y\\prime+6y=xe^x$ 的一个特解为 $y^*=(\\frac12x+\\frac34)e^x$，则其通解为（ ） $y=C_1e^{-2x}+C_2e^{-3x}+(\\frac13x+\\frac34)e^x$ $y=C_1e^{2x}+C_2e^{3x}+(\\frac12x+\\frac34)e^x$ $y=C_1e^{-2x}+C_2e^{-3x}+(\\frac12x+\\frac34)e^{-x}$ $y=C_1e^{2x}+C_2e^{3x}+(\\frac12x+\\frac34)e^x$ 解答 齐次方程的特征方程为 $\\lambda^2-5\\lambda+6=0$，其特征根为 $\\lambda_1=2,\\lambda_2=3$，因此对应的齐次方程的通解为\n\n$$C_1e^{2x}+C_2e^{3x}.$$\n\n又非齐次方程的特解为 $y^*=\\left(\\frac12x+\\frac34\\right)e^x$。\n\n所以原方程得通解为 $y=C_1e^{2x}+C_2e^{3x}+\\left(\\frac12x+\\frac34\\right)e^x$。\n\n因此选 D。",
+  "sort_order": 7
+}

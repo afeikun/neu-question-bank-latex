@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "y=∫₀ˣ²√(1+t²)dt，求dy/dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "x²√(1+t²)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2x√(1+t²)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "x²t/√(1+t²)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2x√(1+x⁴)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "变限积分链式求导，结果2x√(1+x⁴)。",
+  "search_text": "y=∫₀ˣ²√(1+t²)dt，求dy/dx x²√(1+t²) 2x√(1+t²) x²t/√(1+t²) 2x√(1+x⁴) 变限积分链式求导，结果2x√(1+x⁴)。",
+  "sort_order": 43
+}

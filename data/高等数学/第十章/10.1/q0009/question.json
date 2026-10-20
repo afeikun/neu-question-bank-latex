@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下面的函数中，（ ）不是方程 $y\\prime\\prime+y=e^x$ 的解",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=2\\sin x+\\frac12e^x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x\\sin x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\cos x+\\frac12e^x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1\\sin x+C_2\\cos x+\\frac12e^x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "直接代入验证。",
+  "search_text": "下面的函数中，（ ）不是方程 $y\\prime\\prime+y=e^x$ 的解 $y=2\\sin x+\\frac12e^x$ $y=x\\sin x$ $y=\\cos x+\\frac12e^x$ $y=C_1\\sin x+C_2\\cos x+\\frac12e^x$ 直接代入验证。",
+  "sort_order": 9
+}

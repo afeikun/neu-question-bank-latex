@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若立体 $\\Omega$ 是由 $1\\leq x^2+y^2+z^2\\leq4$ 且 $z\\geq\\sqrt{x^2+y^2}$ 所决定区域，则 $\\iiint_\\Omega f(z)dv$ 在球面坐标系可表示为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/2}d\\varphi\\int_1^2f(r\\cos\\varphi)r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_1^2f(r\\cos\\varphi)r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_1^2f(r)r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_1^2f(r\\cos\\varphi)r^2\\,dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "球面坐标下 $0\\leq\\theta\\leq2\\pi,0\\leq\\varphi\\leq\\pi/4,1\\leq r\\leq2$，且 $z=r\\cos\\varphi,dv=r^2\\sin\\varphi\\,dr\\,d\\varphi\\,d\\theta$，故原积分为 $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_1^2f(r\\cos\\varphi)r^2\\sin\\varphi\\,dr$。",
+  "search_text": "若立体 $\\Omega$ 是由 $1\\leq x^2+y^2+z^2\\leq4$ 且 $z\\geq\\sqrt{x^2+y^2}$ 所决定区域，则 $\\iiint_\\Omega f(z)dv$ 在球面坐标系可表示为（ ） $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/2}d\\varphi\\int_1^2f(r\\cos\\varphi)r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_1^2f(r\\cos\\varphi)r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_1^2f(r)r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_1^2f(r\\cos\\varphi)r^2\\,dr$ 球面坐标下 $0\\leq\\theta\\leq2\\pi,0\\leq\\varphi\\leq\\pi/4,1\\leq r\\leq2$，且 $z=r\\cos\\varphi,dv=r^2\\sin\\varphi\\,dr\\,d\\varphi\\,d\\theta$，故原积分为 $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_1^2f(r\\cos\\varphi)r^2\\sin\\varphi\\,dr$。",
+  "sort_order": 8
+}

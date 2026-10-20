@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设非负函数 $f(x)$ 在闭区间 $[a,b]$ 上连续且 $\\int_a^b f(x)dx=0$，则在 $[a,b]$ 上",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)=0$ 有无限个零点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)=0$ 有有限个零点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "至少有一点满足 $f(x)\\ne0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)\\equiv0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "非负连续函数积分为零只能恒等于零。",
+  "search_text": "设非负函数 $f(x)$ 在闭区间 $[a,b]$ 上连续且 $\\int_a^b f(x)dx=0$，则在 $[a,b]$ 上 $f(x)=0$ 有无限个零点 $f(x)=0$ 有有限个零点 至少有一点满足 $f(x)\\ne0$ $f(x)\\equiv0$ 非负连续函数积分为零只能恒等于零。",
+  "sort_order": 32
+}

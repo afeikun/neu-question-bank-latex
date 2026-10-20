@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $n$ 阶方阵，$E$ 是 $n$ 阶单位矩阵，若 $A^2-A-2E=O$，则下列说法不正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A+E$ 必可逆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$ 必可逆"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A+2E$ 必可逆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A-E$ 必可逆"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $A^2-A-2E=O$ 得 $A^2=A+2E$，所以 $A(A- E)=2E$，从而 $A$ 与 $(A-E)$ 均可逆，且 $A+2E$ 也可逆；但 $(A-2E)(A+E)=O$，不能据此断定 $A+E$ 必可逆。",
+  "search_text": "设 $A$ 为 $n$ 阶方阵，$E$ 是 $n$ 阶单位矩阵，若 $A^2-A-2E=O$，则下列说法不正确的是（ ）。 $A+E$ 必可逆 $A$ 必可逆 $A+2E$ 必可逆 $A-E$ 必可逆 由 $A^2-A-2E=O$ 得 $A^2=A+2E$，所以 $A(A- E)=2E$，从而 $A$ 与 $(A-E)$ 均可逆，且 $A+2E$ 也可逆；但 $(A-2E)(A+E)=O$，不能据此断定 $A+E$ 必可逆。",
+  "sort_order": 40
+}

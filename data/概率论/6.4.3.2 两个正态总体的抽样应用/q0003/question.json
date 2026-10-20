@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$X_1,\\ldots,X_{20}$为正态总体$N(0,\\sigma^2)$的样本，以下正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{11}{9}\\frac{\\sum_{i=1}^9X_i^2}{\\sum_{j=10}^{20}X_j^2}\\sim F(9,11)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1\\sigma\\sum_{i=1}^{20}X_i\\sim N(0,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{i=1}^{20}X_i^2\\sim\\chi^2(20)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sum_{i=1}^9X_i}{\\sum_{j=10}^{20}X_j^2}\\sim t(11)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两个独立平方和分别除以$\\sigma^2$后服从自由度9和11的卡方分布，按自由度归一化可得选项1。",
+  "search_text": "设$X_1,\\ldots,X_{20}$为正态总体$N(0,\\sigma^2)$的样本，以下正确的是（）。 $\\frac{11}{9}\\frac{\\sum_{i=1}^9X_i^2}{\\sum_{j=10}^{20}X_j^2}\\sim F(9,11)$ $\\frac1\\sigma\\sum_{i=1}^{20}X_i\\sim N(0,1)$ $\\sum_{i=1}^{20}X_i^2\\sim\\chi^2(20)$ $\\frac{\\sum_{i=1}^9X_i}{\\sum_{j=10}^{20}X_j^2}\\sim t(11)$ 两个独立平方和分别除以$\\sigma^2$后服从自由度9和11的卡方分布，按自由度归一化可得选项1。",
+  "sort_order": 3
+}

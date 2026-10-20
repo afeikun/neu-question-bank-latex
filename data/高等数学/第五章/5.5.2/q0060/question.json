@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $a^x$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}(\\ln a)^n x^n/n!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(\\ln a)^n x^n/n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(\\ln a)^n x^n/n!$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\sum_{n=0}^{\\infty}(\\ln a)^n x^n/n!$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$a^x=e^{x\\ln a}$。",
+  "search_text": "将 $a^x$ 展开成 $x$ 的幂级数。 $\\sum_{n=0}^{\\infty}(\\ln a)^n x^n/n!$ $\\sum_{n=0}^{\\infty}(\\ln a)^n x^n/n$ $\\sum_{n=0}^{\\infty}(-1)^n(\\ln a)^n x^n/n!$ $-\\sum_{n=0}^{\\infty}(\\ln a)^n x^n/n!$ $a^x=e^{x\\ln a}$。",
+  "sort_order": 60
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 为柱面 $x^2+z^2=1$ 在 $x\\ge0,z\\ge0$ 两卦限内被平面 $y=-1$ 及 $y=1$ 所截下部分曲面的外侧，则计算 $\\iint_\\Sigma xy^2zdxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac25$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac29$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac45$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在 $xoy$ 面上的投影区域为 $D:0\\le x\\le1,0\\le y\\le1$，由对称性可知，\n$$\\iint_\\Sigma xy^2zdxdy=2\\iint_Dxy^2\\sqrt{1-x^2}dxdy=2\\int_0^1x\\sqrt{1-x^2}dx\\int_0^1y^2dy=2\\cdot\\frac{1}{3}\\cdot\\frac{1}{3}=\\frac{2}{9}$$",
+  "search_text": "已知 $\\Sigma$ 为柱面 $x^2+z^2=1$ 在 $x\\ge0,z\\ge0$ 两卦限内被平面 $y=-1$ 及 $y=1$ 所截下部分曲面的外侧，则计算 $\\iint_\\Sigma xy^2zdxdy=$（ ） $\\frac25$ $2$ $\\frac29$ $\\frac45$ 解答 $\\Sigma$ 在 $xoy$ 面上的投影区域为 $D:0\\le x\\le1,0\\le y\\le1$，由对称性可知，\n$$\\iint_\\Sigma xy^2zdxdy=2\\iint_Dxy^2\\sqrt{1-x^2}dxdy=2\\int_0^1x\\sqrt{1-x^2}dx\\int_0^1y^2dy=2\\cdot\\frac{1}{3}\\cdot\\frac{1}{3}=\\frac{2}{9}$$",
+  "sort_order": 5
+}

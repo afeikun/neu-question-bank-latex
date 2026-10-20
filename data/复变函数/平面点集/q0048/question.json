@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "集合 $\\{z\\mid0<\\operatorname{Re}(iz)\\le1\\}\\cup\\{i\\}$ 的边界点全体为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{z\\mid\\operatorname{Im}z=-1\\}\\cup\\{z\\mid\\operatorname{Im}z=0\\}\\cup\\{i\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{z\\mid\\operatorname{Im}z=-1\\}\\cup\\{z\\mid\\operatorname{Im}z=0\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{z\\mid\\operatorname{Im}z=0\\}\\cup\\{i\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{z\\mid\\operatorname{Im}z=-1\\}\\cup\\{i\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\operatorname{Re}(iz)=-\\operatorname{Im}z$ 可得边界为两条边界直线及孤立点 $i$。",
+  "search_text": "集合 $\\{z\\mid0<\\operatorname{Re}(iz)\\le1\\}\\cup\\{i\\}$ 的边界点全体为（ ）。 $\\{z\\mid\\operatorname{Im}z=-1\\}\\cup\\{z\\mid\\operatorname{Im}z=0\\}\\cup\\{i\\}$ $\\{z\\mid\\operatorname{Im}z=-1\\}\\cup\\{z\\mid\\operatorname{Im}z=0\\}$ $\\{z\\mid\\operatorname{Im}z=0\\}\\cup\\{i\\}$ $\\{z\\mid\\operatorname{Im}z=-1\\}\\cup\\{i\\}$ 由 $\\operatorname{Re}(iz)=-\\operatorname{Im}z$ 可得边界为两条边界直线及孤立点 $i$。",
+  "sort_order": 48
+}

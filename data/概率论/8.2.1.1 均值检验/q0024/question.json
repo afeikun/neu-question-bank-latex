@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(100,1.5^2)$，样本均值99.97，检验包装均值100是否变化，错误说法（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可认为包装工作不正常"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu=100,H_1:\\mu\\ne100$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|U|>1.96$拒绝"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$U=(\\bar X-100)/(1.5/\\sqrt9)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|u|=0.06<1.96$，应接受原假设，选项1错误。",
+  "search_text": "$X\\sim N(100,1.5^2)$，样本均值99.97，检验包装均值100是否变化，错误说法（）。 可认为包装工作不正常 $H_0:\\mu=100,H_1:\\mu\\ne100$ $|U|>1.96$拒绝 $U=(\\bar X-100)/(1.5/\\sqrt9)$ $|u|=0.06<1.96$，应接受原假设，选项1错误。",
+  "sort_order": 24
+}

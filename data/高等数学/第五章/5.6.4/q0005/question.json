@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}0,&0\\le x\\le1\\\\x-1,&1<x\\le2\\end{cases}$，试在 $[0,2]$ 内将 $f(x)$ 展成以 $4$ 为周期的余弦函数，其展开式为（　）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac14+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\left[\\frac{(-1)^n-\\cos\\frac{n\\pi}{2}}{n^2}\\right]\\cos\\frac{n\\pi x}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos\\frac{n\\pi x}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\left[\\frac{(-1)^n-\\cos\\frac{n\\pi}{2}}{n^2}\\right]\\cos\\frac{n\\pi x}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12+\\frac2\\pi\\sum_{n=1}^{\\infty}\\frac{(-1)^n\\cos\\frac{n\\pi}{2}}{n^2}\\cos\\frac{n\\pi x}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解对 $f(x)=\\begin{cases}0,&0\\le x\\le1\\\\x-1,&1<x\\le2\\end{cases}$ 进行偶延拓，则 $b_n=0(n=1,2,\\cdots)$。\n\n$a_0=\\frac22\\int_0^2f(x)dx=\\int_1^2(x-1)dx=\\frac12$，\n\n$a_n=\\frac22\\int_0^2f(x)\\cos\\frac{n\\pi x}{2}dx=\\int_1^2(x-1)\\cos\\frac{n\\pi x}{2}dx=\\frac4{n^2\\pi^2}[(-1)^n-\\cos\\frac{n\\pi}{2}](n=1,2,\\cdots)$\n\n$f(x)$ 在 $[0,2]$ 内连续，单调，且 $f(2)=f(-2)$，故当 $x\\in[0,2]$ 时，\n\n$f(x)=\\frac14+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\left[\\frac{(-1)^n-\\cos\\frac{n\\pi}{2}}{n^2}\\right]\\cos\\frac{n\\pi x}{2}$。",
+  "search_text": "设 $f(x)=\\begin{cases}0,&0\\le x\\le1\\\\x-1,&1<x\\le2\\end{cases}$，试在 $[0,2]$ 内将 $f(x)$ 展成以 $4$ 为周期的余弦函数，其展开式为（　） $\\frac14+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\left[\\frac{(-1)^n-\\cos\\frac{n\\pi}{2}}{n^2}\\right]\\cos\\frac{n\\pi x}{2}$ $\\frac14+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos\\frac{n\\pi x}{2}$ $\\frac12+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\left[\\frac{(-1)^n-\\cos\\frac{n\\pi}{2}}{n^2}\\right]\\cos\\frac{n\\pi x}{2}$ $\\frac12+\\frac2\\pi\\sum_{n=1}^{\\infty}\\frac{(-1)^n\\cos\\frac{n\\pi}{2}}{n^2}\\cos\\frac{n\\pi x}{2}$ 解对 $f(x)=\\begin{cases}0,&0\\le x\\le1\\\\x-1,&1<x\\le2\\end{cases}$ 进行偶延拓，则 $b_n=0(n=1,2,\\cdots)$。\n\n$a_0=\\frac22\\int_0^2f(x)dx=\\int_1^2(x-1)dx=\\frac12$，\n\n$a_n=\\frac22\\int_0^2f(x)\\cos\\frac{n\\pi x}{2}dx=\\int_1^2(x-1)\\cos\\frac{n\\pi x}{2}dx=\\frac4{n^2\\pi^2}[(-1)^n-\\cos\\frac{n\\pi}{2}](n=1,2,\\cdots)$\n\n$f(x)$ 在 $[0,2]$ 内连续，单调，且 $f(2)=f(-2)$，故当 $x\\in[0,2]$ 时，\n\n$f(x)=\\frac14+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\left[\\frac{(-1)^n-\\cos\\frac{n\\pi}{2}}{n^2}\\right]\\cos\\frac{n\\pi x}{2}$。",
+  "sort_order": 5
+}

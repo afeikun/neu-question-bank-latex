@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int e^{3x}\\,dx$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13e^{3x}+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac13e^{3x}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{3x}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3e^{3x}+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $u=3x$，得 $\\int e^{3x}dx=\\frac13e^{3x}+C$。",
+  "search_text": "不定积分 $\\int e^{3x}\\,dx$ 的值为 $\\frac13e^{3x}+C$ $-\\frac13e^{3x}+C$ $e^{3x}+C$ $3e^{3x}+C$ 令 $u=3x$，得 $\\int e^{3x}dx=\\frac13e^{3x}+C$。",
+  "sort_order": 4
+}

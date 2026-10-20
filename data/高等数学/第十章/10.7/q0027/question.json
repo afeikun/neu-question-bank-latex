@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半球状冰雹融化速率与半球表面积成正比，半径 $r_0$ 的冰雹3小时融化体积的 $7/8$，完全融化需几小时？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：设 $t$ 时刻雪堆半径为 $r$，此时半球体积为 $V=\\frac{2}{3}\\pi r^3$，半球面积为 $S=2\\pi r^2$。依题意得 $\\frac{dV}{dt}=kS$\n\n从而得 $\\frac{dr}{dt}=-k$，并且 $\\left.r\\right|_{t=0}=r_0$，于是解得 $r=-\\frac{1}{6}r_0t+r_0$。",
+  "search_text": "半球状冰雹融化速率与半球表面积成正比，半径 $r_0$ 的冰雹3小时融化体积的 $7/8$，完全融化需几小时？ $6$ $8$ $4$ $3$ 解析：设 $t$ 时刻雪堆半径为 $r$，此时半球体积为 $V=\\frac{2}{3}\\pi r^3$，半球面积为 $S=2\\pi r^2$。依题意得 $\\frac{dV}{dt}=kS$\n\n从而得 $\\frac{dr}{dt}=-k$，并且 $\\left.r\\right|_{t=0}=r_0$，于是解得 $r=-\\frac{1}{6}r_0t+r_0$。",
+  "sort_order": 27
+}

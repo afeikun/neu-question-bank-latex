@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "考虑二元函数 $f(x,y)$：①在点处连续；②两偏导数连续；③在点处可微；④两偏导数存在。若用 $P\\Rightarrow Q$ 表示性质 $P$ 可推出性质 $Q$，则有(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "③⇒④⇒①"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "③⇒①⇒④"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "③⇒②⇒①"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "②⇒③⇒①"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "可微必可导，但导函数不一定连续；可微必连续；两个偏导数存在且偏导数连续则可微。",
+  "search_text": "考虑二元函数 $f(x,y)$：①在点处连续；②两偏导数连续；③在点处可微；④两偏导数存在。若用 $P\\Rightarrow Q$ 表示性质 $P$ 可推出性质 $Q$，则有(\\quad)。 ③⇒④⇒① ③⇒①⇒④ ③⇒②⇒① ②⇒③⇒① 可微必可导，但导函数不一定连续；可微必连续；两个偏导数存在且偏导数连续则可微。",
+  "sort_order": 6
+}

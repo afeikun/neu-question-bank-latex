@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "以下命题中错误的是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(X,Y)$服从二维正态分布，则$X+Y$不一定服从正态分布"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "二维正态向量的边缘变量服从正态分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X,Y$正态且独立则$X+Y$正态"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X,Y$分别正态时，$X+Y$不一定正态"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "二维正态向量的任意线性组合都正态，因此选项1错误。",
+  "search_text": "以下命题中错误的是。 $(X,Y)$服从二维正态分布，则$X+Y$不一定服从正态分布 二维正态向量的边缘变量服从正态分布 $X,Y$正态且独立则$X+Y$正态 $X,Y$分别正态时，$X+Y$不一定正态 二维正态向量的任意线性组合都正态，因此选项1错误。",
+  "sort_order": 16
+}

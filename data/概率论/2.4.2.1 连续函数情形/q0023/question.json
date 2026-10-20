@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim U[a,b]$，$Y=cX+d(c\\ne0)$，求密度正确表达。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$c<0$时$-1/[c(b-a)]$于$cb+d\\le y\\le ca+d$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$c\\ge0$时$1/[c(b-a)]$于$cb+d\\le y\\le ca+d$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$c>0$时$1/[c(b-a)]$于$ca+d\\le y\\le cb+d$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$c\\le0$时$1/[c(b-a)]$于$ca+d\\le y\\le cb+d$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$c>0$时支持区间$[ca+d,cb+d]$且密度$1/(c(b-a))$。",
+  "search_text": "$X\\sim U[a,b]$，$Y=cX+d(c\\ne0)$，求密度正确表达。 $c<0$时$-1/[c(b-a)]$于$cb+d\\le y\\le ca+d$ $c\\ge0$时$1/[c(b-a)]$于$cb+d\\le y\\le ca+d$ $c>0$时$1/[c(b-a)]$于$ca+d\\le y\\le cb+d$ $c\\le0$时$1/[c(b-a)]$于$ca+d\\le y\\le cb+d$ $c>0$时支持区间$[ca+d,cb+d]$且密度$1/(c(b-a))$。",
+  "sort_order": 23
+}

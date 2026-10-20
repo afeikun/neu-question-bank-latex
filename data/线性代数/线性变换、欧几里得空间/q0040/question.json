@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $P=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$，线性空间 $\\mathbb R^{2\\times2}$ 中的映射：$T_1(A)=R(A)$（$A$ 的秩），$T_2(A)=\\det(A)$，$T_3(A)=P$ 中是线性变换的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$R(A)$ 和 $\\det(A)$ 的取值不属于 $\\mathbb R^{2\\times2}$，故 $T_1,T_2$ 不是该空间到自身的线性变换。$T_3$ 为常值映射，且 $T_3(A_1+A_2)=P\\ne 2P=T_3(A_1)+T_3(A_2)$，也不线性。因此共有 $0$ 个。",
+  "search_text": "已知 $P=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$，线性空间 $\\mathbb R^{2\\times2}$ 中的映射：$T_1(A)=R(A)$（$A$ 的秩），$T_2(A)=\\det(A)$，$T_3(A)=P$ 中是线性变换的有（ ）。 $2$ 个 $0$ 个 $3$ 个 $1$ 个 $R(A)$ 和 $\\det(A)$ 的取值不属于 $\\mathbb R^{2\\times2}$，故 $T_1,T_2$ 不是该空间到自身的线性变换。$T_3$ 为常值映射，且 $T_3(A_1+A_2)=P\\ne 2P=T_3(A_1)+T_3(A_2)$，也不线性。因此共有 $0$ 个。",
+  "sort_order": 40
+}

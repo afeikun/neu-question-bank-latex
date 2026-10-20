@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\xi_1,\\xi_2,\\ldots$ 独立同分布，$E(\\xi_i)=\\mu,D(\\xi_i)=\\sigma^2$ 均存在，令 $\\bar\\xi_n=\\frac1n\\sum_{i=1}^n\\xi_i$。对任意 $\\varepsilon>0$，$\\lim_{n\\to\\infty}P(|\\bar\\xi_n-\\mu|\\ge\\varepsilon)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0.5"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$E(\\bar\\xi_n)=\\mu,D(\\bar\\xi_n)=\\sigma^2/n$。由切比雪夫不等式，所给概率不超过 $\\sigma^2/(n\\varepsilon^2)\\to0$，故选第四项。",
+  "search_text": "设 $\\xi_1,\\xi_2,\\ldots$ 独立同分布，$E(\\xi_i)=\\mu,D(\\xi_i)=\\sigma^2$ 均存在，令 $\\bar\\xi_n=\\frac1n\\sum_{i=1}^n\\xi_i$。对任意 $\\varepsilon>0$，$\\lim_{n\\to\\infty}P(|\\bar\\xi_n-\\mu|\\ge\\varepsilon)=$（ ）。 1 0.5 不存在 0 $E(\\bar\\xi_n)=\\mu,D(\\bar\\xi_n)=\\sigma^2/n$。由切比雪夫不等式，所给概率不超过 $\\sigma^2/(n\\varepsilon^2)\\to0$，故选第四项。",
+  "sort_order": 4
+}

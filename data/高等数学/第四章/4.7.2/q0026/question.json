@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线y=x²/2与x=1、x=2、y=−1围成区域绕y=−1旋转体积的定积分表达式",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "π∫₋₁¹(x²/2+2)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "π∫₁²(x²/2+1)²dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "π∫₁²(x²/2+2)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "π∫₋₁²(x²/2+2)²dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "旋转半径为x²/2+1，体积表达式为π∫₁²(x²/2+1)²dx。",
+  "search_text": "曲线y=x²/2与x=1、x=2、y=−1围成区域绕y=−1旋转体积的定积分表达式 π∫₋₁¹(x²/2+2)dx π∫₁²(x²/2+1)²dx π∫₁²(x²/2+2)dx π∫₋₁²(x²/2+2)²dx 旋转半径为x²/2+1，体积表达式为π∫₁²(x²/2+1)²dx。",
+  "sort_order": 26
+}

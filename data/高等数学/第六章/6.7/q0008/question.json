@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x^2+z^2=0$ 在空间中表示(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "柱面"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z$ 轴"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x$ 轴"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y$ 轴"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：由方程解得 $x=z=0$，即表示 $y$ 轴。",
+  "search_text": "方程 $x^2+z^2=0$ 在空间中表示(\\quad)。 柱面 $z$ 轴 $x$ 轴 $y$ 轴 解答：由方程解得 $x=z=0$，即表示 $y$ 轴。",
+  "sort_order": 8
+}

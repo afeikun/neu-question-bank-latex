@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "如果 $D=\\begin{vmatrix}2&2&3\\\\1&1&2\\\\2&x&y\\end{vmatrix}$ 的余子式满足 $M_{11}-M_{12}+M_{13}=1$，则 $D=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由第一行减去第二行，$D=\\begin{vmatrix}1&1&1\\\\1&1&2\\\\2&x&y\\end{vmatrix}=M_{11}-M_{12}+M_{13}=1$。",
+  "search_text": "如果 $D=\\begin{vmatrix}2&2&3\\\\1&1&2\\\\2&x&y\\end{vmatrix}$ 的余子式满足 $M_{11}-M_{12}+M_{13}=1$，则 $D=$（ ）。 $0$ $x$ $1$ $y$ 由第一行减去第二行，$D=\\begin{vmatrix}1&1&1\\\\1&1&2\\\\2&x&y\\end{vmatrix}=M_{11}-M_{12}+M_{13}=1$。",
+  "sort_order": 51
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由 $yz+zx+xy=3$ 确定（$x+y\\ne0$），求 $(z_x,z_y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{z+y}{y+x},\\frac{z+x}{y+x})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-\\frac{z+y}{y+x},-\\frac{z+x}{y+x})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{z+y}{y+x},-\\frac{z+x}{y+x})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\frac{z+y}{y+x},\\frac{z+x}{y+x})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "原式两边对 $x$ 求导得\n\n$$\ny\\frac{\\partial z}{\\partial x}+x\\frac{\\partial z}{\\partial x}+z+y=0\n$$\n\n则\n\n$$\n\\frac{\\partial z}{\\partial x}=-\\frac{z+y}{y+x}\n$$\n\n同理可得：\n\n$$\n\\frac{\\partial z}{\\partial y}=-\\frac{z+x}{y+x}\n$$\n\n也可：\n\n$$\n\\frac{\\partial z}{\\partial x}=-\\frac{F_x}{F_y}=-\\frac{z+y}{y+x}\n$$\n\n$$\n\\frac{\\partial z}{\\partial y}=-\\frac{F_y}{F_x}=-\\frac{z+x}{y+x}\n$$",
+  "search_text": "设 $z=z(x,y)$ 由 $yz+zx+xy=3$ 确定（$x+y\\ne0$），求 $(z_x,z_y)$。 $(\\frac{z+y}{y+x},\\frac{z+x}{y+x})$ $(-\\frac{z+y}{y+x},-\\frac{z+x}{y+x})$ $(\\frac{z+y}{y+x},-\\frac{z+x}{y+x})$ $(-\\frac{z+y}{y+x},\\frac{z+x}{y+x})$ 原式两边对 $x$ 求导得\n\n$$\ny\\frac{\\partial z}{\\partial x}+x\\frac{\\partial z}{\\partial x}+z+y=0\n$$\n\n则\n\n$$\n\\frac{\\partial z}{\\partial x}=-\\frac{z+y}{y+x}\n$$\n\n同理可得：\n\n$$\n\\frac{\\partial z}{\\partial y}=-\\frac{z+x}{y+x}\n$$\n\n也可：\n\n$$\n\\frac{\\partial z}{\\partial x}=-\\frac{F_x}{F_y}=-\\frac{z+y}{y+x}\n$$\n\n$$\n\\frac{\\partial z}{\\partial y}=-\\frac{F_y}{F_x}=-\\frac{z+x}{y+x}\n$$",
+  "sort_order": 34
+}

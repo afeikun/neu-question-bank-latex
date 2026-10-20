@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "统计假设问题中，下面结论正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$H_0:\\mu=\\mu_0,H_1:\\mu<\\mu_0$为单边检验"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单边与双边假设与参数无关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单边拒绝域为$a<x<b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "上述都不对"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "备择假设为单侧不等式时构成单边检验。",
+  "search_text": "统计假设问题中，下面结论正确的是（）。 $H_0:\\mu=\\mu_0,H_1:\\mu<\\mu_0$为单边检验 单边与双边假设与参数无关 单边拒绝域为$a<x<b$ 上述都不对 备择假设为单侧不等式时构成单边检验。",
+  "sort_order": 4
+}

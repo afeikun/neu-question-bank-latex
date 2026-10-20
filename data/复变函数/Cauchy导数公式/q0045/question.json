@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\oint_{|z|=3/2}\\frac{dz}{z^3(z+1)(z-2)}$ 等于（ ），方向沿 $|z|=3/2$ 的正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{\\pi i}{12}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{3\\pi i}{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由高阶Cauchy积分公式计算原点处的贡献，再计入 $z=-1$ 处的简单极点，得 $-\\pi i/12$。",
+  "search_text": "积分 $\\oint_{|z|=3/2}\\frac{dz}{z^3(z+1)(z-2)}$ 等于（ ），方向沿 $|z|=3/2$ 的正向。 $-\\frac{\\pi i}{12}$ $-4\\pi i$ $2\\pi i$ $-\\frac{3\\pi i}{4}$ 由高阶Cauchy积分公式计算原点处的贡献，再计入 $z=-1$ 处的简单极点，得 $-\\pi i/12$。",
+  "sort_order": 45
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态样本$X_1,\\ldots,X_n$，样本均值$\\bar X$和方差$S^2$，成立的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n(\\bar X-\\mu)^2/S^2\\sim F(1,n-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2X_2-X_1\\sim N(\\mu,\\sigma^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$S^2/\\sigma^2\\sim\\chi^2(n-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\bar X-\\mu)\\sqrt{n-1}/S\\sim t(n-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准化样本均值平方除以独立样本方差比值服从$F(1,n-1)$。",
+  "search_text": "正态样本$X_1,\\ldots,X_n$，样本均值$\\bar X$和方差$S^2$，成立的是（）。 $n(\\bar X-\\mu)^2/S^2\\sim F(1,n-1)$ $2X_2-X_1\\sim N(\\mu,\\sigma^2)$ $S^2/\\sigma^2\\sim\\chi^2(n-1)$ $(\\bar X-\\mu)\\sqrt{n-1}/S\\sim t(n-1)$ 标准化样本均值平方除以独立样本方差比值服从$F(1,n-1)$。",
+  "sort_order": 25
+}

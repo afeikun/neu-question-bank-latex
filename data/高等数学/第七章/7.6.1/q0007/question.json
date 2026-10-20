@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=\\tan^2t,y=\\\\cot^2t,z=\\\\sec t\\\\csc t$ 在 $t=\\pi/4$ 处的切线方程是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-1=\\frac{y-1}{-1}=\\frac{z-2}{0}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=\\frac{y-2}{-1}=z-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-1=\\frac{y-1}{-1}=z-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-1=\\frac{y-1}{-1}=\\frac{z-2}{0}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "因\n$$\nx\\bigg|_{t=\\frac{\\pi}{4}}=1,\\quad\ny\\bigg|_{t=\\frac{\\pi}{4}}=1,\\quad\nz\\bigg|_{t=\\frac{\\pi}{4}}=2,\n$$\n又\n$$\nx'_t\\bigg|_{t=\\frac{\\pi}{4}}\n=2\\tan t\\sec^2t\\bigg|_{t=\\frac{\\pi}{4}}=4,\\quad\ny'_t\\bigg|_{t=\\frac{\\pi}{4}}\n=-2\\cot t\\csc^2t\\bigg|_{t=\\frac{\\pi}{4}}=-4,\n$$\n$$\nz'_t\\bigg|_{t=\\frac{\\pi}{4}}\n=(\\tan t\\sec t\\csc t-\\cot t\\csc t\\sec t)\\bigg|_{t=\\frac{\\pi}{4}}=0,\n$$\n则切线方程是：\n$$\n\\frac{x-1}{4}=\\frac{y-1}{-4}=\\frac{z-2}{0},\n$$\n即\n$$\nx-1=\\frac{y-1}{-1}=\\frac{z-2}{0}.\n$$",
+  "search_text": "曲线 $x=\\tan^2t,y=\\\\cot^2t,z=\\\\sec t\\\\csc t$ 在 $t=\\pi/4$ 处的切线方程是。 $x-1=\\frac{y-1}{-1}=\\frac{z-2}{0}$ $x=\\frac{y-2}{-1}=z-2$ $x-1=\\frac{y-1}{-1}=z-2$ $x-1=\\frac{y-1}{-1}=\\frac{z-2}{0}$ 因\n$$\nx\\bigg|_{t=\\frac{\\pi}{4}}=1,\\quad\ny\\bigg|_{t=\\frac{\\pi}{4}}=1,\\quad\nz\\bigg|_{t=\\frac{\\pi}{4}}=2,\n$$\n又\n$$\nx'_t\\bigg|_{t=\\frac{\\pi}{4}}\n=2\\tan t\\sec^2t\\bigg|_{t=\\frac{\\pi}{4}}=4,\\quad\ny'_t\\bigg|_{t=\\frac{\\pi}{4}}\n=-2\\cot t\\csc^2t\\bigg|_{t=\\frac{\\pi}{4}}=-4,\n$$\n$$\nz'_t\\bigg|_{t=\\frac{\\pi}{4}}\n=(\\tan t\\sec t\\csc t-\\cot t\\csc t\\sec t)\\bigg|_{t=\\frac{\\pi}{4}}=0,\n$$\n则切线方程是：\n$$\n\\frac{x-1}{4}=\\frac{y-1}{-4}=\\frac{z-2}{0},\n$$\n即\n$$\nx-1=\\frac{y-1}{-1}=\\frac{z-2}{0}.\n$$",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega:1\\leq x^2+y^2+z^2\\leq4$，则 $\\iiint_\\Omega z^2dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{124}3\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{32}5\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{124}5\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{124}{15}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_\\Omega z^2\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_1^2r^2\\cos^2\\varphi\\cdot r^2\\sin\\varphi\\,dr=\\frac{62\\pi}{5}\\int_0^\\pi\\cos^2\\varphi\\sin\\varphi\\,d\\varphi=\\frac{124\\pi}{15}.\n$$",
+  "search_text": "若 $\\Omega:1\\leq x^2+y^2+z^2\\leq4$，则 $\\iiint_\\Omega z^2dv=$（ ） $\\frac{124}3\\pi$ $\\frac{32}5\\pi$ $\\frac{124}5\\pi$ $\\frac{124}{15}\\pi$ $$\n\\iiint_\\Omega z^2\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_1^2r^2\\cos^2\\varphi\\cdot r^2\\sin\\varphi\\,dr=\\frac{62\\pi}{5}\\int_0^\\pi\\cos^2\\varphi\\sin\\varphi\\,d\\varphi=\\frac{124\\pi}{15}.\n$$",
+  "sort_order": 38
+}

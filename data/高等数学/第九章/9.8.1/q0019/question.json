@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Gamma$ 是从 $(a,0,0)$ 到 $(0,a,0)$ 再到 $(0,0,a)$ 最后回到 $(a,0,0)$ 的三角形边界（$a>0$），计算 $\\oint_\\Gamma(z-y)dx+(x-z)dy+(y-x)dz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n记三角形平面块为 $\\Sigma$，由 $\\Gamma$ 方向知 $\\Sigma$ 的外法向与 $Oz$ 轴成锐角。\n\n$$P=z-y,Q=x-z,R=y-x$$\n\n$$\\therefore\\ \\oint_S=2\\iint_\\Sigma dydz+dzdx+dxdy$$\n\n由对称性\n\n$$\\iint_\\Sigma dydz=\\iint_\\Sigma dzdx=\\iint_\\Sigma dxdy$$\n\n$$\\therefore\\ \\oint_S=6\\iint_\\Sigma dxdy=6\\cdot\\frac{1}{2}\\cdot a\\cdot a=3a^2$$",
+  "search_text": "已知 $\\Gamma$ 是从 $(a,0,0)$ 到 $(0,a,0)$ 再到 $(0,0,a)$ 最后回到 $(a,0,0)$ 的三角形边界（$a>0$），计算 $\\oint_\\Gamma(z-y)dx+(x-z)dy+(y-x)dz=$（ ） $3a^2$ $3a^3$ $4a^2$ $5a^2$ 参考答案：\n\n记三角形平面块为 $\\Sigma$，由 $\\Gamma$ 方向知 $\\Sigma$ 的外法向与 $Oz$ 轴成锐角。\n\n$$P=z-y,Q=x-z,R=y-x$$\n\n$$\\therefore\\ \\oint_S=2\\iint_\\Sigma dydz+dzdx+dxdy$$\n\n由对称性\n\n$$\\iint_\\Sigma dydz=\\iint_\\Sigma dzdx=\\iint_\\Sigma dxdy$$\n\n$$\\therefore\\ \\oint_S=6\\iint_\\Sigma dxdy=6\\cdot\\frac{1}{2}\\cdot a\\cdot a=3a^2$$",
+  "sort_order": 19
+}

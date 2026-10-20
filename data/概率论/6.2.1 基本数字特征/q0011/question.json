@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体$Z\\sim\\chi^2(m)$，样本和$\\sum_{i=1}^nZ_i$的方差为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2nm$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$nm$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$m/n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2m/n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立卡方变量和服从$\\chi^2(nm)$，方差$2nm$。",
+  "search_text": "总体$Z\\sim\\chi^2(m)$，样本和$\\sum_{i=1}^nZ_i$的方差为（）。 $2nm$ $nm$ $m/n$ $2m/n$ 独立卡方变量和服从$\\chi^2(nm)$，方差$2nm$。",
+  "sort_order": 11
+}

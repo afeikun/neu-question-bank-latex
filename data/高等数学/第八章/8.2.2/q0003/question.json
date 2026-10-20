@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "三重积分 $\\iiint_\\Omega(x^2+y^2+z^2)dv$（其中 $\\Omega:x^2+y^2+z^2\\leq1$）的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac45\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac25\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac45\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac25\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为 $\\Omega$ 关于三个坐标面对称，于是\n\n原式\n\n$$\n=\\iiint_\\Omega(x^2+y^2+z^2)\\,dv\n$$\n\n$$\n=3\\iiint_\\Omega z^2\\,dv\n$$\n\n$$\n=3\\int_{-1}^1z^2\\,dz\\iint_{x^2+y^2\\le1-z^2}dx\\,dy\n$$\n\n$$\n=6\\int_0^1z^2\\pi(1-z^2)\\,dz\n$$\n\n$$\n=\\frac45\\pi。\n$$",
+  "search_text": "三重积分 $\\iiint_\\Omega(x^2+y^2+z^2)dv$（其中 $\\Omega:x^2+y^2+z^2\\leq1$）的值为（ ） $\\frac45\\pi$ $\\frac25\\pi$ $-\\frac45\\pi$ $-\\frac25\\pi$ 因为 $\\Omega$ 关于三个坐标面对称，于是\n\n原式\n\n$$\n=\\iiint_\\Omega(x^2+y^2+z^2)\\,dv\n$$\n\n$$\n=3\\iiint_\\Omega z^2\\,dv\n$$\n\n$$\n=3\\int_{-1}^1z^2\\,dz\\iint_{x^2+y^2\\le1-z^2}dx\\,dy\n$$\n\n$$\n=6\\int_0^1z^2\\pi(1-z^2)\\,dz\n$$\n\n$$\n=\\frac45\\pi。\n$$",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\cos y\\frac{dy}{dx}-\\cos x\\sin^2 y=\\sin y$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac2{\\sin y}-\\cos x-\\sin x=ce^{-x},\\ y\\ne k\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac2{\\sin y}+\\cos x-\\sin x=ce^{-x},\\ y\\ne k\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac2{\\sin y}+\\cos x+\\sin x=ce^{-x},\\ y\\ne k\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac2{\\cos y}+\\cos x+\\sin x=ce^{-x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "当 $y\\ne k\\pi$，作变换 $z=\\sin y$，原方程可化为 $\\frac{dz}{dx}-z^2\\cos x=z$，这是伯努利方程，\n\n令 $u=\\frac{1}{z}$，则得方程 $\\frac{du}{dx}+u=-\\cos x$\n\n解此线性方程，得\n\n$$u=e^{-x}\\left(\\int-\\cos x e^x\\,dx+c_1\\right)$$\n\n$$=e^{-x}\\left[-\\frac{e^x(\\cos x+\\sin x)}{2}+c_1\\right]$$\n\n所以 $\\frac{2}{\\sin y}+\\cos x+\\sin x=ce^{-x},\\ y\\ne k\\pi,c$ 为任意常数，另加特解 $y=k\\pi,k\\in Z$",
+  "search_text": "微分方程 $\\cos y\\frac{dy}{dx}-\\cos x\\sin^2 y=\\sin y$ 的通解为（ ） $\\frac2{\\sin y}-\\cos x-\\sin x=ce^{-x},\\ y\\ne k\\pi$ $\\frac2{\\sin y}+\\cos x-\\sin x=ce^{-x},\\ y\\ne k\\pi$ $\\frac2{\\sin y}+\\cos x+\\sin x=ce^{-x},\\ y\\ne k\\pi$ $\\frac2{\\cos y}+\\cos x+\\sin x=ce^{-x}$ 当 $y\\ne k\\pi$，作变换 $z=\\sin y$，原方程可化为 $\\frac{dz}{dx}-z^2\\cos x=z$，这是伯努利方程，\n\n令 $u=\\frac{1}{z}$，则得方程 $\\frac{du}{dx}+u=-\\cos x$\n\n解此线性方程，得\n\n$$u=e^{-x}\\left(\\int-\\cos x e^x\\,dx+c_1\\right)$$\n\n$$=e^{-x}\\left[-\\frac{e^x(\\cos x+\\sin x)}{2}+c_1\\right]$$\n\n所以 $\\frac{2}{\\sin y}+\\cos x+\\sin x=ce^{-x},\\ y\\ne k\\pi,c$ 为任意常数，另加特解 $y=k\\pi,k\\in Z$",
+  "sort_order": 22
+}

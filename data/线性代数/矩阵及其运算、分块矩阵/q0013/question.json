@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 是两个 $n$ 阶复矩阵，$\\lambda$ 是复数，则以下关于共轭矩阵的结论正确的个数是（ ）。\n\n（1）$\\overline{AB}=\\bar A\\bar B$；\n\n（2）$\\overline{A+B}=\\bar A+\\bar B$；\n\n（3）$\\overline{A-B}=\\bar A-\\bar B$；\n\n（4）$\\overline{\\lambda A}=\\bar\\lambda\\bar A$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "这几个选项是共轭矩阵的性质，所以全对。",
+  "search_text": "设 $A,B$ 是两个 $n$ 阶复矩阵，$\\lambda$ 是复数，则以下关于共轭矩阵的结论正确的个数是（ ）。 （1）$\\overline{AB}=\\bar A\\bar B$； （2）$\\overline{A+B}=\\bar A+\\bar B$； （3）$\\overline{A-B}=\\bar A-\\bar B$； （4）$\\overline{\\lambda A}=\\bar\\lambda\\bar A$。 $2$ $3$ $1$ $4$ 这几个选项是共轭矩阵的性质，所以全对。",
+  "sort_order": 13
+}

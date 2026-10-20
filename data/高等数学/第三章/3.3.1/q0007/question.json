@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\pi/2}\\frac{\\ln\\sin x}{(\\pi-2x)^2}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac18$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $t=\\pi/2-x$，$\\ln\\sin x=\\ln\\cos t\\sim-t^2/2$，分母为 $4t^2$，故极限为 $-1/8$。",
+  "search_text": "$\\lim_{x\\to\\pi/2}\\frac{\\ln\\sin x}{(\\pi-2x)^2}=(\\quad)$。 $-1$ $-2$ $\\frac18$ $-\\frac12$ 令 $t=\\pi/2-x$，$\\ln\\sin x=\\ln\\cos t\\sim-t^2/2$，分母为 $4t^2$，故极限为 $-1/8$。",
+  "sort_order": 7
+}

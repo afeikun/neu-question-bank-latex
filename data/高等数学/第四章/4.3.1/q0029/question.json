@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正数列aₙ满足limₙ→∞∫₀ᵃⁿxⁿdx=2，求lim aₙ",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1/2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由aₙ^(n+1)/(n+1)→2，故aₙ→1。",
+  "search_text": "正数列aₙ满足limₙ→∞∫₀ᵃⁿxⁿdx=2，求lim aₙ 2 1/2 1 0 由aₙ^(n+1)/(n+1)→2，故aₙ→1。",
+  "sort_order": 29
+}

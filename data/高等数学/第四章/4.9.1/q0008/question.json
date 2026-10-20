@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半球形水池，直径为 $6m$，水面离池口 $1m$ 深，将池内水抽尽要作多少功？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$32\\pi g$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$16\\pi g$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$15\\pi g$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$36\\pi g$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$W=\\int_1^3 g\\pi x(9-x^2)dx=16\\pi g$。",
+  "search_text": "半球形水池，直径为 $6m$，水面离池口 $1m$ 深，将池内水抽尽要作多少功？ $32\\pi g$ $16\\pi g$ $15\\pi g$ $36\\pi g$ $W=\\int_1^3 g\\pi x(9-x^2)dx=16\\pi g$。",
+  "sort_order": 8
+}

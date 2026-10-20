@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是 $n$ 阶方阵，如果 $Ax=0$ 有非零解，则 $A$ 必有一个特征值是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|A|$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$Ax=0$ 有非零解意味着 $|A|=0$，故 $A$ 有特征值 0，选项 3。",
+  "search_text": "设 $A$ 是 $n$ 阶方阵，如果 $Ax=0$ 有非零解，则 $A$ 必有一个特征值是(\\quad)。 $1$ $|A|$ $0$ $n$ $Ax=0$ 有非零解意味着 $|A|=0$，故 $A$ 有特征值 0，选项 3。",
+  "sort_order": 25
+}

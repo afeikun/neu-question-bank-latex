@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=\\begin{bmatrix}-5&3&1\\\\2&-1&1\\end{bmatrix}$，则使矩阵 $A$ 化为行最简形矩阵 $PA$ 的可逆矩阵 $P$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{bmatrix}1&5\\\\2&3\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{bmatrix}1&3\\\\2&5\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{bmatrix}1&2\\\\3&5\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{bmatrix}2&5\\\\1&3\\end{bmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对增广矩阵作图示初等行变换，累积的左乘矩阵为选项 2。",
+  "search_text": "设矩阵 $A=\\begin{bmatrix}-5&3&1\\\\2&-1&1\\end{bmatrix}$，则使矩阵 $A$ 化为行最简形矩阵 $PA$ 的可逆矩阵 $P$ 为(\\quad)。 $\\begin{bmatrix}1&5\\\\2&3\\end{bmatrix}$ $\\begin{bmatrix}1&3\\\\2&5\\end{bmatrix}$ $\\begin{bmatrix}1&2\\\\3&5\\end{bmatrix}$ $\\begin{bmatrix}2&5\\\\1&3\\end{bmatrix}$ 对增广矩阵作图示初等行变换，累积的左乘矩阵为选项 2。",
+  "sort_order": 54
+}

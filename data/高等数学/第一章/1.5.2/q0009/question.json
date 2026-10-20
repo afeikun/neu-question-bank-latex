@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\lim_{x\\to0}\\frac{x\\ln(1+3x)}{\\arctan(x^2)}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "极限存在，但不能求出"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极限不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用 $\\ln(1+3x)\\sim3x$、$\\arctan(x^2)\\sim x^2$，极限为 3。",
+  "search_text": "求 $\\lim_{x\\to0}\\frac{x\\ln(1+3x)}{\\arctan(x^2)}$。 极限存在，但不能求出 3 极限不存在 0 利用 $\\ln(1+3x)\\sim3x$、$\\arctan(x^2)\\sim x^2$，极限为 3。",
+  "sort_order": 9
+}

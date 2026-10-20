@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{dy}{dx}+y=y^2(\\cos x-\\sin x)$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{ce^x-\\cos x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ce^x-\\sin x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^x-c\\cos x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{ce^x-\\sin x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方程可化为 $\\frac{1}{y^2}y'+\\frac{1}{y}=\\cos x-\\sin x$，令 $z=\\frac{1}{y}$，则 $z'=-\\frac{1}{y^2}y'$\n原方程转化为：$z'-z=\\sin x-\\cos x$，\n$z=e^{\\int dx}\\left[\\int(\\sin x-\\cos x)e^{-\\int dx}\\,dx+C\\right]=e^x\\left[\\int(\\sin x-\\cos x)e^{-x}\\,dx+C\\right]=ce^x-\\sin x$",
+  "search_text": "$\\frac{dy}{dx}+y=y^2(\\cos x-\\sin x)$ 的通解为（ ） $\\frac1{ce^x-\\cos x}$ $ce^x-\\sin x$ $e^x-c\\cos x$ $\\frac1{ce^x-\\sin x}$ 方程可化为 $\\frac{1}{y^2}y'+\\frac{1}{y}=\\cos x-\\sin x$，令 $z=\\frac{1}{y}$，则 $z'=-\\frac{1}{y^2}y'$\n原方程转化为：$z'-z=\\sin x-\\cos x$，\n$z=e^{\\int dx}\\left[\\int(\\sin x-\\cos x)e^{-\\int dx}\\,dx+C\\right]=e^x\\left[\\int(\\sin x-\\cos x)e^{-x}\\,dx+C\\right]=ce^x-\\sin x$",
+  "sort_order": 18
+}

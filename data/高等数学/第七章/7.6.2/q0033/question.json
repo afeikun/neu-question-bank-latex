@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $x\\ln(y+2z)+x^2y+3z-\\frac32=0$ 在 $(-1,0,\\frac12)$ 处的法线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}x+1=0\\\\z-\\frac12=0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+1-y-z=\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}x+1=0\\\\y=0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}y=0\\\\z-\\frac12=0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设 $F=x\\ln(y+2z)+x^2y+3z-\\frac32$。在 $(-1,0,\\frac12)$ 处，$F_x=0,F_y=0,F_z=1$，法向量为 $(0,0,1)$，故法线为 $x+1=0,y=0$，选 C。",
+  "search_text": "曲面 $x\\ln(y+2z)+x^2y+3z-\\frac32=0$ 在 $(-1,0,\\frac12)$ 处的法线方程为。 $\\begin{cases}x+1=0\\\\z-\\frac12=0\\end{cases}$ $x+1-y-z=\\frac12$ $\\begin{cases}x+1=0\\\\y=0\\end{cases}$ $\\begin{cases}y=0\\\\z-\\frac12=0\\end{cases}$ 设 $F=x\\ln(y+2z)+x^2y+3z-\\frac32$。在 $(-1,0,\\frac12)$ 处，$F_x=0,F_y=0,F_z=1$，法向量为 $(0,0,1)$，故法线为 $x+1=0,y=0$，选 C。",
+  "sort_order": 33
+}

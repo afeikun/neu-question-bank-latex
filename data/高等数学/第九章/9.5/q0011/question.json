@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设均匀螺旋形弹簧 $L$ 的方程为 $x=a\\cos t,y=a\\sin t,z=kt\\ (0\\le t\\le2\\pi)$，其密度为常数 $\\rho$，则它的质心坐标为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,0,2k\\pi)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,0,3k\\pi)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0,0,4k\\pi)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,0,k\\pi)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 $L$ 的质量 $\\displaystyle m=\\int_L\\rho\\,ds=\\int_0^{2\\pi}\\rho\\sqrt{a^2+k^2}\\,dt=2\\pi\\rho\\sqrt{a^2+k^2}$，而\n\n$$\n\\int_Lx\\rho\\,ds=a\\rho\\sqrt{a^2+k^2}\\int_0^{2\\pi}\\cos t\\,dt=0,\\quad\n\\int_Ly\\rho\\,ds=a\\rho\\sqrt{a^2+k^2}\\int_0^{2\\pi}\\sin t\\,dt=0,\n$$\n\n$$\n\\int_Lz\\rho\\,ds=k\\rho\\sqrt{a^2+k^2}\\int_0^{2\\pi}t\\,dt=2\\pi^2k\\rho\\sqrt{a^2+k^2},\n$$\n\n故质心坐标为 $(0,0,k\\pi)$。",
+  "search_text": "设均匀螺旋形弹簧 $L$ 的方程为 $x=a\\cos t,y=a\\sin t,z=kt\\ (0\\le t\\le2\\pi)$，其密度为常数 $\\rho$，则它的质心坐标为（ ） $(0,0,2k\\pi)$ $(0,0,3k\\pi)$ $(0,0,4k\\pi)$ $(0,0,k\\pi)$ 解答 $L$ 的质量 $\\displaystyle m=\\int_L\\rho\\,ds=\\int_0^{2\\pi}\\rho\\sqrt{a^2+k^2}\\,dt=2\\pi\\rho\\sqrt{a^2+k^2}$，而\n\n$$\n\\int_Lx\\rho\\,ds=a\\rho\\sqrt{a^2+k^2}\\int_0^{2\\pi}\\cos t\\,dt=0,\\quad\n\\int_Ly\\rho\\,ds=a\\rho\\sqrt{a^2+k^2}\\int_0^{2\\pi}\\sin t\\,dt=0,\n$$\n\n$$\n\\int_Lz\\rho\\,ds=k\\rho\\sqrt{a^2+k^2}\\int_0^{2\\pi}t\\,dt=2\\pi^2k\\rho\\sqrt{a^2+k^2},\n$$\n\n故质心坐标为 $(0,0,k\\pi)$。",
+  "sort_order": 11
+}

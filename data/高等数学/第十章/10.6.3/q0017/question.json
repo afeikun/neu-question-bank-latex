@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $s\\prime\\prime+2as\\prime+a^2s=e^t$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$s=c_1e^{-at}+c_2e^{-at}+\\frac1{(a+1)^2}e^t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$s=c_1e^{-at}+c_2te^{-at}+\\frac2{(a+1)^2}e^t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$s=c_1e^{-at}+c_2te^{-at}+\\frac1{(a+1)^2}e^t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$s=c_1e^{-at}+c_2te^{-at}+\\frac1{(a+2)^2}e^t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对应齐次方程的特征方程为 $r^2+2ar+a^2=0$ 有2重根 $r=-a$。当 $a=-1$ 时，齐次线性方程的通解为 $S=c_1e^t+c_2te^t$，$r=1$ 是特征方程的2重根，故方程有形如 $s^*=At^2e^t$ 的特解，代入原方程解得 $A=\\frac{1}{2}$ 于是原方程的通解为\n\n$s=c_1e^t+c_2te^t+\\frac{1}{2}t^2e^t$\n\n当 $a\\ne-1$ 时，齐次线性方程的通解为 $S=c_1e^{-at}+c_2te^{-at}$，$r=1$ 不是特征方程的根，故方程有形如 $s^*=Ae^t$ 的特解，代入原方程解得 $A=\\frac{1}{(a+1)^2}$ 于是原方程的通解为\n\n$s=c_1e^{-at}+c_2te^{-at}+\\frac{1}{(a+1)^2}e^t$ 其中 $c_1,c_2$ 为任意常数。",
+  "search_text": "解方程 $s\\prime\\prime+2as\\prime+a^2s=e^t$（ ） $s=c_1e^{-at}+c_2e^{-at}+\\frac1{(a+1)^2}e^t$ $s=c_1e^{-at}+c_2te^{-at}+\\frac2{(a+1)^2}e^t$ $s=c_1e^{-at}+c_2te^{-at}+\\frac1{(a+1)^2}e^t$ $s=c_1e^{-at}+c_2te^{-at}+\\frac1{(a+2)^2}e^t$ 对应齐次方程的特征方程为 $r^2+2ar+a^2=0$ 有2重根 $r=-a$。当 $a=-1$ 时，齐次线性方程的通解为 $S=c_1e^t+c_2te^t$，$r=1$ 是特征方程的2重根，故方程有形如 $s^*=At^2e^t$ 的特解，代入原方程解得 $A=\\frac{1}{2}$ 于是原方程的通解为\n\n$s=c_1e^t+c_2te^t+\\frac{1}{2}t^2e^t$\n\n当 $a\\ne-1$ 时，齐次线性方程的通解为 $S=c_1e^{-at}+c_2te^{-at}$，$r=1$ 不是特征方程的根，故方程有形如 $s^*=Ae^t$ 的特解，代入原方程解得 $A=\\frac{1}{(a+1)^2}$ 于是原方程的通解为\n\n$s=c_1e^{-at}+c_2te^{-at}+\\frac{1}{(a+1)^2}e^t$ 其中 $c_1,c_2$ 为任意常数。",
+  "sort_order": 17
+}

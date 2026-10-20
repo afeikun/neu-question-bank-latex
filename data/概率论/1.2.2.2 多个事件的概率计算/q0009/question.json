@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设事件$A,B,C$两两互不相容，$P(A)=0.2$，$P(B)=0.3$，$P(C)=0.4$，则$P[(A\\cup B)-C]=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.45$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "三事件两两互斥，故$(A\\cup B)-C=A\\cup B$，其概率为$P(A)+P(B)=0.2+0.3=0.5$。",
+  "search_text": "设事件$A,B,C$两两互不相容，$P(A)=0.2$，$P(B)=0.3$，$P(C)=0.4$，则$P[(A\\cup B)-C]=(\\quad)$。 $0.5$ $0.6$ $0.45$ $0.8$ 三事件两两互斥，故$(A\\cup B)-C=A\\cup B$，其概率为$P(A)+P(B)=0.2+0.3=0.5$。",
+  "sort_order": 9
+}

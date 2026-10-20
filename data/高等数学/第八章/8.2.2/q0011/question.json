@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "三重积分 $\\iiint_Vzdxdy dz$ 的值，其中 $V$ 是上半椭球 $x^2/a^2+y^2/b^2+z^2/c^2\\leq1,z\\geq0$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12abc^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$abc^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac18abc^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac14abc^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_V zdxdy dz=\\int_{-a}^{a}dx\\int_{a}^{b\\sqrt{a^2-x^2}/a}dy\\int_0^{\\sqrt{1-x^2/a^2-y^2/b^2}}z dz\n$$\n$$\n=\\frac{2bc^2}{3}\\int_{-a}^{a}(a^2-x^2)^{\\frac{3}{2}}dx\n$$\n$$\n=\\frac{1}{4}\\pi abc^2。\n$$",
+  "search_text": "三重积分 $\\iiint_Vzdxdy dz$ 的值，其中 $V$ 是上半椭球 $x^2/a^2+y^2/b^2+z^2/c^2\\leq1,z\\geq0$（ ） $\\frac12abc^2$ $abc^2$ $\\frac18abc^2$ $\\frac14abc^2$ $$\n\\iiint_V zdxdy dz=\\int_{-a}^{a}dx\\int_{a}^{b\\sqrt{a^2-x^2}/a}dy\\int_0^{\\sqrt{1-x^2/a^2-y^2/b^2}}z dz\n$$\n$$\n=\\frac{2bc^2}{3}\\int_{-a}^{a}(a^2-x^2)^{\\frac{3}{2}}dx\n$$\n$$\n=\\frac{1}{4}\\pi abc^2。\n$$",
+  "sort_order": 11
+}

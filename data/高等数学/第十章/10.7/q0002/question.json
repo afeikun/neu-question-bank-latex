@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质量为 $m$ 的物体自静止开始运动，动力与时间成正比，阻力与速度成正比，比例系数分别为 $k_1,k_2$，求速度 $v(t)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$v=\\frac{k_1}{k_2}t-\\frac{mk_1}{k_2^2}(1-e^{-k_2t/m})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$v=\\frac{k_1}{k_2}t+\\frac{mk_1}{k_2^2}(1-e^{-k_2t/m})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$v=\\frac{k_1}{k_2}(1-e^{-k_2t/m})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$v=\\frac{k_1}{m}t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：设物体的运动速度为 $v(t)$，依题意得 $m\\frac{dv}{dt}=k_1t-k_2v$。\n\n解得 $v=e^{-\\frac{k_2t}{m}}(c+\\int\\frac{k_1}{m}te^{\\frac{k_2t}{m}}dt)=e^{-\\frac{k_2t}{m}}(c+\\frac{k_1}{m}\\int te^{\\frac{k_2t}{m}}dt)=e^{-\\frac{k_2t}{m}}(c+\\frac{k_1}{m}(\\frac{mt}{k_2}e^{\\frac{k_2t}{m}}-\\frac{m^2}{k_2^2}e^{\\frac{k_2t}{m}}))$，代入初始条件 $\\left.v\\right|_{t=0}=0$，得 $c=\\frac{mk_1}{k_2^2}$，故所求函数关系为：\n\n$v=\\frac{k_1}{k_2}t-\\frac{mk_1}{k_2^2}(1-e^{-\\frac{k_2t}{m}})$。",
+  "search_text": "质量为 $m$ 的物体自静止开始运动，动力与时间成正比，阻力与速度成正比，比例系数分别为 $k_1,k_2$，求速度 $v(t)$。 $v=\\frac{k_1}{k_2}t-\\frac{mk_1}{k_2^2}(1-e^{-k_2t/m})$ $v=\\frac{k_1}{k_2}t+\\frac{mk_1}{k_2^2}(1-e^{-k_2t/m})$ $v=\\frac{k_1}{k_2}(1-e^{-k_2t/m})$ $v=\\frac{k_1}{m}t$ 解析：设物体的运动速度为 $v(t)$，依题意得 $m\\frac{dv}{dt}=k_1t-k_2v$。\n\n解得 $v=e^{-\\frac{k_2t}{m}}(c+\\int\\frac{k_1}{m}te^{\\frac{k_2t}{m}}dt)=e^{-\\frac{k_2t}{m}}(c+\\frac{k_1}{m}\\int te^{\\frac{k_2t}{m}}dt)=e^{-\\frac{k_2t}{m}}(c+\\frac{k_1}{m}(\\frac{mt}{k_2}e^{\\frac{k_2t}{m}}-\\frac{m^2}{k_2^2}e^{\\frac{k_2t}{m}}))$，代入初始条件 $\\left.v\\right|_{t=0}=0$，得 $c=\\frac{mk_1}{k_2^2}$，故所求函数关系为：\n\n$v=\\frac{k_1}{k_2}t-\\frac{mk_1}{k_2^2}(1-e^{-\\frac{k_2t}{m}})$。",
+  "sort_order": 2
+}

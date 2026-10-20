@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$A,B,C$是3个事件，且$P(A)=P(B)=P(C)=1/4$，$P(AB)=P(BC)=1/16$，$P(AC)=0$，则$P(\\overline A\\,\\overline B\\,\\overline C)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5/8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$7/8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由容斥公式，$P(A\\cup B\\cup C)=1/4+1/4+1/4-1/16-0-1/16+0=3/8$，故补事件概率为$5/8$。",
+  "search_text": "设$A,B,C$是3个事件，且$P(A)=P(B)=P(C)=1/4$，$P(AB)=P(BC)=1/16$，$P(AC)=0$，则$P(\\overline A\\,\\overline B\\,\\overline C)=(\\quad)$。 $5/8$ $3/8$ $7/8$ $1/8$ 由容斥公式，$P(A\\cup B\\cup C)=1/4+1/4+1/4-1/16-0-1/16+0=3/8$，故补事件概率为$5/8$。",
+  "sort_order": 4
+}

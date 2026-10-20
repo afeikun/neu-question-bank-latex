@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设平面薄片 $D$ 由 $x+y=2,y=x$ 和 $x$ 轴围成，密度 $\\mu=x^2+y^2$，薄片质量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac34$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac76$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\nm=\\iint_D\\mu(x,y)\\,d\\sigma=\\int_0^1dy\\int_y^{2-y}(x^2+y^2)\\,dx=\\frac34\n$$\n\n示意图：坐标轴为 $x$（向右）和 $y$（向上），原点标为 $O$；黄色三角形顶点为 $(0,0)$、$(1,1)$、$(2,0)$，轴上标有 $x=1$、$x=2$、$y=1$。",
+  "search_text": "设平面薄片 $D$ 由 $x+y=2,y=x$ 和 $x$ 轴围成，密度 $\\mu=x^2+y^2$，薄片质量为（ ） $\\frac43$ $\\frac16$ $\\frac34$ $\\frac76$ $$\nm=\\iint_D\\mu(x,y)\\,d\\sigma=\\int_0^1dy\\int_y^{2-y}(x^2+y^2)\\,dx=\\frac34\n$$\n\n示意图：坐标轴为 $x$（向右）和 $y$（向上），原点标为 $O$；黄色三角形顶点为 $(0,0)$、$(1,1)$、$(2,0)$，轴上标有 $x=1$、$x=2$、$y=1$。",
+  "sort_order": 58
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $V=\\left\\{\\begin{pmatrix}a&b\\\\a-c&b+d\\end{pmatrix}\\middle|a,b,c,d\\in\\mathbb{R}\\right\\}$，对矩阵加法和数乘矩阵运算有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$V$ 是二维向量空间"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$V$ 不是向量空间"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$V$ 是三维向量空间"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$V$ 是四维向量空间"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "矩阵 $\\begin{pmatrix}1&0\\\\1&0\\end{pmatrix}$、$\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$、$\\begin{pmatrix}0&0\\\\-1&0\\end{pmatrix}$、$\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}$ 都属于 $V$，且线性无关；$V$ 中任意元素都可由它们线性表示，所以 $V$ 是四维的。",
+  "search_text": "设 $V=\\left\\{\\begin{pmatrix}a&b\\\\a-c&b+d\\end{pmatrix}\\middle|a,b,c,d\\in\\mathbb{R}\\right\\}$，对矩阵加法和数乘矩阵运算有（ ）。 $V$ 是二维向量空间 $V$ 不是向量空间 $V$ 是三维向量空间 $V$ 是四维向量空间 矩阵 $\\begin{pmatrix}1&0\\\\1&0\\end{pmatrix}$、$\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$、$\\begin{pmatrix}0&0\\\\-1&0\\end{pmatrix}$、$\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}$ 都属于 $V$，且线性无关；$V$ 中任意元素都可由它们线性表示，所以 $V$ 是四维的。",
+  "sort_order": 3
+}

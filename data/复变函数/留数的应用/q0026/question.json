@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $a>0$ 时，积分 $I=\\displaystyle\\int_{-\\infty}^{+\\infty}\\dfrac{x^2}{(x^2+a^2)^2}\\,dx=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi{2a}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{2\\pi}{3a}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{3\\pi}{5a}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "函数 $f(z)=\\dfrac{z^2}{(z^2+a^2)^2}$ 在上半平面有二阶极点 $ia$。计算其留数可得积分 $I=\\dfrac\\pi{2a}$。",
+  "search_text": "当 $a>0$ 时，积分 $I=\\displaystyle\\int_{-\\infty}^{+\\infty}\\dfrac{x^2}{(x^2+a^2)^2}\\,dx=(\\ \\ )$。 $\\dfrac\\pi{2a}$ $\\dfrac\\pi a$ $\\dfrac{2\\pi}{3a}$ $\\dfrac{3\\pi}{5a}$ 函数 $f(z)=\\dfrac{z^2}{(z^2+a^2)^2}$ 在上半平面有二阶极点 $ia$。计算其留数可得积分 $I=\\dfrac\\pi{2a}$。",
+  "sort_order": 26
+}

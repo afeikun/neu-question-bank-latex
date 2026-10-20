@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $\\sin^2x$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2-\\frac12\\sum_{n=0}^{\\infty}(-1)^n4^n x^{2n}/(2n)!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/2-\\frac12\\sum_{n=0}^{\\infty}(-1)^n4^n x^{2n}/(2n)!$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2+\\frac12\\sum_{n=0}^{\\infty}(-1)^n4^n x^{2n}/(2n)!$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/2-\\frac12\\sum_{n=0}^{\\infty}4^n x^{2n}/(2n)!$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用 $\\sin^2x=(1-\\cos2x)/2$。",
+  "search_text": "将 $\\sin^2x$ 展开成 $x$ 的幂级数。 $1/2-\\frac12\\sum_{n=0}^{\\infty}(-1)^n4^n x^{2n}/(2n)!$ $1/2-\\frac12\\sum_{n=0}^{\\infty}(-1)^n4^n x^{2n}/(2n)!$ $1/2+\\frac12\\sum_{n=0}^{\\infty}(-1)^n4^n x^{2n}/(2n)!$ $1/2-\\frac12\\sum_{n=0}^{\\infty}4^n x^{2n}/(2n)!$ 利用 $\\sin^2x=(1-\\cos2x)/2$。",
+  "sort_order": 23
+}

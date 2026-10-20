@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 在 $[a,b]$（其中 $b-a=1$）上二阶可导，且 $f\\prime\\prime(x)>0$，则下列不等式正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f\\prime(b)>f\\prime(a)>f(b)-f(a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f\\prime(b)>f(b)-f(a)>f\\prime(a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(b)-f(a)>f\\prime(b)>f\\prime(a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(a)>f(b)-f(a)>f\\prime(b)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f\\prime\\prime>0$ 使 $f\\prime$ 严格增加。由拉格朗日中值定理，$f(b)-f(a)=f\\prime(\\xi)(b-a)=f\\prime(\\xi)$，故夹在 $f\\prime(a)$ 与 $f\\prime(b)$ 之间。",
+  "search_text": "$f(x)$ 在 $[a,b]$（其中 $b-a=1$）上二阶可导，且 $f\\prime\\prime(x)>0$，则下列不等式正确的是（ ）。 $f\\prime(b)>f\\prime(a)>f(b)-f(a)$ $f\\prime(b)>f(b)-f(a)>f\\prime(a)$ $f(b)-f(a)>f\\prime(b)>f\\prime(a)$ $f\\prime(a)>f(b)-f(a)>f\\prime(b)$ $f\\prime\\prime>0$ 使 $f\\prime$ 严格增加。由拉格朗日中值定理，$f(b)-f(a)=f\\prime(\\xi)(b-a)=f\\prime(\\xi)$，故夹在 $f\\prime(a)$ 与 $f\\prime(b)$ 之间。",
+  "sort_order": 8
+}

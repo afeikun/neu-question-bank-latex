@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "极坐标曲线 $\\rho=a(1+\\theta)$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1+\\theta+\\tan\\theta}{1+(1+\\theta)\\tan\\theta}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1+\\theta-\\tan\\theta}{1-(1+\\theta)\\tan\\theta}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1+\\theta-\\tan\\theta}{1+(1+\\theta)\\tan\\theta}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1+\\theta+\\tan\\theta}{1-(1+\\theta)\\tan\\theta}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由极坐标方程可得参数方程\n\n$$\\begin{cases}x=a(1+\\theta)\\cos\\theta\\\\y=a(1+\\theta)\\sin\\theta\\end{cases}$$\n\n两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=a\\cos\\theta-a(1+\\theta)\\sin\\theta，\\quad\\frac{dy}{d\\theta}=a\\sin\\theta+a(1+\\theta)\\cos\\theta，$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a((1+\\theta)\\cos\\theta+\\sin\\theta)}{a(\\cos\\theta-(1+\\theta)\\sin\\theta)}=\\frac{1+\\theta+\\tan\\theta}{1-(1+\\theta)\\tan\\theta}$",
+  "search_text": "极坐标曲线 $\\rho=a(1+\\theta)$，求 $\\frac{dy}{dx}$。 $\\frac{1+\\theta+\\tan\\theta}{1+(1+\\theta)\\tan\\theta}$ $\\frac{1+\\theta-\\tan\\theta}{1-(1+\\theta)\\tan\\theta}$ $\\frac{1+\\theta-\\tan\\theta}{1+(1+\\theta)\\tan\\theta}$ $\\frac{1+\\theta+\\tan\\theta}{1-(1+\\theta)\\tan\\theta}$ 解答 由极坐标方程可得参数方程\n\n$$\\begin{cases}x=a(1+\\theta)\\cos\\theta\\\\y=a(1+\\theta)\\sin\\theta\\end{cases}$$\n\n两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=a\\cos\\theta-a(1+\\theta)\\sin\\theta，\\quad\\frac{dy}{d\\theta}=a\\sin\\theta+a(1+\\theta)\\cos\\theta，$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a((1+\\theta)\\cos\\theta+\\sin\\theta)}{a(\\cos\\theta-(1+\\theta)\\sin\\theta)}=\\frac{1+\\theta+\\tan\\theta}{1-(1+\\theta)\\tan\\theta}$",
+  "sort_order": 9
+}

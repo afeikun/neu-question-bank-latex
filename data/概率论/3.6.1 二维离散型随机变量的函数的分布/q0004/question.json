@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi,\\eta$独立正整数值，概率分别$p(i),q(j)$，求和$\\zeta=\\xi+\\eta$的概率质量函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\zeta=k)=\\sum_{i=1}^k p(i)q(k-i)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{i=1}^k\\sum_{j=1}^k p(i)q(j)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{i+j=k}p(i)q(j)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{i=1}^k\\sum_{j=1}^k p(i)q(j)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由独立性，$P(\\xi+\\eta=k)=\\sum_{i+j=k}p(i)q(j)=\\sum_{i=1}^k p(i)q(k-i)$。",
+  "search_text": "$\\xi,\\eta$独立正整数值，概率分别$p(i),q(j)$，求和$\\zeta=\\xi+\\eta$的概率质量函数。 $P(\\zeta=k)=\\sum_{i=1}^k p(i)q(k-i)$ $\\sum_{i=1}^k\\sum_{j=1}^k p(i)q(j)$ $\\sum_{i+j=k}p(i)q(j)$ $\\sum_{i=1}^k\\sum_{j=1}^k p(i)q(j)$ 由独立性，$P(\\xi+\\eta=k)=\\sum_{i+j=k}p(i)q(j)=\\sum_{i=1}^k p(i)q(k-i)$。",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为 $|z|=2$ 正向圆周，则 $\\oint_C\\frac{\\sin z}{z(z+\\frac\\pi2)}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内奇点 $0,-\\frac\\pi2$ 的小圆积分贡献相加为 $4i$。",
+  "search_text": "设 $C$ 为 $|z|=2$ 正向圆周，则 $\\oint_C\\frac{\\sin z}{z(z+\\frac\\pi2)}\\,dz=(\\quad)$。 $4i$ $-4\\pi i$ $\\pi i$ $4$ 圆内奇点 $0,-\\frac\\pi2$ 的小圆积分贡献相加为 $4i$。",
+  "sort_order": 28
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Sigma$ 是柱面 $x^2+y^2=9$ 及平面 $z=0,z=3$ 所围成空间闭区域 $\\Omega$ 的整个边界曲面的外侧，则 $\\iint_\\Sigma xdy\\,dz+ydz\\,dx+zdx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$81\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$54\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$18\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：原式 $=\\iiint_{\\Omega}(1+1+1)dv=3\\iiint_{\\Omega}dv=3V_{柱}=3\\cdot\\pi\\cdot3^2\\cdot3=81\\pi$",
+  "search_text": "$\\Sigma$ 是柱面 $x^2+y^2=9$ 及平面 $z=0,z=3$ 所围成空间闭区域 $\\Omega$ 的整个边界曲面的外侧，则 $\\iint_\\Sigma xdy\\,dz+ydz\\,dx+zdx\\,dy=$（ ） $81\\pi$ $54\\pi$ $8\\pi$ $18\\pi$ 解析：原式 $=\\iiint_{\\Omega}(1+1+1)dv=3\\iiint_{\\Omega}dv=3V_{柱}=3\\cdot\\pi\\cdot3^2\\cdot3=81\\pi$",
+  "sort_order": 29
+}

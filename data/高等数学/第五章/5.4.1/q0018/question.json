@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty} 2^{-\\sqrt n}x^n$ 的收敛半径是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "系数 $n$ 次方根趋于1，半径为1。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty} 2^{-\\sqrt n}x^n$ 的收敛半径是？ 2 1 $1/2$ $\\sqrt2$ 系数 $n$ 次方根趋于1，半径为1。",
+  "sort_order": 18
+}

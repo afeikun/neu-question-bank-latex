@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$A=2xy\\mathbf i+4xy\\mathbf j-6yz\\mathbf k$ 在 $(2,1,2)$ 处的散度为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$$divA=2y+4x-6y=4(x-y),\\quad divA|_{(2,1,2)}=4$$",
+  "search_text": "$A=2xy\\mathbf i+4xy\\mathbf j-6yz\\mathbf k$ 在 $(2,1,2)$ 处的散度为（ ） $2$ $12$ $5$ $4$ 参考答案：\n\n$$divA=2y+4x-6y=4(x-y),\\quad divA|_{(2,1,2)}=4$$",
+  "sort_order": 4
+}

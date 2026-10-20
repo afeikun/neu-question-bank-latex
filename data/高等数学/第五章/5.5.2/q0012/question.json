@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将函数 $(x-2)/x^2$ 展开成 $x-2$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^{n-1}n(x-2)^n/2^{n+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^{n-1}n(x-2)^n/2^{n+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^{n-1}n(x-2)^n/2^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^{n-1}n(x-2)^n/2^{n+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $h=x-2$，将 $h/(h+2)^2$ 按几何级数求导展开。",
+  "search_text": "将函数 $(x-2)/x^2$ 展开成 $x-2$ 的幂级数。 $\\sum_{n=1}^{\\infty}(-1)^{n-1}n(x-2)^n/2^{n+1}$ $\\sum_{n=1}^{\\infty}(-1)^{n-1}n(x-2)^n/2^{n+1}$ $\\sum_{n=1}^{\\infty}(-1)^{n-1}n(x-2)^n/2^n$ $\\sum_{n=1}^{\\infty}(-1)^{n-1}n(x-2)^n/2^{n+1}$ 令 $h=x-2$，将 $h/(h+2)^2$ 按几何级数求导展开。",
+  "sort_order": 12
+}

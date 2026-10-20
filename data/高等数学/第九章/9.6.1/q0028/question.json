@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $x^2+y^2=R^2$ 顺时针一周，用格林公式计算 $I=\\oint_C-x^2y\\,dx+xy^2\\,dy$，则 $I=(\\ )$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\int_0^{2\\pi}d\\theta\\int_0^R4r^3\\sin\\theta\\cos\\theta\\,dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\int_0^{2\\pi}d\\theta\\int_0^Rr^2\\,dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\int_0^{2\\pi}d\\theta\\int_0^Rr^3\\,dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\int_0^{2\\pi}d\\theta\\int_0^RR^2r\\,dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：\n\n由题意知，$P=-x^2y，\\quad Q=xy^2，\\quad L$ 为区域边界的负向，故根据格林公式，有\n\n$\\oint_Lxy^2dy-x^2ydx=-\\iint_D(y^2+x^2)dxdy=-\\int_0^{2\\pi}d\\theta\\int_0^{R^2}r^3dr$",
+  "search_text": "设 $C$ 为圆周 $x^2+y^2=R^2$ 顺时针一周，用格林公式计算 $I=\\oint_C-x^2y\\,dx+xy^2\\,dy$，则 $I=(\\ )$ $-\\int_0^{2\\pi}d\\theta\\int_0^R4r^3\\sin\\theta\\cos\\theta\\,dr$ $-\\int_0^{2\\pi}d\\theta\\int_0^Rr^2\\,dr$ $-\\int_0^{2\\pi}d\\theta\\int_0^Rr^3\\,dr$ $-\\int_0^{2\\pi}d\\theta\\int_0^RR^2r\\,dr$ 解析：\n\n由题意知，$P=-x^2y，\\quad Q=xy^2，\\quad L$ 为区域边界的负向，故根据格林公式，有\n\n$\\oint_Lxy^2dy-x^2ydx=-\\iint_D(y^2+x^2)dxdy=-\\int_0^{2\\pi}d\\theta\\int_0^{R^2}r^3dr$",
+  "sort_order": 28
+}

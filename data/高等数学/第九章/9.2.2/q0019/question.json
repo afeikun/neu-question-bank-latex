@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "第一型曲面积分 $\\iint_\\Sigma(x+y+z)dS=$ [　]，其中 $\\Sigma$ 为平面 $x+\\frac y2+\\frac z3=1$ 在第一卦限中的部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac72$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\sqrt{61}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答根据对称性，\n\n$$\\iint_\\Sigma(\\frac{x}{1})dS=\\iint_\\Sigma(\\frac{y}{2})dS=\\iint_\\Sigma(\\frac{z}{3})dS=\\frac13\\iint_\\Sigma(\\frac{x}{1}+\\frac{y}{2}+\\frac{z}{3})dS=\\frac13\\iint_\\Sigma1dS=\\frac13A，$$\n\n$A$ 为曲面 $\\Sigma$ 的面积。$A=\\frac12|\\vec a\\times\\vec b|=\\frac72，\\quad \\vec a,\\vec b$ 为三角形邻边向量。",
+  "search_text": "第一型曲面积分 $\\iint_\\Sigma(x+y+z)dS=$ [　]，其中 $\\Sigma$ 为平面 $x+\\frac y2+\\frac z3=1$ 在第一卦限中的部分。 $4$ $7$ $\\frac72$ $4\\sqrt{61}$ 解答根据对称性，\n\n$$\\iint_\\Sigma(\\frac{x}{1})dS=\\iint_\\Sigma(\\frac{y}{2})dS=\\iint_\\Sigma(\\frac{z}{3})dS=\\frac13\\iint_\\Sigma(\\frac{x}{1}+\\frac{y}{2}+\\frac{z}{3})dS=\\frac13\\iint_\\Sigma1dS=\\frac13A，$$\n\n$A$ 为曲面 $\\Sigma$ 的面积。$A=\\frac12|\\vec a\\times\\vec b|=\\frac72，\\quad \\vec a,\\vec b$ 为三角形邻边向量。",
+  "sort_order": 19
+}

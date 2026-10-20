@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "数列 $\\{a_n\\}$ 与 $\\{b_n\\}$ 的前 $n$ 项和分别记作 $S_n,S_n^\\prime$，如果 $S_n=n^2+2n-1$，$S_n^\\prime=2n^2+n-3$，设 $c_n=a_nb_n$，数列 $\\{c_n\\}$ 的前 $n$ 项和记作 $T_n$，数列 $\\{S_n\\}$ 的前 $n$ 项和记作 $M_n$，求 $\\lim_{n\\to\\infty}\\frac{T_n}{M_n}$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac85$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由相邻部分和求出 $a_n,b_n$，再求 $c_n$ 的部分和 $T_n$ 与 $S_n$ 的部分和 $M_n$，比较最高次项得极限 $\\frac85$。",
+  "search_text": "数列 $\\{a_n\\}$ 与 $\\{b_n\\}$ 的前 $n$ 项和分别记作 $S_n,S_n^\\prime$，如果 $S_n=n^2+2n-1$，$S_n^\\prime=2n^2+n-3$，设 $c_n=a_nb_n$，数列 $\\{c_n\\}$ 的前 $n$ 项和记作 $T_n$，数列 $\\{S_n\\}$ 的前 $n$ 项和记作 $M_n$，求 $\\lim_{n\\to\\infty}\\frac{T_n}{M_n}$（ ）。 2 $\\frac23$ 4 $\\frac85$ 由相邻部分和求出 $a_n,b_n$，再求 $c_n$ 的部分和 $T_n$ 与 $S_n$ 的部分和 $M_n$，比较最高次项得极限 $\\frac85$。",
+  "sort_order": 42
+}

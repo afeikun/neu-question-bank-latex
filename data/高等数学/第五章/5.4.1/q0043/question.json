@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\sum_{n=0}^{\\infty} a_n(x+3)^n$ 在 $x=-1$ 处收敛，则在 $x=1$ 处？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不能确定敛散性"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$t=2$ 处收敛，半径至少2；$x=1$ 对应 $t=4$，无法由此确定。",
+  "search_text": "若 $\\sum_{n=0}^{\\infty} a_n(x+3)^n$ 在 $x=-1$ 处收敛，则在 $x=1$ 处？ 不能确定敛散性 绝对收敛 条件收敛 发散 $t=2$ 处收敛，半径至少2；$x=1$ 对应 $t=4$，无法由此确定。",
+  "sort_order": 43
+}

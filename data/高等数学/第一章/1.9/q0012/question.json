@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)=\\begin{cases}(x+1)\\arctan\\frac1{x^2-1},&x\\ne\\pm1\\\\0,&x=\\pm1\\end{cases}$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=\\pm1$ 均为连续点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=1$ 为连续点，$x=-1$ 为间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=\\pm1$ 均为间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=1$ 为间断点，$x=-1$ 为连续点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$x\\to1^+$ 与 $x\\to1^-$ 的极限分别为 $\\pi$ 与 $-\\pi$，故 $x=1$ 间断；$x\\to-1$ 时函数极限为 $0=f(-1)$，故连续。",
+  "search_text": "设函数 $f(x)=\\begin{cases}(x+1)\\arctan\\frac1{x^2-1},&x\\ne\\pm1\\\\0,&x=\\pm1\\end{cases}$，则（ ）。 $x=\\pm1$ 均为连续点 $x=1$ 为连续点，$x=-1$ 为间断点 $x=\\pm1$ 均为间断点 $x=1$ 为间断点，$x=-1$ 为连续点 $x\\to1^+$ 与 $x\\to1^-$ 的极限分别为 $\\pi$ 与 $-\\pi$，故 $x=1$ 间断；$x\\to-1$ 时函数极限为 $0=f(-1)$，故连续。",
+  "sort_order": 12
+}

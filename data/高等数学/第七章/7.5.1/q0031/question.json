@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=\\frac{(\\ln x)^y}{y^{\\ln x}}$（$x>1,y>1$），求 $z_x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{y^{\\ln x}}{(\\ln x)^y}(\\frac{y}{x\\ln x}+\\frac{\\ln y}{x})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{(\\ln x)^y}{y^{\\ln x}}(\\frac{y}{x\\ln x}+\\frac{\\ln y}{x})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{(\\ln x)^y}{y^{\\ln x}}(\\frac{y}{x\\ln x}-\\frac{\\ln y}{x})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{y^{\\ln x}}{(\\ln x)^y}(\\frac{y}{x\\ln x}-\\frac{\\ln y}{x})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "有题设可知：\n\n$$\n\\ln z=y\\ln\\ln x-\\ln x\\ln y\n$$\n\n可得：\n\n$$\n\\frac{1}{z}\\frac{\\partial z}{\\partial x}=\\frac{y}{x\\ln x}-\\frac{\\ln y}{x}\n$$\n\n$$\n\\frac{\\partial z}{\\partial x}=\\frac{(\\ln x)^y}{y^{\\ln x}}\\left(\\frac{y}{x\\ln x}-\\frac{\\ln y}{x}\\right)\n$$",
+  "search_text": "设 $z=\\frac{(\\ln x)^y}{y^{\\ln x}}$（$x>1,y>1$），求 $z_x$。 $\\frac{y^{\\ln x}}{(\\ln x)^y}(\\frac{y}{x\\ln x}+\\frac{\\ln y}{x})$ $\\frac{(\\ln x)^y}{y^{\\ln x}}(\\frac{y}{x\\ln x}+\\frac{\\ln y}{x})$ $\\frac{(\\ln x)^y}{y^{\\ln x}}(\\frac{y}{x\\ln x}-\\frac{\\ln y}{x})$ $\\frac{y^{\\ln x}}{(\\ln x)^y}(\\frac{y}{x\\ln x}-\\frac{\\ln y}{x})$ 有题设可知：\n\n$$\n\\ln z=y\\ln\\ln x-\\ln x\\ln y\n$$\n\n可得：\n\n$$\n\\frac{1}{z}\\frac{\\partial z}{\\partial x}=\\frac{y}{x\\ln x}-\\frac{\\ln y}{x}\n$$\n\n$$\n\\frac{\\partial z}{\\partial x}=\\frac{(\\ln x)^y}{y^{\\ln x}}\\left(\\frac{y}{x\\ln x}-\\frac{\\ln y}{x}\\right)\n$$",
+  "sort_order": 31
+}

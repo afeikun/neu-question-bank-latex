@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f连续，且∫₀^{π/2}f(cos x·ln(1+x²))·xcos x/(1+x²)dx=4，求∫₀^{π/2}f(cos x·ln(x²+1))sin x·ln(x²+1)dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "−2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "8"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "−4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令u=cos x·ln(1+x²)，积分f(u)u′=−T+8=0，故T=8。",
+  "search_text": "f连续，且∫₀^{π/2}f(cos x·ln(1+x²))·xcos x/(1+x²)dx=4，求∫₀^{π/2}f(cos x·ln(x²+1))sin x·ln(x²+1)dx 3 −2 8 −4 令u=cos x·ln(1+x²)，积分f(u)u′=−T+8=0，故T=8。",
+  "sort_order": 19
+}

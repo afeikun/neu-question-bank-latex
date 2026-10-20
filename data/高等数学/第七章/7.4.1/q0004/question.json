@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=e^{x-2y}$，$x=\\sin t,y=t^3$，则 $dz/dt=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{\\sin t-2t^3}(\\cos t-6t^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{\\sin t-2t^3}(\\cos t-3t^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{\\sin t-2t^3}(\\cos t+6t^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{\\sin t-2t^3}(\\cos t+3t^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\frac{dz}{dt}=\\frac{\\partial z}{\\partial x}\\frac{dx}{dt}+\\frac{\\partial z}{\\partial y}\\frac{dy}{dt}=e^{x-2y}\\cdot1\\cdot\\cos t+e^{x-2y}\\cdot(-2)\\cdot3t^2$\n\n$=e^{x-2y}(\\cos t-6t^2)=e^{\\sin t-2t^3}(\\cos t-6t^2)$",
+  "search_text": "设 $z=e^{x-2y}$，$x=\\sin t,y=t^3$，则 $dz/dt=(\\quad)$。 $e^{\\sin t-2t^3}(\\cos t-6t^2)$ $e^{\\sin t-2t^3}(\\cos t-3t^2)$ $e^{\\sin t-2t^3}(\\cos t+6t^2)$ $e^{\\sin t-2t^3}(\\cos t+3t^2)$ $\\frac{dz}{dt}=\\frac{\\partial z}{\\partial x}\\frac{dx}{dt}+\\frac{\\partial z}{\\partial y}\\frac{dy}{dt}=e^{x-2y}\\cdot1\\cdot\\cos t+e^{x-2y}\\cdot(-2)\\cdot3t^2$\n\n$=e^{x-2y}(\\cos t-6t^2)=e^{\\sin t-2t^3}(\\cos t-6t^2)$",
+  "sort_order": 4
+}

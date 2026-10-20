@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x^2y\\prime+xy=1$ 在初始条件 $y|_{x=2}=1$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1x(\\ln x-\\ln2-2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1x(\\ln x-\\ln2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1x(\\ln x-\\ln2+2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln x+2-\\ln2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程可写成：$y'+\\frac{1}{x}y=\\frac{1}{x^2}$\n\n通解为 $y=e^{-\\int\\frac{1}{x}\\,dx}\\left(\\int\\frac{1}{x^2}e^{\\int\\frac{1}{x}\\,dx}\\,dx+C\\right)=\\frac{1}{x}(\\ln x+C)$\n\n代入 $y|_{x=2}=1$，得 $C=2-\\ln 2$",
+  "search_text": "$x^2y\\prime+xy=1$ 在初始条件 $y|_{x=2}=1$ 下的特解为（ ） $\\frac1x(\\ln x-\\ln2-2)$ $\\frac1x(\\ln x-\\ln2)$ $\\frac1x(\\ln x-\\ln2+2)$ $\\ln x+2-\\ln2$ 方程可写成：$y'+\\frac{1}{x}y=\\frac{1}{x^2}$\n\n通解为 $y=e^{-\\int\\frac{1}{x}\\,dx}\\left(\\int\\frac{1}{x^2}e^{\\int\\frac{1}{x}\\,dx}\\,dx+C\\right)=\\frac{1}{x}(\\ln x+C)$\n\n代入 $y|_{x=2}=1$，得 $C=2-\\ln 2$",
+  "sort_order": 35
+}

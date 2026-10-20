@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=y^3-3x^2y+i v(x,y)$ 解析，则 $f\\prime(i)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-3i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime=u_x-iu_y=-6xy-i(3y^2-3x^2)$，在 $i$ 处为 $-3i$。",
+  "search_text": "设 $f(z)=y^3-3x^2y+i v(x,y)$ 解析，则 $f\\prime(i)=(\\ )$。 $-3i$ $2i$ $0$ $6$ $f\\prime=u_x-iu_y=-6xy-i(3y^2-3x^2)$，在 $i$ 处为 $-3i$。",
+  "sort_order": 52
+}

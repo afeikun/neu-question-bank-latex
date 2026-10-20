@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "从1～20的整数中取一个数，若取到整数$k$的概率与$k$成正比，则取到偶数的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$11/21$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$10/21$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12/21$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$19/21$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令$P(k)=ck$。由$\\sum_{k=1}^{20}ck=1$得$c=1/210$。偶数概率为$(2+4+\\cdots+20)/210=11/21$。",
+  "search_text": "从1～20的整数中取一个数，若取到整数$k$的概率与$k$成正比，则取到偶数的概率为（ ）。 $11/21$ $10/21$ $12/21$ $19/21$ 令$P(k)=ck$。由$\\sum_{k=1}^{20}ck=1$得$c=1/210$。偶数概率为$(2+4+\\cdots+20)/210=11/21$。",
+  "sort_order": 12
+}

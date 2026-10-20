@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\left|\\int_C e^z\\,dz\\right|=(\\quad)$，$C$ 是以 $-2i$ 为起点、$2i$ 为终点的直线段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\sin2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\cos2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e-e^{-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\sinh2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原函数为 $e^z$，故模为 $|e^{2i}-e^{-2i}|=2\\sin2$。",
+  "search_text": "$\\left|\\int_C e^z\\,dz\\right|=(\\quad)$，$C$ 是以 $-2i$ 为起点、$2i$ 为终点的直线段。 $2\\sin2$ $2\\cos2$ $e-e^{-1}$ $2\\sinh2$ 原函数为 $e^z$，故模为 $|e^{2i}-e^{-2i}|=2\\sin2$。",
+  "sort_order": 4
+}

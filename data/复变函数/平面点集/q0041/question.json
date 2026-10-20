@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $z=\\sin t+2i\\cos t$（$t$ 为实参数）表示的曲线为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "椭圆：$x^2+\\frac{y^2}{4}=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "椭圆：$\\frac{x^2}{4}+y^2=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆：$x^2+y^2=4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "圆：$x^2+y^2=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $x=\\sin t$、$y=2\\cos t$，得 $x^2+\\frac{y^2}{4}=1$。",
+  "search_text": "方程 $z=\\sin t+2i\\cos t$（$t$ 为实参数）表示的曲线为（ ）。 椭圆：$x^2+\\frac{y^2}{4}=1$ 椭圆：$\\frac{x^2}{4}+y^2=1$ 圆：$x^2+y^2=4$ 圆：$x^2+y^2=1$ 令 $x=\\sin t$、$y=2\\cos t$，得 $x^2+\\frac{y^2}{4}=1$。",
+  "sort_order": 41
+}

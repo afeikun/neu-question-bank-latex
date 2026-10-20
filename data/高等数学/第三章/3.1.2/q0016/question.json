@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 与 $g(x)$ 在 $[a,b]$ 上满足拉格朗日中值定理条件，则对 $f(x)g(x)$ 在 $[a,b]$ 上应用拉格朗日中值定理可得 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f'(\\xi)g(\\xi)+g'(\\xi)f(\\xi)=\\frac{f(b)g(b)-f(a)g(a)}{b-a},\\ a<\\xi<b$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(b)-f(a)=f'(\\xi)(b-a),\\ a<\\xi<b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(b)g(b)-f(a)g(a)=f'(\\xi)g'(\\xi)(b-a),\\ a<\\xi<b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)g(x)$ 不满足定理条件，无法应用。"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$(fg)'=f'g+fg'$，故对乘积应用中值定理得到选项 A。",
+  "search_text": "函数 $f(x)$ 与 $g(x)$ 在 $[a,b]$ 上满足拉格朗日中值定理条件，则对 $f(x)g(x)$ 在 $[a,b]$ 上应用拉格朗日中值定理可得 $(\\quad)$。 $f'(\\xi)g(\\xi)+g'(\\xi)f(\\xi)=\\frac{f(b)g(b)-f(a)g(a)}{b-a},\\ a<\\xi<b$ $f(b)-f(a)=f'(\\xi)(b-a),\\ a<\\xi<b$ $f(b)g(b)-f(a)g(a)=f'(\\xi)g'(\\xi)(b-a),\\ a<\\xi<b$ $f(x)g(x)$ 不满足定理条件，无法应用。 $(fg)'=f'g+fg'$，故对乘积应用中值定理得到选项 A。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega:x^2+y^2+z^2\\leq2z$，则 $\\iiint_\\Omega(x^2+y^2)dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac45\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac4{15}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac8{15}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac85\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin^2\\varphi\\cdot r^2\\sin\\varphi\\,dr=\\frac{64\\pi}{5}\\int_0^{\\frac{\\pi}{2}}\\sin^3\\varphi\\cdot\\cos^5\\varphi\\,d\\varphi\n$$\n$$\n=\\frac{64\\pi}{5}\\int_0^{\\frac{\\pi}{2}}(\\cos^7\\varphi-\\cos^5\\varphi)\\,d\\cos\\varphi=\\frac{64\\pi}{5}\\cdot\\left.\\left(\\frac{\\cos^8\\varphi}{8}-\\frac{\\cos^6\\varphi}{6}\\right)\\right|_0^{\\frac{\\pi}{2}}=\\frac{8\\pi}{15}.\n$$",
+  "search_text": "设 $\\Omega:x^2+y^2+z^2\\leq2z$，则 $\\iiint_\\Omega(x^2+y^2)dv=$（ ） $\\frac45\\pi$ $\\frac4{15}\\pi$ $\\frac8{15}\\pi$ $\\frac85\\pi$ 原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin^2\\varphi\\cdot r^2\\sin\\varphi\\,dr=\\frac{64\\pi}{5}\\int_0^{\\frac{\\pi}{2}}\\sin^3\\varphi\\cdot\\cos^5\\varphi\\,d\\varphi\n$$\n$$\n=\\frac{64\\pi}{5}\\int_0^{\\frac{\\pi}{2}}(\\cos^7\\varphi-\\cos^5\\varphi)\\,d\\cos\\varphi=\\frac{64\\pi}{5}\\cdot\\left.\\left(\\frac{\\cos^8\\varphi}{8}-\\frac{\\cos^6\\varphi}{6}\\right)\\right|_0^{\\frac{\\pi}{2}}=\\frac{8\\pi}{15}.\n$$",
+  "sort_order": 24
+}

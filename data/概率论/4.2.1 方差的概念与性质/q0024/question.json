@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim Pois(2)$，求$D(2\\xi)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(\\xi)=2$，故$D(2\\xi)=4\\cdot2=8$。",
+  "search_text": "$\\xi\\sim Pois(2)$，求$D(2\\xi)$。 $8$ $4$ $2$ $16$ $D(\\xi)=2$，故$D(2\\xi)=4\\cdot2=8$。",
+  "sort_order": 24
+}

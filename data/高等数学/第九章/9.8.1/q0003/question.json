@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Gamma$ 是平面 $x+y+z=1$ 被三坐标轴所截成的三角形的整个边界，它的正向与这个三角形上侧的法向量之间符合右手规则，则 $\\oint_\\Gamma z\\,dx+x\\,dy+y\\,dz=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac52$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取三角形平面块 $\\Sigma$ 的上侧。由斯托克斯公式，原积分为 $\\iint_\\Sigma(dy\\,dz+dz\\,dx+dx\\,dy)$。三个方向余弦均为正，由对称性三个投影面积相等，故原积分 $=3\\iint_{D_{xy}}dx\\,dy=3\\cdot\\frac12=\\frac32$，选第二项。",
+  "search_text": "$\\Gamma$ 是平面 $x+y+z=1$ 被三坐标轴所截成的三角形的整个边界，它的正向与这个三角形上侧的法向量之间符合右手规则，则 $\\oint_\\Gamma z\\,dx+x\\,dy+y\\,dz=$（ ）。 $0$ $\\frac32$ $\\frac52$ $\\frac12$ 取三角形平面块 $\\Sigma$ 的上侧。由斯托克斯公式，原积分为 $\\iint_\\Sigma(dy\\,dz+dz\\,dx+dx\\,dy)$。三个方向余弦均为正，由对称性三个投影面积相等，故原积分 $=3\\iint_{D_{xy}}dx\\,dy=3\\cdot\\frac12=\\frac32$，选第二项。",
+  "sort_order": 3
+}

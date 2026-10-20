@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z_n=(1+\\frac{i}{2})^{-n}$，则 $\\lim_{n\\to\\infty}z_n=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt5}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为 $1+\\frac{i}{2}=\\frac{\\sqrt5}{2}(\\cos\\theta+i\\sin\\theta)$，其中 $\\theta=\\arctan\\frac12$，故 $z_n=[\\frac{\\sqrt5}{2}(\\cos\\theta+i\\sin\\theta)]^{-n}=(\\frac{2}{\\sqrt5})^n(\\cos n\\theta-i\\sin n\\theta)$。因 $\\lim_{n\\to\\infty}(\\frac2{\\sqrt5})^n=0$ 且 $|\\cos n\\theta-i\\sin n\\theta|=1$，所以极限为 $0$。",
+  "search_text": "设 $z_n=(1+\\frac{i}{2})^{-n}$，则 $\\lim_{n\\to\\infty}z_n=(\\quad)$。 $0$ $1$ $\\frac{\\sqrt5}{2}$ 不存在 因为 $1+\\frac{i}{2}=\\frac{\\sqrt5}{2}(\\cos\\theta+i\\sin\\theta)$，其中 $\\theta=\\arctan\\frac12$，故 $z_n=[\\frac{\\sqrt5}{2}(\\cos\\theta+i\\sin\\theta)]^{-n}=(\\frac{2}{\\sqrt5})^n(\\cos n\\theta-i\\sin n\\theta)$。因 $\\lim_{n\\to\\infty}(\\frac2{\\sqrt5})^n=0$ 且 $|\\cos n\\theta-i\\sin n\\theta|=1$，所以极限为 $0$。",
+  "sort_order": 1
+}

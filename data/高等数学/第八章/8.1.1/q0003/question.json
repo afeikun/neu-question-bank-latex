@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "根据二重积分的几何意义 $\\iint_D\\sqrt{a^2-x^2-y^2}\\,dxdy=（ ）$，其中 $D:x^2+y^2\\leq a^2,y\\geq0,a\\geq0$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13\\pi a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23\\pi a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23\\pi a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13\\pi a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 这表示球 $x^2+y^2+z^2=a^2$ 在第一第二卦限的体积，所以\n\n$$\\iint_D\\sqrt{a^2-x^2-y^2}\\,dxdy=\\frac14\\times\\frac43\\times\\pi\\times a^3=\\frac13\\pi a^3.$$",
+  "search_text": "根据二重积分的几何意义 $\\iint_D\\sqrt{a^2-x^2-y^2}\\,dxdy=（ ）$，其中 $D:x^2+y^2\\leq a^2,y\\geq0,a\\geq0$ $\\frac13\\pi a^3$ $\\frac23\\pi a^2$ $\\frac23\\pi a^3$ $\\frac13\\pi a^2$ 解答 这表示球 $x^2+y^2+z^2=a^2$ 在第一第二卦限的体积，所以\n\n$$\\iint_D\\sqrt{a^2-x^2-y^2}\\,dxdy=\\frac14\\times\\frac43\\times\\pi\\times a^3=\\frac13\\pi a^3.$$",
+  "sort_order": 3
+}

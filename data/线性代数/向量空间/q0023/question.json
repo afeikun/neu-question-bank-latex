@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 与 $\\beta_1,\\beta_2,\\beta_3$ 是 $\\mathbb{R}^3$ 的两组基，已知由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $A$，向量 $\\gamma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $X$，那么向量 $\\gamma$ 在基 $\\beta_1,\\beta_2,\\beta_3$ 下的坐标为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$AX$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A^{-1}X$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为 $(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1,\\alpha_2,\\alpha_3)A$，且 $\\gamma=(\\alpha_1,\\alpha_2,\\alpha_3)X$，所以 $\\gamma=(\\beta_1,\\beta_2,\\beta_3)A^{-1}X$，故所求坐标为 $A^{-1}X$。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 与 $\\beta_1,\\beta_2,\\beta_3$ 是 $\\mathbb{R}^3$ 的两组基，已知由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $A$，向量 $\\gamma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $X$，那么向量 $\\gamma$ 在基 $\\beta_1,\\beta_2,\\beta_3$ 下的坐标为（ ）。 $0$ $AX$ $A^{-1}X$ $X$ 因为 $(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1,\\alpha_2,\\alpha_3)A$，且 $\\gamma=(\\alpha_1,\\alpha_2,\\alpha_3)X$，所以 $\\gamma=(\\beta_1,\\beta_2,\\beta_3)A^{-1}X$，故所求坐标为 $A^{-1}X$。",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\displaystyle\\lim_{x\\to0^+}\\frac{\\ln\\cot x}{\\ln x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由洛必达法则，原式化为 $-\\lim_{x\\to0^+}\\frac{x}{\\sin x\\cos x}=-1$。",
+  "search_text": "$\\displaystyle\\lim_{x\\to0^+}\\frac{\\ln\\cot x}{\\ln x}=(\\quad)$。 $\\frac12$ $0$ $1$ $-1$ 由洛必达法则，原式化为 $-\\lim_{x\\to0^+}\\frac{x}{\\sin x\\cos x}=-1$。",
+  "sort_order": 6
+}

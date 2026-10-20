@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过点 $(1,2,1)$ 且与两直线 $L_1:\\begin{cases}x+2y-z+1=0\\\\x-y+z-1=0\\end{cases}$，$L_2:\\begin{cases}2x-y+z=0\\\\x-y+z=0\\end{cases}$ 都平行的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-y-z=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-y+z=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2x-y+z=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-y-2z=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由两直线方向向量求得平面法向量 $(1,-1,1)$，过给定点后得 $x-y+z=0$。",
+  "search_text": "过点 $(1,2,1)$ 且与两直线 $L_1:\\begin{cases}x+2y-z+1=0\\\\x-y+z-1=0\\end{cases}$，$L_2:\\begin{cases}2x-y+z=0\\\\x-y+z=0\\end{cases}$ 都平行的平面方程为(\\quad)。 $x-y-z=0$ $x-y+z=0$ $2x-y+z=0$ $x-y-2z=0$ 由两直线方向向量求得平面法向量 $(1,-1,1)$，过给定点后得 $x-y+z=0$。",
+  "sort_order": 12
+}

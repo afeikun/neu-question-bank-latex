@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "集合 $V_1=\\{(x_1,x_2,\\ldots,x_n)^T\\mid x_1,x_2,\\ldots,x_n\\in\\mathbb{R},\\ x_1+x_2+\\cdots+x_n=1\\}$，$V_2=\\{(x_1,x_2,\\ldots,x_n)^T\\mid x_1,x_2,\\ldots,x_n\\in\\mathbb{R},\\ x_1+x_2+\\cdots+x_n=2\\}$，$V_3=\\{\\alpha\\mid\\alpha\\in\\mathbb{R}^3\\text{ 且 }\\alpha\\text{ 与 }\\beta=(0,0,1)^T\\text{ 平行}\\}$ 中是线性空间的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "只有集合 $V_3$ 对线性运算封闭，构成线性空间，所以有 $1$ 个。",
+  "search_text": "集合 $V_1=\\{(x_1,x_2,\\ldots,x_n)^T\\mid x_1,x_2,\\ldots,x_n\\in\\mathbb{R},\\ x_1+x_2+\\cdots+x_n=1\\}$，$V_2=\\{(x_1,x_2,\\ldots,x_n)^T\\mid x_1,x_2,\\ldots,x_n\\in\\mathbb{R},\\ x_1+x_2+\\cdots+x_n=2\\}$，$V_3=\\{\\alpha\\mid\\alpha\\in\\mathbb{R}^3\\text{ 且 }\\alpha\\text{ 与 }\\beta=(0,0,1)^T\\text{ 平行}\\}$ 中是线性空间的有（ ）。 $0$ 个 $3$ 个 $2$ 个 $1$ 个 只有集合 $V_3$ 对线性运算封闭，构成线性空间，所以有 $1$ 个。",
+  "sort_order": 43
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x;\\theta)=x\\theta^{-2}e^{-x^2/(2\\theta^2)},x>0$，求$\\theta$的极大似然估计。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{\\sum X_i^2/(2n)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{2\\bar X/\\pi}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n^{-1}\\sum X_i^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "似然方程给出$\\hat\\theta^2=(2n)^{-1}\\sum X_i^2$。",
+  "search_text": "$f(x;\\theta)=x\\theta^{-2}e^{-x^2/(2\\theta^2)},x>0$，求$\\theta$的极大似然估计。 $\\sqrt{\\sum X_i^2/(2n)}$ $\\bar X$ $\\sqrt{2\\bar X/\\pi}$ $n^{-1}\\sum X_i^2$ 似然方程给出$\\hat\\theta^2=(2n)^{-1}\\sum X_i^2$。",
+  "sort_order": 10
+}

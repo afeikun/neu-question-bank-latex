@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=f^\\prime(t), y=tf^\\prime(t)-f(t)$（$f^{\\prime\\prime}(t)\\ne0$），求 $\\frac{d^2y}{dx^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac1{f^{\\prime\\prime}(t)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac t{f^{\\prime\\prime}(t)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{f^{\\prime\\prime}(t)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=f''(t),\\quad \\frac{dy}{dt}=tf''(t),\\quad \\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=t.$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }\\frac{d^2y}{dx^2}=\\frac{d\\left(\\frac{dy}{dx}\\right)}{dx}=\\frac{d\\left(\\frac{dy}{dx}\\right)/dt}{dx/dt}=\\frac{1}{f''(t)}$$",
+  "search_text": "$x=f^\\prime(t), y=tf^\\prime(t)-f(t)$（$f^{\\prime\\prime}(t)\\ne0$），求 $\\frac{d^2y}{dx^2}$。 $1$ $-\\frac1{f^{\\prime\\prime}(t)}$ $\\frac t{f^{\\prime\\prime}(t)}$ $\\frac1{f^{\\prime\\prime}(t)}$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=f''(t),\\quad \\frac{dy}{dt}=tf''(t),\\quad \\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=t.$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }\\frac{d^2y}{dx^2}=\\frac{d\\left(\\frac{dy}{dx}\\right)}{dx}=\\frac{d\\left(\\frac{dy}{dx}\\right)/dt}{dx/dt}=\\frac{1}{f''(t)}$$",
+  "sort_order": 28
+}

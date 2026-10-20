@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知点 $A(5,-1,4)$，$B(2,3,-1)$，$C(1,1,1)$，则 $\\angle ABC=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{3\\pi}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{3\\pi}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\overrightarrow{BA}=(3,-4,5)$，$\\overrightarrow{BC}=(-1,-2,2)$，故 $\\cos\\angle ABC=\\frac{\\overrightarrow{BA}\\cdot\\overrightarrow{BC}}{|BA||BC|}=\\frac{\\sqrt2}{2}$，所以角为 $\\frac\\pi4$。",
+  "search_text": "已知点 $A(5,-1,4)$，$B(2,3,-1)$，$C(1,1,1)$，则 $\\angle ABC=(\\quad)$。 $\\frac{3\\pi}{2}$ $\\frac{3\\pi}{4}$ $\\frac\\pi2$ $\\frac\\pi4$ $\\overrightarrow{BA}=(3,-4,5)$，$\\overrightarrow{BC}=(-1,-2,2)$，故 $\\cos\\angle ABC=\\frac{\\overrightarrow{BA}\\cdot\\overrightarrow{BC}}{|BA||BC|}=\\frac{\\sqrt2}{2}$，所以角为 $\\frac\\pi4$。",
+  "sort_order": 7
+}

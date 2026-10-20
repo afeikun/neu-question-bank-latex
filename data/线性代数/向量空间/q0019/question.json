@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量空间 $V=\\{(x_1,2x_2,3x_1)\\mid x_1,x_2\\in\\mathbb{R}\\}$ 的维数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由于 $V=L(\\alpha_1,\\alpha_2)$，其中 $\\alpha_1=(1,0,3)$，$\\alpha_2=(0,2,0)$，且 $r(\\alpha_1,\\alpha_2)=2$，所以 $\\dim V=2$。",
+  "search_text": "向量空间 $V=\\{(x_1,2x_2,3x_1)\\mid x_1,x_2\\in\\mathbb{R}\\}$ 的维数为（ ）。 $1$ $2$ $3$ $0$ 由于 $V=L(\\alpha_1,\\alpha_2)$，其中 $\\alpha_1=(1,0,3)$，$\\alpha_2=(0,2,0)$，且 $r(\\alpha_1,\\alpha_2)=2$，所以 $\\dim V=2$。",
+  "sort_order": 19
+}

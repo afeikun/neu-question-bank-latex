@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=\\\\arctan t,y=\\ln(1+t^2),z=\\frac5{4(1+t^2)}$ 在点 $P$ 的切向量与三个坐标轴夹角相等，求点 $P$ 对应的 $t$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt{17}}4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt5}2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$x'_t=\\frac{1}{1+t^2}$，$y'_t=\\frac{2t}{1+t^2}$，$z'_t=-\\frac{5t}{2(1+t^2)^2}$，由于与三个坐标轴的夹角相等，则夹角的余弦也相等：\n\n$$\\cos\\alpha=\\frac{x'_t}{\\sqrt{x_t'^2+y_t'^2+z_t'^2}},\\quad \\cos\\beta=\\frac{y'_t}{\\sqrt{x_t'^2+y_t'^2+z_t'^2}},\\quad \\cos\\gamma=\\frac{z'_t}{\\sqrt{x_t'^2+y_t'^2+z_t'^2}},$$\n\n得到：$\\frac{1}{1+t^2}=\\frac{2t}{1+t^2}=-\\frac{5t}{2(1+t^2)^2}$，解得 $t=\\frac{1}{2}$。",
+  "search_text": "曲线 $x=\\\\arctan t,y=\\ln(1+t^2),z=\\frac5{4(1+t^2)}$ 在点 $P$ 的切向量与三个坐标轴夹角相等，求点 $P$ 对应的 $t$。 $\\frac12$ $\\frac{\\sqrt{17}}4$ 0 $\\frac{\\sqrt5}2$ $x'_t=\\frac{1}{1+t^2}$，$y'_t=\\frac{2t}{1+t^2}$，$z'_t=-\\frac{5t}{2(1+t^2)^2}$，由于与三个坐标轴的夹角相等，则夹角的余弦也相等：\n\n$$\\cos\\alpha=\\frac{x'_t}{\\sqrt{x_t'^2+y_t'^2+z_t'^2}},\\quad \\cos\\beta=\\frac{y'_t}{\\sqrt{x_t'^2+y_t'^2+z_t'^2}},\\quad \\cos\\gamma=\\frac{z'_t}{\\sqrt{x_t'^2+y_t'^2+z_t'^2}},$$\n\n得到：$\\frac{1}{1+t^2}=\\frac{2t}{1+t^2}=-\\frac{5t}{2(1+t^2)^2}$，解得 $t=\\frac{1}{2}$。",
+  "sort_order": 34
+}

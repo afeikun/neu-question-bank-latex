@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $xy\\prime-x\\tan\\frac yx-y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin x=Cx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos x=Cx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\tan x=Cx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln x=Cx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程变形为 $y'=\\tan\\frac{y}{x}+\\frac{y}{x}$\n\n设 $u=\\frac{y}{x}$，则 $y'=u+xu'$ 代入 $\\frac{du}{\\tan u}=\\frac{dx}{x}$\n\n积分得 $\\ln\\sin x=\\ln x+\\ln C,\\sin x=Cx$",
+  "search_text": "方程 $xy\\prime-x\\tan\\frac yx-y=0$ 的通解为（ ） $\\sin x=Cx$ $\\cos x=Cx$ $\\tan x=Cx$ $\\ln x=Cx$ 方程变形为 $y'=\\tan\\frac{y}{x}+\\frac{y}{x}$\n\n设 $u=\\frac{y}{x}$，则 $y'=u+xu'$ 代入 $\\frac{du}{\\tan u}=\\frac{dx}{x}$\n\n积分得 $\\ln\\sin x=\\ln x+\\ln C,\\sin x=Cx$",
+  "sort_order": 5
+}

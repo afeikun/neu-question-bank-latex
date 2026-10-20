@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $(x^3-3xy^2)dx+(y^3-3x^2y)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x^4}{4}-\\frac32x^2y^2+\\frac{y^4}{4}=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x^4}{4}-x^2y^2+\\frac{y^4}{4}=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x^4}{4}-\\frac32x^2y^2+\\frac{y^4}{3}=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x^4}{4}-\\frac{y^4}{4}=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial P}{\\partial y}=-6xy=\\frac{\\partial Q}{\\partial x}$，原方程式全微分方程\n\n$$u(x,y)=\\int_0^x(x^3-3xy^2)\\,dx+\\int_0^y y^3\\,dy=\\frac{x^4}{4}-\\frac{3}{2}x^2y^2+\\frac{y^4}{4},$$\n\n原方程的通解为 $\\frac{x^4}{4}-\\frac{3}{2}x^2y^2+\\frac{y^4}{4}=C$。",
+  "search_text": "方程 $(x^3-3xy^2)dx+(y^3-3x^2y)dy=0$ 的通解为（ ） $\\frac{x^4}{4}-\\frac32x^2y^2+\\frac{y^4}{4}=C$ $\\frac{x^4}{4}-x^2y^2+\\frac{y^4}{4}=C$ $\\frac{x^4}{4}-\\frac32x^2y^2+\\frac{y^4}{3}=C$ $\\frac{x^4}{4}-\\frac{y^4}{4}=C$ $\\frac{\\partial P}{\\partial y}=-6xy=\\frac{\\partial Q}{\\partial x}$，原方程式全微分方程\n\n$$u(x,y)=\\int_0^x(x^3-3xy^2)\\,dx+\\int_0^y y^3\\,dy=\\frac{x^4}{4}-\\frac{3}{2}x^2y^2+\\frac{y^4}{4},$$\n\n原方程的通解为 $\\frac{x^4}{4}-\\frac{3}{2}x^2y^2+\\frac{y^4}{4}=C$。",
+  "sort_order": 15
+}

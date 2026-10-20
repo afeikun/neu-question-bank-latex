@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(u)$ 可导，而 $y=f(a^x)e^{f(x)}$，则 $y\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$e^{f(x)}(-f\\prime(a^x)a^x\\ln a+f(a^x)f\\prime(x))$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$e^{f(x)}(f\\prime(a^x)a^x\\ln a+f(a^x)f\\prime(x))$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$e^{f(x)}(f\\prime(a^x)a^x\\ln a-f(a^x)f\\prime(x))$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$-e^{f(x)}(f\\prime(a^x)a^x\\ln a+f(a^x)f\\prime(x))$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对乘积求导并用 $(a^x)\\prime=a^x\\ln a$。",
+  "search_text": "若 $f(u)$ 可导，而 $y=f(a^x)e^{f(x)}$，则 $y\\prime=$（ ）。 $$e^{f(x)}(-f\\prime(a^x)a^x\\ln a+f(a^x)f\\prime(x))$$ $$e^{f(x)}(f\\prime(a^x)a^x\\ln a+f(a^x)f\\prime(x))$$ $$e^{f(x)}(f\\prime(a^x)a^x\\ln a-f(a^x)f\\prime(x))$$ $$-e^{f(x)}(f\\prime(a^x)a^x\\ln a+f(a^x)f\\prime(x))$$ 对乘积求导并用 $(a^x)\\prime=a^x\\ln a$。",
+  "sort_order": 42
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\lim_{x\\to1}\\frac{x^2+ax+b}{x-1}=5$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=-3,b=4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=3,b=4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=3,b=-4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=-3,b=-4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "先由分子在 $x=1$ 处为零得 $b=-(1+a)$；约分后极限为 $2+a=5$，所以 $a=3,b=-4$。",
+  "search_text": "已知 $\\lim_{x\\to1}\\frac{x^2+ax+b}{x-1}=5$，则（ ）。 $a=-3,b=4$ $a=3,b=4$ $a=3,b=-4$ $a=-3,b=-4$ 先由分子在 $x=1$ 处为零得 $b=-(1+a)$；约分后极限为 $2+a=5$，所以 $a=3,b=-4$。",
+  "sort_order": 36
+}

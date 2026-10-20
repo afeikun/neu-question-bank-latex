@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=-f(-x)$（$-\\infty<x<+\\infty$），且在 $(-\\infty,0)$ 内 $f\\prime(x)>0$、$f\\prime\\prime(x)<0$，则在 $(0,+\\infty)$ 内（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f\\prime(x)<0,\\ f\\prime\\prime(x)<0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f\\prime(x)>0,\\ f\\prime\\prime(x)>0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f\\prime(x)<0,\\ f\\prime\\prime(x)>0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(x)>0,\\ f\\prime\\prime(x)<0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f$ 为奇函数，故 $f\\prime$ 为偶函数、$f\\prime\\prime$ 为奇函数。由对称性得右侧 $f\\prime>0$、$f\\prime\\prime>0$。",
+  "search_text": "设 $f(x)=-f(-x)$（$-\\infty<x<+\\infty$），且在 $(-\\infty,0)$ 内 $f\\prime(x)>0$、$f\\prime\\prime(x)<0$，则在 $(0,+\\infty)$ 内（ ）。 $f\\prime(x)<0,\\ f\\prime\\prime(x)<0$ $f\\prime(x)>0,\\ f\\prime\\prime(x)>0$ $f\\prime(x)<0,\\ f\\prime\\prime(x)>0$ $f\\prime(x)>0,\\ f\\prime\\prime(x)<0$ $f$ 为奇函数，故 $f\\prime$ 为偶函数、$f\\prime\\prime$ 为奇函数。由对称性得右侧 $f\\prime>0$、$f\\prime\\prime>0$。",
+  "sort_order": 5
+}

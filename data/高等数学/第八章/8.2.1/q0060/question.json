@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega$ 为正方体 $0\\leq x,y,z\\leq1$，$f$ 有界，若某黎曼和极限等于 $I$，则（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f$ 有界故 $I=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f$ 在 $\\Omega$ 上不一定可积"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f$ 在 $\\Omega$ 上必不可积"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f$ 在 $\\Omega$ 上一定可积"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f(x,y,z)$ 在 $\\Omega$ 上有界不能保证一定可积，当 $f(x,y,z)$ 在 $\\Omega$ 上连续时一定可积",
+  "search_text": "设 $\\Omega$ 为正方体 $0\\leq x,y,z\\leq1$，$f$ 有界，若某黎曼和极限等于 $I$，则（ ） $f$ 有界故 $I=1$ $f$ 在 $\\Omega$ 上不一定可积 $f$ 在 $\\Omega$ 上必不可积 $f$ 在 $\\Omega$ 上一定可积 $f(x,y,z)$ 在 $\\Omega$ 上有界不能保证一定可积，当 $f(x,y,z)$ 在 $\\Omega$ 上连续时一定可积",
+  "sort_order": 60
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$[x\\cos(x+y)+\\sin(x+y)]dx+x\\cos(x+y)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x\\cos(x+y)=C,\\ x=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y\\sin(x+y)=C,\\ x=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x\\sin(x+y)=C,\\ x=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y\\cos(x+y)=C,\\ x=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x=0$ 是方程的特解，\n\n令 $x+y=z,dx+dy=dz$，方程可化为\n\n$$\nx\\cos z\\,dz+\\sin z\\,dx=0,\n$$\n\n即 $d(x\\sin z)=0$，\n\n因此通解为 $x\\sin z=C$，",
+  "search_text": "$[x\\cos(x+y)+\\sin(x+y)]dx+x\\cos(x+y)dy=0$ 的通解为（ ） $x\\cos(x+y)=C,\\ x=0$ $y\\sin(x+y)=C,\\ x=0$ $x\\sin(x+y)=C,\\ x=0$ $y\\cos(x+y)=C,\\ x=0$ $x=0$ 是方程的特解，\n\n令 $x+y=z,dx+dy=dz$，方程可化为\n\n$$\nx\\cos z\\,dz+\\sin z\\,dx=0,\n$$\n\n即 $d(x\\sin z)=0$，\n\n因此通解为 $x\\sin z=C$，",
+  "sort_order": 32
+}

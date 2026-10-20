@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $3\\alpha_1+2\\alpha_2=(\\quad)$，其中 $\\alpha_1=(4,3,2,5)^T,\\alpha_2=(2,1,0,3)^T$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(6,1,6,21)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(16,11,6,1)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(16,11,6,21)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(16,11,2,21)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$3(4,3,2,5)+2(2,1,0,3)=(16,11,6,21)^T$，选项 3。",
+  "search_text": "计算 $3\\alpha_1+2\\alpha_2=(\\quad)$，其中 $\\alpha_1=(4,3,2,5)^T,\\alpha_2=(2,1,0,3)^T$。 $(6,1,6,21)^T$ $(16,11,6,1)^T$ $(16,11,6,21)^T$ $(16,11,2,21)^T$ $3(4,3,2,5)+2(2,1,0,3)=(16,11,6,21)^T$，选项 3。",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "跳伞运动员打开降落伞时速度为176m/s，空气阻力为 $wv^2/256$（$w$ 为体重），求开伞后极限速度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$20$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$18$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$16$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$14$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：根据牛顿第二定律，可得$\\begin{cases}m\\frac{dv}{dt}=w-\\frac{w}{256}v^2\\\\\\left.v\\right|_{t=0}=176\\end{cases}$即$\\begin{cases}\\frac{dv}{dt}=\\frac{49}{1280}(256-v^2)\\\\\\left.v\\right|_{t=0}=176\\end{cases}$，（其中$w=mg=9.8m$）\n\n利用分离变量法得$\\frac{1}{32}\\ln\\frac{v-16}{v+16}=-\\frac{49}{1280}t+\\frac{1}{32}\\ln\\frac{5}{6}$，$v=\\frac{16(6+5e^{-\\frac{49t}{40}})}{6-5e^{-\\frac{49t}{40}}}$，当$t\\to+\\infty$时，$v\\to16m/s$。",
+  "search_text": "跳伞运动员打开降落伞时速度为176m/s，空气阻力为 $wv^2/256$（$w$ 为体重），求开伞后极限速度。 $20$ $18$ $16$ $14$ 解析：根据牛顿第二定律，可得$\\begin{cases}m\\frac{dv}{dt}=w-\\frac{w}{256}v^2\\\\\\left.v\\right|_{t=0}=176\\end{cases}$即$\\begin{cases}\\frac{dv}{dt}=\\frac{49}{1280}(256-v^2)\\\\\\left.v\\right|_{t=0}=176\\end{cases}$，（其中$w=mg=9.8m$）\n\n利用分离变量法得$\\frac{1}{32}\\ln\\frac{v-16}{v+16}=-\\frac{49}{1280}t+\\frac{1}{32}\\ln\\frac{5}{6}$，$v=\\frac{16(6+5e^{-\\frac{49t}{40}})}{6-5e^{-\\frac{49t}{40}}}$，当$t\\to+\\infty$时，$v\\to16m/s$。",
+  "sort_order": 56
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $|x|$ 近似于零且 $a$ 是大于 $1$ 的常数，用微分法可得 $e^{a+x}$ 的近似公式 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^a(a+x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^a(1-|x|)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^a(a+1-x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^a(1+x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当 $x\\to0$ 时，$e^x\\approx1+x$，故 $e^{a+x}=e^a e^x\\approx e^a(1+x)$。",
+  "search_text": "设 $|x|$ 近似于零且 $a$ 是大于 $1$ 的常数，用微分法可得 $e^{a+x}$ 的近似公式 $(\\quad)$。 $e^a(a+x)$ $e^a(1-|x|)$ $e^a(a+1-x)$ $e^a(1+x)$ 当 $x\\to0$ 时，$e^x\\approx1+x$，故 $e^{a+x}=e^a e^x\\approx e^a(1+x)$。",
+  "sort_order": 4
+}

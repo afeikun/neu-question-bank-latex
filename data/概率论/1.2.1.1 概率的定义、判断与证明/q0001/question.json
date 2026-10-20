@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 是任意两个事件，则 $P(A-B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(A)-P(AB)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A)-P(B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(A)-P(B)+P(\\overline A B)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(A)+P(\\overline B)-P(AB)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "根据概率的性质，$P(A-B)=P(A)-P(AB)$。",
+  "search_text": "设 $A,B$ 是任意两个事件，则 $P(A-B)=(\\quad)$。 $P(A)-P(AB)$ $P(A)-P(B)$ $P(A)-P(B)+P(\\overline A B)$ $P(A)+P(\\overline B)-P(AB)$ 根据概率的性质，$P(A-B)=P(A)-P(AB)$。",
+  "sort_order": 1
+}

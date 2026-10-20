@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 线性无关，则 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s,t\\beta$ 的线性相关性为（ ），其中 $t\\ne0$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "线性相关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "与 $t$ 的值有关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不能确定，与 $\\beta$ 有关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "线性无关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "已有向量组线性无关，但是否加入 $t\\beta$ 后相关取决于 $\\beta$ 是否属于原向量组张成的空间，故不能确定。",
+  "search_text": "向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 线性无关，则 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s,t\\beta$ 的线性相关性为（ ），其中 $t\\ne0$。 线性相关 与 $t$ 的值有关 不能确定，与 $\\beta$ 有关 线性无关 已有向量组线性无关，但是否加入 $t\\beta$ 后相关取决于 $\\beta$ 是否属于原向量组张成的空间，故不能确定。",
+  "sort_order": 30
+}

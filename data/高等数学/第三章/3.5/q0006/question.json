@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\sin x$（$0<x<\\pi$）的最小曲率半径 $R$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt2}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt3}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y\\prime=\\cos x$，$y\\prime\\prime=-\\sin x$，曲率半径 $R(x)=\\frac{(1+\\cos^2x)^{3/2}}{\\sin x}$，在 $x=\\pi/2$ 取最小值 $1$。",
+  "search_text": "曲线 $y=\\sin x$（$0<x<\\pi$）的最小曲率半径 $R$ 为（ ）。 $1$ $\\frac{\\sqrt2}{2}$ $\\frac12$ $\\frac{\\sqrt3}{2}$ $y\\prime=\\cos x$，$y\\prime\\prime=-\\sin x$，曲率半径 $R(x)=\\frac{(1+\\cos^2x)^{3/2}}{\\sin x}$，在 $x=\\pi/2$ 取最小值 $1$。",
+  "sort_order": 6
+}

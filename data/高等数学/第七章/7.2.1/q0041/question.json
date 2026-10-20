@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=\\arctan(y/x)$，则 $u_{xx}+u_{yy}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{4xy}{(x^2+y^2)^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{4xy}{(x^2-y^2)^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{4xy}{(x^2+y^2)^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial x}=\\frac{1}{1+(\\frac{y}{x})^2}(-\\frac{y}{x^2})=-\\frac{y}{x^2+y^2}$，$\\quad\\frac{\\partial u}{\\partial y}=\\frac{1}{1+(\\frac{y}{x})^2}\\frac{1}{x}=\\frac{x}{x^2+y^2}$，则 $\\frac{\\partial^2u}{\\partial x^2}=\\frac{2xy}{(x^2+y^2)^2}$，$\\quad\\frac{\\partial^2u}{\\partial y^2}=-\\frac{2xy}{(x^2+y^2)^2}$，从而 $\\frac{\\partial^2u}{\\partial x^2}+\\frac{\\partial^2u}{\\partial y^2}=0$",
+  "search_text": "设 $u=\\arctan(y/x)$，则 $u_{xx}+u_{yy}=(\\quad)$。 $-\\frac{4xy}{(x^2+y^2)^2}$ $\\frac{4xy}{(x^2-y^2)^2}$ $0$ $\\frac{4xy}{(x^2+y^2)^2}$ $\\frac{\\partial u}{\\partial x}=\\frac{1}{1+(\\frac{y}{x})^2}(-\\frac{y}{x^2})=-\\frac{y}{x^2+y^2}$，$\\quad\\frac{\\partial u}{\\partial y}=\\frac{1}{1+(\\frac{y}{x})^2}\\frac{1}{x}=\\frac{x}{x^2+y^2}$，则 $\\frac{\\partial^2u}{\\partial x^2}=\\frac{2xy}{(x^2+y^2)^2}$，$\\quad\\frac{\\partial^2u}{\\partial y^2}=-\\frac{2xy}{(x^2+y^2)^2}$，从而 $\\frac{\\partial^2u}{\\partial x^2}+\\frac{\\partial^2u}{\\partial y^2}=0$",
+  "sort_order": 41
+}

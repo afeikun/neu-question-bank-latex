@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由 $e^z-xyz=0$ 确定，求 $z_{yy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2x^2z(e^z-xy)+x^2e^z}{(e^z-xy)^3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2x^2z(e^z-xy)-x^2z^2e^z}{(e^z-xy)^3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x^2z(e^z-xy)-x^2ze^z}{(e^z-xy)^3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2x^2(e^z-xy)-x^2ze^z}{(e^z-xy)^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "所给方程两端对 $y$ 求偏导数，得\n\n$$\ne^z z_y-xz-xyz_y=0\n$$\n\n即\n\n$$\n\\frac{\\partial z}{\\partial y}=\\frac{xz}{e^z-xy}\n$$\n\n对 $y$ 再求一次偏导数，有\n\n$$\n\\frac{\\partial^2 z}{\\partial y^2}=\\frac{xz_y(e^z-xy)-xz(e^z z_y-x)}{(e^z-xy)^2}\n$$\n\n将一阶偏导数 $z_y$ 代入到上式中，得\n\n$$\n\\frac{\\partial^2 z}{\\partial y^2}=\\frac{2x^2z(e^z-xy)-x^2z^2e^z}{(e^z-xy)^3}\n$$",
+  "search_text": "设 $z=z(x,y)$ 由 $e^z-xyz=0$ 确定，求 $z_{yy}$。 $\\frac{2x^2z(e^z-xy)+x^2e^z}{(e^z-xy)^3}$ $\\frac{2x^2z(e^z-xy)-x^2z^2e^z}{(e^z-xy)^3}$ $\\frac{x^2z(e^z-xy)-x^2ze^z}{(e^z-xy)^3}$ $\\frac{2x^2(e^z-xy)-x^2ze^z}{(e^z-xy)^2}$ 所给方程两端对 $y$ 求偏导数，得\n\n$$\ne^z z_y-xz-xyz_y=0\n$$\n\n即\n\n$$\n\\frac{\\partial z}{\\partial y}=\\frac{xz}{e^z-xy}\n$$\n\n对 $y$ 再求一次偏导数，有\n\n$$\n\\frac{\\partial^2 z}{\\partial y^2}=\\frac{xz_y(e^z-xy)-xz(e^z z_y-x)}{(e^z-xy)^2}\n$$\n\n将一阶偏导数 $z_y$ 代入到上式中，得\n\n$$\n\\frac{\\partial^2 z}{\\partial y^2}=\\frac{2x^2z(e^z-xy)-x^2z^2e^z}{(e^z-xy)^3}\n$$",
+  "sort_order": 37
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是从 $O(0,0)$ 到 $M(1,1)$ 的直线段，则曲线积分 $I=\\int_Le^{\\sqrt{x^2+y^2}}ds$ 不相等的定积分是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1\\sqrt2e^{\\sqrt2y}dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1\\sqrt2e^rdr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1\\sqrt2e^{\\sqrt2x}dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{\\sqrt2}e^rdr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "沿 $y=x$，$I=\\int_0^1\\sqrt2e^{\\sqrt2x}dx=\\int_0^1\\sqrt2e^{\\sqrt2y}dy=\\int_0^{\\sqrt2}e^rdr$，因此不相等的是 $\\int_0^1\\sqrt2e^rdr$（B）。",
+  "search_text": "设 $L$ 是从 $O(0,0)$ 到 $M(1,1)$ 的直线段，则曲线积分 $I=\\int_Le^{\\sqrt{x^2+y^2}}ds$ 不相等的定积分是（ ） $\\int_0^1\\sqrt2e^{\\sqrt2y}dy$ $\\int_0^1\\sqrt2e^rdr$ $\\int_0^1\\sqrt2e^{\\sqrt2x}dx$ $\\int_0^{\\sqrt2}e^rdr$ 沿 $y=x$，$I=\\int_0^1\\sqrt2e^{\\sqrt2x}dx=\\int_0^1\\sqrt2e^{\\sqrt2y}dy=\\int_0^{\\sqrt2}e^rdr$，因此不相等的是 $\\int_0^1\\sqrt2e^rdr$（B）。",
+  "sort_order": 54
+}

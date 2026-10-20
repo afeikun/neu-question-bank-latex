@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期为2，$f(x)=x$（$0<x<1/2$），$f(x)=x-1$（$1/2\\le x\\le1$），余弦级数和 $S(\\pi/2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-\\pi/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2-\\pi/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi/2-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用偶延拓及周期性，$S(\\pi/2)=2-\\pi/2$。",
+  "search_text": "周期为2，$f(x)=x$（$0<x<1/2$），$f(x)=x-1$（$1/2\\le x\\le1$），余弦级数和 $S(\\pi/2)$。 $1-\\pi/2$ $2-\\pi/2$ $\\pi/2-1$ 0 利用偶延拓及周期性，$S(\\pi/2)=2-\\pi/2$。",
+  "sort_order": 2
+}

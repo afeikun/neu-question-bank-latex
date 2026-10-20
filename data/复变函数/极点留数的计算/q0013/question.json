@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac1{(z-\\alpha)^m(z-\\beta)^n},\\beta\\right)\\ (\\alpha\\ne\\beta,\\ m,n\\text{ 为自然数})=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1)^{n-1}\\binom{n+m-2}{n-1}(\\alpha-\\beta)^{1-n-m}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-1)^{m-1}\\binom{n+m-2}{n-2}(\\alpha-\\beta)^{1-n-m}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-1)^m\\binom{n+m-1}{n-2}(\\alpha-\\beta)^{1-n-m}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1)^{n-1}\\binom{n+m-1}{n-2}(\\alpha-\\beta)^{1-n-m}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在 $z=\\beta$ 处用 $1/(n-1)!$ 倍的 $n-1$ 阶导数公式，得 $(-1)^{n-1}\\binom{n+m-2}{n-1}(\\alpha-\\beta)^{1-n-m}$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac1{(z-\\alpha)^m(z-\\beta)^n},\\beta\\right)\\ (\\alpha\\ne\\beta,\\ m,n\\text{ 为自然数})=(\\ \\ )$。 $(-1)^{n-1}\\binom{n+m-2}{n-1}(\\alpha-\\beta)^{1-n-m}$ $(-1)^{m-1}\\binom{n+m-2}{n-2}(\\alpha-\\beta)^{1-n-m}$ $(-1)^m\\binom{n+m-1}{n-2}(\\alpha-\\beta)^{1-n-m}$ $(-1)^{n-1}\\binom{n+m-1}{n-2}(\\alpha-\\beta)^{1-n-m}$ 在 $z=\\beta$ 处用 $1/(n-1)!$ 倍的 $n-1$ 阶导数公式，得 $(-1)^{n-1}\\binom{n+m-2}{n-1}(\\alpha-\\beta)^{1-n-m}$。",
+  "sort_order": 13
+}

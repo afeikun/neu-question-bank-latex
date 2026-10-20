@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\pi}\\frac{\\sin x}{\\pi-x}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $t=\\pi-x$，则 $\\sin x=\\sin t$，极限为 1。",
+  "search_text": "$\\lim_{x\\to\\pi}\\frac{\\sin x}{\\pi-x}=[\\quad]$。 $e$ 1 2 不存在 令 $t=\\pi-x$，则 $\\sin x=\\sin t$，极限为 1。",
+  "sort_order": 28
+}

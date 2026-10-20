@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若函数 $f(x)$ 在 $(a,b)$ 内可导，$x_1,x_2$ 是 $(a,b)$ 内任意两点，且 $x_1<x_2$，则至少存在一点 $\\xi$ 使得 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(b)-f(a)=f'(\\xi)(b-x_1)\\ (x_1<\\xi<b)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x_2)-f(x_1)=f'(\\xi)(x_2-x_1)\\ (x_1<\\xi<x_2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(b)-f(a)=f'(\\xi)(b-a)\\ (a<\\xi<b)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x_2)-f(a)=f'(\\xi)(x_2-a)\\ (a<\\xi<x_2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "在区间 $[x_1,x_2]$ 上应用拉格朗日中值定理，即得选项 B。",
+  "search_text": "若函数 $f(x)$ 在 $(a,b)$ 内可导，$x_1,x_2$ 是 $(a,b)$ 内任意两点，且 $x_1<x_2$，则至少存在一点 $\\xi$ 使得 $(\\quad)$。 $f(b)-f(a)=f'(\\xi)(b-x_1)\\ (x_1<\\xi<b)$ $f(x_2)-f(x_1)=f'(\\xi)(x_2-x_1)\\ (x_1<\\xi<x_2)$ $f(b)-f(a)=f'(\\xi)(b-a)\\ (a<\\xi<b)$ $f(x_2)-f(a)=f'(\\xi)(x_2-a)\\ (a<\\xi<x_2)$ 在区间 $[x_1,x_2]$ 上应用拉格朗日中值定理，即得选项 B。",
+  "sort_order": 12
+}

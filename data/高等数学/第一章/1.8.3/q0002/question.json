@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 在 $[1,+\\infty)$ 上连续，且 $\\lim_{x\\to+\\infty}f(x)=9$，则 $f(x)$ 在 $[1,+\\infty)$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在零点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "存在零点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "有界"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无界"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "函数在无穷远处有有限极限，故尾部有界；在紧区间 $[1,M]$ 上连续也有界，因此全区间有界。",
+  "search_text": "设 $f(x)$ 在 $[1,+\\infty)$ 上连续，且 $\\lim_{x\\to+\\infty}f(x)=9$，则 $f(x)$ 在 $[1,+\\infty)$（ ）。 不存在零点 存在零点 有界 无界 函数在无穷远处有有限极限，故尾部有界；在紧区间 $[1,M]$ 上连续也有界，因此全区间有界。",
+  "sort_order": 2
+}

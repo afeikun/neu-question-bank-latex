@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一条长 $56m$、质量为 $40kg$ 的均匀链条悬挂在房屋顶部，要将整条链条拉上屋顶需做多少功？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$20976J$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$40976J$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$30976J$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$10976J$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$W=\\int_0^{56}x\\rho gdx=10976J$。",
+  "search_text": "一条长 $56m$、质量为 $40kg$ 的均匀链条悬挂在房屋顶部，要将整条链条拉上屋顶需做多少功？ $20976J$ $40976J$ $30976J$ $10976J$ $W=\\int_0^{56}x\\rho gdx=10976J$。",
+  "sort_order": 10
+}

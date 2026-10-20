@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知级数 $\\sum_{n=0}^{\\infty}1/n!=e$，求 $\\sum_{n=1}^{\\infty}n^2/n!$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "趋于无穷，不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{\\sqrt2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$n^2=n(n-1)+n$，两部分和均为 $e$，结果为 $2e$。",
+  "search_text": "已知级数 $\\sum_{n=0}^{\\infty}1/n!=e$，求 $\\sum_{n=1}^{\\infty}n^2/n!$。 $2e$ 趋于无穷，不存在 $e^2$ $e^{\\sqrt2}$ $n^2=n(n-1)+n$，两部分和均为 $e$，结果为 $2e$。",
+  "sort_order": 27
+}

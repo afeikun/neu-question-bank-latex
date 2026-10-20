@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列关于0-1分布的叙述正确的是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\xi=x)=\\theta^x(1-\\theta)^{1-x},x=0,1$定义0-1分布"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\xi\\sim N(0,1)$则服从0-1分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$E(\\xi)=0,D(\\xi)=1$必为0-1分布"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "密度指示函数定义0-1分布"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "0-1分布取值0、1，概率分别$1-\\theta,\\theta$。",
+  "search_text": "下列关于0-1分布的叙述正确的是。 $P(\\xi=x)=\\theta^x(1-\\theta)^{1-x},x=0,1$定义0-1分布 $\\xi\\sim N(0,1)$则服从0-1分布 $E(\\xi)=0,D(\\xi)=1$必为0-1分布 密度指示函数定义0-1分布 0-1分布取值0、1，概率分别$1-\\theta,\\theta$。",
+  "sort_order": 2
+}

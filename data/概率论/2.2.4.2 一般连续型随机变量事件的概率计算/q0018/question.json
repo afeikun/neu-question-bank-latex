@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F(x)=\\frac1\\pi\\arctan x+\\frac12$，求$P(\\xi=-\\sqrt3)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac56$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac23$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "连续型随机变量在任一单点取值的概率为0。",
+  "search_text": "$F(x)=\\frac1\\pi\\arctan x+\\frac12$，求$P(\\xi=-\\sqrt3)$。 $0$ $\\frac16$ $\\frac56$ $\\frac23$ 连续型随机变量在任一单点取值的概率为0。",
+  "sort_order": 18
+}

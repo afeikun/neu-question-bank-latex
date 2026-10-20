@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n=25,\\sigma=3$，左侧检验$H_0:\\mu\\ge\\mu_0,H_1:\\mu<\\mu_0$，拒绝域换算为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\bar X-\\mu_0\\le-0.987$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X-\\mu_0\\ge0.987$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar X-\\mu_0\\le0.987$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X-\\mu_0\\ge1.645$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$-u_{0.05}\\sigma/\\sqrt n=-1.645(3/5)=-0.987$。",
+  "search_text": "$n=25,\\sigma=3$，左侧检验$H_0:\\mu\\ge\\mu_0,H_1:\\mu<\\mu_0$，拒绝域换算为（）。 $\\bar X-\\mu_0\\le-0.987$ $\\bar X-\\mu_0\\ge0.987$ $\\bar X-\\mu_0\\le0.987$ $\\bar X-\\mu_0\\ge1.645$ $-u_{0.05}\\sigma/\\sqrt n=-1.645(3/5)=-0.987$。",
+  "sort_order": 30
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由曲面 $x^2+y^2=2z$ 及平面 $z=2$ 所围成的区域，则 $\\iiint_\\Omega z\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{16}{3}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{24}{3}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac43\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac83\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\Omega$ 在 $xoy$ 面上投影为：$x^2+y^2\\leq 4$，利用柱面坐标变换计算。\n\n$\\iiint_\\Omega zdv=\\int_0^{2\\pi}d\\theta\\int_0^2r\\,dr\\int_{\\frac{r^2}{2}}^2z\\,dz=2\\pi\\int_0^2r(2-\\frac{r^4}{8})\\,dr=\\frac{16}{3}\\pi$",
+  "search_text": "$\\Omega$ 是由曲面 $x^2+y^2=2z$ 及平面 $z=2$ 所围成的区域，则 $\\iiint_\\Omega z\\,dv$ 的值为（ ） $\\frac{16}{3}\\pi$ $\\frac{24}{3}\\pi$ $\\frac43\\pi$ $\\frac83\\pi$ $\\Omega$ 在 $xoy$ 面上投影为：$x^2+y^2\\leq 4$，利用柱面坐标变换计算。\n\n$\\iiint_\\Omega zdv=\\int_0^{2\\pi}d\\theta\\int_0^2r\\,dr\\int_{\\frac{r^2}{2}}^2z\\,dz=2\\pi\\int_0^2r(2-\\frac{r^4}{8})\\,dr=\\frac{16}{3}\\pi$",
+  "sort_order": 14
+}

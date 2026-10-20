@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A=\\begin{pmatrix}0&0&1\\\\x&1&0\\\\1&0&0\\end{pmatrix}$ 有三个线性无关的特征向量，则 $x=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$A$ 的特征方程为 $|\\lambda E-A|=\\begin{vmatrix}\\lambda&0&-1\\\\-x&\\lambda-1&0\\\\-1&0&\\lambda\\end{vmatrix}=(\\lambda-1)(\\lambda^2-1)=0$，得到特征值 $\\lambda=1$（二重）、$\\lambda=-1$。因为 $A$ 有 $3$ 个线性无关的特征向量，故 $A$ 可对角化，即 $\\lambda=1$ 必须有两个线性无关的特征向量，那么必须 $r(E-A)=3-2=1$，于是 $E-A=\\begin{pmatrix}1&0&-1\\\\-x&0&0\\\\-1&0&1\\end{pmatrix}\\to\\begin{pmatrix}1&0&-1\\\\-x&0&0\\\\0&0&0\\end{pmatrix}$，得 $x=0$。",
+  "search_text": "已知 $A=\\begin{pmatrix}0&0&1\\\\x&1&0\\\\1&0&0\\end{pmatrix}$ 有三个线性无关的特征向量，则 $x=$（ ）。 $3$ $1$ $0$ $-1$ $A$ 的特征方程为 $|\\lambda E-A|=\\begin{vmatrix}\\lambda&0&-1\\\\-x&\\lambda-1&0\\\\-1&0&\\lambda\\end{vmatrix}=(\\lambda-1)(\\lambda^2-1)=0$，得到特征值 $\\lambda=1$（二重）、$\\lambda=-1$。因为 $A$ 有 $3$ 个线性无关的特征向量，故 $A$ 可对角化，即 $\\lambda=1$ 必须有两个线性无关的特征向量，那么必须 $r(E-A)=3-2=1$，于是 $E-A=\\begin{pmatrix}1&0&-1\\\\-x&0&0\\\\-1&0&1\\end{pmatrix}\\to\\begin{pmatrix}1&0&-1\\\\-x&0&0\\\\0&0&0\\end{pmatrix}$，得 $x=0$。",
+  "sort_order": 26
+}

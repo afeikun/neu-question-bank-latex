@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$E(X)=12,D(X)=9$，估计$P(6<X<18)$下界。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2/3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4/5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(|X-12|<6)\\ge1-9/36=3/4$。",
+  "search_text": "$E(X)=12,D(X)=9$，估计$P(6<X<18)$下界。 $3/4$ $1/2$ $2/3$ $4/5$ $P(|X-12|<6)\\ge1-9/36=3/4$。",
+  "sort_order": 11
+}

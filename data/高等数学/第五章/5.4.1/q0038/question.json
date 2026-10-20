@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=1}^{\\infty}(-1)^n x^n/\\sqrt[n]{n!}$ 的收敛半径是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "系数 $n$ 次方根趋于 $1/e$? 按图示比值极限为1，收敛半径为1。",
+  "search_text": "幂级数 $\\sum_{n=1}^{\\infty}(-1)^n x^n/\\sqrt[n]{n!}$ 的收敛半径是？ $1/2$ $3/2$ 2 1 系数 $n$ 次方根趋于 $1/e$? 按图示比值极限为1，收敛半径为1。",
+  "sort_order": 38
+}

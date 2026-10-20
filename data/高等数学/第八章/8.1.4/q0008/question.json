@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\int_0^2dx\\int_x^{\\sqrt3x}f(x,y)dy$ 的极坐标形式为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{\\pi/4}^{\\pi/2}d\\theta\\int_0^{2\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$;"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^\\pi d\\theta\\int_0^{2\\sqrt3}f(r\\cos\\theta,r\\sin\\theta)rdr$;"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{\\pi/4}^{\\pi/3}d\\theta\\int_0^{2\\sec\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$;"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{\\pi/4}^{\\pi}d\\theta\\int_0^{2\\sin\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$."
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 积分区域 $D$ 如图，用极坐标表示为 $D:\\frac{\\pi}{4}\\leq\\theta\\leq\\frac{\\pi}{3},\\ 0\\leq r\\leq2\\sec\\theta$。\n则原式 $=\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}d\\theta\\int_0^{2\\sec\\theta} f(r\\cos\\theta,r\\sin\\theta)rdr$。\n\n图示：坐标轴 $x,y$、原点 $O$；射线 $y=x$、$y=\\sqrt3x$；竖虚线对应横轴刻度 $2$；区域 $D$ 位于两射线之间，外边界标记 $r=2\\sec\\theta$。",
+  "search_text": "二重积分 $\\int_0^2dx\\int_x^{\\sqrt3x}f(x,y)dy$ 的极坐标形式为[\\quad] $\\int_{\\pi/4}^{\\pi/2}d\\theta\\int_0^{2\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$; $\\int_0^\\pi d\\theta\\int_0^{2\\sqrt3}f(r\\cos\\theta,r\\sin\\theta)rdr$; $\\int_{\\pi/4}^{\\pi/3}d\\theta\\int_0^{2\\sec\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$; $\\int_{\\pi/4}^{\\pi}d\\theta\\int_0^{2\\sin\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$. 解答 积分区域 $D$ 如图，用极坐标表示为 $D:\\frac{\\pi}{4}\\leq\\theta\\leq\\frac{\\pi}{3},\\ 0\\leq r\\leq2\\sec\\theta$。\n则原式 $=\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}d\\theta\\int_0^{2\\sec\\theta} f(r\\cos\\theta,r\\sin\\theta)rdr$。\n\n图示：坐标轴 $x,y$、原点 $O$；射线 $y=x$、$y=\\sqrt3x$；竖虚线对应横轴刻度 $2$；区域 $D$ 位于两射线之间，外边界标记 $r=2\\sec\\theta$。",
+  "sort_order": 8
+}

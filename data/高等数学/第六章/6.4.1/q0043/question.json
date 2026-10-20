@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知点 $A(6,6,-1)$，$B(-2,-6,3)$，则直线 $AB$ 与 $xoy$ 面的交点坐标为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(4,-3,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(4,3,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(4,-3,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(4,3,0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：直线方向向量 $\\vec{s}=\\overrightarrow{BA}=(8,12,-4)=4(2,3,-1)$，由点向式，直线的对称式方程为 $\\frac{x-6}{2}=\\frac{y-6}{3}=\\frac{z+1}{-1}$，参数式方程为 $\\begin{cases}x=2t+6\\\\y=3t+6\\\\z=-t-1\\end{cases}$，而 $xoy$ 面的方程为 $z=0$，代入得 $t=-1$，所以 $x=4，y=3$，所以交点坐标为 $(4,3,0)$。",
+  "search_text": "已知点 $A(6,6,-1)$，$B(-2,-6,3)$，则直线 $AB$ 与 $xoy$ 面的交点坐标为(\\quad)。 $(4,-3,0)$ $(4,3,1)$ $(4,-3,1)$ $(4,3,0)$ 解答：直线方向向量 $\\vec{s}=\\overrightarrow{BA}=(8,12,-4)=4(2,3,-1)$，由点向式，直线的对称式方程为 $\\frac{x-6}{2}=\\frac{y-6}{3}=\\frac{z+1}{-1}$，参数式方程为 $\\begin{cases}x=2t+6\\\\y=3t+6\\\\z=-t-1\\end{cases}$，而 $xoy$ 面的方程为 $z=0$，代入得 $t=-1$，所以 $x=4，y=3$，所以交点坐标为 $(4,3,0)$。",
+  "sort_order": 43
+}

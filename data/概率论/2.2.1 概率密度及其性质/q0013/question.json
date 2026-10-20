@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "概率密度$f(x)$必然满足（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)\\ge0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)$定义域为$[0,1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)$值域为$[0,1]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)$在$\\mathbb R$内连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "概率密度的必要条件之一是处处非负。",
+  "search_text": "概率密度$f(x)$必然满足（ ）。 $f(x)\\ge0$ $f(x)$定义域为$[0,1]$ $f(x)$值域为$[0,1]$ $f(x)$在$\\mathbb R$内连续 概率密度的必要条件之一是处处非负。",
+  "sort_order": 13
+}

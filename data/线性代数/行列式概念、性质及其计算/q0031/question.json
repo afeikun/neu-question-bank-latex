@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $\\begin{vmatrix}4&1&1&5\\\\1&4&5&1\\\\1&7&6&1\\\\7&1&1&6\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$117$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "经行列变换化为上三角行列式，计算得 $D=117$。",
+  "search_text": "行列式 $\\begin{vmatrix}4&1&1&5\\\\1&4&5&1\\\\1&7&6&1\\\\7&1&1&6\\end{vmatrix}$ 等于（ ）。 $0$ $117$ $4$ $7$ 经行列变换化为上三角行列式，计算得 $D=117$。",
+  "sort_order": 31
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\frac{x^3}{(x-1)^2}$ 的拐点为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(3,\\frac{27}{4})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-3,-\\frac{27}{16})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无拐点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=6x/(x-1)^4$，在 $x=0$ 两侧变号，且 $y(0)=0$，拐点为 $(0,0)$。",
+  "search_text": "曲线 $y=\\frac{x^3}{(x-1)^2}$ 的拐点为（ ）。 $(3,\\frac{27}{4})$ $(-3,-\\frac{27}{16})$ 无拐点 $(0,0)$ $y\\prime\\prime=6x/(x-1)^4$，在 $x=0$ 两侧变号，且 $y(0)=0$，拐点为 $(0,0)$。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列方程具有有什么样形式的特解：$y\\prime\\prime+2y\\prime+y=-(3x^2+1)e^{-x}$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^*=x^2(b_0x^2+b_1x+b_2)e^{-x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^*=(b_0x^2+b_1x+b_2)e^{-x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^*=x^2(b_0x^2+b_1x+b_2)e^{-2x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^*=x(b_0x^2+b_1x+b_2)e^{-x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因 $\\lambda=-1$ 是特征方程 $r^2+2r+1=0$ 的二重根，所以方程具有特解形式：$y^*=x^2(b_0x^2+b_1x+b_2)e^{-x}$.",
+  "search_text": "下列方程具有有什么样形式的特解：$y\\prime\\prime+2y\\prime+y=-(3x^2+1)e^{-x}$（ ） $y^*=x^2(b_0x^2+b_1x+b_2)e^{-x}$ $y^*=(b_0x^2+b_1x+b_2)e^{-x}$ $y^*=x^2(b_0x^2+b_1x+b_2)e^{-2x}$ $y^*=x(b_0x^2+b_1x+b_2)e^{-x}$ 因 $\\lambda=-1$ 是特征方程 $r^2+2r+1=0$ 的二重根，所以方程具有特解形式：$y^*=x^2(b_0x^2+b_1x+b_2)e^{-x}$.",
+  "sort_order": 30
+}

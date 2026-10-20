@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若可积函数 $f(x)$ 与 $g(x)$ 满足 $\\int_a^b f(x)dx=\\int_a^b g(x)dx$，则",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)=g(x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)$ 与 $g(x)$ 大小关系无法判断"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)\\ge g(x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)\\le g(x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "积分相等不能确定函数逐点的大小关系。",
+  "search_text": "若可积函数 $f(x)$ 与 $g(x)$ 满足 $\\int_a^b f(x)dx=\\int_a^b g(x)dx$，则 $f(x)=g(x)$ $f(x)$ 与 $g(x)$ 大小关系无法判断 $f(x)\\ge g(x)$ $f(x)\\le g(x)$ 积分相等不能确定函数逐点的大小关系。",
+  "sort_order": 18
+}

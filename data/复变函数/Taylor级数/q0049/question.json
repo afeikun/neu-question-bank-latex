@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $e^z\\cos z$ 在 $z=0$ 处的 Taylor 展开式是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}(\\sqrt2)^n\\cos(n\\pi/4)z^n/n!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(\\sqrt2)^n\\sin(n\\pi/4)z^n/(2n!)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}2^n\\sin(n\\pi/4)z^n/n!$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}2^n\\cos(n\\pi/4)z^n/(2n!)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$e^z\\cos z=(e^{(1+i)z}+e^{(1-i)z})/2$，系数为 $(\\sqrt2)^n\\cos(n\\pi/4)/n!$。",
+  "search_text": "函数 $e^z\\cos z$ 在 $z=0$ 处的 Taylor 展开式是（ ） $\\sum_{n=0}^{\\infty}(\\sqrt2)^n\\cos(n\\pi/4)z^n/n!$ $\\sum_{n=0}^{\\infty}(\\sqrt2)^n\\sin(n\\pi/4)z^n/(2n!)$ $\\sum_{n=0}^{\\infty}2^n\\sin(n\\pi/4)z^n/n!$ $\\sum_{n=0}^{\\infty}2^n\\cos(n\\pi/4)z^n/(2n!)$ $e^z\\cos z=(e^{(1+i)z}+e^{(1-i)z})/2$，系数为 $(\\sqrt2)^n\\cos(n\\pi/4)/n!$。",
+  "sort_order": 49
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{x\\to0}f(x),\\lim_{x\\to0}g(x)$ 存在，则下列说法错误的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to0}\\frac{f(x)}{g(x)}$ 存在，且等于 $\\frac{\\lim_{x\\to0}f(x)}{\\lim_{x\\to0}g(x)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{x\\to0}(f(x)-g(x))$ 存在，且等于 $\\lim f(x)-\\lim g(x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{x\\to0}(f(x)g(x))$ 存在，且等于 $\\lim f(x)\\cdot\\lim g(x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{x\\to0}(f(x)+g(x))$ 存在，且等于 $\\lim f(x)+\\lim g(x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "",
+  "search_text": "若 $\\lim_{x\\to0}f(x),\\lim_{x\\to0}g(x)$ 存在，则下列说法错误的是（ ）。 $\\lim_{x\\to0}\\frac{f(x)}{g(x)}$ 存在，且等于 $\\frac{\\lim_{x\\to0}f(x)}{\\lim_{x\\to0}g(x)}$ $\\lim_{x\\to0}(f(x)-g(x))$ 存在，且等于 $\\lim f(x)-\\lim g(x)$ $\\lim_{x\\to0}(f(x)g(x))$ 存在，且等于 $\\lim f(x)\\cdot\\lim g(x)$ $\\lim_{x\\to0}(f(x)+g(x))$ 存在，且等于 $\\lim f(x)+\\lim g(x)$",
+  "sort_order": 3
+}

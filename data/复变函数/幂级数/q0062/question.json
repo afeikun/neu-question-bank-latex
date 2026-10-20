@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=0}^{\\infty}\\frac{z^n}{n}$ 的和函数是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\ln(1-z),\\ |z|<1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln(1-z),\\ |z|<1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(1-z)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(1-z)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $S(z)=\\sum_{n=0}^{\\infty}\\frac{z^n}{n}$，则 $S\\prime(z)=\\sum_{n=1}^{\\infty}z^{n-1}=\\frac1{1-z}$，$|z|<1,S(0)=0$，故 $S(z)=\\int_0^z\\frac1{1-\\xi}d\\xi=-\\ln(1-z),\\ |z|<1$。",
+  "search_text": "级数 $\\sum_{n=0}^{\\infty}\\frac{z^n}{n}$ 的和函数是（ ）。 $-\\ln(1-z),\\ |z|<1$ $\\ln(1-z),\\ |z|<1$ $1/(1-z)^2$ $1/(1-z)$ 设 $S(z)=\\sum_{n=0}^{\\infty}\\frac{z^n}{n}$，则 $S\\prime(z)=\\sum_{n=1}^{\\infty}z^{n-1}=\\frac1{1-z}$，$|z|<1,S(0)=0$，故 $S(z)=\\int_0^z\\frac1{1-\\xi}d\\xi=-\\ln(1-z),\\ |z|<1$。",
+  "sort_order": 62
+}

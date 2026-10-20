@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\frac{z-\\sin z}{z^6}dz=-\\frac\\pi{60}i$，积分路径 $C$ 应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "由 $x=\\pm1,y=\\pm1$ 围成的正向正方形路径"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "负向圆周 $|z-2i|=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "负向圆周 $|z|=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "负向圆周 $|z-2|=3/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正方形包含原点，Cauchy高阶导数公式给出目标值。",
+  "search_text": "为使 $\\oint_C\\frac{z-\\sin z}{z^6}dz=-\\frac\\pi{60}i$，积分路径 $C$ 应为（ ）。 由 $x=\\pm1,y=\\pm1$ 围成的正向正方形路径 负向圆周 $|z-2i|=1$ 负向圆周 $|z|=1$ 负向圆周 $|z-2|=3/2$ 正方形包含原点，Cauchy高阶导数公式给出目标值。",
+  "sort_order": 36
+}

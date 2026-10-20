@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "连接原点与P(h,r)的直线、x=h及x轴围成直角三角形，绕x轴旋转成底半径r、高h的圆锥，求体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "hπr²"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "hπr²/2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "hπr²/3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "hπr²/4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "圆锥体积为πr²h/3。",
+  "search_text": "连接原点与P(h,r)的直线、x=h及x轴围成直角三角形，绕x轴旋转成底半径r、高h的圆锥，求体积 hπr² hπr²/2 hπr²/3 hπr²/4 圆锥体积为πr²h/3。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\displaystyle\\lim_{x\\to+\\infty}\\frac{\\ln x}{x^n}$，其中 $n>0$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由洛必达法则，原式为 $\\lim_{x\\to+\\infty}\\frac{1}{nx^n}=0$。",
+  "search_text": "求 $\\displaystyle\\lim_{x\\to+\\infty}\\frac{\\ln x}{x^n}$，其中 $n>0$。 $1$ $2$ $-1$ $0$ 由洛必达法则，原式为 $\\lim_{x\\to+\\infty}\\frac{1}{nx^n}=0$。",
+  "sort_order": 8
+}

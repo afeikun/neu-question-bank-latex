@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若直线 $l:\\frac x2=\\frac{y-1}{4}=\\frac{z+2}{3}$ 与平面 $\\Pi:kx+y-2z=1$ 平行，则 $k=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：因直线平行于平面，所以 $\\vec{s}\\perp\\vec{n}$，即 $0=\\vec{s}\\cdot\\vec{n}=(2,4,3)\\cdot(k,1,-2)=2k-2$，解得 $k=1$。",
+  "search_text": "若直线 $l:\\frac x2=\\frac{y-1}{4}=\\frac{z+2}{3}$ 与平面 $\\Pi:kx+y-2z=1$ 平行，则 $k=(\\quad)$。 $2$ $1$ $0$ $3$ 解答：因直线平行于平面，所以 $\\vec{s}\\perp\\vec{n}$，即 $0=\\vec{s}\\cdot\\vec{n}=(2,4,3)\\cdot(k,1,-2)=2k-2$，解得 $k=1$。",
+  "sort_order": 11
+}

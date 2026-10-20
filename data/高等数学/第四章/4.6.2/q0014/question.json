@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "三叶玫瑰线r=a sin3θ围成图形面积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(3/4)πa²"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "πa²/3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1/2)πa²"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1/4)πa²"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "三瓣面积相加为πa²/4。",
+  "search_text": "三叶玫瑰线r=a sin3θ围成图形面积 (3/4)πa² πa²/3 (1/2)πa² (1/4)πa² 三瓣面积相加为πa²/4。",
+  "sort_order": 14
+}

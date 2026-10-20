@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\prime\\prime=y^3+y\\prime$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\arccos(C_2e^x)+C_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\arctan(C_2e^x)+C_1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\arcsin(C_2e^x)+C_1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\operatorname{arccot}(C_2e^x)+C_1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：令 $y'=p$，则 $y''=p\\frac{dp}{dx}$，原方程化为 $p\\frac{dp}{dy}=p^3+p$，即 $p\\left[\\frac{dp}{dy}-(1+p^2)\\right]=0$，则 $p=0$ 是方程的一个解，得原方程的解为 $y=C$，他不是通解。由 $\\frac{dp}{dy}-(1+p^2)=0$，可得 $\\arctan p=y-C_1$，即\n\n$p=y'=\\tan(y-C_1)$。从而 $\\frac{dy}{\\tan(y-C_1)}=dx$，可积分得 $\\ln\\sin(y-C_1)=x+C'_2$，故，原方程通解为\n\n$$y=\\arcsin(C_2e^x)+C_1\\quad(C_2=e^{C'_2}).$$",
+  "search_text": "方程 $y\\prime\\prime=y^3+y\\prime$ 的通解是（ ） $y=\\arccos(C_2e^x)+C_1$ $y=\\arctan(C_2e^x)+C_1$ $y=\\arcsin(C_2e^x)+C_1$ $y=\\operatorname{arccot}(C_2e^x)+C_1$ 解析：令 $y'=p$，则 $y''=p\\frac{dp}{dx}$，原方程化为 $p\\frac{dp}{dy}=p^3+p$，即 $p\\left[\\frac{dp}{dy}-(1+p^2)\\right]=0$，则 $p=0$ 是方程的一个解，得原方程的解为 $y=C$，他不是通解。由 $\\frac{dp}{dy}-(1+p^2)=0$，可得 $\\arctan p=y-C_1$，即\n\n$p=y'=\\tan(y-C_1)$。从而 $\\frac{dy}{\\tan(y-C_1)}=dx$，可积分得 $\\ln\\sin(y-C_1)=x+C'_2$，故，原方程通解为\n\n$$y=\\arcsin(C_2e^x)+C_1\\quad(C_2=e^{C'_2}).$$",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列 $3\\times4$ 矩阵中，哪个是行阶梯形矩阵（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&1&0&1\\\\0&0&1&1\\\\0&0&0&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&0&0&0\\\\1&1&0&0\\\\0&0&1&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&1&0&1\\\\0&0&0&0\\\\0&0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&0&0&1\\\\0&1&0&1\\\\0&1&1&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "行阶梯形矩阵的定义是：若有零行应在最下方，且每行第一个非零元素的下方全为零。只有选项 $1$ 满足这两个条件。",
+  "search_text": "下列 $3\\times4$ 矩阵中，哪个是行阶梯形矩阵（ ）。 $\\begin{pmatrix}1&1&0&1\\\\0&0&1&1\\\\0&0&0&0\\end{pmatrix}$ $\\begin{pmatrix}1&0&0&0\\\\1&1&0&0\\\\0&0&1&0\\end{pmatrix}$ $\\begin{pmatrix}1&1&0&1\\\\0&0&0&0\\\\0&0&0&1\\end{pmatrix}$ $\\begin{pmatrix}1&0&0&1\\\\0&1&0&1\\\\0&1&1&1\\end{pmatrix}$ 行阶梯形矩阵的定义是：若有零行应在最下方，且每行第一个非零元素的下方全为零。只有选项 $1$ 满足这两个条件。",
+  "sort_order": 7
+}

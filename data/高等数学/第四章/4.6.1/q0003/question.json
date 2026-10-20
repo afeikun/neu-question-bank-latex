@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算曲线y²=2x与y=x−4围成图形的面积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "9"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "18"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "20"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "10"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两曲线交点为(2,−2)、(8,4)，按y积分得面积18。",
+  "search_text": "计算曲线y²=2x与y=x−4围成图形的面积 9 18 20 10 两曲线交点为(2,−2)、(8,4)，按y积分得面积18。",
+  "sort_order": 3
+}

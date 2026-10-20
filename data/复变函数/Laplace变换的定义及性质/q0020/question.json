@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal L[t^n e^{-at}]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{n!}{(s+a)^{n+1}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{n!}{(s+a)^n}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{(n+1)!}{(s+a)^n}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{n!}{s^n+a^n}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由Laplace变换定义，$\\mathcal L[t^ne^{-at}]=\\int_0^{+\\infty}t^ne^{-(s+a)t}dt=\\dfrac{n!}{(s+a)^{n+1}}$，选第一项。",
+  "search_text": "$\\mathcal L[t^n e^{-at}]=(\\ \\ )$。 $\\dfrac{n!}{(s+a)^{n+1}}$ $\\dfrac{n!}{(s+a)^n}$ $\\dfrac{(n+1)!}{(s+a)^n}$ $\\dfrac{n!}{s^n+a^n}$ 由Laplace变换定义，$\\mathcal L[t^ne^{-at}]=\\int_0^{+\\infty}t^ne^{-(s+a)t}dt=\\dfrac{n!}{(s+a)^{n+1}}$，选第一项。",
+  "sort_order": 20
+}

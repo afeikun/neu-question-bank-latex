@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_n=n\\operatorname{ch}(i/n)$，则 $\\lim\\alpha_n=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\alpha_n=n\\cos(1/n)$，其模无界，极限不存在。",
+  "search_text": "设 $\\alpha_n=n\\operatorname{ch}(i/n)$，则 $\\lim\\alpha_n=\\underline{\\qquad}$。 不存在 $1$ $1/2$ $0$ $\\alpha_n=n\\cos(1/n)$，其模无界，极限不存在。",
+  "sort_order": 21
+}

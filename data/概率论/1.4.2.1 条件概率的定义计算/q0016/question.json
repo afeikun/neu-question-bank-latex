@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 是两个事件，$P(A)=0.4$，$P(AB)=0.2$，$P(A\\mid B)+P(\\overline A\\mid\\overline B)=1$，则 $P(A\\cup B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用 $P(A\\mid B)=0.2/P(B)$ 和 $P(\\overline A\\mid\\overline B)=(0.8-P(B))/(1-P(B))$，条件给出 $P(B)=0.5$。因此 $P(A\\cup B)=0.4+0.5-0.2=0.7$。",
+  "search_text": "设 $A,B$ 是两个事件，$P(A)=0.4$，$P(AB)=0.2$，$P(A\\mid B)+P(\\overline A\\mid\\overline B)=1$，则 $P(A\\cup B)=(\\quad)$。 $0.7$ $0.2$ $0.4$ $0.5$ 利用 $P(A\\mid B)=0.2/P(B)$ 和 $P(\\overline A\\mid\\overline B)=(0.8-P(B))/(1-P(B))$，条件给出 $P(B)=0.5$。因此 $P(A\\cup B)=0.4+0.5-0.2=0.7$。",
+  "sort_order": 16
+}

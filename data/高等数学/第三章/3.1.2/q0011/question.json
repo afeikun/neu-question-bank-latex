@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=x^2+3x+2$，则满足 $f(x+\\Delta x)-f(x)=\\Delta x f'(x+\\theta\\Delta x)$（$0<\\theta<1$）的 $\\theta=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无法确定，与 $x,\\Delta x$ 有关。"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f'(x)=2x+3$，展开差值并与右端比较，可得 $\\theta=\\frac12$。",
+  "search_text": "函数 $f(x)=x^2+3x+2$，则满足 $f(x+\\Delta x)-f(x)=\\Delta x f'(x+\\theta\\Delta x)$（$0<\\theta<1$）的 $\\theta=(\\quad)$。 $\\frac13$ 无法确定，与 $x,\\Delta x$ 有关。 $\\frac23$ $\\frac12$ $f'(x)=2x+3$，展开差值并与右端比较，可得 $\\theta=\\frac12$。",
+  "sort_order": 11
+}

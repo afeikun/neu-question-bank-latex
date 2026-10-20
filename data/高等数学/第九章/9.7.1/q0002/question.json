@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是由坐标面和平面 $x=a,y=a,z=a$ 所围成的正方体 $\\Omega$ 的表面的外侧，$a>0$，计算 $\\iint_\\Sigma(x^3-y^2z)\\,dy\\,dz-2x^2y\\,dz\\,dx+xy\\,dx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13a^5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac15a^5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac25a^5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：由高斯公式 $\\oiint_{\\Sigma}=\\iiint_{\\Omega}x^2\\,dv=\\int_0^a x^2\\,dx\\cdot\\int_0^a dy\\cdot\\int_0^a dz=\\frac{1}{3}a^5$",
+  "search_text": "已知 $\\Sigma$ 是由坐标面和平面 $x=a,y=a,z=a$ 所围成的正方体 $\\Omega$ 的表面的外侧，$a>0$，计算 $\\iint_\\Sigma(x^3-y^2z)\\,dy\\,dz-2x^2y\\,dz\\,dx+xy\\,dx\\,dy=$（ ） $\\frac13a^5$ $\\frac15a^5$ $\\frac13a^3$ $\\frac25a^5$ 解析：由高斯公式 $\\oiint_{\\Sigma}=\\iiint_{\\Omega}x^2\\,dv=\\int_0^a x^2\\,dx\\cdot\\int_0^a dy\\cdot\\int_0^a dz=\\frac{1}{3}a^5$",
+  "sort_order": 2
+}

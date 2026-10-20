@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 内有定义，$x_0\\ne0$ 是 $f(x)$ 的一个极大值点，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x_0$ 必是 $-f(x)$ 的一个极小值点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x_0$ 必是 $f(x)$ 的一个驻点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x_0$ 必是 $f(-x)$ 的一个极大值点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "对任意 $x$ 都有 $f(x)\\le f(x_0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "若 $x_0$ 是 $f$ 的局部极大值点，则在其邻域内 $f(x)\\le f(x_0)$，于是 $-f(x)\\ge-f(x_0)$，所以 $x_0$ 是 $-f$ 的局部极小值点。",
+  "search_text": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 内有定义，$x_0\\ne0$ 是 $f(x)$ 的一个极大值点，则（ ）。 $x_0$ 必是 $-f(x)$ 的一个极小值点 $x_0$ 必是 $f(x)$ 的一个驻点 $x_0$ 必是 $f(-x)$ 的一个极大值点 对任意 $x$ 都有 $f(x)\\le f(x_0)$ 若 $x_0$ 是 $f$ 的局部极大值点，则在其邻域内 $f(x)\\le f(x_0)$，于是 $-f(x)\\ge-f(x_0)$，所以 $x_0$ 是 $-f$ 的局部极小值点。",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(\\xi=k)=C\\lambda^{2k}e^{-\\lambda}/k!$，$k=0,2,4,\\ldots$，且给定偶数项指数级数恒等式，求$C$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2/(1+e^{-2\\lambda})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2/(1+e^{-\\lambda})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(1+e^{-\\lambda})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(1+e^{-2\\lambda})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "偶数项概率和为$Ce^{-\\lambda}(e^\\lambda+e^{-\\lambda})/2=1$，故$C=2/(1+e^{-2\\lambda})$。",
+  "search_text": "$P(\\xi=k)=C\\lambda^{2k}e^{-\\lambda}/k!$，$k=0,2,4,\\ldots$，且给定偶数项指数级数恒等式，求$C$。 $2/(1+e^{-2\\lambda})$ $2/(1+e^{-\\lambda})$ $1/(1+e^{-\\lambda})$ $1/(1+e^{-2\\lambda})$ 偶数项概率和为$Ce^{-\\lambda}(e^\\lambda+e^{-\\lambda})/2=1$，故$C=2/(1+e^{-2\\lambda})$。",
+  "sort_order": 25
+}

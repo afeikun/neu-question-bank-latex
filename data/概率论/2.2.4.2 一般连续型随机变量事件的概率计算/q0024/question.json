@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\frac1{\\pi(1+x^2)}(-\\infty<x<+\\infty)$，求$P(0<\\xi<1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac15$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac25$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_0^1\\frac{dx}{\\pi(1+x^2)}=\\frac14$。",
+  "search_text": "$f(x)=\\frac1{\\pi(1+x^2)}(-\\infty<x<+\\infty)$，求$P(0<\\xi<1)$。 $\\frac14$ $\\frac15$ $\\frac25$ $\\frac12$ $\\int_0^1\\frac{dx}{\\pi(1+x^2)}=\\frac14$。",
+  "sort_order": 24
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列函数全微分计算中，正确的有(\\quad)个。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "4个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "5个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "(1) $u_x=\\frac{1}{\\sqrt{1-\\dfrac{z^2}{x^2+y^2}}}\\cdot\\frac{-xz}{(x^2+y^2)^{3/2}}=\\frac{-xz}{(x^2+y^2)\\sqrt{x^2+y^2-z^2}},\\quad u_y=\\frac{1}{\\sqrt{1-\\dfrac{z^2}{x^2+y^2}}}\\cdot\\frac{-yz}{(x^2+y^2)^{3/2}}=\\frac{-yz}{(x^2+y^2)\\sqrt{x^2+y^2-z^2}}$\n\n$u_z=\\frac{1}{\\sqrt{1-\\dfrac{z^2}{x^2+y^2}}}\\cdot\\frac{1}{\\sqrt{x^2+y^2}}=\\frac{1}{\\sqrt{x^2+y^2-z^2}}$\n\n故$du=\\frac{-xz}{(x^2+y^2)\\sqrt{x^2+y^2-z^2}}dx+\\frac{-yz}{(x^2+y^2)\\sqrt{x^2+y^2-z^2}}dy+\\frac{1}{\\sqrt{x^2+y^2-z^2}}dz.$\n\n(2) 在$u(x,y,z)=x^yy^zz^x$两边取对数，得\n\n$\\ln u=y\\ln x+z\\ln y+x\\ln z,$\n\n两边求微分，得\n\n$\\frac{du}{u}=\\ln x\\,dy+\\frac{y}{x}dx+\\ln y\\,dz+\\frac{z}{y}dy+\\ln z\\,dx+\\frac{x}{z}dz$\n\n$=\\left(\\frac{y}{x}+\\ln z\\right)dx+\\left(\\frac{z}{y}+\\ln x\\right)dy+\\left(\\frac{x}{z}+\\ln y\\right)dz,$\n\n即$du=x^yy^zz^x\\left[\\left(\\frac{y}{x}+\\ln z\\right)dx+\\left(\\frac{z}{y}+\\ln x\\right)dy+\\left(\\frac{x}{z}+\\ln y\\right)dz\\right];$\n\n(3) $\\frac{\\partial z}{\\partial x}=6xy+\\frac{1}{y},\\quad \\frac{\\partial z}{\\partial y}=3x^2-\\frac{x}{y^2},$于是\n\n$dz=\\left(6xy+\\frac{1}{y}\\right)dx+\\left(3x^2-\\frac{x}{y^2}\\right)dy;$\n\n(4) $z_x=\\cos(x\\cos y)\\cos y,\\ z_y=(-x\\sin y)\\cos(x\\cos y),$于是\n\n$dz=\\cos(x\\cos y)\\cos y\\,dx-x\\sin y\\cos(x\\cos y)\\,dy;$\n\n(5) $\\frac{\\partial u}{\\partial x}=yzx^{yz-1},\\quad \\frac{\\partial u}{\\partial y}=zx^{yz}\\ln x,\\quad \\frac{\\partial u}{\\partial z}=yx^{yz}\\ln x,$故$du=yzx^{yz-1}dx+zx^{yz}\\ln x\\,dy+yx^{yz}\\ln x\\,dz.$",
+  "search_text": "下列函数全微分计算中，正确的有(\\quad)个。 3个 1个 4个 5个 (1) $u_x=\\frac{1}{\\sqrt{1-\\dfrac{z^2}{x^2+y^2}}}\\cdot\\frac{-xz}{(x^2+y^2)^{3/2}}=\\frac{-xz}{(x^2+y^2)\\sqrt{x^2+y^2-z^2}},\\quad u_y=\\frac{1}{\\sqrt{1-\\dfrac{z^2}{x^2+y^2}}}\\cdot\\frac{-yz}{(x^2+y^2)^{3/2}}=\\frac{-yz}{(x^2+y^2)\\sqrt{x^2+y^2-z^2}}$\n\n$u_z=\\frac{1}{\\sqrt{1-\\dfrac{z^2}{x^2+y^2}}}\\cdot\\frac{1}{\\sqrt{x^2+y^2}}=\\frac{1}{\\sqrt{x^2+y^2-z^2}}$\n\n故$du=\\frac{-xz}{(x^2+y^2)\\sqrt{x^2+y^2-z^2}}dx+\\frac{-yz}{(x^2+y^2)\\sqrt{x^2+y^2-z^2}}dy+\\frac{1}{\\sqrt{x^2+y^2-z^2}}dz.$\n\n(2) 在$u(x,y,z)=x^yy^zz^x$两边取对数，得\n\n$\\ln u=y\\ln x+z\\ln y+x\\ln z,$\n\n两边求微分，得\n\n$\\frac{du}{u}=\\ln x\\,dy+\\frac{y}{x}dx+\\ln y\\,dz+\\frac{z}{y}dy+\\ln z\\,dx+\\frac{x}{z}dz$\n\n$=\\left(\\frac{y}{x}+\\ln z\\right)dx+\\left(\\frac{z}{y}+\\ln x\\right)dy+\\left(\\frac{x}{z}+\\ln y\\right)dz,$\n\n即$du=x^yy^zz^x\\left[\\left(\\frac{y}{x}+\\ln z\\right)dx+\\left(\\frac{z}{y}+\\ln x\\right)dy+\\left(\\frac{x}{z}+\\ln y\\right)dz\\right];$\n\n(3) $\\frac{\\partial z}{\\partial x}=6xy+\\frac{1}{y},\\quad \\frac{\\partial z}{\\partial y}=3x^2-\\frac{x}{y^2},$于是\n\n$dz=\\left(6xy+\\frac{1}{y}\\right)dx+\\left(3x^2-\\frac{x}{y^2}\\right)dy;$\n\n(4) $z_x=\\cos(x\\cos y)\\cos y,\\ z_y=(-x\\sin y)\\cos(x\\cos y),$于是\n\n$dz=\\cos(x\\cos y)\\cos y\\,dx-x\\sin y\\cos(x\\cos y)\\,dy;$\n\n(5) $\\frac{\\partial u}{\\partial x}=yzx^{yz-1},\\quad \\frac{\\partial u}{\\partial y}=zx^{yz}\\ln x,\\quad \\frac{\\partial u}{\\partial z}=yx^{yz}\\ln x,$故$du=yzx^{yz-1}dx+zx^{yz}\\ln x\\,dy+yx^{yz}\\ln x\\,dz.$",
+  "sort_order": 10
+}

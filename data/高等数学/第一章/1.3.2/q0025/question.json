@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}\\frac{|x+1|}{x+1},&x\\ne-1,\\\\a,&x=-1,\\end{cases}$，且 $\\lim_{x\\to-1^-}f(x)=a$，则 $a=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$ 或 $-1$ 均可"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当 $x\\to-1^-$，$|x+1|/(x+1)=-1$，所以 $a=-1$。",
+  "search_text": "设 $f(x)=\\begin{cases}\\frac{|x+1|}{x+1},&x\\ne-1,\\\\a,&x=-1,\\end{cases}$，且 $\\lim_{x\\to-1^-}f(x)=a$，则 $a=$（ ）。 $0$ $1$ 或 $-1$ 均可 $1$ $-1$ 当 $x\\to-1^-$，$|x+1|/(x+1)=-1$，所以 $a=-1$。",
+  "sort_order": 25
+}

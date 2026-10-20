@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于 (1) $\\sum_{n=1}^{\\infty}((n+1)/n)^{n^2}$；(2) $\\sum_{n=1}^{\\infty}1/(\\ln n)^n$，说法正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)收敛(2)收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)收敛(2)发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)发散(2)发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)发散(2)收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "(1)根值趋 $e>1$；(2)根值趋0。",
+  "search_text": "关于 (1) $\\sum_{n=1}^{\\infty}((n+1)/n)^{n^2}$；(2) $\\sum_{n=1}^{\\infty}1/(\\ln n)^n$，说法正确的是？ (1)收敛(2)收敛 (1)收敛(2)发散 (1)发散(2)发散 (1)发散(2)收敛 (1)根值趋 $e>1$；(2)根值趋0。",
+  "sort_order": 14
+}

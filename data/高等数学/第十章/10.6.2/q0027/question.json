@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若微分方程 $y\\prime\\prime+py\\prime+qy=0$ 的常系数满足 $1+p+q=0$，则该方程有特解（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\sin x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^{-x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 特征方程为 $r^2+pr+q=0$，由于 $1+p+q=0$，所以 $r=1$ 是特征根，故方程有特解 $y=e^x$。",
+  "search_text": "若微分方程 $y\\prime\\prime+py\\prime+qy=0$ 的常系数满足 $1+p+q=0$，则该方程有特解（ ） $y=\\sin x$ $y=e^x$ $y=x$ $y=e^{-x}$ 解答 特征方程为 $r^2+pr+q=0$，由于 $1+p+q=0$，所以 $r=1$ 是特征根，故方程有特解 $y=e^x$。",
+  "sort_order": 27
+}

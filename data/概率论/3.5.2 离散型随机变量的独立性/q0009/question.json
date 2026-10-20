@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立同分布，取$0,1$的概率分别为$0.6,0.4$，判断正确陈述。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(X=Y)=0.48$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(XY=0)=0.84$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(X\\ne Y)=0.24$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(X+Y=1)=0.52$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$P(XY=0)=P(0,0)+P(0,1)+P(1,0)=0.36+0.24+0.24=0.84$。",
+  "search_text": "$X,Y$独立同分布，取$0,1$的概率分别为$0.6,0.4$，判断正确陈述。 $P(X=Y)=0.48$ $P(XY=0)=0.84$ $P(X\\ne Y)=0.24$ $P(X+Y=1)=0.52$ $P(XY=0)=P(0,0)+P(0,1)+P(1,0)=0.36+0.24+0.24=0.84$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "齐次线性方程组 $\\begin{cases}2x_1-x_2+3x_3=0,\\\\3x_1-4x_2+7x_3=0,\\\\x_1-2x_2+ax_3=0\\end{cases}$ 有非零解，则 $a=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "系数矩阵 $A=\\begin{pmatrix}2&-1&3\\\\3&-4&7\\\\1&-2&a\\end{pmatrix}$ 经初等行变换可得 $\\begin{pmatrix}1&-2&a\\\\0&2&7-3a\\\\0&0&\\frac52a-\\frac{15}{2}\\end{pmatrix}$。当 $a=3$ 时，$r(A)=2$，齐次线性方程组有非零解。",
+  "search_text": "齐次线性方程组 $\\begin{cases}2x_1-x_2+3x_3=0,\\\\3x_1-4x_2+7x_3=0,\\\\x_1-2x_2+ax_3=0\\end{cases}$ 有非零解，则 $a=$（ ）。 $1$ $3$ $2$ $4$ 系数矩阵 $A=\\begin{pmatrix}2&-1&3\\\\3&-4&7\\\\1&-2&a\\end{pmatrix}$ 经初等行变换可得 $\\begin{pmatrix}1&-2&a\\\\0&2&7-3a\\\\0&0&\\frac52a-\\frac{15}{2}\\end{pmatrix}$。当 $a=3$ 时，$r(A)=2$，齐次线性方程组有非零解。",
+  "sort_order": 28
+}

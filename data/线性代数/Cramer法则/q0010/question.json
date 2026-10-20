@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若线性方程组 $$\\begin{cases}\nax_1+x_2=0\\\\\n2x_1+ax_2+2x_3=0\\\\\nx_2+ax_3=0\n\\end{cases}$$ 有非零解，则 $a$ 的值为(    ).",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=\\pm 2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=0$ 或 $a=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=0$ 或 $a=\\pm 2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "齐次线性方程组有非零解，则其系数行列式等于零，即\n$D=\\begin{vmatrix}a&1&0\\\\\n2&a&2\\\\\n0&1&a\\end{vmatrix}=a(a+2)(a-2)=0$，所以 $a=0$ 或 $a=\\pm 2$.",
+  "search_text": "若线性方程组 $$\\begin{cases} ax_1+x_2=0\\\\ 2x_1+ax_2+2x_3=0\\\\ x_2+ax_3=0 \\end{cases}$$ 有非零解，则 $a$ 的值为( ). $a=\\pm 2$ $a=0$ 或 $a=2$ $a=0$ 或 $a=\\pm 2$ $a=0$ 齐次线性方程组有非零解，则其系数行列式等于零，即 $D=\\begin{vmatrix}a&1&0\\\\ 2&a&2\\\\ 0&1&a\\end{vmatrix}=a(a+2)(a-2)=0$，所以 $a=0$ 或 $a=\\pm 2$.",
+  "sort_order": 10
+}

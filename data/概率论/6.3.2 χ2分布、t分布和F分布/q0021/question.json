@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$为独立$N(0,3^2)$总体，分别抽取9个样本，$T=\\frac{\\sum X_i}{\\sqrt{\\sum Y_i^2}}$服从自由度为（ ）的$t$分布。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分子除以$3\\sqrt9$为标准正态，分母平方和除以9为$\\chi^2(9)$，故自由度9。",
+  "search_text": "$X,Y$为独立$N(0,3^2)$总体，分别抽取9个样本，$T=\\frac{\\sum X_i}{\\sqrt{\\sum Y_i^2}}$服从自由度为（ ）的$t$分布。 $9$ $4$ $6$ $5$ 分子除以$3\\sqrt9$为标准正态，分母平方和除以9为$\\chi^2(9)$，故自由度9。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内二阶可导，且存在 $c,d\\in(a,b)$ 使 $f(c)>\\max(f(a),f(b))$、$f(d)<\\min(f(a),f(b))$，则 $f'(x)=0$ 在 $(a,b)$ 内 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "至少有两个实根"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "至少有一个实根"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "只有一个实根"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "没有实根"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "函数在区间内部分别取得最大值和最小值，且都不是端点值，因此极值点位于内部；由费马定理相应导数为零，至少有两个根。",
+  "search_text": "$f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内二阶可导，且存在 $c,d\\in(a,b)$ 使 $f(c)>\\max(f(a),f(b))$、$f(d)<\\min(f(a),f(b))$，则 $f'(x)=0$ 在 $(a,b)$ 内 $(\\quad)$。 至少有两个实根 至少有一个实根 只有一个实根 没有实根 函数在区间内部分别取得最大值和最小值，且都不是端点值，因此极值点位于内部；由费马定理相应导数为零，至少有两个根。",
+  "sort_order": 28
+}

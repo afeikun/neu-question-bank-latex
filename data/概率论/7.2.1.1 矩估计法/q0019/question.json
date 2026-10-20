@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "样本3.1,2.6,2.8,3.3,2.9,3.2,2.4,2.5，求样本二阶原点矩。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8.2200$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2.8500$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8.1225$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2.8671$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$n^{-1}\\sum x_i^2=65.76/8=8.2200$。",
+  "search_text": "样本3.1,2.6,2.8,3.3,2.9,3.2,2.4,2.5，求样本二阶原点矩。 $8.2200$ $2.8500$ $8.1225$ $2.8671$ $n^{-1}\\sum x_i^2=65.76/8=8.2200$。",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\displaystyle\\lim_{x\\to+\\infty}\\frac{\\ln(a+be^x)}{\\sqrt{m+nx^2}}=(\\quad)$，其中 $b>0,n>0$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sqrt n}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt n}{\\sqrt{m+n}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt m}{\\sqrt{m+n}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{\\sqrt m}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由洛必达法则，极限化为 $\\lim_{x\\to+\\infty}\\frac{be^x\\sqrt{m+nx^2}}{nx(a+be^x)}=\\frac1{\\sqrt n}$。",
+  "search_text": "$\\displaystyle\\lim_{x\\to+\\infty}\\frac{\\ln(a+be^x)}{\\sqrt{m+nx^2}}=(\\quad)$，其中 $b>0,n>0$。 $\\frac1{\\sqrt n}$ $\\frac{\\sqrt n}{\\sqrt{m+n}}$ $\\frac{\\sqrt m}{\\sqrt{m+n}}$ $\\frac1{\\sqrt m}$ 由洛必达法则，极限化为 $\\lim_{x\\to+\\infty}\\frac{be^x\\sqrt{m+nx^2}}{nx(a+be^x)}=\\frac1{\\sqrt n}$。",
+  "sort_order": 16
+}

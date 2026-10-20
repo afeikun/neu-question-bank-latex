@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体样本，统计量$\\sqrt{\\frac n{n+1}}(X_{n+1}-\\bar X_n)/S_n$服从（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t(n-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$t(n)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$t(n+1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t(n+2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "新观测与样本均值之差的方差因子为$1+1/n$，学生化后自由度$n-1$。",
+  "search_text": "正态总体样本，统计量$\\sqrt{\\frac n{n+1}}(X_{n+1}-\\bar X_n)/S_n$服从（）。 $t(n-1)$ $t(n)$ $t(n+1)$ $t(n+2)$ 新观测与样本均值之差的方差因子为$1+1/n$，学生化后自由度$n-1$。",
+  "sort_order": 19
+}

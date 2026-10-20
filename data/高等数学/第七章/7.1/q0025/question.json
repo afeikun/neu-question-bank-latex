@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=\\begin{cases}\\frac{xy}{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$ (\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "仅在 $(0,0)$ 点连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "处处连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "处处有极限，但不连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "除 $(0,0)$ 点处处连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由函数表达式可知，函数在 $x^2+y^2\\ne0$ 也就是 $x,y$ 不全同时为0的时候处处连续，因此我们只要考虑函数在 $(0,0)$ 点是否连续即可得答案.\n\n由于 $\\left|\\dfrac{x}{\\sqrt{x^2+y^2}}\\right|\\le1$，因此 $0\\le\\left|\\dfrac{x}{\\sqrt{x^2+y^2}}\\right|\\le|y|$，\n\n又 $\\lim_{(x,y)\\to(0,0)}|y|=0$\n\n由夹逼原则得到：\n\\[\n\\lim_{(x,y)\\to(0,0)}\\frac{xy}{\\sqrt{x^2+y^2}}=0=f(0,0),\n\\]\n故函数 $f(x,y)$ 处处连续.",
+  "search_text": "函数 $f(x,y)=\\begin{cases}\\frac{xy}{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$ (\\quad)。 仅在 $(0,0)$ 点连续 处处连续 处处有极限，但不连续 除 $(0,0)$ 点处处连续 由函数表达式可知，函数在 $x^2+y^2\\ne0$ 也就是 $x,y$ 不全同时为0的时候处处连续，因此我们只要考虑函数在 $(0,0)$ 点是否连续即可得答案.\n\n由于 $\\left|\\dfrac{x}{\\sqrt{x^2+y^2}}\\right|\\le1$，因此 $0\\le\\left|\\dfrac{x}{\\sqrt{x^2+y^2}}\\right|\\le|y|$，\n\n又 $\\lim_{(x,y)\\to(0,0)}|y|=0$\n\n由夹逼原则得到：\n\\[\n\\lim_{(x,y)\\to(0,0)}\\frac{xy}{\\sqrt{x^2+y^2}}=0=f(0,0),\n\\]\n故函数 $f(x,y)$ 处处连续.",
+  "sort_order": 25
+}

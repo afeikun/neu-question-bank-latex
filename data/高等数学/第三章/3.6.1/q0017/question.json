@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x\\arctan x$ 的凹凸性为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\infty,0)$ 凸，$(0,+\\infty)$ 凹"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-\\infty,+\\infty)$ 凹"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-\\infty,0)$ 凹，$(0,+\\infty)$ 凸"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\infty,+\\infty)$ 凸"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=2/(1+x^2)^2>0$，全实数上曲线为凹。",
+  "search_text": "曲线 $y=x\\arctan x$ 的凹凸性为（ ）。 $(-\\infty,0)$ 凸，$(0,+\\infty)$ 凹 $(-\\infty,+\\infty)$ 凹 $(-\\infty,0)$ 凹，$(0,+\\infty)$ 凸 $(-\\infty,+\\infty)$ 凸 $y\\prime\\prime=2/(1+x^2)^2>0$，全实数上曲线为凹。",
+  "sort_order": 17
+}

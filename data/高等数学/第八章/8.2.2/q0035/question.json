@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega:x^2+y^2+z^2\\leq2y$（$a>0,b>0,c>0$），则 $\\iiint_\\Omega(ax+by+cz)dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{4b}3\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac43\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{4b}9\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{4abc}3\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由对称性知：$\\iiint_{\\Omega}(ax+cz)dv=0$，球体 $x^2+y^2+z^2\\leq2y$ 的形心坐标为 $(0,1,0)$，由形心坐标公式\n\n$$\n\\bar{y}=\\frac{\\iiint_{\\Omega}ydv}{V}\n$$\n\n可知 $\\iiint_{\\Omega}ydv=\\bar{y}V=V=\\frac{4}{3}\\pi$\n\n所以，原式 $=\\frac{4b}{3}\\pi$。",
+  "search_text": "$\\Omega:x^2+y^2+z^2\\leq2y$（$a>0,b>0,c>0$），则 $\\iiint_\\Omega(ax+by+cz)dv$ 的值为（ ） $\\frac{4b}3\\pi$ $\\frac43\\pi$ $\\frac{4b}9\\pi$ $\\frac{4abc}3\\pi$ 由对称性知：$\\iiint_{\\Omega}(ax+cz)dv=0$，球体 $x^2+y^2+z^2\\leq2y$ 的形心坐标为 $(0,1,0)$，由形心坐标公式\n\n$$\n\\bar{y}=\\frac{\\iiint_{\\Omega}ydv}{V}\n$$\n\n可知 $\\iiint_{\\Omega}ydv=\\bar{y}V=V=\\frac{4}{3}\\pi$\n\n所以，原式 $=\\frac{4b}{3}\\pi$。",
+  "sort_order": 35
+}

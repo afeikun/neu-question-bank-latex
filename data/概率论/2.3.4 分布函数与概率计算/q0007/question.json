@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(c<\\xi\\le b)=0.1,P(c<\\xi\\le d)=0.3,P(a<\\xi\\le b)=0.4$，求$P(a<\\xi\\le d)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(a<\\xi\\le d)=0.3-0.1+0.4=0.6$。",
+  "search_text": "$P(c<\\xi\\le b)=0.1,P(c<\\xi\\le d)=0.3,P(a<\\xi\\le b)=0.4$，求$P(a<\\xi\\le d)$。 $0.6$ $0.4$ $0.8$ $0.5$ $P(a<\\xi\\le d)=0.3-0.1+0.4=0.6$。",
+  "sort_order": 7
+}

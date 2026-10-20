@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量 $\\vec b=(4,-3,4)$ 在向量 $\\vec a=(2,2,1)$ 上的投影为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|\\vec a|=3$，$\\vec a\\cdot\\vec b=6$，故标量投影为 $\\frac{\\vec a\\cdot\\vec b}{|\\vec a|}=2$。",
+  "search_text": "向量 $\\vec b=(4,-3,4)$ 在向量 $\\vec a=(2,2,1)$ 上的投影为(\\quad)。 $2$ $1$ $-2$ $0$ $|\\vec a|=3$，$\\vec a\\cdot\\vec b=6$，故标量投影为 $\\frac{\\vec a\\cdot\\vec b}{|\\vec a|}=2$。",
+  "sort_order": 29
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在曲线上每一点 $M(x,y)$ 处切线在 $y$ 轴上的截距为 $2xy^2$，且曲线过点 $(1,2)$，则该曲线方程为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac{x}{x^2-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac{2x}{2x^2+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac{x}{x^2+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac{2x}{2x^2-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设过点 $m(x,y)$ 的曲线 $y=f(x)$ 的切线上任一点坐标为 $(X,Y)$，则\n\n$Y-y=y'(X-x)$，可得微分方程\n\n$$\\begin{cases}y-xy'=2xy^2\\\\ y|_{x=1}=2\\end{cases}$$\n\n令 $z=y^{-1}$，$\\frac{dz}{dx}=-y^{-2}\\frac{dy}{dx}$，于是方程化为：$\\frac{dz}{dx}+\\frac{1}{x}z=2$\n\n解得：$z=\\frac{1}{x}(x^2+C)$\n\n即 $\\frac{1}{y}=\\frac{1}{x}(x^2+C)$\n\n代入 $y|_{x=1}=2$，得 $C=-\\frac{1}{2}$",
+  "search_text": "在曲线上每一点 $M(x,y)$ 处切线在 $y$ 轴上的截距为 $2xy^2$，且曲线过点 $(1,2)$，则该曲线方程为（ ） $y=\\frac{x}{x^2-1}$ $y=\\frac{2x}{2x^2+1}$ $y=\\frac{x}{x^2+1}$ $y=\\frac{2x}{2x^2-1}$ 设过点 $m(x,y)$ 的曲线 $y=f(x)$ 的切线上任一点坐标为 $(X,Y)$，则\n\n$Y-y=y'(X-x)$，可得微分方程\n\n$$\\begin{cases}y-xy'=2xy^2\\\\ y|_{x=1}=2\\end{cases}$$\n\n令 $z=y^{-1}$，$\\frac{dz}{dx}=-y^{-2}\\frac{dy}{dx}$，于是方程化为：$\\frac{dz}{dx}+\\frac{1}{x}z=2$\n\n解得：$z=\\frac{1}{x}(x^2+C)$\n\n即 $\\frac{1}{y}=\\frac{1}{x}(x^2+C)$\n\n代入 $y|_{x=1}=2$，得 $C=-\\frac{1}{2}$",
+  "sort_order": 34
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $x_0$ 的某个邻域内有定义，且有 $f\\prime(x_0)=0$，$f\\prime\\prime(x_0)=0$，则 $f(x)$ 在 $x_0$ 处（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "必不能取极值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必取极大值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "必取极小值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可能取极大值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "二阶导数判别法在 $f\\prime\\prime(x_0)=0$ 时不能直接定论。例如 $-x^4$ 在 $0$ 取极大值，$x^4$ 取极小值，$x^3$ 不取极值。",
+  "search_text": "函数 $f(x)$ 在 $x_0$ 的某个邻域内有定义，且有 $f\\prime(x_0)=0$，$f\\prime\\prime(x_0)=0$，则 $f(x)$ 在 $x_0$ 处（ ）。 必不能取极值 必取极大值 必取极小值 可能取极大值 二阶导数判别法在 $f\\prime\\prime(x_0)=0$ 时不能直接定论。例如 $-x^4$ 在 $0$ 取极大值，$x^4$ 取极小值，$x^3$ 不取极值。",
+  "sort_order": 9
+}

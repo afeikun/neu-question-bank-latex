@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为环域 $2\\pi<|z|<3\\pi$ 内含 $0$ 的任一正向简单闭曲线，则 $\\displaystyle\\oint_C\\dfrac{z}{1-e^z}\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8\\pi^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-8\\pi^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8\\pi^2i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$C$ 内有可去奇点 $z=0$ 与一级极点 $z=\\pm2\\pi i$，三处留数之和为 $0$，积分为 $0$。",
+  "search_text": "设 $C$ 为环域 $2\\pi<|z|<3\\pi$ 内含 $0$ 的任一正向简单闭曲线，则 $\\displaystyle\\oint_C\\dfrac{z}{1-e^z}\\,dz=(\\ \\ )$。 $0$ $8\\pi^2$ $-8\\pi^2$ $8\\pi^2i$ $C$ 内有可去奇点 $z=0$ 与一级极点 $z=\\pm2\\pi i$，三处留数之和为 $0$，积分为 $0$。",
+  "sort_order": 44
+}

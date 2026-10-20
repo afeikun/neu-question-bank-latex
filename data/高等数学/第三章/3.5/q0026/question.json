@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\arctan x$ 在 $[-1,1]$ 上的最小值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f\\prime=1/(1+x^2)>0$，故最小值为 $f(-1)=-\\pi/4$。",
+  "search_text": "函数 $f(x)=\\arctan x$ 在 $[-1,1]$ 上的最小值为（ ）。 $\\frac\\pi2$ $-\\frac\\pi2$ $\\frac\\pi4$ $-\\frac\\pi4$ $f\\prime=1/(1+x^2)>0$，故最小值为 $f(-1)=-\\pi/4$。",
+  "sort_order": 26
+}

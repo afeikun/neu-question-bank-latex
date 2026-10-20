@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两直线 $l_1:\\frac{x-1}{1}=\\frac{y+2}{2}=\\frac{z-2}{3}$，$l_2:\\frac{x-5}{7}=\\frac{y-3}{8}=\\frac{z-8}{9}$ 的位置关系为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "异面且垂直"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "相交且垂直"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "异面但不垂直"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "相交但不垂直"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：因 $\\frac{1}{7}\\ne\\frac{2}{8}\\ne\\frac{3}{9}$，所以两条直线不平行。在 $l_1，l_2$ 上分别取一点 $P(1,-2,2)，Q(5,3,8)$，则 $\\overrightarrow{PQ}=(4,5,6)$，因 $[\\vec{s}_1\\vec{s}_2\\overrightarrow{PQ}]=\\begin{vmatrix}1&2&3\\\\7&8&9\\\\4&5&6\\end{vmatrix}=0$，所以两条直线共面且相交，又因 $\\vec{s}_1\\cdot\\vec{s}_2=(1,2,3)\\cdot(7,8,9)\\ne0$，所以两直线不垂直，即两条直线相交但不垂直。",
+  "search_text": "两直线 $l_1:\\frac{x-1}{1}=\\frac{y+2}{2}=\\frac{z-2}{3}$，$l_2:\\frac{x-5}{7}=\\frac{y-3}{8}=\\frac{z-8}{9}$ 的位置关系为(\\quad)。 异面且垂直 相交且垂直 异面但不垂直 相交但不垂直 解答：因 $\\frac{1}{7}\\ne\\frac{2}{8}\\ne\\frac{3}{9}$，所以两条直线不平行。在 $l_1，l_2$ 上分别取一点 $P(1,-2,2)，Q(5,3,8)$，则 $\\overrightarrow{PQ}=(4,5,6)$，因 $[\\vec{s}_1\\vec{s}_2\\overrightarrow{PQ}]=\\begin{vmatrix}1&2&3\\\\7&8&9\\\\4&5&6\\end{vmatrix}=0$，所以两条直线共面且相交，又因 $\\vec{s}_1\\cdot\\vec{s}_2=(1,2,3)\\cdot(7,8,9)\\ne0$，所以两直线不垂直，即两条直线相交但不垂直。",
+  "sort_order": 4
+}

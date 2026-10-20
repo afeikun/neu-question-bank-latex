@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\sin z\\operatorname{Ln}\\cos z$，则 $f\\prime(1)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos1(\\ln\\cos1+2k\\pi i)-\\sin1\\tan1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin2\\ln\\cos1-\\sin^2 1\\tan1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sin2(\\ln\\cos1+2k\\pi i)-\\sin^2 1\\tan1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sin2(\\ln\\cos1+2k\\pi i)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "按源解析，对 $\\sin z\\operatorname{Ln}\\cos z$ 求导并代入。",
+  "search_text": "设 $f(z)=\\sin z\\operatorname{Ln}\\cos z$，则 $f\\prime(1)=(\\ )$。 $\\cos1(\\ln\\cos1+2k\\pi i)-\\sin1\\tan1$ $\\sin2\\ln\\cos1-\\sin^2 1\\tan1$ $\\sin2(\\ln\\cos1+2k\\pi i)-\\sin^2 1\\tan1$ $\\sin2(\\ln\\cos1+2k\\pi i)$ 按源解析，对 $\\sin z\\operatorname{Ln}\\cos z$ 求导并代入。",
+  "sort_order": 65
+}

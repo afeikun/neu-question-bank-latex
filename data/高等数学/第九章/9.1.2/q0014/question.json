@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $L$ 是星形线 $x=a\\cos^3t,y=a\\sin^3t$ 位于第一象限的部分，其长度为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac52a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $s=\\int_L1ds=\\int_0^{\\frac{\\pi}{2}}\\sqrt{(a\\cos^3t)'^2+(a\\sin^3t)'^2}\\,dt$\n\n$$\n=\\int_0^{\\frac{\\pi}{2}}\\sqrt{9a^2\\cos^4t\\sin^2t+9a^2\\sin^4t\\cos^2t}\\,dt\n$$\n\n$$\n=\\int_0^{\\frac{\\pi}{2}}3a\\sin t\\cos tdt=\\frac{3}{2}a\n$$",
+  "search_text": "曲线 $L$ 是星形线 $x=a\\cos^3t,y=a\\sin^3t$ 位于第一象限的部分，其长度为（ ） $\\frac32a$ $\\frac52a$ $6a$ $a$ 解答 $s=\\int_L1ds=\\int_0^{\\frac{\\pi}{2}}\\sqrt{(a\\cos^3t)'^2+(a\\sin^3t)'^2}\\,dt$\n\n$$\n=\\int_0^{\\frac{\\pi}{2}}\\sqrt{9a^2\\cos^4t\\sin^2t+9a^2\\sin^4t\\cos^2t}\\,dt\n$$\n\n$$\n=\\int_0^{\\frac{\\pi}{2}}3a\\sin t\\cos tdt=\\frac{3}{2}a\n$$",
+  "sort_order": 14
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "立体 $\\Omega$ 是球体 $x^2+y^2+z^2\\leq2z$ 被圆锥面 $z=\\sqrt{x^2+y^2}$ 所截下的较大部分的立体，已知立体 $\\Omega$ 的质量分布均匀，则立体质心为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,0,\\frac76)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,0,\\frac57)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0,0,\\frac67)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,0,\\frac65)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设体密度为 $\\rho_0$，质心坐标为 $(0,0,\\bar{z})$，\n$$\n\\bar{z}=\\frac{\\iiint_\\Omega z\\rho_0\\,dv}{\\iiint_\\Omega\\rho_0\\,dv}\n=\\frac{\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r^3\\sin\\varphi\\cos\\varphi\\,dr}{\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr}\n=\\frac{7}{6}\n$$",
+  "search_text": "立体 $\\Omega$ 是球体 $x^2+y^2+z^2\\leq2z$ 被圆锥面 $z=\\sqrt{x^2+y^2}$ 所截下的较大部分的立体，已知立体 $\\Omega$ 的质量分布均匀，则立体质心为（ ） $(0,0,\\frac76)$ $(0,0,\\frac57)$ $(0,0,\\frac67)$ $(0,0,\\frac65)$ 设体密度为 $\\rho_0$，质心坐标为 $(0,0,\\bar{z})$，\n$$\n\\bar{z}=\\frac{\\iiint_\\Omega z\\rho_0\\,dv}{\\iiint_\\Omega\\rho_0\\,dv}\n=\\frac{\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r^3\\sin\\varphi\\cos\\varphi\\,dr}{\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr}\n=\\frac{7}{6}\n$$",
+  "sort_order": 1
+}

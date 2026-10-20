@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a>0$，$f(t)=\\begin{cases}t,&0\\le t<a,\\\\2a-t,&a\\le t<2a,\\\\0,&\\text{其他},\\end{cases}$ 则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1{s^2}(1-e^{-as})^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1{s^2}(1+e^{-as})^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1{s^2}(1-e^{as})^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac1{s^2}(1+e^{as})^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F(s)=\\int_0^a te^{-st}\\,dt+\\int_a^{2a}(2a-t)e^{-st}\\,dt=\\dfrac1{s^2}(1-e^{-as})^2$。",
+  "search_text": "设 $a>0$，$f(t)=\\begin{cases}t,&0\\le t<a,\\\\2a-t,&a\\le t<2a,\\\\0,&\\text{其他},\\end{cases}$ 则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac1{s^2}(1-e^{-as})^2$ $\\dfrac1{s^2}(1+e^{-as})^2$ $\\dfrac1{s^2}(1-e^{as})^2$ $\\dfrac1{s^2}(1+e^{as})^2$ $F(s)=\\int_0^a te^{-st}\\,dt+\\int_a^{2a}(2a-t)e^{-st}\\,dt=\\dfrac1{s^2}(1-e^{-as})^2$。",
+  "sort_order": 8
+}

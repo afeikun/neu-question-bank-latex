@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $F(x,y,z)=0$ 过点 $P(-1,3,-4)$，且 $F_x(P)=-\\sqrt3,F_y(P)=2\\sqrt3,F_z(P)=1$，求曲面法线与 $zOx$ 平面的夹角。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2\\pi}3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "曲面 $F(x,y,z)=0$ 过点 $P(-1,3,-4)$ 的法向量为：$(-\\sqrt{3},2\\sqrt{3},1)$，$zOx$ 平面的法向量为 $(0,1,0)$，则曲面与 $zOx$ 平面的夹角的正弦为：\n\n$$\\sin\\varphi=\\frac{2\\sqrt{3}}{\\sqrt{(-\\sqrt{3})^2+(2\\sqrt{3})^2+1}\\sqrt{1}}=\\frac{\\sqrt{3}}{2},$$\n\n夹角为 $\\frac{\\pi}{3}$。",
+  "search_text": "曲面 $F(x,y,z)=0$ 过点 $P(-1,3,-4)$，且 $F_x(P)=-\\sqrt3,F_y(P)=2\\sqrt3,F_z(P)=1$，求曲面法线与 $zOx$ 平面的夹角。 $\\frac\\pi3$ $\\frac{2\\pi}3$ $\\frac\\pi4$ $\\frac\\pi2$ 曲面 $F(x,y,z)=0$ 过点 $P(-1,3,-4)$ 的法向量为：$(-\\sqrt{3},2\\sqrt{3},1)$，$zOx$ 平面的法向量为 $(0,1,0)$，则曲面与 $zOx$ 平面的夹角的正弦为：\n\n$$\\sin\\varphi=\\frac{2\\sqrt{3}}{\\sqrt{(-\\sqrt{3})^2+(2\\sqrt{3})^2+1}\\sqrt{1}}=\\frac{\\sqrt{3}}{2},$$\n\n夹角为 $\\frac{\\pi}{3}$。",
+  "sort_order": 10
+}

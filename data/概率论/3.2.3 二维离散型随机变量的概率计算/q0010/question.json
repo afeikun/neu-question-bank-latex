@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "有3橘、2苹果、3香蕉共8个水果，抽4个，求恰2橘1苹果的概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$18/70$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/70$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9/70$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2/70$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\binom32\\binom21\\binom31/\\binom84=18/70$。",
+  "search_text": "有3橘、2苹果、3香蕉共8个水果，抽4个，求恰2橘1苹果的概率。 $18/70$ $3/70$ $9/70$ $2/70$ $\\binom32\\binom21\\binom31/\\binom84=18/70$。",
+  "sort_order": 10
+}

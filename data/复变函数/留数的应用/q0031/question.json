@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac{1}{5+3\\sin t}\\,dt=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac34\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{3\\pi}5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=e^{it}$，将正弦项改写为有理函数并计算单位圆内极点留数，得 $I=\\dfrac\\pi2$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac{1}{5+3\\sin t}\\,dt=(\\ \\ )$。 $\\dfrac\\pi2$ $\\dfrac34\\pi$ $\\dfrac\\pi4$ $\\dfrac{3\\pi}5$ 令 $z=e^{it}$，将正弦项改写为有理函数并计算单位圆内极点留数，得 $I=\\dfrac\\pi2$。",
+  "sort_order": 31
+}

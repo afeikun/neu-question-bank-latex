@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\sin^2z\\,\\operatorname{Ln}\\cos z$，则 $f\\prime(1)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin 2(\\ln\\cos1+2k\\pi)-\\sin^2 1\\tan1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin 2\\ln\\cos1-\\sin^2 1\\tan1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2k\\pi i\\sin2-\\sin^2 1\\tan1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sin 2(\\ln\\cos1+2k\\pi)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对乘积求导并代入 $z=1$，得到第一项所示结果。",
+  "search_text": "设 $f(z)=\\sin^2z\\,\\operatorname{Ln}\\cos z$，则 $f\\prime(1)=(\\ )$。 $\\sin 2(\\ln\\cos1+2k\\pi)-\\sin^2 1\\tan1$ $\\sin 2\\ln\\cos1-\\sin^2 1\\tan1$ $2k\\pi i\\sin2-\\sin^2 1\\tan1$ $\\sin 2(\\ln\\cos1+2k\\pi)$ 对乘积求导并代入 $z=1$，得到第一项所示结果。",
+  "sort_order": 27
+}

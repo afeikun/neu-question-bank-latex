@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两个总体X、Y服从两点分布，检验H0:p1=p2、H1:p1≠p2，n1,n2充分大。统计量和拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U=(\\hat p_1-\\hat p_2)/\\sqrt{\\hat p(1-\\hat p)(1/n_1+1/n_2)},\\ |u|>u_{\\alpha/2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "合并率标准误，右尾拒绝域"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "未合并率标准误，|u|>tα/2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "F检验统计量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两率双侧大样本检验使用合并比例标准误，拒绝域|u|>uα/2。",
+  "search_text": "两个总体X、Y服从两点分布，检验H0:p1=p2、H1:p1≠p2，n1,n2充分大。统计量和拒绝域为（）。 $U=(\\hat p_1-\\hat p_2)/\\sqrt{\\hat p(1-\\hat p)(1/n_1+1/n_2)},\\ |u|>u_{\\alpha/2}$ 合并率标准误，右尾拒绝域 未合并率标准误，|u|>tα/2 F检验统计量 两率双侧大样本检验使用合并比例标准误，拒绝域|u|>uα/2。",
+  "sort_order": 16
+}

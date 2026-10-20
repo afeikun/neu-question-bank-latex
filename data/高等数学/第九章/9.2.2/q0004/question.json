@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "圆锥面 $y=\\sqrt{x^2+z^2}$ 被柱面 $x^2+z^2=2ax$ 截下，$a>0$，求 $\\iint_\\Sigma y\\,dS$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{32\\sqrt2}{9}a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{16\\sqrt2}{9}a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{128}{9}a^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{32}{9}a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：依题意得，曲面为锥面 $y=\\sqrt{x^2+z^2}$ 被 $x^2+z^2=2ax$ 截下的部分\n\n$$\\iint_\\Sigma y\\,dS=\\iint_D(\\sqrt{x^2+z^2})\\sqrt{2}\\,dzdx=\\sqrt{2}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2a\\cos\\theta}r\\cdot r\\,dr=\\frac{32}{9}\\sqrt{2}a^3，$$",
+  "search_text": "圆锥面 $y=\\sqrt{x^2+z^2}$ 被柱面 $x^2+z^2=2ax$ 截下，$a>0$，求 $\\iint_\\Sigma y\\,dS$。 $\\frac{32\\sqrt2}{9}a^3$ $\\frac{16\\sqrt2}{9}a^3$ $\\frac{128}{9}a^4$ $\\frac{32}{9}a^3$ 解答：依题意得，曲面为锥面 $y=\\sqrt{x^2+z^2}$ 被 $x^2+z^2=2ax$ 截下的部分\n\n$$\\iint_\\Sigma y\\,dS=\\iint_D(\\sqrt{x^2+z^2})\\sqrt{2}\\,dzdx=\\sqrt{2}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2a\\cos\\theta}r\\cdot r\\,dr=\\frac{32}{9}\\sqrt{2}a^3，$$",
+  "sort_order": 4
+}

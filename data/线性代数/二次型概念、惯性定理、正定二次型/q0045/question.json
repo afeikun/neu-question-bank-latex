@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设三阶实对称矩阵 $A$ 满足 $A^2+2A=0$，$R(A)=2$，且 $A+kE$ 为正定矩阵，则 $k$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k>-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k>2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k<-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k<2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $A^2+2A=0$ 且 $R(A)=2$，知 $A$ 的特征值为 $-2,-2,0$。因此 $A+kE$ 的特征值为 $k-2,k-2,k$，均为正的充要条件是 $k>2$。",
+  "search_text": "设三阶实对称矩阵 $A$ 满足 $A^2+2A=0$，$R(A)=2$，且 $A+kE$ 为正定矩阵，则 $k$ 的值为（ ）。 $k>-2$ $k>2$ $k<-2$ $k<2$ 由 $A^2+2A=0$ 且 $R(A)=2$，知 $A$ 的特征值为 $-2,-2,0$。因此 $A+kE$ 的特征值为 $k-2,k-2,k$，均为正的充要条件是 $k>2$。",
+  "sort_order": 45
+}

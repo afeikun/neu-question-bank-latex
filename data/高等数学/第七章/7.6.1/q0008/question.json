@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x-y-z=0,x^2-y^2-z^2=0$ 在点 $(1,1,0)$ 处的法平面为 $S$，点 $(0,-2,2)$ 到平面 $S$ 的距离是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\sqrt2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt2}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac2{\\sqrt3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=x-y-z,\\quad G(x,y,z)=x^2-y^2-z^2$，则在点 $(1,1,0)$ 处有：\n$$\nF_x=1,\\quad F_y=-1,\\quad F_z=-1\n$$\n$$\nG_x=2x=2,\\quad G_y=-2y=-2,\\quad G_z=-2z=0,\n$$\n$$\n\\frac{\\partial(F,G)}{\\partial(y,z)}=-2,\\quad\n\\frac{\\partial(F,G)}{\\partial(z,x)}=-2,\\quad\n\\frac{\\partial(F,G)}{\\partial(x,y)}=0,\n$$\n法平面为：$-2(x-1)-2(y-1)=0$，即 $x+y=2$，\n$$\nd=\\frac{|-2-2|}{\\sqrt{2}}=2\\sqrt{2}.\n$$",
+  "search_text": "曲线 $x-y-z=0,x^2-y^2-z^2=0$ 在点 $(1,1,0)$ 处的法平面为 $S$，点 $(0,-2,2)$ 到平面 $S$ 的距离是。 $2\\sqrt2$ $\\frac{\\sqrt2}{4}$ 2 $\\frac2{\\sqrt3}$ 设 $F(x,y,z)=x-y-z,\\quad G(x,y,z)=x^2-y^2-z^2$，则在点 $(1,1,0)$ 处有：\n$$\nF_x=1,\\quad F_y=-1,\\quad F_z=-1\n$$\n$$\nG_x=2x=2,\\quad G_y=-2y=-2,\\quad G_z=-2z=0,\n$$\n$$\n\\frac{\\partial(F,G)}{\\partial(y,z)}=-2,\\quad\n\\frac{\\partial(F,G)}{\\partial(z,x)}=-2,\\quad\n\\frac{\\partial(F,G)}{\\partial(x,y)}=0,\n$$\n法平面为：$-2(x-1)-2(y-1)=0$，即 $x+y=2$，\n$$\nd=\\frac{|-2-2|}{\\sqrt{2}}=2\\sqrt{2}.\n$$",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=1$于$0<x<1,0<y<1$，求$P(X<0.5,Y<0.6)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.875$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "单位正方形中矩形面积$0.5\\cdot0.6=0.3$。",
+  "search_text": "$f(x,y)=1$于$0<x<1,0<y<1$，求$P(X<0.5,Y<0.6)$。 $0.3$ $0.5$ $0.875$ $0.4$ 单位正方形中矩形面积$0.5\\cdot0.6=0.3$。",
+  "sort_order": 3
+}

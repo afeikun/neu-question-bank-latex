@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left[\\dfrac1z(\\sin z-\\cos z),0\\right]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\dfrac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "展开正弦与余弦后，$z^{-1}$ 项系数为 $-1$，故留数为 $-1$。",
+  "search_text": "$\\operatorname{Res}\\left[\\dfrac1z(\\sin z-\\cos z),0\\right]=(\\ \\ )$。 $-1$ $\\dfrac13$ $0$ $-\\dfrac12$ 展开正弦与余弦后，$z^{-1}$ 项系数为 $-1$，故留数为 $-1$。",
+  "sort_order": 33
+}

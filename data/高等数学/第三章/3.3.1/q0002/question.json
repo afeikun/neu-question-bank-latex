@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to+\\infty}x^2\\left(1-x\\sin\\frac1x\\right)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $t=1/x$，用 $\\sin t=t-t^3/6+o(t^3)$，极限为 $1/6$。",
+  "search_text": "$\\lim_{x\\to+\\infty}x^2\\left(1-x\\sin\\frac1x\\right)=(\\quad)$。 $0$ $\\frac16$ $\\frac13$ $-\\frac16$ 令 $t=1/x$，用 $\\sin t=t-t^3/6+o(t^3)$，极限为 $1/6$。",
+  "sort_order": 2
+}

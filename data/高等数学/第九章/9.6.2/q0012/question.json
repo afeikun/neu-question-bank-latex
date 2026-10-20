@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 为圆 $x^2+y^2=1$ 上从 $A(1,0)$ 经 $E(0,1)$ 到 $B(-1,0)$ 的曲线段，则 $\\int_Le^{y^2}\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n因为 $Q_x=P_y=0$，故 $\\int_L e^{y^2}\\,dy$ 与路径无关，取直线段 $AB$，其方程 $y=0$。\n\n$$\\int_{AB}e^{y^2}\\,dy=0$$",
+  "search_text": "设 $L$ 为圆 $x^2+y^2=1$ 上从 $A(1,0)$ 经 $E(0,1)$ 到 $B(-1,0)$ 的曲线段，则 $\\int_Le^{y^2}\\,dy=$（ ） $0$ $\\sqrt2$ $-1$ $1$ 解析：\n\n因为 $Q_x=P_y=0$，故 $\\int_L e^{y^2}\\,dy$ 与路径无关，取直线段 $AB$，其方程 $y=0$。\n\n$$\\int_{AB}e^{y^2}\\,dy=0$$",
+  "sort_order": 12
+}

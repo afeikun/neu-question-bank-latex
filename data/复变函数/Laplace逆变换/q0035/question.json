@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal{L}^{-1}[\\frac{s^2+4s+4}{(s^2+4s+13)^2}]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac16\\sin3t+\\frac t2\\cos3t)e^{-2t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac16\\sin3t-\\frac t2\\cos3t)e^{-2t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac16\\sin3t+\\frac t2\\cos3t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16\\sin3t-\\frac t2\\cos3t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由卷积计算，结果为 $\\frac12te^{-2t}\\cos3t+\\frac16e^{-2t}\\sin3t$。",
+  "search_text": "$\\mathcal{L}^{-1}[\\frac{s^2+4s+4}{(s^2+4s+13)^2}]=(\\quad).$ $(\\frac16\\sin3t+\\frac t2\\cos3t)e^{-2t}$ $(\\frac16\\sin3t-\\frac t2\\cos3t)e^{-2t}$ $\\frac16\\sin3t+\\frac t2\\cos3t$ $\\frac16\\sin3t-\\frac t2\\cos3t$ 由卷积计算，结果为 $\\frac12te^{-2t}\\cos3t+\\frac16e^{-2t}\\sin3t$。",
+  "sort_order": 35
+}

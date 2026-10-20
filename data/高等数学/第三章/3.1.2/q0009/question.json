@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $[a,b]$ 上连续、在 $(a,b)$ 内可导，应用拉格朗日中值定理可得，至少存在一点 $\\xi\\in(a,b)$ 使得 $e^b f(b)-e^a f(a)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^\\xi(f(\\xi)+f'(\\xi))(b-a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{f(\\xi)}(b-a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{f(\\xi)}f'(\\xi)(b-a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f'(\\xi)(b-a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 $F(x)=e^x f(x)$ 应用中值定理，$F'(\\xi)=e^\\xi(f(\\xi)+f'(\\xi))$。",
+  "search_text": "函数 $f(x)$ 在 $[a,b]$ 上连续、在 $(a,b)$ 内可导，应用拉格朗日中值定理可得，至少存在一点 $\\xi\\in(a,b)$ 使得 $e^b f(b)-e^a f(a)=(\\quad)$。 $e^\\xi(f(\\xi)+f'(\\xi))(b-a)$ $e^{f(\\xi)}(b-a)$ $e^{f(\\xi)}f'(\\xi)(b-a)$ $f'(\\xi)(b-a)$ 对 $F(x)=e^x f(x)$ 应用中值定理，$F'(\\xi)=e^\\xi(f(\\xi)+f'(\\xi))$。",
+  "sort_order": 9
+}

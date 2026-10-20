@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(xy+1)ydx-xdy=0$ 的积分因子为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^{-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\nP(x,y)=xy^2+y,\\quad Q(x,y)=-x,\n$$\n\n$$\n\\frac{\\partial P}{\\partial x}-\\frac{\\partial Q}{\\partial y}=2xy+1+1=2xy+2,\n$$\n\n$$\n-\\frac{1}{P}\\left(\\frac{\\partial P}{\\partial x}-\\frac{\\partial Q}{\\partial y}\\right)=-\\frac{2}{y},\n$$\n\n故积分因子为 $\\mu(y)=e^{-\\int\\frac{2}{y}\\,dy}=y^{-2}$",
+  "search_text": "$(xy+1)ydx-xdy=0$ 的积分因子为（ ） $y^{-1}$ $y^{-2}$ $x^{-2}$ $x^{-1}$ $$\nP(x,y)=xy^2+y,\\quad Q(x,y)=-x,\n$$\n\n$$\n\\frac{\\partial P}{\\partial x}-\\frac{\\partial Q}{\\partial y}=2xy+1+1=2xy+2,\n$$\n\n$$\n-\\frac{1}{P}\\left(\\frac{\\partial P}{\\partial x}-\\frac{\\partial Q}{\\partial y}\\right)=-\\frac{2}{y},\n$$\n\n故积分因子为 $\\mu(y)=e^{-\\int\\frac{2}{y}\\,dy}=y^{-2}$",
+  "sort_order": 28
+}

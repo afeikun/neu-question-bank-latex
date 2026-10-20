@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$D(X)=4,D(Y)=1,D(X-Y)=4$，求$\\rho_{XY}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(X-Y)=D(X)+D(Y)-2\\operatorname{cov}(X,Y)=4$，协方差$1/2$，故相关系数$1/4$。",
+  "search_text": "设$D(X)=4,D(Y)=1,D(X-Y)=4$，求$\\rho_{XY}$。 $1/4$ $-1/4$ $1/2$ $1$ $D(X-Y)=D(X)+D(Y)-2\\operatorname{cov}(X,Y)=4$，协方差$1/2$，故相关系数$1/4$。",
+  "sort_order": 7
+}

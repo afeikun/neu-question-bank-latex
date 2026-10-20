@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y^2=2mx,z^2=m-x$ 在 $(x_0,y_0,z_0)$ 处的切线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-x_0}{0}=\\frac{y-y_0}{m/y_0}=\\frac{z-z_0}{1/z_0}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-x_0+\\frac m{y_0}(y-y_0)-\\frac1{2z_0}(z-z_0)=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-x_0=\\frac{y-y_0}{m}=\\frac{z-z_0}{1/(2z_0)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-x_0}{1}=\\frac{y-y_0}{m/y_0}=\\frac{z-z_0}{-1/(2z_0)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "把 $x$ 看作参数，\n$$\nx_x\\bigg|_{(x_0,y_0,z_0)}=1,\\quad\ny_x\\bigg|_{(x_0,y_0,z_0)}=\\frac{m}{y_0},\\quad\nz_x\\bigg|_{(x_0,y_0,z_0)}=-\\frac{1}{2z_0},\n$$\n则在点 $(x_0,y_0,z_0)$ 处的参数方程为：\n$$\n\\frac{x-x_0}{1}=\\frac{y-y_0}{\\frac{m}{y_0}}=\\frac{z-z_0}{-\\frac{1}{2z_0}}.\n$$",
+  "search_text": "曲线 $y^2=2mx,z^2=m-x$ 在 $(x_0,y_0,z_0)$ 处的切线方程为。 $\\frac{x-x_0}{0}=\\frac{y-y_0}{m/y_0}=\\frac{z-z_0}{1/z_0}$ $x-x_0+\\frac m{y_0}(y-y_0)-\\frac1{2z_0}(z-z_0)=0$ $x-x_0=\\frac{y-y_0}{m}=\\frac{z-z_0}{1/(2z_0)}$ $\\frac{x-x_0}{1}=\\frac{y-y_0}{m/y_0}=\\frac{z-z_0}{-1/(2z_0)}$ 把 $x$ 看作参数，\n$$\nx_x\\bigg|_{(x_0,y_0,z_0)}=1,\\quad\ny_x\\bigg|_{(x_0,y_0,z_0)}=\\frac{m}{y_0},\\quad\nz_x\\bigg|_{(x_0,y_0,z_0)}=-\\frac{1}{2z_0},\n$$\n则在点 $(x_0,y_0,z_0)$ 处的参数方程为：\n$$\n\\frac{x-x_0}{1}=\\frac{y-y_0}{\\frac{m}{y_0}}=\\frac{z-z_0}{-\\frac{1}{2z_0}}.\n$$",
+  "sort_order": 15
+}

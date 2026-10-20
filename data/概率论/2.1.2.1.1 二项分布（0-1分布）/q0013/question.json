@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "10次独立射击命中率0.7，依次求恰中3次、至少中3次、最可能命中次数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.009,0.998,7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.998,0.009,6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.998,0.009,7$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.009,0.998,6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(X=3)=C_{10}^3(0.7)^3(0.3)^7\\approx0.009$；$P(X\\ge3)\\approx0.998$；众数$\\lfloor11\\times0.7\\rfloor=7$。",
+  "search_text": "10次独立射击命中率0.7，依次求恰中3次、至少中3次、最可能命中次数。 $0.009,0.998,7$ $0.998,0.009,6$ $0.998,0.009,7$ $0.009,0.998,6$ $P(X=3)=C_{10}^3(0.7)^3(0.3)^7\\approx0.009$；$P(X\\ge3)\\approx0.998$；众数$\\lfloor11\\times0.7\\rfloor=7$。",
+  "sort_order": 13
+}

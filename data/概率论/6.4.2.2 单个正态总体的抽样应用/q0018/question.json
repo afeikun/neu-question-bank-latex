@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "容量9正态样本，$P(|\\bar X-\\mu|>4)=0.02$，求总体标准差。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sigma\\approx5.16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sigma\\approx5.17$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sigma\\approx5.88$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sigma\\approx5.85$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$4/(\\sigma/3)=2.325$，故$\\sigma=12/2.325\\approx5.16$。",
+  "search_text": "容量9正态样本，$P(|\\bar X-\\mu|>4)=0.02$，求总体标准差。 $\\sigma\\approx5.16$ $\\sigma\\approx5.17$ $\\sigma\\approx5.88$ $\\sigma\\approx5.85$ $4/(\\sigma/3)=2.325$，故$\\sigma=12/2.325\\approx5.16$。",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\lim_{x\\to0}\\frac{f(a+x)-f(a-2x)}x=1$，$f(x)$ 在 $x=a$ 处可导，则 $f\\prime(a)$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f(a+x)-f(a-2x)\\sim3xf\\prime(a)$，故 $f\\prime(a)=1/3$。",
+  "search_text": "设 $\\lim_{x\\to0}\\frac{f(a+x)-f(a-2x)}x=1$，$f(x)$ 在 $x=a$ 处可导，则 $f\\prime(a)$ 等于（ ）。 不存在 $\\frac12$ 1 $\\frac13$ $f(a+x)-f(a-2x)\\sim3xf\\prime(a)$，故 $f\\prime(a)=1/3$。",
+  "sort_order": 17
+}

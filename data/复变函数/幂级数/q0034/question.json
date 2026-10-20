@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}\\operatorname{ch}(1/n)(z-1)^n$ 的收敛半径 $R=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "系数 $c_n=\\operatorname{ch}(1/n)\\to1$，相邻比值趋于 $1$，故 $R=1$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}\\operatorname{ch}(1/n)(z-1)^n$ 的收敛半径 $R=(\\quad)$。 $1$ $0$ $e$ $\\infty$ 系数 $c_n=\\operatorname{ch}(1/n)\\to1$，相邻比值趋于 $1$，故 $R=1$。",
+  "sort_order": 34
+}

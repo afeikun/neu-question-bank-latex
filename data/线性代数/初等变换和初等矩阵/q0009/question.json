@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&2&1\\end{pmatrix}^{2010}\\begin{pmatrix}1&2&3\\\\2&3&4\\\\3&4&5\\end{pmatrix}\\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix}^{2011}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}3&2&1\\\\16085&12064&8043\\\\4&3&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}4&3&2\\\\16085&12064&8043\\\\3&2&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}4&3&2\\\\3&2&1\\\\16085&12064&8043\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}3&2&1\\\\4&3&2\\\\16085&12064&8043\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "注意到 $\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&2&1\\end{pmatrix}^{2010}=\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&2010&1\\end{pmatrix}$，且 $\\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix}^{2011}=\\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix}$。直接相乘得到 $\\begin{pmatrix}3&2&1\\\\4&3&2\\\\16085&12064&8043\\end{pmatrix}$。",
+  "search_text": "$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&2&1\\end{pmatrix}^{2010}\\begin{pmatrix}1&2&3\\\\2&3&4\\\\3&4&5\\end{pmatrix}\\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix}^{2011}=$（ ）。 $\\begin{pmatrix}3&2&1\\\\16085&12064&8043\\\\4&3&2\\end{pmatrix}$ $\\begin{pmatrix}4&3&2\\\\16085&12064&8043\\\\3&2&1\\end{pmatrix}$ $\\begin{pmatrix}4&3&2\\\\3&2&1\\\\16085&12064&8043\\end{pmatrix}$ $\\begin{pmatrix}3&2&1\\\\4&3&2\\\\16085&12064&8043\\end{pmatrix}$ 注意到 $\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&2&1\\end{pmatrix}^{2010}=\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&2010&1\\end{pmatrix}$，且 $\\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix}^{2011}=\\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix}$。直接相乘得到 $\\begin{pmatrix}3&2&1\\\\4&3&2\\\\16085&12064&8043\\end{pmatrix}$。",
+  "sort_order": 9
+}

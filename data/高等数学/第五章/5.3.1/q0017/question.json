@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}(-1)^{n+1}(3^n-k(-2)^n)/(5\\cdot3^n)$（$k$ 为常数）如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "敛散性与 $k$ 有关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "存在通项中的交错常数项，项不趋于零，故发散。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}(-1)^{n+1}(3^n-k(-2)^n)/(5\\cdot3^n)$（$k$ 为常数）如何？ 条件收敛 敛散性与 $k$ 有关 发散 绝对收敛 存在通项中的交错常数项，项不趋于零，故发散。",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次积分 $\\int_0^1dy\\int_y^1e^{x^2}dx=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12(e-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac e2-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 原式 $=\\int_0^1e^{x^2}\\,dx\\int_0^xdy=\\int_0^1xe^{x^2}\\,dx=\\frac{1}{2}(e-1)$",
+  "search_text": "二次积分 $\\int_0^1dy\\int_y^1e^{x^2}dx=（ ）$ $e-1$ $\\frac12(e-1)$ $\\frac e2-1$ $e^{-1}$ 解答 原式 $=\\int_0^1e^{x^2}\\,dx\\int_0^xdy=\\int_0^1xe^{x^2}\\,dx=\\frac{1}{2}(e-1)$",
+  "sort_order": 35
+}

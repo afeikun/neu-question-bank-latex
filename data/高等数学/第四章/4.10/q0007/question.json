@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "长为 $a$ 的细棒，位置 $x$ 处线密度为 $\\rho=bx^2+c$（棒一端与原点重合），求棒的平均密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$ba^2/3+2c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ba^2/3+c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2ba^2/3+c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$ba^2/3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\bar\\rho=\\frac1a\\int_0^a(bx^2+c)dx=ba^2/3+c$。",
+  "search_text": "长为 $a$ 的细棒，位置 $x$ 处线密度为 $\\rho=bx^2+c$（棒一端与原点重合），求棒的平均密度。 $ba^2/3+2c$ $ba^2/3+c$ $2ba^2/3+c$ $ba^2/3$ $\\bar\\rho=\\frac1a\\int_0^a(bx^2+c)dx=ba^2/3+c$。",
+  "sort_order": 7
+}

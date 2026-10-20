@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $n$ 阶矩阵 $A$ 任意一行的 $n$ 个元素之和都为 $a$，则 $A$ 的一个特征值为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a^{-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令特征向量为全 1 列向量，则 $A(1,\\ldots,1)^T=a(1,\\ldots,1)^T$，特征值为 $a$，选项 4。",
+  "search_text": "若 $n$ 阶矩阵 $A$ 任意一行的 $n$ 个元素之和都为 $a$，则 $A$ 的一个特征值为(\\quad)。 $-a$ $a^{-1}$ $0$ $a$ 令特征向量为全 1 列向量，则 $A(1,\\ldots,1)^T=a(1,\\ldots,1)^T$，特征值为 $a$，选项 4。",
+  "sort_order": 12
+}

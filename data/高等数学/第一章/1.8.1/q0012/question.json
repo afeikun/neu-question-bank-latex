@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 是定义于 $[a,b]$ 上的单调增加函数，$x_0\\in(a,b)$，若 $\\lim_{x\\to x_0}f(x)$ 存在，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)$ 在 $x_0$ 点不左连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)$ 在 $x_0$ 点不右连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)$ 在 $x_0$ 点不连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)$ 在 $x_0$ 点连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "单调性给出左右极限分别夹住 $f(x_0)$；两侧极限存在且相等时，必等于 $f(x_0)$，故连续。",
+  "search_text": "$f(x)$ 是定义于 $[a,b]$ 上的单调增加函数，$x_0\\in(a,b)$，若 $\\lim_{x\\to x_0}f(x)$ 存在，则（ ）。 $f(x)$ 在 $x_0$ 点不左连续 $f(x)$ 在 $x_0$ 点不右连续 $f(x)$ 在 $x_0$ 点不连续 $f(x)$ 在 $x_0$ 点连续 单调性给出左右极限分别夹住 $f(x_0)$；两侧极限存在且相等时，必等于 $f(x_0)$，故连续。",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\frac{e^x-a}{x(x-1)}$，$x=1$ 是可去间断点，则 $a=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "可去间断要求 $e^x-a$ 在 $x=1$ 为无穷小，故 $a=e$。",
+  "search_text": "设 $f(x)=\\frac{e^x-a}{x(x-1)}$，$x=1$ 是可去间断点，则 $a=$（ ）。 $e^{-2}$ $e^{-1}$ $e$ $e^2$ 可去间断要求 $e^x-a$ 在 $x=1$ 为无穷小，故 $a=e$。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知四点 $P_1(1,2,3)$，$P_2(2,4,1)$，$P_3(1,-3,5)$，$P_4(4,-2,3)$，则四面体 $P_1P_2P_3P_4$ 的体积为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac52$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac56$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac53$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$P_1P_2\\times P_1P_3$ 与 $P_1P_4=(3,-4,0)$ 的点积绝对值为 $10$，体积为 $10/6=5/3$。",
+  "search_text": "已知四点 $P_1(1,2,3)$，$P_2(2,4,1)$，$P_3(1,-3,5)$，$P_4(4,-2,3)$，则四面体 $P_1P_2P_3P_4$ 的体积为(\\quad)。 $\\frac52$ $5$ $\\frac56$ $\\frac53$ $P_1P_2\\times P_1P_3$ 与 $P_1P_4=(3,-4,0)$ 的点积绝对值为 $10$，体积为 $10/6=5/3$。",
+  "sort_order": 10
+}

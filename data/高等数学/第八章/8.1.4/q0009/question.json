@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^1dy\\int_{e^y}^{e^6}f(x,y)dx$ 的积分次序[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_1^6dx\\int_{\\ln x}^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^6dx\\int_0^{\\ln x}f(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dx\\int_{e^y}^{e^6}f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_1^{e^6}dx\\int_0^{\\ln x}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答　原式$=\\int_1^{e^6}dx\\int_0^{\\ln x}f(x,y)dy$。",
+  "search_text": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^1dy\\int_{e^y}^{e^6}f(x,y)dx$ 的积分次序[\\quad] $\\int_1^6dx\\int_{\\ln x}^1f(x,y)dy$ $\\int_0^6dx\\int_0^{\\ln x}f(x,y)dy$ $\\int_0^1dx\\int_{e^y}^{e^6}f(x,y)dy$ $\\int_1^{e^6}dx\\int_0^{\\ln x}f(x,y)dy$ 解答　原式$=\\int_1^{e^6}dx\\int_0^{\\ln x}f(x,y)dy$。",
+  "sort_order": 9
+}

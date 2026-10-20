@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使积分 $\\oint_C\\frac{\\sinh(z/a)}{z^2-a^2}\\,dz=\\frac{\\pi i}{a}\\sinh1$（$a$ 为不等于 $0,2,2i$ 的常数），则积分路径 $C$ 是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正向圆周 $|z-a|=|a|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "正向圆周 $|z-2i|=\\frac32$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "正向圆周 $|z-2|=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "正向圆周 $|z|=2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对任何不等于 $0,2,2i$ 的常数 $a$，圆周 $|z-a|=|a|$ 都包含 $a$ 而不包含 $-a$，沿它积分得 $\\frac{\\pi i}{a}\\sinh1$。",
+  "search_text": "为使积分 $\\oint_C\\frac{\\sinh(z/a)}{z^2-a^2}\\,dz=\\frac{\\pi i}{a}\\sinh1$（$a$ 为不等于 $0,2,2i$ 的常数），则积分路径 $C$ 是（ ）。 正向圆周 $|z-a|=|a|$ 正向圆周 $|z-2i|=\\frac32$ 正向圆周 $|z-2|=1$ 正向圆周 $|z|=2$ 对任何不等于 $0,2,2i$ 的常数 $a$，圆周 $|z-a|=|a|$ 都包含 $a$ 而不包含 $-a$，沿它积分得 $\\frac{\\pi i}{a}\\sinh1$。",
+  "sort_order": 35
+}

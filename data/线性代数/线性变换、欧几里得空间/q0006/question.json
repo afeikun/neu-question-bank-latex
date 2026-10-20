@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A\\in\\mathbb{R}^{n\\times n}$，$\\operatorname{tr}(A)$ 代表 $A$ 的全体对角元素之和，则 $\\mathbb{R}^{n\\times n}$ 中下列映射 $T$ 不是线性变换的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$T(A)=\\operatorname{tr}(A^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$T(A)=\\operatorname{tr}(A)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T(A)=c\\cdot\\operatorname{tr}(A)$，其中 $c$ 为任意固定的实数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$T(A)=\\operatorname{tr}(A+A^T)$，其中 $A^T$ 代表 $A$ 的转置"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "迹是线性函数，故 $T(A)=\\operatorname{tr}(A)$、$c\\operatorname{tr}(A)$ 和 $\\operatorname{tr}(A+A^T)$ 都是线性变换。一般有 $(A+B)^2\\ne A^2+B^2$，所以 $T(A)=\\operatorname{tr}(A^2)$ 不是线性变换。",
+  "search_text": "设 $A\\in\\mathbb{R}^{n\\times n}$，$\\operatorname{tr}(A)$ 代表 $A$ 的全体对角元素之和，则 $\\mathbb{R}^{n\\times n}$ 中下列映射 $T$ 不是线性变换的是（ ）。 $T(A)=\\operatorname{tr}(A^2)$ $T(A)=\\operatorname{tr}(A)$ $T(A)=c\\cdot\\operatorname{tr}(A)$，其中 $c$ 为任意固定的实数 $T(A)=\\operatorname{tr}(A+A^T)$，其中 $A^T$ 代表 $A$ 的转置 迹是线性函数，故 $T(A)=\\operatorname{tr}(A)$、$c\\operatorname{tr}(A)$ 和 $\\operatorname{tr}(A+A^T)$ 都是线性变换。一般有 $(A+B)^2\\ne A^2+B^2$，所以 $T(A)=\\operatorname{tr}(A^2)$ 不是线性变换。",
+  "sort_order": 6
+}

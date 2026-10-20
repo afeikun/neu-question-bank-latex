@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\frac{\\ln x}{x^n}$（$n\\in\\mathbb N^+$）的最大值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-1/n}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{1/n}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{ne}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f\\prime(x)=\\frac{1-n\\ln x}{x^{n+1}}$，最大值点 $x=e^{1/n}$，最大值为 $f(e^{1/n})=1/(ne)$。",
+  "search_text": "函数 $f(x)=\\frac{\\ln x}{x^n}$（$n\\in\\mathbb N^+$）的最大值为（ ）。 $e^{-1/n}$ $e^{1/n}$ $\\frac1{ne}$ $\\frac1e$ $f\\prime(x)=\\frac{1-n\\ln x}{x^{n+1}}$，最大值点 $x=e^{1/n}$，最大值为 $f(e^{1/n})=1/(ne)$。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z|=1}\\frac{e^{iz}}{z^2+2z}\\,dz=(\\quad)$（方向正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆内只有奇点 $0$，积分为 $2\\pi i e^{i\\cdot0}/2=\\pi i$。",
+  "search_text": "$\\oint_{|z|=1}\\frac{e^{iz}}{z^2+2z}\\,dz=(\\quad)$（方向正向）。 $\\pi i$ $i$ $\\frac12$ $2\\pi i$ 被积函数在圆内只有奇点 $0$，积分为 $2\\pi i e^{i\\cdot0}/2=\\pi i$。",
+  "sort_order": 69
+}

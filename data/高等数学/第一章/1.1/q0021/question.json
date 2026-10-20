@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 的定义域 $D=[0,1]$，则 $f(x+a)$（$a>0$）定义域为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{x\\mid-a\\le x\\le1-a\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{x\\mid-a\\le x\\le a\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{x\\mid-a\\le x\\le1\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{x\\mid-1\\le x\\le1-a\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $0\\le x+a\\le1$ 得 $-a\\le x\\le1-a$。",
+  "search_text": "设 $f(x)$ 的定义域 $D=[0,1]$，则 $f(x+a)$（$a>0$）定义域为（ ）。 $\\{x\\mid-a\\le x\\le1-a\\}$ $\\{x\\mid-a\\le x\\le a\\}$ $\\{x\\mid-a\\le x\\le1\\}$ $\\{x\\mid-1\\le x\\le1-a\\}$ 由 $0\\le x+a\\le1$ 得 $-a\\le x\\le1-a$。",
+  "sort_order": 21
+}

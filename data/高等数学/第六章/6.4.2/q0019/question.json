@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若直线 $L_1:\\frac x1=\\frac{y-2}{-2}=\\frac{z+3}{1}$，$L_2:\\frac{x-1}{2}=\\frac{y+2}{\\lambda}=\\frac z6$ 垂直，则 $\\lambda=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-9$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：因两直线垂直，所以 $\\vec{s}_1\\perp\\vec{s}_2$，即 $\\vec{s}_1\\cdot\\vec{s}_2=(1,-2,1)\\cdot(2,\\lambda,6)=8-2\\lambda=0$，解得 $\\lambda=4$。",
+  "search_text": "若直线 $L_1:\\frac x1=\\frac{y-2}{-2}=\\frac{z+3}{1}$，$L_2:\\frac{x-1}{2}=\\frac{y+2}{\\lambda}=\\frac z6$ 垂直，则 $\\lambda=(\\quad)$。 $4$ $9$ $-4$ $-9$ 解答：因两直线垂直，所以 $\\vec{s}_1\\perp\\vec{s}_2$，即 $\\vec{s}_1\\cdot\\vec{s}_2=(1,-2,1)\\cdot(2,\\lambda,6)=8-2\\lambda=0$，解得 $\\lambda=4$。",
+  "sort_order": 19
+}

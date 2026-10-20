@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设有一等腰直角三角形薄片，腰长 $a$，面密度为点到斜边顶点距离平方，质心为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{4a}5,\\frac{4a}5)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{3a}5,\\frac{3a}5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac a5,\\frac a5)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{2a}5,\\frac{2a}5)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "以等腰直角三角形的两直角边为坐标轴建立坐标系，如图所示由题意知，$\\mu(x,y)=x^2+y^2$。根据对称性可知故质心坐标为 $\\bar{x}=\\bar{y}$，\n\n$$\nM=\\iint_D\\mu(x,y)\\,dxdy=\\int_0^a dx\\int_0^{a-x}(x^2+y^2)\\,dy=\\frac16a^4\n$$\n\n$$\n\\bar{x}=\\frac{\\iint_Dx\\mu(x,y)\\,dxdy}{M}=\\frac{\\int_0^a x\\,dx\\int_0^{a-x}(x^2+y^2)\\,dy}{\\frac16a^4}=\\frac{2a}{5}\n$$\n\n故所求质心为 $\\left(\\frac{2a}{5},\\frac{2a}{5}\\right)$。\n\n示意图：$x,y$ 坐标轴围成直角，原点标为 $O$；斜边标为 $x+y=a$，两个轴截距均标为 $a$。",
+  "search_text": "设有一等腰直角三角形薄片，腰长 $a$，面密度为点到斜边顶点距离平方，质心为（ ） $(\\frac{4a}5,\\frac{4a}5)$ $(\\frac{3a}5,\\frac{3a}5)$ $(\\frac a5,\\frac a5)$ $(\\frac{2a}5,\\frac{2a}5)$ 以等腰直角三角形的两直角边为坐标轴建立坐标系，如图所示由题意知，$\\mu(x,y)=x^2+y^2$。根据对称性可知故质心坐标为 $\\bar{x}=\\bar{y}$，\n\n$$\nM=\\iint_D\\mu(x,y)\\,dxdy=\\int_0^a dx\\int_0^{a-x}(x^2+y^2)\\,dy=\\frac16a^4\n$$\n\n$$\n\\bar{x}=\\frac{\\iint_Dx\\mu(x,y)\\,dxdy}{M}=\\frac{\\int_0^a x\\,dx\\int_0^{a-x}(x^2+y^2)\\,dy}{\\frac16a^4}=\\frac{2a}{5}\n$$\n\n故所求质心为 $\\left(\\frac{2a}{5},\\frac{2a}{5}\\right)$。\n\n示意图：$x,y$ 坐标轴围成直角，原点标为 $O$；斜边标为 $x+y=a$，两个轴截距均标为 $a$。",
+  "sort_order": 47
+}

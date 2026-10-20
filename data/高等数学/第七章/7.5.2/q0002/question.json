@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $xu-yv=0,\\\\ yu+xv=0$，下列求偏导中不正确的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$u_y=\\frac{xv-yu}{x^2+y^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$u_x=-\\frac{xu+yv}{x^2+y^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$v_x=\\frac{yu-xv}{x^2+y^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$v_y=\\frac{xu+yv}{x^2+y^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由题意知，方程组确定隐函数 $u=u(x,y),v=v(x,y)$，题设方程组两边取微分，有\n$$\n\\begin{cases}\nx\\,du+u\\,dx-y\\,dv-v\\,dy=0\\\\\ny\\,du+u\\,dy+x\\,dv+v\\,dx=0\n\\end{cases}\n$$\n把 $du,dv$ 看成未知的，解得\n$$\ndu=\\frac{1}{x^2+y^2}\\left[-(xu+yv)\\,dx+(xv-yu)\\,dy\\right]\n$$\n即有\n$$\n\\frac{\\partial u}{\\partial x}=-\\frac{xu+yv}{x^2+y^2},\\quad\n\\frac{\\partial u}{\\partial y}=\\frac{xv-yu}{x^2+y^2}\n$$\n同理，我们还可求出 $dv$，从而得到\n$$\n\\frac{\\partial v}{\\partial x}=\\frac{yu-xv}{x^2+y^2},\\quad\n\\frac{\\partial v}{\\partial y}=-\\frac{xu+yv}{x^2+y^2}\n$$",
+  "search_text": "设 $xu-yv=0,\\\\ yu+xv=0$，下列求偏导中不正确的是哪一个？ $u_y=\\frac{xv-yu}{x^2+y^2}$ $u_x=-\\frac{xu+yv}{x^2+y^2}$ $v_x=\\frac{yu-xv}{x^2+y^2}$ $v_y=\\frac{xu+yv}{x^2+y^2}$ 由题意知，方程组确定隐函数 $u=u(x,y),v=v(x,y)$，题设方程组两边取微分，有\n$$\n\\begin{cases}\nx\\,du+u\\,dx-y\\,dv-v\\,dy=0\\\\\ny\\,du+u\\,dy+x\\,dv+v\\,dx=0\n\\end{cases}\n$$\n把 $du,dv$ 看成未知的，解得\n$$\ndu=\\frac{1}{x^2+y^2}\\left[-(xu+yv)\\,dx+(xv-yu)\\,dy\\right]\n$$\n即有\n$$\n\\frac{\\partial u}{\\partial x}=-\\frac{xu+yv}{x^2+y^2},\\quad\n\\frac{\\partial u}{\\partial y}=\\frac{xv-yu}{x^2+y^2}\n$$\n同理，我们还可求出 $dv$，从而得到\n$$\n\\frac{\\partial v}{\\partial x}=\\frac{yu-xv}{x^2+y^2},\\quad\n\\frac{\\partial v}{\\partial y}=-\\frac{xu+yv}{x^2+y^2}\n$$",
+  "sort_order": 2
+}

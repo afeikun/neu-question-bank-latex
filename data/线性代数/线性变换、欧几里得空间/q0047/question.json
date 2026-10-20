@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在线性空间 $\\mathbb R[x]_3$ 中，对任意向量 $f(x),g(x)\\in\\mathbb R[x]_n$ 定义内积 $[f(x),g(x)]=\\int_{-1}^{1}f(x)g(x)\\,dx$，则 $\\mathbb R[x]_3$ 的一组正交基是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1,2x,3x^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0,2x,3x^2-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1,x+1,x^2+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1,2x,3x^2-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "可以验证 $1,2x,3x^2-1$ 中三个向量两两正交；$1,2x,3x^2$ 中 $1$ 与 $3x^2$ 不正交，$0,2x,3x^2-1$ 中含零向量，$1,x+1,x^2+1$ 中 $1$ 与 $x+1$ 不正交。",
+  "search_text": "在线性空间 $\\mathbb R[x]_3$ 中，对任意向量 $f(x),g(x)\\in\\mathbb R[x]_n$ 定义内积 $[f(x),g(x)]=\\int_{-1}^{1}f(x)g(x)\\,dx$，则 $\\mathbb R[x]_3$ 的一组正交基是（ ）。 $1,2x,3x^2$ $0,2x,3x^2-1$ $1,x+1,x^2+1$ $1,2x,3x^2-1$ 可以验证 $1,2x,3x^2-1$ 中三个向量两两正交；$1,2x,3x^2$ 中 $1$ 与 $3x^2$ 不正交，$0,2x,3x^2-1$ 中含零向量，$1,x+1,x^2+1$ 中 $1$ 与 $x+1$ 不正交。",
+  "sort_order": 47
+}

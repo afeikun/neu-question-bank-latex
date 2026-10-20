@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=(x+e^{-x/2})^{2/3}$，则 $y\\prime(0)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$y\\prime(0)=\\frac23(1+1)^{-1/3}(1-1/2)=1/3$。",
+  "search_text": "设 $y=(x+e^{-x/2})^{2/3}$，则 $y\\prime(0)=$（ ）。 3 -3 $-\\frac13$ $\\frac13$ $y\\prime(0)=\\frac23(1+1)^{-1/3}(1-1/2)=1/3$。",
+  "sort_order": 7
+}

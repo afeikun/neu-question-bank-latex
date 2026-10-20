@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 为奇函数，且当 $x>0$ 时单调增加，则当 $x<0$ 时，$f(x)$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可能单调增加，也可能单调减少"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调增加"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "既非单调增加，也非单调减少"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "单调减少"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "奇函数在关于原点对称的区间上具有相同的单调性，因此 $x<0$ 时也单调增加。",
+  "search_text": "$f(x)$ 为奇函数，且当 $x>0$ 时单调增加，则当 $x<0$ 时，$f(x)$（ ）。 可能单调增加，也可能单调减少 单调增加 既非单调增加，也非单调减少 单调减少 奇函数在关于原点对称的区间上具有相同的单调性，因此 $x<0$ 时也单调增加。",
+  "sort_order": 6
+}

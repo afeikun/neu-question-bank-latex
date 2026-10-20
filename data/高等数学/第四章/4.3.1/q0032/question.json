@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "x>0，f(x)=∫₀ˣ²ln(1+t)dt，图形是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "单调递减的凹弧"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调递增的凹弧"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单调递减的凸弧"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "单调递增的凸弧"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "f′=2xln(1+x²)>0，f″>0，故递增且凸。",
+  "search_text": "x>0，f(x)=∫₀ˣ²ln(1+t)dt，图形是 单调递减的凹弧 单调递增的凹弧 单调递减的凸弧 单调递增的凸弧 f′=2xln(1+x²)>0，f″>0，故递增且凸。",
+  "sort_order": 32
+}

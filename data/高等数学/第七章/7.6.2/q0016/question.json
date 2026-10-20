@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $x^2yz-xy^2z^3=6$ 在点 $(3,2,1)$ 的法线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8x+3y-18z=12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x+5}{8}=\\frac{y-5}{-3}=\\frac{z-19}{-18}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8x-3y-18z=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-3}{8}=\\frac{y-2}{3}=\\frac{z-1}{-18}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=x^2yz-xy^2z^3-6$，\n\n则 $F_x(3,2,1)=2xyz-y^2z^3=8$，$F_y(3,2,1)=x^2z-2xyz^3=-3$，\n\n$F_z(3,2,1)=x^2y-3xy^2z^2=-18$，法线方程为：$\\frac{x-3}{8}=\\frac{y-2}{-3}=\\frac{z-1}{-18}$，又点 $(-5,5,19)$ 在法线上，则：\n\n$$\\frac{x+5}{8}=\\frac{y-5}{-3}=\\frac{z-19}{-18}.$$",
+  "search_text": "曲面 $x^2yz-xy^2z^3=6$ 在点 $(3,2,1)$ 的法线方程为。 $8x+3y-18z=12$ $\\frac{x+5}{8}=\\frac{y-5}{-3}=\\frac{z-19}{-18}$ $8x-3y-18z=0$ $\\frac{x-3}{8}=\\frac{y-2}{3}=\\frac{z-1}{-18}$ 设 $F(x,y,z)=x^2yz-xy^2z^3-6$，\n\n则 $F_x(3,2,1)=2xyz-y^2z^3=8$，$F_y(3,2,1)=x^2z-2xyz^3=-3$，\n\n$F_z(3,2,1)=x^2y-3xy^2z^2=-18$，法线方程为：$\\frac{x-3}{8}=\\frac{y-2}{-3}=\\frac{z-1}{-18}$，又点 $(-5,5,19)$ 在法线上，则：\n\n$$\\frac{x+5}{8}=\\frac{y-5}{-3}=\\frac{z-19}{-18}.$$",
+  "sort_order": 16
+}

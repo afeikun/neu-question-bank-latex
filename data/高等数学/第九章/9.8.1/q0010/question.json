@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Gamma$ 是球面 $x^2+y^2+z^2=2Rx$ 与柱面 $x^2+y^2=2rx$（$0\\le r\\le R,z>0$）的交线。此曲线的前进方向使它所包围在球面上的最小区域保持在左方，则 $\\oint_\\Gamma(y^2+z^2)dx+(x^2+z^2)dy+(x^2+y^2)dz=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi r^2R$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi r^2R$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi r^2R$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "球面外法线的方向余弦为 $((x-R)/R,y/R,z/R)$。由斯托克斯公式和对称性，原积分 $=2\\iint_\\Sigma[(y-z)(x/R-1)+(z-x)y/R+(x-y)z/R]dS=2\\iint_\\Sigma(z-y)dS=2\\iint_\\Sigma z\\,dS$。由 $z=R\\cos\\gamma$，原积分 $=2R\\iint_Ddx\\,dy$，其中 $D:x^2+y^2\\le2rx$ 的面积为 $\\pi r^2$，故结果为 $2\\pi r^2R$，选第二项。",
+  "search_text": "$\\Gamma$ 是球面 $x^2+y^2+z^2=2Rx$ 与柱面 $x^2+y^2=2rx$（$0\\le r\\le R,z>0$）的交线。此曲线的前进方向使它所包围在球面上的最小区域保持在左方，则 $\\oint_\\Gamma(y^2+z^2)dx+(x^2+z^2)dy+(x^2+y^2)dz=$（ ）。 $3\\pi r^2R$ $2\\pi r^2R$ $\\pi r^2R$ $0$ 球面外法线的方向余弦为 $((x-R)/R,y/R,z/R)$。由斯托克斯公式和对称性，原积分 $=2\\iint_\\Sigma[(y-z)(x/R-1)+(z-x)y/R+(x-y)z/R]dS=2\\iint_\\Sigma(z-y)dS=2\\iint_\\Sigma z\\,dS$。由 $z=R\\cos\\gamma$，原积分 $=2R\\iint_Ddx\\,dy$，其中 $D:x^2+y^2\\le2rx$ 的面积为 $\\pi r^2$，故结果为 $2\\pi r^2R$，选第二项。",
+  "sort_order": 10
+}

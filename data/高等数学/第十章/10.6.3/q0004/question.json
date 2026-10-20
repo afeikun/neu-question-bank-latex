@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $y\\prime\\prime-2y\\prime+5y=e^x\\sin2x$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac18xe^x\\cos2x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac14xe^x\\cos4x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac14e^x\\cos2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac14xe^x\\cos2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n由 $r^2-2r+5=0$，解得 $r_{1,2}=1\\pm2i$，故对应的齐次方程的通解为 $Y=e^x(C_1\\cos2x+C_2\\sin2x)$ 因 $f(x)=e^x\\sin2x=e^x(0\\cos2x+1\\sin2x),\\lambda+i\\omega=1+2i$ 是特征方程的单根，故可设 $y^*=xe^x(a\\cos2x+b\\sin2x)$ 是原方程的一个特解，代入方程并消去 $e^x$，得 $4b\\cos2x-4a\\sin2x=\\sin2x$，比较系数，得 $a=-1/4,b=0$，即 $y^*=xe^x(-\\frac{1}{4}\\cos2x)=-\\frac{1}{4}xe^x\\cos2x$\n\n故原方程的通解为 $y=Y+y^*=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac{1}{4}xe^x\\cos2x$",
+  "search_text": "解方程 $y\\prime\\prime-2y\\prime+5y=e^x\\sin2x$（ ） $y=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac18xe^x\\cos2x$ $y=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac14xe^x\\cos4x$ $y=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac14e^x\\cos2x$ $y=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac14xe^x\\cos2x$ 解析：\n\n由 $r^2-2r+5=0$，解得 $r_{1,2}=1\\pm2i$，故对应的齐次方程的通解为 $Y=e^x(C_1\\cos2x+C_2\\sin2x)$ 因 $f(x)=e^x\\sin2x=e^x(0\\cos2x+1\\sin2x),\\lambda+i\\omega=1+2i$ 是特征方程的单根，故可设 $y^*=xe^x(a\\cos2x+b\\sin2x)$ 是原方程的一个特解，代入方程并消去 $e^x$，得 $4b\\cos2x-4a\\sin2x=\\sin2x$，比较系数，得 $a=-1/4,b=0$，即 $y^*=xe^x(-\\frac{1}{4}\\cos2x)=-\\frac{1}{4}xe^x\\cos2x$\n\n故原方程的通解为 $y=Y+y^*=e^x(C_1\\cos2x+C_2\\sin2x)-\\frac{1}{4}xe^x\\cos2x$",
+  "sort_order": 4
+}

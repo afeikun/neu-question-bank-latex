@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$4$ 阶行列式 $D_4=\\begin{vmatrix}1&2&3&4\\\\2&2&0&0\\\\3&0&3&0\\\\4&0&0&4\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-192$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$192$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "将第一行减去第二、三、四行，得上三角行列式 $D_4=\\begin{vmatrix}-8&0&0&0\\\\2&2&0&0\\\\3&0&3&0\\\\4&0&0&4\\end{vmatrix}=-192$。",
+  "search_text": "$4$ 阶行列式 $D_4=\\begin{vmatrix}1&2&3&4\\\\2&2&0&0\\\\3&0&3&0\\\\4&0&0&4\\end{vmatrix}$ 等于（ ）。 $1$ $-192$ $192$ $0$ 将第一行减去第二、三、四行，得上三角行列式 $D_4=\\begin{vmatrix}-8&0&0&0\\\\2&2&0&0\\\\3&0&3&0\\\\4&0&0&4\\end{vmatrix}=-192$。",
+  "sort_order": 24
+}

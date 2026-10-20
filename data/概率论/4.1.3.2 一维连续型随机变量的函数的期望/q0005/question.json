@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$密度$2x$于$(0,1)$，独立重复观察4次，$Y$为观测值不大于0.5的次数，求$E(Y^2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$7/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4/3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7/8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(X\\le0.5)=1/4$，$Y\\sim B(4,1/4)$，$E(Y^2)=D(Y)+[EY]^2=3/4+1=7/4$。",
+  "search_text": "$X$密度$2x$于$(0,1)$，独立重复观察4次，$Y$为观测值不大于0.5的次数，求$E(Y^2)$。 $7/4$ $4/3$ $3/8$ $7/8$ $P(X\\le0.5)=1/4$，$Y\\sim B(4,1/4)$，$E(Y^2)=D(Y)+[EY]^2=3/4+1=7/4$。",
+  "sort_order": 5
+}

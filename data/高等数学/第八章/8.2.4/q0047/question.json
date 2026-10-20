@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是由 $0\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定闭区域，则 $\\iiint_\\Omega\\frac1{\\sqrt{x^2+y^2+z^2}}dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^{\\sqrt{2}}\\frac{1}{r}r^2\\sin\\varphi\\,dr=2\\pi\n$$",
+  "search_text": "若 $\\Omega$ 是由 $0\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定闭区域，则 $\\iiint_\\Omega\\frac1{\\sqrt{x^2+y^2+z^2}}dv=$（ ） $2\\pi$ $\\frac\\pi4$ $\\frac\\pi2$ $\\pi$ 原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^{\\sqrt{2}}\\frac{1}{r}r^2\\sin\\varphi\\,dr=2\\pi\n$$",
+  "sort_order": 47
+}

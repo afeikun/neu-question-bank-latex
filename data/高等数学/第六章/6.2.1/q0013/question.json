@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平行于 $xoy$ 面，且垂直于 $4\\vec i-3\\vec j-2\\vec k$ 的单位向量为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pm\\frac15(3,4,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(3,4,0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pm\\frac1{2\\sqrt5}(2,4,0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2,4,0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设向量为 $(x,y,0)$，垂直条件给 $4x-3y=0$。单位化得 $\\pm\\frac15(3,4,0)$。",
+  "search_text": "平行于 $xoy$ 面，且垂直于 $4\\vec i-3\\vec j-2\\vec k$ 的单位向量为(\\quad)。 $\\pm\\frac15(3,4,0)$ $(3,4,0)$ $\\pm\\frac1{2\\sqrt5}(2,4,0)$ $(2,4,0)$ 设向量为 $(x,y,0)$，垂直条件给 $4x-3y=0$。单位化得 $\\pm\\frac15(3,4,0)$。",
+  "sort_order": 13
+}

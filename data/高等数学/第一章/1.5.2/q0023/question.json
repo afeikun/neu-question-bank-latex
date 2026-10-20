@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}\\frac{\\sqrt{x^2+1}-3x}{x+\\sin x}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "极限存在，但不能求出"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "极限不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "-2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "分子分母同除以 $x$，极限为 $1-3=-2$。",
+  "search_text": "$\\lim_{x\\to\\infty}\\frac{\\sqrt{x^2+1}-3x}{x+\\sin x}$。 极限存在，但不能求出 极限不存在 -2 0 分子分母同除以 $x$，极限为 $1-3=-2$。",
+  "sort_order": 23
+}

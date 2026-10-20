@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "极坐标曲线 $\\rho=a(\\theta+\\cos\\theta)$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta}{\\cos\\theta+\\theta\\sin\\theta-\\theta\\sin2\\theta}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\theta\\cos\\theta+\\sin\\theta-\\theta\\cos2\\theta}{\\cos\\theta-\\theta\\sin\\theta-\\theta\\sin2\\theta}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta}{\\cos\\theta-\\theta\\sin\\theta-\\theta\\sin2\\theta}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta}{\\cos\\theta-\\theta\\sin\\theta+\\theta\\sin2\\theta}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 由极坐标方程可得参数方程\n\n$$\\begin{cases}x=a(\\theta\\cos\\theta+\\cos^2\\theta)\\\\y=a(\\theta\\sin\\theta+\\cos\\theta\\sin\\theta)\\end{cases}$$\n\n两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=a\\cos\\theta-a\\theta\\sin\\theta-a\\theta\\sin2\\theta，$$\n\n$$\\frac{dy}{d\\theta}=a\\sin\\theta+a\\theta\\cos\\theta+a\\theta\\cos2\\theta，$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a(\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta)}{a(\\cos\\theta-\\theta\\sin\\theta-\\theta\\sin2\\theta)}=\\frac{\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta}{\\cos\\theta-\\theta\\sin\\theta-\\theta\\sin2\\theta}$",
+  "search_text": "极坐标曲线 $\\rho=a(\\theta+\\cos\\theta)$，求 $\\frac{dy}{dx}$。 $\\frac{\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta}{\\cos\\theta+\\theta\\sin\\theta-\\theta\\sin2\\theta}$ $\\frac{\\theta\\cos\\theta+\\sin\\theta-\\theta\\cos2\\theta}{\\cos\\theta-\\theta\\sin\\theta-\\theta\\sin2\\theta}$ $\\frac{\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta}{\\cos\\theta-\\theta\\sin\\theta-\\theta\\sin2\\theta}$ $\\frac{\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta}{\\cos\\theta-\\theta\\sin\\theta+\\theta\\sin2\\theta}$ 解答 由极坐标方程可得参数方程\n\n$$\\begin{cases}x=a(\\theta\\cos\\theta+\\cos^2\\theta)\\\\y=a(\\theta\\sin\\theta+\\cos\\theta\\sin\\theta)\\end{cases}$$\n\n两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=a\\cos\\theta-a\\theta\\sin\\theta-a\\theta\\sin2\\theta，$$\n\n$$\\frac{dy}{d\\theta}=a\\sin\\theta+a\\theta\\cos\\theta+a\\theta\\cos2\\theta，$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a(\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta)}{a(\\cos\\theta-\\theta\\sin\\theta-\\theta\\sin2\\theta)}=\\frac{\\theta\\cos\\theta+\\sin\\theta+\\theta\\cos2\\theta}{\\cos\\theta-\\theta\\sin\\theta-\\theta\\sin2\\theta}$",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "铁水$n=9,\\bar x=4.484,s=0.037$，检验均值0.5%，以下可接受的检验假设是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$H_0:\\sigma=0.03$在$\\alpha=.05$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu=0.5\\%$在$\\alpha=.05$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$H_0:\\mu=0.5\\%$在$\\alpha=.25$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$H_0:\\sigma=0.03$在$\\alpha=.25$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "均值检验统计量约$-3.892$，拒绝均值假设；方差检验在$\\alpha=.05$下接受$\\sigma=0.03$。",
+  "search_text": "铁水$n=9,\\bar x=4.484,s=0.037$，检验均值0.5%，以下可接受的检验假设是（）。 $H_0:\\sigma=0.03$在$\\alpha=.05$ $H_0:\\mu=0.5\\%$在$\\alpha=.05$ $H_0:\\mu=0.5\\%$在$\\alpha=.25$ $H_0:\\sigma=0.03$在$\\alpha=.25$ 均值检验统计量约$-3.892$，拒绝均值假设；方差检验在$\\alpha=.05$下接受$\\sigma=0.03$。",
+  "sort_order": 18
+}

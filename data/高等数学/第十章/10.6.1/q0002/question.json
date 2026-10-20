@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知微分方程 $2y\\prime\\prime+y\\prime-y=2e^x$ 的一个特解为 $y^*=e^x$，则其通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{-x}+C_2e^{x/2}+e^x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{-x/2}+e^x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^x+C_2e^{x/2}+2e^x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{-x}+C_2e^{x/2}+2e^x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $2\\lambda^2+\\lambda-1=0$，特征根为 $\\lambda_1=\\frac12,\\lambda_2=-1$，\n\n因此对应的齐次方程的通解为 $C_1e^{-x}+C_2e^{\\frac{x}{2}}$。\n\n又非齐次方程的特解为 $y^*=e^x$，\n\n故非齐次方程的通解为 $y=C_1e^{-x}+C_2e^{\\frac{x}{2}}+e^x$。\n\n因此选 A。",
+  "search_text": "已知微分方程 $2y\\prime\\prime+y\\prime-y=2e^x$ 的一个特解为 $y^*=e^x$，则其通解为（ ） $y=C_1e^{-x}+C_2e^{x/2}+e^x$ $y=C_1e^x+C_2e^{-x/2}+e^x$ $y=C_1e^x+C_2e^{x/2}+2e^x$ $y=C_1e^{-x}+C_2e^{x/2}+2e^x$ 解答 齐次方程的特征方程为 $2\\lambda^2+\\lambda-1=0$，特征根为 $\\lambda_1=\\frac12,\\lambda_2=-1$，\n\n因此对应的齐次方程的通解为 $C_1e^{-x}+C_2e^{\\frac{x}{2}}$。\n\n又非齐次方程的特解为 $y^*=e^x$，\n\n故非齐次方程的通解为 $y=C_1e^{-x}+C_2e^{\\frac{x}{2}}+e^x$。\n\n因此选 A。",
+  "sort_order": 2
+}

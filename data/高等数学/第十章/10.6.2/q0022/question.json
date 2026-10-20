@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $4y\\prime\\prime+4y\\prime+y=0$ 在 $y\\prime|_{x=0}=0,y|_{x=0}=2$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^{-x/2}(2+x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{x/2}(2+x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^{x/2}(1+2x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^{-x/2}(1+2x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 特征方程为 $4\\lambda^2+4\\lambda+1=0$，特征根为 $\\lambda_1=\\lambda_2=-\\frac12$，\n故方程的通解为 $y=e^{-\\frac12x}(C_1+C_2x)$。\n\n将 $y|_{x=0}=2$ 代入通解，得 $C_1=2$，从而 $y=e^{-\\frac12x}(2+C_2x)$。\n\n由 $y'=-\\frac12e^{-\\frac12x}(2+C_2x)+C_2e^{-\\frac12x}$，以 $y'|_{x=0}=0$ 代入得 $C_2=1$。\n\n故所求特解为 $y=e^{-\\frac12x}(2+x)$。\n\n因此选 C。",
+  "search_text": "微分方程 $4y\\prime\\prime+4y\\prime+y=0$ 在 $y\\prime|_{x=0}=0,y|_{x=0}=2$ 下的特解为（ ） $y=e^{-x/2}(2+x)$ $y=e^{x/2}(2+x)$ $y=e^{x/2}(1+2x)$ $y=e^{-x/2}(1+2x)$ 解答 特征方程为 $4\\lambda^2+4\\lambda+1=0$，特征根为 $\\lambda_1=\\lambda_2=-\\frac12$，\n故方程的通解为 $y=e^{-\\frac12x}(C_1+C_2x)$。\n\n将 $y|_{x=0}=2$ 代入通解，得 $C_1=2$，从而 $y=e^{-\\frac12x}(2+C_2x)$。\n\n由 $y'=-\\frac12e^{-\\frac12x}(2+C_2x)+C_2e^{-\\frac12x}$，以 $y'|_{x=0}=0$ 代入得 $C_2=1$。\n\n故所求特解为 $y=e^{-\\frac12x}(2+x)$。\n\n因此选 C。",
+  "sort_order": 22
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2,x_3)=(ax_1+bx_2+cx_3)^2$ 的矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}a^2&a&a\\\\b&b^2&b\\\\c&c&c^2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12\\begin{pmatrix}2a^2&ab&ac\\\\ab&2b^2&bc\\\\ac&bc&2c^2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}a^2&2ab&2ac\\\\2ab&b^2&2bc\\\\2ac&2bc&c^2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}a^2&ab&ac\\\\ab&b^2&bc\\\\ac&bc&c^2\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f=(ax_1+bx_2+cx_3)(ax_1+bx_2+cx_3)=x^T\\begin{pmatrix}a^2&ab&ac\\\\ab&b^2&bc\\\\ac&bc&c^2\\end{pmatrix}x$，故其矩阵为选项 $4$。",
+  "search_text": "二次型 $f(x_1,x_2,x_3)=(ax_1+bx_2+cx_3)^2$ 的矩阵为（ ）。 $\\begin{pmatrix}a^2&a&a\\\\b&b^2&b\\\\c&c&c^2\\end{pmatrix}$ $\\frac12\\begin{pmatrix}2a^2&ab&ac\\\\ab&2b^2&bc\\\\ac&bc&2c^2\\end{pmatrix}$ $\\begin{pmatrix}a^2&2ab&2ac\\\\2ab&b^2&2bc\\\\2ac&2bc&c^2\\end{pmatrix}$ $\\begin{pmatrix}a^2&ab&ac\\\\ab&b^2&bc\\\\ac&bc&c^2\\end{pmatrix}$ $f=(ax_1+bx_2+cx_3)(ax_1+bx_2+cx_3)=x^T\\begin{pmatrix}a^2&ab&ac\\\\ab&b^2&bc\\\\ac&bc&c^2\\end{pmatrix}x$，故其矩阵为选项 $4$。",
+  "sort_order": 19
+}

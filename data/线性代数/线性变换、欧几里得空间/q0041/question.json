@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在线性空间 $\\mathbb R[x]_3$ 中求微分的线性变换 $D$ 在基 $\\alpha_1=1$，$\\alpha_2=x$，$\\alpha_3=x^2$ 下的矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}0&1&0\\\\0&0&2\\\\0&0&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}0&0&0\\\\0&1&0\\\\0&0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&2\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(\\alpha_1)=0$，$D(\\alpha_2)=1=\\alpha_1$，$D(\\alpha_3)=2x=2\\alpha_2$，所以矩阵为 $\\begin{pmatrix}0&1&0\\\\0&0&2\\\\0&0&0\\end{pmatrix}$。",
+  "search_text": "在线性空间 $\\mathbb R[x]_3$ 中求微分的线性变换 $D$ 在基 $\\alpha_1=1$，$\\alpha_2=x$，$\\alpha_3=x^2$ 下的矩阵为（ ）。 $\\begin{pmatrix}0&1&0\\\\0&0&2\\\\0&0&0\\end{pmatrix}$ $\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}0&0&0\\\\0&1&0\\\\0&0&2\\end{pmatrix}$ $\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&2\\end{pmatrix}$ $D(\\alpha_1)=0$，$D(\\alpha_2)=1=\\alpha_1$，$D(\\alpha_3)=2x=2\\alpha_2$，所以矩阵为 $\\begin{pmatrix}0&1&0\\\\0&0&2\\\\0&0&0\\end{pmatrix}$。",
+  "sort_order": 41
+}

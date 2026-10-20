@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x^3-6x^2+12x+4$ 在（ ）上为凹。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(2,+\\infty)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-\\infty,2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\infty,0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=6x-12$，在 $x<2$ 时为负、曲线凸；题目所问凹区间为 $(2,+\\infty)$。",
+  "search_text": "曲线 $y=x^3-6x^2+12x+4$ 在（ ）上为凹。 $(0,2)$ $(2,+\\infty)$ $(-\\infty,2)$ $(-\\infty,0)$ $y\\prime\\prime=6x-12$，在 $x<2$ 时为负、曲线凸；题目所问凹区间为 $(2,+\\infty)$。",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列函数在 $[0,\\pi]$ 上递减的是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=x^2-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\sin x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\tan x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\cos x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "在 $[0,\\pi]$ 上只有 $y=\\cos x$ 单调递减。",
+  "search_text": "下列函数在 $[0,\\pi]$ 上递减的是（ ）。 $y=x^2-1$ $y=\\sin x$ $y=\\tan x$ $y=\\cos x$ 在 $[0,\\pi]$ 上只有 $y=\\cos x$ 单调递减。",
+  "sort_order": 37
+}

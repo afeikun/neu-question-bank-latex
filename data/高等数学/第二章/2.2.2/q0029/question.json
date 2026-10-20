@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x>0$ 时，可导函数 $f(x)$ 满足 $2f(x)-f(\\frac1x)=\\frac2x$，则 $f\\prime(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$2-\\frac1x$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$2-\\frac1{x^2}$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$1-\\frac1{x^2}$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$-\\frac4{3x^2}+\\frac23$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "联立原式及 $x\\mapsto1/x$ 得 $f(x)=\\frac4{3x}+\\frac{2x}{3}$，故 $f\\prime(x)=-\\frac4{3x^2}+\\frac23$。",
+  "search_text": "设 $x>0$ 时，可导函数 $f(x)$ 满足 $2f(x)-f(\\frac1x)=\\frac2x$，则 $f\\prime(x)=$（ ）。 $$2-\\frac1x$$ $$2-\\frac1{x^2}$$ $$1-\\frac1{x^2}$$ $$-\\frac4{3x^2}+\\frac23$$ 联立原式及 $x\\mapsto1/x$ 得 $f(x)=\\frac4{3x}+\\frac{2x}{3}$，故 $f\\prime(x)=-\\frac4{3x^2}+\\frac23$。",
+  "sort_order": 29
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=x^3y+xy^2+2x+3y-1$，则 $f'_x(3,2)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$52$;"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$58$;"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$60$;"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$56$;"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f'_x(x,y)=3x^2y+y^2-2$，则 $f'_x(3,2)=56$",
+  "search_text": "设 $f(x,y)=x^3y+xy^2+2x+3y-1$，则 $f'_x(3,2)=(\\quad)$。 $52$; $58$; $60$; $56$; $f'_x(x,y)=3x^2y+y^2-2$，则 $f'_x(3,2)=56$",
+  "sort_order": 17
+}

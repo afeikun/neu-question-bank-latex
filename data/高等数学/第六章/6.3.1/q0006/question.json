@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过点 $(5,-9,15)$ 且在三个坐标轴上截距都相等的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+y+z-29=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+y+z+29=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+y+z-11=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+y+z+11=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设相等截距为 $a$，代入得 $a=11$，所以 $x+y+z-11=0$。",
+  "search_text": "过点 $(5,-9,15)$ 且在三个坐标轴上截距都相等的平面方程为(\\quad)。 $x+y+z-29=0$ $x+y+z+29=0$ $x+y+z-11=0$ $x+y+z+11=0$ 设相等截距为 $a$，代入得 $a=11$，所以 $x+y+z-11=0$。",
+  "sort_order": 6
+}

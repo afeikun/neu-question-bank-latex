@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "单连通域 $G$ 内的函数 $P(x,y),Q(x,y)$ 有一阶连续偏导数，曲线积分 $\\int_C Pdx+Qdy$ 在 $G$ 内与路径无关的充要条件是 $G$ 内恒有（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\partial P}{\\partial x}-\\frac{\\partial Q}{\\partial y}=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\partial Q}{\\partial x}+\\frac{\\partial P}{\\partial y}=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\partial P}{\\partial x}+\\frac{\\partial Q}{\\partial y}=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：\n\n由题意知 $\\frac{\\partial Q}{\\partial x}=\\frac{\\partial P}{\\partial y}$，即\n\n$$\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}=0$$",
+  "search_text": "单连通域 $G$ 内的函数 $P(x,y),Q(x,y)$ 有一阶连续偏导数，曲线积分 $\\int_C Pdx+Qdy$ 在 $G$ 内与路径无关的充要条件是 $G$ 内恒有（ ） $\\frac{\\partial P}{\\partial x}-\\frac{\\partial Q}{\\partial y}=0$ $\\frac{\\partial Q}{\\partial x}+\\frac{\\partial P}{\\partial y}=0$ $\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}=0$ $\\frac{\\partial P}{\\partial x}+\\frac{\\partial Q}{\\partial y}=0$ 解析：\n\n由题意知 $\\frac{\\partial Q}{\\partial x}=\\frac{\\partial P}{\\partial y}$，即\n\n$$\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}=0$$",
+  "sort_order": 13
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态样本总体$N(\\mu,\\sigma^2)$，$\\mu,\\sigma^2$未知，求其MLE。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\bar X,n^{-1}\\sum(X_i-\\bar X)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\bar X,n^{-1}\\sum(X_i-\\bar X)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar X,n^{-1}\\sum(X_i+\\bar X)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X,2n^{-1}\\sum(X_i-\\bar X)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正态似然方程给出均值样本均值、方差以$n$为分母的样本中心矩。",
+  "search_text": "正态样本总体$N(\\mu,\\sigma^2)$，$\\mu,\\sigma^2$未知，求其MLE。 $\\bar X,n^{-1}\\sum(X_i-\\bar X)^2$ $2\\bar X,n^{-1}\\sum(X_i-\\bar X)^2$ $\\bar X,n^{-1}\\sum(X_i+\\bar X)^2$ $\\bar X,2n^{-1}\\sum(X_i-\\bar X)^2$ 正态似然方程给出均值样本均值、方差以$n$为分母的样本中心矩。",
+  "sort_order": 8
+}

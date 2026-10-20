@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,1),Y\\sim\\chi^2(n)$且独立，$T=(X-\\mu)\\sqrt n/\\sqrt Y$，则（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$T\\sim t(n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$T\\sim t(n-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T\\sim N(0,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$T\\sim F(1,n)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准正态变量除以独立卡方变量除以自由度的平方根服从$t(n)$。",
+  "search_text": "$X\\sim N(\\mu,1),Y\\sim\\chi^2(n)$且独立，$T=(X-\\mu)\\sqrt n/\\sqrt Y$，则（）。 $T\\sim t(n)$ $T\\sim t(n-1)$ $T\\sim N(0,1)$ $T\\sim F(1,n)$ 标准正态变量除以独立卡方变量除以自由度的平方根服从$t(n)$。",
+  "sort_order": 6
+}

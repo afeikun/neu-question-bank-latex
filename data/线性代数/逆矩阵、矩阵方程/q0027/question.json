@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知矩阵方程 $A^2+A+E=O$，则 $(A-E)^{-1}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac13(A-2E)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13(A+2E)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13(A-2E)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac13(A+2E)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由 $A^2+A+E=O$，可得 $(A+2E)(A-E)=-3E$，所以 $(A-E)^{-1}=-\\frac13(A+2E)$。",
+  "search_text": "已知矩阵方程 $A^2+A+E=O$，则 $(A-E)^{-1}=$（ ）。 $-\\frac13(A-2E)$ $\\frac13(A+2E)$ $\\frac13(A-2E)$ $-\\frac13(A+2E)$ 由 $A^2+A+E=O$，可得 $(A+2E)(A-E)=-3E$，所以 $(A-E)^{-1}=-\\frac13(A+2E)$。",
+  "sort_order": 27
+}

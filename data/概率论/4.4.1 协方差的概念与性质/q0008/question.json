@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "协方差$\\operatorname{cov}(\\xi,\\eta)$等于（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$E(\\xi\\eta)-E(\\xi)E(\\eta)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E[(\\eta-E\\eta)^2(\\xi-E\\xi)^2]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$E[(\\xi-E\\xi)(\\eta-E\\eta)]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$E(\\xi)^2-(E(\\xi)E(\\eta))^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "协方差定义为$E[(\\xi-E\\xi)(\\eta-E\\eta)]=E(\\xi\\eta)-E(\\xi)E(\\eta)$。",
+  "search_text": "协方差$\\operatorname{cov}(\\xi,\\eta)$等于（）。 $E(\\xi\\eta)-E(\\xi)E(\\eta)$ $E[(\\eta-E\\eta)^2(\\xi-E\\xi)^2]$ $E[(\\xi-E\\xi)(\\eta-E\\eta)]$ $E(\\xi)^2-(E(\\xi)E(\\eta))^2$ 协方差定义为$E[(\\xi-E\\xi)(\\eta-E\\eta)]=E(\\xi\\eta)-E(\\xi)E(\\eta)$。",
+  "sort_order": 8
+}

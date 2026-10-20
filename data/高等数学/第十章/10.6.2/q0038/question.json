@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime-4y\\prime+4y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=(C_1+C_2x)e^x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1xe^x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1xe^{2x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=(C_1+C_2x)e^{2x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析 特征方程为 $\\lambda^2-4\\lambda+4=0$，特征根 $\\lambda=2$（二重根），故通解为 $y=(C_1+C_2x)e^{2x}$。\n\n因此选 B。",
+  "search_text": "微分方程 $y\\prime\\prime-4y\\prime+4y=0$ 的通解为（ ） $y=(C_1+C_2x)e^x$ $y=C_1xe^x$ $y=C_1xe^{2x}$ $y=(C_1+C_2x)e^{2x}$ 解析 特征方程为 $\\lambda^2-4\\lambda+4=0$，特征根 $\\lambda=2$（二重根），故通解为 $y=(C_1+C_2x)e^{2x}$。\n\n因此选 B。",
+  "sort_order": 38
+}

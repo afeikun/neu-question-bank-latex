@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $R$ 的半球形水池充满水，将水抽出，当所作功为全部抽完时的一半，水面下降高度 $h$ 为多少？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$h=R\\sqrt{\\sqrt2-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$h=R\\sqrt{1-\\sqrt2/2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$h=R\\sqrt{\\sqrt2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$h=R/\\sqrt{\\sqrt2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令已抽出功 $F(h)=\\int_0^h\\rho g\\pi(R^2-x^2)x dx$，由 $F(h)=F(R)/2$ 得 $h=R\\sqrt{1-\\sqrt2/2}$。",
+  "search_text": "半径为 $R$ 的半球形水池充满水，将水抽出，当所作功为全部抽完时的一半，水面下降高度 $h$ 为多少？ $h=R\\sqrt{\\sqrt2-1}$ $h=R\\sqrt{1-\\sqrt2/2}$ $h=R\\sqrt{\\sqrt2}$ $h=R/\\sqrt{\\sqrt2}$ 令已抽出功 $F(h)=\\int_0^h\\rho g\\pi(R^2-x^2)x dx$，由 $F(h)=F(R)/2$ 得 $h=R\\sqrt{1-\\sqrt2/2}$。",
+  "sort_order": 24
+}

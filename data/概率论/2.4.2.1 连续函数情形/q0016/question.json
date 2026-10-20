@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f_\\xi(x)=3x/2-1/2(1/2\\le x<3/2)$，$\\eta=2\\xi-1$，求密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3y/8+1/8(0\\le y<2)$，其他0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3y/8+1/8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3y/8+1/8(1/2\\le y<3/2)$，其他0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3y/8+1/8(2\\le y<3)$，其他0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "用$\\xi=(y+1)/2$及雅可比$1/2$得$f_\\eta(y)=3y/8+1/8$，$0\\le y<2$。",
+  "search_text": "$f_\\xi(x)=3x/2-1/2(1/2\\le x<3/2)$，$\\eta=2\\xi-1$，求密度。 $3y/8+1/8(0\\le y<2)$，其他0 $3y/8+1/8$ $3y/8+1/8(1/2\\le y<3/2)$，其他0 $3y/8+1/8(2\\le y<3)$，其他0 用$\\xi=(y+1)/2$及雅可比$1/2$得$f_\\eta(y)=3y/8+1/8$，$0\\le y<2$。",
+  "sort_order": 16
+}

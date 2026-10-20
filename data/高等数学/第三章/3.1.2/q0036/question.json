@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\sqrt[3]{x^2(1-4x^2)}$ 适合拉格朗日中值定理条件但不满足罗尔中值定理的区间是 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[0,\\frac12]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[0,\\frac15]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[-\\frac12,\\frac12]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[-1,1]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "函数在 $\\pm\\frac12$、$0$ 不可导；选项 B 的开区间内可导且端点值不相等，故满足拉格朗日中值定理条件而不满足罗尔条件。",
+  "search_text": "函数 $f(x)=\\sqrt[3]{x^2(1-4x^2)}$ 适合拉格朗日中值定理条件但不满足罗尔中值定理的区间是 $(\\quad)$。 $[0,\\frac12]$ $[0,\\frac15]$ $[-\\frac12,\\frac12]$ $[-1,1]$ 函数在 $\\pm\\frac12$、$0$ 不可导；选项 B 的开区间内可导且端点值不相等，故满足拉格朗日中值定理条件而不满足罗尔条件。",
+  "sort_order": 36
+}

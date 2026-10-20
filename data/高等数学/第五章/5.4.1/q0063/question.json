@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty} x^n/(2\\cdot4\\cdot6\\cdots2n)$ 的收敛域是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\infty,0)\\cup(0,+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,+\\infty)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-\\infty,+\\infty)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "相邻系数比趋于0，收敛半径无穷大。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty} x^n/(2\\cdot4\\cdot6\\cdots2n)$ 的收敛域是？ $(-\\infty,0)\\cup(0,+\\infty)$ $(0,+\\infty)$ $(-\\infty,+\\infty)$ $x=0$ 相邻系数比趋于0，收敛半径无穷大。",
+  "sort_order": 63
+}

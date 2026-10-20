@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A_1,A_2,B$ 为三个随机事件，且 $P(B)>0$，$A_1A_2=\\varnothing$，则 $P(\\overline{A_1A_2}\\mid B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.75$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$A_1A_2=\\varnothing$，故 $P(\\overline{A_1A_2}\\mid B)=1-P(A_1A_2\\mid B)=1$。",
+  "search_text": "设 $A_1,A_2,B$ 为三个随机事件，且 $P(B)>0$，$A_1A_2=\\varnothing$，则 $P(\\overline{A_1A_2}\\mid B)=(\\quad)$。 $1$ $0$ $0.5$ $0.75$ $A_1A_2=\\varnothing$，故 $P(\\overline{A_1A_2}\\mid B)=1-P(A_1A_2\\mid B)=1$。",
+  "sort_order": 7
+}

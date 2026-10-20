@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=\\frac yx f(xy)$，其中 $f$ 可微，求 $\\frac xy z_x+z_y$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2yf'(xy)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac2x f(xy)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac2x f(xy)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2yf'(xy)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\\frac{x}{y}\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\frac{x}{y}\\left(-\\frac{y}{x^2}f(xy)+\\frac{y^2}{x}f'(xy)\\right)+\\frac1x f(xy)+yf'(xy)=2yf'(xy).$$",
+  "search_text": "设 $z=\\frac yx f(xy)$，其中 $f$ 可微，求 $\\frac xy z_x+z_y$。 $-2yf'(xy)$ $\\frac2x f(xy)$ $-\\frac2x f(xy)$ $2yf'(xy)$ $$\\frac{x}{y}\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\frac{x}{y}\\left(-\\frac{y}{x^2}f(xy)+\\frac{y^2}{x}f'(xy)\\right)+\\frac1x f(xy)+yf'(xy)=2yf'(xy).$$",
+  "sort_order": 23
+}

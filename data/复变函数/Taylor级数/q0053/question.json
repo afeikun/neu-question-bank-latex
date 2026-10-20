@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/(3+2z)$ 在 $z=0$ 处的幂级数展开式是____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n2^nz^n/3^{n+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n2^nz^n/3^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^{n+1}2^nz^n/3^{n+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}2^nz^n/3^{n+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1/(3+2z)=\\frac13(1+2z/3)^{-1}$。",
+  "search_text": "函数 $1/(3+2z)$ 在 $z=0$ 处的幂级数展开式是____。 $\\sum_{n=0}^{\\infty}(-1)^n2^nz^n/3^{n+1}$ $\\sum_{n=0}^{\\infty}(-1)^n2^nz^n/3^n$ $\\sum_{n=0}^{\\infty}(-1)^{n+1}2^nz^n/3^{n+1}$ $\\sum_{n=0}^{\\infty}2^nz^n/3^{n+1}$ $1/(3+2z)=\\frac13(1+2z/3)^{-1}$。",
+  "sort_order": 53
+}

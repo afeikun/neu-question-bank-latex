@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=4x^3+3x^2y-3xy^2-x+y$，则 $\\left.\\frac{\\partial^2z}{\\partial x\\partial y}\\right|_{(1,1)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$24$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "有函数的表达式可求得，$\\frac{\\partial z}{\\partial x}=12x^2+6xy-3y^2-1$，则 $\\frac{\\partial^2z}{\\partial x\\partial y}=6x-6y$，$\\left.\\frac{\\partial^2z}{\\partial x\\partial y}\\right|_{(1,1)}=0$",
+  "search_text": "设 $z=4x^3+3x^2y-3xy^2-x+y$，则 $\\left.\\frac{\\partial^2z}{\\partial x\\partial y}\\right|_{(1,1)}=(\\quad)$。 $12$ $0$ $24$ $-6$ 有函数的表达式可求得，$\\frac{\\partial z}{\\partial x}=12x^2+6xy-3y^2-1$，则 $\\frac{\\partial^2z}{\\partial x\\partial y}=6x-6y$，$\\left.\\frac{\\partial^2z}{\\partial x\\partial y}\\right|_{(1,1)}=0$",
+  "sort_order": 26
+}

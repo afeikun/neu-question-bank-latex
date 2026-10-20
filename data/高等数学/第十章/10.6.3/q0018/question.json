@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $y\\prime\\prime-y=\\sin^2x$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^x+C_2e^{-x}-\\frac12+\\frac1{10}\\cos x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{-x}-\\frac12+\\frac1{10}\\cos2x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^x+C_2e^{-x}-\\frac1{12}+\\frac1{10}\\cos2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{2x}+C_2e^{-x}-\\frac12+\\frac1{10}\\cos2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：\n\n由 $r^2-1=0$，解得 $r_{1,2}=\\pm1$，故对应的齐次方程的通解为 $Y=C_1e^x+C_2e^{-x}$ 因 $f(x)=\\sin^2x=\\frac{1}{2}-\\frac{1}{2}\\cos2x$ 对应于方程 $y''-y=1/2$，可设特解 $y_1^*=A$ 对应于方程\n\n$y''-y=-\\frac{1}{2}\\cos2x$\n\n可设特解 $y_2^*=B\\cos2x+C\\sin2x$，故由叠加原理，设 $y^*=A+B\\cos2x+C\\sin2x$ 是原方程的一个特解，代入方程，得 $-A-5B\\cos2x-5C\\sin2x=\\frac{1}{2}-\\frac{1}{2}\\cos2x$，比较系数得 $A=-\\frac{1}{2},B=\\frac{1}{10},C=0$，即 $y^*=-\\frac{1}{2}+\\frac{1}{10}\\cos2x$ 故原方程的通解为\n\n$y=Y+y^*=C_1e^x+C_2e^{-x}-\\frac{1}{2}+\\frac{1}{10}\\cos2x$",
+  "search_text": "解方程 $y\\prime\\prime-y=\\sin^2x$（ ） $y=C_1e^x+C_2e^{-x}-\\frac12+\\frac1{10}\\cos x$ $y=C_1e^x+C_2e^{-x}-\\frac12+\\frac1{10}\\cos2x$ $y=C_1e^x+C_2e^{-x}-\\frac1{12}+\\frac1{10}\\cos2x$ $y=C_1e^{2x}+C_2e^{-x}-\\frac12+\\frac1{10}\\cos2x$ 解析：\n\n由 $r^2-1=0$，解得 $r_{1,2}=\\pm1$，故对应的齐次方程的通解为 $Y=C_1e^x+C_2e^{-x}$ 因 $f(x)=\\sin^2x=\\frac{1}{2}-\\frac{1}{2}\\cos2x$ 对应于方程 $y''-y=1/2$，可设特解 $y_1^*=A$ 对应于方程\n\n$y''-y=-\\frac{1}{2}\\cos2x$\n\n可设特解 $y_2^*=B\\cos2x+C\\sin2x$，故由叠加原理，设 $y^*=A+B\\cos2x+C\\sin2x$ 是原方程的一个特解，代入方程，得 $-A-5B\\cos2x-5C\\sin2x=\\frac{1}{2}-\\frac{1}{2}\\cos2x$，比较系数得 $A=-\\frac{1}{2},B=\\frac{1}{10},C=0$，即 $y^*=-\\frac{1}{2}+\\frac{1}{10}\\cos2x$ 故原方程的通解为\n\n$y=Y+y^*=C_1e^x+C_2e^{-x}-\\frac{1}{2}+\\frac{1}{10}\\cos2x$",
+  "sort_order": 18
+}

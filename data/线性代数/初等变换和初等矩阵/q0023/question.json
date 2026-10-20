@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&-1&0\\\\0&1&-1\\\\-1&0&1\\end{pmatrix}$，$AX=2X+A$，使等式成立的 $X$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}0&1&-1\\\\-1&0&1\\\\1&-1&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}0&-1&-1\\\\-1&0&1\\\\1&1&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "以上均不正确"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}0&1&-1\\\\1&0&1\\\\-1&-1&0\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$AX=2X+A$，则 $(A-2E)X=A$。利用初等行变换可知 $A-2E$ 可逆，解得 $X=(A-2E)^{-1}A=\\begin{pmatrix}0&1&-1\\\\-1&0&1\\\\1&-1&0\\end{pmatrix}$。",
+  "search_text": "设 $A=\\begin{pmatrix}1&-1&0\\\\0&1&-1\\\\-1&0&1\\end{pmatrix}$，$AX=2X+A$，使等式成立的 $X$ 为（ ）。 $\\begin{pmatrix}0&1&-1\\\\-1&0&1\\\\1&-1&0\\end{pmatrix}$ $\\begin{pmatrix}0&-1&-1\\\\-1&0&1\\\\1&1&0\\end{pmatrix}$ 以上均不正确 $\\begin{pmatrix}0&1&-1\\\\1&0&1\\\\-1&-1&0\\end{pmatrix}$ $AX=2X+A$，则 $(A-2E)X=A$。利用初等行变换可知 $A-2E$ 可逆，解得 $X=(A-2E)^{-1}A=\\begin{pmatrix}0&1&-1\\\\-1&0&1\\\\1&-1&0\\end{pmatrix}$。",
+  "sort_order": 23
+}

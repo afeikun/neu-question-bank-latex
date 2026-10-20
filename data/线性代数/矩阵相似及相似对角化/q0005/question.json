@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "与 $n$ 阶单位矩阵 $E$ 相似的矩阵是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "任意 $n$ 阶可逆矩阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "对角矩阵 $A$（主对角线上元素不为 $1$）"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "数量矩阵 $kE$（$k\ne 1$）"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$E$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由相似矩阵的定义，若存在可逆矩阵 $P$，使得 $P^{-1}EP=A$，则称矩阵 $A$ 与 $E$ 相似，显然 $A=E$。",
+  "search_text": "与 $n$ 阶单位矩阵 $E$ 相似的矩阵是（ ）。 任意 $n$ 阶可逆矩阵 对角矩阵 $A$（主对角线上元素不为 $1$） 数量矩阵 $kE$（$k e 1$） $E$ 由相似矩阵的定义，若存在可逆矩阵 $P$，使得 $P^{-1}EP=A$，则称矩阵 $A$ 与 $E$ 相似，显然 $A=E$。",
+  "sort_order": 5
+}

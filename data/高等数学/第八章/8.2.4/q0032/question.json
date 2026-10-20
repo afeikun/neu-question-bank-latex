@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $\\Omega$ 是 $x^2+y^2+z^2\\leq2$，且 $z\\leq0$，则 $\\iiint_\\Omega z\\,dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_{\\frac{\\pi}{2}}^\\pi d\\varphi\\int_0^{\\sqrt{2}}r^3\\cos\\varphi\\sin\\varphi\\,dr=2\\pi\\int_{\\frac{\\pi}{2}}^\\pi\\sin\\varphi\\cos\\varphi\\,d\\varphi=-\\pi.\n$$",
+  "search_text": "当 $\\Omega$ 是 $x^2+y^2+z^2\\leq2$，且 $z\\leq0$，则 $\\iiint_\\Omega z\\,dv=$（ ） $2\\pi$ $-2\\pi$ $\\pi$ $-\\pi$ $$\n\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_{\\frac{\\pi}{2}}^\\pi d\\varphi\\int_0^{\\sqrt{2}}r^3\\cos\\varphi\\sin\\varphi\\,dr=2\\pi\\int_{\\frac{\\pi}{2}}^\\pi\\sin\\varphi\\cos\\varphi\\,d\\varphi=-\\pi.\n$$",
+  "sort_order": 32
+}

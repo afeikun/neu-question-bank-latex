@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime-\\frac2x y=3x$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=x^2(-3\\ln x+C)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x^2(3\\ln x+C)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=x^2(-3\\ln|x|+C)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=x^2(3\\ln|x|+C)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "该方程是一阶线性非齐次方程，其中\n\n$$P(x)=-\\frac{2}{x},Q(x)=3x$$\n\n利用求解公式，得 $y=e^{\\int\\frac{2}{x}\\,dx}\\left(\\int3xe^{-\\int\\frac{2}{x}\\,dx}\\,dx+c\\right)=x^2(3\\ln|x|+C)$",
+  "search_text": "微分方程 $y\\prime-\\frac2x y=3x$ 的解为（ ） $y=x^2(-3\\ln x+C)$ $y=x^2(3\\ln x+C)$ $y=x^2(-3\\ln|x|+C)$ $y=x^2(3\\ln|x|+C)$ 该方程是一阶线性非齐次方程，其中\n\n$$P(x)=-\\frac{2}{x},Q(x)=3x$$\n\n利用求解公式，得 $y=e^{\\int\\frac{2}{x}\\,dx}\\left(\\int3xe^{-\\int\\frac{2}{x}\\,dx}\\,dx+c\\right)=x^2(3\\ln|x|+C)$",
+  "sort_order": 28
+}

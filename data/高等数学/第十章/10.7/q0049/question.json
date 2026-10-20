@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质量为1的质点沿 $x$ 轴运动，受指向原点且大小正比于距离的力，介质阻力与速度成正比，系数 $k_1,k_2$，初始位置0、速度 $v_0$，求 $x(t)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}(e^{\\frac{-k_2+\\sqrt{k_2^2+4k_1}}2t}+e^{\\frac{-k_2-\\sqrt{k_2^2+4k_1}}2t})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}(e^{\\frac{-k_2+\\sqrt{k_2^2+4k_1}}2t}-e^{\\frac{-k_2-\\sqrt{k_2^2+4k_1}}2t})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}(e^{(-k_2+\\sqrt{k_2^2+4k_1})t}+e^{(-k_2-\\sqrt{k_2^2+4k_1})t})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}(e^{(-k_2+\\sqrt{k_2^2+4k_1})t}-e^{(-k_2-\\sqrt{k_2^2+4k_1})t})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：由牛顿第二定律可得$\\begin{cases}x''=k_1x-k_2x'\\\\x(0)=0,x'(0)=v_0\\end{cases}$\n\n解得$x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}\\left[\\exp\\left(\\frac{-k_2+\\sqrt{k_2^2+4k_1}}{2}t\\right)-\\exp\\left(\\frac{-k_2-\\sqrt{k_2^2+4k_1}}{2}t\\right)\\right]$",
+  "search_text": "质量为1的质点沿 $x$ 轴运动，受指向原点且大小正比于距离的力，介质阻力与速度成正比，系数 $k_1,k_2$，初始位置0、速度 $v_0$，求 $x(t)$。 $x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}(e^{\\frac{-k_2+\\sqrt{k_2^2+4k_1}}2t}+e^{\\frac{-k_2-\\sqrt{k_2^2+4k_1}}2t})$ $x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}(e^{\\frac{-k_2+\\sqrt{k_2^2+4k_1}}2t}-e^{\\frac{-k_2-\\sqrt{k_2^2+4k_1}}2t})$ $x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}(e^{(-k_2+\\sqrt{k_2^2+4k_1})t}+e^{(-k_2-\\sqrt{k_2^2+4k_1})t})$ $x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}(e^{(-k_2+\\sqrt{k_2^2+4k_1})t}-e^{(-k_2-\\sqrt{k_2^2+4k_1})t})$ 解析：由牛顿第二定律可得$\\begin{cases}x''=k_1x-k_2x'\\\\x(0)=0,x'(0)=v_0\\end{cases}$\n\n解得$x=\\frac{v_0}{\\sqrt{k_2^2+4k_1}}\\left[\\exp\\left(\\frac{-k_2+\\sqrt{k_2^2+4k_1}}{2}t\\right)-\\exp\\left(\\frac{-k_2-\\sqrt{k_2^2+4k_1}}{2}t\\right)\\right]$",
+  "sort_order": 49
+}

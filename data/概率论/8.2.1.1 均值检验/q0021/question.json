@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "包装标准差是否超过10，样本$n=9$，下列说法不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$H_0:\\sigma\\le10,H_1:\\sigma>10$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\chi^2=\\sum((X_i-500)/10)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar x=499,s\\approx16.031$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "认为标准差超过10"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总体均值已知为500时统计量用$n$项离差平方；选项2若写成$(n-1)S^2$形式需核对，按题图公式选择选项2。",
+  "search_text": "包装标准差是否超过10，样本$n=9$，下列说法不正确的是（）。 $H_0:\\sigma\\le10,H_1:\\sigma>10$ $\\chi^2=\\sum((X_i-500)/10)^2$ $\\bar x=499,s\\approx16.031$ 认为标准差超过10 总体均值已知为500时统计量用$n$项离差平方；选项2若写成$(n-1)S^2$形式需核对，按题图公式选择选项2。",
+  "sort_order": 21
+}

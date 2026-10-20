@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "考试样本$n=36,\\bar x=66.5,s=15$，检验总体均值70是否相等，错误说法（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "拒绝域为$[2.0301,+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu=70,H_1:\\mu\\ne70$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T=(\\bar X-\\mu_0)/(S/\\sqrt n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可以接受均值为70"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧拒绝域包含正负两个尾部，选项1遗漏左侧。",
+  "search_text": "考试样本$n=36,\\bar x=66.5,s=15$，检验总体均值70是否相等，错误说法（）。 拒绝域为$[2.0301,+\\infty)$ $H_0:\\mu=70,H_1:\\mu\\ne70$ $T=(\\bar X-\\mu_0)/(S/\\sqrt n)$ 可以接受均值为70 双侧拒绝域包含正负两个尾部，选项1遗漏左侧。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算I=∫₁²dx/(x ln x)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∞"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "−1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "当下限趋近1时，原函数ln(ln x)趋于−∞，积分发散。",
+  "search_text": "计算I=∫₁²dx/(x ln x) 0 ∞ −1 1 当下限趋近1时，原函数ln(ln x)趋于−∞，积分发散。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\frac1{1-x}$ 的 $n$ 阶 Maclaurin 公式 Lagrange 型余项 $R_n(x)=(\\quad)$（$0<\\theta<1$）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{(-1)^n x^{n+1}}{(1-\\theta x)^{n+2}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{(-1)^n x^{n+1}}{(n+1)(1-\\theta x)^{n+1}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x^{n+1}}{(1-\\theta x)^{n+2}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x^{n+1}}{(n+1)(1-\\theta x)^{n+1}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f^{(n)}(x)=\\frac{n!}{(1-x)^{n+1}}$，故 $R_n(x)=\\frac{f^{(n+1)}(\\theta x)}{(n+1)!}x^{n+1}=\\frac{x^{n+1}}{(1-\\theta x)^{n+2}}$。",
+  "search_text": "$f(x)=\\frac1{1-x}$ 的 $n$ 阶 Maclaurin 公式 Lagrange 型余项 $R_n(x)=(\\quad)$（$0<\\theta<1$）。 $\\frac{(-1)^n x^{n+1}}{(1-\\theta x)^{n+2}}$ $\\frac{(-1)^n x^{n+1}}{(n+1)(1-\\theta x)^{n+1}}$ $\\frac{x^{n+1}}{(1-\\theta x)^{n+2}}$ $\\frac{x^{n+1}}{(n+1)(1-\\theta x)^{n+1}}$ $f^{(n)}(x)=\\frac{n!}{(1-x)^{n+1}}$，故 $R_n(x)=\\frac{f^{(n+1)}(\\theta x)}{(n+1)!}x^{n+1}=\\frac{x^{n+1}}{(1-\\theta x)^{n+2}}$。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime+3y=8$ 满足初始条件 $y|_{x=0}=2$ 的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac25(4-e^{-3x})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=3-e^{-3x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac23(4-e^{-3x})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac23(4-xe^{-3x})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y=e^{-\\int3dx}(c+\\int8e^{\\int3dx}dx)=e^{-3x}(c+\\frac{8}{3}e^{3x})$\n\n代入初值，可得 $c=-\\frac{2}{3}$，故所求特解为\n\n$y=\\frac{2}{3}(4-e^{-3x})$",
+  "search_text": "微分方程 $y\\prime+3y=8$ 满足初始条件 $y|_{x=0}=2$ 的特解为（ ） $y=\\frac25(4-e^{-3x})$ $y=3-e^{-3x}$ $y=\\frac23(4-e^{-3x})$ $y=\\frac23(4-xe^{-3x})$ $y=e^{-\\int3dx}(c+\\int8e^{\\int3dx}dx)=e^{-3x}(c+\\frac{8}{3}e^{3x})$\n\n代入初值，可得 $c=-\\frac{2}{3}$，故所求特解为\n\n$y=\\frac{2}{3}(4-e^{-3x})$",
+  "sort_order": 20
+}

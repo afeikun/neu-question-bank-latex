@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\xi,\\eta$ 独立，$D(\\xi),D(\\eta)$ 存在，则正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$D(3\\xi+2\\eta)=9D(\\xi)+4D(\\eta)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$D(\\xi\\eta)=D(\\xi)D(\\eta)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(2\\xi+\\eta)=2D(\\xi)+D(\\eta)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$D(\\xi-\\eta)=D(\\xi)-D(\\eta)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立时 $D(a\\xi\\pm b\\eta)=a^2D(\\xi)+b^2D(\\eta)$，故选项1正确；选项2不一定成立，选项3系数应平方，选项4应为方差之和。",
+  "search_text": "若 $\\xi,\\eta$ 独立，$D(\\xi),D(\\eta)$ 存在，则正确的是(\\quad)。 $D(3\\xi+2\\eta)=9D(\\xi)+4D(\\eta)$ $D(\\xi\\eta)=D(\\xi)D(\\eta)$ $D(2\\xi+\\eta)=2D(\\xi)+D(\\eta)$ $D(\\xi-\\eta)=D(\\xi)-D(\\eta)$ 独立时 $D(a\\xi\\pm b\\eta)=a^2D(\\xi)+b^2D(\\eta)$，故选项1正确；选项2不一定成立，选项3系数应平方，选项4应为方差之和。",
+  "sort_order": 18
+}

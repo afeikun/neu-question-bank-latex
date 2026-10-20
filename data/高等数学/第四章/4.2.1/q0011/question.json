@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{-1}^2|x^2-x|\\,dx=$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{11}6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{11}6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "按 $x=0,1$ 分段积分，结果为 $\\frac56+\\frac16+\\frac56=\\frac{11}6$。",
+  "search_text": "$\\int_{-1}^2|x^2-x|\\,dx=$ $\\frac{11}6$ $3$ $6$ $\\frac{11}6$ 按 $x=0,1$ 分段积分，结果为 $\\frac56+\\frac16+\\frac56=\\frac{11}6$。",
+  "sort_order": 11
+}

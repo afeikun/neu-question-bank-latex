@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为包含 $3i,-3i$ 的正向简单曲线，则 $\\oint_C\\frac{dz}{z^2+9}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "曲线包含两个极点时，两个留数贡献相反，积分为 $0$。",
+  "search_text": "设 $C$ 为包含 $3i,-3i$ 的正向简单曲线，则 $\\oint_C\\frac{dz}{z^2+9}=(\\quad)$。 $0$ $1$ $i$ $-i$ 曲线包含两个极点时，两个留数贡献相反，积分为 $0$。",
+  "sort_order": 55
+}

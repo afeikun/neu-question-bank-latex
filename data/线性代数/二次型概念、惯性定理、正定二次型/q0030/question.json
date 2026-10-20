@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A^2=E_n$，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A$ 是正定矩阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$R(A+E)+R(A-E)=n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A$ 是正交矩阵"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A$ 是对称矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$A^2=E_n$，所以 $A^2-E=(A+E)(A-E)=0$。由矩阵秩的性质，$R(A+E)+R(A-E)\\le n$；又 $R(A+E)+R(A-E)=R(A+E)+R(E-A)\\ge R(2E)=n$，故 $R(A+E)+R(A-E)=n$。",
+  "search_text": "设矩阵 $A^2=E_n$，则必有（ ）。 $A$ 是正定矩阵 $R(A+E)+R(A-E)=n$ $A$ 是正交矩阵 $A$ 是对称矩阵 $A^2=E_n$，所以 $A^2-E=(A+E)(A-E)=0$。由矩阵秩的性质，$R(A+E)+R(A-E)\\le n$；又 $R(A+E)+R(A-E)=R(A+E)+R(E-A)\\ge R(2E)=n$，故 $R(A+E)+R(A-E)=n$。",
+  "sort_order": 30
+}

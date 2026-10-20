@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将分段函数 $x$（$-\\pi/2<x<\\pi/2$），$\\pi-x$（$\\pi/2\\le x\\le3\\pi/2$）展成周期 $2\\pi$ 傅里叶级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac2\\pi\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac4\\pi\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac4\\pi\\sum_{k=1}^{\\infty}\\sin(kx)/k^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac4\\pi\\sum_{k=1}^{\\infty}\\cos((2k-1)x)/(2k-1)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "奇延拓后 $b_n=0$ 对偶数指标，奇数项为 $4/[\\pi(2k-1)^2]$。",
+  "search_text": "将分段函数 $x$（$-\\pi/2<x<\\pi/2$），$\\pi-x$（$\\pi/2\\le x\\le3\\pi/2$）展成周期 $2\\pi$ 傅里叶级数。 $\\frac2\\pi\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)^2$ $\\frac4\\pi\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)^2$ $\\frac4\\pi\\sum_{k=1}^{\\infty}\\sin(kx)/k^2$ $\\frac4\\pi\\sum_{k=1}^{\\infty}\\cos((2k-1)x)/(2k-1)^2$ 奇延拓后 $b_n=0$ 对偶数指标，奇数项为 $4/[\\pi(2k-1)^2]$。",
+  "sort_order": 12
+}

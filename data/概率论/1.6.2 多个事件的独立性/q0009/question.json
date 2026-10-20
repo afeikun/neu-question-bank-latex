@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$A_1,A_2,A_3$是随机试验$E$的三个相互独立的事件，已知$P(A_1)=\\alpha$，$P(A_2)=\\beta$，$P(A_3)=\\gamma$，则事件‘$A_1$发生且$A_2,A_3$至少有一个发生’的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha[1-(1-\\beta)(1-\\gamma)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha(1-\\beta)(1-\\gamma)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-\\alpha-(1-\\beta)(1-\\gamma)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha-(1-\\beta)(1-\\gamma)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "所求概率为$P(A_1)P(A_2\\cup A_3)=\\alpha[1-(1-\\beta)(1-\\gamma)]$。",
+  "search_text": "设$A_1,A_2,A_3$是随机试验$E$的三个相互独立的事件，已知$P(A_1)=\\alpha$，$P(A_2)=\\beta$，$P(A_3)=\\gamma$，则事件‘$A_1$发生且$A_2,A_3$至少有一个发生’的概率是（ ）。 $\\alpha[1-(1-\\beta)(1-\\gamma)]$ $\\alpha(1-\\beta)(1-\\gamma)$ $1-\\alpha-(1-\\beta)(1-\\gamma)$ $\\alpha-(1-\\beta)(1-\\gamma)$ 所求概率为$P(A_1)P(A_2\\cup A_3)=\\alpha[1-(1-\\beta)(1-\\gamma)]$。",
+  "sort_order": 9
+}

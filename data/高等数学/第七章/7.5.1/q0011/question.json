@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知函数 $f(u)$ 具有二阶导数，且 $f'(0)=1$，函数 $y=y(x)$ 由方程 $y-xe^{y-1}=1$ 所确定，设 $z=f(\\ln y-\\sin x)$，求 $\\left.\\frac{dz}{dx}\\right|_{x=0}=(\\quad)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $u=\\ln y-\\sin x$，则 $\\left.\\frac{dz}{dx}\\right|_{x=0}=\\left.\\frac{\\partial f}{\\partial u}\\left(\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\frac{dy}{dx}\\right)\\right|_{x=0}$\n\n$y-xe^{y-1}=1$ 两边对 $x$ 求导得 $y'-e^{y-1}-xe^{y-1}y'=0\\Rightarrow y'=\\frac{e^{y-1}}{1-xe^{y-1}}$，又 $y(0)=1$，可得 $y'(0)=1$\n\n在 $y'=\\frac{e^{y-1}}{1-xe^{y-1}}$ 两边对 $x$ 求导得\n\n$y''\\big|_{x=0}=\\left.\\frac{e^{y-1}y'(1-xe^{y-1})-e^{y-1}(-xe^{y-1}y'-e^{y-1})}{(1-xe^{y-1})^2}\\right|_{x=0}=2$。\n\n所以 $\\left.\\frac{dz}{dx}\\right|_{x=0}=\\left.\\frac{\\partial f}{\\partial u}\\left(\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\frac{dy}{dx}\\right)\\right|_{x=0}=f'(0)\\left(-\\cos x+\\frac{1}{y}\\frac{dy}{dx}\\right)\\big|_{x=0}$\n\n$=f'(0)\\left(-\\cos x+\\frac{1}{y}\\cdot\\frac{e^{y-1}}{1-xe^{y-1}}\\right)\\big|_{x=0}=0$。",
+  "search_text": "已知函数 $f(u)$ 具有二阶导数，且 $f'(0)=1$，函数 $y=y(x)$ 由方程 $y-xe^{y-1}=1$ 所确定，设 $z=f(\\ln y-\\sin x)$，求 $\\left.\\frac{dz}{dx}\\right|_{x=0}=(\\quad)$ $0$ $-1$ $2$ $1$ 令 $u=\\ln y-\\sin x$，则 $\\left.\\frac{dz}{dx}\\right|_{x=0}=\\left.\\frac{\\partial f}{\\partial u}\\left(\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\frac{dy}{dx}\\right)\\right|_{x=0}$\n\n$y-xe^{y-1}=1$ 两边对 $x$ 求导得 $y'-e^{y-1}-xe^{y-1}y'=0\\Rightarrow y'=\\frac{e^{y-1}}{1-xe^{y-1}}$，又 $y(0)=1$，可得 $y'(0)=1$\n\n在 $y'=\\frac{e^{y-1}}{1-xe^{y-1}}$ 两边对 $x$ 求导得\n\n$y''\\big|_{x=0}=\\left.\\frac{e^{y-1}y'(1-xe^{y-1})-e^{y-1}(-xe^{y-1}y'-e^{y-1})}{(1-xe^{y-1})^2}\\right|_{x=0}=2$。\n\n所以 $\\left.\\frac{dz}{dx}\\right|_{x=0}=\\left.\\frac{\\partial f}{\\partial u}\\left(\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\frac{dy}{dx}\\right)\\right|_{x=0}=f'(0)\\left(-\\cos x+\\frac{1}{y}\\frac{dy}{dx}\\right)\\big|_{x=0}$\n\n$=f'(0)\\left(-\\cos x+\\frac{1}{y}\\cdot\\frac{e^{y-1}}{1-xe^{y-1}}\\right)\\big|_{x=0}=0$。",
+  "sort_order": 11
+}

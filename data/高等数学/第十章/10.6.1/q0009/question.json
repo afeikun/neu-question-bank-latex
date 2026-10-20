@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知微分方程 $y\\prime\\prime-2y\\prime-3y=3x+1$ 的一个特解为 $y^*=-x+\\frac13$，则其通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^x+C_2e^{-3x}-x+\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{-3x}+x-\\frac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{-x}+C_2e^{3x}-x+\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{-x}+C_2e^{3x}+x-\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2-2\\lambda-3=0$，其特征根为 $\\lambda_1=-1,\\lambda_2=3$。因此对应的齐次方程的通解为\n\n$$C_1e^{-x}+C_2e^{3x}.$$\n\n又非齐次方程的特解为 $y^*=-x+\\frac13$。\n\n所以，原方程的通解为 $y=C_1e^{-x}+C_2e^{3x}-x+\\frac13$。\n\n因此选 B。",
+  "search_text": "已知微分方程 $y\\prime\\prime-2y\\prime-3y=3x+1$ 的一个特解为 $y^*=-x+\\frac13$，则其通解为（ ） $y=C_1e^x+C_2e^{-3x}-x+\\frac13$ $y=C_1e^x+C_2e^{-3x}+x-\\frac13$ $y=C_1e^{-x}+C_2e^{3x}-x+\\frac13$ $y=C_1e^{-x}+C_2e^{3x}+x-\\frac13$ 解答 齐次方程的特征方程为 $\\lambda^2-2\\lambda-3=0$，其特征根为 $\\lambda_1=-1,\\lambda_2=3$。因此对应的齐次方程的通解为\n\n$$C_1e^{-x}+C_2e^{3x}.$$\n\n又非齐次方程的特解为 $y^*=-x+\\frac13$。\n\n所以，原方程的通解为 $y=C_1e^{-x}+C_2e^{3x}-x+\\frac13$。\n\n因此选 B。",
+  "sort_order": 9
+}

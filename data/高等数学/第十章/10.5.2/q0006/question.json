@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x\\frac{d^2y}{dx^2}+\\left(\\frac{dy}{dx}\\right)^2=1$ 满足 $y(0)=1,\\ y\\prime(0)=-1$ 的解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=1-x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=-x+\\frac14x^4+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=1-\\frac12x^2-x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac13x^3-x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 设 $\\frac{dy}{dx}=p,\\frac{d^2y}{dx^2}=\\frac{dp}{dx}$，方程化成\n\n$$\nx\\frac{dp}{dx}+p^2=1。\n$$\n\n分离变量\n\n$$\n\\frac{dp}{1-p^2}=\\frac{1}{x}dx。\n$$\n\n积分\n\n$$\n-\\frac{1}{2}\\ln(1-p)+\\frac{1}{2}\\ln(1+p)=\\ln x+\\ln C_1，\n$$\n\n整理得\n\n$$\n\\frac{1+p}{1-p}=C_1^2x^2，\n$$\n\n$C_1^2$ 记为 $C_1$ 得\n\n$$\n\\frac{dy}{dx}=\\frac{C_1x^2-1}{C_1x^2+1}。\n$$\n\n将初始条件 $\\frac{dy}{dx}|_{x=0}=-1$ 代入知 $C_1$ 可以为任意值，为简单起见，取 $C_1=0$ 故有\n\n$$\n\\frac{dy}{dx}=-1，\\quad y=-x+C_2。\n$$\n\n再代入另一个初始条件可得特解为 $y=1-x$。",
+  "search_text": "方程 $x\\frac{d^2y}{dx^2}+\\left(\\frac{dy}{dx}\\right)^2=1$ 满足 $y(0)=1,\\ y\\prime(0)=-1$ 的解是（ ） $y=1-x$ $y=-x+\\frac14x^4+1$ $y=1-\\frac12x^2-x$ $y=\\frac13x^3-x+1$ 解答 设 $\\frac{dy}{dx}=p,\\frac{d^2y}{dx^2}=\\frac{dp}{dx}$，方程化成\n\n$$\nx\\frac{dp}{dx}+p^2=1。\n$$\n\n分离变量\n\n$$\n\\frac{dp}{1-p^2}=\\frac{1}{x}dx。\n$$\n\n积分\n\n$$\n-\\frac{1}{2}\\ln(1-p)+\\frac{1}{2}\\ln(1+p)=\\ln x+\\ln C_1，\n$$\n\n整理得\n\n$$\n\\frac{1+p}{1-p}=C_1^2x^2，\n$$\n\n$C_1^2$ 记为 $C_1$ 得\n\n$$\n\\frac{dy}{dx}=\\frac{C_1x^2-1}{C_1x^2+1}。\n$$\n\n将初始条件 $\\frac{dy}{dx}|_{x=0}=-1$ 代入知 $C_1$ 可以为任意值，为简单起见，取 $C_1=0$ 故有\n\n$$\n\\frac{dy}{dx}=-1，\\quad y=-x+C_2。\n$$\n\n再代入另一个初始条件可得特解为 $y=1-x$。",
+  "sort_order": 6
+}

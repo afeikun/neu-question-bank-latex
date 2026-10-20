@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y^3y\\prime\\prime+1=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1+Cy^3=(Cx+C_1)^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^2=Cx+C_1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=(Cx+C_1-1)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$Cy^2=(Cx+C_1)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 令 $y'=p$，则 $y''=p\\frac{dp}{dy}$，代入方程得 $p\\,dp=-\\frac{1}{y^3}\\,dy$，两边积分得 $p^2=\\frac{1+C_1y^2}{y^2}$，从而将方程降为一阶方程\n\n$$\\frac{dy}{dx}=\\pm\\frac{\\sqrt{1+C_1y^2}}{y},$$ 将变量分离，易求得其通解为 $1+C_1y^2=(Cx+C_1)^2$。",
+  "search_text": "方程 $y^3y\\prime\\prime+1=0$ 的通解为（ ） $1+Cy^3=(Cx+C_1)^3$ $y^2=Cx+C_1$ $y=(Cx+C_1-1)^2$ $Cy^2=(Cx+C_1)^2$ 解答 令 $y'=p$，则 $y''=p\\frac{dp}{dy}$，代入方程得 $p\\,dp=-\\frac{1}{y^3}\\,dy$，两边积分得 $p^2=\\frac{1+C_1y^2}{y^2}$，从而将方程降为一阶方程\n\n$$\\frac{dy}{dx}=\\pm\\frac{\\sqrt{1+C_1y^2}}{y},$$ 将变量分离，易求得其通解为 $1+C_1y^2=(Cx+C_1)^2$。",
+  "sort_order": 6
+}

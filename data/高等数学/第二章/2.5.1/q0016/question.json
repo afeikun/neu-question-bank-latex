@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $y-2x=(x-y)\\ln(x-y)$ 确定 $y=y(x)$，求 $y^{\\prime\\prime}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{(2+\\ln(x-y))^3(x-y)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac1{(2+\\ln(x-y))^3(x-y)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{(2+\\ln(x-y))^2(x-y)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{(2+\\ln(x-y))^3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时对$x$求导可得\n$y'-2=(1-y')\\ln(x-y)+(1-y')$，可得$y'=1+\\frac{1}{2+\\ln(x-y)}$\n\n方程两边再同时对$x$求导一次可得，\n\n则有$y''=-\\frac{1}{(2+\\ln(x-y))^2}\\cdot\\frac{1}{x-y}\\cdot(1-y')$，即$y''=-\\frac{1}{(2+\\ln(x-y))^3}\\cdot\\frac{1}{x-y}$",
+  "search_text": "由 $y-2x=(x-y)\\ln(x-y)$ 确定 $y=y(x)$，求 $y^{\\prime\\prime}$。 $\\frac1{(2+\\ln(x-y))^3(x-y)}$ $-\\frac1{(2+\\ln(x-y))^3(x-y)}$ $\\frac1{(2+\\ln(x-y))^2(x-y)}$ $\\frac1{(2+\\ln(x-y))^3}$ 解答 方程两边同时对$x$求导可得\n$y'-2=(1-y')\\ln(x-y)+(1-y')$，可得$y'=1+\\frac{1}{2+\\ln(x-y)}$\n\n方程两边再同时对$x$求导一次可得，\n\n则有$y''=-\\frac{1}{(2+\\ln(x-y))^2}\\cdot\\frac{1}{x-y}\\cdot(1-y')$，即$y''=-\\frac{1}{(2+\\ln(x-y))^3}\\cdot\\frac{1}{x-y}$",
+  "sort_order": 16
+}

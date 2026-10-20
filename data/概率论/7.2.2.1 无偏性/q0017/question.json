@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim B(n,p)$，求$p^2$的无偏估计量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_1(X_1-1)/[n(n-1)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X_1(X_1-1)/(n-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(X_1-1)/(n-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X_1(X_1+1)/n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E[X(X-1)]=n(n-1)p^2$。",
+  "search_text": "$X\\sim B(n,p)$，求$p^2$的无偏估计量。 $X_1(X_1-1)/[n(n-1)]$ $X_1(X_1-1)/(n-1)$ $(X_1-1)/(n-1)$ $X_1(X_1+1)/n$ $E[X(X-1)]=n(n-1)p^2$。",
+  "sort_order": 17
+}

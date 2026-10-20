@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x_0=4$ 时，函数 $f(x)=\\sqrt{x}$ 的三阶 Taylor 公式为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2-\\frac14(x-4)+\\frac1{64}(x-4)^2-\\frac1{512}(x-4)^3+\\frac{15}{4!\\,16^{7/2}}(x-4)^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2+\\frac14(x-4)+\\frac1{64}(x-4)^2+\\frac1{512}(x-4)^3+\\frac{15}{4!\\,16^{7/2}}(x-4)^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2+\\frac14(x-4)-\\frac1{64}(x-4)^2+\\frac1{512}(x-4)^3-\\frac{15}{4!\\,16^{7/2}}(x-4)^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2+\\frac14(x-4)-\\frac1{64}(x-4)^2+\\frac1{512}(x-4)^3-\\frac{15}{4!\\,16^{5/2}}(x-4)^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f'(x)=\\frac12x^{-1/2}$，$f''(x)=-\\frac14x^{-3/2}$，$f'''(x)=\\frac38x^{-5/2}$，$f^{(4)}(x)=-\\frac{15}{16}x^{-7/2}$。代入三阶 Taylor 公式及 Lagrange 余项。",
+  "search_text": "当 $x_0=4$ 时，函数 $f(x)=\\sqrt{x}$ 的三阶 Taylor 公式为 $(\\quad)$。 $2-\\frac14(x-4)+\\frac1{64}(x-4)^2-\\frac1{512}(x-4)^3+\\frac{15}{4!\\,16^{7/2}}(x-4)^4$ $2+\\frac14(x-4)+\\frac1{64}(x-4)^2+\\frac1{512}(x-4)^3+\\frac{15}{4!\\,16^{7/2}}(x-4)^4$ $2+\\frac14(x-4)-\\frac1{64}(x-4)^2+\\frac1{512}(x-4)^3-\\frac{15}{4!\\,16^{7/2}}(x-4)^4$ $2+\\frac14(x-4)-\\frac1{64}(x-4)^2+\\frac1{512}(x-4)^3-\\frac{15}{4!\\,16^{5/2}}(x-4)^4$ $f'(x)=\\frac12x^{-1/2}$，$f''(x)=-\\frac14x^{-3/2}$，$f'''(x)=\\frac38x^{-5/2}$，$f^{(4)}(x)=-\\frac{15}{16}x^{-7/2}$。代入三阶 Taylor 公式及 Lagrange 余项。",
+  "sort_order": 11
+}

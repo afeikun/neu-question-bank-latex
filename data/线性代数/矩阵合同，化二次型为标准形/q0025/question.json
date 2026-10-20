@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设二次型 $f=x_1^2+x_2^2+x_3^2+2ax_1x_2+2bx_2x_3+2x_1x_3$ 经正交变换 $x=Qy$ 化成 $f=y_2^2+2y_3^2$，则常数 $a,b$ 分别为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=0,b=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=1,b=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=b=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=b=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "谱相同要求迹和特征多项式系数匹配，得 $a=b$ 且 $a^2+b^2=0$，故 $a=b=0$，选项 4。",
+  "search_text": "设二次型 $f=x_1^2+x_2^2+x_3^2+2ax_1x_2+2bx_2x_3+2x_1x_3$ 经正交变换 $x=Qy$ 化成 $f=y_2^2+2y_3^2$，则常数 $a,b$ 分别为(\\quad)。 $a=0,b=1$ $a=1,b=0$ $a=b=1$ $a=b=0$ 谱相同要求迹和特征多项式系数匹配，得 $a=b$ 且 $a^2+b^2=0$，故 $a=b=0$，选项 4。",
+  "sort_order": 25
+}

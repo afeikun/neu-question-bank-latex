@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质点按规律 $x=t^3$ 作直线运动，介质阻力与速度成正比，求质点从 $x=0$ 移到 $x=1$ 时克服阻力所作的功，阻力系数为 $k$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$9k/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9k/5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9k/7$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8k/5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "按题给速度和位移微元积分，$W=\\int_0^1k(3t^2)t^3dt=9k/5$。",
+  "search_text": "质点按规律 $x=t^3$ 作直线运动，介质阻力与速度成正比，求质点从 $x=0$ 移到 $x=1$ 时克服阻力所作的功，阻力系数为 $k$。 $9k/4$ $9k/5$ $9k/7$ $8k/5$ 按题给速度和位移微元积分，$W=\\int_0^1k(3t^2)t^3dt=9k/5$。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $P=\\{(x,y)\\mid x^2+y^2=1\\}$，$Q=\\{(x,y)\\mid x^2+y^2=4\\}$，则(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P\\subset Q$ 与 $P\\supset Q$ 都不对"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P\\subset Q$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P\\supset Q$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4P=Q$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P$ 和 $Q$ 分别表示两个圆上的点的集合，两个圆没有相交，所以这两个集合没有任何包含关系。",
+  "search_text": "设 $P=\\{(x,y)\\mid x^2+y^2=1\\}$，$Q=\\{(x,y)\\mid x^2+y^2=4\\}$，则(\\quad)。 $P\\subset Q$ 与 $P\\supset Q$ 都不对 $P\\subset Q$ $P\\supset Q$ $4P=Q$ $P$ 和 $Q$ 分别表示两个圆上的点的集合，两个圆没有相交，所以这两个集合没有任何包含关系。",
+  "sort_order": 4
+}

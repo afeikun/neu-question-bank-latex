@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是球面 $x^2+y^2+z^2=1$ 围成的区域，则 $\\iiint_\\Omega\\frac{z\\ln(x^2+y^2+z^2+1)}{x^2+y^2+z^2+1}dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^1\\frac{r\\cos\\varphi\\cdot\\ln(1+r^2)}{r^2+1}r^2\\sin\\varphi\\,dr\n$$\n$$\n=2\\pi\\int_0^\\pi\\sin\\varphi\\cos\\varphi\\,d\\varphi\\cdot\\int_0^1\\frac{r^3\\cdot\\ln(1+r^2)}{r^2+1}\\,dr=0.\n$$\n因此选 A.",
+  "search_text": "$\\Omega$ 是球面 $x^2+y^2+z^2=1$ 围成的区域，则 $\\iiint_\\Omega\\frac{z\\ln(x^2+y^2+z^2+1)}{x^2+y^2+z^2+1}dv=$（ ） $\\pi$ $2\\pi$ $0$ $4\\pi$ 原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^1\\frac{r\\cos\\varphi\\cdot\\ln(1+r^2)}{r^2+1}r^2\\sin\\varphi\\,dr\n$$\n$$\n=2\\pi\\int_0^\\pi\\sin\\varphi\\cos\\varphi\\,d\\varphi\\cdot\\int_0^1\\frac{r^3\\cdot\\ln(1+r^2)}{r^2+1}\\,dr=0.\n$$\n因此选 A.",
+  "sort_order": 27
+}

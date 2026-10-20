@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec a=(1,1,4)$，$\\vec b=(1,-2,2)$，则 $\\vec b$ 在 $\\vec a$ 向量上的投影向量为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac7{18},\\frac{14}9,\\frac7{18})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac7{18},\\frac7{18},\\frac{14}9)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac7{18},\\frac{14}9,\\frac7{18})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{14}9,\\frac7{18},\\frac7{18})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\vec a^0=(\\frac1{3\\sqrt2},\\frac1{3\\sqrt2},\\frac4{3\\sqrt2})$，标量投影为 $\\vec b\\cdot\\vec a^0=\\frac7{\\sqrt{18}}$，故投影向量为 $(\\frac7{18},\\frac7{18},\\frac{14}9)$。",
+  "search_text": "设 $\\vec a=(1,1,4)$，$\\vec b=(1,-2,2)$，则 $\\vec b$ 在 $\\vec a$ 向量上的投影向量为(\\quad)。 $(\\frac7{18},\\frac{14}9,\\frac7{18})$ $(\\frac7{18},\\frac7{18},\\frac{14}9)$ $(\\frac7{18},\\frac{14}9,\\frac7{18})$ $(\\frac{14}9,\\frac7{18},\\frac7{18})$ $\\vec a^0=(\\frac1{3\\sqrt2},\\frac1{3\\sqrt2},\\frac4{3\\sqrt2})$，标量投影为 $\\vec b\\cdot\\vec a^0=\\frac7{\\sqrt{18}}$，故投影向量为 $(\\frac7{18},\\frac7{18},\\frac{14}9)$。",
+  "sort_order": 20
+}

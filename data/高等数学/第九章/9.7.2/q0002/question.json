@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量场 $A=(y+\\sin z)\\mathbf i-(z+x\\sin y)\\mathbf j+\\cos x\\mathbf k$ 的散度（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x\\cos y^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2x^2\\cos y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-x\\cos y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x\\cos y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：$divA=0+(-x\\cos y)+0=-x\\cos y.$",
+  "search_text": "向量场 $A=(y+\\sin z)\\mathbf i-(z+x\\sin y)\\mathbf j+\\cos x\\mathbf k$ 的散度（ ） $x\\cos y^2$ $2x^2\\cos y$ $-x\\cos y$ $x\\cos y$ 解析：$divA=0+(-x\\cos y)+0=-x\\cos y.$",
+  "sort_order": 2
+}

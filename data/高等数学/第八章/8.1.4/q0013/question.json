@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^1dx\\int_{-\\sqrt x}^{\\sqrt x}f(x,y)dy+\\int_1^4dx\\int_{x-2}^{\\sqrt x}f(x,y)dy$ 的积分次序[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{-1}^2dy\\int_{y^2}^{y+2}f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{-1}^2dy\\int_{y+2}^{y^2}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dy\\int_{-\\sqrt y}^{\\sqrt y}f(x,y)dx+\\int_1^4dy\\int_{y-2}^{\\sqrt y}f(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{-1}^0dx\\int_{-\\sqrt x}^{x-2}f(x,y)dy+\\int_0^2dx\\int_{\\sqrt x}^{x-2}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "交换次序后，区域可写为 $-1\\le y\\le2,\\ y^2\\le x\\le y+2$，所以原式 $=\\int_{-1}^2dy\\int_{y^2}^{y+2}f(x,y)dx$，选第一项。第四项是原图干扰项，按原图完整保留两项积分。",
+  "search_text": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^1dx\\int_{-\\sqrt x}^{\\sqrt x}f(x,y)dy+\\int_1^4dx\\int_{x-2}^{\\sqrt x}f(x,y)dy$ 的积分次序[\\quad] $\\int_{-1}^2dy\\int_{y^2}^{y+2}f(x,y)dx$ $\\int_{-1}^2dy\\int_{y+2}^{y^2}f(x,y)dx$ $\\int_0^1dy\\int_{-\\sqrt y}^{\\sqrt y}f(x,y)dx+\\int_1^4dy\\int_{y-2}^{\\sqrt y}f(x,y)dx$ $\\int_{-1}^0dx\\int_{-\\sqrt x}^{x-2}f(x,y)dy+\\int_0^2dx\\int_{\\sqrt x}^{x-2}f(x,y)dy$ 交换次序后，区域可写为 $-1\\le y\\le2,\\ y^2\\le x\\le y+2$，所以原式 $=\\int_{-1}^2dy\\int_{y^2}^{y+2}f(x,y)dx$，选第一项。第四项是原图干扰项，按原图完整保留两项积分。",
+  "sort_order": 13
+}

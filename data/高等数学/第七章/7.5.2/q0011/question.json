@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x=x(r,s),y=y(r,s)$ 由 $xy+rs=1,xr+ys=1$ 确定，求 $x_r$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x^2+s^2}{sy-xr}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x^2-s^2}{sy-xr}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x^2+s^2}{sy+xr}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x^2-s^2}{sy+xr}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由\n$$\n\\begin{cases}\nx\\frac{\\partial y}{\\partial r}+y\\frac{\\partial x}{\\partial r}+s=0\\\\\nx+r\\frac{\\partial x}{\\partial r}+s\\frac{\\partial y}{\\partial r}=0\n\\end{cases}\n$$\n解得：\n$$\n\\frac{\\partial x}{\\partial r}=\\frac{x^2-s^2}{sy-xr}\n$$",
+  "search_text": "设 $x=x(r,s),y=y(r,s)$ 由 $xy+rs=1,xr+ys=1$ 确定，求 $x_r$。 $\\frac{x^2+s^2}{sy-xr}$ $\\frac{x^2-s^2}{sy-xr}$ $\\frac{x^2+s^2}{sy+xr}$ $\\frac{x^2-s^2}{sy+xr}$ 由\n$$\n\\begin{cases}\nx\\frac{\\partial y}{\\partial r}+y\\frac{\\partial x}{\\partial r}+s=0\\\\\nx+r\\frac{\\partial x}{\\partial r}+s\\frac{\\partial y}{\\partial r}=0\n\\end{cases}\n$$\n解得：\n$$\n\\frac{\\partial x}{\\partial r}=\\frac{x^2-s^2}{sy-xr}\n$$",
+  "sort_order": 11
+}

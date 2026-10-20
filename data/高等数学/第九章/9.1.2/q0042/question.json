@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某弧形构件形如曲线 $L:x^{2/3}+y^{2/3}=a^{2/3}(a>0)$ 在第一象限部分，线密度 $\\rho_0=1$，则该构件对原点 $O(0,0)$ 的转动惯量 $I=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac34a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac65a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac35a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取 $x=a\\cos^3t,y=a\\sin^3t$，$0\\le t\\le\\frac\\pi2$，则 $ds=3a\\sin t\\cos t\\,dt$。$I=3a^3\\int_0^{\\pi/2}(\\cos^6t+\\sin^6t)\\sin t\\cos t\\,dt=3a^3(\\frac18+\\frac18)=\\frac34a^3$。",
+  "search_text": "某弧形构件形如曲线 $L:x^{2/3}+y^{2/3}=a^{2/3}(a>0)$ 在第一象限部分，线密度 $\\rho_0=1$，则该构件对原点 $O(0,0)$ 的转动惯量 $I=$（ ） $\\frac32a^3$ $\\frac34a^3$ $\\frac65a^3$ $\\frac35a^3$ 取 $x=a\\cos^3t,y=a\\sin^3t$，$0\\le t\\le\\frac\\pi2$，则 $ds=3a\\sin t\\cos t\\,dt$。$I=3a^3\\int_0^{\\pi/2}(\\cos^6t+\\sin^6t)\\sin t\\cos t\\,dt=3a^3(\\frac18+\\frac18)=\\frac34a^3$。",
+  "sort_order": 42
+}

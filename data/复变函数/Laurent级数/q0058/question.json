@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=\\dfrac1{z(1-z)^2}$ 在环形域 $0<|z-1|<1$ 内的洛朗展开式为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(z-1)^{n-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(z-1)^{n-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(z-1)^{n+2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(z-1)^{n+2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac1z=\\dfrac1{1+(z-1)}=\\sum_{n=0}^{\\infty}(-1)^n(z-1)^n$，所以 $f(z)=\\sum_{n=0}^{\\infty}(-1)^n(z-1)^{n-2}$。",
+  "search_text": "函数 $f(z)=\\dfrac1{z(1-z)^2}$ 在环形域 $0<|z-1|<1$ 内的洛朗展开式为（ ）。 $\\sum_{n=0}^{\\infty}(-1)^n(z-1)^{n-2}$ $\\sum_{n=0}^{\\infty}(z-1)^{n-2}$ $\\sum_{n=0}^{\\infty}(-1)^n(z-1)^{n+2}$ $\\sum_{n=0}^{\\infty}(z-1)^{n+2}$ $\\dfrac1z=\\dfrac1{1+(z-1)}=\\sum_{n=0}^{\\infty}(-1)^n(z-1)^n$，所以 $f(z)=\\sum_{n=0}^{\\infty}(-1)^n(z-1)^{n-2}$。",
+  "sort_order": 58
+}

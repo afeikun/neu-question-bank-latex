@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设区域 $D:x^2+y^2\\leq R^2$，则 $\\iint_D(\\frac{x^2}{a^2}+\\frac{y^2}{b^2})dxdy=[\\quad]$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi R^4(a^2+b^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4R^4(\\frac1{a^2}+\\frac1{b^2})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi3R^4\\sqrt{a^2+b^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi2R^4\\frac1{a^2+b^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答\n\n$$\\iint_D\\left(\\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\right)dxdy=\\int_0^{2\\pi}d\\theta\\int_0^R\\left(\\frac{r^2}{a^2}\\cos^2\\theta+\\frac{r^2}{b^2}\\sin^2\\theta\\right)rdr$$\n\n$$=\\frac{1}{4}R^4\\int_0^{2\\pi}\\left(\\frac{1+\\cos2\\theta}{2a^2}+\\frac{1-\\cos2\\theta}{2b^2}\\right)d\\theta=\\frac{\\pi}{4}R^4\\left(\\frac{1}{a^2}+\\frac{1}{b^2}\\right).$$",
+  "search_text": "设区域 $D:x^2+y^2\\leq R^2$，则 $\\iint_D(\\frac{x^2}{a^2}+\\frac{y^2}{b^2})dxdy=[\\quad]$ $\\pi R^4(a^2+b^2)$ $\\frac\\pi4R^4(\\frac1{a^2}+\\frac1{b^2})$ $\\frac\\pi3R^4\\sqrt{a^2+b^2}$ $\\frac\\pi2R^4\\frac1{a^2+b^2}$ 解答\n\n$$\\iint_D\\left(\\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\right)dxdy=\\int_0^{2\\pi}d\\theta\\int_0^R\\left(\\frac{r^2}{a^2}\\cos^2\\theta+\\frac{r^2}{b^2}\\sin^2\\theta\\right)rdr$$\n\n$$=\\frac{1}{4}R^4\\int_0^{2\\pi}\\left(\\frac{1+\\cos2\\theta}{2a^2}+\\frac{1-\\cos2\\theta}{2b^2}\\right)d\\theta=\\frac{\\pi}{4}R^4\\left(\\frac{1}{a^2}+\\frac{1}{b^2}\\right).$$",
+  "sort_order": 9
+}

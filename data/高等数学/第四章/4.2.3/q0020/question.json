@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "δ>0，f″>0，f(0)=f′(0)=0，I=∫₋δᵟf(x)dx，则",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "I=0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不能确定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "I<0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "I>0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "函数严格凸且在0处切线为零，故积分为正。",
+  "search_text": "δ>0，f″>0，f(0)=f′(0)=0，I=∫₋δᵟf(x)dx，则 I=0 不能确定 I<0 I>0 函数严格凸且在0处切线为零，故积分为正。",
+  "sort_order": 20
+}

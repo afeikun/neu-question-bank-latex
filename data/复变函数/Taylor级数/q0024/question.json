@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $e^z\\sin z$ 的 Taylor 展开式是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{(1+i)^n-(1-i)^n}{2i\\,n!}z^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{(1+i)^n-(1-i)^n}{2n!}z^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\frac{(1-i)^n-(1+i)^n}{2i\\,n!}z^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{(1-i)^n-(1+i)^n}{2n!}z^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$e^z\\sin z=(e^{(1+i)z}-e^{(1-i)z})/(2i)$。",
+  "search_text": "函数 $e^z\\sin z$ 的 Taylor 展开式是（ ） $\\sum_{n=0}^{\\infty}\\frac{(1+i)^n-(1-i)^n}{2i\\,n!}z^n$ $\\sum_{n=0}^{\\infty}\\frac{(1+i)^n-(1-i)^n}{2n!}z^n$ $\\sum_{n=1}^{\\infty}\\frac{(1-i)^n-(1+i)^n}{2i\\,n!}z^n$ $\\sum_{n=0}^{\\infty}\\frac{(1-i)^n-(1+i)^n}{2n!}z^n$ $e^z\\sin z=(e^{(1+i)z}-e^{(1-i)z})/(2i)$。",
+  "sort_order": 24
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线y=x²及y=√(2x−x²)围成区域绕x轴旋转体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(7/15)π"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(7/17)π"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(8/15)π"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(8/17)π"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两曲线交于(1,1)，V=π∫₀¹(2x−x²−x⁴)dx=7π/15。",
+  "search_text": "曲线y=x²及y=√(2x−x²)围成区域绕x轴旋转体积 (7/15)π (7/17)π (8/15)π (8/17)π 两曲线交于(1,1)，V=π∫₀¹(2x−x²−x⁴)dx=7π/15。",
+  "sort_order": 22
+}

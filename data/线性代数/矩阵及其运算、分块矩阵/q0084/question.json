@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 均为 $n\\times1$ 阶矩阵，记 $A=(\\alpha_1+\\alpha_2+\\alpha_3,\\alpha_1+2\\alpha_2+4\\alpha_3,\\alpha_1+3\\alpha_2+9\\alpha_3)$，$B=(\\alpha_1,\\alpha_2,\\alpha_3)$，如果 $|B|=1$，则 $|A|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $A=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}1&1&1\\\\1&2&3\\\\1&4&9\\end{pmatrix}=B\\begin{pmatrix}1&1&1\\\\1&2&3\\\\1&4&9\\end{pmatrix}$，所以 $|A|=|B|\\begin{vmatrix}1&1&1\\\\1&2&3\\\\1&4&9\\end{vmatrix}=2$。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 均为 $n\\times1$ 阶矩阵，记 $A=(\\alpha_1+\\alpha_2+\\alpha_3,\\alpha_1+2\\alpha_2+4\\alpha_3,\\alpha_1+3\\alpha_2+9\\alpha_3)$，$B=(\\alpha_1,\\alpha_2,\\alpha_3)$，如果 $|B|=1$，则 $|A|=$（ ）。 $2$ $4$ $6$ $8$ 由于 $A=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}1&1&1\\\\1&2&3\\\\1&4&9\\end{pmatrix}=B\\begin{pmatrix}1&1&1\\\\1&2&3\\\\1&4&9\\end{pmatrix}$，所以 $|A|=|B|\\begin{vmatrix}1&1&1\\\\1&2&3\\\\1&4&9\\end{vmatrix}=2$。",
+  "sort_order": 84
+}

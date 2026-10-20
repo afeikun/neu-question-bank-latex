@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程初值问题 $\\begin{cases}x\\prime\\prime+4x\\prime+3x=e^{-t},\\\\x(0)=x\\prime(0)=1\\end{cases}$ 的解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac12te^{-t}+\\dfrac74e^{-t}-\\dfrac34e^{-3t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac12te^{-t}-\\dfrac34e^{-3t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac12te^{-t}+\\dfrac74e^{-t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac12te^{-t}+\\dfrac74e^{-t}+\\dfrac34e^{-3t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$X(s)=\\dfrac1{(s+1)^2(s+3)}+\\dfrac{s+5}{(s+1)(s+3)}$。部分分式分解并反变换得 $x(t)=\\dfrac12te^{-t}+\\dfrac74e^{-t}-\\dfrac34e^{-3t}$。",
+  "search_text": "微分方程初值问题 $\\begin{cases}x\\prime\\prime+4x\\prime+3x=e^{-t},\\\\x(0)=x\\prime(0)=1\\end{cases}$ 的解为（ ）。 $\\dfrac12te^{-t}+\\dfrac74e^{-t}-\\dfrac34e^{-3t}$ $\\dfrac12te^{-t}-\\dfrac34e^{-3t}$ $\\dfrac12te^{-t}+\\dfrac74e^{-t}$ $\\dfrac12te^{-t}+\\dfrac74e^{-t}+\\dfrac34e^{-3t}$ $X(s)=\\dfrac1{(s+1)^2(s+3)}+\\dfrac{s+5}{(s+1)(s+3)}$。部分分式分解并反变换得 $x(t)=\\dfrac12te^{-t}+\\dfrac74e^{-t}-\\dfrac34e^{-3t}$。",
+  "sort_order": 9
+}

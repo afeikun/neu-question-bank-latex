@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\frac{x^2}{2}+\\frac{y^2}{2}-\\frac{z^2}{3}=0$ 表示的旋转曲面的旋转轴为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x$ 轴"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=y=z$ 直线"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z$ 轴"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y$ 轴"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：将方程改写为 $z^2=\\frac{3}{2}(x^2+y^2)$，易知旋转曲面为圆锥面，$z$ 轴为旋转轴。",
+  "search_text": "方程 $\\frac{x^2}{2}+\\frac{y^2}{2}-\\frac{z^2}{3}=0$ 表示的旋转曲面的旋转轴为(\\quad)。 $x$ 轴 $x=y=z$ 直线 $z$ 轴 $y$ 轴 解答：将方程改写为 $z^2=\\frac{3}{2}(x^2+y^2)$，易知旋转曲面为圆锥面，$z$ 轴为旋转轴。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\prime\\prime=\\frac{2xy\\prime-y^2}{x^2}$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=2x^2-C_1x+\\ln|x+C_1|+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac12x^2-C_1x+C_1^2\\ln|x+C_1|+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=2x^2+\\ln|x+C_1|+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac12x^2+C_1^2\\ln|x|+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解：令 $y'=p$，则 $y''=\\frac{dp}{dx}$，于是有\n\n$$\np'=\\frac{2xp-p^2}{x^2}，\n$$\n\n即\n\n$$\np'-\\frac{2p}{x}=-\\frac{p^2}{x^2}，\n$$\n\n这是 Bernoulli 方程。令\n\n$$\nz=p^{1-2}=p^{-1}，\n$$\n\n则上述方程化为\n\n$$\n\\frac{dz}{dx}+\\frac{2}{x}z=\\frac{1}{x^2}。\n$$\n\n所以\n\n$$\nz=e^{\\int -\\frac{2}{x}dx}\\left(\\int \\frac{1}{x^2}e^{\\int \\frac{2}{x}dx}dx+C_1\\right)=\\frac{1}{x^2}(x+C_1)，\n$$\n\n即\n\n$$\np^{-1}=\\frac{1}{x^2}(x+C_1)，\n$$\n\n也就是\n\n$$\n\\frac{dx}{dy}=\\frac{1}{x^2}(x+C_1)，\n$$\n\n分离变量并积分得原方程的通解为\n\n$$\ny=\\frac{1}{2}x^2-C_1x+C_1^2\\ln|x+C_1|+C_2。\n$$",
+  "search_text": "方程 $y\\prime\\prime=\\frac{2xy\\prime-y^2}{x^2}$ 的解为（ ） $y=2x^2-C_1x+\\ln|x+C_1|+C_2$ $y=\\frac12x^2-C_1x+C_1^2\\ln|x+C_1|+C_2$ $y=2x^2+\\ln|x+C_1|+C_2$ $y=\\frac12x^2+C_1^2\\ln|x|+C_2$ 解：令 $y'=p$，则 $y''=\\frac{dp}{dx}$，于是有\n\n$$\np'=\\frac{2xp-p^2}{x^2}，\n$$\n\n即\n\n$$\np'-\\frac{2p}{x}=-\\frac{p^2}{x^2}，\n$$\n\n这是 Bernoulli 方程。令\n\n$$\nz=p^{1-2}=p^{-1}，\n$$\n\n则上述方程化为\n\n$$\n\\frac{dz}{dx}+\\frac{2}{x}z=\\frac{1}{x^2}。\n$$\n\n所以\n\n$$\nz=e^{\\int -\\frac{2}{x}dx}\\left(\\int \\frac{1}{x^2}e^{\\int \\frac{2}{x}dx}dx+C_1\\right)=\\frac{1}{x^2}(x+C_1)，\n$$\n\n即\n\n$$\np^{-1}=\\frac{1}{x^2}(x+C_1)，\n$$\n\n也就是\n\n$$\n\\frac{dx}{dy}=\\frac{1}{x^2}(x+C_1)，\n$$\n\n分离变量并积分得原方程的通解为\n\n$$\ny=\\frac{1}{2}x^2-C_1x+C_1^2\\ln|x+C_1|+C_2。\n$$",
+  "sort_order": 4
+}

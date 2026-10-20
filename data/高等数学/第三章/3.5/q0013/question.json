@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "数列 $\\left\\{\\frac{n^5}{2^n}\\right\\}$ 的第（ ）项最大。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n=7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n=6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n=8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n=5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "考察 $g(x)=x^5/2^x$，其最大值点为 $x=5/\\ln2$，相邻整数比较得数列在 $n=7$ 处最大。",
+  "search_text": "数列 $\\left\\{\\frac{n^5}{2^n}\\right\\}$ 的第（ ）项最大。 $n=7$ $n=6$ $n=8$ $n=5$ 考察 $g(x)=x^5/2^x$，其最大值点为 $x=5/\\ln2$，相邻整数比较得数列在 $n=7$ 处最大。",
+  "sort_order": 13
+}

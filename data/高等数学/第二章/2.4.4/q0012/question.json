@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\ln(1+x)$ 在 $x=0$ 的线性化可表示为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1+x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f'(x)=\\frac1{1+x}$，故 $f'(0)=1$，且 $f(0)=0$。线性化为 $L(x)=f(0)+f'(0)x=x$。",
+  "search_text": "函数 $f(x)=\\ln(1+x)$ 在 $x=0$ 的线性化可表示为 $(\\quad)$。 $x$ $1+x$ $1-x$ $-x$ $f'(x)=\\frac1{1+x}$，故 $f'(0)=1$，且 $f(0)=0$。线性化为 $L(x)=f(0)+f'(0)x=x$。",
+  "sort_order": 12
+}

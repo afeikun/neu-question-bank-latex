@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知矩阵 $A=\\begin{pmatrix}2&2&0\\\\8&2&a\\\\0&0&6\\end{pmatrix}$ 相似于对角阵 $\\Lambda$，则 $a=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$A$ 的特征多项式为 $|\\lambda E-A|=\\begin{vmatrix}\\lambda-2&-2&0\\\\-8&\\lambda-2&-a\\\\0&0&\\lambda-6\\end{vmatrix}=(\\lambda-2)^2(\\lambda-6)$。因为 $A$ 相似于对角阵，所以属于特征值 $6$ 的线性无关的特征向量的个数为 $2$，即矩阵 $6E-A$ 的秩为 $1$，易得 $a=0$。",
+  "search_text": "已知矩阵 $A=\\begin{pmatrix}2&2&0\\\\8&2&a\\\\0&0&6\\end{pmatrix}$ 相似于对角阵 $\\Lambda$，则 $a=$（ ）。 $0$ $-1$ $2$ $1$ $A$ 的特征多项式为 $|\\lambda E-A|=\\begin{vmatrix}\\lambda-2&-2&0\\\\-8&\\lambda-2&-a\\\\0&0&\\lambda-6\\end{vmatrix}=(\\lambda-2)^2(\\lambda-6)$。因为 $A$ 相似于对角阵，所以属于特征值 $6$ 的线性无关的特征向量的个数为 $2$，即矩阵 $6E-A$ 的秩为 $1$，易得 $a=0$。",
+  "sort_order": 25
+}

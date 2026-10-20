@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to a}\\frac{\\sin x-\\sin a}{x-a}$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "极限存在，但不能求出"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sin a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "利用和差化积，极限为 $\\cos a$。",
+  "search_text": "$\\lim_{x\\to a}\\frac{\\sin x-\\sin a}{x-a}$（ ）。 极限存在，但不能求出 $\\cos a$ $\\sin a$ 0 利用和差化积，极限为 $\\cos a$。",
+  "sort_order": 11
+}

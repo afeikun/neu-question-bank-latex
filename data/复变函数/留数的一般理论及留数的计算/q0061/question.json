@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z_0$ 是 $f(z)$ 的 $n$ 级零点（$n$ 为正整数），是 $g(z)$ 的可去奇点，则 $\\operatorname{Res}[f(z)g(z),z_0]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f^{(n)}(z_0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f^{(n-1)}(z_0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f^{(n-1)}(z_0)g(z_0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f$ 与 $g$ 在 $z_0$ 均解析，乘积解析，故留数为 $0$。",
+  "search_text": "设 $z_0$ 是 $f(z)$ 的 $n$ 级零点（$n$ 为正整数），是 $g(z)$ 的可去奇点，则 $\\operatorname{Res}[f(z)g(z),z_0]=(\\ \\ )$。 $0$ $f^{(n)}(z_0)$ $f^{(n-1)}(z_0)$ $f^{(n-1)}(z_0)g(z_0)$ $f$ 与 $g$ 在 $z_0$ 均解析，乘积解析，故留数为 $0$。",
+  "sort_order": 61
+}

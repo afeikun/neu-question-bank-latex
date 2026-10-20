@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "分段函数f(x)=x/6 (0≤x<3)，(4−x)/2 (3≤x≤5)，φ(x)=∫₀ˣf(t)dt，判断x=3",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "φ在3可导且φ′(3)有限"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "φ在3连续但不可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "φ在3不连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "φ′(3)=∞"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "f在3连续，积分函数可导且φ′(3)=f(3)=1/2。",
+  "search_text": "分段函数f(x)=x/6 (0≤x<3)，(4−x)/2 (3≤x≤5)，φ(x)=∫₀ˣf(t)dt，判断x=3 φ在3可导且φ′(3)有限 φ在3连续但不可导 φ在3不连续 φ′(3)=∞ f在3连续，积分函数可导且φ′(3)=f(3)=1/2。",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(21,2^2)$，容量25样本均值的期望和方差为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$21,0.16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$20,0.16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$20,0.1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$16,0.5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\bar X)=21,D(\\bar X)=4/25=0.16$。",
+  "search_text": "$X\\sim N(21,2^2)$，容量25样本均值的期望和方差为（）。 $21,0.16$ $20,0.16$ $20,0.1$ $16,0.5$ $E(\\bar X)=21,D(\\bar X)=4/25=0.16$。",
+  "sort_order": 25
+}

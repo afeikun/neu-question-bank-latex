@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)=\\begin{cases}\\frac{\\cos x}{x},&x<0,\\\\\\frac{x^2+x+1}{2x^3},&x\\ge0,\\end{cases}$，则 $\\lim_{x\\to-\\infty}f(x)=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to-\\infty}\\cos x/x=0$。",
+  "search_text": "已知 $f(x)=\\begin{cases}\\frac{\\cos x}{x},&x<0,\\\\\\frac{x^2+x+1}{2x^3},&x\\ge0,\\end{cases}$，则 $\\lim_{x\\to-\\infty}f(x)=$（ ）。 不存在 $-1$ $1$ $0$ $\\lim_{x\\to-\\infty}\\cos x/x=0$。",
+  "sort_order": 22
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim E(\\lambda)$，密度$f(x)=\\lambda e^{-\\lambda x}$（$x>0$），求$k$阶原点矩$\\gamma_k$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k!/\\lambda^k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k/\\lambda$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k!/\\lambda$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k/\\lambda^k$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\gamma_k=E(X^k)=\\int_0^\\infty x^k\\lambda e^{-\\lambda x}dx=k!/\\lambda^k$。",
+  "search_text": "$X\\sim E(\\lambda)$，密度$f(x)=\\lambda e^{-\\lambda x}$（$x>0$），求$k$阶原点矩$\\gamma_k$。 $k!/\\lambda^k$ $k/\\lambda$ $k!/\\lambda$ $k/\\lambda^k$ $\\gamma_k=E(X^k)=\\int_0^\\infty x^k\\lambda e^{-\\lambda x}dx=k!/\\lambda^k$。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f(x)=d/dx ∫₀ˣ sin(t−x)dt，求f(x)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "−sinx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "sinx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "−1+cosx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1−cosx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "直接对参数积分求导，化简为−sinx。",
+  "search_text": "f(x)=d/dx ∫₀ˣ sin(t−x)dt，求f(x) −sinx sinx −1+cosx 1−cosx 直接对参数积分求导，化简为−sinx。",
+  "sort_order": 11
+}

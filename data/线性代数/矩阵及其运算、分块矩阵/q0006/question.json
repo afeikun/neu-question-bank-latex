@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $B=\\begin{bmatrix}0&1&2\\\\-3&4&0\\\\-1&3&-2\\end{bmatrix}$，$C=\\begin{bmatrix}4&-1&2\\\\-1&-4&0\\\\1&5&-2\\end{bmatrix}$，如果 $\\begin{cases}X+Y=B,\\\\3X-Y=C\\end{cases}$ 成立，则 $X-Y=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{bmatrix}0&1&2\\\\-3&4&0\\\\-1&3&-2\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{bmatrix}1&0&1\\\\-1&0&0\\\\0&2&-1\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{bmatrix}-1&1&1\\\\-2&4&0\\\\-1&1&-1\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{bmatrix}2&-1&0\\\\1&-4&0\\\\1&1&0\\end{bmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$X=\\frac14(B+C)=\\begin{bmatrix}1&0&1\\\\-1&0&0\\\\0&2&-1\\end{bmatrix}$，$Y=B-X=\\begin{bmatrix}-1&1&1\\\\-2&4&0\\\\-1&1&-1\\end{bmatrix}$，则有 $X-Y=\\begin{bmatrix}2&-1&0\\\\1&-4&0\\\\1&1&0\\end{bmatrix}$。",
+  "search_text": "设 $B=\\begin{bmatrix}0&1&2\\\\-3&4&0\\\\-1&3&-2\\end{bmatrix}$，$C=\\begin{bmatrix}4&-1&2\\\\-1&-4&0\\\\1&5&-2\\end{bmatrix}$，如果 $\\begin{cases}X+Y=B,\\\\3X-Y=C\\end{cases}$ 成立，则 $X-Y=$（ ）。 $\\begin{bmatrix}0&1&2\\\\-3&4&0\\\\-1&3&-2\\end{bmatrix}$ $\\begin{bmatrix}1&0&1\\\\-1&0&0\\\\0&2&-1\\end{bmatrix}$ $\\begin{bmatrix}-1&1&1\\\\-2&4&0\\\\-1&1&-1\\end{bmatrix}$ $\\begin{bmatrix}2&-1&0\\\\1&-4&0\\\\1&1&0\\end{bmatrix}$ $X=\\frac14(B+C)=\\begin{bmatrix}1&0&1\\\\-1&0&0\\\\0&2&-1\\end{bmatrix}$，$Y=B-X=\\begin{bmatrix}-1&1&1\\\\-2&4&0\\\\-1&1&-1\\end{bmatrix}$，则有 $X-Y=\\begin{bmatrix}2&-1&0\\\\1&-4&0\\\\1&1&0\\end{bmatrix}$。",
+  "sort_order": 6
+}

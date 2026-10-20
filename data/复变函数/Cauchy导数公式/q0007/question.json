@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为 $|z|=1$ 正向，则 $\\frac1{2\\pi i}\\oint_C\\frac{e^{z^3}\\ln^2(1+z)}{z^2}dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $f(z)=e^{z^3}\\ln^2(1+z)$，公式得 $f'(0)=0$。",
+  "search_text": "设 $C$ 为 $|z|=1$ 正向，则 $\\frac1{2\\pi i}\\oint_C\\frac{e^{z^3}\\ln^2(1+z)}{z^2}dz$ 等于（ ）。 $0$ $2\\pi i$ $1$ $2$ 令 $f(z)=e^{z^3}\\ln^2(1+z)$，公式得 $f'(0)=0$。",
+  "sort_order": 7
+}

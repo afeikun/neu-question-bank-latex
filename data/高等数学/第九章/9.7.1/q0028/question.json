@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=R^2$ 的外侧，$V$ 是球的体积，则 $\\iint_\\Sigma xdy\\,dz+ydz\\,dx+zdx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12V$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$V^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5V$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3V$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由高斯公式 $\\oiint_{\\Sigma}=\\iiint_{\\Omega}(1+1+1)dv=3\\iiint_{\\Omega}dv=3V$",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=R^2$ 的外侧，$V$ 是球的体积，则 $\\iint_\\Sigma xdy\\,dz+ydz\\,dx+zdx\\,dy=$（ ） $12V$ $V^2$ $5V$ $3V$ 由高斯公式 $\\oiint_{\\Sigma}=\\iiint_{\\Omega}(1+1+1)dv=3\\iiint_{\\Omega}dv=3V$",
+  "sort_order": 28
+}

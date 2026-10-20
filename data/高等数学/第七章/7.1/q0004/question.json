@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=\\frac{xy}{x+y}$，则 $f(x+y,x-y)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x^2+y^2}{2xy}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x^2-y^2}{2x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x+y^2}{x+y}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{(x-y)^2}{xy}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f(x+y,x-y)=\\frac{(x+y)(x-y)}{(x+y)+(x-y)}=\\frac{x^2-y^2}{2x}.$",
+  "search_text": "设 $f(x,y)=\\frac{xy}{x+y}$，则 $f(x+y,x-y)=(\\quad)$。 $\\frac{x^2+y^2}{2xy}$ $\\frac{x^2-y^2}{2x}$ $\\frac{x+y^2}{x+y}$ $\\frac{(x-y)^2}{xy}$ $f(x+y,x-y)=\\frac{(x+y)(x-y)}{(x+y)+(x-y)}=\\frac{x^2-y^2}{2x}.$",
+  "sort_order": 4
+}

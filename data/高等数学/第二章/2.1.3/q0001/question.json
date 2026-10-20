@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f\\prime(\\pi)$ 表示（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "曲线 $y=f(x)$ 在点 $(\\pi,f(\\pi))$ 的切线倾角"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[f(\\pi)]\\prime$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "曲线 $y=f(x)$ 的切线斜率"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "导函数 $f\\prime(x)$ 在 $x=\\pi$ 时的值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f\\prime(\\pi)$ 表示导函数在 $x=\\pi$ 处的值，也就是曲线在对应点的切线斜率。",
+  "search_text": "$f\\prime(\\pi)$ 表示（ ）。 曲线 $y=f(x)$ 在点 $(\\pi,f(\\pi))$ 的切线倾角 $[f(\\pi)]\\prime$ 曲线 $y=f(x)$ 的切线斜率 导函数 $f\\prime(x)$ 在 $x=\\pi$ 时的值 $f\\prime(\\pi)$ 表示导函数在 $x=\\pi$ 处的值，也就是曲线在对应点的切线斜率。",
+  "sort_order": 1
+}

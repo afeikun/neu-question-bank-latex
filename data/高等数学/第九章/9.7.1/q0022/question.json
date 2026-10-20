@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=R^2$ 的外侧，计算 $\\iint_\\Sigma\\frac{xy\\,dz+z^2\\,dx\\,dy}{(x^2+y^2+z^2)^{1/2}}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi R^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac43\\pi R^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13\\pi R^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac23\\pi R^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n将 $x^2+y^2+z^2=R^2$ 直接代入被积函数中得\n\n原式 $=\\frac{1}{R}\\oiint_{\\Sigma}xydzdy+z^2dxdy=\\frac{1}{R}\\iiint_{x^2+y^2+z^2\\le R^2}(1+2z)dxdydz$\n\n$$=\\frac{1}{R}\\iiint_{x^2+y^2+z^2\\le R^2}1dxdydz=\\frac{4}{3}\\pi R^3$$",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=R^2$ 的外侧，计算 $\\iint_\\Sigma\\frac{xy\\,dz+z^2\\,dx\\,dy}{(x^2+y^2+z^2)^{1/2}}=$（ ） $\\pi R^2$ $-\\frac43\\pi R^2$ $\\frac13\\pi R^2$ $\\frac23\\pi R^2$ 参考答案：\n\n将 $x^2+y^2+z^2=R^2$ 直接代入被积函数中得\n\n原式 $=\\frac{1}{R}\\oiint_{\\Sigma}xydzdy+z^2dxdy=\\frac{1}{R}\\iiint_{x^2+y^2+z^2\\le R^2}(1+2z)dxdydz$\n\n$$=\\frac{1}{R}\\iiint_{x^2+y^2+z^2\\le R^2}1dxdydz=\\frac{4}{3}\\pi R^3$$",
+  "sort_order": 22
+}

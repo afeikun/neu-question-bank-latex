@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $xy\\prime=x+y$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{x/(2y)}=C_1x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{x/y}=C_1x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{2y/x}=C_1x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{y/x}=C_1x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 原方程 $x\\frac{dy}{dx}=x+y$，可化为\n\n$$\nxdy-ydx=xdx，\n$$\n\n两边同时乘以 $\\frac{1}{x^2}$，得\n\n$$\n\\frac{xdy-ydx}{x^2}=\\frac{xdx}{x^2}，\n$$\n\n即\n\n$$\nd\\left(\\frac{y}{x}\\right)=d(\\ln|x|)，\n$$\n\n两边积分：\n\n$$\n\\frac{y}{x}=\\ln|x|+C_1，\n$$\n\n去掉对数得\n\n$$\ne^{y/x}=C_1x。\n$$",
+  "search_text": "微分方程 $xy\\prime=x+y$ 的通解为（ ） $e^{x/(2y)}=C_1x$ $e^{x/y}=C_1x$ $e^{2y/x}=C_1x$ $e^{y/x}=C_1x$ 解答 原方程 $x\\frac{dy}{dx}=x+y$，可化为\n\n$$\nxdy-ydx=xdx，\n$$\n\n两边同时乘以 $\\frac{1}{x^2}$，得\n\n$$\n\\frac{xdy-ydx}{x^2}=\\frac{xdx}{x^2}，\n$$\n\n即\n\n$$\nd\\left(\\frac{y}{x}\\right)=d(\\ln|x|)，\n$$\n\n两边积分：\n\n$$\n\\frac{y}{x}=\\ln|x|+C_1，\n$$\n\n去掉对数得\n\n$$\ne^{y/x}=C_1x。\n$$",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{\\ln\\cos ax}{\\ln\\cos bx}\\ (b\\ne0)$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$b^2/a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a^2/b^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\ln\\cos(ax)\\sim-a^2x^2/2$，分母类似，商极限为 $a^2/b^2$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{\\ln\\cos ax}{\\ln\\cos bx}\\ (b\\ne0)$ 的值为（ ）。 $b^2/a^2$ $0$ $a^2/b^2$ $\\infty$ $\\ln\\cos(ax)\\sim-a^2x^2/2$，分母类似，商极限为 $a^2/b^2$。",
+  "sort_order": 9
+}

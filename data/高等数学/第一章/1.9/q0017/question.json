@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=0$ 是 $f(x)=\\frac{e^x-b}{(x-a)(x-1)}$ 的无穷间断点，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=0,b=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=1,b\\ne1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=0,b\\ne1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=0,b=-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x=0$ 为无穷间断点要求 $a=0$；且 $\\lim_{x\\to0}\\frac{e^x-1}{x(x-1)}=-1$，故 $b\\ne1$。",
+  "search_text": "$x=0$ 是 $f(x)=\\frac{e^x-b}{(x-a)(x-1)}$ 的无穷间断点，则（ ）。 $a=0,b=1$ $a=1,b\\ne1$ $a=0,b\\ne1$ $a=0,b=-1$ $x=0$ 为无穷间断点要求 $a=0$；且 $\\lim_{x\\to0}\\frac{e^x-1}{x(x-1)}=-1$，故 $b\\ne1$。",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=(1,-1,2,4),\\ \\alpha_2=(0,3,1,2),\\ \\alpha_3=(3,0,7,14),\\ \\alpha_4=(1,-2,2,0),\\ \\alpha_5=(1,2,3,6)$，则向量组 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 的极大无关组是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_4,\\alpha_5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\alpha_3=3\\alpha_1+\\alpha_2$ 且 $\\alpha_5=\\alpha_1+\\alpha_2$，因此 $\\alpha_1,\\alpha_2,\\alpha_4$ 构成极大无关组。",
+  "search_text": "设 $\\alpha_1=(1,-1,2,4),\\ \\alpha_2=(0,3,1,2),\\ \\alpha_3=(3,0,7,14),\\ \\alpha_4=(1,-2,2,0),\\ \\alpha_5=(1,2,3,6)$，则向量组 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 的极大无关组是（ ）。 $\\alpha_1,\\alpha_2,\\alpha_3$ $\\alpha_1,\\alpha_2,\\alpha_5$ $\\alpha_1,\\alpha_2,\\alpha_4$ $\\alpha_1,\\alpha_2,\\alpha_4,\\alpha_5$ $\\alpha_3=3\\alpha_1+\\alpha_2$ 且 $\\alpha_5=\\alpha_1+\\alpha_2$，因此 $\\alpha_1,\\alpha_2,\\alpha_4$ 构成极大无关组。",
+  "sort_order": 11
+}

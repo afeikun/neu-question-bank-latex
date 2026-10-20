@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\frac{\\ln x}{x}$，则使 $\\frac{\\ln a}{a}>\\frac{\\ln b}{b}$ 成立的条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0<b<a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e<a<b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0<a<b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e<b<a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f\\prime(x)=\\frac{1-\\ln x}{x^2}$，故 $f$ 在 $(e,+\\infty)$ 上递减；当 $e<a<b$ 时 $f(a)>f(b)$。",
+  "search_text": "$f(x)=\\frac{\\ln x}{x}$，则使 $\\frac{\\ln a}{a}>\\frac{\\ln b}{b}$ 成立的条件是（ ）。 $0<b<a$ $e<a<b$ $0<a<b$ $e<b<a$ $f\\prime(x)=\\frac{1-\\ln x}{x^2}$，故 $f$ 在 $(e,+\\infty)$ 上递减；当 $e<a<b$ 时 $f(a)>f(b)$。",
+  "sort_order": 11
+}

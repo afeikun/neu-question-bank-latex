@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $Q(x,y)$ 在平面有一阶连续偏导数，曲线积分与路径无关，且对任意 $t$，$\\int_{(0,0)}^{(t,1)}2xy\\,dx+Q(x,y)\\,dy=\\int_{(0,0)}^{(1,t)}2xy\\,dx+Q(x,y)\\,dy$，则 $Q(x,y)=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2+2y-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2x^2+2y-12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2+y-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2+2y+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n由曲线积分与路径无关的条件知 $\\frac{\\partial Q}{\\partial x}=2x$，于是\n\n$$Q(x,y)=x^2+C(y)，$$\n\n其中 $C(y)$ 为待定函数。\n\n$$\\int_{(0,0)}^{(t,1)}2xy\\,dx+Q(x,y)\\,dy=\\int_0^1(t^2+C(y))\\,dy=t^2+\\int_0^1C(y)\\,dy，$$\n\n$$\\int_{(0,0)}^{(1,t)}2xy\\,dx+Q(x,y)\\,dy=\\int_0^t(1+C(y))\\,dy=t+\\int_0^tC(y)\\,dy，$$\n\n由题意知 $t^2+\\int_0^1C(y)\\,dy=t+\\int_0^tC(y)\\,dy$\n\n两边对 $t$ 求导，得 $2t=1+C(t)$ 或 $C(t)=2t-1$\n\n所以 $Q(x,y)=x^2+2y-1$",
+  "search_text": "设函数 $Q(x,y)$ 在平面有一阶连续偏导数，曲线积分与路径无关，且对任意 $t$，$\\int_{(0,0)}^{(t,1)}2xy\\,dx+Q(x,y)\\,dy=\\int_{(0,0)}^{(1,t)}2xy\\,dx+Q(x,y)\\,dy$，则 $Q(x,y)=$（ ） $x^2+2y-1$ $2x^2+2y-12$ $x^2+y-1$ $x^2+2y+1$ 解析：\n\n由曲线积分与路径无关的条件知 $\\frac{\\partial Q}{\\partial x}=2x$，于是\n\n$$Q(x,y)=x^2+C(y)，$$\n\n其中 $C(y)$ 为待定函数。\n\n$$\\int_{(0,0)}^{(t,1)}2xy\\,dx+Q(x,y)\\,dy=\\int_0^1(t^2+C(y))\\,dy=t^2+\\int_0^1C(y)\\,dy，$$\n\n$$\\int_{(0,0)}^{(1,t)}2xy\\,dx+Q(x,y)\\,dy=\\int_0^t(1+C(y))\\,dy=t+\\int_0^tC(y)\\,dy，$$\n\n由题意知 $t^2+\\int_0^1C(y)\\,dy=t+\\int_0^tC(y)\\,dy$\n\n两边对 $t$ 求导，得 $2t=1+C(t)$ 或 $C(t)=2t-1$\n\n所以 $Q(x,y)=x^2+2y-1$",
+  "sort_order": 17
+}

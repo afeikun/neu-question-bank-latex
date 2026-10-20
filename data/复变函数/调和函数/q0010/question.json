@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=x^2-y^2+xy$，则 $u$ 的共轭调和函数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac12x^2+\\frac12y^2+2xy+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12x^2+\\frac12y^2+2xy+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac12x^2-\\frac12y^2+2xy+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12x^2+\\frac12y^2-2xy+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$v_y=u_x=2x+y$，$v_x=-u_y=2y-x$，积分得 $v=-\\frac12x^2+2xy+\\frac12y^2+C$。",
+  "search_text": "设 $u=x^2-y^2+xy$，则 $u$ 的共轭调和函数为（ ）。 $-\\frac12x^2+\\frac12y^2+2xy+C$ $\\frac12x^2+\\frac12y^2+2xy+C$ $-\\frac12x^2-\\frac12y^2+2xy+C$ $-\\frac12x^2+\\frac12y^2-2xy+C$ $v_y=u_x=2x+y$，$v_x=-u_y=2y-x$，积分得 $v=-\\frac12x^2+2xy+\\frac12y^2+C$。",
+  "sort_order": 10
+}

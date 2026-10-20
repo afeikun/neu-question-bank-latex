@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\frac{dz}{z^2(z-1)^3}=6\\pi i$，积分路径 $C$（正向简单闭曲线）应（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "包含1而不包含0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "包含0而不包含1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "包含0,1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不包含0,1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "只有包围 $z=1$ 时积分为 $6\\pi i$。",
+  "search_text": "为使 $\\oint_C\\frac{dz}{z^2(z-1)^3}=6\\pi i$，积分路径 $C$（正向简单闭曲线）应（ ）。 包含1而不包含0 包含0而不包含1 包含0,1 不包含0,1 只有包围 $z=1$ 时积分为 $6\\pi i$。",
+  "sort_order": 25
+}

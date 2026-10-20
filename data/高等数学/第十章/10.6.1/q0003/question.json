@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime+y\\prime-2y=e^{-2x}\\sin x$ 的一个特解为 $y^*=(\\frac3{10}\\cos x-\\frac1{10}\\sin x)e^{-2x}$，则其通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^x+C_2e^{-2x}+(\\frac1{10}\\cos x-\\frac7{10}\\sin x)e^{-2x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{2x}+(\\frac3{10}\\cos x-\\frac1{10}\\sin x)e^{-x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{-x}+C_2e^{2x}+(\\frac1{10}\\cos x-\\frac7{10}\\sin x)e^{-x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^x+C_2e^{-2x}+(\\frac3{10}\\cos x-\\frac1{10}\\sin x)e^{-2x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2+\\lambda-2=0$，其特征根为 $\\lambda_1=-2,\\lambda_2=1$。因此对应的齐次方程的通解为\n\n$$C_1e^x+C_2e^{-2x}.$$\n\n又非齐次方程的特解为 $y^*=\\left(\\frac3{10}\\cos x-\\frac1{10}\\sin x\\right)e^{-2x}$。\n\n所以，原方程得通解为 $y=C_1e^x+C_2e^{-2x}+\\left(\\frac3{10}\\cos x-\\frac1{10}\\sin x\\right)e^{-2x}$。\n\n因此选 D。",
+  "search_text": "微分方程 $y\\prime\\prime+y\\prime-2y=e^{-2x}\\sin x$ 的一个特解为 $y^*=(\\frac3{10}\\cos x-\\frac1{10}\\sin x)e^{-2x}$，则其通解为（ ） $y=C_1e^x+C_2e^{-2x}+(\\frac1{10}\\cos x-\\frac7{10}\\sin x)e^{-2x}$ $y=C_1e^x+C_2e^{2x}+(\\frac3{10}\\cos x-\\frac1{10}\\sin x)e^{-x}$ $y=C_1e^{-x}+C_2e^{2x}+(\\frac1{10}\\cos x-\\frac7{10}\\sin x)e^{-x}$ $y=C_1e^x+C_2e^{-2x}+(\\frac3{10}\\cos x-\\frac1{10}\\sin x)e^{-2x}$ 解答 齐次方程的特征方程为 $\\lambda^2+\\lambda-2=0$，其特征根为 $\\lambda_1=-2,\\lambda_2=1$。因此对应的齐次方程的通解为\n\n$$C_1e^x+C_2e^{-2x}.$$\n\n又非齐次方程的特解为 $y^*=\\left(\\frac3{10}\\cos x-\\frac1{10}\\sin x\\right)e^{-2x}$。\n\n所以，原方程得通解为 $y=C_1e^x+C_2e^{-2x}+\\left(\\frac3{10}\\cos x-\\frac1{10}\\sin x\\right)e^{-2x}$。\n\n因此选 D。",
+  "sort_order": 3
+}

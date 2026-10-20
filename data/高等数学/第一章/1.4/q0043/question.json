@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\lim_{x\\to0^+}e^{-\\sqrt{x}}$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\infty$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "当 $x\\to0^+$ 时 $-\\sqrt{x}\\to0$，故极限为 $e^0=1$。",
+  "search_text": "求 $\\lim_{x\\to0^+}e^{-\\sqrt{x}}$（ ）。 $\\infty$ $-\\infty$ 0 1 当 $x\\to0^+$ 时 $-\\sqrt{x}\\to0$，故极限为 $e^0=1$。",
+  "sort_order": 43
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知曲线的切线在 $y$ 轴截距等于切点横坐标，求微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x\\frac{dy}{dx}=\\frac yx-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x\\frac{dy}{dx}=y-x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{dy}{dx}=y-x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x\\frac{dy}{dx}=y+x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：设曲线方程为 $y=y(x)$，其上一点的坐标为 $(x,y)$，过该点的切线方程为 $Y-y=\\frac{dy}{dx}(X-x)$\n\n所以 $y$ 轴上的截距为 $y-x\\frac{dy}{dx}$，依题意满足 $y-x\\frac{dy}{dx}=x$。",
+  "search_text": "已知曲线的切线在 $y$ 轴截距等于切点横坐标，求微分方程。 $x\\frac{dy}{dx}=\\frac yx-1$ $x\\frac{dy}{dx}=y-x$ $\\frac{dy}{dx}=y-x$ $x\\frac{dy}{dx}=y+x$ 解析：设曲线方程为 $y=y(x)$，其上一点的坐标为 $(x,y)$，过该点的切线方程为 $Y-y=\\frac{dy}{dx}(X-x)$\n\n所以 $y$ 轴上的截距为 $y-x\\frac{dy}{dx}$，依题意满足 $y-x\\frac{dy}{dx}=x$。",
+  "sort_order": 28
+}

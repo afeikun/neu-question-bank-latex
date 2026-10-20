@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n$ 维基本单位向量 $e_1,e_2,\\ldots,e_n$ 均可由向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 线性表示，则向量个数 $n$、$r$ 的关系为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n\\ge r$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n>r$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n<r$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n\\le r$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "所有 $n$ 个单位向量张成 $n$ 维空间，而它们都由 $r$ 个向量表示，因此 $n\\le r$。",
+  "search_text": "$n$ 维基本单位向量 $e_1,e_2,\\ldots,e_n$ 均可由向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 线性表示，则向量个数 $n$、$r$ 的关系为（ ）。 $n\\ge r$ $n>r$ $n<r$ $n\\le r$ 所有 $n$ 个单位向量张成 $n$ 维空间，而它们都由 $r$ 个向量表示，因此 $n\\le r$。",
+  "sort_order": 7
+}

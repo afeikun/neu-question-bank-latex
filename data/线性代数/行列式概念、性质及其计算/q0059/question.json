@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "三阶行列式 $D=\\begin{vmatrix}x&y&x+y\\\\y&x+y&x\\\\x+y&x&y\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^3+y^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2(x^3+y^3)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-(x^3+y^3)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2(x^3+y^3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将三列相加得出因子 $2(x+y)$，再作行变换计算，$D=-2(x^3+y^3)$。",
+  "search_text": "三阶行列式 $D=\\begin{vmatrix}x&y&x+y\\\\y&x+y&x\\\\x+y&x&y\\end{vmatrix}$ 等于（ ）。 $x^3+y^3$ $2(x^3+y^3)$ $-(x^3+y^3)$ $-2(x^3+y^3)$ 将三列相加得出因子 $2(x+y)$，再作行变换计算，$D=-2(x^3+y^3)$。",
+  "sort_order": 59
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 在点 $x_0$ 连续，且在 $x_0$ 的一空心邻域内有 $f(x)>0$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x_0)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x_0)<0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x_0)\\ge0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x_0)>0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由连续性和极限性质知 $f(x_0)\\ge0$，不一定严格大于 $0$。",
+  "search_text": "设函数 $f(x)$ 在点 $x_0$ 连续，且在 $x_0$ 的一空心邻域内有 $f(x)>0$，则（ ）。 $f(x_0)=0$ $f(x_0)<0$ $f(x_0)\\ge0$ $f(x_0)>0$ 由连续性和极限性质知 $f(x_0)\\ge0$，不一定严格大于 $0$。",
+  "sort_order": 76
+}

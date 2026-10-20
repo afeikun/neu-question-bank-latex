@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算半径为 $R$、中心角为 $2\\alpha$ 的圆弧 $L$（线密度为 $1$）对于它的对称轴的转动惯量 $I=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$R^3(\\alpha+\\sin\\alpha\\cos\\alpha)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$R^2(\\alpha+\\sin\\alpha\\cos\\alpha)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$R^2(\\alpha-\\sin\\alpha\\cos\\alpha)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$R^3(\\alpha-\\sin\\alpha\\cos\\alpha)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "图示标记：$O$，$x$、$y$，$\\alpha$，$R$，$L$。\n\n解答 建立坐标系如图，则\n\n$\\displaystyle L:\\begin{cases}x=R\\cos\\theta\\\\y=R\\sin\\theta\\end{cases}\\quad(-\\alpha\\leq\\theta\\leq\\alpha)$\n\n$$\n\\begin{aligned}\nI&=\\int_Ly^2\\,ds=\\int_{-\\alpha}^{\\alpha}R^2\\sin^2\\theta\\sqrt{(-R\\sin\\theta)^2+(R\\cos\\theta)^2}\\,d\\theta\\\\\n&=R^3\\int_{-\\alpha}^{\\alpha}\\sin^2\\theta\\,d\\theta\n=2R^3\\left[\\frac{\\theta}{2}-\\frac{\\sin2\\theta}{4}\\right]_0^\\alpha\\\\\n&=R^3(\\alpha-\\sin\\alpha\\cos\\alpha)。\n\\end{aligned}\n$$",
+  "search_text": "计算半径为 $R$、中心角为 $2\\alpha$ 的圆弧 $L$（线密度为 $1$）对于它的对称轴的转动惯量 $I=$（ ） $R^3(\\alpha+\\sin\\alpha\\cos\\alpha)$ $R^2(\\alpha+\\sin\\alpha\\cos\\alpha)$ $R^2(\\alpha-\\sin\\alpha\\cos\\alpha)$ $R^3(\\alpha-\\sin\\alpha\\cos\\alpha)$ 图示标记：$O$，$x$、$y$，$\\alpha$，$R$，$L$。\n\n解答 建立坐标系如图，则\n\n$\\displaystyle L:\\begin{cases}x=R\\cos\\theta\\\\y=R\\sin\\theta\\end{cases}\\quad(-\\alpha\\leq\\theta\\leq\\alpha)$\n\n$$\n\\begin{aligned}\nI&=\\int_Ly^2\\,ds=\\int_{-\\alpha}^{\\alpha}R^2\\sin^2\\theta\\sqrt{(-R\\sin\\theta)^2+(R\\cos\\theta)^2}\\,d\\theta\\\\\n&=R^3\\int_{-\\alpha}^{\\alpha}\\sin^2\\theta\\,d\\theta\n=2R^3\\left[\\frac{\\theta}{2}-\\frac{\\sin2\\theta}{4}\\right]_0^\\alpha\\\\\n&=R^3(\\alpha-\\sin\\alpha\\cos\\alpha)。\n\\end{aligned}\n$$",
+  "sort_order": 12
+}

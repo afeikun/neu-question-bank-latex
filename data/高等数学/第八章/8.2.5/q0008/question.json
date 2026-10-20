@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "立体 $\\Omega$ 是球体 $x^2+y^2+z^2\\leq1$ 位于第一卦限部分，体密度为常数 $\\rho_0$，则该立体 $\\Omega$ 的质心坐标为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac12,\\frac12,\\frac12)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac27,\\frac27,\\frac27)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac13,\\frac13,\\frac13)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac38,\\frac38,\\frac38)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设质心坐标为 $(\\bar{x},\\bar{y},\\bar{z})$，由立体结构知 $\\bar{x}=\\bar{y}=\\bar{z}$，\n而\n$$\n\\bar{z}=\\frac{\\rho_0\\cdot\\iiint_\\Omega z\\,dv}{\\rho_0\\cdot\\iiint_\\Omega1\\,dv}\n=\\frac{\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^1r^3\\sin\\varphi\\cos\\varphi\\,dr}{\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^1r^2\\sin\\varphi\\,dr}\n=\\frac{3}{8}.\n$$",
+  "search_text": "立体 $\\Omega$ 是球体 $x^2+y^2+z^2\\leq1$ 位于第一卦限部分，体密度为常数 $\\rho_0$，则该立体 $\\Omega$ 的质心坐标为（ ） $(\\frac12,\\frac12,\\frac12)$ $(\\frac27,\\frac27,\\frac27)$ $(\\frac13,\\frac13,\\frac13)$ $(\\frac38,\\frac38,\\frac38)$ 设质心坐标为 $(\\bar{x},\\bar{y},\\bar{z})$，由立体结构知 $\\bar{x}=\\bar{y}=\\bar{z}$，\n而\n$$\n\\bar{z}=\\frac{\\rho_0\\cdot\\iiint_\\Omega z\\,dv}{\\rho_0\\cdot\\iiint_\\Omega1\\,dv}\n=\\frac{\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^1r^3\\sin\\varphi\\cos\\varphi\\,dr}{\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^1r^2\\sin\\varphi\\,dr}\n=\\frac{3}{8}.\n$$",
+  "sort_order": 8
+}

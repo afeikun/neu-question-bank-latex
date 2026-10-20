@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $dx/dy=1/y\\prime$，则 $d^3x/dy^3=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$[3(y\\prime\\prime)^2-y\\prime y\\prime\\prime\\prime]/(y\\prime)^5$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$[3(y\\prime\\prime)^2+y\\prime y\\prime\\prime\\prime]/(y\\prime)^5$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$[3(y\\prime\\prime)^2+y\\prime y\\prime\\prime\\prime]/(y\\prime)^7$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$[3(y\\prime\\prime)^2+y\\prime y\\prime\\prime\\prime]/(y\\prime)^7$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 $d^2x/dy^2=-y\\prime\\prime/(y\\prime)^3$ 再求导。",
+  "search_text": "若 $dx/dy=1/y\\prime$，则 $d^3x/dy^3=$（ ）。 $$[3(y\\prime\\prime)^2-y\\prime y\\prime\\prime\\prime]/(y\\prime)^5$$ $$[3(y\\prime\\prime)^2+y\\prime y\\prime\\prime\\prime]/(y\\prime)^5$$ $$[3(y\\prime\\prime)^2+y\\prime y\\prime\\prime\\prime]/(y\\prime)^7$$ $$[3(y\\prime\\prime)^2+y\\prime y\\prime\\prime\\prime]/(y\\prime)^7$$ 对 $d^2x/dy^2=-y\\prime\\prime/(y\\prime)^3$ 再求导。",
+  "sort_order": 34
+}

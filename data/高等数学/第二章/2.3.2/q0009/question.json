@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=x^2e^{2x}$，则 $y^{(20)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$2^{20}e^{2x}(x^2+10x+95)$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$2^{20}e^{2x}(x^2+20x+190)$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$2^{20}e^{2x}(x^2+40x+95)$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$2^{20}e^{2x}(x^2+20x+95)$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "Leibniz 展开得 $2^{20}e^{2x}(x^2+20x+95)$。",
+  "search_text": "$y=x^2e^{2x}$，则 $y^{(20)}=$（ ）。 $$2^{20}e^{2x}(x^2+10x+95)$$ $$2^{20}e^{2x}(x^2+20x+190)$$ $$2^{20}e^{2x}(x^2+40x+95)$$ $$2^{20}e^{2x}(x^2+20x+95)$$ Leibniz 展开得 $2^{20}e^{2x}(x^2+20x+95)$。",
+  "sort_order": 9
+}

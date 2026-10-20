@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "均匀心形线 $r=a(1+\\cos\\theta)\\ (a>0)$（线密度为常数 $\\rho_0$）形状的构件的质心坐标是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\left(\\frac45a,0\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\left(\\frac43a,0\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\left(\\frac34a,0\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\left(\\frac54a,0\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 设全弧的质心坐标为 $(\\bar{x},\\bar{y})$，显然 $\\bar{y}=0$。\n\n$$\n\\begin{aligned}\n\\bar{x}\n&=\\frac{\\oint_L\\rho_0x\\,ds}{M}\n=\\frac{\\oint_L\\rho_0x\\,ds}{\\oint_L\\rho_0\\,ds}\\\\\n&=\\frac{\\displaystyle\\int_0^{2\\pi}a(1+\\cos\\theta)\\cos\\theta\\sqrt{[a(1+\\cos\\theta)]^2+[a(1+\\cos\\theta)']^2}\\,d\\theta}{\\displaystyle\\int_0^{2\\pi}\\sqrt{[a(1+\\cos\\theta)]^2+[a(1+\\cos\\theta)']^2}\\,d\\theta}\\\\\n&=\\frac{2a^2\\displaystyle\\int_0^{2\\pi}(1+\\cos\\theta)\\cos\\theta\\left|\\cos\\frac{\\theta}{2}\\right|\\,d\\theta}{2a\\displaystyle\\int_0^{2\\pi}\\left|\\cos\\frac{\\theta}{2}\\right|\\,d\\theta}\\\\\n&=\\frac{2a^2\\displaystyle\\int_{-\\pi}^{\\pi}(1+\\cos\\theta)\\cos\\theta\\cos\\frac{\\theta}{2}\\,d\\theta}{8a}\\\\\n&=\\frac{a}{4}\\displaystyle\\int_{-\\pi}^{\\pi}(1+\\cos\\theta)\\cos\\theta\\cos\\frac{\\theta}{2}\\,d\\theta\n=\\frac{a}{2}\\displaystyle\\int_0^{\\pi}(1+\\cos\\theta)\\cos\\theta\\cos\\frac{\\theta}{2}\\,d\\theta\\\\\n&=\\frac{a}{2}\\displaystyle\\int_0^{\\pi}2\\cos^2\\frac{\\theta}{2}\\cos\\theta\\cos\\frac{\\theta}{2}\\,d\\theta\\\\\n&=\\frac{a}{2}\\displaystyle\\int_0^{\\pi}2\\cos^2\\frac{\\theta}{2}\\left(2\\cos^2\\frac{\\theta}{2}-1\\right)\\cos\\frac{\\theta}{2}\\,d\\theta\\\\\n\\xrightarrow{\\theta=2t}\n&=2a\\displaystyle\\int_0^{\\pi/2}(2\\cos^5t-\\cos^3t)\\,dt\n=2a\\left(2\\cdot\\frac{4}{5}\\cdot\\frac{2}{3}-\\frac{2}{3}\\right)\n=\\frac{4}{5}a\n\\end{aligned}\n$$\n\n所以全弧的质心坐标为 $\\left(\\frac{4}{5}a,0\\right)$。\n\n所以全弧质心的直角坐标为 $\\left(\\frac{4}{5}a,0\\right)$，全弧质心对应的极坐标为 $\\left(\\frac{4}{5}a,0\\right)$。",
+  "search_text": "均匀心形线 $r=a(1+\\cos\\theta)\\ (a>0)$（线密度为常数 $\\rho_0$）形状的构件的质心坐标是（ ） $\\left(\\frac45a,0\\right)$ $\\left(\\frac43a,0\\right)$ $\\left(\\frac34a,0\\right)$ $\\left(\\frac54a,0\\right)$ 解答 设全弧的质心坐标为 $(\\bar{x},\\bar{y})$，显然 $\\bar{y}=0$。\n\n$$\n\\begin{aligned}\n\\bar{x}\n&=\\frac{\\oint_L\\rho_0x\\,ds}{M}\n=\\frac{\\oint_L\\rho_0x\\,ds}{\\oint_L\\rho_0\\,ds}\\\\\n&=\\frac{\\displaystyle\\int_0^{2\\pi}a(1+\\cos\\theta)\\cos\\theta\\sqrt{[a(1+\\cos\\theta)]^2+[a(1+\\cos\\theta)']^2}\\,d\\theta}{\\displaystyle\\int_0^{2\\pi}\\sqrt{[a(1+\\cos\\theta)]^2+[a(1+\\cos\\theta)']^2}\\,d\\theta}\\\\\n&=\\frac{2a^2\\displaystyle\\int_0^{2\\pi}(1+\\cos\\theta)\\cos\\theta\\left|\\cos\\frac{\\theta}{2}\\right|\\,d\\theta}{2a\\displaystyle\\int_0^{2\\pi}\\left|\\cos\\frac{\\theta}{2}\\right|\\,d\\theta}\\\\\n&=\\frac{2a^2\\displaystyle\\int_{-\\pi}^{\\pi}(1+\\cos\\theta)\\cos\\theta\\cos\\frac{\\theta}{2}\\,d\\theta}{8a}\\\\\n&=\\frac{a}{4}\\displaystyle\\int_{-\\pi}^{\\pi}(1+\\cos\\theta)\\cos\\theta\\cos\\frac{\\theta}{2}\\,d\\theta\n=\\frac{a}{2}\\displaystyle\\int_0^{\\pi}(1+\\cos\\theta)\\cos\\theta\\cos\\frac{\\theta}{2}\\,d\\theta\\\\\n&=\\frac{a}{2}\\displaystyle\\int_0^{\\pi}2\\cos^2\\frac{\\theta}{2}\\cos\\theta\\cos\\frac{\\theta}{2}\\,d\\theta\\\\\n&=\\frac{a}{2}\\displaystyle\\int_0^{\\pi}2\\cos^2\\frac{\\theta}{2}\\left(2\\cos^2\\frac{\\theta}{2}-1\\right)\\cos\\frac{\\theta}{2}\\,d\\theta\\\\\n\\xrightarrow{\\theta=2t}\n&=2a\\displaystyle\\int_0^{\\pi/2}(2\\cos^5t-\\cos^3t)\\,dt\n=2a\\left(2\\cdot\\frac{4}{5}\\cdot\\frac{2}{3}-\\frac{2}{3}\\right)\n=\\frac{4}{5}a\n\\end{aligned}\n$$\n\n所以全弧的质心坐标为 $\\left(\\frac{4}{5}a,0\\right)$。\n\n所以全弧质心的直角坐标为 $\\left(\\frac{4}{5}a,0\\right)$，全弧质心对应的极坐标为 $\\left(\\frac{4}{5}a,0\\right)$。",
+  "sort_order": 7
+}

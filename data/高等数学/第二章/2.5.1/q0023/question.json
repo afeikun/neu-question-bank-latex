@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $\\arctan\\frac xy=\\ln(x^2+y^2)$ 确定 $y=y(x)$，求 $y^\\prime$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x+y}{x+y}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x+y}{x-y}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{y+2x}{x-2y}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{y-2x}{x+2y}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时对 $x$ 求导可得\n\n$$\\frac{\\frac{y-xy'}{y^2}}{1+\\left(\\frac{x}{y}\\right)^2}=2\\frac{x+yy'}{x^2+y^2}，\\text{则有 }y'=\\frac{y-2x}{x+2y}$$",
+  "search_text": "由 $\\arctan\\frac xy=\\ln(x^2+y^2)$ 确定 $y=y(x)$，求 $y^\\prime$。 $\\frac{x+y}{x+y}$ $\\frac{x+y}{x-y}$ $\\frac{y+2x}{x-2y}$ $\\frac{y-2x}{x+2y}$ 解答 方程两边同时对 $x$ 求导可得\n\n$$\\frac{\\frac{y-xy'}{y^2}}{1+\\left(\\frac{x}{y}\\right)^2}=2\\frac{x+yy'}{x^2+y^2}，\\text{则有 }y'=\\frac{y-2x}{x+2y}$$",
+  "sort_order": 23
+}

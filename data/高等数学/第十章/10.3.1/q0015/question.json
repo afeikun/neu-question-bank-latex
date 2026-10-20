@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime+2xy=4x$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$ce^{-x^2}+2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-x^2}+c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-x^2}+cx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xe^{-x^2}+c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y=e^{-\\int2xdx}(c+\\int4xe^{x^2}dx)=e^{-x^2}[c+2\\int e^{x^2}dx^2]$\n\n$=ce^{-x^2}+2$",
+  "search_text": "微分方程 $y\\prime+2xy=4x$ 的通解为（ ） $ce^{-x^2}+2$ $e^{-x^2}+c$ $e^{-x^2}+cx$ $xe^{-x^2}+c$ $y=e^{-\\int2xdx}(c+\\int4xe^{x^2}dx)=e^{-x^2}[c+2\\int e^{x^2}dx^2]$\n\n$=ce^{-x^2}+2$",
+  "sort_order": 15
+}

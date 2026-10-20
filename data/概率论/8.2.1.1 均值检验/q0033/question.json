@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "检验纱线均匀度是否变差，均匀度由方差表示，正确假设为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$H_0:\\sigma^2\\le\\sigma_0^2,H_1:\\sigma^2>\\sigma_0^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu=\\mu_0,H_1:\\mu\\ne\\mu_0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$H_0:\\mu\\le\\mu_0,H_1:\\mu>\\mu_0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$H_0:\\sigma^2=\\sigma_0^2,H_1:\\sigma^2\\ne\\sigma_0^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "均匀度变差意味着方差增大，故使用右侧方差检验。",
+  "search_text": "检验纱线均匀度是否变差，均匀度由方差表示，正确假设为（）。 $H_0:\\sigma^2\\le\\sigma_0^2,H_1:\\sigma^2>\\sigma_0^2$ $H_0:\\mu=\\mu_0,H_1:\\mu\\ne\\mu_0$ $H_0:\\mu\\le\\mu_0,H_1:\\mu>\\mu_0$ $H_0:\\sigma^2=\\sigma_0^2,H_1:\\sigma^2\\ne\\sigma_0^2$ 均匀度变差意味着方差增大，故使用右侧方差检验。",
+  "sort_order": 33
+}

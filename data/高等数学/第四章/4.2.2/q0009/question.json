@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)=xe^x$，则 $\\lim_{n\\to\\infty}\\sum_{k=1}^n\\frac{f(k/n)}{f^{(n)}(0)}$ 等于",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1f(x)\\,dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1xf(x)\\,dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1e^xf(x)\\,dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "有 $f^{(n)}(0)=n$，原式为黎曼和 $\\frac1n\\sum_{k=1}^nf(k/n)$，极限为 $\\int_0^1f(x)\\,dx$。",
+  "search_text": "若 $f(x)=xe^x$，则 $\\lim_{n\\to\\infty}\\sum_{k=1}^n\\frac{f(k/n)}{f^{(n)}(0)}$ 等于 $\\int_0^1f(x)\\,dx$ $\\int_0^1xf(x)\\,dx$ $\\int_0^1e^xf(x)\\,dx$ $f(1)$ 有 $f^{(n)}(0)=n$，原式为黎曼和 $\\frac1n\\sum_{k=1}^nf(k/n)$，极限为 $\\int_0^1f(x)\\,dx$。",
+  "sort_order": 9
+}

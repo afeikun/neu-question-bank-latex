@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int\\frac{a^x-a^{-x}}{a^x+a^{-x}}\\,dx$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln(a^x+a^{-x})+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\ln(a^x-a^{-x})}{\\ln a}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\ln(a^x+a^{-x})}{\\ln a}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln(a^x-a^{-x})+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "注意 $(a^x+a^{-x})\\prime=(a^x-a^{-x})\\ln a$，用凑微分法得 $\\frac{\\ln(a^x+a^{-x})}{\\ln a}+C$。",
+  "search_text": "不定积分 $\\int\\frac{a^x-a^{-x}}{a^x+a^{-x}}\\,dx$ 的值为 $\\ln(a^x+a^{-x})+C$ $\\frac{\\ln(a^x-a^{-x})}{\\ln a}+C$ $\\frac{\\ln(a^x+a^{-x})}{\\ln a}+C$ $\\ln(a^x-a^{-x})+C$ 注意 $(a^x+a^{-x})\\prime=(a^x-a^{-x})\\ln a$，用凑微分法得 $\\frac{\\ln(a^x+a^{-x})}{\\ln a}+C$。",
+  "sort_order": 9
+}

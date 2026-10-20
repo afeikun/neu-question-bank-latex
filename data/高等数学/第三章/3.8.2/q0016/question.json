@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=e^{\\sqrt x}$ 在点 $(1/4,\\sqrt e)$ 处的曲率 $k=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{e}{(1-\\sqrt e)^3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt e}{(1+e)^{3/2}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt[4]{\\frac{e}{(1+e)^3}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac32\\sqrt e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime=\\frac12x^{-1/2}e^{\\sqrt x}$，$y\\prime\\prime=\\frac{e^{\\sqrt x}}{4x}(1-x^{-1/2})$。代入 $x=1/4$ 得 $k=\\sqrt e/(1+e)^{3/2}$。",
+  "search_text": "曲线 $y=e^{\\sqrt x}$ 在点 $(1/4,\\sqrt e)$ 处的曲率 $k=$（ ）。 $\\frac{e}{(1-\\sqrt e)^3}$ $\\frac{\\sqrt e}{(1+e)^{3/2}}$ $\\sqrt[4]{\\frac{e}{(1+e)^3}}$ $-\\frac32\\sqrt e$ $y\\prime=\\frac12x^{-1/2}e^{\\sqrt x}$，$y\\prime\\prime=\\frac{e^{\\sqrt x}}{4x}(1-x^{-1/2})$。代入 $x=1/4$ 得 $k=\\sqrt e/(1+e)^{3/2}$。",
+  "sort_order": 16
+}

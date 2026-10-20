@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "假设 $z=x+iy$，$y\\ne0$，且 $z\\ne\\pm i$，$\\dfrac{z}{1+z^2}$ 是实数当且仅当（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2+y^2=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z$ 是实数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+y=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xy=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac{z}{1+z^2}=\\dfrac{z(1+\\bar z^2)}{(1+z^2)(1+\\bar z^2)}$ 为实数，等价于 $z(1+\\bar z^2)$ 为实数；其虚部为 $y(1-x^2-y^2)$。因 $y\\ne0$，故 $x^2+y^2=1$。",
+  "search_text": "假设 $z=x+iy$，$y\\ne0$，且 $z\\ne\\pm i$，$\\dfrac{z}{1+z^2}$ 是实数当且仅当（ ）。 $x^2+y^2=1$ $z$ 是实数 $x+y=1$ $xy=1$ $\\dfrac{z}{1+z^2}=\\dfrac{z(1+\\bar z^2)}{(1+z^2)(1+\\bar z^2)}$ 为实数，等价于 $z(1+\\bar z^2)$ 为实数；其虚部为 $y(1-x^2-y^2)$。因 $y\\ne0$，故 $x^2+y^2=1$。",
+  "sort_order": 3
+}

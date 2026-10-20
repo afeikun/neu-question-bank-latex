@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f'(2)=2$，$z=f(x^2+y^2)$，求 $z$ 在点 $(1,1)$ 处的全微分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\\\,dx+4\\\\,dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\\\,dx+4\\\\,dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\\\,dx+2\\\\,dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\\\,dx+2\\\\,dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $z=f(x^2+y^2)$ 知 $dz=f'(x^2+y^2)(2xdx+2ydy)$，\n\n则 $\\left.dz\\right|_{(1,1)}=f'(2)(2dx+2dy)=4dx+4dy$",
+  "search_text": "设 $f'(2)=2$，$z=f(x^2+y^2)$，求 $z$ 在点 $(1,1)$ 处的全微分。 $2\\\\,dx+4\\\\,dy$ $4\\\\,dx+4\\\\,dy$ $4\\\\,dx+2\\\\,dy$ $2\\\\,dx+2\\\\,dy$ 由 $z=f(x^2+y^2)$ 知 $dz=f'(x^2+y^2)(2xdx+2ydy)$，\n\n则 $\\left.dz\\right|_{(1,1)}=f'(2)(2dx+2dy)=4dx+4dy$",
+  "sort_order": 20
+}

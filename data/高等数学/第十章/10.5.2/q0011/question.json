@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x\\frac{d^3y}{dx^3}-\\frac{d^2y}{dx^2}=x^3$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac1{40}x^5+\\frac16C_1x^3+C_2x+C_3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac1{40}x^5+\\frac16C_1x^3+C_2x^2+C_3x+C_4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1{200}x^5+\\frac1{24}x^4+C_1x^2+C_2x+C_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac1{200}x^5+\\frac1{24}x^4+C_1x+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 设 $p=\\frac{d^2y}{dx^2}$，则 $\\frac{dp}{dx}=\\frac{d^3y}{dx^3}$，代入原方程，得\n\n$$\nx\\frac{dp}{dx}-p=x^3。\n$$\n\n即\n\n$$\n\\frac{dp}{dx}-\\frac{1}{x}p=x^2。\n$$\n\n这就把原方程化为一阶线性微分方程，因此有\n\n$$\np=e^{\\int \\frac{1}{x}dx}\\left(\\int x^2e^{-\\int \\frac{1}{x}dx}dx+C_1\\right)=x\\left(\\frac{1}{2}x^2+C_1\\right)=\\frac{1}{2}x^3+C_1x。\n$$\n\n方程两端积分两次，得通解为\n\n$$\ny=\\frac{1}{40}x^5+\\frac{C_1}{6}x^3+C_2x+C_3\n$$\n\n其中其中 $C_1,C_2$ 和 $C_3$ 是任意常数。",
+  "search_text": "方程 $x\\frac{d^3y}{dx^3}-\\frac{d^2y}{dx^2}=x^3$ 的通解为（ ） $y=\\frac1{40}x^5+\\frac16C_1x^3+C_2x+C_3$ $y=\\frac1{40}x^5+\\frac16C_1x^3+C_2x^2+C_3x+C_4$ $y=\\frac1{200}x^5+\\frac1{24}x^4+C_1x^2+C_2x+C_3$ $y=\\frac1{200}x^5+\\frac1{24}x^4+C_1x+C_2$ 解答 设 $p=\\frac{d^2y}{dx^2}$，则 $\\frac{dp}{dx}=\\frac{d^3y}{dx^3}$，代入原方程，得\n\n$$\nx\\frac{dp}{dx}-p=x^3。\n$$\n\n即\n\n$$\n\\frac{dp}{dx}-\\frac{1}{x}p=x^2。\n$$\n\n这就把原方程化为一阶线性微分方程，因此有\n\n$$\np=e^{\\int \\frac{1}{x}dx}\\left(\\int x^2e^{-\\int \\frac{1}{x}dx}dx+C_1\\right)=x\\left(\\frac{1}{2}x^2+C_1\\right)=\\frac{1}{2}x^3+C_1x。\n$$\n\n方程两端积分两次，得通解为\n\n$$\ny=\\frac{1}{40}x^5+\\frac{C_1}{6}x^3+C_2x+C_3\n$$\n\n其中其中 $C_1,C_2$ 和 $C_3$ 是任意常数。",
+  "sort_order": 11
+}

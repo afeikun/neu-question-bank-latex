@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "g可导，求d/dx[g(x)∫ₐˣf(t)dt]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "f(x)g(x)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "f′(x)g′(x)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "f(x)g′(x)+f′(x)g(x)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "g(x)f(x)+g′(x)∫ₐˣf(t)dt"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "乘积法则与微积分基本定理。",
+  "search_text": "g可导，求d/dx[g(x)∫ₐˣf(t)dt] f(x)g(x) f′(x)g′(x) f(x)g′(x)+f′(x)g(x) g(x)f(x)+g′(x)∫ₐˣf(t)dt 乘积法则与微积分基本定理。",
+  "sort_order": 5
+}

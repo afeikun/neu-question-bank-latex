@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 在 $[0,4]$ 上连续，且 $D:x^2+y^2\\leq4$，则 $\\iint_Df(x^2+y^2)dxdy$ 在极坐标系下先对 $r$ 积分的二次积分为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_\\pi^{2\\pi}d\\theta\\int_0^2f(r)rdr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^2f(r^2)rdr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\cos\\theta}f(r^2)r^2dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^\\pi d\\theta\\int_0^1f(r^2)rdr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答　在极坐标下 $0\\leq\\theta\\leq2\\pi,0\\leq r\\leq2$，所以 $\\iint_Df(x^2+y^2)dxdy=\\int_0^{2\\pi}d\\theta\\int_0^2f(r^2)rdr$。",
+  "search_text": "设 $f(x)$ 在 $[0,4]$ 上连续，且 $D:x^2+y^2\\leq4$，则 $\\iint_Df(x^2+y^2)dxdy$ 在极坐标系下先对 $r$ 积分的二次积分为[\\quad] $\\int_\\pi^{2\\pi}d\\theta\\int_0^2f(r)rdr$ $\\int_0^{2\\pi}d\\theta\\int_0^2f(r^2)rdr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\cos\\theta}f(r^2)r^2dr$ $\\int_0^\\pi d\\theta\\int_0^1f(r^2)rdr$ 解答　在极坐标下 $0\\leq\\theta\\leq2\\pi,0\\leq r\\leq2$，所以 $\\iint_Df(x^2+y^2)dxdy=\\int_0^{2\\pi}d\\theta\\int_0^2f(r^2)rdr$。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$A_1,A_2,A_3$是随机试验$E$的三个相互独立的事件，且$P(A_1)=\\alpha$，$P(A_2)=\\beta$，$P(A_3)=\\gamma$，则事件‘在$A_1$已发生的条件下，$A_2,A_3$都不发生’的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1-\\beta)(1-\\gamma)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-\\alpha\\beta$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1-\\alpha)\\beta$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha(1-\\beta)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立性使$A_2,A_3$及其对立事件与$A_1$独立，所求条件概率为$(1-\\beta)(1-\\gamma)$。",
+  "search_text": "设$A_1,A_2,A_3$是随机试验$E$的三个相互独立的事件，且$P(A_1)=\\alpha$，$P(A_2)=\\beta$，$P(A_3)=\\gamma$，则事件‘在$A_1$已发生的条件下，$A_2,A_3$都不发生’的概率是（ ）。 $(1-\\beta)(1-\\gamma)$ $1-\\alpha\\beta$ $(1-\\alpha)\\beta$ $\\alpha(1-\\beta)$ 独立性使$A_2,A_3$及其对立事件与$A_1$独立，所求条件概率为$(1-\\beta)(1-\\gamma)$。",
+  "sort_order": 2
+}

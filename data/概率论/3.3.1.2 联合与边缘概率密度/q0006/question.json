@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(X,Y)$在圆盘$x^2+y^2\\le R^2$上均匀，关于边缘密度、条件密度与独立性的说法中完全正确的有几项？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两边缘密度及条件密度表达式均正确，且$X,Y$不独立，五项均成立。",
+  "search_text": "$(X,Y)$在圆盘$x^2+y^2\\le R^2$上均匀，关于边缘密度、条件密度与独立性的说法中完全正确的有几项？ $3$ $4$ $2$ $5$ 两边缘密度及条件密度表达式均正确，且$X,Y$不独立，五项均成立。",
+  "sort_order": 6
+}

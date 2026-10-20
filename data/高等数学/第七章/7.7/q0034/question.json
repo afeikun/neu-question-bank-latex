@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求函数 $z=\\int_0^x e^{y^2+t^2}dt$ 在 $(0,0)$ 沿 $l=(-1,2)$ 方向的方向导数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac1{\\sqrt5}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt5}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sqrt3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac1{\\sqrt3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(0,0)}=e^{x^2+y^2}\\bigg|_{(0,0)}=1;$$\n\n$$\\left.\\frac{\\partial z}{\\partial y}\\right|_{(0,0)}=\\left(2ye^{y^2}\\int_0^x e^{t^2}\\,dt\\right)\\bigg|_{(0,0)}=0;$$\n\n又 $\\cos\\alpha=-\\frac{1}{\\sqrt{5}},\\quad \\sin\\alpha=\\frac{2}{\\sqrt{5}}$，则 $\\displaystyle\\frac{\\partial z}{\\partial l}=-\\frac{1}{\\sqrt{5}}$。",
+  "search_text": "求函数 $z=\\int_0^x e^{y^2+t^2}dt$ 在 $(0,0)$ 沿 $l=(-1,2)$ 方向的方向导数。 $-\\frac1{\\sqrt5}$ $\\frac1{\\sqrt5}$ $\\frac1{\\sqrt3}$ $-\\frac1{\\sqrt3}$ $$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(0,0)}=e^{x^2+y^2}\\bigg|_{(0,0)}=1;$$\n\n$$\\left.\\frac{\\partial z}{\\partial y}\\right|_{(0,0)}=\\left(2ye^{y^2}\\int_0^x e^{t^2}\\,dt\\right)\\bigg|_{(0,0)}=0;$$\n\n又 $\\cos\\alpha=-\\frac{1}{\\sqrt{5}},\\quad \\sin\\alpha=\\frac{2}{\\sqrt{5}}$，则 $\\displaystyle\\frac{\\partial z}{\\partial l}=-\\frac{1}{\\sqrt{5}}$。",
+  "sort_order": 34
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求曲线y=e^(−x)sin x（x≥0）与x轴围成的面积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "e^π/3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2(e^π−2)/(3e^π+3)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(e^π−1)/(2(e^π+1))"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(e^π+1)/(2(e^π−1))"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "逐个半波计算绝对面积并求等比级数，结果为(e^π+1)/(2(e^π−1))。",
+  "search_text": "求曲线y=e^(−x)sin x（x≥0）与x轴围成的面积 e^π/3 2(e^π−2)/(3e^π+3) (e^π−1)/(2(e^π+1)) (e^π+1)/(2(e^π−1)) 逐个半波计算绝对面积并求等比级数，结果为(e^π+1)/(2(e^π−1))。",
+  "sort_order": 23
+}

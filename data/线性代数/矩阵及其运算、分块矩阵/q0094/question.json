@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 都是 $n$ 阶方阵，则 $(A+B)^2=A^2+2AB+B^2$ 的充要条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$B=O$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A=B$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$AB=BA$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A=E$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$(A+B)^2=A^2+AB+BA+B^2$，若 $(A+B)^2=A^2+2AB+B^2$，则 $AB+BA=2AB$，即 $AB=BA$。",
+  "search_text": "设 $A,B$ 都是 $n$ 阶方阵，则 $(A+B)^2=A^2+2AB+B^2$ 的充要条件是（ ）。 $B=O$ $A=B$ $AB=BA$ $A=E$ $(A+B)^2=A^2+AB+BA+B^2$，若 $(A+B)^2=A^2+2AB+B^2$，则 $AB+BA=2AB$，即 $AB=BA$。",
+  "sort_order": 94
+}

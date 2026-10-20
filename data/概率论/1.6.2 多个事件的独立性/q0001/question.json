@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$A,B,C$三个事件相互独立，下列说法不正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A\\cup B$与$C$不相互独立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$AB$与$C$相互独立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A\\cup B$与$C$相互独立"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$B$与$C$相互独立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "相互独立的三个事件满足$AB$与$C$独立、$B$与$C$独立，且$(A\\cup B)$与$C$也独立。因此选项1所称‘不相互独立’错误。",
+  "search_text": "设$A,B,C$三个事件相互独立，下列说法不正确的是（ ）。 $A\\cup B$与$C$不相互独立 $AB$与$C$相互独立 $A\\cup B$与$C$相互独立 $B$与$C$相互独立 相互独立的三个事件满足$AB$与$C$独立、$B$与$C$独立，且$(A\\cup B)$与$C$也独立。因此选项1所称‘不相互独立’错误。",
+  "sort_order": 1
+}

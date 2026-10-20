@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是 $3$ 阶方阵，且 $A^2=O$，在条件（1）$A=O$，（2）$A^3=O$，（3）$|A|=0$ 中，正确的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$A^2=O$，$A^3=A^2A=OA=O$，且 $|A^2|=|A|^2=0\\Rightarrow |A|=0$，但 $A$ 不一定为零，例如 $A=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}$ 不等于零，但 $A^2=O$。",
+  "search_text": "设 $A$ 是 $3$ 阶方阵，且 $A^2=O$，在条件（1）$A=O$，（2）$A^3=O$，（3）$|A|=0$ 中，正确的有（ ）。 $0$ 个 $1$ 个 $2$ 个 $3$ 个 $A^2=O$，$A^3=A^2A=OA=O$，且 $|A^2|=|A|^2=0\\Rightarrow |A|=0$，但 $A$ 不一定为零，例如 $A=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}$ 不等于零，但 $A^2=O$。",
+  "sort_order": 48
+}

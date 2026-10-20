@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 为柱面 $x^2+y^2=1$ 在第一卦限中 $(0\\le z\\le1)$ 的前侧，则 $\\iint_\\Sigma zx\\,dydz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在 $yoz$ 面上的投影为 $D_{yz}:0\\le y\\le1,0\\le z\\le1,\\quad x=\\sqrt{1-y^2}$，所以\n\n$$\\iint_\\Sigma zx\\,dydz=\\iint_{D_{yz}}z\\sqrt{1-y^2}\\,dydz=\\int_0^1dy\\int_0^1z\\sqrt{1-y^2}\\,dz=\\frac{1}{2}\\int_0^1\\sqrt{1-y^2}\\,dy$$\n\n$$=\\frac{1}{2}\\left[\\frac{y}{2}\\sqrt{1-y^2}+\\frac{1}{2}\\arcsin y\\right]_0^1=\\frac{\\pi}{8}。$$",
+  "search_text": "设 $\\Sigma$ 为柱面 $x^2+y^2=1$ 在第一卦限中 $(0\\le z\\le1)$ 的前侧，则 $\\iint_\\Sigma zx\\,dydz=$（ ） $\\frac\\pi6$ $\\frac\\pi4$ $\\frac\\pi2$ $\\frac\\pi8$ 解答 $\\Sigma$ 在 $yoz$ 面上的投影为 $D_{yz}:0\\le y\\le1,0\\le z\\le1,\\quad x=\\sqrt{1-y^2}$，所以\n\n$$\\iint_\\Sigma zx\\,dydz=\\iint_{D_{yz}}z\\sqrt{1-y^2}\\,dydz=\\int_0^1dy\\int_0^1z\\sqrt{1-y^2}\\,dz=\\frac{1}{2}\\int_0^1\\sqrt{1-y^2}\\,dy$$\n\n$$=\\frac{1}{2}\\left[\\frac{y}{2}\\sqrt{1-y^2}+\\frac{1}{2}\\arcsin y\\right]_0^1=\\frac{\\pi}{8}。$$",
+  "sort_order": 12
+}

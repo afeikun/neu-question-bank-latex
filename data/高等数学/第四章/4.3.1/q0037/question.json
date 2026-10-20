@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "参数方程x=∫₀ᵗ²sin(u²)du，y=cos(t⁴)，求dy/dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "−2t²sint²"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2t²"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "−2t²/sint⁴"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "−2t²"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "求导得−2t²。",
+  "search_text": "参数方程x=∫₀ᵗ²sin(u²)du，y=cos(t⁴)，求dy/dx −2t²sint² 2t² −2t²/sint⁴ −2t² 求导得−2t²。",
+  "sort_order": 37
+}

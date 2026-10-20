@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体样本，下列结论不成立的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\bar X$与$\\sum X_i^2$独立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sigma^2}\\sum(X_i-\\bar X)^2\\sim\\chi^2(n-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sigma^2}\\sum(X_i-\\mu)^2\\sim\\chi^2(n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X$与$\\sum(X_i-\\bar X)^2$独立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本均值与未中心化平方和不独立。",
+  "search_text": "正态总体样本，下列结论不成立的是（）。 $\\bar X$与$\\sum X_i^2$独立 $\\frac1{\\sigma^2}\\sum(X_i-\\bar X)^2\\sim\\chi^2(n-1)$ $\\frac1{\\sigma^2}\\sum(X_i-\\mu)^2\\sim\\chi^2(n)$ $\\bar X$与$\\sum(X_i-\\bar X)^2$独立 样本均值与未中心化平方和不独立。",
+  "sort_order": 15
+}

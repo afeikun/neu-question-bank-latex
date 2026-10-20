@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过直线 $L:\\frac{x-1}{2}=\\frac{y+2}{-3}=\\frac{z-2}{2}$ 且与平面 $3x+2y-z-5=0$ 垂直的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+8y-13z-9=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-8y-13z+9=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-8y-13z-9=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+8y-13z+9=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "以直线方向与指定平面法向量的叉积作为法向量，代入直线上点得 $x-8y-13z+9=0$。",
+  "search_text": "过直线 $L:\\frac{x-1}{2}=\\frac{y+2}{-3}=\\frac{z-2}{2}$ 且与平面 $3x+2y-z-5=0$ 垂直的平面方程为(\\quad)。 $x+8y-13z-9=0$ $x-8y-13z+9=0$ $x-8y-13z-9=0$ $x+8y-13z+9=0$ 以直线方向与指定平面法向量的叉积作为法向量，代入直线上点得 $x-8y-13z+9=0$。",
+  "sort_order": 44
+}

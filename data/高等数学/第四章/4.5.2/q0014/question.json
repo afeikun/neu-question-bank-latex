@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分I=∫₀¹dx/x^q的敛散性为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无法判断"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "与q有关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当q<1收敛，当q≥1发散，故敛散性取决于q。",
+  "search_text": "积分I=∫₀¹dx/x^q的敛散性为 收敛 无法判断 发散 与q有关 当q<1收敛，当q≥1发散，故敛散性取决于q。",
+  "sort_order": 14
+}

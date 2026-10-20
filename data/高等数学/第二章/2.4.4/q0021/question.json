@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\arcsin 0.5002$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.52383$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.52597$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.52261$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.52301$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "取 $f(x)=\\arcsin x$，$f'(x)=\\frac1{\\sqrt{1-x^2}}$。则 $\\arcsin(0.5002)\\approx f(0.5)+f'(0.5)\\cdot0.0002=\\frac\\pi6+\\frac{0.0002}{\\sqrt{1-0.5^2}}\\approx0.52383$。",
+  "search_text": "$\\arcsin 0.5002$ 的近似值为 $(\\quad)$。 $0.52383$ $0.52597$ $0.52261$ $0.52301$ 取 $f(x)=\\arcsin x$，$f'(x)=\\frac1{\\sqrt{1-x^2}}$。则 $\\arcsin(0.5002)\\approx f(0.5)+f'(0.5)\\cdot0.0002=\\frac\\pi6+\\frac{0.0002}{\\sqrt{1-0.5^2}}\\approx0.52383$。",
+  "sort_order": 21
+}

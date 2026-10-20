@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim U(a,b)$，求$D(X)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(b-a)^2/12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(b-a)^2/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(b+a)^2/12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(b+a)^2/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "均匀分布方差为$(b-a)^2/12$。",
+  "search_text": "$X\\sim U(a,b)$，求$D(X)$。 $(b-a)^2/12$ $(b-a)^2/2$ $(b+a)^2/12$ $(b+a)^2/2$ 均匀分布方差为$(b-a)^2/12$。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $\\mathbb R$ 上可微，且 $f(a)=f(b)=0$（$a<b$），则下列说法一定正确的是 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无法确定 $f(x)+f'(x)=0$ 是否有根。"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)+f'(x)=0$ 有大于 $b$ 的根。"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)+f'(x)=0$ 有介于 $a,b$ 之间的根。"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)+f'(x)=0$ 有小于 $a$ 的根。"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设 $F(x)=e^x f(x)$，则 $F(a)=F(b)=0$。罗尔定理给出某 $\\xi\\in(a,b)$ 使 $F'(\\xi)=e^\\xi(f(\\xi)+f'(\\xi))=0$。",
+  "search_text": "函数 $f(x)$ 在 $\\mathbb R$ 上可微，且 $f(a)=f(b)=0$（$a<b$），则下列说法一定正确的是 $(\\quad)$。 无法确定 $f(x)+f'(x)=0$ 是否有根。 $f(x)+f'(x)=0$ 有大于 $b$ 的根。 $f(x)+f'(x)=0$ 有介于 $a,b$ 之间的根。 $f(x)+f'(x)=0$ 有小于 $a$ 的根。 设 $F(x)=e^x f(x)$，则 $F(a)=F(b)=0$。罗尔定理给出某 $\\xi\\in(a,b)$ 使 $F'(\\xi)=e^\\xi(f(\\xi)+f'(\\xi))=0$。",
+  "sort_order": 7
+}

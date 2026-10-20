@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "把对坐标的曲线积分 $\\int_LP(x,y)dx+Q(x,y)dy$ 化为对弧长的曲线积分，其中 $L$ 从 $(0,0)$ 沿上半圆周 $x^2+y^2=2x,\\ y\\ge0$ 到 $(1,1)$，其结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_L[\\sqrt{2x+x^2}P(x,y)+(1+x)Q(x,y)]ds$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_L[\\sqrt{2x+x^2}P(x,y)+(1-x)Q(x,y)]ds$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_L[\\sqrt{2x-x^2}P(x,y)+(1-x)Q(x,y)]ds$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_L[\\sqrt{2x-x^2}P(x,y)+(1+x)Q(x,y)]ds$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解：$L:\\begin{cases}x=x\\\\y=\\sqrt{2x-x^2}\\end{cases}\\quad x:0\\to1$，由 $0<1$，故在 $(x,y)$ 处切向量为 $\\left(1,\\frac{1-x}{\\sqrt{2x-x^2}}\\right)$，所以\n\n$$\\cos\\alpha=\\frac{1}{\\sqrt{1+\\left(\\frac{1-x}{\\sqrt{2x-x^2}}\\right)^2}}=\\sqrt{2x-x^2},\\quad\\cos\\beta=\\frac{\\frac{1-x}{\\sqrt{2x-x^2}}}{\\sqrt{1+\\left(\\frac{1-x}{\\sqrt{2x-x^2}}\\right)^2}}=1-x$$，所以\n\n$$\\int_LP(x,y)dx+Q(x,y)dy$$\n\n$$=\\int_L[P(x,y)\\cos\\alpha+Q(x,y)\\cos\\beta]ds$$\n\n$$=\\int_L[\\sqrt{2x-x^2}P(x,y)+(1-x)Q(x,y)]ds$$",
+  "search_text": "把对坐标的曲线积分 $\\int_LP(x,y)dx+Q(x,y)dy$ 化为对弧长的曲线积分，其中 $L$ 从 $(0,0)$ 沿上半圆周 $x^2+y^2=2x,\\ y\\ge0$ 到 $(1,1)$，其结果为（ ） $\\int_L[\\sqrt{2x+x^2}P(x,y)+(1+x)Q(x,y)]ds$ $\\int_L[\\sqrt{2x+x^2}P(x,y)+(1-x)Q(x,y)]ds$ $\\int_L[\\sqrt{2x-x^2}P(x,y)+(1-x)Q(x,y)]ds$ $\\int_L[\\sqrt{2x-x^2}P(x,y)+(1+x)Q(x,y)]ds$ 解：$L:\\begin{cases}x=x\\\\y=\\sqrt{2x-x^2}\\end{cases}\\quad x:0\\to1$，由 $0<1$，故在 $(x,y)$ 处切向量为 $\\left(1,\\frac{1-x}{\\sqrt{2x-x^2}}\\right)$，所以\n\n$$\\cos\\alpha=\\frac{1}{\\sqrt{1+\\left(\\frac{1-x}{\\sqrt{2x-x^2}}\\right)^2}}=\\sqrt{2x-x^2},\\quad\\cos\\beta=\\frac{\\frac{1-x}{\\sqrt{2x-x^2}}}{\\sqrt{1+\\left(\\frac{1-x}{\\sqrt{2x-x^2}}\\right)^2}}=1-x$$，所以\n\n$$\\int_LP(x,y)dx+Q(x,y)dy$$\n\n$$=\\int_L[P(x,y)\\cos\\alpha+Q(x,y)\\cos\\beta]ds$$\n\n$$=\\int_L[\\sqrt{2x-x^2}P(x,y)+(1-x)Q(x,y)]ds$$",
+  "sort_order": 3
+}

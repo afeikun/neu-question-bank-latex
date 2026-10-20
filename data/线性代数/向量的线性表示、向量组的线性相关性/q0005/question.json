@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n$ 维向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 线性无关的充分条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$s<n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 任意两个向量都不成比例"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 都不是零向量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 中任何一个向量都不能由其余向量线性表示"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "线性无关的充要条件之一是组中没有向量能由其余向量线性表示；其余各项均不足以保证线性无关。",
+  "search_text": "$n$ 维向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 线性无关的充分条件是（ ）。 $s<n$ $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 任意两个向量都不成比例 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 都不是零向量 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 中任何一个向量都不能由其余向量线性表示 线性无关的充要条件之一是组中没有向量能由其余向量线性表示；其余各项均不足以保证线性无关。",
+  "sort_order": 5
+}

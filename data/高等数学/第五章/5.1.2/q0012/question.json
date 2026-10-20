@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum_{n=1}^{\\infty} a_n^2$ 收敛，则级数 $\\sum_{n=1}^{\\infty} a_n$ 如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "即不收敛也不发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "收敛性不确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "取 $a_n=1/n$ 得平方级数收敛而原级数发散；取交错项可得原级数收敛，故不确定。",
+  "search_text": "若级数 $\\sum_{n=1}^{\\infty} a_n^2$ 收敛，则级数 $\\sum_{n=1}^{\\infty} a_n$ 如何？ 发散 收敛 即不收敛也不发散 收敛性不确定 取 $a_n=1/n$ 得平方级数收敛而原级数发散；取交错项可得原级数收敛，故不确定。",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $e^x$ 的傅里叶级数求 $\\sum_{n=1}^\\infty\\int_{-\\pi}^{\\pi}e^x\\cos nx\\,dx$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi-(e^\\pi-e^{-\\pi})/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(e^\\pi-e^{-\\pi})/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在 $x=0$ 处代入级数关系得结果 $\\pi-(e^\\pi-e^{-\\pi})/2$。",
+  "search_text": "由 $e^x$ 的傅里叶级数求 $\\sum_{n=1}^\\infty\\int_{-\\pi}^{\\pi}e^x\\cos nx\\,dx$。 $\\pi-(e^\\pi-e^{-\\pi})/2$ $\\pi$ 1 $(e^\\pi-e^{-\\pi})/2$ 在 $x=0$ 处代入级数关系得结果 $\\pi-(e^\\pi-e^{-\\pi})/2$。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)$ 在 $U(1,\\delta)$ 内可导，且 $\\displaystyle\\lim_{x\\to1}\\frac{f(x)-f(1)}{(x-1)^2}=-1$，则 $f(x)$ 在 $x=1$ 处（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "取得极小值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "导数存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "取得极大值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "导数存在，且 $f\\prime(1)\\ne0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "该极限给出 $f\\prime(1)=0$，再由二阶导数极限得 $f\\prime\\prime(1)=-2<0$，故在 $x=1$ 处取得极大值。",
+  "search_text": "已知 $f(x)$ 在 $U(1,\\delta)$ 内可导，且 $\\displaystyle\\lim_{x\\to1}\\frac{f(x)-f(1)}{(x-1)^2}=-1$，则 $f(x)$ 在 $x=1$ 处（ ）。 取得极小值 导数存在 取得极大值 导数存在，且 $f\\prime(1)\\ne0$ 该极限给出 $f\\prime(1)=0$，再由二阶导数极限得 $f\\prime\\prime(1)=-2<0$，故在 $x=1$ 处取得极大值。",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $L$ 为沿直线 $y=x$ 从点 $O(0,0)$ 到点 $A(2,2)$ 的一段时，计算 $\\int_L e^{y^2}dx+2xy e^{y^2}dy$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2e^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3e^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4e^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n这里 $P=e^{y^2}，\\quad Q=2xye^{y^2}$，\n\n$$\\frac{\\partial P}{\\partial y}=2ye^{y^2}，\\quad \\frac{\\partial Q}{\\partial x}=2ye^{y^2}，$$\n\n所以积分与路径无关，选取点 $O(0,0)$ 到点 $A(2,0)$ 再到点 $B(2,2)$ 的折线段，\n\n$O\\to A：\\quad y=0，\\quad 0<x<2，\\quad \\int_0^2e^0\\,dx=2；$\n\n$A\\to B：\\quad x=2，\\quad 0<y<2，\\quad \\int_0^2 4ye^{y^2}\\,dy=2e^4-2；$\n\n所以 $\\int_L e^{y^2}\\,dx+2xye^{y^2}\\,dy=2e^4$",
+  "search_text": "当 $L$ 为沿直线 $y=x$ 从点 $O(0,0)$ 到点 $A(2,2)$ 的一段时，计算 $\\int_L e^{y^2}dx+2xy e^{y^2}dy$（ ） $2e^4$ $3e^4$ $4e^4$ $e^4$ 解析：\n\n这里 $P=e^{y^2}，\\quad Q=2xye^{y^2}$，\n\n$$\\frac{\\partial P}{\\partial y}=2ye^{y^2}，\\quad \\frac{\\partial Q}{\\partial x}=2ye^{y^2}，$$\n\n所以积分与路径无关，选取点 $O(0,0)$ 到点 $A(2,0)$ 再到点 $B(2,2)$ 的折线段，\n\n$O\\to A：\\quad y=0，\\quad 0<x<2，\\quad \\int_0^2e^0\\,dx=2；$\n\n$A\\to B：\\quad x=2，\\quad 0<y<2，\\quad \\int_0^2 4ye^{y^2}\\,dy=2e^4-2；$\n\n所以 $\\int_L e^{y^2}\\,dx+2xye^{y^2}\\,dy=2e^4$",
+  "sort_order": 33
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设积分区域 $D$ 的面积为 $S$，$(r,\\theta)$ 为 $D$ 中点的极坐标，则 $\\iint_Drdrd\\theta=[\\quad]$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$S$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2S$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3S$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $\\iint_Drdrd\\theta=\\iint_Ddxdy=S$。",
+  "search_text": "设积分区域 $D$ 的面积为 $S$，$(r,\\theta)$ 为 $D$ 中点的极坐标，则 $\\iint_Drdrd\\theta=[\\quad]$ $0$ $S$ $2S$ $3S$ 解答 $\\iint_Drdrd\\theta=\\iint_Ddxdy=S$。",
+  "sort_order": 18
+}

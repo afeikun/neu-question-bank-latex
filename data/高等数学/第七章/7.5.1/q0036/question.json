@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x+2y+z-2\\sqrt{xyz}=0$，求 $z_y$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{xz-2\\sqrt{xyz}}{\\sqrt{xyz}+xy}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{xz+2\\sqrt{xyz}}{\\sqrt{xyz}-xy}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{xz-2\\sqrt{xyz}}{\\sqrt{xyz}-xy}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{xz+2\\sqrt{xyz}}{\\sqrt{xyz}+xy}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设\n\n$$\nF(x,y,z)=x+2y+z-2\\sqrt{xyz}\n$$\n\n则\n\n$$\n\\frac{\\partial z}{\\partial y}=-\\frac{F_y}{F_z}=-\\frac{2-\\frac{xz}{\\sqrt{xyz}}}{1-\\frac{xy}{\\sqrt{xyz}}}=\\frac{xz-2\\sqrt{xyz}}{\\sqrt{xyz}-xy}\n$$",
+  "search_text": "设 $x+2y+z-2\\sqrt{xyz}=0$，求 $z_y$。 $\\frac{xz-2\\sqrt{xyz}}{\\sqrt{xyz}+xy}$ $\\frac{xz+2\\sqrt{xyz}}{\\sqrt{xyz}-xy}$ $\\frac{xz-2\\sqrt{xyz}}{\\sqrt{xyz}-xy}$ $\\frac{xz+2\\sqrt{xyz}}{\\sqrt{xyz}+xy}$ 设\n\n$$\nF(x,y,z)=x+2y+z-2\\sqrt{xyz}\n$$\n\n则\n\n$$\n\\frac{\\partial z}{\\partial y}=-\\frac{F_y}{F_z}=-\\frac{2-\\frac{xz}{\\sqrt{xyz}}}{1-\\frac{xy}{\\sqrt{xyz}}}=\\frac{xz-2\\sqrt{xyz}}{\\sqrt{xyz}-xy}\n$$",
+  "sort_order": 36
+}

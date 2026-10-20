@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 为 $n$ 阶方阵，满足 $2B^{-1}A=A-4E$，$E$ 是 $n$ 阶单位矩阵，则 $(B-2E)^{-1}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac18(A-4E)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac18(A+4E)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14(A+4E)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac14(A-4E)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $2B^{-1}A=A-4E$ 得 $(2B^{-1}-E)A=-4E$，即 $(E-2B^{-1})A=4E$，所以 $(B-2E)(B^{-1}A)=4E$。又 $B^{-1}A=\\frac12(A-4E)$，故 $(B-2E)^{-1}=\\frac18(A-4E)$。",
+  "search_text": "设 $A,B$ 为 $n$ 阶方阵，满足 $2B^{-1}A=A-4E$，$E$ 是 $n$ 阶单位矩阵，则 $(B-2E)^{-1}=$（ ）。 $\\frac18(A-4E)$ $\\frac18(A+4E)$ $\\frac14(A+4E)$ $\\frac14(A-4E)$ 由 $2B^{-1}A=A-4E$ 得 $(2B^{-1}-E)A=-4E$，即 $(E-2B^{-1})A=4E$，所以 $(B-2E)(B^{-1}A)=4E$。又 $B^{-1}A=\\frac12(A-4E)$，故 $(B-2E)^{-1}=\\frac18(A-4E)$。",
+  "sort_order": 34
+}

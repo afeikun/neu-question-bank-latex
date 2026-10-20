@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知向量组（I）$\\alpha_1=(1,2,-1),\\ \\alpha_2=(2,-3,1),\\ \\alpha_3=(4,1,-1)$，如果向量组（II）与向量组（I）等价，则向量组（II）的秩为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无法确定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "行化简可得向量组（I）的秩为 $2$。等价向量组秩相等，所以向量组（II）的秩也为 $2$。",
+  "search_text": "已知向量组（I）$\\alpha_1=(1,2,-1),\\ \\alpha_2=(2,-3,1),\\ \\alpha_3=(4,1,-1)$，如果向量组（II）与向量组（I）等价，则向量组（II）的秩为（ ）。 $2$ 无法确定 $3$ $1$ 行化简可得向量组（I）的秩为 $2$。等价向量组秩相等，所以向量组（II）的秩也为 $2$。",
+  "sort_order": 19
+}

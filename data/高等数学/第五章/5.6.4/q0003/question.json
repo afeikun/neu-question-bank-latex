@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\pi x+x^2$（$0<x<\\pi$）作偶延拓，求 $S(x)$ 在 $(\\pi,2\\pi)$ 的表达式。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2-3\\pi x+6\\pi^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2-5\\pi x+6\\pi^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-x^2+3\\pi x-6\\pi^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2-5\\pi x-6\\pi^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "偶延拓后在负半区 $-\\pi x+x^2$，再按周期平移得 $x^2-5\\pi x+6\\pi^2$。",
+  "search_text": "$f(x)=\\pi x+x^2$（$0<x<\\pi$）作偶延拓，求 $S(x)$ 在 $(\\pi,2\\pi)$ 的表达式。 $x^2-3\\pi x+6\\pi^2$ $x^2-5\\pi x+6\\pi^2$ $-x^2+3\\pi x-6\\pi^2$ $x^2-5\\pi x-6\\pi^2$ 偶延拓后在负半区 $-\\pi x+x^2$，再按周期平移得 $x^2-5\\pi x+6\\pi^2$。",
+  "sort_order": 3
+}

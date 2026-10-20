@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\sum_{n=1}^{\\infty} u_n$ 收敛，下列级数中收敛的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^nu_n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty} u_{2n-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty} u_n/n^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty} u_n^{1+a}\\ (a>0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$u_n\\to0$，故最终 $|u_n|<1$，从而 $|u_n|/n^2\\le1/n^2$，收敛。",
+  "search_text": "若 $\\sum_{n=1}^{\\infty} u_n$ 收敛，下列级数中收敛的是？ $\\sum_{n=1}^{\\infty}(-1)^nu_n$ $\\sum_{n=1}^{\\infty} u_{2n-1}$ $\\sum_{n=1}^{\\infty} u_n/n^2$ $\\sum_{n=1}^{\\infty} u_n^{1+a}\\ (a>0)$ $u_n\\to0$，故最终 $|u_n|<1$，从而 $|u_n|/n^2\\le1/n^2$，收敛。",
+  "sort_order": 26
+}

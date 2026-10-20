@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2,x_3)$ 所对应矩阵 $A$ 的特征值为 $1,-1,2$，且 $\\xi_1,\\xi_2,\\xi_3$ 分别为它们所对应的特征向量。若取 $P=(\\xi_1;\\xi_3;\\xi_2)$，则 $P^{-1}AP$ 是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\operatorname{diag}(1,-1,2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\operatorname{diag}(-1,2,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\operatorname{diag}(1,2,-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\operatorname{diag}(2,1,-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "按题设向量顺序，列向量为 $\\xi_1,\\xi_3,\\xi_2$，对角元依次为 $1,2,-1$，选项 3。",
+  "search_text": "二次型 $f(x_1,x_2,x_3)$ 所对应矩阵 $A$ 的特征值为 $1,-1,2$，且 $\\xi_1,\\xi_2,\\xi_3$ 分别为它们所对应的特征向量。若取 $P=(\\xi_1;\\xi_3;\\xi_2)$，则 $P^{-1}AP$ 是(\\quad)。 $\\operatorname{diag}(1,-1,2)$ $\\operatorname{diag}(-1,2,1)$ $\\operatorname{diag}(1,2,-1)$ $\\operatorname{diag}(2,1,-1)$ 按题设向量顺序，列向量为 $\\xi_1,\\xi_3,\\xi_2$，对角元依次为 $1,2,-1$，选项 3。",
+  "sort_order": 2
+}

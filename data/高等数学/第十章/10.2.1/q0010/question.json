@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $(1+xy)y\\,dx+(1-xy)x\\,dy=0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$xy+\\arctan(xy)=c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$xy e^{xy}=x+c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{xy}+\\ln\\frac yx=c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xy+\\ln xy=c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程化为 $\\frac{dy}{x}=-\\frac{(1+xy)y}{(1-xy)x}$\n\n设 $u=xy$，则 $y=\\frac{1}{x}u$，$y'=-\\frac{1}{x^2}u+\\frac{1}{x}u'$，代入方程并整理得 $\\frac{1-u}{u^2}\\,du=\\frac{dx}{x}$，\n\n积分 $\\frac{1}{u}+\\ln u=2\\ln x+c$",
+  "search_text": "微分方程 $(1+xy)y\\,dx+(1-xy)x\\,dy=0$ 的通解是（ ） $xy+\\arctan(xy)=c$ $xy e^{xy}=x+c$ $\\frac1{xy}+\\ln\\frac yx=c$ $xy+\\ln xy=c$ 方程化为 $\\frac{dy}{x}=-\\frac{(1+xy)y}{(1-xy)x}$\n\n设 $u=xy$，则 $y=\\frac{1}{x}u$，$y'=-\\frac{1}{x^2}u+\\frac{1}{x}u'$，代入方程并整理得 $\\frac{1-u}{u^2}\\,du=\\frac{dx}{x}$，\n\n积分 $\\frac{1}{u}+\\ln u=2\\ln x+c$",
+  "sort_order": 10
+}

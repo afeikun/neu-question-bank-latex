@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=i$ 是函数 $\\dfrac{z}{(1+z^2)(1+e^{\\pi z})}$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "二级极点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "本性奇点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "一级极点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "三级极点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $1+z^2=(z+i)(z-i)$ 及 $1+e^{\\pi i}=0$，且 $\\left.(1+e^{\\pi z})\\prime\\right|_{z=i}=-\\pi\\ne0$，两分母因子在 $z=i$ 均为一级零点，故为二级极点。",
+  "search_text": "$z=i$ 是函数 $\\dfrac{z}{(1+z^2)(1+e^{\\pi z})}$ 的（ ）。 二级极点 本性奇点 一级极点 三级极点 由 $1+z^2=(z+i)(z-i)$ 及 $1+e^{\\pi i}=0$，且 $\\left.(1+e^{\\pi z})\\prime\\right|_{z=i}=-\\pi\\ne0$，两分母因子在 $z=i$ 均为一级零点，故为二级极点。",
+  "sort_order": 14
+}

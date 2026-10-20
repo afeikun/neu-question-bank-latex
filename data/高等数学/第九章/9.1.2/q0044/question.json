@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $L$ 是三角形 $ABC$ 的整个边界，$A(1,0),B(2,2),C(4,0)$，则 $\\oint_L(x+y)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{5\\sqrt5}{2}+4\\sqrt2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{5\\sqrt5}{2}+8\\sqrt2+\\frac{15}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{5\\sqrt5}{2}+4\\sqrt2+\\frac{15}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5\\sqrt5+8\\sqrt2+15$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "沿 $AB,BC,CA$ 分段积分，分别得到 $\\frac{5\\sqrt5}{2}$、$8\\sqrt2$、$\\frac{15}{2}$，故总和为 $\\frac{5\\sqrt5}{2}+8\\sqrt2+\\frac{15}{2}$。",
+  "search_text": "曲线 $L$ 是三角形 $ABC$ 的整个边界，$A(1,0),B(2,2),C(4,0)$，则 $\\oint_L(x+y)ds=$（ ） $\\frac{5\\sqrt5}{2}+4\\sqrt2$ $\\frac{5\\sqrt5}{2}+8\\sqrt2+\\frac{15}{2}$ $\\frac{5\\sqrt5}{2}+4\\sqrt2+\\frac{15}{2}$ $5\\sqrt5+8\\sqrt2+15$ 沿 $AB,BC,CA$ 分段积分，分别得到 $\\frac{5\\sqrt5}{2}$、$8\\sqrt2$、$\\frac{15}{2}$，故总和为 $\\frac{5\\sqrt5}{2}+8\\sqrt2+\\frac{15}{2}$。",
+  "sort_order": 44
+}

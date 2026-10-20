@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=\\begin{pmatrix}1&0&1\\\\0&2&0\\\\1&0&1\\end{pmatrix}$，正整数 $n\\ge2$，则 $A^n-2A^{n-1}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无法计算"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$E$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$A^2=\\begin{pmatrix}1&0&1\\\\0&2&0\\\\1&0&1\\end{pmatrix}\\begin{pmatrix}1&0&1\\\\0&2&0\\\\1&0&1\\end{pmatrix}=\\begin{pmatrix}2&0&2\\\\0&4&0\\\\2&0&2\\end{pmatrix}=2A$，$A^3=A^2\\cdot A=2A^2$，一般地，可得到如下递推公式：$A^n=A^2\\cdot A^{n-2}=2A^{n-1}$，故 $A^n-2A^{n-1}=0$。",
+  "search_text": "设矩阵 $A=\\begin{pmatrix}1&0&1\\\\0&2&0\\\\1&0&1\\end{pmatrix}$，正整数 $n\\ge2$，则 $A^n-2A^{n-1}=$（ ）。 无法计算 $A$ $0$ $E$ $A^2=\\begin{pmatrix}1&0&1\\\\0&2&0\\\\1&0&1\\end{pmatrix}\\begin{pmatrix}1&0&1\\\\0&2&0\\\\1&0&1\\end{pmatrix}=\\begin{pmatrix}2&0&2\\\\0&4&0\\\\2&0&2\\end{pmatrix}=2A$，$A^3=A^2\\cdot A=2A^2$，一般地，可得到如下递推公式：$A^n=A^2\\cdot A^{n-2}=2A^{n-1}$，故 $A^n-2A^{n-1}=0$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\int_0^1dy\\int_0^y e^{-y^2}\\,dx=[\\quad]$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1e+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12(1-\\frac1e)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e+\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13(1+\\frac1e)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $\\int_0^1dy\\int_0^ye^{-y^2}\\,dx=\\int_0^1ye^{-y^2}\\,dy=\\frac{1}{2}(-e^{-y^2})\\Big|_0^1=\\frac{1}{2}(1-\\frac{1}{e})$。",
+  "search_text": "二重积分 $\\int_0^1dy\\int_0^y e^{-y^2}\\,dx=[\\quad]$ $\\frac1e+1$ $\\frac12(1-\\frac1e)$ $e+\\frac12$ $\\frac13(1+\\frac1e)$ 解答 $\\int_0^1dy\\int_0^ye^{-y^2}\\,dx=\\int_0^1ye^{-y^2}\\,dy=\\frac{1}{2}(-e^{-y^2})\\Big|_0^1=\\frac{1}{2}(1-\\frac{1}{e})$。",
+  "sort_order": 27
+}

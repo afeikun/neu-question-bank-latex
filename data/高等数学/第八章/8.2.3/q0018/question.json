@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "三重积分 $\\int_{-r}^{r}dx\\int_{-\\sqrt{r^2-x^2}}^{\\sqrt{r^2-x^2}}dy\\int_0^{\\sqrt{r^2-x^2-y^2}}(x^2+y^2)\\,dz$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac4{15}\\pi r^5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac45\\pi r^5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac4{15}\\pi r^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{15}\\pi r^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_{-r}^{r}dx\\int_{-\\sqrt{r^2-x^2}}^{\\sqrt{r^2-x^2}}dy\\int_0^{\\sqrt{r^2-x^2-y^2}}(x^2+y^2)\\,dz$\n\n$=\\iint_{x^2+y^2\\leq r^2}dxdy\\int_0^{\\sqrt{r^2-x^2-y^2}}(x^2+y^2)\\,dz$\n\n$=\\iint_{x^2+y^2\\leq r^2}\\sqrt{r^2-x^2-y^2}(x^2+y^2)\\,dxdy$\n\n$=\\int_0^{2\\pi}d\\theta\\int_0^r\\rho^2\\sqrt{r^2-\\rho^2}\\rho\\,d\\rho$\n\n$=2\\pi r^5\\int_0^{\\frac{\\pi}{2}}(\\sin^3\\theta-\\sin^5\\theta)\\,d\\theta$\n\n$=\\frac{4}{15}\\pi r^5$。",
+  "search_text": "三重积分 $\\int_{-r}^{r}dx\\int_{-\\sqrt{r^2-x^2}}^{\\sqrt{r^2-x^2}}dy\\int_0^{\\sqrt{r^2-x^2-y^2}}(x^2+y^2)\\,dz$ 的值为（ ） $\\frac4{15}\\pi r^5$ $\\frac45\\pi r^5$ $\\frac4{15}\\pi r^3$ $\\frac1{15}\\pi r^3$ $\\int_{-r}^{r}dx\\int_{-\\sqrt{r^2-x^2}}^{\\sqrt{r^2-x^2}}dy\\int_0^{\\sqrt{r^2-x^2-y^2}}(x^2+y^2)\\,dz$\n\n$=\\iint_{x^2+y^2\\leq r^2}dxdy\\int_0^{\\sqrt{r^2-x^2-y^2}}(x^2+y^2)\\,dz$\n\n$=\\iint_{x^2+y^2\\leq r^2}\\sqrt{r^2-x^2-y^2}(x^2+y^2)\\,dxdy$\n\n$=\\int_0^{2\\pi}d\\theta\\int_0^r\\rho^2\\sqrt{r^2-\\rho^2}\\rho\\,d\\rho$\n\n$=2\\pi r^5\\int_0^{\\frac{\\pi}{2}}(\\sin^3\\theta-\\sin^5\\theta)\\,d\\theta$\n\n$=\\frac{4}{15}\\pi r^5$。",
+  "sort_order": 18
+}

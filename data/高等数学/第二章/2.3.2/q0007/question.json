@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=(3x^2-2)\\sin2x$，则 $y^{(100)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$2^{98}[(12x^2-29708)\\sin2x+1200x\\cos2x]$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$2^{98}[(12x^2-29708)\\cos2x-1200x\\sin2x]$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$2^{98}[(12x^2-29708)\\sin2x-1200x\\cos2x]$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$2^{99}[(12x^2-29708)\\sin2x-1200x\\cos2x]$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "Leibniz 公式中多项式的三阶及以上导数为零。",
+  "search_text": "$y=(3x^2-2)\\sin2x$，则 $y^{(100)}=$（ ）。 $$2^{98}[(12x^2-29708)\\sin2x+1200x\\cos2x]$$ $$2^{98}[(12x^2-29708)\\cos2x-1200x\\sin2x]$$ $$2^{98}[(12x^2-29708)\\sin2x-1200x\\cos2x]$$ $$2^{99}[(12x^2-29708)\\sin2x-1200x\\cos2x]$$ Leibniz 公式中多项式的三阶及以上导数为零。",
+  "sort_order": 7
+}

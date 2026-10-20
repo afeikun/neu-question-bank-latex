@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z|=4$，方向为正向，则 $\\oint_C(\\frac4{z+1}+\\frac3{z+2i})\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$14\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-14\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\oint_C(\\frac4{z+1}+\\frac3{z+2i})\\,dz=4\\oint_C\\frac{dz}{z+1}+3\\oint_C\\frac{dz}{z+2i}=2\\pi i(4+3)=14\\pi i$。",
+  "search_text": "设 $C$ 为圆周 $|z|=4$，方向为正向，则 $\\oint_C(\\frac4{z+1}+\\frac3{z+2i})\\,dz=(\\quad)$。 $14\\pi i$ $7$ $8\\pi i$ $-14\\pi i$ $\\oint_C(\\frac4{z+1}+\\frac3{z+2i})\\,dz=4\\oint_C\\frac{dz}{z+1}+3\\oint_C\\frac{dz}{z+2i}=2\\pi i(4+3)=14\\pi i$。",
+  "sort_order": 27
+}

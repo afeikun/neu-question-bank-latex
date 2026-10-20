@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "心形线ρ=4(1+cosθ)和θ=0、θ=π/2围成区域绕x轴旋转所得体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "80π"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "160π"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "60π"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "16π"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "按参数曲线圆盘法积分得160π。",
+  "search_text": "心形线ρ=4(1+cosθ)和θ=0、θ=π/2围成区域绕x轴旋转所得体积 80π 160π 60π 16π 按参数曲线圆盘法积分得160π。",
+  "sort_order": 8
+}

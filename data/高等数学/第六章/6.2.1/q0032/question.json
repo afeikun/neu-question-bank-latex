@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设有一质点，开始时位于点 $P(1,2,-1)$ 处，今有一方向角为 $60^\\circ,60^\\circ,45^\\circ$、大小为 $100\\,\\mathrm g$ 的力作用于此点，求当此质点自点 $P$ 沿直线运动到点 $M(2,5,-1+3\\sqrt2)$ 时力所作的功（长度单位为 cm）为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$700$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$600$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$500$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$400$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "位移为 $(1,3,3\\sqrt2)$，力的方向余弦为 $(\\frac12,\\frac12,\\frac{\\sqrt2}{2})$，故功为 $100(\\frac12+\\frac32+3)=500$。",
+  "search_text": "设有一质点，开始时位于点 $P(1,2,-1)$ 处，今有一方向角为 $60^\\circ,60^\\circ,45^\\circ$、大小为 $100\\,\\mathrm g$ 的力作用于此点，求当此质点自点 $P$ 沿直线运动到点 $M(2,5,-1+3\\sqrt2)$ 时力所作的功（长度单位为 cm）为(\\quad)。 $700$ $600$ $500$ $400$ 位移为 $(1,3,3\\sqrt2)$，力的方向余弦为 $(\\frac12,\\frac12,\\frac{\\sqrt2}{2})$，故功为 $100(\\frac12+\\frac32+3)=500$。",
+  "sort_order": 32
+}

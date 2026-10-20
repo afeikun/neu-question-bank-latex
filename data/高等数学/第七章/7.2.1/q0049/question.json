@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\frac{x}{z}=\\ln\\frac zy$，则 $z_x=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{z}{z+x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{y}{z-x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{z}{z-x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{y}{z+x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程两边关于 $x$ 求导，$\\frac{z-x\\frac{\\partial z}{\\partial x}}{z^2}=\\frac{1}{z}\\frac{\\partial z}{\\partial x}$，则 $\\frac{\\partial z}{\\partial x}=\\frac{z}{z+x}$",
+  "search_text": "设 $\\frac{x}{z}=\\ln\\frac zy$，则 $z_x=(\\quad)$。 $\\frac{z}{z+x}$ $\\frac{y}{z-x}$ $\\frac{z}{z-x}$ $\\frac{y}{z+x}$ 方程两边关于 $x$ 求导，$\\frac{z-x\\frac{\\partial z}{\\partial x}}{z^2}=\\frac{1}{z}\\frac{\\partial z}{\\partial x}$，则 $\\frac{\\partial z}{\\partial x}=\\frac{z}{z+x}$",
+  "sort_order": 49
+}

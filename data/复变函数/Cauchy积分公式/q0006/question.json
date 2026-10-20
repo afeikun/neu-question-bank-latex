@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\oint_{|z|=2}\\frac{\\cosh(iz)}{z^2+5z+4}\\,dz$，沿圆周 $|z|=2$ 的正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac23\\pi i\\cos1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi i\\cos1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i\\cosh1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i\\sin1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $z=-1$ 在圆周 $|z|=2$ 内，根据柯西积分公式 $I=\\oint_{|z|=2}\\frac{\\cosh(iz)}{(z+1)(z+4)}\\,dz=2\\pi i\\frac{\\cosh(iz)}{z+4}\\big|_{z=-1}=\\frac23\\pi i\\cos1$。",
+  "search_text": "积分 $I=\\oint_{|z|=2}\\frac{\\cosh(iz)}{z^2+5z+4}\\,dz$，沿圆周 $|z|=2$ 的正向。 $\\frac23\\pi i\\cos1$ $2\\pi i\\cos1$ $2\\pi i\\cosh1$ $\\pi i\\sin1$ 由于 $z=-1$ 在圆周 $|z|=2$ 内，根据柯西积分公式 $I=\\oint_{|z|=2}\\frac{\\cosh(iz)}{(z+1)(z+4)}\\,dz=2\\pi i\\frac{\\cosh(iz)}{z+4}\\big|_{z=-1}=\\frac23\\pi i\\cos1$。",
+  "sort_order": 6
+}

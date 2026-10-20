@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为从原点沿虚轴至 $i$，再由 $i$ 沿水平方向至 $i-1$ 的折线，$I=\\int_C(x-y)dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac i2+\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12-\\frac16i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac16-\\frac12i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-\\frac13i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两段积分相加为 $-i/2+3/2$。",
+  "search_text": "设 $C$ 为从原点沿虚轴至 $i$，再由 $i$ 沿水平方向至 $i-1$ 的折线，$I=\\int_C(x-y)dz=(\\quad)$。 $-\\frac i2+\\frac32$ $\\frac12-\\frac16i$ $-\\frac16-\\frac12i$ $1-\\frac13i$ 两段积分相加为 $-i/2+3/2$。",
+  "sort_order": 52
+}

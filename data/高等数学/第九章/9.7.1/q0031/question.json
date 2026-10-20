@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Sigma$ 为球面 $x^2+y^2+z^2=a^2$ 的内侧，则 $\\iint_\\Sigma x^3dy\\,dz+y^3dz\\,dx+z^3dx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{11}{5}\\pi a^5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{12}{5}\\pi a^5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{11}{5}\\pi a^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac45\\pi a^5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$P=x^3,Q=y^3,R=z^3$，由高斯公式得\n\n原式 $=-\\iiint_{\\Omega}3(x^2+y^2+z^2)dv=-3\\int_0^{2\\pi}d\\theta\\int_0^{\\pi}\\sin\\varphi d\\varphi\\int_0^a r^4dr$\n\n$$=-3\\cdot2\\pi\\cdot\\left.\\cos\\varphi\\right|_{\\pi}^{0}\\cdot\\left.\\frac{1}{5}r^5\\right|_0^a=-\\frac{12}{5}\\pi a^5$$",
+  "search_text": "$\\Sigma$ 为球面 $x^2+y^2+z^2=a^2$ 的内侧，则 $\\iint_\\Sigma x^3dy\\,dz+y^3dz\\,dx+z^3dx\\,dy=$（ ） $-\\frac{11}{5}\\pi a^5$ $-\\frac{12}{5}\\pi a^5$ $\\frac{11}{5}\\pi a^5$ $-\\frac45\\pi a^5$ 参考答案：\n\n$P=x^3,Q=y^3,R=z^3$，由高斯公式得\n\n原式 $=-\\iiint_{\\Omega}3(x^2+y^2+z^2)dv=-3\\int_0^{2\\pi}d\\theta\\int_0^{\\pi}\\sin\\varphi d\\varphi\\int_0^a r^4dr$\n\n$$=-3\\cdot2\\pi\\cdot\\left.\\cos\\varphi\\right|_{\\pi}^{0}\\cdot\\left.\\frac{1}{5}r^5\\right|_0^a=-\\frac{12}{5}\\pi a^5$$",
+  "sort_order": 31
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "弹簧下端挂质量 $m$ 的物体，平衡位置为原点；赋初速度后在平衡位置附近无阻尼振动，求位移形式。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=C_1\\cot\\omega t+C_2\\tan\\omega t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=C\\tan\\omega t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=C_1\\cos\\omega t+C_2\\sin\\omega t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=C\\cos(\\omega(t+1))$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：由胡克定律，弹簧的弹性复力与形变成正比$f=-kx$，其中$k>0$为弹性系数，\n\n在不考虑介质阻力的情况下，由牛顿第二定律$F=ma$可得$m\\frac{d^2x}{dt^2}+kx=0$。（无阻尼自由振动微分方程）\n\n特征方程为$r^2+\\omega^2=0$，其根为$r=\\pm i\\omega$，所求通解为$x(t)=C_1\\cos\\omega t+C_2\\sin\\omega t$。",
+  "search_text": "弹簧下端挂质量 $m$ 的物体，平衡位置为原点；赋初速度后在平衡位置附近无阻尼振动，求位移形式。 $x=C_1\\cot\\omega t+C_2\\tan\\omega t$ $x=C\\tan\\omega t$ $x=C_1\\cos\\omega t+C_2\\sin\\omega t$ $x=C\\cos(\\omega(t+1))$ 解析：由胡克定律，弹簧的弹性复力与形变成正比$f=-kx$，其中$k>0$为弹性系数，\n\n在不考虑介质阻力的情况下，由牛顿第二定律$F=ma$可得$m\\frac{d^2x}{dt^2}+kx=0$。（无阻尼自由振动微分方程）\n\n特征方程为$r^2+\\omega^2=0$，其根为$r=\\pm i\\omega$，所求通解为$x(t)=C_1\\cos\\omega t+C_2\\sin\\omega t$。",
+  "sort_order": 51
+}

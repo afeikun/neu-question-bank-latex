@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=y(x)$ 由 $x^2e^{2y}-y^2e^{2x}=1$ 确定，求 $dy/dx$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{ye^{2x}-xe^{2y}}{xe^{2y}+ye^{2x}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{y^2e^{2x}-xe^{2y}}{x^2e^{2y}-ye^{2x}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{y^2e^{2x}-x^2e^{2y}}{x^2e^{2y}-y^2e^{2x}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{xe^{2x}+ye^{2y}}{x^2e^{2y}-ye^{2x}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\n2xe^{2y}+2x^2y_xe^{2y}-2yy_xe^{2x}-2y^2e^{2x}=0\n$$\n\n则\n\n$$\n\\frac{dy}{dx}=\\frac{y^2e^{2x}-xe^{2y}}{x^2e^{2y}-ye^{2x}}\n$$",
+  "search_text": "设 $y=y(x)$ 由 $x^2e^{2y}-y^2e^{2x}=1$ 确定，求 $dy/dx$。 $\\frac{ye^{2x}-xe^{2y}}{xe^{2y}+ye^{2x}}$ $\\frac{y^2e^{2x}-xe^{2y}}{x^2e^{2y}-ye^{2x}}$ $\\frac{y^2e^{2x}-x^2e^{2y}}{x^2e^{2y}-y^2e^{2x}}$ $\\frac{xe^{2x}+ye^{2y}}{x^2e^{2y}-ye^{2x}}$ $$\n2xe^{2y}+2x^2y_xe^{2y}-2yy_xe^{2x}-2y^2e^{2x}=0\n$$\n\n则\n\n$$\n\\frac{dy}{dx}=\\frac{y^2e^{2x}-xe^{2y}}{x^2e^{2y}-ye^{2x}}\n$$",
+  "sort_order": 47
+}

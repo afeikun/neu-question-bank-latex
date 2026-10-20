@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $x-y+\\frac12\\sin y=0$ 确定 $y=y(x)$，求 $y^{\\prime\\prime}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{4\\sin y}{(2+\\cos y)^3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{4\\sin y}{(2+\\cos y)^3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{4\\sin y}{(2-\\cos y)^3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{4\\sin y}{(2-\\cos y)^3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时对 $x$ 求导可得\n\n$$1-y'+\\frac12\\cos y\\cdot y'=0，\\text{可得 }y'=\\frac{2}{2-\\cos y}$$\n\n方程两边再同时对 $x$ 求导一次可得，\n\n$$\\text{则有 }y''-\\frac12\\sin y\\cdot(y')^2+\\frac12\\cos y\\cdot y''=0，\\text{则有 }y''=-\\frac{4\\sin y}{(2-\\cos y)^3}$$",
+  "search_text": "由 $x-y+\\frac12\\sin y=0$ 确定 $y=y(x)$，求 $y^{\\prime\\prime}$。 $-\\frac{4\\sin y}{(2+\\cos y)^3}$ $\\frac{4\\sin y}{(2+\\cos y)^3}$ $-\\frac{4\\sin y}{(2-\\cos y)^3}$ $\\frac{4\\sin y}{(2-\\cos y)^3}$ 解答 方程两边同时对 $x$ 求导可得\n\n$$1-y'+\\frac12\\cos y\\cdot y'=0，\\text{可得 }y'=\\frac{2}{2-\\cos y}$$\n\n方程两边再同时对 $x$ 求导一次可得，\n\n$$\\text{则有 }y''-\\frac12\\sin y\\cdot(y')^2+\\frac12\\cos y\\cdot y''=0，\\text{则有 }y''=-\\frac{4\\sin y}{(2-\\cos y)^3}$$",
+  "sort_order": 29
+}

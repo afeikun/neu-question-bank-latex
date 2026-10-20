@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设随机变量 $(X,Y)$ 的联合分布如下：\n\n| $X\\backslash Y$ | −1 | 0 |\n|---|---|---|\n| 1 | 1/4 | 1/4 |\n| 2 | 1/6 | $a$ |\n\n则 $(X,Y)$ 的联合分布函数 $F(x,y)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/4&1\\le x<2,-1\\le y<0\\\\5/12&x\\ge2,-1\\le y<0\\\\1/2&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/2&1\\le x<2,-1\\le y<0\\\\5/12&x\\ge2,-1\\le y<0\\\\1/4&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/4&1\\le x<2,-1\\le y<0\\\\1/2&x\\ge2,-1\\le y<0\\\\1/6&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/4&1\\le x<2,-1\\le y<0\\\\5/12&x\\ge2,-1\\le y<0\\\\1/4&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由分布律的性质知 $\\sum\\sum p_{ij}=1$，故 $1/4+1/4+1/6+a=1$，$a=1/3$。因 $F(x,y)=P\\{X\\le x,Y\\le y\\}$：①当 $x<1$ 或 $y<-1$ 时，$F(x,y)=0$；②当 $1\\le x<2,-1\\le y<0$ 时，$F(x,y)=P\\{X=1,Y=-1\\}=1/4$；③当 $x\\ge2,-1\\le y<0$ 时，$F(x,y)=P\\{X=1,Y=-1\\}+P\\{X=2,Y=-1\\}=5/12$；④当 $1\\le x<2,y\\ge0$ 时，$F(x,y)=P\\{X=1,Y=-1\\}+P\\{X=1,Y=0\\}=1/2$；⑤当 $x\\ge2,y\\ge0$ 时四个概率相加为1。综上，联合分布函数为 $F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/4&1\\le x<2,-1\\le y<0\\\\5/12&x\\ge2,-1\\le y<0\\\\1/2&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$。",
+  "search_text": "设随机变量 $(X,Y)$ 的联合分布如下：\n\n| $X\\backslash Y$ | −1 | 0 |\n|---|---|---|\n| 1 | 1/4 | 1/4 |\n| 2 | 1/6 | $a$ |\n\n则 $(X,Y)$ 的联合分布函数 $F(x,y)=$（ ）。 $F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/4&1\\le x<2,-1\\le y<0\\\\5/12&x\\ge2,-1\\le y<0\\\\1/2&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$ $F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/2&1\\le x<2,-1\\le y<0\\\\5/12&x\\ge2,-1\\le y<0\\\\1/4&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$ $F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/4&1\\le x<2,-1\\le y<0\\\\1/2&x\\ge2,-1\\le y<0\\\\1/6&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$ $F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/4&1\\le x<2,-1\\le y<0\\\\5/12&x\\ge2,-1\\le y<0\\\\1/4&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$ 由分布律的性质知 $\\sum\\sum p_{ij}=1$，故 $1/4+1/4+1/6+a=1$，$a=1/3$。因 $F(x,y)=P\\{X\\le x,Y\\le y\\}$：①当 $x<1$ 或 $y<-1$ 时，$F(x,y)=0$；②当 $1\\le x<2,-1\\le y<0$ 时，$F(x,y)=P\\{X=1,Y=-1\\}=1/4$；③当 $x\\ge2,-1\\le y<0$ 时，$F(x,y)=P\\{X=1,Y=-1\\}+P\\{X=2,Y=-1\\}=5/12$；④当 $1\\le x<2,y\\ge0$ 时，$F(x,y)=P\\{X=1,Y=-1\\}+P\\{X=1,Y=0\\}=1/2$；⑤当 $x\\ge2,y\\ge0$ 时四个概率相加为1。综上，联合分布函数为 $F(x,y)=\\begin{cases}0&x<1\\text{或}y<-1\\\\1/4&1\\le x<2,-1\\le y<0\\\\5/12&x\\ge2,-1\\le y<0\\\\1/2&1\\le x<2,y\\ge0\\\\1&x\\ge2,y\\ge0\\end{cases}$。",
+  "sort_order": 3
+}

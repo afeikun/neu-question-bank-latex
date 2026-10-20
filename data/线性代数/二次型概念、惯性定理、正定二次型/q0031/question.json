@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x_1,x_2,x_3)=(\\lambda-1)x_1^2+\\lambda x_2^2+(4-\\lambda^2)x_3^2$ 是正定二次型，则 $\\lambda$ 满足（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0<\\lambda<2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0<\\lambda<1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1<\\lambda<2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2<\\lambda<2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "二次型矩阵为对角矩阵 $A=\\operatorname{diag}(\\lambda-1,\\lambda,4-\\lambda^2)$。正定的充要条件是 $\\lambda-1>0$、$\\lambda>0$、$4-\\lambda^2>0$，所以 $1<\\lambda<2$。",
+  "search_text": "设 $f(x_1,x_2,x_3)=(\\lambda-1)x_1^2+\\lambda x_2^2+(4-\\lambda^2)x_3^2$ 是正定二次型，则 $\\lambda$ 满足（ ）。 $0<\\lambda<2$ $0<\\lambda<1$ $1<\\lambda<2$ $-2<\\lambda<2$ 二次型矩阵为对角矩阵 $A=\\operatorname{diag}(\\lambda-1,\\lambda,4-\\lambda^2)$。正定的充要条件是 $\\lambda-1>0$、$\\lambda>0$、$4-\\lambda^2>0$，所以 $1<\\lambda<2$。",
+  "sort_order": 31
+}

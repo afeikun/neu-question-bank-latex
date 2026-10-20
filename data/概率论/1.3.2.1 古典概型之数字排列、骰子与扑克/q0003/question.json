@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在52张扑克牌中，随机抽取2张，恰拾到2张不同花且最大点数为7的概率$p=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/17$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/18$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/15$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2/51$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总取法$\\binom{52}{2}$。恰有一张点数为7、另一张为小于7的不同花牌有$\\binom42+\\binom41\\binom{18}{1}$种，概率为$1/17$。",
+  "search_text": "在52张扑克牌中，随机抽取2张，恰拾到2张不同花且最大点数为7的概率$p=(\\quad)$。 $1/17$ $1/18$ $1/15$ $2/51$ 总取法$\\binom{52}{2}$。恰有一张点数为7、另一张为小于7的不同花牌有$\\binom42+\\binom41\\binom{18}{1}$种，概率为$1/17$。",
+  "sort_order": 3
+}

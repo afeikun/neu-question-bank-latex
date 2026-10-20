@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=y(x)$ 任一点切线斜率与切点纵坐标成正比（比例常数 $k$），求微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^\\prime=kx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^\\prime=ky$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^\\prime+ky=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^\\prime+kx=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：设点$M(x,y)$处的切线为$Y-y=y'(X-x)$，依题意$y'=kx$。",
+  "search_text": "曲线 $y=y(x)$ 任一点切线斜率与切点纵坐标成正比（比例常数 $k$），求微分方程。 $y^\\prime=kx$ $y^\\prime=ky$ $y^\\prime+ky=0$ $y^\\prime+kx=0$ 解析：设点$M(x,y)$处的切线为$Y-y=y'(X-x)$，依题意$y'=kx$。",
+  "sort_order": 53
+}

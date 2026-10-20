@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $y=y(x)$ 由方程 $\\sqrt[x]{y}=\\sqrt[y]{x}$（$x>0,y>0$）确定，则 $d^2y/dx^2=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[y(\\ln y+1)^2-x(\\ln x+1)^2]/[xy(\\ln y+1)^3]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[y(\\ln y+1)^2+x(\\ln x+1)^2]/[xy(\\ln y+1)^3]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[x(\\ln y+1)^2-y(\\ln x+1)^2]/[xy(\\ln y+1)^3]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[y(\\ln y+1)^2-x(\\ln x+1)^2]/[xy(\\ln y+1)^2]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两边取对数化为 $y\\ln y=x\\ln x$，再隐式求导得到该式。",
+  "search_text": "设函数 $y=y(x)$ 由方程 $\\sqrt[x]{y}=\\sqrt[y]{x}$（$x>0,y>0$）确定，则 $d^2y/dx^2=$（ ）。 $[y(\\ln y+1)^2-x(\\ln x+1)^2]/[xy(\\ln y+1)^3]$ $[y(\\ln y+1)^2+x(\\ln x+1)^2]/[xy(\\ln y+1)^3]$ $[x(\\ln y+1)^2-y(\\ln x+1)^2]/[xy(\\ln y+1)^3]$ $[y(\\ln y+1)^2-x(\\ln x+1)^2]/[xy(\\ln y+1)^2]$ 两边取对数化为 $y\\ln y=x\\ln x$，再隐式求导得到该式。",
+  "sort_order": 24
+}

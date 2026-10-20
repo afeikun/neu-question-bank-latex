@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_L(x^2-y^2)dx-xydy$，$L$ 为圆 $y=\\sqrt{2x-x^2}$ 从 $O$ 到 $(1,1)$ 的弧段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：\n$$x=1+\\cos t,y=\\sin t,t:\\pi\\to\\frac{\\pi}{2}$$\n原式$$=\\int_\\pi^{\\frac{\\pi}{2}}[(1+\\cos t)^2-(\\sin t)^2](-\\sin t)-(1+\\cos t)\\sin t\\cdot\\cos tdt=-\\int_\\pi^{\\frac{\\pi}{2}}[(\\cos t)^2+\\cos t]\\sin tdt=-\\frac{1}{6}$$",
+  "search_text": "计算 $\\int_L(x^2-y^2)dx-xydy$，$L$ 为圆 $y=\\sqrt{2x-x^2}$ 从 $O$ 到 $(1,1)$ 的弧段。 $1$ $-\\frac16$ $3$ $2$ 解答：\n$$x=1+\\cos t,y=\\sin t,t:\\pi\\to\\frac{\\pi}{2}$$\n原式$$=\\int_\\pi^{\\frac{\\pi}{2}}[(1+\\cos t)^2-(\\sin t)^2](-\\sin t)-(1+\\cos t)\\sin t\\cdot\\cos tdt=-\\int_\\pi^{\\frac{\\pi}{2}}[(\\cos t)^2+\\cos t]\\sin tdt=-\\frac{1}{6}$$",
+  "sort_order": 28
+}

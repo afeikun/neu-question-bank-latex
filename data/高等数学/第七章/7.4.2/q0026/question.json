@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求函数 $z=x^2e^y+(x-1)\\arctan\\left(\\frac yx\\right)$ 在点 $(1,0)$ 处的一阶偏导数 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1,-2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-2,-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1,2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2,1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$z'_x(1,0)=\\left[\\frac{d}{dx}z(x,0)\\right]_{x=1}=\\left[\\frac{d}{dx}(x^2)\\right]_{x=1}=2$$\n\n$$z'_y(1,0)=\\left[\\frac{d}{dx}z(1,y)\\right]_{y=0}=\\left[\\frac{d}{dx}(e^y)\\right]_{y=0}=\\left[e^y\\right]_{y=0}=1$$",
+  "search_text": "求函数 $z=x^2e^y+(x-1)\\arctan\\left(\\frac yx\\right)$ 在点 $(1,0)$ 处的一阶偏导数 $(\\quad)$。 $(-1,-2)$ $(-2,-1)$ $(1,2)$ $(2,1)$ $$z'_x(1,0)=\\left[\\frac{d}{dx}z(x,0)\\right]_{x=1}=\\left[\\frac{d}{dx}(x^2)\\right]_{x=1}=2$$\n\n$$z'_y(1,0)=\\left[\\frac{d}{dx}z(1,y)\\right]_{y=0}=\\left[\\frac{d}{dx}(e^y)\\right]_{y=0}=\\left[e^y\\right]_{y=0}=1$$",
+  "sort_order": 26
+}

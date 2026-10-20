@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列不是评价估计量标准的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无误差性"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无偏性"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "一致性"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "有效性"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "通常的评价标准包括无偏性、一致性和有效性。",
+  "search_text": "下列不是评价估计量标准的是（）。 无误差性 无偏性 一致性 有效性 通常的评价标准包括无偏性、一致性和有效性。",
+  "sort_order": 16
+}

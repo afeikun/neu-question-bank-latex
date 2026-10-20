@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}3&-5&2&1\\\\1&1&0&-5\\\\-1&3&1&3\\\\2&-4&-1&-3\\end{vmatrix}$，$A_{ij}$ 为元素 $a_{ij}$ 的代数余子式，则 $A_{11}+A_{12}+A_{13}+A_{14}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "把第一行换成全为 $1$ 的行，按第一行展开可得 $A_{11}+A_{12}+A_{13}+A_{14}=\\begin{vmatrix}1&1&1&1\\\\1&1&0&-5\\\\-1&3&1&3\\\\2&-4&-1&-3\\end{vmatrix}=4$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}3&-5&2&1\\\\1&1&0&-5\\\\-1&3&1&3\\\\2&-4&-1&-3\\end{vmatrix}$，$A_{ij}$ 为元素 $a_{ij}$ 的代数余子式，则 $A_{11}+A_{12}+A_{13}+A_{14}$ 等于（ ）。 $4$ $-1$ $1$ $-4$ 把第一行换成全为 $1$ 的行，按第一行展开可得 $A_{11}+A_{12}+A_{13}+A_{14}=\\begin{vmatrix}1&1&1&1\\\\1&1&0&-5\\\\-1&3&1&3\\\\2&-4&-1&-3\\end{vmatrix}=4$。",
+  "sort_order": 79
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y^{(n)}=1$ 且满足 $y|_{x=0}=1$ 的解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac1{(n-1)!}C_1x^{n-1}+\\cdots+C_{n-1}x+C_n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac1{(n-1)!}C_1x^{n-1}+\\cdots+C_{n-1}x+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1{n!}x^n+\\frac1{(n-1)!}C_1x^{n-1}+\\cdots+C_{n-1}x+C_n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac1{n!}x^n+\\frac1{(n-1)!}C_1x^{n-1}+\\cdots+C_{n-1}x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "逐次积分，一共进行 $n$ 次积分，得到通解为\n\n$$\ny=\\frac{1}{n!}x^n+\\frac{1}{(n-1)!}c_1x^{n-1}+\\cdots+c_{n-1}x+c_n，\n$$\n\n又因为满足 $y|_{x=0}=1$，所以可知 $c_n=1$",
+  "search_text": "方程 $y^{(n)}=1$ 且满足 $y|_{x=0}=1$ 的解是（ ） $y=\\frac1{(n-1)!}C_1x^{n-1}+\\cdots+C_{n-1}x+C_n$ $y=\\frac1{(n-1)!}C_1x^{n-1}+\\cdots+C_{n-1}x+1$ $y=\\frac1{n!}x^n+\\frac1{(n-1)!}C_1x^{n-1}+\\cdots+C_{n-1}x+C_n$ $y=\\frac1{n!}x^n+\\frac1{(n-1)!}C_1x^{n-1}+\\cdots+C_{n-1}x+1$ 逐次积分，一共进行 $n$ 次积分，得到通解为\n\n$$\ny=\\frac{1}{n!}x^n+\\frac{1}{(n-1)!}c_1x^{n-1}+\\cdots+c_{n-1}x+c_n，\n$$\n\n又因为满足 $y|_{x=0}=1$，所以可知 $c_n=1$",
+  "sort_order": 6
+}

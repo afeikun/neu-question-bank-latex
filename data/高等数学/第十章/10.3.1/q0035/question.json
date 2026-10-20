@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime-2xy=e^{x^2}$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^x+2e^{2x}+c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{x^2}(x+c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^{x^2}(-x+c)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=-e^{x^2}-2e^{2x}+c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "该方程是一阶线性非齐次方程，其中\n\n$$P(x)=-2x,Q(x)=e^{x^2}$$\n\n利用求解公式，得 $y=e^{\\int2x\\,dx}\\left(\\int e^{x^2}e^{-\\int2x\\,dx}\\,dx+c\\right)=e^{x^2}(x+c)$",
+  "search_text": "微分方程 $y\\prime-2xy=e^{x^2}$ 的解为（ ） $y=e^x+2e^{2x}+c$ $y=e^{x^2}(x+c)$ $y=e^{x^2}(-x+c)$ $y=-e^{x^2}-2e^{2x}+c$ 该方程是一阶线性非齐次方程，其中\n\n$$P(x)=-2x,Q(x)=e^{x^2}$$\n\n利用求解公式，得 $y=e^{\\int2x\\,dx}\\left(\\int e^{x^2}e^{-\\int2x\\,dx}\\,dx+c\\right)=e^{x^2}(x+c)$",
+  "sort_order": 35
+}

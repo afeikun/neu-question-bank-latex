@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 是椭球面 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1$ 的外侧，则 $\\oiint_\\Sigma\\frac{dydz}{x}+\\frac{dzdx}{y}+\\frac{dxdy}{z}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi a^3b^3c^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi(b^2c^2+a^2c^2+a^2b^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{4\\pi}{abc}(b^2c^2+a^2c^2+a^2b^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 根据轮换对称性，只要计算 $\\oiint_\\Sigma\\frac{dxdy}{z}$ 即可。$\\Sigma$ 在 $xoy$ 面上的投影为 $D_{xy}:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\le1$。由广义极坐标，\n得\n$$\\iint_\\Sigma\\frac{dxdy}{z}=\\iint_{D_{xy}}\\frac{1}{c\\sqrt{1-\\frac{x^2}{a^2}-\\frac{y^2}{b^2}}}dxdy-\\iint_{D_{xy}}\\frac{-1}{c\\sqrt{1-\\frac{x^2}{a^2}-\\frac{y^2}{b^2}}}dxdy=\\frac{2}{c}\\iint_{D_{xy}}\\frac{1}{\\sqrt{1-\\frac{x^2}{a^2}-\\frac{y^2}{b^2}}}dxdy$$\n$$=\\frac{2ab}{c}\\int_0^{2\\pi}d\\varphi\\int_0^1\\frac{r}{\\sqrt{1-r^2}}dr=4\\pi\\cdot\\frac{ab}{c}。于是，有$$\n$$\\oiint_\\Sigma\\frac{dydz}{x}+\\frac{dzdx}{y}+\\frac{dxdy}{z}=4\\pi\\left(\\frac{bc}{a}+\\frac{ac}{b}+\\frac{ab}{c}\\right)=\\frac{4\\pi}{abc}(b^2c^2+a^2c^2+a^2b^2)$$",
+  "search_text": "设 $\\Sigma$ 是椭球面 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1$ 的外侧，则 $\\oiint_\\Sigma\\frac{dydz}{x}+\\frac{dzdx}{y}+\\frac{dxdy}{z}=$（ ） $4\\pi a^3b^3c^3$ $2\\pi(b^2c^2+a^2c^2+a^2b^2)$ $0$ $\\frac{4\\pi}{abc}(b^2c^2+a^2c^2+a^2b^2)$ 解答 根据轮换对称性，只要计算 $\\oiint_\\Sigma\\frac{dxdy}{z}$ 即可。$\\Sigma$ 在 $xoy$ 面上的投影为 $D_{xy}:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\le1$。由广义极坐标，\n得\n$$\\iint_\\Sigma\\frac{dxdy}{z}=\\iint_{D_{xy}}\\frac{1}{c\\sqrt{1-\\frac{x^2}{a^2}-\\frac{y^2}{b^2}}}dxdy-\\iint_{D_{xy}}\\frac{-1}{c\\sqrt{1-\\frac{x^2}{a^2}-\\frac{y^2}{b^2}}}dxdy=\\frac{2}{c}\\iint_{D_{xy}}\\frac{1}{\\sqrt{1-\\frac{x^2}{a^2}-\\frac{y^2}{b^2}}}dxdy$$\n$$=\\frac{2ab}{c}\\int_0^{2\\pi}d\\varphi\\int_0^1\\frac{r}{\\sqrt{1-r^2}}dr=4\\pi\\cdot\\frac{ab}{c}。于是，有$$\n$$\\oiint_\\Sigma\\frac{dydz}{x}+\\frac{dzdx}{y}+\\frac{dxdy}{z}=4\\pi\\left(\\frac{bc}{a}+\\frac{ac}{b}+\\frac{ab}{c}\\right)=\\frac{4\\pi}{abc}(b^2c^2+a^2c^2+a^2b^2)$$",
+  "sort_order": 13
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(x-\\sin y)dy+\\tan y\\,dx=0$ 在初始条件 $y(1)=\\frac\\pi6$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sin y}(\\frac12\\sin^2y+\\frac38)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\cos y}(\\frac12\\sin^2y+\\frac38)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sin y}(\\frac12\\cos^2y+\\frac38)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{\\cos y}(\\frac12\\cos^2y+\\frac38)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程变形为 $\\frac{dx}{dy}+(\\cot y)x=\\cos y$\n\n通解为 $x=e^{-\\int\\cot y\\,dy}\\left(\\int\\cos y\\cdot e^{\\int\\cot y\\,dy}\\,dy+C\\right)=\\frac{1}{\\sin y}\\left(\\frac{1}{2}\\sin^2 y+C\\right)$，代入 $y(1)=\\frac{\\pi}{6}$，得 $C=\\frac{3}{8}$",
+  "search_text": "$(x-\\sin y)dy+\\tan y\\,dx=0$ 在初始条件 $y(1)=\\frac\\pi6$ 下的特解为（ ） $\\frac1{\\sin y}(\\frac12\\sin^2y+\\frac38)$ $\\frac1{\\cos y}(\\frac12\\sin^2y+\\frac38)$ $\\frac1{\\sin y}(\\frac12\\cos^2y+\\frac38)$ $\\frac1{\\cos y}(\\frac12\\cos^2y+\\frac38)$ 方程变形为 $\\frac{dx}{dy}+(\\cot y)x=\\cos y$\n\n通解为 $x=e^{-\\int\\cot y\\,dy}\\left(\\int\\cos y\\cdot e^{\\int\\cot y\\,dy}\\,dy+C\\right)=\\frac{1}{\\sin y}\\left(\\frac{1}{2}\\sin^2 y+C\\right)$，代入 $y(1)=\\frac{\\pi}{6}$，得 $C=\\frac{3}{8}$",
+  "sort_order": 33
+}

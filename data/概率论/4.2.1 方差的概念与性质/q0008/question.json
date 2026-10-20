@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi,\\eta$独立且期望方差存在，以下关系式中错误的是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$D(\\xi\\eta)=D(\\xi)D(\\eta)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E(\\xi\\eta)=E(\\xi)E(\\eta)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(\\xi\\pm\\eta)=D(\\xi)+D(\\eta)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\operatorname{cov}(\\xi,\\eta)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立时乘积方差一般不等于方差乘积；其余关系成立。",
+  "search_text": "$\\xi,\\eta$独立且期望方差存在，以下关系式中错误的是。 $D(\\xi\\eta)=D(\\xi)D(\\eta)$ $E(\\xi\\eta)=E(\\xi)E(\\eta)$ $D(\\xi\\pm\\eta)=D(\\xi)+D(\\eta)$ $\\operatorname{cov}(\\xi,\\eta)=0$ 独立时乘积方差一般不等于方差乘积；其余关系成立。",
+  "sort_order": 8
+}

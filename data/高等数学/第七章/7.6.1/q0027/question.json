@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(y,z),g(y)$ 可微，曲线 $x=f(y,z),z=g(y)$ 在 $(x_0,y_0,z_0)$ 处的切线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-x_0}{[f_y+f_z]g'}=y-y_0=\\frac{z-z_0}{g'}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-x_0}{f_y+f_zg'}=y-y_0=\\frac{z-z_0}{g'}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x-x_0}{f_y+f_z} =\\frac{y-y_0}{g'}=\\frac{z-z_0}{g'}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-x_0}{f_yg'+f_z}=y-y_0=\\frac{z-z_0}{g'}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由于\n\n$$\\left\\{\\begin{array}{l}x=f(y,z)\\\\y=y,\\\\z=g(y).\\end{array}\\right.$$\n\n因此可把 $y$ 作为参数，则点 $(x_0,y_0,z_0)$ 处的切线的方向向量为：\n\n$$\\vec{S}=(x'_y,y'_y,z'_y)|_{(x_0,y_0,z_0)}=(f'_y+f'_z\\cdot g'_y,1,g'_y),$$\n\n因此曲线在点 $(x_0,y_0,z_0)$ 处的切线方程是：\n\n$$\\frac{x-x_0}{f'_y(y_0,z_0)+f'_z(y_0,z_0)g'(y_0)}=y-y_0=\\frac{z-z_0}{g'(y_0)}.$$",
+  "search_text": "设 $f(y,z),g(y)$ 可微，曲线 $x=f(y,z),z=g(y)$ 在 $(x_0,y_0,z_0)$ 处的切线方程为。 $\\frac{x-x_0}{[f_y+f_z]g'}=y-y_0=\\frac{z-z_0}{g'}$ $\\frac{x-x_0}{f_y+f_zg'}=y-y_0=\\frac{z-z_0}{g'}$ $\\frac{x-x_0}{f_y+f_z} =\\frac{y-y_0}{g'}=\\frac{z-z_0}{g'}$ $\\frac{x-x_0}{f_yg'+f_z}=y-y_0=\\frac{z-z_0}{g'}$ 由于\n\n$$\\left\\{\\begin{array}{l}x=f(y,z)\\\\y=y,\\\\z=g(y).\\end{array}\\right.$$\n\n因此可把 $y$ 作为参数，则点 $(x_0,y_0,z_0)$ 处的切线的方向向量为：\n\n$$\\vec{S}=(x'_y,y'_y,z'_y)|_{(x_0,y_0,z_0)}=(f'_y+f'_z\\cdot g'_y,1,g'_y),$$\n\n因此曲线在点 $(x_0,y_0,z_0)$ 处的切线方程是：\n\n$$\\frac{x-x_0}{f'_y(y_0,z_0)+f'_z(y_0,z_0)g'(y_0)}=y-y_0=\\frac{z-z_0}{g'(y_0)}.$$",
+  "sort_order": 27
+}

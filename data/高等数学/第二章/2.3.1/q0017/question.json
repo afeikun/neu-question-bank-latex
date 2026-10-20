@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x=\\ln\\sqrt{1+t^2},y=\\arctan t$，则 $d^2y/dx^2=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-(1-t^2)/t^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1-t^2)/t^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1+t^2)/t^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-(1+t^2)/t^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$dy/dx=1/t$，故 $d^2y/dx^2=-(1+t^2)/t^3$。",
+  "search_text": "设 $x=\\ln\\sqrt{1+t^2},y=\\arctan t$，则 $d^2y/dx^2=$（ ）。 $-(1-t^2)/t^3$ $(1-t^2)/t^3$ $(1+t^2)/t^3$ $-(1+t^2)/t^3$ $dy/dx=1/t$，故 $d^2y/dx^2=-(1+t^2)/t^3$。",
+  "sort_order": 17
+}

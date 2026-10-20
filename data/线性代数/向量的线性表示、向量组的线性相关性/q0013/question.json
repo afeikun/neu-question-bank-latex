@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "对于向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$，因为有 $0\\alpha_1+0\\alpha_2+\\cdots+0\\alpha_r=0$，则 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "全为零向量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "线性相关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "线性无关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "是任意的"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "全零系数的线性组合恒为零，与向量组的具体性质无关，因此该向量组可以是任意的。",
+  "search_text": "对于向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$，因为有 $0\\alpha_1+0\\alpha_2+\\cdots+0\\alpha_r=0$，则 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$（ ）。 全为零向量 线性相关 线性无关 是任意的 全零系数的线性组合恒为零，与向量组的具体性质无关，因此该向量组可以是任意的。",
+  "sort_order": 13
+}

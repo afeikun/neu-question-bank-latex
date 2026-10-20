@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u)$ 为可导函数，$y=f(x^3)$，则 $y\\prime(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^3f\\prime(x^3)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^3f\\prime(x^3)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3x^2f\\prime(x^3)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3x^2f\\prime(x^3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "链式法则得 $y\\prime=3x^2f\\prime(x^3)$。",
+  "search_text": "设 $f(u)$ 为可导函数，$y=f(x^3)$，则 $y\\prime(x)=$（ ）。 $x^3f\\prime(x^3)$ $x^3f\\prime(x^3)$ $3x^2f\\prime(x^3)$ $3x^2f\\prime(x^3)$ 链式法则得 $y\\prime=3x^2f\\prime(x^3)$。",
+  "sort_order": 20
+}

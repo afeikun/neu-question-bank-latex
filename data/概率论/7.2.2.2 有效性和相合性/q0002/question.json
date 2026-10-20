@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i$总体均值$\\mu$，求$\\mu$的最小方差无偏估计量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac14(X_1+X_2+X_3+X_4)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14X_1+\\frac24X_2+\\frac34X_3+\\frac44X_4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14X_1+\\frac18X_2+\\frac1{16}X_3+\\frac9{16}X_4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac25X_1+\\frac25X_2+\\frac15X_3+\\frac35X_4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "选项1和3为无偏估计，方差分别为$0.25\\sigma^2$和约$0.398\\sigma^2$，故选项1最有效。",
+  "search_text": "$X_i$总体均值$\\mu$，求$\\mu$的最小方差无偏估计量。 $\\frac14(X_1+X_2+X_3+X_4)$ $\\frac14X_1+\\frac24X_2+\\frac34X_3+\\frac44X_4$ $\\frac14X_1+\\frac18X_2+\\frac1{16}X_3+\\frac9{16}X_4$ $\\frac25X_1+\\frac25X_2+\\frac15X_3+\\frac35X_4$ 选项1和3为无偏估计，方差分别为$0.25\\sigma^2$和约$0.398\\sigma^2$，故选项1最有效。",
+  "sort_order": 2
+}

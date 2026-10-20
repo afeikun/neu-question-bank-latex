@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f_X(x)=32/(x+4)^3$（$x>0$），令$Y=X+4$，求$E(Y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$10$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X)=4$，所以$E(Y)=E(X)+4=8$。",
+  "search_text": "$f_X(x)=32/(x+4)^3$（$x>0$），令$Y=X+4$，求$E(Y)$。 $8$ $6$ $4$ $10$ $E(X)=4$，所以$E(Y)=E(X)+4=8$。",
+  "sort_order": 14
+}

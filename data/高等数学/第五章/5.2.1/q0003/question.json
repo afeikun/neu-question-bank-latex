@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum_{n=1}^{\\infty}(\\sqrt{n+1}-\\sqrt n)^p\\ln\\frac{n+1}{n-1}$ 收敛，$p$ 的取值范围为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p\\le0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p<0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$p>0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$p>1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "通项与 $n^{-p-1/2}$ 同阶，收敛条件为 $p>0$。",
+  "search_text": "若级数 $\\sum_{n=1}^{\\infty}(\\sqrt{n+1}-\\sqrt n)^p\\ln\\frac{n+1}{n-1}$ 收敛，$p$ 的取值范围为？ $p\\le0$ $p<0$ $p>0$ $p>1$ 通项与 $n^{-p-1/2}$ 同阶，收敛条件为 $p>0$。",
+  "sort_order": 3
+}

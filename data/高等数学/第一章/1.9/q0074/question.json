@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\lim_{n\\to\\infty}\\frac{x^{2n}-1}{x^{2n}+1}$ 的间断点及类型是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=\\pm1$ 均为第二类间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=1$ 为第二类间断点，$x=-1$ 为第一类间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=\\pm1$ 均为第一类间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=1$ 为第一类间断点，$x=-1$ 为第二类间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f(x)=1$（$|x|>1$），$0$（$|x|=1$），$-1$（$|x|<1$），在 $x=\\pm1$ 均为跳跃间断点。",
+  "search_text": "函数 $f(x)=\\lim_{n\\to\\infty}\\frac{x^{2n}-1}{x^{2n}+1}$ 的间断点及类型是（ ）。 $x=\\pm1$ 均为第二类间断点 $x=1$ 为第二类间断点，$x=-1$ 为第一类间断点 $x=\\pm1$ 均为第一类间断点 $x=1$ 为第一类间断点，$x=-1$ 为第二类间断点 $f(x)=1$（$|x|>1$），$0$（$|x|=1$），$-1$（$|x|<1$），在 $x=\\pm1$ 均为跳跃间断点。",
+  "sort_order": 74
+}

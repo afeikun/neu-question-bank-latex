@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=x+y-\\sqrt{x^2+y^2}$ 在 $(3,4)$ 沿 $a=(-4,3)$ 方向的方向导数是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac15$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial f}{\\partial x}\\right|_{(3,4)}=1-\\left.\\frac{x}{\\sqrt{x^2+y^2}}\\right|_{(3,4)}=\\frac{2}{5},\\quad \\left.\\frac{\\partial f}{\\partial y}\\right|_{(3,4)}=1-\\left.\\frac{y}{\\sqrt{x^2+y^2}}\\right|_{(3,4)}=\\frac{1}{5},$$\n\n沿 $\\vec{a}=(-4,3)$ 方向的转角 $\\alpha$，余弦为：$\\cos\\alpha=-\\frac{4}{5},\\quad \\sin\\alpha=\\frac{3}{5}$\n\n故方向导数为：$\\displaystyle\\left.\\frac{\\partial f}{\\partial a}\\right|_{(3,4)}=-\\frac{8}{25}+\\frac{3}{25}=-\\frac{1}{5}$。",
+  "search_text": "函数 $f(x,y)=x+y-\\sqrt{x^2+y^2}$ 在 $(3,4)$ 沿 $a=(-4,3)$ 方向的方向导数是。 $-\\frac16$ $-\\frac15$ $\\frac14$ $\\frac13$ $$\\left.\\frac{\\partial f}{\\partial x}\\right|_{(3,4)}=1-\\left.\\frac{x}{\\sqrt{x^2+y^2}}\\right|_{(3,4)}=\\frac{2}{5},\\quad \\left.\\frac{\\partial f}{\\partial y}\\right|_{(3,4)}=1-\\left.\\frac{y}{\\sqrt{x^2+y^2}}\\right|_{(3,4)}=\\frac{1}{5},$$\n\n沿 $\\vec{a}=(-4,3)$ 方向的转角 $\\alpha$，余弦为：$\\cos\\alpha=-\\frac{4}{5},\\quad \\sin\\alpha=\\frac{3}{5}$\n\n故方向导数为：$\\displaystyle\\left.\\frac{\\partial f}{\\partial a}\\right|_{(3,4)}=-\\frac{8}{25}+\\frac{3}{25}=-\\frac{1}{5}$。",
+  "sort_order": 29
+}

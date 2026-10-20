@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\prime\\prime=x+\\sin x$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x^3}{6}-\\sin x+C_1x+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x^3}{6}-2\\sin x+C_1x+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x^3}{6}-\\cos x+C_1x+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x^3}{6}-2\\cos x+C_1x+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\ny'=\\int(x+\\sin x)dx=\\frac{x^2}{2}-\\cos x+C_1，\\text{即有}\n$$\n\n$$\ny=\\int\\left(\\frac{x^2}{2}-\\cos x+C_1\\right)dx=\\frac{x^3}{6}-\\sin x+C_1x+C_2\n$$",
+  "search_text": "方程 $y\\prime\\prime=x+\\sin x$ 的通解是（ ） $\\frac{x^3}{6}-\\sin x+C_1x+C_2$ $\\frac{x^3}{6}-2\\sin x+C_1x+C_2$ $\\frac{x^3}{6}-\\cos x+C_1x+C_2$ $\\frac{x^3}{6}-2\\cos x+C_1x+C_2$ $$\ny'=\\int(x+\\sin x)dx=\\frac{x^2}{2}-\\cos x+C_1，\\text{即有}\n$$\n\n$$\ny=\\int\\left(\\frac{x^2}{2}-\\cos x+C_1\\right)dx=\\frac{x^3}{6}-\\sin x+C_1x+C_2\n$$",
+  "sort_order": 2
+}

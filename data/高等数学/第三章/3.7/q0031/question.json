@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=e^{1/x}$ 的渐近线为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=0$ 与 $x=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=1$ 与 $x=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=0$ 与 $x=-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=1$ 与 $x=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$x\\to+\\infty$ 时 $y\\to1$，$x\\to0^+$ 时函数发散，故有水平渐近线 $y=1$ 和铅直渐近线 $x=0$。",
+  "search_text": "曲线 $y=e^{1/x}$ 的渐近线为（ ）。 $y=0$ 与 $x=0$ $y=1$ 与 $x=0$ $y=0$ 与 $x=-1$ $y=1$ 与 $x=1$ $x\\to+\\infty$ 时 $y\\to1$，$x\\to0^+$ 时函数发散，故有水平渐近线 $y=1$ 和铅直渐近线 $x=0$。",
+  "sort_order": 31
+}

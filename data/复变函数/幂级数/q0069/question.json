@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若幂级数 $\\sum_{n=0}^{\\infty}c_n(z-2)^n$ 在 $z=0$ 处收敛，那么在 $z=3$ 处（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "收敛但不绝对收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=0$ 距中心 $2$ 的距离为 $2$ 且收敛，故收敛半径至少为 $2$；$z=3$ 距中心为 $1$，因此绝对收敛。",
+  "search_text": "若幂级数 $\\sum_{n=0}^{\\infty}c_n(z-2)^n$ 在 $z=0$ 处收敛，那么在 $z=3$ 处（ ）。 绝对收敛 发散 收敛但不绝对收敛 不确定 $z=0$ 距中心 $2$ 的距离为 $2$ 且收敛，故收敛半径至少为 $2$；$z=3$ 距中心为 $1$，因此绝对收敛。",
+  "sort_order": 69
+}

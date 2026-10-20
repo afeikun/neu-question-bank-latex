@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "交换二次积分 $\\int_1^e dx\\int_0^{\\ln x}f(x,y)dy$ 的积分次序，下列正确的是[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dy\\int_1^{e^y}f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{\\ln x}dy\\int_1^ef(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dy\\int_{e^y}^ef(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dy\\int_{e^y}^ef(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由二次积分的积分限有 $1\\leq x\\leq e,0\\leq y\\leq\\ln x$，改变积分次序后的积分限为 $0\\leq y\\leq1,e^y\\leq x\\leq e$，所以原式=$\\int_0^1dy\\int_{e^y}^ef(x,y)dx$。\n\n图示：阴影区域位于曲线 $y=\\ln x$ 下方；曲线标记为 $y=\\ln x$。坐标轴标记为 $x$、$y$，原点为 $O$，刻度标有 $x=1$、$x=e$、$y=1$。",
+  "search_text": "交换二次积分 $\\int_1^e dx\\int_0^{\\ln x}f(x,y)dy$ 的积分次序，下列正确的是[\\quad] $\\int_0^1dy\\int_1^{e^y}f(x,y)dx$ $\\int_0^{\\ln x}dy\\int_1^ef(x,y)dx$ $\\int_0^1dy\\int_{e^y}^ef(x,y)dx$ $\\int_0^1dy\\int_{e^y}^ef(x,y)dx$ 解答 由二次积分的积分限有 $1\\leq x\\leq e,0\\leq y\\leq\\ln x$，改变积分次序后的积分限为 $0\\leq y\\leq1,e^y\\leq x\\leq e$，所以原式=$\\int_0^1dy\\int_{e^y}^ef(x,y)dx$。\n\n图示：阴影区域位于曲线 $y=\\ln x$ 下方；曲线标记为 $y=\\ln x$。坐标轴标记为 $x$、$y$，原点为 $O$，刻度标有 $x=1$、$x=e$、$y=1$。",
+  "sort_order": 39
+}

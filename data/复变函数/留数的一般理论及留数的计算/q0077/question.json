@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=\\dfrac1{e^z-1}-\\dfrac1{\\operatorname{tg}z}$，则 $\\displaystyle\\oint_{|z|=2}f(z)\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两项在圆内的极点留数和互相抵消，$z=0$ 处为可去奇点，故积分为 $0$。",
+  "search_text": "函数 $f(z)=\\dfrac1{e^z-1}-\\dfrac1{\\operatorname{tg}z}$，则 $\\displaystyle\\oint_{|z|=2}f(z)\\,dz=(\\ \\ )$。 $0$ $1$ $\\pi i$ $2$ 两项在圆内的极点留数和互相抵消，$z=0$ 处为可去奇点，故积分为 $0$。",
+  "sort_order": 77
+}

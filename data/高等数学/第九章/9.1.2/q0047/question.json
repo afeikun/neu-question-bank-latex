@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $L$ 的坐标方程是 $r=r(\\theta),\\ (\\theta_1\\leq\\theta\\leq\\theta_2)$，则 $I=\\int_Lf(x,y)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{\\theta_1}^{\\theta_2}f(r\\cos\\theta,r\\sin\\theta)\\sqrt{r^2(\\theta)+r\\prime(\\theta)^2}d\\theta$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{\\theta_1}^{\\theta_2}f(r\\cos\\theta,r\\sin\\theta)d\\theta$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{\\theta_1}^{\\theta_2}f(x,y)\\sqrt{1+y\\prime{}^2}dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{\\theta_1}^{\\theta_2}f(r\\cos\\theta,r\\sin\\theta)\\sqrt{1+r\\prime(\\theta)^2}d\\theta$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $x=r\\cos\\theta,y=r\\sin\\theta,ds=\\sqrt{r^2+r'^2}d\\theta$，于是\n\n$$\nI=\\int_{\\theta_1}^{\\theta_2}f(r\\cos\\theta,r\\sin\\theta)\\bullet\\sqrt{r^2(\\theta)+r'^2(\\theta)}d\\theta.\n$$",
+  "search_text": "曲线 $L$ 的坐标方程是 $r=r(\\theta),\\ (\\theta_1\\leq\\theta\\leq\\theta_2)$，则 $I=\\int_Lf(x,y)ds=$（ ） $\\int_{\\theta_1}^{\\theta_2}f(r\\cos\\theta,r\\sin\\theta)\\sqrt{r^2(\\theta)+r\\prime(\\theta)^2}d\\theta$ $\\int_{\\theta_1}^{\\theta_2}f(r\\cos\\theta,r\\sin\\theta)d\\theta$ $\\int_{\\theta_1}^{\\theta_2}f(x,y)\\sqrt{1+y\\prime{}^2}dx$ $\\int_{\\theta_1}^{\\theta_2}f(r\\cos\\theta,r\\sin\\theta)\\sqrt{1+r\\prime(\\theta)^2}d\\theta$ 解答 $x=r\\cos\\theta,y=r\\sin\\theta,ds=\\sqrt{r^2+r'^2}d\\theta$，于是\n\n$$\nI=\\int_{\\theta_1}^{\\theta_2}f(r\\cos\\theta,r\\sin\\theta)\\bullet\\sqrt{r^2(\\theta)+r'^2(\\theta)}d\\theta.\n$$",
+  "sort_order": 47
+}

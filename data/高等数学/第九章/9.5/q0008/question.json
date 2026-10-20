@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设均匀螺旋形弹簧 $L$ 的方程为 $x=a\\cos t,y=a\\sin t,z=kt\\ (0\\le t\\le2\\pi)$，其密度为常数 $\\rho$，则它关于 $z$ 轴的转动惯量 $I_z=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi a^2\\rho\\sqrt{a^2+k^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi a^2\\rho\\sqrt{a^2+k^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi a^2\\rho\\sqrt{a^2+k^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi a^2\\rho\\sqrt{a^2+k^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\displaystyle I_z=\\int_L(x^2+y^2)\\rho\\,ds=\\int_0^{2\\pi}a^2\\rho\\sqrt{a^2+k^2}\\,dt=2\\pi a^2\\rho\\sqrt{a^2+k^2}$。",
+  "search_text": "设均匀螺旋形弹簧 $L$ 的方程为 $x=a\\cos t,y=a\\sin t,z=kt\\ (0\\le t\\le2\\pi)$，其密度为常数 $\\rho$，则它关于 $z$ 轴的转动惯量 $I_z=$（ ） $3\\pi a^2\\rho\\sqrt{a^2+k^2}$ $\\pi a^2\\rho\\sqrt{a^2+k^2}$ $2\\pi a^2\\rho\\sqrt{a^2+k^2}$ $4\\pi a^2\\rho\\sqrt{a^2+k^2}$ 解答 $\\displaystyle I_z=\\int_L(x^2+y^2)\\rho\\,ds=\\int_0^{2\\pi}a^2\\rho\\sqrt{a^2+k^2}\\,dt=2\\pi a^2\\rho\\sqrt{a^2+k^2}$。",
+  "sort_order": 8
+}

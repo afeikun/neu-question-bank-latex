@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "螺栓长度$X\\sim N(10.05,0.06^2)$，合格区间$10.05\\pm0.12$，求合格概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.9544$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.6331$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.5587$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.3662$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准化为$P(-2\\le Z\\le2)=2\\Phi(2)-1=0.9544$。",
+  "search_text": "螺栓长度$X\\sim N(10.05,0.06^2)$，合格区间$10.05\\pm0.12$，求合格概率。 $0.9544$ $0.6331$ $0.5587$ $0.3662$ 标准化为$P(-2\\le Z\\le2)=2\\Phi(2)-1=0.9544$。",
+  "sort_order": 14
+}

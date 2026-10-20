@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=(3+|x|)\\sin x$，则 $f(x)$ 在点 $x=0$ 处（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f\\prime(0)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f\\prime(0)=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(0)=3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "左右导数均为 $3$，故 $f\\prime(0)=3$。",
+  "search_text": "设 $f(x)=(3+|x|)\\sin x$，则 $f(x)$ 在点 $x=0$ 处（ ）。 $f\\prime(0)=0$ $f\\prime(0)=1$ 不可导 $f\\prime(0)=3$ 左右导数均为 $3$，故 $f\\prime(0)=3$。",
+  "sort_order": 5
+}

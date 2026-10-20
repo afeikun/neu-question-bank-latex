@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫_{√2/2}¹√(1−x²)/x dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "ln(√2+1)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "ln(√2+1)−π/4"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "√2/2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "ln(√2+1)−√2/2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令x=sin t积分，结果为ln(√2+1)−√2/2。",
+  "search_text": "计算∫_{√2/2}¹√(1−x²)/x dx ln(√2+1) ln(√2+1)−π/4 √2/2 ln(√2+1)−√2/2 令x=sin t积分，结果为ln(√2+1)−√2/2。",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $x^2+ay^2+z^2+2bxy+2xz+2yz$ 可通过正交变换化为标准形 $\\eta^2+4\\zeta^2$，则参数 $a,b$ 的值分别为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=3,b=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=0,b=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=3,b=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=1,b=4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "特征值为 $0,1,4$。比较迹得 $a=3$，行列式为零给出 $b=1$，选项 1。",
+  "search_text": "二次型 $x^2+ay^2+z^2+2bxy+2xz+2yz$ 可通过正交变换化为标准形 $\\eta^2+4\\zeta^2$，则参数 $a,b$ 的值分别为(\\quad)。 $a=3,b=1$ $a=0,b=1$ $a=3,b=0$ $a=1,b=4$ 特征值为 $0,1,4$。比较迹得 $a=3$，行列式为零给出 $b=1$，选项 1。",
+  "sort_order": 22
+}

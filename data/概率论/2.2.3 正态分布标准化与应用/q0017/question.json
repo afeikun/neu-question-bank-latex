@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立，分别服从$N(\\mu,4^2),N(\\mu,5^2)$，$p_1=P(X\\le\\mu-4a),p_2=P(Y\\ge\\mu+5a)$，$a\\in\\mathbb R$，判断。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "任意$\\mu$有$p_1<p_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "任意$\\mu$有$p_1=p_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "仅某个$\\mu$相等"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "任意$\\mu$有$p_1>p_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "标准化后$p_1=\\Phi(-a)=1-\\Phi(a)$，$p_2=1-\\Phi(a)$，故相等。",
+  "search_text": "$X,Y$独立，分别服从$N(\\mu,4^2),N(\\mu,5^2)$，$p_1=P(X\\le\\mu-4a),p_2=P(Y\\ge\\mu+5a)$，$a\\in\\mathbb R$，判断。 任意$\\mu$有$p_1<p_2$ 任意$\\mu$有$p_1=p_2$ 仅某个$\\mu$相等 任意$\\mu$有$p_1>p_2$ 标准化后$p_1=\\Phi(-a)=1-\\Phi(a)$，$p_2=1-\\Phi(a)$，故相等。",
+  "sort_order": 17
+}

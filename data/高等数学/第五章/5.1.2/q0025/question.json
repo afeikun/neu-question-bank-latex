@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\lim_{n\\to\\infty}(1!+2!+\\cdots+n!)/(2n)!$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/e^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{1/2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "该比值为收敛正项级数的通项，极限为0。",
+  "search_text": "求 $\\lim_{n\\to\\infty}(1!+2!+\\cdots+n!)/(2n)!$。 $0$ $e$ $1/e^2$ $e^{1/2}$ 该比值为收敛正项级数的通项，极限为0。",
+  "sort_order": 25
+}

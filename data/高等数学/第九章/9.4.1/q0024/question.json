@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 为球面 $x^2+y^2+z^2=R^2$ 的下半球面的下侧，则 $I=\\iint_\\Sigma zdxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}rdr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}rdr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$I=\\iint_\\Sigma zdxdy=\\iint_{D_{xy}}\\sqrt{R^2-x^2-y^2}dxdy$$其中 $D_{xy}:x^2+y^2<R^2$，令 $x=r\\cos\\theta$，$y=r\\sin\\theta$，\n$$I=\\iint_{D_\\theta}\\sqrt{R^2-r^2}rdrd\\theta=\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}rdr。$$",
+  "search_text": "设 $\\Sigma$ 为球面 $x^2+y^2+z^2=R^2$ 的下半球面的下侧，则 $I=\\iint_\\Sigma zdxdy=$（ ） $\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}dr$ $-\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}dr$ $\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}rdr$ $-\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}rdr$ $$I=\\iint_\\Sigma zdxdy=\\iint_{D_{xy}}\\sqrt{R^2-x^2-y^2}dxdy$$其中 $D_{xy}:x^2+y^2<R^2$，令 $x=r\\cos\\theta$，$y=r\\sin\\theta$，\n$$I=\\iint_{D_\\theta}\\sqrt{R^2-r^2}rdrd\\theta=\\int_0^{2\\pi}d\\theta\\int_0^R\\sqrt{R^2-r^2}rdr。$$",
+  "sort_order": 24
+}

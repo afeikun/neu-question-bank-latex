@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=\\dfrac{z^2}{\\sin z}$ 在圆周 $|z|=4$ 内的所有孤立奇点处留数之和为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2\\pi^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "奇点为 $-\\pi,0,\\pi$；两端留数各为 $-\\pi^2$，原点留数为 $0$，和为 $-2\\pi^2$。",
+  "search_text": "函数 $f(z)=\\dfrac{z^2}{\\sin z}$ 在圆周 $|z|=4$ 内的所有孤立奇点处留数之和为（ ）。 $-2\\pi^2$ $2\\pi^2$ $2\\pi$ $0$ 奇点为 $-\\pi,0,\\pi$；两端留数各为 $-\\pi^2$，原点留数为 $0$，和为 $-2\\pi^2$。",
+  "sort_order": 60
+}

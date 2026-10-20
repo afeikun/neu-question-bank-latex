@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "力沿 $z$ 轴正方向，大小为 $2\\pi b(a-at)$，质点由 $A(a,0,0)$ 沿直线移至 $B(0,0,2\\pi b)$，求力所做的功。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi b(a-\\pi b)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi b(2a-\\pi b)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi b(\\frac a2+\\pi b)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解 $L：x=a-at，y=0，z=2\\pi bt\\ (0\\leq t\\leq1)$ 则\n\n$$\nW=\\int_0^1[0\\cdot0-(a-at)\\cdot0+2\\pi b(a-at+2\\pi bt)]\\,\\mathrm{d}t=2\\pi b\\left(\\frac{a}{2}+\\pi b\\right)\n$$",
+  "search_text": "力沿 $z$ 轴正方向，大小为 $2\\pi b(a-at)$，质点由 $A(a,0,0)$ 沿直线移至 $B(0,0,2\\pi b)$，求力所做的功。 $2\\pi b(a-\\pi b)$ $2\\pi b(2a-\\pi b)$ $0$ $2\\pi b(\\frac a2+\\pi b)$ 解 $L：x=a-at，y=0，z=2\\pi bt\\ (0\\leq t\\leq1)$ 则\n\n$$\nW=\\int_0^1[0\\cdot0-(a-at)\\cdot0+2\\pi b(a-at+2\\pi bt)]\\,\\mathrm{d}t=2\\pi b\\left(\\frac{a}{2}+\\pi b\\right)\n$$",
+  "sort_order": 6
+}

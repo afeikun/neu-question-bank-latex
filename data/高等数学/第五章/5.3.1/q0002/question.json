@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正数列 $a_n$ 单调减少，且 $\\sum_{n=1}^{\\infty}(-1)^{n-1}a_n$ 发散，判断 $\\sum_{n=1}^{\\infty}(-1)^{n-1}(1/(a_n+1))^n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "敛散性不确定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "原交错级数发散推出 $a_n$ 极限为正；新级数根值趋 $1/(1+a)<1$，绝对收敛。",
+  "search_text": "正数列 $a_n$ 单调减少，且 $\\sum_{n=1}^{\\infty}(-1)^{n-1}a_n$ 发散，判断 $\\sum_{n=1}^{\\infty}(-1)^{n-1}(1/(a_n+1))^n$。 发散 条件收敛 敛散性不确定 绝对收敛 原交错级数发散推出 $a_n$ 极限为正；新级数根值趋 $1/(1+a)<1$，绝对收敛。",
+  "sort_order": 2
+}

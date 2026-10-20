@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}(\\frac{\\arctan x}{x})^{1/x^2}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-1/2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{1/3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{1/2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-1/3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\arctan x/x=1-x^2/3+o(x^2)$，取对数后极限为 $-1/3$，结果为 $e^{-1/3}$。",
+  "search_text": "$\\lim_{x\\to0}(\\frac{\\arctan x}{x})^{1/x^2}=(\\quad)$。 $e^{-1/2}$ $e^{1/3}$ $e^{1/2}$ $e^{-1/3}$ $\\arctan x/x=1-x^2/3+o(x^2)$，取对数后极限为 $-1/3$，结果为 $e^{-1/3}$。",
+  "sort_order": 47
+}

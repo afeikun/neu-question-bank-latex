@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=f^\\prime(t), y=e^tf^\\prime(t)-f(t)$（$f^{\\prime\\prime}(t)\\ne0$），求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac1{f^{\\prime\\prime}(t)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac t{f^{\\prime\\prime}(t)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^t+(e^t-1)f^\\prime(t)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{e^tf^{\\prime\\prime}(t)+(e^t-1)f^\\prime(t)}{f^{\\prime\\prime}(t)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=f''(t)，\\frac{dy}{dt}=e^tf''(t)+(e^t-1)f'(t)，\\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{e^tf''(t)+(e^t-1)f'(t)}{f''(t)}$$",
+  "search_text": "$x=f^\\prime(t), y=e^tf^\\prime(t)-f(t)$（$f^{\\prime\\prime}(t)\\ne0$），求 $\\frac{dy}{dx}$。 $-\\frac1{f^{\\prime\\prime}(t)}$ $\\frac t{f^{\\prime\\prime}(t)}$ $e^t+(e^t-1)f^\\prime(t)$ $\\frac{e^tf^{\\prime\\prime}(t)+(e^t-1)f^\\prime(t)}{f^{\\prime\\prime}(t)}$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=f''(t)，\\frac{dy}{dt}=e^tf''(t)+(e^t-1)f'(t)，\\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{e^tf''(t)+(e^t-1)f'(t)}{f''(t)}$$",
+  "sort_order": 11
+}

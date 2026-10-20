@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "样本$X_1,\\ldots,X_n$来自总体，$E(X)=\\mu$未知，正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_1$是$\\mu$的无偏估计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X_1$是$\\mu$的极大似然估计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X_1$是$\\mu$的相合估计量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X_1$不是$\\mu$的估计量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X_1)=\\mu$，故$X_1$无偏；一般不能据此断言MLE或相合性。",
+  "search_text": "样本$X_1,\\ldots,X_n$来自总体，$E(X)=\\mu$未知，正确的是（）。 $X_1$是$\\mu$的无偏估计量 $X_1$是$\\mu$的极大似然估计量 $X_1$是$\\mu$的相合估计量 $X_1$不是$\\mu$的估计量 $E(X_1)=\\mu$，故$X_1$无偏；一般不能据此断言MLE或相合性。",
+  "sort_order": 13
+}

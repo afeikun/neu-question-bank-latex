@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\dfrac{e^{iz}}{z(1+z^2)^2}$，则 $\\operatorname{Res}[f(z),-i]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac e4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\dfrac{3e}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac e2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=-i$ 为二级极点，计算 $\\lim_{z\\to-i}\\left(e^{iz}/[z(z-i)^2]\\right)'$，得留数 $-e/4$。",
+  "search_text": "设 $f(z)=\\dfrac{e^{iz}}{z(1+z^2)^2}$，则 $\\operatorname{Res}[f(z),-i]=(\\ \\ )$。 $-\\dfrac e4$ $-\\dfrac{3e}{4}$ $\\dfrac e2$ $e$ $z=-i$ 为二级极点，计算 $\\lim_{z\\to-i}\\left(e^{iz}/[z(z-i)^2]\\right)'$，得留数 $-e/4$。",
+  "sort_order": 21
+}

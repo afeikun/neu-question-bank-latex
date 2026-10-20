@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $z=x^2+y^2,y=x^2,y=1,z=0$ 所围立体的体积为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{16}{35}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{27}{85}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{89}{95}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{88}{105}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由于所围立体的底部为区域 $D:x^2\\leq y\\leq1,-1\\leq x\\leq1$，顶部是旋转抛物面 $z=x^2+y^2$，所以\n$$\nV=\\int_{-1}^1dx\\int_{x^2}^1(x^2+y^2)dy=\\int_{-1}^1\\left(x^2+\\frac{1}{3}-x^4-\\frac{1}{3}x^6\\right)dx\n$$\n$$\n=2\\int_0^1\\left(x^2+\\frac{1}{3}-x^4-\\frac{1}{3}x^6\\right)dx=\\frac{88}{105}\n$$\n\n图示：立体图标出 $z$、$y$、$x$ 坐标轴及原点 $O$。",
+  "search_text": "曲面 $z=x^2+y^2,y=x^2,y=1,z=0$ 所围立体的体积为（ ） $\\frac{16}{35}$ $\\frac{27}{85}$ $\\frac{89}{95}$ $\\frac{88}{105}$ 由于所围立体的底部为区域 $D:x^2\\leq y\\leq1,-1\\leq x\\leq1$，顶部是旋转抛物面 $z=x^2+y^2$，所以\n$$\nV=\\int_{-1}^1dx\\int_{x^2}^1(x^2+y^2)dy=\\int_{-1}^1\\left(x^2+\\frac{1}{3}-x^4-\\frac{1}{3}x^6\\right)dx\n$$\n$$\n=2\\int_0^1\\left(x^2+\\frac{1}{3}-x^4-\\frac{1}{3}x^6\\right)dx=\\frac{88}{105}\n$$\n\n图示：立体图标出 $z$、$y$、$x$ 坐标轴及原点 $O$。",
+  "sort_order": 6
+}

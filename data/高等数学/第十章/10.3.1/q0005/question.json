@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $(x-2xy-y^2)y\\prime+y^2=0$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=y+cy^2e^{1/y},\\ y=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=cy^2+y^2e^{1/y},\\ y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=cy^2-y^2e^{1/y},\\ y=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=y^2+cy^2e^{1/y},\\ y=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将 $x$ 视为 $y$ 的函数，则对变量 $y$ 来说，题设方程为一阶线性方程：$\\frac{dx}{dy}+\\frac{1-2y}{y^2}x=1$\n\n解该线性方程，可得通解 $x=y^2+cy^2e^{1/y}$（$c$为任意常数），再补充上特解 $y=0$",
+  "search_text": "微分方程 $(x-2xy-y^2)y\\prime+y^2=0$ 的解为（ ） $x=y+cy^2e^{1/y},\\ y=0$ $x=cy^2+y^2e^{1/y},\\ y=0$ $x=cy^2-y^2e^{1/y},\\ y=0$ $x=y^2+cy^2e^{1/y},\\ y=0$ 将 $x$ 视为 $y$ 的函数，则对变量 $y$ 来说，题设方程为一阶线性方程：$\\frac{dx}{dy}+\\frac{1-2y}{y^2}x=1$\n\n解该线性方程，可得通解 $x=y^2+cy^2e^{1/y}$（$c$为任意常数），再补充上特解 $y=0$",
+  "sort_order": 5
+}

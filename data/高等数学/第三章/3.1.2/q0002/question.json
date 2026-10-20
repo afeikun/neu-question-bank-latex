@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=x^2+2x-3$ 在区间 $[0,1]$ 应用拉格朗日中值定理时，$f(b)-f(a)=f'(\\xi)(b-a)$ 的 $\\xi=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f'(\\xi)=2\\xi+2=\\frac{f(1)-f(0)}{1-0}=3$，得 $\\xi=\\frac12$。",
+  "search_text": "函数 $f(x)=x^2+2x-3$ 在区间 $[0,1]$ 应用拉格朗日中值定理时，$f(b)-f(a)=f'(\\xi)(b-a)$ 的 $\\xi=(\\quad)$。 $\\frac13$ $\\frac23$ $\\frac12$ $1$ $f'(\\xi)=2\\xi+2=\\frac{f(1)-f(0)}{1-0}=3$，得 $\\xi=\\frac12$。",
+  "sort_order": 2
+}

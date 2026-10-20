@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正数 $a$ 下，讨论 $\\sum_{n=1}^{\\infty} a^n\\sin(\\pi/3^n)$ 的敛散性，哪项正确？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a<3$ 时收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "级数收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a<3$ 时发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "级数发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "通项与 $\\pi(a/3)^n$ 同阶，$a<3$ 时收敛，$a\\ge3$ 时发散。",
+  "search_text": "正数 $a$ 下，讨论 $\\sum_{n=1}^{\\infty} a^n\\sin(\\pi/3^n)$ 的敛散性，哪项正确？ $a<3$ 时收敛 级数收敛 $a<3$ 时发散 级数发散 通项与 $\\pi(a/3)^n$ 同阶，$a<3$ 时收敛，$a\\ge3$ 时发散。",
+  "sort_order": 11
+}

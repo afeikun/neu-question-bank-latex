@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $y=y(x)$ 由方程 $x e^{f(y)}=e^y$ 确定，$f(x)$ 有二阶导数且 $f\\prime(x)\\ne1$，则 $d^2y/dx^2=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[f\\prime\\prime(y)-(1+f\\prime(y))^2]/[x^2(1+f\\prime(y))^3]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[f\\prime\\prime(y)-(1-f\\prime(y))^2]/[x^2(1-f\\prime(y))^3]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[f\\prime\\prime(y)+(1-f\\prime(y))^2]/[x^2(1-f\\prime(y))^3]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[f\\prime\\prime(y)-[1+f\\prime(y)]^2]/[x^2(1-f\\prime(y))^3]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "隐式求导并整理得 $y\\prime\\prime=[f\\prime\\prime(y)-(1-f\\prime(y))^2]/[x^2(1-f\\prime(y))^3]$。",
+  "search_text": "设函数 $y=y(x)$ 由方程 $x e^{f(y)}=e^y$ 确定，$f(x)$ 有二阶导数且 $f\\prime(x)\\ne1$，则 $d^2y/dx^2=$（ ）。 $[f\\prime\\prime(y)-(1+f\\prime(y))^2]/[x^2(1+f\\prime(y))^3]$ $[f\\prime\\prime(y)-(1-f\\prime(y))^2]/[x^2(1-f\\prime(y))^3]$ $[f\\prime\\prime(y)+(1-f\\prime(y))^2]/[x^2(1-f\\prime(y))^3]$ $[f\\prime\\prime(y)-[1+f\\prime(y)]^2]/[x^2(1-f\\prime(y))^3]$ 隐式求导并整理得 $y\\prime\\prime=[f\\prime\\prime(y)-(1-f\\prime(y))^2]/[x^2(1-f\\prime(y))^3]$。",
+  "sort_order": 23
+}

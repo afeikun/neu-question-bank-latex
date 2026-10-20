@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "复变函数 $w=\\operatorname{Ln}z$ 的解析区域为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "除去原点与负实轴的复平面"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "扩充复平面"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "复平面"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "除去原点的复平面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "主值对数在割去负实轴及原点的区域解析。",
+  "search_text": "复变函数 $w=\\operatorname{Ln}z$ 的解析区域为（ ）。 除去原点与负实轴的复平面 扩充复平面 复平面 除去原点的复平面 主值对数在割去负实轴及原点的区域解析。",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₀¹(arcsin x)²dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "π²/4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "π²/3−2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "π²/4−2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "π²/3"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "分部积分得π²/4−2。",
+  "search_text": "计算∫₀¹(arcsin x)²dx π²/4 π²/3−2 π²/4−2 π²/3 分部积分得π²/4−2。",
+  "sort_order": 18
+}

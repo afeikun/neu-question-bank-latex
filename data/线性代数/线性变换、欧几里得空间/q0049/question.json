@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在线性空间 $\\mathbb R[x]_3$ 中，对任意向量 $f(x),g(x)\\in\\mathbb R[x]_n$ 定义内积 $[f(x),g(x)]=\\int_{-1}^{1}f(x)g(x)\\,dx$，则 $\\mathbb R[x]_3$ 的一组规范正交基是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1,2x,3x^2-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0,x,3x^2-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1,x,x^2-\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1,x+1,x^2-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$1,2x,3x^2-1$ 为正交向量组，但向量 $2x,3x^2-1$ 均不是单位向量；$1,x+1,x^2-1$ 中 $1$ 与 $x+1$ 不正交；$0,x,3x^2-1$ 中零向量不能作为基向量；$1,x,x^2-\\frac13$ 中三个向量两两正交并且都是单位向量。",
+  "search_text": "在线性空间 $\\mathbb R[x]_3$ 中，对任意向量 $f(x),g(x)\\in\\mathbb R[x]_n$ 定义内积 $[f(x),g(x)]=\\int_{-1}^{1}f(x)g(x)\\,dx$，则 $\\mathbb R[x]_3$ 的一组规范正交基是（ ）。 $1,2x,3x^2-1$ $0,x,3x^2-1$ $1,x,x^2-\\frac13$ $1,x+1,x^2-1$ $1,2x,3x^2-1$ 为正交向量组，但向量 $2x,3x^2-1$ 均不是单位向量；$1,x+1,x^2-1$ 中 $1$ 与 $x+1$ 不正交；$0,x,3x^2-1$ 中零向量不能作为基向量；$1,x,x^2-\\frac13$ 中三个向量两两正交并且都是单位向量。",
+  "sort_order": 49
+}

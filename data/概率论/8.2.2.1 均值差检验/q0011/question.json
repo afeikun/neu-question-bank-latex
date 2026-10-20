@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设两个正态总体X、Y独立样本，容量n1、n2，样本均值X̄、Ȳ，样本方差S1²、S2²。检验H0:μ1−μ2=μ0时，若方差σ1²、σ2²已知，检验统计量和拒绝域应为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U=(\\bar X-\\bar Y-\\mu_0)/\\sqrt{\\sigma_1^2/n_1+\\sigma_2^2/n_2},\\ |u|>u_{\\alpha/2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "合并方差t统计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "Welch近似t统计量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "方差比F统计量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方差已知时使用标准正态U统计量，双侧拒绝域为|u|>uα/2。",
+  "search_text": "设两个正态总体X、Y独立样本，容量n1、n2，样本均值X̄、Ȳ，样本方差S1²、S2²。检验H0:μ1−μ2=μ0时，若方差σ1²、σ2²已知，检验统计量和拒绝域应为（）。 $U=(\\bar X-\\bar Y-\\mu_0)/\\sqrt{\\sigma_1^2/n_1+\\sigma_2^2/n_2},\\ |u|>u_{\\alpha/2}$ 合并方差t统计量 Welch近似t统计量 方差比F统计量 方差已知时使用标准正态U统计量，双侧拒绝域为|u|>uα/2。",
+  "sort_order": 11
+}

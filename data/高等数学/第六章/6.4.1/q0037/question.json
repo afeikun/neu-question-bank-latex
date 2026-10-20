@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "点 $P(1,0,1)$ 关于直线 $l:x=\\frac{y-1}{2}=\\frac{z+2}{2}$ 的对称点坐标为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1,38,-25)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac19,\\frac{19}9,-\\frac{25}9)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac19,\\frac{38}9,-\\frac{25}9)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1,19,-25)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：$\\vec{s}=(1,2,2)$，所以过点 $P(1,0,1)$ 与直线垂直的平面方程为 $x+2y+2z-3=0$。\n\n直线的参数式方程为 $\\begin{cases}x=t\\\\y=2t+1\\\\z=2t-2\\end{cases}$，将 $\\begin{cases}x=t\\\\y=2t+1\\\\z=2t-2\\end{cases}$ 代入到 $x+2y+2z-3=0$，得 $t=\\frac{5}{9}$，即得交点坐标为 $\\left(\\frac{5}{9},\\frac{19}{9},\\frac{8}{9}\\right)$。因交点为点 $P$ 与其对称点的中点，所以对称点坐标为 $\\left(\\frac{1}{9},\\frac{38}{9},\\frac{25}{9}\\right)$。",
+  "search_text": "点 $P(1,0,1)$ 关于直线 $l:x=\\frac{y-1}{2}=\\frac{z+2}{2}$ 的对称点坐标为(\\quad)。 $(1,38,-25)$ $(\\frac19,\\frac{19}9,-\\frac{25}9)$ $(\\frac19,\\frac{38}9,-\\frac{25}9)$ $(1,19,-25)$ 解答：$\\vec{s}=(1,2,2)$，所以过点 $P(1,0,1)$ 与直线垂直的平面方程为 $x+2y+2z-3=0$。\n\n直线的参数式方程为 $\\begin{cases}x=t\\\\y=2t+1\\\\z=2t-2\\end{cases}$，将 $\\begin{cases}x=t\\\\y=2t+1\\\\z=2t-2\\end{cases}$ 代入到 $x+2y+2z-3=0$，得 $t=\\frac{5}{9}$，即得交点坐标为 $\\left(\\frac{5}{9},\\frac{19}{9},\\frac{8}{9}\\right)$。因交点为点 $P$ 与其对称点的中点，所以对称点坐标为 $\\left(\\frac{1}{9},\\frac{38}{9},\\frac{25}{9}\\right)$。",
+  "sort_order": 37
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to x_0}f(x)$ 存在是 $\\lim_{x\\to x_0^+}f(x)$ 存在的（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "充分条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既非必要也非充分条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "双侧极限存在必然推出右极限存在，但反之不成立，因此是充分条件。",
+  "search_text": "$\\lim_{x\\to x_0}f(x)$ 存在是 $\\lim_{x\\to x_0^+}f(x)$ 存在的（ ）。 充分必要条件 必要条件 充分条件 既非必要也非充分条件 双侧极限存在必然推出右极限存在，但反之不成立，因此是充分条件。",
+  "sort_order": 18
+}

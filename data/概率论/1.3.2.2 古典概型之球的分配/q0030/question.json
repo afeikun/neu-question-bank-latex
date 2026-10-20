@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "袋中共有5个球，其中3个新球、2个旧球，每次取1个，无放回地取2次，则第二次取到新球的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3/5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/10$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对第二次取球用全概率公式：$3/5\\times2/4+2/5\\times3/4=3/5$。",
+  "search_text": "袋中共有5个球，其中3个新球、2个旧球，每次取1个，无放回地取2次，则第二次取到新球的概率是（ ）。 $3/5$ $3/4$ $2/4$ $3/10$ 对第二次取球用全概率公式：$3/5\\times2/4+2/5\\times3/4=3/5$。",
+  "sort_order": 30
+}

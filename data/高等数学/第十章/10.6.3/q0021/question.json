@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求微分方程 $y\\prime\\prime+y=x+e^x$ 的通解（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y_2^*=\\frac12e^x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y_2^*=\\frac12e^{2x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y_2^*=e^x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y_2^*=\\frac13e^x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "特征方程为 $r^2+1=0$，特征根为 $r_1=i,r_2=-i$，\n\n故对应齐次方程的通解为 $Y=C_1\\cos x+C_2\\sin x$。\n\n观察可得，$y''+y=x$ 的一个特解为 $y_1^*=x$，$y''+y=e^x$ 的一个特解为 $y_2^*=\\frac{1}{2}e^x$。",
+  "search_text": "求微分方程 $y\\prime\\prime+y=x+e^x$ 的通解（ ） $y_2^*=\\frac12e^x$ $y_2^*=\\frac12e^{2x}$ $y_2^*=e^x$ $y_2^*=\\frac13e^x$ 特征方程为 $r^2+1=0$，特征根为 $r_1=i,r_2=-i$，\n\n故对应齐次方程的通解为 $Y=C_1\\cos x+C_2\\sin x$。\n\n观察可得，$y''+y=x$ 的一个特解为 $y_1^*=x$，$y''+y=e^x$ 的一个特解为 $y_2^*=\\frac{1}{2}e^x$。",
+  "sort_order": 21
+}

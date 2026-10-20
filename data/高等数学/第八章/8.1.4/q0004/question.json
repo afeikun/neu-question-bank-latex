@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "交换二次积分 $\\int_0^1dy\\int_{1-y}^{1+y^2}f(x,y)dx$ 的积分次序，正确的是[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dx\\int_{x-1}^1f(x,y)dy+\\int_1^2dx\\int_{\\sqrt{x-1}}^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1dx\\int_{1-x}^1f(x,y)dy+\\int_1^2dx\\int_{\\sqrt{x-1}}^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dx\\int_{1-x}^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dx\\int_{1-x}^{1+x}f(x,y)dy+\\int_1^2dx\\int_{\\sqrt{x-1}}^1f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 设积分区域 $D:\\begin{cases}1-y\\leq x\\leq1+y^2,\\\\0\\leq y\\leq1\\end{cases}$，因此 $D=D_1+D_2$，其中\n\n$$D_1:\\begin{cases}1-x\\leq y\\leq1,\\\\0\\leq x\\leq1\\end{cases},\\quad D_2:\\begin{cases}\\sqrt{x-1}\\leq y\\leq1,\\\\1\\leq x\\leq2\\end{cases}$$\n\n则故 原式$=\\int_0^1dx\\int_{1-x}^1f(x,y)dy+\\int_1^2dx\\int_{\\sqrt{x-1}}^1f(x,y)dy\\cdots$",
+  "search_text": "交换二次积分 $\\int_0^1dy\\int_{1-y}^{1+y^2}f(x,y)dx$ 的积分次序，正确的是[\\quad] $\\int_0^1dx\\int_{x-1}^1f(x,y)dy+\\int_1^2dx\\int_{\\sqrt{x-1}}^1f(x,y)dy$ $\\int_0^1dx\\int_{1-x}^1f(x,y)dy+\\int_1^2dx\\int_{\\sqrt{x-1}}^1f(x,y)dy$ $\\int_0^1dx\\int_{1-x}^1f(x,y)dy$ $\\int_0^1dx\\int_{1-x}^{1+x}f(x,y)dy+\\int_1^2dx\\int_{\\sqrt{x-1}}^1f(x,y)dy$ 解答 设积分区域 $D:\\begin{cases}1-y\\leq x\\leq1+y^2,\\\\0\\leq y\\leq1\\end{cases}$，因此 $D=D_1+D_2$，其中\n\n$$D_1:\\begin{cases}1-x\\leq y\\leq1,\\\\0\\leq x\\leq1\\end{cases},\\quad D_2:\\begin{cases}\\sqrt{x-1}\\leq y\\leq1,\\\\1\\leq x\\leq2\\end{cases}$$\n\n则故 原式$=\\int_0^1dx\\int_{1-x}^1f(x,y)dy+\\int_1^2dx\\int_{\\sqrt{x-1}}^1f(x,y)dy\\cdots$",
+  "sort_order": 4
+}

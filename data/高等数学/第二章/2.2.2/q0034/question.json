@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\sin^2(\\frac{1-\\ln x}{x})$，则 $y\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$\\frac{\\ln x-2}{x^2}\\sin(2\\frac{1-\\ln x}{x})$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$\\frac{2\\ln x-1}{x^2}\\sin(2\\frac{1-\\ln x}{x})$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$\\frac{\\ln x-2}{x^2}\\sin(2\\frac{1-\\ln x}{x})$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$\\frac{\\ln x-1}{x^2}\\sin(\\frac{1-\\ln x}{x})$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $u=(1-\\ln x)/x$，则 $u\\prime=(\\ln x-2)/x^2$，故 $y\\prime=u\\prime\\sin2u$。",
+  "search_text": "设 $y=\\sin^2(\\frac{1-\\ln x}{x})$，则 $y\\prime=$（ ）。 $$\\frac{\\ln x-2}{x^2}\\sin(2\\frac{1-\\ln x}{x})$$ $$\\frac{2\\ln x-1}{x^2}\\sin(2\\frac{1-\\ln x}{x})$$ $$\\frac{\\ln x-2}{x^2}\\sin(2\\frac{1-\\ln x}{x})$$ $$\\frac{\\ln x-1}{x^2}\\sin(\\frac{1-\\ln x}{x})$$ 令 $u=(1-\\ln x)/x$，则 $u\\prime=(\\ln x-2)/x^2$，故 $y\\prime=u\\prime\\sin2u$。",
+  "sort_order": 34
+}

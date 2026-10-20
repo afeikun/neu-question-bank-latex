@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\pi}\\frac{\\sin x}{x-\\pi}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "-1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $t=x-\\pi$，则 $\\sin x=-\\sin t$，极限为 $-1$。",
+  "search_text": "$\\lim_{x\\to\\pi}\\frac{\\sin x}{x-\\pi}=[\\quad]$。 1 $\\infty$ 0 -1 令 $t=x-\\pi$，则 $\\sin x=-\\sin t$，极限为 $-1$。",
+  "sort_order": 12
+}

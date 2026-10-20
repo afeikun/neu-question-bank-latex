@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程组 $\\begin{cases}x_1+2x_2-3x_3=0,\\\\2x_1+5x_2+2x_3=0,\\\\3x_1-x_2-4x_3=0,\\\\7x_1+8x_2-8x_3=0\\end{cases}$ 的解的情形是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "仅有零解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "基础解系中有两个向量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "基础解系中有一个向量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对系数矩阵 $A$ 进行初等行变换，有 $\\begin{pmatrix}1&2&-3\\\\2&5&2\\\\3&-1&-4\\\\7&8&-8\\end{pmatrix}\\to\\begin{pmatrix}1&2&-3\\\\0&1&8\\\\0&0&1\\\\0&0&0\\end{pmatrix}$。由 $r(A)=3$ 可知，即方程组只有唯一零解。",
+  "search_text": "方程组 $\\begin{cases}x_1+2x_2-3x_3=0,\\\\2x_1+5x_2+2x_3=0,\\\\3x_1-x_2-4x_3=0,\\\\7x_1+8x_2-8x_3=0\\end{cases}$ 的解的情形是（ ）。 无解 仅有零解 基础解系中有两个向量 基础解系中有一个向量 对系数矩阵 $A$ 进行初等行变换，有 $\\begin{pmatrix}1&2&-3\\\\2&5&2\\\\3&-1&-4\\\\7&8&-8\\end{pmatrix}\\to\\begin{pmatrix}1&2&-3\\\\0&1&8\\\\0&0&1\\\\0&0&0\\end{pmatrix}$。由 $r(A)=3$ 可知，即方程组只有唯一零解。",
+  "sort_order": 18
+}

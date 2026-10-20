@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma\\frac{1-y^2}{x}\\,dS$，$\\Sigma$ 为圆柱面 $x^2+y^2=1$ 在 $z=0$ 与 $z=1$ 间且 $x>0$ 的部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\iint_\\Sigma\\frac{1-y^2}{x}\\,dS=\\iint_{D_{yz}}\\frac{1-y^2}{\\sqrt{1-y^2}}\\cdot\\frac{1}{\\sqrt{1-y^2}}\\,dydz=2，$$",
+  "search_text": "计算 $\\iint_\\Sigma\\frac{1-y^2}{x}\\,dS$，$\\Sigma$ 为圆柱面 $x^2+y^2=1$ 在 $z=0$ 与 $z=1$ 间且 $x>0$ 的部分。 $4$ $2$ $3$ $1$ $$\\iint_\\Sigma\\frac{1-y^2}{x}\\,dS=\\iint_{D_{yz}}\\frac{1-y^2}{\\sqrt{1-y^2}}\\cdot\\frac{1}{\\sqrt{1-y^2}}\\,dydz=2，$$",
+  "sort_order": 26
+}

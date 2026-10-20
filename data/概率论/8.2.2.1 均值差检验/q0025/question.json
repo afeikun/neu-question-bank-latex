@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两独立正态总体方差未知且不相等，检验H0:μ1−μ2=δ（δ已知），H1:μ1−μ2≠δ，统计量与拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$T=(\\bar X-\\bar Y-\\delta)/\\sqrt{S_1^2/n_1+S_2^2/n_2}$，近似t(f)，$|t|>t_{\\alpha/2}(f)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "合并方差t且自由度n1+n2−2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "已知方差U统计量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "单侧F拒绝域"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "不等方差下用Welch近似t统计量和近似自由度f，双侧检验用tα/2(f)。",
+  "search_text": "两独立正态总体方差未知且不相等，检验H0:μ1−μ2=δ（δ已知），H1:μ1−μ2≠δ，统计量与拒绝域为（）。 $T=(\\bar X-\\bar Y-\\delta)/\\sqrt{S_1^2/n_1+S_2^2/n_2}$，近似t(f)，$|t|>t_{\\alpha/2}(f)$ 合并方差t且自由度n1+n2−2 已知方差U统计量 单侧F拒绝域 不等方差下用Welch近似t统计量和近似自由度f，双侧检验用tα/2(f)。",
+  "sort_order": 25
+}

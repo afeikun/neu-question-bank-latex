@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\varphi(x,y)=\\frac18(6-x-y)$，$0<x<2,2<y<4$，求$P(\\xi<1,\\eta<3)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5/8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac18\\int_0^1\\int_2^3(6-x-y)dydx=3/8$。",
+  "search_text": "$\\varphi(x,y)=\\frac18(6-x-y)$，$0<x<2,2<y<4$，求$P(\\xi<1,\\eta<3)$。 $5/8$ $1/4$ $3/8$ $3/4$ $\\frac18\\int_0^1\\int_2^3(6-x-y)dydx=3/8$。",
+  "sort_order": 5
+}

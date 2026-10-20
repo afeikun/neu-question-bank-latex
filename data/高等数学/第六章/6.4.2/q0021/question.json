@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $\\begin{cases}x=0\\\\2y-z=0\\end{cases}$ 必(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "平行于 $x$ 轴但不过原点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "过原点且平行于 $x$ 轴"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "垂直于 $x$ 轴但不过原点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "过原点且垂直于 $x$ 轴"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：因平面 $x=0$ 与 $2y-z=0$ 都过原点，所以直线过原点；又因 $x=0$ 即为 $yoz$ 面，所以直线在 $yoz$ 面内，所以直线必过原点且垂直于 $x$ 轴。",
+  "search_text": "直线 $\\begin{cases}x=0\\\\2y-z=0\\end{cases}$ 必(\\quad)。 平行于 $x$ 轴但不过原点 过原点且平行于 $x$ 轴 垂直于 $x$ 轴但不过原点 过原点且垂直于 $x$ 轴 解答：因平面 $x=0$ 与 $2y-z=0$ 都过原点，所以直线过原点；又因 $x=0$ 即为 $yoz$ 面，所以直线在 $yoz$ 面内，所以直线必过原点且垂直于 $x$ 轴。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(x^2+y)dx+(x-2y)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13x^3y+xy-y^2=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13x^3+xy-y^3=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13x^3+x-y^2=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13x^3+xy-y^2=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$x^2dx+ydx+xdy-2y\\,dy=0$，\n\n$d\\left(\\frac{1}{3}x^3+xy-y^2\\right)=0$，",
+  "search_text": "$(x^2+y)dx+(x-2y)dy=0$ 的通解为（ ） $\\frac13x^3y+xy-y^2=C$ $\\frac13x^3+xy-y^3=C$ $\\frac13x^3+x-y^2=C$ $\\frac13x^3+xy-y^2=C$ $x^2dx+ydx+xdy-2y\\,dy=0$，\n\n$d\\left(\\frac{1}{3}x^3+xy-y^2\\right)=0$，",
+  "sort_order": 8
+}

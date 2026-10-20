@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一圆柱形蓄水池高 $5m$、底半径 $3m$，池内盛满水，将池内的水全部吸出要做多少功？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4462\\,kJ$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5462\\,kJ$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3462\\,kJ$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6462\\,kJ$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "取深度 $x$ 为积分变量，$W=\\int_0^5 88.2\\pi xdx=3462\\,kJ$（按题面近似值）。",
+  "search_text": "一圆柱形蓄水池高 $5m$、底半径 $3m$，池内盛满水，将池内的水全部吸出要做多少功？ $4462\\,kJ$ $5462\\,kJ$ $3462\\,kJ$ $6462\\,kJ$ 取深度 $x$ 为积分变量，$W=\\int_0^5 88.2\\pi xdx=3462\\,kJ$（按题面近似值）。",
+  "sort_order": 9
+}

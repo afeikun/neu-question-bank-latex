@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=\\sin x+\\cos y+\\cos(x-y)$，$0\\le x,y\\le\\pi/2$，求极值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "只有极大值 $\\frac{3\\sqrt3}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "只有极小值 $-\\frac{3\\sqrt3}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极值不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "极大值 $\\frac{3\\sqrt3}{2}$，极小值 $-\\frac{3\\sqrt3}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令\n\n$$\\left\\{\\begin{aligned}f'_x&=\\cos x-\\sin(x-y)=0\\\\f'_y&=-\\sin y+\\sin(x-y)=0\\end{aligned}\\right.$$ \n\n解得驻点 $(x_0,y_0)=\\left(\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)$\n\n$$A=f''_{xx}(x,y)=-\\sin x-\\cos(x-y)$$\n\n$$B=f''_{xy}(x,y)=\\cos(x-y)$$\n\n$$C=f''_{yy}(x,y)=-\\cos y-\\cos(x-y)$$\n\n在 $\\left(\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)$ 处，$A=-\\sqrt{3}<0,B=\\frac{\\sqrt{3}}{2},C=-\\sqrt{3},AC-B^2=\\frac{9}{4}>0$，\n\n∴ $\\left(\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)$ 为 $f(x,y)$ 的极大值点，极大值 $f\\left(\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)=\\frac{3\\sqrt{3}}{2}$。",
+  "search_text": "函数 $f(x,y)=\\sin x+\\cos y+\\cos(x-y)$，$0\\le x,y\\le\\pi/2$，求极值。 只有极大值 $\\frac{3\\sqrt3}{2}$ 只有极小值 $-\\frac{3\\sqrt3}{2}$ 极值不存在 极大值 $\\frac{3\\sqrt3}{2}$，极小值 $-\\frac{3\\sqrt3}{2}$ 令\n\n$$\\left\\{\\begin{aligned}f'_x&=\\cos x-\\sin(x-y)=0\\\\f'_y&=-\\sin y+\\sin(x-y)=0\\end{aligned}\\right.$$ \n\n解得驻点 $(x_0,y_0)=\\left(\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)$\n\n$$A=f''_{xx}(x,y)=-\\sin x-\\cos(x-y)$$\n\n$$B=f''_{xy}(x,y)=\\cos(x-y)$$\n\n$$C=f''_{yy}(x,y)=-\\cos y-\\cos(x-y)$$\n\n在 $\\left(\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)$ 处，$A=-\\sqrt{3}<0,B=\\frac{\\sqrt{3}}{2},C=-\\sqrt{3},AC-B^2=\\frac{9}{4}>0$，\n\n∴ $\\left(\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)$ 为 $f(x,y)$ 的极大值点，极大值 $f\\left(\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)=\\frac{3\\sqrt{3}}{2}$。",
+  "sort_order": 9
+}

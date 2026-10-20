@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "样本$k$阶中心矩$S_n^k=n^{-1}\\sum(X_i-\\bar X)^k$，下列错误的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$S_n^2=(n-1)^{-1}\\sum(X_i-\\bar X)^2$是$D(X)$的矩估计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X^k$是$E(X^k)$的无偏估计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar X^k$是$E(X^k)$的一致估计量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "样本方差是$D(X)$的无偏估计量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总体方差的矩估计为$n^{-1}\\sum(X_i-\\bar X)^2$，不是无偏样本方差。",
+  "search_text": "样本$k$阶中心矩$S_n^k=n^{-1}\\sum(X_i-\\bar X)^k$，下列错误的是（）。 $S_n^2=(n-1)^{-1}\\sum(X_i-\\bar X)^2$是$D(X)$的矩估计量 $\\bar X^k$是$E(X^k)$的无偏估计量 $\\bar X^k$是$E(X^k)$的一致估计量 样本方差是$D(X)$的无偏估计量 总体方差的矩估计为$n^{-1}\\sum(X_i-\\bar X)^2$，不是无偏样本方差。",
+  "sort_order": 14
+}

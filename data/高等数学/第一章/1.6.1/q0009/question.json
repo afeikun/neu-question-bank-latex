@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $c\\ne0$ 时，$\\lim_{x\\to0}\\frac{\\sin ax-\\sin bx}{\\sin cx}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{a+b}{c}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{b-a}{c}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{a-b}{c}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{c-b}{a}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "利用 $\\sin kx\\sim kx$，极限为 $(a-b)/c$。",
+  "search_text": "当 $c\\ne0$ 时，$\\lim_{x\\to0}\\frac{\\sin ax-\\sin bx}{\\sin cx}=[\\quad]$。 $\\frac{a+b}{c}$ $\\frac{b-a}{c}$ $\\frac{a-b}{c}$ $\\frac{c-b}{a}$ 利用 $\\sin kx\\sim kx$，极限为 $(a-b)/c$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两半径均为a的直交圆柱所围成立体体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "8∫₀ᵃ(a²−x²)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4∫₀ᵃ(a²−x²)dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2∫₀ᵃ(a²−x²)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀ᵃ(a²−x²)dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "截面面积为a²−x²，利用对称性得V=8∫₀ᵃ(a²−x²)dx。",
+  "search_text": "两半径均为a的直交圆柱所围成立体体积 8∫₀ᵃ(a²−x²)dx 4∫₀ᵃ(a²−x²)dx 2∫₀ᵃ(a²−x²)dx ∫₀ᵃ(a²−x²)dx 截面面积为a²−x²，利用对称性得V=8∫₀ᵃ(a²−x²)dx。",
+  "sort_order": 1
+}

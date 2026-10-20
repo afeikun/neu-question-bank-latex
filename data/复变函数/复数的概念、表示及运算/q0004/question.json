@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=(2-3i)(-2+i)$，则 $\\arg z=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi-\\arctan 8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi-\\arctan\\dfrac18$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi+\\arctan 8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi+\\arctan\\dfrac18$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用 $z=-1+8i$ 可得。",
+  "search_text": "设 $z=(2-3i)(-2+i)$，则 $\\arg z=(\\quad)$。 $\\pi-\\arctan 8$ $\\pi-\\arctan\\dfrac18$ $\\pi+\\arctan 8$ $\\pi+\\arctan\\dfrac18$ 利用 $z=-1+8i$ 可得。",
+  "sort_order": 4
+}

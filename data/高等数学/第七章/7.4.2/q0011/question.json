@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=x+y$，$v=xy$，$w=u^v$，求 $w_x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y(x+y)^{xy-1}+xy(x+y)^{xy-1}\\ln(x+y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$xy(x+y)^{xy-1}+x(x+y)^{xy}\\ln(x+y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x+y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xy(x+y)^{xy}+y(x+y)^{xy-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "用复合函数的求导法则：\n\n$$\\frac{\\partial w}{\\partial x}=\\frac{\\partial w}{\\partial u}\\cdot\\frac{\\partial u}{\\partial x}+\\frac{\\partial w}{\\partial v}\\cdot\\frac{\\partial v}{\\partial x}=vu^{v-1}\\cdot1+y\\cdot u^v\\cdot\\ln u$$\n\n即有 $xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x+y)$",
+  "search_text": "设 $u=x+y$，$v=xy$，$w=u^v$，求 $w_x$。 $y(x+y)^{xy-1}+xy(x+y)^{xy-1}\\ln(x+y)$ $xy(x+y)^{xy-1}+x(x+y)^{xy}\\ln(x+y)$ $xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x+y)$ $xy(x+y)^{xy}+y(x+y)^{xy-1}$ 用复合函数的求导法则：\n\n$$\\frac{\\partial w}{\\partial x}=\\frac{\\partial w}{\\partial u}\\cdot\\frac{\\partial u}{\\partial x}+\\frac{\\partial w}{\\partial v}\\cdot\\frac{\\partial v}{\\partial x}=vu^{v-1}\\cdot1+y\\cdot u^v\\cdot\\ln u$$\n\n即有 $xy(x+y)^{xy-1}+y(x+y)^{xy}\\ln(x+y)$",
+  "sort_order": 11
+}

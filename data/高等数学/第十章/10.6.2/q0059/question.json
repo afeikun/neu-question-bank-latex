@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime-4y\\prime+13y=0$ 在 $y|_{x=0}=0,y\\prime|_{x=0}=3$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^x\\cos x+e^{2x}\\sin x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{2x}\\sin3x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^{2x}\\cos3x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^{2x}(\\cos x+\\sin x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 特征方程 $\\lambda^2-4\\lambda+13=0$，特征根为 $\\lambda_1=2+3i,\\lambda_2=2-3i$，\n故方程的通解为 $y=e^{2x}(C_1\\cos3x+C_2\\sin3x)$。\n\n将 $y|_{x=0}=0$ 代入得 $C_1=0$。\n\n由 $y'=e^{2x}[(2C_1+3C_2)\\cos3x+(2C_2-3C_1)\\sin3x]$，以 $y'|_{x=0}=3$ 代入得\n$$2C_1+3C_2=3,\\quad C_2=1.$$\n\n故所求方程的特解为 $y=e^{2x}\\sin3x$。\n\n因此选 C。",
+  "search_text": "微分方程 $y\\prime\\prime-4y\\prime+13y=0$ 在 $y|_{x=0}=0,y\\prime|_{x=0}=3$ 下的特解为（ ） $y=e^x\\cos x+e^{2x}\\sin x$ $y=e^{2x}\\sin3x$ $y=e^{2x}\\cos3x$ $y=e^{2x}(\\cos x+\\sin x)$ 解答 特征方程 $\\lambda^2-4\\lambda+13=0$，特征根为 $\\lambda_1=2+3i,\\lambda_2=2-3i$，\n故方程的通解为 $y=e^{2x}(C_1\\cos3x+C_2\\sin3x)$。\n\n将 $y|_{x=0}=0$ 代入得 $C_1=0$。\n\n由 $y'=e^{2x}[(2C_1+3C_2)\\cos3x+(2C_2-3C_1)\\sin3x]$，以 $y'|_{x=0}=3$ 代入得\n$$2C_1+3C_2=3,\\quad C_2=1.$$\n\n故所求方程的特解为 $y=e^{2x}\\sin3x$。\n\n因此选 C。",
+  "sort_order": 59
+}

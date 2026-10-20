@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下面（ ）不构成实数域上的向量空间。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{(x,x,x)\\mid x\\in\\mathbb{R}\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{(0,y,z)\\mid y,z\\in\\mathbb{R}\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{(1,y,z)\\mid y,z\\in\\mathbb{R}\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{(x,y,z)\\mid x,y,z\\in\\mathbb{R}\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "集合 $\\{(1,y,z)\\mid y,z\\in\\mathbb{R}\\}$ 对向量加法不封闭，因此不构成实数域上的向量空间。",
+  "search_text": "下面（ ）不构成实数域上的向量空间。 $\\{(x,x,x)\\mid x\\in\\mathbb{R}\\}$ $\\{(0,y,z)\\mid y,z\\in\\mathbb{R}\\}$ $\\{(1,y,z)\\mid y,z\\in\\mathbb{R}\\}$ $\\{(x,y,z)\\mid x,y,z\\in\\mathbb{R}\\}$ 集合 $\\{(1,y,z)\\mid y,z\\in\\mathbb{R}\\}$ 对向量加法不封闭，因此不构成实数域上的向量空间。",
+  "sort_order": 6
+}

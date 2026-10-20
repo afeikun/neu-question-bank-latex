@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_C\\frac{z^3\\cos(1/(z-2))}{(z-1)^2}dz$，$C:|z|=3/2$ 正向，等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi i(3\\cos1-\\sin1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\cos1-\\sin1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i(3\\cos1+\\sin1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\cos1+\\sin1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $f(z)=z^3\\cos(1/(z-2))$，由导数公式为 $2\\pi i f'(1)$。",
+  "search_text": "$\\oint_C\\frac{z^3\\cos(1/(z-2))}{(z-1)^2}dz$，$C:|z|=3/2$ 正向，等于（ ）。 $2\\pi i(3\\cos1-\\sin1)$ $3\\cos1-\\sin1$ $2\\pi i(3\\cos1+\\sin1)$ $3\\cos1+\\sin1$ 令 $f(z)=z^3\\cos(1/(z-2))$，由导数公式为 $2\\pi i f'(1)$。",
+  "sort_order": 13
+}

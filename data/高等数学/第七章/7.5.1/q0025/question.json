@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由 $z+e^z=xy$ 确定，求 $(z_x,z_y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{y}{1+e^z},\\frac{x}{1+e^z})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-\\frac{y}{1+e^z},-\\frac{x}{1+e^z})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{y}{1+e^z},-\\frac{x}{1+e^z})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\frac{y}{1+e^z},\\frac{x}{1+e^z})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $z+e^z=xy$ 和 $z+e^z-xy=0$，由隐函数求导公式可得\n\n$$\n\\frac{\\partial z}{\\partial x}=-\\frac{F_x'}{F_z'}=\\frac{y}{1+e^z},\\qquad \\frac{\\partial z}{\\partial y}=-\\frac{F_y'}{F_z'}=\\frac{x}{1+e^z}\n$$",
+  "search_text": "设 $z=z(x,y)$ 由 $z+e^z=xy$ 确定，求 $(z_x,z_y)$。 $(\\frac{y}{1+e^z},\\frac{x}{1+e^z})$ $(-\\frac{y}{1+e^z},-\\frac{x}{1+e^z})$ $(\\frac{y}{1+e^z},-\\frac{x}{1+e^z})$ $(-\\frac{y}{1+e^z},\\frac{x}{1+e^z})$ 由 $z+e^z=xy$ 和 $z+e^z-xy=0$，由隐函数求导公式可得\n\n$$\n\\frac{\\partial z}{\\partial x}=-\\frac{F_x'}{F_z'}=\\frac{y}{1+e^z},\\qquad \\frac{\\partial z}{\\partial y}=-\\frac{F_y'}{F_z'}=\\frac{x}{1+e^z}\n$$",
+  "sort_order": 25
+}

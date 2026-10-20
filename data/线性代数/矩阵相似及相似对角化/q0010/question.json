@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n$ 阶方阵 $A$ 与对角阵相似，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "方阵 $A$ 有 $n$ 个线性无关的特征向量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "方阵 $A$ 一定有 $n$ 个不同的特征值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "方阵 $A$ 的秩等于 $n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "方阵 $A$ 一定是对称矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$n$ 阶方阵 $A$ 与对角阵相似 $\\Rightarrow$ 方阵 $A$ 有 $n$ 个线性无关的特征向量。",
+  "search_text": "$n$ 阶方阵 $A$ 与对角阵相似，则（ ）。 方阵 $A$ 有 $n$ 个线性无关的特征向量 方阵 $A$ 一定有 $n$ 个不同的特征值 方阵 $A$ 的秩等于 $n$ 方阵 $A$ 一定是对称矩阵 $n$ 阶方阵 $A$ 与对角阵相似 $\\Rightarrow$ 方阵 $A$ 有 $n$ 个线性无关的特征向量。",
+  "sort_order": 10
+}

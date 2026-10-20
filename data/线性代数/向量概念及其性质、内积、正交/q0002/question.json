@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知向量 $a,b$ 满足 $|a|=1,\\ |b|=\\sqrt2$，且向量 $a$ 与向量 $a-b$ 正交，则向量 $a$ 与 $b$ 的夹角为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$30^\\circ$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$45^\\circ$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$75^\\circ$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$135^\\circ$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$[a,a-b]=0$ 给出 $[a,b]=|a|^2=1$，故 $\\cos\\theta=1/(1\\cdot\\sqrt2)$，夹角为 $45^\\circ$。",
+  "search_text": "已知向量 $a,b$ 满足 $|a|=1,\\ |b|=\\sqrt2$，且向量 $a$ 与向量 $a-b$ 正交，则向量 $a$ 与 $b$ 的夹角为(\\quad)。 $30^\\circ$ $45^\\circ$ $75^\\circ$ $135^\\circ$ $[a,a-b]=0$ 给出 $[a,b]=|a|^2=1$，故 $\\cos\\theta=1/(1\\cdot\\sqrt2)$，夹角为 $45^\\circ$。",
+  "sort_order": 2
+}

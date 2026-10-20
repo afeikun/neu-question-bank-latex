@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega:x^2+y^2+z^2\\leq2az(a>0)$，则 $\\iiint_\\Omega(x^2+y^2)\\,dv$ 化为球面坐标为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{2a\\cos\\varphi}r^4\\sin^2\\varphi\\cos\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{2a\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^{2a\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{2a\\cos\\theta}r^4\\sin^3\\varphi\\,dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\Omega$ 在球坐标下为\n\n$\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{2}\\\\0\\leq r\\leq 2a\\cos\\varphi\\end{cases},\\quad x^2+y^2=r^2\\sin^2\\varphi$，\n\n于是原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^{2a\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$。",
+  "search_text": "设 $\\Omega:x^2+y^2+z^2\\leq2az(a>0)$，则 $\\iiint_\\Omega(x^2+y^2)\\,dv$ 化为球面坐标为（ ） $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{2a\\cos\\varphi}r^4\\sin^2\\varphi\\cos\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{2a\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^{2a\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{2a\\cos\\theta}r^4\\sin^3\\varphi\\,dr$ $\\Omega$ 在球坐标下为\n\n$\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{2}\\\\0\\leq r\\leq 2a\\cos\\varphi\\end{cases},\\quad x^2+y^2=r^2\\sin^2\\varphi$，\n\n于是原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^{2a\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$。",
+  "sort_order": 4
+}

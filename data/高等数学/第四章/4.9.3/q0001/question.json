@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $R$、圆心角为 $\\varphi$ 的均匀圆弧形细棒，线密度 $\\rho$，圆心处有质量 $m$ 的质点，求细棒对质点的引力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F_x=\\frac{km\\rho}{2R}\\sin\\frac{\\varphi}{2},\\ F_y=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F_x=\\frac{km\\rho}{R}\\sin\\frac{\\varphi}{2},\\ F_y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F_x=\\frac{3km\\rho}{R}\\sin\\frac{\\varphi}{2},\\ F_y=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F_x=\\frac{2km\\rho}{R}\\sin\\frac{\\varphi}{2},\\ F_y=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对称分解并积分，$F_x=(2km\\rho/R)\\sin(\\varphi/2)$，$F_y=0$。",
+  "search_text": "半径为 $R$、圆心角为 $\\varphi$ 的均匀圆弧形细棒，线密度 $\\rho$，圆心处有质量 $m$ 的质点，求细棒对质点的引力。 $F_x=\\frac{km\\rho}{2R}\\sin\\frac{\\varphi}{2},\\ F_y=0$ $F_x=\\frac{km\\rho}{R}\\sin\\frac{\\varphi}{2},\\ F_y=0$ $F_x=\\frac{3km\\rho}{R}\\sin\\frac{\\varphi}{2},\\ F_y=0$ $F_x=\\frac{2km\\rho}{R}\\sin\\frac{\\varphi}{2},\\ F_y=0$ 对称分解并积分，$F_x=(2km\\rho/R)\\sin(\\varphi/2)$，$F_y=0$。",
+  "sort_order": 1
+}

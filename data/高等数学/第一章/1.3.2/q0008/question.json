@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "对于函数 $e^{1/x}$，下列说法正确的是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to+\\infty}e^{1/x}=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{x\\to0^+}e^{1/x}=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{x\\to+\\infty}e^{1/x}=\\infty$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{x\\to0^-}e^{1/x}=\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "当 $x\\to\\pm\\infty$，$1/x\\to0$，故 $e^{1/x}\\to1$；原解析列出的其他极限结论不成立。",
+  "search_text": "对于函数 $e^{1/x}$，下列说法正确的是（ ）。 $\\lim_{x\\to+\\infty}e^{1/x}=1$ $\\lim_{x\\to0^+}e^{1/x}=0$ $\\lim_{x\\to+\\infty}e^{1/x}=\\infty$ $\\lim_{x\\to0^-}e^{1/x}=\\infty$ 当 $x\\to\\pm\\infty$，$1/x\\to0$，故 $e^{1/x}\\to1$；原解析列出的其他极限结论不成立。",
+  "sort_order": 8
+}

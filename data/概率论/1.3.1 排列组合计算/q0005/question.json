@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设由十个数字 $0,1,2,\\ldots,9$ 的任意七个数字都可以组成电话号码，则所有可能组成的电话号码的总数是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$10^7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$10^6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9\\times10^6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7^{10}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "电话号码中的七个数字允许重复，每一位都有 10 种选择，因此总数为 $10^7$。",
+  "search_text": "设由十个数字 $0,1,2,\\ldots,9$ 的任意七个数字都可以组成电话号码，则所有可能组成的电话号码的总数是(\\quad)。 $10^7$ $10^6$ $9\\times10^6$ $7^{10}$ 电话号码中的七个数字允许重复，每一位都有 10 种选择，因此总数为 $10^7$。",
+  "sort_order": 5
+}

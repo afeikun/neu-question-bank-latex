@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过两个平面 $2x+y-z-2=0$ 和 $3x-2y-2z+1=0$ 的交线且与平面 $3x+2y+3z-6=0$ 垂直的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$17x-9y-11z+3=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$17x-9y-11z-3=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$17x-9y+11z-3=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$17x-9y+11z+3=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "过交线的平面束系数由与目标平面垂直条件确定，得 $17x-9y-11z+3=0$。",
+  "search_text": "过两个平面 $2x+y-z-2=0$ 和 $3x-2y-2z+1=0$ 的交线且与平面 $3x+2y+3z-6=0$ 垂直的平面方程为(\\quad)。 $17x-9y-11z+3=0$ $17x-9y-11z-3=0$ $17x-9y+11z-3=0$ $17x-9y+11z+3=0$ 过交线的平面束系数由与目标平面垂直条件确定，得 $17x-9y-11z+3=0$。",
+  "sort_order": 40
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设二次型 $f(x_1,x_2,x_3)=\\lambda(x_1^2+x_2^2+x_3^2)+2x_1x_2+2x_1x_3-2x_2x_3$ 是负定的，则 $\\lambda$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda>2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda>-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda<2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda<-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "二次型矩阵为 $A=\\begin{pmatrix}\\lambda&1&1\\\\1&\\lambda&-1\\\\1&-1&\\lambda\\end{pmatrix}$。负定要求各阶顺序主子式交替变号，需有 $\\lambda<0$，$\\lambda^2-1>0$，$|A|=(\\lambda-2)(\\lambda+1)^2<0$，故 $\\lambda<-1$。",
+  "search_text": "设二次型 $f(x_1,x_2,x_3)=\\lambda(x_1^2+x_2^2+x_3^2)+2x_1x_2+2x_1x_3-2x_2x_3$ 是负定的，则 $\\lambda$ 的值为（ ）。 $\\lambda>2$ $\\lambda>-1$ $\\lambda<2$ $\\lambda<-1$ 二次型矩阵为 $A=\\begin{pmatrix}\\lambda&1&1\\\\1&\\lambda&-1\\\\1&-1&\\lambda\\end{pmatrix}$。负定要求各阶顺序主子式交替变号，需有 $\\lambda<0$，$\\lambda^2-1>0$，$|A|=(\\lambda-2)(\\lambda+1)^2<0$，故 $\\lambda<-1$。",
+  "sort_order": 13
+}

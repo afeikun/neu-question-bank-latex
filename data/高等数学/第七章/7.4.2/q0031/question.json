@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u,v)$ 满足 $f(x+y,\\frac yx)=x^2-y^2$，求 $f_u|_{u=v=1}$ 与 $f_v|_{u=v=1}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac12,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,\\frac12)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0,-\\frac12)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\frac12,0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "法一：$u=x+y,v=\\frac{y}{x}$，所以 $x=\\frac{u}{v+1},y=\\frac{uv}{v+1}$\n\n所以，$f(u,v)=\\frac{u^2}{(v+1)^2}-\\frac{u^2v^2}{(v+1)^2}=\\frac{u^2(1-v)}{v+1}$\n\n$\\frac{\\partial f}{\\partial u}=\\frac{2u(1-v)}{v+1},\\quad \\frac{\\partial f}{\\partial v}=u^2\\frac{-2}{(v+1)^2}\\quad \\left.\\frac{\\partial f}{\\partial u}\\right|_{\\substack{u=1\\\\v=1}}=0,\\quad \\left.\\frac{\\partial f}{\\partial v}\\right|_{\\substack{u=1\\\\v=1}}=-\\frac{1}{2}$\n\n因此选 D。\n\n法二：$f(x+y,\\frac{x}{y})=x^2-y^2$ （1）\n\n（1）式对 $x$ 求导得，$\\frac{\\partial f}{\\partial u}-\\frac{y}{x^2}\\frac{\\partial f}{\\partial v}=2x$ （2）\n\n（1）式对 $y$ 求导得，$\\frac{\\partial f}{\\partial u}+\\frac{1}{x}\\frac{\\partial f}{\\partial v}=-2y$ （3）\n\n由 $u=1,v=1$，得 $x=y=\\frac{1}{2}$，代入（2）（3）解得 $\\left.\\frac{\\partial f}{\\partial u}\\right|_{\\substack{u=1\\\\v=1}}=0,\\quad \\left.\\frac{\\partial f}{\\partial v}\\right|_{\\substack{u=1\\\\v=1}}=-\\frac{1}{2}$",
+  "search_text": "设 $f(u,v)$ 满足 $f(x+y,\\frac yx)=x^2-y^2$，求 $f_u|_{u=v=1}$ 与 $f_v|_{u=v=1}$。 $(\\frac12,0)$ $(0,\\frac12)$ $(0,-\\frac12)$ $(-\\frac12,0)$ 法一：$u=x+y,v=\\frac{y}{x}$，所以 $x=\\frac{u}{v+1},y=\\frac{uv}{v+1}$\n\n所以，$f(u,v)=\\frac{u^2}{(v+1)^2}-\\frac{u^2v^2}{(v+1)^2}=\\frac{u^2(1-v)}{v+1}$\n\n$\\frac{\\partial f}{\\partial u}=\\frac{2u(1-v)}{v+1},\\quad \\frac{\\partial f}{\\partial v}=u^2\\frac{-2}{(v+1)^2}\\quad \\left.\\frac{\\partial f}{\\partial u}\\right|_{\\substack{u=1\\\\v=1}}=0,\\quad \\left.\\frac{\\partial f}{\\partial v}\\right|_{\\substack{u=1\\\\v=1}}=-\\frac{1}{2}$\n\n因此选 D。\n\n法二：$f(x+y,\\frac{x}{y})=x^2-y^2$ （1）\n\n（1）式对 $x$ 求导得，$\\frac{\\partial f}{\\partial u}-\\frac{y}{x^2}\\frac{\\partial f}{\\partial v}=2x$ （2）\n\n（1）式对 $y$ 求导得，$\\frac{\\partial f}{\\partial u}+\\frac{1}{x}\\frac{\\partial f}{\\partial v}=-2y$ （3）\n\n由 $u=1,v=1$，得 $x=y=\\frac{1}{2}$，代入（2）（3）解得 $\\left.\\frac{\\partial f}{\\partial u}\\right|_{\\substack{u=1\\\\v=1}}=0,\\quad \\left.\\frac{\\partial f}{\\partial v}\\right|_{\\substack{u=1\\\\v=1}}=-\\frac{1}{2}$",
+  "sort_order": 31
+}

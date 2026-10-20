@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $(1+x^2)\\frac{d^2y}{dx^2}=2x\\frac{dy}{dx}$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1x^2+\\frac{C_1}{3}x^3+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1x+\\frac{C_1}{3}x^2+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1x^2+\\frac{C_1}{3}x^3+C_2x+C_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1x+\\frac{C_1}{3}x^3+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 设 $\\frac{dy}{dx}=p$，则原方程可化为 $\\frac{dp}{p}=\\frac{2x\\,dx}{1+x^2}$。积分得 $p=C_1(1+x^2)$，即 $\\frac{dy}{dx}=C_1(1+x^2)$。再积分得原方程的通解为\n\n$$y=C_1x+\\frac{C_1}{3}x^3+C_2.$$",
+  "search_text": "微分方程 $(1+x^2)\\frac{d^2y}{dx^2}=2x\\frac{dy}{dx}$ 的通解是（ ） $y=C_1x^2+\\frac{C_1}{3}x^3+C_2$ $y=C_1x+\\frac{C_1}{3}x^2+C_2$ $y=C_1x^2+\\frac{C_1}{3}x^3+C_2x+C_3$ $y=C_1x+\\frac{C_1}{3}x^3+C_2$ 解答 设 $\\frac{dy}{dx}=p$，则原方程可化为 $\\frac{dp}{p}=\\frac{2x\\,dx}{1+x^2}$。积分得 $p=C_1(1+x^2)$，即 $\\frac{dy}{dx}=C_1(1+x^2)$。再积分得原方程的通解为\n\n$$y=C_1x+\\frac{C_1}{3}x^3+C_2.$$",
+  "sort_order": 34
+}

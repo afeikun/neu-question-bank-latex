@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=k\\sqrt{x}(0<x<1)$，其余为0，求分布函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(x)=0(x<0),x^{2/3}(x\\ge0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(x)=0(x<0),x^{3/2}(0\\le x<1),1(x\\ge1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(x)=0(x<0),x^{2/3}(0\\le x<1),1(x\\ge1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(x)=x^{2/3}(x<1),1(x\\ge1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "归一化得$k=3/2$，积分得$F(x)=x^{3/2}$于$[0,1)$。",
+  "search_text": "$f(x)=k\\sqrt{x}(0<x<1)$，其余为0，求分布函数。 $F(x)=0(x<0),x^{2/3}(x\\ge0)$ $F(x)=0(x<0),x^{3/2}(0\\le x<1),1(x\\ge1)$ $F(x)=0(x<0),x^{2/3}(0\\le x<1),1(x\\ge1)$ $F(x)=x^{2/3}(x<1),1(x\\ge1)$ 归一化得$k=3/2$，积分得$F(x)=x^{3/2}$于$[0,1)$。",
+  "sort_order": 1
+}

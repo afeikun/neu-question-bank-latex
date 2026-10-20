@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "线性空间 $V=\\left\\{\\begin{pmatrix}a&b\\\\0&a+b\\end{pmatrix}\\mid a,b\\in\\mathbb R\\right\\}$ 上定义内积 $(A_1,A_2)=a_1a_2+b_1b_2$。若 $A=\\begin{pmatrix}\\lambda&1/2\\\\0&\\lambda+1/2\\end{pmatrix}$（$\\lambda\\ge0$）是单位向量，则 $\\lambda=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt3}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为 $(A,A)=\\lambda^2+\\frac14=1$ 且 $\\lambda\\ge0$，所以 $\\lambda=\\frac{\\sqrt3}{2}$。",
+  "search_text": "线性空间 $V=\\left\\{\\begin{pmatrix}a&b\\\\0&a+b\\end{pmatrix}\\mid a,b\\in\\mathbb R\\right\\}$ 上定义内积 $(A_1,A_2)=a_1a_2+b_1b_2$。若 $A=\\begin{pmatrix}\\lambda&1/2\\\\0&\\lambda+1/2\\end{pmatrix}$（$\\lambda\\ge0$）是单位向量，则 $\\lambda=$（ ）。 $0$ $-\\frac12$ $\\frac{\\sqrt3}{2}$ $\\frac12$ 因为 $(A,A)=\\lambda^2+\\frac14=1$ 且 $\\lambda\\ge0$，所以 $\\lambda=\\frac{\\sqrt3}{2}$。",
+  "sort_order": 24
+}

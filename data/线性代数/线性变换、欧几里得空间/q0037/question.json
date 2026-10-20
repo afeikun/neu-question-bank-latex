@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "假设线性变换 $T$ 在两个基 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 和 $\\beta_1,\\beta_2,\\ldots,\\beta_n$ 下的矩阵分别是 $A$ 和 $B$，若 $R(B)=n$，则齐次方程组 $Ax=0$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "有非零解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "只有零解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "有无穷多解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两个基下的矩阵满足 $B=C^{-1}AC$，其中 $C$ 为过渡矩阵，因此 $R(A)=R(B)=n$，矩阵 $A$ 满秩，齐次方程组 $Ax=0$ 只有零解。",
+  "search_text": "假设线性变换 $T$ 在两个基 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 和 $\\beta_1,\\beta_2,\\ldots,\\beta_n$ 下的矩阵分别是 $A$ 和 $B$，若 $R(B)=n$，则齐次方程组 $Ax=0$（ ）。 有非零解 只有零解 有无穷多解 无解 两个基下的矩阵满足 $B=C^{-1}AC$，其中 $C$ 为过渡矩阵，因此 $R(A)=R(B)=n$，矩阵 $A$ 满秩，齐次方程组 $Ax=0$ 只有零解。",
+  "sort_order": 37
+}

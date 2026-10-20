@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $y\\prime\\prime-6y\\prime+9y=(x+1)e^{3x}$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{2x}(C_1+C_2x)+e^{2x}(ax+b)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^{3x}(C_1+C_2x)+e^{3x}(ax+b)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{3x}(C_1+C_2x)+e^{2x}(ax+b)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{3x}(C_1+C_2x)+e^{2x}(x+3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n由 $r^2-6r+9=0$，解得 $r_{1,2}=3$，故对应的齐次方程的通解为 $Y=e^{3x}(C_1+C_2x)$ 因 $f'(x)=e^{2x}(x+1),\\lambda=2$ 不是特征方程的根，故可设 $y^*=e^{2x}(ax+b)$ 是原方程的一个特解，代入方程并消去 $e^{2x}$，得 $ax+b-2a=x+1$，比较系数，得 $a=1,b=3$，即 $y^*=e^{2x}(x+3)$ 故原方程的通解为\n\n$y=Y+y^*=e^{3x}(C_1+C_2x)+e^{2x}(x+3)$",
+  "search_text": "解方程 $y\\prime\\prime-6y\\prime+9y=(x+1)e^{3x}$（ ） $y=C_1e^{2x}(C_1+C_2x)+e^{2x}(ax+b)$ $y=C_1e^{3x}(C_1+C_2x)+e^{3x}(ax+b)$ $y=C_1e^{3x}(C_1+C_2x)+e^{2x}(ax+b)$ $y=C_1e^{3x}(C_1+C_2x)+e^{2x}(x+3)$ 解析：\n\n由 $r^2-6r+9=0$，解得 $r_{1,2}=3$，故对应的齐次方程的通解为 $Y=e^{3x}(C_1+C_2x)$ 因 $f'(x)=e^{2x}(x+1),\\lambda=2$ 不是特征方程的根，故可设 $y^*=e^{2x}(ax+b)$ 是原方程的一个特解，代入方程并消去 $e^{2x}$，得 $ax+b-2a=x+1$，比较系数，得 $a=1,b=3$，即 $y^*=e^{2x}(x+3)$ 故原方程的通解为\n\n$y=Y+y^*=e^{3x}(C_1+C_2x)+e^{2x}(x+3)$",
+  "sort_order": 13
+}

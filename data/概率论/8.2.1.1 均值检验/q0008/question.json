@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "灯管寿命检验$H_0:\\mu\\le1500,H_1:\\mu>1500$，样本均值1575，$\\sigma=200,n=25,\\alpha=.05$，错误说法是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可认为新工艺没有提高平均寿命"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu\\le1500,H_1:\\mu>1500$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$U=(\\bar X-1500)/(\\sigma/\\sqrt n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "观测$u=1.875$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$u=1.875>1.645$，应拒绝$H_0$并认为寿命提高，选项1错误。",
+  "search_text": "灯管寿命检验$H_0:\\mu\\le1500,H_1:\\mu>1500$，样本均值1575，$\\sigma=200,n=25,\\alpha=.05$，错误说法是（）。 可认为新工艺没有提高平均寿命 $H_0:\\mu\\le1500,H_1:\\mu>1500$ $U=(\\bar X-1500)/(\\sigma/\\sqrt n)$ 观测$u=1.875$ $u=1.875>1.645$，应拒绝$H_0$并认为寿命提高，选项1错误。",
+  "sort_order": 8
+}

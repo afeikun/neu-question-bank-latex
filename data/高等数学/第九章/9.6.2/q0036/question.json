@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线积分 $\\int_L(4x^3+2y^3)dx+6xy^2dy$ 的值（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "与起点、终点无关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "与曲线 $L$ 及起点、终点均有关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "等于 $0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "仅与曲线 $L$ 的起点、终点有关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n因为 $\\frac{\\partial(4x^3+2y^3)}{\\partial y}=6y^2=\\frac{\\partial(6xy^2)}{\\partial x}$，\n\n所以曲线积分与路径无关。",
+  "search_text": "曲线积分 $\\int_L(4x^3+2y^3)dx+6xy^2dy$ 的值（ ） 与起点、终点无关 与曲线 $L$ 及起点、终点均有关 等于 $0$ 仅与曲线 $L$ 的起点、终点有关 解析：\n\n因为 $\\frac{\\partial(4x^3+2y^3)}{\\partial y}=6y^2=\\frac{\\partial(6xy^2)}{\\partial x}$，\n\n所以曲线积分与路径无关。",
+  "sort_order": 36
+}

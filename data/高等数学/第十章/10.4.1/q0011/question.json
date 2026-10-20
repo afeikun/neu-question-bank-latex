@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$2xy\\,dx+(x^2+1)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2y+y=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2y^2+y=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xy^2+y=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xy+y=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程有特解 $y=0$，当 $y\\ne0$ 时，方程可化为 $\\frac{2x\\,dx}{x^2+1}+\\frac{dy}{y}=0$，\n\n即 $d\\ln(x^2+1)+d\\ln|y|=C$，\n\n整理可得 $x^2y+y=C$，\n\n当 $C=0$ 时，可包含特解 $y=0$，",
+  "search_text": "$2xy\\,dx+(x^2+1)dy=0$ 的通解为（ ） $x^2y+y=C$ $x^2y^2+y=C$ $xy^2+y=C$ $xy+y=C$ 方程有特解 $y=0$，当 $y\\ne0$ 时，方程可化为 $\\frac{2x\\,dx}{x^2+1}+\\frac{dy}{y}=0$，\n\n即 $d\\ln(x^2+1)+d\\ln|y|=C$，\n\n整理可得 $x^2y+y=C$，\n\n当 $C=0$ 时，可包含特解 $y=0$，",
+  "sort_order": 11
+}

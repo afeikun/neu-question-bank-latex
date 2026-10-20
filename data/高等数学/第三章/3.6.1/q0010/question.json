@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=xe^{-x}$ 在区间 $(-\\infty,1)$ 内的图形（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "单调下降，曲线为凹"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调下降，曲线为凸"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单调上升，曲线为凹"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "单调上升，曲线为凸"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$y\\prime=(1-x)e^{-x}>0$，在 $x<1$ 单调上升；$y\\prime\\prime=(x-2)e^{-x}<0$，曲线为凸。",
+  "search_text": "函数 $y=xe^{-x}$ 在区间 $(-\\infty,1)$ 内的图形（ ）。 单调下降，曲线为凹 单调下降，曲线为凸 单调上升，曲线为凹 单调上升，曲线为凸 $y\\prime=(1-x)e^{-x}>0$，在 $x<1$ 单调上升；$y\\prime\\prime=(x-2)e^{-x}<0$，曲线为凸。",
+  "sort_order": 10
+}

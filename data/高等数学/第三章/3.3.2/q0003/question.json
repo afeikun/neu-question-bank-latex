@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\displaystyle\\lim_{x\\to+\\infty}\\frac{x^3}{e^{x/100}}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在但不是 $\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\infty$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$+\\infty$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "指数函数增长快于任意多项式；连续使用洛必达法则可得该极限为 $0$。",
+  "search_text": "$\\displaystyle\\lim_{x\\to+\\infty}\\frac{x^3}{e^{x/100}}=(\\quad)$。 不存在但不是 $\\infty$ $-\\infty$ $+\\infty$ $0$ 指数函数增长快于任意多项式；连续使用洛必达法则可得该极限为 $0$。",
+  "sort_order": 3
+}

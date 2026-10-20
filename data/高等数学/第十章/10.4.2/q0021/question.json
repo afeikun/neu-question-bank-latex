@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $ydx+(y-x)dy=0$ 的积分因子为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^{-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^{-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^{-3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程两边同乘 $y^{-2}$，可得\n\n$$\ny^{-1}\\,dx+\\left(\\frac{1}{y}-\\frac{x}{y^2}\\right)dy=0,\n$$\n\n即\n\n$$\nd\\frac{x}{y}+d\\ln y=0.\n$$",
+  "search_text": "方程 $ydx+(y-x)dy=0$ 的积分因子为（ ） $y^2$ $y^{-2}$ $y^{-1}$ $y^{-3}$ 方程两边同乘 $y^{-2}$，可得\n\n$$\ny^{-1}\\,dx+\\left(\\frac{1}{y}-\\frac{x}{y^2}\\right)dy=0,\n$$\n\n即\n\n$$\nd\\frac{x}{y}+d\\ln y=0.\n$$",
+  "sort_order": 21
+}

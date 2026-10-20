@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{dy}{dx}+\\frac yx=\\frac{\\sin x}{x}$ 在初始条件 $y|_{x=\\pi}=1$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1x(\\pi-1-\\sin x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi-1-\\cos x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi-1-\\sin x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1x(\\pi-1-\\cos x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$y=e^{-\\int\\frac{1}{x}\\,dx}\\left(\\int\\frac{\\sin x}{x}\\cdot e^{\\int\\frac{1}{x}\\,dx}\\,dx+C\\right)=\\frac{1}{x}\\left(\\int\\frac{\\sin x}{x}\\cdot x\\,dx+C\\right)=\\frac{1}{x}(-\\cos x+C)$$\n\n带入初值 $x=\\pi,y=1$ 得 $C=\\pi-1$",
+  "search_text": "$\\frac{dy}{dx}+\\frac yx=\\frac{\\sin x}{x}$ 在初始条件 $y|_{x=\\pi}=1$ 下的特解为（ ） $\\frac1x(\\pi-1-\\sin x)$ $\\pi-1-\\cos x$ $\\pi-1-\\sin x$ $\\frac1x(\\pi-1-\\cos x)$ $$y=e^{-\\int\\frac{1}{x}\\,dx}\\left(\\int\\frac{\\sin x}{x}\\cdot e^{\\int\\frac{1}{x}\\,dx}\\,dx+C\\right)=\\frac{1}{x}\\left(\\int\\frac{\\sin x}{x}\\cdot x\\,dx+C\\right)=\\frac{1}{x}(-\\cos x+C)$$\n\n带入初值 $x=\\pi,y=1$ 得 $C=\\pi-1$",
+  "sort_order": 8
+}

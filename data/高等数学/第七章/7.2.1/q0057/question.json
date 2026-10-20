@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=\\sin(3x-y)+y$，则 $\\left.z_x\\right|_{x=2,y=1}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-3\\cos5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\cos5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\cos5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cos5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial x}=3\\cos(3x-y)$，将 $(x,y)=(2,1)$ 代入得 $\\left.\\frac{\\partial z}{\\partial x}\\right|_{\\substack{x=2\\\\y=1}}=3\\cos 5$",
+  "search_text": "设 $z=\\sin(3x-y)+y$，则 $\\left.z_x\\right|_{x=2,y=1}=(\\quad)$。 $-3\\cos5$ $-\\cos5$ $3\\cos5$ $\\cos5$ $\\frac{\\partial z}{\\partial x}=3\\cos(3x-y)$，将 $(x,y)=(2,1)$ 代入得 $\\left.\\frac{\\partial z}{\\partial x}\\right|_{\\substack{x=2\\\\y=1}}=3\\cos 5$",
+  "sort_order": 57
+}

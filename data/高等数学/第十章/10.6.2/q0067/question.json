@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime-4y\\prime+3y=0$ 在 $y|_{x=0}=6,y\\prime|_{x=0}=10$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^{-x}+e^{-3x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=-4e^x-2e^{3x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=-4e^{-x}-2e^{-3x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=4e^x+2e^{3x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 特征方程 $\\lambda^2-4\\lambda+3=0$，特征根为 $\\lambda_1=1,\\lambda_2=3$，\n\n故方程的通解为 $y=C_1e^x+C_2e^{3x}$。\n\n将 $y|_{x=0}=6$ 代入得 $C_1+C_2=6$。\n\n由 $y'=C_1e^x+3C_2e^{3x}$，以 $y'|_{x=0}=10$ 代入得 $C_1+3C_2=10$，因此 $C_1=4,C_2=2$。\n\n故所求方程特解为 $y=4e^x+2e^{3x}$。\n\n因此选 B.",
+  "search_text": "微分方程 $y\\prime\\prime-4y\\prime+3y=0$ 在 $y|_{x=0}=6,y\\prime|_{x=0}=10$ 下的特解为（ ） $y=e^{-x}+e^{-3x}$ $y=-4e^x-2e^{3x}$ $y=-4e^{-x}-2e^{-3x}$ $y=4e^x+2e^{3x}$ 解答 特征方程 $\\lambda^2-4\\lambda+3=0$，特征根为 $\\lambda_1=1,\\lambda_2=3$，\n\n故方程的通解为 $y=C_1e^x+C_2e^{3x}$。\n\n将 $y|_{x=0}=6$ 代入得 $C_1+C_2=6$。\n\n由 $y'=C_1e^x+3C_2e^{3x}$，以 $y'|_{x=0}=10$ 代入得 $C_1+3C_2=10$，因此 $C_1=4,C_2=2$。\n\n故所求方程特解为 $y=4e^x+2e^{3x}$。\n\n因此选 B.",
+  "sort_order": 67
+}

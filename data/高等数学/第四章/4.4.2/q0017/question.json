@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算I=∫₀¹x⁴/√(1−x)dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "156/315"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "198/315"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "256/315"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "208/315"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令x=sin²t，结果为256/315。",
+  "search_text": "计算I=∫₀¹x⁴/√(1−x)dx 156/315 198/315 256/315 208/315 令x=sin²t，结果为256/315。",
+  "sort_order": 17
+}

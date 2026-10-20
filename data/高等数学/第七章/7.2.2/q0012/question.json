@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=e^x\\sin y+e^{-y}\\cos x$，则 $z_{xy}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^y\\sin y+e^{-x}\\cos x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^x\\sin y+e^{-y}\\cos x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^y\\cos x+e^{-x}\\sin y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^x\\cos y+e^{-y}\\sin x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial x}=e^x\\sin y-e^{-y}\\sin x$，则 $\\frac{\\partial^2z}{\\partial x\\partial y}=e^x\\cos y+e^{-y}\\sin x$",
+  "search_text": "设 $z=e^x\\sin y+e^{-y}\\cos x$，则 $z_{xy}=(\\quad)$。 $e^y\\sin y+e^{-x}\\cos x$ $e^x\\sin y+e^{-y}\\cos x$ $e^y\\cos x+e^{-x}\\sin y$ $e^x\\cos y+e^{-y}\\sin x$ $\\frac{\\partial z}{\\partial x}=e^x\\sin y-e^{-y}\\sin x$，则 $\\frac{\\partial^2z}{\\partial x\\partial y}=e^x\\cos y+e^{-y}\\sin x$",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\displaystyle\\lim_{x\\to+\\infty}\\frac{x^n}{\\lambda^n e^x}$（其中 $n$ 为正整数，$\\lambda>0$）的值等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "分子为多项式而分母含 $e^x$；反复应用洛必达法则后极限仍为 $0$。",
+  "search_text": "$\\displaystyle\\lim_{x\\to+\\infty}\\frac{x^n}{\\lambda^n e^x}$（其中 $n$ 为正整数，$\\lambda>0$）的值等于（ ）。 $\\infty$ $1$ $-1$ $0$ 分子为多项式而分母含 $e^x$；反复应用洛必达法则后极限仍为 $0$。",
+  "sort_order": 5
+}

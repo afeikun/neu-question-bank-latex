@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=\\varphi(x,y)$ 偏导连续，$W=f(u)$ 可导，则必有。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\operatorname{grad}W=f'(u)\\operatorname{grad}u$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\operatorname{grad}W=\\varphi_x\\\\mathbf i+\\varphi_y\\\\mathbf j$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\operatorname{grad}W=(f_x\\\\mathbf i+f_y\\\\mathbf j)f'(u)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\operatorname{grad}W=u_x\\\\mathbf i+u_y\\\\mathbf j$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由复合函数和偏导数的定义可直接得出答案。",
+  "search_text": "设 $u=\\varphi(x,y)$ 偏导连续，$W=f(u)$ 可导，则必有。 $\\operatorname{grad}W=f'(u)\\operatorname{grad}u$ $\\operatorname{grad}W=\\varphi_x\\\\mathbf i+\\varphi_y\\\\mathbf j$ $\\operatorname{grad}W=(f_x\\\\mathbf i+f_y\\\\mathbf j)f'(u)$ $\\operatorname{grad}W=u_x\\\\mathbf i+u_y\\\\mathbf j$ 由复合函数和偏导数的定义可直接得出答案。",
+  "sort_order": 26
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $\\begin{cases}f(y,z)=0\\\\x=0\\end{cases}$ 绕 $z$ 轴旋转一周所形成的曲面为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(\\sqrt{x^2+y^2},x)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(\\sqrt{x^2+y^2},z)=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(\\pm\\sqrt{x^2+y^2},z)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(\\pm\\sqrt{x^2+y^2},y)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：$\\begin{cases}f(y,z)=0\\\\x=0\\end{cases}$ 为 $yOz$ 面上的曲线，在方程 $f(y,z)=0$ 中，令 $z$ 不变，用 $\\pm\\sqrt{x^2+y^2}$ 代替 $y$，得旋转曲面方程为 $f\\left(\\pm\\sqrt{x^2+y^2},z\\right)=0$。",
+  "search_text": "曲线 $\\begin{cases}f(y,z)=0\\\\x=0\\end{cases}$ 绕 $z$ 轴旋转一周所形成的曲面为(\\quad)。 $f(\\sqrt{x^2+y^2},x)=0$ $f(\\sqrt{x^2+y^2},z)=0$ $f(\\pm\\sqrt{x^2+y^2},z)=0$ $f(\\pm\\sqrt{x^2+y^2},y)=0$ 解答：$\\begin{cases}f(y,z)=0\\\\x=0\\end{cases}$ 为 $yOz$ 面上的曲线，在方程 $f(y,z)=0$ 中，令 $z$ 不变，用 $\\pm\\sqrt{x^2+y^2}$ 代替 $y$，得旋转曲面方程为 $f\\left(\\pm\\sqrt{x^2+y^2},z\\right)=0$。",
+  "sort_order": 7
+}

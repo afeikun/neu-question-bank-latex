@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int\\frac{dx}{x(x^2+1)}$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln\\frac{|x|}{1+x^2}+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln\\frac{|x|}{\\sqrt{1+x^2}}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln\\frac{|x|}{\\sqrt{1-x^2}}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln\\frac{|x|}{1+x^2}+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\ln|x|-\\frac12\\ln(1+x^2)+C$。",
+  "search_text": "$\\int\\frac{dx}{x(x^2+1)}$ 的值为 $\\ln\\frac{|x|}{1+x^2}+C$ $\\ln\\frac{|x|}{\\sqrt{1+x^2}}+C$ $\\ln\\frac{|x|}{\\sqrt{1-x^2}}+C$ $\\ln\\frac{|x|}{1+x^2}+C$ $\\ln|x|-\\frac12\\ln(1+x^2)+C$。",
+  "sort_order": 19
+}

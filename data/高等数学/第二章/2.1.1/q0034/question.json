@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f\\prime(x_0+\\Delta x)-f\\prime(x_0)$ 与 $\\sin3\\Delta x$ 当 $\\Delta x\\to0$ 时等价无穷小，则 $f\\prime\\prime(x_0)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f\\prime\\prime(x_0)=\\lim_{\\Delta x\\to0}\\frac{\\sin3\\Delta x}{\\Delta x}=3$。",
+  "search_text": "若 $f\\prime(x_0+\\Delta x)-f\\prime(x_0)$ 与 $\\sin3\\Delta x$ 当 $\\Delta x\\to0$ 时等价无穷小，则 $f\\prime\\prime(x_0)=$（ ）。 $1/3$ $0$ $1$ $3$ $f\\prime\\prime(x_0)=\\lim_{\\Delta x\\to0}\\frac{\\sin3\\Delta x}{\\Delta x}=3$。",
+  "sort_order": 34
+}

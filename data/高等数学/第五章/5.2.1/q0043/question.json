@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于两个级数的收敛性，说法正确的是？(1) $\\sum_{n=1}^{\\infty}1/[(n+1)(n+4)]$；(2) $\\sum_{n=1}^{\\infty}1/[n\\sqrt{n+1}]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)收敛(2)发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)和(2)都收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)发散(2)收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)和(2)都发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两级数分别与 $1/n^2$、$1/n^{3/2}$ 同阶，均收敛。",
+  "search_text": "关于两个级数的收敛性，说法正确的是？(1) $\\sum_{n=1}^{\\infty}1/[(n+1)(n+4)]$；(2) $\\sum_{n=1}^{\\infty}1/[n\\sqrt{n+1}]$。 (1)收敛(2)发散 (1)和(2)都收敛 (1)发散(2)收敛 (1)和(2)都发散 两级数分别与 $1/n^2$、$1/n^{3/2}$ 同阶，均收敛。",
+  "sort_order": 43
+}

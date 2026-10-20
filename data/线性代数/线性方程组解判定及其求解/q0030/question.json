@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "非齐次线性方程组 $Ax=b$ 中，系数矩阵 $A=(a_{ij})_{m\\times n}$，且 $r(A)=r$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "当 $r=n$ 时，方程组 $Ax=b$ 有唯一解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "当 $m=n$ 时，方程组 $Ax=b$ 有唯一解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "当 $r<n$ 时，方程组有无穷多解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "当 $r=m$ 时，方程组 $Ax=b$ 有解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对于方程组 $Ax=b$，记 $(Ab)=B$，则 $r(A)=r(B)=n\\Leftrightarrow Ax=b$ 有唯一解；$r(A)=r(B)<n\\Leftrightarrow Ax=b$ 有无穷多解；$r(A)\\ne r(B)\\Leftrightarrow Ax=b$ 无解。对于方程组 $Ax=b$，$r(A)\\le\\min\\{m,n\\}$，且 $r(B)\\le\\min\\{m,n+1\\}$，当 $r=m$ 时 $r(A)=r(B)=m$，方程组 $Ax=b$ 有解；因为不能确定 $m,n$ 是否相等，所以不能确定有唯一解还是无穷解。",
+  "search_text": "非齐次线性方程组 $Ax=b$ 中，系数矩阵 $A=(a_{ij})_{m\\times n}$，且 $r(A)=r$，则（ ）。 当 $r=n$ 时，方程组 $Ax=b$ 有唯一解 当 $m=n$ 时，方程组 $Ax=b$ 有唯一解 当 $r<n$ 时，方程组有无穷多解 当 $r=m$ 时，方程组 $Ax=b$ 有解 对于方程组 $Ax=b$，记 $(Ab)=B$，则 $r(A)=r(B)=n\\Leftrightarrow Ax=b$ 有唯一解；$r(A)=r(B)<n\\Leftrightarrow Ax=b$ 有无穷多解；$r(A)\\ne r(B)\\Leftrightarrow Ax=b$ 无解。对于方程组 $Ax=b$，$r(A)\\le\\min\\{m,n\\}$，且 $r(B)\\le\\min\\{m,n+1\\}$，当 $r=m$ 时 $r(A)=r(B)=m$，方程组 $Ax=b$ 有解；因为不能确定 $m,n$ 是否相等，所以不能确定有唯一解还是无穷解。",
+  "sort_order": 30
+}

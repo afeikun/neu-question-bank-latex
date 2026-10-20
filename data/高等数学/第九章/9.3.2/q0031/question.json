@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $L$ 沿右半圆 $x^2+y^2=a^2$ 以点 $A(0,a)$ 为起点，经过点 $C(a,0)$ 到终点 $B(0,-a)$，则 $\\int_Lxy^2dy-x^2y\\,dx$ 的计算结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac45a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac\\pi4a^5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac\\pi4a^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4a^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解 利用曲线的参数方程计算，$L$的参数方程为：$x=a\\cos\\theta,y=a\\sin\\theta$，在起点$A(0,a)$处参数值取$\\frac{\\pi}{2}$，\n在终点$B(0,-a)$处参数值相应取$-\\frac{\\pi}{2}$，则\n$$\\int_Lxy^2dy-x^2ydx=\\int_{\\frac{\\pi}{2}}^{-\\frac{\\pi}{2}}a^2\\cos\\theta(a\\sin\\theta)^2d(a\\sin\\theta)-(a\\cos\\theta)^2a\\sin\\theta d(a\\cos\\theta)$$\n$$=2a^4\\int_{\\frac{\\pi}{2}}^{-\\frac{\\pi}{2}}\\sin^2\\theta\\cos^2\\theta d\\theta=-\\frac{\\pi}{4}a^4.\\quad$$",
+  "search_text": "若 $L$ 沿右半圆 $x^2+y^2=a^2$ 以点 $A(0,a)$ 为起点，经过点 $C(a,0)$ 到终点 $B(0,-a)$，则 $\\int_Lxy^2dy-x^2y\\,dx$ 的计算结果为（ ） $\\frac45a^3$ $-\\frac\\pi4a^5$ $-\\frac\\pi4a^4$ $\\frac\\pi4a^4$ 解 利用曲线的参数方程计算，$L$的参数方程为：$x=a\\cos\\theta,y=a\\sin\\theta$，在起点$A(0,a)$处参数值取$\\frac{\\pi}{2}$，\n在终点$B(0,-a)$处参数值相应取$-\\frac{\\pi}{2}$，则\n$$\\int_Lxy^2dy-x^2ydx=\\int_{\\frac{\\pi}{2}}^{-\\frac{\\pi}{2}}a^2\\cos\\theta(a\\sin\\theta)^2d(a\\sin\\theta)-(a\\cos\\theta)^2a\\sin\\theta d(a\\cos\\theta)$$\n$$=2a^4\\int_{\\frac{\\pi}{2}}^{-\\frac{\\pi}{2}}\\sin^2\\theta\\cos^2\\theta d\\theta=-\\frac{\\pi}{4}a^4.\\quad$$",
+  "sort_order": 31
+}

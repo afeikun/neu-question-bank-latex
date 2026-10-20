@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "电子管寿命密度$\\varphi(x)=100/x^2(x>100)$。150小时内独立使用的三只管子中恰有一只损坏的概率是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac49$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac59$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$p=P(X\\le150)=\\frac13$，恰有一只损坏概率$\\binom31p(1-p)^2=\\frac49$。",
+  "search_text": "电子管寿命密度$\\varphi(x)=100/x^2(x>100)$。150小时内独立使用的三只管子中恰有一只损坏的概率是？ $\\frac49$ $\\frac13$ $\\frac23$ $\\frac59$ $p=P(X\\le150)=\\frac13$，恰有一只损坏概率$\\binom31p(1-p)^2=\\frac49$。",
+  "sort_order": 13
+}

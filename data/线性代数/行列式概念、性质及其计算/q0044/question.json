@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列行列式中不能被 $17$ 整除的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{vmatrix}2&4&5\\\\5&5&2\\\\5&9&7\\end{vmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{vmatrix}4&2&5\\\\5&5&2\\\\9&5&7\\end{vmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{vmatrix}2&4&5\\\\5&5&2\\\\7&9&5\\end{vmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{vmatrix}2&5&5\\\\4&5&9\\\\5&2&7\\end{vmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "图中四个行列式的值依次为 $20,34,34,-34$。其中只有 $20$ 不能被 $17$ 整除。",
+  "search_text": "下列行列式中不能被 $17$ 整除的是（ ）。 $\\begin{vmatrix}2&4&5\\\\5&5&2\\\\5&9&7\\end{vmatrix}$ $\\begin{vmatrix}4&2&5\\\\5&5&2\\\\9&5&7\\end{vmatrix}$ $\\begin{vmatrix}2&4&5\\\\5&5&2\\\\7&9&5\\end{vmatrix}$ $\\begin{vmatrix}2&5&5\\\\4&5&9\\\\5&2&7\\end{vmatrix}$ 图中四个行列式的值依次为 $20,34,34,-34$。其中只有 $20$ 不能被 $17$ 整除。",
+  "sort_order": 44
+}

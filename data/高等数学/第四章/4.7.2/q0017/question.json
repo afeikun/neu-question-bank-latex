@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "摆线一拱与y=0围成图形绕直线y=2a旋转体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "5π²a³"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "7π²a"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "7π²a³"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "π²a³"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "平移后按圆环法与对称性计算得7π²a³。",
+  "search_text": "摆线一拱与y=0围成图形绕直线y=2a旋转体积 5π²a³ 7π²a 7π²a³ π²a³ 平移后按圆环法与对称性计算得7π²a³。",
+  "sort_order": 17
+}

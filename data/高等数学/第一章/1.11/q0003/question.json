@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sin x+x+1=0$ 在 $(-\\frac\\pi2,\\frac\\pi2)$ 内有（ ）根。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "至少一个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "两个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不能确定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "零个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(x)=\\sin x+x+1$ 连续，端点处异号，故至少有一个零点。",
+  "search_text": "$\\sin x+x+1=0$ 在 $(-\\frac\\pi2,\\frac\\pi2)$ 内有（ ）根。 至少一个 两个 不能确定 零个 $f(x)=\\sin x+x+1$ 连续，端点处异号，故至少有一个零点。",
+  "sort_order": 3
+}

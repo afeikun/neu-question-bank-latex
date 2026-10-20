@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=x^2\\sin y+y^2\\cos x$，则 $u_{xy}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$xy\\sin y-xy\\cos x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2x\\cos y-2y\\sin x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2\\cos y+y^2\\sin x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2\\cos y+y\\sin x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial x}=2x\\sin y-y^2\\sin x，\\quad \\frac{\\partial^2u}{\\partial x\\partial y}=2x\\cos y-2y\\sin x，$",
+  "search_text": "设 $u=x^2\\sin y+y^2\\cos x$，则 $u_{xy}=(\\quad)$。 $xy\\sin y-xy\\cos x$ $2x\\cos y-2y\\sin x$ $x^2\\cos y+y^2\\sin x$ $x^2\\cos y+y\\sin x$ $\\frac{\\partial u}{\\partial x}=2x\\sin y-y^2\\sin x，\\quad \\frac{\\partial^2u}{\\partial x\\partial y}=2x\\cos y-2y\\sin x，$",
+  "sort_order": 21
+}

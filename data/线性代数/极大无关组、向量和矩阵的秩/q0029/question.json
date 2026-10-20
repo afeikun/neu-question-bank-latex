@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 是向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r,\\ldots,\\alpha_n$ 的极大线性无关组，则下列论断不正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha_n$ 可由 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 线性表示"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_1$ 可由 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 线性表示"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1$ 可由 $\\alpha_{r+1},\\alpha_{r+2},\\ldots,\\alpha_n$ 线性表示"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_n$ 可由 $\\alpha_{r+1},\\alpha_{r+2},\\ldots,\\alpha_n$ 线性表示"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "极大无关组定义保证其余向量（包括 $\\alpha_n$）可由 $\\alpha_1,\\ldots,\\alpha_r$ 表示，且 $\\alpha_1$ 自身也在该组的张成空间中。反之，不能保证 $\\alpha_1$ 可由其余向量表示。",
+  "search_text": "若 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 是向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r,\\ldots,\\alpha_n$ 的极大线性无关组，则下列论断不正确的是（ ）。 $\\alpha_n$ 可由 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 线性表示 $\\alpha_1$ 可由 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 线性表示 $\\alpha_1$ 可由 $\\alpha_{r+1},\\alpha_{r+2},\\ldots,\\alpha_n$ 线性表示 $\\alpha_n$ 可由 $\\alpha_{r+1},\\alpha_{r+2},\\ldots,\\alpha_n$ 线性表示 极大无关组定义保证其余向量（包括 $\\alpha_n$）可由 $\\alpha_1,\\ldots,\\alpha_r$ 表示，且 $\\alpha_1$ 自身也在该组的张成空间中。反之，不能保证 $\\alpha_1$ 可由其余向量表示。",
+  "sort_order": 29
+}

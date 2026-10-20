@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_D f(x,y)\\,dxdy$ 的值与（ ）有关",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "函数 $f$ 无关与区域 $D$ 有关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "函数 $f$ 有关与区域 $D$ 无关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "函数 $f$ 及区域 $D$ 无关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "函数 $f$ 及区域 $D$ 有关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由二重积分的概念易知",
+  "search_text": "二重积分 $\\iint_D f(x,y)\\,dxdy$ 的值与（ ）有关 函数 $f$ 无关与区域 $D$ 有关 函数 $f$ 有关与区域 $D$ 无关 函数 $f$ 及区域 $D$ 无关 函数 $f$ 及区域 $D$ 有关 解答 由二重积分的概念易知",
+  "sort_order": 14
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若极限 $\\lim_{n\\to\\infty}a_n=A$（$A\\ne0$），则当 $n$ 充分大时，必有（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|a_n|>\\frac{|A|}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|a_n|\\le|A|$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|a_n|\\le\\frac{|A|}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|a_n|>|A|$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由极限定义，充分大的 $n$ 满足 $|a_n-A|<\\frac{|A|}{2}$，所以 $|a_n|>\\frac{|A|}{2}$。",
+  "search_text": "若极限 $\\lim_{n\\to\\infty}a_n=A$（$A\\ne0$），则当 $n$ 充分大时，必有（ ）。 $|a_n|>\\frac{|A|}{2}$ $|a_n|\\le|A|$ $|a_n|\\le\\frac{|A|}{2}$ $|a_n|>|A|$ 由极限定义，充分大的 $n$ 满足 $|a_n-A|<\\frac{|A|}{2}$，所以 $|a_n|>\\frac{|A|}{2}$。",
+  "sort_order": 3
+}

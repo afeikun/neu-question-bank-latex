@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算二重积分 $\\iint_Dx^3y^2\\,dxdy$，其中 $D:x^2+y^2\\leq R^2$。（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 由对称性可知，被积函数 $x^3y^2$ 是关于 $x$ 的奇函数，积分区域 $D$ 关于 $y$ 轴对称，所以积分为零，故原式 $=0$。",
+  "search_text": "计算二重积分 $\\iint_Dx^3y^2\\,dxdy$，其中 $D:x^2+y^2\\leq R^2$。（ ） $2$ $0$ $-1$ $1$ 解答 由对称性可知，被积函数 $x^3y^2$ 是关于 $x$ 的奇函数，积分区域 $D$ 关于 $y$ 轴对称，所以积分为零，故原式 $=0$。",
+  "sort_order": 5
+}

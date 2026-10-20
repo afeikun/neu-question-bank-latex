@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(1+i)^6+(1-i)^8$ 表示为 $x+iy$ 形式是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$16-8i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8-16i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4-8i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-8+4i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $1\\pm i=\\sqrt2e^{\\pm i\\pi/4}$，得两项为 $-8i$ 与 $16$，和为 $16-8i$。",
+  "search_text": "$(1+i)^6+(1-i)^8$ 表示为 $x+iy$ 形式是（ ）。 $16-8i$ $8-16i$ $4-8i$ $-8+4i$ 由 $1\\pm i=\\sqrt2e^{\\pm i\\pi/4}$，得两项为 $-8i$ 与 $16$，和为 $16-8i$。",
+  "sort_order": 16
+}

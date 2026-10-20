@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "水泥样本$n=9,\\bar x=49.9,s^2=0.29$，检验均值50是否变化，错误说法是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "拒绝域$|T|\\ge2.2622$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu=50,H_1:\\mu\\ne50$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T=(\\bar X-50)/(S/3)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在$\\alpha=.05$可认为均值仍为50"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧临界值应为$t_{0.025}(8)=2.306$，不是2.2622。",
+  "search_text": "水泥样本$n=9,\\bar x=49.9,s^2=0.29$，检验均值50是否变化，错误说法是（）。 拒绝域$|T|\\ge2.2622$ $H_0:\\mu=50,H_1:\\mu\\ne50$ $T=(\\bar X-50)/(S/3)$ 在$\\alpha=.05$可认为均值仍为50 双侧临界值应为$t_{0.025}(8)=2.306$，不是2.2622。",
+  "sort_order": 13
+}

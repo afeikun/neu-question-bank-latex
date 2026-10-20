@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两平面 $\\Pi_1:x-4y+z-2=0$ 与 $\\Pi_2:2x-2y-z-5=0$ 的夹角为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\theta=\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\theta=\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\theta=\\frac\\pi3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\theta=\\frac\\pi6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "法向量点积与模长给 $\\cos\\theta=\\frac{\\sqrt2}{2}$，故夹角为 $\\frac\\pi4$。",
+  "search_text": "两平面 $\\Pi_1:x-4y+z-2=0$ 与 $\\Pi_2:2x-2y-z-5=0$ 的夹角为(\\quad)。 $\\theta=\\frac\\pi4$ $\\theta=\\frac\\pi2$ $\\theta=\\frac\\pi3$ $\\theta=\\frac\\pi6$ 法向量点积与模长给 $\\cos\\theta=\\frac{\\sqrt2}{2}$，故夹角为 $\\frac\\pi4$。",
+  "sort_order": 2
+}

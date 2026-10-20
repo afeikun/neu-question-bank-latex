@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在$[0,\\pi]$上独立均匀取$\\xi,\\eta$，求$P(\\cos(\\xi-\\eta)<0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2/3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对应正方形内差值落在两个三角区域，总面积占比$1/4$。",
+  "search_text": "在$[0,\\pi]$上独立均匀取$\\xi,\\eta$，求$P(\\cos(\\xi-\\eta)<0)$。 $1/4$ $3/4$ $1/2$ $2/3$ 对应正方形内差值落在两个三角区域，总面积占比$1/4$。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}\\cos(\\sqrt{x+1}-\\sqrt{x})$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\sqrt{x+1}-\\sqrt{x}=\\frac1{\\sqrt{x+1}+\\sqrt{x}}\\to0$，故极限为 $1$。",
+  "search_text": "$\\lim_{x\\to\\infty}\\cos(\\sqrt{x+1}-\\sqrt{x})$ 的值为（ ）。 2 -2 -1 1 $\\sqrt{x+1}-\\sqrt{x}=\\frac1{\\sqrt{x+1}+\\sqrt{x}}\\to0$，故极限为 $1$。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z|=1/6}\\frac{dz}{z(3z+1)}=(\\quad)$（方向为正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内只有奇点 $0$，$\\oint_{|z|=1/6}\\frac{dz}{z(3z+1)}=2\\pi i\\frac{1}{3z+1}\\big|_{z=0}=2\\pi i$。",
+  "search_text": "$\\oint_{|z|=1/6}\\frac{dz}{z(3z+1)}=(\\quad)$（方向为正向）。 $2\\pi i$ $-2$ $\\pi i$ $1$ 圆内只有奇点 $0$，$\\oint_{|z|=1/6}\\frac{dz}{z(3z+1)}=2\\pi i\\frac{1}{3z+1}\\big|_{z=0}=2\\pi i$。",
+  "sort_order": 14
+}

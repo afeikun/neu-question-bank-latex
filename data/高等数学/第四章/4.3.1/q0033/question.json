@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f(x)=∫₀^tanx sin(t²)dt，g(x)=x³+x⁴，比较x→0时无穷小",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "高阶无穷小"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "等价无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "同阶但不等价"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "低阶无穷小"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "f∼x³/3，g∼x³，二者同阶但不等价。",
+  "search_text": "f(x)=∫₀^tanx sin(t²)dt，g(x)=x³+x⁴，比较x→0时无穷小 高阶无穷小 等价无穷小 同阶但不等价 低阶无穷小 f∼x³/3，g∼x³，二者同阶但不等价。",
+  "sort_order": 33
+}

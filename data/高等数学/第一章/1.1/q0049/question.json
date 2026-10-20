@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "判断函数 $f(x)=\\ln(x+\\sqrt{1+x^2})$ 的奇偶性（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "偶函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "奇函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不能判断"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "非奇非偶函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用 $\\ln(\\sqrt{1+x^2}+x)$ 的反函数性质可得 $f(-x)=-f(x)$，故为奇函数。",
+  "search_text": "判断函数 $f(x)=\\ln(x+\\sqrt{1+x^2})$ 的奇偶性（ ）。 偶函数 奇函数 不能判断 非奇非偶函数 利用 $\\ln(\\sqrt{1+x^2}+x)$ 的反函数性质可得 $f(-x)=-f(x)$，故为奇函数。",
+  "sort_order": 49
+}

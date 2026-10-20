@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下面初等函数的 Maclaurin 公式正确的是 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1+x)^m=\\sum_{k=0}^n\\frac{m(m-1)\\cdots(m-k)}{k!}x^k+o(x^n)$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{1+x}=1+x+x^2+\\cdots+x^n+o(x^n)$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos x=1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+\\cdots+(-1)^n\\frac{x^{2n}}{(2n)!}+o(x^{2n+1})$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^x=1-x+\\frac{x^2}{2!}-\\frac{x^3}{3!}+\\cdots+(-1)^n\\frac{x^n}{n!}+o(x^n)$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "余弦函数的 Maclaurin 展开为 $\\cos x=1-\\frac{x^2}{2!}+\\frac{x^4}{4!}-\\cdots+(-1)^n\\frac{x^{2n}}{(2n)!}+o(x^{2n+1})$。",
+  "search_text": "下面初等函数的 Maclaurin 公式正确的是 $(\\quad)$。 $(1+x)^m=\\sum_{k=0}^n\\frac{m(m-1)\\cdots(m-k)}{k!}x^k+o(x^n)$； $\\frac1{1+x}=1+x+x^2+\\cdots+x^n+o(x^n)$； $\\cos x=1-\\frac{x^2}{2!}+\\frac{x^4}{4!}+\\cdots+(-1)^n\\frac{x^{2n}}{(2n)!}+o(x^{2n+1})$； $e^x=1-x+\\frac{x^2}{2!}-\\frac{x^3}{3!}+\\cdots+(-1)^n\\frac{x^n}{n!}+o(x^n)$； 余弦函数的 Maclaurin 展开为 $\\cos x=1-\\frac{x^2}{2!}+\\frac{x^4}{4!}-\\cdots+(-1)^n\\frac{x^{2n}}{(2n)!}+o(x^{2n+1})$。",
+  "sort_order": 8
+}

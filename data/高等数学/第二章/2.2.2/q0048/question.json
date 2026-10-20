@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(x)$，且 $f\\prime(x^2)=1/x^2$，则 $dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$dx/(2x^2)$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$dx/x^3$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$dx/x$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$2dx/x$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令变量为 $x$ 得 $f\\prime(x)=1/x$，故 $dy=dx/x$。",
+  "search_text": "设 $y=f(x)$，且 $f\\prime(x^2)=1/x^2$，则 $dy=$（ ）。 $$dx/(2x^2)$$ $$dx/x^3$$ $$dx/x$$ $$2dx/x$$ 令变量为 $x$ 得 $f\\prime(x)=1/x$，故 $dy=dx/x$。",
+  "sort_order": 48
+}

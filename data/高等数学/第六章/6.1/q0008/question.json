@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec a=2\\vec j-\\vec k$，$\\vec b=\\vec i-\\vec j+\\vec k$，$\\vec c=\\vec i-\\vec j$，则 $(\\vec a+2\\vec b)\\cdot 1008\\vec c=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1008$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4032$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2016$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$(\\vec a+2\\vec b)\\cdot1008\\vec c=(2\\vec i+\\vec k)\\cdot1008(\\vec i-\\vec j)=1008[2\\vec i\\cdot(\\vec i-\\vec j)+\\vec k\\cdot(\\vec i-\\vec j)]=2016$。",
+  "search_text": "设 $\\vec a=2\\vec j-\\vec k$，$\\vec b=\\vec i-\\vec j+\\vec k$，$\\vec c=\\vec i-\\vec j$，则 $(\\vec a+2\\vec b)\\cdot 1008\\vec c=(\\quad)$。 $1008$ $4032$ $2016$ $0$ $(\\vec a+2\\vec b)\\cdot1008\\vec c=(2\\vec i+\\vec k)\\cdot1008(\\vec i-\\vec j)=1008[2\\vec i\\cdot(\\vec i-\\vec j)+\\vec k\\cdot(\\vec i-\\vec j)]=2016$。",
+  "sort_order": 8
+}

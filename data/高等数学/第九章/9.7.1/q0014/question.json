@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\cos\\alpha,\\cos\\beta,\\cos\\gamma$ 是光滑闭曲面 $\\Sigma$ 的外法向量的方向余弦，$u(x,y,z)$ 在 $V$ 上有二阶连续偏导数，利用高斯公式化曲面积分为重积分，有 $\\iint_\\Sigma(u_x\\cos\\alpha+u_y\\cos\\beta+u_z\\cos\\gamma)dS=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iiint_D(u_{xx}+u_{yy}+u_{zz})dxdydz$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iiint_D(u_{xy}+u_{yz}+u_{zx})dxdydz$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iiint_D(u_x+u_y+u_z)^2dxdydz$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iiint_D(u_x+u_y+u_z)dxdydz$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$$\\oiint_{\\Sigma}\\left(\\frac{\\partial u}{\\partial x}\\cos\\alpha+\\frac{\\partial u}{\\partial y}\\cos\\beta+\\frac{\\partial u}{\\partial z}\\cos\\gamma\\right)dS=\\oiint_{\\Sigma}\\frac{\\partial u}{\\partial x}dydz+\\frac{\\partial u}{\\partial y}dzdx+\\frac{\\partial u}{\\partial z}dxdy\\,dz$$\n\n$$=\\iiint_V\\left(\\frac{\\partial^2u}{\\partial x^2}+\\frac{\\partial^2u}{\\partial y^2}+\\frac{\\partial^2u}{\\partial z^2}\\right)dxdydz$$",
+  "search_text": "设 $\\cos\\alpha,\\cos\\beta,\\cos\\gamma$ 是光滑闭曲面 $\\Sigma$ 的外法向量的方向余弦，$u(x,y,z)$ 在 $V$ 上有二阶连续偏导数，利用高斯公式化曲面积分为重积分，有 $\\iint_\\Sigma(u_x\\cos\\alpha+u_y\\cos\\beta+u_z\\cos\\gamma)dS=$（ ） $\\iiint_D(u_{xx}+u_{yy}+u_{zz})dxdydz$ $\\iiint_D(u_{xy}+u_{yz}+u_{zx})dxdydz$ $\\iiint_D(u_x+u_y+u_z)^2dxdydz$ $\\iiint_D(u_x+u_y+u_z)dxdydz$ 参考答案：\n\n$$\\oiint_{\\Sigma}\\left(\\frac{\\partial u}{\\partial x}\\cos\\alpha+\\frac{\\partial u}{\\partial y}\\cos\\beta+\\frac{\\partial u}{\\partial z}\\cos\\gamma\\right)dS=\\oiint_{\\Sigma}\\frac{\\partial u}{\\partial x}dydz+\\frac{\\partial u}{\\partial y}dzdx+\\frac{\\partial u}{\\partial z}dxdy\\,dz$$\n\n$$=\\iiint_V\\left(\\frac{\\partial^2u}{\\partial x^2}+\\frac{\\partial^2u}{\\partial y^2}+\\frac{\\partial^2u}{\\partial z^2}\\right)dxdydz$$",
+  "sort_order": 14
+}

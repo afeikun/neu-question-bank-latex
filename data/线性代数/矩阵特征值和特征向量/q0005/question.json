@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\lambda_1,\\lambda_2$ 是矩阵 $A$ 的两个不同的特征值，对应特征向量分别为 $\\xi,\\eta$，则下列结论成立的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "当 $k_1\\ne0,k_2\\ne0$ 时，$k_1\\xi+k_2\\eta$ 不可能是 $A$ 的特征向量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "存在常数 $k_1\\ne0,k_2\\ne0$，使 $k_1\\xi+k_2\\eta$ 是 $A$ 的特征向量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "存在唯一的一组常数 $k_1\\ne0,k_2\\ne0$，使 $k_1\\xi+k_2\\eta$ 是 $A$ 的特征向量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "对任意 $k_1\\ne0,k_2\\ne0$，$k_1\\xi+k_2\\eta$ 都是 $A$ 的特征向量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "不同特征值对应的特征向量线性无关。若该线性组合为特征向量，比较 $A(k_1\\xi+k_2\\eta)$ 两边将推出两个特征值相等，矛盾，故选项 1。",
+  "search_text": "设 $\\lambda_1,\\lambda_2$ 是矩阵 $A$ 的两个不同的特征值，对应特征向量分别为 $\\xi,\\eta$，则下列结论成立的是(\\quad)。 当 $k_1\\ne0,k_2\\ne0$ 时，$k_1\\xi+k_2\\eta$ 不可能是 $A$ 的特征向量 存在常数 $k_1\\ne0,k_2\\ne0$，使 $k_1\\xi+k_2\\eta$ 是 $A$ 的特征向量 存在唯一的一组常数 $k_1\\ne0,k_2\\ne0$，使 $k_1\\xi+k_2\\eta$ 是 $A$ 的特征向量 对任意 $k_1\\ne0,k_2\\ne0$，$k_1\\xi+k_2\\eta$ 都是 $A$ 的特征向量 不同特征值对应的特征向量线性无关。若该线性组合为特征向量，比较 $A(k_1\\xi+k_2\\eta)$ 两边将推出两个特征值相等，矛盾，故选项 1。",
+  "sort_order": 5
+}

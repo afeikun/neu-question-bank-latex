@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f,g连续，f>0,g≥0，求limₙ→∞∫ₐᵇg(x)ⁿ√f(x)dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫ₐᵇg(x)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不能确定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极限不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "n次方根f一致趋于1，极限为∫g。",
+  "search_text": "f,g连续，f>0,g≥0，求limₙ→∞∫ₐᵇg(x)ⁿ√f(x)dx ∫ₐᵇg(x)dx 不能确定 极限不存在 0 n次方根f一致趋于1，极限为∫g。",
+  "sort_order": 21
+}

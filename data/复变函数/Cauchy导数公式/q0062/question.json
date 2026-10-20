@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\oint_{|z|=2}\\frac{\\sin(ze^{iz})}{(z-\\pi/2)^2}\\,dz$ 等于（ ），方向为正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i e^i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由一阶Cauchy导数公式，积分为 $2\\pi i(\\sin(ze^{iz}))\\prime|_{z=\\pi/2}=-2\\pi i$。",
+  "search_text": "积分 $\\oint_{|z|=2}\\frac{\\sin(ze^{iz})}{(z-\\pi/2)^2}\\,dz$ 等于（ ），方向为正向。 $-2\\pi i$ -$2\\pi$ $\\pi i$ $2\\pi i e^i$ 由一阶Cauchy导数公式，积分为 $2\\pi i(\\sin(ze^{iz}))\\prime|_{z=\\pi/2}=-2\\pi i$。",
+  "sort_order": 62
+}

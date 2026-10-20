@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "7个寿命观测1575,1503,1346,1630,1575,1453,1950，求$\\sigma^2$的矩估计。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$175.72^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1575$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1576$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$223.34^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "矩估计为$n^{-1}\\sum(X_i-\\bar X)^2\\approx(175.7238)^2$。",
+  "search_text": "7个寿命观测1575,1503,1346,1630,1575,1453,1950，求$\\sigma^2$的矩估计。 $175.72^2$ $1575$ $1576$ $223.34^2$ 矩估计为$n^{-1}\\sum(X_i-\\bar X)^2\\approx(175.7238)^2$。",
+  "sort_order": 3
+}

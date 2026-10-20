@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $x\\prime\\prime\\prime-4x\\prime\\prime+5x\\prime-2x=2t+3$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=c_1e^t+c_2te^t+c_3e^{2t}-t-4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=c_1e^t+c_2te^t+c_3e^{2t}-t-3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=c_1e^t+c_2e^t+c_3e^{2t}-t-4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=c_1e^t+c_2te^t+c_3e^{2t}-t-4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对应齐次方程的特征方程为 $r^3-4r^2+5r-2=0$，即得特征根为 $r_1=r_2=1,r_3=2$ 故齐次线性方程的通解为 $X=c_1e^t+c_2te^t+c_3e^{2t}$。又因为 $r=0$ 不是特征根，故可以取特解形如 $x^*=A+Bt$ 代入原方程解得 $A=-4,B=-1$。\n\n所以原方程的通解为 $x=c_1e^t+c_2te^t+c_3e^{2t}-t-4$，其中 $c_1,c_2,c_3$ 为任意常数。",
+  "search_text": "解方程 $x\\prime\\prime\\prime-4x\\prime\\prime+5x\\prime-2x=2t+3$（ ） $x=c_1e^t+c_2te^t+c_3e^{2t}-t-4$ $x=c_1e^t+c_2te^t+c_3e^{2t}-t-3$ $x=c_1e^t+c_2e^t+c_3e^{2t}-t-4$ $x=c_1e^t+c_2te^t+c_3e^{2t}-t-4$ 对应齐次方程的特征方程为 $r^3-4r^2+5r-2=0$，即得特征根为 $r_1=r_2=1,r_3=2$ 故齐次线性方程的通解为 $X=c_1e^t+c_2te^t+c_3e^{2t}$。又因为 $r=0$ 不是特征根，故可以取特解形如 $x^*=A+Bt$ 代入原方程解得 $A=-4,B=-1$。\n\n所以原方程的通解为 $x=c_1e^t+c_2te^t+c_3e^{2t}-t-4$，其中 $c_1,c_2,c_3$ 为任意常数。",
+  "sort_order": 23
+}

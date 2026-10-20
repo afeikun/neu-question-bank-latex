@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\ln x$ 在其与 $x$ 轴交点处的曲率 $k=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sqrt2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{2\\sqrt2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y=0$ 时 $x=1$。有 $y\\prime(1)=1$、$y\\prime\\prime(1)=-1$，所以曲率为 $1/(2\\sqrt2)$。",
+  "search_text": "曲线 $y=\\ln x$ 在其与 $x$ 轴交点处的曲率 $k=$（ ）。 $\\frac1{\\sqrt2}$ $\\frac14$ $\\frac1{2\\sqrt2}$ $\\frac12$ $y=0$ 时 $x=1$。有 $y\\prime(1)=1$、$y\\prime\\prime(1)=-1$，所以曲率为 $1/(2\\sqrt2)$。",
+  "sort_order": 17
+}

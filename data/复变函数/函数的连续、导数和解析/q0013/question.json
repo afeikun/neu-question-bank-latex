@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\begin{cases}\\dfrac{xy}{x^2+y^2},&z\\ne0,\\\\0,&z=0,\\end{cases}$，则在 $z=0$ 处（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(z)$ 不连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(z)$ 连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(z)$ 可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)$ 解析"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于沿 $y=kx$ 有 $f(z)=\\dfrac{kx^2}{x^2+k^2x^2}=\\dfrac{k}{1+k^2}$。随 $k$ 的不同而不同，因此 $\\lim_{z\\to0}f(z)$ 不存在，故 $f(z)$ 在 $z=0$ 处不连续。",
+  "search_text": "设 $f(z)=\\begin{cases}\\dfrac{xy}{x^2+y^2},&z\\ne0,\\\\0,&z=0,\\end{cases}$，则在 $z=0$ 处（ ）。 $f(z)$ 不连续 $f(z)$ 连续 $f(z)$ 可导 $f(x)$ 解析 由于沿 $y=kx$ 有 $f(z)=\\dfrac{kx^2}{x^2+k^2x^2}=\\dfrac{k}{1+k^2}$。随 $k$ 的不同而不同，因此 $\\lim_{z\\to0}f(z)$ 不存在，故 $f(z)$ 在 $z=0$ 处不连续。",
+  "sort_order": 13
+}

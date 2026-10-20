@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立且均服从标准正态，$Z=X+Y$的密度为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2\\sqrt\\pi)^{-1}e^{-z^2/4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(2\\sqrt\\pi)^{-1}e^{-z^2/2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2\\pi)^{-1/2}e^{-z^2/4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2\\pi)^{-1/2}e^{-z^2/2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$Z\\sim N(0,2)$，故密度为$(2\\sqrt\\pi)^{-1}e^{-z^2/4}$。",
+  "search_text": "$X,Y$独立且均服从标准正态，$Z=X+Y$的密度为。 $(2\\sqrt\\pi)^{-1}e^{-z^2/4}$ $(2\\sqrt\\pi)^{-1}e^{-z^2/2}$ $(2\\pi)^{-1/2}e^{-z^2/4}$ $(2\\pi)^{-1/2}e^{-z^2/2}$ $Z\\sim N(0,2)$，故密度为$(2\\sqrt\\pi)^{-1}e^{-z^2/4}$。",
+  "sort_order": 7
+}

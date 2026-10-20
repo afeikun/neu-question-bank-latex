@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列广义积分中不收敛的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₁^∞dx/[x(x²+1)]"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫ₑ^∞(ln x)/x dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀^∞e^(−ax)dx（a>0）"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₋∞^∞dx/(x²+4x+5)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "第二个积分的原函数为(ln x)²/2，在无穷远发散。",
+  "search_text": "下列广义积分中不收敛的是 ∫₁^∞dx/[x(x²+1)] ∫ₑ^∞(ln x)/x dx ∫₀^∞e^(−ax)dx（a>0） ∫₋∞^∞dx/(x²+4x+5) 第二个积分的原函数为(ln x)²/2，在无穷远发散。",
+  "sort_order": 11
+}

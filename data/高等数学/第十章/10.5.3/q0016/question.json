@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $2yy\\prime\\prime=(y\\prime)^2+y^2$ 满足初始条件 $y(0)=1,\\ y\\prime(0)=-1$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=2e^{-x^3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{-x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=2e^{-x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^{-x^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解：设 $y'=p$，则 $y''=p\\frac{dp}{dy}$，方程化为 $2yp\\frac{dp}{dy}-p^2=y^2$，即 $\\frac{d(p^2)}{dy}-\\frac{1}{y}p^2=y$，故\n\n$$p^2=e^{\\int\\frac{1}{y}\\,dy}\\left(\\int ye^{-\\int\\frac{1}{y}\\,dy}\\,dy+C_1\\right)=y(y+C_1),$$ 代入初始条件 $y(0)=1$，$y'(0)=-1$，解得 $C_1=0$，所以 $y^2=p^2$，\n\n由 $y(0)=-y'(0)$，有 $p=-y$，即 $\\frac{dy}{dx}=-y$，解得 $y=C_2e^{-x}$，代入初始条件 $y(0)=1$ 得 $C_2=1$，于是所求特解为 $y=e^{-x}$。",
+  "search_text": "方程 $2yy\\prime\\prime=(y\\prime)^2+y^2$ 满足初始条件 $y(0)=1,\\ y\\prime(0)=-1$ 的解为（ ） $y=2e^{-x^3}$ $y=e^{-x}$ $y=2e^{-x}$ $y=e^{-x^2}$ 解：设 $y'=p$，则 $y''=p\\frac{dp}{dy}$，方程化为 $2yp\\frac{dp}{dy}-p^2=y^2$，即 $\\frac{d(p^2)}{dy}-\\frac{1}{y}p^2=y$，故\n\n$$p^2=e^{\\int\\frac{1}{y}\\,dy}\\left(\\int ye^{-\\int\\frac{1}{y}\\,dy}\\,dy+C_1\\right)=y(y+C_1),$$ 代入初始条件 $y(0)=1$，$y'(0)=-1$，解得 $C_1=0$，所以 $y^2=p^2$，\n\n由 $y(0)=-y'(0)$，有 $p=-y$，即 $\\frac{dy}{dx}=-y$，解得 $y=C_2e^{-x}$，代入初始条件 $y(0)=1$ 得 $C_2=1$，于是所求特解为 $y=e^{-x}$。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₀ᵃx²√(a²−x²)dx（a>0）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "πa⁴/2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "πa⁴/4"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "πa⁴/8"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "πa⁴/16"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令x=a sin t，积分结果为πa⁴/16。",
+  "search_text": "计算∫₀ᵃx²√(a²−x²)dx（a>0） πa⁴/2 πa⁴/4 πa⁴/8 πa⁴/16 令x=a sin t，积分结果为πa⁴/16。",
+  "sort_order": 2
+}

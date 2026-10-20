@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\oint_{|\\xi|=3}\\frac{\\sin^2\\xi}{\\xi-z}\\,d\\xi$，方向沿 $|\\xi|=3$ 的正向，$f'(1+i)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi i\\sin(1+i)\\cos(1+i)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\sin(1+i)\\cos(1+i)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i\\sin^2(1+i)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为 $|1+i|=\\sqrt2<3$，当 $|z|<3$ 时 $f(z)=2\\pi i\\sin^2 z$，所以 $f'(1+i)=2\\pi i(\\sin^2z)'|_{z=1+i}=4\\pi i\\sin(1+i)\\cos(1+i)$。",
+  "search_text": "设 $f(z)=\\oint_{|\\xi|=3}\\frac{\\sin^2\\xi}{\\xi-z}\\,d\\xi$，方向沿 $|\\xi|=3$ 的正向，$f'(1+i)=(\\quad)$。 $4\\pi i\\sin(1+i)\\cos(1+i)$ $2\\sin(1+i)\\cos(1+i)$ $0$ $2\\pi i\\sin^2(1+i)$ 因为 $|1+i|=\\sqrt2<3$，当 $|z|<3$ 时 $f(z)=2\\pi i\\sin^2 z$，所以 $f'(1+i)=2\\pi i(\\sin^2z)'|_{z=1+i}=4\\pi i\\sin(1+i)\\cos(1+i)$。",
+  "sort_order": 28
+}

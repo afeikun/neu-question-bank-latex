@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "椭球面 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1$ 内接长方体体积最大值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{8\\sqrt3}{27}abc$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt3}{9}abc$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{8\\sqrt3}{9}abc$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt3}{27}abc$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设长方体与椭球面在第一卦限内的接点坐标为 $(x,y,z)$，则内接长方体的体积为 $8xyz$，构造函数\n$$\nF(x,y,z)=8xyz+\\lambda(\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}-1)，\\quad x>0,y>0,z>0\n$$\n得方程组\n$$\n\\begin{cases}\n8yz+\\lambda\\dfrac{2x}{a^2}=0，\\\\\n8xz+\\lambda\\dfrac{2y}{b^2}=0，\\\\\n8xy+\\lambda\\dfrac{2z}{c^2}=0，\\\\\n\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}-1=0，\n\\end{cases}\\tag{1}\n$$\n由方程组的前三个方程得到 $\\dfrac{x^2}{a^2}=\\dfrac{y^2}{b^2}=\\dfrac{z^2}{c^2}$，将其代入到最后一个方程中，即得\n$$\nx_0=\\dfrac{\\sqrt{3}}{3}a,\\quad y_0=\\dfrac{\\sqrt{3}}{3}b,\\quad z_0=\\dfrac{\\sqrt{3}}{3}c。\n$$\n由于体积最大的内接长方体一定存在，方程组 (1) 的解又是唯一的，故 $(\\dfrac{\\sqrt{3}}{3}a,\\dfrac{\\sqrt{3}}{3}b,\\dfrac{\\sqrt{3}}{3}c)$ 就是所求的最大值点，所求的最大体积为 $V=8\\cdot\\dfrac{\\sqrt{3}}{3}a\\cdot\\dfrac{\\sqrt{3}}{3}b\\cdot\\dfrac{\\sqrt{3}}{3}c=\\dfrac{8\\sqrt{3}}{9}abc$。",
+  "search_text": "椭球面 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1$ 内接长方体体积最大值为。 $\\frac{8\\sqrt3}{27}abc$ $\\frac{\\sqrt3}{9}abc$ $\\frac{8\\sqrt3}{9}abc$ $\\frac{\\sqrt3}{27}abc$ 设长方体与椭球面在第一卦限内的接点坐标为 $(x,y,z)$，则内接长方体的体积为 $8xyz$，构造函数\n$$\nF(x,y,z)=8xyz+\\lambda(\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}-1)，\\quad x>0,y>0,z>0\n$$\n得方程组\n$$\n\\begin{cases}\n8yz+\\lambda\\dfrac{2x}{a^2}=0，\\\\\n8xz+\\lambda\\dfrac{2y}{b^2}=0，\\\\\n8xy+\\lambda\\dfrac{2z}{c^2}=0，\\\\\n\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}-1=0，\n\\end{cases}\\tag{1}\n$$\n由方程组的前三个方程得到 $\\dfrac{x^2}{a^2}=\\dfrac{y^2}{b^2}=\\dfrac{z^2}{c^2}$，将其代入到最后一个方程中，即得\n$$\nx_0=\\dfrac{\\sqrt{3}}{3}a,\\quad y_0=\\dfrac{\\sqrt{3}}{3}b,\\quad z_0=\\dfrac{\\sqrt{3}}{3}c。\n$$\n由于体积最大的内接长方体一定存在，方程组 (1) 的解又是唯一的，故 $(\\dfrac{\\sqrt{3}}{3}a,\\dfrac{\\sqrt{3}}{3}b,\\dfrac{\\sqrt{3}}{3}c)$ 就是所求的最大值点，所求的最大体积为 $V=8\\cdot\\dfrac{\\sqrt{3}}{3}a\\cdot\\dfrac{\\sqrt{3}}{3}b\\cdot\\dfrac{\\sqrt{3}}{3}c=\\dfrac{8\\sqrt{3}}{9}abc$。",
+  "sort_order": 9
+}

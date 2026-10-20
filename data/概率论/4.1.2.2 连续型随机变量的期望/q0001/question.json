@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f_X(x)=4/[\\pi(1+x^2)]$于$0<x<1$，求$E(X)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln4/\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln2/n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln8/(2\\pi)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X)=\\int_0^1 4x/[\\pi(1+x^2)]dx=\\ln4/\\pi$。",
+  "search_text": "$f_X(x)=4/[\\pi(1+x^2)]$于$0<x<1$，求$E(X)$。 $\\ln4/\\pi$ $\\ln2/n$ $\\ln4$ $\\ln8/(2\\pi)$ $E(X)=\\int_0^1 4x/[\\pi(1+x^2)]dx=\\ln4/\\pi$。",
+  "sort_order": 1
+}

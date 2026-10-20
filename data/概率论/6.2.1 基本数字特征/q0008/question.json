@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体$X$有有限期望与方差，样本为$X_1,\\ldots,X_n$，正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$E(\\bar X)=E(X)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X$与$X$同分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(\\bar X)=D(X)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X$与$X$取值范围相同"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本均值期望等于总体期望。",
+  "search_text": "总体$X$有有限期望与方差，样本为$X_1,\\ldots,X_n$，正确的是（）。 $E(\\bar X)=E(X)$ $\\bar X$与$X$同分布 $D(\\bar X)=D(X)$ $\\bar X$与$X$取值范围相同 样本均值期望等于总体期望。",
+  "sort_order": 8
+}

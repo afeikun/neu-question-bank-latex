@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "数列 $\\{\\sqrt[n]{n}\\}$ 的第（ ）项最大。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n=3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n=4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n=5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n=2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "函数 $g(x)=x^{1/x}$ 的最大值点为 $x=e$，数列最大项只能在 $n=2,3$ 中比较；$\\sqrt[3]3>\\sqrt2$，故 $n=3$。",
+  "search_text": "数列 $\\{\\sqrt[n]{n}\\}$ 的第（ ）项最大。 $n=3$ $n=4$ $n=5$ $n=2$ 函数 $g(x)=x^{1/x}$ 的最大值点为 $x=e$，数列最大项只能在 $n=2,3$ 中比较；$\\sqrt[3]3>\\sqrt2$，故 $n=3$。",
+  "sort_order": 20
+}

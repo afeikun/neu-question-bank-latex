@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "种群增长满足 $x^\\prime=kx(N-x)$，初值 $x(0)=x_0$，求 $x(t)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{Nx_0e^{kt}}{N-x_0+x_0e^{kt}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{Nx_0e^{-kt}}{N-x_0+x_0e^{-kt}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{Nx_0e^{kt}}{N+x_0-x_0e^{kt}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x_0e^{kt}}{N-x_0+x_0e^{kt}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：依题意得 $\\begin{cases}\\frac{dx}{dt}=kx(N-x)\\\\\\left.x\\right|_{t=0}=x_0\\end{cases}$，经分离变量，积分得 $x=\\frac{Nx_0e^{kNt}}{N-x_0+x_0e^{kNt}}$",
+  "search_text": "种群增长满足 $x^\\prime=kx(N-x)$，初值 $x(0)=x_0$，求 $x(t)$。 $\\frac{Nx_0e^{kt}}{N-x_0+x_0e^{kt}}$ $\\frac{Nx_0e^{-kt}}{N-x_0+x_0e^{-kt}}$ $\\frac{Nx_0e^{kt}}{N+x_0-x_0e^{kt}}$ $\\frac{x_0e^{kt}}{N-x_0+x_0e^{kt}}$ 解析：依题意得 $\\begin{cases}\\frac{dx}{dt}=kx(N-x)\\\\\\left.x\\right|_{t=0}=x_0\\end{cases}$，经分离变量，积分得 $x=\\frac{Nx_0e^{kNt}}{N-x_0+x_0e^{kNt}}$",
+  "sort_order": 18
+}

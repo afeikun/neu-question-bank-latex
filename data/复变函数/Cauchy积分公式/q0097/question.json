@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\frac{\\sin(\\pi z/4)}{z^2-1}\\,dz=\\sqrt2\\pi i$，则路径 $C$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "圆周 $|z|=3$，正向"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "圆周 $|z|=\\frac12$，正向"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆周 $|z-1|=1$，负向"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "圆周 $|z|=3$，负向"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正向圆周 $|z|=3$ 包含 $1,-1$，留数和为 $\\sqrt2/2$，积分为 $\\sqrt2\\pi i$。",
+  "search_text": "为使 $\\oint_C\\frac{\\sin(\\pi z/4)}{z^2-1}\\,dz=\\sqrt2\\pi i$，则路径 $C$ 为（ ）。 圆周 $|z|=3$，正向 圆周 $|z|=\\frac12$，正向 圆周 $|z-1|=1$，负向 圆周 $|z|=3$，负向 正向圆周 $|z|=3$ 包含 $1,-1$，留数和为 $\\sqrt2/2$，积分为 $\\sqrt2\\pi i$。",
+  "sort_order": 97
+}

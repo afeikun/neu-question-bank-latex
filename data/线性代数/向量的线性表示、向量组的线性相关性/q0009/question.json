@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一个 $n$ 维向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s\\ (s>1)$ 线性相关的充要条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "含有零向量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "有两个向量的对应分量成比例"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "每一个向量是其余向量的线性组合"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "有一个向量是其余向量的线性组合"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "向量组线性相关的充要条件是至少有一个向量可由其余向量线性表示。",
+  "search_text": "一个 $n$ 维向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s\\ (s>1)$ 线性相关的充要条件是（ ）。 含有零向量 有两个向量的对应分量成比例 每一个向量是其余向量的线性组合 有一个向量是其余向量的线性组合 向量组线性相关的充要条件是至少有一个向量可由其余向量线性表示。",
+  "sort_order": 9
+}

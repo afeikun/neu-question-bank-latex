@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega:x^2+y^2+z^2\\leq1$，则 $\\iiint_\\Omega(x+y+z)^2dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac54\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac45\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac34\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac43\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "原式\n$$\n=\\iiint_\\Omega(x^2+y^2+z^2)\\,dv+2\\iiint_\\Omega xy\\,dv+2\\iiint_\\Omega xz\\,dv+2\\iiint_\\Omega yz\\,dv\n$$\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^1r^4\\sin\\varphi\\,dr+0+0+0=\\frac{4}{5}\\pi.\n$$",
+  "search_text": "若 $\\Omega:x^2+y^2+z^2\\leq1$，则 $\\iiint_\\Omega(x+y+z)^2dv=$（ ） $\\frac54\\pi$ $\\frac45\\pi$ $\\frac34\\pi$ $\\frac43\\pi$ 原式\n$$\n=\\iiint_\\Omega(x^2+y^2+z^2)\\,dv+2\\iiint_\\Omega xy\\,dv+2\\iiint_\\Omega xz\\,dv+2\\iiint_\\Omega yz\\,dv\n$$\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^1r^4\\sin\\varphi\\,dr+0+0+0=\\frac{4}{5}\\pi.\n$$",
+  "sort_order": 37
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Gamma$ 是 $x^2+y^2=2z$ 与 $z=2$ 的交线，若从 $z$ 轴正向看去，这圆周取逆时针方向，则 $\\oint_\\Gamma 3y\\,dx-xz\\,dy-yz^2\\,dz=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-10\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-20\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$20\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$10\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取平面 $z=2$ 上圆周所围圆盘的上侧，单位法向量为 $(0,0,1)$。由斯托克斯公式，原积分 $=\\iint_{x^2+y^2\\le4}(-z-3)dx\\,dy=-5\\pi\\cdot2^2=-20\\pi$，选第二项。",
+  "search_text": "已知 $\\Gamma$ 是 $x^2+y^2=2z$ 与 $z=2$ 的交线，若从 $z$ 轴正向看去，这圆周取逆时针方向，则 $\\oint_\\Gamma 3y\\,dx-xz\\,dy-yz^2\\,dz=$（ ）。 $-10\\pi$ $-20\\pi$ $20\\pi$ $10\\pi$ 取平面 $z=2$ 上圆周所围圆盘的上侧，单位法向量为 $(0,0,1)$。由斯托克斯公式，原积分 $=\\iint_{x^2+y^2\\le4}(-z-3)dx\\,dy=-5\\pi\\cdot2^2=-20\\pi$，选第二项。",
+  "sort_order": 5
+}

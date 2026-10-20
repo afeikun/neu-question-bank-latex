@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\frac1{\\pi(1+x^2)}$，求$P(|X|\\le1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.45$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.75$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.80$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(|X|\\le1)=\\frac1\\pi[\\arctan x]_{-1}^1=\\frac12$。",
+  "search_text": "$f(x)=\\frac1{\\pi(1+x^2)}$，求$P(|X|\\le1)$。 $0.5$ $0.45$ $0.75$ $0.80$ $P(|X|\\le1)=\\frac1\\pi[\\arctan x]_{-1}^1=\\frac12$。",
+  "sort_order": 22
+}

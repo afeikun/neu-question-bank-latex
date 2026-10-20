@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_Lxy\\,dx$，$L$ 为抛物线 $y^2=x$ 上从 $A(1,-1)$ 到 $B(4,-2)$ 的一段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{35}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{62}{5}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$11$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解：由题知$L$的方程为$x=y^2，\\quad y从-1到-2$，故\n$$\\therefore\\int_Lxydx=\\int_{-1}^{-2}y^2\\cdot y\\cdot2ydy=2\\int_{-1}^{-2}y^4dy=\\frac{2}{5}y^5\\bigg|_{-1}^{-2}=\\frac{62}{5}$$",
+  "search_text": "计算 $\\int_Lxy\\,dx$，$L$ 为抛物线 $y^2=x$ 上从 $A(1,-1)$ 到 $B(4,-2)$ 的一段。 $\\frac1{35}$ $-\\frac{62}{5}$ $0$ $11$ 解：由题知$L$的方程为$x=y^2，\\quad y从-1到-2$，故\n$$\\therefore\\int_Lxydx=\\int_{-1}^{-2}y^2\\cdot y\\cdot2ydy=2\\int_{-1}^{-2}y^4dy=\\frac{2}{5}y^5\\bigg|_{-1}^{-2}=\\frac{62}{5}$$",
+  "sort_order": 20
+}

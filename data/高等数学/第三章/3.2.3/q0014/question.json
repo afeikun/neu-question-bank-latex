@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac15$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac15$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "展开两项余弦并相减，分子首项为 $-x^5$，故极限为 $-1$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{\\cos(xe^x)-\\cos(xe^{-x})+2x^3}{x^5}=(\\quad)$。 $-\\frac15$ $-1$ $\\frac15$ $1$ 展开两项余弦并相减，分子首项为 $-x^5$，故极限为 $-1$。",
+  "sort_order": 14
+}

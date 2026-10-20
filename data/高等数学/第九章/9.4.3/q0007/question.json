@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=1$ 外侧在 $x\\ge0,y\\ge0$ 的部分，计算 $\\iint_\\Sigma xyzdxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac4{15}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{15}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac25$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac2{15}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 把 $\\Sigma$ 分成 $\\Sigma_1$ 和 $\\Sigma_2$ 两部分 $\\Sigma_1:z_1=\\sqrt{1-x^2-y^2}$，$\\Sigma_2:z_2=-\\sqrt{1-x^2-y^2}$，\n$$\\iint_\\Sigma xyzdxdy=\\iint_{\\Sigma_1}xyzdxdy+\\iint_{\\Sigma_2}xyzdxdy=\\iint_{D_{xy}}xy\\sqrt{1-x^2-y^2}dxdy-\\iint_{D_{xy}}xy(-\\sqrt{1-x^2-y^2})dxdy$$\n$$=2\\iint_{D_{xy}}xy\\sqrt{1-x^2-y^2}dxdy=2\\iint_{D_\\theta}r^2\\sin\\theta\\cos\\theta\\sqrt{1-r^2}rdrd\\theta=\\frac{2}{15}。$$\n\n图示：坐标轴标为 $x,y,z$，原点为 $O$，三条轴上的球面截点均标为 $1$；上、下曲面分别标为 $\\Sigma_1,\\Sigma_2$，水平紫色区域标为 $D_{xy}$。",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=1$ 外侧在 $x\\ge0,y\\ge0$ 的部分，计算 $\\iint_\\Sigma xyzdxdy=$（ ） $\\frac4{15}$ $\\frac1{15}$ $\\frac25$ $\\frac2{15}$ 解答 把 $\\Sigma$ 分成 $\\Sigma_1$ 和 $\\Sigma_2$ 两部分 $\\Sigma_1:z_1=\\sqrt{1-x^2-y^2}$，$\\Sigma_2:z_2=-\\sqrt{1-x^2-y^2}$，\n$$\\iint_\\Sigma xyzdxdy=\\iint_{\\Sigma_1}xyzdxdy+\\iint_{\\Sigma_2}xyzdxdy=\\iint_{D_{xy}}xy\\sqrt{1-x^2-y^2}dxdy-\\iint_{D_{xy}}xy(-\\sqrt{1-x^2-y^2})dxdy$$\n$$=2\\iint_{D_{xy}}xy\\sqrt{1-x^2-y^2}dxdy=2\\iint_{D_\\theta}r^2\\sin\\theta\\cos\\theta\\sqrt{1-r^2}rdrd\\theta=\\frac{2}{15}。$$\n\n图示：坐标轴标为 $x,y,z$，原点为 $O$，三条轴上的球面截点均标为 $1$；上、下曲面分别标为 $\\Sigma_1,\\Sigma_2$，水平紫色区域标为 $D_{xy}$。",
+  "sort_order": 7
+}

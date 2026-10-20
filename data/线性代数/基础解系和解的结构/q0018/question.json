@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "齐次线性方程组 $\\begin{cases}3\\lambda x_1+3x_2+2x_3=0,\\\\x_1+x_2-x_3=0,\\\\(4\\lambda-1)x_1+3x_2+2x_3=0\\end{cases}$ 有非零解，则 $\\lambda$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda=-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda\\ne-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda\\ne1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "齐次方程组有非零解当且仅当系数矩阵行列式为零。计算得 $5(1-\\lambda)=0$，故 $\\lambda=1$。保留的源答案标记为 opt4? 原选项图中 $\\lambda=1$ 对应 opt4，与题意一致。",
+  "search_text": "齐次线性方程组 $\\begin{cases}3\\lambda x_1+3x_2+2x_3=0,\\\\x_1+x_2-x_3=0,\\\\(4\\lambda-1)x_1+3x_2+2x_3=0\\end{cases}$ 有非零解，则 $\\lambda$ 的值为（ ）。 $\\lambda=-1$ $\\lambda\\ne-1$ $\\lambda\\ne1$ $\\lambda=1$ 齐次方程组有非零解当且仅当系数矩阵行列式为零。计算得 $5(1-\\lambda)=0$，故 $\\lambda=1$。保留的源答案标记为 opt4? 原选项图中 $\\lambda=1$ 对应 opt4，与题意一致。",
+  "sort_order": 18
+}

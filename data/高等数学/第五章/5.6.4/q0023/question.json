@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在 $(0,1/2)$ 内将 $f(x)=\\cos\\pi x$ 展成周期1正弦级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac8\\pi\\sum_{n=1}^{\\infty} n\\sin(2n\\pi x)/(4n^2+1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac4\\pi\\sum_{n=1}^{\\infty} n\\sin(2n\\pi x)/(4n^2+1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac8\\pi\\sum_{n=1}^{\\infty} n\\sin(2n\\pi x)/(4n^2-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac4\\pi\\sum_{n=1}^{\\infty} n\\sin(2n\\pi x)/(4n^2-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "奇延拓计算得 $b_n=8n/[\\pi(4n^2-1)]$。",
+  "search_text": "在 $(0,1/2)$ 内将 $f(x)=\\cos\\pi x$ 展成周期1正弦级数。 $\\frac8\\pi\\sum_{n=1}^{\\infty} n\\sin(2n\\pi x)/(4n^2+1)$ $\\frac4\\pi\\sum_{n=1}^{\\infty} n\\sin(2n\\pi x)/(4n^2+1)$ $\\frac8\\pi\\sum_{n=1}^{\\infty} n\\sin(2n\\pi x)/(4n^2-1)$ $\\frac4\\pi\\sum_{n=1}^{\\infty} n\\sin(2n\\pi x)/(4n^2-1)$ 奇延拓计算得 $b_n=8n/[\\pi(4n^2-1)]$。",
+  "sort_order": 23
+}

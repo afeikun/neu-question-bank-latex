@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\oint_C e^z\\left(z+\\frac{\\pi i}{2}\\right)^{-1}dz=(\\quad)$，其中 $C$ 为由 $x=\\pm2,y=\\pm2$ 围成正方形的边界，沿正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 Cauchy 积分公式，$\\oint_C e^z(z+\\frac{\\pi i}{2})^{-1}dz=2\\pi i e^z\\big|_{z=-\\pi i/2}=2\\pi i(\\cos(-\\frac\\pi2)+i\\sin(-\\frac\\pi2))=2\\pi$。",
+  "search_text": "积分 $\\oint_C e^z\\left(z+\\frac{\\pi i}{2}\\right)^{-1}dz=(\\quad)$，其中 $C$ 为由 $x=\\pm2,y=\\pm2$ 围成正方形的边界，沿正向。 $2\\pi$ $1$ $2\\pi i$ $\\pi i$ 由 Cauchy 积分公式，$\\oint_C e^z(z+\\frac{\\pi i}{2})^{-1}dz=2\\pi i e^z\\big|_{z=-\\pi i/2}=2\\pi i(\\cos(-\\frac\\pi2)+i\\sin(-\\frac\\pi2))=2\\pi$。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于两个级数 (1) $\\sum_{n=1}^{\\infty}2^n\\sin(1/3^n)$；(2) $\\sum_{n=1}^{\\infty}\\sin(1/\\pi^n)$，说法正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)发散(2)发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)收敛(2)收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)发散(2)收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)收敛(2)发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两级数分别与 $(2/3)^n$、$1/\\pi^n$ 同阶，均收敛。",
+  "search_text": "关于两个级数 (1) $\\sum_{n=1}^{\\infty}2^n\\sin(1/3^n)$；(2) $\\sum_{n=1}^{\\infty}\\sin(1/\\pi^n)$，说法正确的是？ (1)发散(2)发散 (1)收敛(2)收敛 (1)发散(2)收敛 (1)收敛(2)发散 两级数分别与 $(2/3)^n$、$1/\\pi^n$ 同阶，均收敛。",
+  "sort_order": 8
+}

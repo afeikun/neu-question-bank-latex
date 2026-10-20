@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 均为 $3$ 阶方阵，且满足条件 $A+B=AB$，已知 $A=\\begin{pmatrix}1&-3&0\\\\2&1&0\\\\0&0&2\\end{pmatrix}$，则 $B=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&-3&0\\\\2&1&0\\\\0&0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&1/2&0\\\\-3&1&0\\\\0&0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&-1/2&0\\\\-1/3&1&0\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&1/2&0\\\\-1/3&1&0\\\\0&0&2\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由 $A+B=AB$，得 $AB-B-(A-E)=E$，即 $(A-E)(B-E)=E$，所以 $B=(A-E)^{-1}+E=\\begin{pmatrix}1&1/2&0\\\\-1/3&1&0\\\\0&0&2\\end{pmatrix}$。",
+  "search_text": "设 $A,B$ 均为 $3$ 阶方阵，且满足条件 $A+B=AB$，已知 $A=\\begin{pmatrix}1&-3&0\\\\2&1&0\\\\0&0&2\\end{pmatrix}$，则 $B=$（ ）。 $\\begin{pmatrix}1&-3&0\\\\2&1&0\\\\0&0&2\\end{pmatrix}$ $\\begin{pmatrix}1&1/2&0\\\\-3&1&0\\\\0&0&2\\end{pmatrix}$ $\\begin{pmatrix}1&-1/2&0\\\\-1/3&1&0\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}1&1/2&0\\\\-1/3&1&0\\\\0&0&2\\end{pmatrix}$ 由 $A+B=AB$，得 $AB-B-(A-E)=E$，即 $(A-E)(B-E)=E$，所以 $B=(A-E)^{-1}+E=\\begin{pmatrix}1&1/2&0\\\\-1/3&1&0\\\\0&0&2\\end{pmatrix}$。",
+  "sort_order": 14
+}

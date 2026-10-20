@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z-i|=3$，方向为正向，则 $\\oint_C\\frac{\\sinh z}{z^2+9}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sin3}{3}\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sin3}{6}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sin2}{2}\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sinh3}{3}\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆内只有奇点 $-3i$，所以 $\\oint_C\\frac{\\sinh z}{z^2+9}\\,dz=2\\pi i\\frac{\\sinh(3i)}{6i}=\\frac{\\sin3}{3}\\pi i$。",
+  "search_text": "设 $C$ 为圆周 $|z-i|=3$，方向为正向，则 $\\oint_C\\frac{\\sinh z}{z^2+9}\\,dz=(\\quad)$。 $\\frac{\\sin3}{3}\\pi i$ $\\frac{\\sin3}{6}$ $\\frac{\\sin2}{2}\\pi i$ $\\frac{\\sinh3}{3}\\pi i$ 被积函数在圆内只有奇点 $-3i$，所以 $\\oint_C\\frac{\\sinh z}{z^2+9}\\,dz=2\\pi i\\frac{\\sinh(3i)}{6i}=\\frac{\\sin3}{3}\\pi i$。",
+  "sort_order": 9
+}

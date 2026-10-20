@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim N(a,\\sigma^2)$，$\\eta\\sim N(0,1)$，关系为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\eta=(\\xi-a)/\\sigma$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\eta=(\\xi-a)/\\sigma^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\eta=a\\xi+\\sigma$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\eta=\\xi/\\sigma+a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准化关系$\\eta=(\\xi-a)/\\sigma$。",
+  "search_text": "$\\xi\\sim N(a,\\sigma^2)$，$\\eta\\sim N(0,1)$，关系为？ $\\eta=(\\xi-a)/\\sigma$ $\\eta=(\\xi-a)/\\sigma^2$ $\\eta=a\\xi+\\sigma$ $\\eta=\\xi/\\sigma+a$ 标准化关系$\\eta=(\\xi-a)/\\sigma$。",
+  "sort_order": 26
+}

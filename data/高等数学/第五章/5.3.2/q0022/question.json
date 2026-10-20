@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于级数 (1) $\\sum_{n=1}^{\\infty} \\sin n/n^2$；(2) $\\sum_{n=1}^{\\infty}(-1)^n n^{n^2+1}/(n+1)!$，下列说法正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)发散，(2)发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)发散，(2)收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)绝对收敛，(2)发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)绝对收敛，(2)收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "第一项被 $1/n^2$ 控制而绝对收敛；第二项通项不趋零且绝对项发散。",
+  "search_text": "关于级数 (1) $\\sum_{n=1}^{\\infty} \\sin n/n^2$；(2) $\\sum_{n=1}^{\\infty}(-1)^n n^{n^2+1}/(n+1)!$，下列说法正确的是？ (1)发散，(2)发散 (1)发散，(2)收敛 (1)绝对收敛，(2)发散 (1)绝对收敛，(2)收敛 第一项被 $1/n^2$ 控制而绝对收敛；第二项通项不趋零且绝对项发散。",
+  "sort_order": 22
+}

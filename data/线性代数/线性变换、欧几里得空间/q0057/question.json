@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "线性空间 $V=\\left\\{\\begin{pmatrix}a&b\\\\0&a+b\\end{pmatrix}\\mid a,b\\in\\mathbb R\\right\\}$ 上定义内积 $(A_1,A_2)=a_1a_2+b_1b_2$。若 $B_1=\\begin{pmatrix}\\lambda&1\\\\0&\\lambda+1\\end{pmatrix}$ 与 $B_2=\\begin{pmatrix}2&-1\\\\0&1\\end{pmatrix}$ 正交，则 $\\lambda=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由内积定义，$(B_1,B_2)=2\\lambda-1=0$，所以 $\\lambda=\\frac12$。",
+  "search_text": "线性空间 $V=\\left\\{\\begin{pmatrix}a&b\\\\0&a+b\\end{pmatrix}\\mid a,b\\in\\mathbb R\\right\\}$ 上定义内积 $(A_1,A_2)=a_1a_2+b_1b_2$。若 $B_1=\\begin{pmatrix}\\lambda&1\\\\0&\\lambda+1\\end{pmatrix}$ 与 $B_2=\\begin{pmatrix}2&-1\\\\0&1\\end{pmatrix}$ 正交，则 $\\lambda=$（ ）。 $0$ $\\frac12$ $1$ $2$ 由内积定义，$(B_1,B_2)=2\\lambda-1=0$，所以 $\\lambda=\\frac12$。",
+  "sort_order": 57
+}

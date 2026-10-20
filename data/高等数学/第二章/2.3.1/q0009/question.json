@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)=\\begin{cases}(\\sqrt{x+1}-1)/x,&x\\ne0\\\\1/2,&x=0\\end{cases}$，则 $f\\prime\\prime(0)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "题图解析给出 $f\\prime\\prime(0)=\\frac12(\\frac18+\\frac18)=1/8$。",
+  "search_text": "已知 $f(x)=\\begin{cases}(\\sqrt{x+1}-1)/x,&x\\ne0\\\\1/2,&x=0\\end{cases}$，则 $f\\prime\\prime(0)=$（ ）。 $1/16$ 不存在 $1/8$ $1/4$ 题图解析给出 $f\\prime\\prime(0)=\\frac12(\\frac18+\\frac18)=1/8$。",
+  "sort_order": 9
+}

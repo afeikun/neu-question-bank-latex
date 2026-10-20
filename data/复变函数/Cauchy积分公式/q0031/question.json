@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z-1|=4$，方向为正向，则 $\\oint_C\\frac{2i\\sin iz}{z^2+1}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-4\\pi i\\sin1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\pi i\\sin1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi\\sin i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用 $\\frac{2i}{z^2+1}=\\frac1{z-i}-\\frac1{z+i}$，得积分为 $-4\\pi i\\sin1$。",
+  "search_text": "设 $C$ 为圆周 $|z-1|=4$，方向为正向，则 $\\oint_C\\frac{2i\\sin iz}{z^2+1}\\,dz=(\\quad)$。 $-4\\pi i\\sin1$ $0$ $-2\\pi i\\sin1$ $-\\pi\\sin i$ 利用 $\\frac{2i}{z^2+1}=\\frac1{z-i}-\\frac1{z+i}$，得积分为 $-4\\pi i\\sin1$。",
+  "sort_order": 31
+}

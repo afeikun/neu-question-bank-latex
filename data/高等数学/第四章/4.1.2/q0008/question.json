@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int(3x-1)\\sqrt{3x^2-2x+7}\\,dx$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12\\sqrt{(3x^2-2x+7)^3}+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13\\sqrt{(3x^2-2x+7)^3}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13(3x^2-2x+7)^{2/3}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16(3x^2-2x+7)^{3/2}+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $u=3x^2-2x+7$，注意 $3x-1=\\frac12u\\prime$，积分得 $\\frac13(3x^2-2x+7)^{3/2}+C$。",
+  "search_text": "不定积分 $\\int(3x-1)\\sqrt{3x^2-2x+7}\\,dx$ 的值为 $\\frac12\\sqrt{(3x^2-2x+7)^3}+C$ $\\frac13\\sqrt{(3x^2-2x+7)^3}+C$ $\\frac13(3x^2-2x+7)^{2/3}+C$ $\\frac16(3x^2-2x+7)^{3/2}+C$ 令 $u=3x^2-2x+7$，注意 $3x-1=\\frac12u\\prime$，积分得 $\\frac13(3x^2-2x+7)^{3/2}+C$。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，则曲面积分 $\\iint_\\Sigma(x^2+y^2+z^2)dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43\\pi a^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac43\\pi a^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi a^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 关于平面 $xoy$ 对称，而 $\\iint_\\Sigma(x^2+y^2+z^2)dxdy$ 中的被积函数是关于 $z$ 的偶函数，所以有\n\n$$\\iint_\\Sigma(x^2+y^2+z^2)dxdy=0。$$",
+  "search_text": "设 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，则曲面积分 $\\iint_\\Sigma(x^2+y^2+z^2)dxdy=$（ ） $\\frac43\\pi a^4$ $0$ $\\frac43\\pi a^5$ $4\\pi a^4$ 解答 $\\Sigma$ 关于平面 $xoy$ 对称，而 $\\iint_\\Sigma(x^2+y^2+z^2)dxdy$ 中的被积函数是关于 $z$ 的偶函数，所以有\n\n$$\\iint_\\Sigma(x^2+y^2+z^2)dxdy=0。$$",
+  "sort_order": 7
+}

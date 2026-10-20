@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "给定三阶实矩阵 $A$，其特征值为 $\\lambda_1=\\lambda_2=1,\\lambda_3=2$，设 $B=\\operatorname{diag}(1,1,2)$，则 $A$ 与 $B$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "相似且合同"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "相似但不合同"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不相似但合同"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不能确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "重复特征值的几何重数及 $A$ 是否对称未知，无法判断相似或合同关系，选项 4。",
+  "search_text": "给定三阶实矩阵 $A$，其特征值为 $\\lambda_1=\\lambda_2=1,\\lambda_3=2$，设 $B=\\operatorname{diag}(1,1,2)$，则 $A$ 与 $B$(\\quad)。 相似且合同 相似但不合同 不相似但合同 不能确定 重复特征值的几何重数及 $A$ 是否对称未知，无法判断相似或合同关系，选项 4。",
+  "sort_order": 49
+}

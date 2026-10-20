@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 是两个对立事件，$P(A)>0$，$P(B)>0$，则下列式子不正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\overline A\\,\\overline B)=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A)=1-P(B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(A\\mid B)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(A\\mid\\overline B)=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对立事件满足 $B=\\overline A$。因此 $\\overline A\\,\\overline B=\\overline A A=\\varnothing$，其概率为 0，选项 1 不正确。",
+  "search_text": "设 $A,B$ 是两个对立事件，$P(A)>0$，$P(B)>0$，则下列式子不正确的是(\\quad)。 $P(\\overline A\\,\\overline B)=1$ $P(A)=1-P(B)$ $P(A\\mid B)=0$ $P(A\\mid\\overline B)=1$ 对立事件满足 $B=\\overline A$。因此 $\\overline A\\,\\overline B=\\overline A A=\\varnothing$，其概率为 0，选项 1 不正确。",
+  "sort_order": 4
+}

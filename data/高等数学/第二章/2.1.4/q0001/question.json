@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "对于函数 $f(x)=\\begin{cases}x\\sin\\frac1x,&x\\ne0\\\\0,&x=0\\end{cases}$，在 $x=0$ 的连续性与可导性，下列说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不连续，可导"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "连续，不可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不连续，不可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "连续，可导"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$|x\\sin(1/x)|\\le|x|$，故连续；差商为 $\\sin(1/x)$，极限不存在，故不可导。",
+  "search_text": "对于函数 $f(x)=\\begin{cases}x\\sin\\frac1x,&x\\ne0\\\\0,&x=0\\end{cases}$，在 $x=0$ 的连续性与可导性，下列说法正确的是（ ）。 不连续，可导 连续，不可导 不连续，不可导 连续，可导 $|x\\sin(1/x)|\\le|x|$，故连续；差商为 $\\sin(1/x)$，极限不存在，故不可导。",
+  "sort_order": 1
+}

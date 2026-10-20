@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $\\mathbb R$ 上可微，且 $f(x)+f'(x)>0$，则方程 $f(x)=0$ 最多可以有 $(\\quad)$ 个不同的实根。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "3"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "若 $f$ 有两个不同实根 $a<b$，对 $e^x f(x)$ 在 $[a,b]$ 应用罗尔定理，可得某 $\\xi\\in(a,b)$ 使 $f(\\xi)+f'(\\xi)=0$，与条件矛盾。因此至多有一个实根。",
+  "search_text": "函数 $f(x)$ 在 $\\mathbb R$ 上可微，且 $f(x)+f'(x)>0$，则方程 $f(x)=0$ 最多可以有 $(\\quad)$ 个不同的实根。 2 1 0 3 若 $f$ 有两个不同实根 $a<b$，对 $e^x f(x)$ 在 $[a,b]$ 应用罗尔定理，可得某 $\\xi\\in(a,b)$ 使 $f(\\xi)+f'(\\xi)=0$，与条件矛盾。因此至多有一个实根。",
+  "sort_order": 5
+}

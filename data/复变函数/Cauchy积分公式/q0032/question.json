@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使积分 $\\oint_C\\frac{\\cos(\\pi z/4)}{z^2-1}\\,dz=\\frac{\\sqrt2}{2}\\pi i$，则积分路径 $C$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "圆周 $|z-1|=1$，方向为正向"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "圆周 $|z|=\\frac12$，方向为正向"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆周 $|z|=3$，方向为正向"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "圆周 $|z+1|=1$，方向为正向"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$C$ 仅包含 $1$ 而不包含 $-1$ 时，$\\oint_C\\frac{\\cos(\\pi z/4)}{z^2-1}\\,dz=2\\pi i f(1)=\\frac{\\sqrt2}{2}\\pi i$。",
+  "search_text": "为使积分 $\\oint_C\\frac{\\cos(\\pi z/4)}{z^2-1}\\,dz=\\frac{\\sqrt2}{2}\\pi i$，则积分路径 $C$ 为（ ）。 圆周 $|z-1|=1$，方向为正向 圆周 $|z|=\\frac12$，方向为正向 圆周 $|z|=3$，方向为正向 圆周 $|z+1|=1$，方向为正向 $C$ 仅包含 $1$ 而不包含 $-1$ 时，$\\oint_C\\frac{\\cos(\\pi z/4)}{z^2-1}\\,dz=2\\pi i f(1)=\\frac{\\sqrt2}{2}\\pi i$。",
+  "sort_order": 32
+}

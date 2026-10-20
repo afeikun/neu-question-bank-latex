@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}a&b&c\\\\a^2&b^2&c^2\\\\b+c&a+c&a+b\\end{vmatrix}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(a+b+c)(b-a)(c-a)(c-b)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a+b+c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第三行可写成 $(a+b+c)-(a,b,c)$，由行列式的行变换，$D=(a+b+c) \\begin{vmatrix}a&b&c\\\\a^2&b^2&c^2\\\\1&1&1\\end{vmatrix}=(a+b+c)(b-a)(c-a)(c-b)$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}a&b&c\\\\a^2&b^2&c^2\\\\b+c&a+c&a+b\\end{vmatrix}$ 的值为（ ）。 $(a+b+c)(b-a)(c-a)(c-b)$ $1$ $0$ $a+b+c$ 第三行可写成 $(a+b+c)-(a,b,c)$，由行列式的行变换，$D=(a+b+c) \\begin{vmatrix}a&b&c\\\\a^2&b^2&c^2\\\\1&1&1\\end{vmatrix}=(a+b+c)(b-a)(c-a)(c-b)$。",
+  "sort_order": 15
+}

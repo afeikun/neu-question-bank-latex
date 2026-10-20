@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为围住原点的任意光滑简单闭曲线且取逆时针方向，则 $I=\\oint_C\\frac{-y\\,dx+x\\,dy}{x^2+y^2}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$I$ 不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$I$ 随不同的 $C$ 而不同"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$I=2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$I=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "记 $L$ 所围成的闭区域为 $D$，令 $P=\\frac{-y}{x^2+y^2}$，$Q=\\frac{x}{x^2+y^2}$，\n\n则当 $x^2+y^2\\neq0$ 时，有\n\n$$\n\\frac{\\partial Q}{\\partial x}=\\frac{y^2-x^2}{(x^2+y^2)^2}=\\frac{\\partial P}{\\partial y}\n$$\n\n作位于 $D$ 内圆周 $l:\\ x^2+y^2=r^2$，去逆时针方向，记 $D_1$ 由 $L$ 和 $l$ 所围成区域，应用格林公式，得\n\n$$\n\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}\n-\\oint_l\\frac{x\\,dy-y\\,dx}{x^2+y^2}=0，\n$$\n\n故\n\n$$\n\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}\n=\\oint_l\\frac{x\\,dy-y\\,dx}{x^2+y^2}\n=\\oint_l\\frac{x\\,dy-y\\,dx}{r^2}\n=2\\pi\n$$",
+  "search_text": "设 $C$ 为围住原点的任意光滑简单闭曲线且取逆时针方向，则 $I=\\oint_C\\frac{-y\\,dx+x\\,dy}{x^2+y^2}=$（ ） $I$ 不存在 $I$ 随不同的 $C$ 而不同 $I=2\\pi$ $I=0$ 记 $L$ 所围成的闭区域为 $D$，令 $P=\\frac{-y}{x^2+y^2}$，$Q=\\frac{x}{x^2+y^2}$，\n\n则当 $x^2+y^2\\neq0$ 时，有\n\n$$\n\\frac{\\partial Q}{\\partial x}=\\frac{y^2-x^2}{(x^2+y^2)^2}=\\frac{\\partial P}{\\partial y}\n$$\n\n作位于 $D$ 内圆周 $l:\\ x^2+y^2=r^2$，去逆时针方向，记 $D_1$ 由 $L$ 和 $l$ 所围成区域，应用格林公式，得\n\n$$\n\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}\n-\\oint_l\\frac{x\\,dy-y\\,dx}{x^2+y^2}=0，\n$$\n\n故\n\n$$\n\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}\n=\\oint_l\\frac{x\\,dy-y\\,dx}{x^2+y^2}\n=\\oint_l\\frac{x\\,dy-y\\,dx}{r^2}\n=2\\pi\n$$",
+  "sort_order": 5
+}

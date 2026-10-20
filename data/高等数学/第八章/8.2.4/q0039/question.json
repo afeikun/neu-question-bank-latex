@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega:\\sqrt{x^2+y^2}\\leq z\\leq2$，则 $\\iiint_\\Omega(x^2+y^2)dv$ 在球面坐标系下可表示为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{2/\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{2/\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{\\sqrt2}r^4\\sin^3\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{2/\\sin\\varphi}r^4\\sin^3\\varphi\\,dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\frac{2}{\\cos\\varphi}}r^4\\sin^3\\varphi\\,dr.\n$$",
+  "search_text": "若 $\\Omega:\\sqrt{x^2+y^2}\\leq z\\leq2$，则 $\\iiint_\\Omega(x^2+y^2)dv$ 在球面坐标系下可表示为（ ） $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{2/\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{2/\\cos\\varphi}r^4\\sin^3\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^{\\sqrt2}r^4\\sin^3\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{2/\\sin\\varphi}r^4\\sin^3\\varphi\\,dr$ 原式\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\frac{2}{\\cos\\varphi}}r^4\\sin^3\\varphi\\,dr.\n$$",
+  "sort_order": 39
+}

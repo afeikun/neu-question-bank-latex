@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一块高为 $a$、底为 $b$ 的等腰三角形薄板竖直浸没在水中，顶与水面齐平，求每面所受压力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\rho ga^2b/6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\rho ga^2b/3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\rho ga^2b/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\rho gab^2/6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$P=\\int_0^a\\rho g(bx/a)x dx=\\rho ga^2b/3$。",
+  "search_text": "一块高为 $a$、底为 $b$ 的等腰三角形薄板竖直浸没在水中，顶与水面齐平，求每面所受压力。 $\\rho ga^2b/6$ $\\rho ga^2b/3$ $\\rho ga^2b/2$ $\\rho gab^2/6$ $P=\\int_0^a\\rho g(bx/a)x dx=\\rho ga^2b/3$。",
+  "sort_order": 14
+}

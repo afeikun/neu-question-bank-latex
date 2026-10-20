@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "表面积为 $a^2$ 的长方体体积最大为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt6}{36}a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt6}{3}a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt6}{6}a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设长方体的三棱长为 $x,y,z$，则问题就是在条件\n$$\n\\varphi(x,y,z)=2xy+2yz+2xz-a^2=0\\qquad(1)\n$$\n下，求函数 $V=xyz\\ (x>0,y>0,z>0)$ 的最大值。作拉格朗日函数\n$$\nL(x,y,z,\\lambda)=xyz+\\lambda(2xy+2yz+2xz-a^2)，\n$$\n由\n$$\n\\begin{cases}\nL_x=yz+2\\lambda(y+z)=0\\\\\nL_y=xz+2\\lambda(x+z)=0\\\\\nL_z=xy+2\\lambda(y+x)=0\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\n\\dfrac{x}{y}=\\dfrac{x+z}{y+z}\\\\\n\\dfrac{y}{z}=\\dfrac{x+y}{x+z}\n\\end{cases}\n\\Rightarrow x=y=z，\n$$\n代入 (1) 式，得唯一可能的极值点：\n$$\nx=y=z=\\dfrac{\\sqrt{6}}{6}a。\n$$\n由问题本身意义知，此点就是所求最大值点，即，表面积为 $a^2$ 的长方体中，以棱长为 $\\dfrac{\\sqrt{6}}{6}a$ 的正方体体积为最大，最大体积为 $\\dfrac{\\sqrt{6}}{36}a^3$。",
+  "search_text": "表面积为 $a^2$ 的长方体体积最大为。 $\\frac{\\sqrt6}{36}a^3$ $\\frac{\\sqrt6}{3}a^3$ $\\frac{\\sqrt6}{6}a^3$ $a^3$ 设长方体的三棱长为 $x,y,z$，则问题就是在条件\n$$\n\\varphi(x,y,z)=2xy+2yz+2xz-a^2=0\\qquad(1)\n$$\n下，求函数 $V=xyz\\ (x>0,y>0,z>0)$ 的最大值。作拉格朗日函数\n$$\nL(x,y,z,\\lambda)=xyz+\\lambda(2xy+2yz+2xz-a^2)，\n$$\n由\n$$\n\\begin{cases}\nL_x=yz+2\\lambda(y+z)=0\\\\\nL_y=xz+2\\lambda(x+z)=0\\\\\nL_z=xy+2\\lambda(y+x)=0\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\n\\dfrac{x}{y}=\\dfrac{x+z}{y+z}\\\\\n\\dfrac{y}{z}=\\dfrac{x+y}{x+z}\n\\end{cases}\n\\Rightarrow x=y=z，\n$$\n代入 (1) 式，得唯一可能的极值点：\n$$\nx=y=z=\\dfrac{\\sqrt{6}}{6}a。\n$$\n由问题本身意义知，此点就是所求最大值点，即，表面积为 $a^2$ 的长方体中，以棱长为 $\\dfrac{\\sqrt{6}}{6}a$ 的正方体体积为最大，最大体积为 $\\dfrac{\\sqrt{6}}{36}a^3$。",
+  "sort_order": 10
+}

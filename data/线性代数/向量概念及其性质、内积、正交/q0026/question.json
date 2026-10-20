@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $a,b$ 是非零向量且满足 $(a-2b)$ 与 $a$ 正交，$(b-2a)$ 与 $b$ 正交，则 $a$ 与 $b$ 的夹角是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{5\\pi}{6}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2\\pi}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi}{6}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两正交条件给出 $|a|^2=2[a,b]=|b|^2$，因此夹角余弦为 $1/2$，夹角 $\\pi/3$，选项 1。",
+  "search_text": "若 $a,b$ 是非零向量且满足 $(a-2b)$ 与 $a$ 正交，$(b-2a)$ 与 $b$ 正交，则 $a$ 与 $b$ 的夹角是(\\quad)。 $\\frac{\\pi}{3}$ $\\frac{5\\pi}{6}$ $\\frac{2\\pi}{3}$ $\\frac{\\pi}{6}$ 两正交条件给出 $|a|^2=2[a,b]=|b|^2$，因此夹角余弦为 $1/2$，夹角 $\\pi/3$，选项 1。",
+  "sort_order": 26
+}

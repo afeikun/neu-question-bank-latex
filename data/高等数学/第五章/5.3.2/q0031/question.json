@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f$ 在 $x=0$ 邻域有二阶连续导数，且 $\\lim_{x\\to0}f(x)/x=0$，则 $\\sum_{n=1}^{\\infty}\\sqrt n f(1/n)$？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不能确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由泰勒公式 $f(1/n)=O(1/n^2)$，故通项绝对值为 $O(n^{-3/2})$。",
+  "search_text": "设 $f$ 在 $x=0$ 邻域有二阶连续导数，且 $\\lim_{x\\to0}f(x)/x=0$，则 $\\sum_{n=1}^{\\infty}\\sqrt n f(1/n)$？ 条件收敛 绝对收敛 发散 不能确定 由泰勒公式 $f(1/n)=O(1/n^2)$，故通项绝对值为 $O(n^{-3/2})$。",
+  "sort_order": 31
+}

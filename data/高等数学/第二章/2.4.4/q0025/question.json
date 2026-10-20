@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\approx0$ 时，$\\tan x\\approx(\\quad)$，$\\tan1^\\circ\\approx(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x,\\ 0.002$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2,\\ 0.002$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2,\\ 0.01745$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x,\\ 0.01745$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当 $x\\approx0$ 时，由 $\\Delta y\\approx dy=f'(x)dx$，有 $\\tan x\\approx\\tan0+\\sec^2 0\\,x=x$；且 $\\tan1^\\circ\\approx1^\\circ=\\frac\\pi{180}\\approx0.01745$。",
+  "search_text": "当 $x\\approx0$ 时，$\\tan x\\approx(\\quad)$，$\\tan1^\\circ\\approx(\\quad)$。 $x,\\ 0.002$ $x^2,\\ 0.002$ $x^2,\\ 0.01745$ $x,\\ 0.01745$ 当 $x\\approx0$ 时，由 $\\Delta y\\approx dy=f'(x)dx$，有 $\\tan x\\approx\\tan0+\\sec^2 0\\,x=x$；且 $\\tan1^\\circ\\approx1^\\circ=\\frac\\pi{180}\\approx0.01745$。",
+  "sort_order": 25
+}

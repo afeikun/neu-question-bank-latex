@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分方程 $y(t)=\\sin t-2\\displaystyle\\int_0^t y(\\tau)\\cos(t-\\tau)\\,d\\tau$ 的解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$te^{-t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$te^t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$t+e^{-t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t+e^t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar y(s)=\\dfrac1{s^2+1}-2\\bar y(s)\\dfrac{s}{s^2+1}$，所以 $\\bar y(s)=\\dfrac1{(s+1)^2}$，$y(t)=te^{-t}$。",
+  "search_text": "积分方程 $y(t)=\\sin t-2\\displaystyle\\int_0^t y(\\tau)\\cos(t-\\tau)\\,d\\tau$ 的解为（ ）。 $te^{-t}$ $te^t$ $t+e^{-t}$ $t+e^t$ $\\bar y(s)=\\dfrac1{s^2+1}-2\\bar y(s)\\dfrac{s}{s^2+1}$，所以 $\\bar y(s)=\\dfrac1{(s+1)^2}$，$y(t)=te^{-t}$。",
+  "sort_order": 7
+}

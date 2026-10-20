@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{e-e^{e^{\\cos x}}}{\\sqrt[3]{1+x^2}-1}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "e/2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3e/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "分子展开首项为 $e(1-\\cos x)\\sim ex^2/2$，分母 $\\sim x^2/3$，故为 $3e/2$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{e-e^{e^{\\cos x}}}{\\sqrt[3]{1+x^2}-1}$ 的值为（ ）。 $e$ e/2 $2e$ $3e/2$ 分子展开首项为 $e(1-\\cos x)\\sim ex^2/2$，分母 $\\sim x^2/3$，故为 $3e/2$。",
+  "sort_order": 16
+}

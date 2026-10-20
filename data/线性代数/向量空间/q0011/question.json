@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是 $m\\times n$ 矩阵，$b$ 是 $m$ 维非零列向量，则集合 $U=\\{(x_1,x_2,\\ldots,x_n)^T\\mid x_1\\ge 0\\}$、$V=\\{x=(x_1,x_2,\\ldots,x_n)^T\\mid Ax=b\\}$ 中是线性空间的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U$ 和 $V$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "都不是"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$V$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$U$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$U$ 对加法和数乘不封闭；由于 $b\\ne0$，方程组 $Ax=b$ 的解集 $V$ 不包含零向量，也不是线性空间。因此两者都不是线性空间。",
+  "search_text": "设 $A$ 是 $m\\times n$ 矩阵，$b$ 是 $m$ 维非零列向量，则集合 $U=\\{(x_1,x_2,\\ldots,x_n)^T\\mid x_1\\ge 0\\}$、$V=\\{x=(x_1,x_2,\\ldots,x_n)^T\\mid Ax=b\\}$ 中是线性空间的有（ ）。 $U$ 和 $V$ 都不是 $V$ $U$ $U$ 对加法和数乘不封闭；由于 $b\\ne0$，方程组 $Ax=b$ 的解集 $V$ 不包含零向量，也不是线性空间。因此两者都不是线性空间。",
+  "sort_order": 11
+}

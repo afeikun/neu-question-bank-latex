@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $L$ 是从点 $O(0,0)$ 沿 $L_1:y=\\frac{x^2}{2}$ 到点 $A(2,2)$，再由点 $A$ 沿 $L_2:x=\\frac{y^2}{2}$ 回到点 $O$ 的闭曲线，计算 $\\oint_L(x-y^2)dx+(y-x^2)dy$，其结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$L_1$ 的参数方程为 $\\begin{cases}x=t\\\\y=\\frac{1}{2}t^2\\end{cases}$，$t$ 从 $0$ 到 $2$；$L_2$ 的参数方程为 $\\begin{cases}x=\\frac{1}{2}t^2\\\\y=t\\end{cases}$，$t$ 从 $2$ 到 $0$\n\n原式 $=\\int_0^2\\left(t-\\frac{1}{4}t^4\\right)dt+\\int_2^0\\left(t-\\frac{1}{4}t^4\\right)t\\,dt=0$。",
+  "search_text": "已知 $L$ 是从点 $O(0,0)$ 沿 $L_1:y=\\frac{x^2}{2}$ 到点 $A(2,2)$，再由点 $A$ 沿 $L_2:x=\\frac{y^2}{2}$ 回到点 $O$ 的闭曲线，计算 $\\oint_L(x-y^2)dx+(y-x^2)dy$，其结果为（ ） $4$ $2$ $1$ $0$ $L_1$ 的参数方程为 $\\begin{cases}x=t\\\\y=\\frac{1}{2}t^2\\end{cases}$，$t$ 从 $0$ 到 $2$；$L_2$ 的参数方程为 $\\begin{cases}x=\\frac{1}{2}t^2\\\\y=t\\end{cases}$，$t$ 从 $2$ 到 $0$\n\n原式 $=\\int_0^2\\left(t-\\frac{1}{4}t^4\\right)dt+\\int_2^0\\left(t-\\frac{1}{4}t^4\\right)t\\,dt=0$。",
+  "sort_order": 50
+}

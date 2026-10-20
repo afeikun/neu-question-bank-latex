@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次积分 $\\int_0^1dy\\int_y^1\\sin x^2\\,dx=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12(1-\\cos1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16-\\cos1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac16(1-\\cos1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12-\\cos1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 原式 $=\\int_0^1dx\\int_0^x\\sin x^2\\,dy=\\int_0^1x\\sin x^2\\,dx=\\frac{1}{2}(1-\\cos1)$",
+  "search_text": "二次积分 $\\int_0^1dy\\int_y^1\\sin x^2\\,dx=（ ）$ $\\frac12(1-\\cos1)$ $\\frac16-\\cos1$ $\\frac16(1-\\cos1)$ $\\frac12-\\cos1$ 解答 原式 $=\\int_0^1dx\\int_0^x\\sin x^2\\,dy=\\int_0^1x\\sin x^2\\,dx=\\frac{1}{2}(1-\\cos1)$",
+  "sort_order": 14
+}

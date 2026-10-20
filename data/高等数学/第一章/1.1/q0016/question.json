@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=\\sqrt{3-x}+\\arctan\\frac1x$ 的定义域为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{x\\mid x\\le3,\\ x\\ne0\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{x\\mid x\\ne0\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{x\\mid x\\le3\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{x\\mid x\\le3\\text{ 或 }x\\ne0\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由根式要求 $3-x\\ge0$，且反正切中的分母要求 $x\\ne0$，所以定义域为 $\\{x\\mid x\\le3, x\\ne0\\}$。",
+  "search_text": "函数 $y=\\sqrt{3-x}+\\arctan\\frac1x$ 的定义域为（ ）。 $\\{x\\mid x\\le3,\\ x\\ne0\\}$ $\\{x\\mid x\\ne0\\}$ $\\{x\\mid x\\le3\\}$ $\\{x\\mid x\\le3\\text{ 或 }x\\ne0\\}$ 由根式要求 $3-x\\ge0$，且反正切中的分母要求 $x\\ne0$，所以定义域为 $\\{x\\mid x\\le3, x\\ne0\\}$。",
+  "sort_order": 16
+}

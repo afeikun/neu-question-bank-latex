@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列结论中，错误的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $P(A)=0$，则 $A$ 为不可能事件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A)+P(B)\\ge P(A\\cup B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(B-A)\\ge P(B)-P(A)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(B-A)=P(B)-P(BA)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$A=\\varnothing\\Rightarrow P(A)=0$，但反之不成立。因此 $P(A)=0$ 不代表 $A$ 是不可能事件，选项 1 错误。",
+  "search_text": "下列结论中，错误的是(\\quad)。 若 $P(A)=0$，则 $A$ 为不可能事件 $P(A)+P(B)\\ge P(A\\cup B)$ $P(B-A)\\ge P(B)-P(A)$ $P(B-A)=P(B)-P(BA)$ $A=\\varnothing\\Rightarrow P(A)=0$，但反之不成立。因此 $P(A)=0$ 不代表 $A$ 是不可能事件，选项 1 错误。",
+  "sort_order": 3
+}

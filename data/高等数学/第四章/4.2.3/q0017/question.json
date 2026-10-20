@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知∫₂⁴f(x)dx=6，则",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₂³f=3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₄⁶f=6"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₁³f=6"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₂³f+∫₃⁴f=6"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由定积分可加性，分段积分之和为6。",
+  "search_text": "已知∫₂⁴f(x)dx=6，则 ∫₂³f=3 ∫₄⁶f=6 ∫₁³f=6 ∫₂³f+∫₃⁴f=6 由定积分可加性，分段积分之和为6。",
+  "sort_order": 17
+}

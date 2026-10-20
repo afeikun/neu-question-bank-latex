@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设解析函数 $f(z)=e^x\\cos y+i v(x,y)$，则 $f\\prime(1)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由柯西－黎曼方程求导，在 $1$ 处为 $e$。",
+  "search_text": "设解析函数 $f(z)=e^x\\cos y+i v(x,y)$，则 $f\\prime(1)=(\\ )$。 $e$ $0$ $2$ $i$ 由柯西－黎曼方程求导，在 $1$ 处为 $e$。",
+  "sort_order": 64
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_1^i\\frac{\\ln(z+1)}{z+1}\\,dz=(\\quad)$，沿 $|z|=1$ 的第一象限部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac18\\left(\\frac{\\pi^2}{4}+3\\ln^2 2\\right)+i\\frac{\\pi}{8}\\ln 2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac18\\left(\\frac{\\pi^2}{4}+3\\ln^2 2\\right)-i\\frac{\\pi}{8}\\ln 2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac14\\left(\\frac{\\pi^2}{4}+3\\ln^2 2\\right)-i\\frac{\\pi}{4}\\ln 2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac14\\left(\\frac{\\pi^2}{4}+3\\ln^2 2\\right)-i\\frac{\\pi}{4}\\ln 2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_1^i\\frac{\\ln(z+1)}{z+1}\\,dz=\\frac12\\ln^2(z+1)\\big|_1^i=\\frac12[\\ln^2(i+1)-\\ln^2 2]$。因 $\\ln(i+1)=\\ln\\sqrt2+\\frac{\\pi}{4}i=\\frac12\\ln2+\\frac{\\pi}{4}i$，所以结果为 $-\\frac18(\\frac{\\pi^2}{4}+3\\ln^2 2)+i\\frac{\\pi}{8}\\ln2$。",
+  "search_text": "$\\int_1^i\\frac{\\ln(z+1)}{z+1}\\,dz=(\\quad)$，沿 $|z|=1$ 的第一象限部分。 $-\\frac18\\left(\\frac{\\pi^2}{4}+3\\ln^2 2\\right)+i\\frac{\\pi}{8}\\ln 2$ $-\\frac18\\left(\\frac{\\pi^2}{4}+3\\ln^2 2\\right)-i\\frac{\\pi}{8}\\ln 2$ $-\\frac14\\left(\\frac{\\pi^2}{4}+3\\ln^2 2\\right)-i\\frac{\\pi}{4}\\ln 2$ $\\frac14\\left(\\frac{\\pi^2}{4}+3\\ln^2 2\\right)-i\\frac{\\pi}{4}\\ln 2$ $\\int_1^i\\frac{\\ln(z+1)}{z+1}\\,dz=\\frac12\\ln^2(z+1)\\big|_1^i=\\frac12[\\ln^2(i+1)-\\ln^2 2]$。因 $\\ln(i+1)=\\ln\\sqrt2+\\frac{\\pi}{4}i=\\frac12\\ln2+\\frac{\\pi}{4}i$，所以结果为 $-\\frac18(\\frac{\\pi^2}{4}+3\\ln^2 2)+i\\frac{\\pi}{8}\\ln2$。",
+  "sort_order": 4
+}

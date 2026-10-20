@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=y(x)$ 由 $y-xe^{y-1}=1$ 确定，求 $y'(0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\ny-xe^{y-1}=1\n$$\n\n两边对 $x$ 求导得\n\n$$\ny'-e^{y-1}-xe^{y-1}y'=0\\Rightarrow y'=\\frac{e^{y-1}}{1-xe^{y-1}}\n$$\n\n又 $y(0)=1$，可得 $y'(0)=1$",
+  "search_text": "设 $y=y(x)$ 由 $y-xe^{y-1}=1$ 确定，求 $y'(0)$。 -1 2 1 0 $$\ny-xe^{y-1}=1\n$$\n\n两边对 $x$ 求导得\n\n$$\ny'-e^{y-1}-xe^{y-1}y'=0\\Rightarrow y'=\\frac{e^{y-1}}{1-xe^{y-1}}\n$$\n\n又 $y(0)=1$，可得 $y'(0)=1$",
+  "sort_order": 17
+}

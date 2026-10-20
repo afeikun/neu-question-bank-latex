@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将3个球随机地放入4个盒子中，记事件A表示‘三个球恰在同一盒中’，则$P(A)$等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总放法$4^3$，三个球在同一盒有4种，概率$4/4^3=1/16$。",
+  "search_text": "将3个球随机地放入4个盒子中，记事件A表示‘三个球恰在同一盒中’，则$P(A)$等于（ ）。 $1/16$ $1/4$ $1/6$ $1/12$ 总放法$4^3$，三个球在同一盒有4种，概率$4/4^3=1/16$。",
+  "sort_order": 24
+}

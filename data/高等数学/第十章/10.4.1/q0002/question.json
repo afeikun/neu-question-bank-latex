@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$ydx-xdy=(x^2+y^2)dx$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\arctan\\frac xy=x+C,\\ x=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arctan\\frac yx=cx,\\ x=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\arctan\\frac yx=cx,\\ x=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\arctan\\frac yx=x+C,\\ x=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程整理为 $\\frac{y\\,dx-x\\,dy}{x^2+y^2}=dx$，\n\n即 $d\\arctan\\frac{x}{y}=dx$，\n\n因此 $\\arctan\\frac{x}{y}=x+C$ 为通解，又 $x=0$ 是方程的一个特解，",
+  "search_text": "$ydx-xdy=(x^2+y^2)dx$ 的通解为（ ） $\\arctan\\frac xy=x+C,\\ x=0$ $\\arctan\\frac yx=cx,\\ x=0$ $\\arctan\\frac yx=cx,\\ x=0$ $\\arctan\\frac yx=x+C,\\ x=0$ 方程整理为 $\\frac{y\\,dx-x\\,dy}{x^2+y^2}=dx$，\n\n即 $d\\arctan\\frac{x}{y}=dx$，\n\n因此 $\\arctan\\frac{x}{y}=x+C$ 为通解，又 $x=0$ 是方程的一个特解，",
+  "sort_order": 2
+}

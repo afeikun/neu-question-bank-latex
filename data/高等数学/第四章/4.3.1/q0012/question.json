@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f(x)=x²（|x|≤1），|x|（|x|>1），φ(x)=∫₋₂ˣf(t)dt，判断在±1的连续与可导性",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "φ在±1连续但不可导"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "φ在1连续不可导、在−1可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "φ在1可导、在−1连续不可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "φ在±1都可导"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "f在−1有跳跃，φ在−1连续但不可导；f在1连续，φ在1可导。",
+  "search_text": "f(x)=x²（|x|≤1），|x|（|x|>1），φ(x)=∫₋₂ˣf(t)dt，判断在±1的连续与可导性 φ在±1连续但不可导 φ在1连续不可导、在−1可导 φ在1可导、在−1连续不可导 φ在±1都可导 f在−1有跳跃，φ在−1连续但不可导；f在1连续，φ在1可导。",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\tan(x+y)$，求 $\\frac{d^2y}{dx^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\csc^3(x+y)\\cot^2(x+y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\csc^2(x+y)\\cot^3(x+y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\csc^3(x+y)\\cot^2(x+y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2\\csc^2(x+y)\\cot^3(x+y)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时对$x$求导可得\n$y'=\\sec^2(x+y)\\cdot(1+y')$，可得$y'=-\\csc^2(x+y)$\n\n方程两边再同时对$x$求导一次可得，\n则有$y''=-2\\csc(x+y)\\cdot(-\\csc(x+y)\\cdot\\cot(x+y))\\cdot(1+y')$，则有\n$y''=-2\\csc^2(x+y)\\cot^3(x+y)$",
+  "search_text": "设 $y=\\tan(x+y)$，求 $\\frac{d^2y}{dx^2}$。 $2\\csc^3(x+y)\\cot^2(x+y)$ $2\\csc^2(x+y)\\cot^3(x+y)$ $-2\\csc^3(x+y)\\cot^2(x+y)$ $-2\\csc^2(x+y)\\cot^3(x+y)$ 解答 方程两边同时对$x$求导可得\n$y'=\\sec^2(x+y)\\cdot(1+y')$，可得$y'=-\\csc^2(x+y)$\n\n方程两边再同时对$x$求导一次可得，\n则有$y''=-2\\csc(x+y)\\cdot(-\\csc(x+y)\\cdot\\cot(x+y))\\cdot(1+y')$，则有\n$y''=-2\\csc^2(x+y)\\cot^3(x+y)$",
+  "sort_order": 14
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在 $[0,+\\infty)$ 上，$\\sin t\\ast\\cos t=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1}{2}t\\sin t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1}{2}t\\cos t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$t^2\\sin t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t^2\\cos t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\sin t\\ast\\cos t=\\int_0^t\\sin\\tau\\cos(t-\\tau)\\,d\\tau=\\frac{1}{2}\\int_0^t(\\sin(2\\tau-t)+\\sin t)\\,d\\tau=\\frac{1}{2}t\\sin t$。",
+  "search_text": "在 $[0,+\\infty)$ 上，$\\sin t\\ast\\cos t=(\\quad)$。 $\\frac{1}{2}t\\sin t$ $\\frac{1}{2}t\\cos t$ $t^2\\sin t$ $t^2\\cos t$ $\\sin t\\ast\\cos t=\\int_0^t\\sin\\tau\\cos(t-\\tau)\\,d\\tau=\\frac{1}{2}\\int_0^t(\\sin(2\\tau-t)+\\sin t)\\,d\\tau=\\frac{1}{2}t\\sin t$。",
+  "sort_order": 4
+}

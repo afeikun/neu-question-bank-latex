@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "“对于任意给定的 $\\varepsilon\\in(0,1)$，总存在正整数 $N$，当 $n\\ge N$ 时，恒有 $|x_n-a|\\le2\\varepsilon$”是数列 $\\{x_n\\}$ 收敛于 $a$ 的（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "既非充分条件又非必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必要条件但非充分条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "充分条件但非必要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "该条件与数列 $\\{x_n\\}$ 收敛于 $a$ 的定义等价。",
+  "search_text": "“对于任意给定的 $\\varepsilon\\in(0,1)$，总存在正整数 $N$，当 $n\\ge N$ 时，恒有 $|x_n-a|\\le2\\varepsilon$”是数列 $\\{x_n\\}$ 收敛于 $a$ 的（ ）。 既非充分条件又非必要条件 必要条件但非充分条件 充分必要条件 充分条件但非必要条件 该条件与数列 $\\{x_n\\}$ 收敛于 $a$ 的定义等价。",
+  "sort_order": 4
+}

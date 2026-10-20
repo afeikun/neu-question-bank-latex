@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "极坐标曲线 $\\rho=\\frac1{\\cos\\theta+\\sin\\theta}$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\tan\\theta$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\tan\\theta$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由极坐标方程可得参数方程 $\\left\\{\\begin{array}{l}x=\\frac{\\cos\\theta}{\\cos\\theta+\\sin\\theta}=\\frac{\\sqrt{2}}{2}\\cos\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)\\\\y=\\frac{\\sin\\theta}{\\cos\\theta+\\sin\\theta}=\\frac{\\sqrt{2}}{2}\\sin\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)\\end{array}\\right.$ 两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=-\\frac{\\sqrt{2}}{2}\\sin\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)-\\frac{\\sqrt{2}}{2}\\cos\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)\\cot\\left(\\theta+\\frac{\\pi}{4}\\right),$$\n\n$$\\frac{dy}{d\\theta}=\\frac{\\sqrt{2}}{2}\\cos\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)-\\frac{\\sqrt{2}}{2}\\sin\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)\\cot\\left(\\theta+\\frac{\\pi}{4}\\right),$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=-\\frac{\\cos\\theta-\\sin\\theta\\cot\\left(\\theta+\\frac{\\pi}{4}\\right)}{\\sin\\theta+\\cos\\theta\\cot\\left(\\theta+\\frac{\\pi}{4}\\right)}=-1.$",
+  "search_text": "极坐标曲线 $\\rho=\\frac1{\\cos\\theta+\\sin\\theta}$，求 $\\frac{dy}{dx}$。 $\\tan\\theta$ $1$ $-\\tan\\theta$ $-1$ 解答 由极坐标方程可得参数方程 $\\left\\{\\begin{array}{l}x=\\frac{\\cos\\theta}{\\cos\\theta+\\sin\\theta}=\\frac{\\sqrt{2}}{2}\\cos\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)\\\\y=\\frac{\\sin\\theta}{\\cos\\theta+\\sin\\theta}=\\frac{\\sqrt{2}}{2}\\sin\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)\\end{array}\\right.$ 两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=-\\frac{\\sqrt{2}}{2}\\sin\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)-\\frac{\\sqrt{2}}{2}\\cos\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)\\cot\\left(\\theta+\\frac{\\pi}{4}\\right),$$\n\n$$\\frac{dy}{d\\theta}=\\frac{\\sqrt{2}}{2}\\cos\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)-\\frac{\\sqrt{2}}{2}\\sin\\theta\\csc\\left(\\theta+\\frac{\\pi}{4}\\right)\\cot\\left(\\theta+\\frac{\\pi}{4}\\right),$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=-\\frac{\\cos\\theta-\\sin\\theta\\cot\\left(\\theta+\\frac{\\pi}{4}\\right)}{\\sin\\theta+\\cos\\theta\\cot\\left(\\theta+\\frac{\\pi}{4}\\right)}=-1.$",
+  "sort_order": 20
+}

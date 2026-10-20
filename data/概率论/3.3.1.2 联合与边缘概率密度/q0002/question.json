@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $(\\xi,\\eta)$ 的联合分布密度 $\\varphi(x,y)=\\begin{cases}\\dfrac6{(1+x+y)^4},&x>0,y>0,\\\\0,&\\text{其它},\\end{cases}$ 则边缘分布函数 $F_\\xi(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}1-\\dfrac1{(1+x)^2},&x\\ge0,\\\\0,&x<0,\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}\\dfrac1{(1+x)^2},&x\\ge0,\\\\0,&x<0,\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}1-\\dfrac1{1+x},&x\\ge0,\\\\0,&x<0,\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}\\dfrac1{(1+x)^3},&x\\ge0,\\\\0,&x<0,\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由联合密度积分，$f_\\xi(x)=\\int_{-\\infty}^{+\\infty}\\varphi(x,y)dy=\\begin{cases}\\int_0^{+\\infty}\\frac6{(1+x+y)^4}dy=\\frac2{(1+x)^3},&x\\ge0,\\\\0,&x<0.\\end{cases}$ 故 $F_\\xi(x)=\\begin{cases}\\int_0^x\\frac2{(1+t)^3}dt=1-\\frac1{(1+x)^2},&x\\ge0,\\\\0,&x<0.\\end{cases}$ 选第一项。",
+  "search_text": "设 $(\\xi,\\eta)$ 的联合分布密度 $\\varphi(x,y)=\\begin{cases}\\dfrac6{(1+x+y)^4},&x>0,y>0,\\\\0,&\\text{其它},\\end{cases}$ 则边缘分布函数 $F_\\xi(x)=$（ ）。 $\\begin{cases}1-\\dfrac1{(1+x)^2},&x\\ge0,\\\\0,&x<0,\\end{cases}$ $\\begin{cases}\\dfrac1{(1+x)^2},&x\\ge0,\\\\0,&x<0,\\end{cases}$ $\\begin{cases}1-\\dfrac1{1+x},&x\\ge0,\\\\0,&x<0,\\end{cases}$ $\\begin{cases}\\dfrac1{(1+x)^3},&x\\ge0,\\\\0,&x<0,\\end{cases}$ 由联合密度积分，$f_\\xi(x)=\\int_{-\\infty}^{+\\infty}\\varphi(x,y)dy=\\begin{cases}\\int_0^{+\\infty}\\frac6{(1+x+y)^4}dy=\\frac2{(1+x)^3},&x\\ge0,\\\\0,&x<0.\\end{cases}$ 故 $F_\\xi(x)=\\begin{cases}\\int_0^x\\frac2{(1+t)^3}dt=1-\\frac1{(1+x)^2},&x\\ge0,\\\\0,&x<0.\\end{cases}$ 选第一项。",
+  "sort_order": 2
+}

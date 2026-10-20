@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,100)$，容量$n$样本均值$\\bar X$，若$P(\\mu-5<\\bar X<\\mu+5)=0.954$，求$n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$20$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$18$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$14$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar X$标准差$10/\\sqrt n$，区间对应标准正态边界$\\sqrt n/2$；由$\\Phi(2)=0.977$得$n=16$。",
+  "search_text": "$X\\sim N(\\mu,100)$，容量$n$样本均值$\\bar X$，若$P(\\mu-5<\\bar X<\\mu+5)=0.954$，求$n$。 $16$ $20$ $18$ $14$ $\\bar X$标准差$10/\\sqrt n$，区间对应标准正态边界$\\sqrt n/2$；由$\\Phi(2)=0.977$得$n=16$。",
+  "sort_order": 1
+}

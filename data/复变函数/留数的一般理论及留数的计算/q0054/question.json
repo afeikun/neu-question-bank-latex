@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为正向圆周 $|z-1|=1$，则 $\\displaystyle\\oint_C\\dfrac{1}{1+z^4}\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac{\\sqrt2\\pi i}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{\\sqrt2}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{\\sqrt2\\pi i}{4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\dfrac{\\sqrt2}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1+z^4$ 的极点中，$e^{\\pi i/4}$ 与 $e^{7\\pi i/4}$ 在圆内，计算两处留数和得积分 $-\\sqrt2\\pi i/2$。",
+  "search_text": "设 $C$ 为正向圆周 $|z-1|=1$，则 $\\displaystyle\\oint_C\\dfrac{1}{1+z^4}\\,dz=(\\ \\ )$。 $-\\dfrac{\\sqrt2\\pi i}{2}$ $\\dfrac{\\sqrt2}{4}$ $\\dfrac{\\sqrt2\\pi i}{4}$ $-\\dfrac{\\sqrt2}{2}$ $1+z^4$ 的极点中，$e^{\\pi i/4}$ 与 $e^{7\\pi i/4}$ 在圆内，计算两处留数和得积分 $-\\sqrt2\\pi i/2$。",
+  "sort_order": 54
+}

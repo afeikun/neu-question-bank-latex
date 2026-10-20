@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}2&1&0\\\\1&2&0\\\\0&1&t\\end{pmatrix}$，$B=\\begin{pmatrix}2&3&-1\\\\0&2&0\\\\-1&3&2\\end{pmatrix}$，矩阵 $A$ 与 $B$ 相似，则 $t=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "因为相似矩阵具有相同的特征值，且 $|\\lambda E-B|=\\begin{vmatrix}\\lambda-2&-3&1\\\\0&\\lambda-2&0\\\\1&-3&\\lambda-2\\end{vmatrix}=(\\lambda-1)(\\lambda-2)(\\lambda-3)$，$|\\lambda E-A|=\\begin{vmatrix}\\lambda-2&-1&0\\\\-1&\\lambda-2&0\\\\0&-1&\\lambda-t\\end{vmatrix}=(\\lambda-1)(\\lambda-t)(\\lambda-3)$，只有当 $t=2$ 时，矩阵 $A$ 与 $B$ 有相同的特征值。",
+  "search_text": "设 $A=\\begin{pmatrix}2&1&0\\\\1&2&0\\\\0&1&t\\end{pmatrix}$，$B=\\begin{pmatrix}2&3&-1\\\\0&2&0\\\\-1&3&2\\end{pmatrix}$，矩阵 $A$ 与 $B$ 相似，则 $t=$（ ）。 $1$ $0$ $3$ $2$ 因为相似矩阵具有相同的特征值，且 $|\\lambda E-B|=\\begin{vmatrix}\\lambda-2&-3&1\\\\0&\\lambda-2&0\\\\1&-3&\\lambda-2\\end{vmatrix}=(\\lambda-1)(\\lambda-2)(\\lambda-3)$，$|\\lambda E-A|=\\begin{vmatrix}\\lambda-2&-1&0\\\\-1&\\lambda-2&0\\\\0&-1&\\lambda-t\\end{vmatrix}=(\\lambda-1)(\\lambda-t)(\\lambda-3)$，只有当 $t=2$ 时，矩阵 $A$ 与 $B$ 有相同的特征值。",
+  "sort_order": 27
+}

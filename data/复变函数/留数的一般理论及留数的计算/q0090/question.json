@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=z^2\\operatorname{sh}\\dfrac1z$，则积分 $\\displaystyle\\oint_{|z|=R}f(z)\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi3i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi2i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{2\\pi}3i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z^2\\operatorname{sh}(1/z)=\\frac{z^2}{2}(e^{1/z}-e^{-1/z})$，$z^{-1}$ 项系数为 $1/6$，故积分为 $\\pi i/3$。",
+  "search_text": "函数 $f(z)=z^2\\operatorname{sh}\\dfrac1z$，则积分 $\\displaystyle\\oint_{|z|=R}f(z)\\,dz=(\\ \\ )$。 $\\dfrac\\pi3i$ $0$ $\\dfrac\\pi2i$ $\\dfrac{2\\pi}3i$ $z^2\\operatorname{sh}(1/z)=\\frac{z^2}{2}(e^{1/z}-e^{-1/z})$，$z^{-1}$ 项系数为 $1/6$，故积分为 $\\pi i/3$。",
+  "sort_order": 90
+}

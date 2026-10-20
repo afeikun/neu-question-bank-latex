@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $0<x_1<3$，$x_{n+1}=\\sqrt{x_n(3-x_n)}$（$n=1,2,\\ldots$），求数列 $\\{x_n\\}$ 的极限。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "极限存在，但不能求出"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "极限不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "数列单调增加且有上界，设极限为 $a$，则 $a=\\sqrt{a(3-a)}$，正根 $a=3/2$。",
+  "search_text": "设 $0<x_1<3$，$x_{n+1}=\\sqrt{x_n(3-x_n)}$（$n=1,2,\\ldots$），求数列 $\\{x_n\\}$ 的极限。 $\\frac32$ 极限存在，但不能求出 $\\sqrt3$ 极限不存在 数列单调增加且有上界，设极限为 $a$，则 $a=\\sqrt{a(3-a)}$，正根 $a=3/2$。",
+  "sort_order": 27
+}

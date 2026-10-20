@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac{1-e^{2z}}{z^4},0\\right)=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac43$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac32$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1-e^{2z}$ 在 $0$ 为一级零点，因此分式为三级极点，留数由三阶极点公式得 $-4/3$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac{1-e^{2z}}{z^4},0\\right)=(\\ \\ )$。 $-\\dfrac43$ $\\dfrac32$ $-\\dfrac13$ $-1$ $1-e^{2z}$ 在 $0$ 为一级零点，因此分式为三级极点，留数由三阶极点公式得 $-4/3$。",
+  "sort_order": 5
+}

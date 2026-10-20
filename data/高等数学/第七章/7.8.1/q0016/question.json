@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=x^2+4xy-y^2+6x-8y+12$ 的驻点是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(2,-1)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(2,1)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1,-2)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1,2)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为：$\\left\\{\\begin{aligned}z_x&=2x+4y+6\\\\z_y&=4x-2y-8\\end{aligned}\\right.$，由驻点定义可得方程组：$\\left\\{\\begin{aligned}2x+4y+6&=0\\\\4x-2y-8&=0\\end{aligned}\\right.$，解得：$\\left\\{\\begin{aligned}x&=1\\\\y&=-2\\end{aligned}\\right.$，则驻点为：$(1,-2)$。",
+  "search_text": "函数 $z=x^2+4xy-y^2+6x-8y+12$ 的驻点是。 (2,-1) (2,1) (1,-2) (1,2) 因为：$\\left\\{\\begin{aligned}z_x&=2x+4y+6\\\\z_y&=4x-2y-8\\end{aligned}\\right.$，由驻点定义可得方程组：$\\left\\{\\begin{aligned}2x+4y+6&=0\\\\4x-2y-8&=0\\end{aligned}\\right.$，解得：$\\left\\{\\begin{aligned}x&=1\\\\y&=-2\\end{aligned}\\right.$，则驻点为：$(1,-2)$。",
+  "sort_order": 16
+}

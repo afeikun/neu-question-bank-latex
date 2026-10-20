@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由旋转曲面 $y=x^2+z^2$ 与平面 $y=1$ 围成的立体，则三重积分 $\\iiint_\\Omega(x^2+y+z^2)\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi{12}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "旋转曲面方程为 $y=x^2+z^2$，$\\Omega$ 在 $xOz$ 面上的投影为 $x^2+z^2\\leq1$，且 $x^2+z^2\\leq y\\leq1$，所以由柱面坐标变换得：\n\n$$\n\\text{原式}=\\iint_D(x^2+z^2)dxdz\\int_{x^2+z^2}^1dy+\\iint_Ddxdz\\int_{x^2+z^2}^1ydy\n$$\n\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^1r^2rdr\\int_{r^2}^1dy+\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_{r^2}^1ydy\n$$\n\n$$\n=\\frac{\\pi}{6}+\\frac{\\pi}{3}\n$$\n\n$$\n=\\frac{\\pi}{2}。\n$$",
+  "search_text": "$\\Omega$ 是由旋转曲面 $y=x^2+z^2$ 与平面 $y=1$ 围成的立体，则三重积分 $\\iiint_\\Omega(x^2+y+z^2)\\,dv$ 的值为（ ） $\\frac\\pi{12}$ $\\frac\\pi2$ $\\frac\\pi6$ $\\frac\\pi3$ 旋转曲面方程为 $y=x^2+z^2$，$\\Omega$ 在 $xOz$ 面上的投影为 $x^2+z^2\\leq1$，且 $x^2+z^2\\leq y\\leq1$，所以由柱面坐标变换得：\n\n$$\n\\text{原式}=\\iint_D(x^2+z^2)dxdz\\int_{x^2+z^2}^1dy+\\iint_Ddxdz\\int_{x^2+z^2}^1ydy\n$$\n\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^1r^2rdr\\int_{r^2}^1dy+\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_{r^2}^1ydy\n$$\n\n$$\n=\\frac{\\pi}{6}+\\frac{\\pi}{3}\n$$\n\n$$\n=\\frac{\\pi}{2}。\n$$",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 为球面 $x^2+y^2+z^2=1$ 的外侧，则计算 $\\oiint_\\Sigma x^3dydz+y^3dzdx+z^3dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{12}{7}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac65\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{12}{5}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 设 $\\Sigma$ 围成球 $\\Omega$，由高斯公式\n\n$$\\oiint_\\Sigma x^3dydz+y^3dzdx+z^3dxdy=3\\iiint_\\Omega(x^2+y^2+z^2)dv=3\\int_0^{2\\pi}d\\theta\\int_0^\\pi\\sin\\varphi\\,d\\varphi\\int_0^1r^4dr=\\frac{12}{5}\\pi。$$",
+  "search_text": "已知 $\\Sigma$ 为球面 $x^2+y^2+z^2=1$ 的外侧，则计算 $\\oiint_\\Sigma x^3dydz+y^3dzdx+z^3dxdy=$（ ） $\\frac{12}{7}\\pi$ $\\frac65\\pi$ $\\pi$ $\\frac{12}{5}\\pi$ 解答 设 $\\Sigma$ 围成球 $\\Omega$，由高斯公式\n\n$$\\oiint_\\Sigma x^3dydz+y^3dzdx+z^3dxdy=3\\iiint_\\Omega(x^2+y^2+z^2)dv=3\\int_0^{2\\pi}d\\theta\\int_0^\\pi\\sin\\varphi\\,d\\varphi\\int_0^1r^4dr=\\frac{12}{5}\\pi。$$",
+  "sort_order": 13
+}

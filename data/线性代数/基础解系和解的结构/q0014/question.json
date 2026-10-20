@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&2&5\\\\1&t&-2\\\\t&7&8\\\\1&4&-9\\end{pmatrix}$，且方程组 $AX=0$ 的基础解系中只含有一个线性无关的解向量，则 $t$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t\\ne3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$t=-3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$t=3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t\\ne-3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "基础解系只有一个向量说明 $3-r(A)=1$，即秩为 $2$。消元可见当且仅当 $t=3$ 时满足。",
+  "search_text": "设 $A=\\begin{pmatrix}1&2&5\\\\1&t&-2\\\\t&7&8\\\\1&4&-9\\end{pmatrix}$，且方程组 $AX=0$ 的基础解系中只含有一个线性无关的解向量，则 $t$ 的值为（ ）。 $t\\ne3$ $t=-3$ $t=3$ $t\\ne-3$ 基础解系只有一个向量说明 $3-r(A)=1$，即秩为 $2$。消元可见当且仅当 $t=3$ 时满足。",
+  "sort_order": 14
+}

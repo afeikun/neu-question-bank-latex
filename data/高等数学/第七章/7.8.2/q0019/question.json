@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=\\sqrt{x^2+y^2}$ 在 $D:|x|+|y|\\le1$ 上的最小值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由于 $z_x=\\dfrac{1}{2}\\dfrac{2x}{\\sqrt{x^2+y^2}}=\\dfrac{x}{\\sqrt{x^2+y^2}}$，$z_y=\\dfrac{1}{2}\\dfrac{2y}{\\sqrt{x^2+y^2}}=\\dfrac{y}{\\sqrt{x^2+y^2}}$，于是 $z_x(0,0)$，$z_y(0,0)$ 不存在，又 $z=\\sqrt{x^2+y^2}\\ge0$，因此在 $(x,y)=(0,0)$ 时取到最小值：$z(0,0)=0$。",
+  "search_text": "函数 $z=\\sqrt{x^2+y^2}$ 在 $D:|x|+|y|\\le1$ 上的最小值为。 -2 -1 0 2 由于 $z_x=\\dfrac{1}{2}\\dfrac{2x}{\\sqrt{x^2+y^2}}=\\dfrac{x}{\\sqrt{x^2+y^2}}$，$z_y=\\dfrac{1}{2}\\dfrac{2y}{\\sqrt{x^2+y^2}}=\\dfrac{y}{\\sqrt{x^2+y^2}}$，于是 $z_x(0,0)$，$z_y(0,0)$ 不存在，又 $z=\\sqrt{x^2+y^2}\\ge0$，因此在 $(x,y)=(0,0)$ 时取到最小值：$z(0,0)=0$。",
+  "sort_order": 19
+}

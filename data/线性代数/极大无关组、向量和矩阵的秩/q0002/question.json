@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\alpha_1=(2,3,4,5)^T,\\ \\alpha_2=(3,4,5,6)^T,\\ \\alpha_3=(4,5,6,7)^T,\\ \\alpha_4=(5,6,7,8)^T$，则 $r(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将向量组作为矩阵的行化简，可得两个非零行，因此秩为 $2$。",
+  "search_text": "已知 $\\alpha_1=(2,3,4,5)^T,\\ \\alpha_2=(3,4,5,6)^T,\\ \\alpha_3=(4,5,6,7)^T,\\ \\alpha_4=(5,6,7,8)^T$，则 $r(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)=$（ ）。 $3$ $1$ $4$ $2$ 将向量组作为矩阵的行化简，可得两个非零行，因此秩为 $2$。",
+  "sort_order": 2
+}

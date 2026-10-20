@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $w=e^x\\sin y$，$x=uv$，$y=u+v$，求 $w_u$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$ve^x\\sin y+\\cos y$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ve^x\\sin y+e^x\\cos y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$ve^x\\sin y-e^x\\cos y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$ve^x\\cos y+e^x\\sin y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\frac{\\partial w}{\\partial u}=\\frac{\\partial w}{\\partial x}\\cdot\\frac{\\partial x}{\\partial u}+\\frac{\\partial w}{\\partial y}\\cdot\\frac{\\partial y}{\\partial u}=ve^x\\sin y+e^x\\cos y$$",
+  "search_text": "设 $w=e^x\\sin y$，$x=uv$，$y=u+v$，求 $w_u$。 $ve^x\\sin y+\\cos y$ $ve^x\\sin y+e^x\\cos y$ $ve^x\\sin y-e^x\\cos y$ $ve^x\\cos y+e^x\\sin y$ $$\\frac{\\partial w}{\\partial u}=\\frac{\\partial w}{\\partial x}\\cdot\\frac{\\partial x}{\\partial u}+\\frac{\\partial w}{\\partial y}\\cdot\\frac{\\partial y}{\\partial u}=ve^x\\sin y+e^x\\cos y$$",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$D$ 是由心脏线 $r=a(1+\\cos\\theta)$ 和圆 $r=a$ 所围的区域（取圆外部），则 $\\iint_D\\sqrt{x^2+y^2}dxdy$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a^2(\\frac19+\\frac\\pi2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a^3(\\frac{22}9+\\frac\\pi2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a^3(\\frac19+\\frac\\pi2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a(\\frac{22}9+\\frac\\pi2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "\\[\n\\iint_D\\sqrt{x^2+y^2}dxdy=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_a^{a(1+\\cos\\theta)}r^2dr=a^3\\left(\\frac{22}{9}+\\frac{\\pi}{2}\\right)\n\\]\n图示：坐标图中横轴标为 $x$、纵轴标为 $y$；圆与右侧外曲线之间的区域 $D$ 着青色，图上可见刻度标注 $-0.5$、$0.5$ 和 $1.5$。",
+  "search_text": "$D$ 是由心脏线 $r=a(1+\\cos\\theta)$ 和圆 $r=a$ 所围的区域（取圆外部），则 $\\iint_D\\sqrt{x^2+y^2}dxdy$（ ） $a^2(\\frac19+\\frac\\pi2)$ $a^3(\\frac{22}9+\\frac\\pi2)$ $a^3(\\frac19+\\frac\\pi2)$ $a(\\frac{22}9+\\frac\\pi2)$ \\[\n\\iint_D\\sqrt{x^2+y^2}dxdy=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_a^{a(1+\\cos\\theta)}r^2dr=a^3\\left(\\frac{22}{9}+\\frac{\\pi}{2}\\right)\n\\]\n图示：坐标图中横轴标为 $x$、纵轴标为 $y$；圆与右侧外曲线之间的区域 $D$ 着青色，图上可见刻度标注 $-0.5$、$0.5$ 和 $1.5$。",
+  "sort_order": 30
+}

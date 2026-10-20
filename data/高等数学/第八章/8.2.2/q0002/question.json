@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "三重积分 $\\iiint_\\Omega x^2dv$（其中 $\\Omega:x^2+y^2+z^2\\leq1$）的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac4{15}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac2{15}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac4{15}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac2{15}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原式\n\n$$\n=\\iiint_\\Omega x^2\\,dv\n$$\n\n$$\n=\\int_{-1}^1x^2\\,dx\\iint_{y^2+z^2\\le1-x^2}dy\\,dz\n$$\n\n$$\n=2\\int_0^1x^2\\pi(1-x^2)\\,dx\n$$\n\n$$\n=\\frac4{15}\\pi。\n$$",
+  "search_text": "三重积分 $\\iiint_\\Omega x^2dv$（其中 $\\Omega:x^2+y^2+z^2\\leq1$）的值为（ ） $\\frac4{15}\\pi$ $\\frac2{15}\\pi$ $-\\frac4{15}\\pi$ $-\\frac2{15}\\pi$ 原式\n\n$$\n=\\iiint_\\Omega x^2\\,dv\n$$\n\n$$\n=\\int_{-1}^1x^2\\,dx\\iint_{y^2+z^2\\le1-x^2}dy\\,dz\n$$\n\n$$\n=2\\int_0^1x^2\\pi(1-x^2)\\,dx\n$$\n\n$$\n=\\frac4{15}\\pi。\n$$",
+  "sort_order": 2
+}

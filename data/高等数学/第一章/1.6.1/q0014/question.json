@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列极限中存在的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to\\infty}x\\sin\\frac1x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{x\\to2}\\frac1{2^x-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{x\\to\\infty}\\frac{\\sqrt{x^2-1}}x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{x\\to0}\\frac1{1+e^{1/x}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一项利用 $\\sin(1/x)\\sim1/x$，极限为 1；其余题项依次判断，正确项为第一项。",
+  "search_text": "下列极限中存在的是（ ）。 $\\lim_{x\\to\\infty}x\\sin\\frac1x$ $\\lim_{x\\to2}\\frac1{2^x-1}$ $\\lim_{x\\to\\infty}\\frac{\\sqrt{x^2-1}}x$ $\\lim_{x\\to0}\\frac1{1+e^{1/x}}$ 第一项利用 $\\sin(1/x)\\sim1/x$，极限为 1；其余题项依次判断，正确项为第一项。",
+  "sort_order": 14
+}

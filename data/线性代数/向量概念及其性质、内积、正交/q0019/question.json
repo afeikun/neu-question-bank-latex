@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=(3,1,5,2)^T,\\alpha_2=(10,5,1,10)^T,\\alpha_3=(1,-1,1,4)^T$，向量 $\\beta$ 满足 $3(\\alpha_1-\\beta)+2(\\alpha_2-\\beta)=5(\\alpha_3+\\beta)$，则 $\\beta=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2.4,1.8,1.2,1.6)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(2.4,1.8,0.2,0.6)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2.4,1.8,1.2,0.6)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2.4,0.8,1.2,0.6)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "整理得 $10\\beta=3\\alpha_1+2\\alpha_2-5\\alpha_3$，代入后为选项 3。",
+  "search_text": "设 $\\alpha_1=(3,1,5,2)^T,\\alpha_2=(10,5,1,10)^T,\\alpha_3=(1,-1,1,4)^T$，向量 $\\beta$ 满足 $3(\\alpha_1-\\beta)+2(\\alpha_2-\\beta)=5(\\alpha_3+\\beta)$，则 $\\beta=(\\quad)$。 $(2.4,1.8,1.2,1.6)^T$ $(2.4,1.8,0.2,0.6)^T$ $(2.4,1.8,1.2,0.6)^T$ $(2.4,0.8,1.2,0.6)^T$ 整理得 $10\\beta=3\\alpha_1+2\\alpha_2-5\\alpha_3$，代入后为选项 3。",
+  "sort_order": 19
+}

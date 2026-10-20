@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\alpha_n=n\\operatorname{sh}(i/n)$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\alpha_n=n\\operatorname{sh}(i/n)=in\\sin(1/n)=i\\,\\sin(1/n)/(1/n)\\to i$。",
+  "search_text": "$\\alpha_n=n\\operatorname{sh}(i/n)$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。 $i$ $-i$ $1$ $-1$ $\\alpha_n=n\\operatorname{sh}(i/n)=in\\sin(1/n)=i\\,\\sin(1/n)/(1/n)\\to i$。",
+  "sort_order": 9
+}

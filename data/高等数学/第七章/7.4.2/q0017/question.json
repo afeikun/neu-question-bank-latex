@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=f(x^2-y^2,e^{xy})$，其中 $f$ 有连续二阶偏导数，求 $z_{xy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+xye^{2xy}f_{22}''+e^{xy}(1+xy)f_2'$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+xye^{2xy}f_{22}''+e^{xy}(1+y)f_2'$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+xye^{2xy}f_{22}''+e^{xy}(1+xy)f_2'$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+ye^{2y}f_{22}''+e^{xy}(1+xy)f_2'$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\\frac{\\partial^2 z}{\\partial x\\partial y}=2x[f_{11}''\\cdot(-2y)+f_{12}''\\cdot xe^{xy}]+e^{xy}f_2'+xye^{xy}f_2'+ye^{xy}[f_{21}''\\cdot(-2y)+f_{22}''\\cdot xe^{xy}]$$\n$$=-4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+xye^{2xy}f_{22}''+e^{xy}(1+xy)f_2'.$$",
+  "search_text": "设 $z=f(x^2-y^2,e^{xy})$，其中 $f$ 有连续二阶偏导数，求 $z_{xy}$。 $-4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+xye^{2xy}f_{22}''+e^{xy}(1+xy)f_2'$ $-4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+xye^{2xy}f_{22}''+e^{xy}(1+y)f_2'$ $4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+xye^{2xy}f_{22}''+e^{xy}(1+xy)f_2'$ $-4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+ye^{2y}f_{22}''+e^{xy}(1+xy)f_2'$ $$\\frac{\\partial^2 z}{\\partial x\\partial y}=2x[f_{11}''\\cdot(-2y)+f_{12}''\\cdot xe^{xy}]+e^{xy}f_2'+xye^{xy}f_2'+ye^{xy}[f_{21}''\\cdot(-2y)+f_{22}''\\cdot xe^{xy}]$$\n$$=-4xyf_{11}''+2(x^2-y^2)e^{xy}f_{12}''+xye^{2xy}f_{22}''+e^{xy}(1+xy)f_2'.$$",
+  "sort_order": 17
+}

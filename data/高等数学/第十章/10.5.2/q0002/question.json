@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\left(\\frac{dy}{dx}\\right)^3+2\\frac{dy}{dx}-x=0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "令 $x=p^3+2p,\\ y=\\frac34p^4+2p^2+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "令 $x=p^3+2p,\\ y=\\frac34p^4+p^2+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "令 $x=p^3+2p,\\ y=\\frac43p^4+p^2+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "令 $x=p^3+2p,\\ y=p^4+p^2+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析 令 $p=\\frac{dy}{dx}$，则原方程变为：$x=p^3+2p$，对上述方程两边关于 $x$ 求导，得\n\n$$\n1=(3p^2+2)p\\frac{dp}{dy}，\n$$\n\n得\n\n$$\ny=\\frac{3}{4}p^4+p^2+c，\n$$\n\n故选 $B$。",
+  "search_text": "方程 $\\left(\\frac{dy}{dx}\\right)^3+2\\frac{dy}{dx}-x=0$ 的通解是（ ） 令 $x=p^3+2p,\\ y=\\frac34p^4+2p^2+C$ 令 $x=p^3+2p,\\ y=\\frac34p^4+p^2+C$ 令 $x=p^3+2p,\\ y=\\frac43p^4+p^2+C$ 令 $x=p^3+2p,\\ y=p^4+p^2+C$ 解析 令 $p=\\frac{dy}{dx}$，则原方程变为：$x=p^3+2p$，对上述方程两边关于 $x$ 求导，得\n\n$$\n1=(3p^2+2)p\\frac{dp}{dy}，\n$$\n\n得\n\n$$\ny=\\frac{3}{4}p^4+p^2+c，\n$$\n\n故选 $B$。",
+  "sort_order": 2
+}

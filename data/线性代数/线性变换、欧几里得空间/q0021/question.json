@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "线性空间 $V=\\left\\{\\begin{pmatrix}a&b\\\\0&a+b\\end{pmatrix}\\mid a,b\\in\\mathbb R\\right\\}$ 上定义内积 $(A_1,A_2)=a_1a_2+b_1b_2$，其中 $B_1=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$、$B_2=\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$。若 $A_i=\\begin{pmatrix}a_i&b_i\\\\0&a_i+b_i\\end{pmatrix}$，则 $V$ 的一个规范正交基是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$B_1=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix},\\quad B_2=\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$B_1=\\begin{pmatrix}1&1\\\\0&2\\end{pmatrix},\\quad B_2=\\begin{pmatrix}1&-1\\\\0&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$B_1=\\begin{pmatrix}\\frac1{\\sqrt2}&0\\\\0&\\frac1{\\sqrt2}\\end{pmatrix},\\quad B_2=\\begin{pmatrix}0&\\frac1{\\sqrt2}\\\\0&\\frac1{\\sqrt2}\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$B_1=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix},\\quad B_2=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "只有 $B_1=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$、$B_2=\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$ 时，$(B_1,B_2)=0$ 且 $(B_1,B_1)=(B_2,B_2)=1$。",
+  "search_text": "线性空间 $V=\\left\\{\\begin{pmatrix}a&b\\\\0&a+b\\end{pmatrix}\\mid a,b\\in\\mathbb R\\right\\}$ 上定义内积 $(A_1,A_2)=a_1a_2+b_1b_2$，其中 $B_1=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$、$B_2=\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$。若 $A_i=\\begin{pmatrix}a_i&b_i\\\\0&a_i+b_i\\end{pmatrix}$，则 $V$ 的一个规范正交基是（ ）。 $B_1=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix},\\quad B_2=\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$ $B_1=\\begin{pmatrix}1&1\\\\0&2\\end{pmatrix},\\quad B_2=\\begin{pmatrix}1&-1\\\\0&0\\end{pmatrix}$ $B_1=\\begin{pmatrix}\\frac1{\\sqrt2}&0\\\\0&\\frac1{\\sqrt2}\\end{pmatrix},\\quad B_2=\\begin{pmatrix}0&\\frac1{\\sqrt2}\\\\0&\\frac1{\\sqrt2}\\end{pmatrix}$ $B_1=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix},\\quad B_2=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}$ 只有 $B_1=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$、$B_2=\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$ 时，$(B_1,B_2)=0$ 且 $(B_1,B_1)=(B_2,B_2)=1$。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "力 $\\vec F=(y,x,x+z)$ 作用下，质点沿螺旋线 $x=a\\cos t,y=a\\sin t,z=bt$（$0\\le t\\le2\\pi$）所做的功。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a^2b\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi^2b^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi^2a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi(\\pi b^2-a^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$W=\\int_Lydx+xdy+(x+z)dz=\\int_0^{2\\pi}(-a^2\\sin^2t+a^2\\cos^2t+ab\\cos t+b^2)dt$$\n$$=2\\pi^2b^2.\\quad$$",
+  "search_text": "力 $\\vec F=(y,x,x+z)$ 作用下，质点沿螺旋线 $x=a\\cos t,y=a\\sin t,z=bt$（$0\\le t\\le2\\pi$）所做的功。 $a^2b\\pi$ $2\\pi^2b^2$ $2\\pi^2a^2$ $\\pi(\\pi b^2-a^2)$ $$W=\\int_Lydx+xdy+(x+z)dz=\\int_0^{2\\pi}(-a^2\\sin^2t+a^2\\cos^2t+ab\\cos t+b^2)dt$$\n$$=2\\pi^2b^2.\\quad$$",
+  "sort_order": 14
+}

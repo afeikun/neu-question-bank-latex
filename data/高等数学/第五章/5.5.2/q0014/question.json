@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $1/(3x^2-4x+1)$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12\\sum_{n=0}^{\\infty}(3^{n+1}+1)x^n,\\quad x\\in(-\\frac13,\\frac13)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12\\sum_{n=0}^{\\infty}(3^n-1)x^n,\\quad x\\in(-\\frac13,\\frac13)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\sum_{n=0}^{\\infty}(3^{n+1}-1)x^n,\\quad x\\in[-\\frac13,\\frac13]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12\\sum_{n=1}^{\\infty}(3^{n+1}-1)x^n,\\quad x\\in(-\\frac13,\\frac13)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "源解析为 $f(x)=\\frac12\\left(\\frac3{1-3x}-\\frac1{1-x}\\right)=\\frac12\\left(\\sum_{n=0}^{\\infty}3^{n+1}x^n-\\sum_{n=0}^{\\infty}x^n\\right)=\\frac12\\sum_{n=0}^{\\infty}(3^{n+1}-1)x^n,\\ |x|<\\frac13$。",
+  "search_text": "将 $1/(3x^2-4x+1)$ 展开成 $x$ 的幂级数。 $\\frac12\\sum_{n=0}^{\\infty}(3^{n+1}+1)x^n,\\quad x\\in(-\\frac13,\\frac13)$ $\\frac12\\sum_{n=0}^{\\infty}(3^n-1)x^n,\\quad x\\in(-\\frac13,\\frac13)$ $\\frac12\\sum_{n=0}^{\\infty}(3^{n+1}-1)x^n,\\quad x\\in[-\\frac13,\\frac13]$ $\\frac12\\sum_{n=1}^{\\infty}(3^{n+1}-1)x^n,\\quad x\\in(-\\frac13,\\frac13)$ 源解析为 $f(x)=\\frac12\\left(\\frac3{1-3x}-\\frac1{1-x}\\right)=\\frac12\\left(\\sum_{n=0}^{\\infty}3^{n+1}x^n-\\sum_{n=0}^{\\infty}x^n\\right)=\\frac12\\sum_{n=0}^{\\infty}(3^{n+1}-1)x^n,\\ |x|<\\frac13$。",
+  "sort_order": 14
+}

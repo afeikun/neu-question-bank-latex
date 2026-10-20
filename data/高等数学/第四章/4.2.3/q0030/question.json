@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "∫₋₁¹ [1/√(4−x²)](1/(1+eˣ)−1/2)dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "π/2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "π"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "被积函数为奇函数，对称区间积分为0。",
+  "search_text": "∫₋₁¹ [1/√(4−x²)](1/(1+eˣ)−1/2)dx 1 π/2 π 0 被积函数为奇函数，对称区间积分为0。",
+  "sort_order": 30
+}

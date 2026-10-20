@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F(x,y)=A(B+\\arctan(x/2))(C+\\arctan(y/3))$为联合分布函数，求$A,B,C$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A=1/\\pi^2,B=C=\\pi/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A=1/\\pi,B=C=2/\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A=1/\\pi,B=C=\\pi/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A=1/\\pi^2,B=C=2/\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令坐标分别趋于正负无穷使边缘极限满足分布函数边界条件，解得$A=1/\\pi^2,B=C=\\pi/2$。",
+  "search_text": "$F(x,y)=A(B+\\arctan(x/2))(C+\\arctan(y/3))$为联合分布函数，求$A,B,C$。 $A=1/\\pi^2,B=C=\\pi/2$ $A=1/\\pi,B=C=2/\\pi$ $A=1/\\pi,B=C=\\pi/2$ $A=1/\\pi^2,B=C=2/\\pi$ 令坐标分别趋于正负无穷使边缘极限满足分布函数边界条件，解得$A=1/\\pi^2,B=C=\\pi/2$。",
+  "sort_order": 8
+}

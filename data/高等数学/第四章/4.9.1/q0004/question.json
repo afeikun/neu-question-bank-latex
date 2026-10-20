@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "物体在力 $F(x)=\\begin{cases}10,&0\\le x\\le2\\\\3x+4,&x>2\\end{cases}$（单位：N）作用下，沿力的方向由 $x=0$ 运动到 $x=4$（单位：m），力所做的功为多少？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$78\\,J$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$56\\,J$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$46\\,J$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$62\\,J$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$W=\\int_0^2 10dx+\\int_2^4(3x+4)dx=46\\,J$。",
+  "search_text": "物体在力 $F(x)=\\begin{cases}10,&0\\le x\\le2\\\\3x+4,&x>2\\end{cases}$（单位：N）作用下，沿力的方向由 $x=0$ 运动到 $x=4$（单位：m），力所做的功为多少？ $78\\,J$ $56\\,J$ $46\\,J$ $62\\,J$ $W=\\int_0^2 10dx+\\int_2^4(3x+4)dx=46\\,J$。",
+  "sort_order": 4
+}

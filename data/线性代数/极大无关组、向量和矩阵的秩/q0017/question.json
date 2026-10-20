@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设有向量组 $\\alpha_1=(1,-1,2,4),\\ \\alpha_2=(0,3,1,2),\\ \\alpha_3=(3,0,7,14),\\ \\alpha_4=(1,-2,2,0),\\ \\alpha_5=(2,1,5,10)$，则该向量组的极大线性无关组是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_4,\\alpha_5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $-3\\alpha_1-\\alpha_2+\\alpha_3=0$ 和 $-2\\alpha_1-\\alpha_2+\\alpha_5=0$ 可知 $\\alpha_3,\\alpha_5$ 可由 $\\alpha_1,\\alpha_2$ 表示；$\\alpha_1,\\alpha_2,\\alpha_4$ 线性无关，故它们是极大无关组。",
+  "search_text": "设有向量组 $\\alpha_1=(1,-1,2,4),\\ \\alpha_2=(0,3,1,2),\\ \\alpha_3=(3,0,7,14),\\ \\alpha_4=(1,-2,2,0),\\ \\alpha_5=(2,1,5,10)$，则该向量组的极大线性无关组是（ ）。 $\\alpha_1,\\alpha_2,\\alpha_4,\\alpha_5$ $\\alpha_1,\\alpha_2,\\alpha_4$ $\\alpha_1,\\alpha_2,\\alpha_3$ $\\alpha_1,\\alpha_2,\\alpha_5$ 由 $-3\\alpha_1-\\alpha_2+\\alpha_3=0$ 和 $-2\\alpha_1-\\alpha_2+\\alpha_5=0$ 可知 $\\alpha_3,\\alpha_5$ 可由 $\\alpha_1,\\alpha_2$ 表示；$\\alpha_1,\\alpha_2,\\alpha_4$ 线性无关，故它们是极大无关组。",
+  "sort_order": 17
+}

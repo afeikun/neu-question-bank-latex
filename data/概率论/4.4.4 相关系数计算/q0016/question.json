@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(1,4),Y\\sim Exp(\\lambda=1/2)$，且$\\rho_{XY}=1/2$，求$\\operatorname{cov}(X,Y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\sqrt2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(X)=4,D(Y)=4$，故协方差$\\rho\\sqrt{D(X)D(Y)}=2$。",
+  "search_text": "$X\\sim N(1,4),Y\\sim Exp(\\lambda=1/2)$，且$\\rho_{XY}=1/2$，求$\\operatorname{cov}(X,Y)$。 $2$ $1$ $\\sqrt2$ $2\\sqrt2$ $D(X)=4,D(Y)=4$，故协方差$\\rho\\sqrt{D(X)D(Y)}=2$。",
+  "sort_order": 16
+}

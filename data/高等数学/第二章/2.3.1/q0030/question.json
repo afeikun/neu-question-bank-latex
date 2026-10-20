@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x=-2t-1,te^y+y+1=0$，则 $d^2y/dx^2|_{t=0}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/e^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1/e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(2e)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1/(2e)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "参数求导并代入 $t=0,x=y=-1$，得 $d^2y/dx^2=1/(2e^2)$。",
+  "search_text": "设 $x=-2t-1,te^y+y+1=0$，则 $d^2y/dx^2|_{t=0}=$（ ）。 $1/e^2$ $-1/e$ $1/(2e)$ $-1/(2e)$ 参数求导并代入 $t=0,x=y=-1$，得 $d^2y/dx^2=1/(2e^2)$。",
+  "sort_order": 30
+}

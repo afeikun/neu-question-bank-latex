@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z-2|=3}\\frac{e^z}{z^2-2z}\\,dz=(\\quad)$（方向为正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(e^2-1)\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{e^2-1}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i e^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac13\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\frac{1}{z^2-2z}=\\frac12(\\frac{1}{z-2}-\\frac{1}{z})$ 得，$\\oint_{|z-2|=3}\\frac{e^z}{z^2-2z}\\,dz=\\frac12\\oint\\frac{e^z}{z-2}\\,dz-\\frac12\\oint\\frac{e^z}{z}\\,dz=\\frac{2\\pi i}{2}(e^2-1)=(e^2-1)\\pi i$。",
+  "search_text": "$\\oint_{|z-2|=3}\\frac{e^z}{z^2-2z}\\,dz=(\\quad)$（方向为正向）。 $(e^2-1)\\pi i$ $\\frac{e^2-1}{2}$ $2\\pi i e^2$ $-\\frac13\\pi i$ 由 $\\frac{1}{z^2-2z}=\\frac12(\\frac{1}{z-2}-\\frac{1}{z})$ 得，$\\oint_{|z-2|=3}\\frac{e^z}{z^2-2z}\\,dz=\\frac12\\oint\\frac{e^z}{z-2}\\,dz-\\frac12\\oint\\frac{e^z}{z}\\,dz=\\frac{2\\pi i}{2}(e^2-1)=(e^2-1)\\pi i$。",
+  "sort_order": 2
+}

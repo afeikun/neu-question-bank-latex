@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性无关，向量组 $\\beta_1=-\\alpha_1+t\\alpha_2$，$\\beta_2=-\\alpha_2+m\\alpha_3$，$\\beta_3=-\\alpha_3+s\\alpha_1$ 线性无关，则常数 $t,m,s$ 满足（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$tms=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$tms\\ne1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$tms\\ne-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$tms=-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "在基 $\\{\\alpha_1,\\alpha_2,\\alpha_3\\}$ 下，$\\beta_1,\\beta_2,\\beta_3$ 的系数矩阵为 $\\begin{pmatrix}-1&0&s\\\\t&-1&0\\\\0&m&-1\\end{pmatrix}$，其行列式为 $tms-1$。线性无关的充要条件是 $tms-1\\ne0$，即 $tms\\ne1$。",
+  "search_text": "设向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性无关，向量组 $\\beta_1=-\\alpha_1+t\\alpha_2$，$\\beta_2=-\\alpha_2+m\\alpha_3$，$\\beta_3=-\\alpha_3+s\\alpha_1$ 线性无关，则常数 $t,m,s$ 满足（ ）。 $tms=1$ $tms\\ne1$ $tms\\ne-1$ $tms=-1$ 在基 $\\{\\alpha_1,\\alpha_2,\\alpha_3\\}$ 下，$\\beta_1,\\beta_2,\\beta_3$ 的系数矩阵为 $\\begin{pmatrix}-1&0&s\\\\t&-1&0\\\\0&m&-1\\end{pmatrix}$，其行列式为 $tms-1$。线性无关的充要条件是 $tms-1\\ne0$，即 $tms\\ne1$。",
+  "sort_order": 27
+}

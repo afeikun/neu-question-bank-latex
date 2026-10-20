@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设平面薄片 $D$ 是由 $x+y=2,y=x$ 和 $x$ 轴所围成的区域，它的密度 $\\mu(x,y)=x^2+y^2$，求它的质量（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac76$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac34$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac43$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\nm=\\iint_D\\mu(x,y)d\\sigma=\\int_0^1dy\\int_y^{2-y}(x^2+y^2)dx=\\frac{3}{4}\n$$\n\n图示：阴影三角形顶点为 $O$、$(1,1)$、$(2,0)$；坐标轴标为 $x,y$，横轴标有 $1,2$，纵轴标有 $1$。",
+  "search_text": "设平面薄片 $D$ 是由 $x+y=2,y=x$ 和 $x$ 轴所围成的区域，它的密度 $\\mu(x,y)=x^2+y^2$，求它的质量（ ） $\\frac76$ $\\frac34$ $\\frac16$ $\\frac43$ $$\nm=\\iint_D\\mu(x,y)d\\sigma=\\int_0^1dy\\int_y^{2-y}(x^2+y^2)dx=\\frac{3}{4}\n$$\n\n图示：阴影三角形顶点为 $O$、$(1,1)$、$(2,0)$；坐标轴标为 $x,y$，横轴标有 $1,2$，纵轴标有 $1$。",
+  "sort_order": 39
+}

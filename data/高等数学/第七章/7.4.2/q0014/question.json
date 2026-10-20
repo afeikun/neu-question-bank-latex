@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u,v)$ 为二元可微函数，$z=f(x^y,y^x)$，求 $z_x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$yx^y f_1'-\\ln y\\cdot y^x f_2'$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$yx^{y-1}f_1'+xy^{x-1}f_2'$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$yx^{y-1}f_1'+\\ln y\\cdot y^x f_2'$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln x\\cdot x^y f_1'+\\ln y\\cdot y^x f_2'$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $z=f(x^y,y^x)$ 知 $\\frac{\\partial z}{\\partial x}=yx^{y-1}f_1'+\\ln y\\cdot y^xf_2'$",
+  "search_text": "设 $f(u,v)$ 为二元可微函数，$z=f(x^y,y^x)$，求 $z_x$。 $yx^y f_1'-\\ln y\\cdot y^x f_2'$ $yx^{y-1}f_1'+xy^{x-1}f_2'$ $yx^{y-1}f_1'+\\ln y\\cdot y^x f_2'$ $\\ln x\\cdot x^y f_1'+\\ln y\\cdot y^x f_2'$ 由 $z=f(x^y,y^x)$ 知 $\\frac{\\partial z}{\\partial x}=yx^{y-1}f_1'+\\ln y\\cdot y^xf_2'$",
+  "sort_order": 14
+}

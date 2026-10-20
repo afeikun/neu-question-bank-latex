@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_C\\frac{dz}{z^2(z^2+4)}=(\\quad)$，$C$ 由正向 $|z|=\\frac32$ 与负向 $|z|=1$ 组成。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由复合闭路定理，两圆积分相等而方向相反，结果为 $0$。",
+  "search_text": "$\\oint_C\\frac{dz}{z^2(z^2+4)}=(\\quad)$，$C$ 由正向 $|z|=\\frac32$ 与负向 $|z|=1$ 组成。 $0$ $-2$ $2\\pi i$ $1$ 由复合闭路定理，两圆积分相等而方向相反，结果为 $0$。",
+  "sort_order": 15
+}

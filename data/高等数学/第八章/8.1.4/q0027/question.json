@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 是连续函数，$D:x^2+y^2\\leq1,x\\geq0,y\\geq0$，则二重积分 $\\iint_Df(x,y)dxdy$ 可化累次积分为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dx\\int_0^{\\sqrt{1-x^2}}f(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1dy\\int_0^{\\sqrt{1-y^2}}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dy\\int_{-\\sqrt{1-y^2}}^{\\sqrt{1-y^2}}f(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{-1}^1dx\\int_0^{\\sqrt{1-x^2}}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 原式=$\\int_0^1dy\\int_0^{\\sqrt{1-y^2}}f(x,y)dx$，原式=$\\int_0^1dx\\int_0^{\\sqrt{1-x^2}}f(x,y)dy$。",
+  "search_text": "设 $f(x,y)$ 是连续函数，$D:x^2+y^2\\leq1,x\\geq0,y\\geq0$，则二重积分 $\\iint_Df(x,y)dxdy$ 可化累次积分为[\\quad] $\\int_0^1dx\\int_0^{\\sqrt{1-x^2}}f(x,y)dy$ $\\int_0^1dy\\int_0^{\\sqrt{1-y^2}}f(x,y)dx$ $\\int_0^1dy\\int_{-\\sqrt{1-y^2}}^{\\sqrt{1-y^2}}f(x,y)dx$ $\\int_{-1}^1dx\\int_0^{\\sqrt{1-x^2}}f(x,y)dy$ 解答 原式=$\\int_0^1dy\\int_0^{\\sqrt{1-y^2}}f(x,y)dx$，原式=$\\int_0^1dx\\int_0^{\\sqrt{1-x^2}}f(x,y)dy$。",
+  "sort_order": 27
+}

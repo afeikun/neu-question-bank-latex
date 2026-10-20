@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_{ABC}\\frac{dx+dy}{|x|+|y|}$，其中折线路径如图，$A(1,0),C(-1,0)$，顶点为原点上方。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解\n$$\\overrightarrow{AB}:\\begin{cases}x=x\\\\y=1-x,\\end{cases}\\quad x:1\\to0,\\quad dy=-dx,$$\n$$\\overrightarrow{BC}:\\begin{cases}x=x\\\\y=1+x,\\end{cases}\\quad x:0\\to-1,\\quad dy=dx$$\n原式=$$\\int_{AB}\\frac{dx+dy}{|x|+|y|}+\\int_{BC}\\frac{dx+dy}{|x|+|y|}=\\int_1^0\\frac{dx+(-dx)}{x+(1-x)}+\\int_0^{-1}\\frac{dx+dx}{-x+1+x}=-2$$",
+  "search_text": "计算 $\\int_{ABC}\\frac{dx+dy}{|x|+|y|}$，其中折线路径如图，$A(1,0),C(-1,0)$，顶点为原点上方。 $3$ $-2$ $2$ $4$ 解\n$$\\overrightarrow{AB}:\\begin{cases}x=x\\\\y=1-x,\\end{cases}\\quad x:1\\to0,\\quad dy=-dx,$$\n$$\\overrightarrow{BC}:\\begin{cases}x=x\\\\y=1+x,\\end{cases}\\quad x:0\\to-1,\\quad dy=dx$$\n原式=$$\\int_{AB}\\frac{dx+dy}{|x|+|y|}+\\int_{BC}\\frac{dx+dy}{|x|+|y|}=\\int_1^0\\frac{dx+(-dx)}{x+(1-x)}+\\int_0^{-1}\\frac{dx+dx}{-x+1+x}=-2$$",
+  "sort_order": 4
+}

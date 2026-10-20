@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z(x,y)=\\begin{cases}\\frac1{x^2+y^2},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$ 在 $(0,0)$ 处(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "连续但不存在偏导数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "存在偏导数且连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不连续但存在偏导数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既不连续又不存在偏导数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当 $(x,y)$ 沿着不同的直线 $y=kx$ 趋近于 $(0,0)$ 时，$$\\lim_{(x,y)\\to(0,0)}\\frac{1}{x^2+y^2}=\\lim_{x\\to0}\\frac{1}{(1+k^2)x^2}$$ 不存在，所以在点 $(0,0)$ 处不连续，又 $f_x(0,0)=\\lim_{x\\to0}\\frac{f(x,0)-f(0,0)}{x}=\\lim_{x\\to0}\\frac{1}{x^3}$ 不存在，$f_y(0,0)=\\lim_{y\\to0}\\frac{f(0,y)-f(0,0)}{y}=\\lim_{y\\to0}\\frac{1}{y^3}$ 不存在，所以在点 $(0,0)$ 处不存在偏导数。",
+  "search_text": "$z(x,y)=\\begin{cases}\\frac1{x^2+y^2},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$ 在 $(0,0)$ 处(\\quad)。 连续但不存在偏导数 存在偏导数且连续 不连续但存在偏导数 既不连续又不存在偏导数 当 $(x,y)$ 沿着不同的直线 $y=kx$ 趋近于 $(0,0)$ 时，$$\\lim_{(x,y)\\to(0,0)}\\frac{1}{x^2+y^2}=\\lim_{x\\to0}\\frac{1}{(1+k^2)x^2}$$ 不存在，所以在点 $(0,0)$ 处不连续，又 $f_x(0,0)=\\lim_{x\\to0}\\frac{f(x,0)-f(0,0)}{x}=\\lim_{x\\to0}\\frac{1}{x^3}$ 不存在，$f_y(0,0)=\\lim_{y\\to0}\\frac{f(0,y)-f(0,0)}{y}=\\lim_{y\\to0}\\frac{1}{y^3}$ 不存在，所以在点 $(0,0)$ 处不存在偏导数。",
+  "sort_order": 27
+}

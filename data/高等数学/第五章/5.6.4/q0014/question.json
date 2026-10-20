@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在 $[0,1]$ 内将 $f(x)=1-x$ 展成以 $2$ 为周期的余弦级数，其展开式为（　）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1+\\frac{4}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(2n-1)\\pi x}{(2n-1)^2}$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-\\frac{1}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos2n\\pi x}{n^2}$。"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12+\\frac{2}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(2n-1)\\pi x}{(2n-1)^2}$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12+\\frac{4}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(2n-1)\\pi x}{(2n-1)^2}$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解对函数进行偶延拓，则 $b_n=0(n=1,2,\\cdots)$。\n\n$a_0=2\\int_0^1(1-x)dx=1,$\n\n$a_n=2\\int_0^1(1-x)\\cos n\\pi xdx=\\frac{2}{n\\pi}[(1-x)\\sin n\\pi x|_0^1+\\int_0^1\\sin n\\pi xdx]$\n\n$=\\frac{2}{n^2\\pi^2}[1-(-1)^n]=\\begin{cases}0,n=2k\\\\\\frac{4}{(2k-1)^2\\pi^2},n=2k-1\\end{cases}, k=1,2,\\cdots$\n\n由于 $f(x)$ 在 $[0,1]$ 上连续，且 $f(-1)=f(1)$，故\n\n$f(x)=1-x=\\frac12+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(2n-1)\\pi x}{(2n-1)^2}。$",
+  "search_text": "在 $[0,1]$ 内将 $f(x)=1-x$ 展成以 $2$ 为周期的余弦级数，其展开式为（　） $1+\\frac{4}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(2n-1)\\pi x}{(2n-1)^2}$； $1-\\frac{1}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos2n\\pi x}{n^2}$。 $\\frac12+\\frac{2}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(2n-1)\\pi x}{(2n-1)^2}$； $\\frac12+\\frac{4}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(2n-1)\\pi x}{(2n-1)^2}$； 解对函数进行偶延拓，则 $b_n=0(n=1,2,\\cdots)$。\n\n$a_0=2\\int_0^1(1-x)dx=1,$\n\n$a_n=2\\int_0^1(1-x)\\cos n\\pi xdx=\\frac{2}{n\\pi}[(1-x)\\sin n\\pi x|_0^1+\\int_0^1\\sin n\\pi xdx]$\n\n$=\\frac{2}{n^2\\pi^2}[1-(-1)^n]=\\begin{cases}0,n=2k\\\\\\frac{4}{(2k-1)^2\\pi^2},n=2k-1\\end{cases}, k=1,2,\\cdots$\n\n由于 $f(x)$ 在 $[0,1]$ 上连续，且 $f(-1)=f(1)$，故\n\n$f(x)=1-x=\\frac12+\\frac4{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(2n-1)\\pi x}{(2n-1)^2}。$",
+  "sort_order": 14
+}

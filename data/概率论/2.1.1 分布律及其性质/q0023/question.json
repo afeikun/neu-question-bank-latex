@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(\\xi=k)=\\lambda^k/(a k!)$，$k=1,2,\\ldots$，求$a$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^\\lambda-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-\\lambda}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^\\lambda$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-\\lambda}-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1=(e^\\lambda-1)/a$，故$a=e^\\lambda-1$。",
+  "search_text": "$P(\\xi=k)=\\lambda^k/(a k!)$，$k=1,2,\\ldots$，求$a$。 $e^\\lambda-1$ $e^{-\\lambda}$ $e^\\lambda$ $e^{-\\lambda}-1$ $1=(e^\\lambda-1)/a$，故$a=e^\\lambda-1$。",
+  "sort_order": 23
+}

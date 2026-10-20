@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\frac{dz}{z^2+9}=\\frac{\\pi}{3}$，正向简单闭曲线 $C$ 应（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "包含 $3i$ 而不包含 $-3i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "包含 $-3i$ 而不包含 $3i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "包含 $3i,-3i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不包含两点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$C$ 仅包含 $3i$ 时，积分为 $2\\pi i/(6i)=\\pi/3$。",
+  "search_text": "为使 $\\oint_C\\frac{dz}{z^2+9}=\\frac{\\pi}{3}$，正向简单闭曲线 $C$ 应（ ）。 包含 $3i$ 而不包含 $-3i$ 包含 $-3i$ 而不包含 $3i$ 包含 $3i,-3i$ 不包含两点 $C$ 仅包含 $3i$ 时，积分为 $2\\pi i/(6i)=\\pi/3$。",
+  "sort_order": 94
+}

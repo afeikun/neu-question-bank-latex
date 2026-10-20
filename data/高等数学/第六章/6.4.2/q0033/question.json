@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $l:\\frac{x+3}{-2}=\\frac{y+4}{-7}=\\frac z3$ 与平面 $\\Pi:2x-y-z=0$ 的位置关系为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$l$ 与 $\\Pi$ 相交但不垂直"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$l$ 在 $\\Pi$ 上"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$l\\parallel\\Pi$ 且 $l\\not\\subset\\Pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$l$ 与 $\\Pi$ 相交且垂直"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：因 $\\vec{s}\\cdot\\vec{n}=(-2,-7,3)\\cdot(2,-1,-1)=0$，所以直线与平面平行，又因直线上一点 $(-3,-4,0)$ 不在平面上，所以直线不在平面上，故 $l$ 与 $\\Pi$ 平行且 $l\\not\\subset\\Pi$。",
+  "search_text": "直线 $l:\\frac{x+3}{-2}=\\frac{y+4}{-7}=\\frac z3$ 与平面 $\\Pi:2x-y-z=0$ 的位置关系为(\\quad)。 $l$ 与 $\\Pi$ 相交但不垂直 $l$ 在 $\\Pi$ 上 $l\\parallel\\Pi$ 且 $l\\not\\subset\\Pi$ $l$ 与 $\\Pi$ 相交且垂直 解答：因 $\\vec{s}\\cdot\\vec{n}=(-2,-7,3)\\cdot(2,-1,-1)=0$，所以直线与平面平行，又因直线上一点 $(-3,-4,0)$ 不在平面上，所以直线不在平面上，故 $l$ 与 $\\Pi$ 平行且 $l\\not\\subset\\Pi$。",
+  "sort_order": 33
+}

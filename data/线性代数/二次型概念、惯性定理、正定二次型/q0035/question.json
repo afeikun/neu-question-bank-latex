@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2,x_3)=2x_1^2+x_2^2+x_3^2+2x_1x_2+2x_1x_3$ 在 $x_1^2+x_2^2+x_3^2=1$ 的条件下的最大值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f$ 的矩阵为 $A=\\begin{pmatrix}2&1&1\\\\1&1&0\\\\1&0&1\\end{pmatrix}$，其特征值为 $3,1,0$。正交变换不改变向量长度，当 $x_1^2+x_2^2+x_3^2=1$ 时，$f$ 的最大值为最大特征值 $3$。",
+  "search_text": "二次型 $f(x_1,x_2,x_3)=2x_1^2+x_2^2+x_3^2+2x_1x_2+2x_1x_3$ 在 $x_1^2+x_2^2+x_3^2=1$ 的条件下的最大值为（ ）。 $4$ $6$ $3$ $2$ $f$ 的矩阵为 $A=\\begin{pmatrix}2&1&1\\\\1&1&0\\\\1&0&1\\end{pmatrix}$，其特征值为 $3,1,0$。正交变换不改变向量长度，当 $x_1^2+x_2^2+x_3^2=1$ 时，$f$ 的最大值为最大特征值 $3$。",
+  "sort_order": 35
+}

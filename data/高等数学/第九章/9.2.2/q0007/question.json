@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(2x+4y+4z)\\,dS$，$\\Sigma$ 为过 $(1,1,1)$ 且法向量 $(1,2,2)$ 的平面被柱面 $x^2+y^2=16$ 截下的部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{125\\sqrt{10}}3\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$48\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$240\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\Sigma$ 所在的平面为 $(x-1)+2(y-1)+2(z-1)=0$，即 $x+2y+2z=5$。$\\iint_\\Sigma2x+4y+4z\\,dS=$\n\n$2\\iint_\\Sigma5\\,dS=10A$，$A$ 为 $\\Sigma$ 的面积。截面 $\\Sigma$ 为椭圆面，在 $xoy$ 面投影为半径为 $4$ 的圆。并且 $\\Sigma$ 与 $xoy$ 面的夹角余弦为 $\\frac{(1,2,2)\\cdot(0,0,1)}{\\sqrt{1+4+4}\\cdot\\sqrt{1}}=\\frac{2}{3}$，所以 $\\Sigma$ 的面积为 $16\\pi\\cdot\\frac{3}{2}$。",
+  "search_text": "计算 $\\iint_\\Sigma(2x+4y+4z)\\,dS$，$\\Sigma$ 为过 $(1,1,1)$ 且法向量 $(1,2,2)$ 的平面被柱面 $x^2+y^2=16$ 截下的部分。 $12\\pi$ $\\frac{125\\sqrt{10}}3\\pi$ $48\\pi$ $240\\pi$ $\\Sigma$ 所在的平面为 $(x-1)+2(y-1)+2(z-1)=0$，即 $x+2y+2z=5$。$\\iint_\\Sigma2x+4y+4z\\,dS=$\n\n$2\\iint_\\Sigma5\\,dS=10A$，$A$ 为 $\\Sigma$ 的面积。截面 $\\Sigma$ 为椭圆面，在 $xoy$ 面投影为半径为 $4$ 的圆。并且 $\\Sigma$ 与 $xoy$ 面的夹角余弦为 $\\frac{(1,2,2)\\cdot(0,0,1)}{\\sqrt{1+4+4}\\cdot\\sqrt{1}}=\\frac{2}{3}$，所以 $\\Sigma$ 的面积为 $16\\pi\\cdot\\frac{3}{2}$。",
+  "sort_order": 7
+}

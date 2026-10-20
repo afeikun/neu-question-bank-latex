@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $\\frac{x+2}{1}=\\frac{y-3}{0}=\\frac{z+1}{2}$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "过 $(-2,3,-1)$ 点且平行于 $y$ 轴"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "过 $(2,-3,1)$ 点且垂直于 $y$ 轴"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "过 $(2,-3,1)$ 点且平行于 $y$ 轴"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "过 $(-2,3,-1)$ 点且垂直于 $y$ 轴"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：由直线方程可以看出直线过 $(-2,3,-1)$ 点。因直线的方向向量 $\\vec{s}=(1,0,2)$，$y$ 轴上的单位向量 $\\vec{j}=(0,1,0)$，而 $\\vec{s}\\cdot\\vec{j}=(1,0,2)\\cdot(0,1,0)=0$，所以 $\\vec{s}\\perp\\vec{j}$，即直线与 $y$ 轴垂直。（或因方向余弦 $\\cos\\beta=0\\Rightarrow\\beta=\\frac{\\pi}{2}$，所以直线与 $y$ 轴正半轴夹角为 $\\frac{\\pi}{2}$，即直线与 $y$ 轴垂直）。",
+  "search_text": "直线 $\\frac{x+2}{1}=\\frac{y-3}{0}=\\frac{z+1}{2}$(\\quad)。 过 $(-2,3,-1)$ 点且平行于 $y$ 轴 过 $(2,-3,1)$ 点且垂直于 $y$ 轴 过 $(2,-3,1)$ 点且平行于 $y$ 轴 过 $(-2,3,-1)$ 点且垂直于 $y$ 轴 解答：由直线方程可以看出直线过 $(-2,3,-1)$ 点。因直线的方向向量 $\\vec{s}=(1,0,2)$，$y$ 轴上的单位向量 $\\vec{j}=(0,1,0)$，而 $\\vec{s}\\cdot\\vec{j}=(1,0,2)\\cdot(0,1,0)=0$，所以 $\\vec{s}\\perp\\vec{j}$，即直线与 $y$ 轴垂直。（或因方向余弦 $\\cos\\beta=0\\Rightarrow\\beta=\\frac{\\pi}{2}$，所以直线与 $y$ 轴正半轴夹角为 $\\frac{\\pi}{2}$，即直线与 $y$ 轴垂直）。",
+  "sort_order": 29
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(x)$ 在 $(a,b)$ 内连续，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在 $(a,b)$ 内有零点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在 $(a,b)$ 内有界"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在 $(a,b)$ 内每一点连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在 $(a,b)$ 内存在反函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "连续的定义即函数在区间内每一点连续；开区间连续函数未必有界。",
+  "search_text": "设 $y=f(x)$ 在 $(a,b)$ 内连续，则（ ）。 在 $(a,b)$ 内有零点 在 $(a,b)$ 内有界 在 $(a,b)$ 内每一点连续 在 $(a,b)$ 内存在反函数 连续的定义即函数在区间内每一点连续；开区间连续函数未必有界。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac{dt}{\\frac54+\\sin t}=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac83\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac43\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{2\\pi}3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{3\\pi}4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=e^{it}$，将积分化为单位圆积分并计算圆内极点留数，得 $I=\\dfrac83\\pi$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac{dt}{\\frac54+\\sin t}=(\\ \\ )$。 $\\dfrac83\\pi$ $\\dfrac43\\pi$ $\\dfrac{2\\pi}3$ $\\dfrac{3\\pi}4$ 令 $z=e^{it}$，将积分化为单位圆积分并计算圆内极点留数，得 $I=\\dfrac83\\pi$。",
+  "sort_order": 28
+}

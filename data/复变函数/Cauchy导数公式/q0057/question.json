@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\frac{1}{2\\pi i}\\oint_{|\\zeta-z|=3}\\frac{e^{\\zeta^2}\\cos\\zeta}{\\zeta^3-\\zeta z^2}\\,d\\zeta$，方向为正向，则 $f(i)$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{e-\\cos i}{e}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\cos i}{e}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2\\pi i(e-\\cos i)}{e}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由复合闭路定理和Cauchy导数公式可得 $f(z)=(e^{z^2}\\cos z-1)/z^2$，故 $f(i)=(e-\\cos i)/e$。",
+  "search_text": "设 $f(z)=\\frac{1}{2\\pi i}\\oint_{|\\zeta-z|=3}\\frac{e^{\\zeta^2}\\cos\\zeta}{\\zeta^3-\\zeta z^2}\\,d\\zeta$，方向为正向，则 $f(i)$ 等于（ ）。 $\\frac{e-\\cos i}{e}$ $1$ $\\frac{\\cos i}{e}$ $\\frac{2\\pi i(e-\\cos i)}{e}$ 由复合闭路定理和Cauchy导数公式可得 $f(z)=(e^{z^2}\\cos z-1)/z^2$，故 $f(i)=(e-\\cos i)/e$。",
+  "sort_order": 57
+}

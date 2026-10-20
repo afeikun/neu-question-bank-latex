@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体均值已知，检验$H_0:\\sigma^2\\le\\sigma_0^2,H_1:\\sigma^2>\\sigma_0^2$，统计量为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum(X_i-\\mu)^2/\\sigma_0^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$U=(\\bar X-\\mu)/(\\sigma_0/\\sqrt n)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T=(\\bar X-\\mu)/(S/\\sqrt n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum(X_i-\\bar X)^2/\\sigma_0^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "均值已知时平方离差和服从自由度$n$的卡方分布。",
+  "search_text": "总体均值已知，检验$H_0:\\sigma^2\\le\\sigma_0^2,H_1:\\sigma^2>\\sigma_0^2$，统计量为（）。 $\\sum(X_i-\\mu)^2/\\sigma_0^2$ $U=(\\bar X-\\mu)/(\\sigma_0/\\sqrt n)$ $T=(\\bar X-\\mu)/(S/\\sqrt n)$ $\\sum(X_i-\\bar X)^2/\\sigma_0^2$ 均值已知时平方离差和服从自由度$n$的卡方分布。",
+  "sort_order": 14
+}

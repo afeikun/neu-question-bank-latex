@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $P(A)=0.5$，$P(B)=0.4$，$P(A\\cup B)=0.7$，则 $P(A-B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(AB)=P(A)+P(B)-P(A\\cup B)=0.2$，因此$P(A-B)=P(A)-P(AB)=0.3$。",
+  "search_text": "已知 $P(A)=0.5$，$P(B)=0.4$，$P(A\\cup B)=0.7$，则 $P(A-B)=(\\quad)$。 $0.3$ $0.4$ $0.5$ $0.7$ $P(AB)=P(A)+P(B)-P(A\\cup B)=0.2$，因此$P(A-B)=P(A)-P(AB)=0.3$。",
+  "sort_order": 10
+}

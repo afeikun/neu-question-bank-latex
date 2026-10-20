@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $(X,Y)$ 的概率密度为 $f(x,y)=\\begin{cases}2,&0<x<y,\\ 0<y<1,\\\\0,&\\text{其它}\\end{cases}$，关于 $X$ 和 $Y$ 的独立性，正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "X和Y有一部分独立，另一部分不独立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "X和Y独立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不能确定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "X和Y不独立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "边缘密度为 $f_X(x)=2(1-x)$（$0<x<1$）、$f_Y(y)=2y$（$0<y<1$），其它为0。在三角形支持域内，联合密度不等于边缘密度之积，故 $X,Y$ 不独立，选第四项。",
+  "search_text": "设 $(X,Y)$ 的概率密度为 $f(x,y)=\\begin{cases}2,&0<x<y,\\ 0<y<1,\\\\0,&\\text{其它}\\end{cases}$，关于 $X$ 和 $Y$ 的独立性，正确的是（ ）。 X和Y有一部分独立，另一部分不独立 X和Y独立 不能确定 X和Y不独立 边缘密度为 $f_X(x)=2(1-x)$（$0<x<1$）、$f_Y(y)=2y$（$0<y<1$），其它为0。在三角形支持域内，联合密度不等于边缘密度之积，故 $X,Y$ 不独立，选第四项。",
+  "sort_order": 6
+}

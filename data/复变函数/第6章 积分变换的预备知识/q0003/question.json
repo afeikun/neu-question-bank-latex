@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在 $[0,+\\infty)$ 上，$(e^{-2t}\\sin 3t)\\ast(e^{-2t}\\sin 3t)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1}{2}e^{-2t}\\left(\\frac{1}{3}\\sin 3t-t\\cos 3t\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1}{2}e^{-2t}\\left(\\frac{1}{3}\\sin 3t+t\\cos 3t\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1}{2}e^{-2t}\\left(t\\cos 3t-\\frac{1}{3}\\sin 3t\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1}{2}e^{-2t}\\left(\\frac{1}{3}\\cos 3t+t\\sin 3t\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$(e^{-2t}\\sin 3t)\\ast(e^{-2t}\\sin 3t)=\\int_0^t(e^{-2\\tau}\\sin 3\\tau)(e^{-2(t-\\tau)}\\sin 3(t-\\tau))\\,d\\tau=-\\frac{1}{2}e^{-2t}\\left(t\\cos 3t-\\frac{1}{3}\\sin 3t\\right)$。",
+  "search_text": "在 $[0,+\\infty)$ 上，$(e^{-2t}\\sin 3t)\\ast(e^{-2t}\\sin 3t)=(\\quad)$。 $\\frac{1}{2}e^{-2t}\\left(\\frac{1}{3}\\sin 3t-t\\cos 3t\\right)$ $\\frac{1}{2}e^{-2t}\\left(\\frac{1}{3}\\sin 3t+t\\cos 3t\\right)$ $\\frac{1}{2}e^{-2t}\\left(t\\cos 3t-\\frac{1}{3}\\sin 3t\\right)$ $\\frac{1}{2}e^{-2t}\\left(\\frac{1}{3}\\cos 3t+t\\sin 3t\\right)$ $(e^{-2t}\\sin 3t)\\ast(e^{-2t}\\sin 3t)=\\int_0^t(e^{-2\\tau}\\sin 3\\tau)(e^{-2(t-\\tau)}\\sin 3(t-\\tau))\\,d\\tau=-\\frac{1}{2}e^{-2t}\\left(t\\cos 3t-\\frac{1}{3}\\sin 3t\\right)$。",
+  "sort_order": 3
+}

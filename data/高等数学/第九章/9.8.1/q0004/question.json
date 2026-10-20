@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Gamma$ 是平面 $y+z=2$ 与柱面 $x^2+y^2=1$ 的交线，从 $Oz$ 轴正向往下看为逆时针方向，曲线积分 $\\oint_\\Gamma -y^2\\,dx+x\\,dy+z^2\\,dz=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "取平面 $y+z=2$ 被圆柱所截部分的上侧为 $\\Sigma$。由斯托克斯公式，$I=\\iint_{x^2+y^2\\le1}(1+2y)dx\\,dy=\\int_0^{2\\pi}\\int_0^1(1+2r\\sin\\theta)r\\,dr\\,d\\theta=\\pi$，选第一项。",
+  "search_text": "$\\Gamma$ 是平面 $y+z=2$ 与柱面 $x^2+y^2=1$ 的交线，从 $Oz$ 轴正向往下看为逆时针方向，曲线积分 $\\oint_\\Gamma -y^2\\,dx+x\\,dy+z^2\\,dz=$（ ）。 $\\pi$ $2\\pi$ $4\\pi$ $3\\pi$ 取平面 $y+z=2$ 被圆柱所截部分的上侧为 $\\Sigma$。由斯托克斯公式，$I=\\iint_{x^2+y^2\\le1}(1+2y)dx\\,dy=\\int_0^{2\\pi}\\int_0^1(1+2r\\sin\\theta)r\\,dr\\,d\\theta=\\pi$，选第一项。",
+  "sort_order": 4
+}

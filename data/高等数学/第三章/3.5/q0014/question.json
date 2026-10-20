@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\frac{x^2}{1+x}$ 在 $[-\\frac12,1]$ 上的最小值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f\\prime(x)=\\frac{x^2+2x}{(1+x)^2}$，驻点为 $x=0,-2$，区间内仅有 $0$。比较端点和驻点值，最小值为 $f(0)=0$。",
+  "search_text": "函数 $f(x)=\\frac{x^2}{1+x}$ 在 $[-\\frac12,1]$ 上的最小值为（ ）。 $\\frac12$ $0$ $2$ $1$ $f\\prime(x)=\\frac{x^2+2x}{(1+x)^2}$，驻点为 $x=0,-2$，区间内仅有 $0$。比较端点和驻点值，最小值为 $f(0)=0$。",
+  "sort_order": 14
+}

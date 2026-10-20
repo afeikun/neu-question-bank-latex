@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列各式中与 $[abc]$ 不相等的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$c\\cdot(a\\times b)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(b\\times a)\\cdot c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$b\\cdot(c\\times a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(b\\times c)\\cdot a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "混合积循环置换不变，但交换前两个向量变号，故 $(b\\times a)\\cdot c=-[abc]$。",
+  "search_text": "下列各式中与 $[abc]$ 不相等的是(\\quad)。 $c\\cdot(a\\times b)$ $(b\\times a)\\cdot c$ $b\\cdot(c\\times a)$ $(b\\times c)\\cdot a$ 混合积循环置换不变，但交换前两个向量变号，故 $(b\\times a)\\cdot c=-[abc]$。",
+  "sort_order": 5
+}

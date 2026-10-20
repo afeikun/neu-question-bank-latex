@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两正态总体均值差检验，方差σ1²、σ2²已知，H0:μ1−μ2=μ0，H1:μ1−μ2≠μ0，检验统计量与拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U=(\\bar X-\\bar Y-\\mu_0)/\\sqrt{\\sigma_1^2/n_1+\\sigma_2^2/n_2},\\ |u|>u_{\\alpha/2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "合并方差t统计量及t拒绝域"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|u|>u_\\alpha$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$u<-u_\\alpha$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "已知方差的双侧检验使用标准正态统计量，两侧临界值为±uα/2。",
+  "search_text": "两正态总体均值差检验，方差σ1²、σ2²已知，H0:μ1−μ2=μ0，H1:μ1−μ2≠μ0，检验统计量与拒绝域为（）。 $U=(\\bar X-\\bar Y-\\mu_0)/\\sqrt{\\sigma_1^2/n_1+\\sigma_2^2/n_2},\\ |u|>u_{\\alpha/2}$ 合并方差t统计量及t拒绝域 $|u|>u_\\alpha$ $u<-u_\\alpha$ 已知方差的双侧检验使用标准正态统计量，两侧临界值为±uα/2。",
+  "sort_order": 16
+}

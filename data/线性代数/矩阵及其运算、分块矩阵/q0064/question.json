@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 是两个 $n$ 阶矩阵，则 $\\begin{vmatrix}A&B\\\\B&A\\end{vmatrix}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|A^2+B^2|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|A|^2-|B|^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|A+B||A-B|$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|A|^2+|B|^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为 $\\begin{pmatrix}E&E\\\\O&E\\end{pmatrix}\\begin{pmatrix}A&B\\\\B&A\\end{pmatrix}\\begin{pmatrix}E&-E\\\\O&E\\end{pmatrix}=\\begin{pmatrix}A+B&O\\\\B&A-B\\end{pmatrix}$，所以 $\\begin{vmatrix}E&E\\\\O&E\\end{vmatrix}\\begin{vmatrix}A&B\\\\B&A\\end{vmatrix}\\begin{vmatrix}E&-E\\\\O&E\\end{vmatrix}=\\begin{vmatrix}A+B&O\\\\B&A-B\\end{vmatrix}=|A+B||A-B|$。",
+  "search_text": "设 $A,B$ 是两个 $n$ 阶矩阵，则 $\\begin{vmatrix}A&B\\\\B&A\\end{vmatrix}=$（ ）。 $|A^2+B^2|$ $|A|^2-|B|^2$ $|A+B||A-B|$ $|A|^2+|B|^2$ 因为 $\\begin{pmatrix}E&E\\\\O&E\\end{pmatrix}\\begin{pmatrix}A&B\\\\B&A\\end{pmatrix}\\begin{pmatrix}E&-E\\\\O&E\\end{pmatrix}=\\begin{pmatrix}A+B&O\\\\B&A-B\\end{pmatrix}$，所以 $\\begin{vmatrix}E&E\\\\O&E\\end{vmatrix}\\begin{vmatrix}A&B\\\\B&A\\end{vmatrix}\\begin{vmatrix}E&-E\\\\O&E\\end{vmatrix}=\\begin{vmatrix}A+B&O\\\\B&A-B\\end{vmatrix}=|A+B||A-B|$。",
+  "sort_order": 64
+}

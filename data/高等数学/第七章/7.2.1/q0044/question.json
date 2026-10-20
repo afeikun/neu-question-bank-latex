@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=\\begin{cases}x^2\\arctan\\frac{y}{x}-y^2\\arctan\\frac{y}{x},&xy\\ne0,\\\\0,&xy=0,\\end{cases}$，则 $\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,y)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-y^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y$;"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-y$;"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-y$;"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,y)}=\\lim_{x\\to0}\\frac{f(x,y)-f(0,y)}{x}=\\lim_{x\\to0}x\\arctan\\frac{y}{x}-\\lim_{x\\to0}\\frac{y^2\\arctan\\frac{x}{y}}{x}=-\\lim_{x\\to0}\\frac{y^2\\frac{x}{y}}{x}=-y$，",
+  "search_text": "函数 $f(x,y)=\\begin{cases}x^2\\arctan\\frac{y}{x}-y^2\\arctan\\frac{y}{x},&xy\\ne0,\\\\0,&xy=0,\\end{cases}$，则 $\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,y)}=(\\quad)$。 $1-y^2$ $y$; $1-y$; $-y$; $\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,y)}=\\lim_{x\\to0}\\frac{f(x,y)-f(0,y)}{x}=\\lim_{x\\to0}x\\arctan\\frac{y}{x}-\\lim_{x\\to0}\\frac{y^2\\arctan\\frac{x}{y}}{x}=-\\lim_{x\\to0}\\frac{y^2\\frac{x}{y}}{x}=-y$，",
+  "sort_order": 44
+}

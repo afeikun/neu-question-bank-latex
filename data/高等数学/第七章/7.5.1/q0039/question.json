@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知函数 $y=y(x)$ 由方程 $e^y+6xy+x^2-1=0$ 所确定，则 $y''(0)=(\\quad)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y_xe^y+6y+2x+6xy_x=0$，\n\n则：$y_x=-\\frac{2x+6y}{e^y+6x}$，$y_{xx}=\\frac{(e^yy_x+6)(2x+6y)-(2+6y_x)(e^y+6x)}{(e^y+6x)^2}$\n\n又当 $x=0$ 时，$e^y=1$，则 $y=0，y_x\\big|_{x=0,y=0}=0$\n\n得到：$y''(0)=-2$",
+  "search_text": "已知函数 $y=y(x)$ 由方程 $e^y+6xy+x^2-1=0$ 所确定，则 $y''(0)=(\\quad)$ $-1$ $-2$ $1$ $0$ $y_xe^y+6y+2x+6xy_x=0$，\n\n则：$y_x=-\\frac{2x+6y}{e^y+6x}$，$y_{xx}=\\frac{(e^yy_x+6)(2x+6y)-(2+6y_x)(e^y+6x)}{(e^y+6x)^2}$\n\n又当 $x=0$ 时，$e^y=1$，则 $y=0，y_x\\big|_{x=0,y=0}=0$\n\n得到：$y''(0)=-2$",
+  "sort_order": 39
+}

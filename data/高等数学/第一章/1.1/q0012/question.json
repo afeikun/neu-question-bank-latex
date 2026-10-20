@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=\\ln(x^2-1)+\\arcsin\\frac{1}{x+1}$ 的定义域是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\infty,-2]\\cup(1,+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-\\infty,-1]\\cup(1,+\\infty)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-\\infty,-2]\\cup[0,+\\infty)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\infty,-2]\\cup(-1,1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由对数要求 $x^2-1>0$，且反正弦要求 $|1/(x+1)|\\le1$。联立得 $x\\le-2$ 或 $x\\ge0$，定义域为 $(-\\infty,-2]\\cup[0,+\\infty)$。",
+  "search_text": "函数 $y=\\ln(x^2-1)+\\arcsin\\frac{1}{x+1}$ 的定义域是（ ）。 $(-\\infty,-2]\\cup(1,+\\infty)$ $(-\\infty,-1]\\cup(1,+\\infty)$ $(-\\infty,-2]\\cup[0,+\\infty)$ $(-\\infty,-2]\\cup(-1,1)$ 由对数要求 $x^2-1>0$，且反正弦要求 $|1/(x+1)|\\le1$。联立得 $x\\le-2$ 或 $x\\ge0$，定义域为 $(-\\infty,-2]\\cup[0,+\\infty)$。",
+  "sort_order": 12
+}

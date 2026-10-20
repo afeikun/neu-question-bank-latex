@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\sin\\dfrac{\\pi z}{2z-\\pi},\\dfrac\\pi2\\right)=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac\\pi2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在 $z=\\pi/2$ 附近展开，$\\sin(\\pi z/(2z-\\pi))$ 的 Laurent 展开不含 $(z-\\pi/2)^{-1}$ 项，留数为 $0$。",
+  "search_text": "$\\operatorname{Res}\\left(\\sin\\dfrac{\\pi z}{2z-\\pi},\\dfrac\\pi2\\right)=(\\ \\ )$。 $0$ $\\dfrac\\pi4$ $-\\dfrac\\pi2$ $\\dfrac\\pi2$ 在 $z=\\pi/2$ 附近展开，$\\sin(\\pi z/(2z-\\pi))$ 的 Laurent 展开不含 $(z-\\pi/2)^{-1}$ 项，留数为 $0$。",
+  "sort_order": 81
+}

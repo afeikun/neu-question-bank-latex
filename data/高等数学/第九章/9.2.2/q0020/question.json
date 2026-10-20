@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $I_1=\\iint_\\Sigma(x^2+y^2)dS,I_2=\\iint_\\Sigma(y^2+z^2)dS,I_3=\\iint_\\Sigma(x^2+z^2)dS$，$\\Sigma:x^2+y^2+z^2=2(ax+by+cz)$，$a,b,c>0$，求 $I_1+I_2+I_3$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$16\\pi(a^2+b^2+c^2)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi(a^2+b^2+c^2)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\pi(a^2+b^2+c^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8\\pi(a^2+b^2+c^2)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：$I_1+I_2+I_3=\\iint_\\Sigma2(x^2+y^2+z^2)\\,dS=\\iint_\\Sigma4(ax+by+cz)\\,dS$\n\n$$\\iint_\\Sigma x\\,dS=\\bar{x}\\cdot\\iint_\\Sigma1\\,dS=a\\cdot4\\pi(a^2+b^2+c^2)，类似可求\\ \\iint_\\Sigma y\\,dS=b\\cdot4\\pi(a^2+b^2+c^2)，$$\n\n$$\\iint_\\Sigma z\\,dS=c\\cdot4\\pi(a^2+b^2+c^2)$$\n\n所以 $\\iint_\\Sigma4(ax+by+cz)\\,dS=16\\pi(a^2+b^2+c^2)^2$，",
+  "search_text": "设 $I_1=\\iint_\\Sigma(x^2+y^2)dS,I_2=\\iint_\\Sigma(y^2+z^2)dS,I_3=\\iint_\\Sigma(x^2+z^2)dS$，$\\Sigma:x^2+y^2+z^2=2(ax+by+cz)$，$a,b,c>0$，求 $I_1+I_2+I_3$。 $16\\pi(a^2+b^2+c^2)^2$ $4\\pi(a^2+b^2+c^2)^2$ $4\\pi(a^2+b^2+c^2)$ $8\\pi(a^2+b^2+c^2)^2$ 解答：$I_1+I_2+I_3=\\iint_\\Sigma2(x^2+y^2+z^2)\\,dS=\\iint_\\Sigma4(ax+by+cz)\\,dS$\n\n$$\\iint_\\Sigma x\\,dS=\\bar{x}\\cdot\\iint_\\Sigma1\\,dS=a\\cdot4\\pi(a^2+b^2+c^2)，类似可求\\ \\iint_\\Sigma y\\,dS=b\\cdot4\\pi(a^2+b^2+c^2)，$$\n\n$$\\iint_\\Sigma z\\,dS=c\\cdot4\\pi(a^2+b^2+c^2)$$\n\n所以 $\\iint_\\Sigma4(ax+by+cz)\\,dS=16\\pi(a^2+b^2+c^2)^2$，",
+  "sort_order": 20
+}

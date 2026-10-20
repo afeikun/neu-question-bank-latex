@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=x+x^x+x^{x^x}$，求 $y^\\prime$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1+x^x(1+\\ln x)+x^{x^x}[x^x\\ln x(\\ln x+1)+x^{x-1}]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1+x^x(1+\\ln x)+x^{x^x}[x^x\\ln x(\\ln x+1)+1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1+x^x(1+\\ln x)+x^{x^x}[x^x(\\ln x+1)+x^{x-1}]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1+x^x(1+\\ln x)+x^{x^x}\\ln x(\\ln x+1)+x^{x-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 令 $y_1=x，y_2=x^x，y_3=x^{x^x}$，则 $y'=y_1'+y_2'+y_3'$，$\\ln y_2=x\\cdot\\ln x$，则 $\\frac{y_2'}{y_2}=\\ln x+1，y_2'=x^x(1+\\ln x)$，同理，\n\n$$\\ln\\ln y_3=x\\cdot\\ln x+\\ln\\ln x，\\text{对 }x\\text{ 求导可得 }\\frac{1}{\\ln y_3}\\cdot\\frac{y_3'}{y_3}=\\ln x+1+\\frac{1}{x\\ln x}，$$\n\n$$y_3'=x^{x^x}\\cdot x^x\\ln x\\cdot\\left(\\ln x+1+\\frac{1}{x\\ln x}\\right)$$\n\n$$=x^{x^x}\\cdot\\left[x^x\\ln x\\cdot(\\ln x+1)+x^{x-1}\\right]$$\n\n则有 $y'=1+x^x(1+\\ln x)+x^{x^x}\\cdot\\left[x^x\\ln x\\cdot(\\ln x+1)+x^{x-1}\\right]$",
+  "search_text": "设 $y=x+x^x+x^{x^x}$，求 $y^\\prime$。 $1+x^x(1+\\ln x)+x^{x^x}[x^x\\ln x(\\ln x+1)+x^{x-1}]$ $1+x^x(1+\\ln x)+x^{x^x}[x^x\\ln x(\\ln x+1)+1]$ $1+x^x(1+\\ln x)+x^{x^x}[x^x(\\ln x+1)+x^{x-1}]$ $1+x^x(1+\\ln x)+x^{x^x}\\ln x(\\ln x+1)+x^{x-1}$ 解答 令 $y_1=x，y_2=x^x，y_3=x^{x^x}$，则 $y'=y_1'+y_2'+y_3'$，$\\ln y_2=x\\cdot\\ln x$，则 $\\frac{y_2'}{y_2}=\\ln x+1，y_2'=x^x(1+\\ln x)$，同理，\n\n$$\\ln\\ln y_3=x\\cdot\\ln x+\\ln\\ln x，\\text{对 }x\\text{ 求导可得 }\\frac{1}{\\ln y_3}\\cdot\\frac{y_3'}{y_3}=\\ln x+1+\\frac{1}{x\\ln x}，$$\n\n$$y_3'=x^{x^x}\\cdot x^x\\ln x\\cdot\\left(\\ln x+1+\\frac{1}{x\\ln x}\\right)$$\n\n$$=x^{x^x}\\cdot\\left[x^x\\ln x\\cdot(\\ln x+1)+x^{x-1}\\right]$$\n\n则有 $y'=1+x^x(1+\\ln x)+x^{x^x}\\cdot\\left[x^x\\ln x\\cdot(\\ln x+1)+x^{x-1}\\right]$",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f_{xy},f_{yx}$ 均存在，则二者连续是 $f_{xy}=f_{yx}$ 的(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分而非必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必要而非充分条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既非充分又非必要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "考虑 $f(x,y)=\\begin{cases}\\dfrac{x^2y^2}{x^2+y^2},& (x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n可得 $f_x(x,y)=\\begin{cases}\\dfrac{2xy^4}{(x^2+y^2)^2},&(x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n$f_y(x,y)=\\begin{cases}\\dfrac{2x^4y}{(x^2+y^2)^2},&(x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n$f_{xy}(x,y)=\\begin{cases}\\dfrac{8x^3y^3}{(x^2+y^2)^2},&(x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n$f_{yx}(x,y)=\\begin{cases}\\dfrac{8x^3y^3}{(x^2+y^2)^2},&(x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n则 $f_{xy}=f_{yx}$，但是，当 $(x,y)\\to(0,0)$，沿直线 $y=kx$ 有\n\n$$\\lim_{(x,y)\\to(0,0)}f_{xy}(x,y)=\\lim_{x\\to0}f_{xy}(x,kx)=\\lim_{x\\to0}\\dfrac{8k^3x^6}{(1+k^2)^3x^6}=\\dfrac{8k^3}{(1+k^2)^3}$$\n\n可见 $\\lim_{(x,y)\\to(0,0)}f_{xy}(x,y)$ 不存在，因此 $f_{xy}(x,y)$ 在 $(0,0)$ 点不连续。",
+  "search_text": "若 $f_{xy},f_{yx}$ 均存在，则二者连续是 $f_{xy}=f_{yx}$ 的(\\quad)。 充分而非必要条件 必要而非充分条件 充分必要条件 既非充分又非必要条件 考虑 $f(x,y)=\\begin{cases}\\dfrac{x^2y^2}{x^2+y^2},& (x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n可得 $f_x(x,y)=\\begin{cases}\\dfrac{2xy^4}{(x^2+y^2)^2},&(x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n$f_y(x,y)=\\begin{cases}\\dfrac{2x^4y}{(x^2+y^2)^2},&(x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n$f_{xy}(x,y)=\\begin{cases}\\dfrac{8x^3y^3}{(x^2+y^2)^2},&(x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n$f_{yx}(x,y)=\\begin{cases}\\dfrac{8x^3y^3}{(x^2+y^2)^2},&(x,y)\\ne(0,0),\\\\0,&(x,y)=(0,0),\\end{cases}$\n\n则 $f_{xy}=f_{yx}$，但是，当 $(x,y)\\to(0,0)$，沿直线 $y=kx$ 有\n\n$$\\lim_{(x,y)\\to(0,0)}f_{xy}(x,y)=\\lim_{x\\to0}f_{xy}(x,kx)=\\lim_{x\\to0}\\dfrac{8k^3x^6}{(1+k^2)^3x^6}=\\dfrac{8k^3}{(1+k^2)^3}$$\n\n可见 $\\lim_{(x,y)\\to(0,0)}f_{xy}(x,y)$ 不存在，因此 $f_{xy}(x,y)$ 在 $(0,0)$ 点不连续。",
+  "sort_order": 23
+}

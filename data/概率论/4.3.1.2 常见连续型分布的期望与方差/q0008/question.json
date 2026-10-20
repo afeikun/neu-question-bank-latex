@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$\\xi$在区间$[2-\\sqrt3,2+\\sqrt3]$上服从均匀分布，则$\\eta=a\\xi+b$可使$E(\\eta)=0,D(\\eta)=1$的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\xi-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\xi-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\xi-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\xi-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\xi)=2,D(\\xi)=1$，取$\\eta=\\xi-2$即可。",
+  "search_text": "设$\\xi$在区间$[2-\\sqrt3,2+\\sqrt3]$上服从均匀分布，则$\\eta=a\\xi+b$可使$E(\\eta)=0,D(\\eta)=1$的是（）。 $\\xi-2$ $2\\xi-1$ $\\xi-1$ $2\\xi-2$ $E(\\xi)=2,D(\\xi)=1$，取$\\eta=\\xi-2$即可。",
+  "sort_order": 8
+}

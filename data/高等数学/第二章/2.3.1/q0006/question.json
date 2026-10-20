@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=x-\\ln x(x>0)$，则 $f(x)$ 的反函数的二阶导数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-x/(1+x)^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2/(1-x)^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x/(1-x)^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-x^2/(1+x)^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "反函数导数公式得 $\\phi\\prime\\prime(y)=x/(1-x)^3$。",
+  "search_text": "$f(x)=x-\\ln x(x>0)$，则 $f(x)$ 的反函数的二阶导数为（ ）。 $-x/(1+x)^3$ $x^2/(1-x)^3$ $x/(1-x)^3$ $-x^2/(1+x)^3$ 反函数导数公式得 $\\phi\\prime\\prime(y)=x/(1-x)^3$。",
+  "sort_order": 6
+}

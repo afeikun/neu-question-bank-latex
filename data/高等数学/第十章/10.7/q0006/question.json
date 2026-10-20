@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "区域 $y=f(x)$ 在 $x=1$ 到 $x=t$ 间绕 $x$ 轴旋转，体积 $V(t)=\\pi t\\int_1^t y^2\\,dx$，求曲线满足的微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2yy^\\prime=ty^\\prime+2y$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2yy^\\prime=ty^\\prime-2y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2yy^\\prime=2ty^\\prime+y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$yy^\\prime=ty^\\prime+2y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：依题意得 $\\pi\\int_1^t y^2\\,dx=\\pi t\\int_1^t y\\,dx$，关于 $t$ 求两边导数得 $2yy'=ty'+2y$",
+  "search_text": "区域 $y=f(x)$ 在 $x=1$ 到 $x=t$ 间绕 $x$ 轴旋转，体积 $V(t)=\\pi t\\int_1^t y^2\\,dx$，求曲线满足的微分方程。 $2yy^\\prime=ty^\\prime+2y$ $2yy^\\prime=ty^\\prime-2y$ $2yy^\\prime=2ty^\\prime+y$ $yy^\\prime=ty^\\prime+2y$ 解析：依题意得 $\\pi\\int_1^t y^2\\,dx=\\pi t\\int_1^t y\\,dx$，关于 $t$ 求两边导数得 $2yy'=ty'+2y$",
+  "sort_order": 6
+}

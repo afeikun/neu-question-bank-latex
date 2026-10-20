@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\ln\\sin(1/\\sqrt{x})$，则 $y\\prime(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac12x^{-3/2}\\cot(1/\\sqrt{x})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\cos(1/\\sqrt{x})(-\\frac12x^{-1/2})}{\\sin(1/\\sqrt{x})}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12x^{-3/2}\\cot(1/\\sqrt{x})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\frac12x^{-5/2}\\cos(1/\\sqrt{x})}{\\sin(1/\\sqrt{x})}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "链式法则得 $y\\prime=-\\frac12x^{-3/2}\\cot(1/\\sqrt{x})$。",
+  "search_text": "设 $y=\\ln\\sin(1/\\sqrt{x})$，则 $y\\prime(x)=$（ ）。 $-\\frac12x^{-3/2}\\cot(1/\\sqrt{x})$ $\\frac{\\cos(1/\\sqrt{x})(-\\frac12x^{-1/2})}{\\sin(1/\\sqrt{x})}$ $\\frac12x^{-3/2}\\cot(1/\\sqrt{x})$ $\\frac{\\frac12x^{-5/2}\\cos(1/\\sqrt{x})}{\\sin(1/\\sqrt{x})}$ 链式法则得 $y\\prime=-\\frac12x^{-3/2}\\cot(1/\\sqrt{x})$。",
+  "sort_order": 11
+}

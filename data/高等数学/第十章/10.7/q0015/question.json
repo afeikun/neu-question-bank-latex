@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "潜水器在海水中下沉，质量 $m$，浮力为 $B\\rho$，阻力与速度成正比系数 $k$，取下沉方向为正，写运动方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$mv\\frac{dv}{dy}=mg-kv-B\\rho$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$mv\\frac{dv}{dy}=mg+kv-B\\rho$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$mv\\frac{dv}{dy}=mg-kv+B\\rho$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$mv\\frac{dv}{dy}=mg+kv+B\\rho$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：由牛顿第二定律得 $ma=mg-kv-B\\rho$，$a=\\frac{dv(y)}{dt}=\\frac{dy}{dt}\\frac{dv}{dy}=v\\frac{dv}{dy}$，于是得 $mv\\frac{dv}{dy}=mg-kv-B\\rho$",
+  "search_text": "潜水器在海水中下沉，质量 $m$，浮力为 $B\\rho$，阻力与速度成正比系数 $k$，取下沉方向为正，写运动方程。 $mv\\frac{dv}{dy}=mg-kv-B\\rho$ $mv\\frac{dv}{dy}=mg+kv-B\\rho$ $mv\\frac{dv}{dy}=mg-kv+B\\rho$ $mv\\frac{dv}{dy}=mg+kv+B\\rho$ 解析：由牛顿第二定律得 $ma=mg-kv-B\\rho$，$a=\\frac{dv(y)}{dt}=\\frac{dy}{dt}\\frac{dv}{dy}=v\\frac{dv}{dy}$，于是得 $mv\\frac{dv}{dy}=mg-kv-B\\rho$",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int\\frac{\\ln^2x}{x}\\,dx$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13\\ln^3x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16\\ln^3x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13\\ln^2x+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16\\ln^2x+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $u=\\ln x$，则原积分 $=\\int u^2du=\\frac13\\ln^3x+C$。",
+  "search_text": "不定积分 $\\int\\frac{\\ln^2x}{x}\\,dx$ 的值为 $\\frac13\\ln^3x+C$ $\\frac16\\ln^3x+C$ $\\frac13\\ln^2x+C$ $\\frac16\\ln^2x+C$ 令 $u=\\ln x$，则原积分 $=\\int u^2du=\\frac13\\ln^3x+C$。",
+  "sort_order": 13
+}

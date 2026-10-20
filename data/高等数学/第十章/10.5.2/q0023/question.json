@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\prime\\prime=\\frac{3x^2y\\prime}{1+x^3},\\ y(0)=1,\\ y\\prime(0)=4$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=x^4+2x+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x^4+4x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=x^4+4x+2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=x^4+4x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：令 $y'=p, y''=p'$，由原方程得到 $\\frac{dp}{p}=\\frac{3x^2}{1+x^3}\\,dx$，\n\n所以 $p=C_1(1+x^3)$，由 $y'(0)=4$ 得到 $C_1=4$，从而 $y'=C_1(1+x^3)$\n\n$y=x^4+4x+C_2$，由 $y(0)=1$ 得 $C_2=1$，所以 $y=x^4+4x+1$。",
+  "search_text": "方程 $y\\prime\\prime=\\frac{3x^2y\\prime}{1+x^3},\\ y(0)=1,\\ y\\prime(0)=4$ 的解为（ ） $y=x^4+2x+1$ $y=x^4+4x$ $y=x^4+4x+2$ $y=x^4+4x+1$ 解析：令 $y'=p, y''=p'$，由原方程得到 $\\frac{dp}{p}=\\frac{3x^2}{1+x^3}\\,dx$，\n\n所以 $p=C_1(1+x^3)$，由 $y'(0)=4$ 得到 $C_1=4$，从而 $y'=C_1(1+x^3)$\n\n$y=x^4+4x+C_2$，由 $y(0)=1$ 得 $C_2=1$，所以 $y=x^4+4x+1$。",
+  "sort_order": 23
+}

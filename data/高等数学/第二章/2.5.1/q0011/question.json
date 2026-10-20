@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $e^y+xy=e$ 确定 $y=y(x)$，求 $y^{\\prime\\prime}(0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答由题可知$y(0)=1$，方程两边同时对$x$求导可得\n$e^yy'+y+xy'=0$，可得$y'(0)=-\\frac{1}{e}$\n\n方程两边再同时对$x$求导一次可得，\n\n则有$e^y(y')^2+e^yy''+2y'+xy''=0$，带入初值则有$y''(0)=\\frac{1}{e^2}$",
+  "search_text": "由 $e^y+xy=e$ 确定 $y=y(x)$，求 $y^{\\prime\\prime}(0)$。 $e^2$ $e$ $e^{-2}$ $e^{-1}$ 解答由题可知$y(0)=1$，方程两边同时对$x$求导可得\n$e^yy'+y+xy'=0$，可得$y'(0)=-\\frac{1}{e}$\n\n方程两边再同时对$x$求导一次可得，\n\n则有$e^y(y')^2+e^yy''+2y'+xy''=0$，带入初值则有$y''(0)=\\frac{1}{e^2}$",
+  "sort_order": 11
+}

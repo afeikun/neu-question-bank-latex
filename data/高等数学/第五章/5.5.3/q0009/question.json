@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "利用幂级数展开式求 $\\ln3$（误差不超过 $10^{-4}$）的近似值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1.0587"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1.0124"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1.0171"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1.0986"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "用 $\\ln((1+x)/(1-x))$ 展开并取 $x=1/2$，得约1.0986。",
+  "search_text": "利用幂级数展开式求 $\\ln3$（误差不超过 $10^{-4}$）的近似值。 1.0587 1.0124 1.0171 1.0986 用 $\\ln((1+x)/(1-x))$ 展开并取 $x=1/2$，得约1.0986。",
+  "sort_order": 9
+}

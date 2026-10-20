@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列向量与 $\\vec a=3\\vec i-2\\vec j+4\\vec k$，$\\vec b=\\vec i+\\vec j-2\\vec k$ 都垂直的单位向量为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sqrt5}\\vec j+\\frac2{\\sqrt5}\\vec k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac2{\\sqrt5}\\vec j-\\frac1{\\sqrt5}\\vec k$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac1{\\sqrt5}\\vec j-\\frac2{\\sqrt5}\\vec k$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac2{\\sqrt5}\\vec j+\\frac1{\\sqrt5}\\vec k$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\vec a\\times\\vec b=10\\vec j+5\\vec k$，单位化后方向可取 $\\frac2{\\sqrt5}\\vec j+\\frac1{\\sqrt5}\\vec k$ 及其相反向量。",
+  "search_text": "下列向量与 $\\vec a=3\\vec i-2\\vec j+4\\vec k$，$\\vec b=\\vec i+\\vec j-2\\vec k$ 都垂直的单位向量为(\\quad)。 $\\frac1{\\sqrt5}\\vec j+\\frac2{\\sqrt5}\\vec k$ $-\\frac2{\\sqrt5}\\vec j-\\frac1{\\sqrt5}\\vec k$ $-\\frac1{\\sqrt5}\\vec j-\\frac2{\\sqrt5}\\vec k$ $-\\frac2{\\sqrt5}\\vec j+\\frac1{\\sqrt5}\\vec k$ $\\vec a\\times\\vec b=10\\vec j+5\\vec k$，单位化后方向可取 $\\frac2{\\sqrt5}\\vec j+\\frac1{\\sqrt5}\\vec k$ 及其相反向量。",
+  "sort_order": 2
+}

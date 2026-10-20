@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=(x+3)(2x+5)^2(3x+7)^3$，则 $y^{(6)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$0$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$2^2 2^3 3^3 6!$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$6!$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$2^3 3^2 6!$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "六阶导数仅由最高次项贡献，结果为 $2^2 2^3 3^3 6!$。",
+  "search_text": "$y=(x+3)(2x+5)^2(3x+7)^3$，则 $y^{(6)}=$（ ）。 $$0$$ $$2^2 2^3 3^3 6!$$ $$6!$$ $$2^3 3^2 6!$$ 六阶导数仅由最高次项贡献，结果为 $2^2 2^3 3^3 6!$。",
+  "sort_order": 3
+}

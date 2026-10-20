@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=f(u)=\\sqrt u$（$u\\in D=[0,+\\infty)$）与函数 $u=g(x)=1-x^2$（$x\\in E=\\mathbb R$）的复合函数 $(f\\circ g)(x)=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{1-x^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-x^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{x^2-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "复合函数为 $f(g(x))=\\sqrt{1-x^2}$；其定义域需满足 $1-x^2\\ge0$。",
+  "search_text": "函数 $y=f(u)=\\sqrt u$（$u\\in D=[0,+\\infty)$）与函数 $u=g(x)=1-x^2$（$x\\in E=\\mathbb R$）的复合函数 $(f\\circ g)(x)=$（ ）。 $\\sqrt{1-x^2}$ $x^2-1$ $1-x^2$ $\\sqrt{x^2-1}$ 复合函数为 $f(g(x))=\\sqrt{1-x^2}$；其定义域需满足 $1-x^2\\ge0$。",
+  "sort_order": 22
+}

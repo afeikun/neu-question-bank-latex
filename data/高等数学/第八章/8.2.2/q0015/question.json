@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega$ 为平面 $x+y+z=1$ 与三个坐标面所围空间区域，则 $\\iiint_\\Omega xdv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{24}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{24}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{12}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "原式 $=\\int_0^1 xdx\\iint_{D_x}dydz$\n\n$$\n=\\frac{1}{2}\\int_0^1x(1-x)^2dx=\\frac{1}{24}\n$$",
+  "search_text": "设 $\\Omega$ 为平面 $x+y+z=1$ 与三个坐标面所围空间区域，则 $\\iiint_\\Omega xdv$ 的值为（ ） $\\frac1{24}$ $\\frac16$ $\\frac1{24}$ $\\frac1{12}$ 原式 $=\\int_0^1 xdx\\iint_{D_x}dydz$\n\n$$\n=\\frac{1}{2}\\int_0^1x(1-x)^2dx=\\frac{1}{24}\n$$",
+  "sort_order": 15
+}

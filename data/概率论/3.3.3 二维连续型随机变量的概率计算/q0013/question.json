@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=x^2+xy/3$，$0\\le x\\le1,0\\le y\\le2$，求$P(X+Y>1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$65/72$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2/9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$7/9$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7/72$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对区域$0\\le x\\le1,1-x<y\\le2$积分，得$65/72$。",
+  "search_text": "$f(x,y)=x^2+xy/3$，$0\\le x\\le1,0\\le y\\le2$，求$P(X+Y>1)$。 $65/72$ $2/9$ $7/9$ $7/72$ 对区域$0\\le x\\le1,1-x<y\\le2$积分，得$65/72$。",
+  "sort_order": 13
+}

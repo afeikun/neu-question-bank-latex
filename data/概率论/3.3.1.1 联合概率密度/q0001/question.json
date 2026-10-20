@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=kxy^2$，$0\\le x<2,0\\le y<1$，求$k$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1=k\\int_0^2x dx\\int_0^1y^2dy=2k/3$，故$k=3/2$。",
+  "search_text": "$f(x,y)=kxy^2$，$0\\le x<2,0\\le y<1$，求$k$。 $3/2$ $1/2$ $3$ $4$ $1=k\\int_0^2x dx\\int_0^1y^2dy=2k/3$，故$k=3/2$。",
+  "sort_order": 1
+}

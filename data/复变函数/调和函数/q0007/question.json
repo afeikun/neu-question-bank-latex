@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $v(x,y)=-\\frac12x^2+\\frac12y^2$ 为解析函数 $f(z)$ 的虚部，且 $f(0)=0$，则 $f(z)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac{iz^2}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{iz^2}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac{z^2}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{z^2}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime(z)=v_y+iv_x=y+i(-x)=-iz$，故 $f(z)=-\\dfrac{i}{2}z^2+C$。由 $f(0)=0$ 得 $C=0$。",
+  "search_text": "设 $v(x,y)=-\\frac12x^2+\\frac12y^2$ 为解析函数 $f(z)$ 的虚部，且 $f(0)=0$，则 $f(z)=(\\quad)$。 $-\\dfrac{iz^2}{2}$ $\\dfrac{iz^2}{2}$ $-\\dfrac{z^2}{2}$ $\\dfrac{z^2}{2}$ $f\\prime(z)=v_y+iv_x=y+i(-x)=-iz$，故 $f(z)=-\\dfrac{i}{2}z^2+C$。由 $f(0)=0$ 得 $C=0$。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_n=\\sum_{k=0}^n((1+i)/2)^k$，则 $\\lim\\alpha_n=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1+i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1+i)/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "公比模 $\\sqrt2/2<1$，和为 $1/(1-(1+i)/2)=1+i$。",
+  "search_text": "设 $\\alpha_n=\\sum_{k=0}^n((1+i)/2)^k$，则 $\\lim\\alpha_n=\\underline{\\qquad}$。 $1+i$ $1-i$ $(1+i)/2$ $0$ 公比模 $\\sqrt2/2<1$，和为 $1/(1-(1+i)/2)=1+i$。",
+  "sort_order": 64
+}

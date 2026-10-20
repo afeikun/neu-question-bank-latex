@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "面密度为 $z$ 的曲面 $\\Sigma$ 形心为 $(1,2,3)$，求 $\\frac{\\iint_\\Sigma z(x+y+z)\\,dS}{\\iint_\\Sigma z\\,dS}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\bar{x}=\\frac{\\iint_\\Sigma xz\\,dS}{\\iint_\\Sigma z\\,dS}=1,\\quad \\bar{y}=\\frac{\\iint_\\Sigma yz\\,dS}{\\iint_\\Sigma z\\,dS}=2,\\quad \\bar{z}=\\frac{\\iint_\\Sigma z^2\\,dS}{\\iint_\\Sigma z\\,dS}=3,\\quad \\frac{\\iint_\\Sigma z(x+y+z)\\,dS}{\\iint_\\Sigma z\\,dS}=1+2+3=6$",
+  "search_text": "面密度为 $z$ 的曲面 $\\Sigma$ 形心为 $(1,2,3)$，求 $\\frac{\\iint_\\Sigma z(x+y+z)\\,dS}{\\iint_\\Sigma z\\,dS}$。 $2$ $4$ $6$ $3$ $\\bar{x}=\\frac{\\iint_\\Sigma xz\\,dS}{\\iint_\\Sigma z\\,dS}=1,\\quad \\bar{y}=\\frac{\\iint_\\Sigma yz\\,dS}{\\iint_\\Sigma z\\,dS}=2,\\quad \\bar{z}=\\frac{\\iint_\\Sigma z^2\\,dS}{\\iint_\\Sigma z\\,dS}=3,\\quad \\frac{\\iint_\\Sigma z(x+y+z)\\,dS}{\\iint_\\Sigma z\\,dS}=1+2+3=6$",
+  "sort_order": 2
+}

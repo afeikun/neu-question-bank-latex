@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=\\cos^4t,y=\\sin^4t,z=\\sin^2t\\cos^2t$ 在 $t=\\pi/4$ 处切线与平面 $4x+y+z=1$ 的夹角是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\\\arccos(\\frac23)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$x'|_{t=\\frac{\\pi}{4}}=-4\\sin t\\cos^3t=-1$，$y'|_{t=\\frac{\\pi}{4}}=4\\cos t\\sin^3t=1$，$z'|_{t=\\frac{\\pi}{4}}=0$，\n\n则曲线切向量为：$(-1,1,0)$，$4x+y+z=1$ 平面的法向量为：$(4,1,1)$，\n\n则 $\\sin\\varphi=\\frac{|-4+1|}{\\sqrt{2}\\sqrt{18}}=\\frac{1}{2}$，因此，$\\varphi=\\frac{\\pi}{6}$。",
+  "search_text": "曲线 $x=\\cos^4t,y=\\sin^4t,z=\\sin^2t\\cos^2t$ 在 $t=\\pi/4$ 处切线与平面 $4x+y+z=1$ 的夹角是。 $\\frac\\pi4$ $\\\\arccos(\\frac23)$ $\\frac\\pi3$ $\\frac\\pi6$ $x'|_{t=\\frac{\\pi}{4}}=-4\\sin t\\cos^3t=-1$，$y'|_{t=\\frac{\\pi}{4}}=4\\cos t\\sin^3t=1$，$z'|_{t=\\frac{\\pi}{4}}=0$，\n\n则曲线切向量为：$(-1,1,0)$，$4x+y+z=1$ 平面的法向量为：$(4,1,1)$，\n\n则 $\\sin\\varphi=\\frac{|-4+1|}{\\sqrt{2}\\sqrt{18}}=\\frac{1}{2}$，因此，$\\varphi=\\frac{\\pi}{6}$。",
+  "sort_order": 30
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\frac{1-\\sqrt{x}}{1+\\sqrt{x}}$，则 $y\\prime(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1/[(1-\\sqrt{x})^2\\sqrt{x}]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1/[(1+\\sqrt{x})^2\\sqrt{x}]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/[(1+\\sqrt{x})^2\\sqrt{x}]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/[(1-\\sqrt{x})^2\\sqrt{x}]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "商法则化简得 $y\\prime=-1/[(1+\\sqrt{x})^2\\sqrt{x}]$。",
+  "search_text": "设 $y=\\frac{1-\\sqrt{x}}{1+\\sqrt{x}}$，则 $y\\prime(x)=$（ ）。 $-1/[(1-\\sqrt{x})^2\\sqrt{x}]$ $-1/[(1+\\sqrt{x})^2\\sqrt{x}]$ $1/[(1+\\sqrt{x})^2\\sqrt{x}]$ $1/[(1-\\sqrt{x})^2\\sqrt{x}]$ 商法则化简得 $y\\prime=-1/[(1+\\sqrt{x})^2\\sqrt{x}]$。",
+  "sort_order": 19
+}

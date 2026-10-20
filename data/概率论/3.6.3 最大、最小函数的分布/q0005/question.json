@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立，分别均匀于$(0,1),(0,2)$，求$V=\\min(X,Y)$密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(3-v)/2$于$(0,2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(3-v)/2$于$(0,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/2-v$于$(0,2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/2-v$于$(0,1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$F_V(v)=v(3-v)/2$于$0<v<1$，故密度$3/2-v$于$(0,1)$。",
+  "search_text": "$X,Y$独立，分别均匀于$(0,1),(0,2)$，求$V=\\min(X,Y)$密度。 $(3-v)/2$于$(0,2)$ $(3-v)/2$于$(0,1)$ $3/2-v$于$(0,2)$ $3/2-v$于$(0,1)$ $F_V(v)=v(3-v)/2$于$0<v<1$，故密度$3/2-v$于$(0,1)$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知点 $A(3,2,-1)$ 和 $B(7,-2,3)$，取点 $M$，使 $AM=2MB$，则向量 $\\overrightarrow{OM}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(17,-2,5)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13(17,-2,5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12(17,-2,5)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac15(17,-2,5)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $M=(x,y,z)$，由定比分点公式得 $x=\\frac{3+2\\cdot7}{3}=\\frac{17}{3}$，$y=\\frac{2+2(-2)}{3}=-\\frac{2}{3}$，$z=\\frac{-1+2\\cdot3}{3}=\\frac53$，故 $\\overrightarrow{OM}=\\frac13(17,-2,5)$。",
+  "search_text": "已知点 $A(3,2,-1)$ 和 $B(7,-2,3)$，取点 $M$，使 $AM=2MB$，则向量 $\\overrightarrow{OM}=(\\quad)$。 $(17,-2,5)$ $\\frac13(17,-2,5)$ $\\frac12(17,-2,5)$ $\\frac15(17,-2,5)$ 设 $M=(x,y,z)$，由定比分点公式得 $x=\\frac{3+2\\cdot7}{3}=\\frac{17}{3}$，$y=\\frac{2+2(-2)}{3}=-\\frac{2}{3}$，$z=\\frac{-1+2\\cdot3}{3}=\\frac53$，故 $\\overrightarrow{OM}=\\frac13(17,-2,5)$。",
+  "sort_order": 1
+}

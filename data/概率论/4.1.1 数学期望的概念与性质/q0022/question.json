@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "掷两颗骰子，点数为$X,Y$，求$E(X+Y),E(XY)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(7/3,49/4)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(7,49/4)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(7,49/6)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(7,49/6)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$E(X)=E(Y)=7/2$，独立故$E(X+Y)=7,E(XY)=49/4$。",
+  "search_text": "掷两颗骰子，点数为$X,Y$，求$E(X+Y),E(XY)$。 $(7/3,49/4)$ $(7,49/4)$ $(7,49/6)$ $(7,49/6)$ $E(X)=E(Y)=7/2$，独立故$E(X+Y)=7,E(XY)=49/4$。",
+  "sort_order": 22
+}

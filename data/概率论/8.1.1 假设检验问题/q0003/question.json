@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于假设检验，下列说法不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "原假设拒绝域$|T|<\\lambda_1$或$T<\\lambda_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0$为真时检验统计量有确定分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "提出原假设和备择假设"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "观测落入拒绝域则拒绝$H_0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "拒绝域应位于统计量分布的尾部，选项1给出的区域表述错误。",
+  "search_text": "关于假设检验，下列说法不正确的是（）。 原假设拒绝域$|T|<\\lambda_1$或$T<\\lambda_2$ $H_0$为真时检验统计量有确定分布 提出原假设和备择假设 观测落入拒绝域则拒绝$H_0$ 拒绝域应位于统计量分布的尾部，选项1给出的区域表述错误。",
+  "sort_order": 3
+}

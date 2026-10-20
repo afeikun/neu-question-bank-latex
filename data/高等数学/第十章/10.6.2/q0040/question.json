@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $2y\\prime\\prime-3y\\prime+y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{-x}+C_2e^{3x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{3x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^x+C_2e^{3x/2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^x+C_2e^{x/2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析 由特征方程 $r^2+2r-3=0$，得特征根 $r_1=1,r_2=\\frac12$，对照通项公式即得 $y=C_1e^x+C_2e^{\\frac12x}$。",
+  "search_text": "微分方程 $2y\\prime\\prime-3y\\prime+y=0$ 的通解为（ ） $y=C_1e^{-x}+C_2e^{3x}$ $y=C_1e^x+C_2e^{3x}$ $y=C_1e^x+C_2e^{3x/2}$ $y=C_1e^x+C_2e^{x/2}$ 解析 由特征方程 $r^2+2r-3=0$，得特征根 $r_1=1,r_2=\\frac12$，对照通项公式即得 $y=C_1e^x+C_2e^{\\frac12x}$。",
+  "sort_order": 40
+}

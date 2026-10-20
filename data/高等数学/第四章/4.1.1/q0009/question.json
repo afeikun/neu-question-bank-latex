@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(x)$ 和 $G(x)$ 是函数 $f(x)$ 的任意两个原函数，$f(x)\\ne0$，则下列成立的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(x)G(x)=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(x)=CG(x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(x)+G(x)=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(x)=G(x)+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "因为两个原函数只相差一个常数。",
+  "search_text": "设 $F(x)$ 和 $G(x)$ 是函数 $f(x)$ 的任意两个原函数，$f(x)\\ne0$，则下列成立的是 $F(x)G(x)=C$ $F(x)=CG(x)$ $F(x)+G(x)=C$ $F(x)=G(x)+C$ 因为两个原函数只相差一个常数。",
+  "sort_order": 9
+}

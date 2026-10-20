@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "投篮命中率0.6，$X$为一次投篮命中次数，正确说法为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(X=1)=0.6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(X=1)=0.4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(X=0)=0.5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(X=0)=0.6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$X$取0或1，$P(X=1)=0.6$，$P(X=0)=0.4$。",
+  "search_text": "投篮命中率0.6，$X$为一次投篮命中次数，正确说法为（ ）。 $P(X=1)=0.6$ $P(X=1)=0.4$ $P(X=0)=0.5$ $P(X=0)=0.6$ $X$取0或1，$P(X=1)=0.6$，$P(X=0)=0.4$。",
+  "sort_order": 33
+}

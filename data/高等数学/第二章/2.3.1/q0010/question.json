@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x=y-\\varepsilon\\sin y$，其中 $0<\\varepsilon<1$ 为常数，它的反函数是 $y=y(x)$，则 $d^2y/dx^2=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "反函数二阶导公式得 $y\\prime\\prime=-\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^3$。",
+  "search_text": "设 $x=y-\\varepsilon\\sin y$，其中 $0<\\varepsilon<1$ 为常数，它的反函数是 $y=y(x)$，则 $d^2y/dx^2=$（ ）。 $\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^3$ $-\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^3$ $-\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^2$ $\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^2$ 反函数二阶导公式得 $y\\prime\\prime=-\\varepsilon\\sin y/(1-\\varepsilon\\cos y)^3$。",
+  "sort_order": 10
+}

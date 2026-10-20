@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "极坐标曲线 $\\rho=a\\cos\\theta$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\tan2\\theta$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\tan2\\theta$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cot2\\theta$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\cot2\\theta$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由极坐标方程可得参数方程\n\n$$\\begin{cases}x=a\\cos^2\\theta\\\\y=a\\cos\\theta\\sin\\theta\\end{cases}$$\n\n两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=-a\\sin2\\theta，\\quad\\frac{dy}{d\\theta}=a\\cos2\\theta，$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a\\cos2\\theta}{-a\\sin2\\theta}=-\\cot2\\theta$",
+  "search_text": "极坐标曲线 $\\rho=a\\cos\\theta$，求 $\\frac{dy}{dx}$。 $-\\tan2\\theta$ $\\tan2\\theta$ $\\cot2\\theta$ $-\\cot2\\theta$ 解答 由极坐标方程可得参数方程\n\n$$\\begin{cases}x=a\\cos^2\\theta\\\\y=a\\cos\\theta\\sin\\theta\\end{cases}$$\n\n两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=-a\\sin2\\theta，\\quad\\frac{dy}{d\\theta}=a\\cos2\\theta，$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a\\cos2\\theta}{-a\\sin2\\theta}=-\\cot2\\theta$",
+  "sort_order": 5
+}

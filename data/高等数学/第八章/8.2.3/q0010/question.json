@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_0^2dx\\int_0^{\\sqrt{2x-x^2}}dy\\int_0^{\\sqrt{x^2+y^2}}z\\sqrt{x^2+y^2}\\,dz$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{16}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{32}{9}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{16}{9}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$0\\leq x\\leq2，\\quad0\\leq y\\leq\\sqrt{2x-x^2}$，表示的区域为 $D：\\ (x-1)^2+y^2\\leq1，\\quad y\\geq0$，因此利用柱面坐标变换可得，\n\n原式 $=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}rdr\\int_0^r z r dz$\n\n$$\n=\\frac{1}{2}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}r^2dr\n$$\n\n$$\n=\\frac{8}{3}\\int_0^{\\frac{\\pi}{2}}\\cos^3\\theta d\\theta\n$$\n\n$$\n=\\frac{16}{9}。\n$$",
+  "search_text": "$\\int_0^2dx\\int_0^{\\sqrt{2x-x^2}}dy\\int_0^{\\sqrt{x^2+y^2}}z\\sqrt{x^2+y^2}\\,dz$ 的值为（ ） $\\frac43$ $\\frac{16}{3}$ $\\frac{32}{9}$ $\\frac{16}{9}$ $0\\leq x\\leq2，\\quad0\\leq y\\leq\\sqrt{2x-x^2}$，表示的区域为 $D：\\ (x-1)^2+y^2\\leq1，\\quad y\\geq0$，因此利用柱面坐标变换可得，\n\n原式 $=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}rdr\\int_0^r z r dz$\n\n$$\n=\\frac{1}{2}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}r^2dr\n$$\n\n$$\n=\\frac{8}{3}\\int_0^{\\frac{\\pi}{2}}\\cos^3\\theta d\\theta\n$$\n\n$$\n=\\frac{16}{9}。\n$$",
+  "sort_order": 10
+}

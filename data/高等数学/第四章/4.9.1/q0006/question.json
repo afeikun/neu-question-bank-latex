@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在弹簧弹性限度内，若 $1N$ 能拉长弹簧 $1cm$，将弹簧拉长 $6cm$ 需做功多少？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.28J$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.26J$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.12J$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.18J$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由胡克定律 $k=100N/m$，$W=\\int_0^{0.06}100x dx=0.18J$。",
+  "search_text": "在弹簧弹性限度内，若 $1N$ 能拉长弹簧 $1cm$，将弹簧拉长 $6cm$ 需做功多少？ $0.28J$ $0.26J$ $0.12J$ $0.18J$ 由胡克定律 $k=100N/m$，$W=\\int_0^{0.06}100x dx=0.18J$。",
+  "sort_order": 6
+}

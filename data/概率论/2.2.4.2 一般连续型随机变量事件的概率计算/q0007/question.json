@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi$为连续型随机变量，密度为$\\varphi(x)$，分布函数为$F(x)$，以下哪项成立？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\xi=x)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(x)=\\varphi(x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(\\xi=x)=\\varphi(x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(\\xi=x)=F(x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "连续型随机变量在任意指定点的概率为0。",
+  "search_text": "$\\xi$为连续型随机变量，密度为$\\varphi(x)$，分布函数为$F(x)$，以下哪项成立？ $P(\\xi=x)=0$ $F(x)=\\varphi(x)$ $P(\\xi=x)=\\varphi(x)$ $P(\\xi=x)=F(x)$ 连续型随机变量在任意指定点的概率为0。",
+  "sort_order": 7
+}

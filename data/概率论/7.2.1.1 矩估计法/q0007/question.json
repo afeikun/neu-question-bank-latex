@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim B(1,p)$，求$p$的矩估计量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\bar X$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar X/(\\bar X+1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-\\bar X$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X)=p$，以样本均值替代得$\\hat p=\\bar X$。",
+  "search_text": "$X\\sim B(1,p)$，求$p$的矩估计量。 $\\bar X$ $\\bar X/2$ $\\bar X/(\\bar X+1)$ $1-\\bar X$ $E(X)=p$，以样本均值替代得$\\hat p=\\bar X$。",
+  "sort_order": 7
+}

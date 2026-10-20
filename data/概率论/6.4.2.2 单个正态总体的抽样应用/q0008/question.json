@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim N(\\mu,2^2)$，样本均值$\\bar X$，若$E[(\\bar X-\\mu)^2]\\le0.1$，求$n$至少为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$40$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$28$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$38$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$48$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E[(\\bar X-\\mu)^2]=4/n\\le0.1$，得$n\\ge40$。",
+  "search_text": "$X_i\\sim N(\\mu,2^2)$，样本均值$\\bar X$，若$E[(\\bar X-\\mu)^2]\\le0.1$，求$n$至少为（）。 $40$ $28$ $38$ $48$ $E[(\\bar X-\\mu)^2]=4/n\\le0.1$，得$n\\ge40$。",
+  "sort_order": 8
+}

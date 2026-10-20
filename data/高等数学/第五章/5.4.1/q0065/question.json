@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum_{n=1}^{\\infty} b_n(x-2)^n$ 在 $x=-2$ 处收敛，则在 $x=4$ 处？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "敛散性不确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "已知 $|x-2|=4$ 处收敛，半径至少4；$x=4$ 对应距离2，小于半径，故绝对收敛。",
+  "search_text": "若级数 $\\sum_{n=1}^{\\infty} b_n(x-2)^n$ 在 $x=-2$ 处收敛，则在 $x=4$ 处？ 条件收敛 发散 绝对收敛 敛散性不确定 已知 $|x-2|=4$ 处收敛，半径至少4；$x=4$ 对应距离2，小于半径，故绝对收敛。",
+  "sort_order": 65
+}

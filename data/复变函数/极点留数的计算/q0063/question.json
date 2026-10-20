@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac{3\\pi-z}{\\sin^2z},3\\pi\\right)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac1{3\\pi}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lim_{z\\to3\\pi}(z-3\\pi)(3\\pi-z)/\\sin^2z=-1$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac{3\\pi-z}{\\sin^2z},3\\pi\\right)=(\\ )$。 $-1$ $1$ $3\\pi$ $-\\frac1{3\\pi}$ $\\lim_{z\\to3\\pi}(z-3\\pi)(3\\pi-z)/\\sin^2z=-1$。",
+  "sort_order": 63
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某厂要用铁板做成体积为 $2m^3$ 的有盖长方体水箱，使用材料最省的长、宽、高分别为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2\\sqrt[3]2,\\sqrt[3]2,\\sqrt[3]2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\sqrt[3]2,\\sqrt[3]2,\\sqrt[3]2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\sqrt[3]2,2\\sqrt[3]2,\\sqrt[3]2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\sqrt[3]2,\\sqrt[3]2,2\\sqrt[3]2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设水箱的长为 $xm$，宽为 $ym$，则其高应为 $\\dfrac{2}{xy}m$，此水箱所用材料的面积\n$$\nA=2(xy+y\\cdot\\dfrac{2}{xy}+x\\cdot\\dfrac{2}{xy}),\n$$\n即目标函数为\n$$\nA=2(xy+\\dfrac{2}{x}+\\dfrac{2}{y})\\qquad(x>0,y>0),\n$$\n令\n$$\nA_x=2(y-\\dfrac{2}{x^2})=0,\\quad A_y=2(x-\\dfrac{2}{y^2})=0.\n$$\n解得唯一的驻点 $x=\\sqrt[3]{2},y=\\sqrt[3]{2}$。根据题意可知，水箱所用材料面积的最小值一定存在，该驻点即为所求最小值点。即当长、宽、高均为 $\\sqrt[3]{2}\\,m$ 时，水箱所用的材料最省。",
+  "search_text": "某厂要用铁板做成体积为 $2m^3$ 的有盖长方体水箱，使用材料最省的长、宽、高分别为。 $(2\\sqrt[3]2,\\sqrt[3]2,\\sqrt[3]2)$ $(\\sqrt[3]2,\\sqrt[3]2,\\sqrt[3]2)$ $(\\sqrt[3]2,2\\sqrt[3]2,\\sqrt[3]2)$ $(\\sqrt[3]2,\\sqrt[3]2,2\\sqrt[3]2)$ 设水箱的长为 $xm$，宽为 $ym$，则其高应为 $\\dfrac{2}{xy}m$，此水箱所用材料的面积\n$$\nA=2(xy+y\\cdot\\dfrac{2}{xy}+x\\cdot\\dfrac{2}{xy}),\n$$\n即目标函数为\n$$\nA=2(xy+\\dfrac{2}{x}+\\dfrac{2}{y})\\qquad(x>0,y>0),\n$$\n令\n$$\nA_x=2(y-\\dfrac{2}{x^2})=0,\\quad A_y=2(x-\\dfrac{2}{y^2})=0.\n$$\n解得唯一的驻点 $x=\\sqrt[3]{2},y=\\sqrt[3]{2}$。根据题意可知，水箱所用材料面积的最小值一定存在，该驻点即为所求最小值点。即当长、宽、高均为 $\\sqrt[3]{2}\\,m$ 时，水箱所用的材料最省。",
+  "sort_order": 2
+}

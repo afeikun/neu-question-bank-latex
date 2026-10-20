@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列矩阵是行最简形矩阵的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{bmatrix}1&-2&-1&-1\\\\0&0&7&5\\\\0&0&21&15\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{bmatrix}1&-2&0&-\\frac27\\\\0&0&-1&-\\frac57\\\\0&0&0&0\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{bmatrix}1&-2&0&-\\frac27\\\\0&0&1&\\frac57\\\\0&0&0&0\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{bmatrix}1&-2&-1&-1\\\\0&0&1&\\frac57\\\\0&0&0&0\\end{bmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "行最简形要求主元为 1 且主元所在列其余元素为 0。选项 3 满足要求。",
+  "search_text": "下列矩阵是行最简形矩阵的是(\\quad)。 $\\begin{bmatrix}1&-2&-1&-1\\\\0&0&7&5\\\\0&0&21&15\\end{bmatrix}$ $\\begin{bmatrix}1&-2&0&-\\frac27\\\\0&0&-1&-\\frac57\\\\0&0&0&0\\end{bmatrix}$ $\\begin{bmatrix}1&-2&0&-\\frac27\\\\0&0&1&\\frac57\\\\0&0&0&0\\end{bmatrix}$ $\\begin{bmatrix}1&-2&-1&-1\\\\0&0&1&\\frac57\\\\0&0&0&0\\end{bmatrix}$ 行最简形要求主元为 1 且主元所在列其余元素为 0。选项 3 满足要求。",
+  "sort_order": 41
+}

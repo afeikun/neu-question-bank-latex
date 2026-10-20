@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于多项式 $f(x)=\\begin{vmatrix}x+a_{11}&x+a_{12}&x+a_{13}\\\\x+a_{21}&x+a_{22}&x+a_{23}\\\\x+a_{31}&x+a_{32}&x+a_{33}\\end{vmatrix}$ 的次数的结论正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "次数不超过 $1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "次数等于 $2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "次数等于 $3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "次数等于 $1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将第二、三行分别减去第一行后，每行只剩两项与 $x$ 无关，第一行至多含一个 $x$，故行列式作为 $x$ 的多项式次数不超过 $1$。",
+  "search_text": "关于多项式 $f(x)=\\begin{vmatrix}x+a_{11}&x+a_{12}&x+a_{13}\\\\x+a_{21}&x+a_{22}&x+a_{23}\\\\x+a_{31}&x+a_{32}&x+a_{33}\\end{vmatrix}$ 的次数的结论正确的是（ ）。 次数不超过 $1$ 次数等于 $2$ 次数等于 $3$ 次数等于 $1$ 将第二、三行分别减去第一行后，每行只剩两项与 $x$ 无关，第一行至多含一个 $x$，故行列式作为 $x$ 的多项式次数不超过 $1$。",
+  "sort_order": 55
+}

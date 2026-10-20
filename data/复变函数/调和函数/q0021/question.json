@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若函数 $v(x,y)=x^3+axy^2$ 为某一解析函数的虚部，则常数 $a=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "虚部为调和函数，因此 $v_{xx}+v_{yy}=6x+2ax=0$，解得 $a=-3$。",
+  "search_text": "若函数 $v(x,y)=x^3+axy^2$ 为某一解析函数的虚部，则常数 $a=(\\quad)$。 $-3$ $-1$ $0$ $2$ 虚部为调和函数，因此 $v_{xx}+v_{yy}=6x+2ax=0$，解得 $a=-3$。",
+  "sort_order": 21
+}

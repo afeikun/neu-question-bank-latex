@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在 $[0,+\\infty)$ 上，$t^m\\ast t^n=(\\quad)$，其中 $m,n$ 为正整数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{m!n!}{(m+n+1)!}t^{m+n+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{m!n!}{(m+n)!}t^{m+n+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{m!n!}{(m+n)!}t^{m+n}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{m!n!}{(m+n+1)!}t^{m+n}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$t^m\\ast t^n=\\int_0^t\\tau^m(t-\\tau)^n\\,d\\tau=\\frac{m!n!}{(m+n+1)!}t^{m+n+1}$。",
+  "search_text": "在 $[0,+\\infty)$ 上，$t^m\\ast t^n=(\\quad)$，其中 $m,n$ 为正整数。 $\\frac{m!n!}{(m+n+1)!}t^{m+n+1}$ $\\frac{m!n!}{(m+n)!}t^{m+n+1}$ $\\frac{m!n!}{(m+n)!}t^{m+n}$ $\\frac{m!n!}{(m+n+1)!}t^{m+n}$ $t^m\\ast t^n=\\int_0^t\\tau^m(t-\\tau)^n\\,d\\tau=\\frac{m!n!}{(m+n+1)!}t^{m+n+1}$。",
+  "sort_order": 8
+}

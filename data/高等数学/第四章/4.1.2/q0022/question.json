@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int\\frac1{3+2x}\\,dx$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12\\ln(3+x)+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln(3+2x)+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\ln(3+2x)+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln(3+x)+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "凑微分得 $\\frac12\\int\\frac{d(3+2x)}{3+2x}=\\frac12\\ln|3+2x|+C$。",
+  "search_text": "不定积分 $\\int\\frac1{3+2x}\\,dx$ 的值为 $\\frac12\\ln(3+x)+C$ $\\ln(3+2x)+C$ $\\frac12\\ln(3+2x)+C$ $\\ln(3+x)+C$ 凑微分得 $\\frac12\\int\\frac{d(3+2x)}{3+2x}=\\frac12\\ln|3+2x|+C$。",
+  "sort_order": 22
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$E(X)=\\mu,D(X)=\\sigma^2$，关于无偏估计以下正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$c=1/n$时$(\\bar X)^2-cS^2$是$\\mu^2$无偏估计"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$c=1/[2(n-1)]$时$c\\sum(X_{i+1}-X_i)^2$是$\\sigma^2$无偏估计"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$c=1/(2n)$时相邻差估计无偏"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$c=1/(n-1)$时$(\\bar X)^2-cS^2$无偏"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\bar X^2)=\\mu^2+\\sigma^2/n$，且$E(S^2)=\\sigma^2$，取$c=1/n$。",
+  "search_text": "$E(X)=\\mu,D(X)=\\sigma^2$，关于无偏估计以下正确的是（）。 $c=1/n$时$(\\bar X)^2-cS^2$是$\\mu^2$无偏估计 $c=1/[2(n-1)]$时$c\\sum(X_{i+1}-X_i)^2$是$\\sigma^2$无偏估计 $c=1/(2n)$时相邻差估计无偏 $c=1/(n-1)$时$(\\bar X)^2-cS^2$无偏 $E(\\bar X^2)=\\mu^2+\\sigma^2/n$，且$E(S^2)=\\sigma^2$，取$c=1/n$。",
+  "sort_order": 19
+}

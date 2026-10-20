@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $yy''-(y')^2=0$ 的通解为（　）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{Cx}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{Cx}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1x+e^{Cx}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1xe^{Cx}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：两端同乘 $\\frac{1}{y^2}$，则方程化为 $\\frac{yy''-(y')^2}{y^2}=\\left(\\frac{y'}{y}\\right)'=0$\n即 $y'=Cy$，从而 $y=C_1e^{Cx}$。选B。",
+  "search_text": "方程 $yy''-(y')^2=0$ 的通解为（　） $y=C_1e^{Cx}$ $y=e^{Cx}$ $y=C_1x+e^{Cx}$ $y=C_1xe^{Cx}$ 解析：两端同乘 $\\frac{1}{y^2}$，则方程化为 $\\frac{yy''-(y')^2}{y^2}=\\left(\\frac{y'}{y}\\right)'=0$\n即 $y'=Cy$，从而 $y=C_1e^{Cx}$。选B。",
+  "sort_order": 1
+}

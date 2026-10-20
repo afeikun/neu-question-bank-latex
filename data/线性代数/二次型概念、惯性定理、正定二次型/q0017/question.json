@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha$ 是 $n$ 维单位列向量，$E$ 是 $n$ 阶单位矩阵，则实二次型 $f(x_1,x_2,\\cdots,x_n)=x^T(E-\\alpha\\alpha^T)x$ 的秩为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $R(E-\\alpha\\alpha^T)+R(\\alpha\\alpha^T)\\ge R(E)=n$，且 $R(\\alpha\\alpha^T)=1$，得 $R(E-\\alpha\\alpha^T)\\ge n-1$。又 $\\alpha^T\\alpha=1$ 是矩阵 $\\alpha\\alpha^T$ 的特征值，故 $|E-\\alpha\\alpha^T|=0$，所以 $R(E-\\alpha\\alpha^T)\\le n-1$。因此 $R(f)=n-1$。",
+  "search_text": "设 $\\alpha$ 是 $n$ 维单位列向量，$E$ 是 $n$ 阶单位矩阵，则实二次型 $f(x_1,x_2,\\cdots,x_n)=x^T(E-\\alpha\\alpha^T)x$ 的秩为（ ）。 $n-1$ $0$ $1$ $n$ 由 $R(E-\\alpha\\alpha^T)+R(\\alpha\\alpha^T)\\ge R(E)=n$，且 $R(\\alpha\\alpha^T)=1$，得 $R(E-\\alpha\\alpha^T)\\ge n-1$。又 $\\alpha^T\\alpha=1$ 是矩阵 $\\alpha\\alpha^T$ 的特征值，故 $|E-\\alpha\\alpha^T|=0$，所以 $R(E-\\alpha\\alpha^T)\\le n-1$。因此 $R(f)=n-1$。",
+  "sort_order": 17
+}

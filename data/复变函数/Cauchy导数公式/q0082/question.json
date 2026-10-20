@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为正向简单闭曲线，$0$ 在 $C$ 外，$1$ 在 $C$ 内，则积分 $\\frac{1}{2\\pi i}\\oint_C\\frac{e^z}{z(1-z)^3}\\,dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "content_md": "$-\\frac e2$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "$0$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$1-\\frac e2$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$1+\\frac e2$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆周内只有奇点 $1$，由二阶Cauchy导数公式得 $\\frac1{2!}f\\prime\\prime(1)=-e/2$。",
+  "search_text": "设 $C$ 为正向简单闭曲线，$0$ 在 $C$ 外，$1$ 在 $C$ 内，则积分 $\\frac{1}{2\\pi i}\\oint_C\\frac{e^z}{z(1-z)^3}\\,dz$ 等于（ ）。 $-\\frac e2$ $0$ $1-\\frac e2$ $1+\\frac e2$ 被积函数在圆周内只有奇点 $1$，由二阶Cauchy导数公式得 $\\frac1{2!}f\\prime\\prime(1)=-e/2$。",
+  "sort_order": 82
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\zeta=0$ 是函数 $f(\\zeta)$ 的一个孤立奇点，$\\zeta=(z-z_0)^2$，复合函数 $F(z)=f((z-z_0)^2)$，则 $\\operatorname{Res}[F(z),z_0]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(c_{-1})^2=\\left(\\dfrac1{2\\pi i}\\oint_Cf(z)\\,dz\\right)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$c_{-1}=\\dfrac1{2\\pi i}\\oint_Cf(z)\\,dz$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$c_{-3}=\\dfrac1{2\\pi i}\\oint_C\\dfrac{f(z)}{(z-z_0)^2}\\,dz$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "若 $f(\\zeta)=\\sum c_n\\zeta^n$，代入 $\\zeta=(z-z_0)^2$ 后只出现 $(z-z_0)^{2n}$ 次幂，没有 $(z-z_0)^{-1}$ 项，留数为 $0$。",
+  "search_text": "设 $\\zeta=0$ 是函数 $f(\\zeta)$ 的一个孤立奇点，$\\zeta=(z-z_0)^2$，复合函数 $F(z)=f((z-z_0)^2)$，则 $\\operatorname{Res}[F(z),z_0]=(\\ \\ )$。 $0$ $(c_{-1})^2=\\left(\\dfrac1{2\\pi i}\\oint_Cf(z)\\,dz\\right)^2$ $c_{-1}=\\dfrac1{2\\pi i}\\oint_Cf(z)\\,dz$ $c_{-3}=\\dfrac1{2\\pi i}\\oint_C\\dfrac{f(z)}{(z-z_0)^2}\\,dz$ 若 $f(\\zeta)=\\sum c_n\\zeta^n$，代入 $\\zeta=(z-z_0)^2$ 后只出现 $(z-z_0)^{2n}$ 次幂，没有 $(z-z_0)^{-1}$ 项，留数为 $0$。",
+  "sort_order": 82
+}

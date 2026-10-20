@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=(x-a)(x-b)(x-c)(x-d)$，其中 $a,b,c,d$ 互不相等，且 $f\\prime(k)=(k-a)(k-b)(k-c)$，则 $k$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$d$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "代入 $x=d$ 时导数为 $(d-a)(d-b)(d-c)$，故 $k=d$。",
+  "search_text": "设 $f(x)=(x-a)(x-b)(x-c)(x-d)$，其中 $a,b,c,d$ 互不相等，且 $f\\prime(k)=(k-a)(k-b)(k-c)$，则 $k$ 的值为（ ）。 $d$ $c$ $a$ $b$ 代入 $x=d$ 时导数为 $(d-a)(d-b)(d-c)$，故 $k=d$。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设曲线 $L$ 是抛物线 $y=x^2$ 上自 $O(0,0)$ 到 $A(1,1)$ 的部分，则 $I=\\int_L\\sqrt y\\,ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt5-1}{4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\sqrt5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{5\\sqrt5-1}{12}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt5}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $I=\\int_0^1\\sqrt{x^2}\\sqrt{1+y'^2}\\,dx=\\int_0^1x\\sqrt{1+4x^2}\\,dx$\n\n$$\n=\\frac{1}{8}\\int_0^1(1+4x^2)^{\\frac{1}{2}}d(1+4x^2)=\\frac{1}{12}(1+4x^2)^{\\frac{3}{2}}\\Big|_0^1=\\frac{5\\sqrt{5}-1}{12}\n$$",
+  "search_text": "设曲线 $L$ 是抛物线 $y=x^2$ 上自 $O(0,0)$ 到 $A(1,1)$ 的部分，则 $I=\\int_L\\sqrt y\\,ds=$（ ） $\\frac{\\sqrt5-1}{4}$ $2\\sqrt5$ $\\frac{5\\sqrt5-1}{12}$ $\\frac{\\sqrt5}{2}$ 解答 $I=\\int_0^1\\sqrt{x^2}\\sqrt{1+y'^2}\\,dx=\\int_0^1x\\sqrt{1+4x^2}\\,dx$\n\n$$\n=\\frac{1}{8}\\int_0^1(1+4x^2)^{\\frac{1}{2}}d(1+4x^2)=\\frac{1}{12}(1+4x^2)^{\\frac{3}{2}}\\Big|_0^1=\\frac{5\\sqrt{5}-1}{12}\n$$",
+  "sort_order": 19
+}

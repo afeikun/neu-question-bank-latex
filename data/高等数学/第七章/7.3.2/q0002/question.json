@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\cos^2x+\\cos^2y+\\cos^2z=1$ 所确定的 $z=z(x,y)$ 的全微分 $dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\cos2x,dx+\\sin2y,dy}{\\cos x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{\\sin2x,dx+\\sin2y,dy}{\\sin2z}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sin2z,dz-sin2x,dy}{\\sin2x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{\\sin2x,dx+\\cos2y,dy}{\\sin^2z}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "等式两边同时关于$x,y$求导，得\n\n$-2\\cos x\\sin x-2z_x\\cos z\\sin z=0,\\quad -2\\cos y\\sin y-2z_y\\cos z\\sin z=0,$\n\n得到$\\quad z_x=-\\frac{\\sin2x}{\\sin2z},\\quad z_y=-\\frac{\\sin2y}{\\sin2z},$\n\n则全微分为$dz=-\\frac{\\sin2x\\,dx+\\sin2y\\,dy}{\\sin2z}.$",
+  "search_text": "方程 $\\cos^2x+\\cos^2y+\\cos^2z=1$ 所确定的 $z=z(x,y)$ 的全微分 $dz=(\\quad)$。 $\\frac{\\cos2x,dx+\\sin2y,dy}{\\cos x}$ $-\\frac{\\sin2x,dx+\\sin2y,dy}{\\sin2z}$ $\\frac{\\sin2z,dz-sin2x,dy}{\\sin2x}$ $-\\frac{\\sin2x,dx+\\cos2y,dy}{\\sin^2z}$ 等式两边同时关于$x,y$求导，得\n\n$-2\\cos x\\sin x-2z_x\\cos z\\sin z=0,\\quad -2\\cos y\\sin y-2z_y\\cos z\\sin z=0,$\n\n得到$\\quad z_x=-\\frac{\\sin2x}{\\sin2z},\\quad z_y=-\\frac{\\sin2y}{\\sin2z},$\n\n则全微分为$dz=-\\frac{\\sin2x\\,dx+\\sin2y\\,dy}{\\sin2z}.$",
+  "sort_order": 2
+}

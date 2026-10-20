@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=2^x$，则 $\\lim_{n\\to\\infty}\\frac1{n^2}\\ln[f(1)f(2)\\cdots f(n)]=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac16\\ln2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\ln2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac14\\ln2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对数化为 $\\frac{1+2+\\cdots+n}{n^2}\\ln2$，极限为 $\\frac12\\ln2$。",
+  "search_text": "设 $f(x)=2^x$，则 $\\lim_{n\\to\\infty}\\frac1{n^2}\\ln[f(1)f(2)\\cdots f(n)]=(\\ )$。 $\\frac16\\ln2$ $\\ln2$ $\\frac12\\ln2$ $\\frac14\\ln2$ 对数化为 $\\frac{1+2+\\cdots+n}{n^2}\\ln2$，极限为 $\\frac12\\ln2$。",
+  "sort_order": 51
+}

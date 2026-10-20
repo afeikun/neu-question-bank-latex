@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\oint_{|z|=3}\\frac{(z^2-z-2)e^z}{(z-2)^3}\\,dz$ 等于（ ），方向沿 $|z|=2$ 的正向。",
+  "options_json": [
+    {
+      "content_md": "$8\\pi e^2 i$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "-$6e$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$4\\pi e i$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$2\\pi e i$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "约去一个因子后在 $z=2$ 处用一阶Cauchy导数公式，得 $8\\pi e^2 i$。",
+  "search_text": "积分 $I=\\oint_{|z|=3}\\frac{(z^2-z-2)e^z}{(z-2)^3}\\,dz$ 等于（ ），方向沿 $|z|=2$ 的正向。 $8\\pi e^2 i$ -$6e$ $4\\pi e i$ $2\\pi e i$ 约去一个因子后在 $z=2$ 处用一阶Cauchy导数公式，得 $8\\pi e^2 i$。",
+  "sort_order": 64
+}

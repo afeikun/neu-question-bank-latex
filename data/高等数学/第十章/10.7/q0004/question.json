@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一点 $P$ 沿曲线运动，闪光灯照射点 $P$ 在 $x$ 轴上的投影；曲线切线斜率与 $OP$ 斜率之差为 $5x$，求曲线方程所满足的微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^\\prime-\\frac yx=5x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{y-y^\\prime}{x}=5x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^\\prime-y=5x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^\\prime-\\frac yx+5x=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：依题意得 $y'-\\frac{y}{x}=5x$",
+  "search_text": "一点 $P$ 沿曲线运动，闪光灯照射点 $P$ 在 $x$ 轴上的投影；曲线切线斜率与 $OP$ 斜率之差为 $5x$，求曲线方程所满足的微分方程。 $y^\\prime-\\frac yx=5x$ $\\frac{y-y^\\prime}{x}=5x$ $y^\\prime-y=5x$ $y^\\prime-\\frac yx+5x=0$ 解析：依题意得 $y'-\\frac{y}{x}=5x$",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)$ 二阶可导，且 $f\\prime(0)=0$，$\\displaystyle\\lim_{x\\to0}\\frac{f\\prime\\prime(x)}x=-1$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,f(0))$ 是曲线拐点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(0)$ 是 $f(x)$ 的极大值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0,f(0))$ 不是曲线拐点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(0)$ 是 $f(x)$ 的极小值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime\\prime(x)$ 在零点两侧异号，故该点是拐点；单凭条件不能判定 $f(0)$ 是否为极值。",
+  "search_text": "若 $f(x)$ 二阶可导，且 $f\\prime(0)=0$，$\\displaystyle\\lim_{x\\to0}\\frac{f\\prime\\prime(x)}x=-1$，则（ ）。 $(0,f(0))$ 是曲线拐点 $f(0)$ 是 $f(x)$ 的极大值 $(0,f(0))$ 不是曲线拐点 $f(0)$ 是 $f(x)$ 的极小值 $f\\prime\\prime(x)$ 在零点两侧异号，故该点是拐点；单凭条件不能判定 $f(0)$ 是否为极值。",
+  "sort_order": 23
+}

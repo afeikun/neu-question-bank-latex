@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "等腰梯形形闸门两底边长 $10m$ 和 $6m$，高 $20m$，较长底边与水面相平，求闸门一侧水压力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3.4\\times10^7N$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1.4\\times10^7N$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2.4\\times10^7N$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4.4\\times10^7N$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$P=\\int_0^{20}\\rho gx(10-0.2x)dx=1.4\\times10^7N$。",
+  "search_text": "等腰梯形形闸门两底边长 $10m$ 和 $6m$，高 $20m$，较长底边与水面相平，求闸门一侧水压力。 $3.4\\times10^7N$ $1.4\\times10^7N$ $2.4\\times10^7N$ $4.4\\times10^7N$ $P=\\int_0^{20}\\rho gx(10-0.2x)dx=1.4\\times10^7N$。",
+  "sort_order": 1
+}

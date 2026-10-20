@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设级数 $\\sum_{n=0}^{\\infty}c_n$ 收敛，而 $\\sum_{n=0}^{\\infty}|c_n|$ 发散，那么 $\\sum_{n=0}^{\\infty}c_nz^n$ 的收敛半径 $R=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在 $z=1$ 收敛，在 $|z|>1$ 发散，因此收敛半径为 $1$。",
+  "search_text": "设级数 $\\sum_{n=0}^{\\infty}c_n$ 收敛，而 $\\sum_{n=0}^{\\infty}|c_n|$ 发散，那么 $\\sum_{n=0}^{\\infty}c_nz^n$ 的收敛半径 $R=(\\quad)$。 $1$ $\\infty$ $0$ $e$ 在 $z=1$ 收敛，在 $|z|>1$ 发散，因此收敛半径为 $1$。",
+  "sort_order": 21
+}

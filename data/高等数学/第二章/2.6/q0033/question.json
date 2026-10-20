@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "心形线 $r=a(1-\\cos\\theta)$ 在 $\\theta=\\frac\\pi2$ 处切线方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-x+y=a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+y=-a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-y=a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+y=a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由极坐标方程可得参数方程 $\\left\\{\\begin{array}{l}x=a(1-\\cos\\theta)\\cos\\theta\\\\y=a(1-\\cos\\theta)\\sin\\theta\\end{array}\\right.$ 两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=-a(\\sin\\theta-\\sin 2\\theta),\\quad \\frac{dy}{d\\theta}=a(\\cos\\theta-\\cos 2\\theta),$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=-\\frac{\\cos\\theta-\\cos 2\\theta}{\\sin\\theta-\\sin 2\\theta}=\\tan\\frac{3\\theta}{2}.$\n\n$$\\left.\\frac{dy}{dx}\\right|_{\\theta=\\frac{\\pi}{2}}=\\left.\\frac{dy/dt}{dx/dt}\\right|_{\\theta=\\frac{\\pi}{2}}=-1.$$\n\n带入初值可得 $y\\left(\\frac{\\pi}{2}\\right)=a,x\\left(\\frac{\\pi}{2}\\right)=0$ 则切线方程为 $y-a=-x$",
+  "search_text": "心形线 $r=a(1-\\cos\\theta)$ 在 $\\theta=\\frac\\pi2$ 处切线方程。 $-x+y=a$ $x+y=-a$ $x-y=a$ $x+y=a$ 解答 由极坐标方程可得参数方程 $\\left\\{\\begin{array}{l}x=a(1-\\cos\\theta)\\cos\\theta\\\\y=a(1-\\cos\\theta)\\sin\\theta\\end{array}\\right.$ 两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=-a(\\sin\\theta-\\sin 2\\theta),\\quad \\frac{dy}{d\\theta}=a(\\cos\\theta-\\cos 2\\theta),$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=-\\frac{\\cos\\theta-\\cos 2\\theta}{\\sin\\theta-\\sin 2\\theta}=\\tan\\frac{3\\theta}{2}.$\n\n$$\\left.\\frac{dy}{dx}\\right|_{\\theta=\\frac{\\pi}{2}}=\\left.\\frac{dy/dt}{dx/dt}\\right|_{\\theta=\\frac{\\pi}{2}}=-1.$$\n\n带入初值可得 $y\\left(\\frac{\\pi}{2}\\right)=a,x\\left(\\frac{\\pi}{2}\\right)=0$ 则切线方程为 $y-a=-x$",
+  "sort_order": 33
+}

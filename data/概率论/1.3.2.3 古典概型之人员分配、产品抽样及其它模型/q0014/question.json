@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "10个人中有一对夫妇，他们随意坐在一张圆桌周围，则该对夫妇正好坐在一起的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2/9$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5/9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4/9$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/9$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将夫妇视为一个整体，圆排列数与全体圆排列数之比为$2\\cdot8!/9!=2/9$。",
+  "search_text": "10个人中有一对夫妇，他们随意坐在一张圆桌周围，则该对夫妇正好坐在一起的概率为（ ）。 $2/9$ $5/9$ $4/9$ $1/9$ 将夫妇视为一个整体，圆排列数与全体圆排列数之比为$2\\cdot8!/9!=2/9$。",
+  "sort_order": 14
+}

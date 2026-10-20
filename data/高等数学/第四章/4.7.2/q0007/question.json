@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两曲线y=f(x)、y=g(x)在(x₁,y₁)、(x₂,y₂)相交且f,g>0，围成区域绕x轴旋转体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫ₓ₁ˣ²π|f−g|²dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫ₓ₁ˣ²π|f²−g²|dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫ₓ₁ˣ²|πf−g|²dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫ₓ₁ˣ²π|f−g|²dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "垫片法体积元为π|f²−g²|dx。",
+  "search_text": "两曲线y=f(x)、y=g(x)在(x₁,y₁)、(x₂,y₂)相交且f,g>0，围成区域绕x轴旋转体积 ∫ₓ₁ˣ²π|f−g|²dx ∫ₓ₁ˣ²π|f²−g²|dx ∫ₓ₁ˣ²|πf−g|²dx ∫ₓ₁ˣ²π|f−g|²dx 垫片法体积元为π|f²−g²|dx。",
+  "sort_order": 7
+}

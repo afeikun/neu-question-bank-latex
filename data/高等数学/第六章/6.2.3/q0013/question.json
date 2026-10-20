@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(a+b)\\cdot[(b+c)\\times(c+a)]=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2[bac]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2[acb]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2[abc]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2[cba]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "展开后仅两项不为零，得 $a\\cdot(b\\times c)+b\\cdot(c\\times a)=2[abc]$。",
+  "search_text": "$(a+b)\\cdot[(b+c)\\times(c+a)]=(\\quad)$。 $2[bac]$ $2[acb]$ $2[abc]$ $2[cba]$ 展开后仅两项不为零，得 $a\\cdot(b\\times c)+b\\cdot(c\\times a)=2[abc]$。",
+  "sort_order": 13
+}

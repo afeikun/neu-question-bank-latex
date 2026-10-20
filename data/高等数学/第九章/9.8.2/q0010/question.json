@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量场 $A=\\{y\\ln z,z,\\ln y\\}$，则 $A$ 的旋度 $\\operatorname{rot}A=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{\\frac1y,\\frac yz,-\\ln z\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{\\frac{1-y}{y},\\frac yz,\\ln\\frac1z\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{\\frac{1-y}{y},\\frac1z,-\\ln z\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{\\frac1y-1,\\frac yz,\\ln z\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：$\\frac{\\partial\\ln y}{\\partial y}-\\frac{\\partial z}{\\partial z}=\\frac{1-y}{y},\\quad \\frac{\\partial(y\\ln z)}{\\partial z}-\\frac{\\partial\\ln y}{\\partial x}=\\frac{y}{z},\\quad \\frac{\\partial z}{\\partial y}-\\frac{\\partial(y\\ln z)}{\\partial y}=-\\ln z$，\n\n∴ $\\operatorname{rot}A=\\left\\{\\frac{1-y}{y},\\frac{y}{z},\\ln\\frac{1}{z}\\right\\}$。",
+  "search_text": "设向量场 $A=\\{y\\ln z,z,\\ln y\\}$，则 $A$ 的旋度 $\\operatorname{rot}A=$（ ） $\\{\\frac1y,\\frac yz,-\\ln z\\}$ $\\{\\frac{1-y}{y},\\frac yz,\\ln\\frac1z\\}$ $\\{\\frac{1-y}{y},\\frac1z,-\\ln z\\}$ $\\{\\frac1y-1,\\frac yz,\\ln z\\}$ 解析：$\\frac{\\partial\\ln y}{\\partial y}-\\frac{\\partial z}{\\partial z}=\\frac{1-y}{y},\\quad \\frac{\\partial(y\\ln z)}{\\partial z}-\\frac{\\partial\\ln y}{\\partial x}=\\frac{y}{z},\\quad \\frac{\\partial z}{\\partial y}-\\frac{\\partial(y\\ln z)}{\\partial y}=-\\ln z$，\n\n∴ $\\operatorname{rot}A=\\left\\{\\frac{1-y}{y},\\frac{y}{z},\\ln\\frac{1}{z}\\right\\}$。",
+  "sort_order": 10
+}

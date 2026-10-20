@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 有二阶连续导数，在 $x=0$ 的某邻域内 $f(x)\\ne0$，且 $f''(0)=4$，$\\lim_{x\\to0}\\frac{f(x)}x=0$。求 $\\lim_{x\\to0}[1+\\frac{f(x)}x]^{1/x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lim f(x)/x^2=f''(0)/2=2$，故极限为 $\\exp(2)=e^2$。",
+  "search_text": "设 $f(x)$ 有二阶连续导数，在 $x=0$ 的某邻域内 $f(x)\\ne0$，且 $f''(0)=4$，$\\lim_{x\\to0}\\frac{f(x)}x=0$。求 $\\lim_{x\\to0}[1+\\frac{f(x)}x]^{1/x}=(\\quad)$。 $e^2$ $1$ $e^{-2}$ $e^4$ $\\lim f(x)/x^2=f''(0)/2=2$，故极限为 $\\exp(2)=e^2$。",
+  "sort_order": 12
+}

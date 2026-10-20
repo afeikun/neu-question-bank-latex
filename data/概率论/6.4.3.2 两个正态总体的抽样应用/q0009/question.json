@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_1,\\ldots,X_n$为正态总体$N(0,\\sigma^2)$样本，$1\\le m<n,m\\ne n/2$，下列结论正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{m^{-1}\\sum_{i=1}^mX_i^2}{(n-m)^{-1}\\sum_{i=m+1}^nX_i^2}\\sim F(m,n-m)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{i=1}^nX_i^2\\sim\\chi^2(n)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sigma^{-2}(\\sum_{i=1}^nX_i)^2\\sim\\chi^2(1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{i=1}^nX_i/\\sqrt{\\sum_{i=m+1}^nX_i^2}\\sim t(n-m)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两组互相独立的平方和分别标准化后服从自由度$m$和$n-m$的卡方分布，方差比服从$F(m,n-m)$。",
+  "search_text": "$X_1,\\ldots,X_n$为正态总体$N(0,\\sigma^2)$样本，$1\\le m<n,m\\ne n/2$，下列结论正确的是（）。 $\\frac{m^{-1}\\sum_{i=1}^mX_i^2}{(n-m)^{-1}\\sum_{i=m+1}^nX_i^2}\\sim F(m,n-m)$ $\\sum_{i=1}^nX_i^2\\sim\\chi^2(n)$ $\\sigma^{-2}(\\sum_{i=1}^nX_i)^2\\sim\\chi^2(1)$ $\\sum_{i=1}^nX_i/\\sqrt{\\sum_{i=m+1}^nX_i^2}\\sim t(n-m)$ 两组互相独立的平方和分别标准化后服从自由度$m$和$n-m$的卡方分布，方差比服从$F(m,n-m)$。",
+  "sort_order": 9
+}

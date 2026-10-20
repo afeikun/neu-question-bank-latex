@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$指数分布均值$\\theta$，$Z=\\min(X_1,\\ldots,X_n)$，下列正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$nZ$是$\\theta$的无偏估计"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$D(nZ)<D(\\bar X)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(nZ)=D(\\bar X)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$D(nZ)>D(\\bar X)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "最小值均值为$\\theta/n$，因此$nZ$无偏，其方差大于样本均值方差。",
+  "search_text": "$X$指数分布均值$\\theta$，$Z=\\min(X_1,\\ldots,X_n)$，下列正确的是（）。 $nZ$是$\\theta$的无偏估计 $D(nZ)<D(\\bar X)$ $D(nZ)=D(\\bar X)$ $D(nZ)>D(\\bar X)$ 最小值均值为$\\theta/n$，因此$nZ$无偏，其方差大于样本均值方差。",
+  "sort_order": 5
+}

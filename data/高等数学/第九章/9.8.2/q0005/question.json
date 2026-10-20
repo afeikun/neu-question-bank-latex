@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=z^2\\mathbf i+x^2\\mathbf j+y^2\\mathbf k,u=x+2y$，则计算 $\\operatorname{rot}(uA)=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{2xy+6y^2,2xz+4yz-y^2,3x^2+4xy-2z^2\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{2xy+6xy,2xz+4yz-y^2,3x^2+4xy-2z^2\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{2xy+6y^2,2xz-2xy^2,3x^2+4xy-2z^2\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{2xy+6y^2,4yz-y^2,4xy-2z^2\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\operatorname{rot}(uA)=\\operatorname{rot}A+\\operatorname{grad}u\\times A$\n$\\operatorname{rot}A=\\{2y,2z,2x\\}$\n$\\operatorname{grad}u=\\{1,2,0\\}$\n$\\operatorname{grad}u\\times A=\\{2y^2,-y^2,x^2-2z^2\\}$\n\n因此 $\\operatorname{rot}(uA)=\\{2xy+6y^2,2xz+4yz-y^2,3x^2+4xy-2z^2\\}$",
+  "search_text": "设 $A=z^2\\mathbf i+x^2\\mathbf j+y^2\\mathbf k,u=x+2y$，则计算 $\\operatorname{rot}(uA)=$（ ） $\\{2xy+6y^2,2xz+4yz-y^2,3x^2+4xy-2z^2\\}$ $\\{2xy+6xy,2xz+4yz-y^2,3x^2+4xy-2z^2\\}$ $\\{2xy+6y^2,2xz-2xy^2,3x^2+4xy-2z^2\\}$ $\\{2xy+6y^2,4yz-y^2,4xy-2z^2\\}$ $\\operatorname{rot}(uA)=\\operatorname{rot}A+\\operatorname{grad}u\\times A$\n$\\operatorname{rot}A=\\{2y,2z,2x\\}$\n$\\operatorname{grad}u=\\{1,2,0\\}$\n$\\operatorname{grad}u\\times A=\\{2y^2,-y^2,x^2-2z^2\\}$\n\n因此 $\\operatorname{rot}(uA)=\\{2xy+6y^2,2xz+4yz-y^2,3x^2+4xy-2z^2\\}$",
+  "sort_order": 5
+}

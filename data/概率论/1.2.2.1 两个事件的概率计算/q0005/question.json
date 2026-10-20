@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $P(A)=p$，$P(B)=q$，$P(A\\cup B)=r$，则 $P(A\\overline B)$、$P(\\overline A\\,\\overline B)$、$P(\\overline A\\cup\\overline B)$、$P(A\\cup\\overline B)$ 的值分别为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$r-q,\\ 1-r,\\ 1+r-p-q,\\ 1+p-r$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$r-p,\\ 1-r,\\ 1+r-p-q,\\ 1+q-r$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$r-p,\\ 1-r,\\ 1+r-p-q,\\ 1+p-r$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$r-q,\\ 1-r,\\ 1+r-p-q,\\ 1+q-r$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $P(AB)=p+q-r$，得 $P(A\\overline B)=r-q$，$P(\\overline A\\,\\overline B)=1-r$，$P(\\overline A\\cup\\overline B)=1+r-p-q$，且 $P(A\\cup\\overline B)=1-P(\\overline A B)=1-(r-p)=1+p-r$。四个结果对应第一项，原图并无此处的补号错误。",
+  "search_text": "设 $P(A)=p$，$P(B)=q$，$P(A\\cup B)=r$，则 $P(A\\overline B)$、$P(\\overline A\\,\\overline B)$、$P(\\overline A\\cup\\overline B)$、$P(A\\cup\\overline B)$ 的值分别为（ ）。 $r-q,\\ 1-r,\\ 1+r-p-q,\\ 1+p-r$ $r-p,\\ 1-r,\\ 1+r-p-q,\\ 1+q-r$ $r-p,\\ 1-r,\\ 1+r-p-q,\\ 1+p-r$ $r-q,\\ 1-r,\\ 1+r-p-q,\\ 1+q-r$ 由 $P(AB)=p+q-r$，得 $P(A\\overline B)=r-q$，$P(\\overline A\\,\\overline B)=1-r$，$P(\\overline A\\cup\\overline B)=1+r-p-q$，且 $P(A\\cup\\overline B)=1-P(\\overline A B)=1-(r-p)=1+p-r$。四个结果对应第一项，原图并无此处的补号错误。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\displaystyle\\int_0^t\\dfrac1\\tau e^{-3\\tau}\\sin2\\tau\\,d\\tau$，则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1s\\operatorname{arccot}\\dfrac{s+3}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1s\\arctan\\dfrac{s+3}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1s\\arcsin\\dfrac{s+3}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac1s\\arccos\\dfrac{s+3}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal L\\left[\\dfrac1t e^{-3t}\\sin2t\\right]=\\operatorname{arccot}\\dfrac{s+3}{2}$，所以 $F(s)=\\dfrac1s\\operatorname{arccot}\\dfrac{s+3}{2}$。",
+  "search_text": "设 $f(t)=\\displaystyle\\int_0^t\\dfrac1\\tau e^{-3\\tau}\\sin2\\tau\\,d\\tau$，则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac1s\\operatorname{arccot}\\dfrac{s+3}{2}$ $\\dfrac1s\\arctan\\dfrac{s+3}{2}$ $\\dfrac1s\\arcsin\\dfrac{s+3}{2}$ $\\dfrac1s\\arccos\\dfrac{s+3}{2}$ $\\mathcal L\\left[\\dfrac1t e^{-3t}\\sin2t\\right]=\\operatorname{arccot}\\dfrac{s+3}{2}$，所以 $F(s)=\\dfrac1s\\operatorname{arccot}\\dfrac{s+3}{2}$。",
+  "sort_order": 25
+}

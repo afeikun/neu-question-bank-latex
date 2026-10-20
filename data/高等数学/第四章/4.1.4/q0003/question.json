@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int\\ln x\\,dx$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x\\ln x-x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x\\ln x-x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln x-x+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x\\ln x+x+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 令$u=\\ln x$，$dv=dx$，则$I=x\\ln x-\\int x\\,d(\\ln x)=x\\ln x-\\int\\frac{x}{x}\\,dx=x\\ln x-x+C$。",
+  "search_text": "不定积分 $\\int\\ln x\\,dx$ 的值为（ ） $x\\ln x-x+C$ $x\\ln x-x$ $\\ln x-x+C$ $x\\ln x+x+C$ 解答 令$u=\\ln x$，$dv=dx$，则$I=x\\ln x-\\int x\\,d(\\ln x)=x\\ln x-\\int\\frac{x}{x}\\,dx=x\\ln x-x+C$。",
+  "sort_order": 3
+}

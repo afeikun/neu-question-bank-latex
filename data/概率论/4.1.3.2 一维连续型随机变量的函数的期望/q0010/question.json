@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "对任意随机变量$\\xi$及任意实数$t$，关于$E(e^{it\\xi})$正确的是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "期望总存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "只有离散有限取值时存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "只有离散可列取值时存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "只有连续型时存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|e^{it\\xi}|=1$，所以该有界随机变量的期望总存在。",
+  "search_text": "对任意随机变量$\\xi$及任意实数$t$，关于$E(e^{it\\xi})$正确的是。 期望总存在 只有离散有限取值时存在 只有离散可列取值时存在 只有连续型时存在 $|e^{it\\xi}|=1$，所以该有界随机变量的期望总存在。",
+  "sort_order": 10
+}

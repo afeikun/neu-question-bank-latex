@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2)=5x_1^2+2x_2^2+4x_1x_2$ 在条件 $x_1^2+x_2^2=1$ 下的最大值等于(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$9$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "矩阵特征值为 6 和 1，单位圆上最大值为 6，选项 3。",
+  "search_text": "二次型 $f(x_1,x_2)=5x_1^2+2x_2^2+4x_1x_2$ 在条件 $x_1^2+x_2^2=1$ 下的最大值等于(\\quad)。 $7$ $1$ $6$ $9$ 矩阵特征值为 6 和 1，单位圆上最大值为 6，选项 3。",
+  "sort_order": 44
+}

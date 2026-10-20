@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "集合 $U_1=\\{(a,0,0)\\mid a\\in\\mathbb{R}\\}$，$U_2=\\{(a,b,c)\\mid c=a-b,\\ a,b\\in\\mathbb{R}\\}$，$U_3=\\{(a,b,c)\\mid c=a-b+1,\\ a,b\\in\\mathbb{R}\\}$ 中是线性空间的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "只有集合 $U_3$ 对线性运算不封闭，不构成线性空间；$U_1,U_2$ 均为线性空间，所以有 $2$ 个。",
+  "search_text": "集合 $U_1=\\{(a,0,0)\\mid a\\in\\mathbb{R}\\}$，$U_2=\\{(a,b,c)\\mid c=a-b,\\ a,b\\in\\mathbb{R}\\}$，$U_3=\\{(a,b,c)\\mid c=a-b+1,\\ a,b\\in\\mathbb{R}\\}$ 中是线性空间的有（ ）。 $0$ 个 $2$ 个 $3$ 个 $1$ 个 只有集合 $U_3$ 对线性运算不封闭，不构成线性空间；$U_1,U_2$ 均为线性空间，所以有 $2$ 个。",
+  "sort_order": 26
+}

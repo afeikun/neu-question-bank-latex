@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $2y\\prime\\prime-y\\prime+y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^{-x/4}(C_1\\cos\\frac{\\sqrt7}{4}x+C_2\\sin\\frac{\\sqrt7}{4}x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{x/2}(C_1\\cos\\frac{\\sqrt7}{4}x+C_2\\sin\\frac{\\sqrt7}{4}x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^{-x/4}(C_1\\cos\\frac{\\sqrt7}{3}x+C_2\\sin\\frac{\\sqrt7}{3}x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^{x/4}(C_1\\cos\\frac{\\sqrt7}{3}x+C_2\\sin\\frac{\\sqrt7}{3}x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析 特征方程为 $2\\lambda^2-\\lambda+1=0$，特征根 $\\lambda=\\frac14\\pm\\frac{\\sqrt7}{4}i$，故通解为 $y=e^{\\frac14x}\\left(C_1\\cos\\frac{\\sqrt7}{4}x+C_2\\sin\\frac{\\sqrt7}{4}x\\right)$。",
+  "search_text": "微分方程 $2y\\prime\\prime-y\\prime+y=0$ 的通解为（ ） $y=e^{-x/4}(C_1\\cos\\frac{\\sqrt7}{4}x+C_2\\sin\\frac{\\sqrt7}{4}x)$ $y=e^{x/2}(C_1\\cos\\frac{\\sqrt7}{4}x+C_2\\sin\\frac{\\sqrt7}{4}x)$ $y=e^{-x/4}(C_1\\cos\\frac{\\sqrt7}{3}x+C_2\\sin\\frac{\\sqrt7}{3}x)$ $y=e^{x/4}(C_1\\cos\\frac{\\sqrt7}{3}x+C_2\\sin\\frac{\\sqrt7}{3}x)$ 解析 特征方程为 $2\\lambda^2-\\lambda+1=0$，特征根 $\\lambda=\\frac14\\pm\\frac{\\sqrt7}{4}i$，故通解为 $y=e^{\\frac14x}\\left(C_1\\cos\\frac{\\sqrt7}{4}x+C_2\\sin\\frac{\\sqrt7}{4}x\\right)$。",
+  "sort_order": 47
+}

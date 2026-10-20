@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime\\prime+xy\\prime+x^2y-x^2y^2=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y_1=c_1e^{-x^2/2},\\ y_2=c_2e^{x^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y_1=c_1e^{-x^2/2},\\ y_2=c_2e^{x^2/2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y_1=c_1e^{x^2/2},\\ y_2=c_2e^{-x^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y_1=c_1e^{-x^2/2},\\ y_2=e^{x^2/2}(e^{-x^2/2}+C_2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$(y'^2-x^2y^2)+(xy'+x^2y)=0$\n\n$(y'+xy)(y'-xy+x)=0$\n\n故有 $y'+xy=0$ 或 $y'-xy+x=0$\n\n通解为：$y_1=c_1e^{-\\frac{1}{2}x^2}$ 或 $y_2=e^{\\frac{1}{2}x^2}(e^{-\\frac{1}{2}x^2}+C_2)$",
+  "search_text": "$y\\prime\\prime+xy\\prime+x^2y-x^2y^2=0$ 的通解为（ ） $y_1=c_1e^{-x^2/2},\\ y_2=c_2e^{x^2}$ $y_1=c_1e^{-x^2/2},\\ y_2=c_2e^{x^2/2}$ $y_1=c_1e^{x^2/2},\\ y_2=c_2e^{-x^2}$ $y_1=c_1e^{-x^2/2},\\ y_2=e^{x^2/2}(e^{-x^2/2}+C_2)$ $(y'^2-x^2y^2)+(xy'+x^2y)=0$\n\n$(y'+xy)(y'-xy+x)=0$\n\n故有 $y'+xy=0$ 或 $y'-xy+x=0$\n\n通解为：$y_1=c_1e^{-\\frac{1}{2}x^2}$ 或 $y_2=e^{\\frac{1}{2}x^2}(e^{-\\frac{1}{2}x^2}+C_2)$",
+  "sort_order": 5
+}

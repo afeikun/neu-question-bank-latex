@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $(a,b)$ 内单调增加，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f\\prime(x)<0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f\\prime(x)>0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "都不对"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(x)\\ge0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "可导单调增加函数的导数处处非负，即 $f\\prime(x)\\ge0$。",
+  "search_text": "函数 $f(x)$ 在 $(a,b)$ 内单调增加，则必有（ ）。 $f\\prime(x)<0$ $f\\prime(x)>0$ 都不对 $f\\prime(x)\\ge0$ 可导单调增加函数的导数处处非负，即 $f\\prime(x)\\ge0$。",
+  "sort_order": 9
+}

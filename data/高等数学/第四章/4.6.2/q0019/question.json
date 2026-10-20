@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "圆环内外半径R₁、R₂，密度ρ=λr，求圆片质量",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀^{R₁−R₂}2πλr(r−R₁)dr"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫_{R₁}^{R₂}2πλr²dr"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀^{R₁−R₂}2πλr²dr"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫_{R₁}^{R₂}2πλr(r−R₁)²dr"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "薄环质量元为2πλr²dr，积分范围R₁至R₂。",
+  "search_text": "圆环内外半径R₁、R₂，密度ρ=λr，求圆片质量 ∫₀^{R₁−R₂}2πλr(r−R₁)dr ∫_{R₁}^{R₂}2πλr²dr ∫₀^{R₁−R₂}2πλr²dr ∫_{R₁}^{R₂}2πλr(r−R₁)²dr 薄环质量元为2πλr²dr，积分范围R₁至R₂。",
+  "sort_order": 19
+}

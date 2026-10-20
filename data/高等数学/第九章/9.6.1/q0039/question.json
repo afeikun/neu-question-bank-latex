@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $L$ 是沿逆时针方向的椭圆 $4x^2+y^2=8x$，计算 $\\oint_Le^{y^2}\\,dx+(x+\\sin y)\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$24\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：\n利用格林公式，有\n\n$$\\oint_Le^{y^2}\\,dx+x\\,dy=\\iint_D\\left(\\frac{\\partial(x+\\sin y)}{\\partial x}-\\frac{\\partial e^{y^2}}{\\partial y}\\right)dxdy=\\iint_D(1-2ye^{y^2})dxdy$$\n\n其中 $D$ 为由椭圆 $4x^2+y^2=8x$ 围成的区域\n\n由于 $D$ 关于 $x$ 轴对称，而 $2ye^{y^2}$ 为 $y$ 的奇函数，故由对称性 $\\iint_D2ye^{y^2}dxdy=0$\n\n所以\n\n$$\\oint_Le^{y^2}\\,dx+x\\,dy=\\iint_D1dxdy=2\\pi$$",
+  "search_text": "已知 $L$ 是沿逆时针方向的椭圆 $4x^2+y^2=8x$，计算 $\\oint_Le^{y^2}\\,dx+(x+\\sin y)\\,dy=$（ ） $3\\pi$ $2\\pi$ $24\\pi$ $\\pi$ 解析：\n利用格林公式，有\n\n$$\\oint_Le^{y^2}\\,dx+x\\,dy=\\iint_D\\left(\\frac{\\partial(x+\\sin y)}{\\partial x}-\\frac{\\partial e^{y^2}}{\\partial y}\\right)dxdy=\\iint_D(1-2ye^{y^2})dxdy$$\n\n其中 $D$ 为由椭圆 $4x^2+y^2=8x$ 围成的区域\n\n由于 $D$ 关于 $x$ 轴对称，而 $2ye^{y^2}$ 为 $y$ 的奇函数，故由对称性 $\\iint_D2ye^{y^2}dxdy=0$\n\n所以\n\n$$\\oint_Le^{y^2}\\,dx+x\\,dy=\\iint_D1dxdy=2\\pi$$",
+  "sort_order": 39
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 从 $O(0,0)$ 沿 $L_1:y=x^2/2$ 到 $A(2,2)$，再沿 $L_2:x=y^2/2$ 回到 $O$，计算闭曲线积分 $\\oint_L(2x-y^2)dx+(2y-x^2)dy$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解：$L_1$ 的参数方程为\n\n$$\n\\left\\{\\begin{aligned}x&=t\\\\y&=\\frac{1}{2}t^2\\end{aligned}\\right.，\\quad t\\text{ 从 }0\\text{ 到 }2；\\quad L_2\\text{ 的参数方程为 }\\left\\{\\begin{aligned}x&=\\frac{1}{2}t^2\\\\y&=t\\end{aligned}\\right.，\\quad t\\text{ 从 }2\\text{ 到 }0\n$$\n\n$$\n\\text{原式}=\\int_0^2\\left(2t-\\frac{1}{4}t^4\\right)\\,\\mathrm{d}t+\\int_2^0\\left(2t-\\frac{1}{4}t^4\\right)\\,\\mathrm{d}t=0。\n$$",
+  "search_text": "$L$ 从 $O(0,0)$ 沿 $L_1:y=x^2/2$ 到 $A(2,2)$，再沿 $L_2:x=y^2/2$ 回到 $O$，计算闭曲线积分 $\\oint_L(2x-y^2)dx+(2y-x^2)dy$。 $2$ $4$ $1$ $0$ 解：$L_1$ 的参数方程为\n\n$$\n\\left\\{\\begin{aligned}x&=t\\\\y&=\\frac{1}{2}t^2\\end{aligned}\\right.，\\quad t\\text{ 从 }0\\text{ 到 }2；\\quad L_2\\text{ 的参数方程为 }\\left\\{\\begin{aligned}x&=\\frac{1}{2}t^2\\\\y&=t\\end{aligned}\\right.，\\quad t\\text{ 从 }2\\text{ 到 }0\n$$\n\n$$\n\\text{原式}=\\int_0^2\\left(2t-\\frac{1}{4}t^4\\right)\\,\\mathrm{d}t+\\int_2^0\\left(2t-\\frac{1}{4}t^4\\right)\\,\\mathrm{d}t=0。\n$$",
+  "sort_order": 22
+}

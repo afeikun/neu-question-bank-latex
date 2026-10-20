@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "生成空间 $L\\left(\\begin{pmatrix}4\\\\6\\\\2\\end{pmatrix},\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix},\\begin{pmatrix}3\\\\1\\\\2\\end{pmatrix},\\begin{pmatrix}3\\\\5\\\\4\\end{pmatrix}\\right)$ 的一组基为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\left(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\5\\end{pmatrix},\\begin{pmatrix}3\\\\5\\\\4\\end{pmatrix}\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\left(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix},\\begin{pmatrix}3\\\\1\\\\2\\end{pmatrix}\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\left(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix},\\begin{pmatrix}4\\\\6\\\\2\\end{pmatrix}\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\left(\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix},\\begin{pmatrix}3\\\\1\\\\2\\end{pmatrix}\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "向量组 $(1,2,3)^T,(2,3,1)^T,(3,1,2)^T$ 是原向量组的一个极大线性无关组，故可作为生成空间的一组基。",
+  "search_text": "生成空间 $L\\left(\\begin{pmatrix}4\\\\6\\\\2\\end{pmatrix},\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix},\\begin{pmatrix}3\\\\1\\\\2\\end{pmatrix},\\begin{pmatrix}3\\\\5\\\\4\\end{pmatrix}\\right)$ 的一组基为（ ）。 $\\left(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\5\\end{pmatrix},\\begin{pmatrix}3\\\\5\\\\4\\end{pmatrix}\\right)$ $\\left(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix},\\begin{pmatrix}3\\\\1\\\\2\\end{pmatrix}\\right)$ $\\left(\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix},\\begin{pmatrix}4\\\\6\\\\2\\end{pmatrix}\\right)$ $\\left(\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix},\\begin{pmatrix}3\\\\1\\\\2\\end{pmatrix}\\right)$ 向量组 $(1,2,3)^T,(2,3,1)^T,(3,1,2)^T$ 是原向量组的一个极大线性无关组，故可作为生成空间的一组基。",
+  "sort_order": 49
+}

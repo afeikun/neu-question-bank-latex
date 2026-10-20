@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Gamma$ 为 $(1,1,1)$ 到 $(2,3,5)$ 的线段，计算 $\\int_\\Gamma x\\,dx+2y\\,dy+(2x+y-2)\\,dz$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$22$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$25$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{43}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "Γ 的参数方程为\n$$\n\\begin{cases}\nx=1+t\\\\\ny=1+2t,\\quad t\\text{从}0\\text{到}1\\\\\nz=1+4t\n\\end{cases}\n$$\n原式=$$\\int_0^1(1+t+4(1+2t)+4(1+4t))dt=\\int_0^1(9+25t)dt=\\frac{43}{2}$$",
+  "search_text": "$\\Gamma$ 为 $(1,1,1)$ 到 $(2,3,5)$ 的线段，计算 $\\int_\\Gamma x\\,dx+2y\\,dy+(2x+y-2)\\,dz$。 $13$ $22$ $25$ $\\frac{43}{2}$ Γ 的参数方程为\n$$\n\\begin{cases}\nx=1+t\\\\\ny=1+2t,\\quad t\\text{从}0\\text{到}1\\\\\nz=1+4t\n\\end{cases}\n$$\n原式=$$\\int_0^1(1+t+4(1+2t)+4(1+4t))dt=\\int_0^1(9+25t)dt=\\frac{43}{2}$$",
+  "sort_order": 1
+}

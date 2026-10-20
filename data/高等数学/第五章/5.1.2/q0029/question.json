@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下面论断中正确的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若级数收敛，则给每项加常数后仍收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若和级数收敛则两级数都收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若级数发散则倒数级数收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若级数收敛则倒数级数发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "收敛级数通项趋0，倒数项不趋0，故倒数级数发散。",
+  "search_text": "下面论断中正确的是哪一个？ 若级数收敛，则给每项加常数后仍收敛 若和级数收敛则两级数都收敛 若级数发散则倒数级数收敛 若级数收敛则倒数级数发散 收敛级数通项趋0，倒数项不趋0，故倒数级数发散。",
+  "sort_order": 29
+}

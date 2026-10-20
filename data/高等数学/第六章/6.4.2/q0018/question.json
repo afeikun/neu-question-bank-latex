@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两直线 $l_1:\\begin{cases}x+2y+z-1=0\\\\x-2y+z+3=0\\end{cases}$，$l_2:\\begin{cases}x-y-z-2=0\\\\x-y+2z+1=0\\end{cases}$ 的位置关系为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "相交但不垂直"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "异面"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "平行"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "相交且垂直"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：$\\vec{s}_1=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&2&1\\\\1&-2&1\\end{vmatrix}=4(1,0,-1)，\\vec{s}_2=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&-1&-1\\\\1&-1&2\\end{vmatrix}=(-3,-3,0)=-3(1,1,0)$，所以两直线不平行且不垂直。\n\n取 $P(0,1,0)\\in l_1，Q(0,0,-1)\\in l_2，\\overrightarrow{QP}=(0,1,1)$，因 $[\\vec{s}_1\\vec{s}_2\\overrightarrow{QP}]=\\begin{vmatrix}1&0&-1\\\\1&1&0\\\\0&1&1\\end{vmatrix}=0$，所以两直线共面，故 $l_1$ 与 $l_2$ 相交但不垂直。",
+  "search_text": "两直线 $l_1:\\begin{cases}x+2y+z-1=0\\\\x-2y+z+3=0\\end{cases}$，$l_2:\\begin{cases}x-y-z-2=0\\\\x-y+2z+1=0\\end{cases}$ 的位置关系为(\\quad)。 相交但不垂直 异面 平行 相交且垂直 解答：$\\vec{s}_1=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&2&1\\\\1&-2&1\\end{vmatrix}=4(1,0,-1)，\\vec{s}_2=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&-1&-1\\\\1&-1&2\\end{vmatrix}=(-3,-3,0)=-3(1,1,0)$，所以两直线不平行且不垂直。\n\n取 $P(0,1,0)\\in l_1，Q(0,0,-1)\\in l_2，\\overrightarrow{QP}=(0,1,1)$，因 $[\\vec{s}_1\\vec{s}_2\\overrightarrow{QP}]=\\begin{vmatrix}1&0&-1\\\\1&1&0\\\\0&1&1\\end{vmatrix}=0$，所以两直线共面，故 $l_1$ 与 $l_2$ 相交但不垂直。",
+  "sort_order": 18
+}

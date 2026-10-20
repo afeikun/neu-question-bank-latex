@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=5x^2+x+12$，则满足 $f(x+\\Delta x)-f(x)=\\Delta x f'(x+\\theta\\Delta x)$（$0<\\theta<1$）的 $\\theta=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无法确定，与 $x,\\Delta x$ 有关。"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "展开差值并与 $f'(x+\\theta\\Delta x)\\Delta x$ 比较，得 $\\theta=\\frac12$。",
+  "search_text": "函数 $f(x)=5x^2+x+12$，则满足 $f(x+\\Delta x)-f(x)=\\Delta x f'(x+\\theta\\Delta x)$（$0<\\theta<1$）的 $\\theta=(\\quad)$。 $\\frac13$； $\\frac23$； $\\frac12$； 无法确定，与 $x,\\Delta x$ 有关。 展开差值并与 $f'(x+\\theta\\Delta x)\\Delta x$ 比较，得 $\\theta=\\frac12$。",
+  "sort_order": 23
+}

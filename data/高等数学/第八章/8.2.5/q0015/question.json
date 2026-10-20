@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "含在两球体 $x^2+y^2+z^2\\leq R^2$ 与 $x^2+y^2+z^2\\leq2Rz$ 之间公共部分体积是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3R^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac4{15}\\pi R^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2R^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac5{12}\\pi R^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\nV=\\iiint_{\\Omega}1\\cdot dv=\\int_0^{\\frac{R}{2}}\\left[\\iint_{D_1}1\\cdot dxdy\\right]dz+\\int_{\\frac{R}{2}}^R\\left[\\iint_{D_2}1\\cdot dxdy\\right]dz\\quad（截面法）\n$$\n$$\n=\\int_0^{\\frac{R}{2}}\\pi(2Rz-z^2)\\,dz+\\int_{\\frac{R}{2}}^R\\pi(R^2-z^2)\\,dz=\\frac{5}{12}\\pi R^3。\n$$\n或者\n$$\nV=\\iiint_{\\Omega}1\\cdot dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\sqrt{3}}{2}R}r\\,dr\\int_{-\\sqrt{R^2-r^2}}^{\\sqrt{R^2-r^2}}dz\\quad（柱面坐标）=\\frac{5}{12}\\pi R^3。\n$$",
+  "search_text": "含在两球体 $x^2+y^2+z^2\\leq R^2$ 与 $x^2+y^2+z^2\\leq2Rz$ 之间公共部分体积是（ ） $\\frac\\pi3R^3$ $\\frac4{15}\\pi R^3$ $\\frac\\pi2R^3$ $\\frac5{12}\\pi R^3$ $$\nV=\\iiint_{\\Omega}1\\cdot dv=\\int_0^{\\frac{R}{2}}\\left[\\iint_{D_1}1\\cdot dxdy\\right]dz+\\int_{\\frac{R}{2}}^R\\left[\\iint_{D_2}1\\cdot dxdy\\right]dz\\quad（截面法）\n$$\n$$\n=\\int_0^{\\frac{R}{2}}\\pi(2Rz-z^2)\\,dz+\\int_{\\frac{R}{2}}^R\\pi(R^2-z^2)\\,dz=\\frac{5}{12}\\pi R^3。\n$$\n或者\n$$\nV=\\iiint_{\\Omega}1\\cdot dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\sqrt{3}}{2}R}r\\,dr\\int_{-\\sqrt{R^2-r^2}}^{\\sqrt{R^2-r^2}}dz\\quad（柱面坐标）=\\frac{5}{12}\\pi R^3。\n$$",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量场 $A=(x^2y+y^3)\\mathbf i+(x^3-xy^2)\\mathbf j$ 的散度为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$P=x^2y+y^3,Q=x^3-xy^2,R=0$$\n\n$$\\frac{\\partial P}{\\partial x}=2xy,\\frac{\\partial Q}{\\partial y}=-2xy,\\frac{\\partial R}{\\partial z}=0$$\n\n$$\\therefore\\ divA=\\frac{\\partial P}{\\partial x}+\\frac{\\partial Q}{\\partial y}+\\frac{\\partial R}{\\partial z}=2xy-2xy=0$$",
+  "search_text": "向量场 $A=(x^2y+y^3)\\mathbf i+(x^3-xy^2)\\mathbf j$ 的散度为（ ） $0$ $1$ $2$ $3$ $$P=x^2y+y^3,Q=x^3-xy^2,R=0$$\n\n$$\\frac{\\partial P}{\\partial x}=2xy,\\frac{\\partial Q}{\\partial y}=-2xy,\\frac{\\partial R}{\\partial z}=0$$\n\n$$\\therefore\\ divA=\\frac{\\partial P}{\\partial x}+\\frac{\\partial Q}{\\partial y}+\\frac{\\partial R}{\\partial z}=2xy-2xy=0$$",
+  "sort_order": 13
+}

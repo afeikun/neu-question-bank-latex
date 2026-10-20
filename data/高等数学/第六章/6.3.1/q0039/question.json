@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平行于平面 $x+y+z=100$ 且与球面 $x^2+y^2+z^2=4$ 相切的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+y+z\\pm2\\sqrt3=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+y+z\\pm2=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+y-z\\pm2\\sqrt3=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+y-z\\pm2=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "切平面 $x+y+z+D=0$ 到原点距离为半径 $2$，故 $|D|=2\\sqrt3$。",
+  "search_text": "平行于平面 $x+y+z=100$ 且与球面 $x^2+y^2+z^2=4$ 相切的平面方程为(\\quad)。 $x+y+z\\pm2\\sqrt3=0$ $x+y+z\\pm2=0$ $x+y-z\\pm2\\sqrt3=0$ $x+y-z\\pm2=0$ 切平面 $x+y+z+D=0$ 到原点距离为半径 $2$，故 $|D|=2\\sqrt3$。",
+  "sort_order": 39
+}

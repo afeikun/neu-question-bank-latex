@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $L$ 为圆 $x^2+y^2=a^2(a>0)$，则 $I=\\oint_L(x^2+y^2)^3ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi a^7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi a^7$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi a^7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 将 $L$ 方程代入，则 $I=\\oint_La^6\\,ds=2\\pi a^7$",
+  "search_text": "若 $L$ 为圆 $x^2+y^2=a^2(a>0)$，则 $I=\\oint_L(x^2+y^2)^3ds=$（ ） $0$ $\\pi a^7$ $3\\pi a^7$ $2\\pi a^7$ 解答 将 $L$ 方程代入，则 $I=\\oint_La^6\\,ds=2\\pi a^7$",
+  "sort_order": 7
+}

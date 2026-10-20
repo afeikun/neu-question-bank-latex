@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A,B$ 均为 $n$ 阶矩阵，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(AB)^T=A^TB^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(A+B)^2=A^2+2AB+B^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|A+AB|=0\\Leftrightarrow |A|=0$ 或 $|E+B|=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "当 $AB=O$ 时有 $A=O$ 或 $B=O$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$|A+AB|=|A(E+B)|=0\\Leftrightarrow |A|=0$ 或 $|E+B|=0$；$(AB)^T=B^TA^T$；例如 $A=\\begin{pmatrix}2&4\\\\-3&-6\\end{pmatrix}$，$B=\\begin{pmatrix}-2&4\\\\1&-2\\end{pmatrix}$，则 $AB=O$，但 $A\\ne O$，$B\\ne O$；只有当 $AB=BA$ 时才有 $(A+B)^2=A^2+2AB+B^2$ 成立。",
+  "search_text": "已知 $A,B$ 均为 $n$ 阶矩阵，则必有（ ）。 $(AB)^T=A^TB^T$ $(A+B)^2=A^2+2AB+B^2$ $|A+AB|=0\\Leftrightarrow |A|=0$ 或 $|E+B|=0$ 当 $AB=O$ 时有 $A=O$ 或 $B=O$ $|A+AB|=|A(E+B)|=0\\Leftrightarrow |A|=0$ 或 $|E+B|=0$；$(AB)^T=B^TA^T$；例如 $A=\\begin{pmatrix}2&4\\\\-3&-6\\end{pmatrix}$，$B=\\begin{pmatrix}-2&4\\\\1&-2\\end{pmatrix}$，则 $AB=O$，但 $A\\ne O$，$B\\ne O$；只有当 $AB=BA$ 时才有 $(A+B)^2=A^2+2AB+B^2$ 成立。",
+  "sort_order": 29
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{x(e^x+1)-2(e^x-1)}{\\tan^3x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "展开分子首项为 $x^3/6$，$\\tan^3x\\sim x^3$，极限为 $1/6$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{x(e^x+1)-2(e^x-1)}{\\tan^3x}=(\\quad)$。 $0$ $\\frac16$ $1$ $\\frac13$ 展开分子首项为 $x^3/6$，$\\tan^3x\\sim x^3$，极限为 $1/6$。",
+  "sort_order": 51
+}

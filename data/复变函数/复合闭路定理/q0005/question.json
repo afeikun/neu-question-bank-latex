@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\frac{e^{z^2}}{z^2-4z}\\,dz=\\frac{e^{16}-1}{2}\\pi i$，$C$ 应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "圆周 $|z-2|=6$，正向"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "圆周 $|z|=3$，负向"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆周 $|z-3|=3$，负向"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "圆周 $|z-2|=1$，正向"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆周 $|z-2|=6$ 包含 $0,4$，两处积分之和为目标值。",
+  "search_text": "为使 $\\oint_C\\frac{e^{z^2}}{z^2-4z}\\,dz=\\frac{e^{16}-1}{2}\\pi i$，$C$ 应为（ ）。 圆周 $|z-2|=6$，正向 圆周 $|z|=3$，负向 圆周 $|z-3|=3$，负向 圆周 $|z-2|=1$，正向 圆周 $|z-2|=6$ 包含 $0,4$，两处积分之和为目标值。",
+  "sort_order": 5
+}

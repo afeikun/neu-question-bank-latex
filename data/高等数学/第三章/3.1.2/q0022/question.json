@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\sqrt[3]{x-1}$ 在某个区间内使用拉格朗日中值定理可得下面 $(\\quad)$ 个不等式。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e-1<\\sqrt{\\left(\\frac{\\sqrt[3]{\\pi-1}-\\sqrt[3]{e-1}}{\\pi-e}\\right)^3}<\\pi-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e<\\sqrt{\\left(\\frac{\\sqrt[3]{\\pi-1}-\\sqrt[3]{e-1}}{\\pi-e}\\right)^3}<\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e-2<\\sqrt{\\left(\\frac{\\sqrt[3]{\\pi-1}-\\sqrt[3]{e-1}}{\\pi-e}\\right)^3}<\\pi-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e+1<\\sqrt{\\left(\\frac{\\sqrt[3]{\\pi-1}-\\sqrt[3]{e-1}}{\\pi-e}\\right)^3}<\\pi+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 $f(x)=\\sqrt[3]{x-1}$ 在 $[e,\\pi]$ 应用拉格朗日中值定理，得中值点表达式落在区间内；原题解析判定仅选项 B 成立。",
+  "search_text": "函数 $f(x)=\\sqrt[3]{x-1}$ 在某个区间内使用拉格朗日中值定理可得下面 $(\\quad)$ 个不等式。 $e-1<\\sqrt{\\left(\\frac{\\sqrt[3]{\\pi-1}-\\sqrt[3]{e-1}}{\\pi-e}\\right)^3}<\\pi-1$ $e<\\sqrt{\\left(\\frac{\\sqrt[3]{\\pi-1}-\\sqrt[3]{e-1}}{\\pi-e}\\right)^3}<\\pi$ $e-2<\\sqrt{\\left(\\frac{\\sqrt[3]{\\pi-1}-\\sqrt[3]{e-1}}{\\pi-e}\\right)^3}<\\pi-2$ $e+1<\\sqrt{\\left(\\frac{\\sqrt[3]{\\pi-1}-\\sqrt[3]{e-1}}{\\pi-e}\\right)^3}<\\pi+1$ 对 $f(x)=\\sqrt[3]{x-1}$ 在 $[e,\\pi]$ 应用拉格朗日中值定理，得中值点表达式落在区间内；原题解析判定仅选项 B 成立。",
+  "sort_order": 22
+}

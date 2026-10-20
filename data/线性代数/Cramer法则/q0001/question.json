@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "齐次线性方程组 $$\\begin{cases}\nax_1+ax_2+ax_3+ax_4+bx_5=0\\\\\nax_1+ax_2+ax_3+bx_4+ax_5=0\\\\\nax_1+ax_2+bx_3+ax_4+ax_5=0\\\\\nax_1+bx_2+ax_3+ax_4+ax_5=0\\\\\nbx_1+ax_2+ax_3+ax_4+ax_5=0\n\\end{cases}$$ 只有零解，那么 $a,b$ 满足(    ).",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=b$ 或 $a\\neq-\\frac{b}{4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a\\neq b$ 且 $a\\neq-\\frac{b}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a\\neq b$ 或 $a=-\\frac{b}{4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=b$ 或 $a=-\\frac{b}{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "系数行列式 $D=\\begin{vmatrix}a&a&a&a&b\\\\\na&a&a&b&a\\\\\na&a&b&a&a\\\\\na&b&a&a&a\\\\\nb&a&a&a&a\\end{vmatrix}=(4a+b)(b-a)^4$.\n齐次线性方程组只有零解，则其系数行列式不等于零，即 $a\\neq b$ 且 $a\\neq-\\frac{b}{4}$.",
+  "search_text": "齐次线性方程组 $$\\begin{cases} ax_1+ax_2+ax_3+ax_4+bx_5=0\\\\ ax_1+ax_2+ax_3+bx_4+ax_5=0\\\\ ax_1+ax_2+bx_3+ax_4+ax_5=0\\\\ ax_1+bx_2+ax_3+ax_4+ax_5=0\\\\ bx_1+ax_2+ax_3+ax_4+ax_5=0 \\end{cases}$$ 只有零解，那么 $a,b$ 满足( ). $a=b$ 或 $a\\neq-\\frac{b}{4}$ $a\\neq b$ 且 $a\\neq-\\frac{b}{4}$ $a\\neq b$ 或 $a=-\\frac{b}{4}$ $a=b$ 或 $a=-\\frac{b}{4}$ 系数行列式 $D=\\begin{vmatrix}a&a&a&a&b\\\\ a&a&a&b&a\\\\ a&a&b&a&a\\\\ a&b&a&a&a\\\\ b&a&a&a&a\\end{vmatrix}=(4a+b)(b-a)^4$. 齐次线性方程组只有零解，则其系数行列式不等于零，即 $a\\neq b$ 且 $a\\neq-\\frac{b}{4}$.",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设平面薄片占有平面区域 $D$，面密度 $\\mu(x,y)$ 连续，则薄片质量 $m=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iint_Dxy\\mu(x,y)d\\sigma$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iint_D\\mu(x,y)d\\sigma$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iint_D\\sqrt{x^2+y^2}\\mu(x,y)d\\sigma$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iint_D\\frac{\\mu(x,y)}{\\sqrt{x^2+y^2}}d\\sigma$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由二重积分的概念易知\n\n$$\n\\iint_D\\mu(x,y)\\,d\\sigma\n$$",
+  "search_text": "设平面薄片占有平面区域 $D$，面密度 $\\mu(x,y)$ 连续，则薄片质量 $m=（ ）$ $\\iint_Dxy\\mu(x,y)d\\sigma$ $\\iint_D\\mu(x,y)d\\sigma$ $\\iint_D\\sqrt{x^2+y^2}\\mu(x,y)d\\sigma$ $\\iint_D\\frac{\\mu(x,y)}{\\sqrt{x^2+y^2}}d\\sigma$ 由二重积分的概念易知\n\n$$\n\\iint_D\\mu(x,y)\\,d\\sigma\n$$",
+  "sort_order": 46
+}

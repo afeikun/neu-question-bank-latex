@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $\\begin{vmatrix}a_{11}&a_{12}&c_{11}&c_{12}&c_{13}\\\\a_{21}&a_{22}&c_{21}&c_{22}&c_{23}\\\\0&0&b_{11}&b_{12}&b_{13}\\\\0&0&b_{21}&b_{22}&b_{23}\\\\0&0&b_{31}&b_{32}&b_{33}\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{vmatrix}b_{11}&b_{12}&b_{13}\\\\b_{21}&b_{22}&b_{23}\\\\b_{31}&b_{32}&b_{33}\\end{vmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{vmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{vmatrix}\\begin{vmatrix}b_{11}&b_{12}&b_{13}\\\\b_{21}&b_{22}&b_{23}\\\\b_{31}&b_{32}&b_{33}\\end{vmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{vmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{vmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "根据拉普拉斯展开定理，所给行列式等于左上角 $2$ 阶块与右下角 $3$ 阶块行列式的乘积。",
+  "search_text": "行列式 $\\begin{vmatrix}a_{11}&a_{12}&c_{11}&c_{12}&c_{13}\\\\a_{21}&a_{22}&c_{21}&c_{22}&c_{23}\\\\0&0&b_{11}&b_{12}&b_{13}\\\\0&0&b_{21}&b_{22}&b_{23}\\\\0&0&b_{31}&b_{32}&b_{33}\\end{vmatrix}$ 等于（ ）。 $0$ $\\begin{vmatrix}b_{11}&b_{12}&b_{13}\\\\b_{21}&b_{22}&b_{23}\\\\b_{31}&b_{32}&b_{33}\\end{vmatrix}$ $\\begin{vmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{vmatrix}\\begin{vmatrix}b_{11}&b_{12}&b_{13}\\\\b_{21}&b_{22}&b_{23}\\\\b_{31}&b_{32}&b_{33}\\end{vmatrix}$ $\\begin{vmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{vmatrix}$ 根据拉普拉斯展开定理，所给行列式等于左上角 $2$ 阶块与右下角 $3$ 阶块行列式的乘积。",
+  "sort_order": 50
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&2\\\\-2&0\\\\3&1\\end{pmatrix}$，$B=\\begin{pmatrix}1&0&-1\\\\-2&1&3\\end{pmatrix}$，则 $|AB|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$AB=\\begin{pmatrix}-3&2&5\\\\-2&0&2\\\\1&1&0\\end{pmatrix}$，$|AB|=\\begin{vmatrix}-3&2&5\\\\-2&0&2\\\\1&1&0\\end{vmatrix}=0$。",
+  "search_text": "设 $A=\\begin{pmatrix}1&2\\\\-2&0\\\\3&1\\end{pmatrix}$，$B=\\begin{pmatrix}1&0&-1\\\\-2&1&3\\end{pmatrix}$，则 $|AB|=$（ ）。 $2$ $-1$ $0$ $1$ $AB=\\begin{pmatrix}-3&2&5\\\\-2&0&2\\\\1&1&0\\end{pmatrix}$，$|AB|=\\begin{vmatrix}-3&2&5\\\\-2&0&2\\\\1&1&0\\end{vmatrix}=0$。",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若在区间 $(0,1)$ 内任取两个数，则事件“两数之和小于 $\\frac65$”的概率为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{17}{25}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac8{25}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{13}{25}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{22}{25}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本空间是单位正方形，事件 $x+y<\\frac65$ 为图中阴影部分。其概率为 $1-\\frac12(\\frac45)^2=\\frac{17}{25}$。",
+  "search_text": "若在区间 $(0,1)$ 内任取两个数，则事件“两数之和小于 $\\frac65$”的概率为(\\quad)。 $\\frac{17}{25}$ $\\frac8{25}$ $\\frac{13}{25}$ $\\frac{22}{25}$ 样本空间是单位正方形，事件 $x+y<\\frac65$ 为图中阴影部分。其概率为 $1-\\frac12(\\frac45)^2=\\frac{17}{25}$。",
+  "sort_order": 1
+}

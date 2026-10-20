@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=x^3-3x$ 在 $[0,2]$ 上的最小值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f\\prime(x)=3(x-1)(x+1)$。比较端点和驻点处函数值，最小值为 $f(1)=-2$。",
+  "search_text": "函数 $f(x)=x^3-3x$ 在 $[0,2]$ 上的最小值为（ ）。 $1$ $0$ $-1$ $-2$ $f\\prime(x)=3(x-1)(x+1)$。比较端点和驻点处函数值，最小值为 $f(1)=-2$。",
+  "sort_order": 3
+}

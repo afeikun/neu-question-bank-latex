@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$s=\\sqrt{1+4t}$，$s$ 以米计，$t$ 以秒计，则 $t=6$ 时加速度为（ ）米/秒$^2$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2/5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4/125$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2/5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-4/125$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$d^2s/dt^2=-4/(1+4t)^{3/2}$，$t=6$ 时为 $-4/125$。",
+  "search_text": "$s=\\sqrt{1+4t}$，$s$ 以米计，$t$ 以秒计，则 $t=6$ 时加速度为（ ）米/秒$^2$。 $-2/5$ $4/125$ $2/5$ $-4/125$ $d^2s/dt^2=-4/(1+4t)^{3/2}$，$t=6$ 时为 $-4/125$。",
+  "sort_order": 12
+}

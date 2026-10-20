@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime+5y\\prime+6y=0$ 在 $y|_{x=0}=1,y\\prime|_{x=0}=0$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=2e^{2x}-e^{-3x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=2e^{-2x}-e^{-3x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=3e^{-2x}-2e^{-3x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=3e^{2x}-2e^{3x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 特征方程为 $r^2+5r+6=0$，特征根为 $r_1=-2,r_2=-3$，所以 $y=C_1e^{-2x}+C_2e^{-3x}$。\n\n将 $y|_{x=0}=1,y'|_{x=0}=0$ 代入得 $C_1=3,C_2=-2$。",
+  "search_text": "微分方程 $y\\prime\\prime+5y\\prime+6y=0$ 在 $y|_{x=0}=1,y\\prime|_{x=0}=0$ 下的特解为（ ） $y=2e^{2x}-e^{-3x}$ $y=2e^{-2x}-e^{-3x}$ $y=3e^{-2x}-2e^{-3x}$ $y=3e^{2x}-2e^{3x}$ 解答 特征方程为 $r^2+5r+6=0$，特征根为 $r_1=-2,r_2=-3$，所以 $y=C_1e^{-2x}+C_2e^{-3x}$。\n\n将 $y|_{x=0}=1,y'|_{x=0}=0$ 代入得 $C_1=3,C_2=-2$。",
+  "sort_order": 61
+}

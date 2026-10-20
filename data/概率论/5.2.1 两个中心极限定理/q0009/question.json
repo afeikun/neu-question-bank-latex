@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_n\\sim B(n,p)$，$0<p<1$，求$\\lim_{n\\to\\infty}P(|X_n-np|<x)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}}\\int_{-\\infty}^xe^{-t^2/2}dt$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}}\\int_{-\\infty}^{+\\infty}e^{-t^2/2}dt$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}}\\int_0^xe^{-t^2/2}dt$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "中心极限定理下这个固定宽度区间相对标准差趋于0，概率极限为0。",
+  "search_text": "$X_n\\sim B(n,p)$，$0<p<1$，求$\\lim_{n\\to\\infty}P(|X_n-np|<x)$。 $0$ $\\frac1{\\sqrt{2\\pi}}\\int_{-\\infty}^xe^{-t^2/2}dt$ $\\frac1{\\sqrt{2\\pi}}\\int_{-\\infty}^{+\\infty}e^{-t^2/2}dt$ $\\frac1{\\sqrt{2\\pi}}\\int_0^xe^{-t^2/2}dt$ 中心极限定理下这个固定宽度区间相对标准差趋于0，概率极限为0。",
+  "sort_order": 9
+}

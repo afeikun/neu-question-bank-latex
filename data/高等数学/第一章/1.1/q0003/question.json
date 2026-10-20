@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f^{-1}$ 为 $f$ 的反函数，$y=f^{-1}(-x)$ 是 $y=f(-x)$ 的反函数，则 $f(x)$ 为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无法判断"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "奇函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "偶函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "非奇非偶"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由反函数关系 $f^{-1}(-x)=y\\Leftrightarrow f(y)=-x$，可得 $f(x)=-f(-x)$，所以 $f$ 为奇函数。",
+  "search_text": "若 $f^{-1}$ 为 $f$ 的反函数，$y=f^{-1}(-x)$ 是 $y=f(-x)$ 的反函数，则 $f(x)$ 为（ ）。 无法判断 奇函数 偶函数 非奇非偶 由反函数关系 $f^{-1}(-x)=y\\Leftrightarrow f(y)=-x$，可得 $f(x)=-f(-x)$，所以 $f$ 为奇函数。",
+  "sort_order": 3
+}

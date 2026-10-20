@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "开口朝上的半球形水池，贮满水，从池中把水抽出，问作多少功？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\int_0^R g\\pi y(R^2-y^2)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\int_0^R g\\pi y(R^2-y^2)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\int_0^R g\\pi y(R^2-y^2)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^R g\\pi y(R^2-y^2)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "以球心为原点，水层提升距离为 $y$，故 $W=\\int_0^R g\\pi y(R^2-y^2)dy$。",
+  "search_text": "开口朝上的半球形水池，贮满水，从池中把水抽出，问作多少功？ $3\\int_0^R g\\pi y(R^2-y^2)dy$ $4\\int_0^R g\\pi y(R^2-y^2)dy$ $2\\int_0^R g\\pi y(R^2-y^2)dy$ $\\int_0^R g\\pi y(R^2-y^2)dy$ 以球心为原点，水层提升距离为 $y$，故 $W=\\int_0^R g\\pi y(R^2-y^2)dy$。",
+  "sort_order": 12
+}

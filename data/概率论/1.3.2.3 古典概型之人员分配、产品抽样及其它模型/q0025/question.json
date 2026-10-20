@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "书架上按任意次序摆着15本教科书，其中5本数学书，现从中随机抽出3本，则没有数学书的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$24/91$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2/91$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2/5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "从10本非数学书中选3本，概率$\\binom{10}3/\\binom{15}3=24/91$。",
+  "search_text": "书架上按任意次序摆着15本教科书，其中5本数学书，现从中随机抽出3本，则没有数学书的概率是（ ）。 $24/91$ $2/91$ $1/5$ $2/5$ 从10本非数学书中选3本，概率$\\binom{10}3/\\binom{15}3=24/91$。",
+  "sort_order": 25
+}

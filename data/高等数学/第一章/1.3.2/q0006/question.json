@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 在点 $x_0$ 处有定义是极限 $\\lim_{x\\to x_0}f(x)$ 存在的（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "既非必要也非充分条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "充分条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "函数在 $x_0$ 有定义与其极限存在没有必然联系。",
+  "search_text": "$f(x)$ 在点 $x_0$ 处有定义是极限 $\\lim_{x\\to x_0}f(x)$ 存在的（ ）。 既非必要也非充分条件 必要条件 充分必要条件 充分条件 函数在 $x_0$ 有定义与其极限存在没有必然联系。",
+  "sort_order": 6
+}

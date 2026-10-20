@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_0^{1-i}z^7\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_0^{1-i}z^7\\,dz=\\frac{z^8}{8}\\big|_0^{1-i}=2$。",
+  "search_text": "$\\int_0^{1-i}z^7\\,dz=(\\quad)$。 $2$ $1$ $2i$ $\\frac12$ $\\int_0^{1-i}z^7\\,dz=\\frac{z^8}{8}\\big|_0^{1-i}=2$。",
+  "sort_order": 18
+}

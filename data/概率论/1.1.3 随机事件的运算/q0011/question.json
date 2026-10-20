@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B,C$ 为随机试验中的三个事件，则 $\\overline{A\\cup B\\cup C}$ 等于(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\overline A\\cap\\overline B\\cap\\overline C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A\\cup B\\cup C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A\\cap B\\cap C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\overline A\\cup\\overline B\\cup\\overline C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "根据事件运算规律的对偶律，$\\overline{A\\cup B\\cup C}=\\overline A\\cap\\overline B\\cap\\overline C$。",
+  "search_text": "设 $A,B,C$ 为随机试验中的三个事件，则 $\\overline{A\\cup B\\cup C}$ 等于(\\quad)。 $\\overline A\\cap\\overline B\\cap\\overline C$ $A\\cup B\\cup C$ $A\\cap B\\cap C$ $\\overline A\\cup\\overline B\\cup\\overline C$ 根据事件运算规律的对偶律，$\\overline{A\\cup B\\cup C}=\\overline A\\cap\\overline B\\cap\\overline C$。",
+  "sort_order": 11
+}

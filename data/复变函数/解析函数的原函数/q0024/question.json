@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_1^i\\frac{\\ln z}{z}\\,dz=(\\quad)$（积分路径为 $z=1$ 到 $z=i$ 的直线段）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{\\pi^2}{8}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{\\pi^2}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\pi}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi}{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_1^i\\frac{\\ln z}{z}\\,dz=\\frac12\\ln^2z\\big|_1^i=\\frac12\\left(\\frac{\\pi}{2}i\\right)^2=-\\frac{\\pi^2}{8}$。",
+  "search_text": "$\\int_1^i\\frac{\\ln z}{z}\\,dz=(\\quad)$（积分路径为 $z=1$ 到 $z=i$ 的直线段）。 $-\\frac{\\pi^2}{8}$ $-\\frac{\\pi^2}{4}$ $\\frac{\\pi}{2}$ $\\frac{\\pi}{4}$ $\\int_1^i\\frac{\\ln z}{z}\\,dz=\\frac12\\ln^2z\\big|_1^i=\\frac12\\left(\\frac{\\pi}{2}i\\right)^2=-\\frac{\\pi^2}{8}$。",
+  "sort_order": 24
+}

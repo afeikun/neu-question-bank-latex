@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "有一半圆弧 $y=R\\sin\\theta,x=R\\cos\\theta\\ (0\\leq\\theta\\leq\\pi)$，其线密度 $\\mu=2\\theta$，则它对原点处单位质量质点的引力为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\vec F=\\left(-\\frac{4k}{R},\\frac{2k\\pi}{R}\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\vec F=\\left(\\frac{4k}{R},\\frac{2k\\pi}{R}\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\vec F=\\left(\\frac{k}{R},\\frac{2k\\pi}{R}\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\vec F=\\left(-\\frac{k}{R},\\frac{2k\\pi}{R}\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $dF_x=k\\frac{\\mu ds}{R^2}\\cos\\theta=\\frac{2k}{R}\\theta\\cos\\theta d\\theta$，$dF_y=k\\frac{\\mu ds}{R^2}\\sin\\theta=\\frac{2k}{R}\\theta\\sin\\theta d\\theta$\n\n$F_x=\\frac{2k}{R}\\int_0^\\pi\\theta\\cos\\theta d\\theta=\\frac{2k}{R}[\\theta\\sin\\theta+\\cos\\theta]_0^\\pi=-\\frac{4k}{R}$，\n\n$F_y=\\frac{2k}{R}\\int_0^\\pi\\theta\\sin\\theta d\\theta=\\frac{2k}{R}[-\\theta\\cos\\theta+\\sin\\theta]_0^\\pi=\\frac{2k\\pi}{R}$，故所求引力为 $\\vec F=(-\\frac{4k}{R},\\frac{2k\\pi}{R})$。\n\n图示：上半圆弧，端点标记 $-R,R$，坐标轴 $x,y$，原点 $O$，圆弧点 $(x,y)$；半径与正 $x$ 轴夹角标记 $\\theta$，水平/竖直虚线辅助线。",
+  "search_text": "有一半圆弧 $y=R\\sin\\theta,x=R\\cos\\theta\\ (0\\leq\\theta\\leq\\pi)$，其线密度 $\\mu=2\\theta$，则它对原点处单位质量质点的引力为（ ） $\\vec F=\\left(-\\frac{4k}{R},\\frac{2k\\pi}{R}\\right)$ $\\vec F=\\left(\\frac{4k}{R},\\frac{2k\\pi}{R}\\right)$ $\\vec F=\\left(\\frac{k}{R},\\frac{2k\\pi}{R}\\right)$ $\\vec F=\\left(-\\frac{k}{R},\\frac{2k\\pi}{R}\\right)$ 解答 $dF_x=k\\frac{\\mu ds}{R^2}\\cos\\theta=\\frac{2k}{R}\\theta\\cos\\theta d\\theta$，$dF_y=k\\frac{\\mu ds}{R^2}\\sin\\theta=\\frac{2k}{R}\\theta\\sin\\theta d\\theta$\n\n$F_x=\\frac{2k}{R}\\int_0^\\pi\\theta\\cos\\theta d\\theta=\\frac{2k}{R}[\\theta\\sin\\theta+\\cos\\theta]_0^\\pi=-\\frac{4k}{R}$，\n\n$F_y=\\frac{2k}{R}\\int_0^\\pi\\theta\\sin\\theta d\\theta=\\frac{2k}{R}[-\\theta\\cos\\theta+\\sin\\theta]_0^\\pi=\\frac{2k\\pi}{R}$，故所求引力为 $\\vec F=(-\\frac{4k}{R},\\frac{2k\\pi}{R})$。\n\n图示：上半圆弧，端点标记 $-R,R$，坐标轴 $x,y$，原点 $O$，圆弧点 $(x,y)$；半径与正 $x$ 轴夹角标记 $\\theta$，水平/竖直虚线辅助线。",
+  "sort_order": 17
+}

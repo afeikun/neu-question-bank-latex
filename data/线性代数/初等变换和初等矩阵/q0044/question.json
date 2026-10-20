@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用初等矩阵 $P(j,i(k))$ 右乘矩阵 $A$，得到乘积 $AP(j,i(k))$，它相当于(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "用数 $k$ 乘以 $A$ 的第 $i$ 列加到第 $k$ 列上"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "用数 $k$ 乘以 $A$ 的第 $k$ 列加到第 $j$ 列上"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "用数 $k$ 乘以 $A$ 的第 $k$ 列加到第 $i$ 列上"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "用数 $k$ 乘以 $A$ 的第 $j$ 列加到第 $i$ 列上"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "右乘初等矩阵对列作变换。按 $P(j,i(k))$ 的记号，$k$ 倍第 $j$ 列加到第 $i$ 列，选项 4。",
+  "search_text": "用初等矩阵 $P(j,i(k))$ 右乘矩阵 $A$，得到乘积 $AP(j,i(k))$，它相当于(\\quad)。 用数 $k$ 乘以 $A$ 的第 $i$ 列加到第 $k$ 列上 用数 $k$ 乘以 $A$ 的第 $k$ 列加到第 $j$ 列上 用数 $k$ 乘以 $A$ 的第 $k$ 列加到第 $i$ 列上 用数 $k$ 乘以 $A$ 的第 $j$ 列加到第 $i$ 列上 右乘初等矩阵对列作变换。按 $P(j,i(k))$ 的记号，$k$ 倍第 $j$ 列加到第 $i$ 列，选项 4。",
+  "sort_order": 44
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\lim_{x\\to2}\\frac1{x-1}=1$，则满足 $|x-2|<\\delta$ 的 $\\delta$ 最小值为（　）（其中 $\\varepsilon$ 为任意正实数）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\delta=\\frac\\varepsilon2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\delta=\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\delta=\\min(\\frac12,\\frac\\varepsilon2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "限制 $|x-2|<\\frac12$ 后，可估计误差小于 $2|x-2|$，取 $\\delta=\\min(\\frac12,\\frac\\varepsilon2)$。",
+  "search_text": "已知 $\\lim_{x\\to2}\\frac1{x-1}=1$，则满足 $|x-2|<\\delta$ 的 $\\delta$ 最小值为（ ）（其中 $\\varepsilon$ 为任意正实数）。 $\\delta=\\frac\\varepsilon2$ $\\delta=\\frac12$ $\\delta=\\min(\\frac12,\\frac\\varepsilon2)$ 不确定 限制 $|x-2|<\\frac12$ 后，可估计误差小于 $2|x-2|$，取 $\\delta=\\min(\\frac12,\\frac\\varepsilon2)$。",
+  "sort_order": 10
+}

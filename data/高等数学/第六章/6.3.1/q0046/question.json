@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过点 $M(1,-2,3)$ 且与 $M$ 和原点连线 $OM$ 垂直的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-2y+3z-15=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+2y+3z-14=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-2y+3z-14=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+2y+3z-15=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "法向量取 $OM=(1,-2,3)$，代入点 $M$ 得 $x-2y+3z-14=0$。",
+  "search_text": "过点 $M(1,-2,3)$ 且与 $M$ 和原点连线 $OM$ 垂直的平面方程为(\\quad)。 $x-2y+3z-15=0$ $x+2y+3z-14=0$ $x-2y+3z-14=0$ $x+2y+3z-15=0$ 法向量取 $OM=(1,-2,3)$，代入点 $M$ 得 $x-2y+3z-14=0$。",
+  "sort_order": 46
+}

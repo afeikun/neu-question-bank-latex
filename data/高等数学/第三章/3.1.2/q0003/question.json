@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=ax^2+bx+c\\ (a\\ne0)$，则满足 $f(x+\\Delta x)-f(x)=\\Delta x f'(x+\\theta\\Delta x)$（$0<\\theta<1$）的 $\\theta=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "与 $a,b,c$ 有关，但与 $x,\\Delta x$ 无关；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "与 $a,b,c,x,\\Delta x$ 均无关。"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "仅与 $a+b$ 有关，与其它无关；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "与 $a,b,c$ 无关，但与 $x,\\Delta x$ 有关；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "展开可得 $f(x+\\Delta x)-f(x)=\\Delta x(2a(x+\\theta\\Delta x)+b)$，令其等于精确差值可得 $\\theta=\\frac12$，与各变量均无关。",
+  "search_text": "函数 $f(x)=ax^2+bx+c\\ (a\\ne0)$，则满足 $f(x+\\Delta x)-f(x)=\\Delta x f'(x+\\theta\\Delta x)$（$0<\\theta<1$）的 $\\theta=(\\quad)$。 与 $a,b,c$ 有关，但与 $x,\\Delta x$ 无关； 与 $a,b,c,x,\\Delta x$ 均无关。 仅与 $a+b$ 有关，与其它无关； 与 $a,b,c$ 无关，但与 $x,\\Delta x$ 有关； 展开可得 $f(x+\\Delta x)-f(x)=\\Delta x(2a(x+\\theta\\Delta x)+b)$，令其等于精确差值可得 $\\theta=\\frac12$，与各变量均无关。",
+  "sort_order": 3
+}

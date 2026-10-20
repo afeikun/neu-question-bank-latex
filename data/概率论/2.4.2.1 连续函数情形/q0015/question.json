@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,\\sigma^2)$，$Y=aX+b$，关于分布说法正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$Y\\sim N(b\\mu+a,(b\\sigma)^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$Y\\sim N(a\\mu+b,(a\\sigma)^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f_Y(y)=\\frac1{|b|}f_X((y-b)/a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$Y\\sim N(a\\mu+b,a\\sigma)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "线性变换正态变量满足$Y\\sim N(a\\mu+b,(a\\sigma)^2)$，选项2。",
+  "search_text": "$X\\sim N(\\mu,\\sigma^2)$，$Y=aX+b$，关于分布说法正确的是？ $Y\\sim N(b\\mu+a,(b\\sigma)^2)$ $Y\\sim N(a\\mu+b,(a\\sigma)^2)$ $f_Y(y)=\\frac1{|b|}f_X((y-b)/a)$ $Y\\sim N(a\\mu+b,a\\sigma)$ 线性变换正态变量满足$Y\\sim N(a\\mu+b,(a\\sigma)^2)$，选项2。",
+  "sort_order": 15
+}

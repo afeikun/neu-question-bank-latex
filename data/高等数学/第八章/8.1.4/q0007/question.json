@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "交换二次积分 $\\int_{-1}^0dy\\int_2^{1-y}f(x,y)dx$ 的积分次序，正确的是[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{-1}^0dx\\int_2^{1-x}f(x,y)dy$;"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^2dx\\int_0^{1-x}f(x,y)dy$;"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_1^2dx\\int_{1-x}^0f(x,y)dy$;"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_1^2dx\\int_0^{1-x}f(x,y)dy$;"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答　题设二次积分的积分限为 $-1\\leq y\\leq0,1-y\\leq x\\leq2$，改变积分次序后的积分限为 $1\\leq x\\leq2,1-x\\leq y\\leq0$，所以原式$=\\int_1^2dx\\int_0^{1-x}f(x,y)dy$。",
+  "search_text": "交换二次积分 $\\int_{-1}^0dy\\int_2^{1-y}f(x,y)dx$ 的积分次序，正确的是[\\quad] $\\int_{-1}^0dx\\int_2^{1-x}f(x,y)dy$; $\\int_0^2dx\\int_0^{1-x}f(x,y)dy$; $\\int_1^2dx\\int_{1-x}^0f(x,y)dy$; $\\int_1^2dx\\int_0^{1-x}f(x,y)dy$; 解答　题设二次积分的积分限为 $-1\\leq y\\leq0,1-y\\leq x\\leq2$，改变积分次序后的积分限为 $1\\leq x\\leq2,1-x\\leq y\\leq0$，所以原式$=\\int_1^2dx\\int_0^{1-x}f(x,y)dy$。",
+  "sort_order": 7
+}

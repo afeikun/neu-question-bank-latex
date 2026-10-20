@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平面上有 12 个点，其中任意三点都不在一条直线上，这些点可以确定(\\quad)条不同的直线。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$66$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$142$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$220$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$22$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "任取 12 个点中的两个不同点确定一条直线，共有 $\\binom{12}{2}=66$ 条。",
+  "search_text": "平面上有 12 个点，其中任意三点都不在一条直线上，这些点可以确定(\\quad)条不同的直线。 $66$ $142$ $220$ $22$ 任取 12 个点中的两个不同点确定一条直线，共有 $\\binom{12}{2}=66$ 条。",
+  "sort_order": 4
+}

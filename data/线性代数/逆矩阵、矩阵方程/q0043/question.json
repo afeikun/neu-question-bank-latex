@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B,AB-E$ 是同阶可逆矩阵，则 $((A-B^{-1})^{-1}-A^{-1})^{-1}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$ABA-A$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$BAB-E$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$ABA-E$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$BAB-B$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为 $AB-E=(A-B^{-1})B$，故 $(A-B^{-1})^{-1}=B(AB-E)^{-1}$。于是原式为 $(B(AB-E)^{-1}-A^{-1})^{-1}=(AB(AB-E)^{-1}-E)^{-1}A=(AB(AB-E)^{-1}-(AB-E)(AB-E)^{-1})^{-1}A=(AB-E)A=ABA-A$。",
+  "search_text": "设 $A,B,AB-E$ 是同阶可逆矩阵，则 $((A-B^{-1})^{-1}-A^{-1})^{-1}$ 等于（ ）。 $ABA-A$ $BAB-E$ $ABA-E$ $BAB-B$ 因为 $AB-E=(A-B^{-1})B$，故 $(A-B^{-1})^{-1}=B(AB-E)^{-1}$。于是原式为 $(B(AB-E)^{-1}-A^{-1})^{-1}=(AB(AB-E)^{-1}-E)^{-1}A=(AB(AB-E)^{-1}-(AB-E)(AB-E)^{-1})^{-1}A=(AB-E)A=ABA-A$。",
+  "sort_order": 43
+}

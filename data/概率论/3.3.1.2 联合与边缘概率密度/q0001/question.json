@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二维联合密度$\\varphi(x,y)$，关于$\\xi$的边缘分布函数$F_1(x)$的表达式是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{-\\infty}^x[\\int_{-\\infty}^{+\\infty}\\varphi(u,y)dy]du$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{-\\infty}^x\\varphi(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\varphi(x,+\\infty)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{-\\infty}^x\\varphi(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "先对$y$积分得边缘密度，再对$x$积分到上限。",
+  "search_text": "二维联合密度$\\varphi(x,y)$，关于$\\xi$的边缘分布函数$F_1(x)$的表达式是？ $\\int_{-\\infty}^x[\\int_{-\\infty}^{+\\infty}\\varphi(u,y)dy]du$ $\\int_{-\\infty}^x\\varphi(x,y)dx$ $\\varphi(x,+\\infty)$ $\\int_{-\\infty}^x\\varphi(x,y)dy$ 先对$y$积分得边缘密度，再对$x$积分到上限。",
+  "sort_order": 1
+}

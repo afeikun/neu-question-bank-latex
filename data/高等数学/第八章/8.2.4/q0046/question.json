@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若空间闭区域 $\\Omega_1:x^2+y^2+z^2\\leq R^2$ 且 $z\\geq0$；$\\Omega_2:x^2+y^2+z^2\\leq R^2$ 且 $x\\geq0,y\\geq0,z\\geq0$，则（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iiint_{\\Omega_1}z\\,dv=4\\iiint_{\\Omega_2}z\\,dv$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iiint_{\\Omega_1}xyz\\,dv=4\\iiint_{\\Omega_2}xyz\\,dv$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iiint_{\\Omega_1}y\\,dv=4\\iiint_{\\Omega_2}y\\,dv$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iiint_{\\Omega_1}x\\,dv=4\\iiint_{\\Omega_2}x\\,dv$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用积分函数奇偶性与积分区域对称性，不难判断 C 是正确的.",
+  "search_text": "若空间闭区域 $\\Omega_1:x^2+y^2+z^2\\leq R^2$ 且 $z\\geq0$；$\\Omega_2:x^2+y^2+z^2\\leq R^2$ 且 $x\\geq0,y\\geq0,z\\geq0$，则（ ） $\\iiint_{\\Omega_1}z\\,dv=4\\iiint_{\\Omega_2}z\\,dv$ $\\iiint_{\\Omega_1}xyz\\,dv=4\\iiint_{\\Omega_2}xyz\\,dv$ $\\iiint_{\\Omega_1}y\\,dv=4\\iiint_{\\Omega_2}y\\,dv$ $\\iiint_{\\Omega_1}x\\,dv=4\\iiint_{\\Omega_2}x\\,dv$ 利用积分函数奇偶性与积分区域对称性，不难判断 C 是正确的.",
+  "sort_order": 46
+}

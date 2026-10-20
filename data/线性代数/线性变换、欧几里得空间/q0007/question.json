@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "线性空间 $\\mathbb{R}^3$ 上定义内积 $(\\alpha,\\beta)=a_1b_1+2a_2b_2+3a_3b_3$，其中 $\\alpha=(a_1,a_2,a_3)^T$，$\\beta=(b_1,b_2,b_3)^T$，则 $\\mathbb{R}^3$ 的一个规范正交基是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha_1=(1,0,0)^T,\\ \\alpha_2=(0,2,0)^T,\\ \\alpha_3=(0,0,3)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_1=(1/\\sqrt{3},1/\\sqrt{3},0)^T,\\ \\alpha_2=(2/\\sqrt{6},-1/\\sqrt{6},0)^T,\\ \\alpha_3=(0,0,1/\\sqrt{3})^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1=(1,0,0)^T,\\ \\alpha_2=(0,1/2,0)^T,\\ \\alpha_3=(0,0,1/3)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_1=(1/\\sqrt{2},1/\\sqrt{2},0)^T,\\ \\alpha_2=(1/\\sqrt{2},-1/\\sqrt{2},0)^T,\\ \\alpha_3=(0,0,1)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "按该内积直接计算，只有选项 $2$ 中的三个向量两两正交且各自范数为 $1$，故它们构成规范正交基。",
+  "search_text": "线性空间 $\\mathbb{R}^3$ 上定义内积 $(\\alpha,\\beta)=a_1b_1+2a_2b_2+3a_3b_3$，其中 $\\alpha=(a_1,a_2,a_3)^T$，$\\beta=(b_1,b_2,b_3)^T$，则 $\\mathbb{R}^3$ 的一个规范正交基是（ ）。 $\\alpha_1=(1,0,0)^T,\\ \\alpha_2=(0,2,0)^T,\\ \\alpha_3=(0,0,3)^T$ $\\alpha_1=(1/\\sqrt{3},1/\\sqrt{3},0)^T,\\ \\alpha_2=(2/\\sqrt{6},-1/\\sqrt{6},0)^T,\\ \\alpha_3=(0,0,1/\\sqrt{3})^T$ $\\alpha_1=(1,0,0)^T,\\ \\alpha_2=(0,1/2,0)^T,\\ \\alpha_3=(0,0,1/3)^T$ $\\alpha_1=(1/\\sqrt{2},1/\\sqrt{2},0)^T,\\ \\alpha_2=(1/\\sqrt{2},-1/\\sqrt{2},0)^T,\\ \\alpha_3=(0,0,1)^T$ 按该内积直接计算，只有选项 $2$ 中的三个向量两两正交且各自范数为 $1$，故它们构成规范正交基。",
+  "sort_order": 7
+}

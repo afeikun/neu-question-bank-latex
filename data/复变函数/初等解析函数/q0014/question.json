@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$e^{\\operatorname{Ln}(2+i)}$ 的值等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2+i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2+i+2k\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1+i+k\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1+\\frac\\pi4i+2k\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "指数函数与对数主值相消，结果为 $2+i$。",
+  "search_text": "$e^{\\operatorname{Ln}(2+i)}$ 的值等于（ ）。 $2+i$ $2+i+2k\\pi i$ $1+i+k\\pi i$ $1+\\frac\\pi4i+2k\\pi i$ 指数函数与对数主值相消，结果为 $2+i$。",
+  "sort_order": 14
+}

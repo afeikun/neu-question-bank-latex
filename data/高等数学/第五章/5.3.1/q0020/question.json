@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正项级数 $\\sum_{n=1}^{\\infty} u_n$ 收敛，$k\\in(0,\\pi/2)$，级数 $\\sum_{n=1}^{\\infty}(-1)^{n+1}(n\\tan(k/n))u_{2n}$ 如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "收敛性与 $k$ 有关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$n\\tan(k/n)\\to k$，与正项收敛子级数比较，绝对收敛。",
+  "search_text": "正项级数 $\\sum_{n=1}^{\\infty} u_n$ 收敛，$k\\in(0,\\pi/2)$，级数 $\\sum_{n=1}^{\\infty}(-1)^{n+1}(n\\tan(k/n))u_{2n}$ 如何？ 收敛性与 $k$ 有关 发散 条件收敛 绝对收敛 $n\\tan(k/n)\\to k$，与正项收敛子级数比较，绝对收敛。",
+  "sort_order": 20
+}

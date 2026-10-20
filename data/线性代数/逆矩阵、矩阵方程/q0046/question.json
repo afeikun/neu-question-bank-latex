@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A=\\begin{pmatrix}1&0&0\\\\-2&3&0\\\\0&-4&5\\end{pmatrix}$，$E$ 是 3 阶单位矩阵，且 $B=(A+E)^{-1}(E-A)$，则 $(E+B)^{-1}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\-1&2&0\\\\0&-2&3\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\1&-2&0\\\\0&2&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}2&0&0\\\\-2&4&0\\\\0&-4&6\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\1&2&0\\\\-2&1&4\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $B=(E+A)^{-1}(E-A)$ 知 $(E+A)B=E-A$，从而 $B+E+AB+A=2E$，即 $(E+B)(E+A)=2E$。因此 $(E+B)^{-1}=\\frac12(E+A)=\\begin{pmatrix}1&0&0\\\\-1&2&0\\\\0&-2&3\\end{pmatrix}$。",
+  "search_text": "已知 $A=\\begin{pmatrix}1&0&0\\\\-2&3&0\\\\0&-4&5\\end{pmatrix}$，$E$ 是 3 阶单位矩阵，且 $B=(A+E)^{-1}(E-A)$，则 $(E+B)^{-1}=$（ ）。 $\\begin{pmatrix}1&0&0\\\\-1&2&0\\\\0&-2&3\\end{pmatrix}$ $\\begin{pmatrix}1&0&0\\\\1&-2&0\\\\0&2&2\\end{pmatrix}$ $\\begin{pmatrix}2&0&0\\\\-2&4&0\\\\0&-4&6\\end{pmatrix}$ $\\begin{pmatrix}1&0&0\\\\1&2&0\\\\-2&1&4\\end{pmatrix}$ 由 $B=(E+A)^{-1}(E-A)$ 知 $(E+A)B=E-A$，从而 $B+E+AB+A=2E$，即 $(E+B)(E+A)=2E$。因此 $(E+B)^{-1}=\\frac12(E+A)=\\begin{pmatrix}1&0&0\\\\-1&2&0\\\\0&-2&3\\end{pmatrix}$。",
+  "sort_order": 46
+}

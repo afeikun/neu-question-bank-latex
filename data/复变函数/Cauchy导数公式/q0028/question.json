@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\oint_C\\frac{ze^{2z}}{(z+a)(z-b)^2}dz$，其中 $C$ 是包含 $-a,b$ 在内的正向圆周，$r>a>b>0$，等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi i[\\frac{e^{2b}(2b+1)}{a+b}-\\frac{ae^{-2a}+be^{2b}}{(a+b)^2}]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi i[\\frac{e^{2b}(2b-1)}{a+b}-\\frac{ae^{2a}+be^{-2b}}{(a+b)^2}]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{e^{2b}(2b+1)}{a+b}-\\frac{ae^{-2a}+be^{2b}}{(a+b)^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i[\\frac{e^{2b}(2b+1)}{a+b}-\\frac{be^{2b}}{(a+b)^2}]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分别对 $z=-a$ 的简单极点和 $z=b$ 的二阶极点用留数/高阶导数公式。",
+  "search_text": "积分 $\\oint_C\\frac{ze^{2z}}{(z+a)(z-b)^2}dz$，其中 $C$ 是包含 $-a,b$ 在内的正向圆周，$r>a>b>0$，等于（ ）。 $2\\pi i[\\frac{e^{2b}(2b+1)}{a+b}-\\frac{ae^{-2a}+be^{2b}}{(a+b)^2}]$ $2\\pi i[\\frac{e^{2b}(2b-1)}{a+b}-\\frac{ae^{2a}+be^{-2b}}{(a+b)^2}]$ $\\frac{e^{2b}(2b+1)}{a+b}-\\frac{ae^{-2a}+be^{2b}}{(a+b)^2}$ $2\\pi i[\\frac{e^{2b}(2b+1)}{a+b}-\\frac{be^{2b}}{(a+b)^2}]$ 分别对 $z=-a$ 的简单极点和 $z=b$ 的二阶极点用留数/高阶导数公式。",
+  "sort_order": 28
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=y(x)$ 由方程 $e^y+xy=e$ 所确定，则 $y\\prime\\prime(0)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1/e^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1/e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/e^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "隐式求导并代入 $x=0,y=1$ 得 $y\\prime\\prime(0)=1/e^2$。",
+  "search_text": "设 $y=y(x)$ 由方程 $e^y+xy=e$ 所确定，则 $y\\prime\\prime(0)=$（ ）。 $-1/e^2$ $-1/e$ $1/e^2$ $1/e$ 隐式求导并代入 $x=0,y=1$ 得 $y\\prime\\prime(0)=1/e^2$。",
+  "sort_order": 28
+}

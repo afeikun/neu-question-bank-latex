@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 为圆 $(x-a)^2+y^2=a^2$ 上半圆从 $A(a,0)$ 到 $B(-a,0)$，计算 $\\int_Lx\\,dy-y\\,dx$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{\\pi a^3}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\pi a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12\\pi a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解 $L$ 的参数方程 $x=a\\cos t，\\quad y=a\\sin t$，当点从 $A$ 到 $B$ 时，$t$ 由 $0$ 变到 $\\pi$，于是\n\n$$\n\\begin{aligned}\n\\int_Lx\\,\\mathrm{d}y-y\\,\\mathrm{d}x\n&=\\int_0^\\pi\\left[a\\cos t\\cdot(a\\sin t)'-a\\sin t\\cdot(a\\cos t)'\\right]\\,\\mathrm{d}t\\\\\n&=\\int_0^\\pi\\left[a^2\\cos^2t+a^2\\sin^2t\\right]\\,\\mathrm{d}t=\\pi a^2\n\\end{aligned}\n$$",
+  "search_text": "$L$ 为圆 $(x-a)^2+y^2=a^2$ 上半圆从 $A(a,0)$ 到 $B(-a,0)$，计算 $\\int_Lx\\,dy-y\\,dx$。 $\\pi a^2$ $-\\frac{\\pi a^3}{3}$ $-\\pi a^2$ $-\\frac12\\pi a^2$ 解 $L$ 的参数方程 $x=a\\cos t，\\quad y=a\\sin t$，当点从 $A$ 到 $B$ 时，$t$ 由 $0$ 变到 $\\pi$，于是\n\n$$\n\\begin{aligned}\n\\int_Lx\\,\\mathrm{d}y-y\\,\\mathrm{d}x\n&=\\int_0^\\pi\\left[a\\cos t\\cdot(a\\sin t)'-a\\sin t\\cdot(a\\cos t)'\\right]\\,\\mathrm{d}t\\\\\n&=\\int_0^\\pi\\left[a^2\\cos^2t+a^2\\sin^2t\\right]\\,\\mathrm{d}t=\\pi a^2\n\\end{aligned}\n$$",
+  "sort_order": 16
+}

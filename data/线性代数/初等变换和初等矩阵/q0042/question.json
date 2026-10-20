@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&1&1\\\\0&1&1\\\\0&0&1\\end{pmatrix},\\ B=\\begin{pmatrix}1&-3\\\\2&2\\\\3&-1\\end{pmatrix}$，则使 $AX=B$ 的 $X$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}3&1\\\\-1&2\\\\2&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}2&1\\\\3&-1\\\\0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}2&-3\\\\1&-1\\\\0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}-1&-5\\\\-1&3\\\\3&-1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解 $AX=B$ 得 $X=A^{-1}B$，为选项 3。",
+  "search_text": "设 $A=\\begin{pmatrix}1&1&1\\\\0&1&1\\\\0&0&1\\end{pmatrix},\\ B=\\begin{pmatrix}1&-3\\\\2&2\\\\3&-1\\end{pmatrix}$，则使 $AX=B$ 的 $X$ 为(\\quad)。 $\\begin{pmatrix}3&1\\\\-1&2\\\\2&2\\end{pmatrix}$ $\\begin{pmatrix}2&1\\\\3&-1\\\\0&2\\end{pmatrix}$ $\\begin{pmatrix}2&-3\\\\1&-1\\\\0&2\\end{pmatrix}$ $\\begin{pmatrix}-1&-5\\\\-1&3\\\\3&-1\\end{pmatrix}$ 解 $AX=B$ 得 $X=A^{-1}B$，为选项 3。",
+  "sort_order": 42
+}

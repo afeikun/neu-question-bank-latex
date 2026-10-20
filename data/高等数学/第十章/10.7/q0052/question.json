@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知某商品的成本 $y$ 是订货量 $x$ 的函数，假设 $y$ 关于 $x$ 的变化率等于订货量的平方与成本的平方之和除以订货量与成本之积的二倍，且 $x=1$ 时，$y=3$，则订货与成本函数是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\sqrt{17x^2-8x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\sqrt{x^2+\\frac{8}{x}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\sqrt{x^2+Cx}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\sqrt{x^2+8x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：依题意 $\\frac{dy}{dx}=\\frac{x^2+y^2}{2xy}=\\frac{1+\\left(\\frac{y}{x}\\right)^2}{2\\frac{y}{x}}$，令 $u=\\frac{y}{x}$，$y'=u+xu'$ 带入方程，解得 $y=\\sqrt{x^2+8x}$",
+  "search_text": "已知某商品的成本 $y$ 是订货量 $x$ 的函数，假设 $y$ 关于 $x$ 的变化率等于订货量的平方与成本的平方之和除以订货量与成本之积的二倍，且 $x=1$ 时，$y=3$，则订货与成本函数是（）。 $y=\\sqrt{17x^2-8x}$ $y=\\sqrt{x^2+\\frac{8}{x}}$ $y=\\sqrt{x^2+Cx}$ $y=\\sqrt{x^2+8x}$ 解析：依题意 $\\frac{dy}{dx}=\\frac{x^2+y^2}{2xy}=\\frac{1+\\left(\\frac{y}{x}\\right)^2}{2\\frac{y}{x}}$，令 $u=\\frac{y}{x}$，$y'=u+xu'$ 带入方程，解得 $y=\\sqrt{x^2+8x}$",
+  "sort_order": 52
+}

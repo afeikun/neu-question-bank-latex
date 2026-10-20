@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "摆线x=a(t−sin t)，y=a(1−cos t)一拱与x轴围成图形绕x轴旋转的体积表达式",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀^{2π}πa²(1−cos t)²d[a(t−sin t)]"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₀^{2π}πa²(1−cos t)²d[a(t−sin t)]"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀^{2π}πa²(1−cos t)d[a(t−sin t)]"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀^{2π}πa²(1−cos t)²dt"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆盘法体积元为πy²dx，故对应第二项。",
+  "search_text": "摆线x=a(t−sin t)，y=a(1−cos t)一拱与x轴围成图形绕x轴旋转的体积表达式 ∫₀^{2π}πa²(1−cos t)²d[a(t−sin t)] ∫₀^{2π}πa²(1−cos t)²d[a(t−sin t)] ∫₀^{2π}πa²(1−cos t)d[a(t−sin t)] ∫₀^{2π}πa²(1−cos t)²dt 圆盘法体积元为πy²dx，故对应第二项。",
+  "sort_order": 5
+}

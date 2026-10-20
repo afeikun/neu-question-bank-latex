@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在房间里有10人，分别佩戴着1～10号的纪念章，任意选4人记录其纪念章号码，则最小的号码为5的事件的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\binom53/\\binom{10}4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\binom64/\\binom{10}4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\binom64/10^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P_{5}^{3}/P_{10}^{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "最小号码为5时，其他3个号码从6,7,8,9,10中选择，有$\\binom53$种；总选择数为$\\binom{10}4$，概率为$1/21$。",
+  "search_text": "在房间里有10人，分别佩戴着1～10号的纪念章，任意选4人记录其纪念章号码，则最小的号码为5的事件的概率为（ ）。 $\\binom53/\\binom{10}4$ $\\binom64/\\binom{10}4$ $\\binom64/10^4$ $P_{5}^{3}/P_{10}^{4}$ 最小号码为5时，其他3个号码从6,7,8,9,10中选择，有$\\binom53$种；总选择数为$\\binom{10}4$，概率为$1/21$。",
+  "sort_order": 13
+}

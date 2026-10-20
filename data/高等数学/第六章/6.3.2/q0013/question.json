@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若平面 $kx+y+z+2=0$ 平行于平面 $4x+y+z-6=0$，则 $k=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "法向量成比例，比较 $y,z$ 系数得比例因子为 $1$，所以 $k=4$。",
+  "search_text": "若平面 $kx+y+z+2=0$ 平行于平面 $4x+y+z-6=0$，则 $k=(\\quad)$。 $1$ $2$ $3$ $4$ 法向量成比例，比较 $y,z$ 系数得比例因子为 $1$，所以 $k=4$。",
+  "sort_order": 13
+}

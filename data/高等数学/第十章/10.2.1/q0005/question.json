@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\frac{dy}{dx}=(x+y)^2$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\ln(x+C)+xy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+y+\\ln(x+y)=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\sin(x+y)+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\tan(x+C)-x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $u=x+y$，代入方程 $u'-1=u^2$，$\\frac{du}{1+u^2}=dx$。\n\n积分 $\\arctan u=x+C$，即 $x+y=\\tan(x+C)$。",
+  "search_text": "微分方程 $\\frac{dy}{dx}=(x+y)^2$ 的通解为（ ） $y=\\ln(x+C)+xy$ $x+y+\\ln(x+y)=C$ $y=\\sin(x+y)+C$ $y=\\tan(x+C)-x$ 设 $u=x+y$，代入方程 $u'-1=u^2$，$\\frac{du}{1+u^2}=dx$。\n\n积分 $\\arctan u=x+C$，即 $x+y=\\tan(x+C)$。",
+  "sort_order": 5
+}

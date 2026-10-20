@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim B(10,3/100)$，样本均值$\\bar X$期望为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3/10$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2/5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\bar X)=E(X)=10(3/100)=3/10$。",
+  "search_text": "$X_i\\sim B(10,3/100)$，样本均值$\\bar X$期望为（）。 $3/10$ $2/5$ $3/5$ $1$ $E(\\bar X)=E(X)=10(3/100)=3/10$。",
+  "sort_order": 23
+}

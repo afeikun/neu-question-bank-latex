@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim N(\\mu,\\sigma^2)$，$\\mu$已知，以下估计量均值为$\\sigma^2$的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1n\\sum(X_i-\\mu)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1n\\sum(X_i-\\bar X)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{n+1}\\sum(X_i-\\mu)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{n-1}\\sum(X_i-\\mu)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E[(X_i-\\mu)^2]=\\sigma^2$，故选项1无偏。",
+  "search_text": "$X_i\\sim N(\\mu,\\sigma^2)$，$\\mu$已知，以下估计量均值为$\\sigma^2$的是（）。 $\\frac1n\\sum(X_i-\\mu)^2$ $\\frac1n\\sum(X_i-\\bar X)^2$ $\\frac1{n+1}\\sum(X_i-\\mu)^2$ $\\frac1{n-1}\\sum(X_i-\\mu)^2$ $E[(X_i-\\mu)^2]=\\sigma^2$，故选项1无偏。",
+  "sort_order": 6
+}

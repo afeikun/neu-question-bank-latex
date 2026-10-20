@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $x\\prime\\prime\\prime-x=e^t$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=c_1e^{-t/2}\\cos\\frac{\\sqrt3}2t+c_2e^{-t/2}\\sin\\frac{\\sqrt3}2t+c_3e^t+\\frac12t^2e^t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=c_1e^{-t/2}\\cos\\frac{\\sqrt3}2t+c_2e^{-t/2}\\sin\\frac{\\sqrt3}2t+c_3e^t+\\frac12t^2e^t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=c_1e^{-t/2}\\cos\\frac{\\sqrt3}2t+c_2e^{-t/2}\\sin\\frac{\\sqrt3}2t+c_3e^t+\\frac13t^2e^t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=c_1e^{-t}\\cos\\frac{\\sqrt3}2t+c_2e^{-t}\\sin\\frac{\\sqrt3}2t+c_3e^t+\\frac12t^2e^t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对应齐次方程的特征方程为 $r^3-1=0$ 它有根 $r_1=\\frac{-1+\\sqrt{3}i}{2},r_2=\\frac{-1-\\sqrt{3}i}{2},r_3=1$ 故齐次线性方程的通解为 $X=c_1e^{-t/2}\\cos\\frac{\\sqrt{3}}{2}t+c_2e^{-t/2}\\sin\\frac{\\sqrt{3}}{2}t+c_3e^t$ 由于 $r=1$ 是特征方程的根，故方程有形如 $x^*=At^2e^t$ 的特解，代入原方程解得 $A=\\frac{1}{3}$ 是原方程的通解为 $x=c_1e^{-t/2}\\cos\\frac{\\sqrt{3}}{2}t+c_2e^{-t/2}\\sin\\frac{\\sqrt{3}}{2}t+c_3e^t+\\frac{1}{3}t^2e^t$\n\n其中 $c_1,c_2,c_3$ 为任意常数。",
+  "search_text": "解方程 $x\\prime\\prime\\prime-x=e^t$（ ） $x=c_1e^{-t/2}\\cos\\frac{\\sqrt3}2t+c_2e^{-t/2}\\sin\\frac{\\sqrt3}2t+c_3e^t+\\frac12t^2e^t$ $x=c_1e^{-t/2}\\cos\\frac{\\sqrt3}2t+c_2e^{-t/2}\\sin\\frac{\\sqrt3}2t+c_3e^t+\\frac12t^2e^t$ $x=c_1e^{-t/2}\\cos\\frac{\\sqrt3}2t+c_2e^{-t/2}\\sin\\frac{\\sqrt3}2t+c_3e^t+\\frac13t^2e^t$ $x=c_1e^{-t}\\cos\\frac{\\sqrt3}2t+c_2e^{-t}\\sin\\frac{\\sqrt3}2t+c_3e^t+\\frac12t^2e^t$ 对应齐次方程的特征方程为 $r^3-1=0$ 它有根 $r_1=\\frac{-1+\\sqrt{3}i}{2},r_2=\\frac{-1-\\sqrt{3}i}{2},r_3=1$ 故齐次线性方程的通解为 $X=c_1e^{-t/2}\\cos\\frac{\\sqrt{3}}{2}t+c_2e^{-t/2}\\sin\\frac{\\sqrt{3}}{2}t+c_3e^t$ 由于 $r=1$ 是特征方程的根，故方程有形如 $x^*=At^2e^t$ 的特解，代入原方程解得 $A=\\frac{1}{3}$ 是原方程的通解为 $x=c_1e^{-t/2}\\cos\\frac{\\sqrt{3}}{2}t+c_2e^{-t/2}\\sin\\frac{\\sqrt{3}}{2}t+c_3e^t+\\frac{1}{3}t^2e^t$\n\n其中 $c_1,c_2,c_3$ 为任意常数。",
+  "sort_order": 14
+}

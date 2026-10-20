@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$xy\\prime-4y=x^2\\sqrt y$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt y=x^2+C\\ln x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt y=x^2+\\frac12\\ln x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt y=\\frac{x^2}{2}\\ln x+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt y=x^2(\\frac12\\ln x+C)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方程写成 $y'-\\frac{4}{x}y=xy^{\\frac{1}{2}}$，这是伯努利方程 $n=\\frac{1}{2}$，令 $z=y^{1-\\frac{1}{2}}=y^{\\frac{1}{2}}$，$\\frac{dz}{dx}=\\frac{1}{2}y^{-\\frac{1}{2}}\\frac{dy}{dx}$。\n\n于是方程化为：$\\frac{dz}{dx}+\\frac{1}{2}(-\\frac{4}{x})z=\\frac{1}{2}x$\n\n通解为：$z=e^{\\int\\frac{2}{x}\\,dx}\\left(\\int\\frac{1}{2}xe^{-\\int\\frac{2}{x}\\,dx}\\,dx+C\\right)=x^2(\\frac{1}{2}\\ln x+C)$",
+  "search_text": "$xy\\prime-4y=x^2\\sqrt y$ 的通解为（ ） $\\sqrt y=x^2+C\\ln x$ $\\sqrt y=x^2+\\frac12\\ln x+C$ $\\sqrt y=\\frac{x^2}{2}\\ln x+C$ $\\sqrt y=x^2(\\frac12\\ln x+C)$ 方程写成 $y'-\\frac{4}{x}y=xy^{\\frac{1}{2}}$，这是伯努利方程 $n=\\frac{1}{2}$，令 $z=y^{1-\\frac{1}{2}}=y^{\\frac{1}{2}}$，$\\frac{dz}{dx}=\\frac{1}{2}y^{-\\frac{1}{2}}\\frac{dy}{dx}$。\n\n于是方程化为：$\\frac{dz}{dx}+\\frac{1}{2}(-\\frac{4}{x})z=\\frac{1}{2}x$\n\n通解为：$z=e^{\\int\\frac{2}{x}\\,dx}\\left(\\int\\frac{1}{2}xe^{-\\int\\frac{2}{x}\\,dx}\\,dx+C\\right)=x^2(\\frac{1}{2}\\ln x+C)$",
+  "sort_order": 3
+}

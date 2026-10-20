@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体$X$服从区间$[a,b]$均匀分布，求样本均值期望。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(a+b)/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(b-a)/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(b-a)^2/12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(a+b)^2/12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本均值期望等于总体均值$(a+b)/2$。",
+  "search_text": "总体$X$服从区间$[a,b]$均匀分布，求样本均值期望。 $(a+b)/2$ $(b-a)/2$ $(b-a)^2/12$ $(a+b)^2/12$ 样本均值期望等于总体均值$(a+b)/2$。",
+  "sort_order": 4
+}

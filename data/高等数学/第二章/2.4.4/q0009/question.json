@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sqrt[3]{998.5}$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$9.997$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9.996$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9.996$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$9.995$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\sqrt[3]{998.5}=10\\sqrt[3]{1-0.0015}\\approx10(1-\\frac13\\cdot0.0015)=9.995$。",
+  "search_text": "$\\sqrt[3]{998.5}$ 的近似值为 $(\\quad)$。 $9.997$ $9.996$ $9.996$ $9.995$ $\\sqrt[3]{998.5}=10\\sqrt[3]{1-0.0015}\\approx10(1-\\frac13\\cdot0.0015)=9.995$。",
+  "sort_order": 9
+}

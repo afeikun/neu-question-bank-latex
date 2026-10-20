@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在 $[0,+\\infty)$ 上，$t\\ast e^t=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^t-t-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^t-t+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^t+t-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^t+t+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$t\\ast e^t=\\int_0^t\\tau e^{t-\\tau}\\,d\\tau=e^t\\int_0^t\\tau e^{-\\tau}\\,d\\tau=e^t(-te^{-t}-e^{-t}+1)=e^t-t-1$。",
+  "search_text": "在 $[0,+\\infty)$ 上，$t\\ast e^t=(\\quad)$。 $e^t-t-1$ $e^t-t+1$ $e^t+t-1$ $e^t+t+1$ $t\\ast e^t=\\int_0^t\\tau e^{t-\\tau}\\,d\\tau=e^t\\int_0^t\\tau e^{-\\tau}\\,d\\tau=e^t(-te^{-t}-e^{-t}+1)=e^t-t-1$。",
+  "sort_order": 5
+}

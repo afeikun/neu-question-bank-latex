@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "从5双不同的鞋子中任取4只，则这4只鞋子中至少有两只配成一双的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$13/21$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$11/21$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$17/21$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$10/21$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总取法$\\binom{10}4$。补事件为每双仅取一只，取法$\\binom54 2^4$，故概率$1-\\binom54 2^4/\\binom{10}4=13/21$。",
+  "search_text": "从5双不同的鞋子中任取4只，则这4只鞋子中至少有两只配成一双的概率是（ ）。 $13/21$ $11/21$ $17/21$ $10/21$ 总取法$\\binom{10}4$。补事件为每双仅取一只，取法$\\binom54 2^4$，故概率$1-\\binom54 2^4/\\binom{10}4=13/21$。",
+  "sort_order": 6
+}

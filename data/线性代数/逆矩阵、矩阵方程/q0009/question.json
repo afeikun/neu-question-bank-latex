@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 阶方阵 $A$ 非奇异（$n\\ge2$），$A^*$ 是矩阵 $A$ 的伴随矩阵，则 $(A^*)^*=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|A|^{n+1}A$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|A|^{n-2}A$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|A|^{n+2}A$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|A|^{n-1}A$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "因为 $A$ 可逆，$|A|\\ne0$ 且 $AA^*=|A|E$，所以 $A^*=|A|A^{-1}$、$|A^*|=|A|^{n-1}$。于是 $(A^*)^*=|A^*|(A^*)^{-1}=|A|^{n-1}|A|^{-1}A=|A|^{n-2}A$。",
+  "search_text": "设 $n$ 阶方阵 $A$ 非奇异（$n\\ge2$），$A^*$ 是矩阵 $A$ 的伴随矩阵，则 $(A^*)^*=$（ ）。 $|A|^{n+1}A$ $|A|^{n-2}A$ $|A|^{n+2}A$ $|A|^{n-1}A$ 因为 $A$ 可逆，$|A|\\ne0$ 且 $AA^*=|A|E$，所以 $A^*=|A|A^{-1}$、$|A^*|=|A|^{n-1}$。于是 $(A^*)^*=|A^*|(A^*)^{-1}=|A|^{n-1}|A|^{-1}A=|A|^{n-2}A$。",
+  "sort_order": 9
+}

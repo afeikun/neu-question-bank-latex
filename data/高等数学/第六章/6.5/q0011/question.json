@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "锥面 $x^2+\\frac{y^2}{25}=\\frac{z^2}{16}$ 与 $xOy$ 面的交线为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "椭圆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "一点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "一对相交直线"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "双曲线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：$xOy$ 面的方程为 $z=0$，带入锥面方程得 $x=y=0$，即锥面与 $xOy$ 面相交于原点。",
+  "search_text": "锥面 $x^2+\\frac{y^2}{25}=\\frac{z^2}{16}$ 与 $xOy$ 面的交线为(\\quad)。 椭圆 一点 一对相交直线 双曲线 解答：$xOy$ 面的方程为 $z=0$，带入锥面方程得 $x=y=0$，即锥面与 $xOy$ 面相交于原点。",
+  "sort_order": 11
+}

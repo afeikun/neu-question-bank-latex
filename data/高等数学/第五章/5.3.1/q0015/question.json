@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若数列 $\\{na_n\\}$ 有界，判断 $\\sum_{n=1}^{\\infty}(-1)^na_n^2$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不能确定敛散性"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$|a_n|\\le M/n$，故 $\\sum_{n=1}^{\\infty}|a_n|^2$ 与 $1/n^2$ 比较收敛。",
+  "search_text": "若数列 $\\{na_n\\}$ 有界，判断 $\\sum_{n=1}^{\\infty}(-1)^na_n^2$。 条件收敛 绝对收敛 不能确定敛散性 发散 $|a_n|\\le M/n$，故 $\\sum_{n=1}^{\\infty}|a_n|^2$ 与 $1/n^2$ 比较收敛。",
+  "sort_order": 15
+}

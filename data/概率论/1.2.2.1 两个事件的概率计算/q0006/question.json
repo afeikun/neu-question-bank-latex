@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 为随机事件，$P(A)=0.7$，$P(B)=0.5$，$P(A-B)=0.3$，则（1）$P(AB)=(\\quad)$，（2）$P(B-A)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.4,\\ 0.1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.6,\\ 0.2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.4,\\ 0.2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.5,\\ 0.2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(A-B)=P(A)-P(AB)$，得$P(AB)=0.4$；$P(B-A)=P(B)-P(AB)=0.1$。",
+  "search_text": "设 $A,B$ 为随机事件，$P(A)=0.7$，$P(B)=0.5$，$P(A-B)=0.3$，则（1）$P(AB)=(\\quad)$，（2）$P(B-A)=(\\quad)$。 $0.4,\\ 0.1$ $0.6,\\ 0.2$ $0.4,\\ 0.2$ $0.5,\\ 0.2$ $P(A-B)=P(A)-P(AB)$，得$P(AB)=0.4$；$P(B-A)=P(B)-P(AB)=0.1$。",
+  "sort_order": 6
+}

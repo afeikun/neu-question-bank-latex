@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=z\\bar z^2$，则 $f\\prime(0)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "展开为 $x^3+xy^2+i(x^2y+y^3)$，原点导数为 $0$。",
+  "search_text": "设 $f(z)=z\\bar z^2$，则 $f\\prime(0)=(\\ )$。 $0$ $1$ $i$ $-1$ 展开为 $x^3+xy^2+i(x^2y+y^3)$，原点导数为 $0$。",
+  "sort_order": 50
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=y(x)$ 任一点的切线在 $y$ 轴截距等于该点横坐标平方，求微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y-\\frac{x}{y^\\prime}=x^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y-xy^\\prime=x^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-y^\\prime=x^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-\\frac y{y^\\prime}=x^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：设点$M(x,y)$处的切线为$Y-y=y'(X-x)$，在$y$轴的截距是$y-xy'$，依题意得$y-xy'=x^2$。",
+  "search_text": "曲线 $y=y(x)$ 任一点的切线在 $y$ 轴截距等于该点横坐标平方，求微分方程。 $y-\\frac{x}{y^\\prime}=x^2$ $y-xy^\\prime=x^2$ $x-y^\\prime=x^2$ $x-\\frac y{y^\\prime}=x^2$ 解析：设点$M(x,y)$处的切线为$Y-y=y'(X-x)$，在$y$轴的截距是$y-xy'$，依题意得$y-xy'=x^2$。",
+  "sort_order": 57
+}

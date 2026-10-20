@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $x^2/(1+x^2)$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\sum_{n=1}^\\infty x^{2n}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\sum_{n=0}^{\\infty} x^{2n+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\sum_{n=0}^{\\infty} x^{2n}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty} x^{2n}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x^2/(1+x^2)=1-1/(1+x^2)=\\sum_{n=1}^\\infty(-1)^{n-1}x^{2n}$? 按原图逐项为负号交错。",
+  "search_text": "将 $x^2/(1+x^2)$ 展开成 $x$ 的幂级数。 $-\\sum_{n=1}^\\infty x^{2n}$ $-\\sum_{n=0}^{\\infty} x^{2n+1}$ $-\\sum_{n=0}^{\\infty} x^{2n}$ $\\sum_{n=0}^{\\infty} x^{2n}$ $x^2/(1+x^2)=1-1/(1+x^2)=\\sum_{n=1}^\\infty(-1)^{n-1}x^{2n}$? 按原图逐项为负号交错。",
+  "sort_order": 11
+}

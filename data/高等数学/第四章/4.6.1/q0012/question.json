@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线y=x(x−1)(x−2)与横轴围成图形面积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀¹p(x)dx+∫₁²p(x)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₀¹p(x)dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀²p(x)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀¹p(x)dx−∫₁²p(x)dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令p(x)=x(x−1)(x−2)，在[0,1]为正、[1,2]为负，面积为两段积分的差。",
+  "search_text": "曲线y=x(x−1)(x−2)与横轴围成图形面积 ∫₀¹p(x)dx+∫₁²p(x)dx ∫₀¹p(x)dx ∫₀²p(x)dx ∫₀¹p(x)dx−∫₁²p(x)dx 令p(x)=x(x−1)(x−2)，在[0,1]为正、[1,2]为负，面积为两段积分的差。",
+  "sort_order": 12
+}

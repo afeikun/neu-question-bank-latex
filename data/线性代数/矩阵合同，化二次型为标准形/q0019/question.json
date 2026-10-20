@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+ax_3^2+2x_1x_2$ 经过正交变换可化为标准形 $f=2y_2^2+2y_3^2$，则 $a$ 等于(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "矩阵特征值为 $0,2,a$，与标准形特征值比较可得 $a=2$，选项 2。",
+  "search_text": "已知二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+ax_3^2+2x_1x_2$ 经过正交变换可化为标准形 $f=2y_2^2+2y_3^2$，则 $a$ 等于(\\quad)。 $3$ $2$ $4$ $1$ 矩阵特征值为 $0,2,a$，与标准形特征值比较可得 $a=2$，选项 2。",
+  "sort_order": 19
+}

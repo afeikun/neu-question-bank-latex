@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$为偶密度，分布函数为$F(x)$，$a>0$，正确关系为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(|X|>a)=2[1-F(a)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(-a)=1+F(a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(-a)=-F(a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(|X|>a)=1-F(a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对称性给出$F(-a)=1-F(a)$，因此$P(|X|>a)=F(-a)+1-F(a)=2[1-F(a)]$。",
+  "search_text": "$f(x)$为偶密度，分布函数为$F(x)$，$a>0$，正确关系为（ ）。 $P(|X|>a)=2[1-F(a)]$ $F(-a)=1+F(a)$ $F(-a)=-F(a)$ $P(|X|>a)=1-F(a)$ 对称性给出$F(-a)=1-F(a)$，因此$P(|X|>a)=F(-a)+1-F(a)=2[1-F(a)]$。",
+  "sort_order": 19
+}

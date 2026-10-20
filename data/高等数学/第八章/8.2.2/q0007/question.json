@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega:0\\leq z\\leq1$，则三重积分 $\\iiint_\\Omega zdv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "可以表示为 $0\\leq z\\leq1,\\quad D:\\quad z\\leq\\sqrt{x^2+y^2}\\leq\\sqrt{3z}$，利用平行截面法可得，\n\n$$\n\\text{原式 }\\Omega=\\int_0^1zS_D\\,dz\n$$\n$$\n=\\pi\\int_0^12z^3\\,dz\n$$\n$$\n=\\frac14\\pi\n$$",
+  "search_text": "$\\Omega:0\\leq z\\leq1$，则三重积分 $\\iiint_\\Omega zdv$ 的值为（ ） $\\pi$ $\\frac\\pi8$ $\\frac\\pi2$ $\\frac\\pi4$ 可以表示为 $0\\leq z\\leq1,\\quad D:\\quad z\\leq\\sqrt{x^2+y^2}\\leq\\sqrt{3z}$，利用平行截面法可得，\n\n$$\n\\text{原式 }\\Omega=\\int_0^1zS_D\\,dz\n$$\n$$\n=\\pi\\int_0^12z^3\\,dz\n$$\n$$\n=\\frac14\\pi\n$$",
+  "sort_order": 7
+}

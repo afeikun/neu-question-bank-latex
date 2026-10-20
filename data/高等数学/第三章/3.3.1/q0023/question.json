@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a>0,b>0$，则 $\\lim_{x\\to0}\\left(\\frac{a^x+b^x}{2}\\right)^{1/x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{ab}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ab$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln\\sqrt{ab}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln ab$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "取对数并使用 $a^x=1+x\\ln a+o(x)$、$b^x=1+x\\ln b+o(x)$，极限为 $e^{(\\ln a+\\ln b)/2}=\\sqrt{ab}$。",
+  "search_text": "设 $a>0,b>0$，则 $\\lim_{x\\to0}\\left(\\frac{a^x+b^x}{2}\\right)^{1/x}=(\\quad)$。 $\\sqrt{ab}$ $ab$ $\\ln\\sqrt{ab}$ $\\ln ab$ 取对数并使用 $a^x=1+x\\ln a+o(x)$、$b^x=1+x\\ln b+o(x)$，极限为 $e^{(\\ln a+\\ln b)/2}=\\sqrt{ab}$。",
+  "sort_order": 23
+}

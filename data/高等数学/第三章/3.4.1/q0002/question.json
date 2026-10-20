@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=x-\\ln(1+x^2)$ 的单调性为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "单调增加"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调减少"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "没有单调性"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无法判断"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y\\prime=1-\\frac{2x}{1+x^2}=\\frac{(1-x)^2}{1+x^2}\\ge0$，故函数单调增加。",
+  "search_text": "函数 $y=x-\\ln(1+x^2)$ 的单调性为（ ）。 单调增加 单调减少 没有单调性 无法判断 $y\\prime=1-\\frac{2x}{1+x^2}=\\frac{(1-x)^2}{1+x^2}\\ge0$，故函数单调增加。",
+  "sort_order": 2
+}

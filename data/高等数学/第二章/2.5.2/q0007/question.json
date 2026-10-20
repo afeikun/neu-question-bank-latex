@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}$（$x>1$），求 $y^\\prime$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}[\\frac1{x+1}-\\frac1{3(x-1)}+\\frac2{x+4}-1]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}[\\frac1{x+1}-\\frac1{3(x-1)}-\\frac2{x+4}+1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}[\\frac1{x+1}+\\frac1{3(x-1)}-\\frac2{x+4}]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}[\\frac1{x+1}+\\frac1{3(x-1)}-\\frac2{x+4}-1]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时取对数 $\\ln y=\\ln(x+1)+\\frac13\\ln(x-1)-2\\ln(x+4)-x$，并对 $x$ 求导可得\n\n$$\\frac1y y'=\\frac1{x+1}+\\frac1{3(x-1)}-\\frac2{x+4}-1，\\text{则有 }y'=\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}\\left[\\frac1{x+1}+\\frac1{3(x-1)}-\\frac2{x+4}-1\\right]$$",
+  "search_text": "$y=\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}$（$x>1$），求 $y^\\prime$。 $\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}[\\frac1{x+1}-\\frac1{3(x-1)}+\\frac2{x+4}-1]$ $\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}[\\frac1{x+1}-\\frac1{3(x-1)}-\\frac2{x+4}+1]$ $\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}[\\frac1{x+1}+\\frac1{3(x-1)}-\\frac2{x+4}]$ $\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}[\\frac1{x+1}+\\frac1{3(x-1)}-\\frac2{x+4}-1]$ 解答 方程两边同时取对数 $\\ln y=\\ln(x+1)+\\frac13\\ln(x-1)-2\\ln(x+4)-x$，并对 $x$ 求导可得\n\n$$\\frac1y y'=\\frac1{x+1}+\\frac1{3(x-1)}-\\frac2{x+4}-1，\\text{则有 }y'=\\frac{(x+1)\\sqrt[3]{x-1}}{(x+4)^2e^x}\\left[\\frac1{x+1}+\\frac1{3(x-1)}-\\frac2{x+4}-1\\right]$$",
+  "sort_order": 7
+}

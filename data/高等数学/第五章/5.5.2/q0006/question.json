@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将函数 $1/(4-x)$ 在 $x=2$ 处展开成幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}(x-2)^n/2^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(x-2)^n/2^{n+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(x-2)^{n+1}/2^{n+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(x-2)^n/2^{n+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "中心应为 $x=0$ 时的? 按图中计算式 $1/(4-x)=\\sum_{n=0}^{\\infty}(x-2)^n/2^{n+1}$。",
+  "search_text": "将函数 $1/(4-x)$ 在 $x=2$ 处展开成幂级数。 $\\sum_{n=0}^{\\infty}(x-2)^n/2^n$ $\\sum_{n=0}^{\\infty}(x-2)^n/2^{n+1}$ $\\sum_{n=0}^{\\infty}(x-2)^{n+1}/2^{n+1}$ $\\sum_{n=0}^{\\infty}(x-2)^n/2^{n+1}$ 中心应为 $x=0$ 时的? 按图中计算式 $1/(4-x)=\\sum_{n=0}^{\\infty}(x-2)^n/2^{n+1}$。",
+  "sort_order": 6
+}

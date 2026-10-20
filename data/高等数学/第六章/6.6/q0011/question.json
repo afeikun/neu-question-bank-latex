@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $x^2+4y^2+z^2=4$ 与平面 $x+z=a$ 的交线在 $yOz$ 面上的投影曲线为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}(a-y)^2+4y^2+z^2=4\\\\x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}4y^2+z^2+2az=4\\\\x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}(a-z)^2+4y^2+z^2=4\\\\x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}4y^2+z^2+2ay=4\\\\x=0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：由题意，曲线方程为\n$$\n\\begin{cases}\nx^2+4y^2+z^2=4\\\\\nx+z=a\n\\end{cases}\n$$\n，从中消去 $x$，即为曲线的母线平行于 $x$ 轴的投影柱面 $(a-z)^2+4y^2+z^2=4$，故投影曲线方程为\n$$\n\\begin{cases}\n(a-z)^2+4y^2+z^2=4\\\\\nx=0\n\\end{cases}.\n$$",
+  "search_text": "曲面 $x^2+4y^2+z^2=4$ 与平面 $x+z=a$ 的交线在 $yOz$ 面上的投影曲线为(\\quad)。 $\\begin{cases}(a-y)^2+4y^2+z^2=4\\\\x=0\\end{cases}$ $\\begin{cases}4y^2+z^2+2az=4\\\\x=0\\end{cases}$ $\\begin{cases}(a-z)^2+4y^2+z^2=4\\\\x=0\\end{cases}$ $\\begin{cases}4y^2+z^2+2ay=4\\\\x=0\\end{cases}$ 解答：由题意，曲线方程为\n$$\n\\begin{cases}\nx^2+4y^2+z^2=4\\\\\nx+z=a\n\\end{cases}\n$$\n，从中消去 $x$，即为曲线的母线平行于 $x$ 轴的投影柱面 $(a-z)^2+4y^2+z^2=4$，故投影曲线方程为\n$$\n\\begin{cases}\n(a-z)^2+4y^2+z^2=4\\\\\nx=0\n\\end{cases}.\n$$",
+  "sort_order": 11
+}

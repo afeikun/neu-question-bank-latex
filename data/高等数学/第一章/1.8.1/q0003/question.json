@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)$ 在点 $x_0$ 处连续且 $f(x_0)\\ne0$，则对于 $x_0$ 的某邻域 $U(x_0)$，当 $x\\in U(x_0)$ 时，下列关于 $f(x)$ 的说法中正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)\\ne0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无意义"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在点 $x$ 处连续但 $f(x)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由连续性及 $f(x_0)\\ne0$，可取邻域使 $|f(x)-f(x_0)|<|f(x_0)|/2$，从而 $f(x)$ 与零不相等。",
+  "search_text": "若 $f(x)$ 在点 $x_0$ 处连续且 $f(x_0)\\ne0$，则对于 $x_0$ 的某邻域 $U(x_0)$，当 $x\\in U(x_0)$ 时，下列关于 $f(x)$ 的说法中正确的是（ ）。 $f(x)\\ne0$ 无意义 $f(x)=0$ 在点 $x$ 处连续但 $f(x)=0$ 由连续性及 $f(x_0)\\ne0$，可取邻域使 $|f(x)-f(x_0)|<|f(x_0)|/2$，从而 $f(x)$ 与零不相等。",
+  "sort_order": 3
+}

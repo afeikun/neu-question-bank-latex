@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0$ 时，$\\sqrt{a+x^3}-\\sqrt a\\ (a>0)$ 关于 $x$ 的阶数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无穷大"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "三阶无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "二阶无穷小"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "四阶无穷小"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "有理化得 $x^3/(\\sqrt{a+x^3}+\\sqrt a)\\sim x^3/(2\\sqrt a)$，为三阶。",
+  "search_text": "当 $x\\to0$ 时，$\\sqrt{a+x^3}-\\sqrt a\\ (a>0)$ 关于 $x$ 的阶数为（ ）。 无穷大 三阶无穷小 二阶无穷小 四阶无穷小 有理化得 $x^3/(\\sqrt{a+x^3}+\\sqrt a)\\sim x^3/(2\\sqrt a)$，为三阶。",
+  "sort_order": 10
+}

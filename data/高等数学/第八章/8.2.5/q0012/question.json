@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半球体 $x^2+y^2+z^2\\leq4R^2(z\\geq0)$ 含在圆柱体 $x^2+y^2\\leq R^2$ 内的部分立体体积是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2(8-3\\sqrt3)}3\\pi R^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2(8-3\\sqrt3)}5\\pi R^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2\\sqrt3}3\\pi R^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{8-3\\sqrt3}{2}\\pi R^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\nV=\\iiint_\\Omega1\\cdot dx\\,dy\\,dz=\\int_0^{2\\pi}d\\theta\\int_0^Rr\\,dr\\int_0^{\\sqrt{4R^2-r^2}}dz\n$$\n$$\n=2\\pi\\int_0^Rr\\cdot\\sqrt{4R^2-r^2}\\,dr=\\frac{2(8-3\\sqrt{3})}{3}\\pi R^3.\n$$",
+  "search_text": "半球体 $x^2+y^2+z^2\\leq4R^2(z\\geq0)$ 含在圆柱体 $x^2+y^2\\leq R^2$ 内的部分立体体积是（ ） $\\frac{2(8-3\\sqrt3)}3\\pi R^3$ $\\frac{2(8-3\\sqrt3)}5\\pi R^3$ $\\frac{2\\sqrt3}3\\pi R^3$ $\\frac{8-3\\sqrt3}{2}\\pi R^3$ $$\nV=\\iiint_\\Omega1\\cdot dx\\,dy\\,dz=\\int_0^{2\\pi}d\\theta\\int_0^Rr\\,dr\\int_0^{\\sqrt{4R^2-r^2}}dz\n$$\n$$\n=2\\pi\\int_0^Rr\\cdot\\sqrt{4R^2-r^2}\\,dr=\\frac{2(8-3\\sqrt{3})}{3}\\pi R^3.\n$$",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $1/(1-x^2)$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty} x^{2n-1},\\ (-1,1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty} x^{2n+1},\\ (-1,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty} x^{2n},\\ (-1,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n x^{2n+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "几何级数直接得到 $\\sum_{n=0}^\\infty x^{2n}$。",
+  "search_text": "将 $1/(1-x^2)$ 展开成 $x$ 的幂级数。 $\\sum_{n=0}^{\\infty} x^{2n-1},\\ (-1,1)$ $\\sum_{n=0}^{\\infty} x^{2n+1},\\ (-1,1)$ $\\sum_{n=0}^{\\infty} x^{2n},\\ (-1,1)$ $\\sum_{n=0}^{\\infty}(-1)^n x^{2n+1}$ 几何级数直接得到 $\\sum_{n=0}^\\infty x^{2n}$。",
+  "sort_order": 52
+}

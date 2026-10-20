@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0$ 时，$\\frac{x^6}{1-\\sqrt{\\cos x^2}}$ 关于 $x$ 的阶数（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "四阶无穷小"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "二阶无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无穷大"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "三阶无穷小"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$1-\\sqrt{\\cos x^2}\\sim x^4/4$，商与 $x^2$ 同阶，为二阶无穷小。",
+  "search_text": "当 $x\\to0$ 时，$\\frac{x^6}{1-\\sqrt{\\cos x^2}}$ 关于 $x$ 的阶数（ ）。 四阶无穷小 二阶无穷小 无穷大 三阶无穷小 $1-\\sqrt{\\cos x^2}\\sim x^4/4$，商与 $x^2$ 同阶，为二阶无穷小。",
+  "sort_order": 48
+}

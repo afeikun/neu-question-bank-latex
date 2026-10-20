@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "双曲线 $xy=a^2$（$a>0$）在点 $(a,a)$ 处的曲率 $k=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt2}{a}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt2a}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt2a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{2\\sqrt2a}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "写成 $y=a^2/x$，在 $x=a$ 有 $y\\prime=-1$、$y\\prime\\prime=2/a$，故曲率为 $1/(\\sqrt2a)$。",
+  "search_text": "双曲线 $xy=a^2$（$a>0$）在点 $(a,a)$ 处的曲率 $k=$（ ）。 $\\frac{\\sqrt2}{a}$ $\\frac1{\\sqrt2a}$ $\\sqrt2a$ $\\frac1{2\\sqrt2a}$ 写成 $y=a^2/x$，在 $x=a$ 有 $y\\prime=-1$、$y\\prime\\prime=2/a$，故曲率为 $1/(\\sqrt2a)$。",
+  "sort_order": 7
+}

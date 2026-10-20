@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $0<|x|<1$ 时，$f(x)>0$，则 $\\lim_{x\\to0}f(x)$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$>0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ge0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$<0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\le0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由极限的保序性，若极限存在则 $\\lim_{x\\to0}f(x)\\ge0$。",
+  "search_text": "当 $0<|x|<1$ 时，$f(x)>0$，则 $\\lim_{x\\to0}f(x)$（ ）。 $>0$ $\\ge0$ $<0$ $\\le0$ 由极限的保序性，若极限存在则 $\\lim_{x\\to0}f(x)\\ge0$。",
+  "sort_order": 28
+}

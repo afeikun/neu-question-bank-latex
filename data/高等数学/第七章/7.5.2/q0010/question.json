@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u^2+v^2-x^2-y=0,-u+v-xy+1=0$ 确定 $x=x(u,v),y=y(u,v)$，求 $(x_u,y_u)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\frac{2xu+1}{2x^2-y},\\frac{2x+2yu}{2x^2-y})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{2xu+1}{2x^2-y},\\frac{2x+2yu}{2x^2-y})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{2xu+1}{2x^2-y},-\\frac{2x+2yu}{2x^2-y})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\frac{2xu+1}{2x^2-y},-\\frac{2x+2yu}{2x^2-y})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由题意知，方程组确定隐函数组 $x=x(u,v),y=y(u,v)$\n\n在题设方程两边对 $u$ 求偏导得：\n$$\n2u-2x\\cdot\\frac{\\partial x}{\\partial u}-\\frac{\\partial y}{\\partial u}=0,\\quad\n-1-\\frac{\\partial x}{\\partial u}\\cdot y-x\\cdot\\frac{\\partial y}{\\partial u}=0\n$$\n利用克莱姆法则，解得：\n$$\n\\frac{\\partial x}{\\partial u}=\\frac{2xu+1}{2x^2-y},\\quad\n\\frac{\\partial y}{\\partial u}=-\\frac{2x+2yu}{2x^2-y}\n$$",
+  "search_text": "设 $u^2+v^2-x^2-y=0,-u+v-xy+1=0$ 确定 $x=x(u,v),y=y(u,v)$，求 $(x_u,y_u)$。 $(-\\frac{2xu+1}{2x^2-y},\\frac{2x+2yu}{2x^2-y})$ $(\\frac{2xu+1}{2x^2-y},\\frac{2x+2yu}{2x^2-y})$ $(\\frac{2xu+1}{2x^2-y},-\\frac{2x+2yu}{2x^2-y})$ $(-\\frac{2xu+1}{2x^2-y},-\\frac{2x+2yu}{2x^2-y})$ 由题意知，方程组确定隐函数组 $x=x(u,v),y=y(u,v)$\n\n在题设方程两边对 $u$ 求偏导得：\n$$\n2u-2x\\cdot\\frac{\\partial x}{\\partial u}-\\frac{\\partial y}{\\partial u}=0,\\quad\n-1-\\frac{\\partial x}{\\partial u}\\cdot y-x\\cdot\\frac{\\partial y}{\\partial u}=0\n$$\n利用克莱姆法则，解得：\n$$\n\\frac{\\partial x}{\\partial u}=\\frac{2xu+1}{2x^2-y},\\quad\n\\frac{\\partial y}{\\partial u}=-\\frac{2x+2yu}{2x^2-y}\n$$",
+  "sort_order": 10
+}

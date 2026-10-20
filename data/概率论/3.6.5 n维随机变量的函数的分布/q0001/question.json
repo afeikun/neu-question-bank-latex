@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi_1,\\xi_2,\\xi_3,\\xi_4$独立且均服从$N(\\mu,\\sigma^2)$，求$(\\xi_1+\\xi_2+\\xi_3+\\xi_4)/4$的分布。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$N(\\mu,\\sigma^2/4)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$N(\\mu,2\\sigma^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$N(\\mu,4\\sigma^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$N(\\mu,\\sigma^2/2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "均值为$\\mu$，方差为$4\\sigma^2/16=\\sigma^2/4$。",
+  "search_text": "$\\xi_1,\\xi_2,\\xi_3,\\xi_4$独立且均服从$N(\\mu,\\sigma^2)$，求$(\\xi_1+\\xi_2+\\xi_3+\\xi_4)/4$的分布。 $N(\\mu,\\sigma^2/4)$ $N(\\mu,2\\sigma^2)$ $N(\\mu,4\\sigma^2)$ $N(\\mu,\\sigma^2/2)$ 均值为$\\mu$，方差为$4\\sigma^2/16=\\sigma^2/4$。",
+  "sort_order": 1
+}

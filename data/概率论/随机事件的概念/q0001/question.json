@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一批产品有合格品也有废品，从中有放回地抽取三件产品。以A_i(i=1,2,3)表示第i次抽到废品，下列说法中不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A_1\\cup A_2$表示第一次和第二次抽取至多抽到一件废品"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A_1\\cap\\bar A_2\\cap\\bar A_3$表示只有第一次抽到废品"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar A_1\\cap A_2\\cap A_3$表示至少有一次抽到废品"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar A_1A_2A_3\\cup A_1\\bar A_2A_3\\cup A_1A_2\\bar A_3$表示恰有两次抽到废品"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分别按事件交并和补事件含义判读，答案按题源高亮保留。",
+  "search_text": "一批产品有合格品也有废品，从中有放回地抽取三件产品。以A_i(i=1,2,3)表示第i次抽到废品，下列说法中不正确的是（）。 $A_1\\cup A_2$表示第一次和第二次抽取至多抽到一件废品 $A_1\\cap\\bar A_2\\cap\\bar A_3$表示只有第一次抽到废品 $\\bar A_1\\cap A_2\\cap A_3$表示至少有一次抽到废品 $\\bar A_1A_2A_3\\cup A_1\\bar A_2A_3\\cup A_1A_2\\bar A_3$表示恰有两次抽到废品 分别按事件交并和补事件含义判读，答案按题源高亮保留。",
+  "sort_order": 1
+}

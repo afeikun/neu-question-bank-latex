@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(0,4)$，$X_1,\\ldots,X_{15}$为样本，$Y=\\frac{\\sum_{1}^{10}X_i^2}{2(\\sum_{11}^{15}X_i^2)}$服从（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(10,5)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\chi^2(10)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\chi^2(5)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(5,10)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分子、分母平方和分别为自由度10、5的卡方，除以自由度比即$F(10,5)$。",
+  "search_text": "$X\\sim N(0,4)$，$X_1,\\ldots,X_{15}$为样本，$Y=\\frac{\\sum_{1}^{10}X_i^2}{2(\\sum_{11}^{15}X_i^2)}$服从（）。 $F(10,5)$ $\\chi^2(10)$ $\\chi^2(5)$ $F(5,10)$ 分子、分母平方和分别为自由度10、5的卡方，除以自由度比即$F(10,5)$。",
+  "sort_order": 20
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\xi,\\eta$ 相互独立，$\\xi$ 服从0-1分布（$p=0.6$），$\\eta$ 服从泊松分布且 $E(\\eta)=0.6$，则 $D(\\xi+\\eta)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.84$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.24$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.48$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由0-1分布得 $D(\\xi)=0.6(1-0.6)=0.24$；$\\eta\\sim P(0.6)$，故 $D(\\eta)=0.6$。独立时 $D(\\xi+\\eta)=0.24+0.6=0.84$。",
+  "search_text": "设 $\\xi,\\eta$ 相互独立，$\\xi$ 服从0-1分布（$p=0.6$），$\\eta$ 服从泊松分布且 $E(\\eta)=0.6$，则 $D(\\xi+\\eta)=(\\quad)$。 $0.84$ $0.24$ $0.48$ $0.6$ 由0-1分布得 $D(\\xi)=0.6(1-0.6)=0.24$；$\\eta\\sim P(0.6)$，故 $D(\\eta)=0.6$。独立时 $D(\\xi+\\eta)=0.24+0.6=0.84$。",
+  "sort_order": 14
+}

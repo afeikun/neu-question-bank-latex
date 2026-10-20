@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\lim_{t\\to+\\infty}\\frac{\\ln(1+e^xt)}{\\ln(1+e^t)}$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=1$ 是跳跃间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=0$ 是可去间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=0$ 是连续点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=1$ 是可去间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y=\\begin{cases}0,&x\\le0\\\\x,&x>0\\end{cases}$，故 $x=0$ 连续。",
+  "search_text": "设 $y=\\lim_{t\\to+\\infty}\\frac{\\ln(1+e^xt)}{\\ln(1+e^t)}$，则（ ）。 $x=1$ 是跳跃间断点 $x=0$ 是可去间断点 $x=0$ 是连续点 $x=1$ 是可去间断点 $y=\\begin{cases}0,&x\\le0\\\\x,&x>0\\end{cases}$，故 $x=0$ 连续。",
+  "sort_order": 14
+}

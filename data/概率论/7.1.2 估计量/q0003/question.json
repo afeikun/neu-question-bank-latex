@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i$来自总体$X$的样本，$\\bar X^k=n^{-1}\\sum X_i^k$是$E(X^k)$的（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "一致估计量，但未必是无偏估计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "一致无偏估计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无偏估计量，但未必一致"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "未必无偏也未必一致"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "大数定律说明样本原点矩一致估计总体原点矩，但一般不无偏。",
+  "search_text": "$X_i$来自总体$X$的样本，$\\bar X^k=n^{-1}\\sum X_i^k$是$E(X^k)$的（）。 一致估计量，但未必是无偏估计量 一致无偏估计量 无偏估计量，但未必一致 未必无偏也未必一致 大数定律说明样本原点矩一致估计总体原点矩，但一般不无偏。",
+  "sort_order": 3
+}

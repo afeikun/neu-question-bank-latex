@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim U[0,1]$，令$Y=e^X$，求概率密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/y(1<y<e)$，其他0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/y(1<y<e)$，其他$1/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2/y(1<y<e)$，其他0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0(1<y<e)$，其他$1/y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$x=\\ln y$，故$f_Y(y)=f_X(\\ln y)|1/y|=1/y$，$1<y<e$。",
+  "search_text": "$X\\sim U[0,1]$，令$Y=e^X$，求概率密度。 $1/y(1<y<e)$，其他0 $1/y(1<y<e)$，其他$1/2$ $2/y(1<y<e)$，其他0 $0(1<y<e)$，其他$1/y$ $x=\\ln y$，故$f_Y(y)=f_X(\\ln y)|1/y|=1/y$，$1<y<e$。",
+  "sort_order": 2
+}

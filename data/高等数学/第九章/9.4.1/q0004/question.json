@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是柱面 $x^2+y^2=1$ 被平面 $z=0$ 及 $z=3$ 所截得的在第一卦限内的部分的前侧，计算 $\\iint_\\Sigma xy\\,dzdy+yz\\,dxdz+zx\\,dydx$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac32\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在 $yoz$ 面上无投影区域，故 $\\iint_\\Sigma(1+x)dydz=0$，$\\Sigma$ 在 $zox$ 面上无投影区域，故 $\\iint_\\Sigma(y-1)dzdx=0$，\n\n[图：柱面示意图，标有 $z,y,x$ 坐标轴、$z=3$、$O$ 及法向量 $\\vec{n}$。]\n\n解答 该柱面与 $xoy$ 面垂直，因而 $\\iint_\\Sigma zdxdy=0$。$\\Sigma$ 在 $yoz$ 面与 $zox$ 面投影为矩形区域：\n\n$$D_{yz}:0\\le y\\le1,0\\le z\\le3;\\quad D_{zx}:0\\le x\\le1,0\\le z\\le3.$$\n\n原式 $=\\iint_\\Sigma xydzdy+\\iint_\\Sigma yz\\,dzdx=\\iint_{D_{yz}}\\sqrt{1-y^2}\\,dzdy+\\iint_{D_{zx}}\\sqrt{1-x^2}\\,dzdx$\n\n$$=\\int_0^1dy\\int_0^3\\sqrt{1-y^2}\\,dz+\\int_0^1dx\\int_0^3\\sqrt{1-x^2}\\,dz=2\\cdot3\\int_0^1\\sqrt{1-x^2}\\,dx$$\n\n$$=6\\left[\\frac{x}{2}\\sqrt{1-x^2}+\\frac{1}{2}\\arcsin x\\right]_0^1=6\\cdot\\frac{1}{2}\\cdot\\frac{\\pi}{2}=\\frac{3\\pi}{2}\\pi。$$",
+  "search_text": "已知 $\\Sigma$ 是柱面 $x^2+y^2=1$ 被平面 $z=0$ 及 $z=3$ 所截得的在第一卦限内的部分的前侧，计算 $\\iint_\\Sigma xy\\,dzdy+yz\\,dxdz+zx\\,dydx$（ ） $2\\pi$ $\\pi$ $\\frac32\\pi$ $\\frac12\\pi$ 解答 $\\Sigma$ 在 $yoz$ 面上无投影区域，故 $\\iint_\\Sigma(1+x)dydz=0$，$\\Sigma$ 在 $zox$ 面上无投影区域，故 $\\iint_\\Sigma(y-1)dzdx=0$，\n\n[图：柱面示意图，标有 $z,y,x$ 坐标轴、$z=3$、$O$ 及法向量 $\\vec{n}$。]\n\n解答 该柱面与 $xoy$ 面垂直，因而 $\\iint_\\Sigma zdxdy=0$。$\\Sigma$ 在 $yoz$ 面与 $zox$ 面投影为矩形区域：\n\n$$D_{yz}:0\\le y\\le1,0\\le z\\le3;\\quad D_{zx}:0\\le x\\le1,0\\le z\\le3.$$\n\n原式 $=\\iint_\\Sigma xydzdy+\\iint_\\Sigma yz\\,dzdx=\\iint_{D_{yz}}\\sqrt{1-y^2}\\,dzdy+\\iint_{D_{zx}}\\sqrt{1-x^2}\\,dzdx$\n\n$$=\\int_0^1dy\\int_0^3\\sqrt{1-y^2}\\,dz+\\int_0^1dx\\int_0^3\\sqrt{1-x^2}\\,dz=2\\cdot3\\int_0^1\\sqrt{1-x^2}\\,dx$$\n\n$$=6\\left[\\frac{x}{2}\\sqrt{1-x^2}+\\frac{1}{2}\\arcsin x\\right]_0^1=6\\cdot\\frac{1}{2}\\cdot\\frac{\\pi}{2}=\\frac{3\\pi}{2}\\pi。$$",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $2yy\\prime\\prime=1+(y\\prime)^2$ 满足初始条件 $y(0)=1,\\ y\\prime(0)=1$ 的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{2y-1}=x+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt{2y-1}=-x+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{2y-1}=-x-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{2y-1}=\\pm(x+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：设 $y'=p(y)$，由已知得到\n\n$$\n2py\\frac{dp}{dy}=1+p^2，\n$$\n\n分离变量并积分得到\n\n$$\n1+p^2=Cy，\n$$\n\n代入初始条件得到 $C=2$，从而\n\n$$\n1+p^2=2y，\n$$\n\n所以 $p=\\pm\\sqrt{2y-1}$，由 $y'(0)=1$，得 $p=\\sqrt{2y-1}$ 即\n\n$$\n\\sqrt{2y-1}=x+C，\n$$\n\n从而 $y'=\\sqrt{2y-1}$，代入 $y(0)=1$ 得到 $C=1$，所以特解为\n\n$$\n\\sqrt{2y-1}=x+1\n$$",
+  "search_text": "微分方程 $2yy\\prime\\prime=1+(y\\prime)^2$ 满足初始条件 $y(0)=1,\\ y\\prime(0)=1$ 的特解为（ ） $\\sqrt{2y-1}=x+1$ $\\sqrt{2y-1}=-x+1$ $\\sqrt{2y-1}=-x-1$ $\\sqrt{2y-1}=\\pm(x+1)$ 解析：设 $y'=p(y)$，由已知得到\n\n$$\n2py\\frac{dp}{dy}=1+p^2，\n$$\n\n分离变量并积分得到\n\n$$\n1+p^2=Cy，\n$$\n\n代入初始条件得到 $C=2$，从而\n\n$$\n1+p^2=2y，\n$$\n\n所以 $p=\\pm\\sqrt{2y-1}$，由 $y'(0)=1$，得 $p=\\sqrt{2y-1}$ 即\n\n$$\n\\sqrt{2y-1}=x+C，\n$$\n\n从而 $y'=\\sqrt{2y-1}$，代入 $y(0)=1$ 得到 $C=1$，所以特解为\n\n$$\n\\sqrt{2y-1}=x+1\n$$",
+  "sort_order": 20
+}

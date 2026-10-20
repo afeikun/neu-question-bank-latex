@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $\\Omega$ 是 $\\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{1-x^2-y^2}$，则 $\\iiint_\\Omega z\\sqrt{x^2+y^2+z^2}dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi{10}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $\\begin{cases}\\sqrt{x^2+y^2}=z\\\\z=\\sqrt{1-x^2-y^2}\\end{cases}$，则 $\\begin{cases}x^2+y^2=\\frac{1}{2}\\\\z=\\frac{\\sqrt{2}}{2}\\end{cases}$，于是 $\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\0\\leq r\\leq 1\\end{cases}$\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^1r\\cos\\varphi\\cdot r^3\\sin\\varphi\\,dr=2\\pi\\cdot\\frac{1}{5}\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos\\varphi\\,d\\varphi$\n\n$=\\frac{2\\pi}{5}\\cdot\\frac{\\sin^2\\varphi}{2}\\big|_0^{\\frac{\\pi}{4}}=\\frac{\\pi}{10}$。",
+  "search_text": "当 $\\Omega$ 是 $\\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{1-x^2-y^2}$，则 $\\iiint_\\Omega z\\sqrt{x^2+y^2+z^2}dv=$（ ） $\\frac\\pi2$ $\\frac\\pi{10}$ $\\frac\\pi3$ $\\frac\\pi4$ 由 $\\begin{cases}\\sqrt{x^2+y^2}=z\\\\z=\\sqrt{1-x^2-y^2}\\end{cases}$，则 $\\begin{cases}x^2+y^2=\\frac{1}{2}\\\\z=\\frac{\\sqrt{2}}{2}\\end{cases}$，于是 $\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\0\\leq r\\leq 1\\end{cases}$\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^1r\\cos\\varphi\\cdot r^3\\sin\\varphi\\,dr=2\\pi\\cdot\\frac{1}{5}\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos\\varphi\\,d\\varphi$\n\n$=\\frac{2\\pi}{5}\\cdot\\frac{\\sin^2\\varphi}{2}\\big|_0^{\\frac{\\pi}{4}}=\\frac{\\pi}{10}$。",
+  "sort_order": 21
+}

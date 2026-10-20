@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量场 $A=(2z-3y)\\mathbf i+(3x-z)\\mathbf j+(y-2x)\\mathbf k$ 的旋度为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\mathbf i+4\\mathbf j+6\\mathbf k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\mathbf i+4\\mathbf j+\\mathbf k$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\mathbf i+4\\mathbf j+6\\mathbf k$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\mathbf i-4\\mathbf j+6\\mathbf k$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：$\\operatorname{rot}\\vec A=\\begin{vmatrix}\\vec{\\mathbf i}&\\vec{\\mathbf j}&\\vec{\\mathbf k}\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\2z-3y&3x-z&y-2x\\end{vmatrix}=2\\vec{\\mathbf i}+4\\vec{\\mathbf j}+6\\vec{\\mathbf k}$",
+  "search_text": "向量场 $A=(2z-3y)\\mathbf i+(3x-z)\\mathbf j+(y-2x)\\mathbf k$ 的旋度为（ ） $2\\mathbf i+4\\mathbf j+6\\mathbf k$ $2\\mathbf i+4\\mathbf j+\\mathbf k$ $\\mathbf i+4\\mathbf j+6\\mathbf k$ $2\\mathbf i-4\\mathbf j+6\\mathbf k$ 解析：$\\operatorname{rot}\\vec A=\\begin{vmatrix}\\vec{\\mathbf i}&\\vec{\\mathbf j}&\\vec{\\mathbf k}\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\2z-3y&3x-z&y-2x\\end{vmatrix}=2\\vec{\\mathbf i}+4\\vec{\\mathbf j}+6\\vec{\\mathbf k}$",
+  "sort_order": 9
+}

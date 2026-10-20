@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)=\\begin{cases}x^\\lambda\\sin\\frac1x,&x\\ne0\\\\0,&x=0\\end{cases}$，在点 $x=0$ 处连续但不可导，则 $\\lambda$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0<\\lambda<1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda>1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0<\\lambda\\le1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda\\le0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "连续要求 $\\lambda>0$；可导要求差商 $x^{\\lambda-1}\\sin(1/x)$ 有极限，需 $\\lambda>1$。故连续但不可导时 $0<\\lambda\\le1$。",
+  "search_text": "若 $f(x)=\\begin{cases}x^\\lambda\\sin\\frac1x,&x\\ne0\\\\0,&x=0\\end{cases}$，在点 $x=0$ 处连续但不可导，则 $\\lambda$ 为（ ）。 $0<\\lambda<1$ $\\lambda>1$ $0<\\lambda\\le1$ $\\lambda\\le0$ 连续要求 $\\lambda>0$；可导要求差商 $x^{\\lambda-1}\\sin(1/x)$ 有极限，需 $\\lambda>1$。故连续但不可导时 $0<\\lambda\\le1$。",
+  "sort_order": 9
+}

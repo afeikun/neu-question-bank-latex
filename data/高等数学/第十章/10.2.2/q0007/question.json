@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\prime=\\frac{y-x-2}{x+y+4}$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(x+3)^2+(y+1)^2=2\\ln\\frac{y+1}{x+3}+c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(x+3)^2+(y+1)^2=ce^{-2\\arctan\\frac{y+1}{x+3}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(x+3)^2+(y+1)^2+\\arctan\\frac{y+1}{x+3}=c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x+3)^2(y+1)^2=ce^{x+y}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "作代换 $x=X-3\\quad y=Y-1$\n\n则方程可化为 $\\frac{dY}{dX}=\\frac{Y-X}{X+Y}$，令 $u=\\frac{Y}{X}\\quad u+X\\frac{du}{dX}=\\frac{u-1}{u+1}$\n\n积分得 $-\\frac{1}{2}\\ln(1+u^2)-\\arctan u=\\ln X+c$\n\n代回原来的变量可得答案",
+  "search_text": "方程 $y\\prime=\\frac{y-x-2}{x+y+4}$ 的通解为（ ） $(x+3)^2+(y+1)^2=2\\ln\\frac{y+1}{x+3}+c$ $(x+3)^2+(y+1)^2=ce^{-2\\arctan\\frac{y+1}{x+3}}$ $(x+3)^2+(y+1)^2+\\arctan\\frac{y+1}{x+3}=c$ $(x+3)^2(y+1)^2=ce^{x+y}$ 作代换 $x=X-3\\quad y=Y-1$\n\n则方程可化为 $\\frac{dY}{dX}=\\frac{Y-X}{X+Y}$，令 $u=\\frac{Y}{X}\\quad u+X\\frac{du}{dX}=\\frac{u-1}{u+1}$\n\n积分得 $-\\frac{1}{2}\\ln(1+u^2)-\\arctan u=\\ln X+c$\n\n代回原来的变量可得答案",
+  "sort_order": 7
+}

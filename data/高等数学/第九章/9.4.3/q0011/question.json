@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是 $x^2+z^2=a^2$ 在 $x\\ge0$ 的一半中被 $y=0$ 和 $y=h(h>0)$ 所截下部分的外侧，计算 $\\iint_\\Sigma xz\\,dydz+z^2dzdx+xyzdxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$h^2a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14h^2a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13h^2a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "示意图标注：坐标轴 $x,y,z$，原点 $O$，$a$、$h$，曲面部分 $\\Sigma_1$（上部）和 $\\Sigma_2$（下部）。\n\n如图，将积分分为三部分计算。原式$=I_1+I_2+I_3$，将 $\\Sigma$ 在 $yoz$ 平面上投影\n$D_{yz}:0\\le y\\le h,-a\\le z\\le a$。注意到 $\\Sigma$ 的法线方向与 $x$ 轴正方向夹锐角，则\n$$I_1=\\iint_\\Sigma xzdydz=\\iint_{D_{yz}}z\\sqrt{a^2-z^2}dydz。$$因 $D_{yz}$ 关于 $y$ 轴对称，而被积函数为 $z$ 的奇函数，故 $I_1=0$。\n又 $\\Sigma$ 在 $zox$ 平面上的投影域面积为零，故 $I_2=\\iint_\\Sigma z^2dzdx=0$。\n而 $I_3=\\iint_\\Sigma xyzdxdy=\\iint_{D_{yz}}xyz\\left(-\\frac{\\partial x}{\\partial z}\\right)dydz=\\iint_{D_{yz}}xyz\\cdot\\frac{z}{x}dydz=\\int_0^h ydy\\cdot2\\int_0^az^2dz=\\frac{1}{3}h^2a^3$。\n所以，原式$=I_1+I_2+I_3=\\frac{h^2a^3}{3}$。\n",
+  "search_text": "已知 $\\Sigma$ 是 $x^2+z^2=a^2$ 在 $x\\ge0$ 的一半中被 $y=0$ 和 $y=h(h>0)$ 所截下部分的外侧，计算 $\\iint_\\Sigma xz\\,dydz+z^2dzdx+xyzdxdy=$（ ） $0$ $h^2a^3$ $\\frac14h^2a^3$ $\\frac13h^2a^3$ 示意图标注：坐标轴 $x,y,z$，原点 $O$，$a$、$h$，曲面部分 $\\Sigma_1$（上部）和 $\\Sigma_2$（下部）。\n\n如图，将积分分为三部分计算。原式$=I_1+I_2+I_3$，将 $\\Sigma$ 在 $yoz$ 平面上投影\n$D_{yz}:0\\le y\\le h,-a\\le z\\le a$。注意到 $\\Sigma$ 的法线方向与 $x$ 轴正方向夹锐角，则\n$$I_1=\\iint_\\Sigma xzdydz=\\iint_{D_{yz}}z\\sqrt{a^2-z^2}dydz。$$因 $D_{yz}$ 关于 $y$ 轴对称，而被积函数为 $z$ 的奇函数，故 $I_1=0$。\n又 $\\Sigma$ 在 $zox$ 平面上的投影域面积为零，故 $I_2=\\iint_\\Sigma z^2dzdx=0$。\n而 $I_3=\\iint_\\Sigma xyzdxdy=\\iint_{D_{yz}}xyz\\left(-\\frac{\\partial x}{\\partial z}\\right)dydz=\\iint_{D_{yz}}xyz\\cdot\\frac{z}{x}dydz=\\int_0^h ydy\\cdot2\\int_0^az^2dz=\\frac{1}{3}h^2a^3$。\n所以，原式$=I_1+I_2+I_3=\\frac{h^2a^3}{3}$。\n",
+  "sort_order": 11
+}

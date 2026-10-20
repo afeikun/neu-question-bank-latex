@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立，分布函数$F_X,F_Y$，求$Z=\\max(X,Y)$分布函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "其他选项都不正确"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-[1-F_X(z)][1-F_Y(z)]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\max(F_X(z),F_Y(z))$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F_X(z)F_Y(z)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$P(Z\\le z)=P(X\\le z,Y\\le z)=F_X(z)F_Y(z)$。",
+  "search_text": "$X,Y$独立，分布函数$F_X,F_Y$，求$Z=\\max(X,Y)$分布函数。 其他选项都不正确 $1-[1-F_X(z)][1-F_Y(z)]$ $\\max(F_X(z),F_Y(z))$ $F_X(z)F_Y(z)$ $P(Z\\le z)=P(X\\le z,Y\\le z)=F_X(z)F_Y(z)$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\arccos0.4995$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.52597$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1.04723$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1.52301$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.05221$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取 $f(x)=\\arccos x$，$f'(x)=-\\frac1{\\sqrt{1-x^2}}$。因此 $\\arccos(0.4995)\\approx f(0.5)-f'(0.5)\\cdot0.0005=\\frac\\pi3+\\frac{0.0005}{\\sqrt{1-0.5^2}}\\approx1.04723$。",
+  "search_text": "$\\arccos0.4995$ 的近似值为 $(\\quad)$。 $0.52597$ $1.04723$ $1.52301$ $0.05221$ 取 $f(x)=\\arccos x$，$f'(x)=-\\frac1{\\sqrt{1-x^2}}$。因此 $\\arccos(0.4995)\\approx f(0.5)-f'(0.5)\\cdot0.0005=\\frac\\pi3+\\frac{0.0005}{\\sqrt{1-0.5^2}}\\approx1.04723$。",
+  "sort_order": 23
+}

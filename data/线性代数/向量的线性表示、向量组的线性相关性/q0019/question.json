@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "含有零向量的向量组（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可能线性无关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必线性相关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "可能线性相关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "必线性无关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "含有零向量的向量组必线性相关，因为令零向量系数为 $1$、其余系数为 $0$，即可得到非零系数的零线性组合。",
+  "search_text": "含有零向量的向量组（ ）。 可能线性无关 必线性相关 可能线性相关 必线性无关 含有零向量的向量组必线性相关，因为令零向量系数为 $1$、其余系数为 $0$，即可得到非零系数的零线性组合。",
+  "sort_order": 19
+}

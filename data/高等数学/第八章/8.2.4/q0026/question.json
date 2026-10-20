@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是两球 $x^2+y^2+z^2\\leq R^2$ 和 $x^2+y^2+z^2\\leq2Rz(R>0)$ 的公共部分，则 $\\iiint_\\Omega z^2dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi R^5}4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{59\\pi R^5}{480}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\pi R^5}2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi R^5}8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由\n$$\n\\left\\{\\begin{array}{l}\nx^2+y^2+z^2=R^2\\\\\nx^2+y^2+z^2=2Rz\n\\end{array}\\right.\n$$\n则\n$$\n\\left\\{\\begin{array}{l}\nx^2+y^2=\\left(\\frac{\\sqrt{3}}{2}R\\right)^2\\\\\nz=\\frac{R}{2}\n\\end{array}\\right.\n$$\n于是 $\\Omega=\\Omega_1+\\Omega_2$，其中\n$$\n\\Omega_1:\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{3}\\\\\n0\\leq r\\leq R\n\\end{array}\\right.,\\quad\n\\Omega_2:\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n\\frac{\\pi}{3}\\leq\\varphi\\leq\\frac{\\pi}{2}\\\\\n0\\leq r\\leq2R\\cos\\varphi\n\\end{array}\\right.,\n$$\n$$\n\\iiint_\\Omega z^2dv=\\iiint_{\\Omega_1}z^2\\,dx\\,dy\\,dz+\\iiint_{\\Omega_2}z^2\\,dx\\,dy\\,dz\n$$\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{3}}d\\varphi\\int_0^Rr^2\\cos^2\\varphi\\cdot r^2\\sin\\varphi\\,dr+\\int_0^{2\\pi}d\\theta\\int_{\\frac{\\pi}{3}}^{\\frac{\\pi}{2}}d\\varphi\\int_0^{2R\\cos\\varphi}r^4\\sin\\varphi\\cos^2\\varphi\\,dr\n$$\n$$\n=\\frac{2\\pi R^5}{5}\\cdot\\frac{7}{24}+\\frac{\\pi R^5}{160}=\\frac{59\\pi R^5}{480}.\n$$",
+  "search_text": "$\\Omega$ 是两球 $x^2+y^2+z^2\\leq R^2$ 和 $x^2+y^2+z^2\\leq2Rz(R>0)$ 的公共部分，则 $\\iiint_\\Omega z^2dv=$（ ） $\\frac{\\pi R^5}4$ $\\frac{59\\pi R^5}{480}$ $\\frac{\\pi R^5}2$ $\\frac{\\pi R^5}8$ 由\n$$\n\\left\\{\\begin{array}{l}\nx^2+y^2+z^2=R^2\\\\\nx^2+y^2+z^2=2Rz\n\\end{array}\\right.\n$$\n则\n$$\n\\left\\{\\begin{array}{l}\nx^2+y^2=\\left(\\frac{\\sqrt{3}}{2}R\\right)^2\\\\\nz=\\frac{R}{2}\n\\end{array}\\right.\n$$\n于是 $\\Omega=\\Omega_1+\\Omega_2$，其中\n$$\n\\Omega_1:\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{3}\\\\\n0\\leq r\\leq R\n\\end{array}\\right.,\\quad\n\\Omega_2:\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n\\frac{\\pi}{3}\\leq\\varphi\\leq\\frac{\\pi}{2}\\\\\n0\\leq r\\leq2R\\cos\\varphi\n\\end{array}\\right.,\n$$\n$$\n\\iiint_\\Omega z^2dv=\\iiint_{\\Omega_1}z^2\\,dx\\,dy\\,dz+\\iiint_{\\Omega_2}z^2\\,dx\\,dy\\,dz\n$$\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{3}}d\\varphi\\int_0^Rr^2\\cos^2\\varphi\\cdot r^2\\sin\\varphi\\,dr+\\int_0^{2\\pi}d\\theta\\int_{\\frac{\\pi}{3}}^{\\frac{\\pi}{2}}d\\varphi\\int_0^{2R\\cos\\varphi}r^4\\sin\\varphi\\cos^2\\varphi\\,dr\n$$\n$$\n=\\frac{2\\pi R^5}{5}\\cdot\\frac{7}{24}+\\frac{\\pi R^5}{160}=\\frac{59\\pi R^5}{480}.\n$$",
+  "sort_order": 26
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知常数 $a$，使微分方程 $y\\prime\\prime+ay=0$ 的解都是以 $2\\pi$ 为周期的函数，试确定常数 $a$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2+a=0$，\n\n当 $a<0$ 齐次方程的通解为 $y=C_1e^{-\\sqrt{-a}x}+C_2e^{\\sqrt{-a}x}$；\n\n当 $a=0$ 齐次方程的通解为 $y=C_1x+C_2$；\n\n当 $a>0$ 齐次方程的通解为 $y=C_1\\cos\\sqrt{a}x+C_2\\sin\\sqrt{a}x$。\n\n要使方程以 $2\\pi$ 为周期，只要 $\\frac{2\\pi}{\\sqrt{a}}=2\\pi$，故 $a=1$。\n\n因此选 B。",
+  "search_text": "已知常数 $a$，使微分方程 $y\\prime\\prime+ay=0$ 的解都是以 $2\\pi$ 为周期的函数，试确定常数 $a$（ ） 0 3 1 2 解答 齐次方程的特征方程为 $\\lambda^2+a=0$，\n\n当 $a<0$ 齐次方程的通解为 $y=C_1e^{-\\sqrt{-a}x}+C_2e^{\\sqrt{-a}x}$；\n\n当 $a=0$ 齐次方程的通解为 $y=C_1x+C_2$；\n\n当 $a>0$ 齐次方程的通解为 $y=C_1\\cos\\sqrt{a}x+C_2\\sin\\sqrt{a}x$。\n\n要使方程以 $2\\pi$ 为周期，只要 $\\frac{2\\pi}{\\sqrt{a}}=2\\pi$，故 $a=1$。\n\n因此选 B。",
+  "sort_order": 35
+}

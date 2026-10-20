@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=\\begin{cases}(x^2+y)\\sin\\frac1{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$，则 $f_x'(0,0),f_y'(0,0)$ 分别为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0,0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "都不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在，$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$，不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f'_x(0,0)=\\lim_{\\Delta x\\to0}\\frac{f(\\Delta x,0)-f(0,0)}{\\Delta x}=\\lim_{\\Delta x\\to0}\\frac{\\Delta x^2\\sin\\frac{1}{\\sqrt{\\Delta x^2}}}{\\Delta x}=\\lim_{\\Delta x\\to0}\\Delta x\\sin\\frac{1}{\\sqrt{\\Delta x^2}}=0$，$$f'_y(0,0)=\\lim_{\\Delta y\\to0}\\frac{f(0,\\Delta y)-f(0,0)}{\\Delta y}=\\lim_{\\Delta y\\to0}\\frac{\\Delta y\\sin\\frac{1}{\\sqrt{\\Delta y^2}}}{\\Delta y}=\\lim_{\\Delta y\\to0}\\sin\\frac{1}{\\sqrt{\\Delta y^2}}$$，由于 $\\lim_{\\Delta y\\to0}\\sin\\frac{1}{\\sqrt{\\Delta y^2}}$ 不存在，因此 $f'_y(0,0)$ 不存在。",
+  "search_text": "$f(x,y)=\\begin{cases}(x^2+y)\\sin\\frac1{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$，则 $f_x'(0,0),f_y'(0,0)$ 分别为(\\quad)。 $0,0$ 都不存在 不存在，$0$ $0$，不存在 $f'_x(0,0)=\\lim_{\\Delta x\\to0}\\frac{f(\\Delta x,0)-f(0,0)}{\\Delta x}=\\lim_{\\Delta x\\to0}\\frac{\\Delta x^2\\sin\\frac{1}{\\sqrt{\\Delta x^2}}}{\\Delta x}=\\lim_{\\Delta x\\to0}\\Delta x\\sin\\frac{1}{\\sqrt{\\Delta x^2}}=0$，$$f'_y(0,0)=\\lim_{\\Delta y\\to0}\\frac{f(0,\\Delta y)-f(0,0)}{\\Delta y}=\\lim_{\\Delta y\\to0}\\frac{\\Delta y\\sin\\frac{1}{\\sqrt{\\Delta y^2}}}{\\Delta y}=\\lim_{\\Delta y\\to0}\\sin\\frac{1}{\\sqrt{\\Delta y^2}}$$，由于 $\\lim_{\\Delta y\\to0}\\sin\\frac{1}{\\sqrt{\\Delta y^2}}$ 不存在，因此 $f'_y(0,0)$ 不存在。",
+  "sort_order": 35
+}

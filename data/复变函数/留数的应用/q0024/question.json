@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\displaystyle\\int_0^{2\\pi}\\dfrac{d\\theta}{1+2i\\sin\\theta}=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{2\\sqrt5}{5}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{\\sqrt5}{5}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{3\\sqrt5}{5}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt5\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=e^{i\\theta}$，则 $2i\\sin\\theta=z-z^{-1}$，积分化为单位圆上的有理函数积分。方程 $z^2+z-1=0$ 只有根 $(-1+\\sqrt5)/2$ 在单位圆内，其留数给出积分 $\\dfrac{2\\sqrt5}{5}\\pi$。",
+  "search_text": "积分 $\\displaystyle\\int_0^{2\\pi}\\dfrac{d\\theta}{1+2i\\sin\\theta}=(\\ \\ )$。 $\\dfrac{2\\sqrt5}{5}\\pi$ $\\dfrac{\\sqrt5}{5}\\pi$ $\\dfrac{3\\sqrt5}{5}\\pi$ $\\sqrt5\\pi$ 令 $z=e^{i\\theta}$，则 $2i\\sin\\theta=z-z^{-1}$，积分化为单位圆上的有理函数积分。方程 $z^2+z-1=0$ 只有根 $(-1+\\sqrt5)/2$ 在单位圆内，其留数给出积分 $\\dfrac{2\\sqrt5}{5}\\pi$。",
+  "sort_order": 24
+}

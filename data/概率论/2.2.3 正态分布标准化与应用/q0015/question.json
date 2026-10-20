@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim N(2,3^2)$，给定标准正态表值，求$P(-4<\\xi<-1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.8413$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.1359$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.9772$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.2618$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "标准化区间为$(-2,-1)$，概率$\\Phi(-1)-\\Phi(-2)=0.1359$。",
+  "search_text": "$\\xi\\sim N(2,3^2)$，给定标准正态表值，求$P(-4<\\xi<-1)$。 $0.8413$ $0.1359$ $0.9772$ $0.2618$ 标准化区间为$(-2,-1)$，概率$\\Phi(-1)-\\Phi(-2)=0.1359$。",
+  "sort_order": 15
+}

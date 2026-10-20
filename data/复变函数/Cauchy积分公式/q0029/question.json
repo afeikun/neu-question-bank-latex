@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\oint_C\\frac{dz}{(z^2-1)\\cos(\\pi z/4)}=(\\quad)$，其中 $C:x^2+y^2+2x=0$，正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{\\sqrt2}{2}\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt2}{2}\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\oint_C\\frac{dz}{(z^2-1)\\cos(\\pi z/4)}=\\oint_C\\frac{\\cos(\\pi z/4)^{-1}}{(z+1)(z-1)}\\,dz=2\\pi i\\left.\\frac{\\cos(\\pi z/4)^{-1}}{z-1}\\right|_{z=-1}=-\\frac{\\sqrt2}{2}\\pi i$。",
+  "search_text": "积分 $\\oint_C\\frac{dz}{(z^2-1)\\cos(\\pi z/4)}=(\\quad)$，其中 $C:x^2+y^2+2x=0$，正向。 $-\\frac{\\sqrt2}{2}\\pi i$ $\\frac{\\sqrt2}{2}\\pi i$ $2\\pi i$ $0$ $\\oint_C\\frac{dz}{(z^2-1)\\cos(\\pi z/4)}=\\oint_C\\frac{\\cos(\\pi z/4)^{-1}}{(z+1)(z-1)}\\,dz=2\\pi i\\left.\\frac{\\cos(\\pi z/4)^{-1}}{z-1}\\right|_{z=-1}=-\\frac{\\sqrt2}{2}\\pi i$。",
+  "sort_order": 29
+}

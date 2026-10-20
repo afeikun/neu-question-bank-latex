@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n$张奖券中含有$m$张有奖的，$k$个人购买，每人一张，其中至少有一个人中奖的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-\\binom{n-m}k/\\binom nk$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$m/\\binom nk$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\binom{m}{1}\\binom{n-m}{k-1}}{\\binom{n}{k}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{r=1}^k\\binom mr/\\binom nk$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "至少一人中奖的补事件为k人均未中奖，概率$\\binom{n-m}k/\\binom nk$，故所求为$1-\\binom{n-m}k/\\binom nk$。",
+  "search_text": "$n$张奖券中含有$m$张有奖的，$k$个人购买，每人一张，其中至少有一个人中奖的概率为（ ）。 $1-\\binom{n-m}k/\\binom nk$ $m/\\binom nk$ $\\frac{\\binom{m}{1}\\binom{n-m}{k-1}}{\\binom{n}{k}}$ $\\sum_{r=1}^k\\binom mr/\\binom nk$ 至少一人中奖的补事件为k人均未中奖，概率$\\binom{n-m}k/\\binom nk$，故所求为$1-\\binom{n-m}k/\\binom nk$。",
+  "sort_order": 3
+}

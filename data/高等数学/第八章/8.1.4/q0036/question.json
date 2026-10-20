@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^1dx\\int_0^{1-x}f(x,y)dy$ 的积分次序为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dy\\int_0^1f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{1-x}dy\\int_0^1f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dy\\int_0^{1-y}f(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dy\\int_0^{1-x}f(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 题设二次积分的积分限为 $0\\leq x\\leq1,0\\leq y\\leq1-x$，改变积分次序后的积分限为 $0\\leq y\\leq1,0\\leq x\\leq1-y$，所以原式=$\\int_0^1dy\\int_0^{1-y}f(x,y)dx$。",
+  "search_text": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^1dx\\int_0^{1-x}f(x,y)dy$ 的积分次序为[\\quad] $\\int_0^1dy\\int_0^1f(x,y)dx$ $\\int_0^{1-x}dy\\int_0^1f(x,y)dx$ $\\int_0^1dy\\int_0^{1-y}f(x,y)dx$ $\\int_0^1dy\\int_0^{1-x}f(x,y)dx$ 解答 题设二次积分的积分限为 $0\\leq x\\leq1,0\\leq y\\leq1-x$，改变积分次序后的积分限为 $0\\leq y\\leq1,0\\leq x\\leq1-y$，所以原式=$\\int_0^1dy\\int_0^{1-y}f(x,y)dx$。",
+  "sort_order": 36
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A$ 满足 $A^2-A=O$，则下列结论一定不成立的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A=O$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A=E$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|A+E|=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|A|=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$A$ 的特征值只能为 0 或 1，所以 $A+E$ 的特征值为 1 或 2，行列式不可能为 0，选项 3。",
+  "search_text": "设矩阵 $A$ 满足 $A^2-A=O$，则下列结论一定不成立的是(\\quad)。 $A=O$ $A=E$ $|A+E|=0$ $|A|=0$ $A$ 的特征值只能为 0 或 1，所以 $A+E$ 的特征值为 1 或 2，行列式不可能为 0，选项 3。",
+  "sort_order": 7
+}

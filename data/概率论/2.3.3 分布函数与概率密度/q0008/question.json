@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=2x(0<x<1)$，关于$P(X\\le0.5),P(X=0.5),F(x)$，错误说法是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x\\le0$时$F(x)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(X\\le0.5)=0.25$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(X=0.5)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0<x<1$时$F(x)=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$0<x<1$时$F(x)=x^2$，不是恒为1，故第四项错误。",
+  "search_text": "$f(x)=2x(0<x<1)$，关于$P(X\\le0.5),P(X=0.5),F(x)$，错误说法是？ $x\\le0$时$F(x)=0$ $P(X\\le0.5)=0.25$ $P(X=0.5)=0$ $0<x<1$时$F(x)=1$ $0<x<1$时$F(x)=x^2$，不是恒为1，故第四项错误。",
+  "sort_order": 8
+}

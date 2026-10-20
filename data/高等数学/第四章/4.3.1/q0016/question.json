@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "limₓ→₀ [∫₀ˣ²(eᵗ−1)sin√t dt]/arcsin(x⁵)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1/2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2/3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "−2/5"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2/5"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "展开或用等价无穷小求极限。",
+  "search_text": "limₓ→₀ [∫₀ˣ²(eᵗ−1)sin√t dt]/arcsin(x⁵) 1/2 2/3 −2/5 2/5 展开或用等价无穷小求极限。",
+  "sort_order": 16
+}

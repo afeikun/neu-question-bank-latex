@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列齐次线性方程组中，只有零解的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}x_1+x_2+2x_3-x_4=0,\\\\2x_1+x_2+x_3-x_4=0,\\\\2x_1+2x_2+x_3+2x_4=0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}x_1+2x_2-3x_3=0,\\\\2x_1+5x_2+2x_3=0,\\\\3x_1-x_2-4x_3=0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}x_1+2x_2+x_3-x_4=0,\\\\3x_1+6x_2-x_3-3x_4=0,\\\\5x_1+10x_2+x_3-5x_4=0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}x_1+2x_2-3x_3=0,\\\\2x_1+4x_2+7x_3=0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对方程组的系数矩阵作初等行变换后发现，只有方程组 $\\begin{cases}x_1+2x_2-3x_3=0,\\\\2x_1+5x_2+2x_3=0,\\\\3x_1-x_2-4x_3=0\\end{cases}$ 的系数矩阵的秩 $r(A)=n=3$，由方程组解的判定定理可知，只有零解。",
+  "search_text": "下列齐次线性方程组中，只有零解的是（ ）。 $\\begin{cases}x_1+x_2+2x_3-x_4=0,\\\\2x_1+x_2+x_3-x_4=0,\\\\2x_1+2x_2+x_3+2x_4=0\\end{cases}$ $\\begin{cases}x_1+2x_2-3x_3=0,\\\\2x_1+5x_2+2x_3=0,\\\\3x_1-x_2-4x_3=0\\end{cases}$ $\\begin{cases}x_1+2x_2+x_3-x_4=0,\\\\3x_1+6x_2-x_3-3x_4=0,\\\\5x_1+10x_2+x_3-5x_4=0\\end{cases}$ $\\begin{cases}x_1+2x_2-3x_3=0,\\\\2x_1+4x_2+7x_3=0\\end{cases}$ 对方程组的系数矩阵作初等行变换后发现，只有方程组 $\\begin{cases}x_1+2x_2-3x_3=0,\\\\2x_1+5x_2+2x_3=0,\\\\3x_1-x_2-4x_3=0\\end{cases}$ 的系数矩阵的秩 $r(A)=n=3$，由方程组解的判定定理可知，只有零解。",
+  "sort_order": 14
+}

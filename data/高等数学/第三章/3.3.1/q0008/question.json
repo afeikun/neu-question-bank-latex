@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\pi/2}\\frac{\\cos5x}{\\cos3x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac53$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac53$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $x=\\pi/2+h$，则比值趋于 $-5/3$。",
+  "search_text": "$\\lim_{x\\to\\pi/2}\\frac{\\cos5x}{\\cos3x}=(\\quad)$。 $\\frac53$ $-1$ $1$ $-\\frac53$ 令 $x=\\pi/2+h$，则比值趋于 $-5/3$。",
+  "sort_order": 8
+}

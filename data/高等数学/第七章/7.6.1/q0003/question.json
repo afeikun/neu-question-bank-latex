@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=\\\\sec t,y=\\\\csc t,z=\\\\sec t\\\\csc t$ 在 $t=\\pi/4$ 处的切线方程是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-\\sqrt2}{\\sqrt2}=\\frac{y-\\sqrt2}{-1}=\\frac{z-2}{0}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-\\sqrt2}{\\sqrt2}=\\frac{y-\\sqrt2}{-\\sqrt2}=\\frac{z-2}{0}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x-\\sqrt2}{\\sqrt2}=\\frac{y-\\sqrt2}{\\sqrt2}=z-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-\\sqrt2}{\\sqrt2}=\\frac{y-\\sqrt2}{-\\sqrt2}=\\frac{z-2}{0}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "当 $t=\\frac{\\pi}{4}$ 时，$x=y=\\sqrt{2},\\ z=2$，\n\n$$\nx'_t=\\sec t\\tan t=\\sqrt{2},\\quad\ny'_t=-\\csc t\\cot t=-\\sqrt{2},\n$$\n$$\nz'_t=\\sec t\\tan t-\\csc t\\cot t=0,\n$$\n所以切线方程是\n$$\n\\frac{x-\\sqrt{2}}{\\sqrt{2}}=\\frac{y-\\sqrt{2}}{-\\sqrt{2}}=\\frac{z-2}{0},\n$$\n即\n$$\nx-\\sqrt{2}=\\frac{y-\\sqrt{2}}{-1}=\\frac{z-2}{0}.\n$$",
+  "search_text": "曲线 $x=\\\\sec t,y=\\\\csc t,z=\\\\sec t\\\\csc t$ 在 $t=\\pi/4$ 处的切线方程是。 $\\frac{x-\\sqrt2}{\\sqrt2}=\\frac{y-\\sqrt2}{-1}=\\frac{z-2}{0}$ $\\frac{x-\\sqrt2}{\\sqrt2}=\\frac{y-\\sqrt2}{-\\sqrt2}=\\frac{z-2}{0}$ $\\frac{x-\\sqrt2}{\\sqrt2}=\\frac{y-\\sqrt2}{\\sqrt2}=z-2$ $\\frac{x-\\sqrt2}{\\sqrt2}=\\frac{y-\\sqrt2}{-\\sqrt2}=\\frac{z-2}{0}$ 当 $t=\\frac{\\pi}{4}$ 时，$x=y=\\sqrt{2},\\ z=2$，\n\n$$\nx'_t=\\sec t\\tan t=\\sqrt{2},\\quad\ny'_t=-\\csc t\\cot t=-\\sqrt{2},\n$$\n$$\nz'_t=\\sec t\\tan t-\\csc t\\cot t=0,\n$$\n所以切线方程是\n$$\n\\frac{x-\\sqrt{2}}{\\sqrt{2}}=\\frac{y-\\sqrt{2}}{-\\sqrt{2}}=\\frac{z-2}{0},\n$$\n即\n$$\nx-\\sqrt{2}=\\frac{y-\\sqrt{2}}{-1}=\\frac{z-2}{0}.\n$$",
+  "sort_order": 3
+}

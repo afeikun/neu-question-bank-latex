@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若I=∫₀¹dx/x^q发散，则q满足",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "q<1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "q≥1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "q≤1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "q>1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "该积分在q≥1时发散。",
+  "search_text": "若I=∫₀¹dx/x^q发散，则q满足 q<1 q≥1 q≤1 q>1 该积分在q≥1时发散。",
+  "sort_order": 13
+}

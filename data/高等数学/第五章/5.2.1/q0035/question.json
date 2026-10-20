@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}\\frac{\\sqrt{1+\\sqrt{1+\\sqrt n}}}{n^a}$ 收敛，则 $a$ 满足？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a>9/8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/8<a<9/8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a>1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a<1/8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分子与 $n^{1/8}$ 同阶，故需 $a-1/8>1$，即 $a>9/8$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}\\frac{\\sqrt{1+\\sqrt{1+\\sqrt n}}}{n^a}$ 收敛，则 $a$ 满足？ $a>9/8$ $1/8<a<9/8$ $a>1$ $a<1/8$ 分子与 $n^{1/8}$ 同阶，故需 $a-1/8>1$，即 $a>9/8$。",
+  "sort_order": 35
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\approx0$ 时，由 $\\Delta y\\approx dy$ 可得近似计算公式 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln(1-x)\\approx x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt[n]{1+x}\\approx1+nx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)\\approx f'(0)x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{1-x}\\approx1+x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当 $x\\approx0$ 时，$\\frac1{1-x}\\approx(1-x)^{-1}=1+x$；同理 $\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$，$\\ln(1-x)\\approx-x$，$f(x)\\approx f(0)+f'(0)x$。",
+  "search_text": "当 $x\\approx0$ 时，由 $\\Delta y\\approx dy$ 可得近似计算公式 $(\\quad)$。 $\\ln(1-x)\\approx x$ $\\sqrt[n]{1+x}\\approx1+nx$ $f(x)\\approx f'(0)x$ $\\frac1{1-x}\\approx1+x$ 当 $x\\approx0$ 时，$\\frac1{1-x}\\approx(1-x)^{-1}=1+x$；同理 $\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$，$\\ln(1-x)\\approx-x$，$f(x)\\approx f(0)+f'(0)x$。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体均值已知，对方差检验$H_0:\\sigma^2\\le\\sigma_0^2,H_1:\\sigma^2>\\sigma_0^2$，拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\chi^2_\\alpha(n),+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,\\chi^2_{1-\\alpha}(n))$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0,\\chi^2_{1-\\alpha/2}(n))\\cup(\\chi^2_{\\alpha/2}(n),+\\infty)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,\\chi^2_{1-\\alpha}(n))\\cup(\\chi^2_\\alpha(n),+\\infty)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "右侧方差检验拒绝域为$\\chi^2>\\chi^2_\\alpha(n)$。",
+  "search_text": "正态总体均值已知，对方差检验$H_0:\\sigma^2\\le\\sigma_0^2,H_1:\\sigma^2>\\sigma_0^2$，拒绝域为（）。 $(\\chi^2_\\alpha(n),+\\infty)$ $(0,\\chi^2_{1-\\alpha}(n))$ $(0,\\chi^2_{1-\\alpha/2}(n))\\cup(\\chi^2_{\\alpha/2}(n),+\\infty)$ $(0,\\chi^2_{1-\\alpha}(n))\\cup(\\chi^2_\\alpha(n),+\\infty)$ 右侧方差检验拒绝域为$\\chi^2>\\chi^2_\\alpha(n)$。",
+  "sort_order": 1
+}

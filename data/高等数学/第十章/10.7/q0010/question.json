@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "长 $6$m 的链条在光滑桌面上滑落，初始垂下 $3$m，求链条全部滑离桌面的时间。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{\\frac6g}\\ln(2+\\sqrt3)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt{\\frac3g}\\ln(2+\\sqrt3)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{\\frac6g}\\ln(3+\\sqrt2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{\\frac2g}\\ln(2+\\sqrt3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：设 $t$ 时刻链条垂下 $x$ m，链条线密度为 $\\mu$，则 $6\\mu\\frac{d^2x}{dt^2}=\\mu g$，且 $\\left.x\\right|_{t=0}=3，\\left.\\frac{dx}{dt}\\right|_{t=0}=0$，\n\n上述方程得 $x=\\frac{3}{2}(e^{\\sqrt{\\frac{g}{6}}t}+e^{-\\sqrt{\\frac{g}{6}}t})$，于是 $t=\\sqrt{\\frac{6}{g}}\\ln(\\frac{x}{3}+\\sqrt{\\frac{x^2}{9}-1})$。\n\n当 $x=6$ 时，$t=\\sqrt{\\frac{6}{g}}\\ln(2+\\sqrt{3})$ s。",
+  "search_text": "长 $6$m 的链条在光滑桌面上滑落，初始垂下 $3$m，求链条全部滑离桌面的时间。 $\\sqrt{\\frac6g}\\ln(2+\\sqrt3)$ $\\sqrt{\\frac3g}\\ln(2+\\sqrt3)$ $\\sqrt{\\frac6g}\\ln(3+\\sqrt2)$ $\\sqrt{\\frac2g}\\ln(2+\\sqrt3)$ 解析：设 $t$ 时刻链条垂下 $x$ m，链条线密度为 $\\mu$，则 $6\\mu\\frac{d^2x}{dt^2}=\\mu g$，且 $\\left.x\\right|_{t=0}=3，\\left.\\frac{dx}{dt}\\right|_{t=0}=0$，\n\n上述方程得 $x=\\frac{3}{2}(e^{\\sqrt{\\frac{g}{6}}t}+e^{-\\sqrt{\\frac{g}{6}}t})$，于是 $t=\\sqrt{\\frac{6}{g}}\\ln(\\frac{x}{3}+\\sqrt{\\frac{x^2}{9}-1})$。\n\n当 $x=6$ 时，$t=\\sqrt{\\frac{6}{g}}\\ln(2+\\sqrt{3})$ s。",
+  "sort_order": 10
+}

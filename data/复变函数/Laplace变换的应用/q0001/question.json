@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程初值问题 $\\begin{cases}y\\prime\\prime+4y\\prime+5y=f(t),\\\\y(0)=C_1,\\ y\\prime(0)=C_2\\end{cases}$ 的解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(t)*(e^{-2t}\\sin t)+e^{-2t}\\left(C_1\\cos t+(C_2+2C_1)\\sin t\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(t)*(e^{-2t}\\sin t)+e^{-2t}\\left(C_1\\cos t+(C_2+4C_1)\\sin t\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(t)*(e^{2t}\\sin t)+e^{2t}\\left(C_1\\cos t+(C_2+4C_1)\\sin t\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(t)*(e^{2t}\\sin t)+e^{2t}\\left(C_1\\cos t+(C_2+2C_1)\\sin t\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar y(s)=\\dfrac{F(s)}{(s+2)^2+1}+C_1\\dfrac{s+2}{(s+2)^2+1}+C_2\\dfrac1{(s+2)^2+1}$，反变换得到页面所列解。",
+  "search_text": "微分方程初值问题 $\\begin{cases}y\\prime\\prime+4y\\prime+5y=f(t),\\\\y(0)=C_1,\\ y\\prime(0)=C_2\\end{cases}$ 的解为（ ）。 $f(t)*(e^{-2t}\\sin t)+e^{-2t}\\left(C_1\\cos t+(C_2+2C_1)\\sin t\\right)$ $f(t)*(e^{-2t}\\sin t)+e^{-2t}\\left(C_1\\cos t+(C_2+4C_1)\\sin t\\right)$ $f(t)*(e^{2t}\\sin t)+e^{2t}\\left(C_1\\cos t+(C_2+4C_1)\\sin t\\right)$ $f(t)*(e^{2t}\\sin t)+e^{2t}\\left(C_1\\cos t+(C_2+2C_1)\\sin t\\right)$ $\\bar y(s)=\\dfrac{F(s)}{(s+2)^2+1}+C_1\\dfrac{s+2}{(s+2)^2+1}+C_2\\dfrac1{(s+2)^2+1}$，反变换得到页面所列解。",
+  "sort_order": 1
+}

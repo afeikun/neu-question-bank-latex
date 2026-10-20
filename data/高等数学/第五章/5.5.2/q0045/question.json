@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $\\ln\\sqrt{(1+x)/(1-x)}$ 在 $x=0$ 展开。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty} x^{2n-1}/(2n-1),\\ (-1,1]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty} x^{2n-1}/(2n+1),\\ (-1,1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty} x^{2n-1}/(2n-1),\\ [-1,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty} x^{2n-1}/(2n-1),\\ (-1,1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "两个对数展开相减，得 $\\sum_{n=1}^{\\infty} x^{2n-1}/(2n-1)$，收敛区间 $(-1,1)$。",
+  "search_text": "将 $\\ln\\sqrt{(1+x)/(1-x)}$ 在 $x=0$ 展开。 $\\sum_{n=1}^{\\infty} x^{2n-1}/(2n-1),\\ (-1,1]$ $\\sum_{n=1}^{\\infty} x^{2n-1}/(2n+1),\\ (-1,1]$ $\\sum_{n=1}^{\\infty} x^{2n-1}/(2n-1),\\ [-1,1)$ $\\sum_{n=1}^{\\infty} x^{2n-1}/(2n-1),\\ (-1,1)$ 两个对数展开相减，得 $\\sum_{n=1}^{\\infty} x^{2n-1}/(2n-1)$，收敛区间 $(-1,1)$。",
+  "sort_order": 45
+}

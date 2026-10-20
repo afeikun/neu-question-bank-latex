@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 均为实对称矩阵，则下列说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A+B$ 必为对称阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$AB$ 必为对称阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若 $(A+B)^2=0$，也不能肯定 $A+B=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A-B$ 不一定为对称阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $A,B$ 均为对称矩阵，则 $(A+B)^T=A^T+B^T=A+B$，因此 $A+B$ 必为对称阵；$(AB)^T=B^TA^T=BA$，且不一定等于 $AB$，因此 $AB$ 不一定是对称阵；尽管由 $A^2=0$ 不能推出 $A=0$，但若 $A$ 为实对称矩阵，且 $A^TA=A^2=0$，则 $A=0$。",
+  "search_text": "设 $A,B$ 均为实对称矩阵，则下列说法正确的是（ ）。 $A+B$ 必为对称阵 $AB$ 必为对称阵 若 $(A+B)^2=0$，也不能肯定 $A+B=0$ $A-B$ 不一定为对称阵 由于 $A,B$ 均为对称矩阵，则 $(A+B)^T=A^T+B^T=A+B$，因此 $A+B$ 必为对称阵；$(AB)^T=B^TA^T=BA$，且不一定等于 $AB$，因此 $AB$ 不一定是对称阵；尽管由 $A^2=0$ 不能推出 $A=0$，但若 $A$ 为实对称矩阵，且 $A^TA=A^2=0$，则 $A=0$。",
+  "sort_order": 35
+}

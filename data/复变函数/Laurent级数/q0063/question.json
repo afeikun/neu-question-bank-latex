@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\dfrac1{z^2-3z+2}$ 在环形域 $1<|z-1|<+\\infty$ 内的洛朗级数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\dfrac1{(z-1)^{n+1}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\dfrac1{(z-1)^{n+1}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=2}^{\\infty}\\dfrac1{(z-1)^{n+1}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\dfrac1{(z-1)^{n+2}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac1{z^2-3z+2}=\\dfrac1{z-2}-\\dfrac1{z-1}=\\dfrac1{z-1}\\cdot\\dfrac1{1-\\dfrac1{z-1}}-\\dfrac1{z-1}=\\sum_{n=1}^{\\infty}\\dfrac1{(z-1)^{n+1}}$。",
+  "search_text": "$\\dfrac1{z^2-3z+2}$ 在环形域 $1<|z-1|<+\\infty$ 内的洛朗级数为（ ）。 $\\sum_{n=1}^{\\infty}\\dfrac1{(z-1)^{n+1}}$ $\\sum_{n=0}^{\\infty}\\dfrac1{(z-1)^{n+1}}$ $\\sum_{n=2}^{\\infty}\\dfrac1{(z-1)^{n+1}}$ $\\sum_{n=1}^{\\infty}\\dfrac1{(z-1)^{n+2}}$ $\\dfrac1{z^2-3z+2}=\\dfrac1{z-2}-\\dfrac1{z-1}=\\dfrac1{z-1}\\cdot\\dfrac1{1-\\dfrac1{z-1}}-\\dfrac1{z-1}=\\sum_{n=1}^{\\infty}\\dfrac1{(z-1)^{n+1}}$。",
+  "sort_order": 63
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质量 $m$ 物体在空气中自由下落，阻力与速度平方成正比系数 $k$，初始静止，求速度 $v$ 的方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$v^\\prime-\\frac{k}{m}v=g$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$v^\\prime+\\frac{k}{m}v=g$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$v^\\prime+\\frac{k}{m}v^2=g$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$v^\\prime-\\frac{k}{m}v^2=g$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：由题意知$mg-kv^2=ma=mv',\\ v|_{t=0}=0$，化简得$v'+\\frac{k}{m}v^2=g,\\ v|_{t=0}=0$。",
+  "search_text": "质量 $m$ 物体在空气中自由下落，阻力与速度平方成正比系数 $k$，初始静止，求速度 $v$ 的方程。 $v^\\prime-\\frac{k}{m}v=g$ $v^\\prime+\\frac{k}{m}v=g$ $v^\\prime+\\frac{k}{m}v^2=g$ $v^\\prime-\\frac{k}{m}v^2=g$ 解析：由题意知$mg-kv^2=ma=mv',\\ v|_{t=0}=0$，化简得$v'+\\frac{k}{m}v^2=g,\\ v|_{t=0}=0$。",
+  "sort_order": 48
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$i^{e^i}$ 的值是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-\\frac{(2k+1)\\pi}{2}\\sin1}[\\cos((2k+1)\\pi\\cos1/2)+i\\sin((2k+1)\\pi\\cos1/2)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-\\frac{(2k+1)\\pi}{2}\\sin1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-\\frac\\pi2\\sin1}[\\cos(\\frac{\\pi\\cos1}{2})+i\\sin(\\frac{\\pi\\cos1}{2})]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-\\frac{(2k+1)\\pi}{2}\\sin1}[\\cos(2k\\pi\\cos1)+i\\sin(2k\\pi\\cos1)]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "代入 $\\operatorname{Ln}i=i(\\pi/2+2k\\pi)$ 后按复幂定义化简。",
+  "search_text": "$i^{e^i}$ 的值是（ ）。 $e^{-\\frac{(2k+1)\\pi}{2}\\sin1}[\\cos((2k+1)\\pi\\cos1/2)+i\\sin((2k+1)\\pi\\cos1/2)]$ $e^{-\\frac{(2k+1)\\pi}{2}\\sin1}$ $e^{-\\frac\\pi2\\sin1}[\\cos(\\frac{\\pi\\cos1}{2})+i\\sin(\\frac{\\pi\\cos1}{2})]$ $e^{-\\frac{(2k+1)\\pi}{2}\\sin1}[\\cos(2k\\pi\\cos1)+i\\sin(2k\\pi\\cos1)]$ 代入 $\\operatorname{Ln}i=i(\\pi/2+2k\\pi)$ 后按复幂定义化简。",
+  "sort_order": 40
+}

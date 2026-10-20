@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $dU=(\\frac1x+\\frac1y)dx+(\\frac2y-\\frac{x}{y^2})dy$，则 $U(x,y)=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_1^x(\\frac1t+\\frac1x)dt+\\int_1^y(\\frac2y-\\frac{x}{y^2})dy+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_1^x[(\\frac1x+\\frac1x)+(\\frac2x-\\frac{x}{x^2})]dx+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_1^y(\\frac2y+\\frac2y-\\frac{y}{y^2})dy+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_1^x(\\frac1x+\\frac1y)dx+\\int_1^y(\\frac2y-\\frac{x}{y^2})dy+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$P=\\frac{1}{x}+\\frac{1}{y},\\quad Q=\\frac{2}{y}-\\frac{x}{y^2},$\n\n$$\\frac{\\partial P}{\\partial y}=-\\frac{1}{y^2}=\\frac{\\partial Q}{\\partial x},$$\n\n所以为全微分方程，得\n\n$$U(x,y)=\\int_1^x\\left(\\frac{1}{x}+1\\right)dx+\\int_1^y\\left(\\frac{2}{y}-\\frac{x}{y^2}\\right)dy+c$$",
+  "search_text": "设 $dU=(\\frac1x+\\frac1y)dx+(\\frac2y-\\frac{x}{y^2})dy$，则 $U(x,y)=$（ ） $\\int_1^x(\\frac1t+\\frac1x)dt+\\int_1^y(\\frac2y-\\frac{x}{y^2})dy+C$ $\\int_1^x[(\\frac1x+\\frac1x)+(\\frac2x-\\frac{x}{x^2})]dx+C$ $\\int_1^y(\\frac2y+\\frac2y-\\frac{y}{y^2})dy+C$ $\\int_1^x(\\frac1x+\\frac1y)dx+\\int_1^y(\\frac2y-\\frac{x}{y^2})dy+C$ $P=\\frac{1}{x}+\\frac{1}{y},\\quad Q=\\frac{2}{y}-\\frac{x}{y^2},$\n\n$$\\frac{\\partial P}{\\partial y}=-\\frac{1}{y^2}=\\frac{\\partial Q}{\\partial x},$$\n\n所以为全微分方程，得\n\n$$U(x,y)=\\int_1^x\\left(\\frac{1}{x}+1\\right)dx+\\int_1^y\\left(\\frac{2}{y}-\\frac{x}{y^2}\\right)dy+c$$",
+  "sort_order": 42
+}

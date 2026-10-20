@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=1}^\\infty(n^2+1)x^n/(n!2^n)$ 的和函数？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(x/2+1)e^{x/2}-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3e^{x/2}-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(x^2/4+x/2)e^{x/2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x^2/4+x/2+1)e^{x/2}-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "拆分 $n^2=n(n-1)+n$ 并使用指数级数得 $(x^2/4+x/2+1)e^{x/2}-1$。",
+  "search_text": "幂级数 $\\sum_{n=1}^\\infty(n^2+1)x^n/(n!2^n)$ 的和函数？ $(x/2+1)e^{x/2}-1$ $3e^{x/2}-1$ $(x^2/4+x/2)e^{x/2}$ $(x^2/4+x/2+1)e^{x/2}-1$ 拆分 $n^2=n(n-1)+n$ 并使用指数级数得 $(x^2/4+x/2+1)e^{x/2}-1$。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某弧形构件形如曲线 $L:r=a(1+\\cos\\theta)$，位于 $\\theta=0$ 至 $\\theta=\\pi$ 的部分，其上线密度 $\\rho(x,y)=\\sqrt{x^2+y^2}$，该构件质量 $M=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{16}{3}a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac9{16}a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{16\\pi}{3}a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{16}{5}a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $L:\\begin{cases}x=a\\cos^3t\\\\y=a\\sin^3t\\end{cases}$，$\\sqrt{x_t'^2+y_t'^2}=3a\\sin t\\cos t，\\quad0\\leq t\\leq\\frac{\\pi}{2}$\n\n设质心坐标 $(\\bar{x},\\bar{y})$，由弧 $L$ 结构可知 $\\bar{x}=\\bar{y}$。\n\n$$\n\\bar{x}=\\frac{\\int_Lx\\rho_0ds}{\\int_L\\rho_0ds}=\\frac{\\int_0^{\\frac{\\pi}{2}}a\\cos^3t\\cdot3a\\sin t\\cos tdt}{\\int_0^{\\frac{\\pi}{2}}3a\\sin t\\cos tdt}=\\frac{2}{5}a\n$$\n\n于是，质心坐标为 $\\left(\\frac{2}{5}a,\\frac{2}{5}a\\right)$",
+  "search_text": "某弧形构件形如曲线 $L:r=a(1+\\cos\\theta)$，位于 $\\theta=0$ 至 $\\theta=\\pi$ 的部分，其上线密度 $\\rho(x,y)=\\sqrt{x^2+y^2}$，该构件质量 $M=$（ ） $\\frac{16}{3}a^2$ $\\frac9{16}a^2$ $\\frac{16\\pi}{3}a^2$ $\\frac{16}{5}a^2$ 解答 $L:\\begin{cases}x=a\\cos^3t\\\\y=a\\sin^3t\\end{cases}$，$\\sqrt{x_t'^2+y_t'^2}=3a\\sin t\\cos t，\\quad0\\leq t\\leq\\frac{\\pi}{2}$\n\n设质心坐标 $(\\bar{x},\\bar{y})$，由弧 $L$ 结构可知 $\\bar{x}=\\bar{y}$。\n\n$$\n\\bar{x}=\\frac{\\int_Lx\\rho_0ds}{\\int_L\\rho_0ds}=\\frac{\\int_0^{\\frac{\\pi}{2}}a\\cos^3t\\cdot3a\\sin t\\cos tdt}{\\int_0^{\\frac{\\pi}{2}}3a\\sin t\\cos tdt}=\\frac{2}{5}a\n$$\n\n于是，质心坐标为 $\\left(\\frac{2}{5}a,\\frac{2}{5}a\\right)$",
+  "sort_order": 40
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=z\\operatorname{Re}z$ 在复平面上（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "处处不解析"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "处处不可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在 $z=0$ 处解析"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "除 $z=0$ 外解析"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "写成 $x^2+ixy$，柯西－黎曼方程仅原点成立。",
+  "search_text": "函数 $f(z)=z\\operatorname{Re}z$ 在复平面上（ ）。 处处不解析 处处不可导 在 $z=0$ 处解析 除 $z=0$ 外解析 写成 $x^2+ixy$，柯西－黎曼方程仅原点成立。",
+  "sort_order": 66
+}

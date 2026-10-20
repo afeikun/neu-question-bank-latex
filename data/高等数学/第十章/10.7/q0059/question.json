@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一个离地面很高的物体，受地球引力作用由静止开始落向地面。它落到地面时所需要的时间为（）。(不计空气阻力，假设地球的半径为 $R$，地球的质量为 $M$，引力常数为 $k$，物体质量为 $m$，物体开始下落时与地球中心的距离为 $l$，$l>R$)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1}{R}\\sqrt{\\frac{1}{2gm}}(\\sqrt{lR-R^2}+kl)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1}{R}\\sqrt{\\frac{lm}{2gM}}(R\\sqrt{1-\\frac{R}{l}}+k\\sqrt{\\frac{m}{M}})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1}{R}\\sqrt{\\frac{1}{2g}}(\\sqrt{lR-R^2}+l\\arccos\\sqrt{\\frac{R}{l}})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1}{R}\\sqrt{\\frac{1}{2g}}(\\arctan\\sqrt{\\frac{gmM}{R^2}}+\\frac{l}{R})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：取连接地球中心与该物体的直线为 $y$ 轴，其方向朝上，取地球的中心为原点 $O$。\n在时刻 $t$ 物体所在的位置为 $y=y(t)$，于是速度为 $v=\\frac{dy}{dt}$。由万有引力定律得微分方程\n$m\\frac{d^2y}{dt^2}=-\\frac{kmM}{y^2}$，即 $\\frac{d^2y}{dt^2}=-\\frac{kM}{y^2}$，因为当 $y=R$ 时：$\\frac{d^2y}{dt^2}=-g$（负号表示加速度方向与 $y$ 轴正向相反）于是 $g=\\frac{kM}{R^2}$，$kM=gR^2$，从而方程化为 $\\frac{d^2y}{dt^2}=-\\frac{gR^2}{y^2}$。\n设 $\\frac{dy}{dt}=v(y)$，代入方程得 $\\frac{d^2y}{dt^2}=\\frac{dv}{dt}=\\frac{dv}{dy}\\frac{dy}{dt}=v\\frac{dv}{dy}=-\\frac{gR^2}{y^2}$，利用分离变量法得 $v^2=\\frac{2gR^2}{y}+C_1$。代入初值 $y|_{t=0}=l$，$y'|_{t=0}=0=v(l)$，得 $C_1=-\\frac{2gR^2}{l}$，\n于是得 $v=-R\\sqrt{2g(\\frac{1}{y}-\\frac{1}{l})}=\\frac{dy}{dt}$，分离变量得 $dt=-\\frac{1}{R}\\sqrt{\\frac{l}{2g}}\\sqrt{\\frac{y}{l-y}}\\,dy$。\n两端积分得 $t=\\frac{1}{R}\\sqrt{\\frac{l}{2g}}(\\sqrt{ly-y^2}+l\\arccos\\sqrt{\\frac{y}{l}})+C_2$，有条件 $y|_{t=0}=l$ 得 $C_2=0$。\n于是 $t=\\frac{1}{R}\\sqrt{\\frac{l}{2g}}(\\sqrt{ly-y^2}+l\\arccos\\sqrt{\\frac{y}{l}})$，\n令 $y=R$ 可得物体到达地面所需要的时间为 $\\frac{1}{R}\\sqrt{\\frac{l}{2g}}(\\sqrt{lR-R^2}+l\\arccos\\sqrt{\\frac{R}{l}})$",
+  "search_text": "一个离地面很高的物体，受地球引力作用由静止开始落向地面。它落到地面时所需要的时间为（）。(不计空气阻力，假设地球的半径为 $R$，地球的质量为 $M$，引力常数为 $k$，物体质量为 $m$，物体开始下落时与地球中心的距离为 $l$，$l>R$) $\\frac{1}{R}\\sqrt{\\frac{1}{2gm}}(\\sqrt{lR-R^2}+kl)$ $\\frac{1}{R}\\sqrt{\\frac{lm}{2gM}}(R\\sqrt{1-\\frac{R}{l}}+k\\sqrt{\\frac{m}{M}})$ $\\frac{1}{R}\\sqrt{\\frac{1}{2g}}(\\sqrt{lR-R^2}+l\\arccos\\sqrt{\\frac{R}{l}})$ $\\frac{1}{R}\\sqrt{\\frac{1}{2g}}(\\arctan\\sqrt{\\frac{gmM}{R^2}}+\\frac{l}{R})$ 解析：取连接地球中心与该物体的直线为 $y$ 轴，其方向朝上，取地球的中心为原点 $O$。\n在时刻 $t$ 物体所在的位置为 $y=y(t)$，于是速度为 $v=\\frac{dy}{dt}$。由万有引力定律得微分方程\n$m\\frac{d^2y}{dt^2}=-\\frac{kmM}{y^2}$，即 $\\frac{d^2y}{dt^2}=-\\frac{kM}{y^2}$，因为当 $y=R$ 时：$\\frac{d^2y}{dt^2}=-g$（负号表示加速度方向与 $y$ 轴正向相反）于是 $g=\\frac{kM}{R^2}$，$kM=gR^2$，从而方程化为 $\\frac{d^2y}{dt^2}=-\\frac{gR^2}{y^2}$。\n设 $\\frac{dy}{dt}=v(y)$，代入方程得 $\\frac{d^2y}{dt^2}=\\frac{dv}{dt}=\\frac{dv}{dy}\\frac{dy}{dt}=v\\frac{dv}{dy}=-\\frac{gR^2}{y^2}$，利用分离变量法得 $v^2=\\frac{2gR^2}{y}+C_1$。代入初值 $y|_{t=0}=l$，$y'|_{t=0}=0=v(l)$，得 $C_1=-\\frac{2gR^2}{l}$，\n于是得 $v=-R\\sqrt{2g(\\frac{1}{y}-\\frac{1}{l})}=\\frac{dy}{dt}$，分离变量得 $dt=-\\frac{1}{R}\\sqrt{\\frac{l}{2g}}\\sqrt{\\frac{y}{l-y}}\\,dy$。\n两端积分得 $t=\\frac{1}{R}\\sqrt{\\frac{l}{2g}}(\\sqrt{ly-y^2}+l\\arccos\\sqrt{\\frac{y}{l}})+C_2$，有条件 $y|_{t=0}=l$ 得 $C_2=0$。\n于是 $t=\\frac{1}{R}\\sqrt{\\frac{l}{2g}}(\\sqrt{ly-y^2}+l\\arccos\\sqrt{\\frac{y}{l}})$，\n令 $y=R$ 可得物体到达地面所需要的时间为 $\\frac{1}{R}\\sqrt{\\frac{l}{2g}}(\\sqrt{lR-R^2}+l\\arccos\\sqrt{\\frac{R}{l}})$",
+  "sort_order": 59
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两个估计量容量相同且均无偏，若$D(\\hat\\theta_1)<D(\\hat\\theta_2)$，下列正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\hat\\theta_1$比$\\hat\\theta_2$有效"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\hat\\theta_2$比$\\hat\\theta_1$有效"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(\\hat\\theta_1)>D(\\hat\\theta_2)$时$\\hat\\theta_1$有效"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$D(\\hat\\theta_1)>D(\\hat\\theta_2)$时$\\hat\\theta_1$更有效"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "同样本容量下，无偏估计方差越小越有效。",
+  "search_text": "两个估计量容量相同且均无偏，若$D(\\hat\\theta_1)<D(\\hat\\theta_2)$，下列正确的是（）。 $\\hat\\theta_1$比$\\hat\\theta_2$有效 $\\hat\\theta_2$比$\\hat\\theta_1$有效 $D(\\hat\\theta_1)>D(\\hat\\theta_2)$时$\\hat\\theta_1$有效 $D(\\hat\\theta_1)>D(\\hat\\theta_2)$时$\\hat\\theta_1$更有效 同样本容量下，无偏估计方差越小越有效。",
+  "sort_order": 1
+}

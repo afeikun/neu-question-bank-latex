@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $x\\prime\\prime-2x\\prime+3x=e^{-t}\\cos t$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=c_1e^t\\cos\\sqrt2t+c_2e^t\\sin\\sqrt2t+(\\frac5{41}\\cos t-\\frac4{41}\\sin t)e^{-t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=c_1e^t\\cos\\sqrt2t+c_2e^t\\sin\\sqrt2t+(\\frac5{41}\\cos t-\\frac4{41}\\sin t)e^t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=Y+y^*=C_1e^{x/2}+C_2e^{-x/2}+e^x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=Y+y^*=C_1e^{x/2}+C_2e^{-x/2}+e^x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对应齐次方程的特征方程为 $r^2-2r+3=0$ 即得特征根为 $r_{1,2}=1\\pm\\sqrt{2}i$ 故齐次线性方程的通解为\n\n$X=c_1e^t\\cos\\sqrt{2}t+c_2e^t\\sin\\sqrt{2}t$ 由于 $-1\\pm i$ 不是特征方程的根，取特解如 $x^*=(A\\cos t+B\\sin t)e^{-t}$ 代入原方程解得 $A=\\frac{5}{41},B=-\\frac{4}{41}$ 故原方程的通解为 $x=c_1e^t\\cos\\sqrt{2}t+c_2e^t\\sin\\sqrt{2}t+(\\frac{5}{41}\\cos t-\\frac{4}{41}\\sin t)e^{-t}$.\n\n其中 $c_1,c_2$ 为任意常数。",
+  "search_text": "解方程 $x\\prime\\prime-2x\\prime+3x=e^{-t}\\cos t$（ ） $x=c_1e^t\\cos\\sqrt2t+c_2e^t\\sin\\sqrt2t+(\\frac5{41}\\cos t-\\frac4{41}\\sin t)e^{-t}$ $x=c_1e^t\\cos\\sqrt2t+c_2e^t\\sin\\sqrt2t+(\\frac5{41}\\cos t-\\frac4{41}\\sin t)e^t$ $y=Y+y^*=C_1e^{x/2}+C_2e^{-x/2}+e^x$ $y=Y+y^*=C_1e^{x/2}+C_2e^{-x/2}+e^x$ 对应齐次方程的特征方程为 $r^2-2r+3=0$ 即得特征根为 $r_{1,2}=1\\pm\\sqrt{2}i$ 故齐次线性方程的通解为\n\n$X=c_1e^t\\cos\\sqrt{2}t+c_2e^t\\sin\\sqrt{2}t$ 由于 $-1\\pm i$ 不是特征方程的根，取特解如 $x^*=(A\\cos t+B\\sin t)e^{-t}$ 代入原方程解得 $A=\\frac{5}{41},B=-\\frac{4}{41}$ 故原方程的通解为 $x=c_1e^t\\cos\\sqrt{2}t+c_2e^t\\sin\\sqrt{2}t+(\\frac{5}{41}\\cos t-\\frac{4}{41}\\sin t)e^{-t}$.\n\n其中 $c_1,c_2$ 为任意常数。",
+  "sort_order": 2
+}

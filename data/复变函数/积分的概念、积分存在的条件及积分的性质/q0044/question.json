@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\left|\\int_Ce^z\\,dz\\right|=(\\quad)$，$C$ 为从 $-i$ 到 $i$ 的线段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\sin1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\cos1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e-e^{-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\sinh1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原函数端点差为 $e^i-e^{-i}=2i\\sin1$，模为 $2\\sin1$。",
+  "search_text": "$\\left|\\int_Ce^z\\,dz\\right|=(\\quad)$，$C$ 为从 $-i$ 到 $i$ 的线段。 $2\\sin1$ $2\\cos1$ $e-e^{-1}$ $2\\sinh1$ 原函数端点差为 $e^i-e^{-i}=2i\\sin1$，模为 $2\\sin1$。",
+  "sort_order": 44
+}

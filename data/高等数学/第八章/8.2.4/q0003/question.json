@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是立体 $2z\\leq x^2+y^2+z^2\\leq4z$，则 $\\iiint_\\Omega\\frac1{\\sqrt{x^2+y^2}}\\,dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\iiint_\\Omega\\frac{1}{\\sqrt{x^2+y^2}}\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_{2\\cos\\varphi}^{4\\cos\\varphi}dr=12\\pi\\int_0^{\\frac{\\pi}{2}}\\cos^2\\varphi\\,d\\varphi=3\\pi^2$。",
+  "search_text": "若 $\\Omega$ 是立体 $2z\\leq x^2+y^2+z^2\\leq4z$，则 $\\iiint_\\Omega\\frac1{\\sqrt{x^2+y^2}}\\,dv=$（ ） $2\\pi^2$ $\\pi^2$ $3\\pi^2$ $4\\pi^2$ $\\iiint_\\Omega\\frac{1}{\\sqrt{x^2+y^2}}\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_{2\\cos\\varphi}^{4\\cos\\varphi}dr=12\\pi\\int_0^{\\frac{\\pi}{2}}\\cos^2\\varphi\\,d\\varphi=3\\pi^2$。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(u)$ 有连续导数，$f(0)=0$，$\\Omega:x^2+y^2+z^2\\leq t^2$，则 $\\lim_{t\\to0^+}\\frac1{\\pi t^4}\\iiint_\\Omega f(\\sqrt{x^2+y^2+z^2})dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{f(0)}{2\\pi}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f\\prime(0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1\\pi f\\prime(0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\iiint_\\Omega f(\\sqrt{x^2+y^2+z^2})\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^t f(r)r^2\\sin\\varphi\\,dr=4\\pi\\int_0^t r^2f(r)\\,dr$，\n\n原式 $\\left(\\frac{0}{0}\\right)=\\lim_{t\\to0^+}\\frac{4\\pi t^2f(t)}{4\\pi t^3}=\\lim_{t\\to0}\\frac{f(t)-f(0)}{t-0}=f'(0)$。",
+  "search_text": "$f(u)$ 有连续导数，$f(0)=0$，$\\Omega:x^2+y^2+z^2\\leq t^2$，则 $\\lim_{t\\to0^+}\\frac1{\\pi t^4}\\iiint_\\Omega f(\\sqrt{x^2+y^2+z^2})dv=$（ ） $\\frac{f(0)}{2\\pi}$ $f\\prime(0)$ $\\frac1\\pi f\\prime(0)$ $f(0)$ $\\iiint_\\Omega f(\\sqrt{x^2+y^2+z^2})\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^t f(r)r^2\\sin\\varphi\\,dr=4\\pi\\int_0^t r^2f(r)\\,dr$，\n\n原式 $\\left(\\frac{0}{0}\\right)=\\lim_{t\\to0^+}\\frac{4\\pi t^2f(t)}{4\\pi t^3}=\\lim_{t\\to0}\\frac{f(t)-f(0)}{t-0}=f'(0)$。",
+  "sort_order": 16
+}

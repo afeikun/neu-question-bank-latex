@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程初值问题 $\\begin{cases}x\\prime+x-y=e^t,\\\\y\\prime+3x-2y=2e^t,\\\\x(0)=y(0)=1\\end{cases}$ 的解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x(t)=e^t,\\ y(t)=e^t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x(t)=e^t,\\ y(t)=2e^t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x(t)=2e^t,\\ y(t)=e^t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x(t)=e^t,\\ y(t)=e^{2t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对方程组取 Laplace 变换并代入初值，解得 $X(s)=Y(s)=\\dfrac1{s-1}$，故 $x(t)=y(t)=e^t$。",
+  "search_text": "微分方程初值问题 $\\begin{cases}x\\prime+x-y=e^t,\\\\y\\prime+3x-2y=2e^t,\\\\x(0)=y(0)=1\\end{cases}$ 的解为（ ）。 $x(t)=e^t,\\ y(t)=e^t$ $x(t)=e^t,\\ y(t)=2e^t$ $x(t)=2e^t,\\ y(t)=e^t$ $x(t)=e^t,\\ y(t)=e^{2t}$ 对方程组取 Laplace 变换并代入初值，解得 $X(s)=Y(s)=\\dfrac1{s-1}$，故 $x(t)=y(t)=e^t$。",
+  "sort_order": 2
+}

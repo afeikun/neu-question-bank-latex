@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\sqrt[5]{x^2(4-x^2)}$ 不适合罗尔中值定理条件的区间是 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[-2,0]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[-1,1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[1,\\sqrt3]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[0,2]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "虽然各区间端点函数值相等，但 $x=-2,0,2$ 为函数的不可导点；在 $[-1,1]$ 上不满足开区间内可导条件。",
+  "search_text": "函数 $f(x)=\\sqrt[5]{x^2(4-x^2)}$ 不适合罗尔中值定理条件的区间是 $(\\quad)$。 $[-2,0]$ $[-1,1]$ $[1,\\sqrt3]$ $[0,2]$ 虽然各区间端点函数值相等，但 $x=-2,0,2$ 为函数的不可导点；在 $[-1,1]$ 上不满足开区间内可导条件。",
+  "sort_order": 34
+}

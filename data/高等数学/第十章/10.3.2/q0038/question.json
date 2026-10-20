@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$xy\\prime+y=y^2$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=(1-x)C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1-Cx)y=1$ 和 $y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1-x)y+C=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1-Cx)y=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y=0$ 和 $y=1$ 是方程的解。\n\n当 $y\\ne0,1$ 时方程可化为 $\\frac{dy}{y^2-y}=\\frac{dx}{x}$，即 $\\left(\\frac{1}{y-1}-\\frac{1}{y}\\right)dy=\\frac{1}{x}dx$\n\n可得 $\\frac{y-1}{y}=Cx$，即 $(1-Cx)y=1$。解 $y=1$ 含于该通解中",
+  "search_text": "$xy\\prime+y=y^2$ 的通解为（ ） $y=(1-x)C$ $(1-Cx)y=1$ 和 $y=0$ $(1-x)y+C=1$ $(1-Cx)y=1$ $y=0$ 和 $y=1$ 是方程的解。\n\n当 $y\\ne0,1$ 时方程可化为 $\\frac{dy}{y^2-y}=\\frac{dx}{x}$，即 $\\left(\\frac{1}{y-1}-\\frac{1}{y}\\right)dy=\\frac{1}{x}dx$\n\n可得 $\\frac{y-1}{y}=Cx$，即 $(1-Cx)y=1$。解 $y=1$ 含于该通解中",
+  "sort_order": 38
+}

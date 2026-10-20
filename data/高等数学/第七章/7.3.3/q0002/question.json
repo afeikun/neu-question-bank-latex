@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用某种材料做一个开口长方体容器，外形长 $5m$，宽 $4m$，高 $3m$，厚 $20cm$，所需材料的近似值与精确值分别为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$14.8m^3,14.8m^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$13.632m^3,14.8m^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$14.8m^3,13.632m^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$13.632m^3,13.632m^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设所需材料的近似值与精确值分别为$\\tilde{T},\\ T,$则\n\n$\\tilde{T}\\approx|du|=d(xyz)=|yz\\Delta x+xz\\Delta y+xy\\Delta z|.$\n\n把$x=5,y=4,z=3,\\Delta x=\\Delta y=-0.4,\\Delta z=-0.2$代入得$\\tilde{T}\\approx14.8\\ (m^3),$\n\n而$T=5\\times4\\times3-4.6\\times3.6\\times2.8=13.632(m^3),$",
+  "search_text": "用某种材料做一个开口长方体容器，外形长 $5m$，宽 $4m$，高 $3m$，厚 $20cm$，所需材料的近似值与精确值分别为(\\quad)。 $14.8m^3,14.8m^3$ $13.632m^3,14.8m^3$ $14.8m^3,13.632m^3$ $13.632m^3,13.632m^3$ 设所需材料的近似值与精确值分别为$\\tilde{T},\\ T,$则\n\n$\\tilde{T}\\approx|du|=d(xyz)=|yz\\Delta x+xz\\Delta y+xy\\Delta z|.$\n\n把$x=5,y=4,z=3,\\Delta x=\\Delta y=-0.4,\\Delta z=-0.2$代入得$\\tilde{T}\\approx14.8\\ (m^3),$\n\n而$T=5\\times4\\times3-4.6\\times3.6\\times2.8=13.632(m^3),$",
+  "sort_order": 2
+}

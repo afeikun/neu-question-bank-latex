@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 是长方体 $\\Omega=\\{(x,y,z)|0\\le x\\le a,0\\le y\\le b,0\\le z\\le c\\}$ 的整个表面的外侧，则 $\\oiint_\\Sigma x^2dydz+y^2dzdx+z^2dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a^2+b^2+c^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a^2b^2c^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(a+b+c)abc$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 把有向曲面 $\\Sigma$ 分成六部分，除与 $yoz$ 面平行的两个曲面外，其余四个曲面在 $yoz$ 面上的投影值为零，因此\n$$\\iint_\\Sigma x^2dydz=\\iint_{\\Sigma_1}x^2dydz+\\iint_{\\Sigma_2}x^2dydz=\\iint_{D_{yz}}a^2dydz-\\iint_{D_{yz}}0^2dydz=a^2bc。$$\n类似地可得 $\\iint_\\Sigma y^2dzdx=ab^2c$，$\\iint_\\Sigma z^2dxdy=abc^2$。于是，所求曲面积分为 $(a+b+c)abc$。\n\n图示：长方体示意图标有坐标轴 $x,y,z$，原点 $O$，三个方向的边长分别标为 $a,b,c$。",
+  "search_text": "设 $\\Sigma$ 是长方体 $\\Omega=\\{(x,y,z)|0\\le x\\le a,0\\le y\\le b,0\\le z\\le c\\}$ 的整个表面的外侧，则 $\\oiint_\\Sigma x^2dydz+y^2dzdx+z^2dxdy=$（ ） $a^2+b^2+c^2$ $a^2b^2c^2$ $(a+b+c)abc$ $0$ 解答 把有向曲面 $\\Sigma$ 分成六部分，除与 $yoz$ 面平行的两个曲面外，其余四个曲面在 $yoz$ 面上的投影值为零，因此\n$$\\iint_\\Sigma x^2dydz=\\iint_{\\Sigma_1}x^2dydz+\\iint_{\\Sigma_2}x^2dydz=\\iint_{D_{yz}}a^2dydz-\\iint_{D_{yz}}0^2dydz=a^2bc。$$\n类似地可得 $\\iint_\\Sigma y^2dzdx=ab^2c$，$\\iint_\\Sigma z^2dxdy=abc^2$。于是，所求曲面积分为 $(a+b+c)abc$。\n\n图示：长方体示意图标有坐标轴 $x,y,z$，原点 $O$，三个方向的边长分别标为 $a,b,c$。",
+  "sort_order": 25
+}

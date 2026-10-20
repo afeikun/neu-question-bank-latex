@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量场 $A=-y\\mathbf i+x\\mathbf j+c\\mathbf k$（$c$ 为常量）沿闭曲线 $\\Gamma:x^2+y^2=1,z=0$（从 $z$ 轴正向看，逆时针方向）的环流量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "参考答案：\n$\\Gamma$是$xOy$面上的正向圆周：\n$x=\\cos\\theta,y=\\sin\\theta,z=0\\quad(0\\leq\\theta\\leq2\\pi)$\n所求环流量\n\n$\\oint_\\Gamma Pdx+Qdy+Rdz=\\oint_\\Gamma -ydx+xdy+cdz=\\int_0^{2\\pi}(\\sin^2\\theta+\\cos^2\\theta+0)d\\theta=\\int_0^{2\\pi}d\\theta=2\\pi$",
+  "search_text": "向量场 $A=-y\\mathbf i+x\\mathbf j+c\\mathbf k$（$c$ 为常量）沿闭曲线 $\\Gamma:x^2+y^2=1,z=0$（从 $z$ 轴正向看，逆时针方向）的环流量为（ ） $3\\pi$ $2\\pi$ $-\\pi$ $\\pi$ 参考答案：\n$\\Gamma$是$xOy$面上的正向圆周：\n$x=\\cos\\theta,y=\\sin\\theta,z=0\\quad(0\\leq\\theta\\leq2\\pi)$\n所求环流量\n\n$\\oint_\\Gamma Pdx+Qdy+Rdz=\\oint_\\Gamma -ydx+xdy+cdz=\\int_0^{2\\pi}(\\sin^2\\theta+\\cos^2\\theta+0)d\\theta=\\int_0^{2\\pi}d\\theta=2\\pi$",
+  "sort_order": 18
+}

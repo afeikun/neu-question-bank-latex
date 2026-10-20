@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a>0$，$V$ 为球的体积，则 $\\iint_\\Sigma xy\\,dz+yz\\,dx+zx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3V$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$V^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12V$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5V$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n由高斯公式\n\n$$\\oiint_{\\Sigma}=\\iiint_{\\Omega}(1+1+1)dv=3\\iiint_{\\Omega}dv=3V$$",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a>0$，$V$ 为球的体积，则 $\\iint_\\Sigma xy\\,dz+yz\\,dx+zx\\,dy=$（ ） $3V$ $V^2$ $12V$ $5V$ 参考答案：\n\n由高斯公式\n\n$$\\oiint_{\\Sigma}=\\iiint_{\\Omega}(1+1+1)dv=3\\iiint_{\\Omega}dv=3V$$",
+  "sort_order": 24
+}

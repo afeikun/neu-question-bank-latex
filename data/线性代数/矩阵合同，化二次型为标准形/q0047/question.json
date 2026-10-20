@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用正交变换 $x=Py$ 化二次型 $f(x_1,x_2,x_3)=ax_1^2+ax_2^2+6x_3^2+8x_1x_2+4x_2x_3-4x_3x_1$ 为标准形 $7y_1^2+7y_2^2-2y_3^2$，则参数 $a$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "矩阵特征值为 $7,7,-2$，由迹等于特征值之和得 $2a+6=12$，所以 $a=3$，选项 1。",
+  "search_text": "用正交变换 $x=Py$ 化二次型 $f(x_1,x_2,x_3)=ax_1^2+ax_2^2+6x_3^2+8x_1x_2+4x_2x_3-4x_3x_1$ 为标准形 $7y_1^2+7y_2^2-2y_3^2$，则参数 $a$ 为(\\quad)。 $3$ $-3$ $1$ $-1$ 矩阵特征值为 $7,7,-2$，由迹等于特征值之和得 $2a+6=12$，所以 $a=3$，选项 1。",
+  "sort_order": 47
+}

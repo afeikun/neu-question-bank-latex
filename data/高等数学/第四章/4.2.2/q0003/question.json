@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由曲线 $y=1/x$、$x=-e$、$x=-1$ 和 $x$ 轴所围平面图形的面积为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln(e+1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "面积为 $\\int_{-e}^{-1}|1/x|\\,dx=\\int_{-e}^{-1}-1/x\\,dx=1$。",
+  "search_text": "由曲线 $y=1/x$、$x=-e$、$x=-1$ 和 $x$ 轴所围平面图形的面积为 $1$ $e-1$ $\\ln(e+1)$ $\\ln e$ 面积为 $\\int_{-e}^{-1}|1/x|\\,dx=\\int_{-e}^{-1}-1/x\\,dx=1$。",
+  "sort_order": 3
+}

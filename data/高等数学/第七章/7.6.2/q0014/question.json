@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设曲面 $z=x^2+y^2$ 上点 $P$ 的切平面平行于平面 $4x+2y+z=10$，求 $P$ 到该平面的距离。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{21}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{15}{\\sqrt{21}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "21"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{\\sqrt{21}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "平面 $4x+2y+z=10$ 的法向量：$(4,2,1)$，设曲面过点 $P$ 的法向量为 $(A,B,C)$，由题意得：\n\n$$\\frac{A}{4}=\\frac{B}{2}=\\frac{C}{1}=t,$$\n\n则 $(A,B,C)=(4t,2t,t)$，设 $f(x,y,z)=x^2+y^2-z$，则 $f_x|_P=2x=4t$，$f_y|_P=2y=2t$，\n\n$f_z|_P=-1=t$，得到 $P$ 点坐标为 $(x,y,z)=(-2,-1,5)$，则点 $P$ 到已知平面的距离：\n\n$$d=\\frac{|-8-2+5-10|}{\\sqrt{16+4+1}}=\\frac{15}{\\sqrt{21}}.$$",
+  "search_text": "设曲面 $z=x^2+y^2$ 上点 $P$ 的切平面平行于平面 $4x+2y+z=10$，求 $P$ 到该平面的距离。 $\\frac1{21}$ $\\frac{15}{\\sqrt{21}}$ 21 $\\frac1{\\sqrt{21}}$ 平面 $4x+2y+z=10$ 的法向量：$(4,2,1)$，设曲面过点 $P$ 的法向量为 $(A,B,C)$，由题意得：\n\n$$\\frac{A}{4}=\\frac{B}{2}=\\frac{C}{1}=t,$$\n\n则 $(A,B,C)=(4t,2t,t)$，设 $f(x,y,z)=x^2+y^2-z$，则 $f_x|_P=2x=4t$，$f_y|_P=2y=2t$，\n\n$f_z|_P=-1=t$，得到 $P$ 点坐标为 $(x,y,z)=(-2,-1,5)$，则点 $P$ 到已知平面的距离：\n\n$$d=\\frac{|-8-2+5-10|}{\\sqrt{16+4+1}}=\\frac{15}{\\sqrt{21}}.$$",
+  "sort_order": 14
+}

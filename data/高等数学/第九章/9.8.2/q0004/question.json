@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量场 $A=xe^{yz}\\mathbf i+ye^{zx}\\mathbf j+ze^{xy}\\mathbf k$，则 $A$ 在点 $M(1,-1,0)$ 处的旋度 $\\operatorname{rot}A|_M$ 是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{1,0,-1\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{1,1,1\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{0,-1,1\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{1,-1,0\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$\\frac{\\partial (ze^{xy})}{\\partial y}-\\frac{\\partial (ye^{xz})}{\\partial z}=zxe^{xy}-yxe^{xz},\\quad \\frac{\\partial (xe^{yz})}{\\partial z}-\\frac{\\partial (ze^{xy})}{\\partial x}=xye^{yz}-yz e^{xy},\\quad \\frac{\\partial (ye^{xz})}{\\partial x}-\\frac{\\partial (xe^{yz})}{\\partial y}=yze^{xz}-xze^{yz}$ 则：\n\n$\\left.\\operatorname{rot}A\\right|_M=\\{1,-1,0\\}$",
+  "search_text": "设向量场 $A=xe^{yz}\\mathbf i+ye^{zx}\\mathbf j+ze^{xy}\\mathbf k$，则 $A$ 在点 $M(1,-1,0)$ 处的旋度 $\\operatorname{rot}A|_M$ 是（ ） $\\{1,0,-1\\}$ $\\{1,1,1\\}$ $\\{0,-1,1\\}$ $\\{1,-1,0\\}$ 参考答案：\n\n$\\frac{\\partial (ze^{xy})}{\\partial y}-\\frac{\\partial (ye^{xz})}{\\partial z}=zxe^{xy}-yxe^{xz},\\quad \\frac{\\partial (xe^{yz})}{\\partial z}-\\frac{\\partial (ze^{xy})}{\\partial x}=xye^{yz}-yz e^{xy},\\quad \\frac{\\partial (ye^{xz})}{\\partial x}-\\frac{\\partial (xe^{yz})}{\\partial y}=yze^{xz}-xze^{yz}$ 则：\n\n$\\left.\\operatorname{rot}A\\right|_M=\\{1,-1,0\\}$",
+  "sort_order": 4
+}

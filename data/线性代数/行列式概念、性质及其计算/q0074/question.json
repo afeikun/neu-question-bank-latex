@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n$ 阶行列式 $D_n=\\begin{vmatrix}0&\\cdots&0&a_n\\\\\\vdots&\\substack{\\qquad\\cdot\\\\\\quad\\cdot\\\\\\cdot}&a_{n-1}&0\\\\0&a_2&\\cdots&0\\\\a_1&0&\\cdots&0\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-a_1a_2\\cdots a_n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-1)^{\\frac{n(n-1)}{2}}a_1a_2\\cdots a_n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a_1a_2\\cdots a_n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "该行列式只有副对角线上有非零元素，副对角线置换的符号为 $(-1)^{n(n-1)/2}$，故 $D_n=(-1)^{n(n-1)/2}a_1a_2\\cdots a_n$。",
+  "search_text": "$n$ 阶行列式 $D_n=\\begin{vmatrix}0&\\cdots&0&a_n\\\\\\vdots&\\substack{\\qquad\\cdot\\\\\\quad\\cdot\\\\\\cdot}&a_{n-1}&0\\\\0&a_2&\\cdots&0\\\\a_1&0&\\cdots&0\\end{vmatrix}$ 等于（ ）。 $-a_1a_2\\cdots a_n$ $0$ $(-1)^{\\frac{n(n-1)}{2}}a_1a_2\\cdots a_n$ $a_1a_2\\cdots a_n$ 该行列式只有副对角线上有非零元素，副对角线置换的符号为 $(-1)^{n(n-1)/2}$，故 $D_n=(-1)^{n(n-1)/2}a_1a_2\\cdots a_n$。",
+  "sort_order": 74
+}

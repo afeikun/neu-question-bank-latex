@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直径为 $6m$ 的半圆形闸门铅直浸入水内，直径恰位于水表面，水密度为 $10^3kg/m^3$，求闸门一侧压力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1.8\\times10^4g(N)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4.8\\times10^4g(N)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3.8\\times10^4g(N)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2.8\\times10^4g(N)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "半圆板分层积分，$P=\\int_0^3 2\\rho gx\\sqrt{9-x^2}dx=1.8\\times10^4g(N)$。",
+  "search_text": "直径为 $6m$ 的半圆形闸门铅直浸入水内，直径恰位于水表面，水密度为 $10^3kg/m^3$，求闸门一侧压力。 $1.8\\times10^4g(N)$ $4.8\\times10^4g(N)$ $3.8\\times10^4g(N)$ $2.8\\times10^4g(N)$ 半圆板分层积分，$P=\\int_0^3 2\\rho gx\\sqrt{9-x^2}dx=1.8\\times10^4g(N)$。",
+  "sort_order": 13
+}

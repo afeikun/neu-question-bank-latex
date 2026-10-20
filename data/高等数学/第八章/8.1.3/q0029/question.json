@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_De^{x^2+y^2}d\\sigma$（其中 $D$ 是由 $x^2+y^2=9$ 所围成的闭区域）的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi(e^9-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi e^5+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi e^3+e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi e^7-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答　$\\iint_D e^{x^2+y^2}d\\sigma=\\int_0^{2\\pi}d\\theta\\int_0^3e^{r^2}rdr=\\frac{1}{2}\\cdot2\\pi e^{r^2}\\big|_0^3=\\pi(e^9-1)$。",
+  "search_text": "二重积分 $\\iint_De^{x^2+y^2}d\\sigma$（其中 $D$ 是由 $x^2+y^2=9$ 所围成的闭区域）的值为[\\quad] $\\pi(e^9-1)$ $\\pi e^5+1$ $\\pi e^3+e$ $\\pi e^7-1$ 解答　$\\iint_D e^{x^2+y^2}d\\sigma=\\int_0^{2\\pi}d\\theta\\int_0^3e^{r^2}rdr=\\frac{1}{2}\\cdot2\\pi e^{r^2}\\big|_0^3=\\pi(e^9-1)$。",
+  "sort_order": 29
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$N(\\mu,\\sigma^2)$且方差已知，均值95%置信区间形式是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\bar X-u_{0.025}\\sigma/\\sqrt n,\\bar X+u_{0.025}\\sigma/\\sqrt n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "用$t_{0.025}(n-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "用$u_{0.05}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "用$t_{0.05}(n-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "已知总体方差时用标准正态分位数$u_{\\alpha/2}$。",
+  "search_text": "$N(\\mu,\\sigma^2)$且方差已知，均值95%置信区间形式是（）。 $(\\bar X-u_{0.025}\\sigma/\\sqrt n,\\bar X+u_{0.025}\\sigma/\\sqrt n)$ 用$t_{0.025}(n-1)$ 用$u_{0.05}$ 用$t_{0.05}(n-1)$ 已知总体方差时用标准正态分位数$u_{\\alpha/2}$。",
+  "sort_order": 11
+}

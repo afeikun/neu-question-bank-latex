@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设积分路径 $C$ 为正向圆周 $|z-i|=1$，则 $\\oint_C\\frac{e^{iz}}{(z^2+1)^2}\\,dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "content_md": "$\\frac{\\pi}{e}$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "-$\\frac{3e\\pi i}{2}$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "-$\\frac{3e}{4}$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "-$\\frac{3e^{-1}}{4}$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在 $C$ 内有奇点 $i$，由Cauchy导数公式，积分为 $\\pi/e$。",
+  "search_text": "设积分路径 $C$ 为正向圆周 $|z-i|=1$，则 $\\oint_C\\frac{e^{iz}}{(z^2+1)^2}\\,dz$ 等于（ ）。 $\\frac{\\pi}{e}$ -$\\frac{3e\\pi i}{2}$ -$\\frac{3e}{4}$ -$\\frac{3e^{-1}}{4}$ 被积函数在 $C$ 内有奇点 $i$，由Cauchy导数公式，积分为 $\\pi/e$。",
+  "sort_order": 51
+}

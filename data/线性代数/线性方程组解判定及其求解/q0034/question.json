@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "如果矩阵 $A=\\begin{pmatrix}1&2&3\\\\-1&3&2\\\\2&1&t\\\\-2&1&-1\\end{pmatrix}$，$B$ 是三阶非零矩阵，且 $AB=0$，则 $t=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 $AB=0$，把 $B$ 按列分块后有 $AB=A(\\beta_1,\\beta_2,\\beta_3)=(A\\beta_1,A\\beta_2,A\\beta_3)=(0,0,0)$。可见 $B$ 的每一列都是齐次线性方程组 $Ax=0$ 的解，又因 $B\\ne0$，从而 $Ax=0$ 有非零解，$r(A)\\le2$。对 $A$ 作初等行变换得 $\\begin{pmatrix}1&2&3\\\\0&5&5\\\\0&-3&t-6\\\\0&5&5\\end{pmatrix}\\to\\begin{pmatrix}1&2&3\\\\0&1&1\\\\0&0&t-3\\\\0&0&0\\end{pmatrix}$，当且仅当 $t=3$，$r(A)\\le2$，所以应填 $t=3$。",
+  "search_text": "如果矩阵 $A=\\begin{pmatrix}1&2&3\\\\-1&3&2\\\\2&1&t\\\\-2&1&-1\\end{pmatrix}$，$B$ 是三阶非零矩阵，且 $AB=0$，则 $t=$（ ）。 $3$ $0$ $2$ $1$ 对 $AB=0$，把 $B$ 按列分块后有 $AB=A(\\beta_1,\\beta_2,\\beta_3)=(A\\beta_1,A\\beta_2,A\\beta_3)=(0,0,0)$。可见 $B$ 的每一列都是齐次线性方程组 $Ax=0$ 的解，又因 $B\\ne0$，从而 $Ax=0$ 有非零解，$r(A)\\le2$。对 $A$ 作初等行变换得 $\\begin{pmatrix}1&2&3\\\\0&5&5\\\\0&-3&t-6\\\\0&5&5\\end{pmatrix}\\to\\begin{pmatrix}1&2&3\\\\0&1&1\\\\0&0&t-3\\\\0&0&0\\end{pmatrix}$，当且仅当 $t=3$，$r(A)\\le2$，所以应填 $t=3$。",
+  "sort_order": 34
+}

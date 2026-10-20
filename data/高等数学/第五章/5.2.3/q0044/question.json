@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正数列 $a_n\\to a>0$，讨论 $\\sum_{n=1}^{\\infty}(b/(2a_n+1))^n$，正确说法是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$b-1>2a$ 时发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "级数收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "级数发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$b-1<2a$ 时发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "根值趋 $b/(2a+1)$，$b-1>2a$ 时大于1而发散。",
+  "search_text": "正数列 $a_n\\to a>0$，讨论 $\\sum_{n=1}^{\\infty}(b/(2a_n+1))^n$，正确说法是？ $b-1>2a$ 时发散 级数收敛 级数发散 $b-1<2a$ 时发散 根值趋 $b/(2a+1)$，$b-1>2a$ 时大于1而发散。",
+  "sort_order": 44
+}

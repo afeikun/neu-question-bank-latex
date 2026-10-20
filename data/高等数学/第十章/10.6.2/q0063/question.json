@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime-3y\\prime+2y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^x+C_2e^{2x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^{-x}+C_2e^{-2x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^x+C_2e^{-2x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{-x}+C_2e^{2x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析 由特征方程 $r^2-3r+2=0$，得特征根 $\\lambda_1=1,\\lambda_2=2$，对照通项公式即得 $y=C_1e^x+C_2e^{2x}$。",
+  "search_text": "微分方程 $y\\prime\\prime-3y\\prime+2y=0$ 的通解为（ ） $y=C_1e^x+C_2e^{2x}$ $y=C_1e^{-x}+C_2e^{-2x}$ $y=C_1e^x+C_2e^{-2x}$ $y=C_1e^{-x}+C_2e^{2x}$ 解析 由特征方程 $r^2-3r+2=0$，得特征根 $\\lambda_1=1,\\lambda_2=2$，对照通项公式即得 $y=C_1e^x+C_2e^{2x}$。",
+  "sort_order": 63
+}

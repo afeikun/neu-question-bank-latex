@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,\\sigma^2)$，$g(\\sigma)=P(|X-a|<\\sigma)$，$\\sigma$增大时$g(\\sigma)$如何变化？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "保持不变"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调增大"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单调减少"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "增减性不确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准化后$P(|X-a|<\\sigma)=P(|Z|<1)$，与$\\sigma$无关。",
+  "search_text": "$X\\sim N(\\mu,\\sigma^2)$，$g(\\sigma)=P(|X-a|<\\sigma)$，$\\sigma$增大时$g(\\sigma)$如何变化？ 保持不变 单调增大 单调减少 增减性不确定 标准化后$P(|X-a|<\\sigma)=P(|Z|<1)$，与$\\sigma$无关。",
+  "sort_order": 13
+}

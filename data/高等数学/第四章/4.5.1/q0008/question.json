@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₋∞^∞dx/(1+x²)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "π/2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "π²"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "π"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2π"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "反正切原函数在两端之差为π。",
+  "search_text": "计算∫₋∞^∞dx/(1+x²) π/2 π² π 2π 反正切原函数在两端之差为π。",
+  "sort_order": 8
+}

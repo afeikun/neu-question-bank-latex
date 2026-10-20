@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A$ 与 $A-E$ 均是 $n$ 阶正定矩阵，则 $E-A^{-1}$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正定矩阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "负定矩阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "以上都不正确"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "半正定矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $A$ 正定知 $A^T=A$，故 $(E-A^{-1})^T=E-A^{-1}$，所以 $E-A^{-1}$ 为对称矩阵。设 $\\lambda$ 是 $A$ 的特征值，由 $A$ 与 $A-E$ 正定有 $\\lambda>0$、$\\lambda-1>0$，故 $E-A^{-1}$ 的特征值为 $1-\\frac1\\lambda=\\frac{\\lambda-1}{\\lambda}>0$，所以 $E-A^{-1}$ 正定。",
+  "search_text": "设矩阵 $A$ 与 $A-E$ 均是 $n$ 阶正定矩阵，则 $E-A^{-1}$ 为（ ）。 正定矩阵 负定矩阵 以上都不正确 半正定矩阵 由 $A$ 正定知 $A^T=A$，故 $(E-A^{-1})^T=E-A^{-1}$，所以 $E-A^{-1}$ 为对称矩阵。设 $\\lambda$ 是 $A$ 的特征值，由 $A$ 与 $A-E$ 正定有 $\\lambda>0$、$\\lambda-1>0$，故 $E-A^{-1}$ 的特征值为 $1-\\frac1\\lambda=\\frac{\\lambda-1}{\\lambda}>0$，所以 $E-A^{-1}$ 正定。",
+  "sort_order": 20
+}

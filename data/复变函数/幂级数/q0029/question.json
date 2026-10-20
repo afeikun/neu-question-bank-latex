@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $R$ 是 $\\sum_{n=0}^{\\infty}c_nz^n$ 的收敛半径，且 $\\lim_{n\\to\\infty}c_{n+1}/c_n$ 存在且非零，则 $\\sum_{n=0}^{\\infty}(1+2^n)c_nz^n$ 的收敛半径为____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$R/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$R$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2R$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$+\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "新系数比值极限为原比值的 $2$ 倍，故收敛半径为 $R/2$。",
+  "search_text": "设 $R$ 是 $\\sum_{n=0}^{\\infty}c_nz^n$ 的收敛半径，且 $\\lim_{n\\to\\infty}c_{n+1}/c_n$ 存在且非零，则 $\\sum_{n=0}^{\\infty}(1+2^n)c_nz^n$ 的收敛半径为____。 $R/2$ $R$ $2R$ $+\\infty$ 新系数比值极限为原比值的 $2$ 倍，故收敛半径为 $R/2$。",
+  "sort_order": 29
+}

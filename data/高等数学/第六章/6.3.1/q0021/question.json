@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一动点与 $yoz$ 面的距离为 $4$ 个单位且与定点 $M(5,2,-1)$ 的距离为 $3$ 个单位，则该动点的轨迹为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "平面 $x=4$ 上的椭圆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "平面 $x=4$ 上的圆"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "椭圆柱面"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "圆柱面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "点到 $yoz$ 面距离为 $4$，结合到 $M$ 的定距条件只能取平面 $x=4$ 上圆的轨迹。",
+  "search_text": "一动点与 $yoz$ 面的距离为 $4$ 个单位且与定点 $M(5,2,-1)$ 的距离为 $3$ 个单位，则该动点的轨迹为(\\quad)。 平面 $x=4$ 上的椭圆 平面 $x=4$ 上的圆 椭圆柱面 圆柱面 点到 $yoz$ 面距离为 $4$，结合到 $M$ 的定距条件只能取平面 $x=4$ 上圆的轨迹。",
+  "sort_order": 21
+}

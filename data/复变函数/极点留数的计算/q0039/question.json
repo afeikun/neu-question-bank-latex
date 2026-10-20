@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac{\\cos z}{z^2(z-\\pi)^3},0\\right)=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac3{\\pi^4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\dfrac2{\\pi^3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac5{\\pi^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\dfrac1{\\pi^5}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=0$ 为二级极点，按公式取 $\\frac1{1!}\\lim_{z\\to0}(z^2\\cos z/(z-\\pi)^3)'=-3/\\pi^4$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac{\\cos z}{z^2(z-\\pi)^3},0\\right)=(\\ \\ )$。 $-\\dfrac3{\\pi^4}$ $-\\dfrac2{\\pi^3}$ $-\\dfrac5{\\pi^2}$ $-\\dfrac1{\\pi^5}$ $z=0$ 为二级极点，按公式取 $\\frac1{1!}\\lim_{z\\to0}(z^2\\cos z/(z-\\pi)^3)'=-3/\\pi^4$。",
+  "sort_order": 39
+}

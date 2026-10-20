@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(x^2+z^2)\\,dS$，$\\Sigma:y=\\sqrt{4-x^2-z^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{64\\pi}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$64\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$32\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{4\\pi}{3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：$y=\\sqrt{a^2-x^2-z^2}$，投影区域为 $D:x^2+z^2\\leq4$。\n\n$\\iint_\\Sigma(x^2+z^2)\\,dS=\\iint_D(x^2+z^2)\\frac{2}{\\sqrt{4-x^2-z^2}}\\,dxdy=2\\int_0^{2\\pi}d\\theta\\int_0^2\\frac{r^3}{\\sqrt{4-r^2}}\\,dr=\\frac{64\\pi}{3}$",
+  "search_text": "计算 $\\iint_\\Sigma(x^2+z^2)\\,dS$，$\\Sigma:y=\\sqrt{4-x^2-z^2}$。 $\\frac{64\\pi}{3}$ $64\\pi$ $32\\pi$ $\\frac{4\\pi}{3}$ 解答：$y=\\sqrt{a^2-x^2-z^2}$，投影区域为 $D:x^2+z^2\\leq4$。\n\n$\\iint_\\Sigma(x^2+z^2)\\,dS=\\iint_D(x^2+z^2)\\frac{2}{\\sqrt{4-x^2-z^2}}\\,dxdy=2\\int_0^{2\\pi}d\\theta\\int_0^2\\frac{r^3}{\\sqrt{4-r^2}}\\,dr=\\frac{64\\pi}{3}$",
+  "sort_order": 35
+}

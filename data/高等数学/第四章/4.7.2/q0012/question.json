@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "闭曲线y²=x²(a²−x²)（a>0）围成图形绕x轴旋转体积的积分表达式",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4π∫₀ᵃx√(a²−x²)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4π∫₀ᵃx²√(a²−x²)dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2π∫₀ᵃx²√(a²−x²)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2π∫₀ᵃx√(a²−x²)dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "闭曲线图形由第一象限区域四份组成，体积为2π∫₀ᵃx²√(a²−x²)dx。",
+  "search_text": "闭曲线y²=x²(a²−x²)（a>0）围成图形绕x轴旋转体积的积分表达式 4π∫₀ᵃx√(a²−x²)dx 4π∫₀ᵃx²√(a²−x²)dx 2π∫₀ᵃx²√(a²−x²)dx 2π∫₀ᵃx√(a²−x²)dx 闭曲线图形由第一象限区域四份组成，体积为2π∫₀ᵃx²√(a²−x²)dx。",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$i^{i/3}=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-(2k+1)\\pi/6}$（$k$ 为整数）"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-\\pi/4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "用多值对数定义幂函数并化简。",
+  "search_text": "$i^{i/3}=(\\ )$。 $e^{-(2k+1)\\pi/6}$（$k$ 为整数） $1$ $e^{-\\pi/4}$ $i$ 用多值对数定义幂函数并化简。",
+  "sort_order": 2
+}

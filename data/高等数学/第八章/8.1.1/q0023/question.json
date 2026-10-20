@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用直线 $x=\\frac{i}{n},y=\\frac{j}{n}\\ (i,j=0,1,\\ldots,n)$ 把矩形域 $D:0\\leq x\\leq1,0\\leq y\\leq1$ 分割成一系列小正方形，则二重积分 $\\iint_Dxy\\,dxdy=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n(\\frac{i}{n}+\\frac{j}{n})^2\\frac1{n^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(\\frac{i}{n})^2+(\\frac{j}{n})^2]\\frac1{n^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n(\\frac{i}{n}\\cdot\\frac{j}{n})^2\\frac1{n^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n\\frac{i}{n}\\cdot\\frac{j}{n}\\cdot\\frac1{n^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 根据二重积分的概念易知，",
+  "search_text": "用直线 $x=\\frac{i}{n},y=\\frac{j}{n}\\ (i,j=0,1,\\ldots,n)$ 把矩形域 $D:0\\leq x\\leq1,0\\leq y\\leq1$ 分割成一系列小正方形，则二重积分 $\\iint_Dxy\\,dxdy=（ ）$ $\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n(\\frac{i}{n}+\\frac{j}{n})^2\\frac1{n^2}$ $\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(\\frac{i}{n})^2+(\\frac{j}{n})^2]\\frac1{n^2}$ $\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n(\\frac{i}{n}\\cdot\\frac{j}{n})^2\\frac1{n^2}$ $\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n\\frac{i}{n}\\cdot\\frac{j}{n}\\cdot\\frac1{n^2}$ 解答 根据二重积分的概念易知，",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{\\ln(x+a)-\\ln a}{x}\\ (a>0)=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "利用对数导数定义，极限为 $1/a$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{\\ln(x+a)-\\ln a}{x}\\ (a>0)=[\\quad]$。 不存在 1 $\\frac1a$ 0 利用对数导数定义，极限为 $1/a$。",
+  "sort_order": 4
+}

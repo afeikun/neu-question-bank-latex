@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim U[0,1]$，$\\eta=2\\xi+1$，求密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2(1\\le y\\le3)$，其他0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/2(-1\\le y\\le3)$，其他0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2(1\\le y\\le3)$，其他0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2(-1\\le y\\le3)$，其他0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "线性变换后的区间为$[1,3]$，密度为$1/2$。",
+  "search_text": "$\\xi\\sim U[0,1]$，$\\eta=2\\xi+1$，求密度。 $1/2(1\\le y\\le3)$，其他0 $1/2(-1\\le y\\le3)$，其他0 $2(1\\le y\\le3)$，其他0 $2(-1\\le y\\le3)$，其他0 线性变换后的区间为$[1,3]$，密度为$1/2$。",
+  "sort_order": 10
+}

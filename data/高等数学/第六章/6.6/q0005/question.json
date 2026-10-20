@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\begin{cases}x^2+4y^2+9z^2=36\\\\y=1\\end{cases}$ 表示的曲线为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}x^2+9z^2=16\\\\y=1\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}x^2+9z^2=32\\\\y=1\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}x^2+9z^2=36\\\\y=1\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}x^2+9z^2=35\\\\y=1\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：将 $y=1$ 带入 $x^2+4y^2+9z^2=36$ 中，得 $x^2+9z^2=32$，即曲线方程为\n$$\n\\begin{cases}\nx^2+9z^2=32\\\\\ny=1\n\\end{cases}\n$$",
+  "search_text": "方程 $\\begin{cases}x^2+4y^2+9z^2=36\\\\y=1\\end{cases}$ 表示的曲线为(\\quad)。 $\\begin{cases}x^2+9z^2=16\\\\y=1\\end{cases}$ $\\begin{cases}x^2+9z^2=32\\\\y=1\\end{cases}$ $\\begin{cases}x^2+9z^2=36\\\\y=1\\end{cases}$ $\\begin{cases}x^2+9z^2=35\\\\y=1\\end{cases}$ 解答：将 $y=1$ 带入 $x^2+4y^2+9z^2=36$ 中，得 $x^2+9z^2=32$，即曲线方程为\n$$\n\\begin{cases}\nx^2+9z^2=32\\\\\ny=1\n\\end{cases}\n$$",
+  "sort_order": 5
+}

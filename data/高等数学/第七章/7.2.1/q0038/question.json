@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=\\arcsin\\sqrt{y/x}$，则 $f_x'(2,1)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac14$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f'_x(x,y)=-\\frac{1}{\\sqrt{1-\\frac{y}{x}}}\\frac{1}{2\\sqrt{\\frac{y}{x}}}(-\\frac{y}{x^2})=-\\frac{\\sqrt{y}}{2x\\sqrt{x-y}}$，将 $(x,y)=(2,1)$ 代入得 $f'_x(2,1)=-\\frac{1}{4}$",
+  "search_text": "设 $f(x,y)=\\arcsin\\sqrt{y/x}$，则 $f_x'(2,1)=(\\quad)$。 $\\frac14$ $\\frac12$ $-\\frac14$ $-\\frac12$ $f'_x(x,y)=-\\frac{1}{\\sqrt{1-\\frac{y}{x}}}\\frac{1}{2\\sqrt{\\frac{y}{x}}}(-\\frac{y}{x^2})=-\\frac{\\sqrt{y}}{2x\\sqrt{x-y}}$，将 $(x,y)=(2,1)$ 代入得 $f'_x(2,1)=-\\frac{1}{4}$",
+  "sort_order": 38
+}

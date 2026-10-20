@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\mathbb{R}[x]_3$ 中的两组基 $\\alpha_1=1$，$\\alpha_2=x+1$，$\\alpha_3=x^2+x+1$ 和 $\\beta_1=2$，$\\beta_2=x-1$，$\\beta_3=x^2-2x+1$，则 $\\alpha_1,\\alpha_2,\\alpha_3$ 到 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}2&-2&3\\\\0&1&-3\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}\\frac12&2&1\\\\0&1&3\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}2&-1&3\\\\0&1&-2\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}2&1&1\\\\0&1&2\\\\0&0&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\beta_1=2\\alpha_1$、$\\beta_2=\\alpha_2-2\\alpha_1$、$\\beta_3=\\alpha_3-3\\alpha_2+3\\alpha_1$，得基变换矩阵 $C=\\begin{pmatrix}2&-2&3\\\\0&1&-3\\\\0&0&1\\end{pmatrix}$。",
+  "search_text": "设 $\\mathbb{R}[x]_3$ 中的两组基 $\\alpha_1=1$，$\\alpha_2=x+1$，$\\alpha_3=x^2+x+1$ 和 $\\beta_1=2$，$\\beta_2=x-1$，$\\beta_3=x^2-2x+1$，则 $\\alpha_1,\\alpha_2,\\alpha_3$ 到 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为（ ）。 $\\begin{pmatrix}2&-2&3\\\\0&1&-3\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}\\frac12&2&1\\\\0&1&3\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}2&-1&3\\\\0&1&-2\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}2&1&1\\\\0&1&2\\\\0&0&1\\end{pmatrix}$ 由 $\\beta_1=2\\alpha_1$、$\\beta_2=\\alpha_2-2\\alpha_1$、$\\beta_3=\\alpha_3-3\\alpha_2+3\\alpha_1$，得基变换矩阵 $C=\\begin{pmatrix}2&-2&3\\\\0&1&-3\\\\0&0&1\\end{pmatrix}$。",
+  "sort_order": 36
+}

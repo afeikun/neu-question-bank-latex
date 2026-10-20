@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算I=∫₋₂²dx/(1+x)²",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "−4/3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4/3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "−2/3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "区间跨过x=−1处二阶极点，广义积分发散，不存在有限值。",
+  "search_text": "计算I=∫₋₂²dx/(1+x)² −4/3 4/3 −2/3 不存在 区间跨过x=−1处二阶极点，广义积分发散，不存在有限值。",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{dy}{dx}-y=xy^5$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-x+ce^{-4x})^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-x+\\frac14+ce^{-4x})^4+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-x+\\frac14+ce^{-4x})^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-x+ce^{-4x})^4+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程可设写为 $y^{-5}y'-y^{-4}=x$，令 $z=y^{-4}$ 则 $z'=-4y^{-5}y'$\n\n原方程可化为：$z'+4z=-4x$\n\n$$z=e^{-\\int4\\,dx}\\left(\\int-4xe^{\\int4\\,dx}\\,dx+C\\right)=e^{-4x}\\left(\\int-4xe^{4x}\\,dx+C\\right)=-x+\\frac{1}{4}+ce^{-4x}$$",
+  "search_text": "$\\frac{dy}{dx}-y=xy^5$ 的通解为（ ） $(-x+ce^{-4x})^4$ $(-x+\\frac14+ce^{-4x})^4+C$ $(-x+\\frac14+ce^{-4x})^4$ $(-x+ce^{-4x})^4+C$ 方程可设写为 $y^{-5}y'-y^{-4}=x$，令 $z=y^{-4}$ 则 $z'=-4y^{-5}y'$\n\n原方程可化为：$z'+4z=-4x$\n\n$$z=e^{-\\int4\\,dx}\\left(\\int-4xe^{\\int4\\,dx}\\,dx+C\\right)=e^{-4x}\\left(\\int-4xe^{4x}\\,dx+C\\right)=-x+\\frac{1}{4}+ce^{-4x}$$",
+  "sort_order": 17
+}

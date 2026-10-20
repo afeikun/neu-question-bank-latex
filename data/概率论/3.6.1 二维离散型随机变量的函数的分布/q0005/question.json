@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立且分别服从参数$\\lambda_1,\\lambda_2$的泊松分布，求$Z=X+Y$分布参数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda_1+\\lambda_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\lambda_1+\\lambda_2)/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda_1\\lambda_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{\\lambda_1\\lambda_2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立泊松变量之和服从泊松分布，参数为$\\lambda_1+\\lambda_2$。",
+  "search_text": "$X,Y$独立且分别服从参数$\\lambda_1,\\lambda_2$的泊松分布，求$Z=X+Y$分布参数。 $\\lambda_1+\\lambda_2$ $(\\lambda_1+\\lambda_2)/2$ $\\lambda_1\\lambda_2$ $\\sqrt{\\lambda_1\\lambda_2}$ 独立泊松变量之和服从泊松分布，参数为$\\lambda_1+\\lambda_2$。",
+  "sort_order": 5
+}

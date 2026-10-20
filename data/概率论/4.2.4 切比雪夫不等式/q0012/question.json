@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\xi_1,\\ldots,\\xi_9$ 独立同分布，$E(\\xi_i)=1,D(\\xi_i)=1$，对任意正数 $\\varepsilon$，有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P\\left(\\left|\\sum_{i=1}^9\\xi_i-9\\right|<\\varepsilon\\right)\\ge1-\\frac9{\\varepsilon^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P\\left(\\left|\\sum_{i=1}^9\\xi_i-1\\right|<\\varepsilon\\right)\\ge1-\\frac1{\\varepsilon^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P\\left(\\left|\\frac19\\sum_{i=1}^9\\xi_i-1\\right|<\\varepsilon\\right)\\ge1-\\frac1{\\varepsilon^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P\\left(\\left|\\sum_{i=1}^9\\xi_i-9\\right|<\\varepsilon\\right)\\ge1-\\frac1{\\varepsilon^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "源解析给出 $E(\\sum_{i=1}^{9}\\xi_i)=9,D(\\sum_{i=1}^{9}\\xi_i)=9$，由切比雪夫不等式得到第一项所列不等式。",
+  "search_text": "设 $\\xi_1,\\ldots,\\xi_9$ 独立同分布，$E(\\xi_i)=1,D(\\xi_i)=1$，对任意正数 $\\varepsilon$，有（ ）。 $P\\left(\\left|\\sum_{i=1}^9\\xi_i-9\\right|<\\varepsilon\\right)\\ge1-\\frac9{\\varepsilon^2}$ $P\\left(\\left|\\sum_{i=1}^9\\xi_i-1\\right|<\\varepsilon\\right)\\ge1-\\frac1{\\varepsilon^2}$ $P\\left(\\left|\\frac19\\sum_{i=1}^9\\xi_i-1\\right|<\\varepsilon\\right)\\ge1-\\frac1{\\varepsilon^2}$ $P\\left(\\left|\\sum_{i=1}^9\\xi_i-9\\right|<\\varepsilon\\right)\\ge1-\\frac1{\\varepsilon^2}$ 源解析给出 $E(\\sum_{i=1}^{9}\\xi_i)=9,D(\\sum_{i=1}^{9}\\xi_i)=9$，由切比雪夫不等式得到第一项所列不等式。",
+  "sort_order": 12
+}

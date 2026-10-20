@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $x\\cos z+y\\cos x-\\frac\\pi2z=\\frac\\pi2$ 在 $(\\frac\\pi2,1,-\\frac\\pi2,0)$ 处切平面方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-y=\\pi-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-y=\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-z=\\pi-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-z=\\frac\\pi2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=x\\cos z+y\\cos x-\\frac{\\pi}{2}z-\\frac{\\pi}{2}$，则\n\n$$F_x\\left(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0\\right)=(\\cos z-y\\sin x)|_{(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0)}=\\frac{\\pi}{2},$$\n\n$$F_y\\left(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0\\right)=\\cos x|_{(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0)}=0,$$\n\n$$F_z\\left(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0\\right)=(-x\\sin z-\\frac{\\pi}{2})|_{(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0)}=-\\frac{\\pi}{2},$$\n\n切平面方程为：$x-z=\\frac{\\pi}{2}$。",
+  "search_text": "曲面 $x\\cos z+y\\cos x-\\frac\\pi2z=\\frac\\pi2$ 在 $(\\frac\\pi2,1,-\\frac\\pi2,0)$ 处切平面方程为。 $x-y=\\pi-1$ $x-y=\\frac\\pi2$ $x-z=\\pi-1$ $x-z=\\frac\\pi2$ 设 $F(x,y,z)=x\\cos z+y\\cos x-\\frac{\\pi}{2}z-\\frac{\\pi}{2}$，则\n\n$$F_x\\left(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0\\right)=(\\cos z-y\\sin x)|_{(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0)}=\\frac{\\pi}{2},$$\n\n$$F_y\\left(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0\\right)=\\cos x|_{(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0)}=0,$$\n\n$$F_z\\left(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0\\right)=(-x\\sin z-\\frac{\\pi}{2})|_{(\\frac{\\pi}{2},1,-\\frac{\\pi}{2},0)}=-\\frac{\\pi}{2},$$\n\n切平面方程为：$x-z=\\frac{\\pi}{2}$。",
+  "sort_order": 26
+}

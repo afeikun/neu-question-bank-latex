@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha,\\beta,\\gamma$ 都是 $n$ 维向量，$k,l$ 是数，下列运算不成立的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha,\\beta$ 对应分量成比例，可以说明 $\\alpha=\\beta$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha+\\beta=\\beta+\\alpha$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\alpha+\\beta)+\\gamma=\\alpha+(\\beta+\\gamma)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha+(-\\alpha)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分量成比例只能说明两个向量线性相关，不能推出它们相等，故选项 1 不成立。",
+  "search_text": "设 $\\alpha,\\beta,\\gamma$ 都是 $n$ 维向量，$k,l$ 是数，下列运算不成立的是(\\quad)。 $\\alpha,\\beta$ 对应分量成比例，可以说明 $\\alpha=\\beta$ $\\alpha+\\beta=\\beta+\\alpha$ $(\\alpha+\\beta)+\\gamma=\\alpha+(\\beta+\\gamma)$ $\\alpha+(-\\alpha)=0$ 分量成比例只能说明两个向量线性相关，不能推出它们相等，故选项 1 不成立。",
+  "sort_order": 1
+}

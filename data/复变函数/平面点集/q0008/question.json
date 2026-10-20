@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "集合 $\\{z\\mid 0\\le\\arg z<\\frac\\pi4\\}$ 的边界点全体为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{z\\mid\\arg z=0\\}\\cup\\{z\\mid\\arg z=\\frac\\pi4\\}\\cup\\{0\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{z\\mid\\arg z=\\frac\\pi4\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{z\\mid\\arg z=0\\}\\cup\\{z\\mid\\arg z=\\frac\\pi4\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{z\\mid\\arg z=0\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "边界由两条射线及原点组成。",
+  "search_text": "集合 $\\{z\\mid 0\\le\\arg z<\\frac\\pi4\\}$ 的边界点全体为（ ）。 $\\{z\\mid\\arg z=0\\}\\cup\\{z\\mid\\arg z=\\frac\\pi4\\}\\cup\\{0\\}$ $\\{z\\mid\\arg z=\\frac\\pi4\\}$ $\\{z\\mid\\arg z=0\\}\\cup\\{z\\mid\\arg z=\\frac\\pi4\\}$ $\\{z\\mid\\arg z=0\\}$ 边界由两条射线及原点组成。",
+  "sort_order": 8
+}

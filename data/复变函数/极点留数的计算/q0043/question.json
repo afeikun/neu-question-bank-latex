@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left[z^2\\sin\\dfrac1{z-1},1\\right]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac56$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\dfrac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $w=z-1$ 并展开 $z^2\\sin(1/w)=(w+1)^2\\sin(1/w)$，$w^{-1}$ 项系数为 $5/6$，即留数。",
+  "search_text": "$\\operatorname{Res}\\left[z^2\\sin\\dfrac1{z-1},1\\right]=(\\ \\ )$。 $\\dfrac56$ $-\\dfrac16$ $1$ $0$ 令 $w=z-1$ 并展开 $z^2\\sin(1/w)=(w+1)^2\\sin(1/w)$，$w^{-1}$ 项系数为 $5/6$，即留数。",
+  "sort_order": 43
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 满足 $xf\\prime(x)-3f(x)=-6x^2$，求曲线 $f(x)$ 与直线 $x=1$、$x$ 轴所围成的平面图形绕 $x$ 轴旋转一周所得旋转体的体积最小，则 $f(x)=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6x-7x^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6x^2-7x^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6x^2+7x^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6x+7x^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程化简为 $f'(x)-\\frac{3}{x}f(x)=-6x$，\n\n有一阶线性微分方程的通解公式\n\n$y=e^{\\int\\frac{3}{x}dx}(c+\\int(-6x)e^{-\\int\\frac{3}{x}dx}dx)=6x^2+cx^3$\n\n旋转体的体积\n\n$V(c)=\\pi\\int_0^1y^2(x)dx=\\pi\\int_0^1(cx^3+6x^2)^2dx$\n\n$=\\pi(\\frac{c^2}{7}+2c+\\frac{36}{5})$\n\n令 $V'(c)=0$，得 $c=-7$，又 $V''(c)=\\frac{2\\pi}{7}>0$，所以 $V(c)$ 在此唯一的驻点处取最小值，所求函数为\n\n$f(x)=6x^2-7x^3$",
+  "search_text": "设函数 $f(x)$ 满足 $xf\\prime(x)-3f(x)=-6x^2$，求曲线 $f(x)$ 与直线 $x=1$、$x$ 轴所围成的平面图形绕 $x$ 轴旋转一周所得旋转体的体积最小，则 $f(x)=$（ ） $6x-7x^2$ $6x^2-7x^3$ $6x^2+7x^3$ $6x+7x^2$ 方程化简为 $f'(x)-\\frac{3}{x}f(x)=-6x$，\n\n有一阶线性微分方程的通解公式\n\n$y=e^{\\int\\frac{3}{x}dx}(c+\\int(-6x)e^{-\\int\\frac{3}{x}dx}dx)=6x^2+cx^3$\n\n旋转体的体积\n\n$V(c)=\\pi\\int_0^1y^2(x)dx=\\pi\\int_0^1(cx^3+6x^2)^2dx$\n\n$=\\pi(\\frac{c^2}{7}+2c+\\frac{36}{5})$\n\n令 $V'(c)=0$，得 $c=-7$，又 $V''(c)=\\frac{2\\pi}{7}>0$，所以 $V(c)$ 在此唯一的驻点处取最小值，所求函数为\n\n$f(x)=6x^2-7x^3$",
+  "sort_order": 11
+}

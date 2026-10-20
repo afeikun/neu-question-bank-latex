@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设在力场 $\\vec F=(y,-x,z)$ 作用下，质点由 $A(R,0,0)$ 沿 $\\Gamma$ 移动到 $B(R,0,2\\pi k)$，其中 $\\Gamma$ 为 $x=R\\cos t,y=R\\sin t,z=kt$，则力场对质点所作的功为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi(\\pi k^2-R^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi(\\pi k^2-R^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi(\\pi k^2+R^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi(\\pi k^2+R^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $W=\\int_\\Gamma\\vec F\\cdot d\\vec s=\\int_\\Gamma ydx-xdy+zdz=\\int_0^{2\\pi}(-R^2+k^2t)dt=2\\pi(\\pi k^2-R^2)$。\n\n图示：三维坐标轴 $x,y,Z$ 与原点 $O$，点 $A$、$B$；路径为螺旋曲线，箭头标示由 $A$ 至 $B$ 的方向。图中还画有连接 $A,B$ 的竖直线段及向上箭头。",
+  "search_text": "设在力场 $\\vec F=(y,-x,z)$ 作用下，质点由 $A(R,0,0)$ 沿 $\\Gamma$ 移动到 $B(R,0,2\\pi k)$，其中 $\\Gamma$ 为 $x=R\\cos t,y=R\\sin t,z=kt$，则力场对质点所作的功为（ ）。 $\\pi(\\pi k^2-R^2)$ $2\\pi(\\pi k^2-R^2)$ $2\\pi(\\pi k^2+R^2)$ $\\pi(\\pi k^2+R^2)$ 解答 $W=\\int_\\Gamma\\vec F\\cdot d\\vec s=\\int_\\Gamma ydx-xdy+zdz=\\int_0^{2\\pi}(-R^2+k^2t)dt=2\\pi(\\pi k^2-R^2)$。\n\n图示：三维坐标轴 $x,y,Z$ 与原点 $O$，点 $A$、$B$；路径为螺旋曲线，箭头标示由 $A$ 至 $B$ 的方向。图中还画有连接 $A,B$ 的竖直线段及向上箭头。",
+  "sort_order": 4
+}

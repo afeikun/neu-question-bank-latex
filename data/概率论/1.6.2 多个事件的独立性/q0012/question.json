@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设两两相互独立的三事件$A,B,C$满足$ABC=\\varnothing$，$P(A)=P(B)=P(C)<1/2$，且已知$P(A\\cup B\\cup C)=9/16$，则$P(A)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2/5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令$P(A)=x$，则$3x-3x^2=9/16$，解得$x=1/4$或$3/4$；结合$x<1/2$，得$1/4$。",
+  "search_text": "设两两相互独立的三事件$A,B,C$满足$ABC=\\varnothing$，$P(A)=P(B)=P(C)<1/2$，且已知$P(A\\cup B\\cup C)=9/16$，则$P(A)=(\\quad)$。 $1/4$ $1/5$ $2/5$ $1/2$ 令$P(A)=x$，则$3x-3x^2=9/16$，解得$x=1/4$或$3/4$；结合$x<1/2$，得$1/4$。",
+  "sort_order": 12
+}

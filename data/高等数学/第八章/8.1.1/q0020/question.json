@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设有界域 $D_1\\supset D_2$ 关于 $Oy$ 轴对称，且 $D_1\\setminus D_2=\\phi$，$f(x,y)$ 是定义在 $D_1\\cup D_2$ 上的连续函数，则二重积分 $\\iint_Df(x^2,y)\\,dxdy=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\iint_{D_1}f(x^2,y)\\,dxdy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\iint_{D_2}f(x^2,y)\\,dxdy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\iint_{D_1}f(x^2,y)\\,dxdy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\iint_{D_1}f(x^2,y)\\,dxdy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 因为 $D_1$ 与 $D_2$ 关于 $Oy$ 轴对称，而被积函数是关于 $x$ 的偶函数，所以有\n\n$$\\iint_Df(x^2,y)dxdy=2\\iint_{D_1}f(x^2,y)dxdy.$$",
+  "search_text": "设有界域 $D_1\\supset D_2$ 关于 $Oy$ 轴对称，且 $D_1\\setminus D_2=\\phi$，$f(x,y)$ 是定义在 $D_1\\cup D_2$ 上的连续函数，则二重积分 $\\iint_Df(x^2,y)\\,dxdy=（ ）$ $2\\iint_{D_1}f(x^2,y)\\,dxdy$ $4\\iint_{D_2}f(x^2,y)\\,dxdy$ $\\frac12\\iint_{D_1}f(x^2,y)\\,dxdy$ $4\\iint_{D_1}f(x^2,y)\\,dxdy$ 解答 因为 $D_1$ 与 $D_2$ 关于 $Oy$ 轴对称，而被积函数是关于 $x$ 的偶函数，所以有\n\n$$\\iint_Df(x^2,y)dxdy=2\\iint_{D_1}f(x^2,y)dxdy.$$",
+  "sort_order": 20
+}

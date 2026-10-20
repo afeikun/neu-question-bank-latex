@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=1$ 在第一卦限部分的上侧，则计算 $\\iint_\\Sigma x^2dydz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在 $yoz$ 面上的投影区域为 $D:y^2+z^2\\le1,y\\ge0,z\\ge0$，\n$$\\iint_\\Sigma x^2dydz=\\iint_D(1-y^2-z^2)dydz=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^1(1-r^2)rdr=\\frac{\\pi}{2}\\cdot\\frac{1}{4}=\\frac{\\pi}{8}。$$",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=1$ 在第一卦限部分的上侧，则计算 $\\iint_\\Sigma x^2dydz=$（ ） $\\frac\\pi6$ $\\frac\\pi3$ $\\frac\\pi4$ $\\frac\\pi8$ 解答 $\\Sigma$ 在 $yoz$ 面上的投影区域为 $D:y^2+z^2\\le1,y\\ge0,z\\ge0$，\n$$\\iint_\\Sigma x^2dydz=\\iint_D(1-y^2-z^2)dydz=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^1(1-r^2)rdr=\\frac{\\pi}{2}\\cdot\\frac{1}{4}=\\frac{\\pi}{8}。$$",
+  "sort_order": 3
+}

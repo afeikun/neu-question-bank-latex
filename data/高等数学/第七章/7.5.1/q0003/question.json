@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由 $yz=\\\\arctan(xz)$ 确定，求 $z_x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{z}{y+(xz)^2-x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{z}{y+y(xz)^2+x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{z}{y(xz)^2+x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{z}{y+y(xz)^2-x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "有题设可知：$y\\,dz+z\\,dy=\\frac{1}{1+(xz)^2}(x\\,dz+z\\,dx)$\n\n$\\frac{y+y(xz)^2-x}{1+(xz)^2}\\,dz=\\frac{z}{1+(xz)^2}\\,dx-z\\,dy$\n\n可得：$\\frac{\\partial z}{\\partial x}=\\frac{z}{y+y(xz)^2-x}$",
+  "search_text": "设 $z=z(x,y)$ 由 $yz=\\\\arctan(xz)$ 确定，求 $z_x$。 $\\frac{z}{y+(xz)^2-x}$ $\\frac{z}{y+y(xz)^2+x}$ $\\frac{z}{y(xz)^2+x}$ $\\frac{z}{y+y(xz)^2-x}$ 有题设可知：$y\\,dz+z\\,dy=\\frac{1}{1+(xz)^2}(x\\,dz+z\\,dx)$\n\n$\\frac{y+y(xz)^2-x}{1+(xz)^2}\\,dz=\\frac{z}{1+(xz)^2}\\,dx-z\\,dy$\n\n可得：$\\frac{\\partial z}{\\partial x}=\\frac{z}{y+y(xz)^2-x}$",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "100次四舍五入误差独立均匀分布于$[-0.5,0.5]$，平均误差落在$[-\\sqrt3/20,\\sqrt3/20]$的概率近似为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\Phi(3)-\\Phi(-3)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\Phi(2)-\\Phi(-2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Phi(1)-\\Phi(-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\Phi(4)-\\Phi(-4)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "单次方差$1/12$，平均值标准化后边界为$\\pm3$，对应选项1。",
+  "search_text": "100次四舍五入误差独立均匀分布于$[-0.5,0.5]$，平均误差落在$[-\\sqrt3/20,\\sqrt3/20]$的概率近似为（）。 $\\Phi(3)-\\Phi(-3)$ $\\Phi(2)-\\Phi(-2)$ $\\Phi(1)-\\Phi(-1)$ $\\Phi(4)-\\Phi(-4)$ 单次方差$1/12$，平均值标准化后边界为$\\pm3$，对应选项1。",
+  "sort_order": 5
+}

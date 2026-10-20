@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=e^{1-x^2}$ 与直线 $x=-1$ 的交点为 $P$，则曲线在 $P$ 点的切线方程是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2x+y+1=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2x+y-3=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2x-y-1=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2x-y+3=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$P=(-1,1)$，$y\\prime=-2xe^{1-x^2}$，斜率为 $2$，切线 $y-1=2(x+1)$。",
+  "search_text": "曲线 $y=e^{1-x^2}$ 与直线 $x=-1$ 的交点为 $P$，则曲线在 $P$ 点的切线方程是（ ）。 $2x+y+1=0$ $2x+y-3=0$ $2x-y-1=0$ $2x-y+3=0$ $P=(-1,1)$，$y\\prime=-2xe^{1-x^2}$，斜率为 $2$，切线 $y-1=2(x+1)$。",
+  "sort_order": 15
+}

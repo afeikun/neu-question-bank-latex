@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $0<a<b$，函数 $y=f(x)$ 在 $[a,b]$ 上可导，则由柯西中值定理有结论 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\xi(f(b)-f(a))=(b^2-a^2)f'(\\xi)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\xi(f(b)-f(a))=(b^2-a^2)f'(\\xi)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\xi(f(b)-f(a))=(b-a)f'(\\xi)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\xi(f(b)-f(a))=(b-a)f'(\\xi)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 $f(x)$ 与 $g(x)=x^2$ 应用柯西中值定理，得 $2\\xi(f(b)-f(a))=(b^2-a^2)f'(\\xi)$。",
+  "search_text": "设 $0<a<b$，函数 $y=f(x)$ 在 $[a,b]$ 上可导，则由柯西中值定理有结论 $(\\quad)$。 $2\\xi(f(b)-f(a))=(b^2-a^2)f'(\\xi)$ $\\xi(f(b)-f(a))=(b^2-a^2)f'(\\xi)$ $\\xi(f(b)-f(a))=(b-a)f'(\\xi)$ $2\\xi(f(b)-f(a))=(b-a)f'(\\xi)$ 对 $f(x)$ 与 $g(x)=x^2$ 应用柯西中值定理，得 $2\\xi(f(b)-f(a))=(b^2-a^2)f'(\\xi)$。",
+  "sort_order": 2
+}

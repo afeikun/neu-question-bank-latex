@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列命题中正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "如果 $n$ 阶矩阵 $A$ 或 $B$ 不可逆，则 $AB$ 必不可逆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "如果矩阵 $AB$ 不可逆，则 $A,B$ 都不可逆"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "如果矩阵 $AB=E$，则 $A$ 可逆且 $A^{-1}=B$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "方阵 $AB$ 的行列式 $|AB|=|BA|$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为 $n$ 阶矩阵 $A$ 或 $B$ 不可逆，所以 $|A|=0$ 或 $|B|=0$，故 $|AB|=|A||B|=0$，于是 $AB$ 必不可逆。",
+  "search_text": "下列命题中正确的是（ ）。 如果 $n$ 阶矩阵 $A$ 或 $B$ 不可逆，则 $AB$ 必不可逆 如果矩阵 $AB$ 不可逆，则 $A,B$ 都不可逆 如果矩阵 $AB=E$，则 $A$ 可逆且 $A^{-1}=B$ 方阵 $AB$ 的行列式 $|AB|=|BA|$ 因为 $n$ 阶矩阵 $A$ 或 $B$ 不可逆，所以 $|A|=0$ 或 $|B|=0$，故 $|AB|=|A||B|=0$，于是 $AB$ 必不可逆。",
+  "sort_order": 58
+}

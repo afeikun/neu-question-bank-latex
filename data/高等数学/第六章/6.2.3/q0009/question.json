@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $[abc]=2$，则 $[(a+b)\\times(b+c)]\\cdot(c+a)$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "展开并利用重复向量混合积为零，得 $2[abc]=4$。",
+  "search_text": "已知 $[abc]=2$，则 $[(a+b)\\times(b+c)]\\cdot(c+a)$ 为(\\quad)。 $2$ $3$ $1$ $4$ 展开并利用重复向量混合积为零，得 $2[abc]=4$。",
+  "sort_order": 9
+}

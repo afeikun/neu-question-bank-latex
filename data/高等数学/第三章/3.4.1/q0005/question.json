@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于函数 $f(x)=e^{-1/x}$ 的单调性，下列叙述正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在 $(-\\infty,0)\\cup(0,+\\infty)$ 内单调增加"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在 $(-\\infty,0)\\cup(0,+\\infty)$ 内单调减少"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在 $(-\\infty,0)$ 内单调增加"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在 $(0,+\\infty)$ 内单调减少"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime(x)=e^{-1/x}/x^2>0$（$x\\ne0$），所以它在定义域的两个区间上分别单调增加。",
+  "search_text": "关于函数 $f(x)=e^{-1/x}$ 的单调性，下列叙述正确的是（ ）。 在 $(-\\infty,0)\\cup(0,+\\infty)$ 内单调增加 在 $(-\\infty,0)\\cup(0,+\\infty)$ 内单调减少 在 $(-\\infty,0)$ 内单调增加 在 $(0,+\\infty)$ 内单调减少 $f\\prime(x)=e^{-1/x}/x^2>0$（$x\\ne0$），所以它在定义域的两个区间上分别单调增加。",
+  "sort_order": 5
+}

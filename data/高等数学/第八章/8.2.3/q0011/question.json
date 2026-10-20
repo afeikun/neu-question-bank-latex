@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由曲面 $4z^2=25(x^2+y^2)$ 及平面 $z=5$ 所围成的闭区域，则 $\\iiint_\\Omega(x^2+y^2)\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "利用柱面坐标变换，$\\Omega$ 在 $xoy$ 面上投影区域为：$x^2+y^2\\leq 4$，所以\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^2r\\,dr\\int_{\\frac{5}{2}r}^5r^2\\,dz$\n\n$=2\\pi\\int_0^2r^3(5-\\frac{5}{2}r)\\,dr$\n\n$=8\\pi$",
+  "search_text": "$\\Omega$ 是由曲面 $4z^2=25(x^2+y^2)$ 及平面 $z=5$ 所围成的闭区域，则 $\\iiint_\\Omega(x^2+y^2)\\,dv$ 的值为（ ） $8\\pi$ $\\pi$ $2\\pi$ $8\\pi$ 利用柱面坐标变换，$\\Omega$ 在 $xoy$ 面上投影区域为：$x^2+y^2\\leq 4$，所以\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^2r\\,dr\\int_{\\frac{5}{2}r}^5r^2\\,dz$\n\n$=2\\pi\\int_0^2r^3(5-\\frac{5}{2}r)\\,dr$\n\n$=8\\pi$",
+  "sort_order": 11
+}

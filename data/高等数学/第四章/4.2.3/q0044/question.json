@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f连续、f≥0且∫ₐᵇf=0，则",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "至少存在一点f>0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "至多有限个零点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "f(x)恒等于0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "f(x)>0处处成立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "连续非负且积分为零，函数恒为零。",
+  "search_text": "f连续、f≥0且∫ₐᵇf=0，则 至少存在一点f>0 至多有限个零点 f(x)恒等于0 f(x)>0处处成立 连续非负且积分为零，函数恒为零。",
+  "sort_order": 44
+}

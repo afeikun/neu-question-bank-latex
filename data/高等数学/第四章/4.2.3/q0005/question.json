@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "I₁=∫₁²lnx dx，I₂=∫₁²(lnx)²dx，正确关系",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不能判断"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "I₁<I₂"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "I₁=I₂"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "I₁>I₂"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "lnx在[1,2]内介于0与1之间，因此lnx>(lnx)²。",
+  "search_text": "I₁=∫₁²lnx dx，I₂=∫₁²(lnx)²dx，正确关系 不能判断 I₁<I₂ I₁=I₂ I₁>I₂ lnx在[1,2]内介于0与1之间，因此lnx>(lnx)²。",
+  "sort_order": 5
+}

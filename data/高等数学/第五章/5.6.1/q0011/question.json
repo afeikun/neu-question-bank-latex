@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期4，$f(x)=0$（$0<x<2$），$f(x)=1$（$2\\le x\\le4$），正弦级数和 $S(-4)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "正弦级数的奇延拓在端点取左右平均，故值为0。",
+  "search_text": "周期4，$f(x)=0$（$0<x<2$），$f(x)=1$（$2\\le x\\le4$），正弦级数和 $S(-4)$。 $1/2$ 0 4 1 正弦级数的奇延拓在端点取左右平均，故值为0。",
+  "sort_order": 11
+}

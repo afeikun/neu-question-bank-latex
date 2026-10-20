@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设积分路径 $C$ 为正向圆周 $|z-1|=1/2$，则 $\\oint_C\\frac{e^{iz}}{(z^2-1)^2}dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac\\pi2e^i(1+i)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1+i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1+i)/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内二阶极点 $z=1$，由Cauchy导数公式结果为 $-\\frac\\pi2e^i(1+i)$。",
+  "search_text": "设积分路径 $C$ 为正向圆周 $|z-1|=1/2$，则 $\\oint_C\\frac{e^{iz}}{(z^2-1)^2}dz$ 等于（ ）。 $-\\frac\\pi2e^i(1+i)$ $1+i$ $(1+i)/2$ $-\\pi/2$ 圆内二阶极点 $z=1$，由Cauchy导数公式结果为 $-\\frac\\pi2e^i(1+i)$。",
+  "sort_order": 23
+}

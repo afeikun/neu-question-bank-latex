@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "应用拉格朗日中值定理，在 $x=0$ 点的附近表达式 $e^x-e^{\\tan x}$ 可化为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^\\xi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^\\xi(\\tan x-x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^\\xi(x-\\tan x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sec^2\\xi\\cdot e^{\\tan\\xi}(x-\\tan x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对 $e^t$ 在 $x$ 与 $\\tan x$ 为端点的区间应用中值定理，$e^x-e^{\\tan x}=e^\\xi(x-\\tan x)$。",
+  "search_text": "应用拉格朗日中值定理，在 $x=0$ 点的附近表达式 $e^x-e^{\\tan x}$ 可化为 $(\\quad)$。 $e^\\xi$ $e^\\xi(\\tan x-x)$ $e^\\xi(x-\\tan x)$ $\\sec^2\\xi\\cdot e^{\\tan\\xi}(x-\\tan x)$ 对 $e^t$ 在 $x$ 与 $\\tan x$ 为端点的区间应用中值定理，$e^x-e^{\\tan x}=e^\\xi(x-\\tan x)$。",
+  "sort_order": 25
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=(1+x)^y$，则 $dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y(1+x)^{y-1}dx+(1+x)^y\\ln(1+x)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y(1-x)^{y-1}dx+(1-x)^y\\ln(1+x)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x(1+y)^{y-1}dx+(2+x)^y\\ln(1+y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^2(1+x)^{y+1}dx+(1+y)^x\\ln(1+y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z_x=y(1+x)^{y-1},\\ z_y=(1+x)^y\\ln(1+x),\\ 则dz=y(1+x)^{y-1}dx+(1+x)^y\\ln(1+x)dy$",
+  "search_text": "设 $z=(1+x)^y$，则 $dz=(\\quad)$。 $y(1+x)^{y-1}dx+(1+x)^y\\ln(1+x)dy$ $y(1-x)^{y-1}dx+(1-x)^y\\ln(1+x)dy$ $x(1+y)^{y-1}dx+(2+x)^y\\ln(1+y)dy$ $y^2(1+x)^{y+1}dx+(1+y)^x\\ln(1+y)dy$ $z_x=y(1+x)^{y-1},\\ z_y=(1+x)^y\\ln(1+x),\\ 则dz=y(1+x)^{y-1}dx+(1+x)^y\\ln(1+x)dy$",
+  "sort_order": 6
+}

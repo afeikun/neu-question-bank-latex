@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $x-\\sin x\\sim\\frac16x^3\\ (x\\to0)$，则 $\\lim_{x\\to\\infty}(x^2-x^3\\sin\\frac1x)$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $t=1/x$，原式为 $x^3(1/x-\\sin(1/x))\\to1/6$。",
+  "search_text": "已知 $x-\\sin x\\sim\\frac16x^3\\ (x\\to0)$，则 $\\lim_{x\\to\\infty}(x^2-x^3\\sin\\frac1x)$ 等于（ ）。 $\\frac13$ 1 $\\frac12$ $\\frac16$ 令 $t=1/x$，原式为 $x^3(1/x-\\sin(1/x))\\to1/6$。",
+  "sort_order": 21
+}

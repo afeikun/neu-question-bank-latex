@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $z=\\dfrac{(1+i)^5}{(\\sqrt3+i)^6}$，则 $\\arg z$ 是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{3\\pi}4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\arg z=5\\arg(1+i)-6\\arg(\\sqrt3+i)=\\frac{5\\pi}4-\\pi=\\frac\\pi4$。",
+  "search_text": "已知 $z=\\dfrac{(1+i)^5}{(\\sqrt3+i)^6}$，则 $\\arg z$ 是（ ）。 $\\frac\\pi4$ $\\frac\\pi6$ $\\frac\\pi3$ $\\frac{3\\pi}4$ $\\arg z=5\\arg(1+i)-6\\arg(\\sqrt3+i)=\\frac{5\\pi}4-\\pi=\\frac\\pi4$。",
+  "sort_order": 14
+}

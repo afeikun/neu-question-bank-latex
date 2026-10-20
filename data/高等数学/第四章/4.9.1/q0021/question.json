@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $3m$ 的球形水箱内有半容量的水，要将水抽到箱顶上方 $7m$ 处，问要做多少功？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(836/4)\\pi g\\ (kJ)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(701/4)\\pi g\\ (kJ)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(801/4)\\pi g\\ (kJ)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(801/3)\\pi g\\ (kJ)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "按球体半容积水层积分，$W=\\int_0^3(13-x)\\pi(9-(3-x)^2)\\rho g dx=(801/4)\\pi\\rho g$。",
+  "search_text": "半径为 $3m$ 的球形水箱内有半容量的水，要将水抽到箱顶上方 $7m$ 处，问要做多少功？ $(836/4)\\pi g\\ (kJ)$ $(701/4)\\pi g\\ (kJ)$ $(801/4)\\pi g\\ (kJ)$ $(801/3)\\pi g\\ (kJ)$ 按球体半容积水层积分，$W=\\int_0^3(13-x)\\pi(9-(3-x)^2)\\rho g dx=(801/4)\\pi\\rho g$。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "线性空间 $\\mathbb R^2$ 中的映射：$T_1(\\alpha)=\\alpha$，$T_2(\\alpha)=O$，$T_3(\\alpha)=(1,2)^T$ 中是线性变换的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$T_1$ 是恒等变换，$T_2$ 是零变换，二者均线性。$T_3$ 为非零常值映射，不满足加法条件。因此共有 $2$ 个。",
+  "search_text": "线性空间 $\\mathbb R^2$ 中的映射：$T_1(\\alpha)=\\alpha$，$T_2(\\alpha)=O$，$T_3(\\alpha)=(1,2)^T$ 中是线性变换的有（ ）。 $0$ 个 $3$ 个 $2$ 个 $1$ 个 $T_1$ 是恒等变换，$T_2$ 是零变换，二者均线性。$T_3$ 为非零常值映射，不满足加法条件。因此共有 $2$ 个。",
+  "sort_order": 59
+}

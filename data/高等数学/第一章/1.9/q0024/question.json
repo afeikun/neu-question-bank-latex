@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=0$ 是 $f(x)=\\begin{cases}(1+\\sin x)^{1/\\sin2x},&x>0\\\\e^{1/2},&x=0\\\\(1-\\tan x)^{1/ln(1-2x)},&x<0\\end{cases}$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "连续点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "跳跃间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "第二类间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可去间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to0^+}f(x)=e^{1/2}$，$\\lim_{x\\to0^-}f(x)=e^{1/2}$，等于 $f(0)$，故连续。",
+  "search_text": "$x=0$ 是 $f(x)=\\begin{cases}(1+\\sin x)^{1/\\sin2x},&x>0\\\\e^{1/2},&x=0\\\\(1-\\tan x)^{1/ln(1-2x)},&x<0\\end{cases}$ 的（ ）。 连续点 跳跃间断点 第二类间断点 可去间断点 $\\lim_{x\\to0^+}f(x)=e^{1/2}$，$\\lim_{x\\to0^-}f(x)=e^{1/2}$，等于 $f(0)$，故连续。",
+  "sort_order": 24
+}

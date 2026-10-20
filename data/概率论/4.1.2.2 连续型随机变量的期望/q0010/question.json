@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi$均匀分布于$[-3,3]$，求$E(\\xi)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "区间中点为0，即均值为0。",
+  "search_text": "$\\xi$均匀分布于$[-3,3]$，求$E(\\xi)$。 $0$ $3$ $4$ $6$ 区间中点为0，即均值为0。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime+y\\cot x=\\csc x$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos x(x+C)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\csc x(x+C)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$C\\cos x(x+1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C\\sin x(x+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "该方程是一阶线性非齐次方程，其中\n\n$P(x)=\\cot x,Q(x)=\\csc x$\n\n$y=e^{-\\int\\cot x\\,dx}(\\int\\csc x\\cdot e^{\\int\\cot x\\,dx}dx+C)=\\frac{1}{\\sin x}(\\int\\frac{\\sin x}{\\sin x}dx+C)=\\csc x(x+C)$",
+  "search_text": "$y\\prime+y\\cot x=\\csc x$ 的通解为（ ） $\\cos x(x+C)$ $\\csc x(x+C)$ $C\\cos x(x+1)$ $C\\sin x(x+1)$ 该方程是一阶线性非齐次方程，其中\n\n$P(x)=\\cot x,Q(x)=\\csc x$\n\n$y=e^{-\\int\\cot x\\,dx}(\\int\\csc x\\cdot e^{\\int\\cot x\\,dx}dx+C)=\\frac{1}{\\sin x}(\\int\\frac{\\sin x}{\\sin x}dx+C)=\\csc x(x+C)$",
+  "sort_order": 12
+}

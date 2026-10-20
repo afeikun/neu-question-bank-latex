@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=|x|\\sin x$，下列说法不正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)$ 在 $x=0$ 处二阶导数存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)$ 在 $x=0$ 处二阶导数不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)$ 在 $x=0$ 处一阶导连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)$ 在 $x=0$ 处可导"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime(0)=0$，但左右二阶导数分别为 $1$ 与 $-1$，故二阶导数不存在。",
+  "search_text": "设 $f(x)=|x|\\sin x$，下列说法不正确的是（ ）。 $f(x)$ 在 $x=0$ 处二阶导数存在 $f(x)$ 在 $x=0$ 处二阶导数不存在 $f(x)$ 在 $x=0$ 处一阶导连续 $f(x)$ 在 $x=0$ 处可导 $f\\prime(0)=0$，但左右二阶导数分别为 $1$ 与 $-1$，故二阶导数不存在。",
+  "sort_order": 5
+}

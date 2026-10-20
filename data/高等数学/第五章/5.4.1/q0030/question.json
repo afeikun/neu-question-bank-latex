@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x$ 非负整数，对 $p$ 讨论 $\\sum_{n=1}^{\\infty}(-1)^n/(x+n)^p$，何时绝对收敛？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p>1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p\\le1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$p>0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0<p<1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "绝对值级数与 $p$ 级数同敛散，要求 $p>1$。",
+  "search_text": "$x$ 非负整数，对 $p$ 讨论 $\\sum_{n=1}^{\\infty}(-1)^n/(x+n)^p$，何时绝对收敛？ $p>1$ $p\\le1$ $p>0$ $0<p<1$ 绝对值级数与 $p$ 级数同敛散，要求 $p>1$。",
+  "sort_order": 30
+}

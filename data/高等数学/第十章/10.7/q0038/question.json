@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "第一象限曲线 $y=y(x)$ 满足切线与坐标轴、过切点的平行线围成梯形面积等于 $a^2$，求微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$xy-2x^2y^\\prime=2a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2(a^2-xy)y^\\prime=y^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2(a^2-xy)y^\\prime=-y^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xy-2x^2y^\\prime=-2a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：设曲线方程为$y=y(x)$，其上任一点的坐标为$(x,y)$，过该点的切线方程为$Y-y=y'(X-x)$，所以该切线在$x$轴上的截距为$x-\\frac{y}{y'}$，$y$轴上的截距为$y-xy'$，于是得梯形的面积为$\\frac{1}{2}\\left(x+x-\\frac{y}{y'}\\right)y=a^2$。",
+  "search_text": "第一象限曲线 $y=y(x)$ 满足切线与坐标轴、过切点的平行线围成梯形面积等于 $a^2$，求微分方程。 $xy-2x^2y^\\prime=2a^2$ $2(a^2-xy)y^\\prime=y^2$ $2(a^2-xy)y^\\prime=-y^2$ $xy-2x^2y^\\prime=-2a^2$ 解析：设曲线方程为$y=y(x)$，其上任一点的坐标为$(x,y)$，过该点的切线方程为$Y-y=y'(X-x)$，所以该切线在$x$轴上的截距为$x-\\frac{y}{y'}$，$y$轴上的截距为$y-xy'$，于是得梯形的面积为$\\frac{1}{2}\\left(x+x-\\frac{y}{y'}\\right)y=a^2$。",
+  "sort_order": 38
+}

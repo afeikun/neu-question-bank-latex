@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "矩阵 $A=\\begin{pmatrix}2&-1&-1&1&2\\\\1&1&-2&1&4\\\\4&-6&2&-2&4\\\\3&6&-9&7&9\\end{pmatrix}$，用列向量组可表示为 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5)$，则关于列向量组的秩和极大无关组，下列说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "秩为 $2$，极大无关组为 $\\alpha_3,\\alpha_4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "秩为 $3$，极大无关组为 $\\alpha_1,\\alpha_2,\\alpha_4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "秩为 $3$，极大无关组为 $\\alpha_1,\\alpha_2,\\alpha_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "秩为 $2$，极大无关组为 $\\alpha_1,\\alpha_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "行化简得秩为 $3$，主元列为第 $1,2,4$ 列，所以 $\\alpha_1,\\alpha_2,\\alpha_4$ 构成极大无关组。",
+  "search_text": "矩阵 $A=\\begin{pmatrix}2&-1&-1&1&2\\\\1&1&-2&1&4\\\\4&-6&2&-2&4\\\\3&6&-9&7&9\\end{pmatrix}$，用列向量组可表示为 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5)$，则关于列向量组的秩和极大无关组，下列说法正确的是（ ）。 秩为 $2$，极大无关组为 $\\alpha_3,\\alpha_4$ 秩为 $3$，极大无关组为 $\\alpha_1,\\alpha_2,\\alpha_4$ 秩为 $3$，极大无关组为 $\\alpha_1,\\alpha_2,\\alpha_3$ 秩为 $2$，极大无关组为 $\\alpha_1,\\alpha_2$ 行化简得秩为 $3$，主元列为第 $1,2,4$ 列，所以 $\\alpha_1,\\alpha_2,\\alpha_4$ 构成极大无关组。",
+  "sort_order": 5
+}

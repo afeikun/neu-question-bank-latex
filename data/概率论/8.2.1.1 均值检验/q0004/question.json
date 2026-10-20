@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$H_0:\\mu\\ge\\mu_0,H_1:\\mu<\\mu_0$的检验统计量为$T=(\\bar X-\\mu_0)/(S/\\sqrt n)$，拒绝域是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$T<-t_\\alpha(n-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|T|>t_{\\alpha/2}(n-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|T|\\le t_{\\alpha/2}(n-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$T>t_\\alpha(n-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "左侧单边检验的拒绝域为$T<-t_\\alpha(n-1)$。",
+  "search_text": "$H_0:\\mu\\ge\\mu_0,H_1:\\mu<\\mu_0$的检验统计量为$T=(\\bar X-\\mu_0)/(S/\\sqrt n)$，拒绝域是（）。 $T<-t_\\alpha(n-1)$ $|T|>t_{\\alpha/2}(n-1)$ $|T|\\le t_{\\alpha/2}(n-1)$ $T>t_\\alpha(n-1)$ 左侧单边检验的拒绝域为$T<-t_\\alpha(n-1)$。",
+  "sort_order": 4
+}

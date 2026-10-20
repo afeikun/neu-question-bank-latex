@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u(x,y)=f(e^x)g(\\sin y)$，其中 $f,g$ 均有连续导数，则 $u_{xy}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^x\\cos y f'(e^x)g'(\\sin y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ue^x\\cos y f'(e^x)g'(\\sin y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$ue^x\\sin y f'(e^x)g'(\\sin y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^x\\sin y f'(e^x)g'(\\sin y)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial x}=e^xf'(e^x)g(\\sin y)$，则 $\\frac{\\partial^2u}{\\partial x\\partial y}=e^x\\cos y f'(e^x)g'(\\sin y)$",
+  "search_text": "设 $u(x,y)=f(e^x)g(\\sin y)$，其中 $f,g$ 均有连续导数，则 $u_{xy}=(\\quad)$。 $e^x\\cos y f'(e^x)g'(\\sin y)$ $ue^x\\cos y f'(e^x)g'(\\sin y)$ $ue^x\\sin y f'(e^x)g'(\\sin y)$ $e^x\\sin y f'(e^x)g'(\\sin y)$ $\\frac{\\partial u}{\\partial x}=e^xf'(e^x)g(\\sin y)$，则 $\\frac{\\partial^2u}{\\partial x\\partial y}=e^x\\cos y f'(e^x)g'(\\sin y)$",
+  "sort_order": 5
+}

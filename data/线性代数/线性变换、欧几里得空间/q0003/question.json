@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "对于线性空间 $V$ 上的任意向量 $\\alpha$，关于其内积 $[\\alpha,\\alpha]$ 必然正确的结论是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[\\alpha,\\alpha]$ 不可能为 $0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[\\alpha,\\alpha]$ 必然为正数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[\\alpha,\\alpha]$ 有可能为负数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[\\alpha,\\alpha]$ 有可能等于 $0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由内积的基本性质，$[\\alpha,\\alpha]\\ge0$；当 $\\alpha=0$ 时可等于 $0$。",
+  "search_text": "对于线性空间 $V$ 上的任意向量 $\\alpha$，关于其内积 $[\\alpha,\\alpha]$ 必然正确的结论是（ ）。 $[\\alpha,\\alpha]$ 不可能为 $0$ $[\\alpha,\\alpha]$ 必然为正数 $[\\alpha,\\alpha]$ 有可能为负数 $[\\alpha,\\alpha]$ 有可能等于 $0$ 由内积的基本性质，$[\\alpha,\\alpha]\\ge0$；当 $\\alpha=0$ 时可等于 $0$。",
+  "sort_order": 3
+}

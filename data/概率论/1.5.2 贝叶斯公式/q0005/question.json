@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一批产品 100 件，有 80 件正品、20 件次品。其中甲厂生产 60 件，有 50 件正品、10 件次品，余下 40 件均由乙厂生产。现从该批产品中任取一件，记 $A=$“正品”，$B=$“甲厂生产的产品”，则 $P(A)=(\\quad),P(B)=(\\quad),P(B\\mid A)=(\\quad),P(A\\mid B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac45,\\ \\frac35,\\ \\frac58,\\ \\frac56$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac45,\\ \\frac15,\\ \\frac38,\\ \\frac56$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac45,\\ \\frac35,\\ \\frac56,\\ \\frac58$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac35,\\ \\frac45,\\ \\frac58,\\ \\frac56$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(A)=80/100=4/5$，$P(B)=60/100=3/5$，$P(B\\mid A)=50/80=5/8$，$P(A\\mid B)=50/60=5/6$。",
+  "search_text": "一批产品 100 件，有 80 件正品、20 件次品。其中甲厂生产 60 件，有 50 件正品、10 件次品，余下 40 件均由乙厂生产。现从该批产品中任取一件，记 $A=$“正品”，$B=$“甲厂生产的产品”，则 $P(A)=(\\quad),P(B)=(\\quad),P(B\\mid A)=(\\quad),P(A\\mid B)=(\\quad)$。 $\\frac45,\\ \\frac35,\\ \\frac58,\\ \\frac56$ $\\frac45,\\ \\frac15,\\ \\frac38,\\ \\frac56$ $\\frac45,\\ \\frac35,\\ \\frac56,\\ \\frac58$ $\\frac35,\\ \\frac45,\\ \\frac58,\\ \\frac56$ $P(A)=80/100=4/5$，$P(B)=60/100=3/5$，$P(B\\mid A)=50/80=5/8$，$P(A\\mid B)=50/60=5/6$。",
+  "sort_order": 5
+}

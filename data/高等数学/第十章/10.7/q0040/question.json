@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质量为 $m$ 的质点受外力作用作直线运动，已知外力和时间的平方成正比，和质点运动速度成反比（比例系数为 $k$），则该点的速度与时间应满足的微分方程是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$vv'-\\frac{k}{m}t^2=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$vv'-\\frac{k}{m}t^2=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$vv'+\\frac{k}{m}t^2=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$vv'+\\frac{k}{m}t^2=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由题意得 $mv'=\\frac{k}{v}t^2$，化简得 $vv'-\\frac{k}{m}t^2=0$。",
+  "search_text": "质量为 $m$ 的质点受外力作用作直线运动，已知外力和时间的平方成正比，和质点运动速度成反比（比例系数为 $k$），则该点的速度与时间应满足的微分方程是（ ） $vv'-\\frac{k}{m}t^2=1$ $vv'-\\frac{k}{m}t^2=0$ $vv'+\\frac{k}{m}t^2=0$ $vv'+\\frac{k}{m}t^2=1$ 由题意得 $mv'=\\frac{k}{v}t^2$，化简得 $vv'-\\frac{k}{m}t^2=0$。",
+  "sort_order": 40
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f(x)=1/(x+1)（x≥0），1/(1+eˣ)（x<0），求∫₀²f(x−1)dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "ln(1+e)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "e"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1/2)ln(1+e)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令t=x−1并分段积分，结果为ln(1+e)。",
+  "search_text": "f(x)=1/(x+1)（x≥0），1/(1+eˣ)（x<0），求∫₀²f(x−1)dx ln(1+e) e 1 (1/2)ln(1+e) 令t=x−1并分段积分，结果为ln(1+e)。",
+  "sort_order": 32
+}

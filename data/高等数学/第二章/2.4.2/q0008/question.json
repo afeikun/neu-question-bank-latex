@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$df(x\\sin x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$f\\prime(x\\sin x)(\\sin x+x\\cos x)dx$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$f\\prime(x\\sin x)\\cos x\\,dx$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$f\\prime(x\\sin x)(\\sin x-x\\cos x)dx$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$f\\prime(x\\sin x)\\sin x\\,dx$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$d(x\\sin x)=(\\sin x+x\\cos x)dx$。",
+  "search_text": "$df(x\\sin x)=$（ ）。 $$f\\prime(x\\sin x)(\\sin x+x\\cos x)dx$$ $$f\\prime(x\\sin x)\\cos x\\,dx$$ $$f\\prime(x\\sin x)(\\sin x-x\\cos x)dx$$ $$f\\prime(x\\sin x)\\sin x\\,dx$$ $d(x\\sin x)=(\\sin x+x\\cos x)dx$。",
+  "sort_order": 8
+}

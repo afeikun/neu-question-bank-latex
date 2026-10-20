@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 在点 $x=1$ 处连续，且 $f(1)=1$，则 $\\lim_{x\\to+\\infty}\\ln\\left[2+f\\left(x^{1/x}\\right)\\right]$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to+\\infty}x^{1/x}=1$，由连续性得极限为 $\\ln(2+f(1))=\\ln3$。",
+  "search_text": "设函数 $f(x)$ 在点 $x=1$ 处连续，且 $f(1)=1$，则 $\\lim_{x\\to+\\infty}\\ln\\left[2+f\\left(x^{1/x}\\right)\\right]$ 等于（ ）。 $\\ln2$ $1$ $0$ $\\ln3$ $\\lim_{x\\to+\\infty}x^{1/x}=1$，由连续性得极限为 $\\ln(2+f(1))=\\ln3$。",
+  "sort_order": 19
+}

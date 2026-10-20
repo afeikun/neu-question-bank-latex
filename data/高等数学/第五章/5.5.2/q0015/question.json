@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将函数 $f(x)=\\sin^3 x$ 在 $x=\\frac{\\pi}{6}$ 的处展开[　]。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{3\\sqrt3}{8}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n+1}}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}-\\frac38\\sum_{n=1}^{\\infty}\\frac{(-1)^{n+1}}{(2n)!}(2\\cdot3^{2n-1}-1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{3\\sqrt3}{8}\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}+\\frac38\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n)!}(2\\cdot3^{2n-1}+1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{3\\sqrt3}{8}\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}-\\frac18\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n)!}(2\\cdot3^{2n-1}+1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{3\\sqrt3}{8}\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}-\\frac38\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n)!}(2\\cdot3^{2n-1}-1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f(x)=\\sin^3x=\\frac34\\sin x-\\frac14\\sin3x=\\frac34\\sin(\\frac\\pi6+(x-\\frac\\pi6))-\\frac14\\cos3(x-\\frac\\pi6)$\n$=\\frac{3\\sqrt3}{8}\\sin(x-\\frac\\pi6)+\\frac38\\cos(x-\\frac\\pi6)-\\frac14\\cos3(x-\\frac\\pi6)$，\n利用（2）式与（3）式，即得到\n$f(x)=\\frac{3\\sqrt3}{8}\\sum_{n=0}^{\\infty}\\frac{(-1)^n}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}-\\frac38\\sum_{n=0}^{\\infty}\\frac{(-1)^n}{(2n)!}(2\\cdot3^{2n-1}-1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$。",
+  "search_text": "将函数 $f(x)=\\sin^3 x$ 在 $x=\\frac{\\pi}{6}$ 的处展开[　]。 $\\frac{3\\sqrt3}{8}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n+1}}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}-\\frac38\\sum_{n=1}^{\\infty}\\frac{(-1)^{n+1}}{(2n)!}(2\\cdot3^{2n-1}-1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$； $\\frac{3\\sqrt3}{8}\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}+\\frac38\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n)!}(2\\cdot3^{2n-1}+1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$； $\\frac{3\\sqrt3}{8}\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}-\\frac18\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n)!}(2\\cdot3^{2n-1}+1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$； $\\frac{3\\sqrt3}{8}\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}-\\frac38\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{(2n)!}(2\\cdot3^{2n-1}-1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$； $f(x)=\\sin^3x=\\frac34\\sin x-\\frac14\\sin3x=\\frac34\\sin(\\frac\\pi6+(x-\\frac\\pi6))-\\frac14\\cos3(x-\\frac\\pi6)$\n$=\\frac{3\\sqrt3}{8}\\sin(x-\\frac\\pi6)+\\frac38\\cos(x-\\frac\\pi6)-\\frac14\\cos3(x-\\frac\\pi6)$，\n利用（2）式与（3）式，即得到\n$f(x)=\\frac{3\\sqrt3}{8}\\sum_{n=0}^{\\infty}\\frac{(-1)^n}{(2n+1)!}(x-\\frac\\pi6)^{2n+1}-\\frac38\\sum_{n=0}^{\\infty}\\frac{(-1)^n}{(2n)!}(2\\cdot3^{2n-1}-1)(x-\\frac\\pi6)^{2n},\\ x\\in(-\\infty,+\\infty)$。",
+  "sort_order": 15
+}

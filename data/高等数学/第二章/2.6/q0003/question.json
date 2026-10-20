@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=a\\cos^2t,\\ y=b\\sin^2t$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac ba$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac ab$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac ba$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac ab$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=-2a\\cos t\\sin t，\\frac{dy}{dt}=2b\\sin t\\cos t，\\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=-\\frac{b}{a}$$",
+  "search_text": "$x=a\\cos^2t,\\ y=b\\sin^2t$，求 $\\frac{dy}{dx}$。 $\\frac ba$ $-\\frac ab$ $-\\frac ba$ $\\frac ab$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=-2a\\cos t\\sin t，\\frac{dy}{dt}=2b\\sin t\\cos t，\\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=-\\frac{b}{a}$$",
+  "sort_order": 3
+}

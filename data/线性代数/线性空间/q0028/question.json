@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$2$ 阶正交矩阵集合 $V_1$，$2$ 阶满秩矩阵集合 $V_2$，$2$ 阶非奇异矩阵集合 $V_3$ 中是线性空间 $\\mathbb{R}^{2\\times2}$ 的子空间的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "这些集合中的矩阵都满秩，因此不包含零矩阵，不可能是线性空间 $\\mathbb{R}^{2\\times2}$ 的子空间，所以有 $0$ 个。",
+  "search_text": "$2$ 阶正交矩阵集合 $V_1$，$2$ 阶满秩矩阵集合 $V_2$，$2$ 阶非奇异矩阵集合 $V_3$ 中是线性空间 $\\mathbb{R}^{2\\times2}$ 的子空间的有（ ）。 $2$ 个 $0$ 个 $3$ 个 $1$ 个 这些集合中的矩阵都满秩，因此不包含零矩阵，不可能是线性空间 $\\mathbb{R}^{2\\times2}$ 的子空间，所以有 $0$ 个。",
+  "sort_order": 28
+}

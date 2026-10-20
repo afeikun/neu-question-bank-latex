@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由 $y=z^2,x=0$ 绕 $y$ 轴旋转生成的曲面与平面 $y=1$ 围成的立体，则三重积分 $\\iiint_\\Omega y\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi{12}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "旋转曲面方程为 $y=x^2+z^2$，$\\Omega$ 在 $xOz$ 面上的投影为 $x^2+z^2\\leq 1$，且 $x^2+z^2\\leq y\\leq 1$，所以由柱面坐标变换得：\n\n原式 $=\\iint_D dxdy\\int_{x^2+z^2}^1y\\,dy$\n\n$=\\int_0^{2\\pi}d\\theta\\int_0^1r\\,dr\\int_{r^2}^1dy$\n\n$=\\frac{\\pi}{3}$",
+  "search_text": "$\\Omega$ 是由 $y=z^2,x=0$ 绕 $y$ 轴旋转生成的曲面与平面 $y=1$ 围成的立体，则三重积分 $\\iiint_\\Omega y\\,dv$ 的值为（ ） $\\frac\\pi3$ $\\frac\\pi2$ $\\frac\\pi6$ $\\frac\\pi{12}$ 旋转曲面方程为 $y=x^2+z^2$，$\\Omega$ 在 $xOz$ 面上的投影为 $x^2+z^2\\leq 1$，且 $x^2+z^2\\leq y\\leq 1$，所以由柱面坐标变换得：\n\n原式 $=\\iint_D dxdy\\int_{x^2+z^2}^1y\\,dy$\n\n$=\\int_0^{2\\pi}d\\theta\\int_0^1r\\,dr\\int_{r^2}^1dy$\n\n$=\\frac{\\pi}{3}$",
+  "sort_order": 21
+}

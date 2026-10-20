@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列说法正确的有几个？(1) 当 $0<\\min(x,y)<1$ 时 $\\sum_{n=1}^{\\infty} x^ny^n/(x^n+y^n)$ 绝对收敛；(2) $x>1$ 时 $\\sum_{n=1}^{\\infty}(n+x)^n/n^{n+x}$ 绝对收敛；(3) $x>0$ 时 $\\sum_{n=1}^{\\infty} ne^{-nx}$ 绝对收敛；(4) $|x|\\ne1$ 时 $\\sum_{n=1}^{\\infty} x^n/(1+x^{2n})$ 绝对收敛",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "3个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "四项均满足几何或幂级数比较判别，正确的共4个。",
+  "search_text": "下列说法正确的有几个？(1) 当 $0<\\min(x,y)<1$ 时 $\\sum_{n=1}^{\\infty} x^ny^n/(x^n+y^n)$ 绝对收敛；(2) $x>1$ 时 $\\sum_{n=1}^{\\infty}(n+x)^n/n^{n+x}$ 绝对收敛；(3) $x>0$ 时 $\\sum_{n=1}^{\\infty} ne^{-nx}$ 绝对收敛；(4) $|x|\\ne1$ 时 $\\sum_{n=1}^{\\infty} x^n/(1+x^{2n})$ 绝对收敛 2个 4个 1个 3个 四项均满足几何或幂级数比较判别，正确的共4个。",
+  "sort_order": 59
+}

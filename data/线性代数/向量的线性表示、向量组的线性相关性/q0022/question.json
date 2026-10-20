@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若向量组 $\\alpha_1=(1,2,3),\\ \\alpha_2=(1,2,0),\\ \\alpha_3=(t,1,-2)$ 线性相关，则 $t=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令三向量组成的行列式为零，化简得 $-3+6t=0$，所以 $t=\\frac12$。",
+  "search_text": "若向量组 $\\alpha_1=(1,2,3),\\ \\alpha_2=(1,2,0),\\ \\alpha_3=(t,1,-2)$ 线性相关，则 $t=$（ ）。 $-\\frac12$ $\\frac12$ $-2$ $2$ 令三向量组成的行列式为零，化简得 $-3+6t=0$，所以 $t=\\frac12$。",
+  "sort_order": 22
+}

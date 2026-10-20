@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在 $x_0$ 的某个邻域内连续，且 $f(x_0)=y_0$，$f\\prime(x_0)=0$，$f\\prime\\prime(x_0)=0$，则下列叙述正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x_0$ 是 $f(x)$ 的极小值点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x_0$ 必是 $f(x)$ 的极值点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x_0$ 既可能是极值点，也可能不是极值点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x_0$ 是 $f(x)$ 的极大值点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "条件不足以判定极值：例如 $x^2$ 在 $0$ 取极小值，$x^3$ 在 $0$ 不取极值，$-x^2$ 在 $0$ 取极大值。",
+  "search_text": "函数 $f(x)$ 在 $x_0$ 的某个邻域内连续，且 $f(x_0)=y_0$，$f\\prime(x_0)=0$，$f\\prime\\prime(x_0)=0$，则下列叙述正确的是（ ）。 $x_0$ 是 $f(x)$ 的极小值点 $x_0$ 必是 $f(x)$ 的极值点 $x_0$ 既可能是极值点，也可能不是极值点 $x_0$ 是 $f(x)$ 的极大值点 条件不足以判定极值：例如 $x^2$ 在 $0$ 取极小值，$x^3$ 在 $0$ 不取极值，$-x^2$ 在 $0$ 取极大值。",
+  "sort_order": 6
+}

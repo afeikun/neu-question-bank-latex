@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知级数 $\\sum_{n=1}^{\\infty}u_n=S$，$u_1=1$，求 $\\sum_{n=1}^{\\infty}(u_n+u_{n+1})$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$S+2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2S$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2S-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2S+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\sum_{n=1}^{\\infty}(u_n+u_{n+1})=S+(S-u_1)=2S-1$。",
+  "search_text": "已知级数 $\\sum_{n=1}^{\\infty}u_n=S$，$u_1=1$，求 $\\sum_{n=1}^{\\infty}(u_n+u_{n+1})$。 $S+2$ $2S$ $2S-1$ $2S+1$ $\\sum_{n=1}^{\\infty}(u_n+u_{n+1})=S+(S-u_1)=2S-1$。",
+  "sort_order": 6
+}

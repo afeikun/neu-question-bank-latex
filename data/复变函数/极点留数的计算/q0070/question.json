@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\dfrac{e^{iz}}{1+z^2}$，则 $\\operatorname{Res}[f(z),-i]=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac i2e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac1{2e}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac i{2e}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=-i$ 为一阶极点，$e^{i(-i)}/(-2i)=ie/2$。",
+  "search_text": "设 $f(z)=\\dfrac{e^{iz}}{1+z^2}$，则 $\\operatorname{Res}[f(z),-i]=(\\ )$。 $\\frac i2e$ $-\\frac1{2e}$ $\\frac12e$ $-\\frac i{2e}$ $z=-i$ 为一阶极点，$e^{i(-i)}/(-2i)=ie/2$。",
+  "sort_order": 70
+}

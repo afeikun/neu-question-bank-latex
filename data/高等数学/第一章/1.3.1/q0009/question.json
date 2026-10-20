@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "要使 $\\lim_{x\\to x_0}\\sqrt{x}=\\sqrt{x_0}$，则满足 $0<|x-x_0|<\\delta$ 中的 $\\delta$ 应取为（　）（其中 $\\varepsilon$ 为任意正实数）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\delta=x_0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\delta=\\sqrt{x_0\\varepsilon}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\delta=\\min\\{x_0,\\sqrt{x_0}\\varepsilon\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$|\\sqrt{x}-\\sqrt{x_0}|=\\frac{|x-x_0|}{\\sqrt{x}+\\sqrt{x_0}}\\le\\frac{|x-x_0|}{\\sqrt{x_0}}$；可取 $\\delta=\\min\\{x_0,\\sqrt{x_0}\\varepsilon\\}$。",
+  "search_text": "要使 $\\lim_{x\\to x_0}\\sqrt{x}=\\sqrt{x_0}$，则满足 $0<|x-x_0|<\\delta$ 中的 $\\delta$ 应取为（ ）（其中 $\\varepsilon$ 为任意正实数）。 $\\delta=x_0$ $\\delta=\\sqrt{x_0\\varepsilon}$ $\\delta=\\min\\{x_0,\\sqrt{x_0}\\varepsilon\\}$ 不确定 $|\\sqrt{x}-\\sqrt{x_0}|=\\frac{|x-x_0|}{\\sqrt{x}+\\sqrt{x_0}}\\le\\frac{|x-x_0|}{\\sqrt{x_0}}$；可取 $\\delta=\\min\\{x_0,\\sqrt{x_0}\\varepsilon\\}$。",
+  "sort_order": 9
+}

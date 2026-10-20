@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知方程组 $\\begin{cases}x_1+x_2+x_3=0,\\\\a x_1+b x_2+c x_3=0,\\\\a^2x_1+b^2x_2+c^2x_3=0\\end{cases}$ 仅有零解，则 $a,b,c$ 满足（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a,b,c$ 两两互异"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a\\ne b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a\\ne c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$b\\ne c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "仅有零解要求系数行列式非零。该行列式为 $(b-a)(c-a)(c-b)$，故 $a,b,c$ 必须两两互异。",
+  "search_text": "已知方程组 $\\begin{cases}x_1+x_2+x_3=0,\\\\a x_1+b x_2+c x_3=0,\\\\a^2x_1+b^2x_2+c^2x_3=0\\end{cases}$ 仅有零解，则 $a,b,c$ 满足（ ）。 $a,b,c$ 两两互异 $a\\ne b$ $a\\ne c$ $b\\ne c$ 仅有零解要求系数行列式非零。该行列式为 $(b-a)(c-a)(c-b)$，故 $a,b,c$ 必须两两互异。",
+  "sort_order": 23
+}

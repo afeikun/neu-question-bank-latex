@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知函数 $f(x)$ 连续且满足 $f(x)=\\int_0^{2x} f\\left(\\frac{t}{2}\\right)dt+e^{2x}$，则 $f(x)=( )$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{2x}(x+1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{2x}(x+C)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{2x}(2x+C)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{2x}(2x+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：求导得 $f'=2f+2e^{2x}$，并满足初始条件 $f(0)=1$，于是得 $f(x)=e^{2x}(2x+1)$",
+  "search_text": "已知函数 $f(x)$ 连续且满足 $f(x)=\\int_0^{2x} f\\left(\\frac{t}{2}\\right)dt+e^{2x}$，则 $f(x)=( )$ $e^{2x}(x+1)$ $e^{2x}(x+C)$ $e^{2x}(2x+C)$ $e^{2x}(2x+1)$ 解析：求导得 $f'=2f+2e^{2x}$，并满足初始条件 $f(0)=1$，于是得 $f(x)=e^{2x}(2x+1)$",
+  "sort_order": 39
+}

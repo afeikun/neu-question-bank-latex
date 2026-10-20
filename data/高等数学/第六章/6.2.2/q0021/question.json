@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量 $\\vec a\\ne\\vec0$，$\\vec b\\ne\\vec0$，则下列结论正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $\\vec a=\\lambda\\vec b$，则 $\\vec a\\cdot\\vec b=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\vec a$ 与 $\\vec b$ 的对应分量成比例是 $\\vec a=\\lambda\\vec b$ 平行的充要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\vec a\\times\\vec b=\\vec0$ 是 $\\vec a$ 与 $\\vec b$ 垂直的充要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\vec a\\cdot\\vec b=0$ 是 $\\vec a$ 与 $\\vec b$ 平行的充要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两向量平行的充要条件是其对应分量成比例。",
+  "search_text": "设向量 $\\vec a\\ne\\vec0$，$\\vec b\\ne\\vec0$，则下列结论正确的是(\\quad)。 若 $\\vec a=\\lambda\\vec b$，则 $\\vec a\\cdot\\vec b=0$ $\\vec a$ 与 $\\vec b$ 的对应分量成比例是 $\\vec a=\\lambda\\vec b$ 平行的充要条件 $\\vec a\\times\\vec b=\\vec0$ 是 $\\vec a$ 与 $\\vec b$ 垂直的充要条件 $\\vec a\\cdot\\vec b=0$ 是 $\\vec a$ 与 $\\vec b$ 平行的充要条件 两向量平行的充要条件是其对应分量成比例。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程初值问题 $\\begin{cases}y\\prime\\prime-y=4\\sin t+5\\cos2t,\\\\y(0)=-1,\\ y\\prime(0)=-2\\end{cases}$ 的解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2\\sin t-\\cos2t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\sin t+\\cos2t-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\sin t+\\cos2t-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\sin t-\\cos2t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar y(s)=-\\dfrac2{s^2+1}-\\dfrac{s}{s^2+4}$，所以 $y(t)=-2\\sin t-\\cos2t$。",
+  "search_text": "微分方程初值问题 $\\begin{cases}y\\prime\\prime-y=4\\sin t+5\\cos2t,\\\\y(0)=-1,\\ y\\prime(0)=-2\\end{cases}$ 的解为（ ）。 $-2\\sin t-\\cos2t$ $2\\sin t+\\cos2t-2$ $-2\\sin t+\\cos2t-2$ $2\\sin t-\\cos2t$ $\\bar y(s)=-\\dfrac2{s^2+1}-\\dfrac{s}{s^2+4}$，所以 $y(t)=-2\\sin t-\\cos2t$。",
+  "sort_order": 11
+}

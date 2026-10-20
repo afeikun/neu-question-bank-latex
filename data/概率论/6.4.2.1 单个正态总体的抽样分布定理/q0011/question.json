@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体样本，下列结论不成立的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum X_i$与$\\sum X_i^2$独立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X$与$\\sum(X_i-\\bar X)^2$独立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X_i$与$X_j$独立（$i\\ne j$）"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X$与$\\sum(X_i-\\bar X)^2$独立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本和与样本平方和通常不独立，选项1不成立。",
+  "search_text": "正态总体样本，下列结论不成立的是（）。 $\\sum X_i$与$\\sum X_i^2$独立 $\\bar X$与$\\sum(X_i-\\bar X)^2$独立 $X_i$与$X_j$独立（$i\\ne j$） $\\bar X$与$\\sum(X_i-\\bar X)^2$独立 样本和与样本平方和通常不独立，选项1不成立。",
+  "sort_order": 11
+}

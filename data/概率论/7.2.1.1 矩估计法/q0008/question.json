@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$在$1,2,\\ldots,\\theta$等概率取值，求$\\theta$矩估计。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\bar X-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\bar X$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\bar X+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\bar X+3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X)=(\\theta+1)/2=\\bar X$，解得$\\hat\\theta=2\\bar X-1$。",
+  "search_text": "$X$在$1,2,\\ldots,\\theta$等概率取值，求$\\theta$矩估计。 $2\\bar X-1$ $2\\bar X$ $2\\bar X+1$ $2\\bar X+3$ $E(X)=(\\theta+1)/2=\\bar X$，解得$\\hat\\theta=2\\bar X-1$。",
+  "sort_order": 8
+}

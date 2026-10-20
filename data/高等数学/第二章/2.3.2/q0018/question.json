@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=\\ln(1+x)$，则 $y^{(n)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$(-1)^n(n-1)!/(1+x)^n$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$(-1)^{n-1}(n-1)!/(1+x)^n$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$(-1)^{n-1}n!/(1+x)^n$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$(-1)^n n!/(1+x)^n$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "反复求导得 $(-1)^{n-1}(n-1)!/(1+x)^n$。",
+  "search_text": "$y=\\ln(1+x)$，则 $y^{(n)}=$（ ）。 $$(-1)^n(n-1)!/(1+x)^n$$ $$(-1)^{n-1}(n-1)!/(1+x)^n$$ $$(-1)^{n-1}n!/(1+x)^n$$ $$(-1)^n n!/(1+x)^n$$ 反复求导得 $(-1)^{n-1}(n-1)!/(1+x)^n$。",
+  "sort_order": 18
+}

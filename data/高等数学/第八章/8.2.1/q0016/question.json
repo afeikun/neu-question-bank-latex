@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega$ 为正方体 $0\\leq x,y,z\\leq1$，$f(x,y,z)$ 在 $\\Omega$ 上可积，哪一式为三重积分 $\\iiint_\\Omega f(x,y,z)dv$ 的值（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim\\limits_{n\\to\\infty}\\sum_{i,j,k=1}^nf(\\frac in,\\frac jn,\\frac kn)(\\frac1n)^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim\\limits_{n\\to\\infty}\\sum_{i,j,k=1}^nf(\\frac in,\\frac jn,\\frac kn)(\\frac1n)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim\\limits_{n\\to\\infty}\\sum_{i=1}^nf(\\frac in,\\frac jn,\\frac kn)(\\frac1n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim\\limits_{n\\to\\infty}\\sum_{i=1}^nf(\\frac in,\\frac jn,\\frac kn)(\\frac1n)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由三重积分的概念易知应为\n\\[\n\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n\\sum_{k=1}^n f\\left(\\frac{i}{n},\\frac{j}{n},\\frac{k}{n}\\right)\\left(\\frac{1}{n}\\right)^3\n\\]",
+  "search_text": "设 $\\Omega$ 为正方体 $0\\leq x,y,z\\leq1$，$f(x,y,z)$ 在 $\\Omega$ 上可积，哪一式为三重积分 $\\iiint_\\Omega f(x,y,z)dv$ 的值（ ） $\\lim\\limits_{n\\to\\infty}\\sum_{i,j,k=1}^nf(\\frac in,\\frac jn,\\frac kn)(\\frac1n)^3$ $\\lim\\limits_{n\\to\\infty}\\sum_{i,j,k=1}^nf(\\frac in,\\frac jn,\\frac kn)(\\frac1n)^2$ $\\lim\\limits_{n\\to\\infty}\\sum_{i=1}^nf(\\frac in,\\frac jn,\\frac kn)(\\frac1n)$ $\\lim\\limits_{n\\to\\infty}\\sum_{i=1}^nf(\\frac in,\\frac jn,\\frac kn)(\\frac1n)^2$ 由三重积分的概念易知应为\n\\[\n\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n\\sum_{k=1}^n f\\left(\\frac{i}{n},\\frac{j}{n},\\frac{k}{n}\\right)\\left(\\frac{1}{n}\\right)^3\n\\]",
+  "sort_order": 16
+}

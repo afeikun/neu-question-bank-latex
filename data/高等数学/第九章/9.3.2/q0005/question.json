@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_L\\frac{y\\,dx-x\\,dy}{x^2+y^2}$，$L$ 为上半圆 $y=\\sqrt{R^2-x^2}$ 从 $A(-R,0)$ 到 $B(R,0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi{16}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "原式$$=\\frac{1}{R^2}\\int_\\pi^0(-R^2\\sin^2\\theta-R^2\\cos^2\\theta)d\\theta=\\pi$$",
+  "search_text": "计算 $\\int_L\\frac{y\\,dx-x\\,dy}{x^2+y^2}$，$L$ 为上半圆 $y=\\sqrt{R^2-x^2}$ 从 $A(-R,0)$ 到 $B(R,0)$。 $\\frac\\pi{16}$ $\\pi$ $-\\pi$ $\\frac\\pi2$ 原式$$=\\frac{1}{R^2}\\int_\\pi^0(-R^2\\sin^2\\theta-R^2\\cos^2\\theta)d\\theta=\\pi$$",
+  "sort_order": 5
+}

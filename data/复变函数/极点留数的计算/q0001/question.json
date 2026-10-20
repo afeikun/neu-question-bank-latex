@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z_0$ 是 $f(z)$ 的 $m$ 级零点，是 $g(z)$ 的 $n$ 级零点（$m,n$ 为自然数），当 $m<n$ 时，$f(z)/g(z)$ 在 $z_0$ 处的留数计算公式是 $\\operatorname{Res}\\left[\\dfrac{f(z)}{g(z)},z_0\\right]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1{(n-m-1)!}\\lim_{z\\to z_0}\\dfrac{d^{n-m-1}}{dz^{n-m-1}}\\left[(z-z_0)^{n-m}\\dfrac{f(z)}{g(z)}\\right]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1{(n-m-1)!}\\lim_{z\\to z_0}\\dfrac{d^{n-m-1}}{dz^{n-m-1}}\\left[(z-z_0)^{n-m-1}\\dfrac{f(z)}{g(z)}\\right]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1{(n-m)!}\\lim_{z\\to z_0}\\dfrac{d^{n-m}}{dz^{n-m}}\\left[(z-z_0)^{n-m}\\dfrac{f(z)}{g(z)}\\right]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac1{(n-m-1)!}\\lim_{z\\to z_0}\\dfrac{d^{n-m-1}}{dz^{n-m-1}}\\left[(z-z_0)^{-n}\\dfrac{f(z)}{g(z)}\\right]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z_0$ 是 $f/g$ 的 $n-m$ 级极点，按高阶极点留数公式即得所示表达式。",
+  "search_text": "设 $z_0$ 是 $f(z)$ 的 $m$ 级零点，是 $g(z)$ 的 $n$ 级零点（$m,n$ 为自然数），当 $m<n$ 时，$f(z)/g(z)$ 在 $z_0$ 处的留数计算公式是 $\\operatorname{Res}\\left[\\dfrac{f(z)}{g(z)},z_0\\right]=(\\ \\ )$。 $\\dfrac1{(n-m-1)!}\\lim_{z\\to z_0}\\dfrac{d^{n-m-1}}{dz^{n-m-1}}\\left[(z-z_0)^{n-m}\\dfrac{f(z)}{g(z)}\\right]$ $\\dfrac1{(n-m-1)!}\\lim_{z\\to z_0}\\dfrac{d^{n-m-1}}{dz^{n-m-1}}\\left[(z-z_0)^{n-m-1}\\dfrac{f(z)}{g(z)}\\right]$ $\\dfrac1{(n-m)!}\\lim_{z\\to z_0}\\dfrac{d^{n-m}}{dz^{n-m}}\\left[(z-z_0)^{n-m}\\dfrac{f(z)}{g(z)}\\right]$ $\\dfrac1{(n-m-1)!}\\lim_{z\\to z_0}\\dfrac{d^{n-m-1}}{dz^{n-m-1}}\\left[(z-z_0)^{-n}\\dfrac{f(z)}{g(z)}\\right]$ $z_0$ 是 $f/g$ 的 $n-m$ 级极点，按高阶极点留数公式即得所示表达式。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "有一段铁丝被弯成半圆形，$x=a\\cos t,y=a\\sin t,t\\in[0,\\pi]$，其上每一点 $(x,y)$ 的密度等于该点纵坐标平方，铁丝质量 $M=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi a^3}{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $\\rho(x,y)=y^2，M=\\int_L\\rho(x,y)ds=\\int_Ly^2ds$\n\n$$\n=\\int_0^\\pi a^2\\sin^2t\\sqrt{(a\\cos t)'^2+(a\\sin t)'^2}\\,dt=a^3\\int_0^\\pi\\sin^2t\\,dt\n$$\n\n$$\n=2a^3\\int_0^{\\frac{\\pi}{2}}\\sin^2t\\,dt=\\frac{1}{2}\\pi a^3.\n$$",
+  "search_text": "有一段铁丝被弯成半圆形，$x=a\\cos t,y=a\\sin t,t\\in[0,\\pi]$，其上每一点 $(x,y)$ 的密度等于该点纵坐标平方，铁丝质量 $M=$（ ） $\\frac\\pi2a^3$ $2a^2$ $2\\pi a^2$ $\\frac{\\pi a^3}{4}$ 解答 $\\rho(x,y)=y^2，M=\\int_L\\rho(x,y)ds=\\int_Ly^2ds$\n\n$$\n=\\int_0^\\pi a^2\\sin^2t\\sqrt{(a\\cos t)'^2+(a\\sin t)'^2}\\,dt=a^3\\int_0^\\pi\\sin^2t\\,dt\n$$\n\n$$\n=2a^3\\int_0^{\\frac{\\pi}{2}}\\sin^2t\\,dt=\\frac{1}{2}\\pi a^3.\n$$",
+  "sort_order": 36
+}

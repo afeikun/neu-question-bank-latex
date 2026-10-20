@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 为球面 $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ 的外侧，则 $\\iint_\\Sigma z\\,dx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43\\pi R^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23\\pi R^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：这里 $R=z$，由高斯公式得 $\\oiint_{\\Sigma}zdxdy=\\iiint_{\\Omega}1dv=\\frac{4}{3}\\pi R^3.$",
+  "search_text": "设 $\\Sigma$ 为球面 $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ 的外侧，则 $\\iint_\\Sigma z\\,dx\\,dy=$（ ） $\\frac43\\pi R^3$ $\\frac23\\pi R^3$ $\\pi$ $0$ 解析：这里 $R=z$，由高斯公式得 $\\oiint_{\\Sigma}zdxdy=\\iiint_{\\Omega}1dv=\\frac{4}{3}\\pi R^3.$",
+  "sort_order": 26
+}

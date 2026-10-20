@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$k$台仪器观测同一真值$\\theta$，观测方差$\\sigma_i^2$，线性无偏估计方差最小时权重为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a_i=\\sigma_0^2/\\sigma_i^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a_i=\\sigma_0/\\sigma_i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a_i=\\sigma_i^2/\\sigma_i^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a_i=\\sigma_0^2/\\sigma_i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "最优权重与观测方差倒数成正比，并令权重和为1。",
+  "search_text": "$k$台仪器观测同一真值$\\theta$，观测方差$\\sigma_i^2$，线性无偏估计方差最小时权重为（）。 $a_i=\\sigma_0^2/\\sigma_i^2$ $a_i=\\sigma_0/\\sigma_i$ $a_i=\\sigma_i^2/\\sigma_i^2$ $a_i=\\sigma_0^2/\\sigma_i$ 最优权重与观测方差倒数成正比，并令权重和为1。",
+  "sort_order": 8
+}

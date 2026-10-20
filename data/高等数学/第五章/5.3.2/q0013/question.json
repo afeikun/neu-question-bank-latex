@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 (1) $\\sum_{n=1}^{\\infty}(-1)^{n+1}/n$ 与 (2) $\\sum_{n=1}^{\\infty}1/n$，正确说法是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)收敛(2)发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "全发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)发散(2)收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "全收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "交错调和级数收敛，调和级数发散。",
+  "search_text": "已知 (1) $\\sum_{n=1}^{\\infty}(-1)^{n+1}/n$ 与 (2) $\\sum_{n=1}^{\\infty}1/n$，正确说法是？ (1)收敛(2)发散 全发散 (1)发散(2)收敛 全收敛 交错调和级数收敛，调和级数发散。",
+  "sort_order": 13
+}

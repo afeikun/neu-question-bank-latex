@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\displaystyle\\oint_{|z|=1}z\\tan(\\pi z)\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1{2\\pi}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内极点为 $z=\\pm1/2$，$z\\tan(\\pi z)$ 在两点留数分别为 $-1/(2\\pi)$ 与 $1/(2\\pi)$，相加为 $0$。",
+  "search_text": "积分 $\\displaystyle\\oint_{|z|=1}z\\tan(\\pi z)\\,dz=(\\ \\ )$。 $0$ $\\pi i$ $\\dfrac1{2\\pi}$ $2\\pi i$ 圆内极点为 $z=\\pm1/2$，$z\\tan(\\pi z)$ 在两点留数分别为 $-1/(2\\pi)$ 与 $1/(2\\pi)$，相加为 $0$。",
+  "sort_order": 70
+}

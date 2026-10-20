@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设事件$A$与$B$相互独立，事件$B$与$C$互不相容，事件$A$与$C$互不相容，且$P(A)=P(B)=0.5$，$P(C)=0.2$，则事件$A,B,C$中仅$C$发生或仅$C$不发生的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.45$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.25$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.70$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由互斥关系可化简所求事件，概率为$P(C)+P(AB)=0.2+0.5\\times0.5=0.45$。",
+  "search_text": "设事件$A$与$B$相互独立，事件$B$与$C$互不相容，事件$A$与$C$互不相容，且$P(A)=P(B)=0.5$，$P(C)=0.2$，则事件$A,B,C$中仅$C$发生或仅$C$不发生的概率为（ ）。 $0.45$ $0.25$ $0.4$ $0.70$ 由互斥关系可化简所求事件，概率为$P(C)+P(AB)=0.2+0.5\\times0.5=0.45$。",
+  "sort_order": 4
+}

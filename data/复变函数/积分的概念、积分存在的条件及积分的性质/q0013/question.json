@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\int_C z\\operatorname{Im}(z^2)\\,dz$ 等于（ ），$C$ 为直线 $|\\operatorname{Im}z|\\le1,\\operatorname{Re}z=2$，从 $2-i$ 到 $2+i$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac83$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac43$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=2+it$，$-1\\le t\\le1$，按源解析积分得 $-8/3$。",
+  "search_text": "积分 $\\int_C z\\operatorname{Im}(z^2)\\,dz$ 等于（ ），$C$ 为直线 $|\\operatorname{Im}z|\\le1,\\operatorname{Re}z=2$，从 $2-i$ 到 $2+i$。 $-\\frac83$ $-\\frac43$ $0$ $2i$ 令 $z=2+it$，$-1\\le t\\le1$，按源解析积分得 $-8/3$。",
+  "sort_order": 13
+}

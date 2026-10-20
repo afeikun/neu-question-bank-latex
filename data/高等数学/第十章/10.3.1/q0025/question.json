@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $(x-2)\\frac{dy}{dx}=y+2(x-2)^3$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=cx^2+(x-2)^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=c(x-2)+(x-2)^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=(x-2)-c(x-2)^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=cx+(x-2)^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程可化为 $y'-\\frac{1}{x-2}y=2(x-2)^2$\n\n所以 $y=e^{\\int\\frac{1}{x-2}\\,dx}\\left[c+\\int2(x-2)^2e^{-\\ln(x-2)}\\,dx\\right]$\n\n$$=(x-2)\\left[c+\\int2(x-2)\\,dx\\right]=c(x-2)+(x-2)^3$$",
+  "search_text": "微分方程 $(x-2)\\frac{dy}{dx}=y+2(x-2)^3$ 的通解为（ ） $y=cx^2+(x-2)^3$ $y=c(x-2)+(x-2)^3$ $y=(x-2)-c(x-2)^3$ $y=cx+(x-2)^3$ 方程可化为 $y'-\\frac{1}{x-2}y=2(x-2)^2$\n\n所以 $y=e^{\\int\\frac{1}{x-2}\\,dx}\\left[c+\\int2(x-2)^2e^{-\\ln(x-2)}\\,dx\\right]$\n\n$$=(x-2)\\left[c+\\int2(x-2)\\,dx\\right]=c(x-2)+(x-2)^3$$",
+  "sort_order": 25
+}

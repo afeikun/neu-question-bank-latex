@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两平行直线 $l_1:\\begin{cases}x=t+1\\\\y=2t-1\\\\z=t\\end{cases}$ 与 $l_2:\\begin{cases}x=t+2\\\\y=2t-1\\\\z=t+1\\end{cases}$ 间的距离为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{3\\sqrt3}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2\\sqrt3}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt3}{3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：$l_1$ 与 $l_2$ 上分别取一点 $P(1,-1,0)，Q(2,-1,1)$，则 $\\overrightarrow{PQ}=(1,0,1)$，因两直线平行，所以 $P(1,-1,0)$ 到 $l_2$ 的距离即为两平行直线间距离，由 $\\vec{s}=(1,2,1)$，有\n$$\n\\vec{s}\\times\\overrightarrow{PQ}=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&2&1\\\\1&0&1\\end{vmatrix}=(2,0,-2)\\Rightarrow |\\vec{s}\\times\\overrightarrow{PQ}|=2\\sqrt{2}，\n$$\n因此由点线距离公式可得两平行直线间的距离\n$$\nd=\\frac{|\\vec{s}\\times\\overrightarrow{PQ}|}{|\\vec{s}|}=\\frac{2\\sqrt{2}}{\\sqrt{6}}=\\frac{2\\sqrt{3}}{3}。\n$$",
+  "search_text": "两平行直线 $l_1:\\begin{cases}x=t+1\\\\y=2t-1\\\\z=t\\end{cases}$ 与 $l_2:\\begin{cases}x=t+2\\\\y=2t-1\\\\z=t+1\\end{cases}$ 间的距离为(\\quad)。 $\\sqrt3$ $\\frac{3\\sqrt3}{3}$ $\\frac{2\\sqrt3}{3}$ $\\frac{\\sqrt3}{3}$ 解答：$l_1$ 与 $l_2$ 上分别取一点 $P(1,-1,0)，Q(2,-1,1)$，则 $\\overrightarrow{PQ}=(1,0,1)$，因两直线平行，所以 $P(1,-1,0)$ 到 $l_2$ 的距离即为两平行直线间距离，由 $\\vec{s}=(1,2,1)$，有\n$$\n\\vec{s}\\times\\overrightarrow{PQ}=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&2&1\\\\1&0&1\\end{vmatrix}=(2,0,-2)\\Rightarrow |\\vec{s}\\times\\overrightarrow{PQ}|=2\\sqrt{2}，\n$$\n因此由点线距离公式可得两平行直线间的距离\n$$\nd=\\frac{|\\vec{s}\\times\\overrightarrow{PQ}|}{|\\vec{s}|}=\\frac{2\\sqrt{2}}{\\sqrt{6}}=\\frac{2\\sqrt{3}}{3}。\n$$",
+  "sort_order": 28
+}

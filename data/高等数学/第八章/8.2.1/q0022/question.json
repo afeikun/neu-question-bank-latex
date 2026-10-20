@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设均匀薄片（面密度为1）所占闭区域 $D=\\{(x,y)|x^2/a^2+y^2/b^2\\leq1,y\\geq0\\}$，则质心为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,\\frac{2b}{3\\pi})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(a,\\frac{4b}{3\\pi})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0,\\frac b{3\\pi})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,\\frac{4b}{3\\pi})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "根据对称性知\n\\[\n\\bar{x}=0,A=\\iint_D1dxdy=\\frac{\\pi ab}{2};\n\\]\n\\[\n\\bar{y}=\\frac{1}{A}\\iint_Dydxdy=\\frac{1}{A}\\int_{-a}^adx\\int_0^{b\\sqrt{1-\\frac{x^2}{a^2}}}ydy=\\frac{4b}{3\\pi}.\n\\]",
+  "search_text": "设均匀薄片（面密度为1）所占闭区域 $D=\\{(x,y)|x^2/a^2+y^2/b^2\\leq1,y\\geq0\\}$，则质心为（ ） $(0,\\frac{2b}{3\\pi})$ $(a,\\frac{4b}{3\\pi})$ $(0,\\frac b{3\\pi})$ $(0,\\frac{4b}{3\\pi})$ 根据对称性知\n\\[\n\\bar{x}=0,A=\\iint_D1dxdy=\\frac{\\pi ab}{2};\n\\]\n\\[\n\\bar{y}=\\frac{1}{A}\\iint_Dydxdy=\\frac{1}{A}\\int_{-a}^adx\\int_0^{b\\sqrt{1-\\frac{x^2}{a^2}}}ydy=\\frac{4b}{3\\pi}.\n\\]",
+  "sort_order": 22
+}

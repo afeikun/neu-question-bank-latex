@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "灯管寿命$X\\sim N(1000,\\sigma^2)$，10支中至少7支寿命超过1000小时的概率表达式。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{k=7}^{10}\\binom{10}k(1/2)^7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\binom{10}7(1/2)^7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-\\sum_{k=0}^6\\binom{10}k(1/2)^{10}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "单支超过均值概率$1/2$，二项分布尾和为$\\sum_{k=7}^{10}\\binom{10}k(1/2)^{10}$，与选项3等价。",
+  "search_text": "灯管寿命$X\\sim N(1000,\\sigma^2)$，10支中至少7支寿命超过1000小时的概率表达式。 $\\sum_{k=7}^{10}\\binom{10}k(1/2)^7$ $\\binom{10}7(1/2)^7$ $1-\\sum_{k=0}^6\\binom{10}k(1/2)^{10}$ $0.7$ 单支超过均值概率$1/2$，二项分布尾和为$\\sum_{k=7}^{10}\\binom{10}k(1/2)^{10}$，与选项3等价。",
+  "sort_order": 11
+}

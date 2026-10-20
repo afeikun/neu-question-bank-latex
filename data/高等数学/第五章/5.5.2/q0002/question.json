@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $1/((x-10)(x-5))$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{2^4}\\sum_{n=0}^{\\infty}(x/2)^n+\\frac1{10^{n+1}}\\sum_{n=0}^{\\infty} x^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{2^4}\\sum_{n=0}^{\\infty}(x/2)^n-\\frac1{10^{n+1}}\\sum_{n=0}^{\\infty} x^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{2^4}\\sum_{n=0}^{\\infty}(x/2)^n+\\frac1{10^{n+1}}\\sum_{n=0}^{\\infty} x^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{2^4}\\sum_{n=0}^{\\infty}(x/2)^n-\\frac1{10^{n+1}}\\sum_{n=0}^{\\infty} x^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "作部分分式后分别用几何级数展开，按题图取其对应选项。",
+  "search_text": "将 $1/((x-10)(x-5))$ 展开成 $x$ 的幂级数。 $\\frac1{2^4}\\sum_{n=0}^{\\infty}(x/2)^n+\\frac1{10^{n+1}}\\sum_{n=0}^{\\infty} x^n$ $\\frac1{2^4}\\sum_{n=0}^{\\infty}(x/2)^n-\\frac1{10^{n+1}}\\sum_{n=0}^{\\infty} x^n$ $\\frac1{2^4}\\sum_{n=0}^{\\infty}(x/2)^n+\\frac1{10^{n+1}}\\sum_{n=0}^{\\infty} x^n$ $\\frac1{2^4}\\sum_{n=0}^{\\infty}(x/2)^n-\\frac1{10^{n+1}}\\sum_{n=0}^{\\infty} x^n$ 作部分分式后分别用几何级数展开，按题图取其对应选项。",
+  "sort_order": 2
+}

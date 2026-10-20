@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal{L}^{-1}[\\frac{1+e^{-2s}}{s^2}]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t+(t-2)u(t-2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2(t-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$t+te^{-2t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t+te^{2t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由第二平移定理，结果为 $t+(t-2)u(t-2)$。",
+  "search_text": "$\\mathcal{L}^{-1}[\\frac{1+e^{-2s}}{s^2}]=(\\quad).$ $t+(t-2)u(t-2)$ $2(t-1)$ $t+te^{-2t}$ $t+te^{2t}$ 由第二平移定理，结果为 $t+(t-2)u(t-2)$。",
+  "sort_order": 26
+}

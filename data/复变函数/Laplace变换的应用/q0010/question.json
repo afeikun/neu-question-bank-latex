@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分方程 $y=a\\sin bt+c\\displaystyle\\int_0^t y(\\tau)\\sin b(t-\\tau)\\,d\\tau$ 的解为（ ），其中常数 $b>c>0$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y(t)=\\dfrac{ab}{\\sqrt{b^2-bc}}\\sin\\left(\\sqrt{b^2-bc}\\,t\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y(t)=\\dfrac{ab}{\\sqrt{b^2-bc}}\\cos\\left(\\sqrt{b^2-bc}\\,t\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y(t)=\\dfrac{ab}{\\sqrt{b^2+bc}}\\sin\\left(\\sqrt{b^2+bc}\\,t\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y(t)=\\dfrac{ab}{\\sqrt{b^2+bc}}\\cos\\left(\\sqrt{b^2+bc}\\,t\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 Laplace 变换的卷积性质，$Y(s)=\\dfrac{ab}{s^2+b^2}+cY(s)\\dfrac b{s^2+b^2}$，故 $Y(s)=\\dfrac{ab}{s^2+(b^2-bc)}$，逆变换即为选项 1。",
+  "search_text": "积分方程 $y=a\\sin bt+c\\displaystyle\\int_0^t y(\\tau)\\sin b(t-\\tau)\\,d\\tau$ 的解为（ ），其中常数 $b>c>0$。 $y(t)=\\dfrac{ab}{\\sqrt{b^2-bc}}\\sin\\left(\\sqrt{b^2-bc}\\,t\\right)$ $y(t)=\\dfrac{ab}{\\sqrt{b^2-bc}}\\cos\\left(\\sqrt{b^2-bc}\\,t\\right)$ $y(t)=\\dfrac{ab}{\\sqrt{b^2+bc}}\\sin\\left(\\sqrt{b^2+bc}\\,t\\right)$ $y(t)=\\dfrac{ab}{\\sqrt{b^2+bc}}\\cos\\left(\\sqrt{b^2+bc}\\,t\\right)$ 由 Laplace 变换的卷积性质，$Y(s)=\\dfrac{ab}{s^2+b^2}+cY(s)\\dfrac b{s^2+b^2}$，故 $Y(s)=\\dfrac{ab}{s^2+(b^2-bc)}$，逆变换即为选项 1。",
+  "sort_order": 10
+}

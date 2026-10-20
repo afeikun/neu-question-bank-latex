@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由抛物面 $x^2+y^2=2z$ 及平面 $z=5$ 所成的区域，则三重积分 $\\iiint_\\Omega(x^2+y^2+x)\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1000}{3}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$250\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{250}{3}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{500}{3}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "积分区域关于 $yoz$ 面对称，所以 $\\iiint_{\\Omega}xdv=0$，在柱面坐标变换下积分区域 $\\Omega$ 可以表示为：$0\\leq\\theta\\leq2\\pi$，$0\\leq r\\leq\\sqrt{10}$，$\\frac{r^2}{2}\\leq z\\leq5$\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{10}}r^3dr\\int_{\\frac{r^2}{2}}^5dz=\\frac{250}{3}\\pi$",
+  "search_text": "$\\Omega$ 是由抛物面 $x^2+y^2=2z$ 及平面 $z=5$ 所成的区域，则三重积分 $\\iiint_\\Omega(x^2+y^2+x)\\,dv$ 的值为（ ） $\\frac{1000}{3}\\pi$ $250\\pi$ $\\frac{250}{3}\\pi$ $\\frac{500}{3}\\pi$ 积分区域关于 $yoz$ 面对称，所以 $\\iiint_{\\Omega}xdv=0$，在柱面坐标变换下积分区域 $\\Omega$ 可以表示为：$0\\leq\\theta\\leq2\\pi$，$0\\leq r\\leq\\sqrt{10}$，$\\frac{r^2}{2}\\leq z\\leq5$\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{10}}r^3dr\\int_{\\frac{r^2}{2}}^5dz=\\frac{250}{3}\\pi$",
+  "sort_order": 4
+}

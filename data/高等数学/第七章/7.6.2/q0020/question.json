@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $xy+yz+zx=11$ 在点 $(1,2,3)$ 的切平面方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5(x-3)+4(y-2)+3(z-1)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5(x-1)+4(y-2)+3(z-3)=11$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x-1}{5}=\\frac{y-2}{4}=\\frac{z-3}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5(x-1)+4(y-2)+3(z-3)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=xy+yz+zx-11$，则 $F_x(1,2,3)=y+z=5$，$F_y(1,2,3)=x+z=4$，$F_z(1,2,3)=y+z=3$，\n\n则切平面方程为：$5(x-1)+4(y-2)+3(z-3)=0$。",
+  "search_text": "曲面 $xy+yz+zx=11$ 在点 $(1,2,3)$ 的切平面方程为。 $5(x-3)+4(y-2)+3(z-1)=0$ $5(x-1)+4(y-2)+3(z-3)=11$ $\\frac{x-1}{5}=\\frac{y-2}{4}=\\frac{z-3}{3}$ $5(x-1)+4(y-2)+3(z-3)=0$ 设 $F(x,y,z)=xy+yz+zx-11$，则 $F_x(1,2,3)=y+z=5$，$F_y(1,2,3)=x+z=4$，$F_z(1,2,3)=y+z=3$，\n\n则切平面方程为：$5(x-1)+4(y-2)+3(z-3)=0$。",
+  "sort_order": 20
+}

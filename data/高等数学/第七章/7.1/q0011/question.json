@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列两个函数在点 $(0,0)$ 处的连续性分别为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)不连续；(2)连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)(2)都不连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)连续；(2)不连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)(2)都连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "(1) 取路径 $p_1:\\begin{cases}y=0\\\\x\\to0\\end{cases}$，则 $\\lim_{\\substack{x\\to0\\\\y\\to0}}f(x,y)=0$；\n\n取路径 $p_2:\\begin{cases}y=e^{-\\frac{1}{x^2}}\\\\x\\to0\\end{cases}$，则 $\\lim_{\\substack{x\\to0\\\\y=e^{-1/x^2}}}f(x,y)=\\lim_{\\substack{x\\to0\\\\y=e^{-1/x^2}}}\\frac{1}{2}=\\frac{1}{2}$。\n\n故 $\\lim_{\\substack{x\\to0\\\\y\\to0}}f(x,y)$ 不存在，从而 $f(x,y)$ 在 $(0,0)$ 不连续。\n\n(2) 当 $x=0$ 时，$f(x,y)=0$，当 $x\\ne0$ 时，$|f(x,y)|=\\left|(x+y)\\cos\\frac{1}{x}\\right|\\le|x+y|，$\n\n故对 $\\forall(x,y)$ 都有 $|f(x,y)|\\le|x+y|$，又 $\\lim_{(x,y)\\to(0,0)}(x+y)=0$，故 $\\lim_{(x,y)\\to(0,0)}(x+y)=0=f(0,0)$，即 $f(x,y)$ 在 $(0,0)$ 点连续。",
+  "search_text": "下列两个函数在点 $(0,0)$ 处的连续性分别为(\\quad)。 (1)不连续；(2)连续 (1)(2)都不连续 (1)连续；(2)不连续 (1)(2)都连续 (1) 取路径 $p_1:\\begin{cases}y=0\\\\x\\to0\\end{cases}$，则 $\\lim_{\\substack{x\\to0\\\\y\\to0}}f(x,y)=0$；\n\n取路径 $p_2:\\begin{cases}y=e^{-\\frac{1}{x^2}}\\\\x\\to0\\end{cases}$，则 $\\lim_{\\substack{x\\to0\\\\y=e^{-1/x^2}}}f(x,y)=\\lim_{\\substack{x\\to0\\\\y=e^{-1/x^2}}}\\frac{1}{2}=\\frac{1}{2}$。\n\n故 $\\lim_{\\substack{x\\to0\\\\y\\to0}}f(x,y)$ 不存在，从而 $f(x,y)$ 在 $(0,0)$ 不连续。\n\n(2) 当 $x=0$ 时，$f(x,y)=0$，当 $x\\ne0$ 时，$|f(x,y)|=\\left|(x+y)\\cos\\frac{1}{x}\\right|\\le|x+y|，$\n\n故对 $\\forall(x,y)$ 都有 $|f(x,y)|\\le|x+y|$，又 $\\lim_{(x,y)\\to(0,0)}(x+y)=0$，故 $\\lim_{(x,y)\\to(0,0)}(x+y)=0=f(0,0)$，即 $f(x,y)$ 在 $(0,0)$ 点连续。",
+  "sort_order": 11
+}

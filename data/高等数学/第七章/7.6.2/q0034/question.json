@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $3x^2+5y^2-2z=2$ 在 $(1,1,3)$ 处的法线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-1}{3}=\\frac{y-1}{5}=\\frac{z-3}{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-1}{5}=\\frac{y-1}{3}=\\frac{z+3}{1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x-1}{3}=\\frac{y-1}{5}=\\frac{z+3}{1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-1}{5}=\\frac{y-1}{3}=\\frac{z-3}{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=3x^2+5y^2-2z-2$，则：\n\n$$F_x(x,y,z)=6x,\\quad F_y(x,y,z)=10y,\\quad F_z(x,y,z)=-2,$$\n\n$$F_x(1,1,3)=6,\\quad F_y(1,1,3)=10,\\quad F_z(1,1,3)=-2,$$\n\n在点 $(1,1,3)$ 处的法线方程为：\n\n$$\\frac{x-1}{6}=\\frac{y-1}{10}=\\frac{z-3}{-2}，\\quad 即\\frac{x-1}{3}=\\frac{y-1}{5}=\\frac{z-3}{-1}。$$",
+  "search_text": "曲面 $3x^2+5y^2-2z=2$ 在 $(1,1,3)$ 处的法线方程为。 $\\frac{x-1}{3}=\\frac{y-1}{5}=\\frac{z-3}{-1}$ $\\frac{x-1}{5}=\\frac{y-1}{3}=\\frac{z+3}{1}$ $\\frac{x-1}{3}=\\frac{y-1}{5}=\\frac{z+3}{1}$ $\\frac{x-1}{5}=\\frac{y-1}{3}=\\frac{z-3}{-1}$ 设 $F(x,y,z)=3x^2+5y^2-2z-2$，则：\n\n$$F_x(x,y,z)=6x,\\quad F_y(x,y,z)=10y,\\quad F_z(x,y,z)=-2,$$\n\n$$F_x(1,1,3)=6,\\quad F_y(1,1,3)=10,\\quad F_z(1,1,3)=-2,$$\n\n在点 $(1,1,3)$ 处的法线方程为：\n\n$$\\frac{x-1}{6}=\\frac{y-1}{10}=\\frac{z-3}{-2}，\\quad 即\\frac{x-1}{3}=\\frac{y-1}{5}=\\frac{z-3}{-1}。$$",
+  "sort_order": 34
+}

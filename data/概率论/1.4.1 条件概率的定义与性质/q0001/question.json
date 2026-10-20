@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $P(B)>0$，$A_1A_2=\\varnothing$，则下列各式不正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\overline A_1\\,\\overline A_2\\mid B)=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A_1\\cup A_2\\mid B)=P(A_1\\mid B)+P(A_2\\mid B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(A_1A_2\\mid B)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(\\overline A_1\\cup\\overline A_2\\mid B)=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "条件于 $B$ 后，互斥事件的并概率等于概率之和，交集概率为 0；但两个事件同时不发生的条件概率不一定为 1，故选项 1 不正确。",
+  "search_text": "已知 $P(B)>0$，$A_1A_2=\\varnothing$，则下列各式不正确的是(\\quad)。 $P(\\overline A_1\\,\\overline A_2\\mid B)=1$ $P(A_1\\cup A_2\\mid B)=P(A_1\\mid B)+P(A_2\\mid B)$ $P(A_1A_2\\mid B)=0$ $P(\\overline A_1\\cup\\overline A_2\\mid B)=1$ 条件于 $B$ 后，互斥事件的并概率等于概率之和，交集概率为 0；但两个事件同时不发生的条件概率不一定为 1，故选项 1 不正确。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量场 $A=xe^{yz}\\mathbf i+ye^{zx}\\mathbf j+ze^{xy}\\mathbf k$ 在点 $(2,-1,0)$ 处的旋度为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{2,-2,1\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{2,2,0\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{2,-2,0\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{2,-2,5\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "参考答案：\n$\\operatorname{rot}A=\\begin{vmatrix}\\vec{\\mathbf i}&\\vec{\\mathbf j}&\\vec{\\mathbf k}\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\xe^{yz}&ye^{zx}&ze^{xy}\\end{vmatrix}=\\{xze^{zx}-xye^{xy},xye^{xy}-yze^{yz},yze^{yz}-xze^{zx}\\}$\n\n$\\left.\\operatorname{rot}A\\right|_{(2,-1,0)}=\\{2,-2,0\\}$",
+  "search_text": "向量场 $A=xe^{yz}\\mathbf i+ye^{zx}\\mathbf j+ze^{xy}\\mathbf k$ 在点 $(2,-1,0)$ 处的旋度为（ ） $\\{2,-2,1\\}$ $\\{2,2,0\\}$ $\\{2,-2,0\\}$ $\\{2,-2,5\\}$ 参考答案：\n$\\operatorname{rot}A=\\begin{vmatrix}\\vec{\\mathbf i}&\\vec{\\mathbf j}&\\vec{\\mathbf k}\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\xe^{yz}&ye^{zx}&ze^{xy}\\end{vmatrix}=\\{xze^{zx}-xye^{xy},xye^{xy}-yze^{yz},yze^{yz}-xze^{zx}\\}$\n\n$\\left.\\operatorname{rot}A\\right|_{(2,-1,0)}=\\{2,-2,0\\}$",
+  "sort_order": 14
+}

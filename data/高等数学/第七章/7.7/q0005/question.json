@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $u=x^2+y^2+z^2$ 在曲线 $x=t,y=t^2,z=t^3$ 上点 $(1,1,1)$ 处沿切线正方向的方向导数为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-12"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac67\\sqrt{14}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "12"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac67\\sqrt{14}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial u}{\\partial x}\\right|_{(1,1,1)}=2，\\quad \\left.\\frac{\\partial u}{\\partial y}\\right|_{(1,1,1)}=2，\\quad \\left.\\frac{\\partial u}{\\partial z}\\right|_{(1,1,1)}=2$$\n\n$(1,1,1)$ 点的切线正方向为 $\\vec{l}=(1,2,3)$，函数沿该方向的方向导数为\n\n$$\\left.\\frac{\\partial u}{\\partial l}\\right|_{(1,1,1)}=2\\cdot\\frac{1}{\\sqrt{1^2+2^2+3^2}}+2\\cdot\\frac{2}{\\sqrt{1^2+2^2+3^2}}+2\\cdot\\frac{3}{\\sqrt{1^2+2^2+3^2}}=\\frac{6}{7}\\sqrt{14}$$",
+  "search_text": "函数 $u=x^2+y^2+z^2$ 在曲线 $x=t,y=t^2,z=t^3$ 上点 $(1,1,1)$ 处沿切线正方向的方向导数为。 -12 $-\\frac67\\sqrt{14}$ 12 $\\frac67\\sqrt{14}$ $$\\left.\\frac{\\partial u}{\\partial x}\\right|_{(1,1,1)}=2，\\quad \\left.\\frac{\\partial u}{\\partial y}\\right|_{(1,1,1)}=2，\\quad \\left.\\frac{\\partial u}{\\partial z}\\right|_{(1,1,1)}=2$$\n\n$(1,1,1)$ 点的切线正方向为 $\\vec{l}=(1,2,3)$，函数沿该方向的方向导数为\n\n$$\\left.\\frac{\\partial u}{\\partial l}\\right|_{(1,1,1)}=2\\cdot\\frac{1}{\\sqrt{1^2+2^2+3^2}}+2\\cdot\\frac{2}{\\sqrt{1^2+2^2+3^2}}+2\\cdot\\frac{3}{\\sqrt{1^2+2^2+3^2}}=\\frac{6}{7}\\sqrt{14}$$",
+  "sort_order": 5
+}

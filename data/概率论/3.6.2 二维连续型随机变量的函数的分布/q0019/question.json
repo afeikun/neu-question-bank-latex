@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$在$(-\\pi,\\pi]$均匀，$Y\\sim N(\\mu,\\sigma^2)$且独立，求$Z=X+Y$密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{2\\pi}[\\Phi((z+\\pi-\\mu)/\\sigma)-\\Phi((z-\\pi-\\mu)/\\sigma)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{2\\pi}[\\Phi((z+\\pi-\\mu)/\\sigma)-\\Phi((z-\\pi-\\mu)/\\sigma)]$系数误写"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{2\\pi}[\\Phi((z+\\mu)/\\sigma)-\\Phi((z-\\mu)/\\sigma)]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1\\pi[\\Phi((z+\\mu)/\\sigma)-\\Phi((z-\\mu)/\\sigma)]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "卷积积分正态密度于$[-\\pi,\\pi]$，得所列CDF差乘$1/(2\\pi)$。",
+  "search_text": "$X$在$(-\\pi,\\pi]$均匀，$Y\\sim N(\\mu,\\sigma^2)$且独立，求$Z=X+Y$密度。 $\\frac1{2\\pi}[\\Phi((z+\\pi-\\mu)/\\sigma)-\\Phi((z-\\pi-\\mu)/\\sigma)]$ $\\frac1{2\\pi}[\\Phi((z+\\pi-\\mu)/\\sigma)-\\Phi((z-\\pi-\\mu)/\\sigma)]$系数误写 $\\frac1{2\\pi}[\\Phi((z+\\mu)/\\sigma)-\\Phi((z-\\mu)/\\sigma)]$ $\\frac1\\pi[\\Phi((z+\\mu)/\\sigma)-\\Phi((z-\\mu)/\\sigma)]$ 卷积积分正态密度于$[-\\pi,\\pi]$，得所列CDF差乘$1/(2\\pi)$。",
+  "sort_order": 19
+}

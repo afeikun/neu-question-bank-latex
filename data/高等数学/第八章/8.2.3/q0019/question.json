@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 由球面 $z=\\sqrt{4-x^2-y^2}$ 与抛物面 $z=\\frac13(x^2+y^2)$ 所围成，则 $\\iiint_\\Omega z\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{13}{6}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{13}{4}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac94\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{13}{2}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两曲面交于平面 $z=1$ 上，交线在 $xoy$ 面上的投影区域为 $x^2+y^2\\leq 3$，所以：\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{3}}dr\\int_{\\frac{r^2}{3}}^{\\sqrt{4-r^2}}rz\\,dz$\n\n$=2\\pi\\int_0^{\\sqrt{3}}\\frac{1}{2}(4-r^2-\\frac{r^4}{9})r\\,dr$\n\n$=\\frac{13}{4}\\pi$",
+  "search_text": "$\\Omega$ 由球面 $z=\\sqrt{4-x^2-y^2}$ 与抛物面 $z=\\frac13(x^2+y^2)$ 所围成，则 $\\iiint_\\Omega z\\,dv$ 的值为（ ） $\\frac{13}{6}\\pi$ $\\frac{13}{4}\\pi$ $\\frac94\\pi$ $\\frac{13}{2}\\pi$ 两曲面交于平面 $z=1$ 上，交线在 $xoy$ 面上的投影区域为 $x^2+y^2\\leq 3$，所以：\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{3}}dr\\int_{\\frac{r^2}{3}}^{\\sqrt{4-r^2}}rz\\,dz$\n\n$=2\\pi\\int_0^{\\sqrt{3}}\\frac{1}{2}(4-r^2-\\frac{r^4}{9})r\\,dr$\n\n$=\\frac{13}{4}\\pi$",
+  "sort_order": 19
+}

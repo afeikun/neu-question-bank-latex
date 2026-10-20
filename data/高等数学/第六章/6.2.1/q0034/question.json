@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\vec a\\ne\\vec0$，且 $\\vec a\\cdot\\vec b=\\vec a\\cdot\\vec c$，由此必能推出(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\vec a\\perp(\\vec b-\\vec c)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\vec b-\\vec c=\\vec0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\vec a\\parallel(\\vec b-\\vec c)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\vec b=\\vec c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由条件得 $\\vec a\\cdot(\\vec b-\\vec c)=0$，即 $\\vec a\\perp(\\vec b-\\vec c)$。",
+  "search_text": "若 $\\vec a\\ne\\vec0$，且 $\\vec a\\cdot\\vec b=\\vec a\\cdot\\vec c$，由此必能推出(\\quad)。 $\\vec a\\perp(\\vec b-\\vec c)$ $\\vec b-\\vec c=\\vec0$ $\\vec a\\parallel(\\vec b-\\vec c)$ $\\vec b=\\vec c$ 由条件得 $\\vec a\\cdot(\\vec b-\\vec c)=0$，即 $\\vec a\\perp(\\vec b-\\vec c)$。",
+  "sort_order": 34
+}

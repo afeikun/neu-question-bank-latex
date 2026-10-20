@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x,y)=x^2+2xy+3y^2+ax+by+6$ 在 $(1,-1)$ 处取极值，求 $(a,b)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(5,1)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(0,4)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1,5)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(4,0)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $\\left\\{\\begin{aligned} f_x&=2x+2y+a\\\\ f_y&=2x+6y+b\\end{aligned}\\right.$，函数在点 $(1,-1)$ 处取得极值，则可得：\n\n$2\\cdot1+2\\cdot(-1)+a=0，\\quad 2\\cdot1+6\\cdot(-1)+b=0，\\quad 解得：\\quad a=0，b=4。$",
+  "search_text": "若 $f(x,y)=x^2+2xy+3y^2+ax+by+6$ 在 $(1,-1)$ 处取极值，求 $(a,b)$。 (5,1) (0,4) (1,5) (4,0) 由 $\\left\\{\\begin{aligned} f_x&=2x+2y+a\\\\ f_y&=2x+6y+b\\end{aligned}\\right.$，函数在点 $(1,-1)$ 处取得极值，则可得：\n\n$2\\cdot1+2\\cdot(-1)+a=0，\\quad 2\\cdot1+6\\cdot(-1)+b=0，\\quad 解得：\\quad a=0，b=4。$",
+  "sort_order": 18
+}

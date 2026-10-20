@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列级数中收敛的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\sqrt{(n+1)/n}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n n^{n+1}/(n+1)!$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}1/[(n+2)\\ln(n+2)]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}1/[\\ln(n+1)]^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "末项根值趋于0，故最后一个收敛；其他项不趋于零或与发散积分对应。",
+  "search_text": "下列级数中收敛的是哪一个？ $\\sum_{n=1}^{\\infty}\\sqrt{(n+1)/n}$ $\\sum_{n=1}^{\\infty}(-1)^n n^{n+1}/(n+1)!$ $\\sum_{n=1}^{\\infty}1/[(n+2)\\ln(n+2)]$ $\\sum_{n=1}^{\\infty}1/[\\ln(n+1)]^n$ 末项根值趋于0，故最后一个收敛；其他项不趋于零或与发散积分对应。",
+  "sort_order": 1
+}

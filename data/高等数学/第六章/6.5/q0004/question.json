@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "锥面 $z^2=x^2+\\frac{y^2}{16}$ 与 $yOz$ 面的交线为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "一点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "双曲线"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "椭圆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "一对相交直线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：$yOz$ 平面的方程为 $x=0$，带入锥面方程得 $y=\\pm4z$，即为 $yOz$ 面上的一对相交直线。",
+  "search_text": "锥面 $z^2=x^2+\\frac{y^2}{16}$ 与 $yOz$ 面的交线为(\\quad)。 一点 双曲线 椭圆 一对相交直线 解答：$yOz$ 平面的方程为 $x=0$，带入锥面方程得 $y=\\pm4z$，即为 $yOz$ 面上的一对相交直线。",
+  "sort_order": 4
+}

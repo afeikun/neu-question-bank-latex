@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)$ 在有界闭区域 $D$ 上连续是二重积分 $\\iint_Df(x,y)d\\sigma$ 存在的（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "即非充分条件又非必要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "充分条件，但非必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "必要条件，但非充分条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 函数 $f(x,y)$ 在有界闭区域 $D$ 上连续是二重积分 $\\iint_Df(x,y)d\\sigma$ 存在的充分条件，但非必要条件。",
+  "search_text": "函数 $f(x,y)$ 在有界闭区域 $D$ 上连续是二重积分 $\\iint_Df(x,y)d\\sigma$ 存在的（ ） 充分条件 即非充分条件又非必要条件 充分条件，但非必要条件 必要条件，但非充分条件 解答 函数 $f(x,y)$ 在有界闭区域 $D$ 上连续是二重积分 $\\iint_Df(x,y)d\\sigma$ 存在的充分条件，但非必要条件。",
+  "sort_order": 26
+}

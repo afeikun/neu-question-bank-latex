@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "应用二阶 Taylor 公式求 $\\sqrt[3]{30}$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3.407$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3.307$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3.207$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3.107$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $f(x)=(1+x)^{1/3}$，在 $x=0$ 用二阶 Taylor 公式，$\\sqrt[3]{30}=3(1+1/9)^{1/3}\\approx3.107$。",
+  "search_text": "应用二阶 Taylor 公式求 $\\sqrt[3]{30}$ 的近似值为 $(\\quad)$。 $3.407$ $3.307$ $3.207$ $3.107$ 令 $f(x)=(1+x)^{1/3}$，在 $x=0$ 用二阶 Taylor 公式，$\\sqrt[3]{30}=3(1+1/9)^{1/3}\\approx3.107$。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $\\Sigma:z=f(x,y)$ 的形心为 $(1,2,3)$，求 $\\frac{\\iint_\\Sigma z\\,dS}{\\iint_\\Sigma x\\,dS}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：$\\bar{x}=\\frac{\\iint_\\Sigma x\\,dS}{A}=1$，$\\bar{z}=\\frac{\\iint_\\Sigma z\\,dS}{A}=3$，$\\frac{\\iint_\\Sigma z\\,dS}{\\iint_\\Sigma x\\,dS}=3$",
+  "search_text": "曲面 $\\Sigma:z=f(x,y)$ 的形心为 $(1,2,3)$，求 $\\frac{\\iint_\\Sigma z\\,dS}{\\iint_\\Sigma x\\,dS}$。 $3$ $2\\pi$ $2$ $4$ 解答：$\\bar{x}=\\frac{\\iint_\\Sigma x\\,dS}{A}=1$，$\\bar{z}=\\frac{\\iint_\\Sigma z\\,dS}{A}=3$，$\\frac{\\iint_\\Sigma z\\,dS}{\\iint_\\Sigma x\\,dS}=3$",
+  "sort_order": 38
+}

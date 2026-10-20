@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由 $x^2+2y^2+3z^2+xy-z-9=0$ 确定，求驻点。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1,1)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(0,1)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1,0)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(0,0)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对方程分别关于 $x,y$ 求导得：$2x+6zz_x+y-z_x=0,\\quad 4y+6zz_y+x-z_y=0$，则\n\n$$z_x=\\frac{2x+y}{1-6z},\\quad z_y=\\frac{4y+x}{1-6z},$$\n\n令 $z_x=0,z_y=0$，则得驻点为：$(x,y)=(0,0)$。",
+  "search_text": "设 $z=z(x,y)$ 由 $x^2+2y^2+3z^2+xy-z-9=0$ 确定，求驻点。 (1,1) (0,1) (1,0) (0,0) 对方程分别关于 $x,y$ 求导得：$2x+6zz_x+y-z_x=0,\\quad 4y+6zz_y+x-z_y=0$，则\n\n$$z_x=\\frac{2x+y}{1-6z},\\quad z_y=\\frac{4y+x}{1-6z},$$\n\n令 $z_x=0,z_y=0$，则得驻点为：$(x,y)=(0,0)$。",
+  "sort_order": 8
+}

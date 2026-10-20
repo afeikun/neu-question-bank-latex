@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\vec a=(-3,2,1)$，$\\vec b=(2,1,-3)$，则 $\\sin(\\widehat{\\vec a,\\vec b})=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{\\sqrt3}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt3}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\cos(\\widehat{a,b})=\\frac{\\vec a\\cdot\\vec b}{|a||b|}=\\frac12$，故夹角为 $\\frac\\pi3$，正弦为 $\\frac{\\sqrt3}{2}$。",
+  "search_text": "$\\vec a=(-3,2,1)$，$\\vec b=(2,1,-3)$，则 $\\sin(\\widehat{\\vec a,\\vec b})=(\\quad)$。 $\\frac12$ $-\\frac12$ $-\\frac{\\sqrt3}{2}$ $\\frac{\\sqrt3}{2}$ $\\cos(\\widehat{a,b})=\\frac{\\vec a\\cdot\\vec b}{|a||b|}=\\frac12$，故夹角为 $\\frac\\pi3$，正弦为 $\\frac{\\sqrt3}{2}$。",
+  "sort_order": 28
+}

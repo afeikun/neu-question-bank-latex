@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平面 $3x-5z+1=0$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "平行于 $zox$ 面"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "平行于 $y$ 轴"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "平行于 $y$ 轴，但不通过 $y$ 轴"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "垂直于 $x$ 轴"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "法向量 $(3,0,-5)$ 垂直于 $y$ 轴，平面不含该轴，故平行于 $y$ 轴但不通过它。",
+  "search_text": "平面 $3x-5z+1=0$(\\quad)。 平行于 $zox$ 面 平行于 $y$ 轴 平行于 $y$ 轴，但不通过 $y$ 轴 垂直于 $x$ 轴 法向量 $(3,0,-5)$ 垂直于 $y$ 轴，平面不含该轴，故平行于 $y$ 轴但不通过它。",
+  "sort_order": 14
+}

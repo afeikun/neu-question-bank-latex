@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由曲面 $z=0,x+y+z=1,x^2+y^2=1$ 所围立体体积可表示为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无法表示"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iint_{x+y+z\\leq1}\\sqrt{1-x^2}dxdy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iint_{x+y+z\\leq1}\\sqrt{1-y^2}dxdy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iint_{x^2+y^2\\leq1}|1-x-y|dxdy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "所围立体视为以平面 $x+y+z=1$ 为顶，以 $xoy$ 面上的圆 $x^2+y^2=1(z=0)$ 为底的曲顶柱体。根据二重积分的几何意义，所求立体为\n\\[\nV=\\iint_{x^2+y^2\\leq1}|1-x-y|dxdy。\n\\]",
+  "search_text": "由曲面 $z=0,x+y+z=1,x^2+y^2=1$ 所围立体体积可表示为（ ） 无法表示 $\\iint_{x+y+z\\leq1}\\sqrt{1-x^2}dxdy$ $\\iint_{x+y+z\\leq1}\\sqrt{1-y^2}dxdy$ $\\iint_{x^2+y^2\\leq1}|1-x-y|dxdy$ 所围立体视为以平面 $x+y+z=1$ 为顶，以 $xoy$ 面上的圆 $x^2+y^2=1(z=0)$ 为底的曲顶柱体。根据二重积分的几何意义，所求立体为\n\\[\nV=\\iint_{x^2+y^2\\leq1}|1-x-y|dxdy。\n\\]",
+  "sort_order": 33
+}

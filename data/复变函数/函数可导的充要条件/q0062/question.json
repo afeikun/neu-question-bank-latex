@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "要使 $f(z)=(x^3+axy^2+by^3)+i(cx^3+dx^2y-y^3)$ 在复平面解析，则 $a,b,c,d$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=-d=-3, b=c=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=-d=3, b=c=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=d=0, b=c=-3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=d=0, b=c=3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "比较柯西－黎曼方程系数，源解析得 $a=-3,d=3,b=c=0$。",
+  "search_text": "要使 $f(z)=(x^3+axy^2+by^3)+i(cx^3+dx^2y-y^3)$ 在复平面解析，则 $a,b,c,d$ 为（ ）。 $a=-d=-3, b=c=0$ $a=-d=3, b=c=0$ $a=d=0, b=c=-3$ $a=d=0, b=c=3$ 比较柯西－黎曼方程系数，源解析得 $a=-3,d=3,b=c=0$。",
+  "sort_order": 62
+}

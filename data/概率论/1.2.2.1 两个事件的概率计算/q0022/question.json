@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$A,B$互不相容，且$P(A)=p$，$P(B)=q$，则$P((\\overline A\\cup B)\\cap(A\\cup\\overline B))=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-(p+q)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p+q-pq$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-q$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-p$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因$A,B$互斥，表达式化简为$\\overline{A\\cup B}$，故概率为$1-P(A\\cup B)=1-(p+q)$。",
+  "search_text": "设$A,B$互不相容，且$P(A)=p$，$P(B)=q$，则$P((\\overline A\\cup B)\\cap(A\\cup\\overline B))=(\\quad)$。 $1-(p+q)$ $p+q-pq$ $1-q$ $1-p$ 因$A,B$互斥，表达式化简为$\\overline{A\\cup B}$，故概率为$1-P(A\\cup B)=1-(p+q)$。",
+  "sort_order": 22
+}

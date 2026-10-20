@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u)$ 为可导函数，$y=f(e^x+e^{-x})$，则 $y\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-e^x+e^{-x})f(e^x+e^{-x})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(e^x-e^{-x})f\\prime(e^x+e^{-x})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(e^x+e^{-x})f\\prime(e^x+e^{-x})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-(e^x+e^{-x})f\\prime(e^x+e^{-x})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "链式法则得 $y\\prime=(e^x-e^{-x})f\\prime(e^x+e^{-x})$。",
+  "search_text": "设 $f(u)$ 为可导函数，$y=f(e^x+e^{-x})$，则 $y\\prime=$（ ）。 $(-e^x+e^{-x})f(e^x+e^{-x})$ $(e^x-e^{-x})f\\prime(e^x+e^{-x})$ $(e^x+e^{-x})f\\prime(e^x+e^{-x})$ $-(e^x+e^{-x})f\\prime(e^x+e^{-x})$ 链式法则得 $y\\prime=(e^x-e^{-x})f\\prime(e^x+e^{-x})$。",
+  "sort_order": 15
+}

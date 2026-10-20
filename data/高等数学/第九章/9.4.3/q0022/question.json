@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma:z=\\sqrt{1-x^2-y^2}$，$\\gamma$ 是其外法线与 $z$ 轴正向夹成的锐角，则 $I=\\iint_\\Sigma z^2\\cos\\gamma dS=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $\\displaystyle I=\\iint_{\\Sigma}z^2\\cos\\gamma\\,dS=\\iint_{\\Sigma}z^2\\,dxdy=\\iint_{D_{xy}}z^2\\,dxdy=\\iint_{D_{xy}}(1-x^2-y^2)\\,dxdy=\\int_0^{2\\pi}d\\theta\\int_0^1(1-r^2)r\\,dr=\\frac{\\pi}{2}$。\n\n图示：上半球面的坐标轴标为 $x,y,z$，各轴与球面的交点标为 $1$，朝外的法向量箭头标为 $\\vec n$。",
+  "search_text": "设 $\\Sigma:z=\\sqrt{1-x^2-y^2}$，$\\gamma$ 是其外法线与 $z$ 轴正向夹成的锐角，则 $I=\\iint_\\Sigma z^2\\cos\\gamma dS=$（ ） $3\\pi$ $\\frac\\pi2$ $\\pi$ $2\\pi$ 解答 $\\displaystyle I=\\iint_{\\Sigma}z^2\\cos\\gamma\\,dS=\\iint_{\\Sigma}z^2\\,dxdy=\\iint_{D_{xy}}z^2\\,dxdy=\\iint_{D_{xy}}(1-x^2-y^2)\\,dxdy=\\int_0^{2\\pi}d\\theta\\int_0^1(1-r^2)r\\,dr=\\frac{\\pi}{2}$。\n\n图示：上半球面的坐标轴标为 $x,y,z$，各轴与球面的交点标为 $1$，朝外的法向量箭头标为 $\\vec n$。",
+  "sort_order": 22
+}

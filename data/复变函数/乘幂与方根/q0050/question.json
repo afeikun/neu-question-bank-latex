@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "复数 $\\left(\\dfrac{\\sqrt3+i}{\\sqrt3-i}\\right)^{10}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac12-\\frac{\\sqrt3}2i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12+\\frac{\\sqrt3}2i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12+\\frac{\\sqrt3}2i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12-\\frac{\\sqrt3}2i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "比值为 $e^{i\\pi/3}$，十次方为 $e^{i10\\pi/3}=e^{i4\\pi/3}=-\\frac12-\\frac{\\sqrt3}2i$。",
+  "search_text": "复数 $\\left(\\dfrac{\\sqrt3+i}{\\sqrt3-i}\\right)^{10}$ 的值为（ ）。 $-\\frac12-\\frac{\\sqrt3}2i$ $-\\frac12+\\frac{\\sqrt3}2i$ $\\frac12+\\frac{\\sqrt3}2i$ $\\frac12-\\frac{\\sqrt3}2i$ 比值为 $e^{i\\pi/3}$，十次方为 $e^{i10\\pi/3}=e^{i4\\pi/3}=-\\frac12-\\frac{\\sqrt3}2i$。",
+  "sort_order": 50
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过原点 $O$ 且与两平面 $\\Pi_1:x+2y+3z-2=0$，$\\Pi_2:6x-y+5z+2=0$ 都垂直的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+y-z=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-y+z=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+y+z=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-y-z=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "法向量需同时垂直于两平面的法向量，取叉积得法向量 $(1,1,-1)$，平面过原点。",
+  "search_text": "过原点 $O$ 且与两平面 $\\Pi_1:x+2y+3z-2=0$，$\\Pi_2:6x-y+5z+2=0$ 都垂直的平面方程为(\\quad)。 $x+y-z=0$ $x-y+z=0$ $x+y+z=0$ $x-y-z=0$ 法向量需同时垂直于两平面的法向量，取叉积得法向量 $(1,1,-1)$，平面过原点。",
+  "sort_order": 2
+}

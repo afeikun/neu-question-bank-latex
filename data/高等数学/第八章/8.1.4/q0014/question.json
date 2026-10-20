@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "交换二次积分 $\\int_{-1}^0dx\\int_{x+1}^{\\sqrt{1-x^2}}f(x,y)dy$ 的积分次序，下列正确的是[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dy\\int_{-\\sqrt{1-y^2}}^0f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1dy\\int_{-\\sqrt{1-y^2}}^{y-1}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dy\\int_{-1}^{y+1}f(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dy\\int_{-1}^0f(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 由二次积分的积分限有 $x+1\\leq y\\leq\\sqrt{1-x^2},\\ -1\\leq x\\leq0$，改变积分次序后的积分限为 $\\sqrt{1-y^2}\\leq x\\leq y-1,\\ 0\\leq y\\leq1$，所以原式=$\\int_0^1dy\\int_{\\sqrt{1-y^2}}^{y-1}f(x,y)dx$。\n\n图示：阴影区域标记为 $D$，边界标记 $y=\\sqrt{1-x^2}$ 和 $y=x+1$；坐标轴为 $x$、$y$，标有 $-1$、$1$ 和原点 $O$。",
+  "search_text": "交换二次积分 $\\int_{-1}^0dx\\int_{x+1}^{\\sqrt{1-x^2}}f(x,y)dy$ 的积分次序，下列正确的是[\\quad] $\\int_0^1dy\\int_{-\\sqrt{1-y^2}}^0f(x,y)dx$ $\\int_0^1dy\\int_{-\\sqrt{1-y^2}}^{y-1}f(x,y)dx$ $\\int_0^1dy\\int_{-1}^{y+1}f(x,y)dx$ $\\int_0^1dy\\int_{-1}^0f(x,y)dx$ 解答 由二次积分的积分限有 $x+1\\leq y\\leq\\sqrt{1-x^2},\\ -1\\leq x\\leq0$，改变积分次序后的积分限为 $\\sqrt{1-y^2}\\leq x\\leq y-1,\\ 0\\leq y\\leq1$，所以原式=$\\int_0^1dy\\int_{\\sqrt{1-y^2}}^{y-1}f(x,y)dx$。\n\n图示：阴影区域标记为 $D$，边界标记 $y=\\sqrt{1-x^2}$ 和 $y=x+1$；坐标轴为 $x$、$y$，标有 $-1$、$1$ 和原点 $O$。",
+  "sort_order": 14
+}

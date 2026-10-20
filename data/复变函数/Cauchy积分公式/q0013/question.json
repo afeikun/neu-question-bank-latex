@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z-i|=2}\\frac{\\sin(z+\\pi i)}{ze^z}\\,dz=(\\quad)$（方向为正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi i\\sin(\\pi i)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12\\sin\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\cos i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cosh1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在圆内 $e^z\\ne0$，被积函数只有奇点 $0$。由柯西积分公式，$\\oint_{|z-i|=2}\\frac{\\sin(z+\\pi i)}{ze^z}\\,dz=2\\pi i\\frac{\\sin(z+\\pi i)}{e^z}\\big|_{z=0}=2\\pi i\\sin(\\pi i)$。",
+  "search_text": "$\\oint_{|z-i|=2}\\frac{\\sin(z+\\pi i)}{ze^z}\\,dz=(\\quad)$（方向为正向）。 $2\\pi i\\sin(\\pi i)$ $-\\frac12\\sin\\pi i$ $2\\cos i$ $\\cosh1$ 在圆内 $e^z\\ne0$，被积函数只有奇点 $0$。由柯西积分公式，$\\oint_{|z-i|=2}\\frac{\\sin(z+\\pi i)}{ze^z}\\,dz=2\\pi i\\frac{\\sin(z+\\pi i)}{e^z}\\big|_{z=0}=2\\pi i\\sin(\\pi i)$。",
+  "sort_order": 13
+}

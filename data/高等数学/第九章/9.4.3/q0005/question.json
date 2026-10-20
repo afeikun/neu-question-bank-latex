@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=R^2$ 的外侧，且 $R$ 为正数，则计算 $\\oiint_\\Sigma\\frac1x dydz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi R^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi R$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12\\pi R^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi R$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答，根据轮换对称性，只要计算 $\\oiint_\\Sigma z^2dxdy$。$z-c=\\pm\\sqrt{R^2-(x-a)^2-(y-b)^2}$\n$\\Sigma$ 在 $xoy$ 面上的投影为 $(x-a)^2-(y-b)^2\\le R^2$利用极坐标得\n$$\\oiint_\\Sigma z^2dxdy=\\iint_{D_{xy}}\\left[c+\\sqrt{R^2-(x-a)^2-(y-b)^2}\\right]^2dxdy-\\iint_{D_{xy}}\\left[c-\\sqrt{R^2-(x-a)^2-(y-b)^2}\\right]^2dxdy$$\n$$=4c\\iint_{D_{xy}}\\sqrt{R^2-(x-a)^2-(y-b)^2}dxdy=4c\\int_0^{2\\pi}d\\varphi\\int_0^R\\sqrt{R^2-r^2}rdr=\\frac{8}{3}\\pi R^3c。$$\n则有 $\\oiint_\\Sigma x^2dydz=\\frac{8}{3}\\pi R^3a$，$\\oiint_\\Sigma y^2dzdx=\\frac{8}{3}\\pi R^3b$，所以原式$=\\frac{8}{3}\\pi R^3(a+b+c)$。",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=R^2$ 的外侧，且 $R$ 为正数，则计算 $\\oiint_\\Sigma\\frac1x dydz=$（ ） $\\pi R^2$ $\\pi R$ $12\\pi R^2$ $4\\pi R$ 解答，根据轮换对称性，只要计算 $\\oiint_\\Sigma z^2dxdy$。$z-c=\\pm\\sqrt{R^2-(x-a)^2-(y-b)^2}$\n$\\Sigma$ 在 $xoy$ 面上的投影为 $(x-a)^2-(y-b)^2\\le R^2$利用极坐标得\n$$\\oiint_\\Sigma z^2dxdy=\\iint_{D_{xy}}\\left[c+\\sqrt{R^2-(x-a)^2-(y-b)^2}\\right]^2dxdy-\\iint_{D_{xy}}\\left[c-\\sqrt{R^2-(x-a)^2-(y-b)^2}\\right]^2dxdy$$\n$$=4c\\iint_{D_{xy}}\\sqrt{R^2-(x-a)^2-(y-b)^2}dxdy=4c\\int_0^{2\\pi}d\\varphi\\int_0^R\\sqrt{R^2-r^2}rdr=\\frac{8}{3}\\pi R^3c。$$\n则有 $\\oiint_\\Sigma x^2dydz=\\frac{8}{3}\\pi R^3a$，$\\oiint_\\Sigma y^2dzdx=\\frac{8}{3}\\pi R^3b$，所以原式$=\\frac{8}{3}\\pi R^3(a+b+c)$。",
+  "sort_order": 5
+}

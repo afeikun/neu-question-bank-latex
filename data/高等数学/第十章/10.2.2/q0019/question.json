@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $xdy+2y(\\ln y-\\ln x)dx=0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\ln\\frac yx+1=\\frac c{x^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x\\ln(x+c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=x(\\ln x+e^{x^2/2})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=xe^{c/(2x^2)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\frac{dy}{dx}=-2\\frac{y}{x}\\ln\\frac{y}{x}$\n\n设 $u=\\frac{y}{x}$，则 $\\frac{du}{u(2\\ln u+1)}=-\\frac{dx}{x}$，\n\n积分 $\\frac{1}{2}\\ln(2\\ln u+1)=-\\ln x+\\ln c$",
+  "search_text": "微分方程 $xdy+2y(\\ln y-\\ln x)dx=0$ 的通解是（ ） $2\\ln\\frac yx+1=\\frac c{x^2}$ $y=x\\ln(x+c)$ $y=x(\\ln x+e^{x^2/2})$ $y=xe^{c/(2x^2)}$ $\\frac{dy}{dx}=-2\\frac{y}{x}\\ln\\frac{y}{x}$\n\n设 $u=\\frac{y}{x}$，则 $\\frac{du}{u(2\\ln u+1)}=-\\frac{dx}{x}$，\n\n积分 $\\frac{1}{2}\\ln(2\\ln u+1)=-\\ln x+\\ln c$",
+  "sort_order": 19
+}

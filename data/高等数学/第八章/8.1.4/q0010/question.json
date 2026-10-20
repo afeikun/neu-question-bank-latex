@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_1^2dx\\int_x^{2x}f(x,y)dy$ 的积分次序为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_1^2dy\\int_1^yf(x,y)\\,dx+\\int_2^4dy\\int_1^{y/2}f(x,y)\\,dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_1^2dy\\int_1^yf(x,y)dx+\\int_2^4dy\\int_{y/2}^2f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_x^{2x}dy\\int_1^2f(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_1^2dy\\int_y^{2y}f(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "积分区域为 $1\\le x\\le2$、$x\\le y\\le2x$。换序后，当 $1\\le y\\le2$ 时 $1\\le x\\le y$；当 $2\\le y\\le4$ 时 $y/2\\le x\\le2$。因此原式为 $\\int_1^2dy\\int_1^yf(x,y)\\,dx+\\int_2^4dy\\int_{y/2}^2f(x,y)\\,dx$。",
+  "search_text": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_1^2dx\\int_x^{2x}f(x,y)dy$ 的积分次序为[\\quad] $\\int_1^2dy\\int_1^yf(x,y)\\,dx+\\int_2^4dy\\int_1^{y/2}f(x,y)\\,dx$ $\\int_1^2dy\\int_1^yf(x,y)dx+\\int_2^4dy\\int_{y/2}^2f(x,y)dx$ $\\int_x^{2x}dy\\int_1^2f(x,y)dx$ $\\int_1^2dy\\int_y^{2y}f(x,y)dx$ 积分区域为 $1\\le x\\le2$、$x\\le y\\le2x$。换序后，当 $1\\le y\\le2$ 时 $1\\le x\\le y$；当 $2\\le y\\le4$ 时 $y/2\\le x\\le2$。因此原式为 $\\int_1^2dy\\int_1^yf(x,y)\\,dx+\\int_2^4dy\\int_{y/2}^2f(x,y)\\,dx$。",
+  "sort_order": 10
+}

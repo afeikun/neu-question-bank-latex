@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\frac1{x^2+y^2},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$，下列说法不正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f_x'(0,0)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\partial f}{\\partial y}$ 在 $(0,0)$ 点连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f_y'(0,0)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\partial f}{\\partial x}$ 在 $(0,0)$ 点不连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$f'_x(0,0)=\\lim_{\\Delta x\\to0}\\frac{f(\\Delta x,0)-f(0,0)}{\\Delta x}=\\lim_{\\Delta x\\to0}\\Delta x\\sin\\frac1{\\Delta x^2}=0，\\quad\\text{同理，}f'_y(0,0)=0.$$\n\n当 $x^2+y^2\\ne0$ 时，有\n\n$$\\frac{\\partial f}{\\partial x}=2x\\sin\\frac1{x^2+y^2}-\\frac{2x}{x^2+y^2}\\cos\\frac1{x^2+y^2}，\\quad\\frac{\\partial f}{\\partial y}=2y\\sin\\frac1{x^2+y^2}-\\frac{2y}{x^2+y^2}\\cos\\frac1{x^2+y^2}.$$\n\n考虑点 $P(x,y)$ 沿直线 $y=x$ 趋于 $(0,0)$ 时，则有\n\n$$\\lim_{\\substack{x\\to0\\\\y=x}}\\frac{\\partial f}{\\partial x}=\\lim_{\\substack{x\\to0\\\\y=x}}2x\\sin\\frac1{2x^2}-\\frac1x\\cos\\frac1{2x^2}=\\lim_{\\substack{x\\to0\\\\y=x}}2x\\sin\\frac1{2x^2}-\\frac1x\\cos\\frac1{2x^2}，\\text{不存在，故 }\\frac{\\partial f}{\\partial x}\\text{ 在 }(0,0)\\text{ 处不连续，}$$\n\n同理 $\\frac{\\partial f}{\\partial y}$ 在 $(0,0)$ 点也不连续。",
+  "search_text": "$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\frac1{x^2+y^2},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$，下列说法不正确的是(\\quad)。 $f_x'(0,0)=0$ $\\frac{\\partial f}{\\partial y}$ 在 $(0,0)$ 点连续 $f_y'(0,0)=0$ $\\frac{\\partial f}{\\partial x}$ 在 $(0,0)$ 点不连续 $$f'_x(0,0)=\\lim_{\\Delta x\\to0}\\frac{f(\\Delta x,0)-f(0,0)}{\\Delta x}=\\lim_{\\Delta x\\to0}\\Delta x\\sin\\frac1{\\Delta x^2}=0，\\quad\\text{同理，}f'_y(0,0)=0.$$\n\n当 $x^2+y^2\\ne0$ 时，有\n\n$$\\frac{\\partial f}{\\partial x}=2x\\sin\\frac1{x^2+y^2}-\\frac{2x}{x^2+y^2}\\cos\\frac1{x^2+y^2}，\\quad\\frac{\\partial f}{\\partial y}=2y\\sin\\frac1{x^2+y^2}-\\frac{2y}{x^2+y^2}\\cos\\frac1{x^2+y^2}.$$\n\n考虑点 $P(x,y)$ 沿直线 $y=x$ 趋于 $(0,0)$ 时，则有\n\n$$\\lim_{\\substack{x\\to0\\\\y=x}}\\frac{\\partial f}{\\partial x}=\\lim_{\\substack{x\\to0\\\\y=x}}2x\\sin\\frac1{2x^2}-\\frac1x\\cos\\frac1{2x^2}=\\lim_{\\substack{x\\to0\\\\y=x}}2x\\sin\\frac1{2x^2}-\\frac1x\\cos\\frac1{2x^2}，\\text{不存在，故 }\\frac{\\partial f}{\\partial x}\\text{ 在 }(0,0)\\text{ 处不连续，}$$\n\n同理 $\\frac{\\partial f}{\\partial y}$ 在 $(0,0)$ 点也不连续。",
+  "sort_order": 1
+}

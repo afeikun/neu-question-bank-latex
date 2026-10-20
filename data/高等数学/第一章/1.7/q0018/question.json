@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to1}\\frac{(\\sqrt{x}-1)(\\sqrt[3]x-1)\\cdots(\\sqrt[n]x-1)}{(x-1)^{n-1}}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/n!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $x=1+t$，每个因子 $\\sqrt[k]{1+t}-1\\sim t/k$，故极限为 $1/n!$。",
+  "search_text": "$\\lim_{x\\to1}\\frac{(\\sqrt{x}-1)(\\sqrt[3]x-1)\\cdots(\\sqrt[n]x-1)}{(x-1)^{n-1}}$ 的值为（ ）。 $1/n!$ 1 $1/n$ 0 令 $x=1+t$，每个因子 $\\sqrt[k]{1+t}-1\\sim t/k$，故极限为 $1/n!$。",
+  "sort_order": 18
+}

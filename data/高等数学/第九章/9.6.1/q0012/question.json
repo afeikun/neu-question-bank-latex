@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 是曲线 $y=x^2$ 及直线 $y=1$ 所围成区域 $D$ 的正向边界，计算 $\\oint_L(xy+x^3y^3)\\,dx+(x^2+x^4y^2)\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：\n\n这里 $P=xy+x^3y^3,\\quad Q=x^2+x^4y^2,$\n\n由格林公式\n\n$$\\oint_L(xy+x^3y^3)\\,dx+(x^2+x^4y^2)\\,dy$$\n\n$$=\\iint_D(x+x^3y^2)\\,dxdy$$\n\n$$=\\int_{-1}^1dx\\int_{x^2}^1(x+x^3y^2)\\,dy=0$$",
+  "search_text": "$L$ 是曲线 $y=x^2$ 及直线 $y=1$ 所围成区域 $D$ 的正向边界，计算 $\\oint_L(xy+x^3y^3)\\,dx+(x^2+x^4y^2)\\,dy=$（ ） $1$ $0$ $2$ $-1$ 解析：\n\n这里 $P=xy+x^3y^3,\\quad Q=x^2+x^4y^2,$\n\n由格林公式\n\n$$\\oint_L(xy+x^3y^3)\\,dx+(x^2+x^4y^2)\\,dy$$\n\n$$=\\iint_D(x+x^3y^2)\\,dxdy$$\n\n$$=\\int_{-1}^1dx\\int_{x^2}^1(x+x^3y^2)\\,dy=0$$",
+  "sort_order": 12
+}

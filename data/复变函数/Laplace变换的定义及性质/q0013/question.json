@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=t^2+3t+2$，则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1{s^3}(2s^2+3s+2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1{s^2}(2s^2+3s+2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1s(2s^2+3s+2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2s^2+3s+2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F(s)=\\mathcal L[t^2]+3\\mathcal L[t]+2\\mathcal L[1]=\\dfrac2{s^3}+\\dfrac3{s^2}+\\dfrac2s=\\dfrac1{s^3}(2s^2+3s+2)$。",
+  "search_text": "设 $f(t)=t^2+3t+2$，则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac1{s^3}(2s^2+3s+2)$ $\\dfrac1{s^2}(2s^2+3s+2)$ $\\dfrac1s(2s^2+3s+2)$ $2s^2+3s+2$ $F(s)=\\mathcal L[t^2]+3\\mathcal L[t]+2\\mathcal L[1]=\\dfrac2{s^3}+\\dfrac3{s^2}+\\dfrac2s=\\dfrac1{s^3}(2s^2+3s+2)$。",
+  "sort_order": 13
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量组 $\\alpha_1=(1,1,1,1),\\ \\alpha_2=(1,1,-1,-1),\\ \\alpha_3=(1,-1,-1,1),\\ \\alpha_4=(-1,-1,-1,1)$ 的极大线性无关组为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1,\\alpha_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_2,\\alpha_3,\\alpha_4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "四个向量组成的矩阵行列式为 $8\\ne0$，因此四个向量线性无关，整个向量组就是极大无关组。",
+  "search_text": "向量组 $\\alpha_1=(1,1,1,1),\\ \\alpha_2=(1,1,-1,-1),\\ \\alpha_3=(1,-1,-1,1),\\ \\alpha_4=(-1,-1,-1,1)$ 的极大线性无关组为（ ）。 $\\alpha_1,\\alpha_2,\\alpha_3$ $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ $\\alpha_1,\\alpha_2$ $\\alpha_2,\\alpha_3,\\alpha_4$ 四个向量组成的矩阵行列式为 $8\\ne0$，因此四个向量线性无关，整个向量组就是极大无关组。",
+  "sort_order": 10
+}

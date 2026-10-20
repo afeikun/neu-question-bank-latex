@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知级数 $\\sum_{n=1}^{\\infty}a_n$ 和 $\\sum_{n=1}^{\\infty}b_n$ 都绝对收敛，则下列级数中必定绝对收敛的有多少个？（1）$\\sum_{n=1}^{\\infty}(a_n+b_n)$；（2）$\\sum_{n=1}^{\\infty}(a_n-b_n)$；（3）$\\sum_{n=1}^{\\infty}ka_n$，其中 $k$ 为常数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $|a_n\\pm b_n|\\le |a_n|+|b_n|$ 和绝对收敛的比较判别法，前两个级数均绝对收敛；$|ka_n|=|k|\\,|a_n|$，第三个也绝对收敛，共3个。",
+  "search_text": "已知级数 $\\sum_{n=1}^{\\infty}a_n$ 和 $\\sum_{n=1}^{\\infty}b_n$ 都绝对收敛，则下列级数中必定绝对收敛的有多少个？（1）$\\sum_{n=1}^{\\infty}(a_n+b_n)$；（2）$\\sum_{n=1}^{\\infty}(a_n-b_n)$；（3）$\\sum_{n=1}^{\\infty}ka_n$，其中 $k$ 为常数。 3个 0个 1个 2个 由 $|a_n\\pm b_n|\\le |a_n|+|b_n|$ 和绝对收敛的比较判别法，前两个级数均绝对收敛；$|ka_n|=|k|\\,|a_n|$，第三个也绝对收敛，共3个。",
+  "sort_order": 6
+}

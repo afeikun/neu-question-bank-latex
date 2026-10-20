@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{dy}{dx}=\\frac{x}{\\sin y}+\\cot y$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos y=e^x(xe^x+e^x+C)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos y=e^{-x}(xe^x-e^x+C)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos y=e^{-x}(xe^x+e^x+C)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cos y=e^x(xe^x-e^x+C)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "该方程可化为一阶线性非齐次方程，$\\sin y\\frac{dy}{dx}-\\cos y=x$，即 $\\frac{d\\cos y}{dx}+\\cos y=-x$，令\n\n$$z=\\cos y$$\n\n则为一阶线性非齐次方程 $z'+z=-x$ 其中\n\n$$P(x)=1,Q(x)=-x$$\n\n$$\\cos y=z=e^{-\\int1\\,dx}\\left(\\int(-x)\\cdot e^{\\int1\\,dx}\\,dx+C\\right)=e^{-x}\\left(-\\int xe^x\\,dx+C\\right)=e^{-x}(xe^x-e^x+C)$$",
+  "search_text": "$\\frac{dy}{dx}=\\frac{x}{\\sin y}+\\cot y$ 的通解为（ ） $\\cos y=e^x(xe^x+e^x+C)$ $\\cos y=e^{-x}(xe^x-e^x+C)$ $\\cos y=e^{-x}(xe^x+e^x+C)$ $\\cos y=e^x(xe^x-e^x+C)$ 该方程可化为一阶线性非齐次方程，$\\sin y\\frac{dy}{dx}-\\cos y=x$，即 $\\frac{d\\cos y}{dx}+\\cos y=-x$，令\n\n$$z=\\cos y$$\n\n则为一阶线性非齐次方程 $z'+z=-x$ 其中\n\n$$P(x)=1,Q(x)=-x$$\n\n$$\\cos y=z=e^{-\\int1\\,dx}\\left(\\int(-x)\\cdot e^{\\int1\\,dx}\\,dx+C\\right)=e^{-x}\\left(-\\int xe^x\\,dx+C\\right)=e^{-x}(xe^x-e^x+C)$$",
+  "sort_order": 34
+}

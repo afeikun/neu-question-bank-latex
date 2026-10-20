@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正项级数 $\\sum_{n=1}^{\\infty} u_n$，下列结论正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $\\lim|u_{n+1}/u_n|=l<1$，则绝对收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若 $\\lim|u_{n+1}/u_n|=1$，则发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若 $\\lim|u_{n+1}/u_n|>1$，则收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若 $\\lim|u_{n+1}/u_n|=0$，则条件收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "比值判别法：极限小于1时绝对收敛。",
+  "search_text": "正项级数 $\\sum_{n=1}^{\\infty} u_n$，下列结论正确的是？ 若 $\\lim|u_{n+1}/u_n|=l<1$，则绝对收敛 若 $\\lim|u_{n+1}/u_n|=1$，则发散 若 $\\lim|u_{n+1}/u_n|>1$，则收敛 若 $\\lim|u_{n+1}/u_n|=0$，则条件收敛 比值判别法：极限小于1时绝对收敛。",
+  "sort_order": 1
+}

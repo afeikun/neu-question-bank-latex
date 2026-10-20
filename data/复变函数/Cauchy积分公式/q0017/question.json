@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_C z^{-1}\\cosh(3z)\\,dz=(\\quad)$，$C$ 由 $x=\\pm2$ 与 $y=\\pm2$ 围成的正方形边界，沿正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cosh3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\oint_C z^{-1}\\cosh(3z)\\,dz=\\oint_C\\frac{\\cosh(3z)}z\\,dz=2\\pi i\\cosh0=2\\pi i$。",
+  "search_text": "$\\oint_C z^{-1}\\cosh(3z)\\,dz=(\\quad)$，$C$ 由 $x=\\pm2$ 与 $y=\\pm2$ 围成的正方形边界，沿正向。 $2\\pi i$ $1$ $i$ $\\cosh3$ $\\oint_C z^{-1}\\cosh(3z)\\,dz=\\oint_C\\frac{\\cosh(3z)}z\\,dz=2\\pi i\\cosh0=2\\pi i$。",
+  "sort_order": 17
+}

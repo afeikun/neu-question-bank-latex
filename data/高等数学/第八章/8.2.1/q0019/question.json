@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两个圆柱面 $x^2+y^2=R^2$ 及 $x^2+z^2=R^2$ 所围成立体表面在第一卦限部分的面积为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2R^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4R^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$R^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3R^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "它的第一卦限部分的面积，如图。\n\n图示：坐标轴为 $x,y,z$，图中标出 $O$、$R$ 及区域 I、II；所示曲面由两个相对称部分 I、II 组成。\n\n易见所求立体在第一卦限部分可以看成是一个曲顶柱体，它的底为\n\n$$D=\\{(x,y)\\mid 0\\leq y\\leq\\sqrt{R^2-x^2},\\ 0\\leq x\\leq R\\},$$\n\n它的顶是柱面 $z=\\sqrt{R^2-x^2}$，所求表面分成 I 和 II，根据对称性，这两块曲面的面积相等，于是所求面积为\n\n$$S=2S_I=2\\iint_{D_{xy}}\\sqrt{1+z_x^2+z_y^2}\\,dxdy=2\\iint_{D_{xy}}\\frac{R}{\\sqrt{R^2-x^2}}\\,dxdy$$\n\n旁注：$x\\to R$，$\\frac{R}{\\sqrt{R^2-x^2}}\\to\\infty$。\n\n$$=2\\lim_{R_1\\to R}\\left[\\int_0^{R_1}dx\\int_0^{\\sqrt{R^2-x^2}}\\frac{R}{\\sqrt{R^2-x^2}}\\,dy\\right]=2\\lim_{R_1\\to R}\\int_0^{R_1}R\\,dx=2R^2$$\n",
+  "search_text": "两个圆柱面 $x^2+y^2=R^2$ 及 $x^2+z^2=R^2$ 所围成立体表面在第一卦限部分的面积为（ ） $2R^2$ $4R^2$ $R^2$ $3R^2$ 它的第一卦限部分的面积，如图。\n\n图示：坐标轴为 $x,y,z$，图中标出 $O$、$R$ 及区域 I、II；所示曲面由两个相对称部分 I、II 组成。\n\n易见所求立体在第一卦限部分可以看成是一个曲顶柱体，它的底为\n\n$$D=\\{(x,y)\\mid 0\\leq y\\leq\\sqrt{R^2-x^2},\\ 0\\leq x\\leq R\\},$$\n\n它的顶是柱面 $z=\\sqrt{R^2-x^2}$，所求表面分成 I 和 II，根据对称性，这两块曲面的面积相等，于是所求面积为\n\n$$S=2S_I=2\\iint_{D_{xy}}\\sqrt{1+z_x^2+z_y^2}\\,dxdy=2\\iint_{D_{xy}}\\frac{R}{\\sqrt{R^2-x^2}}\\,dxdy$$\n\n旁注：$x\\to R$，$\\frac{R}{\\sqrt{R^2-x^2}}\\to\\infty$。\n\n$$=2\\lim_{R_1\\to R}\\left[\\int_0^{R_1}dx\\int_0^{\\sqrt{R^2-x^2}}\\frac{R}{\\sqrt{R^2-x^2}}\\,dy\\right]=2\\lim_{R_1\\to R}\\int_0^{R_1}R\\,dx=2R^2$$\n",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$ydx-(1+x+y^2)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y+1=y(x+C),\\ y=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+1=y(y+C),\\ y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+1=y(x+C),\\ y=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y+1=x(x+C),\\ y=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y=0$为方程的一个特解，\n\n当 $y\\ne 0$ 时，\n\n$$\n-\\frac{1}{P}\\left(\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}\\right)=\\frac{2}{y},\n$$\n\n积分因子为 $\\mu=e^{-\\int\\frac{2}{y}\\,dy}=y^{-2},$\n\n方程可化为\n\n$$\n\\frac{y\\,dx-x\\,dy}{y^2}-\\frac{1+y^2}{y^2}\\,dy=0,\n$$\n\n即\n\n$$\nd\\left(\\frac{x}{y}+\\frac{1}{y}-y\\right)=0,\n$$\n\n化简可得 $x+1=y(y+C),$",
+  "search_text": "$ydx-(1+x+y^2)dy=0$ 的通解为（ ） $y+1=y(x+C),\\ y=0$ $x+1=y(y+C),\\ y=0$ $x+1=y(x+C),\\ y=0$ $y+1=x(x+C),\\ y=0$ $y=0$为方程的一个特解，\n\n当 $y\\ne 0$ 时，\n\n$$\n-\\frac{1}{P}\\left(\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}\\right)=\\frac{2}{y},\n$$\n\n积分因子为 $\\mu=e^{-\\int\\frac{2}{y}\\,dy}=y^{-2},$\n\n方程可化为\n\n$$\n\\frac{y\\,dx-x\\,dy}{y^2}-\\frac{1+y^2}{y^2}\\,dy=0,\n$$\n\n即\n\n$$\nd\\left(\\frac{x}{y}+\\frac{1}{y}-y\\right)=0,\n$$\n\n化简可得 $x+1=y(y+C),$",
+  "sort_order": 16
+}

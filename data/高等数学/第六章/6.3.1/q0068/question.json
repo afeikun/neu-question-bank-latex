@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "位于两个平面 $\\Pi_1:x-2y+z-2=0$ 和 $\\Pi_2:x-2y+z-6=0$ 之间，且到 $\\Pi_1$ 与 $\\Pi_2$ 距离比为 $1:3$ 的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-2y+z+8=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-2y+z-3=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+2y+4z=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-2y+5z-3=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两平面同法向量，按 $1:3$ 内分常数项得 $x-2y+z-3=0$。",
+  "search_text": "位于两个平面 $\\Pi_1:x-2y+z-2=0$ 和 $\\Pi_2:x-2y+z-6=0$ 之间，且到 $\\Pi_1$ 与 $\\Pi_2$ 距离比为 $1:3$ 的平面方程为(\\quad)。 $x-2y+z+8=0$ $x-2y+z-3=0$ $x+2y+4z=0$ $x-2y+5z-3=0$ 两平面同法向量，按 $1:3$ 内分常数项得 $x-2y+z-3=0$。",
+  "sort_order": 68
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平行于平面 $6x+y+6z+5=0$ 且与三个坐标面所围成的四面体体积 $V$ 为一个单位的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6x+y+6z\\pm\\sqrt[3]{36}=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6x+y+6z+6=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6x+y-6z+6=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6x+y-6z\\pm\\sqrt[3]{36}=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设方程为 $6x+y+6z+D=0$，令所围四面体体积为 $1$，求得 $D=\\pm6$；选项中为 $+6$。",
+  "search_text": "平行于平面 $6x+y+6z+5=0$ 且与三个坐标面所围成的四面体体积 $V$ 为一个单位的平面方程为(\\quad)。 $6x+y+6z\\pm\\sqrt[3]{36}=0$ $6x+y+6z+6=0$ $6x+y-6z+6=0$ $6x+y-6z\\pm\\sqrt[3]{36}=0$ 设方程为 $6x+y+6z+D=0$，令所围四面体体积为 $1$，求得 $D=\\pm6$；选项中为 $+6$。",
+  "sort_order": 10
+}

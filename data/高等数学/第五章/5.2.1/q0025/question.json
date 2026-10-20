@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a_n=\\int_0^n\\sqrt[5]{\\lambda+x^5}\\,dx$，其中常数 $\\lambda>0$，则级数 $\\sum_{n=1}^{\\infty}\\frac{1}{a_n}$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "收敛性与 $\\lambda$ 有关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "收敛性无法判定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为 $\\lambda>0$，$a_n>\\int_0^n x\\,dx=\\frac{n^2}{2}$，所以 $0<\\frac1{a_n}<\\frac2{n^2}$。由 $\\sum_{n=1}^{\\infty}\\frac2{n^2}$ 收敛及比较审敛法，原级数收敛，选 C。",
+  "search_text": "设 $a_n=\\int_0^n\\sqrt[5]{\\lambda+x^5}\\,dx$，其中常数 $\\lambda>0$，则级数 $\\sum_{n=1}^{\\infty}\\frac{1}{a_n}$（ ）。 收敛性与 $\\lambda$ 有关 收敛性无法判定 收敛 发散 因为 $\\lambda>0$，$a_n>\\int_0^n x\\,dx=\\frac{n^2}{2}$，所以 $0<\\frac1{a_n}<\\frac2{n^2}$。由 $\\sum_{n=1}^{\\infty}\\frac2{n^2}$ 收敛及比较审敛法，原级数收敛，选 C。",
+  "sort_order": 25
+}

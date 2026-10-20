@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_n=\\cos\\frac1{n+1}+i(1-\\frac1{2n})^{-n}$，则 $\\lim\\alpha_n=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1+ie^{1/2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ie^{1/2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1+ie^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$ie^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一项趋于 $1$，且 $(1-1/(2n))^{-n}\\to e^{1/2}$，故极限为 $1+ie^{1/2}$。",
+  "search_text": "设 $\\alpha_n=\\cos\\frac1{n+1}+i(1-\\frac1{2n})^{-n}$，则 $\\lim\\alpha_n=\\underline{\\qquad}$。 $1+ie^{1/2}$ $ie^{1/2}$ $1+ie^2$ $ie^2$ 第一项趋于 $1$，且 $(1-1/(2n))^{-n}\\to e^{1/2}$，故极限为 $1+ie^{1/2}$。",
+  "sort_order": 34
+}

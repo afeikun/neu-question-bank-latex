@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\lambda=-2$ 是可逆矩阵 $A$ 的一个特征值，则矩阵 $E+\\left[\\frac12A^3\\right]^{-1}$ 有一个特征值为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac54$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac45$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac14$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对应特征值为 $1+(\\frac12(-2)^3)^{-1}=1-\\frac14=\\frac34$；原图与答案选项中该数值呈现为 $5/4$，题目解析疑有符号笔误。",
+  "search_text": "设 $\\lambda=-2$ 是可逆矩阵 $A$ 的一个特征值，则矩阵 $E+\\left[\\frac12A^3\\right]^{-1}$ 有一个特征值为(\\quad)。 $5$ $\\frac54$ $\\frac45$ $\\frac14$ 对应特征值为 $1+(\\frac12(-2)^3)^{-1}=1-\\frac14=\\frac34$；原图与答案选项中该数值呈现为 $5/4$，题目解析疑有符号笔误。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过点 $M(-4,5,3)$ 且平行于直线 $\\frac{x+2}{3}=\\frac{y-4}{-1}=\\frac{z-1}{5}$ 的直线方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-4}{3}=\\frac{y-5}{-1}=\\frac{z-3}{5}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x+4}{3}=\\frac{y-5}{1}=\\frac{z-3}{-5}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x+4}{3}=\\frac{y-5}{1}=\\frac{z-3}{5}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x+4}{3}=\\frac{y-5}{-1}=\\frac{z-3}{5}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：所求直线平行于已知直线，所以所求直线方向向量为 $\\vec{s}=(3,-1,5)$，因过点 $M(-4,5,3)$，所以由点向式，得直线方程为\n$$\n\\frac{x+4}{3}=\\frac{y-5}{-1}=\\frac{z-3}{5}。\n$$",
+  "search_text": "过点 $M(-4,5,3)$ 且平行于直线 $\\frac{x+2}{3}=\\frac{y-4}{-1}=\\frac{z-1}{5}$ 的直线方程为(\\quad)。 $\\frac{x-4}{3}=\\frac{y-5}{-1}=\\frac{z-3}{5}$ $\\frac{x+4}{3}=\\frac{y-5}{1}=\\frac{z-3}{-5}$ $\\frac{x+4}{3}=\\frac{y-5}{1}=\\frac{z-3}{5}$ $\\frac{x+4}{3}=\\frac{y-5}{-1}=\\frac{z-3}{5}$ 解答：所求直线平行于已知直线，所以所求直线方向向量为 $\\vec{s}=(3,-1,5)$，因过点 $M(-4,5,3)$，所以由点向式，得直线方程为\n$$\n\\frac{x+4}{3}=\\frac{y-5}{-1}=\\frac{z-3}{5}。\n$$",
+  "sort_order": 16
+}

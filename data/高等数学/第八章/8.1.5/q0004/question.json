@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设平面薄片所占 $xOy$ 平面上的区域为 $D:1\\leq x^2+y^2\\leq4,x\\geq0,y\\geq0$，面密度为 $\\mu(x,y)=x^2+y^2$，则该薄片的质量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{15\\pi}{8}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由二重积分的物理意义可知\n$$\nm=\\iint_D\\mu(x,y)d\\sigma=\\iint_D(x^2+y^2)dxdy=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_1^2r^3dr=\\frac{15\\pi}{8}\n$$",
+  "search_text": "设平面薄片所占 $xOy$ 平面上的区域为 $D:1\\leq x^2+y^2\\leq4,x\\geq0,y\\geq0$，面密度为 $\\mu(x,y)=x^2+y^2$，则该薄片的质量为（ ） $\\frac\\pi2$ $\\frac{15\\pi}{8}$ $\\frac\\pi4$ $5\\pi$ 由二重积分的物理意义可知\n$$\nm=\\iint_D\\mu(x,y)d\\sigma=\\iint_D(x^2+y^2)dxdy=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_1^2r^3dr=\\frac{15\\pi}{8}\n$$",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是球面 $x^2+y^2+z^2=1$ 与坐标面围成的第一卦限内的闭区域，则 $\\iiint_\\Omega xyz\\,dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{12}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{24}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{48}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\iiint_\\Omega xyz\\,dv=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^1r\\sin\\varphi\\cos\\theta\\cdot r\\sin\\varphi\\sin\\theta\\cdot r\\cos\\varphi\\cdot r^2\\sin\\varphi\\,dr$\n\n$=\\int_0^{\\frac{\\pi}{2}}\\sin\\theta\\cos\\theta\\,d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin^3\\varphi\\cos\\varphi\\,d\\varphi\\int_0^1r^5\\,dr=\\frac{1}{2}\\times\\frac{1}{4}\\times\\frac{1}{6}=\\frac{1}{48}$。",
+  "search_text": "$\\Omega$ 是球面 $x^2+y^2+z^2=1$ 与坐标面围成的第一卦限内的闭区域，则 $\\iiint_\\Omega xyz\\,dv=$（ ） $\\frac1{12}$ $\\frac16$ $\\frac1{24}$ $\\frac1{48}$ $\\iiint_\\Omega xyz\\,dv=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^1r\\sin\\varphi\\cos\\theta\\cdot r\\sin\\varphi\\sin\\theta\\cdot r\\cos\\varphi\\cdot r^2\\sin\\varphi\\,dr$\n\n$=\\int_0^{\\frac{\\pi}{2}}\\sin\\theta\\cos\\theta\\,d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin^3\\varphi\\cos\\varphi\\,d\\varphi\\int_0^1r^5\\,dr=\\frac{1}{2}\\times\\frac{1}{4}\\times\\frac{1}{6}=\\frac{1}{48}$。",
+  "sort_order": 2
+}

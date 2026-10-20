@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "来自$N(\\mu,1)$的样本$X_1,X_2$，构造$\\hat\\mu_1=\\frac23X_1+\\frac13X_2,\\hat\\mu_2=\\frac14X_1+\\frac34X_2,\\hat\\mu_3=\\frac12X_1+\\frac12X_2$，错误结论是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "三者均为$\\mu$的一致估计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "三者均为$\\mu$的无偏估计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\hat\\mu_3$比$\\hat\\mu_1,\\hat\\mu_2$更有效"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\hat\\mu_3$比$(\\hat\\mu_1+\\hat\\mu_2)/2$更有效"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在固定样本量下通常不讨论相合性；其余关于无偏及方差比较的说法可成立。",
+  "search_text": "来自$N(\\mu,1)$的样本$X_1,X_2$，构造$\\hat\\mu_1=\\frac23X_1+\\frac13X_2,\\hat\\mu_2=\\frac14X_1+\\frac34X_2,\\hat\\mu_3=\\frac12X_1+\\frac12X_2$，错误结论是（）。 三者均为$\\mu$的一致估计量 三者均为$\\mu$的无偏估计量 $\\hat\\mu_3$比$\\hat\\mu_1,\\hat\\mu_2$更有效 $\\hat\\mu_3$比$(\\hat\\mu_1+\\hat\\mu_2)/2$更有效 在固定样本量下通常不讨论相合性；其余关于无偏及方差比较的说法可成立。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列广义积分中收敛的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀^∞dx/(1+ln x)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₁²dx/(ln x)³"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀¹ln(1+x)/(x√x)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀¹ln(1+x)/x² dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "第三项在0附近与x⁻¹/²同阶，收敛。",
+  "search_text": "下列广义积分中收敛的是 ∫₀^∞dx/(1+ln x) ∫₁²dx/(ln x)³ ∫₀¹ln(1+x)/(x√x)dx ∫₀¹ln(1+x)/x² dx 第三项在0附近与x⁻¹/²同阶，收敛。",
+  "sort_order": 12
+}

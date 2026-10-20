@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "以下密度对应的随机变量中，方差不存在的是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/[\\pi(1+x^2)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5e^{-5x}$于$x>0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$N(0,3)$密度"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12e^{-|x|}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "柯西密度无有限二阶矩，方差不存在。",
+  "search_text": "以下密度对应的随机变量中，方差不存在的是。 $1/[\\pi(1+x^2)]$ $5e^{-5x}$于$x>0$ $N(0,3)$密度 $\\frac12e^{-|x|}$ 柯西密度无有限二阶矩，方差不存在。",
+  "sort_order": 1
+}

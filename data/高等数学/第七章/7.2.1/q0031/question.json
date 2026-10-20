@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处连续是它在该点偏导数存在的(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分而非必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必要而非充分条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "既非充分又非必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "充分必要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "函数 $z=\\sqrt{x^2+y^2}$ 在点 $(0,0)$ 连续但偏导数不存在；函数 $z=\\begin{cases}\\frac{xy}{x^2+y^2},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$，在点 $(0,0)$ 偏导数存在但不连续。",
+  "search_text": "函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处连续是它在该点偏导数存在的(\\quad)。 充分而非必要条件 必要而非充分条件 既非充分又非必要条件 充分必要条件 函数 $z=\\sqrt{x^2+y^2}$ 在点 $(0,0)$ 连续但偏导数不存在；函数 $z=\\begin{cases}\\frac{xy}{x^2+y^2},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$，在点 $(0,0)$ 偏导数存在但不连续。",
+  "sort_order": 31
+}

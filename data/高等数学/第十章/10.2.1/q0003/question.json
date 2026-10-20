@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y(xy+1)dx+x(1+xy+x^2y^2)dy=0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2y^2\\ln y-xy=cx^2y^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2x^2y^2\\ln y-2xy-1=cx^2y^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(x^2+y^2)\\ln y-xy=cx^2y^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x^2-y^2)\\ln x-2xy=c^2y^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $u=xy$，则 $\\frac{dy}{dx}=\\frac{1}{x}\\frac{du}{dx}-\\frac{u}{x^2}$，\n\n方程变为 $\\frac{1}{x}\\frac{du}{dx}=\\frac{u^3}{(1+u+u^2)x^2}$，$\\frac{dx}{x}=\\frac{1}{u^3}\\,du+\\frac{1}{u^2}\\,du+\\frac{1}{u}\\,du$\n\n整理可得",
+  "search_text": "微分方程 $y(xy+1)dx+x(1+xy+x^2y^2)dy=0$ 的通解是（ ） $x^2y^2\\ln y-xy=cx^2y^2$ $2x^2y^2\\ln y-2xy-1=cx^2y^2$ $(x^2+y^2)\\ln y-xy=cx^2y^2$ $(x^2-y^2)\\ln x-2xy=c^2y^2$ 设 $u=xy$，则 $\\frac{dy}{dx}=\\frac{1}{x}\\frac{du}{dx}-\\frac{u}{x^2}$，\n\n方程变为 $\\frac{1}{x}\\frac{du}{dx}=\\frac{u^3}{(1+u+u^2)x^2}$，$\\frac{dx}{x}=\\frac{1}{u^3}\\,du+\\frac{1}{u^2}\\,du+\\frac{1}{u}\\,du$\n\n整理可得",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}\\frac{2n-1}{2^n}z^{2n-2}$ 的收敛半径 $R=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $Z=z^2$，对应 $Z$ 的收敛域为 $|Z|<2$，故 $|z|<\\sqrt2$，$R=\\sqrt2$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}\\frac{2n-1}{2^n}z^{2n-2}$ 的收敛半径 $R=(\\quad)$。 $\\sqrt2$ $0$ $2$ $\\infty$ 令 $Z=z^2$，对应 $Z$ 的收敛域为 $|Z|<2$，故 $|z|<\\sqrt2$，$R=\\sqrt2$。",
+  "sort_order": 33
+}

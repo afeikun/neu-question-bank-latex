@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "检验两个正态总体方差，H0:σ1²=σ2²，H1:σ1²<σ2²，均值未知时应采用的统计量是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\frac1{n_1-1}\\sum_{i=1}^{n_1}(X_i-\\bar X)^2}{\\frac1{n_2-1}\\sum_{i=1}^{n_2}(Y_i-\\bar Y)^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "分子分母样本方差顺序互换"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "用总体均值计算离差平方"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "样本量与自由度次序互换"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方差比统计量为S1²/S2²，H0成立时服从F(n1−1,n2−1)。",
+  "search_text": "检验两个正态总体方差，H0:σ1²=σ2²，H1:σ1²<σ2²，均值未知时应采用的统计量是（）。 $\\frac{\\frac1{n_1-1}\\sum_{i=1}^{n_1}(X_i-\\bar X)^2}{\\frac1{n_2-1}\\sum_{i=1}^{n_2}(Y_i-\\bar Y)^2}$ 分子分母样本方差顺序互换 用总体均值计算离差平方 样本量与自由度次序互换 方差比统计量为S1²/S2²，H0成立时服从F(n1−1,n2−1)。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\frac{d^2y}{dx^2}-(\\frac{dy}{dx})^2+(\\frac{dy}{dx})^3=0$ 满足条件 $y(0)=1,\\ y\\prime(0)=-1$ 的特解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y-\\ln y=3x+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y-\\ln y=2x+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y-3\\ln y=x+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y-2\\ln y=x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 令 $\\frac{dy}{dx}=p$，则 $\\frac{d^2y}{dx^2}=p\\frac{dp}{dy}$，原微分方程化为 $yp\\frac{dp}{dy}-p^2+p^3=0$。分离变量得 $\\frac{dp}{p(1-p)}=\\frac{1}{y}\\,dy$，两边积分得 $\\frac{p}{1-p}=C_1y$，由初始条件可得 $C_1=-1$。所以 $\\frac{(y-2)dy}{y}=dx$。积分得 $y-2\\ln y=x+C_2$，代入初始条件得 $C_2=1$。\n\n故所求特解为 $y-2\\ln y=x+1$。",
+  "search_text": "方程 $y\\frac{d^2y}{dx^2}-(\\frac{dy}{dx})^2+(\\frac{dy}{dx})^3=0$ 满足条件 $y(0)=1,\\ y\\prime(0)=-1$ 的特解是（ ） $y-\\ln y=3x+1$ $y-\\ln y=2x+1$ $y-3\\ln y=x+1$ $y-2\\ln y=x+1$ 解答 令 $\\frac{dy}{dx}=p$，则 $\\frac{d^2y}{dx^2}=p\\frac{dp}{dy}$，原微分方程化为 $yp\\frac{dp}{dy}-p^2+p^3=0$。分离变量得 $\\frac{dp}{p(1-p)}=\\frac{1}{y}\\,dy$，两边积分得 $\\frac{p}{1-p}=C_1y$，由初始条件可得 $C_1=-1$。所以 $\\frac{(y-2)dy}{y}=dx$。积分得 $y-2\\ln y=x+C_2$，代入初始条件得 $C_2=1$。\n\n故所求特解为 $y-2\\ln y=x+1$。",
+  "sort_order": 5
+}

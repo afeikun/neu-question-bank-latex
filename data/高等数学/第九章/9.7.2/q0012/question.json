@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量场 $\\mathbf r=x\\mathbf i+y\\mathbf j+z\\mathbf k$ 穿过圆锥 $x^2+y^2\\le z^2\\ (0\\le z\\le h)$ 的底（向上）的流量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi h^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5\\pi h^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi h^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi h^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "图示标注：圆锥的顶点为 $O$；竖直 $z$ 轴向上，$y$ 轴向右，$x$ 轴向左下；顶部标注 $h$、$S_1$，侧面标注 $S_2$。\n\n设 $S_1,S_2$ 及 $S$ 分别为此圆锥的底面，侧表面及全表面，则穿过全表面向外的流量\n\n$$Q=\\oiint_S\\vec r\\cdot d\\vec S=\\iiint_V div\\vec r\\,dv=3\\iiint_Vdv=\\pi h^3$$\n\n穿过底面向上的流量\n\n$$Q_1=\\oiint_{S_1}\\vec r\\cdot d\\vec S=\\iint_{\\substack{x^2+y^2\\leq h^2\\\\z=h}}zdxdy=\\iint_{x^2+y^2\\leq h^2}hdxdy=\\pi h^3$$",
+  "search_text": "向量场 $\\mathbf r=x\\mathbf i+y\\mathbf j+z\\mathbf k$ 穿过圆锥 $x^2+y^2\\le z^2\\ (0\\le z\\le h)$ 的底（向上）的流量为（ ） $3\\pi h^3$ $5\\pi h^3$ $\\pi h^3$ $2\\pi h^3$ 图示标注：圆锥的顶点为 $O$；竖直 $z$ 轴向上，$y$ 轴向右，$x$ 轴向左下；顶部标注 $h$、$S_1$，侧面标注 $S_2$。\n\n设 $S_1,S_2$ 及 $S$ 分别为此圆锥的底面，侧表面及全表面，则穿过全表面向外的流量\n\n$$Q=\\oiint_S\\vec r\\cdot d\\vec S=\\iiint_V div\\vec r\\,dv=3\\iiint_Vdv=\\pi h^3$$\n\n穿过底面向上的流量\n\n$$Q_1=\\oiint_{S_1}\\vec r\\cdot d\\vec S=\\iint_{\\substack{x^2+y^2\\leq h^2\\\\z=h}}zdxdy=\\iint_{x^2+y^2\\leq h^2}hdxdy=\\pi h^3$$",
+  "sort_order": 12
+}

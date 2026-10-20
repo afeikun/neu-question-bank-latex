@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$服从参数$\\lambda$的泊松分布，已知$P(X=0)=1/2$，求$P(X<2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12(1+\\ln2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12\\ln2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12(1-\\ln2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-\\ln2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$e^{-\\lambda}=1/2$得$\\lambda=\\ln2$，$P(X<2)=e^{-\\lambda}(1+\\lambda)=\\frac12(1+\\ln2)$。",
+  "search_text": "$X$服从参数$\\lambda$的泊松分布，已知$P(X=0)=1/2$，求$P(X<2)$。 $\\frac12(1+\\ln2)$ $\\frac12\\ln2$ $\\frac12(1-\\ln2)$ $1-\\ln2$ $e^{-\\lambda}=1/2$得$\\lambda=\\ln2$，$P(X<2)=e^{-\\lambda}(1+\\lambda)=\\frac12(1+\\ln2)$。",
+  "sort_order": 5
+}

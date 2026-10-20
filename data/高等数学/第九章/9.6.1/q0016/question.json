@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是圆周 $x^2+y^2=1$ 逆时针一周，计算 $\\oint_L(e^x+x^2y)\\,dx+(\\ln y-xy^2)\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2\\pi}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n由题意知，$P=e^x+x^2y,\\quad Q=\\ln y-xy^2,$ $L$ 为区域边界的正向，故根据格林公式，有\n\n$$\\oint_L(e^x+x^2y)\\,dx+(\\ln y-xy^2)\\,dy=-\\iint_D(y^2+x^2)\\,dxdy=-\\int_0^{2\\pi}d\\theta\\int_0^1r^3\\,dr=-\\frac{\\pi}{2}$$",
+  "search_text": "设 $L$ 是圆周 $x^2+y^2=1$ 逆时针一周，计算 $\\oint_L(e^x+x^2y)\\,dx+(\\ln y-xy^2)\\,dy=$（ ） $-\\frac\\pi2$ $\\frac{2\\pi}{3}$ $-\\pi$ $\\pi$ 解析：\n\n由题意知，$P=e^x+x^2y,\\quad Q=\\ln y-xy^2,$ $L$ 为区域边界的正向，故根据格林公式，有\n\n$$\\oint_L(e^x+x^2y)\\,dx+(\\ln y-xy^2)\\,dy=-\\iint_D(y^2+x^2)\\,dxdy=-\\int_0^{2\\pi}d\\theta\\int_0^1r^3\\,dr=-\\frac{\\pi}{2}$$",
+  "sort_order": 16
+}

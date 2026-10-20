@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Sigma$ 为旋转抛物面 $z=1-x^2-y^2$ 在 $0\\le z\\le1$ 部分的外侧，则 $\\iint_\\Sigma(z^2-y)dz\\,dx+(x^2-z)dx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{3\\pi}{4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{3\\pi}{4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：由高斯公式得\n\n$$\\iint_\\Sigma(z^2-y)dzdx+(x^2-z)dxdy=\\iiint_\\Omega(-2)dV-\\iint_{\\Sigma_1}(x^2-z)dxdy$$\n\n$$=-2\\int_0^{2\\pi}d\\theta\\int_0^1dr\\int_0^{1-r^2}rdz-\\iint_{D_z}x^2d\\sigma$$\n\n$$=4\\pi\\int_0^1r(1-r^2)dr+\\int_0^{2\\pi}d\\theta\\int_0^1r^2\\cos^2\\theta\\cdot rdr$$\n\n$$=-\\pi+\\frac{\\pi}{4}$$\n\n$$=-\\frac{3\\pi}{4}.$$",
+  "search_text": "$\\Sigma$ 为旋转抛物面 $z=1-x^2-y^2$ 在 $0\\le z\\le1$ 部分的外侧，则 $\\iint_\\Sigma(z^2-y)dz\\,dx+(x^2-z)dx\\,dy=$（ ） $-\\frac{3\\pi}{4}$ $\\frac\\pi4$ $\\frac{3\\pi}{4}$ $-\\pi$ 解析：由高斯公式得\n\n$$\\iint_\\Sigma(z^2-y)dzdx+(x^2-z)dxdy=\\iiint_\\Omega(-2)dV-\\iint_{\\Sigma_1}(x^2-z)dxdy$$\n\n$$=-2\\int_0^{2\\pi}d\\theta\\int_0^1dr\\int_0^{1-r^2}rdz-\\iint_{D_z}x^2d\\sigma$$\n\n$$=4\\pi\\int_0^1r(1-r^2)dr+\\int_0^{2\\pi}d\\theta\\int_0^1r^2\\cos^2\\theta\\cdot rdr$$\n\n$$=-\\pi+\\frac{\\pi}{4}$$\n\n$$=-\\frac{3\\pi}{4}.$$",
+  "sort_order": 39
+}

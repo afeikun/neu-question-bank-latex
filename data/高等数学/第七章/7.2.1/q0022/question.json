@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $\\begin{cases}z=(x^2+y^2)/4\\\\y=4\\end{cases}$ 在点 $(2,4,5)$ 处的切线与 $x$ 轴正向所成倾斜角是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "把曲线写成向量形式 $(x,4,\\frac{x^2+4^2}{4})$，在点 $(2,4,5)$ 处的切线的切向量 $(1,0,1)$，与 $(1,0,0)$ 所成角是 $\\alpha$，则 $\\cos\\alpha=\\frac{1}{\\sqrt{2}}$，所以 $\\alpha=\\frac{\\pi}{4}$",
+  "search_text": "曲线 $\\begin{cases}z=(x^2+y^2)/4\\\\y=4\\end{cases}$ 在点 $(2,4,5)$ 处的切线与 $x$ 轴正向所成倾斜角是(\\quad)。 $\\frac\\pi3$ $\\frac\\pi4$ $\\frac\\pi2$ $\\frac\\pi6$ 把曲线写成向量形式 $(x,4,\\frac{x^2+4^2}{4})$，在点 $(2,4,5)$ 处的切线的切向量 $(1,0,1)$，与 $(1,0,0)$ 所成角是 $\\alpha$，则 $\\cos\\alpha=\\frac{1}{\\sqrt{2}}$，所以 $\\alpha=\\frac{\\pi}{4}$",
+  "sort_order": 22
+}

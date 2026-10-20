@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=(a_{ij})_{3\\times3}$，$B=\\begin{bmatrix}-a_{11}&a_{12}&2a_{11}+a_{13}\\\\-a_{21}&a_{22}&2a_{21}+a_{23}\\\\-a_{31}&a_{32}&2a_{31}+a_{33}\\end{bmatrix}$，如 $|A|=3$，则 $(A^*B)^{-1}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\begin{bmatrix}-1&0&2\\\\0&1&0\\\\0&0&1\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13\\begin{bmatrix}1&0&-1\\\\0&-3&0\\\\0&0&1\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13\\begin{bmatrix}-1&0&2\\\\0&1&0\\\\0&0&1\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\begin{bmatrix}1&0&-1\\\\0&-3&0\\\\0&0&1\\end{bmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$B=AP_2P_1$，且 $A^*=|A|A^{-1}$，故 $A^*B=3P_2P_1$，其逆为选项 4。",
+  "search_text": "设 $A=(a_{ij})_{3\\times3}$，$B=\\begin{bmatrix}-a_{11}&a_{12}&2a_{11}+a_{13}\\\\-a_{21}&a_{22}&2a_{21}+a_{23}\\\\-a_{31}&a_{32}&2a_{31}+a_{33}\\end{bmatrix}$，如 $|A|=3$，则 $(A^*B)^{-1}=(\\quad)$。 $3\\begin{bmatrix}-1&0&2\\\\0&1&0\\\\0&0&1\\end{bmatrix}$ $\\frac13\\begin{bmatrix}1&0&-1\\\\0&-3&0\\\\0&0&1\\end{bmatrix}$ $\\frac13\\begin{bmatrix}-1&0&2\\\\0&1&0\\\\0&0&1\\end{bmatrix}$ $3\\begin{bmatrix}1&0&-1\\\\0&-3&0\\\\0&0&1\\end{bmatrix}$ $B=AP_2P_1$，且 $A^*=|A|A^{-1}$，故 $A^*B=3P_2P_1$，其逆为选项 4。",
+  "sort_order": 39
+}

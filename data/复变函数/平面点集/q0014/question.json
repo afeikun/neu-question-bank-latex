@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "集合 $\\{z\\mid0\\le\\operatorname{Re}(iz)<3\\}$ 的内点全体为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{z\\mid-3<\\operatorname{Im}z<0\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{z\\mid0<\\operatorname{Im}z<3\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{z\\mid-3<\\operatorname{Im}z\\le0\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{z\\mid-3<\\operatorname{Re}z<0\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\operatorname{Re}(iz)=-\\operatorname{Im}z$，内点满足 $-3<\\operatorname{Im}z<0$。",
+  "search_text": "集合 $\\{z\\mid0\\le\\operatorname{Re}(iz)<3\\}$ 的内点全体为（ ）。 $\\{z\\mid-3<\\operatorname{Im}z<0\\}$ $\\{z\\mid0<\\operatorname{Im}z<3\\}$ $\\{z\\mid-3<\\operatorname{Im}z\\le0\\}$ $\\{z\\mid-3<\\operatorname{Re}z<0\\}$ $\\operatorname{Re}(iz)=-\\operatorname{Im}z$，内点满足 $-3<\\operatorname{Im}z<0$。",
+  "sort_order": 14
+}

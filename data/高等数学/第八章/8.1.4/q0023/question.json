@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 连续，交换二次积分 $\\int_0^a dy\\int_{-y}^{\\sqrt y}f(x,y)dx\\ (a>0)$ 的积分次序[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^a dx\\int_{-x}^{\\sqrt x}f(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{-a}^0dx\\int_{-x}^af(x,y)dy+\\int_0^{\\sqrt a}dx\\int_{x^2}^af(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{-a}^0dx\\int_{-\\sqrt x}^af(x,y)dy+\\int_0^{\\sqrt a}dx\\int_{x^2}^af(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{-a}^0dx\\int_{-x}^af(x,y)dy+\\int_0^{\\sqrt a}dx\\int_{x^2}^af(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 原式=$\\int_{-a}^{0}dx\\int_{-x}^{a}f(x,y)dy+\\int_0^{\\sqrt{a}}dx\\int_{x^2}^{a}f(x,y)dy$。",
+  "search_text": "设 $f(x,y)$ 连续，交换二次积分 $\\int_0^a dy\\int_{-y}^{\\sqrt y}f(x,y)dx\\ (a>0)$ 的积分次序[\\quad] $\\int_0^a dx\\int_{-x}^{\\sqrt x}f(x,y)dy$ $\\int_{-a}^0dx\\int_{-x}^af(x,y)dy+\\int_0^{\\sqrt a}dx\\int_{x^2}^af(x,y)dy$ $\\int_{-a}^0dx\\int_{-\\sqrt x}^af(x,y)dy+\\int_0^{\\sqrt a}dx\\int_{x^2}^af(x,y)dy$ $\\int_{-a}^0dx\\int_{-x}^af(x,y)dy+\\int_0^{\\sqrt a}dx\\int_{x^2}^af(x,y)dy$ 解答 原式=$\\int_{-a}^{0}dx\\int_{-x}^{a}f(x,y)dy+\\int_0^{\\sqrt{a}}dx\\int_{x^2}^{a}f(x,y)dy$。",
+  "sort_order": 23
+}

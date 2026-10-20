@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "对正项级数 $\\sum_{n=1}^{\\infty}(b/a_n)^n$，其中 $a_n\\to a>0$，正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$b<a$ 时发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$b>a$ 时发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "根值趋于 $b/a$，$b>a$ 时发散。",
+  "search_text": "对正项级数 $\\sum_{n=1}^{\\infty}(b/a_n)^n$，其中 $a_n\\to a>0$，正确的是？ $b<a$ 时发散 收敛 $b>a$ 时发散 发散 根值趋于 $b/a$，$b>a$ 时发散。",
+  "sort_order": 18
+}

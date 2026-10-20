@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由曲面 $x^2+y^2+z^2=4$ 与抛物面 $x^2+y^2=3z$ 所围成，则 $\\iiint_\\Omega z\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{11}{4}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{13}{4}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac94\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用柱面坐标变换，\n\n$\\iiint_\\Omega zdv=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{3}}r\\,dr\\int_{\\frac{r^2}{3}}^{\\sqrt{4-r^2}}z\\,dz=\\frac{13}{4}\\pi$",
+  "search_text": "$\\Omega$ 是由曲面 $x^2+y^2+z^2=4$ 与抛物面 $x^2+y^2=3z$ 所围成，则 $\\iiint_\\Omega z\\,dv$ 的值为（ ） $\\frac{11}{4}\\pi$ $\\frac{13}{4}\\pi$ $\\frac12\\pi$ $\\frac94\\pi$ 利用柱面坐标变换，\n\n$\\iiint_\\Omega zdv=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{3}}r\\,dr\\int_{\\frac{r^2}{3}}^{\\sqrt{4-r^2}}z\\,dz=\\frac{13}{4}\\pi$",
+  "sort_order": 16
+}

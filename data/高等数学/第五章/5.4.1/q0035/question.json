@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}\\frac{(-1)^n2^n}{\\sqrt n}(x-\\frac12)^n$ 的收敛域为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-1,1]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1,0]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $t=x-1/2$，由系数比值极限为 $2$ 知收敛半径为 $1/2$。$t=1/2$ 时为交错级数 $\\sum_{n=1}^{\\infty}(-1)^n/\\sqrt n$，收敛；$t=-1/2$ 时为 $\\sum_{n=1}^{\\infty}1/\\sqrt n$，发散。因此 $-1/2<t\\le1/2$，即 $0<x\\le1$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}\\frac{(-1)^n2^n}{\\sqrt n}(x-\\frac12)^n$ 的收敛域为（ ）。 $(0,+\\infty)$ $(0,1]$ $(-1,1]$ $(-1,0]$ 令 $t=x-1/2$，由系数比值极限为 $2$ 知收敛半径为 $1/2$。$t=1/2$ 时为交错级数 $\\sum_{n=1}^{\\infty}(-1)^n/\\sqrt n$，收敛；$t=-1/2$ 时为 $\\sum_{n=1}^{\\infty}1/\\sqrt n$，发散。因此 $-1/2<t\\le1/2$，即 $0<x\\le1$。",
+  "sort_order": 35
+}

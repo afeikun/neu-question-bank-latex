@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$df(\\tan\\sqrt{x})=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$f\\prime(\\tan\\sqrt{x})\\frac1{2\\sqrt{x}}dx$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$f\\prime(\\tan\\sqrt{x})\\sec^2\\sqrt{x}dx$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$f\\prime(\\tan\\sqrt{x})\\frac{\\sec^2\\sqrt{x}}{2\\sqrt{x}}dx$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$f\\prime(\\tan\\sqrt{x})dx$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "链式求导得 $f\\prime(\\tan\\sqrt{x})\\frac{\\sec^2\\sqrt{x}}{2\\sqrt{x}}dx$。",
+  "search_text": "$df(\\tan\\sqrt{x})=$（ ）。 $$f\\prime(\\tan\\sqrt{x})\\frac1{2\\sqrt{x}}dx$$ $$f\\prime(\\tan\\sqrt{x})\\sec^2\\sqrt{x}dx$$ $$f\\prime(\\tan\\sqrt{x})\\frac{\\sec^2\\sqrt{x}}{2\\sqrt{x}}dx$$ $$f\\prime(\\tan\\sqrt{x})dx$$ 链式求导得 $f\\prime(\\tan\\sqrt{x})\\frac{\\sec^2\\sqrt{x}}{2\\sqrt{x}}dx$。",
+  "sort_order": 6
+}

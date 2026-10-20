@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "欲使∫₁ˣ(sin t)/t dt>ln x，x属于哪一区间",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(π/2,π)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(0,1)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1,π/2)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(π,+∞)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "移项后比较(1−sin t)/t的积分，符合条件为0<x<1。",
+  "search_text": "欲使∫₁ˣ(sin t)/t dt>ln x，x属于哪一区间 (π/2,π) (0,1) (1,π/2) (π,+∞) 移项后比较(1−sin t)/t的积分，符合条件为0<x<1。",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=e^{2x}(x+y^2+2y)$ 的极值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "没有极值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "只有极小值0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "只有极小值 $-\\frac e2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "只有极小值 $\\frac e2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $\\left\\{\\begin{aligned}f'_x&=e^{2x}(2x+2y^2+4y+1)=0\\\\f'_y&=e^{2x}(2y+2)=0\\end{aligned}\\right.$，解得驻点 $M\\left(\\frac{1}{2},-1\\right)$，又\n\n$$A=f_{xx}(M)=\\left[e^{2x}(4x+4y^2+8y+4)\\right]_{\\left(\\frac{1}{2},-1\\right)}=(2+4-8+4)=2e>0,$$\n\n$$B=f_{xy}(M)=\\left[2e^{2x}(2y+2)\\right]_{\\left(\\frac{1}{2},-1\\right)}=0,$$\n\n$$C=f_{yy}(M)=\\left(2e^{2x}\\right)_{\\left(\\frac{1}{2},-1\\right)}=2e\\Rightarrow AC-B^2=4e^2>0,$$\n\n∴ $f(x,y)$ 在 $\\left(\\frac{1}{2},-1\\right)$ 处取得极小值为 $-\\frac{e}{2}$。",
+  "search_text": "函数 $f(x,y)=e^{2x}(x+y^2+2y)$ 的极值为。 没有极值 只有极小值0 只有极小值 $-\\frac e2$ 只有极小值 $\\frac e2$ 令 $\\left\\{\\begin{aligned}f'_x&=e^{2x}(2x+2y^2+4y+1)=0\\\\f'_y&=e^{2x}(2y+2)=0\\end{aligned}\\right.$，解得驻点 $M\\left(\\frac{1}{2},-1\\right)$，又\n\n$$A=f_{xx}(M)=\\left[e^{2x}(4x+4y^2+8y+4)\\right]_{\\left(\\frac{1}{2},-1\\right)}=(2+4-8+4)=2e>0,$$\n\n$$B=f_{xy}(M)=\\left[2e^{2x}(2y+2)\\right]_{\\left(\\frac{1}{2},-1\\right)}=0,$$\n\n$$C=f_{yy}(M)=\\left(2e^{2x}\\right)_{\\left(\\frac{1}{2},-1\\right)}=2e\\Rightarrow AC-B^2=4e^2>0,$$\n\n∴ $f(x,y)$ 在 $\\left(\\frac{1}{2},-1\\right)$ 处取得极小值为 $-\\frac{e}{2}$。",
+  "sort_order": 20
+}

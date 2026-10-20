@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)$ 在点 $x_0$ 的某邻域内有连续三阶导数，且 $f\\prime(x_0)=f\\prime\\prime(x_0)=0$、$f\\prime\\prime\\prime(x_0)<0$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f$ 在 $x_0$ 取极大值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(x_0,f(x_0))$ 不是拐点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f$ 在 $x_0$ 取极小值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x_0,f(x_0))$ 是拐点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "三阶导数非零且前两阶为零时，$f$ 在 $x_0$ 处不取极值，二阶导数改变符号，因此该点为拐点。",
+  "search_text": "若 $f(x)$ 在点 $x_0$ 的某邻域内有连续三阶导数，且 $f\\prime(x_0)=f\\prime\\prime(x_0)=0$、$f\\prime\\prime\\prime(x_0)<0$，则（ ）。 $f$ 在 $x_0$ 取极大值 $(x_0,f(x_0))$ 不是拐点 $f$ 在 $x_0$ 取极小值 $(x_0,f(x_0))$ 是拐点 三阶导数非零且前两阶为零时，$f$ 在 $x_0$ 处不取极值，二阶导数改变符号，因此该点为拐点。",
+  "sort_order": 22
+}

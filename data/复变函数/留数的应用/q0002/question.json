@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^{\\pi/2}\\dfrac1{a+\\sin^2t}\\,dt=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi{2\\sqrt{a^2+a}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi{8\\sqrt{a^2+a}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi{4\\sqrt{a^2+a}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac\\pi{6\\sqrt{a^2+a}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=e^{it}$，则 $dt=\\dfrac{dz}{iz}$、$\\sin t=\\dfrac{z^2-1}{2iz}$，化为留数积分后得 $I=\\dfrac\\pi{2\\sqrt{a^2+a}}$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^{\\pi/2}\\dfrac1{a+\\sin^2t}\\,dt=(\\ \\ )$。 $\\dfrac\\pi{2\\sqrt{a^2+a}}$ $\\dfrac\\pi{8\\sqrt{a^2+a}}$ $\\dfrac\\pi{4\\sqrt{a^2+a}}$ $\\dfrac\\pi{6\\sqrt{a^2+a}}$ 令 $z=e^{it}$，则 $dt=\\dfrac{dz}{iz}$、$\\sin t=\\dfrac{z^2-1}{2iz}$，化为留数积分后得 $I=\\dfrac\\pi{2\\sqrt{a^2+a}}$。",
+  "sort_order": 2
+}

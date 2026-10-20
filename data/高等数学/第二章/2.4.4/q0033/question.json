@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "利用公式 $f(x)\\approx f(x_0)+f'(x_0)(x-x_0)$ 计算 $f(x)$ 时，要求 $(\\quad)$ 很小。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|x-x_0|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y-y_0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-x_0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|y-y_0|$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "当 $|x-x_0|$ 越小时，近似效果越好。",
+  "search_text": "利用公式 $f(x)\\approx f(x_0)+f'(x_0)(x-x_0)$ 计算 $f(x)$ 时，要求 $(\\quad)$ 很小。 $|x-x_0|$ $y-y_0$ $x-x_0$ $|y-y_0|$ 当 $|x-x_0|$ 越小时，近似效果越好。",
+  "sort_order": 33
+}

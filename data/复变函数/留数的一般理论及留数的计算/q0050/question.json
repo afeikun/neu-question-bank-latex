@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)$ 为解析函数，则 $\\operatorname{Res}\\left[\\left(\\dfrac1z+\\dfrac1{z^2}\\right)f(z),0\\right]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(0)+f'(0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f'(0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(0)f'(0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $f(z)=\\sum_{n=0}^\\infty a_nz^n$，所求乘积的 $z^{-1}$ 项为 $a_0+a_1=f(0)+f'(0)$。",
+  "search_text": "设 $f(z)$ 为解析函数，则 $\\operatorname{Res}\\left[\\left(\\dfrac1z+\\dfrac1{z^2}\\right)f(z),0\\right]=(\\ \\ )$。 $f(0)+f'(0)$ $f'(0)$ $f(0)$ $f(0)f'(0)$ 由 $f(z)=\\sum_{n=0}^\\infty a_nz^n$，所求乘积的 $z^{-1}$ 项为 $a_0+a_1=f(0)+f'(0)$。",
+  "sort_order": 50
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_C\\bar z^2\\,dz=(\\quad)$，$C$ 为上半圆 $|z|=1$ 与线段 $-1\\le x\\le1,y=0$ 组成的正向闭路。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i+\\frac23$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i-\\frac23$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分弧与线段积分相加得 $\\pi i$。",
+  "search_text": "$\\oint_C\\bar z^2\\,dz=(\\quad)$，$C$ 为上半圆 $|z|=1$ 与线段 $-1\\le x\\le1,y=0$ 组成的正向闭路。 $\\pi i$ $-\\pi i$ $\\pi i+\\frac23$ $\\pi i-\\frac23$ 分弧与线段积分相加得 $\\pi i$。",
+  "sort_order": 16
+}

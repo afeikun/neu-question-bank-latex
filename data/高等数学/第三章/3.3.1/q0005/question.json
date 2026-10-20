@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to1^-}\\tan\\frac{\\pi x}{2}\\ln(2-x)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $t=1-x$，有 $\\tan(\\frac\\pi2-\\frac{\\pi t}2)\\sim\\frac2{\\pi t}$ 且 $\\ln(1+t)\\sim t$，极限为 $2/\\pi$。",
+  "search_text": "$\\lim_{x\\to1^-}\\tan\\frac{\\pi x}{2}\\ln(2-x)=(\\quad)$。 $\\frac\\pi2$ $0$ $\\frac2\\pi$ $\\infty$ 令 $t=1-x$，有 $\\tan(\\frac\\pi2-\\frac{\\pi t}2)\\sim\\frac2{\\pi t}$ 且 $\\ln(1+t)\\sim t$，极限为 $2/\\pi$。",
+  "sort_order": 5
+}

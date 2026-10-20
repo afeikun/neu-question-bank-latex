@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=x^3-y^3i$，则 $f(z)$ 在复平面上（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "仅在 $z=0$ 处可导"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "处处不可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "处处可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "仅在 $z=0$ 处解析"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "柯西－黎曼方程仅在原点成立，因此只在原点可导。",
+  "search_text": "设 $f(z)=x^3-y^3i$，则 $f(z)$ 在复平面上（ ）。 仅在 $z=0$ 处可导 处处不可导 处处可导 仅在 $z=0$ 处解析 柯西－黎曼方程仅在原点成立，因此只在原点可导。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 线性无关的充分必要条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 中有部分向量线性无关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 中任一向量都不能由其余 $n-1$ 个向量线性表示"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 都不含有零向量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 中任意两个向量的分量不成比例"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "线性无关等价于组中任一向量都不能由其余向量线性表示。",
+  "search_text": "向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 线性无关的充分必要条件是（ ）。 向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 中有部分向量线性无关 向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 中任一向量都不能由其余 $n-1$ 个向量线性表示 向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 都不含有零向量 向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 中任意两个向量的分量不成比例 线性无关等价于组中任一向量都不能由其余向量线性表示。",
+  "sort_order": 23
+}

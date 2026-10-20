@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为一条光滑简单闭曲线，它不通过原点，也不围住原点，指定一个方向为正方向，则 $\\oint_C\\frac{x\\,dy-y\\,dx}{x^2+y^2}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "记 $L$ 所围成的闭区域为 $D$，令 $P=\\frac{-y}{x^2+y^2}$，$Q=\\frac{x}{x^2+y^2}$，则当 $x^2+y^2\\neq0$ 时，有\n\n$$\n\\frac{\\partial Q}{\\partial x}=\\frac{y^2-x^2}{(x^2+y^2)^2}=\\frac{\\partial P}{\\partial y}\n$$\n\n图示标记：$x$、$y$、$O$、$D$、$L$（曲线上的方向箭头）。\n\n当 $(0,0)\\notin D$ 时，由格林公式知\n\n$$\n\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}=0\n$$",
+  "search_text": "设 $C$ 为一条光滑简单闭曲线，它不通过原点，也不围住原点，指定一个方向为正方向，则 $\\oint_C\\frac{x\\,dy-y\\,dx}{x^2+y^2}=$（ ） $4\\pi$ $0$ $\\pi$ $2\\pi$ 记 $L$ 所围成的闭区域为 $D$，令 $P=\\frac{-y}{x^2+y^2}$，$Q=\\frac{x}{x^2+y^2}$，则当 $x^2+y^2\\neq0$ 时，有\n\n$$\n\\frac{\\partial Q}{\\partial x}=\\frac{y^2-x^2}{(x^2+y^2)^2}=\\frac{\\partial P}{\\partial y}\n$$\n\n图示标记：$x$、$y$、$O$、$D$、$L$（曲线上的方向箭头）。\n\n当 $(0,0)\\notin D$ 时，由格林公式知\n\n$$\n\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}=0\n$$",
+  "sort_order": 8
+}

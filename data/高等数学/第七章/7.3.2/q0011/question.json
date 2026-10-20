@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u(x,y,z)=(x/y)^z$，则 $du|_{(1,2,3)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12dx+\\frac14dy-\\frac18\\ln2,dz$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac38dx-\\frac3{16}dy-\\frac18\\ln2,dz$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac35dx-\\frac27dy+\\frac14\\ln3,dz$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac5{16}dx+\\frac38dy-\\frac58\\ln3,dz$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "因为$u_x=z\\cdot\\frac{1}{y}\\cdot\\left(\\frac{x}{y}\\right)^{z-1}=\\frac{z}{y}\\left(\\frac{x}{y}\\right)^{z-1},\\quad u_y=z\\cdot\\left(-\\frac{x}{y^2}\\right)\\cdot\\left(\\frac{x}{y}\\right)^{z-1}=-\\frac{xz}{y^2}\\left(\\frac{x}{y}\\right)^{z-1},\\quad u_z=\\left(\\frac{x}{y}\\right)^z\\ln\\frac{x}{y},\\quad 所以$\n\n$\\left.du\\right|_{(1,2,3)}=\\frac{3}{8}dx-\\frac{3}{16}dy-\\frac{1}{8}\\ln2\\,dz.$",
+  "search_text": "设 $u(x,y,z)=(x/y)^z$，则 $du|_{(1,2,3)}=(\\quad)$。 $\\frac12dx+\\frac14dy-\\frac18\\ln2,dz$ $\\frac38dx-\\frac3{16}dy-\\frac18\\ln2,dz$ $\\frac35dx-\\frac27dy+\\frac14\\ln3,dz$ $\\frac5{16}dx+\\frac38dy-\\frac58\\ln3,dz$ 因为$u_x=z\\cdot\\frac{1}{y}\\cdot\\left(\\frac{x}{y}\\right)^{z-1}=\\frac{z}{y}\\left(\\frac{x}{y}\\right)^{z-1},\\quad u_y=z\\cdot\\left(-\\frac{x}{y^2}\\right)\\cdot\\left(\\frac{x}{y}\\right)^{z-1}=-\\frac{xz}{y^2}\\left(\\frac{x}{y}\\right)^{z-1},\\quad u_z=\\left(\\frac{x}{y}\\right)^z\\ln\\frac{x}{y},\\quad 所以$\n\n$\\left.du\\right|_{(1,2,3)}=\\frac{3}{8}dx-\\frac{3}{16}dy-\\frac{1}{8}\\ln2\\,dz.$",
+  "sort_order": 11
+}

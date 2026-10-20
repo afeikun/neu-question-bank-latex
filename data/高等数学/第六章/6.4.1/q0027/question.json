@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $L:\\begin{cases}2x-4y-z=0\\\\3x-y-2z-9=0\\end{cases}$ 在平面 $\\Pi:4x-y+z-1=0$ 上的投影直线方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}x+3y+z-9=0\\\\4x-y+z-1=0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}x+3y-z-9=0\\\\4x-y+z-1=0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}x+3y+z+9=0\\\\4x-y+z-1=0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}x+3y-z+9=0\\\\4x-y+z-1=0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：过直线 $L$ 的平面束方程为 $(2x-4y-z)+\\lambda(3x-y-2z-9)=0$，即\n$$\n(2+3\\lambda)x+(-4-\\lambda)y+(-1-2\\lambda)z+(-9\\lambda)=0。\n$$\n因与平面 $\\Pi:4x-y+z-1=0$ 垂直，所以\n$$\n(2+3\\lambda,-4-\\lambda,-1-2\\lambda)\\cdot(4,-1,1)=0\\Rightarrow\\lambda=-1。\n$$\n因此过直线 $L:\\left\\{\\begin{array}{l}2x-4y-z=0\\\\3x-y-2z-9=0\\end{array}\\right.$ 且垂直于平面 $\\Pi:4x-y+z-1=0$ 的平面方程为 $x+3y-z-9=0$。故投影直线方程为\n$$\n\\left\\{\\begin{array}{l}x+3y-z-9=0\\\\4x-y+z-1=0\\end{array}\\right.。\n$$",
+  "search_text": "直线 $L:\\begin{cases}2x-4y-z=0\\\\3x-y-2z-9=0\\end{cases}$ 在平面 $\\Pi:4x-y+z-1=0$ 上的投影直线方程为(\\quad)。 $\\begin{cases}x+3y+z-9=0\\\\4x-y+z-1=0\\end{cases}$ $\\begin{cases}x+3y-z-9=0\\\\4x-y+z-1=0\\end{cases}$ $\\begin{cases}x+3y+z+9=0\\\\4x-y+z-1=0\\end{cases}$ $\\begin{cases}x+3y-z+9=0\\\\4x-y+z-1=0\\end{cases}$ 解答：过直线 $L$ 的平面束方程为 $(2x-4y-z)+\\lambda(3x-y-2z-9)=0$，即\n$$\n(2+3\\lambda)x+(-4-\\lambda)y+(-1-2\\lambda)z+(-9\\lambda)=0。\n$$\n因与平面 $\\Pi:4x-y+z-1=0$ 垂直，所以\n$$\n(2+3\\lambda,-4-\\lambda,-1-2\\lambda)\\cdot(4,-1,1)=0\\Rightarrow\\lambda=-1。\n$$\n因此过直线 $L:\\left\\{\\begin{array}{l}2x-4y-z=0\\\\3x-y-2z-9=0\\end{array}\\right.$ 且垂直于平面 $\\Pi:4x-y+z-1=0$ 的平面方程为 $x+3y-z-9=0$。故投影直线方程为\n$$\n\\left\\{\\begin{array}{l}x+3y-z-9=0\\\\4x-y+z-1=0\\end{array}\\right.。\n$$",
+  "sort_order": 27
+}

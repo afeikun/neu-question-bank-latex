@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $y=f(x)$，有 $y\\prime|_{x=x_0}=1/2$，则 $\\Delta x\\to0$ 时微分 $dy$ 是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$与 $\\Delta x$ 等价无穷小$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$比 $\\Delta x$ 低阶无穷小$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$比 $\\Delta x$ 高阶无穷小$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$与 $\\Delta x$ 同阶但不等价无穷小$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$dy/\\Delta x\\to f\\prime(x_0)=1/2$。",
+  "search_text": "若 $y=f(x)$，有 $y\\prime|_{x=x_0}=1/2$，则 $\\Delta x\\to0$ 时微分 $dy$ 是（ ）。 $与 $\\Delta x$ 等价无穷小$ $比 $\\Delta x$ 低阶无穷小$ $比 $\\Delta x$ 高阶无穷小$ $与 $\\Delta x$ 同阶但不等价无穷小$ $dy/\\Delta x\\to f\\prime(x_0)=1/2$。",
+  "sort_order": 3
+}

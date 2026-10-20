@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 为圆周 $x^2+y^2=a^2\\ (a>0)$ 正向一周，计算 $\\oint_L(\\sin x+x^2y)\\,dx+(-xy^2)\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi a^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\pi a^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2\\pi a^3}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{\\pi a^4}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n由题意知，$P=\\sin x+x^2y$，$Q=-xy^2$，$L$ 为区域边界的正向，故根据格林公式，有\n\n$$\n\\oint_L(\\sin x+x^2y)\\,dx+(-xy^2)\\,dy\n=-\\iint_D(y^2+x^2)\\,dxdy\n=-\\int_0^{2\\pi}d\\theta\\int_0^a r^2r\\,dr\n=-\\frac{\\pi a^4}{2}\n$$",
+  "search_text": "设 $L$ 为圆周 $x^2+y^2=a^2\\ (a>0)$ 正向一周，计算 $\\oint_L(\\sin x+x^2y)\\,dx+(-xy^2)\\,dy=$（ ） $\\pi a^4$ $-\\pi a^4$ $\\frac{2\\pi a^3}{3}$ $-\\frac{\\pi a^4}{2}$ 解析：\n\n由题意知，$P=\\sin x+x^2y$，$Q=-xy^2$，$L$ 为区域边界的正向，故根据格林公式，有\n\n$$\n\\oint_L(\\sin x+x^2y)\\,dx+(-xy^2)\\,dy\n=-\\iint_D(y^2+x^2)\\,dxdy\n=-\\int_0^{2\\pi}d\\theta\\int_0^a r^2r\\,dr\n=-\\frac{\\pi a^4}{2}\n$$",
+  "sort_order": 7
+}

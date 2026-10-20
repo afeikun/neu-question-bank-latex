@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "铁锤击钉入木板，阻力与进入深度成正比，第一次击入 $1cm$，每次击锤作功相等，问第 $n$ 次击锤时又击入多少？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt n-1\\ (cm)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt{n-1}\\ (cm)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt n-\\sqrt{n-1}\\ (cm)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt n\\ (cm)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "累计深度满足 $h_n=\\sqrt n$，故第 $n$ 次新增深度为 $\\sqrt n-\\sqrt{n-1}$。",
+  "search_text": "铁锤击钉入木板，阻力与进入深度成正比，第一次击入 $1cm$，每次击锤作功相等，问第 $n$ 次击锤时又击入多少？ $\\sqrt n-1\\ (cm)$ $\\sqrt{n-1}\\ (cm)$ $\\sqrt n-\\sqrt{n-1}\\ (cm)$ $\\sqrt n\\ (cm)$ 累计深度满足 $h_n=\\sqrt n$，故第 $n$ 次新增深度为 $\\sqrt n-\\sqrt{n-1}$。",
+  "sort_order": 19
+}

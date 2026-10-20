@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列广义积分中发散的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀¹ln x dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₁⁴x/ln x dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀^∞x²ln x/(x⁴−x³+1)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₁²dx/∛((x−1)²(x−2))"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "第二项在x=1附近与1/(x−1)同阶，发散。",
+  "search_text": "下列广义积分中发散的是 ∫₀¹ln x dx ∫₁⁴x/ln x dx ∫₀^∞x²ln x/(x⁴−x³+1)dx ∫₁²dx/∛((x−1)²(x−2)) 第二项在x=1附近与1/(x−1)同阶，发散。",
+  "sort_order": 5
+}

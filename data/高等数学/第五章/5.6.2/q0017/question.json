@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期 $2\\pi$ 函数傅里叶系数 $a_n,b_n$，下列关系正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1\\pi\\int_{-\\pi}^\\pi f^2dx=a_0^2/2+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim a_n=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim b_n=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1\\pi\\int f^2dx=a_0^2/2+\\sum_{n=1}^{\\infty}(a_n+b_n)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "Parseval 等式给出选项1，且平方和收敛推出系数趋于0。",
+  "search_text": "周期 $2\\pi$ 函数傅里叶系数 $a_n,b_n$，下列关系正确的是？ $\\frac1\\pi\\int_{-\\pi}^\\pi f^2dx=a_0^2/2+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)$ $\\lim a_n=1$ $\\lim b_n=1$ $\\frac1\\pi\\int f^2dx=a_0^2/2+\\sum_{n=1}^{\\infty}(a_n+b_n)$ Parseval 等式给出选项1，且平方和收敛推出系数趋于0。",
+  "sort_order": 17
+}

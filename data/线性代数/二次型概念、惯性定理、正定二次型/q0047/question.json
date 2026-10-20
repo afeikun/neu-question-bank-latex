@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2x_1x_3+2bx_2x_3$，经正交变换 $x=Qy$ 化为 $f=y_2^2+2y_3^2$，则 $a,b$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=b=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=b=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=1,b=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=0,b=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "二次型的矩阵为 $A=\\begin{pmatrix}1&a&1\\\\a&1&b\\\\1&b&1\\end{pmatrix}$，其特征值为 $0,1,2$。由特征多项式比较得 $a^2+b^2=0$、$(a-b)^2=0$，所以 $a=b=0$。",
+  "search_text": "设二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2x_1x_3+2bx_2x_3$，经正交变换 $x=Qy$ 化为 $f=y_2^2+2y_3^2$，则 $a,b$ 的值为（ ）。 $a=b=1$ $a=b=0$ $a=1,b=0$ $a=0,b=1$ 二次型的矩阵为 $A=\\begin{pmatrix}1&a&1\\\\a&1&b\\\\1&b&1\\end{pmatrix}$，其特征值为 $0,1,2$。由特征多项式比较得 $a^2+b^2=0$、$(a-b)^2=0$，所以 $a=b=0$。",
+  "sort_order": 47
+}

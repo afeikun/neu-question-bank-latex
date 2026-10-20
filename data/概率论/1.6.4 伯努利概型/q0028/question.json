@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "每次试验成功概率$p$，重复3次，至少失败1次的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-p^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1-p)^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1-p)^3+p(1-p)^2+p^2(1-p)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "至少失败一次的补事件是三次全成功，概率$p^3$，故为$1-p^3$。",
+  "search_text": "每次试验成功概率$p$，重复3次，至少失败1次的概率为（ ）。 $1-p^3$ $p^3$ $(1-p)^3$ $(1-p)^3+p(1-p)^2+p^2(1-p)$ 至少失败一次的补事件是三次全成功，概率$p^3$，故为$1-p^3$。",
+  "sort_order": 28
+}

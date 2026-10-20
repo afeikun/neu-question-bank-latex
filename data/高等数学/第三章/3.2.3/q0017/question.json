@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\sin x$，$P(x)=x-\\frac{x^3}{6}$，则使 $\\lim_{x\\to0}\\frac{f(x)-P(x)}{x^n}=0$ 成立的最大正整数 $n=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "5"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\sin x=x-\\frac{x^3}{6}+\\frac{x^5}{5!}+o(x^6)$，故最大正整数为 $n=4$。",
+  "search_text": "设 $f(x)=\\sin x$，$P(x)=x-\\frac{x^3}{6}$，则使 $\\lim_{x\\to0}\\frac{f(x)-P(x)}{x^n}=0$ 成立的最大正整数 $n=(\\quad)$。 3 2 5 4 $\\sin x=x-\\frac{x^3}{6}+\\frac{x^5}{5!}+o(x^6)$，故最大正整数为 $n=4$。",
+  "sort_order": 17
+}

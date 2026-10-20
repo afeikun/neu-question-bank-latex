@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "单叶双曲面 $\\frac{x^2}{4}+2y^2-\\frac{z^2}{3}=1$ 上点 $M$ 处法向量与三坐标轴正向夹角相等，求 $M$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac43\\sqrt6,-\\frac16\\sqrt6,-\\sqrt6)$ 或 $(-\\frac43\\sqrt6,\\frac16\\sqrt6,-\\sqrt6)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac43\\sqrt6,\\frac16\\sqrt6,-\\sqrt6)$ 或 $(-\\frac43\\sqrt6,-\\frac16\\sqrt6,\\sqrt6)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac43\\sqrt6,\\frac16\\sqrt6,\\sqrt6)$ 或 $(-\\frac43\\sqrt6,-\\frac16\\sqrt6,-\\sqrt6)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\frac43\\sqrt6,\\frac16\\sqrt6,-\\sqrt6)$ 或 $(\\frac43\\sqrt6,-\\frac16\\sqrt6,\\sqrt6)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=\\frac{x^2}{4}+2y^2-\\frac{z^2}{3}-1$，则 $F_x=\\frac{x}{2}$，$F_y=4y$，$F_z=-\\frac{2z}{3}$，由题意可得 $\\frac{x}{2}=4y=-\\frac{2z}{3}$，设 $M_0(x_0,y_0,z_0)$，则可得到 $\\frac{x_0^2}{4}+2y_0^2-\\frac{z_0^2}{3}=1$，$\\frac{x_0}{2}=4y_0=-\\frac{2z_0}{3}$，解得 $(x_0,y_0,z_0)=(\\frac{4}{3}\\sqrt{6},\\frac{1}{6}\\sqrt{6},-\\sqrt{6})$ 或者 $(-\\frac{4}{3}\\sqrt{6},-\\frac{1}{6}\\sqrt{6},\\sqrt{6})$。",
+  "search_text": "单叶双曲面 $\\frac{x^2}{4}+2y^2-\\frac{z^2}{3}=1$ 上点 $M$ 处法向量与三坐标轴正向夹角相等，求 $M$。 $(\\frac43\\sqrt6,-\\frac16\\sqrt6,-\\sqrt6)$ 或 $(-\\frac43\\sqrt6,\\frac16\\sqrt6,-\\sqrt6)$ $(\\frac43\\sqrt6,\\frac16\\sqrt6,-\\sqrt6)$ 或 $(-\\frac43\\sqrt6,-\\frac16\\sqrt6,\\sqrt6)$ $(\\frac43\\sqrt6,\\frac16\\sqrt6,\\sqrt6)$ 或 $(-\\frac43\\sqrt6,-\\frac16\\sqrt6,-\\sqrt6)$ $(-\\frac43\\sqrt6,\\frac16\\sqrt6,-\\sqrt6)$ 或 $(\\frac43\\sqrt6,-\\frac16\\sqrt6,\\sqrt6)$ 设 $F(x,y,z)=\\frac{x^2}{4}+2y^2-\\frac{z^2}{3}-1$，则 $F_x=\\frac{x}{2}$，$F_y=4y$，$F_z=-\\frac{2z}{3}$，由题意可得 $\\frac{x}{2}=4y=-\\frac{2z}{3}$，设 $M_0(x_0,y_0,z_0)$，则可得到 $\\frac{x_0^2}{4}+2y_0^2-\\frac{z_0^2}{3}=1$，$\\frac{x_0}{2}=4y_0=-\\frac{2z_0}{3}$，解得 $(x_0,y_0,z_0)=(\\frac{4}{3}\\sqrt{6},\\frac{1}{6}\\sqrt{6},-\\sqrt{6})$ 或者 $(-\\frac{4}{3}\\sqrt{6},-\\frac{1}{6}\\sqrt{6},\\sqrt{6})$。",
+  "sort_order": 27
+}

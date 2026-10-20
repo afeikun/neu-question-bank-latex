@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由曲面 $z=\\frac{x^2+y^2+z^2}{2}$ 与 $z=\\sqrt{x^2+y^2}$ 围成含 $z$ 轴部分的立体，则该立体体积为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\n\\Omega:\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\\n0\\leq r\\leq2\\cos\\varphi\n\\end{array}\\right.,\\quad\\text{于是}\n$$\n$$\nV=\\iiint_\\Omega1\\,dV=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr=\\frac{16\\pi}{3}\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos^3\\varphi\\,d\\varphi=\\pi.\n$$",
+  "search_text": "$\\Omega$ 是由曲面 $z=\\frac{x^2+y^2+z^2}{2}$ 与 $z=\\sqrt{x^2+y^2}$ 围成含 $z$ 轴部分的立体，则该立体体积为（ ） $3\\pi$ $\\frac\\pi3$ $\\pi$ $2\\pi$ $$\n\\Omega:\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\\n0\\leq r\\leq2\\cos\\varphi\n\\end{array}\\right.,\\quad\\text{于是}\n$$\n$$\nV=\\iiint_\\Omega1\\,dV=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr=\\frac{16\\pi}{3}\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos^3\\varphi\\,d\\varphi=\\pi.\n$$",
+  "sort_order": 31
+}

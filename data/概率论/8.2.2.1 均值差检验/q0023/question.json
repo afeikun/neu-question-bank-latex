@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "制造厂家声称线A平均张力比线B至少强120N。各测50条，均值867N、778N，标准差62.8N、56.1N。α=0.05，下列说法中不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "拒绝域为$(u_\\alpha,+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu_1-\\mu_2=120,\\ H_1:\\mu_1-\\mu_2<120$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$U=(\\bar X-\\bar Y-120)/\\sqrt{\\sigma_1^2/n_1+\\sigma_2^2/n_2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可以认为厂家的说法不对"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "观测u≈−2.60<−1.645，拒绝原假设，说明μ1−μ2<120；左尾拒绝域方向为u<−uα。",
+  "search_text": "制造厂家声称线A平均张力比线B至少强120N。各测50条，均值867N、778N，标准差62.8N、56.1N。α=0.05，下列说法中不正确的是（）。 拒绝域为$(u_\\alpha,+\\infty)$ $H_0:\\mu_1-\\mu_2=120,\\ H_1:\\mu_1-\\mu_2<120$ $U=(\\bar X-\\bar Y-120)/\\sqrt{\\sigma_1^2/n_1+\\sigma_2^2/n_2}$ 可以认为厂家的说法不对 观测u≈−2.60<−1.645，拒绝原假设，说明μ1−μ2<120；左尾拒绝域方向为u<−uα。",
+  "sort_order": 23
+}

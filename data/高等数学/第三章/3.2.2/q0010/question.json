@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=(2-x)^4$ 的 3 阶 Maclaurin 公式的 Lagrange 型余项 $R_3(x)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{(\\theta x)^4}{4!}$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-x^4$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{(\\theta x)^4}{4!}$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^4$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f^{(4)}(x)=24$，因此 $R_3(x)=\\frac{f^{(4)}(\\theta x)}{4!}x^4=x^4$。",
+  "search_text": "$f(x)=(2-x)^4$ 的 3 阶 Maclaurin 公式的 Lagrange 型余项 $R_3(x)=(\\quad)$。 $-\\frac{(\\theta x)^4}{4!}$； $-x^4$； $\\frac{(\\theta x)^4}{4!}$； $x^4$； $f^{(4)}(x)=24$，因此 $R_3(x)=\\frac{f^{(4)}(\\theta x)}{4!}x^4=x^4$。",
+  "sort_order": 10
+}

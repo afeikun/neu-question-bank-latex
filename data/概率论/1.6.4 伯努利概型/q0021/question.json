@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "袋中3个黑球、2个白球，有放回独立抽取3次，恰好两次抽到白球的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$36/125$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12/125$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/10$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$C_3^2(2/5)^2(3/5)=36/125$。",
+  "search_text": "袋中3个黑球、2个白球，有放回独立抽取3次，恰好两次抽到白球的概率为（ ）。 $36/125$ $3/5$ $12/125$ $3/10$ $C_3^2(2/5)^2(3/5)=36/125$。",
+  "sort_order": 21
+}

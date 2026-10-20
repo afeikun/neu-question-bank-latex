@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列广义积分中发散的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₁^∞dx/(x³√(x²+2))"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₁²dx/∛(x²−3x+2)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₁^∞(5x−1)/(√x+3)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀¹x⁴dx/√(1−x⁴)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "第三项在无穷远处被积函数约为5√x，积分发散。",
+  "search_text": "下列广义积分中发散的是 ∫₁^∞dx/(x³√(x²+2)) ∫₁²dx/∛(x²−3x+2) ∫₁^∞(5x−1)/(√x+3)dx ∫₀¹x⁴dx/√(1−x⁴) 第三项在无穷远处被积函数约为5√x，积分发散。",
+  "sort_order": 4
+}

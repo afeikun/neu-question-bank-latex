@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由方程 $x^2-2y^2+z^2-4x+2z-5=0$ 确定，则 $z_x=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{y+1}{z+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{y-1}{2+z}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x+1}{z-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1-x}{z+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方程两边关于 $x$ 求导得 $2x+2z\\frac{\\partial z}{\\partial x}-4+2\\frac{\\partial z}{\\partial x}=0$，则 $\\frac{\\partial z}{\\partial x}=\\frac{x-1}{2-z}$",
+  "search_text": "设 $z=z(x,y)$ 由方程 $x^2-2y^2+z^2-4x+2z-5=0$ 确定，则 $z_x=(\\quad)$。 $\\frac{y+1}{z+1}$ $\\frac{y-1}{2+z}$ $\\frac{x+1}{z-1}$ $\\frac{1-x}{z+1}$ 方程两边关于 $x$ 求导得 $2x+2z\\frac{\\partial z}{\\partial x}-4+2\\frac{\\partial z}{\\partial x}=0$，则 $\\frac{\\partial z}{\\partial x}=\\frac{x-1}{2-z}$",
+  "sort_order": 39
+}

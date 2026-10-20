@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac1{\\cos z},k\\pi+\\dfrac\\pi2\\right)=(\\ \\ )\\quad(k=0,\\pm1,\\pm2,\\ldots)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1)^{k+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-1)^k$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$k\\pi+\\pi/2$ 是一级极点，留数为 $1/(-\\sin(k\\pi+\\pi/2))=(-1)^{k+1}$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac1{\\cos z},k\\pi+\\dfrac\\pi2\\right)=(\\ \\ )\\quad(k=0,\\pm1,\\pm2,\\ldots)$。 $(-1)^{k+1}$ $(-1)^k$ $-1$ $1$ $k\\pi+\\pi/2$ 是一级极点，留数为 $1/(-\\sin(k\\pi+\\pi/2))=(-1)^{k+1}$。",
+  "sort_order": 14
+}

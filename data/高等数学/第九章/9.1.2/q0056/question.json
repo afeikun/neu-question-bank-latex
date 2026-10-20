@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某曲线 $C:x^2+y^2=R^2(y>0)$ 型构件，线密度 $\\rho(x,y)=\\sqrt{x^2+y^2}$，则该构件质心坐标为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,\\frac R\\pi)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,\\frac{2R}{\\pi})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac R\\pi,\\frac R\\pi)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{2R}{\\pi},\\frac{2R}{\\pi})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 设质心 $(\\bar{x},\\bar{y})$，则 $\\bar{x}=0$，$C:\\begin{cases}x=R\\cos t\\\\y=R\\sin t\\end{cases},t\\in[0,\\pi]$\n\n$$\\bar{y}=\\frac{\\int_Ly\\rho(x,y)ds}{\\int_L\\rho(x,y)ds}=\\frac{\\int_Ly\\sqrt{x^2+y^2}\\,ds}{\\int_L\\sqrt{x^2+y^2}\\,ds}=\\frac{\\int_Ly\\,ds}{\\pi R}=\\frac{\\int_0^\\pi R^2\\sin tdt}{\\pi R}=\\frac{2R}{\\pi}$$",
+  "search_text": "某曲线 $C:x^2+y^2=R^2(y>0)$ 型构件，线密度 $\\rho(x,y)=\\sqrt{x^2+y^2}$，则该构件质心坐标为（ ） $(0,\\frac R\\pi)$ $(0,\\frac{2R}{\\pi})$ $(\\frac R\\pi,\\frac R\\pi)$ $(\\frac{2R}{\\pi},\\frac{2R}{\\pi})$ 解答 设质心 $(\\bar{x},\\bar{y})$，则 $\\bar{x}=0$，$C:\\begin{cases}x=R\\cos t\\\\y=R\\sin t\\end{cases},t\\in[0,\\pi]$\n\n$$\\bar{y}=\\frac{\\int_Ly\\rho(x,y)ds}{\\int_L\\rho(x,y)ds}=\\frac{\\int_Ly\\sqrt{x^2+y^2}\\,ds}{\\int_L\\sqrt{x^2+y^2}\\,ds}=\\frac{\\int_Ly\\,ds}{\\pi R}=\\frac{\\int_0^\\pi R^2\\sin tdt}{\\pi R}=\\frac{2R}{\\pi}$$",
+  "sort_order": 56
+}

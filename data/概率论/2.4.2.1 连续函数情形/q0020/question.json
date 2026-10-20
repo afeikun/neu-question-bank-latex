@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi$的分布函数为$F(x)$，求$\\eta=1-\\frac12\\xi$的分布函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12F(1-y/2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2F(2-2y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-F(2-2y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(2-2y)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$F_\\eta(y)=P(1-\\xi/2\\le y)=P(\\xi\\ge2-2y)=1-F(2-2y)$（连续情形）。",
+  "search_text": "$\\xi$的分布函数为$F(x)$，求$\\eta=1-\\frac12\\xi$的分布函数。 $\\frac12F(1-y/2)$ $2F(2-2y)$ $1-F(2-2y)$ $F(2-2y)$ $F_\\eta(y)=P(1-\\xi/2\\le y)=P(\\xi\\ge2-2y)=1-F(2-2y)$（连续情形）。",
+  "sort_order": 20
+}

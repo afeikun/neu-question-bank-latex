@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}a+x^2,&x<0,\\\\1,&x=0,\\\\\\ln(b+x+x^2),&x>0,\\end{cases}$，若 $f(x)$ 在 $x=0$ 连续，则 $a,b$ 分别为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=e,b=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=-1,b=e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=1,b=e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=-e,b=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "左极限为 $a$，右极限为 $\\ln b$，需均等于 $f(0)=1$，故 $a=1,b=e$。",
+  "search_text": "设 $f(x)=\\begin{cases}a+x^2,&x<0,\\\\1,&x=0,\\\\\\ln(b+x+x^2),&x>0,\\end{cases}$，若 $f(x)$ 在 $x=0$ 连续，则 $a,b$ 分别为（ ）。 $a=e,b=1$ $a=-1,b=e$ $a=1,b=e$ $a=-e,b=1$ 左极限为 $a$，右极限为 $\\ln b$，需均等于 $f(0)=1$，故 $a=1,b=e$。",
+  "sort_order": 10
+}

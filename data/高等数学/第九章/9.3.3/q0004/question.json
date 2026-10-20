@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$M=\\max\\sqrt{P^2+Q^2}$，$P(x,y),Q(x,y)$ 在 $L$ 上连续，曲线段 $L$ 的长度为 $s$，则可以推出（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\left|\\int_LPdx+Qdy\\right|\\ge Ms$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\left|\\int_LPdx+Qdy\\right|\\ge2Ms$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\left|\\int_LPdx+Qdy\\right|\\le Ms$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\left|\\int_LPdx+Qdy\\right|\\le\\frac12Ms$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解\n\n$$\\left|\\int_LP\\,dx+Q\\,dy\\right|=\\left|\\int_L(P\\cos\\alpha+Q\\cos\\beta)\\,ds\\right|\\le\\int_L|P\\cos\\alpha+Q\\cos\\beta|\\,ds$$\n\n$\\vec{A}=(P,Q),\\quad\\vec{t}=(\\cos\\alpha,\\cos\\beta)$，二者夹角为 $\\theta$，\n\n从而，\n\n$$\\int_L|P\\cos\\alpha+Q\\cos\\beta|\\,ds=\\int_L|\\vec{A}\\cdot\\vec{t}|\\,ds=\\int_L|A||\\cos\\theta|\\,ds\\le Ms$$",
+  "search_text": "$M=\\max\\sqrt{P^2+Q^2}$，$P(x,y),Q(x,y)$ 在 $L$ 上连续，曲线段 $L$ 的长度为 $s$，则可以推出（ ） $\\left|\\int_LPdx+Qdy\\right|\\ge Ms$ $\\left|\\int_LPdx+Qdy\\right|\\ge2Ms$ $\\left|\\int_LPdx+Qdy\\right|\\le Ms$ $\\left|\\int_LPdx+Qdy\\right|\\le\\frac12Ms$ 解\n\n$$\\left|\\int_LP\\,dx+Q\\,dy\\right|=\\left|\\int_L(P\\cos\\alpha+Q\\cos\\beta)\\,ds\\right|\\le\\int_L|P\\cos\\alpha+Q\\cos\\beta|\\,ds$$\n\n$\\vec{A}=(P,Q),\\quad\\vec{t}=(\\cos\\alpha,\\cos\\beta)$，二者夹角为 $\\theta$，\n\n从而，\n\n$$\\int_L|P\\cos\\alpha+Q\\cos\\beta|\\,ds=\\int_L|\\vec{A}\\cdot\\vec{t}|\\,ds=\\int_L|A||\\cos\\theta|\\,ds\\le Ms$$",
+  "sort_order": 4
+}

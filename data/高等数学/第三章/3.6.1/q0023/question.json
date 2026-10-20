@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x^2\\ln x$ 在 $[1/e,e]$ 上的凹凸性为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "曲线为凸"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "曲线为凹"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无法判断"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既有凹的又有凸的"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=2\\ln x+3>0$ 在 $[1/e,e]$ 成立，故曲线为凹。",
+  "search_text": "曲线 $y=x^2\\ln x$ 在 $[1/e,e]$ 上的凹凸性为（ ）。 曲线为凸 曲线为凹 无法判断 既有凹的又有凸的 $y\\prime\\prime=2\\ln x+3>0$ 在 $[1/e,e]$ 成立，故曲线为凹。",
+  "sort_order": 23
+}

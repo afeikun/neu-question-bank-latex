@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim N(0,\\sigma^2)$，$\\hat\\sigma^2=n^{-1}\\sum X_i^2$，正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\hat\\sigma^2$是$\\sigma^2$的无偏估计"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不是无偏估计"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(\\hat\\sigma^2)=2\\sigma^2/n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$D(\\hat\\sigma^2)=2\\sigma^4/(n+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\hat\\sigma^2)=\\sigma^2$，且其方差为$2\\sigma^4/n$。",
+  "search_text": "$X_i\\sim N(0,\\sigma^2)$，$\\hat\\sigma^2=n^{-1}\\sum X_i^2$，正确的是（）。 $\\hat\\sigma^2$是$\\sigma^2$的无偏估计 不是无偏估计 $D(\\hat\\sigma^2)=2\\sigma^2/n$ $D(\\hat\\sigma^2)=2\\sigma^4/(n+1)$ $E(\\hat\\sigma^2)=\\sigma^2$，且其方差为$2\\sigma^4/n$。",
+  "sort_order": 3
+}

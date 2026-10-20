@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $\\ln(x+\\sqrt{1+x^2})$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n(2n-1)!!x^{2n+1}/[n!(2n+1)2^n]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+\\sum_{n=1}^{\\infty}(-1)^n(2n-1)!!x^{2n+1}/[n!(2n+1)2^n]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+\\sum_{n=1}^{\\infty}(-1)^n(2n-1)!!x^{2n+1}/[n!(2n+1)2^n],\\ (-1,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+\\sum_{n=1}^{\\infty}(-1)^{n+1}(2n-1)!!x^{2n+1}/[n!(2n+1)2^n]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对导数 $(1+x^2)^{-1/2}$ 作二项式展开并积分。",
+  "search_text": "将 $\\ln(x+\\sqrt{1+x^2})$ 展开成 $x$ 的幂级数。 $\\sum_{n=1}^{\\infty}(-1)^n(2n-1)!!x^{2n+1}/[n!(2n+1)2^n]$ $x+\\sum_{n=1}^{\\infty}(-1)^n(2n-1)!!x^{2n+1}/[n!(2n+1)2^n]$ $x+\\sum_{n=1}^{\\infty}(-1)^n(2n-1)!!x^{2n+1}/[n!(2n+1)2^n],\\ (-1,1)$ $x+\\sum_{n=1}^{\\infty}(-1)^{n+1}(2n-1)!!x^{2n+1}/[n!(2n+1)2^n]$ 对导数 $(1+x^2)^{-1/2}$ 作二项式展开并积分。",
+  "sort_order": 50
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "如果 $z_0$ 是 $f(z)$ 的 $m$（$m>1$）级零点，那么 $z_0$ 是 $f\\prime(z)$ 的（ ）级零点。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$m-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$m$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$m+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$m-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $f(z)=(z-z_0)^m\\varphi(z)$，其中 $\\varphi(z_0)\\ne0$。则 $f\\prime(z)=(z-z_0)^{m-1}[m\\varphi(z)+(z-z_0)\\varphi\\prime(z)]$，方括号在 $z_0$ 不为零，故 $z_0$ 是 $f\\prime(z)$ 的 $m-1$ 级零点。",
+  "search_text": "如果 $z_0$ 是 $f(z)$ 的 $m$（$m>1$）级零点，那么 $z_0$ 是 $f\\prime(z)$ 的（ ）级零点。 $m-1$ $m$ $m+1$ $m-2$ 设 $f(z)=(z-z_0)^m\\varphi(z)$，其中 $\\varphi(z_0)\\ne0$。则 $f\\prime(z)=(z-z_0)^{m-1}[m\\varphi(z)+(z-z_0)\\varphi\\prime(z)]$，方括号在 $z_0$ 不为零，故 $z_0$ 是 $f\\prime(z)$ 的 $m-1$ 级零点。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "圆柱形浮筒直径 $0.5$m，静置水中，向下压后自由振动周期为2s，求浮筒质量（kg）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$200$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$195$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$190$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$185$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：设浮筒静止时下底面中心为原点，$x$轴向下，振动时下底面中心的位移为$x$，再设$D$为浮筒直径，$S$为底面面积，$m$为质量，$\\rho$为水的密度。\n\n由牛顿第二定律得：$F=ma=m\\frac{d^2x}{dt^2}=-\\rho gSx$，特征方程为$m r^2+\\rho gS=0$，特征根为$\\pm i\\sqrt{\\frac{\\rho gS}{m}}$；\n\n通解为$x=c_1\\cos\\sqrt{\\frac{\\rho gS}{m}}t+c_2\\sin\\sqrt{\\frac{\\rho gS}{m}}t=A\\sin\\left(\\sqrt{\\frac{\\rho gS}{m}}t+\\varphi\\right)=A\\sin(\\omega t+\\varphi)$，\n\n代入题目条件$T=2=\\frac{2\\pi}{\\omega}=2\\pi\\sqrt{\\frac{m}{\\rho gS}}$，得$m=\\frac{\\rho gS}{\\pi^2}=\\frac{\\rho g\\pi D^2}{4\\pi^2}\\approx195(kg)$",
+  "search_text": "圆柱形浮筒直径 $0.5$m，静置水中，向下压后自由振动周期为2s，求浮筒质量（kg）。 $200$ $195$ $190$ $185$ 解析：设浮筒静止时下底面中心为原点，$x$轴向下，振动时下底面中心的位移为$x$，再设$D$为浮筒直径，$S$为底面面积，$m$为质量，$\\rho$为水的密度。\n\n由牛顿第二定律得：$F=ma=m\\frac{d^2x}{dt^2}=-\\rho gSx$，特征方程为$m r^2+\\rho gS=0$，特征根为$\\pm i\\sqrt{\\frac{\\rho gS}{m}}$；\n\n通解为$x=c_1\\cos\\sqrt{\\frac{\\rho gS}{m}}t+c_2\\sin\\sqrt{\\frac{\\rho gS}{m}}t=A\\sin\\left(\\sqrt{\\frac{\\rho gS}{m}}t+\\varphi\\right)=A\\sin(\\omega t+\\varphi)$，\n\n代入题目条件$T=2=\\frac{2\\pi}{\\omega}=2\\pi\\sqrt{\\frac{m}{\\rho gS}}$，得$m=\\frac{\\rho gS}{\\pi^2}=\\frac{\\rho g\\pi D^2}{4\\pi^2}\\approx195(kg)$",
+  "sort_order": 31
+}

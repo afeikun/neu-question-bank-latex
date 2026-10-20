@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $v(x,y)$ 在区域 $D$ 内为 $u(x,y)$ 的共轭调和函数，则下列函数中为 $D$ 内解析函数的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$v(x,y)-iu(x,y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$v(x,y)+iu(x,y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$u(x,y)-iv(x,y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{\\partial u}{\\partial x}-i\\dfrac{\\partial v}{\\partial x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $u_x=v_y$、$u_y=-v_x$ 可知，取实部 $v$、虚部 $-u$ 时满足柯西—黎曼方程，故 $v-iu$ 解析。",
+  "search_text": "设 $v(x,y)$ 在区域 $D$ 内为 $u(x,y)$ 的共轭调和函数，则下列函数中为 $D$ 内解析函数的是（ ）。 $v(x,y)-iu(x,y)$ $v(x,y)+iu(x,y)$ $u(x,y)-iv(x,y)$ $\\dfrac{\\partial u}{\\partial x}-i\\dfrac{\\partial v}{\\partial x}$ 由 $u_x=v_y$、$u_y=-v_x$ 可知，取实部 $v$、虚部 $-u$ 时满足柯西—黎曼方程，故 $v-iu$ 解析。",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量组 I：$\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 可由向量组 II：$\\beta_1,\\beta_2,\\ldots,\\beta_s$ 线性表示，下列命题正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若向量组 II 线性无关，则 $r\\le s$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若向量组 II 线性相关，则 $r<s$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若向量组 I 线性无关，则 $r\\le s$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若向量组 I 线性相关，则 $r>s$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "若向量组 I 线性无关且可由向量组 II 线性表示，则其向量个数不能超过向量组 II 的秩，而秩不超过 $s$，所以 $r\\le s$。",
+  "search_text": "设向量组 I：$\\alpha_1,\\alpha_2,\\ldots,\\alpha_r$ 可由向量组 II：$\\beta_1,\\beta_2,\\ldots,\\beta_s$ 线性表示，下列命题正确的是（ ）。 若向量组 II 线性无关，则 $r\\le s$ 若向量组 II 线性相关，则 $r<s$ 若向量组 I 线性无关，则 $r\\le s$ 若向量组 I 线性相关，则 $r>s$ 若向量组 I 线性无关且可由向量组 II 线性表示，则其向量个数不能超过向量组 II 的秩，而秩不超过 $s$，所以 $r\\le s$。",
+  "sort_order": 25
+}

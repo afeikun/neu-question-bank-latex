@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f$ 是 $(-l,l)$ 上的奇函数，并且有反函数 $f^{-1}$，则 $f^{-1}$ 为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "偶函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "奇函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "非奇非偶"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无法判断"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $f(x)=-f(-x)$，令 $x=f^{-1}(-t)$，可得 $f^{-1}(t)=-f^{-1}(-t)$，即 $f^{-1}$ 是奇函数。",
+  "search_text": "若 $f$ 是 $(-l,l)$ 上的奇函数，并且有反函数 $f^{-1}$，则 $f^{-1}$ 为（ ）。 偶函数 奇函数 非奇非偶 无法判断 由 $f(x)=-f(-x)$，令 $x=f^{-1}(-t)$，可得 $f^{-1}(t)=-f^{-1}(-t)$，即 $f^{-1}$ 是奇函数。",
+  "sort_order": 2
+}

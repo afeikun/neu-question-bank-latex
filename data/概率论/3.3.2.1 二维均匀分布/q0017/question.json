@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(X,Y)$在单位圆盘$x^2+y^2\\le1$均匀，求$X$边缘密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac2\\pi\\sqrt{1-x^2},-1\\le x\\le1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1\\pi\\sqrt{1-x^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac2\\pi\\sqrt{1-x^2}$但区间外为1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1\\pi\\sqrt{1-x^2}$区间外为1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f_X(x)=\\int_{-\\sqrt{1-x^2}}^{\\sqrt{1-x^2}}\\frac1\\pi dy=\\frac2\\pi\\sqrt{1-x^2}$。",
+  "search_text": "$(X,Y)$在单位圆盘$x^2+y^2\\le1$均匀，求$X$边缘密度。 $\\frac2\\pi\\sqrt{1-x^2},-1\\le x\\le1$ $\\frac1\\pi\\sqrt{1-x^2}$ $\\frac2\\pi\\sqrt{1-x^2}$但区间外为1 $\\frac1\\pi\\sqrt{1-x^2}$区间外为1 $f_X(x)=\\int_{-\\sqrt{1-x^2}}^{\\sqrt{1-x^2}}\\frac1\\pi dy=\\frac2\\pi\\sqrt{1-x^2}$。",
+  "sort_order": 17
+}

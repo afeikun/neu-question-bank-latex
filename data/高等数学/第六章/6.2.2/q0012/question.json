@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$|\\vec a|=3$，$|\\vec b|=4$，$|\\vec c|=5$，且满足 $\\vec a+\\vec b+\\vec c=\\vec0$，则 $|\\vec a\\times\\vec b+\\vec b\\times\\vec c+\\vec c\\times\\vec a|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$37$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$35$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$38$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$36$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "三向量构成直角三角形边，$\\vec a,\\vec b$ 为直角边，故所求化为 $3|a\\times b|=3\\cdot3\\cdot4=36$。",
+  "search_text": "$|\\vec a|=3$，$|\\vec b|=4$，$|\\vec c|=5$，且满足 $\\vec a+\\vec b+\\vec c=\\vec0$，则 $|\\vec a\\times\\vec b+\\vec b\\times\\vec c+\\vec c\\times\\vec a|=(\\quad)$。 $37$ $35$ $38$ $36$ 三向量构成直角三角形边，$\\vec a,\\vec b$ 为直角边，故所求化为 $3|a\\times b|=3\\cdot3\\cdot4=36$。",
+  "sort_order": 12
+}

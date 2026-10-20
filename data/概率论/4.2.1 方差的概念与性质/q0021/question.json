@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim Pois(9),Y\\sim B(16,0.5)$独立，求$D(X-2Y+1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$25$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$26$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(X)=9,D(Y)=4$，总方差$9+4(4)=25$。",
+  "search_text": "$X\\sim Pois(9),Y\\sim B(16,0.5)$独立，求$D(X-2Y+1)$。 $25$ $1$ $2$ $26$ $D(X)=9,D(Y)=4$，总方差$9+4(4)=25$。",
+  "sort_order": 21
+}

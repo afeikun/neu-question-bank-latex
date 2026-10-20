@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A、B$ 均为 $n$ 阶正定矩阵，则 $AB$ 必为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正交矩阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "可逆矩阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "正定矩阵"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "实对称矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $A、B$ 正定知 $|A|\\ne0$，$|B|\\ne0$，于是 $|AB|=|A|\\cdot|B|\\ne0$，因此 $AB$ 可逆。另一方面 $AB$ 不一定对称，所以不一定正定。",
+  "search_text": "设矩阵 $A、B$ 均为 $n$ 阶正定矩阵，则 $AB$ 必为（ ）。 正交矩阵 可逆矩阵 正定矩阵 实对称矩阵 由 $A、B$ 正定知 $|A|\\ne0$，$|B|\\ne0$，于是 $|AB|=|A|\\cdot|B|\\ne0$，因此 $AB$ 可逆。另一方面 $AB$ 不一定对称，所以不一定正定。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=3x^2-x^3$ 的凹凸性为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\infty,1)$ 凹，$(1,+\\infty)$ 凸"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-\\infty,0)$ 凸，$(0,+\\infty)$ 凹"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-\\infty,1)$ 凸，$(1,+\\infty)$ 凹"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\infty,0)$ 凹，$(0,+\\infty)$ 凸"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=6-6x$，在 $x<1$ 时为正、在 $x>1$ 时为负，前段凹、后段凸。",
+  "search_text": "曲线 $y=3x^2-x^3$ 的凹凸性为（ ）。 $(-\\infty,1)$ 凹，$(1,+\\infty)$ 凸 $(-\\infty,0)$ 凸，$(0,+\\infty)$ 凹 $(-\\infty,1)$ 凸，$(1,+\\infty)$ 凹 $(-\\infty,0)$ 凹，$(0,+\\infty)$ 凸 $y\\prime\\prime=6-6x$，在 $x<1$ 时为正、在 $x>1$ 时为负，前段凹、后段凸。",
+  "sort_order": 33
+}

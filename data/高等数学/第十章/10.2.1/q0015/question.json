@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "初值问题 $\\cos y\\,dx+\\sin y\\,dy+e^x\\sin y\\,dy=0,\\ y(0)=\\frac\\pi4$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin x+\\sin y=e^x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^x=2\\sqrt2\\cos y-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^x\\sin y+xy=e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^x\\cos y=2\\sqrt2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程变形为 $\\frac{1}{1+e^{-x}}\\,dx=-\\frac{\\sin y}{\\cos y}\\,dy$\n\n两边积分 $\\int\\frac{1}{1+e^{-x}}\\,dx=\\int\\frac{e^x}{1+e^x}\\,dx=\\ln(e^x+1)=-\\int\\frac{\\sin y}{\\cos y}\\,dy=\\int\\frac{d\\cos y}{\\cos y}=\\ln\\cos y+c$\n\n得到 $1+e^x=c\\cos y$ 代入 $y(0)=\\frac{\\pi}{4}\\quad c=2\\sqrt{2}$",
+  "search_text": "初值问题 $\\cos y\\,dx+\\sin y\\,dy+e^x\\sin y\\,dy=0,\\ y(0)=\\frac\\pi4$ 的解为（ ） $\\sin x+\\sin y=e^x$ $e^x=2\\sqrt2\\cos y-1$ $e^x\\sin y+xy=e$ $e^x\\cos y=2\\sqrt2$ 方程变形为 $\\frac{1}{1+e^{-x}}\\,dx=-\\frac{\\sin y}{\\cos y}\\,dy$\n\n两边积分 $\\int\\frac{1}{1+e^{-x}}\\,dx=\\int\\frac{e^x}{1+e^x}\\,dx=\\ln(e^x+1)=-\\int\\frac{\\sin y}{\\cos y}\\,dy=\\int\\frac{d\\cos y}{\\cos y}=\\ln\\cos y+c$\n\n得到 $1+e^x=c\\cos y$ 代入 $y(0)=\\frac{\\pi}{4}\\quad c=2\\sqrt{2}$",
+  "sort_order": 15
+}

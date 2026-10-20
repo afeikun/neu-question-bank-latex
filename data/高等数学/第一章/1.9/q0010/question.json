@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\operatorname{sgn}x,g(x)=1+x-[x]$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=1$ 是 $g[f(x)]$ 的跳跃间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=0$ 是 $g[f(x)]$ 的跳跃间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f[g(x)]$ 和 $g[f(x)]$ 都连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=0$ 是 $f[g(x)]$ 的可去间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $f[g(x)]=1$、$g[f(x)]=1$ 可得结论。",
+  "search_text": "设 $f(x)=\\operatorname{sgn}x,g(x)=1+x-[x]$，则（ ）。 $x=1$ 是 $g[f(x)]$ 的跳跃间断点 $x=0$ 是 $g[f(x)]$ 的跳跃间断点 $f[g(x)]$ 和 $g[f(x)]$ 都连续 $x=0$ 是 $f[g(x)]$ 的可去间断点 由 $f[g(x)]=1$、$g[f(x)]=1$ 可得结论。",
+  "sort_order": 10
+}

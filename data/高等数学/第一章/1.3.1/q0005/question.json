@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{x\\to x_0}C=C$（$C$ 为常数），则 $0<|x-x_0|<\\delta$ 中的 $\\delta$ 只须满足（　）（其中 $\\varepsilon$ 为任意正实数）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\delta>1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\delta>\\frac1\\varepsilon$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\delta>\\varepsilon$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\delta>0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "常数函数极限差为 $|C-C|=0$，任取 $\\delta>0$ 即可。",
+  "search_text": "若 $\\lim_{x\\to x_0}C=C$（$C$ 为常数），则 $0<|x-x_0|<\\delta$ 中的 $\\delta$ 只须满足（ ）（其中 $\\varepsilon$ 为任意正实数）。 $\\delta>1$ $\\delta>\\frac1\\varepsilon$ $\\delta>\\varepsilon$ $\\delta>0$ 常数函数极限差为 $|C-C|=0$，任取 $\\delta>0$ 即可。",
+  "sort_order": 5
+}

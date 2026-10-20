@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(x+2z)\\,dS$，$\\Sigma:z=\\sqrt{1-x^2-y^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：曲面$\\Sigma:z=\\sqrt{1-x^2-y^2}$，投影区域为$D:x^2+y^2\\leq1$。\n\n根据对称性：$\\iint_\\Sigma x\\,dS=0$\n\n$\\iint_\\Sigma z\\,dS=\\iint_D\\sqrt{1-x^2-y^2}\\frac{1}{\\sqrt{1-x^2-y^2}}\\,dxdy=\\pi$",
+  "search_text": "计算 $\\iint_\\Sigma(x+2z)\\,dS$，$\\Sigma:z=\\sqrt{1-x^2-y^2}$。 $\\pi$ $2$ $1$ $2\\pi$ 解答：曲面$\\Sigma:z=\\sqrt{1-x^2-y^2}$，投影区域为$D:x^2+y^2\\leq1$。\n\n根据对称性：$\\iint_\\Sigma x\\,dS=0$\n\n$\\iint_\\Sigma z\\,dS=\\iint_D\\sqrt{1-x^2-y^2}\\frac{1}{\\sqrt{1-x^2-y^2}}\\,dxdy=\\pi$",
+  "sort_order": 56
+}

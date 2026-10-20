@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F=\\begin{pmatrix}1&2&3\\\\0&1&4\\\\2&3&0\\end{pmatrix}$，$E(3(2))$ 是三阶初等方阵，则 $E(3(2))F$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&2&3\\\\0&1&4\\\\4&6&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&3&2\\\\0&4&1\\\\2&0&3\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&2&3\\\\2&3&0\\\\0&1&4\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&2&6\\\\0&1&8\\\\2&3&0\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(3(2))F$ 等价于将 $F$ 的第三行乘以 $2$，所以 $E(3(2))F=\\begin{pmatrix}1&2&3\\\\0&1&4\\\\4&6&0\\end{pmatrix}$。",
+  "search_text": "设 $F=\\begin{pmatrix}1&2&3\\\\0&1&4\\\\2&3&0\\end{pmatrix}$，$E(3(2))$ 是三阶初等方阵，则 $E(3(2))F$ 等于（ ）。 $\\begin{pmatrix}1&2&3\\\\0&1&4\\\\4&6&0\\end{pmatrix}$ $\\begin{pmatrix}1&3&2\\\\0&4&1\\\\2&0&3\\end{pmatrix}$ $\\begin{pmatrix}1&2&3\\\\2&3&0\\\\0&1&4\\end{pmatrix}$ $\\begin{pmatrix}1&2&6\\\\0&1&8\\\\2&3&0\\end{pmatrix}$ $E(3(2))F$ 等价于将 $F$ 的第三行乘以 $2$，所以 $E(3(2))F=\\begin{pmatrix}1&2&3\\\\0&1&4\\\\4&6&0\\end{pmatrix}$。",
+  "sort_order": 12
+}

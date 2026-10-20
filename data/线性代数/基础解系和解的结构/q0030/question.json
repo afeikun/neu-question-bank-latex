@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知方程组 $\\begin{cases}x_1+x_2+x_3+x_4=0,\\\\x_2+2x_3+2x_4=1,\\\\-x_2+(a-3)x_3-2x_4=b,\\\\3x_1+2x_2+x_3+ax_4=-1\\end{cases}$ 有无穷多解，则 $a,b$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=1,b=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=1,b=-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=3,b=-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=3,b=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "行化简可知方程组有无穷多解要求 $R(A)=R(A|b)<4$，由阶梯矩阵得 $a=1,b=-1$。",
+  "search_text": "已知方程组 $\\begin{cases}x_1+x_2+x_3+x_4=0,\\\\x_2+2x_3+2x_4=1,\\\\-x_2+(a-3)x_3-2x_4=b,\\\\3x_1+2x_2+x_3+ax_4=-1\\end{cases}$ 有无穷多解，则 $a,b$ 的值为（ ）。 $a=1,b=1$ $a=1,b=-1$ $a=3,b=-1$ $a=3,b=1$ 行化简可知方程组有无穷多解要求 $R(A)=R(A|b)<4$，由阶梯矩阵得 $a=1,b=-1$。",
+  "sort_order": 30
+}

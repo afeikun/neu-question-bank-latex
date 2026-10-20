@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质点沿直线运动，加速度为 $t^2-1$，初速度 $1/3$，求速度与时间关系。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$V=\\frac13t^2-t+\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$V=\\frac13t^3-t^2+\\frac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$V=t^3-\\frac13t+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$V=\\frac13t^3-t+\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：由速度与加速度之间的关系 $a=\\frac{dV}{dt}$ 可得，\n\n在 $t$ 时刻的速度为 $V=\\int(t^2-1)\\,dt=\\frac{1}{3}t^3-t+C$，又 $V(0)=\\frac{1}{3}$ 知 $C=\\frac{1}{3}$，\n\n所以 $V=\\frac{1}{3}t^3-t+\\frac{1}{3}$。",
+  "search_text": "质点沿直线运动，加速度为 $t^2-1$，初速度 $1/3$，求速度与时间关系。 $V=\\frac13t^2-t+\\frac13$ $V=\\frac13t^3-t^2+\\frac13$ $V=t^3-\\frac13t+1$ $V=\\frac13t^3-t+\\frac13$ 解析：由速度与加速度之间的关系 $a=\\frac{dV}{dt}$ 可得，\n\n在 $t$ 时刻的速度为 $V=\\int(t^2-1)\\,dt=\\frac{1}{3}t^3-t+C$，又 $V(0)=\\frac{1}{3}$ 知 $C=\\frac{1}{3}$，\n\n所以 $V=\\frac{1}{3}t^3-t+\\frac{1}{3}$。",
+  "sort_order": 23
+}

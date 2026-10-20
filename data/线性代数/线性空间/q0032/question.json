@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在空间 $V$ 中，由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $C=\\begin{pmatrix}1&-1&0\\\\-2&3&0\\\\0&0&2\\end{pmatrix}$，则向量 $\\gamma=2\\alpha_1-\\alpha_2+4\\alpha_3$ 在基 $\\beta_1,\\beta_2,\\beta_3$ 下的坐标为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}7\\\\-5\\\\2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}3\\\\-7\\\\8\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}2\\\\-1\\\\4\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}5\\\\3\\\\2\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "向量在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $x=(2,-1,4)^T$，所以在基 $\\beta_1,\\beta_2,\\beta_3$ 下的坐标为 $y=C^{-1}x=(7,-5,2)^T$。",
+  "search_text": "在空间 $V$ 中，由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $C=\\begin{pmatrix}1&-1&0\\\\-2&3&0\\\\0&0&2\\end{pmatrix}$，则向量 $\\gamma=2\\alpha_1-\\alpha_2+4\\alpha_3$ 在基 $\\beta_1,\\beta_2,\\beta_3$ 下的坐标为（ ）。 $\\begin{pmatrix}7\\\\-5\\\\2\\end{pmatrix}$ $\\begin{pmatrix}3\\\\-7\\\\8\\end{pmatrix}$ $\\begin{pmatrix}2\\\\-1\\\\4\\end{pmatrix}$ $\\begin{pmatrix}5\\\\3\\\\2\\end{pmatrix}$ 向量在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $x=(2,-1,4)^T$，所以在基 $\\beta_1,\\beta_2,\\beta_3$ 下的坐标为 $y=C^{-1}x=(7,-5,2)^T$。",
+  "sort_order": 32
+}

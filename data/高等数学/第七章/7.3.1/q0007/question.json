@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=e^{\\sin(xy)}$，则 $dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos(xy)e^{\\sin(xy)}(ydx-xdy)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ye^{\\sin(xy)}\\cos(xy)(dx+xdy)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{\\sin(xy)}\\cos(xy)(ydx+xdy)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{\\sin(xy)}\\sin(xy)(ydx-xdy)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$z_x=e^{\\sin(xy)}y\\cos(xy),\\ z_y=e^{\\sin(xy)}x\\cos(xy),\\ 则dz=e^{\\sin(xy)}\\cos(xy)(ydx+xdy).$",
+  "search_text": "设 $z=e^{\\sin(xy)}$，则 $dz=(\\quad)$。 $\\cos(xy)e^{\\sin(xy)}(ydx-xdy)$ $ye^{\\sin(xy)}\\cos(xy)(dx+xdy)$ $e^{\\sin(xy)}\\cos(xy)(ydx+xdy)$ $e^{\\sin(xy)}\\sin(xy)(ydx-xdy)$ $z_x=e^{\\sin(xy)}y\\cos(xy),\\ z_y=e^{\\sin(xy)}x\\cos(xy),\\ 则dz=e^{\\sin(xy)}\\cos(xy)(ydx+xdy).$",
+  "sort_order": 7
+}

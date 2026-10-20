@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim N(0,1)$，用$F$表示$P(\\xi\\le-a)$（$a>0$）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-F(a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2F(a)-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2[1-F(a)]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准正态对称性给出$F(-a)=1-F(a)$。",
+  "search_text": "$\\xi\\sim N(0,1)$，用$F$表示$P(\\xi\\le-a)$（$a>0$）。 $1-F(a)$ $F(a)$ $2F(a)-1$ $2[1-F(a)]$ 标准正态对称性给出$F(-a)=1-F(a)$。",
+  "sort_order": 9
+}

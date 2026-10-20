@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 是线性空间 $V$ 的基，$V$ 上线性变换 $T_1$ 和 $T_2$ 在此基下的矩阵分别为 $A$ 和 $B$，则 $V$ 上线性变换 $T_1T_2$ 在此基下的矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$AB$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A-B$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$BA$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A+B$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "已知 $T_1(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)A$，$T_2(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)B$，故按题中复合顺序，$(T_1T_2)(\\alpha_1,\\ldots,\\alpha_n)=T_1[(\\alpha_1,\\ldots,\\alpha_n)B]=(\\alpha_1,\\ldots,\\alpha_n)AB$，矩阵为 $AB$。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 是线性空间 $V$ 的基，$V$ 上线性变换 $T_1$ 和 $T_2$ 在此基下的矩阵分别为 $A$ 和 $B$，则 $V$ 上线性变换 $T_1T_2$ 在此基下的矩阵为（ ）。 $AB$ $A-B$ $BA$ $A+B$ 已知 $T_1(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)A$，$T_2(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)B$，故按题中复合顺序，$(T_1T_2)(\\alpha_1,\\ldots,\\alpha_n)=T_1[(\\alpha_1,\\ldots,\\alpha_n)B]=(\\alpha_1,\\ldots,\\alpha_n)AB$，矩阵为 $AB$。",
+  "sort_order": 54
+}

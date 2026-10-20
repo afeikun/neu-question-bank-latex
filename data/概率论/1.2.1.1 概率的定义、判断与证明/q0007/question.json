@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知三个事件 $A_1,A_2,A_3$ 都满足 $A_i\\subset A$（$i=1,2,3$），下列说法正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(A)\\ge P(A_1)+P(A_2)+P(A_3)-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A)\\ge P(A_1)+P(A_2)+P(A_3)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(A)<P(A_1)+P(A_2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(A)\\ge P(A_1)+P(A_2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为 $A_1A_2A_3\\subset A$，结合概率加法公式及 $P(A_i)\\le1$，可得 $P(A)\\ge P(A_1)+P(A_2)+P(A_3)-2$。",
+  "search_text": "已知三个事件 $A_1,A_2,A_3$ 都满足 $A_i\\subset A$（$i=1,2,3$），下列说法正确的是(\\quad)。 $P(A)\\ge P(A_1)+P(A_2)+P(A_3)-2$ $P(A)\\ge P(A_1)+P(A_2)+P(A_3)$ $P(A)<P(A_1)+P(A_2)$ $P(A)\\ge P(A_1)+P(A_2)$ 因为 $A_1A_2A_3\\subset A$，结合概率加法公式及 $P(A_i)\\le1$，可得 $P(A)\\ge P(A_1)+P(A_2)+P(A_3)-2$。",
+  "sort_order": 7
+}

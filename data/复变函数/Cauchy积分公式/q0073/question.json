@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z+2|=2}\\frac{dz}{8+z^3}=(\\quad)$（方向正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac16\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解 $8+z^3=0$ 得 $z=-2,e^{\\pm\\pi i/3}$，圆内只有奇点 $-2$，积分为 $\\frac16\\pi i$。",
+  "search_text": "$\\oint_{|z+2|=2}\\frac{dz}{8+z^3}=(\\quad)$（方向正向）。 $\\frac16\\pi i$ $\\pi i$ $\\frac13\\pi i$ $0$ 解 $8+z^3=0$ 得 $z=-2,e^{\\pm\\pi i/3}$，圆内只有奇点 $-2$，积分为 $\\frac16\\pi i$。",
+  "sort_order": 73
+}

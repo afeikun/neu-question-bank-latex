@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Sigma$ 为柱面 $x^2+y^2=1$ 及平面 $z=0,z=3$ 所围成空间闭区域 $\\Omega$ 的整个边界曲面的外侧，则 $\\iint_\\Sigma(x-y)dxdy+x(y-z)dydz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{3\\pi}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{9\\pi}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{9\\pi}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "应用高斯公式，$P=x(y-z),Q=0,R=x-y$，散度为 $y-z$。圆柱体内 $y$ 的积分因对称性为0，故原积分 $=-\\pi\\int_0^3z\\,dz=-9\\pi/2$。",
+  "search_text": "$\\Sigma$ 为柱面 $x^2+y^2=1$ 及平面 $z=0,z=3$ 所围成空间闭区域 $\\Omega$ 的整个边界曲面的外侧，则 $\\iint_\\Sigma(x-y)dxdy+x(y-z)dydz=$（ ） $-\\frac{3\\pi}{2}$ $-\\frac\\pi2$ $-\\frac{9\\pi}{2}$ $\\frac{9\\pi}{2}$ 应用高斯公式，$P=x(y-z),Q=0,R=x-y$，散度为 $y-z$。圆柱体内 $y$ 的积分因对称性为0，故原积分 $=-\\pi\\int_0^3z\\,dz=-9\\pi/2$。",
+  "sort_order": 36
+}

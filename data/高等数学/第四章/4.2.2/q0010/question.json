@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求曲线 $y=x^2$ 与 $y=x$ 所围成图形的面积，正确的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$S=\\int_0^1(y^2-y)\\,dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$S=\\int_0^1(x-x^2)\\,dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$S=\\int_0^1(\\sqrt{x}-x)\\,dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$S=\\int_0^1(x^2-x)\\,dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "交点为 $(0,0)$、$(1,1)$，在 $[0,1]$ 上 $x\\ge x^2$，故面积为 $\\int_0^1(x-x^2)\\,dx$。",
+  "search_text": "求曲线 $y=x^2$ 与 $y=x$ 所围成图形的面积，正确的是 $S=\\int_0^1(y^2-y)\\,dy$ $S=\\int_0^1(x-x^2)\\,dx$ $S=\\int_0^1(\\sqrt{x}-x)\\,dx$ $S=\\int_0^1(x^2-x)\\,dx$ 交点为 $(0,0)$、$(1,1)$，在 $[0,1]$ 上 $x\\ge x^2$，故面积为 $\\int_0^1(x-x^2)\\,dx$。",
+  "sort_order": 10
+}

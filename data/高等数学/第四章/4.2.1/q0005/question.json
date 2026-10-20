@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 在 $[a,b]$ 上可积是 $f(x)$ 在 $[a,b]$ 上可微的什么条件？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既非充分也非必要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "可微函数连续，连续函数在闭区间上可积，因此可积是可微的必要条件。",
+  "search_text": "$f(x)$ 在 $[a,b]$ 上可积是 $f(x)$ 在 $[a,b]$ 上可微的什么条件？ 充分条件 必要条件 充分必要条件 既非充分也非必要条件 可微函数连续，连续函数在闭区间上可积，因此可积是可微的必要条件。",
+  "sort_order": 5
+}

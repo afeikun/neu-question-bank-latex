@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若线性方程组 $Ax=b$ 的系数矩阵 $A$ 为 $m\\times n$ 的，且 $m<n$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$Ax=0$ 只有零解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$Ax=b$ 必有无穷多解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$Ax=b$ 一定无解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$Ax=0$ 必有非零解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "因为 $m<n$，所以 $r(A)\\le m<n$，齐次方程组 $Ax=0$ 的未知量多于秩，必有非零解。",
+  "search_text": "若线性方程组 $Ax=b$ 的系数矩阵 $A$ 为 $m\\times n$ 的，且 $m<n$，则（ ）。 $Ax=0$ 只有零解 $Ax=b$ 必有无穷多解 $Ax=b$ 一定无解 $Ax=0$ 必有非零解 因为 $m<n$，所以 $r(A)\\le m<n$，齐次方程组 $Ax=0$ 的未知量多于秩，必有非零解。",
+  "sort_order": 2
+}

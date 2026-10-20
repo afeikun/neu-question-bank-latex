@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(u),g(u)$ 连续可微，且 $f(u)\\ne g(u)$，则方程 $yf(xy)dx+xg(xy)dy=0$ 的积分因子为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{yf(xy)-xg(xy)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{xy[f(xy)-g(xy)]}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{xf(xy)-yg(xy)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{xy[g(xy)+f(xy)]}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "将 $[xy(f(xy)-g(xy))]^{-1}$ 乘方程\n\n$$\n\\frac{yf(xy)}{xy[f(xy)-g(xy)]}dx+\\frac{xg(xy)}{xy[f(xy)-g(xy)]}dy=0,\n$$\n\n令 $u=xy,du=ydx+xdy$，方程可化为\n\n$$\n\\frac{yf(u)}{u[f(u)-g(u)]}dx+\\frac{xg(u)}{u[f(u)-g(u)]}\\left(\\frac{du}{x}-\\frac{ydx}{x}\\right)=0,\n$$\n\n化简得\n\n$$\n\\frac{dx}{x}+\\frac{g(u)}{u[f(u)-g(u)]}du=0,\n$$\n\n为恰当方程，",
+  "search_text": "设函数 $f(u),g(u)$ 连续可微，且 $f(u)\\ne g(u)$，则方程 $yf(xy)dx+xg(xy)dy=0$ 的积分因子为（ ） $\\frac1{yf(xy)-xg(xy)}$ $\\frac1{xy[f(xy)-g(xy)]}$ $\\frac1{xf(xy)-yg(xy)}$ $\\frac1{xy[g(xy)+f(xy)]}$ 将 $[xy(f(xy)-g(xy))]^{-1}$ 乘方程\n\n$$\n\\frac{yf(xy)}{xy[f(xy)-g(xy)]}dx+\\frac{xg(xy)}{xy[f(xy)-g(xy)]}dy=0,\n$$\n\n令 $u=xy,du=ydx+xdy$，方程可化为\n\n$$\n\\frac{yf(u)}{u[f(u)-g(u)]}dx+\\frac{xg(u)}{u[f(u)-g(u)]}\\left(\\frac{du}{x}-\\frac{ydx}{x}\\right)=0,\n$$\n\n化简得\n\n$$\n\\frac{dx}{x}+\\frac{g(u)}{u[f(u)-g(u)]}du=0,\n$$\n\n为恰当方程，",
+  "sort_order": 31
+}

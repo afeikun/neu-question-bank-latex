@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设服从$n=100,p=0.02$的二项分布，$\\eta$服从正态分布，且$E(\\xi)=E(\\eta),D(\\xi)=D(\\eta)$，求$\\eta$的概率密度函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{1.4\\sqrt{2\\pi}}e^{-(x-2)^2/3.92}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{1.4\\sqrt{2\\pi}}e^{-(x-2)^2/1.96}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{1.96\\sqrt{2\\pi}}e^{-(x-2)^2/3.92}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{1.4\\sqrt{2\\pi}}e^{(x-2)^2/3.92}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\xi)=2,D(\\xi)=1.96$，故$\\eta\\sim N(2,1.96)$，密度为选项1。",
+  "search_text": "设服从$n=100,p=0.02$的二项分布，$\\eta$服从正态分布，且$E(\\xi)=E(\\eta),D(\\xi)=D(\\eta)$，求$\\eta$的概率密度函数。 $\\frac1{1.4\\sqrt{2\\pi}}e^{-(x-2)^2/3.92}$ $\\frac1{1.4\\sqrt{2\\pi}}e^{-(x-2)^2/1.96}$ $\\frac1{1.96\\sqrt{2\\pi}}e^{-(x-2)^2/3.92}$ $\\frac1{1.4\\sqrt{2\\pi}}e^{(x-2)^2/3.92}$ $E(\\xi)=2,D(\\xi)=1.96$，故$\\eta\\sim N(2,1.96)$，密度为选项1。",
+  "sort_order": 9
+}

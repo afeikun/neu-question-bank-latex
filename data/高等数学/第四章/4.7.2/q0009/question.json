@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线y=x²与y²=x围成区域绕y轴旋转所得体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3π/10"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "3π/9"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "7π/10"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "7π/8"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "以y为变量，V=π∫₀¹(y−y⁴)dy=3π/10。",
+  "search_text": "曲线y=x²与y²=x围成区域绕y轴旋转所得体积 3π/10 3π/9 7π/10 7π/8 以y为变量，V=π∫₀¹(y−y⁴)dy=3π/10。",
+  "sort_order": 9
+}

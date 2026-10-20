@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $\\begin{cases}z=2-x^2-y^2\\\\z=(x-1)^2+(y-1)^2\\end{cases}$ 在 $xOy$ 面上的投影为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}x^2+y^2=2x+y\\\\z=1\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}x^2+y^2=2x+y\\\\z=0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}x^2+y^2=x+y\\\\z=1\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}x^2+y^2=x+y\\\\z=0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：在曲线方程中消去 $z$，得曲线的投影柱面：$x^2+y^2=x+y$，故曲在 $xOy$ 面上的投影为\n$$\n\\begin{cases}\nx^2+y^2=x+y\\\\\nz=0\n\\end{cases}.\n$$",
+  "search_text": "曲线 $\\begin{cases}z=2-x^2-y^2\\\\z=(x-1)^2+(y-1)^2\\end{cases}$ 在 $xOy$ 面上的投影为(\\quad)。 $\\begin{cases}x^2+y^2=2x+y\\\\z=1\\end{cases}$ $\\begin{cases}x^2+y^2=2x+y\\\\z=0\\end{cases}$ $\\begin{cases}x^2+y^2=x+y\\\\z=1\\end{cases}$ $\\begin{cases}x^2+y^2=x+y\\\\z=0\\end{cases}$ 解答：在曲线方程中消去 $z$，得曲线的投影柱面：$x^2+y^2=x+y$，故曲在 $xOy$ 面上的投影为\n$$\n\\begin{cases}\nx^2+y^2=x+y\\\\\nz=0\n\\end{cases}.\n$$",
+  "sort_order": 8
+}

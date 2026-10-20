@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知行列式 $\\begin{vmatrix}a_{11}&a_{12}&a_{13}\\\\a_{21}&a_{22}&a_{23}\\\\a_{31}&a_{32}&a_{33}\\end{vmatrix}=d\\ne0$，那么 $\\begin{vmatrix}a_{13}+a_{23}+a_{33}&a_{11}+a_{21}+a_{31}&a_{12}+a_{22}+a_{32}\\\\a_{23}&a_{21}&a_{22}\\\\a_{33}&a_{31}&a_{32}\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$d$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-d$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3d$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对第一行减去第二、三行之和后，所得行列式的各列相对于原行列式作循环置换，符号不变，结果为 $d$。",
+  "search_text": "已知行列式 $\\begin{vmatrix}a_{11}&a_{12}&a_{13}\\\\a_{21}&a_{22}&a_{23}\\\\a_{31}&a_{32}&a_{33}\\end{vmatrix}=d\\ne0$，那么 $\\begin{vmatrix}a_{13}+a_{23}+a_{33}&a_{11}+a_{21}+a_{31}&a_{12}+a_{22}+a_{32}\\\\a_{23}&a_{21}&a_{22}\\\\a_{33}&a_{31}&a_{32}\\end{vmatrix}$ 等于（ ）。 $d$ $0$ $-d$ $3d$ 对第一行减去第二、三行之和后，所得行列式的各列相对于原行列式作循环置换，符号不变，结果为 $d$。",
+  "sort_order": 58
+}

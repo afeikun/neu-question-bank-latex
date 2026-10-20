@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列结论正确的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}|u_n|$ 收敛必绝对收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty} u_n$ 收敛必绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}|u_n|$ 发散则 $\\sum_{n=1}^{\\infty} u_n$ 条件收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "由绝对收敛可推出原级数收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "绝对收敛必推出原级数收敛。",
+  "search_text": "下列结论正确的是哪一个？ $\\sum_{n=1}^{\\infty}|u_n|$ 收敛必绝对收敛 $\\sum_{n=1}^{\\infty} u_n$ 收敛必绝对收敛 $\\sum_{n=1}^{\\infty}|u_n|$ 发散则 $\\sum_{n=1}^{\\infty} u_n$ 条件收敛 由绝对收敛可推出原级数收敛 绝对收敛必推出原级数收敛。",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f_X(x)=\\frac1{\\sqrt{2\\pi\\sqrt3}}e^{-(x+2)^2/6}$，求标准差。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "识别为$N(-2,3)$，标准差为$\\sqrt3$。",
+  "search_text": "$f_X(x)=\\frac1{\\sqrt{2\\pi\\sqrt3}}e^{-(x+2)^2/6}$，求标准差。 $3$ $\\sqrt3$ $\\sqrt6$ $6$ 识别为$N(-2,3)$，标准差为$\\sqrt3$。",
+  "sort_order": 6
+}

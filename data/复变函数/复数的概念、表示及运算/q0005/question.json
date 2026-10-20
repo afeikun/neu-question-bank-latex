@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设复数 $a+bi$ 是实系数方程 $a_0+a_1z+a_2z^2+\\cdots+a_nz^n=0$ 的根，则（ ）也是它的根。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a-bi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$b+ai$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$b-ai$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-a+bi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用 $\\overline{a+bi}=a-bi$ 及方程系数均为实数，把方程两边取共轭可得 $a-bi$ 也是它的根。",
+  "search_text": "设复数 $a+bi$ 是实系数方程 $a_0+a_1z+a_2z^2+\\cdots+a_nz^n=0$ 的根，则（ ）也是它的根。 $a-bi$ $b+ai$ $b-ai$ $-a+bi$ 利用 $\\overline{a+bi}=a-bi$ 及方程系数均为实数，把方程两边取共轭可得 $a-bi$ 也是它的根。",
+  "sort_order": 5
+}

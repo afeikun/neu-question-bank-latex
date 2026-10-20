@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime=y^2+2(\\sin x-1)y-2\\sin x-\\cos x+1$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\cos x-\\sin x-\\frac1{x+c}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\sin x+\\cos x+cx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=1-\\sin x-\\frac1{x+c}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\sin 2x-\\frac c x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程化为 $y'=(y+\\sin x-1)^2-\\cos x$\n\n设 $u=y+\\sin x-1$，则 $\\frac{du}{dx}=u^2$，$\\frac{du}{u^2}=dx$\n\n积分得 $x+C=-\\frac{1}{u}$",
+  "search_text": "微分方程 $y\\prime=y^2+2(\\sin x-1)y-2\\sin x-\\cos x+1$ 的通解为（ ） $y=\\cos x-\\sin x-\\frac1{x+c}$ $y=\\sin x+\\cos x+cx$ $y=1-\\sin x-\\frac1{x+c}$ $y=\\sin 2x-\\frac c x$ 方程化为 $y'=(y+\\sin x-1)^2-\\cos x$\n\n设 $u=y+\\sin x-1$，则 $\\frac{du}{dx}=u^2$，$\\frac{du}{u^2}=dx$\n\n积分得 $x+C=-\\frac{1}{u}$",
+  "sort_order": 7
+}

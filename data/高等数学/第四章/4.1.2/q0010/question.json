@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int(2x+3)^5\\,dx$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac16(2x+3)^5+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{12}(2x+3)^6+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{12}(2x+3)^6+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16(2x+3)^6+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $u=2x+3$，得原积分 $=\\frac12\\int u^5du=\\frac1{12}(2x+3)^6+C$。",
+  "search_text": "不定积分 $\\int(2x+3)^5\\,dx$ 的值为 $\\frac16(2x+3)^5+C$ $\\frac1{12}(2x+3)^6+C$ $\\frac1{12}(2x+3)^6+C$ $\\frac16(2x+3)^6+C$ 令 $u=2x+3$，得原积分 $=\\frac12\\int u^5du=\\frac1{12}(2x+3)^6+C$。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\oint_{|\\xi|=2}\\frac{\\xi^2+2\\xi+2}{\\xi-z}\\,d\\xi$，正向，则 $f(1)=(\\quad)$；当 $|z|>2$ 时 $f(z)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(1)=10\\pi i,\\ f(z)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(1)=2\\pi i,\\ f(z)=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(1)=4\\pi i,\\ f(z)=2\\pi i(z^2+2z+2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(1)=0,\\ f(z)=2\\pi i(z^2+2z+2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(1)=2\\pi i(1+2+2)=10\\pi i$；$|z|>2$ 时由柯西定理 $f(z)=0$。",
+  "search_text": "设 $f(z)=\\oint_{|\\xi|=2}\\frac{\\xi^2+2\\xi+2}{\\xi-z}\\,d\\xi$，正向，则 $f(1)=(\\quad)$；当 $|z|>2$ 时 $f(z)=(\\quad)$。 $f(1)=10\\pi i,\\ f(z)=0$ $f(1)=2\\pi i,\\ f(z)=0$ $f(1)=4\\pi i,\\ f(z)=2\\pi i(z^2+2z+2)$ $f(1)=0,\\ f(z)=2\\pi i(z^2+2z+2)$ $f(1)=2\\pi i(1+2+2)=10\\pi i$；$|z|>2$ 时由柯西定理 $f(z)=0$。",
+  "sort_order": 98
+}

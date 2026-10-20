@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\sum_{n=1}^{\\infty} a_n^2$ 与 $\\sum_{n=1}^{\\infty} b_n^2$ 收敛，下列级数收敛的有几个？(1) $\\sum_{n=1}^{\\infty}|a_nb_n|$；(2) $\\sum_{n=1}^{\\infty}(a_n+b_n)^2$；(3) $\\sum_{n=1}^{\\infty}|a_n|/n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $|a_nb_n|\\le(a_n^2+b_n^2)/2$ 等不等式，三者均收敛。",
+  "search_text": "若 $\\sum_{n=1}^{\\infty} a_n^2$ 与 $\\sum_{n=1}^{\\infty} b_n^2$ 收敛，下列级数收敛的有几个？(1) $\\sum_{n=1}^{\\infty}|a_nb_n|$；(2) $\\sum_{n=1}^{\\infty}(a_n+b_n)^2$；(3) $\\sum_{n=1}^{\\infty}|a_n|/n$。 $3$个 $2$个 $1$个 $0$个 由 $|a_nb_n|\\le(a_n^2+b_n^2)/2$ 等不等式，三者均收敛。",
+  "sort_order": 4
+}

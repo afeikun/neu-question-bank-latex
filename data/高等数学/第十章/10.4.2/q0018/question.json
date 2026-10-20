@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $(x^4+y^4)dx-xy^3dy=0$ 的积分因子是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^{-4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^{-3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^{-6}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^{-5}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\nM=x^4+y^4,\\quad N=-xy^3,\n$$\n\n则\n\n$$\nM_y-N_x=5y^3,\\quad \\frac{M_y-N_x}{N}=-5x^{-1},\\quad \\mu=e^{-\\int 5x^{-1}\\,dx}=x^{-5}.\n$$",
+  "search_text": "方程 $(x^4+y^4)dx-xy^3dy=0$ 的积分因子是（ ） $x^{-4}$ $x^{-3}$ $x^{-6}$ $x^{-5}$ $$\nM=x^4+y^4,\\quad N=-xy^3,\n$$\n\n则\n\n$$\nM_y-N_x=5y^3,\\quad \\frac{M_y-N_x}{N}=-5x^{-1},\\quad \\mu=e^{-\\int 5x^{-1}\\,dx}=x^{-5}.\n$$",
+  "sort_order": 18
+}

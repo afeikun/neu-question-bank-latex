@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=4xy$于单位正方形，求$P(\\xi=\\eta)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "连续二维分布落在对角线这一零面积集合的概率为0。",
+  "search_text": "$f(x,y)=4xy$于单位正方形，求$P(\\xi=\\eta)$。 $0$ $1/2$ $1/4$ $1$ 连续二维分布落在对角线这一零面积集合的概率为0。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列命题中正确的有（ ）。\n\n(1) 若 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 与 $\\beta_1,\\beta_2,\\ldots,\\beta_t$ 等价，则 $L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)=L(\\beta_1,\\beta_2,\\ldots,\\beta_t)$，其中 $L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)$ 是由 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 生成的向量空间；\n\n(2) 集合 $V=\\{(s,t,0)\\mid(s,t)\\in\\mathbb{R}^2\\}$ 是 $\\mathbb{R}^3$ 的子空间；\n\n(3) 设 $\\Pi$ 是 $\\mathbb{R}^3$ 中过原点的一个平面，则集合 $U=\\{\\alpha\\mid\\alpha\\in\\Pi\\}$ 是 $\\mathbb{R}^3$ 的子空间。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "若两个向量组等价，则它们生成的向量空间相同；集合 $V$ 和过原点的平面 $U$ 都对线性运算封闭，构成 $\\mathbb{R}^3$ 的子空间。因此三个命题都正确。",
+  "search_text": "下列命题中正确的有（ ）。 (1) 若 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 与 $\\beta_1,\\beta_2,\\ldots,\\beta_t$ 等价，则 $L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)=L(\\beta_1,\\beta_2,\\ldots,\\beta_t)$，其中 $L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)$ 是由 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 生成的向量空间； (2) 集合 $V=\\{(s,t,0)\\mid(s,t)\\in\\mathbb{R}^2\\}$ 是 $\\mathbb{R}^3$ 的子空间； (3) 设 $\\Pi$ 是 $\\mathbb{R}^3$ 中过原点的一个平面，则集合 $U=\\{\\alpha\\mid\\alpha\\in\\Pi\\}$ 是 $\\mathbb{R}^3$ 的子空间。 $1$ 个 $2$ 个 $3$ 个 $0$ 个 若两个向量组等价，则它们生成的向量空间相同；集合 $V$ 和过原点的平面 $U$ 都对线性运算封闭，构成 $\\mathbb{R}^3$ 的子空间。因此三个命题都正确。",
+  "sort_order": 36
+}

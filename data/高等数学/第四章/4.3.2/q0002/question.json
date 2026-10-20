@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "a=∫₀¹sin²x dx，b=∫₀¹x²dx，比较大小",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "a>b"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不能确定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "a<b"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "a=b"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "在(0,1)上sinx<x，故sin²x<x²，a<b。",
+  "search_text": "a=∫₀¹sin²x dx，b=∫₀¹x²dx，比较大小 a>b 不能确定 a<b a=b 在(0,1)上sinx<x，故sin²x<x²，a<b。",
+  "sort_order": 2
+}

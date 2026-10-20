@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平面上有 10 个点，其中任何三点都不在一直线上，这些点可以确定(\\quad)个三角形。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$120$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$720$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$240$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$360$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "任取 10 个点中的 3 个确定一个三角形，共有 $\\binom{10}{3}=120$ 个。",
+  "search_text": "平面上有 10 个点，其中任何三点都不在一直线上，这些点可以确定(\\quad)个三角形。 $120$ $720$ $240$ $360$ 任取 10 个点中的 3 个确定一个三角形，共有 $\\binom{10}{3}=120$ 个。",
+  "sort_order": 8
+}

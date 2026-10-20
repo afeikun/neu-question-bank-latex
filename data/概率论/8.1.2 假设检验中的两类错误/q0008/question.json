@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$H_1$为备择假设，第一类错误是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$H_1$不真，接受$H_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_1$不真时拒绝$H_0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$H_0$为真时接受$H_0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$H_1$不真，拒绝$H_1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一类错误是$H_0$为真却拒绝$H_0$，等价于$H_1$为假却接受$H_1$。",
+  "search_text": "设$H_1$为备择假设，第一类错误是（）。 $H_1$不真，接受$H_1$ $H_1$不真时拒绝$H_0$ $H_0$为真时接受$H_0$ $H_1$不真，拒绝$H_1$ 第一类错误是$H_0$为真却拒绝$H_0$，等价于$H_1$为假却接受$H_1$。",
+  "sort_order": 8
+}

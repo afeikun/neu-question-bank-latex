@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\int_0^{1+i}(x^2+iy)\\,dz=-\\frac16+\\frac56i$，积分路径应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "从原点沿抛物线 $y=x^2$ 到 $1+i$ 线段"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "沿原点到 1，再由 1 到 $1+i$ 的折线"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "从原点到 $i$，再由 $i$ 到 $1+i$ 的折线"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "从原点到 1 的直线段再接任意光滑曲线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "按抛物线参数化 $z=x+ix^2$，源解析得到 $-1/6+5i/6$。",
+  "search_text": "为使 $\\int_0^{1+i}(x^2+iy)\\,dz=-\\frac16+\\frac56i$，积分路径应为（ ）。 从原点沿抛物线 $y=x^2$ 到 $1+i$ 线段 沿原点到 1，再由 1 到 $1+i$ 的折线 从原点到 $i$，再由 $i$ 到 $1+i$ 的折线 从原点到 1 的直线段再接任意光滑曲线 按抛物线参数化 $z=x+ix^2$，源解析得到 $-1/6+5i/6$。",
+  "sort_order": 6
+}

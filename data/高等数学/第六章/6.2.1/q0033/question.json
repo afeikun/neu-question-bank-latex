@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec a=(3,5,-2)$，$\\vec b=(2,1,4)$，则满足(\\quad)时能使得 $\\lambda\\vec a+\\mu\\vec b$ 与 $z$ 轴垂直。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda=-2\\mu$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\mu=2\\lambda$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda=2\\mu$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\mu=-2\\lambda$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "与 $z$ 轴垂直要求第三分量 $-2\\lambda+4\\mu=0$，故 $\\lambda=2\\mu$。",
+  "search_text": "设 $\\vec a=(3,5,-2)$，$\\vec b=(2,1,4)$，则满足(\\quad)时能使得 $\\lambda\\vec a+\\mu\\vec b$ 与 $z$ 轴垂直。 $\\lambda=-2\\mu$ $\\mu=2\\lambda$ $\\lambda=2\\mu$ $\\mu=-2\\lambda$ 与 $z$ 轴垂直要求第三分量 $-2\\lambda+4\\mu=0$，故 $\\lambda=2\\mu$。",
+  "sort_order": 33
+}

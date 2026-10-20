@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "立体 $\\Omega$ 是 $x^2+y^2+z^2\\leq1$ 位于第一卦限部分，体密度为常数 $\\rho_0$，该立体绕 $z$ 轴旋转一周的转动惯量 $I_z=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi5\\rho_0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi3\\rho_0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi{10}\\rho_0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi{15}\\rho_0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\nI_z=\\iiint_\\Omega(x^2+y^2)\\rho_0\\,dv=\\rho_0\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^1r^4\\sin^3\\varphi\\,dr=\\frac{\\pi}{15}\\rho_0.\n$$",
+  "search_text": "立体 $\\Omega$ 是 $x^2+y^2+z^2\\leq1$ 位于第一卦限部分，体密度为常数 $\\rho_0$，该立体绕 $z$ 轴旋转一周的转动惯量 $I_z=$（ ） $\\frac\\pi5\\rho_0$ $\\frac\\pi3\\rho_0$ $\\frac\\pi{10}\\rho_0$ $\\frac\\pi{15}\\rho_0$ $$\nI_z=\\iiint_\\Omega(x^2+y^2)\\rho_0\\,dv=\\rho_0\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^1r^4\\sin^3\\varphi\\,dr=\\frac{\\pi}{15}\\rho_0.\n$$",
+  "sort_order": 9
+}

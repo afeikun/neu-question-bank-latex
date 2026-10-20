@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{\\cos x-e^{-x^2/2}}{[x+\\ln(1-x)]\\sin^2x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "分子首项为 $-x^4/12$，分母首项为 $-x^4/2$，极限为 $1/6$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{\\cos x-e^{-x^2/2}}{[x+\\ln(1-x)]\\sin^2x}=(\\quad)$。 $1$ $\\frac16$ $\\frac13$ $\\frac12$ 分子首项为 $-x^4/12$，分母首项为 $-x^4/2$，极限为 $1/6$。",
+  "sort_order": 23
+}

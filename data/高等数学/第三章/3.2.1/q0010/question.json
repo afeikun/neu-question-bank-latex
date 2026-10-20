@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\frac1{3-x}$ 在 $x=1$ 处的 Taylor 公式为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12+\\frac{x-1}{2}+\\frac{(x-1)^2}{2^2}+\\cdots+\\frac{(x-1)^n}{2^n}+o((x-1)^n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12-\\frac{x-1}{2}+\\frac{(x-1)^2}{2^2}+\\cdots+(-1)^n\\frac{(x-1)^n}{2^n}+o((x-1)^n)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12-\\frac{x-1}{2^2}+\\frac{(x-1)^2}{2^3}+\\cdots+(-1)^n\\frac{(x-1)^n}{2^{n+1}}+o((x-1)^n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12+\\frac{x-1}{2^2}+\\frac{(x-1)^2}{2^3}+\\cdots+\\frac{(x-1)^n}{2^{n+1}}+o((x-1)^n)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac1{3-x}=\\frac12\\cdot\\frac1{1-(x-1)/2}$，按几何级数展开得 $\\frac12+\\frac{x-1}{2^2}+\\frac{(x-1)^2}{2^3}+\\cdots+\\frac{(x-1)^n}{2^{n+1}}+o((x-1)^n)$。",
+  "search_text": "函数 $f(x)=\\frac1{3-x}$ 在 $x=1$ 处的 Taylor 公式为 $(\\quad)$。 $\\frac12+\\frac{x-1}{2}+\\frac{(x-1)^2}{2^2}+\\cdots+\\frac{(x-1)^n}{2^n}+o((x-1)^n)$ $\\frac12-\\frac{x-1}{2}+\\frac{(x-1)^2}{2^2}+\\cdots+(-1)^n\\frac{(x-1)^n}{2^n}+o((x-1)^n)$ $\\frac12-\\frac{x-1}{2^2}+\\frac{(x-1)^2}{2^3}+\\cdots+(-1)^n\\frac{(x-1)^n}{2^{n+1}}+o((x-1)^n)$ $\\frac12+\\frac{x-1}{2^2}+\\frac{(x-1)^2}{2^3}+\\cdots+\\frac{(x-1)^n}{2^{n+1}}+o((x-1)^n)$ $\\frac1{3-x}=\\frac12\\cdot\\frac1{1-(x-1)/2}$，按几何级数展开得 $\\frac12+\\frac{x-1}{2^2}+\\frac{(x-1)^2}{2^3}+\\cdots+\\frac{(x-1)^n}{2^{n+1}}+o((x-1)^n)$。",
+  "sort_order": 10
+}

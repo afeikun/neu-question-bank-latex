@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(z+2x+\\frac43y)\\,dS$，$\\Sigma$ 为平面 $\\frac x2+\\frac y3+\\frac z4=1$ 在第一卦限中的部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\sqrt{61}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{61}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答因为$z+2x+\\frac{4}{3}y=4(\\frac{x}{2}+\\frac{y}{3}+\\frac{z}{4})=4$，\n\n所以，$\\iint_\\Sigma(z+2x+\\frac{4}{3}y)\\,dS=\\iint_\\Sigma4\\,dS=4A$，$A$ 为曲面$\\Sigma$的面积。$A=\\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\sqrt{61}$，$\\vec{a}$，$\\vec{b}$为三角形邻边向量。",
+  "search_text": "计算 $\\iint_\\Sigma(z+2x+\\frac43y)\\,dS$，$\\Sigma$ 为平面 $\\frac x2+\\frac y3+\\frac z4=1$ 在第一卦限中的部分。 $8$ $4\\sqrt{61}$ $4$ $\\sqrt{61}$ 解答因为$z+2x+\\frac{4}{3}y=4(\\frac{x}{2}+\\frac{y}{3}+\\frac{z}{4})=4$，\n\n所以，$\\iint_\\Sigma(z+2x+\\frac{4}{3}y)\\,dS=\\iint_\\Sigma4\\,dS=4A$，$A$ 为曲面$\\Sigma$的面积。$A=\\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\sqrt{61}$，$\\vec{a}$，$\\vec{b}$为三角形邻边向量。",
+  "sort_order": 45
+}

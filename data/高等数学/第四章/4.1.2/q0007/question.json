@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int(\\tan x-\\sec x)^2\\,dx$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\tan x+x-\\frac2{\\sin x}+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\tan x+x-\\frac2{\\cos x}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\tan x-x-\\frac2{\\cos x}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\tan x-x-\\frac2{\\sin x}+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "展开被积函数并利用 $\\tan^2x+\\sec^2x=2\\sec^2x-1$，积分得 $2\\tan x-x-2\\sec x+C$。",
+  "search_text": "不定积分 $\\int(\\tan x-\\sec x)^2\\,dx$ 的值为 $2\\tan x+x-\\frac2{\\sin x}+C$ $2\\tan x+x-\\frac2{\\cos x}+C$ $2\\tan x-x-\\frac2{\\cos x}+C$ $2\\tan x-x-\\frac2{\\sin x}+C$ 展开被积函数并利用 $\\tan^2x+\\sec^2x=2\\sec^2x-1$，积分得 $2\\tan x-x-2\\sec x+C$。",
+  "sort_order": 7
+}

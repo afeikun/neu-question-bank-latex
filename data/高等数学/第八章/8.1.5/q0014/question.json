@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $D$ 为 $y=-x^3,y=1,x=1$ 所围成的区域，$f(u)$ 是连续函数，则 $\\iint_Dxy^3f(x^2+y^2)dxdy$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "作辅助线 $y=x^3$，它 $D$ 把分为两部分 $D_1,D_2$，其中\n\n$$\nD_1=\\{(x,y)\\mid 0\\le y\\le 1,\\ -\\sqrt[3]{y}\\le x\\le \\sqrt[3]{y}\\},\n$$\n\n$$\nD_2=\\{(x,y)\\mid 0\\le x\\le 1,\\ -x^3\\le y\\le x^3\\}\n$$\n\n在 $D_1$ 上 $F(x,y)=xy^3f(x^2+y^2)$ 满足 $F(-x,y)=-F(x,y)$ 且 $D_1$ 关于 $y$ 轴对称，因而\n\n$$\n\\iint_{D_1}xy^3f(x^2+y^2)\\,dxdy=0.\n$$\n\n在 $D_2$ 上 $F(x,-y)=-F(x,y)$，且 $D_2$ 关于 $x$ 轴对称，因而\n\n$$\n\\iint_{D_2}xy^3f(x^2+y^2)\\,dxdy=0,\n$$\n\n因此\n\n$$\n\\iint_Dxy^3f(x^2+y^2)\\,dxdy=0\n$$",
+  "search_text": "若 $D$ 为 $y=-x^3,y=1,x=1$ 所围成的区域，$f(u)$ 是连续函数，则 $\\iint_Dxy^3f(x^2+y^2)dxdy$（ ） $3$ $1$ $2$ $0$ 作辅助线 $y=x^3$，它 $D$ 把分为两部分 $D_1,D_2$，其中\n\n$$\nD_1=\\{(x,y)\\mid 0\\le y\\le 1,\\ -\\sqrt[3]{y}\\le x\\le \\sqrt[3]{y}\\},\n$$\n\n$$\nD_2=\\{(x,y)\\mid 0\\le x\\le 1,\\ -x^3\\le y\\le x^3\\}\n$$\n\n在 $D_1$ 上 $F(x,y)=xy^3f(x^2+y^2)$ 满足 $F(-x,y)=-F(x,y)$ 且 $D_1$ 关于 $y$ 轴对称，因而\n\n$$\n\\iint_{D_1}xy^3f(x^2+y^2)\\,dxdy=0.\n$$\n\n在 $D_2$ 上 $F(x,-y)=-F(x,y)$，且 $D_2$ 关于 $x$ 轴对称，因而\n\n$$\n\\iint_{D_2}xy^3f(x^2+y^2)\\,dxdy=0,\n$$\n\n因此\n\n$$\n\\iint_Dxy^3f(x^2+y^2)\\,dxdy=0\n$$",
+  "sort_order": 14
+}

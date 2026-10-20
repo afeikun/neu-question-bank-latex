@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $z=f(x,y)$ 满足 $f(x,y)\\sqrt{1+f_x^2+f_y^2}=1$，投影面积为 $2$，求 $\\iint_\\Sigma z\\,dS$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：$\\iint_\\Sigma z\\,dS=\\iint_D f(x,y)\\sqrt{1+f_x^2(x,y)+f_y^2(x,y)}\\,dxdy=\\iint_D1\\,dxdy=2$，",
+  "search_text": "已知 $z=f(x,y)$ 满足 $f(x,y)\\sqrt{1+f_x^2+f_y^2}=1$，投影面积为 $2$，求 $\\iint_\\Sigma z\\,dS$。 $4$ $2$ $\\pi$ $2\\pi$ 解答：$\\iint_\\Sigma z\\,dS=\\iint_D f(x,y)\\sqrt{1+f_x^2(x,y)+f_y^2(x,y)}\\,dxdy=\\iint_D1\\,dxdy=2$，",
+  "sort_order": 41
+}

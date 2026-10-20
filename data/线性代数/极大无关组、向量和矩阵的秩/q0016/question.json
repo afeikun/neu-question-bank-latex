@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量组 $\\alpha_{i_1},\\alpha_{i_2},\\ldots,\\alpha_{i_r}$ 和向量组 $\\alpha_{j_1},\\alpha_{j_2},\\ldots,\\alpha_{j_t}$ 分别是向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 的极大无关组，则有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$r=n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$r\\ne t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$r=t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t=n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "同一向量组的任意极大无关组所含向量个数都等于该向量组的秩，因此 $r=t$。原答案标记为 opt1（$r=n$），与题意推断 $r=t$ 不一致，保留源答案并记为 SOURCE_SUSPECTED_ERROR。",
+  "search_text": "向量组 $\\alpha_{i_1},\\alpha_{i_2},\\ldots,\\alpha_{i_r}$ 和向量组 $\\alpha_{j_1},\\alpha_{j_2},\\ldots,\\alpha_{j_t}$ 分别是向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 的极大无关组，则有（ ）。 $r=n$ $r\\ne t$ $r=t$ $t=n$ 同一向量组的任意极大无关组所含向量个数都等于该向量组的秩，因此 $r=t$。原答案标记为 opt1（$r=n$），与题意推断 $r=t$ 不一致，保留源答案并记为 SOURCE_SUSPECTED_ERROR。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(x)=f(x)\\sin x$，已知 $f$ 的傅里叶系数 $a_n,b_n$，则系数关系正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A_1=-b_2/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A_0=a_1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A_n=(b_{n+1}-b_{n-1})/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$B_n=(a_{n-1}+a_{n+1})/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "用积化和差与傅里叶系数积分公式得 $A_n=(b_{n+1}-b_{n-1})/2$。",
+  "search_text": "设 $F(x)=f(x)\\sin x$，已知 $f$ 的傅里叶系数 $a_n,b_n$，则系数关系正确的是？ $A_1=-b_2/2$ $A_0=a_1$ $A_n=(b_{n+1}-b_{n-1})/2$ $B_n=(a_{n-1}+a_{n+1})/2$ 用积化和差与傅里叶系数积分公式得 $A_n=(b_{n+1}-b_{n-1})/2$。",
+  "sort_order": 2
+}

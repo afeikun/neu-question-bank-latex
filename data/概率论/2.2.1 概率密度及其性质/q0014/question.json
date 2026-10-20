@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\varphi(x)$是密度函数，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0\\le\\varphi(x)\\le1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{x\\to+\\infty}\\varphi(x)=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{-\\infty}^{+\\infty}\\varphi(x)dx=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\varphi(x)$单调不减"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "密度函数在全实轴上的积分为1。",
+  "search_text": "$\\varphi(x)$是密度函数，则（ ）。 $0\\le\\varphi(x)\\le1$ $\\lim_{x\\to+\\infty}\\varphi(x)=1$ $\\int_{-\\infty}^{+\\infty}\\varphi(x)dx=1$ $\\varphi(x)$单调不减 密度函数在全实轴上的积分为1。",
+  "sort_order": 14
+}

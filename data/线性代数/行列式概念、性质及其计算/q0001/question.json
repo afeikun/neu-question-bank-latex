@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知行列式 $d=\\begin{vmatrix}a_{11}&a_{12}&a_{13}&b\\\\a_{21}&a_{22}&a_{23}&b\\\\a_{31}&a_{32}&a_{33}&b\\\\a_{41}&a_{42}&a_{43}&b\\end{vmatrix}$ 中每行元素的和都等于 $1$，则 $d=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由每行元素的和都等于 $1$，可将第 $4$ 列表示为前三列元素之和，故行列式 $d=0$。",
+  "search_text": "已知行列式 $d=\\begin{vmatrix}a_{11}&a_{12}&a_{13}&b\\\\a_{21}&a_{22}&a_{23}&b\\\\a_{31}&a_{32}&a_{33}&b\\\\a_{41}&a_{42}&a_{43}&b\\end{vmatrix}$ 中每行元素的和都等于 $1$，则 $d=$（ ）。 $0$ $-1$ $4$ $1$ 由每行元素的和都等于 $1$，可将第 $4$ 列表示为前三列元素之和，故行列式 $d=0$。",
+  "sort_order": 1
+}

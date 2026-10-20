@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\int_0^1dx\\int_{1-x}^{\\sqrt{1-x^2}}f(x,y)dy$ 的极坐标形式为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^\\pi d\\theta\\int_{1/\\cos2\\theta}^1f(r\\cos\\theta,r\\sin\\theta)rdr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_{1/\\sin2\\theta}^1f(r\\cos\\theta,r\\sin\\theta)rdr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{\\pi/2}d\\theta\\int_{1/(\\sin\\theta+\\cos\\theta)}^1f(r\\cos\\theta,r\\sin\\theta)rdr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{\\pi/2}d\\theta\\int_0^1f(r\\cos\\theta,r\\sin\\theta)rdr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 积分区域如图。\n\n图示：阴影区域标记为 $D$；坐标轴标记为 $x$、$y$，原点标记为 $O$；图中标有 $r=\\frac{1}{\\sin\\theta+\\cos\\theta}$、$r=1$、$r$ 和 $\\theta$。\n\n在极坐标系下，积分区域可表示为 $D:0\\leq\\theta\\leq\\frac{\\pi}{2},\\frac{1}{\\sin\\theta+\\cos\\theta}\\leq r\\leq1$，所以\n$$\n\\int_0^1dx\\int_x^{\\sqrt{1-x^2}}f(x,y)dy=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_{\\frac{1}{\\sin\\theta+\\cos\\theta}}^1f(r\\cos\\theta,r\\sin\\theta)rdr.\n$$",
+  "search_text": "二重积分 $\\int_0^1dx\\int_{1-x}^{\\sqrt{1-x^2}}f(x,y)dy$ 的极坐标形式为[\\quad] $\\int_0^\\pi d\\theta\\int_{1/\\cos2\\theta}^1f(r\\cos\\theta,r\\sin\\theta)rdr$ $\\int_0^{2\\pi}d\\theta\\int_{1/\\sin2\\theta}^1f(r\\cos\\theta,r\\sin\\theta)rdr$ $\\int_0^{\\pi/2}d\\theta\\int_{1/(\\sin\\theta+\\cos\\theta)}^1f(r\\cos\\theta,r\\sin\\theta)rdr$ $\\int_0^{\\pi/2}d\\theta\\int_0^1f(r\\cos\\theta,r\\sin\\theta)rdr$ 解答 积分区域如图。\n\n图示：阴影区域标记为 $D$；坐标轴标记为 $x$、$y$，原点标记为 $O$；图中标有 $r=\\frac{1}{\\sin\\theta+\\cos\\theta}$、$r=1$、$r$ 和 $\\theta$。\n\n在极坐标系下，积分区域可表示为 $D:0\\leq\\theta\\leq\\frac{\\pi}{2},\\frac{1}{\\sin\\theta+\\cos\\theta}\\leq r\\leq1$，所以\n$$\n\\int_0^1dx\\int_x^{\\sqrt{1-x^2}}f(x,y)dy=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_{\\frac{1}{\\sin\\theta+\\cos\\theta}}^1f(r\\cos\\theta,r\\sin\\theta)rdr.\n$$",
+  "sort_order": 35
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z|=2}\\frac{\\sin(\\pi z/2)}{z^2-2z-3}\\,dz=(\\quad)$（方向正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi i}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内只有奇点 $-1$，积分为 $2\\pi i\\frac{\\sin(-\\pi/2)}{-4}=\\frac{\\pi i}{2}$。",
+  "search_text": "$\\oint_{|z|=2}\\frac{\\sin(\\pi z/2)}{z^2-2z-3}\\,dz=(\\quad)$（方向正向）。 $\\frac{\\pi i}{2}$ $i$ $\\frac12$ $2\\pi i$ 圆内只有奇点 $-1$，积分为 $2\\pi i\\frac{\\sin(-\\pi/2)}{-4}=\\frac{\\pi i}{2}$。",
+  "sort_order": 112
+}

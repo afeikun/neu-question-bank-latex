@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime\\prime=y\\prime+x$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^x-\\frac12x^2-x+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+\\frac12x^2-x+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^x+\\frac12x^2+x+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^x-\\frac12x^2+x+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：令 $p=y'$，得 $p'=p+x$，解得 $p=C_1e^x-x-1$，\n\n则 $y=Ce^x-\\frac{1}{2}x^2-x+C_2$",
+  "search_text": "$y\\prime\\prime=y\\prime+x$ 的通解为（ ） $y=C_1e^x-\\frac12x^2-x+C_2$ $y=C_1e^x+\\frac12x^2-x+C_2$ $y=C_1e^x+\\frac12x^2+x+C_2$ $y=C_1e^x-\\frac12x^2+x+C_2$ 解析：令 $p=y'$，得 $p'=p+x$，解得 $p=C_1e^x-x-1$，\n\n则 $y=Ce^x-\\frac{1}{2}x^2-x+C_2$",
+  "sort_order": 31
+}

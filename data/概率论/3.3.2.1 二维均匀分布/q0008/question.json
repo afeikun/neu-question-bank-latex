@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\varphi(x,y)=\\frac1{2\\pi\\sigma^2}e^{-(x^2+y^2)/(2\\sigma^2)}$，求$\\xi$边缘密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}}e^{-x^2/(2\\sigma)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt{2\\pi\\sigma}}e^{-x^2/(2\\sigma^2)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}}e^{-x^2/2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{2\\pi\\sigma}e^{-x^2/(2\\sigma^2)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "联合密度可分解为两个$N(0,\\sigma^2)$边缘，密度$e^{-x^2/(2\\sigma^2)}/(\\sqrt{2\\pi}\\sigma)$。",
+  "search_text": "$\\varphi(x,y)=\\frac1{2\\pi\\sigma^2}e^{-(x^2+y^2)/(2\\sigma^2)}$，求$\\xi$边缘密度。 $\\frac1{\\sqrt{2\\pi}}e^{-x^2/(2\\sigma)}$ $\\frac1{\\sqrt{2\\pi\\sigma}}e^{-x^2/(2\\sigma^2)}$ $\\frac1{\\sqrt{2\\pi}}e^{-x^2/2}$ $\\frac1{2\\pi\\sigma}e^{-x^2/(2\\sigma^2)}$ 联合密度可分解为两个$N(0,\\sigma^2)$边缘，密度$e^{-x^2/(2\\sigma^2)}/(\\sqrt{2\\pi}\\sigma)$。",
+  "sort_order": 8
+}

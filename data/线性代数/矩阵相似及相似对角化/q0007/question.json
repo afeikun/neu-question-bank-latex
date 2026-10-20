@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设三阶矩阵 $A$ 的特征值为 $1,2,-1$，$B=A^3-2A^2-A+2E$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$B$ 是满秩矩阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$r(B)=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$B=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$r(B)=2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由题设可知，存在可逆矩阵 $P$，使得 $P^{-1}AP=\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&-1\\end{pmatrix}$，即 $B=P\\biggl[\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&-1\\end{pmatrix}^3-2\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&-1\\end{pmatrix}^2-\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&-1\\end{pmatrix}+2E\\biggr]P^{-1}=O$。",
+  "search_text": "设三阶矩阵 $A$ 的特征值为 $1,2,-1$，$B=A^3-2A^2-A+2E$，则（ ）。 $B$ 是满秩矩阵 $r(B)=1$ $B=0$ $r(B)=2$ 由题设可知，存在可逆矩阵 $P$，使得 $P^{-1}AP=\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&-1\\end{pmatrix}$，即 $B=P\\biggl[\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&-1\\end{pmatrix}^3-2\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&-1\\end{pmatrix}^2-\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&-1\\end{pmatrix}+2E\\biggr]P^{-1}=O$。",
+  "sort_order": 7
+}

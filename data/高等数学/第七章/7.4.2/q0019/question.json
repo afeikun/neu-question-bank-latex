@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u)$ 有二阶连续导数，$g(x,y)=f(\\frac yx)+yf(\\frac xy)$，求 $x^2g_{xx}-y^2g_{yy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2y}{x}f'(\\frac yx)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2y}{x}f'(\\frac yx)+2\\frac{y^2}{x^2}f''(\\frac yx)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac yx f'(\\frac yx)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2y}{x}f'(\\frac yx)+2\\frac{y^2}{x^2}f''(\\frac yx)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由已知条件可得\n\n$$\\frac{\\partial g}{\\partial x}=-\\frac{y}{x^2}f'\\left(\\frac{y}{x}\\right)+f'\\left(\\frac{x}{y}\\right),\\quad\\frac{\\partial^2g}{\\partial x^2}=\\frac{2y}{x^3}f'\\left(\\frac{y}{x}\\right)+\\frac{y^2}{x^4}f''\\left(\\frac{y}{x}\\right)+\\frac{1}{y^2}f''\\left(\\frac{x}{y}\\right),$$\n\n$$\\frac{\\partial g}{\\partial y}=\\frac1x f'\\left(\\frac{y}{x}\\right)+f\\left(\\frac{x}{y}\\right)-\\frac{x}{y^2}f'\\left(\\frac{x}{y}\\right),\\quad\\frac{\\partial^2g}{\\partial y^2}=\\frac{1}{x^2}f''\\left(\\frac{y}{x}\\right)-\\frac{x}{y^2}f'\\left(\\frac{x}{y}\\right)+\\frac{x}{y^2}f'\\left(\\frac{x}{y}\\right)+\\frac{x^2}{y^3}f''\\left(\\frac{x}{y}\\right),$$\n\n所以 $x^2\\frac{\\partial^2g}{\\partial x^2}-y^2\\frac{\\partial^2g}{\\partial y^2}=\\frac{2y}{x}f'\\left(\\frac{y}{x}\\right)+\\frac{y^2}{x^2}f''\\left(\\frac{x}{y}\\right)+\\frac{x^2}{y}f''\\left(\\frac{x}{y}\\right)-\\frac{y^2}{x^2}f''\\left(\\frac{y}{x}\\right)-\\frac{x^2}{y}f''\\left(\\frac{x}{y}\\right)$\n\n$$=\\frac{2y}{x}f'\\left(\\frac{y}{x}\\right).$$",
+  "search_text": "设 $f(u)$ 有二阶连续导数，$g(x,y)=f(\\frac yx)+yf(\\frac xy)$，求 $x^2g_{xx}-y^2g_{yy}$。 $\\frac{2y}{x}f'(\\frac yx)$ $\\frac{2y}{x}f'(\\frac yx)+2\\frac{y^2}{x^2}f''(\\frac yx)$ $\\frac yx f'(\\frac yx)$ $\\frac{2y}{x}f'(\\frac yx)+2\\frac{y^2}{x^2}f''(\\frac yx)$ 由已知条件可得\n\n$$\\frac{\\partial g}{\\partial x}=-\\frac{y}{x^2}f'\\left(\\frac{y}{x}\\right)+f'\\left(\\frac{x}{y}\\right),\\quad\\frac{\\partial^2g}{\\partial x^2}=\\frac{2y}{x^3}f'\\left(\\frac{y}{x}\\right)+\\frac{y^2}{x^4}f''\\left(\\frac{y}{x}\\right)+\\frac{1}{y^2}f''\\left(\\frac{x}{y}\\right),$$\n\n$$\\frac{\\partial g}{\\partial y}=\\frac1x f'\\left(\\frac{y}{x}\\right)+f\\left(\\frac{x}{y}\\right)-\\frac{x}{y^2}f'\\left(\\frac{x}{y}\\right),\\quad\\frac{\\partial^2g}{\\partial y^2}=\\frac{1}{x^2}f''\\left(\\frac{y}{x}\\right)-\\frac{x}{y^2}f'\\left(\\frac{x}{y}\\right)+\\frac{x}{y^2}f'\\left(\\frac{x}{y}\\right)+\\frac{x^2}{y^3}f''\\left(\\frac{x}{y}\\right),$$\n\n所以 $x^2\\frac{\\partial^2g}{\\partial x^2}-y^2\\frac{\\partial^2g}{\\partial y^2}=\\frac{2y}{x}f'\\left(\\frac{y}{x}\\right)+\\frac{y^2}{x^2}f''\\left(\\frac{x}{y}\\right)+\\frac{x^2}{y}f''\\left(\\frac{x}{y}\\right)-\\frac{y^2}{x^2}f''\\left(\\frac{y}{x}\\right)-\\frac{x^2}{y}f''\\left(\\frac{x}{y}\\right)$\n\n$$=\\frac{2y}{x}f'\\left(\\frac{y}{x}\\right).$$",
+  "sort_order": 19
+}

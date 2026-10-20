@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $yy\\prime\\prime-\\frac12(y\\prime)^2=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=-\\frac1{C_1\\ln x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=-\\frac1{C_1x+C_2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=-\\frac1{C_1x^2+C_2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=-C_1x+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 将原方程改写为 $yy''-2(y')^2=0$，令 $p=y'$，$y''=\\frac{dp}{dy}p$，代入方程得 $py\\frac{dp}{dy}-2p^2=0$，当 $p=0$，\n\n即 $y=C$ 是该方程的一个解。当 $p\\ne0$ 时，$\\frac{dp}{2p}=\\frac{dy}{y}$，得解 $p=C_1y^2$，即 $\\frac{dy}{dx}=C_1y^2$，两边积分得\n\n$$-\\frac{1}{y}=C_1x+C_2,$$ 原方程的通解为 $y=-\\frac{1}{C_1x+C_2}$。",
+  "search_text": "方程 $yy\\prime\\prime-\\frac12(y\\prime)^2=0$ 的通解为（ ） $y=-\\frac1{C_1\\ln x}$ $y=-\\frac1{C_1x+C_2}$ $y=-\\frac1{C_1x^2+C_2}$ $y=-C_1x+C_2$ 解答 将原方程改写为 $yy''-2(y')^2=0$，令 $p=y'$，$y''=\\frac{dp}{dy}p$，代入方程得 $py\\frac{dp}{dy}-2p^2=0$，当 $p=0$，\n\n即 $y=C$ 是该方程的一个解。当 $p\\ne0$ 时，$\\frac{dp}{2p}=\\frac{dy}{y}$，得解 $p=C_1y^2$，即 $\\frac{dy}{dx}=C_1y^2$，两边积分得\n\n$$-\\frac{1}{y}=C_1x+C_2,$$ 原方程的通解为 $y=-\\frac{1}{C_1x+C_2}$。",
+  "sort_order": 1
+}

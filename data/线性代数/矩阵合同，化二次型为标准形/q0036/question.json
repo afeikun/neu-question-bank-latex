@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{pmatrix},B=\\begin{pmatrix}3&0&0\\\\0&0&0\\\\0&0&0\\end{pmatrix}$，则 $A$ 与 $B$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不合同且不相似"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "合同且不相似"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不合同且相似"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "合同且相似"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$A$ 与 $B$ 的特征值同为 $3,0,0$，且 $A$ 对称，存在正交相似变换，因此也合同，选项 4。",
+  "search_text": "设 $A=\\begin{pmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{pmatrix},B=\\begin{pmatrix}3&0&0\\\\0&0&0\\\\0&0&0\\end{pmatrix}$，则 $A$ 与 $B$(\\quad)。 不合同且不相似 合同且不相似 不合同且相似 合同且相似 $A$ 与 $B$ 的特征值同为 $3,0,0$，且 $A$ 对称，存在正交相似变换，因此也合同，选项 4。",
+  "sort_order": 36
+}

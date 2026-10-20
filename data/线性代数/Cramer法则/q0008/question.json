@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a,b,c$ 是互不相等的数，则方程组 $$\\begin{cases}\nx+y+z=a+b+c\\\\\nax+by+cz=a^2+b^2+c^2\\\\\nbcx+cay+abz=3abc\n\\end{cases}$$ 中 $y=(\\quad)$.",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$D=\\begin{vmatrix}1&1&1\\\\\na&b&c\\\\\nbc&ca&ab\\end{vmatrix}=(b-a)(c-a)(c-b)$，\n\n$D_2=\\begin{vmatrix}1&a+b+c&1\\\\\na&a^2+b^2+c^2&c\\\\\nbc&3abc&ab\\end{vmatrix}=b(b-a)(c-a)(c-b)$，则 $y=\\frac{D_2}{D}=b$.",
+  "search_text": "设 $a,b,c$ 是互不相等的数，则方程组 $$\\begin{cases} x+y+z=a+b+c\\\\ ax+by+cz=a^2+b^2+c^2\\\\ bcx+cay+abz=3abc \\end{cases}$$ 中 $y=(\\quad)$. $0$ $a$ $c$ $b$ $D=\\begin{vmatrix}1&1&1\\\\ a&b&c\\\\ bc&ca&ab\\end{vmatrix}=(b-a)(c-a)(c-b)$， $D_2=\\begin{vmatrix}1&a+b+c&1\\\\ a&a^2+b^2+c^2&c\\\\ bc&3abc&ab\\end{vmatrix}=b(b-a)(c-a)(c-b)$，则 $y=\\frac{D_2}{D}=b$.",
+  "sort_order": 8
+}

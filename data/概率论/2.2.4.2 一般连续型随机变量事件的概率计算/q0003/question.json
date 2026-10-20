@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=3x^2(0<x<1)$，独立观察三次，$Y$为事件$X\\le\\frac23$出现的次数，求$P(Y=0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{19}{27})^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-(\\frac8{27})^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-(\\frac{19}{27})^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac8{27})^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$p=P(X\\le\\frac23)=\\frac8{27}$，故$Y\\sim B(3,p)$，$P(Y=0)=(1-p)^3=(\\frac{19}{27})^3$。",
+  "search_text": "$f(x)=3x^2(0<x<1)$，独立观察三次，$Y$为事件$X\\le\\frac23$出现的次数，求$P(Y=0)$。 $(\\frac{19}{27})^3$ $1-(\\frac8{27})^3$ $1-(\\frac{19}{27})^3$ $(\\frac8{27})^3$ $p=P(X\\le\\frac23)=\\frac8{27}$，故$Y\\sim B(3,p)$，$P(Y=0)=(1-p)^3=(\\frac{19}{27})^3$。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\begin{cases}t+1,&0\\le t<3,\\\\0,&3\\le t,\\end{cases}$ 则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1{s^2}+\\dfrac1s-\\dfrac1{s^2}(4s+1)e^{-3s}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1{s^2}+\\dfrac1s$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac1{s^2}+2\\pi\\delta(s)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac1{s^2}+\\dfrac1s+\\dfrac1{s^2}(4s+1)e^{-3s}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal L[f(t)]=\\int_0^3(t+1)e^{-st}\\,dt=\\dfrac1s+\\dfrac1{s^2}-\\dfrac{4s+1}{s^2}e^{-3s}$。",
+  "search_text": "设 $f(t)=\\begin{cases}t+1,&0\\le t<3,\\\\0,&3\\le t,\\end{cases}$ 则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac1{s^2}+\\dfrac1s-\\dfrac1{s^2}(4s+1)e^{-3s}$ $\\dfrac1{s^2}+\\dfrac1s$ $-\\dfrac1{s^2}+2\\pi\\delta(s)$ $\\dfrac1{s^2}+\\dfrac1s+\\dfrac1{s^2}(4s+1)e^{-3s}$ $\\mathcal L[f(t)]=\\int_0^3(t+1)e^{-st}\\,dt=\\dfrac1s+\\dfrac1{s^2}-\\dfrac{4s+1}{s^2}e^{-3s}$。",
+  "sort_order": 22
+}

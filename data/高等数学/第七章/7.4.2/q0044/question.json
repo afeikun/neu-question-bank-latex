@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=x\\varphi(x+y)+y\\phi(x+y)$，求 $u_{xx}-2u_{xy}+u_{yy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial x}=\\varphi(x+y)+x\\varphi'(x+y)+y\\varphi'(x+y),\\quad \\frac{\\partial u}{\\partial y}=\\phi(x+y)+x\\phi'(x+y)+y\\phi'(x+y)$\n\n$\\frac{\\partial^2u}{\\partial x^2}=2\\varphi'(x+y)+x\\varphi''(x+y)+y\\varphi''(x+y)\\quad \\frac{\\partial^2u}{\\partial y^2}=2\\phi'(x+y)+x\\phi''(x+y)+y\\phi''(x+y)$\n\n$\\frac{\\partial^2u}{\\partial x\\partial y}=\\varphi'(x+y)+\\phi'(x+y)+x\\varphi''(x+y)+y\\varphi''(x+y)$\n\n比较上述三式易见：$\\frac{\\partial^2u}{\\partial x^2}-2\\frac{\\partial^2u}{\\partial x\\partial y}+\\frac{\\partial^2u}{\\partial y^2}=0$",
+  "search_text": "设 $u=x\\varphi(x+y)+y\\phi(x+y)$，求 $u_{xx}-2u_{xy}+u_{yy}$。 1 -1 0 2 $\\frac{\\partial u}{\\partial x}=\\varphi(x+y)+x\\varphi'(x+y)+y\\varphi'(x+y),\\quad \\frac{\\partial u}{\\partial y}=\\phi(x+y)+x\\phi'(x+y)+y\\phi'(x+y)$\n\n$\\frac{\\partial^2u}{\\partial x^2}=2\\varphi'(x+y)+x\\varphi''(x+y)+y\\varphi''(x+y)\\quad \\frac{\\partial^2u}{\\partial y^2}=2\\phi'(x+y)+x\\phi''(x+y)+y\\phi''(x+y)$\n\n$\\frac{\\partial^2u}{\\partial x\\partial y}=\\varphi'(x+y)+\\phi'(x+y)+x\\varphi''(x+y)+y\\varphi''(x+y)$\n\n比较上述三式易见：$\\frac{\\partial^2u}{\\partial x^2}-2\\frac{\\partial^2u}{\\partial x\\partial y}+\\frac{\\partial^2u}{\\partial y^2}=0$",
+  "sort_order": 44
+}

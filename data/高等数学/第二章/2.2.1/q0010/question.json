@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\sin x-2x$，则其反函数 $x=x(y)$ 的导数 $dx/dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2/(\\cos x-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/(\\cos x-2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(\\sin x-2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(\\cot x-2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$dy/dx=\\cos x-2$，故 $dx/dy=1/(\\cos x-2)$。",
+  "search_text": "设 $y=\\sin x-2x$，则其反函数 $x=x(y)$ 的导数 $dx/dy=$（ ）。 $2/(\\cos x-1)$ $1/(\\cos x-2)$ $1/(\\sin x-2)$ $1/(\\cot x-2)$ $dy/dx=\\cos x-2$，故 $dx/dy=1/(\\cos x-2)$。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\dfrac{-x+y}{x^2+y^2}+i\\dfrac{x-y}{x^2+y^2}$，则 $f\\prime(z)=(\\ )$（$z\\ne0$）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac{1+i}{z^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\dfrac{1+i}{\\bar z^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{1-i}{z^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{1-i}{\\bar z^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由偏导数求导并化简，得到 $-(1+i)/z^2$。",
+  "search_text": "设 $f(z)=\\dfrac{-x+y}{x^2+y^2}+i\\dfrac{x-y}{x^2+y^2}$，则 $f\\prime(z)=(\\ )$（$z\\ne0$）。 $-\\dfrac{1+i}{z^2}$ $-\\dfrac{1+i}{\\bar z^2}$ $\\dfrac{1-i}{z^2}$ $\\dfrac{1-i}{\\bar z^2}$ 由偏导数求导并化简，得到 $-(1+i)/z^2$。",
+  "sort_order": 7
+}

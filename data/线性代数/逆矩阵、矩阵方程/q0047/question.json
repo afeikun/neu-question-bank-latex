@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 为 4 阶方阵，$E$ 为 4 阶单位矩阵，满足关系 $A^2+AB+8A=A^3+4E$，其中 $A=\\begin{pmatrix}1&-1&-1&-1\\\\-1&1&-1&-1\\\\-1&-1&1&-1\\\\-1&-1&-1&1\\end{pmatrix}$，则 $B=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2E$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4E$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-4E$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2E$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由题设矩阵计算得 $A^2=4E$、$A^3=4A$、$A^{-1}=\\frac14A$。代入已知关系可得 $AB=-4A$，故 $B=-4E$。",
+  "search_text": "设 $A,B$ 为 4 阶方阵，$E$ 为 4 阶单位矩阵，满足关系 $A^2+AB+8A=A^3+4E$，其中 $A=\\begin{pmatrix}1&-1&-1&-1\\\\-1&1&-1&-1\\\\-1&-1&1&-1\\\\-1&-1&-1&1\\end{pmatrix}$，则 $B=$（ ）。 $-2E$ $4E$ $-4E$ $2E$ 由题设矩阵计算得 $A^2=4E$、$A^3=4A$、$A^{-1}=\\frac14A$。代入已知关系可得 $AB=-4A$，故 $B=-4E$。",
+  "sort_order": 47
+}

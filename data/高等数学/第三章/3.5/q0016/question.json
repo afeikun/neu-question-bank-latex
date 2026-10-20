@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=x^x$ 在 $[1/e,+\\infty)$ 上（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "有最大值 $e^{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "有最小值 $(e^{-1})^{e^{-1}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无最大值与最小值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "有最大值 $(e^{-1})^{e^{-1}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime=x^x(1+\\ln x)\\ge0$，所以函数递增，在左端点取最小值 $(1/e)^{1/e}$，无最大值。",
+  "search_text": "函数 $y=x^x$ 在 $[1/e,+\\infty)$ 上（ ）。 有最大值 $e^{-1}$ 有最小值 $(e^{-1})^{e^{-1}}$ 无最大值与最小值 有最大值 $(e^{-1})^{e^{-1}}$ $y\\prime=x^x(1+\\ln x)\\ge0$，所以函数递增，在左端点取最小值 $(1/e)^{1/e}$，无最大值。",
+  "sort_order": 16
+}

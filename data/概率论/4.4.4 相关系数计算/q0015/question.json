@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(X,Y)$密度$f(x,y)=\\frac18(x+y)$（$0\\le x,y\\le2$），下列说法不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\operatorname{cov}(X,Y)=1/36$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E(XY)=4/3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\rho_{XY}=-1/11$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$D(X+Y)=5/9$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "实际协方差为$-1/36$，故选项1符号错误。",
+  "search_text": "$(X,Y)$密度$f(x,y)=\\frac18(x+y)$（$0\\le x,y\\le2$），下列说法不正确的是（）。 $\\operatorname{cov}(X,Y)=1/36$ $E(XY)=4/3$ $\\rho_{XY}=-1/11$ $D(X+Y)=5/9$ 实际协方差为$-1/36$，故选项1符号错误。",
+  "sort_order": 15
+}

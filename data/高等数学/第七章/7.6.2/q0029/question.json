@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $z=y+\\ln(x/z)$ 在点 $P(1,1,1)$ 处的法线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-1=y-1=z-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=y=\\frac{3-z}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-1=y-1=\\frac{z-1}{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-1=1-y=\\frac{1-z}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=\\ln\\frac{x}{z}+y-z$，则 $F_x|_P=\\frac{\\frac{1}{z}}{\\frac{x}{z}}=\\frac{1}{x}=1$，$F_y|_P=1$，$F_z|_P=\\frac{\\frac{-x}{z^2}}{\\frac{x}{z}}-1=-\\frac{1}{z}-1=-2$，法线方程为：\n\n$$x-1=y-1=\\frac{z-1}{-2}.$$",
+  "search_text": "曲面 $z=y+\\ln(x/z)$ 在点 $P(1,1,1)$ 处的法线方程为。 $x-1=y-1=z-1$ $x=y=\\frac{3-z}{2}$ $x-1=y-1=\\frac{z-1}{-2}$ $x-1=1-y=\\frac{1-z}{2}$ 设 $F(x,y,z)=\\ln\\frac{x}{z}+y-z$，则 $F_x|_P=\\frac{\\frac{1}{z}}{\\frac{x}{z}}=\\frac{1}{x}=1$，$F_y|_P=1$，$F_z|_P=\\frac{\\frac{-x}{z^2}}{\\frac{x}{z}}-1=-\\frac{1}{z}-1=-2$，法线方程为：\n\n$$x-1=y-1=\\frac{z-1}{-2}.$$",
+  "sort_order": 29
+}

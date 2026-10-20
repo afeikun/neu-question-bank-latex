@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "随机变量序列$\\{X_n\\}$依概率收敛于常数$a$的定义是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\forall\\varepsilon>0,\\lim_{n\\to\\infty}P(|X_n-a|\\ge\\varepsilon)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\forall\\varepsilon>0,\\lim_{n\\to\\infty}|X_n-a|\\ge\\varepsilon=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim X_n=a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim P(X_n)=a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "依概率收敛定义即任意正$\\varepsilon$下偏离$a$至少$\\varepsilon$的概率趋于0。",
+  "search_text": "随机变量序列$\\{X_n\\}$依概率收敛于常数$a$的定义是（）。 $\\forall\\varepsilon>0,\\lim_{n\\to\\infty}P(|X_n-a|\\ge\\varepsilon)=0$ $\\forall\\varepsilon>0,\\lim_{n\\to\\infty}|X_n-a|\\ge\\varepsilon=0$ $\\lim X_n=a$ $\\lim P(X_n)=a$ 依概率收敛定义即任意正$\\varepsilon$下偏离$a$至少$\\varepsilon$的概率趋于0。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "指出方程 $y\\prime\\prime+2y=x$ 的阶数（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "最高阶数是 3 阶。",
+  "search_text": "指出方程 $y\\prime\\prime+2y=x$ 的阶数（ ） $2$ $3$ $1$ $4$ 最高阶数是 3 阶。",
+  "sort_order": 5
+}

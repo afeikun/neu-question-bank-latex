@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是 $0\\leq z\\leq\\sqrt{1-x^2-y^2}$ 决定闭区域，则 $\\iiint_\\Omega(x^2+y^2)z\\,dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi{12}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin^3\\varphi\\cos\\varphi\\,d\\varphi\\int_0^1r^5\\,dr=\\frac{\\pi}{12}$。",
+  "search_text": "若 $\\Omega$ 是 $0\\leq z\\leq\\sqrt{1-x^2-y^2}$ 决定闭区域，则 $\\iiint_\\Omega(x^2+y^2)z\\,dv=$（ ） $\\frac\\pi2$ $\\frac\\pi{12}$ $\\frac\\pi6$ $\\frac\\pi3$ 原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin^3\\varphi\\cos\\varphi\\,d\\varphi\\int_0^1r^5\\,dr=\\frac{\\pi}{12}$。",
+  "sort_order": 13
+}

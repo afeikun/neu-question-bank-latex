@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left[e^{z^2+1/z^2},0\\right]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\displaystyle\\sum_{k=0}^{\\infty}\\dfrac1{k!}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\displaystyle\\sum_{k=0}^{\\infty}\\dfrac1{(k+1)!}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\displaystyle\\sum_{k=0}^{\\infty}\\dfrac1{k!(k+1)!}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$e^{z^2+1/z^2}=e^{z^2}e^{1/z^2}$ 只含偶次幂，不含 $z^{-1}$ 项，留数为 $0$。",
+  "search_text": "$\\operatorname{Res}\\left[e^{z^2+1/z^2},0\\right]=(\\ \\ )$。 $0$ $\\displaystyle\\sum_{k=0}^{\\infty}\\dfrac1{k!}$ $\\displaystyle\\sum_{k=0}^{\\infty}\\dfrac1{(k+1)!}$ $\\displaystyle\\sum_{k=0}^{\\infty}\\dfrac1{k!(k+1)!}$ $e^{z^2+1/z^2}=e^{z^2}e^{1/z^2}$ 只含偶次幂，不含 $z^{-1}$ 项，留数为 $0$。",
+  "sort_order": 93
+}

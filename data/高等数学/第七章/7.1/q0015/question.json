@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{\\substack{x\\to0\\\\y\\to1}}\\left[\\ln(y-x)+\\frac{y}{\\sqrt{1-x^2}}\\right]$ 的值为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\lim_{\\substack{x\\to0\\\\y\\to1}}\\left[\\ln(y-x)+\\frac{y}{\\sqrt{1-x^2}}\\right]=\\ln(1-0)+\\frac{1}{\\sqrt{1-0^2}}=1.$",
+  "search_text": "$\\lim_{\\substack{x\\to0\\\\y\\to1}}\\left[\\ln(y-x)+\\frac{y}{\\sqrt{1-x^2}}\\right]$ 的值为(\\quad)。 $0$ 不存在 $-1$ $1$ $\\lim_{\\substack{x\\to0\\\\y\\to1}}\\left[\\ln(y-x)+\\frac{y}{\\sqrt{1-x^2}}\\right]=\\ln(1-0)+\\frac{1}{\\sqrt{1-0^2}}=1.$",
+  "sort_order": 15
+}

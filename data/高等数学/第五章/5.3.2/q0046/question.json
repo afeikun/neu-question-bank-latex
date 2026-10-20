@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $u_n>0$，且 $\\sum_{n=1}^{\\infty}(-1)^{n-1}u_n$ 条件收敛。若 $v_n=3u_{2n-1}-u_{2n}$，则 $\\sum_{n=1}^{\\infty} v_n$？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "收敛或发散取决于 $u_n$ 的具体形式"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原交错级数收敛而正项总和发散；$\\sum_{n=1}^{\\infty} v_n$ 可由相邻交错差及额外正项分解，故发散。",
+  "search_text": "已知 $u_n>0$，且 $\\sum_{n=1}^{\\infty}(-1)^{n-1}u_n$ 条件收敛。若 $v_n=3u_{2n-1}-u_{2n}$，则 $\\sum_{n=1}^{\\infty} v_n$？ 发散 条件收敛 收敛或发散取决于 $u_n$ 的具体形式 绝对收敛 原交错级数收敛而正项总和发散；$\\sum_{n=1}^{\\infty} v_n$ 可由相邻交错差及额外正项分解，故发散。",
+  "sort_order": 46
+}

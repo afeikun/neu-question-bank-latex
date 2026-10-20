@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "做一圆锥形漏斗，其母线 $l$ 长为 $20\\text{ cm}$，要使其体积最大，高 $h$ 应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{20}{3}\\text{ cm}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$20\\sqrt3\\text{ cm}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$20\\text{ cm}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{20}{\\sqrt3}\\text{ cm}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设底面半径为 $r$，有 $r^2+h^2=400$，体积 $V=\\frac13\\pi h(400-h^2)$。由 $V\\prime(h)=0$ 得最大值点 $h=20/\\sqrt3$。",
+  "search_text": "做一圆锥形漏斗，其母线 $l$ 长为 $20\\text{ cm}$，要使其体积最大，高 $h$ 应为（ ）。 $\\frac{20}{3}\\text{ cm}$ $20\\sqrt3\\text{ cm}$ $20\\text{ cm}$ $\\frac{20}{\\sqrt3}\\text{ cm}$ 设底面半径为 $r$，有 $r^2+h^2=400$，体积 $V=\\frac13\\pi h(400-h^2)$。由 $V\\prime(h)=0$ 得最大值点 $h=20/\\sqrt3$。",
+  "sort_order": 16
+}

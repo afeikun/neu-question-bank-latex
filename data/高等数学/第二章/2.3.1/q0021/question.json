@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x^4-xy+y^4=1$，则 $y\\prime\\prime$ 在点 $(0,1)$ 处的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1/16$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "两次隐式求导得 $y\\prime\\prime(0,1)=-1/16$。",
+  "search_text": "设 $x^4-xy+y^4=1$，则 $y\\prime\\prime$ 在点 $(0,1)$ 处的值为（ ）。 $-1/4$ $1/16$ $-1/16$ $1/4$ 两次隐式求导得 $y\\prime\\prime(0,1)=-1/16$。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\iiint_\\Omega f(x,y,z)dv$ 存在的充分条件是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f$ 在有界闭区域 $\\Omega$ 上有界"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f$ 在 $\\Omega$ 上有界"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f$ 在 $\\Omega$ 上连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f$ 在有界闭区域 $\\Omega$ 上连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "函数 $f(x,y,z)$ 在有界闭区域 $\\Omega$ 上连续时，函数 $f(x,y,z)$ 在 $\\Omega$ 上的三重积分必存在",
+  "search_text": "$\\iiint_\\Omega f(x,y,z)dv$ 存在的充分条件是（ ） $f$ 在有界闭区域 $\\Omega$ 上有界 $f$ 在 $\\Omega$ 上有界 $f$ 在 $\\Omega$ 上连续 $f$ 在有界闭区域 $\\Omega$ 上连续 函数 $f(x,y,z)$ 在有界闭区域 $\\Omega$ 上连续时，函数 $f(x,y,z)$ 在 $\\Omega$ 上的三重积分必存在",
+  "sort_order": 45
+}

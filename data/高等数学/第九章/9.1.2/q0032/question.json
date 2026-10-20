@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Gamma$ 是空间直线段 $AB$，其中 $A(1,0,-1),B(2,3,2)$，则 $\\int_\\Gamma(x+y^2+z)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$19\\sqrt3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\sqrt{19}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5\\sqrt{19}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$19\\sqrt5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "取 $x=1+t,y=3t,z=3t-1$，$0\\le t\\le1$，则 $ds=\\sqrt{19}\\,dt$。原积分为 $\\sqrt{19}\\int_0^1(9t^2+4t)dt=5\\sqrt{19}$。",
+  "search_text": "若 $\\Gamma$ 是空间直线段 $AB$，其中 $A(1,0,-1),B(2,3,2)$，则 $\\int_\\Gamma(x+y^2+z)ds=$（ ） $19\\sqrt3$ $3\\sqrt{19}$ $5\\sqrt{19}$ $19\\sqrt5$ 取 $x=1+t,y=3t,z=3t-1$，$0\\le t\\le1$，则 $ds=\\sqrt{19}\\,dt$。原积分为 $\\sqrt{19}\\int_0^1(9t^2+4t)dt=5\\sqrt{19}$。",
+  "sort_order": 32
+}

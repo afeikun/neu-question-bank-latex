@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to1}\\frac{(x^{3x-2}-x)\\sin2(x-1)}{(x-1)^3}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $t=x-1$ 并作等价展开，原题计算结果为 $6$。",
+  "search_text": "$\\lim_{x\\to1}\\frac{(x^{3x-2}-x)\\sin2(x-1)}{(x-1)^3}=(\\quad)$。 $4$ $3$ $12$ $6$ 令 $t=x-1$ 并作等价展开，原题计算结果为 $6$。",
+  "sort_order": 3
+}

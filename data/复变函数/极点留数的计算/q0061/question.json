@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $z_0$ 为 $f(z)$ 的一极点，则 $\\operatorname{Res}[f\\prime(z),z_0]=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime$ 的Laurent展开不含 $(z-z_0)^{-1}$ 项，因此留数为 $0$。",
+  "search_text": "若 $z_0$ 为 $f(z)$ 的一极点，则 $\\operatorname{Res}[f\\prime(z),z_0]=(\\ )$。 $0$ $-\\frac12$ $1$ $-1$ $f\\prime$ 的Laurent展开不含 $(z-z_0)^{-1}$ 项，因此留数为 $0$。",
+  "sort_order": 61
+}

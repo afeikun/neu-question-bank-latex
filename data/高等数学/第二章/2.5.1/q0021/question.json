@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x^2y-e^{2y}=\\sin y$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2xy-e^{2y}}{\\cos y+2e^{2y}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2xy-e^{2y}}{\\cos y+2e^{2y}-x^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2xy}{\\cos y+2e^{2y}-x^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2xy}{\\cos y+2e^{2y}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时对 $x$ 求导可得\n\n$$2xy+x^2y'-2e^{2y}\\cdot y'=\\cos y\\cdot y'，则有 y'=\\frac{2xy}{\\cos y+2e^{2y}-x^2}$$",
+  "search_text": "$x^2y-e^{2y}=\\sin y$，求 $\\frac{dy}{dx}$。 $\\frac{2xy-e^{2y}}{\\cos y+2e^{2y}}$ $\\frac{2xy-e^{2y}}{\\cos y+2e^{2y}-x^2}$ $\\frac{2xy}{\\cos y+2e^{2y}-x^2}$ $\\frac{2xy}{\\cos y+2e^{2y}}$ 解答 方程两边同时对 $x$ 求导可得\n\n$$2xy+x^2y'-2e^{2y}\\cdot y'=\\cos y\\cdot y'，则有 y'=\\frac{2xy}{\\cos y+2e^{2y}-x^2}$$",
+  "sort_order": 21
+}

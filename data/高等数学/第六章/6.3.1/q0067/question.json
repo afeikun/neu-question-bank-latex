@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平面 $Ax+By+Cz+D=0$ 过点 $(k,k,0)$ 与 $(2k,2k,0)$，$k\\ne0$ 且垂直于 $xoy$ 面，则平面的系数满足(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A=-C,\\ B=D=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A=-B,\\ C=D=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A=C,\\ B=D=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$B=-C,\\ A=D=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "代入两点得 $A+B=0,D=0$；垂直于 $xoy$ 面要求 $C=0$。",
+  "search_text": "平面 $Ax+By+Cz+D=0$ 过点 $(k,k,0)$ 与 $(2k,2k,0)$，$k\\ne0$ 且垂直于 $xoy$ 面，则平面的系数满足(\\quad)。 $A=-C,\\ B=D=0$ $A=-B,\\ C=D=0$ $A=C,\\ B=D=0$ $B=-C,\\ A=D=0$ 代入两点得 $A+B=0,D=0$；垂直于 $xoy$ 面要求 $C=0$。",
+  "sort_order": 67
+}

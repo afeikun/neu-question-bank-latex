@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两平面 $\\Pi_1:19x-4y+8z+21=0$ 与 $\\Pi_2:19x-4y+8z+42=0$ 间的距离 $d=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "两平行平面距离 $|42-21|/\\sqrt{19^2+(-4)^2+8^2}=1$。",
+  "search_text": "两平面 $\\Pi_1:19x-4y+8z+21=0$ 与 $\\Pi_2:19x-4y+8z+42=0$ 间的距离 $d=(\\quad)$。 $3$ $4$ $1$ $2$ 两平行平面距离 $|42-21|/\\sqrt{19^2+(-4)^2+8^2}=1$。",
+  "sort_order": 3
+}

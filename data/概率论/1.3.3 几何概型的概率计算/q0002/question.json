@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "随机地向半圆 $0<y<\\sqrt{2ax-x^2}$（$a$ 为正常数）内掷一个点，点落在半圆内任何区域的概率与区域的面积成正比，则原点与该点的连线与 $x$ 轴的夹角小于 $\\frac\\pi4$ 的概率为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12+\\frac1\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi-\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本空间半圆面积为 $\\frac12\\pi a^2$。角小于 $\\pi/4$ 的区域面积为 $\\frac14\\pi a^2+\\frac12a^2$，故概率为 $\\frac{\\frac14\\pi a^2+\\frac12a^2}{\\frac12\\pi a^2}=\\frac12+\\frac1\\pi$。",
+  "search_text": "随机地向半圆 $0<y<\\sqrt{2ax-x^2}$（$a$ 为正常数）内掷一个点，点落在半圆内任何区域的概率与区域的面积成正比，则原点与该点的连线与 $x$ 轴的夹角小于 $\\frac\\pi4$ 的概率为(\\quad)。 $\\frac12+\\frac1\\pi$ $\\pi-\\frac12$ $\\pi+1$ $\\pi$ 样本空间半圆面积为 $\\frac12\\pi a^2$。角小于 $\\pi/4$ 的区域面积为 $\\frac14\\pi a^2+\\frac12a^2$，故概率为 $\\frac{\\frac14\\pi a^2+\\frac12a^2}{\\frac12\\pi a^2}=\\frac12+\\frac1\\pi$。",
+  "sort_order": 2
+}

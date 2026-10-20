@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两个任意项级数 $\\sum_{n=1}^{\\infty} u_n,\\sum_{n=1}^{\\infty} v_n$ 中 $\\sum_{n=1}^{\\infty} u_n$ 收敛且 $\\lim v_n/u_n=1$，则 $\\sum_{n=1}^{\\infty} v_n$ 如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可能收敛，可能发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "即不收敛也不发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "若非正项级数则不能由此推出收敛；题设任意项时可能收敛也可能发散。",
+  "search_text": "两个任意项级数 $\\sum_{n=1}^{\\infty} u_n,\\sum_{n=1}^{\\infty} v_n$ 中 $\\sum_{n=1}^{\\infty} u_n$ 收敛且 $\\lim v_n/u_n=1$，则 $\\sum_{n=1}^{\\infty} v_n$ 如何？ 可能收敛，可能发散 即不收敛也不发散 发散 收敛 若非正项级数则不能由此推出收敛；题设任意项时可能收敛也可能发散。",
+  "sort_order": 21
+}

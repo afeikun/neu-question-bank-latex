@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 收敛且 $\\lim u_n/v_n=1$，则 $\\sum_{n=1}^{\\infty} v_n$？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "必收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "可能收敛，也可能发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "必绝对收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "必发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "同阶比较不能推出两者敛散性相同，例如改变符号或构造边界例子。",
+  "search_text": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 收敛且 $\\lim u_n/v_n=1$，则 $\\sum_{n=1}^{\\infty} v_n$？ 必收敛 可能收敛，也可能发散 必绝对收敛 必发散 同阶比较不能推出两者敛散性相同，例如改变符号或构造边界例子。",
+  "sort_order": 4
+}

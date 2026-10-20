@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质点运动 $S=t^3-3t^2$，求速度开始增加的时刻。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 速度 $v=S'(t)=3t^2-6t$，加速度为 $a=v'=S''(t)=6t-6$\n\n可得 $t\\geq 1,\\ a\\geq 0$. 所以当 $t=1$ 时，速度开始增加。",
+  "search_text": "质点运动 $S=t^3-3t^2$，求速度开始增加的时刻。 $1$ $2$ $3$ $0$ 解答 速度 $v=S'(t)=3t^2-6t$，加速度为 $a=v'=S''(t)=6t-6$\n\n可得 $t\\geq 1,\\ a\\geq 0$. 所以当 $t=1$ 时，速度开始增加。",
+  "sort_order": 8
+}

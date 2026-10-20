@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\arcsin 0.02$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.008$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.02$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.002$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.08$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $\\sin x\\approx x$（$x$ 接近 $0$）得 $\\arcsin x\\approx x$，所以 $\\arcsin0.02\\approx0.02$。",
+  "search_text": "$\\arcsin 0.02$ 的近似值为 $(\\quad)$。 $0.008$ $0.02$ $0.002$ $0.08$ 由 $\\sin x\\approx x$（$x$ 接近 $0$）得 $\\arcsin x\\approx x$，所以 $\\arcsin0.02\\approx0.02$。",
+  "sort_order": 30
+}

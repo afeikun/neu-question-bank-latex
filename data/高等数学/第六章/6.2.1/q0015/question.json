@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\vec a,\\vec b,\\vec c$ 是单位向量，且满足 $\\vec a+\\vec b+\\vec c=\\vec0$，则 $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac23$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac32$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将 $|\\vec a+\\vec b+\\vec c|^2=0$ 展开，并用三个向量均为单位向量，得所求为 $-\\frac32$。",
+  "search_text": "已知 $\\vec a,\\vec b,\\vec c$ 是单位向量，且满足 $\\vec a+\\vec b+\\vec c=\\vec0$，则 $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a$ 为(\\quad)。 $\\frac32$ $-\\frac23$ $\\frac23$ $-\\frac32$ 将 $|\\vec a+\\vec b+\\vec c|^2=0$ 展开，并用三个向量均为单位向量，得所求为 $-\\frac32$。",
+  "sort_order": 15
+}

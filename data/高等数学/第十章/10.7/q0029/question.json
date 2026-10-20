@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "旋转体体积 $V(t)=\\frac{\\pi}{3}[t^2f(t)-f(1)]$，求曲线 $y=f(x)$ 满足的微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t^2f^\\prime=3f^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$t^2f^\\prime+2tf=f^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$t^2f^\\prime+2tf-f(1)=3f^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t^2f^\\prime+2tf=3f^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：依题意得 $V(t)=\\frac{\\pi}{3}[t^2f(t)-f(1)]=\\pi\\int_1^t(f(x))^2\\,dx$，求导化简得 $t^2f'+2tf=3f^2$",
+  "search_text": "旋转体体积 $V(t)=\\frac{\\pi}{3}[t^2f(t)-f(1)]$，求曲线 $y=f(x)$ 满足的微分方程。 $t^2f^\\prime=3f^2$ $t^2f^\\prime+2tf=f^2$ $t^2f^\\prime+2tf-f(1)=3f^2$ $t^2f^\\prime+2tf=3f^2$ 解析：依题意得 $V(t)=\\frac{\\pi}{3}[t^2f(t)-f(1)]=\\pi\\int_1^t(f(x))^2\\,dx$，求导化简得 $t^2f'+2tf=3f^2$",
+  "sort_order": 29
+}

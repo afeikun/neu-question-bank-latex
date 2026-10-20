@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=(y+\\frac{x^3}{3})e^{x+y}$ 的极值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "没有极小值只有极大值 $-e^{-5/3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "没有极值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "没有极大值只有极小值 $-e^{-1/3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "有极大值 $-e^{-1/3}$ 和极小值 $-e^{-5/3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令\n$$\n\\begin{cases}\nf'_x=(x^2+y+\\dfrac{x^3}{3})e^{x+y}=0\\\\\nf'_y=(1+y+\\dfrac{x^3}{3})e^{x+y}=0\n\\end{cases}\n$$\n，解得驻点 $(-1,-\\dfrac{2}{3})$ 和 $(1,-\\dfrac{4}{3})$。\n\n记 $A=f''_{xx}=(2x+2x^2+\\dfrac{x^3}{3}+y)e^{x+y}$，$B=f''_{xy}=(1+x^2+y+\\dfrac{x^3}{3})e^{x+y}$，$C=f''_{yy}=(2+y+\\dfrac{x^3}{3})e^{x+y}$，\n\n在点 $(-1,-\\dfrac{2}{3})$ 处，由于 $A=f''_{xx}=-e^{-\\frac{5}{3}}$，$B=f''_{xy}=e^{-\\frac{5}{3}}$，$C=f''_{yy}=e^{-\\frac{5}{3}}$，$AC-B^2<0$，所以点 $(-1,-\\dfrac{2}{3})$ 不是 $f(x,y)$ 的极值点。\n\n在点 $(1,-\\dfrac{4}{3})$ 处，由于 $A=f''_{xx}=3e^{-\\frac{1}{3}}>0$，$B=f''_{xy}=e^{-\\frac{1}{3}}$，$C=f''_{yy}=e^{-\\frac{1}{3}}$，$AC-B^2=2e^{-\\frac{2}{3}}>0$，故点 $(1,-\\dfrac{4}{3})$ 是 $f(x,y)$ 的极小值点，极小值为 $f(1,-\\dfrac{4}{3})=-e^{-\\frac{1}{3}}$。",
+  "search_text": "函数 $f(x,y)=(y+\\frac{x^3}{3})e^{x+y}$ 的极值为。 没有极小值只有极大值 $-e^{-5/3}$ 没有极值 没有极大值只有极小值 $-e^{-1/3}$ 有极大值 $-e^{-1/3}$ 和极小值 $-e^{-5/3}$ 令\n$$\n\\begin{cases}\nf'_x=(x^2+y+\\dfrac{x^3}{3})e^{x+y}=0\\\\\nf'_y=(1+y+\\dfrac{x^3}{3})e^{x+y}=0\n\\end{cases}\n$$\n，解得驻点 $(-1,-\\dfrac{2}{3})$ 和 $(1,-\\dfrac{4}{3})$。\n\n记 $A=f''_{xx}=(2x+2x^2+\\dfrac{x^3}{3}+y)e^{x+y}$，$B=f''_{xy}=(1+x^2+y+\\dfrac{x^3}{3})e^{x+y}$，$C=f''_{yy}=(2+y+\\dfrac{x^3}{3})e^{x+y}$，\n\n在点 $(-1,-\\dfrac{2}{3})$ 处，由于 $A=f''_{xx}=-e^{-\\frac{5}{3}}$，$B=f''_{xy}=e^{-\\frac{5}{3}}$，$C=f''_{yy}=e^{-\\frac{5}{3}}$，$AC-B^2<0$，所以点 $(-1,-\\dfrac{2}{3})$ 不是 $f(x,y)$ 的极值点。\n\n在点 $(1,-\\dfrac{4}{3})$ 处，由于 $A=f''_{xx}=3e^{-\\frac{1}{3}}>0$，$B=f''_{xy}=e^{-\\frac{1}{3}}$，$C=f''_{yy}=e^{-\\frac{1}{3}}$，$AC-B^2=2e^{-\\frac{2}{3}}>0$，故点 $(1,-\\dfrac{4}{3})$ 是 $f(x,y)$ 的极小值点，极小值为 $f(1,-\\dfrac{4}{3})=-e^{-\\frac{1}{3}}$。",
+  "sort_order": 6
+}

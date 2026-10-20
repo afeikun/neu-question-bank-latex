@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $\\tan x$ 的二阶 Maclaurin 公式为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+\\frac13\\sec^2\\xi\\,x^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+\\frac23\\sec^2\\xi\\,x^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+\\frac13\\sec^2\\xi(2\\tan^2\\xi+\\sec^2\\xi)x^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+\\frac23\\sec^2\\xi(2\\tan^2\\xi+\\sec^2\\xi)x^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f'''(x)=4\\sec^2x\\tan^2x+2\\sec^4x$，Lagrange 余项为 $\\frac{f'''(\\xi)}{3!}x^3$。",
+  "search_text": "函数 $\\tan x$ 的二阶 Maclaurin 公式为 $(\\quad)$。 $x+\\frac13\\sec^2\\xi\\,x^3$ $x+\\frac23\\sec^2\\xi\\,x^3$ $x+\\frac13\\sec^2\\xi(2\\tan^2\\xi+\\sec^2\\xi)x^3$ $x+\\frac23\\sec^2\\xi(2\\tan^2\\xi+\\sec^2\\xi)x^3$ $f'''(x)=4\\sec^2x\\tan^2x+2\\sec^4x$，Lagrange 余项为 $\\frac{f'''(\\xi)}{3!}x^3$。",
+  "sort_order": 4
+}

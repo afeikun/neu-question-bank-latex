@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(-i)^{-i}$ 的主值是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-\\pi/2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{\\pi/2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "主值 $\\operatorname{Ln}(-i)=-i\\pi/2$，因此结果为 $e^{-\\pi/2}$。",
+  "search_text": "$(-i)^{-i}$ 的主值是（ ）。 $e^{-\\pi/2}$ $-1$ $e^{\\pi/2}$ $1$ 主值 $\\operatorname{Ln}(-i)=-i\\pi/2$，因此结果为 $e^{-\\pi/2}$。",
+  "sort_order": 63
+}

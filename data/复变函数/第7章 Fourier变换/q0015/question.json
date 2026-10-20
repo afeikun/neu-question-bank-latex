@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(\\omega)=\\pi\\left(\\delta(\\omega+\\omega_0)+\\delta(\\omega-\\omega_0)\\right)$，则 $\\mathcal F^{-1}[F(\\omega)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos\\omega_0t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin\\omega_0t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sin\\omega_0t+\\cos\\omega_0t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sin\\omega_0t+\\cos\\omega_0t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal F^{-1}[F(\\omega)]=\\dfrac1{2\\pi}\\int_{-\\infty}^{+\\infty}\\pi(\\delta(\\omega+\\omega_0)+\\delta(\\omega-\\omega_0))e^{i\\omega t}\\,d\\omega=\\cos\\omega_0t$。",
+  "search_text": "设 $F(\\omega)=\\pi\\left(\\delta(\\omega+\\omega_0)+\\delta(\\omega-\\omega_0)\\right)$，则 $\\mathcal F^{-1}[F(\\omega)]=(\\ \\ )$。 $\\cos\\omega_0t$ $\\sin\\omega_0t$ $\\sin\\omega_0t+\\cos\\omega_0t$ $\\sin\\omega_0t+\\cos\\omega_0t$ $\\mathcal F^{-1}[F(\\omega)]=\\dfrac1{2\\pi}\\int_{-\\infty}^{+\\infty}\\pi(\\delta(\\omega+\\omega_0)+\\delta(\\omega-\\omega_0))e^{i\\omega t}\\,d\\omega=\\cos\\omega_0t$。",
+  "sort_order": 15
+}

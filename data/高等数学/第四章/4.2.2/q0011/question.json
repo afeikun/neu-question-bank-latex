@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列命题中不正确的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $f$ 在 $[a,b]$ 连续且 $\\int_a^b f(x)dx>0$，则 $f$ 恒正"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若 $f$ 为连续偶函数，则 $\\int_{-b}^b f(x)dx=2\\int_0^b f(x)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若 $f$ 在 $[a,b]$ 连续且恒正，则 $\\int_a^b f(x)dx>0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若 $f$ 为连续奇函数，则 $\\int_{-b}^b f(x)dx=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一项不成立：积分为正只表示函数值的净面积为正，并不要求函数处处为正。",
+  "search_text": "下列命题中不正确的是 若 $f$ 在 $[a,b]$ 连续且 $\\int_a^b f(x)dx>0$，则 $f$ 恒正 若 $f$ 为连续偶函数，则 $\\int_{-b}^b f(x)dx=2\\int_0^b f(x)dx$ 若 $f$ 在 $[a,b]$ 连续且恒正，则 $\\int_a^b f(x)dx>0$ 若 $f$ 为连续奇函数，则 $\\int_{-b}^b f(x)dx=0$ 第一项不成立：积分为正只表示函数值的净面积为正，并不要求函数处处为正。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int\\frac{\\arctan x}{x^2(1+x^2)}\\,dx$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac2x\\arctan x+\\ln|x|-[\\ln(1+x^2)+\\arctan^2x]+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac1x\\arctan x+\\ln|x|-2[\\ln(1+x^2)+\\arctan^2x]+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac1x\\arctan x+\\ln|x|-\\frac12[\\ln(1+x^2)+\\arctan^2x]+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac2x\\arctan x+\\ln|x|-\\frac12[\\ln(1+x^2)+\\arctan^2x]+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 根据分部积分，我们有\n\n$$\\text{原式}=\\int\\left(\\frac{1}{x^2}-\\frac{1}{1+x^2}\\right)\\arctan x\\,dx$$\n\n$$=\\int\\frac{1}{x^2}\\arctan x\\,dx-\\int\\arctan x\\,d\\arctan x$$\n\n$$=\\int\\arctan x\\,d\\left(-\\frac{1}{x}\\right)-\\frac{1}{2}\\arctan^2 x$$\n\n$$=-\\frac{1}{x}\\arctan x+\\int\\frac{dx}{x(1+x^2)}-\\frac{1}{2}\\arctan^2 x$$\n\n$$=-\\frac{1}{x}\\arctan x+\\int\\left(\\frac{1}{x}-\\frac{x}{1+x^2}\\right)dx-\\frac{1}{2}\\arctan^2 x$$\n\n$$=-\\frac{1}{x}\\arctan x+\\ln|x|-\\frac{1}{2}[\\ln(1+x^2)+\\arctan^2 x]+C.$$",
+  "search_text": "不定积分 $\\int\\frac{\\arctan x}{x^2(1+x^2)}\\,dx$ 的值为（ ） $-\\frac2x\\arctan x+\\ln|x|-[\\ln(1+x^2)+\\arctan^2x]+C$ $-\\frac1x\\arctan x+\\ln|x|-2[\\ln(1+x^2)+\\arctan^2x]+C$ $-\\frac1x\\arctan x+\\ln|x|-\\frac12[\\ln(1+x^2)+\\arctan^2x]+C$ $-\\frac2x\\arctan x+\\ln|x|-\\frac12[\\ln(1+x^2)+\\arctan^2x]+C$ 解答 根据分部积分，我们有\n\n$$\\text{原式}=\\int\\left(\\frac{1}{x^2}-\\frac{1}{1+x^2}\\right)\\arctan x\\,dx$$\n\n$$=\\int\\frac{1}{x^2}\\arctan x\\,dx-\\int\\arctan x\\,d\\arctan x$$\n\n$$=\\int\\arctan x\\,d\\left(-\\frac{1}{x}\\right)-\\frac{1}{2}\\arctan^2 x$$\n\n$$=-\\frac{1}{x}\\arctan x+\\int\\frac{dx}{x(1+x^2)}-\\frac{1}{2}\\arctan^2 x$$\n\n$$=-\\frac{1}{x}\\arctan x+\\int\\left(\\frac{1}{x}-\\frac{x}{1+x^2}\\right)dx-\\frac{1}{2}\\arctan^2 x$$\n\n$$=-\\frac{1}{x}\\arctan x+\\ln|x|-\\frac{1}{2}[\\ln(1+x^2)+\\arctan^2 x]+C.$$",
+  "sort_order": 10
+}

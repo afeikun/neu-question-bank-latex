@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线y=a cosh(x/a)，x=0、x=a、y=0围成图形绕x轴旋转体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1/4)πa³(1+sinh2)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1/4)πa³(2+sinh2)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1/5)πa³(1−sinh2)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1/5)πa³(1+sinh2)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "V=π∫₀ᵃa²cosh²(x/a)dx=(πa³/4)(2+sinh2)。",
+  "search_text": "曲线y=a cosh(x/a)，x=0、x=a、y=0围成图形绕x轴旋转体积 (1/4)πa³(1+sinh2) (1/4)πa³(2+sinh2) (1/5)πa³(1−sinh2) (1/5)πa³(1+sinh2) V=π∫₀ᵃa²cosh²(x/a)dx=(πa³/4)(2+sinh2)。",
+  "sort_order": 13
+}

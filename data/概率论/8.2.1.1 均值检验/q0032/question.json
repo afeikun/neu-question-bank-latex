@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "8人早晚身高配对差均值1.25，$s=1.282$，检验早晨是否更高，错误说法（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "晚上的身高比早上高"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu_z\\le0,H_1:\\mu_z>0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "配对t统计量$t=\\bar z/(S/\\sqrt8)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "拒绝域$(t_{0.05}(7),+\\infty)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$t=2.755>1.8946$，支持早晨身高更高，选项1错误。",
+  "search_text": "8人早晚身高配对差均值1.25，$s=1.282$，检验早晨是否更高，错误说法（）。 晚上的身高比早上高 $H_0:\\mu_z\\le0,H_1:\\mu_z>0$ 配对t统计量$t=\\bar z/(S/\\sqrt8)$ 拒绝域$(t_{0.05}(7),+\\infty)$ $t=2.755>1.8946$，支持早晨身高更高，选项1错误。",
+  "sort_order": 32
+}

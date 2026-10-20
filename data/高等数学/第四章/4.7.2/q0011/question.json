@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线y=ax+b与x=0、x=1、y=0围成面积A的梯形，绕x轴体积最小时a,b",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "a=A,b=0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "a=A,b=A"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "a=0,b=A"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "a=0,b=0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由面积约束b=A−a/2，体积在a=0时最小，b=A。",
+  "search_text": "直线y=ax+b与x=0、x=1、y=0围成面积A的梯形，绕x轴体积最小时a,b a=A,b=0 a=A,b=A a=0,b=A a=0,b=0 由面积约束b=A−a/2，体积在a=0时最小，b=A。",
+  "sort_order": 11
+}

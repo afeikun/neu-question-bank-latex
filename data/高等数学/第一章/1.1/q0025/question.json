@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x+\\frac1x)=x^2+\\frac1{x^2}$，则 $f(x)$ 为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{x^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $u=x+\\frac1x$，则 $x^2+\\frac1{x^2}=u^2-2$，故 $f(u)=u^2-2$。",
+  "search_text": "设 $f(x+\\frac1x)=x^2+\\frac1{x^2}$，则 $f(x)$ 为（ ）。 $x^2$ $x-2$ $\\frac1{x^2}$ $x^2-2$ 令 $u=x+\\frac1x$，则 $x^2+\\frac1{x^2}=u^2-2$，故 $f(u)=u^2-2$。",
+  "sort_order": 25
+}

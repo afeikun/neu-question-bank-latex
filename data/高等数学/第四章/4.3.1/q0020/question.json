@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "y=∫₀ˣ²√(1+t²)du，求dy/dt",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "x²√(1+t²)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "x²t/√(1+t²)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2x√(1+x⁴)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2x√(1+t²)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "变上限积分求导。",
+  "search_text": "y=∫₀ˣ²√(1+t²)du，求dy/dt x²√(1+t²) x²t/√(1+t²) 2x√(1+x⁴) 2x√(1+t²) 变上限积分求导。",
+  "sort_order": 20
+}

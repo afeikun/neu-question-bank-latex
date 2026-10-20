@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是 $m\\times n$ 矩阵，则集合 $U=\\{(x_1,x_2,\\ldots,x_n)^T\\mid x_1\\text{ 为正整数}\\}$，$V=\\{x=(x_1,x_2,\\ldots,x_n)^T\\mid Ax=0\\}$ 中是线性空间的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U$ 和 $V$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "都不是"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$U$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$V$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "只有集合 $V$ 对线性运算封闭，构成线性空间。",
+  "search_text": "设 $A$ 是 $m\\times n$ 矩阵，则集合 $U=\\{(x_1,x_2,\\ldots,x_n)^T\\mid x_1\\text{ 为正整数}\\}$，$V=\\{x=(x_1,x_2,\\ldots,x_n)^T\\mid Ax=0\\}$ 中是线性空间的有（ ）。 $U$ 和 $V$ 都不是 $U$ $V$ 只有集合 $V$ 对线性运算封闭，构成线性空间。",
+  "sort_order": 60
+}

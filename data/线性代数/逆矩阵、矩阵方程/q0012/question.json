@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $n$ 阶非零矩阵，$E$ 是 $n$ 阶单位矩阵，若 $A^3=O$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$E-A$ 不可逆，$E+A$ 不可逆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E-A$ 不可逆，$E+A$ 可逆"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$E-A$ 可逆，$E+A$ 可逆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$E-A$ 可逆，$E+A$ 不可逆"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $A^3=O$，有 $(E+A)(E-A+A^2)=E$，所以 $E+A$ 可逆；同理 $E-A$ 也可逆。",
+  "search_text": "设 $A$ 为 $n$ 阶非零矩阵，$E$ 是 $n$ 阶单位矩阵，若 $A^3=O$，则（ ）。 $E-A$ 不可逆，$E+A$ 不可逆 $E-A$ 不可逆，$E+A$ 可逆 $E-A$ 可逆，$E+A$ 可逆 $E-A$ 可逆，$E+A$ 不可逆 由 $A^3=O$，有 $(E+A)(E-A+A^2)=E$，所以 $E+A$ 可逆；同理 $E-A$ 也可逆。",
+  "sort_order": 12
+}

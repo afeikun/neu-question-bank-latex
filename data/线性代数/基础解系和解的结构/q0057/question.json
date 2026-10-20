@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "齐次线性方程组 $\\begin{cases}x_1+3x_3+4x_4-5x_5=0,\\\\x_2-2x_3-3x_4+5x_5=0\\end{cases}$ 的解空间的维数是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方程组有 $5$ 个未知量且两行系数独立，秩为 $2$，故解空间维数为 $5-2=3$。",
+  "search_text": "齐次线性方程组 $\\begin{cases}x_1+3x_3+4x_4-5x_5=0,\\\\x_2-2x_3-3x_4+5x_5=0\\end{cases}$ 的解空间的维数是（ ）。 $4$ $5$ $2$ $3$ 方程组有 $5$ 个未知量且两行系数独立，秩为 $2$，故解空间维数为 $5-2=3$。",
+  "sort_order": 57
+}

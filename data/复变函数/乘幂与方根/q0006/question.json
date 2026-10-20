@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $z^4+2^4=0$ 的全部根是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z=2\\left[\\cos\\dfrac{\\pi+2k\\pi}{4}+i\\sin\\dfrac{\\pi+2k\\pi}{4}\\right],\\ k=0,1,2,3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z=\\cos\\dfrac{\\pi+2k\\pi}{4}+i\\sin\\dfrac{\\pi+2k\\pi}{4},\\ k=0,1,2,3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z=2\\left(\\cos\\dfrac{k\\pi}{2}+i\\sin\\dfrac{k\\pi}{2}\\right),\\ k=0,1,2,3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z=2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $z^4=-2^4$，得四次根 $z=2[\\cos((\\pi+2k\\pi)/4)+i\\sin((\\pi+2k\\pi)/4)]$。",
+  "search_text": "方程 $z^4+2^4=0$ 的全部根是（ ）。 $z=2\\left[\\cos\\dfrac{\\pi+2k\\pi}{4}+i\\sin\\dfrac{\\pi+2k\\pi}{4}\\right],\\ k=0,1,2,3$ $z=\\cos\\dfrac{\\pi+2k\\pi}{4}+i\\sin\\dfrac{\\pi+2k\\pi}{4},\\ k=0,1,2,3$ $z=2\\left(\\cos\\dfrac{k\\pi}{2}+i\\sin\\dfrac{k\\pi}{2}\\right),\\ k=0,1,2,3$ $z=2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)$ 由 $z^4=-2^4$，得四次根 $z=2[\\cos((\\pi+2k\\pi)/4)+i\\sin((\\pi+2k\\pi)/4)]$。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}0&0&1\\\\x&1&y\\\\1&0&0\\end{pmatrix}$ 有三个线性无关的特征向量，则 $x,y$ 应满足的条件为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-y=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$xy=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+y=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+2y=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "特征值为 $1,-1,1$。要有三个线性无关特征向量，重特征值 1 的特征空间需为二维，行化简条件为 $x+y=0$，选项 3。",
+  "search_text": "设 $A=\\begin{pmatrix}0&0&1\\\\x&1&y\\\\1&0&0\\end{pmatrix}$ 有三个线性无关的特征向量，则 $x,y$ 应满足的条件为(\\quad)。 $x-y=0$ $xy=0$ $x+y=0$ $x+2y=0$ 特征值为 $1,-1,1$。要有三个线性无关特征向量，重特征值 1 的特征空间需为二维，行化简条件为 $x+y=0$，选项 3。",
+  "sort_order": 1
+}

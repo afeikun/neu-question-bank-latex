@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列函数在给定区间上不满足拉格朗日中值定理条件的有 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)=4x^3-5x^2+x-2,\\ [0,1]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)=\\ln(1+x^2),\\ [0,3]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)=|x|,\\ [-1,2]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)=\\frac{2x}{1+x^2},\\ [-1,1]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$|x|$ 在区间内部 $x=0$ 不可导，不满足定理条件。",
+  "search_text": "下列函数在给定区间上不满足拉格朗日中值定理条件的有 $(\\quad)$。 $f(x)=4x^3-5x^2+x-2,\\ [0,1]$ $f(x)=\\ln(1+x^2),\\ [0,3]$ $f(x)=|x|,\\ [-1,2]$ $f(x)=\\frac{2x}{1+x^2},\\ [-1,1]$ $|x|$ 在区间内部 $x=0$ 不可导，不满足定理条件。",
+  "sort_order": 24
+}

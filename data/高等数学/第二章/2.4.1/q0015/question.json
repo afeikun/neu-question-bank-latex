@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x_0)<0,f\\prime(x_0)<0$，则有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$dy>\\Delta y>0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\Delta y<dy<0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Delta y>dy>0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$dy<\\Delta y<0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "函数值下降且图像局部凹向下，故 $\\Delta y<dy<0$。",
+  "search_text": "设 $f(x_0)<0,f\\prime(x_0)<0$，则有（ ）。 $dy>\\Delta y>0$ $\\Delta y<dy<0$ $\\Delta y>dy>0$ $dy<\\Delta y<0$ 函数值下降且图像局部凹向下，故 $\\Delta y<dy<0$。",
+  "sort_order": 15
+}

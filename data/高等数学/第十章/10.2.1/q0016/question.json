@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\frac{dx}{\\sqrt{x}}+\\frac{dy}{\\sqrt{y}}=0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^3+y^3=c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2+y^2=c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xy=c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{x}+\\sqrt{y}=c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "两边积分 $\\int\\frac{dx}{\\sqrt{x}}+\\int\\frac{dy}{\\sqrt{y}}=c,2\\sqrt{x}+2\\sqrt{y}=c,\\sqrt{x}+\\sqrt{y}=c$",
+  "search_text": "微分方程 $\\frac{dx}{\\sqrt{x}}+\\frac{dy}{\\sqrt{y}}=0$ 的通解是（ ） $x^3+y^3=c$ $x^2+y^2=c$ $xy=c$ $\\sqrt{x}+\\sqrt{y}=c$ 两边积分 $\\int\\frac{dx}{\\sqrt{x}}+\\int\\frac{dy}{\\sqrt{y}}=c,2\\sqrt{x}+2\\sqrt{y}=c,\\sqrt{x}+\\sqrt{y}=c$",
+  "sort_order": 16
+}

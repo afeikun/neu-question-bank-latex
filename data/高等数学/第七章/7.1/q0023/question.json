@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=\\begin{cases}\\frac{2x^2+y^2}{x^2+y^2},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$ 在点 $(0,0)$ 处(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "有极限但不连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极限不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无定义"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "取 $y=kx$（$k$为常数），则\n\\[\n\\lim_{(x,y)\\to(0,0)}\\frac{2x^2+y^2}{x^2+y^2}\n=\\lim_{x\\to0}\\frac{2x^2+(kx)^2}{x^2+(kx)^2}\n=\\frac{2+k^2}{1+k^2},\n\\]\n极限值随 $k$ 的改变而改变，所以极限不存在.",
+  "search_text": "$f(x,y)=\\begin{cases}\\frac{2x^2+y^2}{x^2+y^2},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$ 在点 $(0,0)$ 处(\\quad)。 连续 有极限但不连续 极限不存在 无定义 取 $y=kx$（$k$为常数），则\n\\[\n\\lim_{(x,y)\\to(0,0)}\\frac{2x^2+y^2}{x^2+y^2}\n=\\lim_{x\\to0}\\frac{2x^2+(kx)^2}{x^2+(kx)^2}\n=\\frac{2+k^2}{1+k^2},\n\\]\n极限值随 $k$ 的改变而改变，所以极限不存在.",
+  "sort_order": 23
+}

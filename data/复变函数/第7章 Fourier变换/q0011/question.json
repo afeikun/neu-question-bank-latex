@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\begin{cases}1,&0<t<1,\\\\-1,&-1<t<0,\\\\0,&\\text{else},\\end{cases}$ 则 $\\mathcal F[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac4{i\\omega}\\left(\\sin\\dfrac\\omega2\\right)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\dfrac4{i\\omega}\\left(\\cos\\dfrac\\omega2\\right)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac4{i\\omega}\\left(\\sin\\dfrac\\omega2\\right)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac4{i\\omega}\\left(\\cos\\dfrac\\omega2\\right)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal F[f(t)]=\\int_{-1}^{1}f(t)e^{-i\\omega t}\\,dt=-2i\\int_0^1\\sin\\omega t\\,dt=\\dfrac{2i}{\\omega}(\\cos\\omega-1)=\\dfrac4{i\\omega}\\left(\\sin\\dfrac\\omega2\\right)^2$。",
+  "search_text": "设 $f(t)=\\begin{cases}1,&0<t<1,\\\\-1,&-1<t<0,\\\\0,&\\text{else},\\end{cases}$ 则 $\\mathcal F[f(t)]=(\\ \\ )$。 $\\dfrac4{i\\omega}\\left(\\sin\\dfrac\\omega2\\right)^2$ $-\\dfrac4{i\\omega}\\left(\\cos\\dfrac\\omega2\\right)^2$ $-\\dfrac4{i\\omega}\\left(\\sin\\dfrac\\omega2\\right)^2$ $\\dfrac4{i\\omega}\\left(\\cos\\dfrac\\omega2\\right)^2$ $\\mathcal F[f(t)]=\\int_{-1}^{1}f(t)e^{-i\\omega t}\\,dt=-2i\\int_0^1\\sin\\omega t\\,dt=\\dfrac{2i}{\\omega}(\\cos\\omega-1)=\\dfrac4{i\\omega}\\left(\\sin\\dfrac\\omega2\\right)^2$。",
+  "sort_order": 11
+}

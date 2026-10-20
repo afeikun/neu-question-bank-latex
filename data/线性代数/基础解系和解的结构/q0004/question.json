@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知方程组 $\\begin{cases}x_1+x_2+x_3+x_4=2,\\\\2x_2+3x_3+4x_4=a-2,\\\\(a^2-1)x_4=a(a-1)^2\\end{cases}$ 无解，则 $a$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pm1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "将增广矩阵化简可知方程组无解时系数矩阵秩小于增广矩阵秩，这要求 $a=-1$。",
+  "search_text": "已知方程组 $\\begin{cases}x_1+x_2+x_3+x_4=2,\\\\2x_2+3x_3+4x_4=a-2,\\\\(a^2-1)x_4=a(a-1)^2\\end{cases}$ 无解，则 $a$ 的值为（ ）。 $0$ $1$ $-1$ $\\pm1$ 将增广矩阵化简可知方程组无解时系数矩阵秩小于增广矩阵秩，这要求 $a=-1$。",
+  "sort_order": 4
+}

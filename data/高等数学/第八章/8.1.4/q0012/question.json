@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 为连续函数，$D:\\frac{x^2}{4}+\\frac{y^2}{9}\\leq1$，则二重积分 $\\iint_Df(x,y)dxdy$ 的累次积分为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{-2}^2dy\\int_{\\frac23\\sqrt{4-x^2}}^{\\frac32\\sqrt{4-x^2}}f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{-3}^3dy\\int_{\\frac23\\sqrt{9-y^2}}^{\\frac32\\sqrt{9-y^2}}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{-2}^2dx\\int_{-\\frac32\\sqrt{4-x^2}}^{\\frac32\\sqrt{4-x^2}}f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{-3}^3dx\\int_{-\\frac23\\sqrt{9-y^2}}^{\\frac23\\sqrt{9-y^2}}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 原式=$\\int_{-2}^{2}dx\\int_{\\frac{3}{4}x^2}^{\\sqrt{4-x^2}}f(x,y)dy$. 原式=$\\int_{\\frac{3}{2}}^{3}dy\\int_{\\sqrt{\\frac{4}{3}y}}^{\\sqrt{9-y^2}}f(x,y)dx$.",
+  "search_text": "设 $f(x,y)$ 为连续函数，$D:\\frac{x^2}{4}+\\frac{y^2}{9}\\leq1$，则二重积分 $\\iint_Df(x,y)dxdy$ 的累次积分为[\\quad] $\\int_{-2}^2dy\\int_{\\frac23\\sqrt{4-x^2}}^{\\frac32\\sqrt{4-x^2}}f(x,y)dx$ $\\int_{-3}^3dy\\int_{\\frac23\\sqrt{9-y^2}}^{\\frac32\\sqrt{9-y^2}}f(x,y)dx$ $\\int_{-2}^2dx\\int_{-\\frac32\\sqrt{4-x^2}}^{\\frac32\\sqrt{4-x^2}}f(x,y)dy$ $\\int_{-3}^3dx\\int_{-\\frac23\\sqrt{9-y^2}}^{\\frac23\\sqrt{9-y^2}}f(x,y)dy$ 解答 原式=$\\int_{-2}^{2}dx\\int_{\\frac{3}{4}x^2}^{\\sqrt{4-x^2}}f(x,y)dy$. 原式=$\\int_{\\frac{3}{2}}^{3}dy\\int_{\\sqrt{\\frac{4}{3}y}}^{\\sqrt{9-y^2}}f(x,y)dx$.",
+  "sort_order": 12
+}

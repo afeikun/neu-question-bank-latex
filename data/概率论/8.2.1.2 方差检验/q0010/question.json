@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$H_0:\\sigma^2\\ge4,H_1:\\sigma^2<4$，检验统计量为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(n-1)S^2/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(n-1)S^2/8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(n-1)S^2/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(n-1)S^2/6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "左尾方差检验使用$\\chi^2=(n-1)S^2/\\sigma_0^2$。",
+  "search_text": "$H_0:\\sigma^2\\ge4,H_1:\\sigma^2<4$，检验统计量为（）。 $(n-1)S^2/4$ $(n-1)S^2/8$ $(n-1)S^2/2$ $(n-1)S^2/6$ 左尾方差检验使用$\\chi^2=(n-1)S^2/\\sigma_0^2$。",
+  "sort_order": 10
+}

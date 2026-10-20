@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设区域 $D:x\\leq y\\leq3x,3\\leq x\\leq6$，则 $I=\\iint_Df(x,y)d\\sigma$ 写成先对 $y$ 后对 $x$ 的二次积分时，$I=[\\quad]$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_3^6dx\\int_x^{3x}f(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_x^{3x}dx\\int_3^6f(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_3^6dx\\int_x^{x^2}f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_3^6dx\\int_0^{3x}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答　由题意可得 $I=\\int_3^6dx\\int_x^{3x}f(x,y)dy$。",
+  "search_text": "设区域 $D:x\\leq y\\leq3x,3\\leq x\\leq6$，则 $I=\\iint_Df(x,y)d\\sigma$ 写成先对 $y$ 后对 $x$ 的二次积分时，$I=[\\quad]$ $\\int_3^6dx\\int_x^{3x}f(x,y)dy$ $\\int_x^{3x}dx\\int_3^6f(x,y)dy$ $\\int_3^6dx\\int_x^{x^2}f(x,y)dy$ $\\int_3^6dx\\int_0^{3x}f(x,y)dy$ 解答　由题意可得 $I=\\int_3^6dx\\int_x^{3x}f(x,y)dy$。",
+  "sort_order": 7
+}

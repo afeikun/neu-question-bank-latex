@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $A,B$ 均为 $n$ 阶方阵，则下列说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(AB)^{-1}=A^{-1}B^{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(A-B)^2=A^2-2AB+B^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "当 $|AB|\\ne0$ 时，$A,B$ 均可逆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(A-B)(A+B)=A^2-B^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "矩阵乘法一般不满足交换律，所以选项（B）、（C）不成立；可逆时 $(AB)^{-1}=B^{-1}A^{-1}$，因此（A）也不成立。又 $|AB|=|A||B|\\ne0$，从而 $A,B$ 均可逆，故（D）正确。",
+  "search_text": "若 $A,B$ 均为 $n$ 阶方阵，则下列说法正确的是（ ）。 $(AB)^{-1}=A^{-1}B^{-1}$ $(A-B)^2=A^2-2AB+B^2$ 当 $|AB|\\ne0$ 时，$A,B$ 均可逆 $(A-B)(A+B)=A^2-B^2$ 矩阵乘法一般不满足交换律，所以选项（B）、（C）不成立；可逆时 $(AB)^{-1}=B^{-1}A^{-1}$，因此（A）也不成立。又 $|AB|=|A||B|\\ne0$，从而 $A,B$ 均可逆，故（D）正确。",
+  "sort_order": 39
+}

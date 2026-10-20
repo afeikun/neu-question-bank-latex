@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=(-1)^{[x^2]}$，则 $x=\\pm\\sqrt n$ 是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "连续点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "跳跃间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "第二类间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可去间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$x\\to\\pm\\sqrt n^-$ 与 $x\\to\\pm\\sqrt n^+$ 时函数值分别为 $(-1)^n$ 与 $(-1)^{n-1}$。",
+  "search_text": "设 $y=(-1)^{[x^2]}$，则 $x=\\pm\\sqrt n$ 是（ ）。 连续点 跳跃间断点 第二类间断点 可去间断点 $x\\to\\pm\\sqrt n^-$ 与 $x\\to\\pm\\sqrt n^+$ 时函数值分别为 $(-1)^n$ 与 $(-1)^{n-1}$。",
+  "sort_order": 96
+}

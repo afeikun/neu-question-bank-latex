@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_n=\\sum_{k=0}^n\\frac{(\\sqrt2+\\sqrt2i)^k}{5^k}$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{25-5\\sqrt2+5\\sqrt2i}{29-10\\sqrt2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{25+5\\sqrt2+5\\sqrt2i}{29-10\\sqrt2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{25-5\\sqrt2-5\\sqrt2i}{29+10\\sqrt2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{25-5\\sqrt2+5\\sqrt2i}{29+10\\sqrt2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|(\\sqrt2+\\sqrt2i)/5|=2/5<1$，故级数和为 $1/(1-(\\sqrt2+\\sqrt2i)/5)=\\frac{25-5\\sqrt2+5\\sqrt2i}{29-10\\sqrt2}$。",
+  "search_text": "设 $\\alpha_n=\\sum_{k=0}^n\\frac{(\\sqrt2+\\sqrt2i)^k}{5^k}$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。 $\\frac{25-5\\sqrt2+5\\sqrt2i}{29-10\\sqrt2}$ $\\frac{25+5\\sqrt2+5\\sqrt2i}{29-10\\sqrt2}$ $\\frac{25-5\\sqrt2-5\\sqrt2i}{29+10\\sqrt2}$ $\\frac{25-5\\sqrt2+5\\sqrt2i}{29+10\\sqrt2}$ $|(\\sqrt2+\\sqrt2i)/5|=2/5<1$，故级数和为 $1/(1-(\\sqrt2+\\sqrt2i)/5)=\\frac{25-5\\sqrt2+5\\sqrt2i}{29-10\\sqrt2}$。",
+  "sort_order": 15
+}

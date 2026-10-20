@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "抛物面 $z=x^2+y^2$ 被平面 $x+y+z=1$ 截成椭圆，原点到椭圆的最长、最短距离分别为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\sqrt{2+\\sqrt3},0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\sqrt{9-5\\sqrt3},0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\sqrt{2+\\sqrt3},\\sqrt{2-\\sqrt3})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\sqrt{9+5\\sqrt3},\\sqrt{9-5\\sqrt3})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设椭圆上点的坐标为 $(x,y,z)$，则目标函数 $d^2=x^2+y^2+z^2$，约束条件：$z-x^2-y^2=0$ 和 $x+y+z-1=0$。构造函数\n$$\nF=x^2+y^2+z^2+\\lambda(z-x^2-y^2)+\\mu(x+y+z-1),\n$$\n解方程组\n$$\n\\begin{cases}\n2x-2\\lambda x+\\mu=0，\\\\\n2y-2\\lambda y+\\mu=0，\\\\\n2z+\\lambda+\\mu=0，\\\\\nz=x^2+y^2，\\\\\nx+y+z=1，\n\\end{cases}\n$$\n得 $x=y=\\dfrac{-1+\\sqrt{3}}{2}$，$z=2-\\sqrt{3}$，$x=y=\\dfrac{-1-\\sqrt{3}}{2}$，$z=2+\\sqrt{3}$。根据题意可知，此最大及最小距离都存在，故最大与最小值分别在这两点计算，得到 $d_{\\max}=\\sqrt{9+5\\sqrt{3}}$，$d_{\\min}=\\sqrt{9-5\\sqrt{3}}$。",
+  "search_text": "抛物面 $z=x^2+y^2$ 被平面 $x+y+z=1$ 截成椭圆，原点到椭圆的最长、最短距离分别为。 $(\\sqrt{2+\\sqrt3},0)$ $(\\sqrt{9-5\\sqrt3},0)$ $(\\sqrt{2+\\sqrt3},\\sqrt{2-\\sqrt3})$ $(\\sqrt{9+5\\sqrt3},\\sqrt{9-5\\sqrt3})$ 设椭圆上点的坐标为 $(x,y,z)$，则目标函数 $d^2=x^2+y^2+z^2$，约束条件：$z-x^2-y^2=0$ 和 $x+y+z-1=0$。构造函数\n$$\nF=x^2+y^2+z^2+\\lambda(z-x^2-y^2)+\\mu(x+y+z-1),\n$$\n解方程组\n$$\n\\begin{cases}\n2x-2\\lambda x+\\mu=0，\\\\\n2y-2\\lambda y+\\mu=0，\\\\\n2z+\\lambda+\\mu=0，\\\\\nz=x^2+y^2，\\\\\nx+y+z=1，\n\\end{cases}\n$$\n得 $x=y=\\dfrac{-1+\\sqrt{3}}{2}$，$z=2-\\sqrt{3}$，$x=y=\\dfrac{-1-\\sqrt{3}}{2}$，$z=2+\\sqrt{3}$。根据题意可知，此最大及最小距离都存在，故最大与最小值分别在这两点计算，得到 $d_{\\max}=\\sqrt{9+5\\sqrt{3}}$，$d_{\\min}=\\sqrt{9-5\\sqrt{3}}$。",
+  "sort_order": 14
+}

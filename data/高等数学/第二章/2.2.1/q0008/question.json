@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=x-\\ln(1+x)$（$x>0$），则其反函数 $x=x(y)$ 的导数 $dx/dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1+x^2)/(2x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1+x)/x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1+x)/(2x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1+x)/x^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$dy/dx=x/(1+x)$，故 $dx/dy=(1+x)/x$。",
+  "search_text": "设 $y=x-\\ln(1+x)$（$x>0$），则其反函数 $x=x(y)$ 的导数 $dx/dy=$（ ）。 $(1+x^2)/(2x)$ $(1+x)/x$ $(1+x)/(2x)$ $(1+x)/x^2$ $dy/dx=x/(1+x)$，故 $dx/dy=(1+x)/x$。",
+  "sort_order": 8
+}

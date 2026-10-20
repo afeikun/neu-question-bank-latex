@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi$的密度为$1/[\\pi(1+x^2)]$，对任意自然数$n$，$E(\\xi^n)$和$D(\\xi^n)$的值（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "均不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0,1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/\\pi,1/\\pi^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/\\pi,1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "柯西分布尾部过重，任意正阶绝对矩发散，因此期望及方差不存在。",
+  "search_text": "$\\xi$的密度为$1/[\\pi(1+x^2)]$，对任意自然数$n$，$E(\\xi^n)$和$D(\\xi^n)$的值（）。 均不存在 $0,1$ $1/\\pi,1/\\pi^2$ $1/\\pi,1$ 柯西分布尾部过重，任意正阶绝对矩发散，因此期望及方差不存在。",
+  "sort_order": 4
+}

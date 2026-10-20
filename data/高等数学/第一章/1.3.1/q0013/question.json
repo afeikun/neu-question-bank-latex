@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "要使 $\\lim_{x\\to+\\infty}(\\frac12)^x=0$ 成立，$x$ 需满足（　）（其中 $\\varepsilon$ 为任意正实数）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x>\\frac{\\ln(1/\\varepsilon)}{\\ln3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x>\\frac{\\ln(1/\\varepsilon)}{\\ln2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x>\\frac{\\ln(2\\varepsilon)}{\\ln2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x>\\frac{\\ln\\varepsilon}{\\ln2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "当 $0<\\varepsilon<1$，要求 $(1/2)^x<\\varepsilon$，等价于 $x>\\frac{\\ln(1/\\varepsilon)}{\\ln2}$。",
+  "search_text": "要使 $\\lim_{x\\to+\\infty}(\\frac12)^x=0$ 成立，$x$ 需满足（ ）（其中 $\\varepsilon$ 为任意正实数）。 $x>\\frac{\\ln(1/\\varepsilon)}{\\ln3}$ $x>\\frac{\\ln(1/\\varepsilon)}{\\ln2}$ $x>\\frac{\\ln(2\\varepsilon)}{\\ln2}$ $x>\\frac{\\ln\\varepsilon}{\\ln2}$ 当 $0<\\varepsilon<1$，要求 $(1/2)^x<\\varepsilon$，等价于 $x>\\frac{\\ln(1/\\varepsilon)}{\\ln2}$。",
+  "sort_order": 13
+}

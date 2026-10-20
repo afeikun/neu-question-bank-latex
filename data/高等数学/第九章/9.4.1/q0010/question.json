@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Sigma$ 即是 $xoy$ 面的一个闭区域 $D$ 时，曲面积分 $\\iint_\\Sigma(x^2+y^2)dS$ 化为 $D$ 上的二重积分为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iint_D(x^2-y^2)dxdy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\iint_Dx^2y^2dxdy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iint_D(x^2+y^2)dxdy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\iint_Dxydxdy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\iint_\\Sigma(x^2+y^2)dS=\\iint_D(x^2+y^2)dxdy$。",
+  "search_text": "若 $\\Sigma$ 即是 $xoy$ 面的一个闭区域 $D$ 时，曲面积分 $\\iint_\\Sigma(x^2+y^2)dS$ 化为 $D$ 上的二重积分为（ ） $\\iint_D(x^2-y^2)dxdy$ $2\\iint_Dx^2y^2dxdy$ $\\iint_D(x^2+y^2)dxdy$ $2\\iint_Dxydxdy$ 解答 $\\iint_\\Sigma(x^2+y^2)dS=\\iint_D(x^2+y^2)dxdy$。",
+  "sort_order": 10
+}

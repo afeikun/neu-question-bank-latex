@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\oint_{|z|=1/2}\\frac{dz}{z^3(z+1)(z-2)}$ 等于（ ），方向沿 $|z|=1/2$ 的正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{3\\pi i}{4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{\\pi i}{12}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由高阶Cauchy积分公式，对 $z=0$ 处的三阶极点求二阶导数，积分为 $-3\\pi i/4$。",
+  "search_text": "积分 $\\oint_{|z|=1/2}\\frac{dz}{z^3(z+1)(z-2)}$ 等于（ ），方向沿 $|z|=1/2$ 的正向。 $-\\frac{3\\pi i}{4}$ $-4\\pi i$ $2\\pi i$ $-\\frac{\\pi i}{12}$ 由高阶Cauchy积分公式，对 $z=0$ 处的三阶极点求二阶导数，积分为 $-3\\pi i/4$。",
+  "sort_order": 43
+}

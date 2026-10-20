@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y,z)=\\ln(xy+z)$，则 $df|_{(1,2,0)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12dx-dy+\\frac12dz$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$dx+\\frac12dy+\\frac12dz$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3dx+\\frac14dy+\\frac15dz$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12dx+2dy-\\frac13dz$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "因为$f_x=\\frac{y}{xy+z},\\quad f_y=\\frac{x}{xy+z},\\quad f_z=\\frac{1}{xy+z},\\quad$于是$df|_{(1,2,0)}=dx+\\frac{1}{2}dy+\\frac{1}{2}dz.$",
+  "search_text": "设 $f(x,y,z)=\\ln(xy+z)$，则 $df|_{(1,2,0)}=(\\quad)$。 $\\frac12dx-dy+\\frac12dz$ $dx+\\frac12dy+\\frac12dz$ $3dx+\\frac14dy+\\frac15dz$ $\\frac12dx+2dy-\\frac13dz$ 因为$f_x=\\frac{y}{xy+z},\\quad f_y=\\frac{x}{xy+z},\\quad f_z=\\frac{1}{xy+z},\\quad$于是$df|_{(1,2,0)}=dx+\\frac{1}{2}dy+\\frac{1}{2}dz.$",
+  "sort_order": 3
+}

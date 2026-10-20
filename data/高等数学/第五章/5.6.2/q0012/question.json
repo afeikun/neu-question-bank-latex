@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 是周期为 $2\\pi$ 的周期函数，它在 $[-\\pi,\\pi]$ 上的表达式为 $f(x)=\\begin{cases}0,&-\\pi\\le x<0,\\\\9,&0<x\\le\\pi,\\end{cases}$，求 $f(x)$ 的傅里叶系数 $b_{2k}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$18(-1)^k/((2k-1)\\pi)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$18/((2k-1)\\pi)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$b_n=9[1-(-1)^n]/(n\\pi)$，偶数项为0。",
+  "search_text": "设函数 $f(x)$ 是周期为 $2\\pi$ 的周期函数，它在 $[-\\pi,\\pi]$ 上的表达式为 $f(x)=\\begin{cases}0,&-\\pi\\le x<0,\\\\9,&0<x\\le\\pi,\\end{cases}$，求 $f(x)$ 的傅里叶系数 $b_{2k}$。 0 1 $18(-1)^k/((2k-1)\\pi)$ $18/((2k-1)\\pi)$ $b_n=9[1-(-1)^n]/(n\\pi)$，偶数项为0。",
+  "sort_order": 12
+}

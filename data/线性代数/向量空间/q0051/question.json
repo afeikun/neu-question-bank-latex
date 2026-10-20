@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "集合 $W_1=\\{(a,1,1)\\mid a\\in\\mathbb{R}\\}$，$W_2=\\{(a,b,c)\\mid b=a+c,\\ a,c\\in\\mathbb{R}\\}$，$W_3=\\{(a,b,c)\\mid b=a+c+1,\\ a,c\\in\\mathbb{R}\\}$ 中是线性空间的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "只有集合 $W_2$ 对线性运算封闭，构成线性空间，所以有 $1$ 个。",
+  "search_text": "集合 $W_1=\\{(a,1,1)\\mid a\\in\\mathbb{R}\\}$，$W_2=\\{(a,b,c)\\mid b=a+c,\\ a,c\\in\\mathbb{R}\\}$，$W_3=\\{(a,b,c)\\mid b=a+c+1,\\ a,c\\in\\mathbb{R}\\}$ 中是线性空间的有（ ）。 $1$ 个 $2$ 个 $3$ 个 $0$ 个 只有集合 $W_2$ 对线性运算封闭，构成线性空间，所以有 $1$ 个。",
+  "sort_order": 51
+}

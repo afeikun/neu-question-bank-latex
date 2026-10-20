@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to\\infty$ 时，$\\alpha=1/x,\\beta=\\sin x/x$ 都是无穷小量，则 $\\alpha$ 是 $\\beta$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "低阶无穷小"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "同阶无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "高阶无穷小"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不能比较"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\beta/\\alpha=\\sin x$ 无极限，故不能比较。",
+  "search_text": "当 $x\\to\\infty$ 时，$\\alpha=1/x,\\beta=\\sin x/x$ 都是无穷小量，则 $\\alpha$ 是 $\\beta$ 的（ ）。 低阶无穷小 同阶无穷小 高阶无穷小 不能比较 $\\beta/\\alpha=\\sin x$ 无极限，故不能比较。",
+  "sort_order": 33
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $4x=y^5,\\quad y=\\sqrt z$，在点 $(8,2,4)$ 处的切线方程是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-3}{5}=y-1=\\frac z4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x+12}{20}=y-1=\\frac z4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x+12}{20}=y=\\frac{z+4}{4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-8}{5}=y-2=\\frac{z-4}{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "把 $y$ 看作参数，则 $x_y\\big|_{(8,2,4)}=\\frac54y^4=20，\\quad y_y\\big|_{(8,2,4)}=1，\\quad z_y\\big|_{(8,2,4)}=2\\sqrt z=4$，切线方程为：\n\n$$\\frac{x-8}{20}=\\frac{y-2}{1}=\\frac{z-4}{4}$$\n\n由于点 $(-12,1,0)$ 也在法线上，整理后可得到：$\\frac{x+12}{20}=y-1=\\frac z4$。",
+  "search_text": "曲线 $4x=y^5,\\quad y=\\sqrt z$，在点 $(8,2,4)$ 处的切线方程是（　）。 $\\frac{x-3}{5}=y-1=\\frac z4$ $\\frac{x+12}{20}=y-1=\\frac z4$ $\\frac{x+12}{20}=y=\\frac{z+4}{4}$ $\\frac{x-8}{5}=y-2=\\frac{z-4}{4}$ 把 $y$ 看作参数，则 $x_y\\big|_{(8,2,4)}=\\frac54y^4=20，\\quad y_y\\big|_{(8,2,4)}=1，\\quad z_y\\big|_{(8,2,4)}=2\\sqrt z=4$，切线方程为：\n\n$$\\frac{x-8}{20}=\\frac{y-2}{1}=\\frac{z-4}{4}$$\n\n由于点 $(-12,1,0)$ 也在法线上，整理后可得到：$\\frac{x+12}{20}=y-1=\\frac z4$。",
+  "sort_order": 14
+}

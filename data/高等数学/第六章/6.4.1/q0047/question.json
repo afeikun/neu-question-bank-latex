@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "点 $P(1,1,1)$ 到直线 $\\frac{x-7}{1}=\\frac{y-2}{2}=\\frac{z-3}{3}$ 的距离为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\sqrt2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：法一：过点 $P(1,1,1)$ 且垂直于直线 $\\frac{x-7}{1}=\\frac{y-2}{2}=\\frac{z-3}{3}$ 的垂面方程为 $x+2y+3z-6=0$，直线的参数式方程为 $\\begin{cases}x=t+7\\\\y=2t+2\\\\z=3t+3\\end{cases}$，代入垂面方程 $x+2y+3z-6=0$，得 $t=-1$，即交点坐标为 $Q(6,0,0)$，由两点间距离公式，得点 $P(1,1,1)$ 到直线 $\\frac{x-7}{1}=\\frac{y-2}{2}=\\frac{z-3}{3}$ 的距离为 $3\\sqrt{3}$。\n\n法二：由点线距离公式，$d=\\frac{|\\vec{s}\\times\\overrightarrow{PQ}|}{|\\vec{s}|}=\\frac{|(1,2,3)\\times(6,1,2)|}{\\sqrt{1^2+2^2+3^2}}=\\frac{|(1,16,-11)|}{\\sqrt{14}}=\\frac{\\sqrt{378}}{\\sqrt{14}}=3\\sqrt{3}$。",
+  "search_text": "点 $P(1,1,1)$ 到直线 $\\frac{x-7}{1}=\\frac{y-2}{2}=\\frac{z-3}{3}$ 的距离为(\\quad)。 $\\sqrt3$ $2\\sqrt2$ $3\\sqrt3$ $\\sqrt2$ 解答：法一：过点 $P(1,1,1)$ 且垂直于直线 $\\frac{x-7}{1}=\\frac{y-2}{2}=\\frac{z-3}{3}$ 的垂面方程为 $x+2y+3z-6=0$，直线的参数式方程为 $\\begin{cases}x=t+7\\\\y=2t+2\\\\z=3t+3\\end{cases}$，代入垂面方程 $x+2y+3z-6=0$，得 $t=-1$，即交点坐标为 $Q(6,0,0)$，由两点间距离公式，得点 $P(1,1,1)$ 到直线 $\\frac{x-7}{1}=\\frac{y-2}{2}=\\frac{z-3}{3}$ 的距离为 $3\\sqrt{3}$。\n\n法二：由点线距离公式，$d=\\frac{|\\vec{s}\\times\\overrightarrow{PQ}|}{|\\vec{s}|}=\\frac{|(1,2,3)\\times(6,1,2)|}{\\sqrt{1^2+2^2+3^2}}=\\frac{|(1,16,-11)|}{\\sqrt{14}}=\\frac{\\sqrt{378}}{\\sqrt{14}}=3\\sqrt{3}$。",
+  "sort_order": 47
+}

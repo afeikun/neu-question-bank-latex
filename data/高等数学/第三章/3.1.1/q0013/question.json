@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a,b$ 是方程 $f(x)=0$ 的两个根，$f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，则 $f'(x)=0$ 在 $(a,b)$ 内 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "没有实根；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "只有一个实根；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "至少有一个实根；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "至少有两个实根。"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f(a)=f(b)=0$，由罗尔中值定理可知 $f'(x)=0$ 在 $(a,b)$ 内至少有一个实根。",
+  "search_text": "设 $a,b$ 是方程 $f(x)=0$ 的两个根，$f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，则 $f'(x)=0$ 在 $(a,b)$ 内 $(\\quad)$。 没有实根； 只有一个实根； 至少有一个实根； 至少有两个实根。 $f(a)=f(b)=0$，由罗尔中值定理可知 $f'(x)=0$ 在 $(a,b)$ 内至少有一个实根。",
+  "sort_order": 13
+}

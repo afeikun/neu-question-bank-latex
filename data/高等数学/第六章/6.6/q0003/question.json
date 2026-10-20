@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程组 $\\begin{cases}y=5x+2\\\\y=2x-5\\end{cases}$ 在平面和空间中分别表示(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "均为一条直线"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "均为一点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "一条直线和一点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "一点和一条直线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：在平面中，$\\begin{cases}y=5x+2\\\\y=2x-5\\end{cases}$ 表示两条直线的交点，即为一点；\n\n在空间中，$\\begin{cases}y=5x+2\\\\y=2x-5\\end{cases}$ 表示两个平面相交，即为一条直线。",
+  "search_text": "方程组 $\\begin{cases}y=5x+2\\\\y=2x-5\\end{cases}$ 在平面和空间中分别表示(\\quad)。 均为一条直线 均为一点 一条直线和一点 一点和一条直线 解答：在平面中，$\\begin{cases}y=5x+2\\\\y=2x-5\\end{cases}$ 表示两条直线的交点，即为一点；\n\n在空间中，$\\begin{cases}y=5x+2\\\\y=2x-5\\end{cases}$ 表示两个平面相交，即为一条直线。",
+  "sort_order": 3
+}

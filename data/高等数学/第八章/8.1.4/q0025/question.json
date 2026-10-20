@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "交换二次积分 $\\int_0^1dx\\int_0^xf(x,y)dy+\\int_1^2dx\\int_0^{2-x}f(x,y)dy$ 的积分次序，正确的是[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dy\\int_y^2f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^xdy\\int_y^{2-y}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dy\\int_0^{2-y}f(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dy\\int_y^{2-y}f(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 设积分区域 $D=D_1+D_2$，其中 $D_1:\\begin{cases}0\\leq y\\leq x\\\\0\\leq x\\leq1\\end{cases},D_2:\\begin{cases}0\\leq y\\leq2-x\\\\1\\leq x\\leq2\\end{cases}$，则 $D:\\begin{cases}y\\leq x\\leq2-y\\\\0\\leq y\\leq1\\end{cases}$，故原式=$\\int_0^1dy\\int_y^{2-y}f(x,y)dx$。\n\n图示：阴影三角形区域标记为 $D$，两条斜边标记 $y=x$ 和 $y=2-x$；坐标轴为 $x$、$y$，标有 $x=1$、$y=1$ 和原点 $O$；从顶点到 $x$ 轴的 $x=1$ 处及到 $y$ 轴的 $y=1$ 处各画有辅助虚线。",
+  "search_text": "交换二次积分 $\\int_0^1dx\\int_0^xf(x,y)dy+\\int_1^2dx\\int_0^{2-x}f(x,y)dy$ 的积分次序，正确的是[\\quad] $\\int_0^1dy\\int_y^2f(x,y)dx$ $\\int_0^xdy\\int_y^{2-y}f(x,y)dx$ $\\int_0^1dy\\int_0^{2-y}f(x,y)dx$ $\\int_0^1dy\\int_y^{2-y}f(x,y)dx$ 解答 设积分区域 $D=D_1+D_2$，其中 $D_1:\\begin{cases}0\\leq y\\leq x\\\\0\\leq x\\leq1\\end{cases},D_2:\\begin{cases}0\\leq y\\leq2-x\\\\1\\leq x\\leq2\\end{cases}$，则 $D:\\begin{cases}y\\leq x\\leq2-y\\\\0\\leq y\\leq1\\end{cases}$，故原式=$\\int_0^1dy\\int_y^{2-y}f(x,y)dx$。\n\n图示：阴影三角形区域标记为 $D$，两条斜边标记 $y=x$ 和 $y=2-x$；坐标轴为 $x$、$y$，标有 $x=1$、$y=1$ 和原点 $O$；从顶点到 $x$ 轴的 $x=1$ 处及到 $y$ 轴的 $y=1$ 处各画有辅助虚线。",
+  "sort_order": 25
+}

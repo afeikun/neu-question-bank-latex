@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$s=0.008,n=9$检验导线标准差是否仍为0.005，错误说法是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "拒绝域仅$\\chi^2<\\chi^2_{0.025}(8)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\sigma^2=0.005^2,H_1:\\sigma^2\\ne0.005^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\chi^2=8S^2/0.005^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不能认为标准差仍为0.005"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧拒绝域应同时包含上下两尾，选项1不完整。",
+  "search_text": "$s=0.008,n=9$检验导线标准差是否仍为0.005，错误说法是（）。 拒绝域仅$\\chi^2<\\chi^2_{0.025}(8)$ $H_0:\\sigma^2=0.005^2,H_1:\\sigma^2\\ne0.005^2$ $\\chi^2=8S^2/0.005^2$ 不能认为标准差仍为0.005 双侧拒绝域应同时包含上下两尾，选项1不完整。",
+  "sort_order": 19
+}

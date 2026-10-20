@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to2$ 时，$y=3x+1\\to7$，欲使 $|y-7|<0.001$，则 $\\delta$ 应不大于（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.001$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.01$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.0003$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.003$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$|y-7|=3|x-2|$，所以 $\\delta\\le0.001/3\\approx0.0003$。",
+  "search_text": "当 $x\\to2$ 时，$y=3x+1\\to7$，欲使 $|y-7|<0.001$，则 $\\delta$ 应不大于（ ）。 $0.001$ $0.01$ $0.0003$ $0.003$ $|y-7|=3|x-2|$，所以 $\\delta\\le0.001/3\\approx0.0003$。",
+  "sort_order": 17
+}

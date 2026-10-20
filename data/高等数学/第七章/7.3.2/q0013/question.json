@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=\\begin{cases}\\frac{\\sqrt{|xy|}}{x^2+y^2}\\sin(x^2+y^2),&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$，命题正确的有(\\quad)个：①$f_x'(0,0)=0$；②$f_y'(0,0)=0$；③$f$ 在原点可微。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$f_x'(0,0)=\\lim_{\\Delta x\\to0}\\frac{f(0+\\Delta x,0)-f(0,0)}{\\Delta x}=0，\\quad f_y'(0,0)=\\lim_{\\Delta y\\to0}\\frac{f(0,0+\\Delta y)-f(0,0)}{\\Delta y}=0$$\n记 $\\alpha=\\Delta z-f_x'(0,0)\\Delta x-f_y'(0,0)\\Delta y=f(x,y)=\\frac{\\sqrt{|\\Delta x\\Delta y|}}{(\\Delta x)^2+(\\Delta y)^2}\\sin((\\Delta x)^2+(\\Delta y)^2)$，\n有 $$\\lim_{\\substack{\\rho\\to0\\\\\\Delta x=\\Delta y}}\\frac{\\alpha}{\\rho}=\\lim_{\\Delta x\\to0}\\frac{\\sqrt{(\\Delta x)^2}\\sin 2(\\Delta x)^2}{\\sqrt{2(\\Delta x)^2}\\,2(\\Delta x)^2}=\\frac{1}{\\sqrt{2}}\\ne0，$$因此 $f(x,y)$ 在 $(0,0)$ 处不可微。",
+  "search_text": "$f(x,y)=\\begin{cases}\\frac{\\sqrt{|xy|}}{x^2+y^2}\\sin(x^2+y^2),&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$，命题正确的有(\\quad)个：①$f_x'(0,0)=0$；②$f_y'(0,0)=0$；③$f$ 在原点可微。 3个 0个 2个 1个 $$f_x'(0,0)=\\lim_{\\Delta x\\to0}\\frac{f(0+\\Delta x,0)-f(0,0)}{\\Delta x}=0，\\quad f_y'(0,0)=\\lim_{\\Delta y\\to0}\\frac{f(0,0+\\Delta y)-f(0,0)}{\\Delta y}=0$$\n记 $\\alpha=\\Delta z-f_x'(0,0)\\Delta x-f_y'(0,0)\\Delta y=f(x,y)=\\frac{\\sqrt{|\\Delta x\\Delta y|}}{(\\Delta x)^2+(\\Delta y)^2}\\sin((\\Delta x)^2+(\\Delta y)^2)$，\n有 $$\\lim_{\\substack{\\rho\\to0\\\\\\Delta x=\\Delta y}}\\frac{\\alpha}{\\rho}=\\lim_{\\Delta x\\to0}\\frac{\\sqrt{(\\Delta x)^2}\\sin 2(\\Delta x)^2}{\\sqrt{2(\\Delta x)^2}\\,2(\\Delta x)^2}=\\frac{1}{\\sqrt{2}}\\ne0，$$因此 $f(x,y)$ 在 $(0,0)$ 处不可微。",
+  "sort_order": 13
+}

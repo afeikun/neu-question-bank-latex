@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\oint_{|z|=3/2}\\frac{dz}{z^2+z+1}$ 等于 $(\\quad)$，沿圆周 $|z|=3/2$ 的正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2\\pi i}{\\sqrt3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$I=\\oint_{|z|=3/2}\\frac{dz}{(z-(-\\frac12+\\frac{\\sqrt3}{2}i))(z-(-\\frac12-\\frac{\\sqrt3}{2}i))}=\\frac{1}{\\sqrt3i}(2\\pi i-2\\pi i)=0$。",
+  "search_text": "积分 $I=\\oint_{|z|=3/2}\\frac{dz}{z^2+z+1}$ 等于 $(\\quad)$，沿圆周 $|z|=3/2$ 的正向。 $0$ $\\frac{2\\pi i}{\\sqrt3}$ $2\\pi i$ $4\\pi i$ $I=\\oint_{|z|=3/2}\\frac{dz}{(z-(-\\frac12+\\frac{\\sqrt3}{2}i))(z-(-\\frac12-\\frac{\\sqrt3}{2}i))}=\\frac{1}{\\sqrt3i}(2\\pi i-2\\pi i)=0$。",
+  "sort_order": 16
+}

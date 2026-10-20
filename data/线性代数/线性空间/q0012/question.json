@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $V=\\left\\{\\begin{pmatrix}a&2a\\\\3a&-a\\end{pmatrix}\\middle|a\\in\\mathbb{R}\\right\\}$，对矩阵加法和数乘矩阵运算有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$V$ 不是向量空间"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$V$ 是一维向量空间"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$V$ 是三维向量空间"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$V$ 是二维向量空间"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$V=\\operatorname{span}\\left\\{\\begin{pmatrix}1&2\\\\3&-1\\end{pmatrix}\\right\\}$，因此 $V$ 是一维向量空间。",
+  "search_text": "设 $V=\\left\\{\\begin{pmatrix}a&2a\\\\3a&-a\\end{pmatrix}\\middle|a\\in\\mathbb{R}\\right\\}$，对矩阵加法和数乘矩阵运算有（ ）。 $V$ 不是向量空间 $V$ 是一维向量空间 $V$ 是三维向量空间 $V$ 是二维向量空间 $V=\\operatorname{span}\\left\\{\\begin{pmatrix}1&2\\\\3&-1\\end{pmatrix}\\right\\}$，因此 $V$ 是一维向量空间。",
+  "sort_order": 12
+}

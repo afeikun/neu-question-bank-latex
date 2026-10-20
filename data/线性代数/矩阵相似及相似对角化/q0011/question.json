@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&-1&1\\\\x&4&y\\\\-3&-3&5\\end{pmatrix}$ 有三个线性无关的特征向量，已知 $\\lambda=2$ 是 $A$ 的二重特征值，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=-2,y=-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=2,y=-2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=2,y=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=-2,y=2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "因为 $A$ 有三个线性无关的特征向量，而 $\\lambda=2$ 是 $A$ 的二重特征值，所以 $R(2E-A)=3-2=1$。于是 $2E-A=\\begin{pmatrix}1&1&-1\\\\-x&-2&-y\\\\3&3&-3\\end{pmatrix}\\to\\begin{pmatrix}1&1&-1\\\\2-x&0&-2-y\\\\0&0&0\\end{pmatrix}$，所以 $x=2,y=-2$。",
+  "search_text": "设 $A=\\begin{pmatrix}1&-1&1\\\\x&4&y\\\\-3&-3&5\\end{pmatrix}$ 有三个线性无关的特征向量，已知 $\\lambda=2$ 是 $A$ 的二重特征值，则（ ）。 $x=-2,y=-2$ $x=2,y=-2$ $x=2,y=1$ $x=-2,y=2$ 因为 $A$ 有三个线性无关的特征向量，而 $\\lambda=2$ 是 $A$ 的二重特征值，所以 $R(2E-A)=3-2=1$。于是 $2E-A=\\begin{pmatrix}1&1&-1\\\\-x&-2&-y\\\\3&3&-3\\end{pmatrix}\\to\\begin{pmatrix}1&1&-1\\\\2-x&0&-2-y\\\\0&0&0\\end{pmatrix}$，所以 $x=2,y=-2$。",
+  "sort_order": 11
+}

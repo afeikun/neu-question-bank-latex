@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $4$ 阶矩阵 $A$ 有 $|A|=2$，$|2A+E|=3$，则 $|4A^2+2A|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$24$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$48$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$96$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$|4A^2+2A|=|2A(2A+E)|=|2A|\\cdot|2A+E|=2^4\\times2\\times3=96$。",
+  "search_text": "设 $4$ 阶矩阵 $A$ 有 $|A|=2$，$|2A+E|=3$，则 $|4A^2+2A|=$（ ）。 $24$ $6$ $48$ $96$ $|4A^2+2A|=|2A(2A+E)|=|2A|\\cdot|2A+E|=2^4\\times2\\times3=96$。",
+  "sort_order": 75
+}

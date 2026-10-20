@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一个盒中含有8只红球、3只白球、9只蓝球，如果随机地不放回地摸3只球，则事件‘摸到的三只球，每种颜色的球各一个’的概率$P(A)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$18/95$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/20$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/95$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$27/100$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "有利取法$\\binom81\\binom31\\binom91$，总取法$\\binom{20}3$，故$P(A)=18/95$。",
+  "search_text": "一个盒中含有8只红球、3只白球、9只蓝球，如果随机地不放回地摸3只球，则事件‘摸到的三只球，每种颜色的球各一个’的概率$P(A)=(\\quad)$。 $18/95$ $3/20$ $3/95$ $27/100$ 有利取法$\\binom81\\binom31\\binom91$，总取法$\\binom{20}3$，故$P(A)=18/95$。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^\\infty(-1)^{n-1}/(2n-1)$ 的和是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln2+\\pi/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln2+\\pi/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\ln2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由反正切级数取 $x=1$，和为 $\\pi/4$。",
+  "search_text": "级数 $\\sum_{n=1}^\\infty(-1)^{n-1}/(2n-1)$ 的和是？ $\\ln2+\\pi/4$ $\\ln2+\\pi/2$ $\\frac12\\ln2$ $\\pi/4$ 由反正切级数取 $x=1$，和为 $\\pi/4$。",
+  "sort_order": 13
+}

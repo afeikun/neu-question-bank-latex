@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设解析函数 $f(z)$ 以 $z_0$ 为一级零点，则 $\\displaystyle\\oint_{|z-z_0|=R}\\dfrac1{f(z)}\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{2\\pi i}{f'(z_0)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{2\\pi i}{f(z_0)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1{f'(z_0)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac1{f'(z_0)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1/f(z)$ 在 $z_0$ 有一级极点，留数为 $1/f'(z_0)$，故积分为 $2\\pi i/f'(z_0)$。",
+  "search_text": "设解析函数 $f(z)$ 以 $z_0$ 为一级零点，则 $\\displaystyle\\oint_{|z-z_0|=R}\\dfrac1{f(z)}\\,dz=(\\ \\ )$。 $\\dfrac{2\\pi i}{f'(z_0)}$ $\\dfrac{2\\pi i}{f(z_0)}$ $\\dfrac1{f'(z_0)}$ $\\dfrac1{f'(z_0)}$ $1/f(z)$ 在 $z_0$ 有一级极点，留数为 $1/f'(z_0)$，故积分为 $2\\pi i/f'(z_0)$。",
+  "sort_order": 97
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $P^{-1}AP=\\Lambda$，其中 $P=\\begin{pmatrix}1&0\\\\2&1\\end{pmatrix}$，$\\Lambda=\\begin{pmatrix}1&0\\\\0&2\\end{pmatrix}$，则 $A^9=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&0\\\\-2&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&0\\\\-1022&512\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&0\\\\1022&512\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&0\\\\0&512\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由题设知 $A=P\\Lambda P^{-1}$，从而 $A^9=P\\Lambda^9P^{-1}$。又 $P^{-1}=\\begin{pmatrix}1&0\\\\-2&1\\end{pmatrix}$，$\\Lambda^9=\\begin{pmatrix}1&0\\\\0&512\\end{pmatrix}$，所以 $A^9=\\begin{pmatrix}1&0\\\\-1022&512\\end{pmatrix}$。",
+  "search_text": "设 $P^{-1}AP=\\Lambda$，其中 $P=\\begin{pmatrix}1&0\\\\2&1\\end{pmatrix}$，$\\Lambda=\\begin{pmatrix}1&0\\\\0&2\\end{pmatrix}$，则 $A^9=$（ ）。 $\\begin{pmatrix}1&0\\\\-2&1\\end{pmatrix}$ $\\begin{pmatrix}1&0\\\\-1022&512\\end{pmatrix}$ $\\begin{pmatrix}1&0\\\\1022&512\\end{pmatrix}$ $\\begin{pmatrix}1&0\\\\0&512\\end{pmatrix}$ 由题设知 $A=P\\Lambda P^{-1}$，从而 $A^9=P\\Lambda^9P^{-1}$。又 $P^{-1}=\\begin{pmatrix}1&0\\\\-2&1\\end{pmatrix}$，$\\Lambda^9=\\begin{pmatrix}1&0\\\\0&512\\end{pmatrix}$，所以 $A^9=\\begin{pmatrix}1&0\\\\-1022&512\\end{pmatrix}$。",
+  "sort_order": 5
+}

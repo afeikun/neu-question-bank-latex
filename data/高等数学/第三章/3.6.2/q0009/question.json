@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x+x^{5/3}$ 的拐点为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1,-2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无拐点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1,2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=\\frac{10}{9}x^{-1/3}$，在 $x=0$ 两侧变号，且曲线经过原点，故拐点为 $(0,0)$。",
+  "search_text": "曲线 $y=x+x^{5/3}$ 的拐点为（ ）。 $(-1,-2)$ $(0,0)$ 无拐点 $(1,2)$ $y\\prime\\prime=\\frac{10}{9}x^{-1/3}$，在 $x=0$ 两侧变号，且曲线经过原点，故拐点为 $(0,0)$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列命题中，正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $f(z)=u+iv$ 在区域 $D$ 内解析，则 $u_x$ 是 $D$ 内的调和函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "解析函数的实部是虚部的共轭调和函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若 $v_1,v_2$ 在区域 $D$ 内均为 $u$ 的共轭调和函数，则必有 $v_1=v_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "以调和函数为实部与虚部的函数是解析函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "若 $f=u+iv$ 在 $D$ 内解析，则 $f\\prime=u_x+iv_x$ 在 $D$ 内解析，因而 $u_x$ 在 $D$ 内调和。",
+  "search_text": "下列命题中，正确的是（ ）。 若 $f(z)=u+iv$ 在区域 $D$ 内解析，则 $u_x$ 是 $D$ 内的调和函数 解析函数的实部是虚部的共轭调和函数 若 $v_1,v_2$ 在区域 $D$ 内均为 $u$ 的共轭调和函数，则必有 $v_1=v_2$ 以调和函数为实部与虚部的函数是解析函数 若 $f=u+iv$ 在 $D$ 内解析，则 $f\\prime=u_x+iv_x$ 在 $D$ 内解析，因而 $u_x$ 在 $D$ 内调和。",
+  "sort_order": 14
+}

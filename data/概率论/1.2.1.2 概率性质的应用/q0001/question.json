@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某城市中发行 2 种报纸 $A,B$。经调查，在这 2 种报纸的订户中，订阅 $A$ 报的有 $45\\%$，订阅 $B$ 报的有 $35\\%$，同时订阅 2 种报纸 $A,B$ 的有 $10\\%$。现只订一种报纸的概率为 $\\alpha$，则下列选项正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha=0.6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha=0.4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha=0.5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha=0.66$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "只订一种的事件为 $(A-B)\\cup(B-A)$，两部分互斥，故 $\\alpha=P(A)+P(B)-2P(AB)=0.45-0.10+0.35-0.10=0.6$。",
+  "search_text": "某城市中发行 2 种报纸 $A,B$。经调查，在这 2 种报纸的订户中，订阅 $A$ 报的有 $45\\%$，订阅 $B$ 报的有 $35\\%$，同时订阅 2 种报纸 $A,B$ 的有 $10\\%$。现只订一种报纸的概率为 $\\alpha$，则下列选项正确的是(\\quad)。 $\\alpha=0.6$ $\\alpha=0.4$ $\\alpha=0.5$ $\\alpha=0.66$ 只订一种的事件为 $(A-B)\\cup(B-A)$，两部分互斥，故 $\\alpha=P(A)+P(B)-2P(AB)=0.45-0.10+0.35-0.10=0.6$。",
+  "sort_order": 1
+}

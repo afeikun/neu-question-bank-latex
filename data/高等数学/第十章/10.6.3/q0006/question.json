@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求方程 $y\\prime\\prime-3y\\prime+2y=xe^{2x}$ 的通解（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^x+C_2e^{3x}+x(\\frac12x-1)e^{2x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{2x}+x(\\frac12x-1)e^{2x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^x+C_2e^{2x}+x(\\frac12x-2)e^{2x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^x+C_2e^{2x}+(\\frac12x-1)e^{2x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "题设方程对应的齐次方程的特征方程为 $r^2-3r+2=0$，特征根为 $r_1=1,r_2=2$，\n\n于是，该齐次方程的通解 $Y=C_1e^x+C_2e^{2x}$，\n\n因 $\\lambda=2$ 是特征方程的单根，故可设设该方程的特解：$y^*=x(b_0x+b_1)e^{2x}$。\n\n代入题设方程，得 $2b_0x+b_1+2b_0=x$，比较等式两端同次幂的系数，得 $b_0=\\frac{1}{2},b_1=-1$，\n\n于是，求得方程的一个特解 $y^*=x(\\frac{1}{2}x-1)e^{2x}$。\n\n从而，所求方程的通解为\n\n$y=C_1e^x+C_2e^{2x}+x(\\frac{1}{2}x-1)e^{2x}$.",
+  "search_text": "求方程 $y\\prime\\prime-3y\\prime+2y=xe^{2x}$ 的通解（ ） $y=C_1e^x+C_2e^{3x}+x(\\frac12x-1)e^{2x}$ $y=C_1e^x+C_2e^{2x}+x(\\frac12x-1)e^{2x}$ $y=C_1e^x+C_2e^{2x}+x(\\frac12x-2)e^{2x}$ $y=C_1e^x+C_2e^{2x}+(\\frac12x-1)e^{2x}$ 题设方程对应的齐次方程的特征方程为 $r^2-3r+2=0$，特征根为 $r_1=1,r_2=2$，\n\n于是，该齐次方程的通解 $Y=C_1e^x+C_2e^{2x}$，\n\n因 $\\lambda=2$ 是特征方程的单根，故可设设该方程的特解：$y^*=x(b_0x+b_1)e^{2x}$。\n\n代入题设方程，得 $2b_0x+b_1+2b_0=x$，比较等式两端同次幂的系数，得 $b_0=\\frac{1}{2},b_1=-1$，\n\n于是，求得方程的一个特解 $y^*=x(\\frac{1}{2}x-1)e^{2x}$。\n\n从而，所求方程的通解为\n\n$y=C_1e^x+C_2e^{2x}+x(\\frac{1}{2}x-1)e^{2x}$.",
+  "sort_order": 6
+}

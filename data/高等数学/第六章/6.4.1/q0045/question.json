@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两直线 $l_1:\\frac{x-1}{1}=\\frac y{-4}=\\frac{z+3}{1}$，$l_2:\\frac x{-2}=\\frac{y-3}{2}=\\frac{z+1}{1}$ 的夹角为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2\\pi}3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：两直线方向向量 $\\vec{s}_1=(1,-4,1)，\\vec{s}_2=(-2,2,1)$，$|\\vec{s}_1|=3\\sqrt{2}，|\\vec{s}_2|=3$，夹角 $\\theta$ 的余弦\n\n$\\cos\\theta=\\frac{|\\vec{s}_1\\cdot\\vec{s}_2|}{|\\vec{s}_1||\\vec{s}_2|}=\\frac{1}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}$，所以夹角 $\\theta=\\frac{\\pi}{4}$。",
+  "search_text": "两直线 $l_1:\\frac{x-1}{1}=\\frac y{-4}=\\frac{z+3}{1}$，$l_2:\\frac x{-2}=\\frac{y-3}{2}=\\frac{z+1}{1}$ 的夹角为(\\quad)。 $\\frac\\pi3$ $\\frac\\pi6$ $\\frac\\pi4$ $\\frac{2\\pi}3$ 解答：两直线方向向量 $\\vec{s}_1=(1,-4,1)，\\vec{s}_2=(-2,2,1)$，$|\\vec{s}_1|=3\\sqrt{2}，|\\vec{s}_2|=3$，夹角 $\\theta$ 的余弦\n\n$\\cos\\theta=\\frac{|\\vec{s}_1\\cdot\\vec{s}_2|}{|\\vec{s}_1||\\vec{s}_2|}=\\frac{1}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}$，所以夹角 $\\theta=\\frac{\\pi}{4}$。",
+  "sort_order": 45
+}

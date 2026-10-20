@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u)$ 为可导函数，$y=\\sec[f(\\cos f(x))]$，则 $y\\prime(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$\\sec^2[f(\\cos f(x))]f\\prime(\\cos f(x))f\\prime(x)$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$-\\sec[f(\\cos f(x))]\\tan[f(\\cos f(x))]f\\prime(\\cos f(x))\\sin f(x)f\\prime(x)$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$-\\sec[f(\\sin f(x))]f\\prime(x)$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$-\\sec[f(\\cos f(x))]\\sin f(x)f\\prime(x)$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "逐层使用链式法则。",
+  "search_text": "设 $f(u)$ 为可导函数，$y=\\sec[f(\\cos f(x))]$，则 $y\\prime(x)=$（ ）。 $$\\sec^2[f(\\cos f(x))]f\\prime(\\cos f(x))f\\prime(x)$$ $$-\\sec[f(\\cos f(x))]\\tan[f(\\cos f(x))]f\\prime(\\cos f(x))\\sin f(x)f\\prime(x)$$ $$-\\sec[f(\\sin f(x))]f\\prime(x)$$ $$-\\sec[f(\\cos f(x))]\\sin f(x)f\\prime(x)$$ 逐层使用链式法则。",
+  "sort_order": 37
+}

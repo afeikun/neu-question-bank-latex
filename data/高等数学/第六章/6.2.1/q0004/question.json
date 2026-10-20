@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec a=(2,-1,-2)$，$\\vec b=(1,1,z)$，问 $z$ 为(\\quad)时能使得 $\\vec a,\\vec b$ 的夹角 $\\theta$ 达到最小。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}=\\frac{1-2z}{3\\sqrt{2+z^2}}$。令其导数为零，得 $z=-4$，对应夹角最小。",
+  "search_text": "设 $\\vec a=(2,-1,-2)$，$\\vec b=(1,1,z)$，问 $z$ 为(\\quad)时能使得 $\\vec a,\\vec b$ 的夹角 $\\theta$ 达到最小。 $-2$ $-5$ $-3$ $-4$ $\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}=\\frac{1-2z}{3\\sqrt{2+z^2}}$。令其导数为零，得 $z=-4$，对应夹角最小。",
+  "sort_order": 4
+}

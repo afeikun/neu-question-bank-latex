@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=e^{2t},y=\\ln t,z=t^2$ 在 $t=2$ 对应点处的切线方程是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-e^4}{e^4}=\\frac{y+\\frac12-\\ln2}{1/2}=\\frac z4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-e^4}{2e^4}=\\frac{y-\\ln2}{1}=\\frac{z-4}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x-e^4}{2e^4}=\\frac{y-\\ln2}{1/2}=\\frac{z-4}{4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-e^4}{2e^4}=\\frac{y-\\ln2}{1/2}=\\frac{z-4}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因 $x|_{t=2}=e^4$，$y|_{t=2}=\\ln 2$，$z|_{t=2}=4$，又 $x'|_{t=2}=2e^{2t}=2e^4$，$y'|_{t=2}=\\frac{1}{t}=\\frac{1}{2}$，$z'|_{t=2}=2t=4$，则切线方程为：\n\n$$\\frac{x-e^4}{2e^4}=\\frac{y-\\ln 2}{\\frac{1}{2}}=\\frac{z-4}{4}.$$",
+  "search_text": "曲线 $x=e^{2t},y=\\ln t,z=t^2$ 在 $t=2$ 对应点处的切线方程是。 $\\frac{x-e^4}{e^4}=\\frac{y+\\frac12-\\ln2}{1/2}=\\frac z4$ $\\frac{x-e^4}{2e^4}=\\frac{y-\\ln2}{1}=\\frac{z-4}{4}$ $\\frac{x-e^4}{2e^4}=\\frac{y-\\ln2}{1/2}=\\frac{z-4}{4}$ $\\frac{x-e^4}{2e^4}=\\frac{y-\\ln2}{1/2}=\\frac{z-4}{2}$ 因 $x|_{t=2}=e^4$，$y|_{t=2}=\\ln 2$，$z|_{t=2}=4$，又 $x'|_{t=2}=2e^{2t}=2e^4$，$y'|_{t=2}=\\frac{1}{t}=\\frac{1}{2}$，$z'|_{t=2}=2t=4$，则切线方程为：\n\n$$\\frac{x-e^4}{2e^4}=\\frac{y-\\ln 2}{\\frac{1}{2}}=\\frac{z-4}{4}.$$",
+  "sort_order": 25
+}

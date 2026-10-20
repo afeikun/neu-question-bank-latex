@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 和 $g(x)$，$\\varphi(x)=\\min\\{f(x),g(x)\\}$，$\\psi(x)=\\max\\{f(x),g(x)\\}$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\varphi,\\psi$ 都不是连续函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\varphi,\\psi$ 不一定是连续函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\varphi,\\psi$ 都不是连续函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\varphi,\\psi$ 都是连续函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "题解按连续函数 $f,g$ 的条件，连续函数的最小值、最大值仍连续。",
+  "search_text": "设 $f(x)$ 和 $g(x)$，$\\varphi(x)=\\min\\{f(x),g(x)\\}$，$\\psi(x)=\\max\\{f(x),g(x)\\}$，则（ ）。 $\\varphi,\\psi$ 都不是连续函数 $\\varphi,\\psi$ 不一定是连续函数 $\\varphi,\\psi$ 都不是连续函数 $\\varphi,\\psi$ 都是连续函数 题解按连续函数 $f,g$ 的条件，连续函数的最小值、最大值仍连续。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是下半圆周 $x^2+y^2=R^2(y<0)$，把第二类线积分 $I=\\int_L(x+2y)ds$ 化为定积分，正确的是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_\\pi^0R^2(\\cos t+2\\sin t)dt$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{-\\pi}^0R^2(\\sin t+2\\cos t)dt$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_\\pi^{2\\pi}R^2(\\cos t+2\\sin t)dt$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^\\pi R^2(\\cos t+2\\sin t)dt$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $L:\\begin{cases}x=R\\cos t\\\\y=R\\sin t\\end{cases}$，其中 $t\\in(\\pi,2\\pi)$，于是\n$$\nI=\\int_{\\pi}^{2\\pi}(R\\cos t+2R\\sin t)\\cdot\\sqrt{(R\\cos t)'^2+(R\\sin t)'^2}\\,dt=\\int_{0}^{2\\pi}R^2(\\cos t+2\\sin t)\\,dt\n$$",
+  "search_text": "设 $L$ 是下半圆周 $x^2+y^2=R^2(y<0)$，把第二类线积分 $I=\\int_L(x+2y)ds$ 化为定积分，正确的是（ ） $\\int_\\pi^0R^2(\\cos t+2\\sin t)dt$ $\\int_{-\\pi}^0R^2(\\sin t+2\\cos t)dt$ $\\int_\\pi^{2\\pi}R^2(\\cos t+2\\sin t)dt$ $\\int_0^\\pi R^2(\\cos t+2\\sin t)dt$ 解答 $L:\\begin{cases}x=R\\cos t\\\\y=R\\sin t\\end{cases}$，其中 $t\\in(\\pi,2\\pi)$，于是\n$$\nI=\\int_{\\pi}^{2\\pi}(R\\cos t+2R\\sin t)\\cdot\\sqrt{(R\\cos t)'^2+(R\\sin t)'^2}\\,dt=\\int_{0}^{2\\pi}R^2(\\cos t+2\\sin t)\\,dt\n$$",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\frac{x}{y^2z}\\mathbf r$，其中 $\\mathbf r$ 为点 $M(x,y,z)$ 的矢径，则 $A$ 在点 $(4,-1,2)$ 处的散度为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$$A=\\frac{x^2}{y^2z}i+\\frac{x}{yz}j+\\frac{x}{y^2}k$$\n\n$$divA=\\frac{x}{y^2z},\\quad divA(4,-1,2)=2$$",
+  "search_text": "设 $A=\\frac{x}{y^2z}\\mathbf r$，其中 $\\mathbf r$ 为点 $M(x,y,z)$ 的矢径，则 $A$ 在点 $(4,-1,2)$ 处的散度为（ ） $4$ $3$ $2$ $8$ 参考答案：\n\n$$A=\\frac{x^2}{y^2z}i+\\frac{x}{yz}j+\\frac{x}{y^2}k$$\n\n$$divA=\\frac{x}{y^2z},\\quad divA(4,-1,2)=2$$",
+  "sort_order": 9
+}

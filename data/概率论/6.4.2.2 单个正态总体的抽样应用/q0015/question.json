@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(21,2^2)$，容量25样本，求$P(|\\bar X-21|\\le0.24)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.4514$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.45$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar X$标准差0.4，边界标准化为0.6，概率$2\\Phi(0.6)-1=0.4514$。",
+  "search_text": "$X\\sim N(21,2^2)$，容量25样本，求$P(|\\bar X-21|\\le0.24)$。 $0.4514$ $0.45$ $0.5$ $0.1$ $\\bar X$标准差0.4，边界标准化为0.6，概率$2\\Phi(0.6)-1=0.4514$。",
+  "sort_order": 15
+}

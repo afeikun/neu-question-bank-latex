@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f(x)=∫₀ˣ²eᵗ²dt，g在0处满足g(0)=0、g′(0)=1，且F(x)=f(g(x))，求F′(0)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4e"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2e"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "复合函数求导并代入零点。",
+  "search_text": "f(x)=∫₀ˣ²eᵗ²dt，g在0处满足g(0)=0、g′(0)=1，且F(x)=f(g(x))，求F′(0) 4 4e 2 2e 复合函数求导并代入零点。",
+  "sort_order": 3
+}

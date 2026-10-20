@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $e^{yz}+x\\sin(x+y)=z$ 在 $(\\frac\\pi2,0,1+\\frac\\pi2)$ 处的法线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-\\pi/2}{-1}=\\frac{y}{1+\\pi/2}=\\frac{z-1-\\pi/2}{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-\\pi/2}{-1}=\\frac{y}{1+\\pi/2}=\\frac{z-1-\\pi/2}{1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x-\\pi/2}{1}=\\frac{y}{1+\\pi/2}=\\frac{z-1-\\pi/2}{1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-\\pi/2}{1}=\\frac{y}{1+\\pi/2}=\\frac{z-1-\\pi/2}{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=e^{yz}+x\\sin(x+y)-z$，则\n\n$$F_x(\\frac{\\pi}{2},0,1+\\frac{\\pi}{2})=\\sin(x+y)=1,$$\n\n$$F_y(\\frac{\\pi}{2},0,1+\\frac{\\pi}{2})=ze^{yz}+x\\cos(x+y)=1+\\frac{\\pi}{2},$$\n\n$$F_z(\\frac{\\pi}{2},0,1+\\frac{\\pi}{2})=ye^{yz}-1=-1,$$\n\n法线方程为：$\\frac{x-\\frac{\\pi}{2}}{1}=\\frac{y}{1+\\frac{\\pi}{2}}=\\frac{z-1-\\frac{\\pi}{2}}{-1}$。",
+  "search_text": "曲面 $e^{yz}+x\\sin(x+y)=z$ 在 $(\\frac\\pi2,0,1+\\frac\\pi2)$ 处的法线方程为。 $\\frac{x-\\pi/2}{-1}=\\frac{y}{1+\\pi/2}=\\frac{z-1-\\pi/2}{-1}$ $\\frac{x-\\pi/2}{-1}=\\frac{y}{1+\\pi/2}=\\frac{z-1-\\pi/2}{1}$ $\\frac{x-\\pi/2}{1}=\\frac{y}{1+\\pi/2}=\\frac{z-1-\\pi/2}{1}$ $\\frac{x-\\pi/2}{1}=\\frac{y}{1+\\pi/2}=\\frac{z-1-\\pi/2}{-1}$ 设 $F(x,y,z)=e^{yz}+x\\sin(x+y)-z$，则\n\n$$F_x(\\frac{\\pi}{2},0,1+\\frac{\\pi}{2})=\\sin(x+y)=1,$$\n\n$$F_y(\\frac{\\pi}{2},0,1+\\frac{\\pi}{2})=ze^{yz}+x\\cos(x+y)=1+\\frac{\\pi}{2},$$\n\n$$F_z(\\frac{\\pi}{2},0,1+\\frac{\\pi}{2})=ye^{yz}-1=-1,$$\n\n法线方程为：$\\frac{x-\\frac{\\pi}{2}}{1}=\\frac{y}{1+\\frac{\\pi}{2}}=\\frac{z-1-\\frac{\\pi}{2}}{-1}$。",
+  "sort_order": 11
+}

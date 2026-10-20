@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=(1,1,0)^T$，$\\alpha_2=(1,0,1)^T$，$\\alpha_3=(0,1,1)^T$ 是三维向量空间 $\\mathbb{R}^3$ 的一个基，向量 $\\beta$ 在这个基下的坐标是 $(2,3,-1)^T$，则 $\\beta=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(5,3,1)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(3,2,-1)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(5,2,1)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(5,1,2)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由于 $\\beta=2\\alpha_1+3\\alpha_2-\\alpha_3=(5,1,2)^T$。",
+  "search_text": "设 $\\alpha_1=(1,1,0)^T$，$\\alpha_2=(1,0,1)^T$，$\\alpha_3=(0,1,1)^T$ 是三维向量空间 $\\mathbb{R}^3$ 的一个基，向量 $\\beta$ 在这个基下的坐标是 $(2,3,-1)^T$，则 $\\beta=$（ ）。 $(5,3,1)^T$ $(3,2,-1)^T$ $(5,2,1)^T$ $(5,1,2)^T$ 由于 $\\beta=2\\alpha_1+3\\alpha_2-\\alpha_3=(5,1,2)^T$。",
+  "sort_order": 17
+}

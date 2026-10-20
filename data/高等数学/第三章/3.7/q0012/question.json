@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=1-x+\\sqrt{\\frac{x^3}{3+x}}$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "仅有铅直与斜渐近线"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "只有铅直渐近线"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "既有铅直、水平和斜渐近线"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "仅有水平与斜渐近线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x=-3$ 为铅直渐近线；$x\\to+\\infty$ 时有水平渐近线 $y=-1/2$，$x\\to-\\infty$ 时有斜渐近线 $y=-2x+5/2$。",
+  "search_text": "曲线 $y=1-x+\\sqrt{\\frac{x^3}{3+x}}$（ ）。 仅有铅直与斜渐近线 只有铅直渐近线 既有铅直、水平和斜渐近线 仅有水平与斜渐近线 $x=-3$ 为铅直渐近线；$x\\to+\\infty$ 时有水平渐近线 $y=-1/2$，$x\\to-\\infty$ 时有斜渐近线 $y=-2x+5/2$。",
+  "sort_order": 12
+}

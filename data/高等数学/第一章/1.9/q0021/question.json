@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=\\frac{x^2-1}{x^2-3x+2}$ 的间断点是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=1,x=2$ 都是第二类间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=1,x=2$ 都是可去间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=1$ 是第二类间断点，$x=2$ 是可去间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=1$ 是可去间断点，$x=2$ 是第二类间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$x\\to1$ 时极限为 $-2$，$x\\to2$ 时函数极限发散；故 $x=1$ 可去，$x=2$ 第二类间断。",
+  "search_text": "$y=\\frac{x^2-1}{x^2-3x+2}$ 的间断点是（ ）。 $x=1,x=2$ 都是第二类间断点 $x=1,x=2$ 都是可去间断点 $x=1$ 是第二类间断点，$x=2$ 是可去间断点 $x=1$ 是可去间断点，$x=2$ 是第二类间断点 $x\\to1$ 时极限为 $-2$，$x\\to2$ 时函数极限发散；故 $x=1$ 可去，$x=2$ 第二类间断。",
+  "sort_order": 21
+}

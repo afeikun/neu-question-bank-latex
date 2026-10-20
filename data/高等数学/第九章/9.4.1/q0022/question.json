@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\iint_\\Sigma z^2dxdy=$（ ），其中 $\\Sigma$ 为平面 $x+y+z=1$ 位于第一卦限部分的上侧",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{12}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $z=1-x-y$，$\\Sigma$ 在 $xoy$ 面上投影 $D_{xy}$ 为 $D_{xy}:0\\le x\\le1,0\\le y\\le1-x$，则\n$$\\iint_\\Sigma z^2dxdy=\\iint_{D_{xy}}(1-x-y)^2dxdy=\\int_0^1dx\\int_0^{1-x}(1-x-y)^2dy=\\frac{1}{12}。$$",
+  "search_text": "$\\iint_\\Sigma z^2dxdy=$（ ），其中 $\\Sigma$ 为平面 $x+y+z=1$ 位于第一卦限部分的上侧 $\\frac1{12}$ $\\frac13$ $\\frac14$ $\\frac16$ 解答 $z=1-x-y$，$\\Sigma$ 在 $xoy$ 面上投影 $D_{xy}$ 为 $D_{xy}:0\\le x\\le1,0\\le y\\le1-x$，则\n$$\\iint_\\Sigma z^2dxdy=\\iint_{D_{xy}}(1-x-y)^2dxdy=\\int_0^1dx\\int_0^{1-x}(1-x-y)^2dy=\\frac{1}{12}。$$",
+  "sort_order": 22
+}

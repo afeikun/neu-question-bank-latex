@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,1),Y\\sim\\chi^2(n)$独立，$T=(X-\\mu)\\sqrt n/\\sqrt Y$服从（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t(n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$t(n-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$N(0,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(1,n)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "按$t$分布定义，$T\\sim t(n)$。",
+  "search_text": "$X\\sim N(\\mu,1),Y\\sim\\chi^2(n)$独立，$T=(X-\\mu)\\sqrt n/\\sqrt Y$服从（）。 $t(n)$ $t(n-1)$ $N(0,1)$ $F(1,n)$ 按$t$分布定义，$T\\sim t(n)$。",
+  "sort_order": 25
+}

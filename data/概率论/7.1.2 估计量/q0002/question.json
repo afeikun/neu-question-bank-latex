@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体为泊松分布，令$S_n^2=n^{-1}\\sum(X_i-\\bar X)^2$，下列错误的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$S_n^2$是$\\lambda$的无偏估计"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X$是$\\lambda$的无偏估计"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar X$是$\\lambda$的一致估计"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$S_n^2$是$\\lambda$的一致估计"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(S_n^2)=(n-1)\\lambda/n$，不是$\\lambda$，故其有偏。",
+  "search_text": "总体为泊松分布，令$S_n^2=n^{-1}\\sum(X_i-\\bar X)^2$，下列错误的是（）。 $S_n^2$是$\\lambda$的无偏估计 $\\bar X$是$\\lambda$的无偏估计 $\\bar X$是$\\lambda$的一致估计 $S_n^2$是$\\lambda$的一致估计 $E(S_n^2)=(n-1)\\lambda/n$，不是$\\lambda$，故其有偏。",
+  "sort_order": 2
+}

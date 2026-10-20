@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "重复称量独立服从$N(a,0.2^2)$，求使$P(|\\bar X-a|<0.1)\\ge0.95$的最小样本量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$18$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$2\\Phi(\\sqrt n/2)-1\\ge0.95$，得$n\\ge15.37$，取16。",
+  "search_text": "重复称量独立服从$N(a,0.2^2)$，求使$P(|\\bar X-a|<0.1)\\ge0.95$的最小样本量。 $16$ $9$ $8$ $18$ $2\\Phi(\\sqrt n/2)-1\\ge0.95$，得$n\\ge15.37$，取16。",
+  "sort_order": 13
+}

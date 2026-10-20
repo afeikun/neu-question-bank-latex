@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "同时抛掷3枚均匀硬币，恰好有两枚正面向上的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.375$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.75$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.25$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.125$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$C_3^2(0.5)^2(0.5)=0.375$。",
+  "search_text": "同时抛掷3枚均匀硬币，恰好有两枚正面向上的概率为（ ）。 $0.375$ $0.75$ $0.25$ $0.125$ $C_3^2(0.5)^2(0.5)=0.375$。",
+  "sort_order": 25
+}

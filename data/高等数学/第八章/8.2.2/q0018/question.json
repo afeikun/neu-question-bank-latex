@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega:x^2+y^2+z^2\\leq2z$，则 $\\iiint_\\Omega z^2dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{16}5\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac85\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac45\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{32}5\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由平行截面法，有\n\n$$\nz\\leq\\sqrt{x^2+y^2}\\leq\\sqrt{3z}\\quad \\text{原式}=\\int_0^2\\left[z^2\\iint_{x^2+y^2\\leq2z-z^2}dxdy\\right]dz\n$$\n\n$$\n=\\int_0^2\\pi z^2(2z-z^2)dz\n$$\n\n$$\n=\\frac{8}{5}\\pi\n$$",
+  "search_text": "$\\Omega:x^2+y^2+z^2\\leq2z$，则 $\\iiint_\\Omega z^2dv$ 的值为（ ） $\\frac{16}5\\pi$ $\\frac85\\pi$ $\\frac45\\pi$ $\\frac{32}5\\pi$ 由平行截面法，有\n\n$$\nz\\leq\\sqrt{x^2+y^2}\\leq\\sqrt{3z}\\quad \\text{原式}=\\int_0^2\\left[z^2\\iint_{x^2+y^2\\leq2z-z^2}dxdy\\right]dz\n$$\n\n$$\n=\\int_0^2\\pi z^2(2z-z^2)dz\n$$\n\n$$\n=\\frac{8}{5}\\pi\n$$",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f'(0)=\\frac12$，$z=f(4x^2-y^2)$，求 $z$ 在点 $(1,2)$ 的全微分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4dx-2dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2dx+4dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2dx-4dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4dx+2dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方法一：因为 $\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,2)}=\\left.f'(4x^2-y^2)\\cdot8x\\right|_{(1,2)}=4$，\n\n$\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}=\\left.f'(4x^2-y^2)\\cdot(-2y)\\right|_{(1,2)}=-2$，\n\n所以，$\\left.dz\\right|_{(1,2)}=\\left[\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,2)}dx+\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}dy\\right]=4dx-2dy$。\n\n方法二：对 $z=f(4x^2-y^2)$ 微分得\n\n$dz=f'(4x^2-y^2)d(4x^2-y^2)=f'(4x^2-y^2)(8x\\,dx-2y\\,dy)$，\n\n故 $\\left.dz\\right|_{(1,2)}=f'(0)(8dx-2dy)=4dx-2dy$。",
+  "search_text": "设 $f'(0)=\\frac12$，$z=f(4x^2-y^2)$，求 $z$ 在点 $(1,2)$ 的全微分。 $4dx-2dy$ $2dx+4dy$ $2dx-4dy$ $4dx+2dy$ 方法一：因为 $\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,2)}=\\left.f'(4x^2-y^2)\\cdot8x\\right|_{(1,2)}=4$，\n\n$\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}=\\left.f'(4x^2-y^2)\\cdot(-2y)\\right|_{(1,2)}=-2$，\n\n所以，$\\left.dz\\right|_{(1,2)}=\\left[\\left.\\frac{\\partial z}{\\partial x}\\right|_{(1,2)}dx+\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}dy\\right]=4dx-2dy$。\n\n方法二：对 $z=f(4x^2-y^2)$ 微分得\n\n$dz=f'(4x^2-y^2)d(4x^2-y^2)=f'(4x^2-y^2)(8x\\,dx-2y\\,dy)$，\n\n故 $\\left.dz\\right|_{(1,2)}=f'(0)(8dx-2dy)=4dx-2dy$。",
+  "sort_order": 46
+}

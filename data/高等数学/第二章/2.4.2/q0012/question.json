@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$d[\\quad]=-\\csc x\\,dx$，$x\\in(0,\\pi/2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$\\cot x$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$\\ln(\\csc x+\\cot x)+C$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$\\ln(\\csc x+\\cot x)$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$\\cot x+C$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$d\\ln(\\csc x+\\cot x)=-\\csc x\\,dx$。",
+  "search_text": "$d[\\quad]=-\\csc x\\,dx$，$x\\in(0,\\pi/2)$。 $$\\cot x$$ $$\\ln(\\csc x+\\cot x)+C$$ $$\\ln(\\csc x+\\cot x)$$ $$\\cot x+C$$ $d\\ln(\\csc x+\\cot x)=-\\csc x\\,dx$。",
+  "sort_order": 12
+}

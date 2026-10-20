@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a_n=\\frac1n e^{in\\pi/2}$，则级数 $\\sum_{n=1}^{\\infty}a_n$ ____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "收敛但非绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "绝对收敛但非收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$a_n$ 的实部/虚部振荡且大小为 $1/n$，级数不满足收敛条件，发散。",
+  "search_text": "设 $a_n=\\frac1n e^{in\\pi/2}$，则级数 $\\sum_{n=1}^{\\infty}a_n$ ____。 发散 收敛但非绝对收敛 绝对收敛但非收敛 绝对收敛 $a_n$ 的实部/虚部振荡且大小为 $1/n$，级数不满足收敛条件，发散。",
+  "sort_order": 2
+}

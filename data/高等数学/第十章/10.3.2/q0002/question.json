@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(y^4-3x^2)dy+xy dx=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^4(y^2+1+C)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^4+y^6+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^4+Cy^6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$Cy^4+y^6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程可写成：$\\frac{dx}{dy}-\\frac{3}{y}x=-y^3x^{-1}$\n\n这是伯努利方程，$n=-1$，设 $z=x^{1-(-1)}=x^2$\n\n$$\\frac{dz}{dy}=2x\\frac{dx}{dy}$$\n\n于是方程化为\n\n$$\\frac{dz}{dy}-\\frac{6}{y}z=-2y^3$$\n\n于是 $z=e^{\\int\\frac{6}{y}\\,dy}\\left(\\int-2y^3e^{-\\int\\frac{6}{y}\\,dy}\\,dy+C\\right)=y^6(y^{-2}+C)，$",
+  "search_text": "$(y^4-3x^2)dy+xy dx=0$ 的通解为（ ） $y^4(y^2+1+C)$ $y^4+y^6+C$ $y^4+Cy^6$ $Cy^4+y^6$ 方程可写成：$\\frac{dx}{dy}-\\frac{3}{y}x=-y^3x^{-1}$\n\n这是伯努利方程，$n=-1$，设 $z=x^{1-(-1)}=x^2$\n\n$$\\frac{dz}{dy}=2x\\frac{dx}{dy}$$\n\n于是方程化为\n\n$$\\frac{dz}{dy}-\\frac{6}{y}z=-2y^3$$\n\n于是 $z=e^{\\int\\frac{6}{y}\\,dy}\\left(\\int-2y^3e^{-\\int\\frac{6}{y}\\,dy}\\,dy+C\\right)=y^6(y^{-2}+C)，$",
+  "sort_order": 2
+}

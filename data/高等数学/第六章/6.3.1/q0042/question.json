@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过两个平面 $4x-y+3z-1=0$ 和 $x+5y-z+2=0$ 的交线且与 $y$ 轴平行的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$21x-14z-3=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$21x+14z+3=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$21x+14z-3=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$21x-14z+3=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "平面束中令其法向量与 $y$ 轴垂直，得 $21x+14z-3=0$。",
+  "search_text": "过两个平面 $4x-y+3z-1=0$ 和 $x+5y-z+2=0$ 的交线且与 $y$ 轴平行的平面方程为(\\quad)。 $21x-14z-3=0$ $21x+14z+3=0$ $21x+14z-3=0$ $21x-14z+3=0$ 平面束中令其法向量与 $y$ 轴垂直，得 $21x+14z-3=0$。",
+  "sort_order": 42
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=z^3e^{\\frac1{z-1}}$，则 $\\operatorname{Res}[f(z),1]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{73}{24}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{49}{24}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac1{24}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $w=z-1$，将 $(w+1)^3e^{1/w}$ 展开，$w^{-1}$ 项系数为 $1/4!+3/3!+3/2!+1/1!=73/24$。",
+  "search_text": "设 $f(z)=z^3e^{\\frac1{z-1}}$，则 $\\operatorname{Res}[f(z),1]=(\\ \\ )$。 $\\dfrac{73}{24}$ $1$ $\\dfrac{49}{24}$ $\\dfrac1{24}$ 令 $w=z-1$，将 $(w+1)^3e^{1/w}$ 展开，$w^{-1}$ 项系数为 $1/4!+3/3!+3/2!+1/1!=73/24$。",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}1&1&2&3\\\\1&2-x^2&2&3\\\\2&3&1&5\\\\2&3&1&9-x^2\\end{vmatrix}=0$，则 $x=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=1$ 或 $x=2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=-1$ 或 $x=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=1$ 或 $x=-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=\\pm1$ 或 $x=\\pm2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "经行变换可得 $D=3(x^2-1)(4-x^2)$。令 $D=0$，得 $x=\\pm1$ 或 $x=\\pm2$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}1&1&2&3\\\\1&2-x^2&2&3\\\\2&3&1&5\\\\2&3&1&9-x^2\\end{vmatrix}=0$，则 $x=$（ ）。 $x=1$ 或 $x=2$ $x=-1$ 或 $x=2$ $x=1$ 或 $x=-2$ $x=\\pm1$ 或 $x=\\pm2$ 经行变换可得 $D=3(x^2-1)(4-x^2)$。令 $D=0$，得 $x=\\pm1$ 或 $x=\\pm2$。",
+  "sort_order": 37
+}

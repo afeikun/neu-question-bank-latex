@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}1&-1&1&x-1\\\\1&-1&x+1&-1\\\\1&x-1&1&-1\\\\x+1&-1&1&-1\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-x^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对各列作变换后可提出因子 $x$，并化为对角行列式，结果为 $D=x^4$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}1&-1&1&x-1\\\\1&-1&x+1&-1\\\\1&x-1&1&-1\\\\x+1&-1&1&-1\\end{vmatrix}$ 等于（ ）。 $-x^4$ $0$ $1$ $x^4$ 对各列作变换后可提出因子 $x$，并化为对角行列式，结果为 $D=x^4$。",
+  "sort_order": 66
+}

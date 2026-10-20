@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_C\\operatorname{Re}z\\,dz=(\\quad)$，$C$ 为从 $(0,0)$ 到 $(2,3)$ 的直线段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2+3i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2+3i}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=(2+3i)t$，积分得 $2+3i$。",
+  "search_text": "$\\int_C\\operatorname{Re}z\\,dz=(\\quad)$，$C$ 为从 $(0,0)$ 到 $(2,3)$ 的直线段。 $2+3i$ $1$ $1-i$ $\\frac{2+3i}{2}$ 令 $z=(2+3i)t$，积分得 $2+3i$。",
+  "sort_order": 25
+}

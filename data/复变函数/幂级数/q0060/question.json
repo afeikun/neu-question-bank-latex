@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}n^nz^n$ 的收敛半径 $R=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$+\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|c_{n+1}/c_n|=(n+1)^{n+1}/n^n\\to+\\infty$，故 $R=0$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}n^nz^n$ 的收敛半径 $R=\\underline{\\qquad}$。 $0$ $1/n$ $1$ $+\\infty$ $|c_{n+1}/c_n|=(n+1)^{n+1}/n^n\\to+\\infty$，故 $R=0$。",
+  "sort_order": 60
+}

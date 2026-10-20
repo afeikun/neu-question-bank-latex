@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\sum_{n=0}^{\\infty} a_nx^n,\\sum_{n=0}^{\\infty} b_nx^n$ 的收敛半径为 $R_1,R_2$，则卷积系数级数 $\\sum_{n=0}^{\\infty}(\\sum_{k=0}^n a_kb_{n-k})x^n$ 的半径？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$R_1R_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\max(R_1,R_2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$R_1^{R_2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\min(R_1,R_2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "该级数是两个幂级数乘积，至少在共同收敛圆内收敛，半径为较小者。",
+  "search_text": "若 $\\sum_{n=0}^{\\infty} a_nx^n,\\sum_{n=0}^{\\infty} b_nx^n$ 的收敛半径为 $R_1,R_2$，则卷积系数级数 $\\sum_{n=0}^{\\infty}(\\sum_{k=0}^n a_kb_{n-k})x^n$ 的半径？ $R_1R_2$ $\\max(R_1,R_2)$ $R_1^{R_2}$ $\\min(R_1,R_2)$ 该级数是两个幂级数乘积，至少在共同收敛圆内收敛，半径为较小者。",
+  "sort_order": 20
+}

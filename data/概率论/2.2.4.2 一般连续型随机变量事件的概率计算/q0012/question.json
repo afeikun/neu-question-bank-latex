@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=A\\cos x(|x|<\\frac\\pi2)$，其余为0，求$A$及$P(0<X<\\frac\\pi4)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac12,\\frac{\\sqrt2}{4})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac12,\\frac12)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac12,\\frac{\\sqrt2}{2})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{\\sqrt2}{2},\\frac12)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "归一化得$A=\\frac12$，积分得到$P=\\frac{\\sqrt2}{4}$。",
+  "search_text": "$f(x)=A\\cos x(|x|<\\frac\\pi2)$，其余为0，求$A$及$P(0<X<\\frac\\pi4)$。 $(\\frac12,\\frac{\\sqrt2}{4})$ $(\\frac12,\\frac12)$ $(\\frac12,\\frac{\\sqrt2}{2})$ $(\\frac{\\sqrt2}{2},\\frac12)$ 归一化得$A=\\frac12$，积分得到$P=\\frac{\\sqrt2}{4}$。",
+  "sort_order": 12
+}

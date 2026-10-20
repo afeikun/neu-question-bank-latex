@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_D\\frac{y^2}{x^2}dxdy$（其中 $D$ 是由曲线 $x^2+y^2=2x$ 所围成的平面区域）的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答　积分区域边界曲线的极坐标方程为 $r=2\\cos\\theta$。于是区域 $D$ 的积分限为 $-\\frac{\\pi}{2}\\leq\\theta\\leq\\frac{\\pi}{2},0\\leq r\\leq2\\cos\\theta$。所以\n\n$$\\iint_D\\frac{y^2}{x^2}dxdy=\\iint_D\\frac{r^2\\sin^2\\theta}{r^2\\cos^2\\theta}rdrd\\theta=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}\\frac{\\sin^2\\theta}{\\cos^2\\theta}rdr$$\n\n$$=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}2\\sin^2\\theta d\\theta=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}(1-\\cos2\\theta)d\\theta=\\pi.$$ \n\n图示：阴影圆形区域 $D$，边界标记 $r=2\\cos\\theta$；坐标轴标记 $x,y$，原点标记 $O$；圆内从原点出发的半径与正 $x$ 轴夹角标记 $\\theta$。",
+  "search_text": "二重积分 $\\iint_D\\frac{y^2}{x^2}dxdy$（其中 $D$ 是由曲线 $x^2+y^2=2x$ 所围成的平面区域）的值为[\\quad] $\\pi$ $-2\\pi$ $2\\pi$ $-\\frac12\\pi$ 解答　积分区域边界曲线的极坐标方程为 $r=2\\cos\\theta$。于是区域 $D$ 的积分限为 $-\\frac{\\pi}{2}\\leq\\theta\\leq\\frac{\\pi}{2},0\\leq r\\leq2\\cos\\theta$。所以\n\n$$\\iint_D\\frac{y^2}{x^2}dxdy=\\iint_D\\frac{r^2\\sin^2\\theta}{r^2\\cos^2\\theta}rdrd\\theta=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}\\frac{\\sin^2\\theta}{\\cos^2\\theta}rdr$$\n\n$$=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}2\\sin^2\\theta d\\theta=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}(1-\\cos2\\theta)d\\theta=\\pi.$$ \n\n图示：阴影圆形区域 $D$，边界标记 $r=2\\cos\\theta$；坐标轴标记 $x,y$，原点标记 $O$；圆内从原点出发的半径与正 $x$ 轴夹角标记 $\\theta$。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期5，$f(x)=|x|$（$-2<x\\le3$），求 $S(8)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "-4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "周期5，$S(8)=S(3)$，端点左右平均为 $5/2$。",
+  "search_text": "周期5，$f(x)=|x|$（$-2<x\\le3$），求 $S(8)$。 3 4 $5/2$ -4 周期5，$S(8)=S(3)$，端点左右平均为 $5/2$。",
+  "sort_order": 13
+}

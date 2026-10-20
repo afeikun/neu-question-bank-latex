@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x+y+z=0,x^2+y^2+z^2=1$，求 $dy/dz$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-y}{z-x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-z}{y-x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{y-z}{x-y}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{z-x}{y-x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答此方程组可确定一元隐函数组：\n利用隐函数求导法，在方程组两边同时对 $z$ 求导得：\n$$\n\\begin{cases}\nx'_z+y'_z=-1\\\\\nx\\cdot x'_z+y\\cdot y'_z=-z\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\nx'_z\\cdot y+y'_z\\cdot y=-y\\\\\nx\\cdot x'_z+y\\cdot y'_z=-z\n\\end{cases}\n$$\n$$\n\\frac{dy}{dz}=\\frac{x-z}{y-x}\n$$",
+  "search_text": "设 $x+y+z=0,x^2+y^2+z^2=1$，求 $dy/dz$。 $\\frac{x-y}{z-x}$ $\\frac{x-z}{y-x}$ $\\frac{y-z}{x-y}$ $\\frac{z-x}{y-x}$ 解答此方程组可确定一元隐函数组：\n利用隐函数求导法，在方程组两边同时对 $z$ 求导得：\n$$\n\\begin{cases}\nx'_z+y'_z=-1\\\\\nx\\cdot x'_z+y\\cdot y'_z=-z\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\nx'_z\\cdot y+y'_z\\cdot y=-y\\\\\nx\\cdot x'_z+y\\cdot y'_z=-z\n\\end{cases}\n$$\n$$\n\\frac{dy}{dz}=\\frac{x-z}{y-x}\n$$",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=(1,1,0)^T$，$\\alpha_2=(1,0,1)^T$，$\\alpha_3=(0,1,1)^T$ 是三维向量空间 $\\mathbb{R}^3$ 的一个基，则向量 $\\beta=(2,0,0)^T$ 在这个基下的坐标为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1,-1,-1)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-1,1,-1)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1,-1,1)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1,1,-1)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解方程 $\\beta=x_1\\alpha_1+x_2\\alpha_2+x_3\\alpha_3$，可得 $\\beta=\\alpha_1+\\alpha_2-\\alpha_3$，所以坐标为 $(1,1,-1)^T$。",
+  "search_text": "设 $\\alpha_1=(1,1,0)^T$，$\\alpha_2=(1,0,1)^T$，$\\alpha_3=(0,1,1)^T$ 是三维向量空间 $\\mathbb{R}^3$ 的一个基，则向量 $\\beta=(2,0,0)^T$ 在这个基下的坐标为（ ）。 $(1,-1,-1)^T$ $(-1,1,-1)^T$ $(1,-1,1)^T$ $(1,1,-1)^T$ 解方程 $\\beta=x_1\\alpha_1+x_2\\alpha_2+x_3\\alpha_3$，可得 $\\beta=\\alpha_1+\\alpha_2-\\alpha_3$，所以坐标为 $(1,1,-1)^T$。",
+  "sort_order": 63
+}

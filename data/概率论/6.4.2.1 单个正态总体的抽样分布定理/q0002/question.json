@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体样本方差$S^2$满足$(n-1)S^2/\\sigma^2$服从（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\chi^2(n-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "正态分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$t$分布"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F$分布"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正态样本无偏方差对应自由度$n-1$的卡方分布。",
+  "search_text": "正态总体样本方差$S^2$满足$(n-1)S^2/\\sigma^2$服从（）。 $\\chi^2(n-1)$ 正态分布 $t$分布 $F$分布 正态样本无偏方差对应自由度$n-1$的卡方分布。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "收敛几何级数 $\\sum_{n=0}^{\\infty}aq^n$ 的和为 $S$，求 $S-S_n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$aq^n/(1-q)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a/(1-q)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a(1-q^n)/(1-q)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$aq/(1-q)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "余项为 $aq^n+aq^{n+1}+\\cdots=aq^n/(1-q)$。",
+  "search_text": "收敛几何级数 $\\sum_{n=0}^{\\infty}aq^n$ 的和为 $S$，求 $S-S_n$。 $aq^n/(1-q)$ $a/(1-q)$ $a(1-q^n)/(1-q)$ $aq/(1-q)$ 余项为 $aq^n+aq^{n+1}+\\cdots=aq^n/(1-q)$。",
+  "sort_order": 26
+}

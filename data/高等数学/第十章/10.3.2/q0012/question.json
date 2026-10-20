@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{d\\rho}{d\\theta}+3\\rho=2$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac23C+e^{-3\\theta}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23+Ce^{-3\\theta}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23+e^{-3\\theta}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac23+e^{-3\\theta}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\rho=e^{-\\int3\\,d\\theta}\\left(\\int2e^{\\int3\\,d\\theta}\\,d\\theta+C\\right)=e^{-3\\theta}\\left(\\int2e^{3\\theta}\\,d\\theta+C\\right)=e^{-3\\theta}(\\frac{2}{3}e^{3\\theta}+C)=\\frac{2}{3}+Ce^{-3\\theta}$$",
+  "search_text": "$\\frac{d\\rho}{d\\theta}+3\\rho=2$ 的通解为（ ） $\\frac23C+e^{-3\\theta}$ $\\frac23+Ce^{-3\\theta}$ $\\frac23+e^{-3\\theta}+C$ $\\frac23+e^{-3\\theta}$ $$\\rho=e^{-\\int3\\,d\\theta}\\left(\\int2e^{\\int3\\,d\\theta}\\,d\\theta+C\\right)=e^{-3\\theta}\\left(\\int2e^{3\\theta}\\,d\\theta+C\\right)=e^{-3\\theta}(\\frac{2}{3}e^{3\\theta}+C)=\\frac{2}{3}+Ce^{-3\\theta}$$",
+  "sort_order": 12
+}

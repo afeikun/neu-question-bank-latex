@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平面 $3x-2y-5z+30=0$ 在 $x,y,z$ 轴上的截距分别为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-10,15,6)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-3,2,5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(10,-15,-6)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(3,-2,-5)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分别令另外两坐标为零，得到截距 $(-10,15,6)$。",
+  "search_text": "平面 $3x-2y-5z+30=0$ 在 $x,y,z$ 轴上的截距分别为(\\quad)。 $(-10,15,6)$ $(-3,2,5)$ $(10,-15,-6)$ $(3,-2,-5)$ 分别令另外两坐标为零，得到截距 $(-10,15,6)$。",
+  "sort_order": 59
+}

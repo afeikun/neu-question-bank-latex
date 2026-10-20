@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设总体X~F(x)，E(X)=μ，D(X)=σ²，且已知σ²。从总体X抽取容量n较大的样本X1,…,Xn。对H0:μ=μ0与H1:μ<μ0，检验统计量及拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U=(\\bar X-\\mu_0)\\sqrt n/\\sigma,\\ W=\\{u<-u_\\alpha\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$u=(\\bar X-\\mu_0)\\sqrt n/\\sigma,\\ W=\\{u<-u_\\alpha\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$U=(\\bar X-\\mu_0)\\sqrt n/\\sigma,\\ W=\\{u>u_\\alpha\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$u=(\\bar X-\\mu_0)\\sqrt n/\\sigma,\\ W=\\{u<u_0\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "大样本均值检验使用标准化样本均值，左侧拒绝域u<−uα。",
+  "search_text": "设总体X~F(x)，E(X)=μ，D(X)=σ²，且已知σ²。从总体X抽取容量n较大的样本X1,…,Xn。对H0:μ=μ0与H1:μ<μ0，检验统计量及拒绝域为（）。 $U=(\\bar X-\\mu_0)\\sqrt n/\\sigma,\\ W=\\{u<-u_\\alpha\\}$ $u=(\\bar X-\\mu_0)\\sqrt n/\\sigma,\\ W=\\{u<-u_\\alpha\\}$ $U=(\\bar X-\\mu_0)\\sqrt n/\\sigma,\\ W=\\{u>u_\\alpha\\}$ $u=(\\bar X-\\mu_0)\\sqrt n/\\sigma,\\ W=\\{u<u_0\\}$ 大样本均值检验使用标准化样本均值，左侧拒绝域u<−uα。",
+  "sort_order": 1
+}

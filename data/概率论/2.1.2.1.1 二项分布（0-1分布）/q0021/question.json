@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "次品率0.01，抽检300件，求次品数大于5的概率近似值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.08$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.17$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.55$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$X\\sim B(300,0.01)$，泊松近似参数$\\lambda=3$，$P(X>5)\\approx0.08$。",
+  "search_text": "次品率0.01，抽检300件，求次品数大于5的概率近似值。 $0.08$ $0.17$ $0.55$ $0.12$ $X\\sim B(300,0.01)$，泊松近似参数$\\lambda=3$，$P(X>5)\\approx0.08$。",
+  "sort_order": 21
+}

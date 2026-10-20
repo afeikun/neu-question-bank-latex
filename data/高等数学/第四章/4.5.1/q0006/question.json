@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算I=∫₀^∞te^(−pt)dt（p>0）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1/(2p)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1/p"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1/p²"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "p"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "分部积分得1/p²。",
+  "search_text": "计算I=∫₀^∞te^(−pt)dt（p>0） 1/(2p) 1/p 1/p² p 分部积分得1/p²。",
+  "sort_order": 6
+}

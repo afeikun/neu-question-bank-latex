@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "通解为 $y=Ce^x+x$ 的微分方程是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y\\prime=e^x+x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y\\prime=2y+x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y\\prime=e^x+\\sin x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y\\prime=y-x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由 $y=Ce^x+x$，得 $y'=Ce^x+1$，\n\n两式相减 $y'-y=-x+1$。",
+  "search_text": "通解为 $y=Ce^x+x$ 的微分方程是（ ） $y\\prime=e^x+x$ $y\\prime=2y+x$ $y\\prime=e^x+\\sin x$ $y\\prime=y-x+1$ 由 $y=Ce^x+x$，得 $y'=Ce^x+1$，\n\n两式相减 $y'-y=-x+1$。",
+  "sort_order": 18
+}

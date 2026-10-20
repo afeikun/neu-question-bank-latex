@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)$ 为单调递增函数，则有（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iiint_{x^2+y^2+z^2\\leq1}f(x+y+z-1)dv\\leq f(\\sqrt3-1)\\frac{4\\pi}3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iiint f(x+y+z-1)dv> f(\\sqrt3-1)\\frac{4\\pi}3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iiint f(x+y+z-1)dv<f(\\sqrt3-1)\\frac{4\\pi}3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iiint f(x+y+z-1)dv\\geq f(\\sqrt3-1)\\frac{4\\pi}3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "作\n\n$$\ng(x,y,z)=\\frac{x+y+z-1}{\\sqrt3}\n$$\n\n其值为点 $(x,y,z)$ 到平面 $x+y+z-1=0$ 的有向距离，由此\n\n$$\ng(x,y,z)\\le g\\left(\\frac1{\\sqrt3},\\frac1{\\sqrt3},\\frac1{\\sqrt3}\\right)\n$$\n\n或\n\n$$\nf(x+y+z-1)\\le f(\\sqrt3-1)\n$$\n\n所以\n\n$$\n\\iiint_{x^2+y^2+z^2\\le1}f(x+y+z-1)\\,dv\\le f(\\sqrt3-1)\\frac{4\\pi}{3}\n$$",
+  "search_text": "设 $f(t)$ 为单调递增函数，则有（ ） $\\iiint_{x^2+y^2+z^2\\leq1}f(x+y+z-1)dv\\leq f(\\sqrt3-1)\\frac{4\\pi}3$ $\\iiint f(x+y+z-1)dv> f(\\sqrt3-1)\\frac{4\\pi}3$ $\\iiint f(x+y+z-1)dv<f(\\sqrt3-1)\\frac{4\\pi}3$ $\\iiint f(x+y+z-1)dv\\geq f(\\sqrt3-1)\\frac{4\\pi}3$ 作\n\n$$\ng(x,y,z)=\\frac{x+y+z-1}{\\sqrt3}\n$$\n\n其值为点 $(x,y,z)$ 到平面 $x+y+z-1=0$ 的有向距离，由此\n\n$$\ng(x,y,z)\\le g\\left(\\frac1{\\sqrt3},\\frac1{\\sqrt3},\\frac1{\\sqrt3}\\right)\n$$\n\n或\n\n$$\nf(x+y+z-1)\\le f(\\sqrt3-1)\n$$\n\n所以\n\n$$\n\\iiint_{x^2+y^2+z^2\\le1}f(x+y+z-1)\\,dv\\le f(\\sqrt3-1)\\frac{4\\pi}{3}\n$$",
+  "sort_order": 56
+}

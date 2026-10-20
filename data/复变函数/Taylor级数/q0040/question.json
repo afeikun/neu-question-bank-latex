@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/(e^z-1)$ 在 $z_0=4i$ 处泰勒级数的收敛半径 $R=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi-4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\pi-4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi-3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "奇点为 $2k\\pi i$，距离中心 $4i$ 最近的奇点距为 $2\\pi-4$。",
+  "search_text": "函数 $1/(e^z-1)$ 在 $z_0=4i$ 处泰勒级数的收敛半径 $R=\\underline{\\qquad}$。 $2\\pi-4$ $3\\pi-4$ $2\\pi-3$ $3\\pi$ 奇点为 $2k\\pi i$，距离中心 $4i$ 最近的奇点距为 $2\\pi-4$。",
+  "sort_order": 40
+}

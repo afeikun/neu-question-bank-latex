@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $x\\prime\\prime+9x=t\\sin3t$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=c_1\\cos3t+c_2\\sin3t-\\frac1{12}t^2\\cos3t+\\frac1{36}t\\sin3t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=c_1\\cos3t+c_2\\sin3t-\\frac1{12}t^2\\cos3t+t\\sin3t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=c_1\\cos3t+c_2\\sin3t-\\frac1{12}t^2\\cos3t+\\frac1{36}t\\sin3t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=c_1\\cos3t+c_2\\sin3t-\\frac1{12}t\\cos3t+\\frac1{36}t\\sin3t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对应齐次方程的特征方程为 $r^2+9=0$ 即得特征根为 $r=\\pm3i$ 设方程的一个特解为 $x^*=t[(At+B)\\cos3t+(Et+F)\\sin3t]$ 代入方程，得到 $A=-\\frac{1}{12},F=\\frac{1}{36},B=E=0$ 即方程的一个特解为 $x^*=-\\frac{1}{12}t^2\\cos3t+\\frac{1}{36}t\\sin3t$ 于是方程的通解为 $x=c_1\\cos3t+c_2\\sin3t-\\frac{1}{12}t^2\\cos3t+\\frac{1}{36}t\\sin3t$ 其中 $c_1,c_2$ 为任意常数。",
+  "search_text": "解方程 $x\\prime\\prime+9x=t\\sin3t$（ ） $x=c_1\\cos3t+c_2\\sin3t-\\frac1{12}t^2\\cos3t+\\frac1{36}t\\sin3t$ $x=c_1\\cos3t+c_2\\sin3t-\\frac1{12}t^2\\cos3t+t\\sin3t$ $x=c_1\\cos3t+c_2\\sin3t-\\frac1{12}t^2\\cos3t+\\frac1{36}t\\sin3t$ $x=c_1\\cos3t+c_2\\sin3t-\\frac1{12}t\\cos3t+\\frac1{36}t\\sin3t$ 对应齐次方程的特征方程为 $r^2+9=0$ 即得特征根为 $r=\\pm3i$ 设方程的一个特解为 $x^*=t[(At+B)\\cos3t+(Et+F)\\sin3t]$ 代入方程，得到 $A=-\\frac{1}{12},F=\\frac{1}{36},B=E=0$ 即方程的一个特解为 $x^*=-\\frac{1}{12}t^2\\cos3t+\\frac{1}{36}t\\sin3t$ 于是方程的通解为 $x=c_1\\cos3t+c_2\\sin3t-\\frac{1}{12}t^2\\cos3t+\\frac{1}{36}t\\sin3t$ 其中 $c_1,c_2$ 为任意常数。",
+  "sort_order": 11
+}

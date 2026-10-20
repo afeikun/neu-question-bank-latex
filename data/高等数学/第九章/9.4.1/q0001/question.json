@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Sigma$ 即是 $xoy$ 面内的一个闭区域 $D$ 时，曲面积分 $\\iint_\\Sigma(3x^2+2y^2)dS$ 化为 $D$ 上的二重积分为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iint_D(3x^2+2y^2)dxdy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\iint_D(x^2-y^2)dxdy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\iint_Dxydxdy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\iint_Dx^2y^2dxdy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 $\\iint_\\Sigma(3x^2+2y^2)dS=\\iint_D(3x^2+2y^2)dxdy$。",
+  "search_text": "若 $\\Sigma$ 即是 $xoy$ 面内的一个闭区域 $D$ 时，曲面积分 $\\iint_\\Sigma(3x^2+2y^2)dS$ 化为 $D$ 上的二重积分为（ ） $\\iint_D(3x^2+2y^2)dxdy$ $3\\iint_D(x^2-y^2)dxdy$ $3\\iint_Dxydxdy$ $3\\iint_Dx^2y^2dxdy$ 解答 $\\iint_\\Sigma(3x^2+2y^2)dS=\\iint_D(3x^2+2y^2)dxdy$。",
+  "sort_order": 1
+}

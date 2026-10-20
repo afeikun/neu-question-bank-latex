@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega: \\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$，则 $\\iiint_\\Omega(x^3+y+z)dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_\\Omega(x^3+y+z)\\,dv=\\iiint_\\Omega x^3\\,dv+\\iiint_\\Omega y\\,dv+\\iiint_\\Omega z\\,dv=\\iiint_\\Omega z\\,dv\\quad\\text{（前两项积分均为零）}\n$$\n而\n$$\n\\Omega:\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\\n0\\leq r\\leq\\sqrt{2}\n\\end{array}\\right.,\\quad\\text{于是}\n$$\n$$\n\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r\\cos\\varphi\\cdot r^2\\sin\\varphi\\,dr=2\\pi\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos\\varphi\\,d\\varphi=\\frac{\\pi}{2}.\n$$",
+  "search_text": "若 $\\Omega: \\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$，则 $\\iiint_\\Omega(x^3+y+z)dv=$（ ） $\\frac\\pi3$ $\\pi$ $\\frac\\pi2$ $\\frac\\pi4$ $$\n\\iiint_\\Omega(x^3+y+z)\\,dv=\\iiint_\\Omega x^3\\,dv+\\iiint_\\Omega y\\,dv+\\iiint_\\Omega z\\,dv=\\iiint_\\Omega z\\,dv\\quad\\text{（前两项积分均为零）}\n$$\n而\n$$\n\\Omega:\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\\n0\\leq r\\leq\\sqrt{2}\n\\end{array}\\right.,\\quad\\text{于是}\n$$\n$$\n\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r\\cos\\varphi\\cdot r^2\\sin\\varphi\\,dr=2\\pi\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos\\varphi\\,d\\varphi=\\frac{\\pi}{2}.\n$$",
+  "sort_order": 34
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₋₁¹√(x²+x+1/4)dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1/2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "5/4"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "5/6"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "3/4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "根式为|x+1/2|，分段积分得5/4。",
+  "search_text": "计算∫₋₁¹√(x²+x+1/4)dx 1/2 5/4 5/6 3/4 根式为|x+1/2|，分段积分得5/4。",
+  "sort_order": 2
+}

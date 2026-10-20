@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $I=\\iint_Dye^{xy}\\,dxdy=[\\quad]$，其中 $D:1\\leq x\\leq2,\\frac1x\\leq y\\leq2$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12e^4+e^{-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12(e^4+e^{-2})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12(e^4-e^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12e^4-e^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 $I=\\int_{\\frac{1}{2}}^1dy\\int_{\\frac{1}{y}}^2ye^{xy}\\,dx+\\int_1^2dy\\int_1^2ye^{xy}\\,dx=\\int_{\\frac{1}{2}}^1(e^{2y}-e)\\,dy+\\int_1^2(e^{2y}-e^y)\\,dy=\\frac{1}{2}e^4-e^2$。",
+  "search_text": "二重积分 $I=\\iint_Dye^{xy}\\,dxdy=[\\quad]$，其中 $D:1\\leq x\\leq2,\\frac1x\\leq y\\leq2$ $\\frac12e^4+e^{-2}$ $\\frac12(e^4+e^{-2})$ $\\frac12(e^4-e^2)$ $\\frac12e^4-e^2$ 解答 $I=\\int_{\\frac{1}{2}}^1dy\\int_{\\frac{1}{y}}^2ye^{xy}\\,dx+\\int_1^2dy\\int_1^2ye^{xy}\\,dx=\\int_{\\frac{1}{2}}^1(e^{2y}-e)\\,dy+\\int_1^2(e^{2y}-e^y)\\,dy=\\frac{1}{2}e^4-e^2$。",
+  "sort_order": 22
+}

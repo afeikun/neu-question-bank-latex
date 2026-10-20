@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=\\frac{x}{2}-\\sin x$ 在 $(-\\frac\\pi2,\\frac\\pi2)$ 上的极小值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3-\\frac{\\sqrt3}{6}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi6+\\frac{\\sqrt3}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi3+\\frac{\\sqrt3}{6}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi6-\\frac{\\sqrt3}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$y\\prime=\\frac12-\\cos x$，驻点为 $\\pm\\pi/3$。在 $x=\\pi/3$ 处取极小值 $\\pi/6-\\sqrt3/2$。",
+  "search_text": "函数 $y=\\frac{x}{2}-\\sin x$ 在 $(-\\frac\\pi2,\\frac\\pi2)$ 上的极小值为（ ）。 $\\frac\\pi3-\\frac{\\sqrt3}{6}$ $\\frac\\pi6+\\frac{\\sqrt3}{2}$ $\\frac\\pi3+\\frac{\\sqrt3}{6}$ $\\frac\\pi6-\\frac{\\sqrt3}{2}$ $y\\prime=\\frac12-\\cos x$，驻点为 $\\pm\\pi/3$。在 $x=\\pi/3$ 处取极小值 $\\pi/6-\\sqrt3/2$。",
+  "sort_order": 18
+}

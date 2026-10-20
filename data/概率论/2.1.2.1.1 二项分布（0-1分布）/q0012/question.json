@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=2x$（$0<x<1$），三次独立观察事件$X\\le1/2$，出现次数$Y$，求$P(Y=2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3/16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9/64$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9/16$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/64$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$p=P(X\\le1/2)=1/4$，故$P(Y=2)=C_3^2(1/4)^2(3/4)=9/64$。",
+  "search_text": "$f(x)=2x$（$0<x<1$），三次独立观察事件$X\\le1/2$，出现次数$Y$，求$P(Y=2)$。 $3/16$ $9/64$ $9/16$ $3/64$ $p=P(X\\le1/2)=1/4$，故$P(Y=2)=C_3^2(1/4)^2(3/4)=9/64$。",
+  "sort_order": 12
+}

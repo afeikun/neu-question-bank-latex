@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设随机变量$X$服从参数为$\\lambda$的泊松分布，且$E[(X-1)(X-2)]=1$，求$\\lambda$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E[(X-1)(X-2)]=\\lambda^2-2\\lambda+2=1$，故$(\\lambda-1)^2=0$，$\\lambda=1$。",
+  "search_text": "设随机变量$X$服从参数为$\\lambda$的泊松分布，且$E[(X-1)(X-2)]=1$，求$\\lambda$。 $1$ $2$ $1/2$ $3$ $E[(X-1)(X-2)]=\\lambda^2-2\\lambda+2=1$，故$(\\lambda-1)^2=0$，$\\lambda=1$。",
+  "sort_order": 5
+}

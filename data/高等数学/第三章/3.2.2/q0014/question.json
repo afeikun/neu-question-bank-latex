@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 有 $n+1$ 阶导数，则 Maclaurin 公式 $f(x)=\\sum_{k=0}^n\\frac{f^{(k)}(0)}{k!}x^k+R_n(x)$ 中 Lagrange 型余项 $R_n(x)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{f^{(n+1)}(\\theta)}{(n+1)!}x^{n+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{f^{(n)}(\\theta x)}{n!}x^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{f^{(n+1)}(x)}{(n+1)!}(\\theta x)^{n+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{f^{(n+1)}(\\theta x)}{(n+1)!}x^{n+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "Maclaurin 公式的 Lagrange 型余项为 $R_n(x)=\\frac{f^{(n+1)}(\\theta x)}{(n+1)!}x^{n+1}$，$0<\\theta<1$。",
+  "search_text": "设 $f(x)$ 有 $n+1$ 阶导数，则 Maclaurin 公式 $f(x)=\\sum_{k=0}^n\\frac{f^{(k)}(0)}{k!}x^k+R_n(x)$ 中 Lagrange 型余项 $R_n(x)=(\\quad)$。 $\\frac{f^{(n+1)}(\\theta)}{(n+1)!}x^{n+1}$ $\\frac{f^{(n)}(\\theta x)}{n!}x^n$ $\\frac{f^{(n+1)}(x)}{(n+1)!}(\\theta x)^{n+1}$ $\\frac{f^{(n+1)}(\\theta x)}{(n+1)!}x^{n+1}$ Maclaurin 公式的 Lagrange 型余项为 $R_n(x)=\\frac{f^{(n+1)}(\\theta x)}{(n+1)!}x^{n+1}$，$0<\\theta<1$。",
+  "sort_order": 14
+}

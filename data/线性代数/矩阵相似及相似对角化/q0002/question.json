@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 阶可逆矩阵 $A$ 与矩阵 $B$ 相似，则下列说法不正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|A|=|B|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$r(A)=r(B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A^{-1}=B^{-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\lambda E-A)^k$ 与 $(\\lambda E-B)^k$ 相似（其中 $k\\in\\mathbb N$）"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "若 $n$ 阶方阵 $A$ 与矩阵 $B$ 相似，则存在可逆矩阵 $P$，使得 $P^{-1}AP=B$。\n\n$(1)$ 因为 $P$ 可逆，所以矩阵 $A$ 经过有限次初等变换化成 $B$，所以 $r(A)=r(B)$。\n\n$(2)$ $P^{-1}|A|P=|B|\\Rightarrow |A|=|B|$。\n\n$(3)$ $(\\lambda E-B)^k=(\\lambda E-P^{-1}AP)^k=(P^{-1}(\\lambda E-A)P)^k=P^{-1}(\\lambda E-A)^kP$，即 $(\\lambda E-A)^k$ 与 $(\\lambda E-B)^k$ 相似。\n\n$(4)$ $(P^{-1}AP)^{-1}=B^{-1}\\Rightarrow P^{-1}A^{-1}P=B^{-1}$，即 $A^{-1}$ 与 $B^{-1}$ 相似，但 $A^{-1}$ 与 $B^{-1}$ 不一定相等。",
+  "search_text": "设 $n$ 阶可逆矩阵 $A$ 与矩阵 $B$ 相似，则下列说法不正确的是（ ）。 $|A|=|B|$ $r(A)=r(B)$ $A^{-1}=B^{-1}$ $(\\lambda E-A)^k$ 与 $(\\lambda E-B)^k$ 相似（其中 $k\\in\\mathbb N$） 若 $n$ 阶方阵 $A$ 与矩阵 $B$ 相似，则存在可逆矩阵 $P$，使得 $P^{-1}AP=B$。 $(1)$ 因为 $P$ 可逆，所以矩阵 $A$ 经过有限次初等变换化成 $B$，所以 $r(A)=r(B)$。 $(2)$ $P^{-1}|A|P=|B|\\Rightarrow |A|=|B|$。 $(3)$ $(\\lambda E-B)^k=(\\lambda E-P^{-1}AP)^k=(P^{-1}(\\lambda E-A)P)^k=P^{-1}(\\lambda E-A)^kP$，即 $(\\lambda E-A)^k$ 与 $(\\lambda E-B)^k$ 相似。 $(4)$ $(P^{-1}AP)^{-1}=B^{-1}\\Rightarrow P^{-1}A^{-1}P=B^{-1}$，即 $A^{-1}$ 与 $B^{-1}$ 相似，但 $A^{-1}$ 与 $B^{-1}$ 不一定相等。",
+  "sort_order": 2
+}

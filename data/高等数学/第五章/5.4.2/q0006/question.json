@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^\\infty x^n/[n(n+1)]$ 的和函数是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1+(1-x)\\ln(1-x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1+(1+x)\\ln(1+x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[x+(1-x)\\ln(1-x)]/x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/x+(1-x)\\ln(1-x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "逐项积分或部分分式可得 $[x+(1-x)\\ln(1-x)]/x$，且 $s(0)=0$。",
+  "search_text": "级数 $\\sum_{n=1}^\\infty x^n/[n(n+1)]$ 的和函数是？ $1+(1-x)\\ln(1-x)$ $1+(1+x)\\ln(1+x)$ $[x+(1-x)\\ln(1-x)]/x$ $1/x+(1-x)\\ln(1-x)$ 逐项积分或部分分式可得 $[x+(1-x)\\ln(1-x)]/x$，且 $s(0)=0$。",
+  "sort_order": 6
+}

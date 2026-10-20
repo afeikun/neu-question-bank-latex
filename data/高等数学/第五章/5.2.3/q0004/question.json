@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim a_n=a>0$ 且 $a_n\\ne0$，讨论 $\\sum_{n=1}^{\\infty}(x/a_n)^n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|x|>1$ 时发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|a|<1$ 时发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|x|<a$ 时条件收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|x|<a$ 时绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "根值极限 $|x|/a$，$|x|<a$ 时绝对收敛。",
+  "search_text": "若 $\\lim a_n=a>0$ 且 $a_n\\ne0$，讨论 $\\sum_{n=1}^{\\infty}(x/a_n)^n$。 $|x|>1$ 时发散 $|a|<1$ 时发散 $|x|<a$ 时条件收敛 $|x|<a$ 时绝对收敛 根值极限 $|x|/a$，$|x|<a$ 时绝对收敛。",
+  "sort_order": 4
+}

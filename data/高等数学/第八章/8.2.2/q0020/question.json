@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 由 $z=xy，y=x$，及 $z=0$ 围成，三重积分 $\\iiint_\\Omega xy^2z^3dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{112}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{28}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{308}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{364}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "原式 $=\\int_0^1xdx\\int_0^xy^2dy\\int_0^{xy}z^3dz=\\frac14\\int_0^1x^5dx\\int_0^xy^6dy$\n$=\\frac1{28}\\int_0^1x^{12}dx=\\frac1{364}$",
+  "search_text": "$\\Omega$ 由 $z=xy，y=x$，及 $z=0$ 围成，三重积分 $\\iiint_\\Omega xy^2z^3dv$ 的值为（ ） $\\frac1{112}$ $\\frac1{28}$ $\\frac1{308}$ $\\frac1{364}$ 原式 $=\\int_0^1xdx\\int_0^xy^2dy\\int_0^{xy}z^3dz=\\frac14\\int_0^1x^5dx\\int_0^xy^6dy$\n$=\\frac1{28}\\int_0^1x^{12}dx=\\frac1{364}$",
+  "sort_order": 20
+}

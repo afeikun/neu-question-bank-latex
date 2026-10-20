@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\dfrac12\\left[\\delta(t+a)+\\delta(t-a)+\\delta\\left(t+\\dfrac a2\\right)+\\delta\\left(t-\\dfrac a2\\right)\\right]$，则 $\\mathcal F[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos a\\omega+\\cos\\dfrac{a\\omega}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin a\\omega+\\sin\\dfrac{a\\omega}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos a\\omega-\\cos\\dfrac{a\\omega}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sin a\\omega-\\sin\\dfrac{a\\omega}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal F[f(t)]=\\dfrac12\\left(e^{ia\\omega}+e^{-ia\\omega}+e^{i a\\omega/2}+e^{-i a\\omega/2}\\right)=\\cos a\\omega+\\cos\\dfrac{a\\omega}{2}$。",
+  "search_text": "设 $f(t)=\\dfrac12\\left[\\delta(t+a)+\\delta(t-a)+\\delta\\left(t+\\dfrac a2\\right)+\\delta\\left(t-\\dfrac a2\\right)\\right]$，则 $\\mathcal F[f(t)]=(\\ \\ )$。 $\\cos a\\omega+\\cos\\dfrac{a\\omega}{2}$ $\\sin a\\omega+\\sin\\dfrac{a\\omega}{2}$ $\\cos a\\omega-\\cos\\dfrac{a\\omega}{2}$ $\\sin a\\omega-\\sin\\dfrac{a\\omega}{2}$ $\\mathcal F[f(t)]=\\dfrac12\\left(e^{ia\\omega}+e^{-ia\\omega}+e^{i a\\omega/2}+e^{-i a\\omega/2}\\right)=\\cos a\\omega+\\cos\\dfrac{a\\omega}{2}$。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由曲面 $x^2+y^2+z^2=2z$ 之内及曲面 $z=x^2+y^2$ 之外围成的立体体积（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_{r^2}^{1-r^2}dz$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_{r^2}^{1-r^2}dz$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_0^{1-r^2}dz$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_{1-\\sqrt{1-r^2}}^{r^2}dz$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "先对 $z$，再将后二换成极坐标\n\n示意图：标有 $x,y,z$ 坐标轴与原点 $O$；图中画出球面和抛物面相交围成的立体，底面投影标注为 $\\sigma_{xy}:x^2+y^2\\le1$。",
+  "search_text": "由曲面 $x^2+y^2+z^2=2z$ 之内及曲面 $z=x^2+y^2$ 之外围成的立体体积（ ） $\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_{r^2}^{1-r^2}dz$ $\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_{r^2}^{1-r^2}dz$ $\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_0^{1-r^2}dz$ $\\int_0^{2\\pi}d\\theta\\int_0^1rdr\\int_{1-\\sqrt{1-r^2}}^{r^2}dz$ 先对 $z$，再将后二换成极坐标\n\n示意图：标有 $x,y,z$ 坐标轴与原点 $O$；图中画出球面和抛物面相交围成的立体，底面投影标注为 $\\sigma_{xy}:x^2+y^2\\le1$。",
+  "sort_order": 65
+}

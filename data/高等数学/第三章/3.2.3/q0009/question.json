@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "按 $e^x\\approx1+x+\\frac{x^2}{2}+\\frac{x^3}{6}$ 求 $\\sqrt e$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1.645$，误差小于 $0.001$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1.645$，误差小于 $0.01$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1.845$，误差小于 $0.01$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1.845$，误差小于 $0.001$。"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取 $x=\\frac12$ 得近似值 $1.645$；Lagrange 余项估计约 $0.0045<0.01$，但大于 $0.001$。",
+  "search_text": "按 $e^x\\approx1+x+\\frac{x^2}{2}+\\frac{x^3}{6}$ 求 $\\sqrt e$ 的近似值为 $(\\quad)$。 $1.645$，误差小于 $0.001$； $1.645$，误差小于 $0.01$； $1.845$，误差小于 $0.01$； $1.845$，误差小于 $0.001$。 取 $x=\\frac12$ 得近似值 $1.645$；Lagrange 余项估计约 $0.0045<0.01$，但大于 $0.001$。",
+  "sort_order": 9
+}

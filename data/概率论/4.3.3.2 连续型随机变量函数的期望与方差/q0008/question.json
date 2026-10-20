@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "随机变量$\\xi,\\eta$相互独立，$\\xi$的密度为$\\frac1{3\\sqrt{2\\pi}}e^{-(x-2)^2/18}$，$\\eta\\sim P(\\lambda)$，且$E(\\eta)=\\sqrt{D(\\xi)}$。求$E(6-4\\xi+3\\eta),D(6-4\\xi+3\\eta)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$7,171$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3,27$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4,16$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7,144$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\xi\\sim N(2,9)$，所以$E(\\eta)=\\lambda=3,D(\\eta)=3$。独立性给出期望7、方差$16\\cdot9+9\\cdot3=171$。",
+  "search_text": "随机变量$\\xi,\\eta$相互独立，$\\xi$的密度为$\\frac1{3\\sqrt{2\\pi}}e^{-(x-2)^2/18}$，$\\eta\\sim P(\\lambda)$，且$E(\\eta)=\\sqrt{D(\\xi)}$。求$E(6-4\\xi+3\\eta),D(6-4\\xi+3\\eta)$。 $7,171$ $3,27$ $4,16$ $7,144$ $\\xi\\sim N(2,9)$，所以$E(\\eta)=\\lambda=3,D(\\eta)=3$。独立性给出期望7、方差$16\\cdot9+9\\cdot3=171$。",
+  "sort_order": 8
+}

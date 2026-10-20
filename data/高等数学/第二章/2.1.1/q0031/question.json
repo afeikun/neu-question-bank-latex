@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(x)$，已知 $\\lim_{x\\to0}\\frac{f(x_0)-f(x_0+3x)}{9x}=5$，则 $dy|_{x=x_0}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-$15dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$15dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "-$9dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$-f\\prime(x_0)/3=5$，故 $f\\prime(x_0)=-15$，微分为 $-15dx$。",
+  "search_text": "设 $y=f(x)$，已知 $\\lim_{x\\to0}\\frac{f(x_0)-f(x_0+3x)}{9x}=5$，则 $dy|_{x=x_0}=$（ ）。 -$15dx$ $15dx$ $3dx$ -$9dx$ $-f\\prime(x_0)/3=5$，故 $f\\prime(x_0)=-15$，微分为 $-15dx$。",
+  "sort_order": 31
+}

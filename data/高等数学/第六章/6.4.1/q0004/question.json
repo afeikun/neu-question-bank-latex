@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $l:\\frac{x-1}{2}=\\frac y{-1}=\\frac{z+1}{2}$ 与平面 $\\Pi:x-y+2z=3$ 的夹角为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\arccos\\frac7{\\sqrt6}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arcsin\\frac7{\\sqrt6}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\arcsin\\frac7{3\\sqrt6}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\arccos\\frac7{3\\sqrt6}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：直线方向向量 $\\vec{s}=(2,-1,2)，$ 平面法向量 $\\vec{n}=(1,-1,2)，$ 则夹角 $\\theta$ 的余角的余弦\n\n$$\n\\cos\\left(\\frac{\\pi}{2}-\\theta\\right)=\\sin\\theta=\\frac{|\\vec{s}\\cdot\\vec{n}|}{|\\vec{s}|\\,|\\vec{n}|}=\\frac{7}{3\\sqrt{6}}，\\quad\\text{故夹角 }\\theta=\\arcsin\\frac{7}{3\\sqrt{6}}。\n$$",
+  "search_text": "直线 $l:\\frac{x-1}{2}=\\frac y{-1}=\\frac{z+1}{2}$ 与平面 $\\Pi:x-y+2z=3$ 的夹角为(\\quad)。 $\\arccos\\frac7{\\sqrt6}$ $\\arcsin\\frac7{\\sqrt6}$ $\\arcsin\\frac7{3\\sqrt6}$ $\\arccos\\frac7{3\\sqrt6}$ 解答：直线方向向量 $\\vec{s}=(2,-1,2)，$ 平面法向量 $\\vec{n}=(1,-1,2)，$ 则夹角 $\\theta$ 的余角的余弦\n\n$$\n\\cos\\left(\\frac{\\pi}{2}-\\theta\\right)=\\sin\\theta=\\frac{|\\vec{s}\\cdot\\vec{n}|}{|\\vec{s}|\\,|\\vec{n}|}=\\frac{7}{3\\sqrt{6}}，\\quad\\text{故夹角 }\\theta=\\arcsin\\frac{7}{3\\sqrt{6}}。\n$$",
+  "sort_order": 4
+}

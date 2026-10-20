@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\overrightarrow{OA}=\\vec a$，$\\overrightarrow{OB}=\\vec b$，$\\angle ODA=\\frac\\pi2$，如图所示，$\\theta$ 为(\\quad)时 $\\triangle ODA$ 的面积取最大。选项：(A) $\\frac\\pi{12}$；(B) $\\frac\\pi6$；(C) $\\frac\\pi4$；(D) $\\frac\\pi3$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi{12}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "面积 $S=\\frac14|a|^2\\sin2\\theta$，在 $0<\\theta<\\frac\\pi2$ 内于 $\\theta=\\frac\\pi4$ 取最大值。",
+  "search_text": "已知 $\\overrightarrow{OA}=\\vec a$，$\\overrightarrow{OB}=\\vec b$，$\\angle ODA=\\frac\\pi2$，如图所示，$\\theta$ 为(\\quad)时 $\\triangle ODA$ 的面积取最大。选项：(A) $\\frac\\pi{12}$；(B) $\\frac\\pi6$；(C) $\\frac\\pi4$；(D) $\\frac\\pi3$。 $\\frac\\pi3$ $\\frac\\pi4$ $\\frac\\pi6$ $\\frac\\pi{12}$ 面积 $S=\\frac14|a|^2\\sin2\\theta$，在 $0<\\theta<\\frac\\pi2$ 内于 $\\theta=\\frac\\pi4$ 取最大值。",
+  "sort_order": 14
+}

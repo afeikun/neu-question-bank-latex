@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是三阶方阵，将 $A$ 的第二行加到第一行得到矩阵 $B$，再把 $B$ 的第一列的 $-1$ 倍加到第二列得到 $C$，记 $P=\\begin{bmatrix}1&1&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$，则(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$C=PA P^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$C=PAP^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$C=P^TAP$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C=PAP^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "先左乘 $P$ 实现行变换，再右乘 $P^{-1}$ 实现列变换，故 $C=PAP^{-1}$，选项 4。",
+  "search_text": "设 $A$ 是三阶方阵，将 $A$ 的第二行加到第一行得到矩阵 $B$，再把 $B$ 的第一列的 $-1$ 倍加到第二列得到 $C$，记 $P=\\begin{bmatrix}1&1&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$，则(\\quad)。 $C=PA P^T$ $C=PAP^T$ $C=P^TAP$ $C=PAP^{-1}$ 先左乘 $P$ 实现行变换，再右乘 $P^{-1}$ 实现列变换，故 $C=PAP^{-1}$，选项 4。",
+  "sort_order": 46
+}

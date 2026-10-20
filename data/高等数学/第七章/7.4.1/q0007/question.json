@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=\\frac{e^{ax}(y-z)}{a^2+1},y=a\\sin x,z=\\cos x$，则 $du/dx=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{ax}\\sin x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{ax}\\cos x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$ae^{ax}\\cos x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$ae^{ax}\\sin x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\frac{du}{dx}=\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\frac{dy}{dx}+\\frac{\\partial u}{\\partial z}\\frac{dz}{dx}=\\frac{ae^{ax}(y-z)}{a^2+1}+\\frac{e^{ax}}{a^2+1}\\cdot a\\cos x-\\frac{e^{ax}}{a^2+1}\\cdot(-\\sin x)$\n\n$==\\frac{e^{ax}}{a^2+1}\\left[a^2\\sin x-a\\cos x+a\\cos x+\\sin x\\right]=e^{ax}\\sin x$",
+  "search_text": "设 $u=\\frac{e^{ax}(y-z)}{a^2+1},y=a\\sin x,z=\\cos x$，则 $du/dx=(\\quad)$。 $e^{ax}\\sin x$ $e^{ax}\\cos x$ $ae^{ax}\\cos x$ $ae^{ax}\\sin x$ $\\frac{du}{dx}=\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial y}\\frac{dy}{dx}+\\frac{\\partial u}{\\partial z}\\frac{dz}{dx}=\\frac{ae^{ax}(y-z)}{a^2+1}+\\frac{e^{ax}}{a^2+1}\\cdot a\\cos x-\\frac{e^{ax}}{a^2+1}\\cdot(-\\sin x)$\n\n$==\\frac{e^{ax}}{a^2+1}\\left[a^2\\sin x-a\\cos x+a\\cos x+\\sin x\\right]=e^{ax}\\sin x$",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\frac{d^2y}{dx^2}=x+e^{2x}$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac1{12}x^3+\\frac18e^{2x}+C_1x+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac16x^3+\\frac18e^{2x}+C_1x+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac16x^3+\\frac14e^{2x}+C_1x+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=-\\frac16x^3+\\frac14e^{2x}+C_1x+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对两端积分得 $y^{\\prime}=x^2/2+e^{2x}/2+C_1$，再积分得 $y=x^3/6+e^{2x}/4+C_1x+C_2$，其中 $C_1,C_2$ 为任意常数，选第三项。",
+  "search_text": "方程 $\\frac{d^2y}{dx^2}=x+e^{2x}$ 的通解是（ ） $y=\\frac1{12}x^3+\\frac18e^{2x}+C_1x+C_2$ $y=\\frac16x^3+\\frac18e^{2x}+C_1x+C_2$ $y=\\frac16x^3+\\frac14e^{2x}+C_1x+C_2$ $y=-\\frac16x^3+\\frac14e^{2x}+C_1x+C_2$ 对两端积分得 $y^{\\prime}=x^2/2+e^{2x}/2+C_1$，再积分得 $y=x^3/6+e^{2x}/4+C_1x+C_2$，其中 $C_1,C_2$ 为任意常数，选第三项。",
+  "sort_order": 3
+}

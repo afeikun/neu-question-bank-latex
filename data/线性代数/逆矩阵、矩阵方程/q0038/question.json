@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $n$ 阶方阵且满足条件 $A^2+A-6E=O$，则 $(A+E)^{-1}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13A$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16A$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12A$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac16(E-A)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $A^2+A-6E=O$，有 $A(A+E)=6E$，所以 $(\\frac16A)(A+E)=E$，故 $(A+E)^{-1}=\\frac16A$。",
+  "search_text": "设 $A$ 为 $n$ 阶方阵且满足条件 $A^2+A-6E=O$，则 $(A+E)^{-1}=$（ ）。 $\\frac13A$ $\\frac16A$ $\\frac12A$ $-\\frac16(E-A)$ 由 $A^2+A-6E=O$，有 $A(A+E)=6E$，所以 $(\\frac16A)(A+E)=E$，故 $(A+E)^{-1}=\\frac16A$。",
+  "sort_order": 38
+}

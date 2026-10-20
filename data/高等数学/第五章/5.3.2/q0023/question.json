@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 和 $\\sum_{n=1}^{\\infty} v_n$ 都发散，则下列级数中哪一个必发散？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty} u_nv_n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}(|u_n|+|v_n|)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}(u_n+v_n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(u_n-v_n)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "若第二项收敛，则 $\\sum_{n=1}^{\\infty}|u_n|$ 收敛，与 $\\sum_{n=1}^{\\infty} u_n$ 发散矛盾。",
+  "search_text": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 和 $\\sum_{n=1}^{\\infty} v_n$ 都发散，则下列级数中哪一个必发散？ $\\sum_{n=1}^{\\infty} u_nv_n$ $\\sum_{n=1}^{\\infty}(|u_n|+|v_n|)$ $\\sum_{n=1}^{\\infty}(u_n+v_n)$ $\\sum_{n=1}^{\\infty}(u_n-v_n)$ 若第二项收敛，则 $\\sum_{n=1}^{\\infty}|u_n|$ 收敛，与 $\\sum_{n=1}^{\\infty} u_n$ 发散矛盾。",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "清凉饮料$n=36,\\bar x=219,s=14.2$，检验平均含量是否低于222，错误说法是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "拒绝域为$T\\ge t_{\\alpha/2}(n-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu=222,H_1:\\mu<222$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T=(\\bar X-222)/(S/\\sqrt n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "样本统计量约$-1.27$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "左侧检验拒绝域应为$T<-t_\\alpha(n-1)$，选项1把方向写反。",
+  "search_text": "清凉饮料$n=36,\\bar x=219,s=14.2$，检验平均含量是否低于222，错误说法是（）。 拒绝域为$T\\ge t_{\\alpha/2}(n-1)$ $H_0:\\mu=222,H_1:\\mu<222$ $T=(\\bar X-222)/(S/\\sqrt n)$ 样本统计量约$-1.27$ 左侧检验拒绝域应为$T<-t_\\alpha(n-1)$，选项1把方向写反。",
+  "sort_order": 3
+}

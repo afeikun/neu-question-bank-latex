@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过点 $M(3,1,-2)$ 且通过直线 $L:\\frac{x-4}{5}=\\frac{y+3}{2}=\\frac z1$ 的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8x+9y-22z-59=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8x-9y-22z-5=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8x-9y-22z-59=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8x+9y-22z-5=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由直线方向和点到直线向量叉乘求法向量 $(8,-9,-22)$，代入直线上点得常数项 $-59$。",
+  "search_text": "过点 $M(3,1,-2)$ 且通过直线 $L:\\frac{x-4}{5}=\\frac{y+3}{2}=\\frac z1$ 的平面方程为(\\quad)。 $8x+9y-22z-59=0$ $8x-9y-22z-5=0$ $8x-9y-22z-59=0$ $8x+9y-22z-5=0$ 由直线方向和点到直线向量叉乘求法向量 $(8,-9,-22)$，代入直线上点得常数项 $-59$。",
+  "sort_order": 48
+}

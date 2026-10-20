@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知线性方程组 $\\begin{cases}x_1+x_2+x_3=0,\\\\ax_1+bx_2+cx_3=0,\\\\a^2x_1+b^2x_2+c^2x_3=0\\end{cases}$，若方程组仅有零解，则 $a,b,c$ 满足（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$c\\ne a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a\\ne b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a\\ne b$，$b\\ne c$，$c\\ne a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$b\\ne c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程组的系数行列式 $D=\\begin{vmatrix}1&1&1\\\\a&b&c\\\\a^2&b^2&c^2\\end{vmatrix}=(a-b)(b-c)(c-a)$。当 $a\\ne b,b\\ne c,c\\ne a$ 时，$D\\ne0$，方程组仅有零解。",
+  "search_text": "已知线性方程组 $\\begin{cases}x_1+x_2+x_3=0,\\\\ax_1+bx_2+cx_3=0,\\\\a^2x_1+b^2x_2+c^2x_3=0\\end{cases}$，若方程组仅有零解，则 $a,b,c$ 满足（ ）。 $c\\ne a$ $a\\ne b$ $a\\ne b$，$b\\ne c$，$c\\ne a$ $b\\ne c$ 方程组的系数行列式 $D=\\begin{vmatrix}1&1&1\\\\a&b&c\\\\a^2&b^2&c^2\\end{vmatrix}=(a-b)(b-c)(c-a)$。当 $a\\ne b,b\\ne c,c\\ne a$ 时，$D\\ne0$，方程组仅有零解。",
+  "sort_order": 31
+}

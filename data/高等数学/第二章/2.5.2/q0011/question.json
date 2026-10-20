@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=(\\tan x)^{\\sin x}+x^x$，求 $y^\\prime$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\tan x)^{\\sin x}(\\cos x\\ln\\tan x+\\tan x)+x^x(1+\\ln x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\tan x)^{\\sin x}(\\cos x\\ln\\tan x+\\sin x\\sec^2x)+x^x(1+\\ln x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\tan x)^{\\sin x}(\\cos x\\ln\\tan x+\\sec x)+x^x(1+\\ln x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\tan x)^{\\sin x}(\\cos x\\ln\\tan x+\\sec^2x)+x^x(1+\\ln x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 令 $y_1=(\\tan x)^{\\sin x}，y_2=x^x$，则 $y'=y_1'+y_2'$，$\\ln y_1=\\sin x\\cdot\\ln\\tan x$，对 $x$ 求导可得\n\n$$\\frac{y_1'}{y_1}=\\cos x\\cdot\\ln\\tan x+\\sin x\\cdot\\frac{\\sec^2x}{\\tan x}，\\text{即 }y_1'=(\\tan x)^{\\sin x}\\cdot(\\cos x\\cdot\\ln\\tan x+\\sec x)，$$\n\n同理 $\\ln y_2=x\\cdot\\ln x$，则\n\n$$\\frac{y_2'}{y_2}=\\ln x+1，y_2'=x^x(1+\\ln x)，$$\n\n则有 $y'=(\\tan x)^{\\sin x}\\cdot(\\cos x\\cdot\\ln\\tan x+\\sec x)+x^x(1+\\ln x)$",
+  "search_text": "设 $y=(\\tan x)^{\\sin x}+x^x$，求 $y^\\prime$。 $(\\tan x)^{\\sin x}(\\cos x\\ln\\tan x+\\tan x)+x^x(1+\\ln x)$ $(\\tan x)^{\\sin x}(\\cos x\\ln\\tan x+\\sin x\\sec^2x)+x^x(1+\\ln x)$ $(\\tan x)^{\\sin x}(\\cos x\\ln\\tan x+\\sec x)+x^x(1+\\ln x)$ $(\\tan x)^{\\sin x}(\\cos x\\ln\\tan x+\\sec^2x)+x^x(1+\\ln x)$ 解答 令 $y_1=(\\tan x)^{\\sin x}，y_2=x^x$，则 $y'=y_1'+y_2'$，$\\ln y_1=\\sin x\\cdot\\ln\\tan x$，对 $x$ 求导可得\n\n$$\\frac{y_1'}{y_1}=\\cos x\\cdot\\ln\\tan x+\\sin x\\cdot\\frac{\\sec^2x}{\\tan x}，\\text{即 }y_1'=(\\tan x)^{\\sin x}\\cdot(\\cos x\\cdot\\ln\\tan x+\\sec x)，$$\n\n同理 $\\ln y_2=x\\cdot\\ln x$，则\n\n$$\\frac{y_2'}{y_2}=\\ln x+1，y_2'=x^x(1+\\ln x)，$$\n\n则有 $y'=(\\tan x)^{\\sin x}\\cdot(\\cos x\\cdot\\ln\\tan x+\\sec x)+x^x(1+\\ln x)$",
+  "sort_order": 11
+}

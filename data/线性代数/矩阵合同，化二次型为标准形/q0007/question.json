@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&0&1\\\\0&1&0\\\\1&0&1\\end{pmatrix}, B=\\begin{pmatrix}0&0&0\\\\0&1&0\\\\1&0&2\\end{pmatrix}$，则 $A$ 与 $B$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不合同也不相似"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "合同但不相似"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "合同且相似"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "相似但不合同"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "题解给出的变换表明二者相似；$A$ 对称而 $B$ 不对称，不能合同，选项 4。",
+  "search_text": "设 $A=\\begin{pmatrix}1&0&1\\\\0&1&0\\\\1&0&1\\end{pmatrix}, B=\\begin{pmatrix}0&0&0\\\\0&1&0\\\\1&0&2\\end{pmatrix}$，则 $A$ 与 $B$(\\quad)。 不合同也不相似 合同但不相似 合同且相似 相似但不合同 题解给出的变换表明二者相似；$A$ 对称而 $B$ 不对称，不能合同，选项 4。",
+  "sort_order": 7
+}

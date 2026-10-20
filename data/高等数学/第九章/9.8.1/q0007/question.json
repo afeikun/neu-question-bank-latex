@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Gamma$ 为球面 $x^2+y^2+z^2=1$ 与平面 $x+y+z=1$ 的交线，从 $y$ 轴正向看取逆时针方向，计算 $\\oint_\\Gamma ydx+zdy+xdz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{2\\sqrt3}{5}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{2\\sqrt3}{3}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{\\sqrt3}{3}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2\\sqrt3}{3}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取平面 $x+y+z=1$ 被圆周所围部分的上侧，单位法向量为 $(1,1,1)/\\sqrt3$。由斯托克斯公式，原积分 $=-\\sqrt3 S$。球心到平面的距离为 $1/\\sqrt3$，截圆半径为 $\\sqrt{1-1/3}=\\sqrt6/3$，所以 $S=2\\pi/3$，积分 $=-2\\sqrt3\\pi/3$，选第二项。",
+  "search_text": "已知 $\\Gamma$ 为球面 $x^2+y^2+z^2=1$ 与平面 $x+y+z=1$ 的交线，从 $y$ 轴正向看取逆时针方向，计算 $\\oint_\\Gamma ydx+zdy+xdz=$（ ） $-\\frac{2\\sqrt3}{5}\\pi$ $-\\frac{2\\sqrt3}{3}\\pi$ $-\\frac{\\sqrt3}{3}\\pi$ $\\frac{2\\sqrt3}{3}\\pi$ 取平面 $x+y+z=1$ 被圆周所围部分的上侧，单位法向量为 $(1,1,1)/\\sqrt3$。由斯托克斯公式，原积分 $=-\\sqrt3 S$。球心到平面的距离为 $1/\\sqrt3$，截圆半径为 $\\sqrt{1-1/3}=\\sqrt6/3$，所以 $S=2\\pi/3$，积分 $=-2\\sqrt3\\pi/3$，选第二项。",
+  "sort_order": 7
+}

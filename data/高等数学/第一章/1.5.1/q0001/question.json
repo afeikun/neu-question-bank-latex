@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a>b>c>0$，$x_n=\\sqrt[n]{a^n+b^n+c^n}$，求 $\\lim_{n\\to\\infty}x_n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$a<x_n<a\\sqrt[3]{3}$，由夹逼准则得极限为 $a$。",
+  "search_text": "设 $a>b>c>0$，$x_n=\\sqrt[n]{a^n+b^n+c^n}$，求 $\\lim_{n\\to\\infty}x_n$。 $c$ $b$ $a$ 0 $a<x_n<a\\sqrt[3]{3}$，由夹逼准则得极限为 $a$。",
+  "sort_order": 1
+}

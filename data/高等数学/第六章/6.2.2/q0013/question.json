@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$|\\vec a|=4$，$|\\vec b|=3$，$(\\widehat{\\vec a,\\vec b})=\\frac\\pi6$，求以 $\\vec a+2\\vec b$ 和 $\\vec a-3\\vec b$ 为边的平行四边形的面积为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$60$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$50$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$40$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$30$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$(a+2b)\\times(a-3b)=-5(a\\times b)$，面积 $5|a||b|\\sin\\frac\\pi6=30$。",
+  "search_text": "$|\\vec a|=4$，$|\\vec b|=3$，$(\\widehat{\\vec a,\\vec b})=\\frac\\pi6$，求以 $\\vec a+2\\vec b$ 和 $\\vec a-3\\vec b$ 为边的平行四边形的面积为(\\quad)。 $60$ $50$ $40$ $30$ $(a+2b)\\times(a-3b)=-5(a\\times b)$，面积 $5|a||b|\\sin\\frac\\pi6=30$。",
+  "sort_order": 13
+}

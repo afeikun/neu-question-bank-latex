@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $x^3-2xy-xz^2-y^2z=11$ 在点 $(3,1,-2)$ 处的法线方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x+18}{21}=\\frac{y-3}{-2}=\\frac{z+13}{11}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-3}{21}=\\frac{y-1}{-2}=\\frac{z+2}{-11}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x-3}{21}=\\frac{y-1}{2}=\\frac{z+x}{11}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x+18}{21}=\\frac{y-3}{2}=\\frac{z+13}{11}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=x^3-2xy-xz^2-y^2z-11$，则\n\n$$F_x|_{(3,1,-2)}=3x^2-2y-z^2=21,\\quad F_y|_{(3,1,-2)}=-2x-2yz=-2,\\quad F_z|_{(3,1,-2)}=-2xz-y^2=11,$$\n\n法线方程为：$\\frac{x-3}{21}=\\frac{y-1}{-2}=\\frac{z+2}{11}$，又点 $(-18,3,-13)$ 在法线上，整理得 $\\frac{x+18}{21}=\\frac{y-3}{-2}=\\frac{z+13}{11}$。",
+  "search_text": "曲面 $x^3-2xy-xz^2-y^2z=11$ 在点 $(3,1,-2)$ 处的法线方程为。 $\\frac{x+18}{21}=\\frac{y-3}{-2}=\\frac{z+13}{11}$ $\\frac{x-3}{21}=\\frac{y-1}{-2}=\\frac{z+2}{-11}$ $\\frac{x-3}{21}=\\frac{y-1}{2}=\\frac{z+x}{11}$ $\\frac{x+18}{21}=\\frac{y-3}{2}=\\frac{z+13}{11}$ 设 $F(x,y,z)=x^3-2xy-xz^2-y^2z-11$，则\n\n$$F_x|_{(3,1,-2)}=3x^2-2y-z^2=21,\\quad F_y|_{(3,1,-2)}=-2x-2yz=-2,\\quad F_z|_{(3,1,-2)}=-2xz-y^2=11,$$\n\n法线方程为：$\\frac{x-3}{21}=\\frac{y-1}{-2}=\\frac{z+2}{11}$，又点 $(-18,3,-13)$ 在法线上，整理得 $\\frac{x+18}{21}=\\frac{y-3}{-2}=\\frac{z+13}{11}$。",
+  "sort_order": 22
+}

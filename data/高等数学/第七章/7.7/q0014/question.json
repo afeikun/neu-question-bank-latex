@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $u=xy+yz+xz$ 在 $P(1,2,3)$ 处沿径向的方向导数为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{24}{\\sqrt{14}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{22}{\\sqrt{14}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sqrt{14}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac3{\\sqrt{14}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial u}{\\partial x}\\right|_P=(y+z)|_{(1,2,3)}=5，$$\n\n$$\\left.\\frac{\\partial u}{\\partial y}\\right|_P=(x+z)|_{(1,2,3)}=4，$$\n\n$$\\left.\\frac{\\partial u}{\\partial z}\\right|_P=(x+y)|_{(1,2,3)}=3，$$\n\n所以 $\\left.\\frac{\\partial u}{\\partial l}\\right|_P=(5,4,3)\\cdot(\\frac{1}{\\sqrt{1^2+2^2+3^2}},\\frac{2}{\\sqrt{14}},\\frac{3}{\\sqrt{14}})=\\frac{22}{\\sqrt{14}}$",
+  "search_text": "函数 $u=xy+yz+xz$ 在 $P(1,2,3)$ 处沿径向的方向导数为。 $\\frac{24}{\\sqrt{14}}$ $\\frac{22}{\\sqrt{14}}$ $\\frac1{\\sqrt{14}}$ $\\frac3{\\sqrt{14}}$ $$\\left.\\frac{\\partial u}{\\partial x}\\right|_P=(y+z)|_{(1,2,3)}=5，$$\n\n$$\\left.\\frac{\\partial u}{\\partial y}\\right|_P=(x+z)|_{(1,2,3)}=4，$$\n\n$$\\left.\\frac{\\partial u}{\\partial z}\\right|_P=(x+y)|_{(1,2,3)}=3，$$\n\n所以 $\\left.\\frac{\\partial u}{\\partial l}\\right|_P=(5,4,3)\\cdot(\\frac{1}{\\sqrt{1^2+2^2+3^2}},\\frac{2}{\\sqrt{14}},\\frac{3}{\\sqrt{14}})=\\frac{22}{\\sqrt{14}}$",
+  "sort_order": 14
+}

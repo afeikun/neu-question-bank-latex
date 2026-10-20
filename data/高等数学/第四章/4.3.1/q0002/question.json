@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 d/dx ∫₀ˣ(t³−x³)sin(t)dt",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3x²(cosx−1)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "x³sinx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2x³(1+cosx)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "x²cosx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "拆分积分并用变限积分求导。",
+  "search_text": "求 d/dx ∫₀ˣ(t³−x³)sin(t)dt 3x²(cosx−1) x³sinx 2x³(1+cosx) x²cosx 拆分积分并用变限积分求导。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/(z^2-z-2)$ 在 $|z|<1$ 内的 Taylor 展开式是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac13\\sum_{n=0}^{\\infty}(1/2^{n+1}+(-1)^n)z^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13\\sum_{n=0}^{\\infty}((-1)^n/2^{n+1}+1)z^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13\\sum_{n=0}^{\\infty}(1/2^{n+1}+1)z^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13\\sum_{n=0}^{\\infty}(1/2^{n+1}+(-1)^n)z^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "部分分式分解后按几何级数展开，得到 $-\\frac13\\sum_{n=0}^{\\infty}(1/2^{n+1}+(-1)^n)z^n$。",
+  "search_text": "函数 $1/(z^2-z-2)$ 在 $|z|<1$ 内的 Taylor 展开式是（ ） $-\\frac13\\sum_{n=0}^{\\infty}(1/2^{n+1}+(-1)^n)z^n$ $\\frac13\\sum_{n=0}^{\\infty}((-1)^n/2^{n+1}+1)z^n$ $\\frac13\\sum_{n=0}^{\\infty}(1/2^{n+1}+1)z^n$ $\\frac13\\sum_{n=0}^{\\infty}(1/2^{n+1}+(-1)^n)z^n$ 部分分式分解后按几何级数展开，得到 $-\\frac13\\sum_{n=0}^{\\infty}(1/2^{n+1}+(-1)^n)z^n$。",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)$ 在点 $x=x_0$ 处连续且取得极值，则 $f(x)$ 在 $x_0$ 处必有 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f'(x_0)>0$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f'(x_0)=0$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f'(x_0)=0$ 或者 $f'(x_0)$ 不存在。"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f'(x_0)<0$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由费马定理，若 $f$ 在 $x_0$ 处可导，则 $f'(x_0)=0$；若不可导，导数不存在。",
+  "search_text": "函数 $f(x)$ 在点 $x=x_0$ 处连续且取得极值，则 $f(x)$ 在 $x_0$ 处必有 $(\\quad)$。 $f'(x_0)>0$； $f'(x_0)=0$； $f'(x_0)=0$ 或者 $f'(x_0)$ 不存在。 $f'(x_0)<0$； 由费马定理，若 $f$ 在 $x_0$ 处可导，则 $f'(x_0)=0$；若不可导，导数不存在。",
+  "sort_order": 20
+}

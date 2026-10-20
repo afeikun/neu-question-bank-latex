@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "limₙ→∞(1/(n+1)+1/(n+2)+…+1/(n+n))",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "ln2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "ln6"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "ln4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "这是黎曼和，极限为∫₀¹dx/(1+x)=ln2。",
+  "search_text": "limₙ→∞(1/(n+1)+1/(n+2)+…+1/(n+n)) ln2 ln6 2 ln4 这是黎曼和，极限为∫₀¹dx/(1+x)=ln2。",
+  "sort_order": 34
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=\\frac1{\\ln(x-1)}$ 的连续区间是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1,+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "[1,+\\infty)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1,2)\\cup(2,+\\infty)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1,2),(2,+\\infty)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "定义域要求 $x>1$，且分母不为零需 $x\\ne2$，故在两段区间连续。",
+  "search_text": "$y=\\frac1{\\ln(x-1)}$ 的连续区间是（ ）。 $(1,+\\infty)$ [1,+\\infty) $(1,2)\\cup(2,+\\infty)$ $(1,2),(2,+\\infty)$ 定义域要求 $x>1$，且分母不为零需 $x\\ne2$，故在两段区间连续。",
+  "sort_order": 14
+}

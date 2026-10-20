@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\vec a,\\vec b,\\vec c$ 为非零向量，则下列叙述正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $\\vec a\\cdot\\vec b=\\vec a\\cdot\\vec c$，则 $\\vec b=\\vec c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若 $(\\vec a-\\vec b)\\cdot(\\vec a+\\vec b)=0$，则 $\\vec a=\\vec b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\vec a\\cdot\\vec b)\\vec c=\\vec a(\\vec b\\cdot\\vec c)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|\\vec a\\cdot\\vec b|\\le|\\vec a||\\vec b|$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由柯西不等式，$|\\vec a\\cdot\\vec b|=|\\vec a||\\vec b||\\cos\\theta|\\le|\\vec a||\\vec b|$。",
+  "search_text": "$\\vec a,\\vec b,\\vec c$ 为非零向量，则下列叙述正确的是(\\quad)。 若 $\\vec a\\cdot\\vec b=\\vec a\\cdot\\vec c$，则 $\\vec b=\\vec c$ 若 $(\\vec a-\\vec b)\\cdot(\\vec a+\\vec b)=0$，则 $\\vec a=\\vec b$ $(\\vec a\\cdot\\vec b)\\vec c=\\vec a(\\vec b\\cdot\\vec c)$ $|\\vec a\\cdot\\vec b|\\le|\\vec a||\\vec b|$ 由柯西不等式，$|\\vec a\\cdot\\vec b|=|\\vec a||\\vec b||\\cos\\theta|\\le|\\vec a||\\vec b|$。",
+  "sort_order": 36
+}

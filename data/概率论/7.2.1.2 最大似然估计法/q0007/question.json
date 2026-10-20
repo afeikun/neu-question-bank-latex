@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\theta x^{\\theta-1},0<x<1$，求$\\theta$极大似然估计。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-n/\\sum\\ln X_i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X/(1-\\bar X)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/\\bar X-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n/\\sum\\ln X_i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对数似然导数为$n/\\theta+\\sum\\ln X_i=0$。",
+  "search_text": "$f(x)=\\theta x^{\\theta-1},0<x<1$，求$\\theta$极大似然估计。 $-n/\\sum\\ln X_i$ $\\bar X/(1-\\bar X)$ $1/\\bar X-1$ $n/\\sum\\ln X_i$ 对数似然导数为$n/\\theta+\\sum\\ln X_i=0$。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A=\\begin{pmatrix}2&1\\\\-1&2\\end{pmatrix}$，$E$ 是 $2$ 阶单位矩阵，矩阵 $B$ 满足 $BA=B+2E$，则 $|B|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$BA=B+2E\\Rightarrow B(A-E)=2E\\Rightarrow |B||A-E|=2^2$，而 $A-E=\\begin{pmatrix}1&1\\\\-1&1\\end{pmatrix}\\Rightarrow |A-E|=2\\Rightarrow |B|=2$。",
+  "search_text": "已知 $A=\\begin{pmatrix}2&1\\\\-1&2\\end{pmatrix}$，$E$ 是 $2$ 阶单位矩阵，矩阵 $B$ 满足 $BA=B+2E$，则 $|B|=$（ ）。 $3$ $4$ $5$ $2$ $BA=B+2E\\Rightarrow B(A-E)=2E\\Rightarrow |B||A-E|=2^2$，而 $A-E=\\begin{pmatrix}1&1\\\\-1&1\\end{pmatrix}\\Rightarrow |A-E|=2\\Rightarrow |B|=2$。",
+  "sort_order": 79
+}

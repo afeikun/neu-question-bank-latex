@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim N(0,1),\\eta\\sim N(a,\\sigma^2)$，两者关系为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\eta=a+\\sigma\\xi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\eta=(\\xi-a)/\\sigma$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\eta=(\\xi-a)/\\sigma^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\eta=a+\\sigma^2\\xi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正态变量标准化得$\\xi=(\\eta-a)/\\sigma$，即$\\eta=a+\\sigma\\xi$。",
+  "search_text": "$\\xi\\sim N(0,1),\\eta\\sim N(a,\\sigma^2)$，两者关系为？ $\\eta=a+\\sigma\\xi$ $\\eta=(\\xi-a)/\\sigma$ $\\eta=(\\xi-a)/\\sigma^2$ $\\eta=a+\\sigma^2\\xi$ 正态变量标准化得$\\xi=(\\eta-a)/\\sigma$，即$\\eta=a+\\sigma\\xi$。",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "初值问题 $\\frac{dy}{dx}=\\sqrt{x^2-x^2y^2+1-y^2},\\ y(0)=\\frac12$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\sin\\left(\\frac{x}{2}\\sqrt{1+x^2}+\\frac12\\ln(x+\\sqrt{1+x^2})-\\frac\\pi6\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x^2+\\arctan x^2+\\arcsin x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\tan(x+\\frac\\pi4-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\ln(x+1+\\frac\\pi6)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\frac{dy'}{\\sqrt{1-y^2}}=\\sqrt{1+x^2}\\,dx$，两边积分得\n\n左边 $=\\arcsin y,$\n\n右边 $=\\int\\sqrt{1+x^2}\\,dx=x\\sqrt{1+x^2}-\\int\\frac{x^2}{\\sqrt{1+x^2}}\\,dx\\qquad（分部积分）$\n\n$=x\\sqrt{1+x^2}-\\int\\left(\\sqrt{1+x^2}-\\frac{1}{\\sqrt{1+x^2}}\\right)dx$\n\n解出 $\\int\\sqrt{1+x^2}\\,dx=\\frac{1}{2}x\\sqrt{1+x^2}+\\frac{1}{2}\\ln\\left(x+\\sqrt{1+x^2}\\right)$\n\n代入 $y(0)=\\frac{1}{2}$，得到 C.",
+  "search_text": "初值问题 $\\frac{dy}{dx}=\\sqrt{x^2-x^2y^2+1-y^2},\\ y(0)=\\frac12$ 的解为（ ） $y=\\sin\\left(\\frac{x}{2}\\sqrt{1+x^2}+\\frac12\\ln(x+\\sqrt{1+x^2})-\\frac\\pi6\\right)$ $y=x^2+\\arctan x^2+\\arcsin x$ $y=\\tan(x+\\frac\\pi4-1)$ $y=\\ln(x+1+\\frac\\pi6)$ 由 $\\frac{dy'}{\\sqrt{1-y^2}}=\\sqrt{1+x^2}\\,dx$，两边积分得\n\n左边 $=\\arcsin y,$\n\n右边 $=\\int\\sqrt{1+x^2}\\,dx=x\\sqrt{1+x^2}-\\int\\frac{x^2}{\\sqrt{1+x^2}}\\,dx\\qquad（分部积分）$\n\n$=x\\sqrt{1+x^2}-\\int\\left(\\sqrt{1+x^2}-\\frac{1}{\\sqrt{1+x^2}}\\right)dx$\n\n解出 $\\int\\sqrt{1+x^2}\\,dx=\\frac{1}{2}x\\sqrt{1+x^2}+\\frac{1}{2}\\ln\\left(x+\\sqrt{1+x^2}\\right)$\n\n代入 $y(0)=\\frac{1}{2}$，得到 C.",
+  "sort_order": 24
+}

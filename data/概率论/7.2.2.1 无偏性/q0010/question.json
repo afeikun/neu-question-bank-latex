@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "指数总体均值$\\lambda$，$Y=\\min X_i$，若$cY$无偏估计$\\lambda$，则$c=$（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/n^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/n^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$Y$服从参数$n/\\lambda$的指数分布，$E(Y)=\\lambda/n$。",
+  "search_text": "指数总体均值$\\lambda$，$Y=\\min X_i$，若$cY$无偏估计$\\lambda$，则$c=$（）。 $1/n$ $1/n^2$ $1/n^3$ $n^2$ $Y$服从参数$n/\\lambda$的指数分布，$E(Y)=\\lambda/n$。",
+  "sort_order": 10
+}

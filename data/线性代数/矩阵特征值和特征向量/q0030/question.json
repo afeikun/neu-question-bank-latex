@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\xi_1,\\xi_2$ 是方程 $(\\lambda E-A)x=0$ 两个不同的非零解向量，则下列向量中必是 $A$ 的对应于特征值 $\\lambda$ 的特征向量的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\xi_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\xi_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\xi_1-\\xi_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\xi_1+\\xi_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "两个非零解向量之差仍是该齐次方程的解，且 $\\xi_1\\ne\\xi_2$ 时差向量非零，选项 3。",
+  "search_text": "已知 $\\xi_1,\\xi_2$ 是方程 $(\\lambda E-A)x=0$ 两个不同的非零解向量，则下列向量中必是 $A$ 的对应于特征值 $\\lambda$ 的特征向量的是(\\quad)。 $\\xi_1$ $\\xi_2$ $\\xi_1-\\xi_2$ $\\xi_1+\\xi_2$ 两个非零解向量之差仍是该齐次方程的解，且 $\\xi_1\\ne\\xi_2$ 时差向量非零，选项 3。",
+  "sort_order": 30
+}

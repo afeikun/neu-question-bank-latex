@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "初值问题 $y\\prime=(1+y^2)e^x,\\ y|_{x=0}=1$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\ln(e^x+\\frac\\pi4-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\tan(e^x+\\frac\\pi4-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\sin(x+\\frac\\pi4-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\cos(x+\\frac\\pi4-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\frac{dy}{1+y^2}=e^x\\,dx$，积分得\n\n$\\arctan y=e^x+C,\\quad y=\\tan(e^x+C)$，\n\n代入 $y(0)=1$，$C=\\frac{\\pi}{4}-1$。",
+  "search_text": "初值问题 $y\\prime=(1+y^2)e^x,\\ y|_{x=0}=1$ 的解为（ ） $y=\\ln(e^x+\\frac\\pi4-1)$ $y=\\tan(e^x+\\frac\\pi4-1)$ $y=\\sin(x+\\frac\\pi4-1)$ $y=\\cos(x+\\frac\\pi4-1)$ $\\frac{dy}{1+y^2}=e^x\\,dx$，积分得\n\n$\\arctan y=e^x+C,\\quad y=\\tan(e^x+C)$，\n\n代入 $y(0)=1$，$C=\\frac{\\pi}{4}-1$。",
+  "sort_order": 8
+}

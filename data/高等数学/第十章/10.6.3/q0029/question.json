@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列方程具有什么样形式的特解：$y\\prime\\prime+5y\\prime+6y=3xe^{-2x}$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^*=x(b_0x+b_1)e^{-3x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^*=(b_0x+b_1)e^{-2x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^*=x(b_0x+b_1)e^{2x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^*=x(b_0x+b_1)e^{-2x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "因 $\\lambda=-2$ 是特征方程 $r^2+5r+6=0$ 的单根，故方程具有特解形式：$y^*=x(b_0x+b_1)e^{-2x}$；",
+  "search_text": "下列方程具有什么样形式的特解：$y\\prime\\prime+5y\\prime+6y=3xe^{-2x}$（ ） $y^*=x(b_0x+b_1)e^{-3x}$ $y^*=(b_0x+b_1)e^{-2x}$ $y^*=x(b_0x+b_1)e^{2x}$ $y^*=x(b_0x+b_1)e^{-2x}$ 因 $\\lambda=-2$ 是特征方程 $r^2+5r+6=0$ 的单根，故方程具有特解形式：$y^*=x(b_0x+b_1)e^{-2x}$；",
+  "sort_order": 29
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $|a|>1$，求 $\\sum_{n=0}^{\\infty}(1/a^{2n}-1/a^{2n+1})$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/(a-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a/(a+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "等比求和得 $a/(a+1)$。",
+  "search_text": "若 $|a|>1$，求 $\\sum_{n=0}^{\\infty}(1/a^{2n}-1/a^{2n+1})$。 $1/(a-1)$ $a-1$ $0$ $a/(a+1)$ 等比求和得 $a/(a+1)$。",
+  "sort_order": 14
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x^2+\\frac{y^2}{9}-\\frac{z^2}{25}=-1$ 在空间中表示(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "虚椭球面"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单叶双曲面"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "双叶双曲面"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "双曲抛物面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：由双叶双曲面的一般方程 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}-\\frac{z^2}{c^2}=-1$ 可知，方程的图像为双叶双曲面。",
+  "search_text": "方程 $x^2+\\frac{y^2}{9}-\\frac{z^2}{25}=-1$ 在空间中表示(\\quad)。 虚椭球面 单叶双曲面 双叶双曲面 双曲抛物面 解答：由双叶双曲面的一般方程 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}-\\frac{z^2}{c^2}=-1$ 可知，方程的图像为双叶双曲面。",
+  "sort_order": 1
+}

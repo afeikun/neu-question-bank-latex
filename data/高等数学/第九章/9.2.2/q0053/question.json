@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma:x^2+y^2+z^2=4$，以下哪个第一型曲面积分与另外三个不同？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iint_\\Sigma3(x+y)^2dS$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iint_\\Sigma(3y+z)^2dS$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iint_\\Sigma6z^2dS$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iint_\\Sigma(2x+y+z)^2dS$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：根据对称性$\\iint_\\Sigma(2x+y+z)^2\\,dS=\\iint_\\Sigma6z^2\\,dS=\\iint_\\Sigma3(x+y)^2\\,dS$，",
+  "search_text": "设 $\\Sigma:x^2+y^2+z^2=4$，以下哪个第一型曲面积分与另外三个不同？ $\\iint_\\Sigma3(x+y)^2dS$ $\\iint_\\Sigma(3y+z)^2dS$ $\\iint_\\Sigma6z^2dS$ $\\iint_\\Sigma(2x+y+z)^2dS$ 解答：根据对称性$\\iint_\\Sigma(2x+y+z)^2\\,dS=\\iint_\\Sigma6z^2\\,dS=\\iint_\\Sigma3(x+y)^2\\,dS$，",
+  "sort_order": 53
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z),g(y)$ 可微，曲线 $x=f(z),z=g(y)$ 在点 $(x_0,y_0,z_0)$ 处的法平面方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f'(z_0)g'(y_0)(x-x_0)+(y-y_0)+g'(y_0)(z-z_0)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f'(z_0)(x-x_0)+g'(y_0)(y-y_0)+g'(y_0)(z-z_0)=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f'(z_0)(x-x_0)+g'(y_0)(y-y_0)+f'(z_0)(z-z_0)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f'(z_0)(x-x_0)+g'(y_0)(y-y_0)+(z-z_0)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于\n$$\n\\begin{cases}\nx=f(z)=f(g(y))\\\\\ny=y\\\\\nz=g(y)\n\\end{cases}\n$$\n因此可把 $y$ 作为变量，有：\n$$\n\\frac{\\partial x}{\\partial y}=\\frac{\\partial f(z)}{\\partial y}=f'(z_0)g'(y_0),\\quad\n\\frac{\\partial z}{\\partial y}=\\frac{\\partial g(y)}{\\partial y}=g'(y_0),\\quad\n\\frac{\\partial y}{\\partial y}=1,\n$$\n则曲线在点 $(x_0,y_0,z_0)$ 处的切向量为 $(f'(z_0)g'(y_0),1,g'(y_0))$，曲线法平面方程为：\n$$\nf'(z_0)g'(y_0)(x-x_0)+(y-y_0)+g'(y_0)(z-z_0)=0.\n$$",
+  "search_text": "设 $f(z),g(y)$ 可微，曲线 $x=f(z),z=g(y)$ 在点 $(x_0,y_0,z_0)$ 处的法平面方程为。 $f'(z_0)g'(y_0)(x-x_0)+(y-y_0)+g'(y_0)(z-z_0)=0$ $f'(z_0)(x-x_0)+g'(y_0)(y-y_0)+g'(y_0)(z-z_0)=0$ $f'(z_0)(x-x_0)+g'(y_0)(y-y_0)+f'(z_0)(z-z_0)=0$ $f'(z_0)(x-x_0)+g'(y_0)(y-y_0)+(z-z_0)=0$ 由于\n$$\n\\begin{cases}\nx=f(z)=f(g(y))\\\\\ny=y\\\\\nz=g(y)\n\\end{cases}\n$$\n因此可把 $y$ 作为变量，有：\n$$\n\\frac{\\partial x}{\\partial y}=\\frac{\\partial f(z)}{\\partial y}=f'(z_0)g'(y_0),\\quad\n\\frac{\\partial z}{\\partial y}=\\frac{\\partial g(y)}{\\partial y}=g'(y_0),\\quad\n\\frac{\\partial y}{\\partial y}=1,\n$$\n则曲线在点 $(x_0,y_0,z_0)$ 处的切向量为 $(f'(z_0)g'(y_0),1,g'(y_0))$，曲线法平面方程为：\n$$\nf'(z_0)g'(y_0)(x-x_0)+(y-y_0)+g'(y_0)(z-z_0)=0.\n$$",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_{x^2+y^2\\leq a^2}dxdy$ 的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答　令 $x=r\\cos\\theta,y=r\\sin\\theta,0\\leq\\theta\\leq2\\pi,0\\leq r\\leq a$，则有原式 $=\\int_0^{2\\pi}d\\theta\\int_0^a rdr=\\pi a^2$。",
+  "search_text": "二重积分 $\\iint_{x^2+y^2\\leq a^2}dxdy$ 的值为[\\quad] $a^2$ $1$ $0$ $\\pi a^2$ 解答　令 $x=r\\cos\\theta,y=r\\sin\\theta,0\\leq\\theta\\leq2\\pi,0\\leq r\\leq a$，则有原式 $=\\int_0^{2\\pi}d\\theta\\int_0^a rdr=\\pi a^2$。",
+  "sort_order": 8
+}

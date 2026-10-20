@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $n$ 维列向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_m\\ (m\\ge2)$ 线性无关，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "对任意一组数 $k_1,k_2,\\ldots,k_m$，使等式 $k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_m\\alpha_m=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "对任意 $n$ 维向量 $\\beta$，有 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_m,\\beta$ 线性相关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1,\\alpha_2,\\ldots,\\alpha_m\\ (m\\ge2)$ 中任意两个向量均线性无关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$m>n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "线性无关向量组的任意部分组仍线性无关，所以其中任意两个向量均线性无关；并且其向量个数满足 $m\\le n$。",
+  "search_text": "已知 $n$ 维列向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_m\\ (m\\ge2)$ 线性无关，则（ ）。 对任意一组数 $k_1,k_2,\\ldots,k_m$，使等式 $k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_m\\alpha_m=0$ 对任意 $n$ 维向量 $\\beta$，有 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_m,\\beta$ 线性相关 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_m\\ (m\\ge2)$ 中任意两个向量均线性无关 $m>n$ 线性无关向量组的任意部分组仍线性无关，所以其中任意两个向量均线性无关；并且其向量个数满足 $m\\le n$。",
+  "sort_order": 31
+}

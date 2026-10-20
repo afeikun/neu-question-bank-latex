@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u)$ 有连续导数，$S$ 是 $y=x^2+z^2,y=8-x^2-z^2$ 所围立体的外侧，则 $I=\\iint_S\\frac1y f(\\frac{x}{y})dy dz+\\frac1x f(\\frac{x}{y})dz dx+zdxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$16\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n设 $\\Omega$ 是 $S$ 所围成的区域，它在 $xOz$ 平面上的投影为 $x^2+z^2=4$，于是，由高斯公式得\n\n$$I=\\iiint_{\\Omega}\\left\\{\\frac{\\partial}{\\partial x}\\left[\\frac{1}{y}f\\left(\\frac{x}{y}\\right)\\right]+\\frac{\\partial}{\\partial y}\\left[\\frac{1}{x}f\\left(\\frac{x}{y}\\right)\\right]+\\frac{\\partial}{\\partial x}(z)\\right\\}dxdydz$$\n\n$$=\\iiint_{\\Omega}\\left[\\frac{1}{y^2}f'\\left(\\frac{x}{y}\\right)-\\frac{1}{y^2}f'\\left(\\frac{x}{y}\\right)+1\\right]dxdydz=\\iiint_{\\Omega}dxdydz$$\n\n利用柱面坐标，令 $z=r\\cos\\theta,x=r\\sin\\theta,y=y$\n\n$$\\therefore\\ I=\\int_0^{2\\pi}\\int_0^2\\int_{r^2}^{8-r^2}r\\,dydr\\,d\\theta=2\\pi\\int_0^2(8r-2r^3)dr=16\\pi$$",
+  "search_text": "设 $f(u)$ 有连续导数，$S$ 是 $y=x^2+z^2,y=8-x^2-z^2$ 所围立体的外侧，则 $I=\\iint_S\\frac1y f(\\frac{x}{y})dy dz+\\frac1x f(\\frac{x}{y})dz dx+zdxdy=$（ ） $4\\pi$ $2\\pi$ $16\\pi$ $8\\pi$ 参考答案：\n\n设 $\\Omega$ 是 $S$ 所围成的区域，它在 $xOz$ 平面上的投影为 $x^2+z^2=4$，于是，由高斯公式得\n\n$$I=\\iiint_{\\Omega}\\left\\{\\frac{\\partial}{\\partial x}\\left[\\frac{1}{y}f\\left(\\frac{x}{y}\\right)\\right]+\\frac{\\partial}{\\partial y}\\left[\\frac{1}{x}f\\left(\\frac{x}{y}\\right)\\right]+\\frac{\\partial}{\\partial x}(z)\\right\\}dxdydz$$\n\n$$=\\iiint_{\\Omega}\\left[\\frac{1}{y^2}f'\\left(\\frac{x}{y}\\right)-\\frac{1}{y^2}f'\\left(\\frac{x}{y}\\right)+1\\right]dxdydz=\\iiint_{\\Omega}dxdydz$$\n\n利用柱面坐标，令 $z=r\\cos\\theta,x=r\\sin\\theta,y=y$\n\n$$\\therefore\\ I=\\int_0^{2\\pi}\\int_0^2\\int_{r^2}^{8-r^2}r\\,dydr\\,d\\theta=2\\pi\\int_0^2(8r-2r^3)dr=16\\pi$$",
+  "sort_order": 18
+}

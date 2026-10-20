@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\lim_{x\\to0}(1+5x)^{1/x+2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{5/2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{2/3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "拆为 $(1+5x)^{1/x}(1+5x)^2$，极限为 $e^5$。",
+  "search_text": "求 $\\lim_{x\\to0}(1+5x)^{1/x+2}$。 $e^{5/2}$ 1 $e^5$ $e^{2/3}$ 拆为 $(1+5x)^{1/x}(1+5x)^2$，极限为 $e^5$。",
+  "sort_order": 22
+}

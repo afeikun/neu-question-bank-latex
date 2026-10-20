@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "样本容量固定时，给定$\\alpha$及第二类错误概率$\\beta$，有（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha+\\beta<2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha+\\beta=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha+\\beta>1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha+\\beta<1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两类错误不能同时任意小，概率和小于2。",
+  "search_text": "样本容量固定时，给定$\\alpha$及第二类错误概率$\\beta$，有（）。 $\\alpha+\\beta<2$ $\\alpha+\\beta=1$ $\\alpha+\\beta>1$ $\\alpha+\\beta<1$ 两类错误不能同时任意小，概率和小于2。",
+  "sort_order": 10
+}

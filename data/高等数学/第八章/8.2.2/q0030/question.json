@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "三重积分 $\\iiint_\\Omega(y^2+z^2)dv$（其中 $\\Omega:x^2+y^2+z^2\\leq1$）的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac2{15}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac4{15}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac8{15}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac8{15}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为 $\\Omega$ 关于三个坐标面对称，于是\n\n原式 $=2\\iiint_{\\Omega}z^2dv$\n\n$$\n=\\int_{-1}^1z^2dz\\iint_{x^2+y^2\\leq1-z^2}dxdy\n$$\n\n$$\n=4\\int_0^1z^2\\pi(1-z^2)dz\n$$\n\n$$\n=\\frac{8}{15}\\pi。\n$$",
+  "search_text": "三重积分 $\\iiint_\\Omega(y^2+z^2)dv$（其中 $\\Omega:x^2+y^2+z^2\\leq1$）的值为（ ） $\\frac2{15}\\pi$ $\\frac4{15}\\pi$ $\\frac8{15}\\pi$ $-\\frac8{15}\\pi$ 因为 $\\Omega$ 关于三个坐标面对称，于是\n\n原式 $=2\\iiint_{\\Omega}z^2dv$\n\n$$\n=\\int_{-1}^1z^2dz\\iint_{x^2+y^2\\leq1-z^2}dxdy\n$$\n\n$$\n=4\\int_0^1z^2\\pi(1-z^2)dz\n$$\n\n$$\n=\\frac{8}{15}\\pi。\n$$",
+  "sort_order": 30
+}

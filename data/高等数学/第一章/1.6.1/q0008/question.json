@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{\\tan x\\cdot\\sin x^3}{1-\\cos x^2}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用 $\\tan x\\sim x$、$\\sin x^3\\sim x^3$、$1-\\cos x^2\\sim x^4/2$，得 2。",
+  "search_text": "$\\lim_{x\\to0}\\frac{\\tan x\\cdot\\sin x^3}{1-\\cos x^2}=[\\quad]$。 不存在 2 $\\frac12$ 0 利用 $\\tan x\\sim x$、$\\sin x^3\\sim x^3$、$1-\\cos x^2\\sim x^4/2$，得 2。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal L\\left[\\displaystyle\\int_0^t\\dfrac{\\sin x}{x}\\,dx\\right]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1s\\left(\\dfrac\\pi2-\\arctan s\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1s\\left(\\dfrac\\pi2+\\arctan s\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$s\\left(\\dfrac\\pi2-\\arctan s\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$s\\left(\\dfrac\\pi2+\\arctan s\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal L\\left[\\dfrac{\\sin t}{t}\\right]=\\int_s^{+\\infty}\\dfrac{1}{1+s^2}\\,ds=\\dfrac\\pi2-\\arctan s$，故 $\\mathcal L\\left[\\int_0^t\\dfrac{\\sin x}{x}\\,dx\\right]=\\dfrac1s\\left(\\dfrac\\pi2-\\arctan s\\right)$。",
+  "search_text": "$\\mathcal L\\left[\\displaystyle\\int_0^t\\dfrac{\\sin x}{x}\\,dx\\right]=(\\ \\ )$。 $\\dfrac1s\\left(\\dfrac\\pi2-\\arctan s\\right)$ $\\dfrac1s\\left(\\dfrac\\pi2+\\arctan s\\right)$ $s\\left(\\dfrac\\pi2-\\arctan s\\right)$ $s\\left(\\dfrac\\pi2+\\arctan s\\right)$ $\\mathcal L\\left[\\dfrac{\\sin t}{t}\\right]=\\int_s^{+\\infty}\\dfrac{1}{1+s^2}\\,ds=\\dfrac\\pi2-\\arctan s$，故 $\\mathcal L\\left[\\int_0^t\\dfrac{\\sin x}{x}\\,dx\\right]=\\dfrac1s\\left(\\dfrac\\pi2-\\arctan s\\right)$。",
+  "sort_order": 19
+}

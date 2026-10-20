@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线xy=4（y≥1,x>0）围成区域绕y轴旋转所得体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "6π"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "16π"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "8π"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "14π"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "圆盘法V=π∫₁^∞16/y²dy=16π。",
+  "search_text": "曲线xy=4（y≥1,x>0）围成区域绕y轴旋转所得体积 6π 16π 8π 14π 圆盘法V=π∫₁^∞16/y²dy=16π。",
+  "sort_order": 4
+}

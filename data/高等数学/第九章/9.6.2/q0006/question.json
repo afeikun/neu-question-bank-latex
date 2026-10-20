@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 是从 $A(1,1)$ 到 $B(2,3)$ 的直线段，求 $I=\\int_C(x+3y)\\,dx+(y+3x)\\,dy$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_1^2(x+3)dx+\\int_1^3(y+6)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_1^2(x+2x+1)dx+\\int_1^3[y+\\frac32(y+1)]dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_1^2[(x+2x-1)+(2x-1+3x)]dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_1^2[(x+6x)+(2x+3x)]dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n$$P=x+3y，\\quad Q=y+3x，$$\n\n$\\frac{\\partial P}{\\partial y}=3=\\frac{\\partial Q}{\\partial x}$，所以与积分路径无关，因此 $C$ 可用 $C_1+C_2$ 来代替，\n\n其中 $C_1$ 是 $(1,1)$ 到 $(2,1)$ 的直线段；$C_2$ 是 $(2,1)$ 到 $(2,3)$ 的直线段，\n\n则 $C_1$ 可表示为：$y=1，\\quad 1\\le x\\le 2$；$C_2$ 可表示为 $x=2，\\quad 1\\le y\\le 3$；\n\n故 $I=\\int_1^2(x+3)\\,dx+\\int_1^3(y+6)\\,dy.$\n\n另外：$C$ 可表示为 $y=2x-1，\\quad 1\\le x\\le 2$，\n\n故 $I=\\int_1^2[x+3(2x-1)]\\,dx+[2x-1+3x]\\cdot 2\\,dx$\n\n$$=\\int_1^2(17x-5)\\,dx$$",
+  "search_text": "设 $C$ 是从 $A(1,1)$ 到 $B(2,3)$ 的直线段，求 $I=\\int_C(x+3y)\\,dx+(y+3x)\\,dy$（ ） $\\int_1^2(x+3)dx+\\int_1^3(y+6)dy$ $\\int_1^2(x+2x+1)dx+\\int_1^3[y+\\frac32(y+1)]dy$ $\\int_1^2[(x+2x-1)+(2x-1+3x)]dx$ $\\int_1^2[(x+6x)+(2x+3x)]dx$ 解析：\n\n$$P=x+3y，\\quad Q=y+3x，$$\n\n$\\frac{\\partial P}{\\partial y}=3=\\frac{\\partial Q}{\\partial x}$，所以与积分路径无关，因此 $C$ 可用 $C_1+C_2$ 来代替，\n\n其中 $C_1$ 是 $(1,1)$ 到 $(2,1)$ 的直线段；$C_2$ 是 $(2,1)$ 到 $(2,3)$ 的直线段，\n\n则 $C_1$ 可表示为：$y=1，\\quad 1\\le x\\le 2$；$C_2$ 可表示为 $x=2，\\quad 1\\le y\\le 3$；\n\n故 $I=\\int_1^2(x+3)\\,dx+\\int_1^3(y+6)\\,dy.$\n\n另外：$C$ 可表示为 $y=2x-1，\\quad 1\\le x\\le 2$，\n\n故 $I=\\int_1^2[x+3(2x-1)]\\,dx+[2x-1+3x]\\cdot 2\\,dx$\n\n$$=\\int_1^2(17x-5)\\,dx$$",
+  "sort_order": 6
+}

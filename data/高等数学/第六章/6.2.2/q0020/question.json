@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec a=(2,-3,1)$，$\\vec b=(1,-2,3)$，$\\vec c=(2,1,2)$，向量 $\\vec r$ 满足 $\\vec r\\perp\\vec a$，$\\vec r\\perp\\vec b$，且 $\\operatorname{Prj}_{\\vec c}\\vec r=14$，则 $\\vec r$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(10,2,14)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(7,5,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(14,10,2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(12,10,4)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$r$ 平行于 $a\\times b=(-7,-5,-1)$，代入投影条件得比例系数，故 $r=(14,10,2)$。",
+  "search_text": "设 $\\vec a=(2,-3,1)$，$\\vec b=(1,-2,3)$，$\\vec c=(2,1,2)$，向量 $\\vec r$ 满足 $\\vec r\\perp\\vec a$，$\\vec r\\perp\\vec b$，且 $\\operatorname{Prj}_{\\vec c}\\vec r=14$，则 $\\vec r$ 为(\\quad)。 $(10,2,14)$ $(7,5,1)$ $(14,10,2)$ $(12,10,4)$ $r$ 平行于 $a\\times b=(-7,-5,-1)$，代入投影条件得比例系数，故 $r=(14,10,2)$。",
+  "sort_order": 20
+}

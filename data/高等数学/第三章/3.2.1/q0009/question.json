@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $\\ln x$ 按 $(x-2)$ 的幂展开带有 Peano 型余项 Taylor 公式为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln2-\\frac12(x-2)-\\frac1{2\\cdot2^2}(x-2)^2-\\cdots-\\frac1{n\\cdot2^n}(x-2)^n+o((x-2)^n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln2+\\frac12(x-2)-\\frac1{2\\cdot2^2}(x-2)^2+\\frac1{3\\cdot2^3}(x-2)^3+\\cdots+(-1)^{n-1}\\frac1{n\\cdot2^n}(x-2)^n+o((x-2)^n)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln2+\\frac12(x-2)+\\frac1{2\\cdot2^2}(x-2)^2+\\cdots+\\frac1{n\\cdot2^n}(x-2)^n+o((x-2)^n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln2-\\frac12(x-2)+\\frac1{2\\cdot2^2}(x-2)^2-\\cdots+(-1)^{n-1}\\frac1{n\\cdot2^n}(x-2)^n+o((x-2)^n)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f^{(n)}(x)=(-1)^{n-1}(n-1)!/x^n$，故 $f^{(n)}(2)=(-1)^{n-1}(n-1)!/2^n$，代入 Taylor 公式。",
+  "search_text": "函数 $\\ln x$ 按 $(x-2)$ 的幂展开带有 Peano 型余项 Taylor 公式为 $(\\quad)$。 $\\ln2-\\frac12(x-2)-\\frac1{2\\cdot2^2}(x-2)^2-\\cdots-\\frac1{n\\cdot2^n}(x-2)^n+o((x-2)^n)$ $\\ln2+\\frac12(x-2)-\\frac1{2\\cdot2^2}(x-2)^2+\\frac1{3\\cdot2^3}(x-2)^3+\\cdots+(-1)^{n-1}\\frac1{n\\cdot2^n}(x-2)^n+o((x-2)^n)$ $\\ln2+\\frac12(x-2)+\\frac1{2\\cdot2^2}(x-2)^2+\\cdots+\\frac1{n\\cdot2^n}(x-2)^n+o((x-2)^n)$ $\\ln2-\\frac12(x-2)+\\frac1{2\\cdot2^2}(x-2)^2-\\cdots+(-1)^{n-1}\\frac1{n\\cdot2^n}(x-2)^n+o((x-2)^n)$ $f^{(n)}(x)=(-1)^{n-1}(n-1)!/x^n$，故 $f^{(n)}(2)=(-1)^{n-1}(n-1)!/2^n$，代入 Taylor 公式。",
+  "sort_order": 9
+}

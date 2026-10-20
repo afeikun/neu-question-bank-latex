@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "点集 $\\{z\\mid0<\\operatorname{Im}z\\le1\\}$ 的内点全体为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{z\\mid-1<\\operatorname{Im}z<0\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{z\\mid-1<\\operatorname{Re}z<0\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{z\\mid-1\\le\\operatorname{Im}z<0\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{z\\mid-1<\\operatorname{Im}z\\le0\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "题面与选项所示带状区域上下界符号不一致，按 DOM 保留选项。",
+  "search_text": "点集 $\\{z\\mid0<\\operatorname{Im}z\\le1\\}$ 的内点全体为（ ）。 $\\{z\\mid-1<\\operatorname{Im}z<0\\}$ $\\{z\\mid-1<\\operatorname{Re}z<0\\}$ $\\{z\\mid-1\\le\\operatorname{Im}z<0\\}$ $\\{z\\mid-1<\\operatorname{Im}z\\le0\\}$ 题面与选项所示带状区域上下界符号不一致，按 DOM 保留选项。",
+  "sort_order": 32
+}

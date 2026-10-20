@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{r\\to0}\\frac1{\\pi r^2}\\iint_D e^{x^2-y^2}\\cos(x+y)\\,dxdy$ 的值为（ ）。（其中 $D$ 为中心在原点、半径为 $r$ 的圆所围成的区域。）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 因 $e^{x^2-y^2}\\cos(x+y)$ 在 $D$ 上连续，由二重积分中值定理知在 $D$ 内至少存在一点 $(\\xi,\\eta)$ 使\n\n$$\\iint_D e^{x^2-y^2}\\cos(x+y)dxdy=e^{\\xi^2-\\eta^2}\\cos(\\xi+\\eta)\\cdot\\pi r^2,$$\n\n$$\\therefore\\lim_{r\\to0}\\frac{1}{\\pi r^2}\\iint_D e^{x^2-y^2}\\cos(x+y)dxdy=\\lim_{r\\to0}e^{\\xi^2-\\eta^2}\\cos(\\xi+\\eta)=1$$",
+  "search_text": "$\\lim_{r\\to0}\\frac1{\\pi r^2}\\iint_D e^{x^2-y^2}\\cos(x+y)\\,dxdy$ 的值为（ ）。（其中 $D$ 为中心在原点、半径为 $r$ 的圆所围成的区域。） $0$ $1$ $-1$ $2$ 解答 因 $e^{x^2-y^2}\\cos(x+y)$ 在 $D$ 上连续，由二重积分中值定理知在 $D$ 内至少存在一点 $(\\xi,\\eta)$ 使\n\n$$\\iint_D e^{x^2-y^2}\\cos(x+y)dxdy=e^{\\xi^2-\\eta^2}\\cos(\\xi+\\eta)\\cdot\\pi r^2,$$\n\n$$\\therefore\\lim_{r\\to0}\\frac{1}{\\pi r^2}\\iint_D e^{x^2-y^2}\\cos(x+y)dxdy=\\lim_{r\\to0}e^{\\xi^2-\\eta^2}\\cos(\\xi+\\eta)=1$$",
+  "sort_order": 9
+}

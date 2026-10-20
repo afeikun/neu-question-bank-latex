@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_n=e^{in}/n$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\alpha_n=(\\cos n+i\\sin n)/n\\to0$。",
+  "search_text": "设 $\\alpha_n=e^{in}/n$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。 $0$ $1$ $i$ $-i$ $\\alpha_n=(\\cos n+i\\sin n)/n\\to0$。",
+  "sort_order": 8
+}

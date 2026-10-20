@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(x+2y)dx+xdy=0$ 的积分因子为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\nP(x,y)=x+2y,\\quad Q(x,y)=x,\n$$\n\n$$\n\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}=2-1=1,\\quad\n\\frac{1}{Q}\\left(\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}\\right)=\\frac{1}{x},\n$$\n\n故积分因子为 $\\mu(x)=e^{\\int\\frac{1}{x}\\,dx}=x,$",
+  "search_text": "$(x+2y)dx+xdy=0$ 的积分因子为（ ） $y$ $\\frac1x$ $x$ $\\frac1y$ $$\nP(x,y)=x+2y,\\quad Q(x,y)=x,\n$$\n\n$$\n\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}=2-1=1,\\quad\n\\frac{1}{Q}\\left(\\frac{\\partial P}{\\partial y}-\\frac{\\partial Q}{\\partial x}\\right)=\\frac{1}{x},\n$$\n\n故积分因子为 $\\mu(x)=e^{\\int\\frac{1}{x}\\,dx}=x,$",
+  "sort_order": 23
+}

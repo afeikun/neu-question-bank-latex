@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z_n=\\frac{n+2}{1-n}+i(1+\\frac1n)^n$，则 $\\lim_{n\\to\\infty}z_n=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1+ie$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1+\\frac{i}{e}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $\\lim_{n\\to\\infty}(n+2)/(1-n)=-1$，且 $\\lim(1+1/n)^n=e$，所以极限为 $-1+ie$。",
+  "search_text": "设 $z_n=\\frac{n+2}{1-n}+i(1+\\frac1n)^n$，则 $\\lim_{n\\to\\infty}z_n=(\\quad)$。 $-1+ie$ $-1$ $-1+\\frac{i}{e}$ 不存在 由于 $\\lim_{n\\to\\infty}(n+2)/(1-n)=-1$，且 $\\lim(1+1/n)^n=e$，所以极限为 $-1+ie$。",
+  "sort_order": 10
+}

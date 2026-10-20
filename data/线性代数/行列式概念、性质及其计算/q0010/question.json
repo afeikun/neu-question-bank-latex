@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "四阶行列式 $D=\\begin{vmatrix}a&b&c&1\\\\b&c&a&1\\\\c&a&b&1\\\\\\frac{b+c}{2}&\\frac{c+a}{2}&\\frac{a+b}{2}&1\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用行列式的性质，将前三行相加可得第四列前三个元素均为 $a+b+c$，再将其与第四行线性组合，行列式为 $0$。",
+  "search_text": "四阶行列式 $D=\\begin{vmatrix}a&b&c&1\\\\b&c&a&1\\\\c&a&b&1\\\\\\frac{b+c}{2}&\\frac{c+a}{2}&\\frac{a+b}{2}&1\\end{vmatrix}$ 等于（ ）。 $0$ $2$ $1$ $-1$ 利用行列式的性质，将前三行相加可得第四列前三个元素均为 $a+b+c$，再将其与第四行线性组合，行列式为 $0$。",
+  "sort_order": 10
+}

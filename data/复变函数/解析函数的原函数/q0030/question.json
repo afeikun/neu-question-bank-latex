@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_0^{1+i}\\sin z\\cos z\\,dz=(\\quad)$，积分路径为从下限到上限的任意一条简单曲线。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac14(1-\\cos2\\cosh2+i\\sin2\\sinh2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14(1-\\cos2\\cosh2-i\\sin2\\sinh2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12(1-\\cos2\\cosh2+i\\sin2\\sinh2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac14(1+\\cos2\\cosh2+i\\sin2\\sinh2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $\\frac12\\sin^2z$ 是 $\\sin z\\cos z$ 的一个原函数，所以 $\\int_0^{1+i}\\sin z\\cos z\\,dz=\\frac12\\sin^2(1+i)=\\frac14[1-\\cos(2+2i)]=\\frac14(1-\\cos2\\cosh2+i\\sin2\\sinh2)$。",
+  "search_text": "$\\int_0^{1+i}\\sin z\\cos z\\,dz=(\\quad)$，积分路径为从下限到上限的任意一条简单曲线。 $\\frac14(1-\\cos2\\cosh2+i\\sin2\\sinh2)$ $\\frac14(1-\\cos2\\cosh2-i\\sin2\\sinh2)$ $\\frac12(1-\\cos2\\cosh2+i\\sin2\\sinh2)$ $\\frac14(1+\\cos2\\cosh2+i\\sin2\\sinh2)$ 由于 $\\frac12\\sin^2z$ 是 $\\sin z\\cos z$ 的一个原函数，所以 $\\int_0^{1+i}\\sin z\\cos z\\,dz=\\frac12\\sin^2(1+i)=\\frac14[1-\\cos(2+2i)]=\\frac14(1-\\cos2\\cosh2+i\\sin2\\sinh2)$。",
+  "sort_order": 30
+}

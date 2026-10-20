@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=2x+y$ 在点 $(1,2)$ 沿各方向方向导数最大值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(x,y)=(1,2)}=2,\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(x,y)=(1,2)}=1,$$\n\n记 $f(\\alpha)=2\\cos\\alpha+\\sin\\alpha=\\sqrt{5}\\sin(\\alpha+\\alpha_0)$\n\n因此：$f(\\alpha)$ 最大值为 $\\sqrt{5}$，即方向导数最大值为 $\\sqrt{5}$。",
+  "search_text": "函数 $z=2x+y$ 在点 $(1,2)$ 沿各方向方向导数最大值为。 3 $\\sqrt5$ 0 2 $$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(x,y)=(1,2)}=2,\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(x,y)=(1,2)}=1,$$\n\n记 $f(\\alpha)=2\\cos\\alpha+\\sin\\alpha=\\sqrt{5}\\sin(\\alpha+\\alpha_0)$\n\n因此：$f(\\alpha)$ 最大值为 $\\sqrt{5}$，即方向导数最大值为 $\\sqrt{5}$。",
+  "sort_order": 21
+}

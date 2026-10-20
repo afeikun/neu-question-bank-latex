@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi$密度为$\\varphi(x)$，$\\eta=\\xi^3$，求$\\eta$密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{3\\sqrt[3]{y^2}}\\varphi(\\sqrt[3]y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{3\\sqrt[3]{y}}\\varphi(\\sqrt[3]y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{3\\sqrt[3]{y^2}}\\varphi(\\sqrt[3]{y^2})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{3\\sqrt{y^2}}\\varphi(\\sqrt[3]y)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x=\\sqrt[3]y$，$|dx/dy|=1/(3\\sqrt[3]{y^2})$，代入变换密度公式。",
+  "search_text": "$\\xi$密度为$\\varphi(x)$，$\\eta=\\xi^3$，求$\\eta$密度。 $\\frac1{3\\sqrt[3]{y^2}}\\varphi(\\sqrt[3]y)$ $\\frac1{3\\sqrt[3]{y}}\\varphi(\\sqrt[3]y)$ $\\frac1{3\\sqrt[3]{y^2}}\\varphi(\\sqrt[3]{y^2})$ $\\frac1{3\\sqrt{y^2}}\\varphi(\\sqrt[3]y)$ $x=\\sqrt[3]y$，$|dx/dy|=1/(3\\sqrt[3]{y^2})$，代入变换密度公式。",
+  "sort_order": 37
+}

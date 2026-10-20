@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知微分方程 $y\\prime\\prime-7y\\prime+6y=\\sin x$ 的一个特解为 $y^*=\\frac7{74}\\cos x+\\frac5{74}\\sin x$，则其通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^x+C_2e^{6x}+\\frac5{74}\\sin x+\\frac7{74}\\cos x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{6x}+\\frac2{85}\\sin x+\\frac4{85}\\cos x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^x+C_2e^{6x}+\\frac5{74}\\sin x+\\frac7{74}\\cos x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^x+C_2e^{6x}+\\frac2{72}\\sin x+\\frac3{72}\\cos x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2-7\\lambda+6=0$，特征根为 $\\lambda_1=1,\\lambda_2=6$，\n\n因此对应的齐次方程的通解为 $C_1e^x+C_2e^{6x}$。\n\n又非齐次方程的特解为 $y^*=\\frac7{74}\\cos x+\\frac5{74}\\sin x$，\n\n故方程的通解为 $y=C_1e^x+C_2e^{6x}+\\frac5{74}\\sin x+\\frac7{74}\\cos x$。\n\n因此选 A。",
+  "search_text": "已知微分方程 $y\\prime\\prime-7y\\prime+6y=\\sin x$ 的一个特解为 $y^*=\\frac7{74}\\cos x+\\frac5{74}\\sin x$，则其通解为（ ） $y=C_1e^x+C_2e^{6x}+\\frac5{74}\\sin x+\\frac7{74}\\cos x$ $y=C_1e^x+C_2e^{6x}+\\frac2{85}\\sin x+\\frac4{85}\\cos x$ $y=C_1e^x+C_2e^{6x}+\\frac5{74}\\sin x+\\frac7{74}\\cos x$ $y=C_1e^x+C_2e^{6x}+\\frac2{72}\\sin x+\\frac3{72}\\cos x$ 解答 齐次方程的特征方程为 $\\lambda^2-7\\lambda+6=0$，特征根为 $\\lambda_1=1,\\lambda_2=6$，\n\n因此对应的齐次方程的通解为 $C_1e^x+C_2e^{6x}$。\n\n又非齐次方程的特解为 $y^*=\\frac7{74}\\cos x+\\frac5{74}\\sin x$，\n\n故方程的通解为 $y=C_1e^x+C_2e^{6x}+\\frac5{74}\\sin x+\\frac7{74}\\cos x$。\n\n因此选 A。",
+  "sort_order": 10
+}

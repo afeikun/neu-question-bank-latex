@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知空间曲线 $\\Gamma:\\ x^2+y^2+z^2=a^2,\\ y=x$，则 $\\oint_\\Gamma\\sqrt{2y^2+z^2}\\,ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 将 $\\Gamma$ 写成参数方程为\n$$\n\\begin{cases}\nx=\\frac{a}{\\sqrt{2}}\\cos t\\\\\ny=\\frac{a}{\\sqrt{2}}\\cos t,\\quad \\text{其中 }t\\in[0,2\\pi],\\\\\nz=a\\sin t\n\\end{cases}\n$$\n于是\n$$\n\\oint_\\Gamma\\sqrt{2y^2+z^2}\\,ds=\\int_0^{2\\pi}\\sqrt{(a\\cos t)^2+(a\\sin t)^2}\\cdot\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt\n$$\n$$\n=\\int_0^{2\\pi}a\\sqrt{\\frac{a^2}{2}\\sin^2 t+\\frac{a^2}{2}\\sin^2 t+a^2\\cos^2 t}\\,dt=2\\pi a^2.\n$$",
+  "search_text": "已知空间曲线 $\\Gamma:\\ x^2+y^2+z^2=a^2,\\ y=x$，则 $\\oint_\\Gamma\\sqrt{2y^2+z^2}\\,ds=$（ ） $4\\pi a^2$ $2\\pi a^2$ $3\\pi a^2$ $\\pi a^2$ 解答 将 $\\Gamma$ 写成参数方程为\n$$\n\\begin{cases}\nx=\\frac{a}{\\sqrt{2}}\\cos t\\\\\ny=\\frac{a}{\\sqrt{2}}\\cos t,\\quad \\text{其中 }t\\in[0,2\\pi],\\\\\nz=a\\sin t\n\\end{cases}\n$$\n于是\n$$\n\\oint_\\Gamma\\sqrt{2y^2+z^2}\\,ds=\\int_0^{2\\pi}\\sqrt{(a\\cos t)^2+(a\\sin t)^2}\\cdot\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt\n$$\n$$\n=\\int_0^{2\\pi}a\\sqrt{\\frac{a^2}{2}\\sin^2 t+\\frac{a^2}{2}\\sin^2 t+a^2\\cos^2 t}\\,dt=2\\pi a^2.\n$$",
+  "sort_order": 2
+}

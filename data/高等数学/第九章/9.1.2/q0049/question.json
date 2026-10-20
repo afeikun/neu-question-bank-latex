@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设空间曲线 $x=e^t\\cos t,y=e^t\\sin t,z=e^t$ 上相应于 $t=0$ 到 $t=2$ 的段，则 $\\int_\\Gamma\\frac1{x^2+y^2+z^2}ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt3}{2}(1+e^{-2})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt2}{2}(1-e^{-2})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt3}{2}(1-e^{-2})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt3}{2}e^{-2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 原式\n$$=\\int_0^2\\frac{1}{2e^{2t}}\\sqrt{(e^t\\cos t)^2+(e^t\\sin t)^2+(e^t)^2}\\,dt=\\int_0^2\\frac{\\sqrt{3}e^t\\,dt}{2e^{2t}}=\\frac{\\sqrt{3}}{2}\\int_0^2e^{-t}\\,dt=\\frac{\\sqrt{3}}{2}(1-e^{-2})$$",
+  "search_text": "设空间曲线 $x=e^t\\cos t,y=e^t\\sin t,z=e^t$ 上相应于 $t=0$ 到 $t=2$ 的段，则 $\\int_\\Gamma\\frac1{x^2+y^2+z^2}ds=$（ ） $\\frac{\\sqrt3}{2}(1+e^{-2})$ $\\frac{\\sqrt2}{2}(1-e^{-2})$ $\\frac{\\sqrt3}{2}(1-e^{-2})$ $\\frac{\\sqrt3}{2}e^{-2}$ 解答 原式\n$$=\\int_0^2\\frac{1}{2e^{2t}}\\sqrt{(e^t\\cos t)^2+(e^t\\sin t)^2+(e^t)^2}\\,dt=\\int_0^2\\frac{\\sqrt{3}e^t\\,dt}{2e^{2t}}=\\frac{\\sqrt{3}}{2}\\int_0^2e^{-t}\\,dt=\\frac{\\sqrt{3}}{2}(1-e^{-2})$$",
+  "sort_order": 49
+}

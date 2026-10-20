@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $r=\\sqrt{x^2+y^2+z^2}$，求 $m/r$ 的梯度（$e_r$ 为径向单位向量）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac m{r^2}e_r$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2m}{r^2}e_r$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{2m}{r^2}e_r$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac m{r^2}e_r$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\\frac{\\partial}{\\partial x}\\left(\\frac{m}{r}\\right)=-\\frac{m}{r^2}\\frac{\\partial r}{\\partial x}=-\\frac{mx}{r^3},\\quad\\text{同理，}\\quad \\frac{\\partial}{\\partial y}\\left(\\frac{m}{r}\\right)=-\\frac{my}{r^3},\\quad \\frac{\\partial}{\\partial z}\\left(\\frac{m}{r}\\right)=-\\frac{mz}{r^3}.$$\n\n从而 $\\displaystyle\\operatorname{grad}\\frac{m}{r}=-\\frac{m}{r^2}\\left(\\frac{x}{r}\\vec{i}+\\frac{y}{r}\\vec{j}+\\frac{z}{r}\\vec{k}\\right)$。如果用 $\\vec{e}_r$ 表示与 $\\overrightarrow{OM}$ 同方向的单位向量，则\n\n$$\\vec{e}_r=\\frac{x}{r}\\vec{i}+\\frac{y}{r}\\vec{j}+\\frac{z}{r}\\vec{k}\\Longleftrightarrow \\operatorname{grad}\\frac{m}{r}=-\\frac{m}{r^2}\\vec{e}_r$$",
+  "search_text": "设 $r=\\sqrt{x^2+y^2+z^2}$，求 $m/r$ 的梯度（$e_r$ 为径向单位向量）。 $-\\frac m{r^2}e_r$ $\\frac{2m}{r^2}e_r$ $-\\frac{2m}{r^2}e_r$ $\\frac m{r^2}e_r$ $$\\frac{\\partial}{\\partial x}\\left(\\frac{m}{r}\\right)=-\\frac{m}{r^2}\\frac{\\partial r}{\\partial x}=-\\frac{mx}{r^3},\\quad\\text{同理，}\\quad \\frac{\\partial}{\\partial y}\\left(\\frac{m}{r}\\right)=-\\frac{my}{r^3},\\quad \\frac{\\partial}{\\partial z}\\left(\\frac{m}{r}\\right)=-\\frac{mz}{r^3}.$$\n\n从而 $\\displaystyle\\operatorname{grad}\\frac{m}{r}=-\\frac{m}{r^2}\\left(\\frac{x}{r}\\vec{i}+\\frac{y}{r}\\vec{j}+\\frac{z}{r}\\vec{k}\\right)$。如果用 $\\vec{e}_r$ 表示与 $\\overrightarrow{OM}$ 同方向的单位向量，则\n\n$$\\vec{e}_r=\\frac{x}{r}\\vec{i}+\\frac{y}{r}\\vec{j}+\\frac{z}{r}\\vec{k}\\Longleftrightarrow \\operatorname{grad}\\frac{m}{r}=-\\frac{m}{r^2}\\vec{e}_r$$",
+  "sort_order": 24
+}

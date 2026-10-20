@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算二重积分 $\\iint_Dx\\,dxdy$，其中 $D$ 是由 $y=\\frac12x^2$ 及直线 $y=x+4$ 围成的区域（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$18$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 原式 $=\\int_{-2}^4x\\,dx\\int_{\\frac{1}{2}x^2}^{x+4}dy=\\int_{-2}^4(x^2+4x-\\frac{1}{2}x^3)\\,dx=18$。",
+  "search_text": "计算二重积分 $\\iint_Dx\\,dxdy$，其中 $D$ 是由 $y=\\frac12x^2$ 及直线 $y=x+4$ 围成的区域（ ） $16$ $7$ $9$ $18$ 解答 原式 $=\\int_{-2}^4x\\,dx\\int_{\\frac{1}{2}x^2}^{x+4}dy=\\int_{-2}^4(x^2+4x-\\frac{1}{2}x^3)\\,dx=18$。",
+  "sort_order": 6
+}

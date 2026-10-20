@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\lim_{x\\to+\\infty}(\\cos\\sqrt{x+1}-\\cos\\sqrt x)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "和差化积并用 $|\\sin t|\\leq|t|$ 夹逼，极限为 0。",
+  "search_text": "求 $\\lim_{x\\to+\\infty}(\\cos\\sqrt{x+1}-\\cos\\sqrt x)$。 $\\infty$ 1 $\\frac12$ 0 和差化积并用 $|\\sin t|\\leq|t|$ 夹逼，极限为 0。",
+  "sort_order": 20
+}

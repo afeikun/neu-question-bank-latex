@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f在[−1,1]可导，∫₋₁⁰xf(x)dx>0且∫₀¹sin³x f(x)dx>0，正确的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "存在ξ∈(−1,1):f(ξ)=0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "存在ξ∈(0,1):f(ξ)=0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "存在ξ∈(−1,0):f(ξ)=0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "存在ξ∈(−1,1):f′(ξ)=0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "左侧某点f<0，右侧某点f>0，由连续性中间存在零点。",
+  "search_text": "f在[−1,1]可导，∫₋₁⁰xf(x)dx>0且∫₀¹sin³x f(x)dx>0，正确的是 存在ξ∈(−1,1):f(ξ)=0 存在ξ∈(0,1):f(ξ)=0 存在ξ∈(−1,0):f(ξ)=0 存在ξ∈(−1,1):f′(ξ)=0 左侧某点f<0，右侧某点f>0，由连续性中间存在零点。",
+  "sort_order": 45
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "投篮最多3次，命中后停止，第$i$次得$4-i$分，平均得分1.56，求命中率$p$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "期望得分$p+2pq+3q^2p=p^2-3p+3$，解得$p=0.6$。",
+  "search_text": "投篮最多3次，命中后停止，第$i$次得$4-i$分，平均得分1.56，求命中率$p$。 $0.7$ $0.6$ $0.4$ $0.3$ 期望得分$p+2pq+3q^2p=p^2-3p+3$，解得$p=0.6$。",
+  "sort_order": 12
+}

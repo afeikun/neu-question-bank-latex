@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\oint_{|\\xi|=2}\\frac{\\sinh(i\\xi)}{\\xi-z}\\,d\\xi$，方向沿 $|\\xi|=2$ 的正向，则 $f''(1+i)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi(\\cosh1\\sin1+i\\cosh1\\cos1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi(\\sinh1\\sin1+i\\cosh1\\cos1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sinh1\\sin1+i\\cosh1\\cos1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$i\\cosh1\\cos1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|1+i|=\\sqrt2<2$，故 $1+i$ 在 $|\\xi|=2$ 内。当 $|z|<2$，由柯西积分公式 $f(z)=2\\pi i\\sinh(iz)$。所以 $f''(1+i)=-2\\pi i\\sinh(i(1+i))=2\\pi(\\cosh1\\sin1+i\\cosh1\\cos1)$。",
+  "search_text": "设 $f(z)=\\oint_{|\\xi|=2}\\frac{\\sinh(i\\xi)}{\\xi-z}\\,d\\xi$，方向沿 $|\\xi|=2$ 的正向，则 $f''(1+i)=(\\quad)$。 $2\\pi(\\cosh1\\sin1+i\\cosh1\\cos1)$ $2\\pi(\\sinh1\\sin1+i\\cosh1\\cos1)$ $\\sinh1\\sin1+i\\cosh1\\cos1$ $i\\cosh1\\cos1$ $|1+i|=\\sqrt2<2$，故 $1+i$ 在 $|\\xi|=2$ 内。当 $|z|<2$，由柯西积分公式 $f(z)=2\\pi i\\sinh(iz)$。所以 $f''(1+i)=-2\\pi i\\sinh(i(1+i))=2\\pi(\\cosh1\\sin1+i\\cosh1\\cos1)$。",
+  "sort_order": 7
+}

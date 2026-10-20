@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "圆锥形水池，池口直径 $30m$、深 $10m$，池中盛满水，求将水全部抽出池外需作的功。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1875\\pi\\rho g(J)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1775\\pi\\rho g(J)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1800\\pi\\rho g(J)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2875\\pi\\rho g(J)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "薄层水的功积分为 $225\\pi\\rho g\\int_0^{10}x(1-x/10)^2dx=1875\\pi\\rho g$。",
+  "search_text": "圆锥形水池，池口直径 $30m$、深 $10m$，池中盛满水，求将水全部抽出池外需作的功。 $1875\\pi\\rho g(J)$ $1775\\pi\\rho g(J)$ $1800\\pi\\rho g(J)$ $2875\\pi\\rho g(J)$ 薄层水的功积分为 $225\\pi\\rho g\\int_0^{10}x(1-x/10)^2dx=1875\\pi\\rho g$。",
+  "sort_order": 18
+}

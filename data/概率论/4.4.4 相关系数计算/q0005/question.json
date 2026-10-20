@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\rho_{XY}=0.2,D(X)=25,D(Y)=9$，求$D(X-2Y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$49$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$25$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$29$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$45$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$25+4(9)-4(0.2)(5)(3)=49$。",
+  "search_text": "$\\rho_{XY}=0.2,D(X)=25,D(Y)=9$，求$D(X-2Y)$。 $49$ $25$ $29$ $45$ $25+4(9)-4(0.2)(5)(3)=49$。",
+  "sort_order": 5
+}

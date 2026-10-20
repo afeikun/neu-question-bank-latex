@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{\\tan x-\\sin x}{x}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac{\\sin x}{x}(1/\\cos x-1)\\to0$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{\\tan x-\\sin x}{x}=[\\quad]$。 -1 不存在 1 0 $\\frac{\\sin x}{x}(1/\\cos x-1)\\to0$。",
+  "sort_order": 10
+}

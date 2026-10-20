@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 阶方阵 $A,B,C$ 满足关系式 $ABC=E$，其中 $E$ 是 $n$ 阶单位矩阵，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$ACB=E$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$BAC=E$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$BCA=E$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$CBA=E$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $ABC=A(BC)=E$，知 $A$ 与 $BC$ 互逆，所以 $(BC)A=BCA=E$。",
+  "search_text": "设 $n$ 阶方阵 $A,B,C$ 满足关系式 $ABC=E$，其中 $E$ 是 $n$ 阶单位矩阵，则必有（ ）。 $ACB=E$ $BAC=E$ $BCA=E$ $CBA=E$ 由 $ABC=A(BC)=E$，知 $A$ 与 $BC$ 互逆，所以 $(BC)A=BCA=E$。",
+  "sort_order": 55
+}

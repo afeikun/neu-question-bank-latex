@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B,C$ 表示 3 个随机事件，试以 $A,B,C$ 的运算来表示下列事件：$\\{A,B,C$ 不多于一个发生$\\}$，表示为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\overline A\\,\\overline B\\cup\\overline A\\,\\overline C\\cup\\overline B\\,\\overline C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\overline A\\,\\overline B C\\cup\\overline A B\\overline C\\cup A\\overline B\\overline C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\overline A\\,\\overline B\\,\\overline C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\overline{A\\cup B\\cup C}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "该事件由三者都不发生及恰有一者发生组成，即 $\\overline A\\overline B\\overline C\\cup A\\overline B\\overline C\\cup\\overline A B\\overline C\\cup\\overline A\\overline B C$。",
+  "search_text": "设 $A,B,C$ 表示 3 个随机事件，试以 $A,B,C$ 的运算来表示下列事件：$\\{A,B,C$ 不多于一个发生$\\}$，表示为(\\quad)。 $\\overline A\\,\\overline B\\cup\\overline A\\,\\overline C\\cup\\overline B\\,\\overline C$ $\\overline A\\,\\overline B C\\cup\\overline A B\\overline C\\cup A\\overline B\\overline C$ $\\overline A\\,\\overline B\\,\\overline C$ $\\overline{A\\cup B\\cup C}$ 该事件由三者都不发生及恰有一者发生组成，即 $\\overline A\\overline B\\overline C\\cup A\\overline B\\overline C\\cup\\overline A B\\overline C\\cup\\overline A\\overline B C$。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $P(A\\cup B)=0.8$，$P(B)=0.4$，则 $P(A\\mid\\overline B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac34$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(A\\overline B)=P(A\\cup B)-P(B)=0.4$，$P(\\overline B)=0.6$，故 $P(A\\mid\\overline B)=2/3$。",
+  "search_text": "已知 $P(A\\cup B)=0.8$，$P(B)=0.4$，则 $P(A\\mid\\overline B)=(\\quad)$。 $\\frac23$ $\\frac34$ $\\frac14$ $\\frac13$ $P(A\\overline B)=P(A\\cup B)-P(B)=0.4$，$P(\\overline B)=0.6$，故 $P(A\\mid\\overline B)=2/3$。",
+  "sort_order": 12
+}

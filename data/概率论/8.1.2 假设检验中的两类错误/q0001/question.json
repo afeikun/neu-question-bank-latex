@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "假设检验中的显著性水平$\\alpha$是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\text{拒绝}H_0\\mid H_0\\text{真})=\\alpha$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(\\text{接受}H_0\\mid H_0\\text{假})=\\alpha$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(\\text{接受}H_1\\mid H_1\\text{假})=\\alpha$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(\\text{拒绝}H_1\\mid H_1\\text{真})=\\alpha$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "显著性水平是原假设为真时拒绝原假设的概率。",
+  "search_text": "假设检验中的显著性水平$\\alpha$是（）。 $P(\\text{拒绝}H_0\\mid H_0\\text{真})=\\alpha$ $P(\\text{接受}H_0\\mid H_0\\text{假})=\\alpha$ $P(\\text{接受}H_1\\mid H_1\\text{假})=\\alpha$ $P(\\text{拒绝}H_1\\mid H_1\\text{真})=\\alpha$ 显著性水平是原假设为真时拒绝原假设的概率。",
+  "sort_order": 1
+}

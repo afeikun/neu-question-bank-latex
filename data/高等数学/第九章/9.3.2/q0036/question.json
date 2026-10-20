@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\oint_L\\frac{(x+y)dx-(x-y)dy}{x^2+y^2}$，其中 $L$ 为圆 $x^2+y^2=a^2$（按逆时针方向），其结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2-2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解：由$L:\\begin{cases}x=a\\cos\\theta\\\\y=a\\sin\\theta\\end{cases}\\quad\\theta:0\\to2\\pi$，得\n$$\\oint_L\\frac{(x+y)dx-(x-y)dy}{x^2+y^2}$$\n$$=\\int_0^{2\\pi}\\frac{(a\\cos\\theta+a\\sin\\theta)(-a\\sin\\theta)-(a\\cos\\theta-a\\sin\\theta)a\\cos\\theta}{a^2}d\\theta$$\n$$=-\\int_0^{2\\pi}d\\theta=-2\\pi$$",
+  "search_text": "计算 $\\oint_L\\frac{(x+y)dx-(x-y)dy}{x^2+y^2}$，其中 $L$ 为圆 $x^2+y^2=a^2$（按逆时针方向），其结果为（ ） $3\\pi$ $2\\pi$ $-2\\pi$ $2-2\\pi$ 解：由$L:\\begin{cases}x=a\\cos\\theta\\\\y=a\\sin\\theta\\end{cases}\\quad\\theta:0\\to2\\pi$，得\n$$\\oint_L\\frac{(x+y)dx-(x-y)dy}{x^2+y^2}$$\n$$=\\int_0^{2\\pi}\\frac{(a\\cos\\theta+a\\sin\\theta)(-a\\sin\\theta)-(a\\cos\\theta-a\\sin\\theta)a\\cos\\theta}{a^2}d\\theta$$\n$$=-\\int_0^{2\\pi}d\\theta=-2\\pi$$",
+  "sort_order": 36
+}

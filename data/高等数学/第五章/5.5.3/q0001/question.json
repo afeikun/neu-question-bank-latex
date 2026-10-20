@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "利用幂级数展开式求 $\\sqrt[5]{240}$（误差不超过0.0001）的近似值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2.9926"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2.9924"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2.9871"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2.9954"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "二项式展开并取首两项，得 $3(1-1/(5\\cdot3^4))\\approx2.9926$。",
+  "search_text": "利用幂级数展开式求 $\\sqrt[5]{240}$（误差不超过0.0001）的近似值。 2.9926 2.9924 2.9871 2.9954 二项式展开并取首两项，得 $3(1-1/(5\\cdot3^4))\\approx2.9926$。",
+  "sort_order": 1
+}

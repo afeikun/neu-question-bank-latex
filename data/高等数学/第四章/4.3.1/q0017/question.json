@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f(x)=√(4+x)(x>0)，f(0)=0，f(x)=√(1−x)(x<0)，φ(x)=∫₋₁ˣf(t)dt，判断x=0",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "φ在0可导且φ′(0)=f(0)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "φ在0连续但不可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "φ在0不连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "φ在0可导且φ′(0)≠f(0)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "积分函数连续，但左右导数由被积函数单侧极限给出且不同。",
+  "search_text": "f(x)=√(4+x)(x>0)，f(0)=0，f(x)=√(1−x)(x<0)，φ(x)=∫₋₁ˣf(t)dt，判断x=0 φ在0可导且φ′(0)=f(0) φ在0连续但不可导 φ在0不连续 φ在0可导且φ′(0)≠f(0) 积分函数连续，但左右导数由被积函数单侧极限给出且不同。",
+  "sort_order": 17
+}

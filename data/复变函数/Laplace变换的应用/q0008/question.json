@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程初值问题 $\\begin{cases}y\\prime\\prime-2y\\prime+2y=2e^t\\cos t,\\\\y(0)=y\\prime(0)=0\\end{cases}$ 的解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$te^t\\sin t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^t(1-\\cos t)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$te^t\\cos t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^t\\sin t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar y(s)=\\dfrac{2(s-1)}{(s-1)^2+1}\\cdot\\dfrac1{(s-1)^2+1}$，逆变换后 $y(t)=te^t\\sin t$。",
+  "search_text": "微分方程初值问题 $\\begin{cases}y\\prime\\prime-2y\\prime+2y=2e^t\\cos t,\\\\y(0)=y\\prime(0)=0\\end{cases}$ 的解为（ ）。 $te^t\\sin t$ $e^t(1-\\cos t)$ $te^t\\cos t$ $e^t\\sin t$ $\\bar y(s)=\\dfrac{2(s-1)}{(s-1)^2+1}\\cdot\\dfrac1{(s-1)^2+1}$，逆变换后 $y(t)=te^t\\sin t$。",
+  "sort_order": 8
+}

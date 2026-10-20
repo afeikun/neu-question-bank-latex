@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega:x^2+y^2+z^2\\leq z$ 且 $x^2+y^2\\leq z^2$ 确定的立体区域，则积分 $I=\\iiint_\\Omega\\sqrt{x^2+y^2+z^2}dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi{10}(1-\\frac{\\sqrt2}4)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi5(1-\\frac{\\sqrt2}8)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi{10}(1-\\frac{\\sqrt2}8)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt2}4\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\Omega$ 在球面坐标系下为 $\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\0\\leq r\\leq\\cos\\varphi\\end{cases}$，所以\n\n$I=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\cos\\varphi}r^3\\sin\\varphi\\,dr=\\frac{\\pi}{2}\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos^4\\varphi\\,d\\varphi=-\\frac{\\pi}{2}\\cdot\\frac{\\cos^5\\varphi}{5}\\big|_0^{\\frac{\\pi}{4}}=\\frac{\\pi}{10}(1-\\frac{\\sqrt{2}}{8})$。",
+  "search_text": "设 $\\Omega:x^2+y^2+z^2\\leq z$ 且 $x^2+y^2\\leq z^2$ 确定的立体区域，则积分 $I=\\iiint_\\Omega\\sqrt{x^2+y^2+z^2}dv=$（ ） $\\frac\\pi{10}(1-\\frac{\\sqrt2}4)$ $\\frac\\pi5(1-\\frac{\\sqrt2}8)$ $\\frac\\pi{10}(1-\\frac{\\sqrt2}8)$ $\\frac{\\sqrt2}4\\pi$ $\\Omega$ 在球面坐标系下为 $\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\0\\leq r\\leq\\cos\\varphi\\end{cases}$，所以\n\n$I=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\cos\\varphi}r^3\\sin\\varphi\\,dr=\\frac{\\pi}{2}\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos^4\\varphi\\,d\\varphi=-\\frac{\\pi}{2}\\cdot\\frac{\\cos^5\\varphi}{5}\\big|_0^{\\frac{\\pi}{4}}=\\frac{\\pi}{10}(1-\\frac{\\sqrt{2}}{8})$。",
+  "sort_order": 20
+}

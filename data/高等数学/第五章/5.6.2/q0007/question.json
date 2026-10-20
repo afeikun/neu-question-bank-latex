@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期函数在 $[-\\pi,\\pi]$ 上为0（$x<0$）、$A$（$x>0$），求 $b_{2k-1}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2A/((2k-1)\\pi)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-1)^kA/((2k-1)\\pi)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$b_n=A[1-(-1)^n]/(n\\pi)$，奇数项为 $2A/(n\\pi)$。",
+  "search_text": "周期函数在 $[-\\pi,\\pi]$ 上为0（$x<0$）、$A$（$x>0$），求 $b_{2k-1}$。 $A$ $2A/((2k-1)\\pi)$ $(-1)^kA/((2k-1)\\pi)$ 0 $b_n=A[1-(-1)^n]/(n\\pi)$，奇数项为 $2A/(n\\pi)$。",
+  "sort_order": 7
+}

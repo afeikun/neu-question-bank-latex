@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u)$ 为可导函数，$y=\\tan[f(\\sin f(x))]$，则 $y\\prime(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$\\sec^2[f(\\sin f(x))]f\\prime(\\sin f(x))\\cos f(x)f\\prime(x)$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$\\sec[f(\\sin f(x))]f\\prime(\\sin f(x))$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$\\sec^2[f(\\sin f(x))]f\\prime(\\sin f(x))$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$\\sec[f(\\sin f(x))]f\\prime(x)$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对正切、外层函数及正弦依次求导。",
+  "search_text": "设 $f(u)$ 为可导函数，$y=\\tan[f(\\sin f(x))]$，则 $y\\prime(x)=$（ ）。 $$\\sec^2[f(\\sin f(x))]f\\prime(\\sin f(x))\\cos f(x)f\\prime(x)$$ $$\\sec[f(\\sin f(x))]f\\prime(\\sin f(x))$$ $$\\sec^2[f(\\sin f(x))]f\\prime(\\sin f(x))$$ $$\\sec[f(\\sin f(x))]f\\prime(x)$$ 对正切、外层函数及正弦依次求导。",
+  "sort_order": 45
+}

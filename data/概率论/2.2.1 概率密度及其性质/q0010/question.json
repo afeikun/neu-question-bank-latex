@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列函数中可以作为概率密度的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2x,0<x<1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x,0<x<1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos x,0\\le x\\le\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2e^{-x},x>0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$2x$在$(0,1)$非负且积分为1；其余选项不满足密度条件。",
+  "search_text": "下列函数中可以作为概率密度的是（ ）。 $2x,0<x<1$ $x,0<x<1$ $\\cos x,0\\le x\\le\\pi$ $2e^{-x},x>0$ $2x$在$(0,1)$非负且积分为1；其余选项不满足密度条件。",
+  "sort_order": 10
+}

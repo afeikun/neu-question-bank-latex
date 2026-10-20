@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $m\\times n$ 矩阵，$m<n$，其秩 $R(A)=m$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "存在 $m$ 阶不可逆矩阵 $Q$，使得 $QA=(E_m,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "非齐次线性方程组 $Ax=b$ 一定有无限多解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "齐次线性方程组 $Ax=0$ 只有零解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "存在 $m$ 阶可逆矩阵 $P$，使得 $PA=(E_m,0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "非齐次线性方程组 $Ax=b$ 满足 $R(A)=m\\le R(A,b)\\le m$，所以 $R(A)=R(A,b)=m<n$，从而必有无穷多解。",
+  "search_text": "设 $A$ 为 $m\\times n$ 矩阵，$m<n$，其秩 $R(A)=m$，则（ ）。 存在 $m$ 阶不可逆矩阵 $Q$，使得 $QA=(E_m,0)$ 非齐次线性方程组 $Ax=b$ 一定有无限多解 齐次线性方程组 $Ax=0$ 只有零解 存在 $m$ 阶可逆矩阵 $P$，使得 $PA=(E_m,0)$ 非齐次线性方程组 $Ax=b$ 满足 $R(A)=m\\le R(A,b)\\le m$，所以 $R(A)=R(A,b)=m<n$，从而必有无穷多解。",
+  "sort_order": 35
+}

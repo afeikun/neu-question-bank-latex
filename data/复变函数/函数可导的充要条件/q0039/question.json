@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(z)$ 在 $z_0$ 点可导，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(z)$ 在 $z_0$ 点连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(z)$ 在 $z_0$ 点不一定连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(z)$ 在 $z_0$ 点解析"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(z)$ 处处可导"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "复可导蕴含该点连续。",
+  "search_text": "若 $f(z)$ 在 $z_0$ 点可导，则（ ）。 $f(z)$ 在 $z_0$ 点连续 $f(z)$ 在 $z_0$ 点不一定连续 $f(z)$ 在 $z_0$ 点解析 $f(z)$ 处处可导 复可导蕴含该点连续。",
+  "sort_order": 39
+}

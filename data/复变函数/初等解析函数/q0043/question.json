@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$e^{4z}$ 的周期是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k\\frac\\pi2i$（$k$ 为整数）"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2k\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$e^{4z}$ 的基本周期为 $\\pi i/2$。",
+  "search_text": "$e^{4z}$ 的周期是（ ）。 $k\\frac\\pi2i$（$k$ 为整数） $2k\\pi i$ $0$ $2\\pi$ $e^{4z}$ 的基本周期为 $\\pi i/2$。",
+  "sort_order": 43
+}

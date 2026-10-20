@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 为由点 $A(-1,1)$ 沿抛物线 $y=x^2$ 到点 $O(0,0)$，再沿 $x$ 轴到点 $B(2,0)$ 的弧线，曲线积分 $\\int_L(2xy+e^x)dx$ 的计算结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12-e^{-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e+\\sin1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12+e^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "原式 $=\\int_{-1}^0(2x^3+e^x)\\,dx$\n\n$$=\\left[\\frac{1}{2}x^4+e^x\\right]_{-1}^0+2=-\\frac{1}{2}+1-e^{-1}=\\frac{1}{2}-e^{-1}$$",
+  "search_text": "$L$ 为由点 $A(-1,1)$ 沿抛物线 $y=x^2$ 到点 $O(0,0)$，再沿 $x$ 轴到点 $B(2,0)$ 的弧线，曲线积分 $\\int_L(2xy+e^x)dx$ 的计算结果为（ ） $e$ $\\frac12-e^{-1}$ $e+\\sin1$ $\\frac12+e^{-1}$ 原式 $=\\int_{-1}^0(2x^3+e^x)\\,dx$\n\n$$=\\left[\\frac{1}{2}x^4+e^x\\right]_{-1}^0+2=-\\frac{1}{2}+1-e^{-1}=\\frac{1}{2}-e^{-1}$$",
+  "sort_order": 46
+}

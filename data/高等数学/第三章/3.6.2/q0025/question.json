@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\frac1x+x^2$ 的拐点为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1,2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-1,0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无拐点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1,2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=2/x^3+2$ 在 $x=-1$ 变号，且 $y(-1)=0$，拐点为 $(-1,0)$。",
+  "search_text": "曲线 $y=\\frac1x+x^2$ 的拐点为（ ）。 $(-1,2)$ $(-1,0)$ 无拐点 $(1,2)$ $y\\prime\\prime=2/x^3+2$ 在 $x=-1$ 变号，且 $y(-1)=0$，拐点为 $(-1,0)$。",
+  "sort_order": 25
+}

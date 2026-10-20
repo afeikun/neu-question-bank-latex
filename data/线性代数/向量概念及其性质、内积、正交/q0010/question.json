@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=(2,1,0,2,4)^T,\\ \\alpha_2=(-2,1,2,3,0)^T$，则 $|\\alpha_1|$ 和 $\\langle\\alpha_1,\\alpha_2\\rangle$ 分别等于(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5,3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$25,3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$25,12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5,0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|\\alpha_1|=\\sqrt{4+1+0+4+16}=5$，内积为 $-4+1+0+6+0=3$，选项 1。",
+  "search_text": "设 $\\alpha_1=(2,1,0,2,4)^T,\\ \\alpha_2=(-2,1,2,3,0)^T$，则 $|\\alpha_1|$ 和 $\\langle\\alpha_1,\\alpha_2\\rangle$ 分别等于(\\quad)。 $5,3$ $25,3$ $25,12$ $5,0$ $|\\alpha_1|=\\sqrt{4+1+0+4+16}=5$，内积为 $-4+1+0+6+0=3$，选项 1。",
+  "sort_order": 10
+}

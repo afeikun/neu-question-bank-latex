@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=6xy$，$0<x<1,0<y<2(1-x)$，求$X$边缘密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12x(1-x)^2(0<x<1)$，其他0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6x(1-x)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12x(1-x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3x(1-x/2)^2(0<x\\le2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f_X(x)=\\int_0^{2(1-x)}6xy dy=12x(1-x)^2$。",
+  "search_text": "$f(x,y)=6xy$，$0<x<1,0<y<2(1-x)$，求$X$边缘密度。 $12x(1-x)^2(0<x<1)$，其他0 $6x(1-x)^2$ $12x(1-x)$ $3x(1-x/2)^2(0<x\\le2)$ $f_X(x)=\\int_0^{2(1-x)}6xy dy=12x(1-x)^2$。",
+  "sort_order": 3
+}

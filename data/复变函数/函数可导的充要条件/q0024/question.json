@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $\\omega=(\\ )$ 时，$f(z)=e^{2x}(\\cos\\omega y+i\\sin\\omega y)$ 解析。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "代入柯西－黎曼方程得 $\\omega=2$。",
+  "search_text": "当 $\\omega=(\\ )$ 时，$f(z)=e^{2x}(\\cos\\omega y+i\\sin\\omega y)$ 解析。 $2$ $-1$ $\\pi$ $0$ 代入柯西－黎曼方程得 $\\omega=2$。",
+  "sort_order": 24
+}

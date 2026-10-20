@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列函数在 $x=0$ 处不连续的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x\\sin(1/x)$，$x\ne0$；$0$，$x=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\cos x)^{1/x^2}$，$x\\ne0$；$1/\\sqrt e$，$x=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x\\cot2x$，$x\ne0$；$1/2$，$x=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\sqrt{1+x\\sin x}-1)/\\ln(1+x^2)$，$x\\ne0$；$2$，$x=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "第四个函数的极限为 $1/2$，与定义值 2 不同。",
+  "search_text": "下列函数在 $x=0$ 处不连续的是（ ）。 $x\\sin(1/x)$，$x e0$；$0$，$x=0$ $(\\cos x)^{1/x^2}$，$x\\ne0$；$1/\\sqrt e$，$x=0$ $x\\cot2x$，$x e0$；$1/2$，$x=0$ $(\\sqrt{1+x\\sin x}-1)/\\ln(1+x^2)$，$x\\ne0$；$2$，$x=0$ 第四个函数的极限为 $1/2$，与定义值 2 不同。",
+  "sort_order": 15
+}

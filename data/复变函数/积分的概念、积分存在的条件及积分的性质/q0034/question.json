@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_C|z|\\,dz=(\\quad)$（$C$ 为从 $-2i$ 到 $2i$ 的直线段）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=iy$，$-2\\le y\\le2$，得 $\\int_C|z|dz=4i$。",
+  "search_text": "$\\int_C|z|\\,dz=(\\quad)$（$C$ 为从 $-2i$ 到 $2i$ 的直线段）。 $4i$ $3$ $2i$ $2$ 令 $z=iy$，$-2\\le y\\le2$，得 $\\int_C|z|dz=4i$。",
+  "sort_order": 34
+}

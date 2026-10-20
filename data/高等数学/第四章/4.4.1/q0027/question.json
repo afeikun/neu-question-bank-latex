@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₀^{π/2}sin³x dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "π/4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1/4"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2/3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(2/3)π"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "拆成sin x(1−cos²x)积分，结果为2/3。",
+  "search_text": "计算∫₀^{π/2}sin³x dx π/4 1/4 2/3 (2/3)π 拆成sin x(1−cos²x)积分，结果为2/3。",
+  "sort_order": 27
+}

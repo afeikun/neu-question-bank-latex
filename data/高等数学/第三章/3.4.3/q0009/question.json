@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于函数 $y=2x-\\ln(16x^2)$ 的极值，下述结论正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "有极小值 $2-4\\ln2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "有极大值 $2-4\\ln2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无极值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "有极小值 $\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y\\prime=2-2/x$，驻点为 $x=1$，且 $y\\prime\\prime(1)=2>0$，故极小值为 $2-4\\ln2$。",
+  "search_text": "关于函数 $y=2x-\\ln(16x^2)$ 的极值，下述结论正确的是（ ）。 有极小值 $2-4\\ln2$ 有极大值 $2-4\\ln2$ 无极值 有极小值 $\\frac12$ $y\\prime=2-2/x$，驻点为 $x=1$，且 $y\\prime\\prime(1)=2>0$，故极小值为 $2-4\\ln2$。",
+  "sort_order": 9
+}

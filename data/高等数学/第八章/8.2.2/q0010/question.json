@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega$ 为平面 $x+y+z=1$ 与三个坐标面围成的空间区域，则 $\\iiint_\\Omega(x+y+z)dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac18$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{12}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{24}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_\\Omega(x+y+z)\\,dv=\\iiint_\\Omega3z\\,dv，\n$$\n\n$$\n3\\int_0^1dz\\iint_{D_z}dx\\,dy=\\frac32\\int_0^1z(1-z)^2\\,dz=\\frac18\n$$",
+  "search_text": "设 $\\Omega$ 为平面 $x+y+z=1$ 与三个坐标面围成的空间区域，则 $\\iiint_\\Omega(x+y+z)dv$ 的值为（ ） $\\frac18$ $\\frac1{12}$ $\\frac1{24}$ $\\frac16$ $$\n\\iiint_\\Omega(x+y+z)\\,dv=\\iiint_\\Omega3z\\,dv，\n$$\n\n$$\n3\\int_0^1dz\\iint_{D_z}dx\\,dy=\\frac32\\int_0^1z(1-z)^2\\,dz=\\frac18\n$$",
+  "sort_order": 10
+}

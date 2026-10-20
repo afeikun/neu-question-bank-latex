@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}(1+2x)^{\\frac3{\\tan x}}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\frac3{\\tan x}\\ln(1+2x)\\to6$，故极限为 $e^6$。",
+  "search_text": "$\\lim_{x\\to0}(1+2x)^{\\frac3{\\tan x}}$ 的值为（ ）。 $e$ $e^6$ $e^2$ $e^3$ $\\frac3{\\tan x}\\ln(1+2x)\\to6$，故极限为 $e^6$。",
+  "sort_order": 8
+}

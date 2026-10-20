@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "如果 $A\\cup B=A$，且 $A\\cap B=A$，则事件 $A$ 与 $B$ 满足的关系是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A$ 与 $B$ 相等"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$ 与 $B$ 对立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A$ 与 $B$ 互斥"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A$ 与 $B$ 独立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $A\\cup B=A$ 得 $B\\subseteq A$，由 $A\\cap B=A$ 得 $A\\subseteq B$，所以 $A=B$。",
+  "search_text": "如果 $A\\cup B=A$，且 $A\\cap B=A$，则事件 $A$ 与 $B$ 满足的关系是(\\quad)。 $A$ 与 $B$ 相等 $A$ 与 $B$ 对立 $A$ 与 $B$ 互斥 $A$ 与 $B$ 独立 由 $A\\cup B=A$ 得 $B\\subseteq A$，由 $A\\cap B=A$ 得 $A\\subseteq B$，所以 $A=B$。",
+  "sort_order": 2
+}

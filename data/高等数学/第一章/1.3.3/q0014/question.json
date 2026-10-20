@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)=x\\cos\\frac1x$，则当 $x\\to\\infty$ 时 $f(x)$ 是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无穷小量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "有界变量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无穷大量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无界，但非无穷大量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "当 $x\\to\\infty$，$\\cos(1/x)\\to1$，故 $x\\cos(1/x)\\to+\\infty$。",
+  "search_text": "设函数 $f(x)=x\\cos\\frac1x$，则当 $x\\to\\infty$ 时 $f(x)$ 是（ ）。 无穷小量 有界变量 无穷大量 无界，但非无穷大量 当 $x\\to\\infty$，$\\cos(1/x)\\to1$，故 $x\\cos(1/x)\\to+\\infty$。",
+  "sort_order": 14
+}

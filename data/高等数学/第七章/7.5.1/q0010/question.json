@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u)$ 可导，$x^2+y^2+z^2=yf(\\dfrac zy)$，则 $\\dfrac{\\partial z}{\\partial x}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac y{f^{\\prime}(u)-2x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{2z}{yf^{\\prime}(u)+x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{2x}{f^{\\prime}(u)-2z}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{2x}{xf^{\\prime}(u)+2z}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对隐函数方程关于 $x$ 求偏导（$y$ 固定），令 $u=z/y$，得 $2x+2zz_x=yf^{\\prime}(u)\\frac{z_x}{y}=f^{\\prime}(u)z_x$。于是 $\\frac{\\partial z}{\\partial x}=\\frac{2x}{f^{\\prime}(u)-2z}$，选第三项。",
+  "search_text": "设 $f(u)$ 可导，$x^2+y^2+z^2=yf(\\dfrac zy)$，则 $\\dfrac{\\partial z}{\\partial x}=$（ ）。 $\\dfrac y{f^{\\prime}(u)-2x}$ $\\dfrac{2z}{yf^{\\prime}(u)+x}$ $\\dfrac{2x}{f^{\\prime}(u)-2z}$ $\\dfrac{2x}{xf^{\\prime}(u)+2z}$ 对隐函数方程关于 $x$ 求偏导（$y$ 固定），令 $u=z/y$，得 $2x+2zz_x=yf^{\\prime}(u)\\frac{z_x}{y}=f^{\\prime}(u)z_x$。于是 $\\frac{\\partial z}{\\partial x}=\\frac{2x}{f^{\\prime}(u)-2z}$，选第三项。",
+  "sort_order": 10
+}

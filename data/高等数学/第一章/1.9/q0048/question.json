@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\begin{cases}\\frac{x^2-1}{x-1}e^{\\frac1{x-1}},&x\\ne1\\\\0,&x=1\\end{cases}$，则 $x=1$ 是 $f(x)$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "第二类间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "连续点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "可去间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "跳跃间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to1^+}f(x)=+\\infty$，$\\lim_{x\\to1^-}f(x)=0$。",
+  "search_text": "$f(x)=\\begin{cases}\\frac{x^2-1}{x-1}e^{\\frac1{x-1}},&x\\ne1\\\\0,&x=1\\end{cases}$，则 $x=1$ 是 $f(x)$ 的（ ）。 第二类间断点 连续点 可去间断点 跳跃间断点 $\\lim_{x\\to1^+}f(x)=+\\infty$，$\\lim_{x\\to1^-}f(x)=0$。",
+  "sort_order": 48
+}

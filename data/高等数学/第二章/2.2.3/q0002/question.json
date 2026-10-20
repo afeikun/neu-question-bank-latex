@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\sin x\\ln x-x^3\\sec x-\\tan e$，则 $y\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\sec x\\tan x+\\sec^2e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\sec x\\tan x+\\frac1{1+e^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\sec x\\tan x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\tan^2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y\\prime=\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\sec x\\tan x$。",
+  "search_text": "设 $y=\\sin x\\ln x-x^3\\sec x-\\tan e$，则 $y\\prime=$（ ）。 $\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\sec x\\tan x+\\sec^2e$ $\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\sec x\\tan x+\\frac1{1+e^2}$ $\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\sec x\\tan x$ $\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\tan^2x$ $y\\prime=\\frac{\\sin x}{x}+\\cos x\\ln x-3x^2\\sec x-x^3\\sec x\\tan x$。",
+  "sort_order": 2
+}

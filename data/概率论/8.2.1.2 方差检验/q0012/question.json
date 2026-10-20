@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n=100,\\bar x=2.7,\\sum(X_i-\\bar X)^2=225$，方差检验相关说法正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$H_0:\\sigma^2=2.5,H_1:\\sigma^2\\ne2.5$时统计量$99S^2/2.5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "均值检验用$T$且自由度100"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "均值检验用$U=(\\bar X-3)/(\\sigma/10)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$H_0:\\sigma^2=2.5$时统计量$100S^2/2.5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "未知均值方差检验自由度$n-1=99$，统计量为$99S^2/2.5$。",
+  "search_text": "$n=100,\\bar x=2.7,\\sum(X_i-\\bar X)^2=225$，方差检验相关说法正确的是（）。 $H_0:\\sigma^2=2.5,H_1:\\sigma^2\\ne2.5$时统计量$99S^2/2.5$ 均值检验用$T$且自由度100 均值检验用$U=(\\bar X-3)/(\\sigma/10)$ $H_0:\\sigma^2=2.5$时统计量$100S^2/2.5$ 未知均值方差检验自由度$n-1=99$，统计量为$99S^2/2.5$。",
+  "sort_order": 12
+}

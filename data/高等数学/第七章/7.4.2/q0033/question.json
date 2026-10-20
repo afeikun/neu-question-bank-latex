@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=xy+u$，$u=\\varphi(x,y)$，求 $(z_{xx},z_{xy})$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1+\\varphi_{xx},\\varphi_{xy})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1+\\varphi_{xx},1+\\varphi_{xy})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\varphi_{xx},1+\\varphi_{xy})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\varphi_{xx},\\varphi_{xy})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial^2 z}{\\partial x^2}=\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial z}{\\partial x}\\right)=\\frac{\\partial}{\\partial x}\\left(y+\\frac{\\partial u}{\\partial x}\\right)=\\frac{\\partial^2u}{\\partial x^2}=\\varphi_{xx}(x,y)$\n\n$\\frac{\\partial^2 z}{\\partial x\\partial y}=\\frac{\\partial}{\\partial y}\\left(\\frac{\\partial z}{\\partial x}\\right)=\\frac{\\partial}{\\partial y}\\left(y+\\frac{\\partial u}{\\partial x}\\right)=1+\\frac{\\partial^2u}{\\partial x\\partial y}=1+\\varphi_{xy}(x,y)$",
+  "search_text": "设 $z=xy+u$，$u=\\varphi(x,y)$，求 $(z_{xx},z_{xy})$。 $(1+\\varphi_{xx},\\varphi_{xy})$ $(1+\\varphi_{xx},1+\\varphi_{xy})$ $(\\varphi_{xx},1+\\varphi_{xy})$ $(\\varphi_{xx},\\varphi_{xy})$ $\\frac{\\partial^2 z}{\\partial x^2}=\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial z}{\\partial x}\\right)=\\frac{\\partial}{\\partial x}\\left(y+\\frac{\\partial u}{\\partial x}\\right)=\\frac{\\partial^2u}{\\partial x^2}=\\varphi_{xx}(x,y)$\n\n$\\frac{\\partial^2 z}{\\partial x\\partial y}=\\frac{\\partial}{\\partial y}\\left(\\frac{\\partial z}{\\partial x}\\right)=\\frac{\\partial}{\\partial y}\\left(y+\\frac{\\partial u}{\\partial x}\\right)=1+\\frac{\\partial^2u}{\\partial x\\partial y}=1+\\varphi_{xy}(x,y)$",
+  "sort_order": 33
+}

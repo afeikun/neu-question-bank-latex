@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(x)$ 在 $(a,b)$ 内连续，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=f(x)$ 在 $(a,b)$ 内存在反函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=f(x)$ 在 $(a,b)$ 内有零点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=f(x)$ 在 $(a,b)$ 内有界"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=f(x)$ 在 $(a,b)$ 内每一点连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "连续函数未必在开区间上有界，也未必有反函数或零点。",
+  "search_text": "设 $y=f(x)$ 在 $(a,b)$ 内连续，则（ ）。 $y=f(x)$ 在 $(a,b)$ 内存在反函数 $y=f(x)$ 在 $(a,b)$ 内有零点 $y=f(x)$ 在 $(a,b)$ 内有界 $y=f(x)$ 在 $(a,b)$ 内每一点连续 连续函数未必在开区间上有界，也未必有反函数或零点。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $(x^2+1)y\\prime+2xy=4x^2$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac1{x^2+1}(\\frac43x^3+cx^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac c{x^2+1}(\\frac43x^3+1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1{x^2+1}(\\frac43x^3+c)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac c{x^2+1}(\\frac43x^3-x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "原方程变为 $y'+\\frac{2x}{x^2+1}y=\\frac{4x^2}{x^2+1}$\n\n所求通解为\n\n$y=e^{-\\int\\frac{2x}{x^2+1}dx}\\left(c+\\int\\frac{4x^2}{x^2+1}e^{\\int\\frac{2x}{x^2+1}dx}dx\\right)$\n\n$=e^{-\\ln(x^2+1)}\\left(c+\\int\\frac{4x^2}{x^2+1}e^{\\ln(x^2+1)}dx\\right)=\\frac{1}{x^2+1}(\\frac{4}{3}x^3+c)$",
+  "search_text": "微分方程 $(x^2+1)y\\prime+2xy=4x^2$ 的解为（ ） $y=\\frac1{x^2+1}(\\frac43x^3+cx^2)$ $y=\\frac c{x^2+1}(\\frac43x^3+1)$ $y=\\frac1{x^2+1}(\\frac43x^3+c)$ $y=\\frac c{x^2+1}(\\frac43x^3-x)$ 原方程变为 $y'+\\frac{2x}{x^2+1}y=\\frac{4x^2}{x^2+1}$\n\n所求通解为\n\n$y=e^{-\\int\\frac{2x}{x^2+1}dx}\\left(c+\\int\\frac{4x^2}{x^2+1}e^{\\int\\frac{2x}{x^2+1}dx}dx\\right)$\n\n$=e^{-\\ln(x^2+1)}\\left(c+\\int\\frac{4x^2}{x^2+1}e^{\\ln(x^2+1)}dx\\right)=\\frac{1}{x^2+1}(\\frac{4}{3}x^3+c)$",
+  "sort_order": 8
+}

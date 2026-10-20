@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $xy\\prime-y=\\sqrt{x^2-y^2},\\ x>0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=x(\\sin(\\ln cx)+cy+1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x\\cos(\\ln cx)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=x\\sin(\\ln cx)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=x(\\ln cx+cy)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "原方程化为 $\\frac{dy}{dx}=\\frac{y}{x}+\\sqrt{1-\\frac{y^2}{x^2}}$\n\n设 $u=\\frac{y}{x}$，则 $\\frac{du}{\\sqrt{1-u^2}}=\\frac{dx}{x}$，\n\n积分 $\\arcsin u=\\ln x+\\ln c$，整理得 $y=x\\sin(\\ln cx)$",
+  "search_text": "微分方程 $xy\\prime-y=\\sqrt{x^2-y^2},\\ x>0$ 的通解是（ ） $y=x(\\sin(\\ln cx)+cy+1)$ $y=x\\cos(\\ln cx)$ $y=x\\sin(\\ln cx)$ $y=x(\\ln cx+cy)$ 原方程化为 $\\frac{dy}{dx}=\\frac{y}{x}+\\sqrt{1-\\frac{y^2}{x^2}}$\n\n设 $u=\\frac{y}{x}$，则 $\\frac{du}{\\sqrt{1-u^2}}=\\frac{dx}{x}$，\n\n积分 $\\arcsin u=\\ln x+\\ln c$，整理得 $y=x\\sin(\\ln cx)$",
+  "sort_order": 16
+}

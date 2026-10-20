@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $0<R<1$，则积分 $\\displaystyle\\oint_{|z|=R}\\dfrac{z}{\\sin\\pi z}\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z/\\sin\\pi z$ 在 $z=0$ 为可去奇点，圆内解析，故积分为 $0$。",
+  "search_text": "设 $0<R<1$，则积分 $\\displaystyle\\oint_{|z|=R}\\dfrac{z}{\\sin\\pi z}\\,dz=(\\ \\ )$。 $0$ $\\pi i$ $2\\pi i$ $1$ $z/\\sin\\pi z$ 在 $z=0$ 为可去奇点，圆内解析，故积分为 $0$。",
+  "sort_order": 30
+}

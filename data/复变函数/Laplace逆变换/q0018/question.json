@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal{L}^{-1}[\\frac{e^{-5s}}{s^2-9}]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac16(e^{3(t-5)}-e^{-3(t-5)})u(t-5)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13u(t-5)\\sin3(t-5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13u(t-5)\\cos3(t-5)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16(e^{3(t+5)}-e^{-3(t+5)})u(t+5)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "先反变换 $1/(s^2-9)$，再应用第二平移定理。",
+  "search_text": "$\\mathcal{L}^{-1}[\\frac{e^{-5s}}{s^2-9}]=(\\quad).$ $\\frac16(e^{3(t-5)}-e^{-3(t-5)})u(t-5)$ $\\frac13u(t-5)\\sin3(t-5)$ $\\frac13u(t-5)\\cos3(t-5)$ $\\frac16(e^{3(t+5)}-e^{-3(t+5)})u(t+5)$ 先反变换 $1/(s^2-9)$，再应用第二平移定理。",
+  "sort_order": 18
+}

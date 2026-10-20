@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "没有初值问题 $f\\prime\\prime(u)+\\frac{f\\prime(u)}u=0,\\ f(1)=0,\\ f\\prime(1)=1$，求 $f(u)=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$u^2\\ln u$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$u^3\\ln u$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln u$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$u\\ln u$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 令 $f'(u)=p$，则 $p'+\\frac{p}{u}=0\\Rightarrow\\frac{dp}{p}=-\\frac{du}{u}$，两边积分 $\\ln p=-\\ln u+\\ln C_1$，即 $p=f'(u)=\\frac{C_1}{u}$。由 $f'(1)=1$ 可得 $C_1=1$。所以 $f'(u)=\\frac{1}{u}$，两边积分得 $f(u)=\\ln u+C_2$。由 $f(1)=0$ 可得 $C_2=0$，故\n\n$f(u)=\\ln u$。",
+  "search_text": "没有初值问题 $f\\prime\\prime(u)+\\frac{f\\prime(u)}u=0,\\ f(1)=0,\\ f\\prime(1)=1$，求 $f(u)=$（ ） $u^2\\ln u$ $u^3\\ln u$ $\\ln u$ $u\\ln u$ 解答 令 $f'(u)=p$，则 $p'+\\frac{p}{u}=0\\Rightarrow\\frac{dp}{p}=-\\frac{du}{u}$，两边积分 $\\ln p=-\\ln u+\\ln C_1$，即 $p=f'(u)=\\frac{C_1}{u}$。由 $f'(1)=1$ 可得 $C_1=1$。所以 $f'(u)=\\frac{1}{u}$，两边积分得 $f(u)=\\ln u+C_2$。由 $f(1)=0$ 可得 $C_2=0$，故\n\n$f(u)=\\ln u$。",
+  "sort_order": 33
+}

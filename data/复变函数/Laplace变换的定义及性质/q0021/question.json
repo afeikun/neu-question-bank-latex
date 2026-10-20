@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\begin{cases}3,&0\\le t<2,\\\\-1,&2\\le t<4,\\\\0,&t\\ge4,\\end{cases}$ 则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1s(3-4e^{-2s}+e^{-4s})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3e^{-2s}-e^{-4s}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1s(3+4e^{-2s}+e^{-4s})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2e^{-3s}+e^{-2s}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal L[f(t)]=\\int_0^2 3e^{-st}\\,dt-\\int_2^4e^{-st}\\,dt=\\dfrac1s(3-4e^{-2s}+e^{-4s})$。",
+  "search_text": "设 $f(t)=\\begin{cases}3,&0\\le t<2,\\\\-1,&2\\le t<4,\\\\0,&t\\ge4,\\end{cases}$ 则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac1s(3-4e^{-2s}+e^{-4s})$ $3e^{-2s}-e^{-4s}$ $\\dfrac1s(3+4e^{-2s}+e^{-4s})$ $2e^{-3s}+e^{-2s}$ $\\mathcal L[f(t)]=\\int_0^2 3e^{-st}\\,dt-\\int_2^4e^{-st}\\,dt=\\dfrac1s(3-4e^{-2s}+e^{-4s})$。",
+  "sort_order": 21
+}

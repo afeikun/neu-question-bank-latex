@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0$ 时，$x^a$ 与 $\\sin^3(x^2)$ 为等价无穷小，则 $a=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "5"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "6"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\sin^3(x^2)\\sim x^6$，所以 $a=6$。",
+  "search_text": "当 $x\\to0$ 时，$x^a$ 与 $\\sin^3(x^2)$ 为等价无穷小，则 $a=(\\ )$。 3 2 5 6 $\\sin^3(x^2)\\sim x^6$，所以 $a=6$。",
+  "sort_order": 39
+}

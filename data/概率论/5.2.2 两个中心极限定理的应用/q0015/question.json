@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "100个独立部件各以0.1概率损坏，至少85个正常工作的概率约为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.9521$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.9525$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.0475$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.0479$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正常数近似$N(90,9)$，$P(X\\ge85)\\approx\\Phi(3.33)-\\Phi(-1.67)=0.9521$。",
+  "search_text": "100个独立部件各以0.1概率损坏，至少85个正常工作的概率约为（）。 $0.9521$ $0.9525$ $0.0475$ $0.0479$ 正常数近似$N(90,9)$，$P(X\\ge85)\\approx\\Phi(3.33)-\\Phi(-1.67)=0.9521$。",
+  "sort_order": 15
+}

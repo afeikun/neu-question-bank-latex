@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\lim_{x\\to x_0}x=x_0$，则满足 $0<|x-x_0|<\\delta$ 中的 $\\delta$ 应取为（　）（其中 $\\varepsilon$ 为任意正实数）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不能确定"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\delta=\\frac\\varepsilon2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\delta=\\frac\\varepsilon3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\delta=\\varepsilon$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$|f(x)-A|=|x-x_0|$，取 $\\delta=\\varepsilon$。",
+  "search_text": "已知 $\\lim_{x\\to x_0}x=x_0$，则满足 $0<|x-x_0|<\\delta$ 中的 $\\delta$ 应取为（ ）（其中 $\\varepsilon$ 为任意正实数）。 不能确定 $\\delta=\\frac\\varepsilon2$ $\\delta=\\frac\\varepsilon3$ $\\delta=\\varepsilon$ $|f(x)-A|=|x-x_0|$，取 $\\delta=\\varepsilon$。",
+  "sort_order": 14
+}

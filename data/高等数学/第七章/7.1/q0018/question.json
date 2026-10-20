@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二元函数 $f(x,y)=\\begin{cases}\\frac{x^3+y^3}{x^2+y^2},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$ 在点 $(0,0)$ 处(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "左连续右不连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "右连续左不连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $f(x,y)$ 表达式的特征，利用极坐标变换：令 $x=\\rho\\cos\\theta,\\ y=\\rho\\sin\\theta$ 则\n\\[\n\\lim_{(x,y)\\to(0,0)}f(x,y)=\\lim_{\\rho\\to0}\\rho(\\sin^3\\theta+\\cos^3\\theta)=0=f(0,0),\n\\]\n所以函数在 $(0,0)$ 点处连续.",
+  "search_text": "二元函数 $f(x,y)=\\begin{cases}\\frac{x^3+y^3}{x^2+y^2},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$ 在点 $(0,0)$ 处(\\quad)。 左连续右不连续 右连续左不连续 连续 不连续 由 $f(x,y)$ 表达式的特征，利用极坐标变换：令 $x=\\rho\\cos\\theta,\\ y=\\rho\\sin\\theta$ 则\n\\[\n\\lim_{(x,y)\\to(0,0)}f(x,y)=\\lim_{\\rho\\to0}\\rho(\\sin^3\\theta+\\cos^3\\theta)=0=f(0,0),\n\\]\n所以函数在 $(0,0)$ 点处连续.",
+  "sort_order": 18
+}

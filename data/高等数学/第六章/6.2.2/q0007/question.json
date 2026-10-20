@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec a,\\vec b$ 是任意两个向量，则 $(\\vec a+\\vec b)\\cdot(\\vec a\\times\\vec b)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|\\vec a+\\vec b|\\,|\\vec a\\times\\vec b|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\vec a^2+\\vec b^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\vec0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\vec a+\\vec b$ 与 $\\vec a\\times\\vec b$ 垂直，故数量积为 $0$。",
+  "search_text": "设 $\\vec a,\\vec b$ 是任意两个向量，则 $(\\vec a+\\vec b)\\cdot(\\vec a\\times\\vec b)=(\\quad)$。 $|\\vec a+\\vec b|\\,|\\vec a\\times\\vec b|$ $\\vec a^2+\\vec b^2$ $0$ $\\vec0$ $\\vec a+\\vec b$ 与 $\\vec a\\times\\vec b$ 垂直，故数量积为 $0$。",
+  "sort_order": 7
+}

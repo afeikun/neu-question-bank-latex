@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0^+}(2-3^{\\arctan^2\\sqrt{x}})^{2/\\sin x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac19$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{81}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "取对数化为指数型并用 $\\arctan\\sqrt{x}\\sim\\sqrt{x}$，原题计算结果为 $1/9$。",
+  "search_text": "$\\lim_{x\\to0^+}(2-3^{\\arctan^2\\sqrt{x}})^{2/\\sin x}=(\\quad)$。 $\\frac19$ $1$ $9$ $\\frac1{81}$ 取对数化为指数型并用 $\\arctan\\sqrt{x}\\sim\\sqrt{x}$，原题计算结果为 $1/9$。",
+  "sort_order": 26
+}

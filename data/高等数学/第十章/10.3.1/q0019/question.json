@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $xy\\prime+y=e^x$ 满足条件 $y(a)=b$ 的特解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac1x(e^x-e^a-ab)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac1x(e^x+e^a-ab)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1x(e^x-e^a+ab)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac1x(e^x+e^a+ab)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "原方程化为 $y'+\\frac{y}{x}=\\frac{e^x}{x}$，解得 $y=\\frac{1}{x}(e^x+c)$，代入 $y(a)=b$，得 $c=-e^a+ab$，所以特解为\n\n$y=\\frac{1}{x}(e^x-e^a+ab)$",
+  "search_text": "微分方程 $xy\\prime+y=e^x$ 满足条件 $y(a)=b$ 的特解是（ ） $y=\\frac1x(e^x-e^a-ab)$ $y=\\frac1x(e^x+e^a-ab)$ $y=\\frac1x(e^x-e^a+ab)$ $y=\\frac1x(e^x+e^a+ab)$ 原方程化为 $y'+\\frac{y}{x}=\\frac{e^x}{x}$，解得 $y=\\frac{1}{x}(e^x+c)$，代入 $y(a)=b$，得 $c=-e^a+ab$，所以特解为\n\n$y=\\frac{1}{x}(e^x-e^a+ab)$",
+  "sort_order": 19
+}

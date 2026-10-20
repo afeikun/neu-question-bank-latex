@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=x\\cos x-\\ln a^x+\\sin e$，则 $y\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos x-x\\sin x-\\ln a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos x-x\\sin x-1/a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos x-x\\sin x+1/a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cos x+x\\sin x-\\ln a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y\\prime=\\cos x-x\\sin x-\\ln a$。",
+  "search_text": "设 $y=x\\cos x-\\ln a^x+\\sin e$，则 $y\\prime=$（ ）。 $\\cos x-x\\sin x-\\ln a$ $\\cos x-x\\sin x-1/a$ $\\cos x-x\\sin x+1/a$ $\\cos x+x\\sin x-\\ln a$ $y\\prime=\\cos x-x\\sin x-\\ln a$。",
+  "sort_order": 1
+}

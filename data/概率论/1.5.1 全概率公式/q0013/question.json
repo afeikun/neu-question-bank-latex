@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设袋中有a个黑球、b个白球，每次从中取出一球，取后不放回，从中取两次，则第二次取出白球的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "b/(a+b)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "b²/(a+b)²"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "b(b−1)/[(a+b)(a+b−1)]"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(b−1)/(a+b−1)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设A为第一次取出白球，B为第二次取出白球。由全概率公式，P(B)=b/(a+b)·(b−1)/(a+b−1)+a/(a+b)·b/(a+b−1)=b/(a+b)。",
+  "search_text": "设袋中有a个黑球、b个白球，每次从中取出一球，取后不放回，从中取两次，则第二次取出白球的概率为（ ）。 b/(a+b) b²/(a+b)² b(b−1)/[(a+b)(a+b−1)] (b−1)/(a+b−1) 设A为第一次取出白球，B为第二次取出白球。由全概率公式，P(B)=b/(a+b)·(b−1)/(a+b−1)+a/(a+b)·b/(a+b−1)=b/(a+b)。",
+  "sort_order": 13
+}

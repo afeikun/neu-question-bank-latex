@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=\\frac{1-t^2}{1+t^2}, y=\\frac{2t}{1+t^2}$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{t^2-1}{2t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{t^2+1}{2t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{t^2-1}{t^2+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t^2-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\frac{4t}{(1+t^2)^2},\\quad \\frac{dy}{dt}=\\frac{2(1-t^2)}{(1+t^2)^2},$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{t^2-1}{2t}.$",
+  "search_text": "$x=\\frac{1-t^2}{1+t^2}, y=\\frac{2t}{1+t^2}$，求 $\\frac{dy}{dx}$。 $\\frac{t^2-1}{2t}$ $\\frac{t^2+1}{2t}$ $\\frac{t^2-1}{t^2+1}$ $t^2-1$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\frac{4t}{(1+t^2)^2},\\quad \\frac{dy}{dt}=\\frac{2(1-t^2)}{(1+t^2)^2},$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{t^2-1}{2t}.$",
+  "sort_order": 26
+}

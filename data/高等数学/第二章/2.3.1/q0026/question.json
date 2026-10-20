@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=x^2f(\\sin x)$，其中 $f$ 二阶可导，则 $y\\prime\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2f(\\sin x)+(x^2\\sin x-4x\\cos x)f\\prime(\\sin x)+x^2\\cos^2x f\\prime\\prime(\\sin x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2f(\\sin x)-(4x\\cos x-x^2\\sin x)f\\prime(\\sin x)-x^2\\cos^2x f\\prime\\prime(\\sin x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2f(\\sin x)-(x^2\\sin x-4x\\cos x)f\\prime(\\sin x)+x^2\\cos^2x f\\prime\\prime(\\sin x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2f(\\sin x)+(4x\\cos x-x^2\\sin x)f\\prime(\\sin x)+x^2\\sin^2x f\\prime\\prime(\\sin x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "两次乘积与链式求导得 $2f(\\sin x)+(4x\\cos x-x^2\\sin x)f\\prime(\\sin x)+x^2\\cos^2x f\\prime\\prime(\\sin x)$。",
+  "search_text": "$y=x^2f(\\sin x)$，其中 $f$ 二阶可导，则 $y\\prime\\prime=$（ ）。 $2f(\\sin x)+(x^2\\sin x-4x\\cos x)f\\prime(\\sin x)+x^2\\cos^2x f\\prime\\prime(\\sin x)$ $2f(\\sin x)-(4x\\cos x-x^2\\sin x)f\\prime(\\sin x)-x^2\\cos^2x f\\prime\\prime(\\sin x)$ $2f(\\sin x)-(x^2\\sin x-4x\\cos x)f\\prime(\\sin x)+x^2\\cos^2x f\\prime\\prime(\\sin x)$ $2f(\\sin x)+(4x\\cos x-x^2\\sin x)f\\prime(\\sin x)+x^2\\sin^2x f\\prime\\prime(\\sin x)$ 两次乘积与链式求导得 $2f(\\sin x)+(4x\\cos x-x^2\\sin x)f\\prime(\\sin x)+x^2\\cos^2x f\\prime\\prime(\\sin x)$。",
+  "sort_order": 26
+}

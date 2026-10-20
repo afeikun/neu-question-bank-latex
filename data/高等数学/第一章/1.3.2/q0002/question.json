@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}\\frac{2x+1}{\\sqrt{x^2+3}}=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pm2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当 $x\\to+\\infty$ 极限为 $2$，当 $x\\to-\\infty$ 极限为 $-2$，故双侧无穷远极限不存在。",
+  "search_text": "$\\lim_{x\\to\\infty}\\frac{2x+1}{\\sqrt{x^2+3}}=$（ ）。 $2$ $\\pm2$ $-2$ 不存在 当 $x\\to+\\infty$ 极限为 $2$，当 $x\\to-\\infty$ 极限为 $-2$，故双侧无穷远极限不存在。",
+  "sort_order": 2
+}

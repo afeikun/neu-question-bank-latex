@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim U(0,1)$，$Y=\\ln X$，求密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^y(y<0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-y}(y>0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^y(y>0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-y}(y<0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$x=e^y$，$f_Y(y)=e^y$，支持集$y<0$。",
+  "search_text": "$X\\sim U(0,1)$，$Y=\\ln X$，求密度。 $e^y(y<0)$ $e^{-y}(y>0)$ $e^y(y>0)$ $e^{-y}(y<0)$ $x=e^y$，$f_Y(y)=e^y$，支持集$y<0$。",
+  "sort_order": 11
+}

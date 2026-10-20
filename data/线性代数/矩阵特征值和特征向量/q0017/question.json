@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 3 阶矩阵 $A$ 的特征值为 $1,2,3$，则矩阵 $6A^*$ 的三个特征值为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1,\\frac12,\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$36,18,12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6,3,2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6,12,36$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$A^*=|A|A^{-1}$ 且 $|A|=6$，故 $6A^*=36A^{-1}$，特征值为 $36,18,12$，选项 2。",
+  "search_text": "设 3 阶矩阵 $A$ 的特征值为 $1,2,3$，则矩阵 $6A^*$ 的三个特征值为(\\quad)。 $1,\\frac12,\\frac13$ $36,18,12$ $6,3,2$ $6,12,36$ $A^*=|A|A^{-1}$ 且 $|A|=6$，故 $6A^*=36A^{-1}$，特征值为 $36,18,12$，选项 2。",
+  "sort_order": 17
+}

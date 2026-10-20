@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a$ 为常数，级数 $\\sum_{n=1}^{\\infty}(\\sin na/n^2-1/\\sqrt n)$ 如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "敛散性与 $a$ 有关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "条件收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正弦项绝对可和，而 $\\sum_{n=1}^{\\infty}1/\\sqrt n$ 发散，原级数发散。",
+  "search_text": "设 $a$ 为常数，级数 $\\sum_{n=1}^{\\infty}(\\sin na/n^2-1/\\sqrt n)$ 如何？ 发散 绝对收敛 敛散性与 $a$ 有关 条件收敛 正弦项绝对可和，而 $\\sum_{n=1}^{\\infty}1/\\sqrt n$ 发散，原级数发散。",
+  "sort_order": 39
+}

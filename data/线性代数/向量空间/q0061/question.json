@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\mathbb{R}^3$ 中两个基 $\\alpha_1=(1,0,0)^T$，$\\alpha_2=(1,1,0)^T$，$\\alpha_3=(1,1,1)^T$ 和 $\\beta_1=(1,1,-1)^T$，$\\beta_2=(1,-1,2)^T$，$\\beta_3=(2,1,1)^T$，则向量 $\\gamma=\\beta_1+\\beta_2-2\\beta_3$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}-1\\\\-2\\\\1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}0\\\\-1\\\\-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}2\\\\1\\\\-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}0\\\\-1\\\\-2\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $C=\\begin{pmatrix}0&2&1\\\\2&-3&0\\\\-1&2&1\\end{pmatrix}$。所以 $\\gamma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $C(1,1,-2)^T=(0,-1,-1)^T$。",
+  "search_text": "已知 $\\mathbb{R}^3$ 中两个基 $\\alpha_1=(1,0,0)^T$，$\\alpha_2=(1,1,0)^T$，$\\alpha_3=(1,1,1)^T$ 和 $\\beta_1=(1,1,-1)^T$，$\\beta_2=(1,-1,2)^T$，$\\beta_3=(2,1,1)^T$，则向量 $\\gamma=\\beta_1+\\beta_2-2\\beta_3$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为（ ）。 $\\begin{pmatrix}-1\\\\-2\\\\1\\end{pmatrix}$ $\\begin{pmatrix}0\\\\-1\\\\-1\\end{pmatrix}$ $\\begin{pmatrix}2\\\\1\\\\-1\\end{pmatrix}$ $\\begin{pmatrix}0\\\\-1\\\\-2\\end{pmatrix}$ 由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为 $C=\\begin{pmatrix}0&2&1\\\\2&-3&0\\\\-1&2&1\\end{pmatrix}$。所以 $\\gamma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $C(1,1,-2)^T=(0,-1,-1)^T$。",
+  "sort_order": 61
+}

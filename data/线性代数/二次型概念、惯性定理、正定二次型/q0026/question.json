@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "实二次型 $f(x_1,x_2,x_3)=(x_1+ax_2)^2+(x_2+bx_3)^2+(x_3+cx_1)^2$ 正定，则 $a,b,c$ 应满足的条件为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$abc\\ne1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$abc=-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$abc\\ne-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$abc=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f$ 是三个平方和，显然非负；当且仅当方程组 $\\begin{cases}x_1+ax_2=0\\\\x_2+bx_3=0\\\\x_3+cx_1=0\\end{cases}$ 只有零解时为正定。其系数行列式为 $D=1+abc$，所以当 $abc\\ne-1$ 时只有零解，故 $f$ 正定。",
+  "search_text": "实二次型 $f(x_1,x_2,x_3)=(x_1+ax_2)^2+(x_2+bx_3)^2+(x_3+cx_1)^2$ 正定，则 $a,b,c$ 应满足的条件为（ ）。 $abc\\ne1$ $abc=-1$ $abc\\ne-1$ $abc=1$ $f$ 是三个平方和，显然非负；当且仅当方程组 $\\begin{cases}x_1+ax_2=0\\\\x_2+bx_3=0\\\\x_3+cx_1=0\\end{cases}$ 只有零解时为正定。其系数行列式为 $D=1+abc$，所以当 $abc\\ne-1$ 时只有零解，故 $f$ 正定。",
+  "sort_order": 26
+}

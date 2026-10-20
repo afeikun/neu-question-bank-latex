@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\frac{dy}{dx}=\\frac{2y}{x-2y}$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y(x+y)=x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y(x^3+y^3)=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C(x+2y)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C(x^2+y^2)+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $\\frac{dy}{dx}=\\frac{2\\frac{y}{x}}{1-2\\frac{y}{x}},$\n\n设 $\\frac{y}{x}=u,y'=u+xu'$，代入得\n\n$\\frac{1}{x}\\,dx=\\frac{1-2u}{u+2u^2}\\,du=\\left(\\frac{1}{u}-\\frac{4}{1+2u}\\right)du,$\n\n积分，代入 $u$，整理得 $y=C(x+2y)^2.$",
+  "search_text": "微分方程 $\\frac{dy}{dx}=\\frac{2y}{x-2y}$ 的通解为（ ） $y(x+y)=x+C$ $y(x^3+y^3)=C$ $y=C(x+2y)^2$ $y=C(x^2+y^2)+1$ 由 $\\frac{dy}{dx}=\\frac{2\\frac{y}{x}}{1-2\\frac{y}{x}},$\n\n设 $\\frac{y}{x}=u,y'=u+xu'$，代入得\n\n$\\frac{1}{x}\\,dx=\\frac{1-2u}{u+2u^2}\\,du=\\left(\\frac{1}{u}-\\frac{4}{1+2u}\\right)du,$\n\n积分，代入 $u$，整理得 $y=C(x+2y)^2.$",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $L$ 是圆周 $x^2+y^2=a^2$ 位于第一象限部分的弧段，则 $\\int_Lx(x+1)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4a^3+a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi2a^3+a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi4a^3-a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4a^3+a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 将 $L$ 写成极坐标 $r=a,0\\leq\\theta\\leq\\frac{\\pi}{2}$，\n\n于是\n$$\n\\int_Lx(x+1)ds=\\int_0^{\\frac{\\pi}{2}}a\\cos\\theta(a\\cos\\theta+1)\\sqrt{r^2+r'^2}\\,d\\theta\n$$\n\n$$\n=\\int_0^{\\frac{\\pi}{2}}a^2\\cos\\theta(a\\cos\\theta+1)d\\theta\n$$\n\n$$\n=\\frac{\\pi}{4}a^3+a^2.\n$$",
+  "search_text": "若 $L$ 是圆周 $x^2+y^2=a^2$ 位于第一象限部分的弧段，则 $\\int_Lx(x+1)ds=$（ ） $\\frac\\pi4a^3+a^2$ $\\frac\\pi2a^3+a^2$ $\\frac\\pi4a^3-a^2$ $\\frac\\pi4a^3+a^3$ 解答 将 $L$ 写成极坐标 $r=a,0\\leq\\theta\\leq\\frac{\\pi}{2}$，\n\n于是\n$$\n\\int_Lx(x+1)ds=\\int_0^{\\frac{\\pi}{2}}a\\cos\\theta(a\\cos\\theta+1)\\sqrt{r^2+r'^2}\\,d\\theta\n$$\n\n$$\n=\\int_0^{\\frac{\\pi}{2}}a^2\\cos\\theta(a\\cos\\theta+1)d\\theta\n$$\n\n$$\n=\\frac{\\pi}{4}a^3+a^2.\n$$",
+  "sort_order": 35
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\left(\\frac1y\\sin\\frac xy-\\frac y{x^2}\\cos\\frac yx+1\\right)dx+\\left(\\frac1x\\cos\\frac yx-\\frac x{y^2}\\sin\\frac xy+\\frac1{y^2}\\right)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin\\frac xy-\\cos\\frac xy+x-\\frac1y=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin\\frac yx-\\cos\\frac yx+x-\\frac1y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sin\\frac yx-\\cos\\frac xy+x-\\frac1y=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sin\\frac yx-\\cos\\frac xy+y-\\frac1x=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程整理为\n\n$$\\left(\\frac{1}{y}\\sin\\frac{x}{y}\\,dx-\\frac{x}{y^2}\\sin\\frac{x}{y}\\,dy\\right)+\\left(\\frac{y}{x^2}\\cos\\frac{y}{x}\\,dx+\\frac{1}{x}\\cos\\frac{y}{x}\\,dy\\right)+dx+\\frac{1}{y^2}dy=0,$$\n\n$$-d\\cos\\frac{x}{y}+d\\sin\\frac{y}{x}+dx-d\\left(\\frac{1}{y}\\right)=0,$$\n\n即 $d\\left(-\\cos\\frac{x}{y}+\\sin\\frac{y}{x}+x-\\frac{1}{y}\\right)=0$",
+  "search_text": "$\\left(\\frac1y\\sin\\frac xy-\\frac y{x^2}\\cos\\frac yx+1\\right)dx+\\left(\\frac1x\\cos\\frac yx-\\frac x{y^2}\\sin\\frac xy+\\frac1{y^2}\\right)dy=0$ 的通解为（ ） $\\sin\\frac xy-\\cos\\frac xy+x-\\frac1y=C$ $\\sin\\frac yx-\\cos\\frac yx+x-\\frac1y=0$ $\\sin\\frac yx-\\cos\\frac xy+x-\\frac1y=C$ $\\sin\\frac yx-\\cos\\frac xy+y-\\frac1x=0$ 方程整理为\n\n$$\\left(\\frac{1}{y}\\sin\\frac{x}{y}\\,dx-\\frac{x}{y^2}\\sin\\frac{x}{y}\\,dy\\right)+\\left(\\frac{y}{x^2}\\cos\\frac{y}{x}\\,dx+\\frac{1}{x}\\cos\\frac{y}{x}\\,dy\\right)+dx+\\frac{1}{y^2}dy=0,$$\n\n$$-d\\cos\\frac{x}{y}+d\\sin\\frac{y}{x}+dx-d\\left(\\frac{1}{y}\\right)=0,$$\n\n即 $d\\left(-\\cos\\frac{x}{y}+\\sin\\frac{y}{x}+x-\\frac{1}{y}\\right)=0$",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega:x^2+y^2+z^2\\leq2x\\ (a>0,b>0,c>0)$，则 $\\iiint_\\Omega(ax+by+cz)dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{4a}3\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{4a}3\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{4abc}3\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由对称性知\n\n$$\n\\iiint_\\Omega(by+cz)\\,dv=0,\n$$\n\n球体 $x^2+y^2+z^2\\le2x$ 的形心坐标为 $(1,0,0)$，由形心坐标公式\n\n$$\n\\bar{x}=\\frac{\\iiint_\\Omega x\\,dv}{V}，\n$$\n\n可知\n\n$$\n\\iiint_\\Omega x\\,dv=V\\bar{x}=V=\\frac43\\pi\n$$\n\n所以，原式 $=\\frac{4a}{3}\\pi$。",
+  "search_text": "$\\Omega:x^2+y^2+z^2\\leq2x\\ (a>0,b>0,c>0)$，则 $\\iiint_\\Omega(ax+by+cz)dv$ 的值为（ ） $\\frac43\\pi$ $\\frac{4a}3\\pi$ $\\frac{4a}3\\pi$ $\\frac{4abc}3\\pi$ 由对称性知\n\n$$\n\\iiint_\\Omega(by+cz)\\,dv=0,\n$$\n\n球体 $x^2+y^2+z^2\\le2x$ 的形心坐标为 $(1,0,0)$，由形心坐标公式\n\n$$\n\\bar{x}=\\frac{\\iiint_\\Omega x\\,dv}{V}，\n$$\n\n可知\n\n$$\n\\iiint_\\Omega x\\,dv=V\\bar{x}=V=\\frac43\\pi\n$$\n\n所以，原式 $=\\frac{4a}{3}\\pi$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x\\prime\\prime-e^{2x}=0$ 且满足 $x|_{t=0}=0,\\ x\\prime|_{t=0}=1$ 的特解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-e^{2x}=t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-e^{-2x}=t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-e^{-x}=t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-e^{-x}=t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 令 $x'=\\frac{dx}{dt}=y$，则原方程化为一阶方程 $y\\frac{dy}{dx}-e^{2x}=0$，分离变量得到通解为 $\\frac{1}{2}y^2=\\frac{1}{2}e^{2x}+C_1$，根据 $x'|_{t=0}=1$，$x|_{t=0}=0$，可得 $C_1=0$。于是有 $x'=e^x$，再次积分得 $-e^{-x}=t+C_2$，由初始条件 $x|_{t=0}=0$ 得 $C_2=-1$，故原方程的特解为 $1-e^{-x}=t$，故选 D。",
+  "search_text": "方程 $x\\prime\\prime-e^{2x}=0$ 且满足 $x|_{t=0}=0,\\ x\\prime|_{t=0}=1$ 的特解是（ ） $1-e^{2x}=t$ $1-e^{-2x}=t$ $1-e^{-x}=t$ $1-e^{-x}=t$ 解答 令 $x'=\\frac{dx}{dt}=y$，则原方程化为一阶方程 $y\\frac{dy}{dx}-e^{2x}=0$，分离变量得到通解为 $\\frac{1}{2}y^2=\\frac{1}{2}e^{2x}+C_1$，根据 $x'|_{t=0}=1$，$x|_{t=0}=0$，可得 $C_1=0$。于是有 $x'=e^x$，再次积分得 $-e^{-x}=t+C_2$，由初始条件 $x|_{t=0}=0$ 得 $C_2=-1$，故原方程的特解为 $1-e^{-x}=t$，故选 D。",
+  "sort_order": 14
+}

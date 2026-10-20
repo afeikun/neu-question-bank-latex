@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{n\\to\\infty}u_n=+\\infty$，$u_n>0$，求级数 $\\sum_{n=1}^{\\infty}(1/\\sqrt{u_n}-1/\\sqrt{u_{n+1}})$ 的和。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/u_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/\\sqrt{u_1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(u_1-u_2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "部分和望远镜相消，极限为 $1/\\sqrt{u_1}$。",
+  "search_text": "若 $\\lim_{n\\to\\infty}u_n=+\\infty$，$u_n>0$，求级数 $\\sum_{n=1}^{\\infty}(1/\\sqrt{u_n}-1/\\sqrt{u_{n+1}})$ 的和。 $1/u_1$ $1/\\sqrt{u_1}$ $1/(u_1-u_2)$ $0$ 部分和望远镜相消，极限为 $1/\\sqrt{u_1}$。",
+  "sort_order": 10
+}

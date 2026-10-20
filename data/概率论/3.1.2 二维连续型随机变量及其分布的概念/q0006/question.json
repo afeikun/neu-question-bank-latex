@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "联合分布函数$F(x,y)=P(\\xi<x,\\eta<y)$，表示$P(a\\le\\xi<b,c\\le\\eta<d)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(b,d)-F(b,c)-F(a,d)+F(a,c)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(b,d)-F(b,c)+F(a,d)-F(a,c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(b,d)-F(b,c)-F(a,d)-F(a,c)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(b,d)+F(b,c)-F(a,d)-F(a,c)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对矩形区域作容斥，得到$F(b,d)-F(b,c)-F(a,d)+F(a,c)$。",
+  "search_text": "联合分布函数$F(x,y)=P(\\xi<x,\\eta<y)$，表示$P(a\\le\\xi<b,c\\le\\eta<d)$。 $F(b,d)-F(b,c)-F(a,d)+F(a,c)$ $F(b,d)-F(b,c)+F(a,d)-F(a,c)$ $F(b,d)-F(b,c)-F(a,d)-F(a,c)$ $F(b,d)+F(b,c)-F(a,d)-F(a,c)$ 对矩形区域作容斥，得到$F(b,d)-F(b,c)-F(a,d)+F(a,c)$。",
+  "sort_order": 6
+}

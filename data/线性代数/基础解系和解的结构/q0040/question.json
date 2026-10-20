@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $n$ 阶方阵，且 $R(A)=n-1$，$\\alpha_1,\\alpha_2$ 是非齐次线性方程组 $AX=b$ 的两个不同的解向量，则 $AX=0$ 的通解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k\\alpha_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k(\\alpha_1-\\alpha_2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k\\alpha_1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k(\\alpha_1+\\alpha_2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "非齐次方程组两个解之差是对应齐次方程组的解，因此 $\\alpha_1-\\alpha_2$ 是齐次解。由秩为 $n-1$ 可知零空间维数为 $1$，所以通解为 $k(\\alpha_1-\\alpha_2)$。",
+  "search_text": "设 $A$ 为 $n$ 阶方阵，且 $R(A)=n-1$，$\\alpha_1,\\alpha_2$ 是非齐次线性方程组 $AX=b$ 的两个不同的解向量，则 $AX=0$ 的通解为（ ）。 $k\\alpha_2$ $k(\\alpha_1-\\alpha_2)$ $k\\alpha_1$ $k(\\alpha_1+\\alpha_2)$ 非齐次方程组两个解之差是对应齐次方程组的解，因此 $\\alpha_1-\\alpha_2$ 是齐次解。由秩为 $n-1$ 可知零空间维数为 $1$，所以通解为 $k(\\alpha_1-\\alpha_2)$。",
+  "sort_order": 40
+}

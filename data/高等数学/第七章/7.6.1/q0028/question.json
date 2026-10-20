@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "螺旋线 $x=a\\cos\\theta,y=a\\sin\\theta,z=b\\theta$ 在点 $(a,0,0)$ 处的法平面方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$ay-bz=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ay+bz=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(x-a)+ay-bz=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x-a)+ay+bz=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "曲线在点 $(a,0,0)$ 所对应的参数 $\\theta$ 应为 $\\theta=0$，于是曲线在该点的切向量为\n\n$$\\vec{T}=(-a\\sin\\theta,a\\cos\\theta,b)=(0,a,b),$$\n\n故所求法平面方程为 $0(x-a)+ay+bz=0$，\n\n即 $ay+bz=0$。",
+  "search_text": "螺旋线 $x=a\\cos\\theta,y=a\\sin\\theta,z=b\\theta$ 在点 $(a,0,0)$ 处的法平面方程为。 $ay-bz=0$ $ay+bz=0$ $(x-a)+ay-bz=0$ $(x-a)+ay+bz=0$ 曲线在点 $(a,0,0)$ 所对应的参数 $\\theta$ 应为 $\\theta=0$，于是曲线在该点的切向量为\n\n$$\\vec{T}=(-a\\sin\\theta,a\\cos\\theta,b)=(0,a,b),$$\n\n故所求法平面方程为 $0(x-a)+ay+bz=0$，\n\n即 $ay+bz=0$。",
+  "sort_order": 28
+}

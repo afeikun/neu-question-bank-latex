@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Ln}(-i)$ 的主值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac\\pi2i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{3\\pi}2i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac\\pi2+2k\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{3\\pi}2+2k\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|-i|=1$，主辐角为 $-\\pi/2$。",
+  "search_text": "$\\operatorname{Ln}(-i)$ 的主值为（ ）。 $-\\frac\\pi2i$ $\\frac{3\\pi}2i$ $-\\frac\\pi2+2k\\pi i$ $\\frac{3\\pi}2+2k\\pi i$ $|-i|=1$，主辐角为 $-\\pi/2$。",
+  "sort_order": 36
+}

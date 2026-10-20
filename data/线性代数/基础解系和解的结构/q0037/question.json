@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $m\\times n$ 矩阵，$B$ 为 $s\\times n$ 矩阵，$R(A)<\\frac n2$，$R(B)<\\frac n2$，则下列必成立的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n$ 元方程组 $Ax=0$ 与 $Bx=0$ 同解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n$ 元方程组 $Ax=0$ 与 $Bx=0$ 只有零解相同"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n$ 元方程组 $Ax=0$ 与 $Bx=0$ 至少有一个相同的非零解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n$ 元方程组 $Ax=0$ 与 $Bx=0$ 没有相同的解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "拼接矩阵 $\\begin{pmatrix}A\\\\B\\end{pmatrix}$ 的秩小于 $R(A)+R(B)<n$，所以其零空间含非零向量。该向量同时是 $Ax=0$ 与 $Bx=0$ 的解。",
+  "search_text": "设 $A$ 为 $m\\times n$ 矩阵，$B$ 为 $s\\times n$ 矩阵，$R(A)<\\frac n2$，$R(B)<\\frac n2$，则下列必成立的是（ ）。 $n$ 元方程组 $Ax=0$ 与 $Bx=0$ 同解 $n$ 元方程组 $Ax=0$ 与 $Bx=0$ 只有零解相同 $n$ 元方程组 $Ax=0$ 与 $Bx=0$ 至少有一个相同的非零解 $n$ 元方程组 $Ax=0$ 与 $Bx=0$ 没有相同的解 拼接矩阵 $\\begin{pmatrix}A\\\\B\\end{pmatrix}$ 的秩小于 $R(A)+R(B)<n$，所以其零空间含非零向量。该向量同时是 $Ax=0$ 与 $Bx=0$ 的解。",
+  "sort_order": 37
+}

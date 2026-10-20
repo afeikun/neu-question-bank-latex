@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A,B$ 满足 $A^*BA=2BA-8E$，其中 $A=\\begin{pmatrix}1&0&0\\\\0&-2&0\\\\0&0&1\\end{pmatrix}$，$E$ 是 $3$ 阶单位矩阵，$A^*$ 是 $A$ 的伴随矩阵，则矩阵 $B$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}4&0&0\\\\0&2&0\\\\0&0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}2&0&0\\\\0&4&0\\\\0&0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}-4&0&0\\\\0&2&0\\\\0&0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}2&0&0\\\\0&-4&0\\\\0&0&2\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "移项得 $(2E-A^*)BA=8E$，所以 $B=8(2E-A^*)^{-1}A^{-1}=4(A+E)^{-1}$。由于 $A+E=\\operatorname{diag}(2,-1,2)$，故 $B=\\operatorname{diag}(2,-4,2)$。",
+  "search_text": "设矩阵 $A,B$ 满足 $A^*BA=2BA-8E$，其中 $A=\\begin{pmatrix}1&0&0\\\\0&-2&0\\\\0&0&1\\end{pmatrix}$，$E$ 是 $3$ 阶单位矩阵，$A^*$ 是 $A$ 的伴随矩阵，则矩阵 $B$ 等于（ ）。 $\\begin{pmatrix}4&0&0\\\\0&2&0\\\\0&0&2\\end{pmatrix}$ $\\begin{pmatrix}2&0&0\\\\0&4&0\\\\0&0&2\\end{pmatrix}$ $\\begin{pmatrix}-4&0&0\\\\0&2&0\\\\0&0&2\\end{pmatrix}$ $\\begin{pmatrix}2&0&0\\\\0&-4&0\\\\0&0&2\\end{pmatrix}$ 移项得 $(2E-A^*)BA=8E$，所以 $B=8(2E-A^*)^{-1}A^{-1}=4(A+E)^{-1}$。由于 $A+E=\\operatorname{diag}(2,-1,2)$，故 $B=\\operatorname{diag}(2,-4,2)$。",
+  "sort_order": 24
+}

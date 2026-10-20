@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$X_1,\\ldots,X_n$来自总体$X$的样本，则不成立的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_i(i=1,\\ldots,n)$是确定的数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X_i$与$X$有相同分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(X_1,\\ldots,X_n)$是$n$维随机变量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X_1,\\ldots,X_n$相互独立且同分布"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "抽样前样本分量为随机变量，不是确定常数。",
+  "search_text": "设$X_1,\\ldots,X_n$来自总体$X$的样本，则不成立的是（）。 $X_i(i=1,\\ldots,n)$是确定的数 $X_i$与$X$有相同分布 $(X_1,\\ldots,X_n)$是$n$维随机变量 $X_1,\\ldots,X_n$相互独立且同分布 抽样前样本分量为随机变量，不是确定常数。",
+  "sort_order": 1
+}

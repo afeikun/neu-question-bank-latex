@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 为平面 $x+y+z=1$ 与三个坐标面围成的空间区域，则 $\\iiint_\\Omega(x+2y+3z)dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{12}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac18$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_\\Omega x\\,dv=\\int_0^1y\\,dy\\iint_{D_y}dx\\,dz\n$$\n\n$$\n=\\frac12\\int_0^1y(1-y)^2\\,dy\n$$\n\n$$\n=\\frac1{24}，\n$$\n\n同理可得：\n\n$$\n\\iiint_\\Omega y\\,dv=\\iiint_\\Omega z\\,dv=\\frac1{24}\n$$\n\n所以：\n\n$$\n\\text{原式}=6\\iiint_\\Omega x\\,dv=\\frac14\n$$\n\n选 D。",
+  "search_text": "$\\Omega$ 为平面 $x+y+z=1$ 与三个坐标面围成的空间区域，则 $\\iiint_\\Omega(x+2y+3z)dv$ 的值为（ ） $\\frac14$ $\\frac16$ $\\frac1{12}$ $\\frac18$ $$\n\\iiint_\\Omega x\\,dv=\\int_0^1y\\,dy\\iint_{D_y}dx\\,dz\n$$\n\n$$\n=\\frac12\\int_0^1y(1-y)^2\\,dy\n$$\n\n$$\n=\\frac1{24}，\n$$\n\n同理可得：\n\n$$\n\\iiint_\\Omega y\\,dv=\\iiint_\\Omega z\\,dv=\\frac1{24}\n$$\n\n所以：\n\n$$\n\\text{原式}=6\\iiint_\\Omega x\\,dv=\\frac14\n$$\n\n选 D。",
+  "sort_order": 9
+}

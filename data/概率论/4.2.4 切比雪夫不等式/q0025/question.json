@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$E(X)=100,D(X)=10$，估计$P(80<X<120)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ge0.975$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\le0.645$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\le0.756$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\le0.875$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(|X-100|<20)\\ge1-10/400=0.975$。",
+  "search_text": "$E(X)=100,D(X)=10$，估计$P(80<X<120)$。 $\\ge0.975$ $\\le0.645$ $\\le0.756$ $\\le0.875$ $P(|X-100|<20)\\ge1-10/400=0.975$。",
+  "sort_order": 25
+}

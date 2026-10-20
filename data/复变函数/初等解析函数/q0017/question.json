@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Ln}(-3+4i)$ 的主值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln5+(\\pi-\\arctan\\frac43)i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln5+(-\\arctan\\frac43)i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\pi-\\arctan\\frac43)i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|-3+4i|=5$，主辐角为 $\\pi-\\arctan(4/3)$。",
+  "search_text": "$\\operatorname{Ln}(-3+4i)$ 的主值为（ ）。 $\\ln5+(\\pi-\\arctan\\frac43)i$ $\\ln5+(-\\arctan\\frac43)i$ $\\ln5$ $(\\pi-\\arctan\\frac43)i$ $|-3+4i|=5$，主辐角为 $\\pi-\\arctan(4/3)$。",
+  "sort_order": 17
+}

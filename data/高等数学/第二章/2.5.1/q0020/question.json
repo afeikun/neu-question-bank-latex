@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $\\sin(xy)+\\ln(y-x)=x$ 确定 $y=y(x)$，求 $y^\\prime(0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 由题可知$y(0)=1$，方程两边同时对$x$求导可得\n$\\cos(xy)\\cdot(y+xy')+\\frac{y'-1}{y-x}=1$，带入初值则有$y'(0)=1$",
+  "search_text": "由 $\\sin(xy)+\\ln(y-x)=x$ 确定 $y=y(x)$，求 $y^\\prime(0)$。 $1$ $-1$ $2$ $0$ 解答 由题可知$y(0)=1$，方程两边同时对$x$求导可得\n$\\cos(xy)\\cdot(y+xy')+\\frac{y'-1}{y-x}=1$，带入初值则有$y'(0)=1$",
+  "sort_order": 20
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(|x|+|y|+|z|)\\,dS$，$\\Sigma$ 为八面体 $|x|+|y|+|z|\\le1$ 的表面。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\sqrt5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\sqrt3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\sqrt5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：\n\n第 33 页 共 151 页\n\n$\\Sigma_1$为$\\Sigma$在第一卦限部分。方程为$z=1-x-y$，$\\iint_\\Sigma|x|+|y|+|z|\\,dS=8\\iint_{\\Sigma_1}|x|+|y|+|z|\\,dS=$\n\n$8\\iint_{\\Sigma_1}x+y+z\\,dS$\n\n$=8\\iint_{\\Sigma_1}1\\,dS=4\\sqrt{3}$，",
+  "search_text": "计算 $\\iint_\\Sigma(|x|+|y|+|z|)\\,dS$，$\\Sigma$ 为八面体 $|x|+|y|+|z|\\le1$ 的表面。 $3\\sqrt5$ $2\\sqrt3$ $4\\sqrt3$ $2\\sqrt5$ 解答：\n\n第 33 页 共 151 页\n\n$\\Sigma_1$为$\\Sigma$在第一卦限部分。方程为$z=1-x-y$，$\\iint_\\Sigma|x|+|y|+|z|\\,dS=8\\iint_{\\Sigma_1}|x|+|y|+|z|\\,dS=$\n\n$8\\iint_{\\Sigma_1}x+y+z\\,dS$\n\n$=8\\iint_{\\Sigma_1}1\\,dS=4\\sqrt{3}$，",
+  "sort_order": 64
+}

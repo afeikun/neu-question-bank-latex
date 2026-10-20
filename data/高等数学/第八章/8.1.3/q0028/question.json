@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\iint_{x^2+y^2\\leq4}(x^2+4y^2+9)d\\sigma$ 的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$42\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$56\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$36\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$28\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答\n\n$$\\iint_{x^2+y^2\\leq4}(x^2+4y^2+9)d\\sigma=\\int_0^{2\\pi}d\\theta\\int_0^2(r^2\\cos^2\\theta+4r^2\\sin^2\\theta+9)rdr$$\n\n$$=\\int_0^{2\\pi}\\left[\\frac{1}{4}r^4+\\frac{3}{4}r^4\\sin^2\\theta+\\frac{9}{2}r^2\\right]_0^2d\\theta=\\int_0^{2\\pi}(22+12\\sin^2\\theta)d\\theta=56\\pi.$$ \n\n或\n\n$$\\iint_{x^2+y^2\\leq4}(x^2+4y^2+9)d\\sigma=\\iint_{x^2+y^2\\leq4}(x^2+4y^2)d\\sigma+9\\iint_{x^2+y^2\\leq4}d\\sigma$$\n\n$$=\\frac{5}{2}\\iint_{x^2+y^2\\leq4}(x^2+y^2)d\\sigma+36\\pi=20\\pi+36\\pi=56\\pi.$$",
+  "search_text": "$\\iint_{x^2+y^2\\leq4}(x^2+4y^2+9)d\\sigma$ 的值为[\\quad] $42\\pi$ $56\\pi$ $36\\pi$ $28\\pi$ 解答\n\n$$\\iint_{x^2+y^2\\leq4}(x^2+4y^2+9)d\\sigma=\\int_0^{2\\pi}d\\theta\\int_0^2(r^2\\cos^2\\theta+4r^2\\sin^2\\theta+9)rdr$$\n\n$$=\\int_0^{2\\pi}\\left[\\frac{1}{4}r^4+\\frac{3}{4}r^4\\sin^2\\theta+\\frac{9}{2}r^2\\right]_0^2d\\theta=\\int_0^{2\\pi}(22+12\\sin^2\\theta)d\\theta=56\\pi.$$ \n\n或\n\n$$\\iint_{x^2+y^2\\leq4}(x^2+4y^2+9)d\\sigma=\\iint_{x^2+y^2\\leq4}(x^2+4y^2)d\\sigma+9\\iint_{x^2+y^2\\leq4}d\\sigma$$\n\n$$=\\frac{5}{2}\\iint_{x^2+y^2\\leq4}(x^2+y^2)d\\sigma+36\\pi=20\\pi+36\\pi=56\\pi.$$",
+  "sort_order": 28
+}

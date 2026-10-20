@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\frac1{2\\sqrt{2\\pi}}e^{-(x+6)^2/8}$，求使$Y\\sim N(0,1)$的表达式。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(6+X)/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(3+X)/\\sqrt2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2-X)/\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(6-X)/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$X\\sim N(-6,4)$，故标准化变量$(X+6)/2=(6+X)/2$。",
+  "search_text": "$f(x)=\\frac1{2\\sqrt{2\\pi}}e^{-(x+6)^2/8}$，求使$Y\\sim N(0,1)$的表达式。 $(6+X)/2$ $(3+X)/\\sqrt2$ $(2-X)/\\sqrt3$ $(6-X)/2$ $X\\sim N(-6,4)$，故标准化变量$(X+6)/2=(6+X)/2$。",
+  "sort_order": 4
+}

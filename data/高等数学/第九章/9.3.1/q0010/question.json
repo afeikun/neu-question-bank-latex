@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 为沿上半圆 $x^2+y^2=a^2$ 从 $A(-a,0)$ 到 $B(a,0)$ 的弧，计算 $\\int_Ly\\,dx+x\\,dy$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac45$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解：利用曲线的参数方程计算。$L$ 的参数方程为：$x=a\\cos\\theta，y=a\\sin\\theta$，在起点 $A(-a,0)$ 处参数值取 $\\pi$，在终点 $B(a,0)$ 处参数值相应取 $0$，故 $\\theta$ 从 $\\pi$ 到 $0$。则\n\n$$\n\\int_Ly\\,\\mathrm{d}x+x\\,\\mathrm{d}y=\\int_\\pi^0a\\sin\\theta\\,\\mathrm{d}(a\\cos\\theta)+a\\cos\\theta\\,\\mathrm{d}(a\\sin\\theta)=a^2\\int_\\pi^0\\cos2\\theta\\,\\mathrm{d}\\theta=0。\n$$",
+  "search_text": "$L$ 为沿上半圆 $x^2+y^2=a^2$ 从 $A(-a,0)$ 到 $B(a,0)$ 的弧，计算 $\\int_Ly\\,dx+x\\,dy$。 $\\frac45$ $4$ $0$ $3$ 解：利用曲线的参数方程计算。$L$ 的参数方程为：$x=a\\cos\\theta，y=a\\sin\\theta$，在起点 $A(-a,0)$ 处参数值取 $\\pi$，在终点 $B(a,0)$ 处参数值相应取 $0$，故 $\\theta$ 从 $\\pi$ 到 $0$。则\n\n$$\n\\int_Ly\\,\\mathrm{d}x+x\\,\\mathrm{d}y=\\int_\\pi^0a\\sin\\theta\\,\\mathrm{d}(a\\cos\\theta)+a\\cos\\theta\\,\\mathrm{d}(a\\sin\\theta)=a^2\\int_\\pi^0\\cos2\\theta\\,\\mathrm{d}\\theta=0。\n$$",
+  "sort_order": 10
+}

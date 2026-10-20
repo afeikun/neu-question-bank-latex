@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "袋中有5个白球、3个黑球、4个红球，从中一次取出3个球，则三个球是同色球的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3/44$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/55$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/66$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/60$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总取法$\\binom{12}3$。三个球同色的取法$\\binom53+\\binom33+\\binom43$，概率为$3/44$。",
+  "search_text": "袋中有5个白球、3个黑球、4个红球，从中一次取出3个球，则三个球是同色球的概率为（ ）。 $3/44$ $3/55$ $3/66$ $3/60$ 总取法$\\binom{12}3$。三个球同色的取法$\\binom53+\\binom33+\\binom43$，概率为$3/44$。",
+  "sort_order": 11
+}

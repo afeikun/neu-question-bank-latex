@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平面 $2x+3y-z=\\lambda$ 是曲面 $z=2x^2+3y^2$ 在点 $(\\frac12,\\frac12,\\frac54)$ 处的切平面，求 $\\lambda$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac45$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac54$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $F(x,y,z)=2x^2+3y^2-z$，得：$F_x|_{(\\frac{1}{2},\\frac{1}{2},\\frac{5}{4})}=4x=2$，$F_y|_{(\\frac{1}{2},\\frac{1}{2},\\frac{5}{4})}=6y=3$，$F_z|_{(\\frac{1}{2},\\frac{1}{2},\\frac{5}{4})}=-1$，则切平面为：\n\n$$2(x-\\frac{1}{2})+3(y-\\frac{1}{2})-(z-\\frac{5}{4})=0,$$\n\n整理得：$2x+3y-z=\\frac{5}{4}$，因此 $\\lambda=\\frac{5}{4}$。",
+  "search_text": "平面 $2x+3y-z=\\lambda$ 是曲面 $z=2x^2+3y^2$ 在点 $(\\frac12,\\frac12,\\frac54)$ 处的切平面，求 $\\lambda$。 $\\frac45$ 2 $\\frac12$ $\\frac54$ 设 $F(x,y,z)=2x^2+3y^2-z$，得：$F_x|_{(\\frac{1}{2},\\frac{1}{2},\\frac{5}{4})}=4x=2$，$F_y|_{(\\frac{1}{2},\\frac{1}{2},\\frac{5}{4})}=6y=3$，$F_z|_{(\\frac{1}{2},\\frac{1}{2},\\frac{5}{4})}=-1$，则切平面为：\n\n$$2(x-\\frac{1}{2})+3(y-\\frac{1}{2})-(z-\\frac{5}{4})=0,$$\n\n整理得：$2x+3y-z=\\frac{5}{4}$，因此 $\\lambda=\\frac{5}{4}$。",
+  "sort_order": 7
+}

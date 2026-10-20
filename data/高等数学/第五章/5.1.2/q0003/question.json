@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\sum_{n=1}^{\\infty} u_n$ 为正项级数，其部分和为 $S_n$，$v_n=1/S_n$，且 $\\sum_{n=1}^{\\infty} v_n$ 收敛，求 $\\sum_{n=1}^{\\infty} u_n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/u_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$+\\infty$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "收敛的正项级数 $\\sum_{n=1}^{\\infty} v_n$ 有 $v_n\\to0$，故 $S_n\\to+\\infty$，原级数和为 $+\\infty$。",
+  "search_text": "设 $\\sum_{n=1}^{\\infty} u_n$ 为正项级数，其部分和为 $S_n$，$v_n=1/S_n$，且 $\\sum_{n=1}^{\\infty} v_n$ 收敛，求 $\\sum_{n=1}^{\\infty} u_n$。 $1/u_1$ $+\\infty$ $1$ $0$ 收敛的正项级数 $\\sum_{n=1}^{\\infty} v_n$ 有 $v_n\\to0$，故 $S_n\\to+\\infty$，原级数和为 $+\\infty$。",
+  "sort_order": 3
+}

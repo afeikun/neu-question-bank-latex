@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}0&0&0&1&0\\\\0&0&2&0&0\\\\0&3&10&0&0\\\\4&11&0&12&0\\\\9&8&7&6&5\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$216$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$120$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-216$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-120$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "按第一行展开，并继续按各行的唯一非零元素展开，$D=5 \\cdot 4 \\cdot 3 \\cdot 2=120$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}0&0&0&1&0\\\\0&0&2&0&0\\\\0&3&10&0&0\\\\4&11&0&12&0\\\\9&8&7&6&5\\end{vmatrix}$ 等于（ ）。 $216$ $120$ $-216$ $-120$ 按第一行展开，并继续按各行的唯一非零元素展开，$D=5 \\cdot 4 \\cdot 3 \\cdot 2=120$。",
+  "sort_order": 19
+}

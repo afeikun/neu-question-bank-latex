@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 是线性无关的 $n$ 维向量组，则向量空间 $L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)$ 的维数为（ ）。这里 $L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)$ 是由向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 生成的向量空间。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$s$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k\\ (k<s)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k\\ (k>n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)$ 的维数就是向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 的秩。由于它们线性无关，秩为 $s$。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 是线性无关的 $n$ 维向量组，则向量空间 $L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)$ 的维数为（ ）。这里 $L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)$ 是由向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 生成的向量空间。 $s$ $k\\ (k<s)$ $k\\ (k>n)$ $n$ $L(\\alpha_1,\\alpha_2,\\ldots,\\alpha_s)$ 的维数就是向量组 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$ 的秩。由于它们线性无关，秩为 $s$。",
+  "sort_order": 64
+}

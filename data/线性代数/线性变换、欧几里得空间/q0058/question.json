@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "假设线性变换 $T$ 在两个基 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 和 $\\beta_1,\\beta_2,\\ldots,\\beta_n$ 下的矩阵分别是 $A$ 和 $B$，若 $R(B)=n-1$，则齐次方程组 $Ax=0$ 的解满足以下条件（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "任何两个解都是线性相关的"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "只有零解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "任何两个解都是线性无关的"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两个基下的矩阵满足 $B=C^{-1}AC$，故 $R(A)=R(B)=n-1$。齐次方程组 $Ax=0$ 的基础解系只有一个向量，任意两个解都是该向量的倍数，因此线性相关。",
+  "search_text": "假设线性变换 $T$ 在两个基 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 和 $\\beta_1,\\beta_2,\\ldots,\\beta_n$ 下的矩阵分别是 $A$ 和 $B$，若 $R(B)=n-1$，则齐次方程组 $Ax=0$ 的解满足以下条件（ ）。 无解 任何两个解都是线性相关的 只有零解 任何两个解都是线性无关的 两个基下的矩阵满足 $B=C^{-1}AC$，故 $R(A)=R(B)=n-1$。齐次方程组 $Ax=0$ 的基础解系只有一个向量，任意两个解都是该向量的倍数，因此线性相关。",
+  "sort_order": 58
+}

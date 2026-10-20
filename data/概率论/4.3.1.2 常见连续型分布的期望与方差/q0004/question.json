@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$\\xi$服从参数为$\\lambda$的指数分布，且$D(\\xi)=4$，求$\\lambda$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(\\xi)=1/\\lambda^2=4$，故$\\lambda=1/2$。",
+  "search_text": "设$\\xi$服从参数为$\\lambda$的指数分布，且$D(\\xi)=4$，求$\\lambda$。 $1/2$ $4$ $2$ $1/4$ $D(\\xi)=1/\\lambda^2=4$，故$\\lambda=1/2$。",
+  "sort_order": 4
+}

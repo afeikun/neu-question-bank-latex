@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)$ 在 $x=x_0$ 处可导，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{h\\to0}\\frac{f(x_0+h)-f(x_0-h)}{2h}=f\\prime(x_0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{h\\to0}\\frac{f(x_0-h)-f(x_0)}h=f\\prime(x_0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{h\\to0}\\frac{f(x_0+2h)-f(x_0)}h=f\\prime(x_0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{h\\to0}\\frac{f(2x_0+2h)-f(2x_0)}{2h}=f\\prime(x_0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对称差商可拆为左右差商的平均，极限为 $f\\prime(x_0)$。",
+  "search_text": "若 $f(x)$ 在 $x=x_0$ 处可导，则必有（ ）。 $\\lim_{h\\to0}\\frac{f(x_0+h)-f(x_0-h)}{2h}=f\\prime(x_0)$ $\\lim_{h\\to0}\\frac{f(x_0-h)-f(x_0)}h=f\\prime(x_0)$ $\\lim_{h\\to0}\\frac{f(x_0+2h)-f(x_0)}h=f\\prime(x_0)$ $\\lim_{h\\to0}\\frac{f(2x_0+2h)-f(2x_0)}{2h}=f\\prime(x_0)$ 对称差商可拆为左右差商的平均，极限为 $f\\prime(x_0)$。",
+  "sort_order": 2
+}

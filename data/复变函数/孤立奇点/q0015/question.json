@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=0$ 是函数 $f(z)=\\dfrac{e^z-1}{z^3}$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "二阶极点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "三阶极点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "本性奇点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可去奇点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$e^z-1$ 在 $z=0$ 是一级零点，$z^3$ 是三级零点，故原函数在 $z=0$ 为二级极点。",
+  "search_text": "$z=0$ 是函数 $f(z)=\\dfrac{e^z-1}{z^3}$ 的（ ）。 二阶极点 三阶极点 本性奇点 可去奇点 $e^z-1$ 在 $z=0$ 是一级零点，$z^3$ 是三级零点，故原函数在 $z=0$ 为二级极点。",
+  "sort_order": 15
+}

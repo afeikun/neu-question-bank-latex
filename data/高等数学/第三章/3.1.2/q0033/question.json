@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=px^2+qx+r$ 在区间 $[a,b]$ 上应用拉格朗日中值定理时，$f(b)-f(a)=f'(\\xi)(b-a)$ 的 $\\xi=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "与 $p,q$ 有关，但与 $r$ 无关；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "随 $p,q,r$ 的变化而变化；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "与 $a,b$ 无关；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "与 $p,q,r$ 均无关。"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对二次函数应用中值定理并计算可得 $\\xi=\\frac{a+b}{2}$，与 $p,q,r$ 均无关。",
+  "search_text": "函数 $f(x)=px^2+qx+r$ 在区间 $[a,b]$ 上应用拉格朗日中值定理时，$f(b)-f(a)=f'(\\xi)(b-a)$ 的 $\\xi=(\\quad)$。 与 $p,q$ 有关，但与 $r$ 无关； 随 $p,q,r$ 的变化而变化； 与 $a,b$ 无关； 与 $p,q,r$ 均无关。 对二次函数应用中值定理并计算可得 $\\xi=\\frac{a+b}{2}$，与 $p,q,r$ 均无关。",
+  "sort_order": 33
+}

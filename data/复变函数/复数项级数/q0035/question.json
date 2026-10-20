@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\operatorname{Re}(a_n)\\ge0$，且 $\\sum_{n=1}^{\\infty}a_n$ 和 $\\sum_{n=1}^{\\infty}a_n^2$ 收敛，则级数 $\\sum_{n=1}^{\\infty}a_n^2$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "收敛但不绝对收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $a_n=x_n+iy_n$ 和 $a_n^2$ 收敛可得实虚部关系；在 $x_n\\ge0$ 条件下可推出 $\\sum_{n=1}^{\\infty}|a_n|^2$ 收敛，故绝对收敛。",
+  "search_text": "若 $\\operatorname{Re}(a_n)\\ge0$，且 $\\sum_{n=1}^{\\infty}a_n$ 和 $\\sum_{n=1}^{\\infty}a_n^2$ 收敛，则级数 $\\sum_{n=1}^{\\infty}a_n^2$（ ） 绝对收敛 发散 收敛但不绝对收敛 不确定 由 $a_n=x_n+iy_n$ 和 $a_n^2$ 收敛可得实虚部关系；在 $x_n\\ge0$ 条件下可推出 $\\sum_{n=1}^{\\infty}|a_n|^2$ 收敛，故绝对收敛。",
+  "sort_order": 35
+}

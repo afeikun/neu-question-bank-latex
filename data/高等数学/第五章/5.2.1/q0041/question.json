@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a_n>0$ 且 $\\sum_{n=1}^{\\infty} a_n$ 收敛，$0<\\lambda<\\pi/2$，求 $\\sum_{n=1}^{\\infty}(n\\tan(\\lambda/n))a_{2n}$ 的敛散性。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "收敛性与 $\\lambda$ 有关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "收敛性无法判定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$n\\tan(\\lambda/n)\\to\\lambda$，与收敛子级数 $\\sum_{n=1}^{\\infty} a_{2n}$ 极限比较，故收敛。",
+  "search_text": "设 $a_n>0$ 且 $\\sum_{n=1}^{\\infty} a_n$ 收敛，$0<\\lambda<\\pi/2$，求 $\\sum_{n=1}^{\\infty}(n\\tan(\\lambda/n))a_{2n}$ 的敛散性。 发散 收敛 收敛性与 $\\lambda$ 有关 收敛性无法判定 $n\\tan(\\lambda/n)\\to\\lambda$，与收敛子级数 $\\sum_{n=1}^{\\infty} a_{2n}$ 极限比较，故收敛。",
+  "sort_order": 41
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=\\ln(x+\\ln y)$ 在点 $(e,1)$ 沿 $a=(2,-1)$ 方向的方向导数是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{e\\sqrt5}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac2e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{e\\sqrt3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac3{e\\sqrt2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(e,1)}=\\left.\\frac{1}{x+\\ln y}\\right|_{(e,1)}=e^{-1}，\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(e,1)}=\\left.\\frac{1}{y}\\frac{1}{x+\\ln y}\\right|_{(e,1)}=e^{-1}，$$\n\n沿 $\\vec{a}=(2,-1)$ 方向的转角的正，余弦为：$\\cos\\alpha=\\frac{2}{\\sqrt{5}}，\\quad \\sin\\alpha=\\frac{-1}{\\sqrt{5}}，$\n\n则方向导数为：$\\left.\\frac{\\partial z}{\\partial\\vec{a}}\\right|_{(e,1)}=e^{-1}\\frac{2}{\\sqrt{5}}+e^{-1}\\frac{-1}{\\sqrt{5}}=\\frac{1}{e\\sqrt{5}}$",
+  "search_text": "函数 $z=\\ln(x+\\ln y)$ 在点 $(e,1)$ 沿 $a=(2,-1)$ 方向的方向导数是。 $\\frac1{e\\sqrt5}$ $\\frac2e$ $\\frac1{e\\sqrt3}$ $\\frac3{e\\sqrt2}$ $$\\left.\\frac{\\partial z}{\\partial x}\\right|_{(e,1)}=\\left.\\frac{1}{x+\\ln y}\\right|_{(e,1)}=e^{-1}，\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{(e,1)}=\\left.\\frac{1}{y}\\frac{1}{x+\\ln y}\\right|_{(e,1)}=e^{-1}，$$\n\n沿 $\\vec{a}=(2,-1)$ 方向的转角的正，余弦为：$\\cos\\alpha=\\frac{2}{\\sqrt{5}}，\\quad \\sin\\alpha=\\frac{-1}{\\sqrt{5}}，$\n\n则方向导数为：$\\left.\\frac{\\partial z}{\\partial\\vec{a}}\\right|_{(e,1)}=e^{-1}\\frac{2}{\\sqrt{5}}+e^{-1}\\frac{-1}{\\sqrt{5}}=\\frac{1}{e\\sqrt{5}}$",
+  "sort_order": 10
+}

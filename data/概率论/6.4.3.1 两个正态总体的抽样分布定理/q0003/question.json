@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim N(0,16)$容量25，$Y_i\\sim N(1,9)$容量25，求$P(|\\bar X-\\bar Y|>1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.5431$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.5527$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.7234$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.4353$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar X-\\bar Y\\sim N(-1,34/25)$，标准化后所求概率约0.5431。",
+  "search_text": "$X_i\\sim N(0,16)$容量25，$Y_i\\sim N(1,9)$容量25，求$P(|\\bar X-\\bar Y|>1)$。 $0.5431$ $0.5527$ $0.7234$ $0.4353$ $\\bar X-\\bar Y\\sim N(-1,34/25)$，标准化后所求概率约0.5431。",
+  "sort_order": 3
+}

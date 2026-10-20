@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $xx\\prime\\prime+(x\\prime)^2=0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=\\sqrt{C_1t+C_2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2=C_1t^2+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=(C_1t+C_2)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2=C_1t+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析 令 $x'=y$，则原二阶方程化为一阶方程 $xy\\frac{dy}{dx}+y^2=0$，求得 $y=\\frac{C}{x}$，$x'=\\frac{C}{x}$，再次积分，得原方程通解为 $x^2=C_1t+C_2$，故选 A。",
+  "search_text": "方程 $xx\\prime\\prime+(x\\prime)^2=0$ 的通解是（ ） $x=\\sqrt{C_1t+C_2}$ $x^2=C_1t^2+C_2$ $x=(C_1t+C_2)^2$ $x^2=C_1t+C_2$ 解析 令 $x'=y$，则原二阶方程化为一阶方程 $xy\\frac{dy}{dx}+y^2=0$，求得 $y=\\frac{C}{x}$，$x'=\\frac{C}{x}$，再次积分，得原方程通解为 $x^2=C_1t+C_2$，故选 A。",
+  "sort_order": 19
+}

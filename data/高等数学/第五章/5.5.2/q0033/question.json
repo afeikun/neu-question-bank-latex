@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $\\ln(7+x)$ 展开成 $x-6$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln13+\\sum_{n=1}^{\\infty}(-1)^{n+1}(x-6)^n/(13^nn),\\ (-7,11]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln13+\\sum_{n=1}^{\\infty}(-1)^{n+1}(x-6)^n/(13^nn),\\ (-7,19]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln13+\\sum_{n=1}^{\\infty}(-1)^n(x-6)^n/(13^nn)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln13-\\sum_{n=1}^{\\infty}(-1)^{n+1}(x-6)^n/(13^nn)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "使用 $\\ln(13+(x-6))$ 的对数级数。",
+  "search_text": "将 $\\ln(7+x)$ 展开成 $x-6$ 的幂级数。 $\\ln13+\\sum_{n=1}^{\\infty}(-1)^{n+1}(x-6)^n/(13^nn),\\ (-7,11]$ $\\ln13+\\sum_{n=1}^{\\infty}(-1)^{n+1}(x-6)^n/(13^nn),\\ (-7,19]$ $\\ln13+\\sum_{n=1}^{\\infty}(-1)^n(x-6)^n/(13^nn)$ $\\ln13-\\sum_{n=1}^{\\infty}(-1)^{n+1}(x-6)^n/(13^nn)$ 使用 $\\ln(13+(x-6))$ 的对数级数。",
+  "sort_order": 33
+}

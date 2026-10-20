@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=t\\displaystyle\\int_0^t\\tau e^{-3\\tau}\\sin2\\tau\\,d\\tau$，则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{4(4s^3+27s^2+54s+39)}{s^2((s+3)^2+4)^3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\dfrac{2(3s^2+12s+13)}{s^2((s+3)^2+4)^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac{2(3s^2+12s+13)}{s((s+3)^2+4)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\dfrac{2(3s^2+12s+13)}{s^2((s+3)^2+4)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal L\\left[\\int_0^t\\tau e^{-3\\tau}\\sin2\\tau\\,d\\tau\\right]=\\dfrac1s\\cdot\\dfrac{4(s+3)}{((s+3)^2+4)^2}$。再用 $\\mathcal L[tg(t)]=-G\\prime(s)$，化简得选项 1。",
+  "search_text": "设 $f(t)=t\\displaystyle\\int_0^t\\tau e^{-3\\tau}\\sin2\\tau\\,d\\tau$，则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac{4(4s^3+27s^2+54s+39)}{s^2((s+3)^2+4)^3}$ $-\\dfrac{2(3s^2+12s+13)}{s^2((s+3)^2+4)^2}$ $-\\dfrac{2(3s^2+12s+13)}{s((s+3)^2+4)}$ $-\\dfrac{2(3s^2+12s+13)}{s^2((s+3)^2+4)}$ $\\mathcal L\\left[\\int_0^t\\tau e^{-3\\tau}\\sin2\\tau\\,d\\tau\\right]=\\dfrac1s\\cdot\\dfrac{4(s+3)}{((s+3)^2+4)^2}$。再用 $\\mathcal L[tg(t)]=-G\\prime(s)$，化简得选项 1。",
+  "sort_order": 15
+}

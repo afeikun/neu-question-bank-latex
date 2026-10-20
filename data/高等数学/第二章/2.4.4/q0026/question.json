@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\approx0$ 时，$\\ln(1+x)\\approx(\\quad)$，$\\ln1.002\\approx(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x,\\ 0.002$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2,\\ 0.002$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x,\\ 0.01745$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2,\\ 0.01745$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "当 $x\\approx0$ 时，$\\ln(1+x)\\approx\\ln1+x=x$，所以 $\\ln1.002\\approx0.002$。",
+  "search_text": "当 $x\\approx0$ 时，$\\ln(1+x)\\approx(\\quad)$，$\\ln1.002\\approx(\\quad)$。 $x,\\ 0.002$ $x^2,\\ 0.002$ $x,\\ 0.01745$ $x^2,\\ 0.01745$ 当 $x\\approx0$ 时，$\\ln(1+x)\\approx\\ln1+x=x$，所以 $\\ln1.002\\approx0.002$。",
+  "sort_order": 26
+}

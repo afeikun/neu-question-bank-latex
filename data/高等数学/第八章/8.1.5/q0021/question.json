@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求面密度为常量，半径为 $R$ 均匀圆形薄片 $x^2+y^2\\leq R^2,z=0$，对位于 $z$ 轴上的点 $M_0(0,0,a)\\ (a>0)$ 处的单位质点的引力为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$aG\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac1{(r^2+a^2)^{3/2}}r^2dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-G\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac1{(r^2+a^2)^{3/2}}rdr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-aG\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac1{(r^2+a^2)^{3/2}}rdr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$aG\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac1{(r^2+a^2)^{3/2}}rdr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由积分区域的对称性知\n$$\nF_x=F_y=0,\n$$\n$$\nF_z=-aG\\iint_D\\frac{\\rho(x,y)}{(x^2+y^2+a^2)^{\\frac{3}{2}}}\\,d\\sigma\n=-aG\\rho\\iint_D\\frac{1}{(x^2+y^2+a^2)^{\\frac{3}{2}}}\\,d\\sigma\n=-aG\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac{1}{(r^2+a^2)^{\\frac{3}{2}}}r\\,dr\n$$\n\n图示：圆形薄片位于 $xy$ 平面并标出网格，$z$ 轴上方有点，原点标为 $O$；坐标轴标为 $x,y,z$，力向量标为 $\\vec{F}$。",
+  "search_text": "求面密度为常量，半径为 $R$ 均匀圆形薄片 $x^2+y^2\\leq R^2,z=0$，对位于 $z$ 轴上的点 $M_0(0,0,a)\\ (a>0)$ 处的单位质点的引力为（ ） $aG\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac1{(r^2+a^2)^{3/2}}r^2dr$ $-G\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac1{(r^2+a^2)^{3/2}}rdr$ $-aG\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac1{(r^2+a^2)^{3/2}}rdr$ $aG\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac1{(r^2+a^2)^{3/2}}rdr$ 由积分区域的对称性知\n$$\nF_x=F_y=0,\n$$\n$$\nF_z=-aG\\iint_D\\frac{\\rho(x,y)}{(x^2+y^2+a^2)^{\\frac{3}{2}}}\\,d\\sigma\n=-aG\\rho\\iint_D\\frac{1}{(x^2+y^2+a^2)^{\\frac{3}{2}}}\\,d\\sigma\n=-aG\\rho\\int_0^{2\\pi}d\\theta\\int_0^R\\frac{1}{(r^2+a^2)^{\\frac{3}{2}}}r\\,dr\n$$\n\n图示：圆形薄片位于 $xy$ 平面并标出网格，$z$ 轴上方有点，原点标为 $O$；坐标轴标为 $x,y,z$，力向量标为 $\\vec{F}$。",
+  "sort_order": 21
+}

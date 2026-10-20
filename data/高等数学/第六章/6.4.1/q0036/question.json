@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两平行直线 $l_1:\\frac{x+3}{2}=\\frac{y+4}{-2}=\\frac{z+1}{1}$，$l_2:\\frac{x+3}{2}=\\frac{y+2}{-2}=\\frac z1$ 间的距离为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：$l_1$ 与 $l_2$ 上分别取一点 $P(-3,-4,-1)$，$Q(-3,-2,0)$，则 $\\overrightarrow{PQ}=(0,2,1)$，因两直线平行，所以 $P(-3,-4,-1)$ 到 $l_2$ 的距离即为两平行直线间距离，由 $\\vec{s}=(2,-2,1)$，有\n\n$\\vec{s}\\times\\overrightarrow{PQ}=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\2&-2&1\\\\0&2&1\\end{vmatrix}=(-4,-2,4)\\Rightarrow |\\vec{s}\\times\\overrightarrow{PQ}|=6$，因此由点线距离公式可得两平行直线间的距离\n\n$d=\\frac{|\\vec{s}\\times\\overrightarrow{PQ}|}{|\\vec{s}|}=\\frac{6}{3}=2$。",
+  "search_text": "两平行直线 $l_1:\\frac{x+3}{2}=\\frac{y+4}{-2}=\\frac{z+1}{1}$，$l_2:\\frac{x+3}{2}=\\frac{y+2}{-2}=\\frac z1$ 间的距离为(\\quad)。 $\\sqrt2$ $3$ $2$ $1$ 解答：$l_1$ 与 $l_2$ 上分别取一点 $P(-3,-4,-1)$，$Q(-3,-2,0)$，则 $\\overrightarrow{PQ}=(0,2,1)$，因两直线平行，所以 $P(-3,-4,-1)$ 到 $l_2$ 的距离即为两平行直线间距离，由 $\\vec{s}=(2,-2,1)$，有\n\n$\\vec{s}\\times\\overrightarrow{PQ}=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\2&-2&1\\\\0&2&1\\end{vmatrix}=(-4,-2,4)\\Rightarrow |\\vec{s}\\times\\overrightarrow{PQ}|=6$，因此由点线距离公式可得两平行直线间的距离\n\n$d=\\frac{|\\vec{s}\\times\\overrightarrow{PQ}|}{|\\vec{s}|}=\\frac{6}{3}=2$。",
+  "sort_order": 36
+}

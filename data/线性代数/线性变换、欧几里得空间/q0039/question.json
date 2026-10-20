@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $P=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$，线性空间 $\\mathbb R^2$ 中线性变换 $T(\\alpha)=P\\alpha$，若 $\\alpha_1=\\begin{pmatrix}1\\\\1\\end{pmatrix}$，$\\alpha_2=\\begin{pmatrix}1\\\\-1\\end{pmatrix}$，则 $T(2\\alpha_1+\\alpha_2)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}7\\\\15\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}5\\\\15\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}7\\\\13\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}5\\\\13\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$T(2\\alpha_1+\\alpha_2)=2T(\\alpha_1)+T(\\alpha_2)=2P\\alpha_1+P\\alpha_2=\\begin{pmatrix}5\\\\13\\end{pmatrix}$。",
+  "search_text": "已知 $P=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$，线性空间 $\\mathbb R^2$ 中线性变换 $T(\\alpha)=P\\alpha$，若 $\\alpha_1=\\begin{pmatrix}1\\\\1\\end{pmatrix}$，$\\alpha_2=\\begin{pmatrix}1\\\\-1\\end{pmatrix}$，则 $T(2\\alpha_1+\\alpha_2)=$（ ）。 $\\begin{pmatrix}7\\\\15\\end{pmatrix}$ $\\begin{pmatrix}5\\\\15\\end{pmatrix}$ $\\begin{pmatrix}7\\\\13\\end{pmatrix}$ $\\begin{pmatrix}5\\\\13\\end{pmatrix}$ $T(2\\alpha_1+\\alpha_2)=2T(\\alpha_1)+T(\\alpha_2)=2P\\alpha_1+P\\alpha_2=\\begin{pmatrix}5\\\\13\\end{pmatrix}$。",
+  "sort_order": 39
+}

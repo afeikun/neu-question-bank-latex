@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设可导函数 $\\varphi(x)$ 满足 $\\varphi(x)\\cos x+2\\int_0^x\\varphi(t)\\sin t\\,dt=1$，则 $\\varphi(x)=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^x\\sin x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^x\\cos x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程两边求导 $\\varphi'\\cos x+\\varphi\\sin x=0$，\n\n$\\frac{d\\varphi}{\\varphi}=-\\frac{\\sin x}{\\cos x}\\,dx,\\quad \\ln\\varphi=\\ln\\cos x+\\ln C,\\quad \\varphi=C\\cos x$，\n\n由 $\\varphi(0)=1$，$\\varphi=\\cos x$。",
+  "search_text": "设可导函数 $\\varphi(x)$ 满足 $\\varphi(x)\\cos x+2\\int_0^x\\varphi(t)\\sin t\\,dt=1$，则 $\\varphi(x)=$（ ） $\\sin x$ $\\cos x$ $e^x\\sin x$ $e^x\\cos x$ 方程两边求导 $\\varphi'\\cos x+\\varphi\\sin x=0$，\n\n$\\frac{d\\varphi}{\\varphi}=-\\frac{\\sin x}{\\cos x}\\,dx,\\quad \\ln\\varphi=\\ln\\cos x+\\ln C,\\quad \\varphi=C\\cos x$，\n\n由 $\\varphi(0)=1$，$\\varphi=\\cos x$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x^2-y^2+z^2=0,x=2$ 在点 $(2,3,\\sqrt5)$ 处的切线与 $z$ 轴正向所成倾角为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\\\arccos(\\frac2{\\sqrt{13}})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\\\arccos(\\frac3{\\sqrt{14}})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\\\arccos(\\frac2{\\sqrt{11}})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\\\arccos(\\frac3{\\sqrt{12}})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "可把 $y$ 看作是参数，则曲线在点 $(2,3,\\sqrt{5})$ 处的切线方向为：$\\left(0,1,\\frac{3\\sqrt{5}}{5}\\right)$，$z$ 轴正向的方向为：\n$(0,0,1)$，则：\n$$\n\\cos\\alpha=\\frac{\\frac{3\\sqrt{5}}{5}}{\\sqrt{1+\\frac{9}{5}}}=\\frac{3}{\\sqrt{14}},\n$$\n得到：$\\alpha=\\arccos\\frac{3}{\\sqrt{14}}$。",
+  "search_text": "曲线 $x^2-y^2+z^2=0,x=2$ 在点 $(2,3,\\sqrt5)$ 处的切线与 $z$ 轴正向所成倾角为。 $\\\\arccos(\\frac2{\\sqrt{13}})$ $\\\\arccos(\\frac3{\\sqrt{14}})$ $\\\\arccos(\\frac2{\\sqrt{11}})$ $\\\\arccos(\\frac3{\\sqrt{12}})$ 可把 $y$ 看作是参数，则曲线在点 $(2,3,\\sqrt{5})$ 处的切线方向为：$\\left(0,1,\\frac{3\\sqrt{5}}{5}\\right)$，$z$ 轴正向的方向为：\n$(0,0,1)$，则：\n$$\n\\cos\\alpha=\\frac{\\frac{3\\sqrt{5}}{5}}{\\sqrt{1+\\frac{9}{5}}}=\\frac{3}{\\sqrt{14}},\n$$\n得到：$\\alpha=\\arccos\\frac{3}{\\sqrt{14}}$。",
+  "sort_order": 17
+}

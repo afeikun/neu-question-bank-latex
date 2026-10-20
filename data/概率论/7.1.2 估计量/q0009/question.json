@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体$X$在$[0,\\theta]$上均匀分布，以下$\\theta$的一致估计量是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\max\\{X_1,\\ldots,X_n\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X_n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2X_n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本最大值依概率收敛到右端点$\\theta$。",
+  "search_text": "总体$X$在$[0,\\theta]$上均匀分布，以下$\\theta$的一致估计量是（）。 $\\max\\{X_1,\\ldots,X_n\\}$ $X_n$ $2X_n$ $\\bar X$ 样本最大值依概率收敛到右端点$\\theta$。",
+  "sort_order": 9
+}

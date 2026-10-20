@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "每次试验成功概率$p$，独立试验3次，至多失败两次的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-(1-p)^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3p(1-p)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3p^2(1-p)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-p^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "至多失败两次等价于至少成功一次，概率$1-(1-p)^3$。",
+  "search_text": "每次试验成功概率$p$，独立试验3次，至多失败两次的概率为（ ）。 $1-(1-p)^3$ $3p(1-p)^2$ $3p^2(1-p)$ $1-p^3$ 至多失败两次等价于至少成功一次，概率$1-(1-p)^3$。",
+  "sort_order": 9
+}

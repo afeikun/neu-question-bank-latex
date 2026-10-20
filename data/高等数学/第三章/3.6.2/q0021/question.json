@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不等式 (1) $\\frac{e^x+e^y}{2}>e^{(x+y)/2}$，(2) $\\cos\\frac{x+y}{2}>\\frac{\\cos x+\\cos y}{2}$，对 $x,y\\in(-\\frac\\pi2,\\frac\\pi2)$ 中正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1) 不成立，(2) 成立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)(2) 都成立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)(2) 都不成立"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1) 成立，(2) 不成立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$e^x$ 严格凸，且 $\\cos x$ 在给定区间上严格凹，故两条不等式都成立。",
+  "search_text": "不等式 (1) $\\frac{e^x+e^y}{2}>e^{(x+y)/2}$，(2) $\\cos\\frac{x+y}{2}>\\frac{\\cos x+\\cos y}{2}$，对 $x,y\\in(-\\frac\\pi2,\\frac\\pi2)$ 中正确的是（ ）。 (1) 不成立，(2) 成立 (1)(2) 都成立 (1)(2) 都不成立 (1) 成立，(2) 不成立 $e^x$ 严格凸，且 $\\cos x$ 在给定区间上严格凹，故两条不等式都成立。",
+  "sort_order": 21
+}

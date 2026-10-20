@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $R$、圆心角为 $2\\alpha$ 的圆弧 $L$ 对于其对称轴转动惯量为（设线密度 $\\rho=1$）（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2R^3(\\alpha+\\frac{\\sin\\alpha}{2})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$R^3(\\alpha-\\sin\\alpha\\cos\\alpha)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$R^3(\\alpha+\\sin\\alpha\\cos\\alpha)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2R^3(\\alpha-\\sin\\alpha\\cos\\alpha)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 如图弧 $L$ 参数方程\n$$\n\\begin{cases}\nx=R\\cos t\\\\\ny=R\\sin t，\\quad t\\in[-\\alpha,\\alpha]\n\\end{cases}\n$$\n\n$$\nI_x=\\int_Ly^2ds=\\int_{-\\alpha}^{\\alpha}R^3\\sin^2t\\,dt=2R^3\\int_0^\\alpha\\frac{1-\\cos2t}{2}\\,dt=R^3(\\alpha-\\sin\\alpha\\cos\\alpha).\n$$",
+  "search_text": "半径为 $R$、圆心角为 $2\\alpha$ 的圆弧 $L$ 对于其对称轴转动惯量为（设线密度 $\\rho=1$）（ ） $2R^3(\\alpha+\\frac{\\sin\\alpha}{2})$ $R^3(\\alpha-\\sin\\alpha\\cos\\alpha)$ $R^3(\\alpha+\\sin\\alpha\\cos\\alpha)$ $2R^3(\\alpha-\\sin\\alpha\\cos\\alpha)$ 解答 如图弧 $L$ 参数方程\n$$\n\\begin{cases}\nx=R\\cos t\\\\\ny=R\\sin t，\\quad t\\in[-\\alpha,\\alpha]\n\\end{cases}\n$$\n\n$$\nI_x=\\int_Ly^2ds=\\int_{-\\alpha}^{\\alpha}R^3\\sin^2t\\,dt=2R^3\\int_0^\\alpha\\frac{1-\\cos2t}{2}\\,dt=R^3(\\alpha-\\sin\\alpha\\cos\\alpha).\n$$",
+  "sort_order": 27
+}

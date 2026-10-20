@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=\\frac{\\frac1x-\\frac1{1+x}}{1-\\frac1x}$ 的间断点是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=0,x=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=1,x=-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=0,x=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=0,x=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y=\\frac1{x^2-1}$，故 $x=0$ 是可去间断点；$x=\\pm1$ 为第二类间断点。",
+  "search_text": "函数 $y=\\frac{\\frac1x-\\frac1{1+x}}{1-\\frac1x}$ 的间断点是（ ）。 $x=0,x=1$ $x=1,x=-1$ $x=0,x=1$ $x=0,x=1$ $y=\\frac1{x^2-1}$，故 $x=0$ 是可去间断点；$x=\\pm1$ 为第二类间断点。",
+  "sort_order": 4
+}

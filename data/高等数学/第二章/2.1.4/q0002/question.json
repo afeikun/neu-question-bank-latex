@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)=\\begin{cases}b(1+\\sin x)+a+2,&x>0\\\\e^{ax}-1,&x\\le0\\end{cases}$ 在 $x=0$ 处可导，则 $a,b$ 的值分别为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=0,b=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=-1,b=-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=1,b=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=1,b=-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "连续条件给出 $a+b+2=0$；左右导数相等给出 $a=b$，故 $a=b=-1$。",
+  "search_text": "若 $f(x)=\\begin{cases}b(1+\\sin x)+a+2,&x>0\\\\e^{ax}-1,&x\\le0\\end{cases}$ 在 $x=0$ 处可导，则 $a,b$ 的值分别为（ ）。 $a=0,b=1$ $a=-1,b=-1$ $a=1,b=1$ $a=1,b=-1$ 连续条件给出 $a+b+2=0$；左右导数相等给出 $a=b$，故 $a=b=-1$。",
+  "sort_order": 2
+}

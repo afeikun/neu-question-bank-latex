@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\lim_{n\\to\\infty}\\frac{\\frac1{2^n}\\left((2^n+3^n+4^n)^{1/n}+\\frac3n\\right)}{2+\\frac{n+1}{n}}$。",
+  "options_json": [
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac34$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$ (2^n+3^n+4^n)^{1/n}\\to4$，且 $(n+1)/n\\to1$，原式极限为 $\\frac43$。",
+  "search_text": "计算 $\\lim_{n\\to\\infty}\\frac{\\frac1{2^n}\\left((2^n+3^n+4^n)^{1/n}+\\frac3n\\right)}{2+\\frac{n+1}{n}}$。 $4$ $\\frac34$ $\\frac14$ $\\frac43$ $ (2^n+3^n+4^n)^{1/n}\\to4$，且 $(n+1)/n\\to1$，原式极限为 $\\frac43$。",
+  "sort_order": 7
+}

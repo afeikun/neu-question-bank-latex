@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知矩阵方程 $AX=B$，其中 $A=\\begin{pmatrix}1&0&-1\\\\0&4&2\\\\1&-1&0\\end{pmatrix}$，$B=\\begin{pmatrix}2&-3&1\\\\1&0&-1\\\\1&4&1\\end{pmatrix}$，则 $X=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac16\\begin{pmatrix}2&-3&1\\\\3&-14&1\\\\-3&28&-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "以上都不正确"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}9&10&5\\\\3&-14&-1\\\\-3&28&-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16\\begin{pmatrix}9&10&5\\\\3&-14&-1\\\\-3&28&-1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对增广矩阵 $(A\\mid B)$ 作初等行变换，将左半部分化为单位矩阵，得到 $X=A^{-1}B=\\frac16\\begin{pmatrix}9&10&5\\\\3&-14&-1\\\\-3&28&-1\\end{pmatrix}$。",
+  "search_text": "已知矩阵方程 $AX=B$，其中 $A=\\begin{pmatrix}1&0&-1\\\\0&4&2\\\\1&-1&0\\end{pmatrix}$，$B=\\begin{pmatrix}2&-3&1\\\\1&0&-1\\\\1&4&1\\end{pmatrix}$，则 $X=$（ ）。 $\\frac16\\begin{pmatrix}2&-3&1\\\\3&-14&1\\\\-3&28&-1\\end{pmatrix}$ 以上都不正确 $\\begin{pmatrix}9&10&5\\\\3&-14&-1\\\\-3&28&-1\\end{pmatrix}$ $\\frac16\\begin{pmatrix}9&10&5\\\\3&-14&-1\\\\-3&28&-1\\end{pmatrix}$ 对增广矩阵 $(A\\mid B)$ 作初等行变换，将左半部分化为单位矩阵，得到 $X=A^{-1}B=\\frac16\\begin{pmatrix}9&10&5\\\\3&-14&-1\\\\-3&28&-1\\end{pmatrix}$。",
+  "sort_order": 26
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求曲线 $y=2\\sin x+x^2$ 上横坐标为 $x=0$ 的切线方程（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=2x-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=2(x-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=2(x+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y\\prime(0)=2$ 且点为 $(0,0)$，故切线为 $y=2x$。",
+  "search_text": "求曲线 $y=2\\sin x+x^2$ 上横坐标为 $x=0$ 的切线方程（ ）。 $y=2x-1$ $y=2(x-1)$ $y=2x$ $y=2(x+1)$ $y\\prime(0)=2$ 且点为 $(0,0)$，故切线为 $y=2x$。",
+  "sort_order": 10
+}

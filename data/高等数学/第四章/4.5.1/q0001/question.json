@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "判断广义积分I=∫₂^∞cos(ax)/((x−1)√(1+x²))dx的敛散性",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "敛散性与a有关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "被积函数绝对值不超过1/((x−1)√(1+x²))=O(x⁻²)，故绝对收敛。",
+  "search_text": "判断广义积分I=∫₂^∞cos(ax)/((x−1)√(1+x²))dx的敛散性 发散 条件收敛 绝对收敛 敛散性与a有关 被积函数绝对值不超过1/((x−1)√(1+x²))=O(x⁻²)，故绝对收敛。",
+  "sort_order": 1
+}

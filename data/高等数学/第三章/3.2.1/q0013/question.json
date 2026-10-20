@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 有 $n+1$ 阶导数，则 $f(x)$ 的 Taylor 多项式 $p_n(x)=\\sum_{k=0}^n a_k(x-x_0)^k$ 中 $a_n=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{f^{(n)}(x_0)}{(n+1)!}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{f^{(n+1)}(x_0)}{(n+1)!}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{f^{(n)}(x_0)}{n!}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{f^{(n+1)}(x_0)}{n!}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "Taylor 公式的第 $n$ 阶系数为 $a_n=\\frac{f^{(n)}(x_0)}{n!}$。",
+  "search_text": "设 $f(x)$ 有 $n+1$ 阶导数，则 $f(x)$ 的 Taylor 多项式 $p_n(x)=\\sum_{k=0}^n a_k(x-x_0)^k$ 中 $a_n=(\\quad)$。 $\\frac{f^{(n)}(x_0)}{(n+1)!}$ $\\frac{f^{(n+1)}(x_0)}{(n+1)!}$ $\\frac{f^{(n)}(x_0)}{n!}$ $\\frac{f^{(n+1)}(x_0)}{n!}$ Taylor 公式的第 $n$ 阶系数为 $a_n=\\frac{f^{(n)}(x_0)}{n!}$。",
+  "sort_order": 13
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty} 3^{n/2}\\tan^n x/n$ 的收敛域为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[k\\pi-\\pi/3,k\\pi+\\pi/3]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[k\\pi-\\pi/6,k\\pi+\\pi/6)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[k\\pi-\\pi/3,k\\pi+\\pi/3)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[k\\pi-\\pi/6,k\\pi+\\pi/6]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "要求 $-1/\\sqrt3\\le\\tan x<1/\\sqrt3$，端点一侧条件收敛、一侧发散。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty} 3^{n/2}\\tan^n x/n$ 的收敛域为？ $[k\\pi-\\pi/3,k\\pi+\\pi/3]$ $[k\\pi-\\pi/6,k\\pi+\\pi/6)$ $[k\\pi-\\pi/3,k\\pi+\\pi/3)$ $[k\\pi-\\pi/6,k\\pi+\\pi/6]$ 要求 $-1/\\sqrt3\\le\\tan x<1/\\sqrt3$，端点一侧条件收敛、一侧发散。",
+  "sort_order": 32
+}

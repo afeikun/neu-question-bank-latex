@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $af(x)+bf(\\frac1x)=\\frac cx$，$|a|\\ne|b|$，则 $f(x)$ 为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "非奇非偶"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无法判断"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "奇函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "偶函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "将原式与代换 $x\\mapsto1/x$ 后的式子联立，可得 $f(x)=\\frac{ac-bcx^2}{(a^2-b^2)x}$，从而 $f(-x)=-f(x)$，所以 $f$ 为奇函数。",
+  "search_text": "已知 $af(x)+bf(\\frac1x)=\\frac cx$，$|a|\\ne|b|$，则 $f(x)$ 为（ ）。 非奇非偶 无法判断 奇函数 偶函数 将原式与代换 $x\\mapsto1/x$ 后的式子联立，可得 $f(x)=\\frac{ac-bcx^2}{(a^2-b^2)x}$，从而 $f(-x)=-f(x)$，所以 $f$ 为奇函数。",
+  "sort_order": 45
+}

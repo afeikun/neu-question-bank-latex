@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "利用洛必达法则计算 $\\lim_{x\\to\\pi/2}\\frac{\\ln\\sin x}{(\\pi-2x)^2}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac18$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "求导化简或令 $t=\\pi/2-x$，得极限 $-1/8$。",
+  "search_text": "利用洛必达法则计算 $\\lim_{x\\to\\pi/2}\\frac{\\ln\\sin x}{(\\pi-2x)^2}=(\\quad)$。 $2$ $-\\frac18$ $\\frac12$ $-\\frac12$ 求导化简或令 $t=\\pi/2-x$，得极限 $-1/8$。",
+  "sort_order": 15
+}

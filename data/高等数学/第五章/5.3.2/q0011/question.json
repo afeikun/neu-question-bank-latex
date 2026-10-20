@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "讨论 $\\sum_{n=1}^{\\infty}(-1)^{n-1}/n^p$（$p>0$），正确说法是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0<p\\le1$ 时条件收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p>1$ 时条件收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$p>1$ 时发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0<p\\le1$ 时绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$0<p\\le1$ 时条件收敛；$p>1$ 时绝对收敛。",
+  "search_text": "讨论 $\\sum_{n=1}^{\\infty}(-1)^{n-1}/n^p$（$p>0$），正确说法是？ $0<p\\le1$ 时条件收敛 $p>1$ 时条件收敛 $p>1$ 时发散 $0<p\\le1$ 时绝对收敛 $0<p\\le1$ 时条件收敛；$p>1$ 时绝对收敛。",
+  "sort_order": 11
+}

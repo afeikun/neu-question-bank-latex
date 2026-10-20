@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0^+}(\\frac1x)^{\\tan x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$+\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "取对数得 $\\tan x\\ln(1/x)\\to0$，所以极限为 $1$。",
+  "search_text": "$\\lim_{x\\to0^+}(\\frac1x)^{\\tan x}=(\\quad)$。 $e$ $0$ $1$ $+\\infty$ 取对数得 $\\tan x\\ln(1/x)\\to0$，所以极限为 $1$。",
+  "sort_order": 36
+}

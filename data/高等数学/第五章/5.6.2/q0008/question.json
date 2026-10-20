@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 为周期 $2\\pi$ 的周期函数，在 $[-\\pi,\\pi]$ 上有 $f(x)=-1$（$-\\pi\\le x<0$）、$f(x)=1$（$0<x\\le\\pi$）。其傅里叶系数 $a_n,b_n$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a_n=0,\\ b_n=2[1-(-1)^n]/(n\\pi)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a_n=1,\\ b_n=-2/(n\\pi)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a_n=0,\\ b_n=4/(n\\pi)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a_n=0,\\ b_n=(-1)^{n+1}2/(n\\pi)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "奇函数的余弦系数为0，正弦系数为 $2[1-(-1)^n]/(n\\pi)$。",
+  "search_text": "设 $f(x)$ 为周期 $2\\pi$ 的周期函数，在 $[-\\pi,\\pi]$ 上有 $f(x)=-1$（$-\\pi\\le x<0$）、$f(x)=1$（$0<x\\le\\pi$）。其傅里叶系数 $a_n,b_n$ 为（ ）。 $a_n=0,\\ b_n=2[1-(-1)^n]/(n\\pi)$ $a_n=1,\\ b_n=-2/(n\\pi)$ $a_n=0,\\ b_n=4/(n\\pi)$ $a_n=0,\\ b_n=(-1)^{n+1}2/(n\\pi)$ 奇函数的余弦系数为0，正弦系数为 $2[1-(-1)^n]/(n\\pi)$。",
+  "sort_order": 8
+}

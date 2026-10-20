@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 在 $x_0$ 点有任意阶导数，其 Taylor 公式中余项 $R_n(x)$ 满足 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to\\infty}R_n(x)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{x\\to\\infty}\\frac{R_n(x)}{(x-x_0)^n}=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{n\\to\\infty}\\frac{R_n(x)}{(x-x_0)^n}=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{n\\to\\infty}\\frac{R_n(x)}{(x-x_0)^{n+1}}=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "Peano 型余项满足 $\\lim_{n\\to\\infty}\\frac{R_n(x)}{(x-x_0)^n}=0$。",
+  "search_text": "设 $f(x)$ 在 $x_0$ 点有任意阶导数，其 Taylor 公式中余项 $R_n(x)$ 满足 $(\\quad)$。 $\\lim_{x\\to\\infty}R_n(x)=0$ $\\lim_{x\\to\\infty}\\frac{R_n(x)}{(x-x_0)^n}=0$ $\\lim_{n\\to\\infty}\\frac{R_n(x)}{(x-x_0)^n}=0$ $\\lim_{n\\to\\infty}\\frac{R_n(x)}{(x-x_0)^{n+1}}=0$ Peano 型余项满足 $\\lim_{n\\to\\infty}\\frac{R_n(x)}{(x-x_0)^n}=0$。",
+  "sort_order": 7
+}

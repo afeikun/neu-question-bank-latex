@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=x^3-x$，取 $\\Delta x=0.01$，则在 $x=2$ 时 $\\Delta y=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.0110601$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-0.0110601$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.110601$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-0.110601$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "直接计算得 $\\Delta f(2)=0.110601$。",
+  "search_text": "设 $f(x)=x^3-x$，取 $\\Delta x=0.01$，则在 $x=2$ 时 $\\Delta y=$（ ）。 $0.0110601$ $-0.0110601$ $0.110601$ $-0.110601$ 直接计算得 $\\Delta f(2)=0.110601$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 为圆 $(x-a)^2+y^2=a^2$ 与 $x$ 轴围成的第一象限区域边界（逆时针），计算 $\\oint_Lxy\\,dx$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi a^3}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{\\pi a^3}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{a^3}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{\\pi a^3}{3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解：\n\n$$\n\\begin{aligned}\n\\oint_Lxy\\,\\mathrm{d}x&=\\left(\\int_{OA}+\\int_{AO}\\right)xy\\,\\mathrm{d}x，\\quad\\text{其中 }OA:\\left\\{\\begin{aligned}x&=x\\\\y&=0\\end{aligned}\\right.，\\quad x:0\\to2a，\\\\\nAO&:\\left\\{\\begin{aligned}x&=a+a\\cos\\theta\\\\y&=a\\sin\\theta\\end{aligned}\\right.，\\quad\\theta:0\\to\\pi\n\\end{aligned}\n$$\n\n$$\n\\int_{OA}xy\\,\\mathrm{d}x=\\int_0^{2a}x\\times0\\,\\mathrm{d}x=0\n$$\n\n$$\n\\begin{aligned}\n\\int_{AO}xy\\,\\mathrm{d}x&=\\int_0^\\pi(a+a\\cos\\theta)a\\sin\\theta\\,\\mathrm{d}(a+a\\cos\\theta)\\\\\n&=-a^3\\int_0^\\pi(\\sin^2\\theta+\\sin^2\\theta\\cos\\theta)\\,\\mathrm{d}\\theta\\\\\n&=-a^3\\left[2\\int_0^{\\frac{\\pi}{2}}\\sin^2\\theta\\,\\mathrm{d}\\theta+\\int_0^\\pi\\sin^2\\theta\\cos\\theta\\,\\mathrm{d}\\theta\\right]\\\\\n&=-a^3\\left(\\frac{\\pi}{2}+0\\right)=-\\frac{\\pi a^3}{2}\n\\end{aligned}\n$$\n\n故\n\n$$\n\\oint_Lxy\\,\\mathrm{d}x=0+\\left(-\\frac{\\pi a^3}{2}\\right)=-\\frac{\\pi a^3}{2}\n$$",
+  "search_text": "$L$ 为圆 $(x-a)^2+y^2=a^2$ 与 $x$ 轴围成的第一象限区域边界（逆时针），计算 $\\oint_Lxy\\,dx$。 $\\frac{\\pi a^3}{2}$ $-\\frac{\\pi a^3}{2}$ $-\\frac{a^3}{2}$ $-\\frac{\\pi a^3}{3}$ 解：\n\n$$\n\\begin{aligned}\n\\oint_Lxy\\,\\mathrm{d}x&=\\left(\\int_{OA}+\\int_{AO}\\right)xy\\,\\mathrm{d}x，\\quad\\text{其中 }OA:\\left\\{\\begin{aligned}x&=x\\\\y&=0\\end{aligned}\\right.，\\quad x:0\\to2a，\\\\\nAO&:\\left\\{\\begin{aligned}x&=a+a\\cos\\theta\\\\y&=a\\sin\\theta\\end{aligned}\\right.，\\quad\\theta:0\\to\\pi\n\\end{aligned}\n$$\n\n$$\n\\int_{OA}xy\\,\\mathrm{d}x=\\int_0^{2a}x\\times0\\,\\mathrm{d}x=0\n$$\n\n$$\n\\begin{aligned}\n\\int_{AO}xy\\,\\mathrm{d}x&=\\int_0^\\pi(a+a\\cos\\theta)a\\sin\\theta\\,\\mathrm{d}(a+a\\cos\\theta)\\\\\n&=-a^3\\int_0^\\pi(\\sin^2\\theta+\\sin^2\\theta\\cos\\theta)\\,\\mathrm{d}\\theta\\\\\n&=-a^3\\left[2\\int_0^{\\frac{\\pi}{2}}\\sin^2\\theta\\,\\mathrm{d}\\theta+\\int_0^\\pi\\sin^2\\theta\\cos\\theta\\,\\mathrm{d}\\theta\\right]\\\\\n&=-a^3\\left(\\frac{\\pi}{2}+0\\right)=-\\frac{\\pi a^3}{2}\n\\end{aligned}\n$$\n\n故\n\n$$\n\\oint_Lxy\\,\\mathrm{d}x=0+\\left(-\\frac{\\pi a^3}{2}\\right)=-\\frac{\\pi a^3}{2}\n$$",
+  "sort_order": 8
+}

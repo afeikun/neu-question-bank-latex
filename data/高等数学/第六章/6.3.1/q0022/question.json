@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过两直线 $L_1:\\begin{cases}x=2t-1\\\\y=3t+2\\\\z=2t-3\\end{cases}$，$L_2:\\begin{cases}x=2t+3\\\\y=3t-3\\\\z=2t+1\\end{cases}$ 的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-2y+z=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+z-2=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2x+3y+2z+2=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-z-2=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "两直线平行，法向量由方向向量与两线上点连线叉乘得 $(1,0,-1)$，平面方程 $x-z-2=0$。",
+  "search_text": "过两直线 $L_1:\\begin{cases}x=2t-1\\\\y=3t+2\\\\z=2t-3\\end{cases}$，$L_2:\\begin{cases}x=2t+3\\\\y=3t-3\\\\z=2t+1\\end{cases}$ 的平面方程为(\\quad)。 $x-2y+z=0$ $x+z-2=0$ $2x+3y+2z+2=0$ $x-z-2=0$ 两直线平行，法向量由方向向量与两线上点连线叉乘得 $(1,0,-1)$，平面方程 $x-z-2=0$。",
+  "sort_order": 22
+}

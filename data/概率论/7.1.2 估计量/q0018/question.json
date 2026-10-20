@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "估计量的评价标准通常包括（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无偏性、一致性、有效性"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无偏性、唯一性、正确性"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "有效性、相合性、完备性"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "准确性、唯一性、无误差性"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "常用评价标准是无偏性、一致性和有效性。",
+  "search_text": "估计量的评价标准通常包括（）。 无偏性、一致性、有效性 无偏性、唯一性、正确性 有效性、相合性、完备性 准确性、唯一性、无误差性 常用评价标准是无偏性、一致性和有效性。",
+  "sort_order": 18
+}

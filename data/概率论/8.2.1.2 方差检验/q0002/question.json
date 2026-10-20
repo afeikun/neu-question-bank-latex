@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n=10,\\sigma_0^2=0.02$，检验$H_0:\\sigma^2\\le0.02,H_1:\\sigma^2>0.02$，拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$450S^2\\ge\\chi^2_{0.05}(9)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$500S^2\\ge\\chi^2_{0.05}(10)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$450S^2\\le\\chi^2_{0.95}(9)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$450S^2\\le\\chi^2_{0.975}(9)$或$\\ge\\chi^2_{0.025}(9)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "统计量$(n-1)S^2/0.02=450S^2$，右尾拒绝域使用自由度9。",
+  "search_text": "$n=10,\\sigma_0^2=0.02$，检验$H_0:\\sigma^2\\le0.02,H_1:\\sigma^2>0.02$，拒绝域为（）。 $450S^2\\ge\\chi^2_{0.05}(9)$ $500S^2\\ge\\chi^2_{0.05}(10)$ $450S^2\\le\\chi^2_{0.95}(9)$ $450S^2\\le\\chi^2_{0.975}(9)$或$\\ge\\chi^2_{0.025}(9)$ 统计量$(n-1)S^2/0.02=450S^2$，右尾拒绝域使用自由度9。",
+  "sort_order": 2
+}

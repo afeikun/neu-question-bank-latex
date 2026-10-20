@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi,\\eta$独立且均服从$[0,1]$均匀分布，判断其联合分布。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\xi=\\xi-\\eta$均匀于[-1,1]"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\zeta=\\max(\\xi,\\eta)$均匀于[0,1]"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\xi,\\eta)$不是正方形上的均匀分布"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\xi,\\eta)$服从单位正方形上的均匀分布"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "联合密度是$1$于单位正方形，故为该正方形上的均匀分布。",
+  "search_text": "$\\xi,\\eta$独立且均服从$[0,1]$均匀分布，判断其联合分布。 $\\xi=\\xi-\\eta$均匀于[-1,1] $\\zeta=\\max(\\xi,\\eta)$均匀于[0,1] $(\\xi,\\eta)$不是正方形上的均匀分布 $(\\xi,\\eta)$服从单位正方形上的均匀分布 联合密度是$1$于单位正方形，故为该正方形上的均匀分布。",
+  "sort_order": 4
+}

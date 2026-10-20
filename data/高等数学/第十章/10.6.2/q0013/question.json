@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设二阶常系数线性微分方程 $y\\prime\\prime+\\alpha y\\prime+\\beta y=0$ 的一个解为 $y=e^{2x}+e^x$，则其中常数 $\\alpha,\\beta$ 分别为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0,-1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-1,-2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0,1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1,2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析 由 $y=e^{2x}+e^x$，有 $y'=2e^{2x}+e^x,y''=4e^{2x}+e^x$，代入原方程，得\n\n$$(4+2\\alpha+\\beta)e^{2x}+(3+\\alpha+\\beta)e^x=0,$$\n\n由于 $e^{2x},e^x$ 线性无关，上式成立的充要条件是 $4+2\\alpha+\\beta=0,3+\\alpha+\\beta=0$，解之，得 $\\alpha=-1,\\beta=-2$，因此选 A。",
+  "search_text": "设二阶常系数线性微分方程 $y\\prime\\prime+\\alpha y\\prime+\\beta y=0$ 的一个解为 $y=e^{2x}+e^x$，则其中常数 $\\alpha,\\beta$ 分别为（ ） 0,-1 -1,-2 0,1 1,2 解析 由 $y=e^{2x}+e^x$，有 $y'=2e^{2x}+e^x,y''=4e^{2x}+e^x$，代入原方程，得\n\n$$(4+2\\alpha+\\beta)e^{2x}+(3+\\alpha+\\beta)e^x=0,$$\n\n由于 $e^{2x},e^x$ 线性无关，上式成立的充要条件是 $4+2\\alpha+\\beta=0,3+\\alpha+\\beta=0$，解之，得 $\\alpha=-1,\\beta=-2$，因此选 A。",
+  "sort_order": 13
+}

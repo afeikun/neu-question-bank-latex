@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi_1,\\xi_2$均匀于$[0,2]$，求$E(\\xi_1+\\xi_2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "每个均匀变量均值为1，和的期望为2。",
+  "search_text": "$\\xi_1,\\xi_2$均匀于$[0,2]$，求$E(\\xi_1+\\xi_2)$。 $2$ $1$ $0.5$ $4$ 每个均匀变量均值为1，和的期望为2。",
+  "sort_order": 20
+}

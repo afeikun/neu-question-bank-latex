@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $A$ 为 $n$ 阶矩阵，$|A|\\ne0$，$A^*$ 为 $A$ 的伴随矩阵，$E$ 为 $n$ 阶单位矩阵，若 $A$ 有特征值 $\\lambda$，则 $(A^*)^2+E$ 必有特征值(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{|A|^2}{\\lambda}+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{|A|^2}{\\lambda^2}+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{|A|^2}{\\lambda^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{|A|}{\\lambda^2}+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$A^*=|A|A^{-1}$ 的特征值对应为 $|A|/\\lambda$，故平方加单位阵后的特征值为 $|A|^2/\\lambda^2+1$，选项 2。",
+  "search_text": "若 $A$ 为 $n$ 阶矩阵，$|A|\\ne0$，$A^*$ 为 $A$ 的伴随矩阵，$E$ 为 $n$ 阶单位矩阵，若 $A$ 有特征值 $\\lambda$，则 $(A^*)^2+E$ 必有特征值(\\quad)。 $\\frac{|A|^2}{\\lambda}+1$ $\\frac{|A|^2}{\\lambda^2}+1$ $\\frac{|A|^2}{\\lambda^2}$ $\\frac{|A|}{\\lambda^2}+1$ $A^*=|A|A^{-1}$ 的特征值对应为 $|A|/\\lambda$，故平方加单位阵后的特征值为 $|A|^2/\\lambda^2+1$，选项 2。",
+  "sort_order": 18
+}

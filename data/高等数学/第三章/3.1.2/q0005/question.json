@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设在区间 $[0,x]$（$x>0$）上 $f(x)$ 连续，且 $f'(x)$ 在 $(0,x)$ 上严格单调递减，则下列不等式成立的是 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f'(0)>\\frac{f(x)-f(0)}x>f'(x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(1)-f(0)>xf'(x)>xf'(0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xf'(x)>f(x)-f(0)>xf'(0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f'(x)>\\frac{f(0)-f(x)}x>f'(0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由拉格朗日中值定理，$f(x)-f(0)=xf'(\\xi)$，其中 $0<\\xi<x$。因 $f'$ 严格递减，$f'(0)>f'(\\xi)>f'(x)$。",
+  "search_text": "设在区间 $[0,x]$（$x>0$）上 $f(x)$ 连续，且 $f'(x)$ 在 $(0,x)$ 上严格单调递减，则下列不等式成立的是 $(\\quad)$。 $f'(0)>\\frac{f(x)-f(0)}x>f'(x)$ $f(1)-f(0)>xf'(x)>xf'(0)$ $xf'(x)>f(x)-f(0)>xf'(0)$ $f'(x)>\\frac{f(0)-f(x)}x>f'(0)$ 由拉格朗日中值定理，$f(x)-f(0)=xf'(\\xi)$，其中 $0<\\xi<x$。因 $f'$ 严格递减，$f'(0)>f'(\\xi)>f'(x)$。",
+  "sort_order": 5
+}

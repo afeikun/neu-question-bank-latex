@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求limₙ→∞(1⁹/n¹⁰+2⁹/n¹⁰+…+n⁹/n¹⁰)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1/11"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1/8"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1/10"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1/9"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "这是黎曼和∫₀¹x⁹dx=1/10。",
+  "search_text": "求limₙ→∞(1⁹/n¹⁰+2⁹/n¹⁰+…+n⁹/n¹⁰) 1/11 1/8 1/10 1/9 这是黎曼和∫₀¹x⁹dx=1/10。",
+  "sort_order": 20
+}

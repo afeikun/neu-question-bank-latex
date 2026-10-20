@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=\\sin 2x\\cos y$，则 $f_x\\left(\\frac{\\pi}{2},\\pi\\right)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$;"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$;"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$;"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f_x(x,y)=2\\cos 2x\\cos y$，将 $(x,y)=\\left(\\frac{\\pi}{2},\\pi\\right)$ 代入得 $f_x\\left(\\frac{\\pi}{2},\\pi\\right)=2$，",
+  "search_text": "设 $f(x,y)=\\sin 2x\\cos y$，则 $f_x\\left(\\frac{\\pi}{2},\\pi\\right)=(\\quad)$。 $2$; $0$; $-1$ $1$; $f_x(x,y)=2\\cos 2x\\cos y$，将 $(x,y)=\\left(\\frac{\\pi}{2},\\pi\\right)$ 代入得 $f_x\\left(\\frac{\\pi}{2},\\pi\\right)=2$，",
+  "sort_order": 18
+}

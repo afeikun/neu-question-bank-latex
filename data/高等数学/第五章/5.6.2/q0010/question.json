@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期 $2\\pi$ 函数 $f(x)=(\\pi-x)/2$（$0<x<2\\pi$）的傅里叶展开式？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(\\sin nx+\\cos nx)/n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\cos nx/n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2+\\sum_{n=1}^{\\infty}(\\sin nx/n+\\cos nx/n^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\sin nx/n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "正弦系数 $b_n=1/n$，余弦系数与常数项均为0。",
+  "search_text": "周期 $2\\pi$ 函数 $f(x)=(\\pi-x)/2$（$0<x<2\\pi$）的傅里叶展开式？ $\\sum_{n=1}^{\\infty}(\\sin nx+\\cos nx)/n$ $\\sum_{n=1}^{\\infty}\\cos nx/n$ $1/2+\\sum_{n=1}^{\\infty}(\\sin nx/n+\\cos nx/n^2)$ $\\sum_{n=1}^{\\infty}\\sin nx/n$ 正弦系数 $b_n=1/n$，余弦系数与常数项均为0。",
+  "sort_order": 10
+}

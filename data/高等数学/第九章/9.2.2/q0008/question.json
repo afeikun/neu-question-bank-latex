@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算第一型曲面积分 $\\iint_\\Sigma z\\,dS$，$\\Sigma$ 为平面 $\\frac x2+\\frac y3+\\frac z4=1$ 在第一卦限中的部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\sqrt{61}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac43\\sqrt{61}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$14$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答根据对称性，$\\iint_\\Sigma\\left(\\frac{x}{2}\\right)dS=\\iint_\\Sigma\\left(\\frac{y}{3}\\right)dS=\\iint_\\Sigma\\left(\\frac{z}{4}\\right)dS=\\frac{1}{3}\\iint_\\Sigma\\left(\\frac{x}{2}+\\frac{y}{3}+\\frac{z}{4}\\right)dS=\\frac{1}{3}\\iint_\\Sigma1\\,dS=$\n\n$\\frac{1}{3}A$，$A$ 为曲面 $\\Sigma$ 的面积。$A=\\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\sqrt{61}$，$\\vec{a},\\vec{b}$ 为三角形各边向量。由此可得 C",
+  "search_text": "计算第一型曲面积分 $\\iint_\\Sigma z\\,dS$，$\\Sigma$ 为平面 $\\frac x2+\\frac y3+\\frac z4=1$ 在第一卦限中的部分。 $4\\sqrt{61}$ $\\frac43\\sqrt{61}$ $14$ $8$ 解答根据对称性，$\\iint_\\Sigma\\left(\\frac{x}{2}\\right)dS=\\iint_\\Sigma\\left(\\frac{y}{3}\\right)dS=\\iint_\\Sigma\\left(\\frac{z}{4}\\right)dS=\\frac{1}{3}\\iint_\\Sigma\\left(\\frac{x}{2}+\\frac{y}{3}+\\frac{z}{4}\\right)dS=\\frac{1}{3}\\iint_\\Sigma1\\,dS=$\n\n$\\frac{1}{3}A$，$A$ 为曲面 $\\Sigma$ 的面积。$A=\\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\sqrt{61}$，$\\vec{a},\\vec{b}$ 为三角形各边向量。由此可得 C",
+  "sort_order": 8
+}

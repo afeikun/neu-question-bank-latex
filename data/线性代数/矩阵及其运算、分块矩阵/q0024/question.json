@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A$ 为 $3$ 阶矩阵，且已知 $|A|=m$，则 $|-mA|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$m^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-m^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-m^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$m^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $A=\\begin{pmatrix}a_{11}&a_{12}&a_{13}\\\\a_{21}&a_{22}&a_{23}\\\\a_{31}&a_{32}&a_{33}\\end{pmatrix}$，则 $-mA=\\begin{pmatrix}-ma_{11}&-ma_{12}&-ma_{13}\\\\-ma_{21}&-ma_{22}&-ma_{23}\\\\-ma_{31}&-ma_{32}&-ma_{33}\\end{pmatrix}$，从而 $|-mA|=(-m)^3|A|=-m^4$。",
+  "search_text": "设矩阵 $A$ 为 $3$ 阶矩阵，且已知 $|A|=m$，则 $|-mA|=$（ ）。 $m^4$ $-m^4$ $-m^2$ $m^2$ 设 $A=\\begin{pmatrix}a_{11}&a_{12}&a_{13}\\\\a_{21}&a_{22}&a_{23}\\\\a_{31}&a_{32}&a_{33}\\end{pmatrix}$，则 $-mA=\\begin{pmatrix}-ma_{11}&-ma_{12}&-ma_{13}\\\\-ma_{21}&-ma_{22}&-ma_{23}\\\\-ma_{31}&-ma_{32}&-ma_{33}\\end{pmatrix}$，从而 $|-mA|=(-m)^3|A|=-m^4$。",
+  "sort_order": 24
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知函数 $y=y(x)$ 由方程 $e^{xy}=a^x b^y$ 确定，则 $y\\prime\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(y-\\ln a)/(\\ln b-x)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2(y-\\ln a)/(\\ln b-x)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2(y-\\ln b)/(\\ln a-x)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2(y-\\ln a)/(\\ln b-x)^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=2(y-\\ln a)/(\\ln b-x)^2$。",
+  "search_text": "已知函数 $y=y(x)$ 由方程 $e^{xy}=a^x b^y$ 确定，则 $y\\prime\\prime=$（ ）。 $(y-\\ln a)/(\\ln b-x)^2$ $2(y-\\ln a)/(\\ln b-x)^2$ $2(y-\\ln b)/(\\ln a-x)^2$ $2(y-\\ln a)/(\\ln b-x)^3$ $y\\prime\\prime=2(y-\\ln a)/(\\ln b-x)^2$。",
+  "sort_order": 31
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=2+e^x$，则其反函数 $x=x(y)$ 的导数 $dx/dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/(x-2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/(y-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(y-2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(x-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$dx/dy=1/e^x=1/(y-2)$。",
+  "search_text": "设 $y=2+e^x$，则其反函数 $x=x(y)$ 的导数 $dx/dy=$（ ）。 $1/(x-2)$ $1/(y-1)$ $1/(y-2)$ $1/(x-1)$ $dx/dy=1/e^x=1/(y-2)$。",
+  "sort_order": 12
+}

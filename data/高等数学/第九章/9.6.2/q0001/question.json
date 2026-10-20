@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设曲线积分 $\\int_Lxy^2\\,dx+y\\varphi(x)\\,dy$ 与路径无关，其中 $\\varphi$ 有连续导数且 $\\varphi(0)=0$，求从 $(0,0)$ 到 $(1,1)$ 的积分值（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac14$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：\n\n$$P(x,y)=xy^2，\\quad Q(x,y)=y\\varphi(x)，\\quad \\frac{\\partial P}{\\partial y}=\\frac{\\partial}{\\partial y}(xy^2)=2xy，\\quad \\frac{\\partial Q}{\\partial x}=\\frac{\\partial}{\\partial x}[y\\varphi(x)]=y\\varphi'(x).$$\n\n因积分与路径无关 $\\Rightarrow \\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$，\n\n由 $y\\varphi'(x)=2xy\\Rightarrow \\varphi(x)=x^2+C$\n\n由 $\\varphi(0)=0$，知 $C=0\\quad\\Rightarrow\\quad \\varphi(x)=x^2.$\n\n故 $\\int_{(0,0)}^{(1,1)}xy^2\\,dx+y\\varphi(x)\\,dy=\\int_0^1 0\\,dx+\\int_0^1 y\\,dy=\\frac{1}{2}$",
+  "search_text": "设曲线积分 $\\int_Lxy^2\\,dx+y\\varphi(x)\\,dy$ 与路径无关，其中 $\\varphi$ 有连续导数且 $\\varphi(0)=0$，求从 $(0,0)$ 到 $(1,1)$ 的积分值（ ） $\\frac13$ $\\frac12$ $1$ $\\frac14$ 解析：\n\n$$P(x,y)=xy^2，\\quad Q(x,y)=y\\varphi(x)，\\quad \\frac{\\partial P}{\\partial y}=\\frac{\\partial}{\\partial y}(xy^2)=2xy，\\quad \\frac{\\partial Q}{\\partial x}=\\frac{\\partial}{\\partial x}[y\\varphi(x)]=y\\varphi'(x).$$\n\n因积分与路径无关 $\\Rightarrow \\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$，\n\n由 $y\\varphi'(x)=2xy\\Rightarrow \\varphi(x)=x^2+C$\n\n由 $\\varphi(0)=0$，知 $C=0\\quad\\Rightarrow\\quad \\varphi(x)=x^2.$\n\n故 $\\int_{(0,0)}^{(1,1)}xy^2\\,dx+y\\varphi(x)\\,dy=\\int_0^1 0\\,dx+\\int_0^1 y\\,dy=\\frac{1}{2}$",
+  "sort_order": 1
+}

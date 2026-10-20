@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Gamma:\\ x^2+y^2+z^2=a^2,\\ y+z=a(a>0)$，则 $I=\\oint_\\Gamma(x^2+y^2+z^2)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\pi a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt2\\pi a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 球心 $(0,0,0)$ 到平面 $y+z-a=0$ 的距离 $d=\\frac{|a|}{\\sqrt{2}}=\\frac{a}{\\sqrt{2}}$，\n\n$$\n\\Gamma\\text{ 的半径 }r=\\sqrt{a^2-d^2}=\\sqrt{a^2-\\frac{a^2}{2}}=\\frac{|a|}{\\sqrt{2}}=\\frac{a}{\\sqrt{2}}，\n$$\n\n$$\nI=a^2\\oint_\\Gamma1ds=2a^2\\pi r=\\sqrt{2}\\pi a^3.\n$$",
+  "search_text": "设 $\\Gamma:\\ x^2+y^2+z^2=a^2,\\ y+z=a(a>0)$，则 $I=\\oint_\\Gamma(x^2+y^2+z^2)ds=$（ ） $\\pi a^3$ $3\\pi a^3$ $\\sqrt2\\pi a^3$ $2\\pi a^3$ 解答 球心 $(0,0,0)$ 到平面 $y+z-a=0$ 的距离 $d=\\frac{|a|}{\\sqrt{2}}=\\frac{a}{\\sqrt{2}}$，\n\n$$\n\\Gamma\\text{ 的半径 }r=\\sqrt{a^2-d^2}=\\sqrt{a^2-\\frac{a^2}{2}}=\\frac{|a|}{\\sqrt{2}}=\\frac{a}{\\sqrt{2}}，\n$$\n\n$$\nI=a^2\\oint_\\Gamma1ds=2a^2\\pi r=\\sqrt{2}\\pi a^3.\n$$",
+  "sort_order": 45
+}

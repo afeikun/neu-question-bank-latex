@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{1-\\cos x}{x^2}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$1-\\cos x=2\\sin^2(x/2)$，极限为 $1/2$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{1-\\cos x}{x^2}=[\\quad]$。 1 2 $\\frac12$ 不存在 $1-\\cos x=2\\sin^2(x/2)$，极限为 $1/2$。",
+  "sort_order": 18
+}

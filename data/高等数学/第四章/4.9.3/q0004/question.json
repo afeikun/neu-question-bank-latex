@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "无限长、线密度为 $\\mu$ 的均匀细直棒，在起中垂线上距 $a$ 处有质量 $m$ 的质点，求细棒对质点的引力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2km\\mu/a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3km\\mu/a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4km\\mu/a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$km\\mu/(2a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用对称性，水平方向分力抵消，积分得 $F=2km\\mu/a$。",
+  "search_text": "无限长、线密度为 $\\mu$ 的均匀细直棒，在起中垂线上距 $a$ 处有质量 $m$ 的质点，求细棒对质点的引力。 $2km\\mu/a$ $3km\\mu/a$ $4km\\mu/a$ $km\\mu/(2a)$ 利用对称性，水平方向分力抵消，积分得 $F=2km\\mu/a$。",
+  "sort_order": 4
+}

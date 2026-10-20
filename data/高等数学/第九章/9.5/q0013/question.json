@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 为球面 $x^2+y^2+z^2=R^2$ 在第一卦限与三个坐标面的交线，则其形心坐标为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\left(\\frac{2R}{3\\pi},\\frac{2R}{3\\pi},\\frac{2R}{3\\pi}\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\left(\\frac{R}{3\\pi},\\frac{R}{3\\pi},\\frac{R}{3\\pi}\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\left(\\frac{4R}{3\\pi},\\frac{4R}{3\\pi},\\frac{4R}{3\\pi}\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\left(\\frac{4R}{\\pi},\\frac{4R}{\\pi},\\frac{4R}{\\pi}\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "图示标记：$x$、$y$、$z$，$O$，三处 $R$，$L_1$、$L_2$、$L_3$。\n\n解答 如图所示，交线长度为 $l=3\\displaystyle\\int_{L_1}ds=3\\cdot\\frac{2\\pi R}{4}=\\frac{3\\pi R}{2}$。由对称性，形心坐标为",
+  "search_text": "$L$ 为球面 $x^2+y^2+z^2=R^2$ 在第一卦限与三个坐标面的交线，则其形心坐标为（ ） $\\left(\\frac{2R}{3\\pi},\\frac{2R}{3\\pi},\\frac{2R}{3\\pi}\\right)$ $\\left(\\frac{R}{3\\pi},\\frac{R}{3\\pi},\\frac{R}{3\\pi}\\right)$ $\\left(\\frac{4R}{3\\pi},\\frac{4R}{3\\pi},\\frac{4R}{3\\pi}\\right)$ $\\left(\\frac{4R}{\\pi},\\frac{4R}{\\pi},\\frac{4R}{\\pi}\\right)$ 图示标记：$x$、$y$、$z$，$O$，三处 $R$，$L_1$、$L_2$、$L_3$。\n\n解答 如图所示，交线长度为 $l=3\\displaystyle\\int_{L_1}ds=3\\cdot\\frac{2\\pi R}{4}=\\frac{3\\pi R}{2}$。由对称性，形心坐标为",
+  "sort_order": 13
+}

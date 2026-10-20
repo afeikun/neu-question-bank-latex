@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(X=i)=c q^{i-1}p$，$i=1,\\ldots,n$，$q=1-p$，求$c$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/(1-q^n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(1-q^{n+1})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(1-q^{n-1})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1=cp\\sum_{i=1}^nq^{i-1}=c(1-q^n)$，故$c=1/(1-q^n)$。",
+  "search_text": "$P(X=i)=c q^{i-1}p$，$i=1,\\ldots,n$，$q=1-p$，求$c$。 $1/(1-q^n)$ $1$ $1/(1-q^{n+1})$ $1/(1-q^{n-1})$ $1=cp\\sum_{i=1}^nq^{i-1}=c(1-q^n)$，故$c=1/(1-q^n)$。",
+  "sort_order": 21
+}

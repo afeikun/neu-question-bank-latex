@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期 $2\\pi$ 函数 $f(x)=(\\pi+x)/2$（$0<x<2\\pi$）的傅里叶展开式？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2+\\sum_{n=1}^{\\infty}(\\sin nx/n+\\cos nx/n^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi-\\sum_{n=1}^{\\infty}\\sin nx/n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi+\\sum_{n=1}^{\\infty}(\\sin nx+\\cos nx)/n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi-\\sum_{n=1}^{\\infty}\\cos nx/n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "系数计算得 $a_0/2=\\pi$、$a_n=0$、$b_n=-1/n$。",
+  "search_text": "周期 $2\\pi$ 函数 $f(x)=(\\pi+x)/2$（$0<x<2\\pi$）的傅里叶展开式？ $1/2+\\sum_{n=1}^{\\infty}(\\sin nx/n+\\cos nx/n^2)$ $\\pi-\\sum_{n=1}^{\\infty}\\sin nx/n$ $\\pi+\\sum_{n=1}^{\\infty}(\\sin nx+\\cos nx)/n$ $\\pi-\\sum_{n=1}^{\\infty}\\cos nx/n$ 系数计算得 $a_0/2=\\pi$、$a_n=0$、$b_n=-1/n$。",
+  "sort_order": 9
+}

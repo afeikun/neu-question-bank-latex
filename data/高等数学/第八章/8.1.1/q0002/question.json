@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $I_1=\\iint_D\\ln(x+y)\\,d\\sigma,\\ I_2=\\iint_D(x+y)^2\\,d\\sigma,\\ I_3=\\iint_D(x+y)\\,d\\sigma$，其中 $D$ 是直线 $x=0,y=0,x+y=1$ 所围成的区域，则 $I_1,I_2,I_3$ 的大小顺序为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$I_3<I_1<I_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$I_1<I_2<I_3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$I_3<I_2<I_1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$I_1<I_3<I_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 由题意知 $0<x+y<1$，则有 $\\ln(x+y)<0;\\ 0<(x+y)^2<x+y$\n\n综上所得 $I_1<I_2<I_3$.",
+  "search_text": "设 $I_1=\\iint_D\\ln(x+y)\\,d\\sigma,\\ I_2=\\iint_D(x+y)^2\\,d\\sigma,\\ I_3=\\iint_D(x+y)\\,d\\sigma$，其中 $D$ 是直线 $x=0,y=0,x+y=1$ 所围成的区域，则 $I_1,I_2,I_3$ 的大小顺序为（ ） $I_3<I_1<I_2$ $I_1<I_2<I_3$ $I_3<I_2<I_1$ $I_1<I_3<I_2$ 解答 由题意知 $0<x+y<1$，则有 $\\ln(x+y)<0;\\ 0<(x+y)^2<x+y$\n\n综上所得 $I_1<I_2<I_3$.",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用微分代替增量得 $\\sqrt[6]{65}$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2.0013$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1.0052$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1.0052$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2.0052$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由 $\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$，得 $\\sqrt[6]{65}=2\\sqrt[6]{1+\\frac1{64}}\\approx2\\left(1+\\frac1{6\\cdot64}\\right)\\approx2.0052$。",
+  "search_text": "用微分代替增量得 $\\sqrt[6]{65}$ 的近似值为 $(\\quad)$。 $2.0013$ $1.0052$ $1.0052$ $2.0052$ 由 $\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$，得 $\\sqrt[6]{65}=2\\sqrt[6]{1+\\frac1{64}}\\approx2\\left(1+\\frac1{6\\cdot64}\\right)\\approx2.0052$。",
+  "sort_order": 32
+}

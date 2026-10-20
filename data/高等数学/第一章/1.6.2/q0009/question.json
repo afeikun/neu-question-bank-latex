@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}(\\frac{x-a}{x+a})^x=9$，则 $a=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\ln3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "-1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "极限为 $e^{-2a}=9$，解得 $a=-\\ln3$。",
+  "search_text": "$\\lim_{x\\to\\infty}(\\frac{x-a}{x+a})^x=9$，则 $a=[\\quad]$。 $-\\ln3$ 1 $\\ln3$ -1 极限为 $e^{-2a}=9$，解得 $a=-\\ln3$。",
+  "sort_order": 9
+}

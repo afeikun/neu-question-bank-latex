@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=C_0+\\dfrac{C_{-1}}z+\\dfrac{C_{-2}}{z^2}+\\cdots$，其中各 $C_n$ 为常数，则 $\\operatorname{Res}[f^2(z),0]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2C_0C_{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$C_0C_{-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2C_0C_{-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C_{-1}^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 Laurent 展开平方，$z^{-1}$ 项来自 $C_0(C_{-1}/z)$ 的两种乘积，系数为 $2C_0C_{-1}$。",
+  "search_text": "设 $f(z)=C_0+\\dfrac{C_{-1}}z+\\dfrac{C_{-2}}{z^2}+\\cdots$，其中各 $C_n$ 为常数，则 $\\operatorname{Res}[f^2(z),0]=(\\ \\ )$。 $2C_0C_{-1}$ $C_0C_{-1}$ $-2C_0C_{-1}$ $C_{-1}^2$ 对 Laurent 展开平方，$z^{-1}$ 项来自 $C_0(C_{-1}/z)$ 的两种乘积，系数为 $2C_0C_{-1}$。",
+  "sort_order": 100
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim N(0,1)$，$\\eta=a\\xi+b$服从正态分布，其参数是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$N(b,a^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$N(a,b)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$N(a,b^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$N(b,a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "线性变换保正态，均值$b$、方差$a^2$。",
+  "search_text": "$\\xi\\sim N(0,1)$，$\\eta=a\\xi+b$服从正态分布，其参数是？ $N(b,a^2)$ $N(a,b)$ $N(a,b^2)$ $N(b,a)$ 线性变换保正态，均值$b$、方差$a^2$。",
+  "sort_order": 31
+}

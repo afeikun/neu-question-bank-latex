@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求极限 $\\lim_{n\\to\\infty}\\left(\\frac1{1\\cdot3}+\\frac1{3\\cdot5}+\\frac1{5\\cdot7}+\\cdots+\\frac1{(2n-1)(2n+1)}\\right)$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "裂项后原式 $=\\lim_{n\\to\\infty}\\frac12(1-\\frac1{2n+1})=\\frac12$。",
+  "search_text": "求极限 $\\lim_{n\\to\\infty}\\left(\\frac1{1\\cdot3}+\\frac1{3\\cdot5}+\\frac1{5\\cdot7}+\\cdots+\\frac1{(2n-1)(2n+1)}\\right)$（ ）。 $-\\frac12$ $-1$ $1$ $\\frac12$ 裂项后原式 $=\\lim_{n\\to\\infty}\\frac12(1-\\frac1{2n+1})=\\frac12$。",
+  "sort_order": 14
+}

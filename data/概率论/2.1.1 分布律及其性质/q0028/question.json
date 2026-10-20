@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "均匀抛掷硬币直至首次正面，首次正面出现次数$\\xi$的分布律为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2^k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k/2^k$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2^{k-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(k-1)/2^{k-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "前$k-1$次反面且第$k$次正面，概率$(1/2)^k$。",
+  "search_text": "均匀抛掷硬币直至首次正面，首次正面出现次数$\\xi$的分布律为（ ）。 $1/2^k$ $k/2^k$ $1/2^{k-1}$ $(k-1)/2^{k-1}$ 前$k-1$次反面且第$k$次正面，概率$(1/2)^k$。",
+  "sort_order": 28
+}

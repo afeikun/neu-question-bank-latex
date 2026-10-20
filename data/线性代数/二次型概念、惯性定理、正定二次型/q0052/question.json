@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x,y,z)=x^2+100y^2-z^2+2xy-xz+yz$ 的正定性正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "半正定的"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "正定的"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "既不正定，也不负定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "负定的"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "其矩阵为 $A=\\begin{pmatrix}1&1&-\\frac12\\\\1&100&\\frac12\\\\-\\frac12&\\frac12&-1\\end{pmatrix}$。顺序主子式为 $1>0$、$\\begin{vmatrix}1&1\\\\1&100\\end{vmatrix}=99>0$，但 $|A|=-124\\frac34<0$，所以二次型既不正定，也不负定。",
+  "search_text": "二次型 $f(x,y,z)=x^2+100y^2-z^2+2xy-xz+yz$ 的正定性正确的是（ ）。 半正定的 正定的 既不正定，也不负定 负定的 其矩阵为 $A=\\begin{pmatrix}1&1&-\\frac12\\\\1&100&\\frac12\\\\-\\frac12&\\frac12&-1\\end{pmatrix}$。顺序主子式为 $1>0$、$\\begin{vmatrix}1&1\\\\1&100\\end{vmatrix}=99>0$，但 $|A|=-124\\frac34<0$，所以二次型既不正定，也不负定。",
+  "sort_order": 52
+}

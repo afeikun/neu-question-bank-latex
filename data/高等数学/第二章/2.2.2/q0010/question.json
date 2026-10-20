@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列各式错误的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$d[\\ln(x+\\sqrt{x^2+1})]=\\frac1{\\sqrt{x^2+1}}dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$d(e^{2x}/x^2)=\\frac{2e^{2x}(x-1)}{x^3}dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$d(\\sin x^2)=(2x\\sqrt{x}\\cos x^2)d(\\sqrt{x})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$d(\\frac1\\omega\\sin\\omega x+1)=\\cos\\omega x\\,dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "实际 $d(\\sin x^2)=4x\\sqrt{x}\\cos x^2\\,d(\\sqrt{x})$，给出的系数错误。",
+  "search_text": "下列各式错误的是（ ）。 $d[\\ln(x+\\sqrt{x^2+1})]=\\frac1{\\sqrt{x^2+1}}dx$ $d(e^{2x}/x^2)=\\frac{2e^{2x}(x-1)}{x^3}dx$ $d(\\sin x^2)=(2x\\sqrt{x}\\cos x^2)d(\\sqrt{x})$ $d(\\frac1\\omega\\sin\\omega x+1)=\\cos\\omega x\\,dx$ 实际 $d(\\sin x^2)=4x\\sqrt{x}\\cos x^2\\,d(\\sqrt{x})$，给出的系数错误。",
+  "sort_order": 10
+}

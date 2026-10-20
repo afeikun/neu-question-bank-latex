@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac{z^2+1}{(z+i)^3},-i\\right)=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=-i$ 为三级极点。化简 $z^2+1=(z-i)(z+i)$ 后，函数为 $(z-i)/(z+i)^2$，在 $z=-i$ 的留数为 $1$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac{z^2+1}{(z+i)^3},-i\\right)=(\\ \\ )$。 $1$ $0$ $-1$ $2$ $z=-i$ 为三级极点。化简 $z^2+1=(z-i)(z+i)$ 后，函数为 $(z-i)/(z+i)^2$，在 $z=-i$ 的留数为 $1$。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 元齐次线性方程组 $Ax=0$ 的解都是 $Bx=0$ 的解，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$R(A)=R(B)=n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$R(A)\\le R(B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$R(A)=R(B)<n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$R(A)\\ge R(B)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "若 $R(A)=r$、$R(B)=s$，则 $Ax=0$ 的基础解系含 $n-r$ 个向量，且其解都是 $Bx=0$ 的解，所以 $n-r\\le n-s$，即 $R(A)\\ge R(B)$。",
+  "search_text": "设 $n$ 元齐次线性方程组 $Ax=0$ 的解都是 $Bx=0$ 的解，则（ ）。 $R(A)=R(B)=n$ $R(A)\\le R(B)$ $R(A)=R(B)<n$ $R(A)\\ge R(B)$ 若 $R(A)=r$、$R(B)=s$，则 $Ax=0$ 的基础解系含 $n-r$ 个向量，且其解都是 $Bx=0$ 的解，所以 $n-r\\le n-s$，即 $R(A)\\ge R(B)$。",
+  "sort_order": 54
+}

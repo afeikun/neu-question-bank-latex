@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "与向量 $\\vec a=2\\vec i-\\vec j+2\\vec k$ 共线且满足 $\\vec a\\cdot\\vec x=-18$ 的向量 $\\vec x$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(4,2,-4)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-4,2,-4)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-4,2,4)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(4,2,4)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $\\vec x=t(2,-1,2)$，由 $\\vec a\\cdot\\vec x=9t=-18$ 得 $t=-2$，故 $\\vec x=(-4,2,-4)$。",
+  "search_text": "与向量 $\\vec a=2\\vec i-\\vec j+2\\vec k$ 共线且满足 $\\vec a\\cdot\\vec x=-18$ 的向量 $\\vec x$ 为(\\quad)。 $(4,2,-4)$ $(-4,2,-4)$ $(-4,2,4)$ $(4,2,4)$ 设 $\\vec x=t(2,-1,2)$，由 $\\vec a\\cdot\\vec x=9t=-18$ 得 $t=-2$，故 $\\vec x=(-4,2,-4)$。",
+  "sort_order": 18
+}

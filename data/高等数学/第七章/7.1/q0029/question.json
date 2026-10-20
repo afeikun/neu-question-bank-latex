@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列求函数极限中不正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{xy}{\\sqrt{x^2+y^2}}=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{\\substack{x\\to+\\infty\\\\y\\to+\\infty}}(x^2+y^2)e^{-(x+y)}=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{\\sqrt{x^2+y^2}-\\sin\\sqrt{x^2+y^2}}{\\sqrt{(x^2+y^2)^3}}=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{\\substack{x\\to1\\\\y\\to0}}\\frac{\\ln(x+e^y)}{\\sqrt{x^2+y^2}}=\\ln2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "(1) $\\lim_{\\substack{x\\to1\\\\y\\to0}}\\dfrac{\\ln(x+e^y)}{\\sqrt{x^2+y^2}}=\\dfrac{\\ln(1+e^0)}{\\sqrt{1+0}}=\\ln2$；\n\n(2) $\\lim_{\\substack{x\\to+\\infty\\\\y\\to+\\infty}}(x^2+y^2)e^{-(x+y)}\n=\\lim_{\\substack{x\\to+\\infty\\\\y\\to+\\infty}}[(x+y)^2-2xy]e^{-(x+y)}\n=\\lim_{\\substack{x\\to+\\infty\\\\y\\to+\\infty}}\\left[\\dfrac{(x+y)^2}{e^{x+y}}-2\\dfrac{x}{e^x}\\dfrac{y}{e^y}\\right]=0$；\n\n(3) 设 $x=\\rho\\cos\\theta,y=\\rho\\sin\\theta,(x,y)\\to(0,0)\\Leftrightarrow\\rho\\to0$，所以，\n\\[\n\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{xy}{\\sqrt{x^2+y^2}}\n=\\lim_{\\rho\\to0}\\frac{\\rho^2\\cos\\theta\\sin\\theta}{\\rho}=0.\n\\]\n\n(4) 令 $t=\\sqrt{x^2+y^2}$，\n\\[\n\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{\\sqrt{x^2+y^2}-\\sin\\sqrt{x^2+y^2}}{\\sqrt{(x^2+y^2)^3}}\n=\\lim_{t\\to0}\\frac{t-\\sin t}{t^3}\n=\\lim_{t\\to0}\\frac{1-\\cos t}{3t^2}\n=\\frac16.\n\\]",
+  "search_text": "下列求函数极限中不正确的是(\\quad)。 $\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{xy}{\\sqrt{x^2+y^2}}=0$ $\\lim_{\\substack{x\\to+\\infty\\\\y\\to+\\infty}}(x^2+y^2)e^{-(x+y)}=0$ $\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{\\sqrt{x^2+y^2}-\\sin\\sqrt{x^2+y^2}}{\\sqrt{(x^2+y^2)^3}}=1$ $\\lim_{\\substack{x\\to1\\\\y\\to0}}\\frac{\\ln(x+e^y)}{\\sqrt{x^2+y^2}}=\\ln2$ (1) $\\lim_{\\substack{x\\to1\\\\y\\to0}}\\dfrac{\\ln(x+e^y)}{\\sqrt{x^2+y^2}}=\\dfrac{\\ln(1+e^0)}{\\sqrt{1+0}}=\\ln2$；\n\n(2) $\\lim_{\\substack{x\\to+\\infty\\\\y\\to+\\infty}}(x^2+y^2)e^{-(x+y)}\n=\\lim_{\\substack{x\\to+\\infty\\\\y\\to+\\infty}}[(x+y)^2-2xy]e^{-(x+y)}\n=\\lim_{\\substack{x\\to+\\infty\\\\y\\to+\\infty}}\\left[\\dfrac{(x+y)^2}{e^{x+y}}-2\\dfrac{x}{e^x}\\dfrac{y}{e^y}\\right]=0$；\n\n(3) 设 $x=\\rho\\cos\\theta,y=\\rho\\sin\\theta,(x,y)\\to(0,0)\\Leftrightarrow\\rho\\to0$，所以，\n\\[\n\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{xy}{\\sqrt{x^2+y^2}}\n=\\lim_{\\rho\\to0}\\frac{\\rho^2\\cos\\theta\\sin\\theta}{\\rho}=0.\n\\]\n\n(4) 令 $t=\\sqrt{x^2+y^2}$，\n\\[\n\\lim_{\\substack{x\\to0\\\\y\\to0}}\\frac{\\sqrt{x^2+y^2}-\\sin\\sqrt{x^2+y^2}}{\\sqrt{(x^2+y^2)^3}}\n=\\lim_{t\\to0}\\frac{t-\\sin t}{t^3}\n=\\lim_{t\\to0}\\frac{1-\\cos t}{3t^2}\n=\\frac16.\n\\]",
+  "sort_order": 29
+}

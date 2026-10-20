@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\frac{4x^2-3}{x-1}+ax+b$，若 $\\lim_{x\\to\\infty}f(x)=0$，则 $a,b$ 的值用数组 $(a,b)$ 可表示为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-4,4)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(4,-4)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(4,4)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-4,-4)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "合并为 $\\frac{(4+a)x^2+(b-a)x-3-b}{x-1}$。极限为 0 要求 $4+a=0$、$b-a=0$，故 $a=b=-4$。",
+  "search_text": "设 $f(x)=\\frac{4x^2-3}{x-1}+ax+b$，若 $\\lim_{x\\to\\infty}f(x)=0$，则 $a,b$ 的值用数组 $(a,b)$ 可表示为（ ）。 $(-4,4)$ $(4,-4)$ $(4,4)$ $(-4,-4)$ 合并为 $\\frac{(4+a)x^2+(b-a)x-3-b}{x-1}$。极限为 0 要求 $4+a=0$、$b-a=0$，故 $a=b=-4$。",
+  "sort_order": 5
+}

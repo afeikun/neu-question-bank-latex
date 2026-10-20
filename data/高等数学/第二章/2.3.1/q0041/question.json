@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "参数方程 $x=\\int_1^t u\\ln u\\,du,y=\\int_t^1u^2\\ln u\\,du$ 确定的函数 $y=y(x)$ 的二阶导数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1/(t\\ln t)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(t\\ln t)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$dy/dx=-t$，故 $d^2y/dx^2=-1/(t\\ln t)$。",
+  "search_text": "参数方程 $x=\\int_1^t u\\ln u\\,du,y=\\int_t^1u^2\\ln u\\,du$ 确定的函数 $y=y(x)$ 的二阶导数为（ ）。 $1$ $-1$ $-1/(t\\ln t)$ $1/(t\\ln t)$ $dy/dx=-t$，故 $d^2y/dx^2=-1/(t\\ln t)$。",
+  "sort_order": 41
+}

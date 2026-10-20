@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $\\operatorname{Re}z=0$，$z\\ne0$ 在映射 $w=1+1/z$ 下的像为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "直线 $\\operatorname{Re}w=1$，$w\\ne1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "直线 $\\operatorname{Im}w=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "直线 $\\operatorname{Im}w=-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "直线 $\\operatorname{Re}w=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=iy$，则 $w=1-i/y$，所以 $\\operatorname{Re}w=1$ 且 $w\\ne1$。",
+  "search_text": "直线 $\\operatorname{Re}z=0$，$z\\ne0$ 在映射 $w=1+1/z$ 下的像为（ ）。 直线 $\\operatorname{Re}w=1$，$w\\ne1$ 直线 $\\operatorname{Im}w=1$ 直线 $\\operatorname{Im}w=-1$ 直线 $\\operatorname{Re}w=1$ 令 $z=iy$，则 $w=1-i/y$，所以 $\\operatorname{Re}w=1$ 且 $w\\ne1$。",
+  "sort_order": 49
+}

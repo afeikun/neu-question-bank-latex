@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=u(x,y)$ 由 $\\frac xu=\\ln(yu)$ 确定，求 $(u_x,u_y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac1{1+\\ln(yu)},\\frac{u}{y[1+\\ln(yu)]})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac1{1+\\ln(yu)},-\\frac{u}{y[1+\\ln(yu)]})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac1{\\ln(yu)},-\\frac{u}{y[1+\\ln(yu)]})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac1{1+\\ln(yu)},-\\frac{u}{y\\ln(yu)})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\nx=u\\ln y+u\\ln u\n$$\n\n方程两边同时对 $x$ 求偏导得：\n\n$$\n1=\\frac{\\partial u}{\\partial x}\\ln y+\\frac{\\partial u}{\\partial x}\\ln u+\\frac{\\partial u}{\\partial x}\n$$\n\n可得：\n\n$$\n\\frac{\\partial u}{\\partial x}=\\frac{1}{1+\\ln(yu)}\n$$\n\n同理可得：\n\n$$\n0=\\frac{u}{y}+\\frac{\\partial u}{\\partial y}\\ln y+\\frac{\\partial u}{\\partial y}\\ln u+\\frac{\\partial u}{\\partial y}\n$$\n\n可得：\n\n$$\n\\frac{\\partial u}{\\partial y}=-\\frac{u}{y[1+\\ln(yu)]}\n$$",
+  "search_text": "设 $u=u(x,y)$ 由 $\\frac xu=\\ln(yu)$ 确定，求 $(u_x,u_y)$。 $(\\frac1{1+\\ln(yu)},\\frac{u}{y[1+\\ln(yu)]})$ $(\\frac1{1+\\ln(yu)},-\\frac{u}{y[1+\\ln(yu)]})$ $(\\frac1{\\ln(yu)},-\\frac{u}{y[1+\\ln(yu)]})$ $(\\frac1{1+\\ln(yu)},-\\frac{u}{y\\ln(yu)})$ $$\nx=u\\ln y+u\\ln u\n$$\n\n方程两边同时对 $x$ 求偏导得：\n\n$$\n1=\\frac{\\partial u}{\\partial x}\\ln y+\\frac{\\partial u}{\\partial x}\\ln u+\\frac{\\partial u}{\\partial x}\n$$\n\n可得：\n\n$$\n\\frac{\\partial u}{\\partial x}=\\frac{1}{1+\\ln(yu)}\n$$\n\n同理可得：\n\n$$\n0=\\frac{u}{y}+\\frac{\\partial u}{\\partial y}\\ln y+\\frac{\\partial u}{\\partial y}\\ln u+\\frac{\\partial u}{\\partial y}\n$$\n\n可得：\n\n$$\n\\frac{\\partial u}{\\partial y}=-\\frac{u}{y[1+\\ln(yu)]}\n$$",
+  "sort_order": 38
+}

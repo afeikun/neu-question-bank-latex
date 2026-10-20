@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下面（ ）为 $\\mathbb{R}^3$ 中的一组规范正交基。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\left(\\begin{pmatrix}1/\\sqrt3\\\\1/\\sqrt3\\\\1/\\sqrt3\\end{pmatrix},\\begin{pmatrix}1/\\sqrt6\\\\-2/\\sqrt6\\\\1/\\sqrt6\\end{pmatrix},\\begin{pmatrix}-1/\\sqrt2\\\\0\\\\1/\\sqrt2\\end{pmatrix}\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\left(\\begin{pmatrix}0\\\\-2\\\\2\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一组向量两两正交，且每个向量都是单位向量，因此它们构成 $\\mathbb{R}^3$ 的一组规范正交基。",
+  "search_text": "下面（ ）为 $\\mathbb{R}^3$ 中的一组规范正交基。 $\\left(\\begin{pmatrix}1/\\sqrt3\\\\1/\\sqrt3\\\\1/\\sqrt3\\end{pmatrix},\\begin{pmatrix}1/\\sqrt6\\\\-2/\\sqrt6\\\\1/\\sqrt6\\end{pmatrix},\\begin{pmatrix}-1/\\sqrt2\\\\0\\\\1/\\sqrt2\\end{pmatrix}\\right)$ $\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}\\right)$ $\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}\\right)$ $\\left(\\begin{pmatrix}0\\\\-2\\\\2\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}\\right)$ 第一组向量两两正交，且每个向量都是单位向量，因此它们构成 $\\mathbb{R}^3$ 的一组规范正交基。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "连接 $A(0,1)$ 与 $B(1,0)$ 的凹弧为 $y=y(x)$，弧与弦 $PB$ 间面积为 $x^3$，求微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6x^2=3y+xy^\\prime$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6x^2=3y-(1-x)y^\\prime$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6x^2-xy^\\prime=3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3x^2=y-(1-x)y^\\prime$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：过$P$点作$x$轴的垂线，再是$C(x,0)$。依题意得$x^3=\\int_0^y y(s)\\,ds-\\frac{1}{2}(1-x)y$，两边对$x$求导得\n\n$$6x^2=3y-(1-x)y'.$$",
+  "search_text": "连接 $A(0,1)$ 与 $B(1,0)$ 的凹弧为 $y=y(x)$，弧与弦 $PB$ 间面积为 $x^3$，求微分方程。 $6x^2=3y+xy^\\prime$ $6x^2=3y-(1-x)y^\\prime$ $6x^2-xy^\\prime=3$ $3x^2=y-(1-x)y^\\prime$ 解析：过$P$点作$x$轴的垂线，再是$C(x,0)$。依题意得$x^3=\\int_0^y y(s)\\,ds-\\frac{1}{2}(1-x)y$，两边对$x$求导得\n\n$$6x^2=3y-(1-x)y'.$$",
+  "sort_order": 32
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "α(x)=∫₀ˣ²sin(t²)dt，β(x)=x⁶，比较无穷小阶",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "高阶无穷小"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "低阶无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "等价无穷小"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "同阶但不等价"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "比值趋于1/3，故同阶但不等价。",
+  "search_text": "α(x)=∫₀ˣ²sin(t²)dt，β(x)=x⁶，比较无穷小阶 高阶无穷小 低阶无穷小 等价无穷小 同阶但不等价 比值趋于1/3，故同阶但不等价。",
+  "sort_order": 25
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $z=1-\\sqrt{x^2+y^2}$，判断 $(0,0)$ 处的极值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "极大值点且是最大值点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "极大值点但非最大值点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极小值点但非最小值点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "极小值点且是最小值点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z_x(0,0)=-\\dfrac{2x}{2\\sqrt{x^2+y^2}}$ 不存在，$z_y(0,0)=-\\dfrac{2y}{2\\sqrt{x^2+y^2}}$ 不存在，由原式 $z=1-\\sqrt{x^2+y^2}$ 可直接看出，点 $(0,0)$ 是函数 $z$ 的极大值点且是最大值点。",
+  "search_text": "设函数 $z=1-\\sqrt{x^2+y^2}$，判断 $(0,0)$ 处的极值。 极大值点且是最大值点 极大值点但非最大值点 极小值点但非最小值点 极小值点且是最小值点 $z_x(0,0)=-\\dfrac{2x}{2\\sqrt{x^2+y^2}}$ 不存在，$z_y(0,0)=-\\dfrac{2y}{2\\sqrt{x^2+y^2}}$ 不存在，由原式 $z=1-\\sqrt{x^2+y^2}$ 可直接看出，点 $(0,0)$ 是函数 $z$ 的极大值点且是最大值点。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程组 $\\begin{cases}x^2+y^2=4\\\\x+y=1\\end{cases}$ 在空间中表示(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "椭圆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "两点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "两条直线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：由方程组解得\n$$\n\\begin{cases}\nx=\\frac{1-\\sqrt{7}}{2}\\\\\ny=\\frac{1+\\sqrt{7}}{2}\n\\end{cases}\n$$\n及\n$$\n\\begin{cases}\nx=\\frac{1+\\sqrt{7}}{2}\\\\\ny=\\frac{1-\\sqrt{7}}{2}\n\\end{cases}\n$$\n，在空间中表示过点 $\\left(\\frac{1-\\sqrt{7}}{2},\\frac{1+\\sqrt{7}}{2},0\\right)$ 及\n$$\n\\left(\\frac{1+\\sqrt{7}}{2},\\frac{1-\\sqrt{7}}{2},0\\right),\n$$\n且平行于 $z$ 轴的直线。",
+  "search_text": "方程组 $\\begin{cases}x^2+y^2=4\\\\x+y=1\\end{cases}$ 在空间中表示(\\quad)。 椭圆 两点 圆 两条直线 解答：由方程组解得\n$$\n\\begin{cases}\nx=\\frac{1-\\sqrt{7}}{2}\\\\\ny=\\frac{1+\\sqrt{7}}{2}\n\\end{cases}\n$$\n及\n$$\n\\begin{cases}\nx=\\frac{1+\\sqrt{7}}{2}\\\\\ny=\\frac{1-\\sqrt{7}}{2}\n\\end{cases}\n$$\n，在空间中表示过点 $\\left(\\frac{1-\\sqrt{7}}{2},\\frac{1+\\sqrt{7}}{2},0\\right)$ 及\n$$\n\\left(\\frac{1+\\sqrt{7}}{2},\\frac{1-\\sqrt{7}}{2},0\\right),\n$$\n且平行于 $z$ 轴的直线。",
+  "sort_order": 12
+}

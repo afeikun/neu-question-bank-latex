@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质量为 $m$ 的质点在空气中自由下落，阻力与速度成正比，比例系数为 $K$，初始静止，求位移 $x(t)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=\\frac{mg}{K}t+\\frac{m^2g}{K^2}(e^{-Kt/m}-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=\\frac{mg}{K}t-\\frac{m^2g}{K^2}(e^{-Kt/m}-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=\\frac{mg}{K}(1-e^{-Kt/m})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=\\frac12gt^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：取物体下落的那条直线为 $OX$ 轴，且设当 $t=0$ 时 $x=0$，此时 $v=0$。根据牛二定律，得\n\n$$m\\frac{dv}{dt}=mg-Kv。$$\n\n分离变量得 $\\frac{m\\,dv}{mg-Kv}=dt$，解得 $v=\\frac{mg}{K}(1-e^{-\\frac{K}{m}t})=\\frac{dx}{dt}$，于是积分可得\n\n$$x=\\frac{mg}{K}t+\\frac{m^2g}{K^2}(e^{-\\frac{K}{m}t}-1)。$$",
+  "search_text": "质量为 $m$ 的质点在空气中自由下落，阻力与速度成正比，比例系数为 $K$，初始静止，求位移 $x(t)$。 $x=\\frac{mg}{K}t+\\frac{m^2g}{K^2}(e^{-Kt/m}-1)$ $x=\\frac{mg}{K}t-\\frac{m^2g}{K^2}(e^{-Kt/m}-1)$ $x=\\frac{mg}{K}(1-e^{-Kt/m})$ $x=\\frac12gt^2$ 解析：取物体下落的那条直线为 $OX$ 轴，且设当 $t=0$ 时 $x=0$，此时 $v=0$。根据牛二定律，得\n\n$$m\\frac{dv}{dt}=mg-Kv。$$\n\n分离变量得 $\\frac{m\\,dv}{mg-Kv}=dt$，解得 $v=\\frac{mg}{K}(1-e^{-\\frac{K}{m}t})=\\frac{dx}{dt}$，于是积分可得\n\n$$x=\\frac{mg}{K}t+\\frac{m^2g}{K^2}(e^{-\\frac{K}{m}t}-1)。$$",
+  "sort_order": 7
+}

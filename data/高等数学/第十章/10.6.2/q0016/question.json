@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime+25y=0$ 在 $y|_{x=0}=2,y\\prime|_{x=0}=5$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\cos5x+2\\sin5x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\cos5x+\\sin5x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=2\\cos5x+2\\sin5x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=2\\cos5x+\\sin5x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2+25=0$，特征根为 $\\lambda_{1,2}=\\pm5i$\n\n因此对应齐次方程的通解为 $y=C_1\\cos5x+C_2\\sin5x$\n\n将 $y|_{x=0}=1,y'|_{x=0}=-1$ 代入通解得 $C_1=2\\ C_2=1$，\n\n故所求特解为 $y=2\\cos5x+\\sin5x$\n\n因此选 B。",
+  "search_text": "微分方程 $y\\prime\\prime+25y=0$ 在 $y|_{x=0}=2,y\\prime|_{x=0}=5$ 下的特解为（ ） $y=\\cos5x+2\\sin5x$ $y=\\cos5x+\\sin5x$ $y=2\\cos5x+2\\sin5x$ $y=2\\cos5x+\\sin5x$ 解答 齐次方程的特征方程为 $\\lambda^2+25=0$，特征根为 $\\lambda_{1,2}=\\pm5i$\n\n因此对应齐次方程的通解为 $y=C_1\\cos5x+C_2\\sin5x$\n\n将 $y|_{x=0}=1,y'|_{x=0}=-1$ 代入通解得 $C_1=2\\ C_2=1$，\n\n故所求特解为 $y=2\\cos5x+\\sin5x$\n\n因此选 B。",
+  "sort_order": 16
+}

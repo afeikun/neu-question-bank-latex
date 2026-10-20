@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "打靶3发，A_i表示“击中i发”，i=0,1,2,3，那么A=A_0+A_1表示（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "至多击中一发"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "至少击中一发"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "恰好击中一发"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "必有一发击中"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "A0或A1表示0发或1发，即至多一发。",
+  "search_text": "打靶3发，A_i表示“击中i发”，i=0,1,2,3，那么A=A_0+A_1表示（）。 至多击中一发 至少击中一发 恰好击中一发 必有一发击中 A0或A1表示0发或1发，即至多一发。",
+  "sort_order": 10
+}

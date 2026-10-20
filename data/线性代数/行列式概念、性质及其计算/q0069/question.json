@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二阶行列式 $\\begin{vmatrix}3&-1\\\\5&2\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$11$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "根据对角线法则，$D=3\\cdot2-(-1)\\cdot5=6+5=11$。",
+  "search_text": "二阶行列式 $\\begin{vmatrix}3&-1\\\\5&2\\end{vmatrix}$ 等于（ ）。 $-1$ $11$ $1$ $0$ 根据对角线法则，$D=3\\cdot2-(-1)\\cdot5=6+5=11$。",
+  "sort_order": 69
+}

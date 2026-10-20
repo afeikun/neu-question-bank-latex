@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设一均匀直角三角形薄板，两直角边为 $a,b$，对其中直角边 $a$ 的转动惯量（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13a^2b\\rho$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac19ab^3\\rho^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac16a^2b^2\\rho^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{12}ab^3\\rho$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设三角形的两直角边 $a,b$ 分别在 $x$ 轴和 $y$ 轴上，对 $x$ 轴的转动惯量，\n\n$$\nI_x=\\rho\\iint_Dy^2\\,dxdy=\\rho\\int_0^a dx\\int_0^{b(1-\\frac xa)}y^2\\,dy=\\frac1{12}ab^3\\rho\n$$\n\n示意图：坐标轴为 $x$、$y$，原点标为 $O$；直角三角形区域 $D$ 的底边沿 $x$ 轴，高边沿 $y$ 轴，斜边由 $y$ 轴截距 $b$ 连至 $x$ 轴截距 $a$。",
+  "search_text": "设一均匀直角三角形薄板，两直角边为 $a,b$，对其中直角边 $a$ 的转动惯量（ ） $\\frac13a^2b\\rho$ $\\frac19ab^3\\rho^2$ $\\frac16a^2b^2\\rho^2$ $\\frac1{12}ab^3\\rho$ 设三角形的两直角边 $a,b$ 分别在 $x$ 轴和 $y$ 轴上，对 $x$ 轴的转动惯量，\n\n$$\nI_x=\\rho\\iint_Dy^2\\,dxdy=\\rho\\int_0^a dx\\int_0^{b(1-\\frac xa)}y^2\\,dy=\\frac1{12}ab^3\\rho\n$$\n\n示意图：坐标轴为 $x$、$y$，原点标为 $O$；直角三角形区域 $D$ 的底边沿 $x$ 轴，高边沿 $y$ 轴，斜边由 $y$ 轴截距 $b$ 连至 $x$ 轴截距 $a$。",
+  "sort_order": 69
+}

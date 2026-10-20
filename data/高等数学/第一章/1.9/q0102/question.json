@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\operatorname{sgn}x,g(x)=x(1-x^2)$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f[g(x)]$ 连续"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$g[f(x)]$ 连续"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=0$ 是 $f[g(x)]$ 的可去间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=0$ 是 $g[f(x)]$ 的跳跃间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$g[f(x)]=0$，故连续；$f[g(x)]$ 在 $x=0$ 处跳跃。",
+  "search_text": "设 $f(x)=\\operatorname{sgn}x,g(x)=x(1-x^2)$，则（ ）。 $f[g(x)]$ 连续 $g[f(x)]$ 连续 $x=0$ 是 $f[g(x)]$ 的可去间断点 $x=0$ 是 $g[f(x)]$ 的跳跃间断点 $g[f(x)]=0$，故连续；$f[g(x)]$ 在 $x=0$ 处跳跃。",
+  "sort_order": 102
+}

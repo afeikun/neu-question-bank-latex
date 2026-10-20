@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $y\\prime\\prime+3y\\prime+2y=3xe^{-x}$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{-x}+C_2e^{-2x}+e^{-x}(\\frac32x^2-2x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^{-x}+C_2e^{-2x}+e^{-x}(\\frac32x^2-3x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{-x}+C_2e^{-2x}+e^{-x}(\\frac34x^2-3x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{-x}+C_2e^{-3x}+e^{-x}(\\frac32x^2-3x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：\n\n由 $r^2+3r+2=0$，解得 $r_1=-1,r_2=-2$，故对应的齐次方程的通解为 $Y=C_1e^{-x}+C_2e^{-2x}$ 因\n\n$f(x)=3xe^{-x},\\lambda=-1$ 是特征方程的单根，故可设 $y^*=xe^{-x}(ax+b)=e^{-x}(ax^2+bx)$ 是原方程的一个特解，代入方程并消去 $e^{-x}$，得 $2ax+(2a+b)=3x$，比较系数，$a=3/2,b=-3$，即 $y^*=e^{-x}(\\frac{3}{2}x^2-3x)$\n\n故原方程的通解为 $y=Y+y^*=C_1e^{-x}+C_2e^{-2x}+e^{-x}(\\frac{3}{2}x^2-3x)$",
+  "search_text": "解方程 $y\\prime\\prime+3y\\prime+2y=3xe^{-x}$（ ） $y=C_1e^{-x}+C_2e^{-2x}+e^{-x}(\\frac32x^2-2x)$ $y=C_1e^{-x}+C_2e^{-2x}+e^{-x}(\\frac32x^2-3x)$ $y=C_1e^{-x}+C_2e^{-2x}+e^{-x}(\\frac34x^2-3x)$ $y=C_1e^{-x}+C_2e^{-3x}+e^{-x}(\\frac32x^2-3x)$ 解析：\n\n由 $r^2+3r+2=0$，解得 $r_1=-1,r_2=-2$，故对应的齐次方程的通解为 $Y=C_1e^{-x}+C_2e^{-2x}$ 因\n\n$f(x)=3xe^{-x},\\lambda=-1$ 是特征方程的单根，故可设 $y^*=xe^{-x}(ax+b)=e^{-x}(ax^2+bx)$ 是原方程的一个特解，代入方程并消去 $e^{-x}$，得 $2ax+(2a+b)=3x$，比较系数，$a=3/2,b=-3$，即 $y^*=e^{-x}(\\frac{3}{2}x^2-3x)$\n\n故原方程的通解为 $y=Y+y^*=C_1e^{-x}+C_2e^{-2x}+e^{-x}(\\frac{3}{2}x^2-3x)$",
+  "sort_order": 31
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(A)=p$，独立重复$n$次，$\\xi$为$A$发生次数，求$P(\\xi\\ge1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-(1-p)^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-p^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-p$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$p$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "补事件是$A$一次也未发生，概率$(1-p)^n$，所求$1-(1-p)^n$。",
+  "search_text": "$P(A)=p$，独立重复$n$次，$\\xi$为$A$发生次数，求$P(\\xi\\ge1)$。 $1-(1-p)^n$ $1-p^n$ $1-p$ $p$ 补事件是$A$一次也未发生，概率$(1-p)^n$，所求$1-(1-p)^n$。",
+  "sort_order": 17
+}

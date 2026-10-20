@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $4\\times4$ 阶矩阵 $A=(\\alpha,\\gamma_2,\\gamma_3,\\gamma_4)$，$B=(\\beta,\\gamma_2,\\gamma_3,\\gamma_4)$，其中 $\\alpha,\\beta,\\gamma_2,\\gamma_3,\\gamma_4$ 均为 $4\\times1$ 阶子矩阵，且 $|A|=4$，$|B|=1$，则 $|A+B|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$40$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$33$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|A+B|=|\\alpha+\\beta,2\\gamma_2,2\\gamma_3,2\\gamma_4|=|\\alpha,2\\gamma_2,2\\gamma_3,2\\gamma_4|+|\\beta,2\\gamma_2,2\\gamma_3,2\\gamma_4|=8|A|+8|B|=40$。",
+  "search_text": "设 $4\\times4$ 阶矩阵 $A=(\\alpha,\\gamma_2,\\gamma_3,\\gamma_4)$，$B=(\\beta,\\gamma_2,\\gamma_3,\\gamma_4)$，其中 $\\alpha,\\beta,\\gamma_2,\\gamma_3,\\gamma_4$ 均为 $4\\times1$ 阶子矩阵，且 $|A|=4$，$|B|=1$，则 $|A+B|=$（ ）。 $40$ $12$ $33$ $5$ $|A+B|=|\\alpha+\\beta,2\\gamma_2,2\\gamma_3,2\\gamma_4|=|\\alpha,2\\gamma_2,2\\gamma_3,2\\gamma_4|+|\\beta,2\\gamma_2,2\\gamma_3,2\\gamma_4|=8|A|+8|B|=40$。",
+  "sort_order": 61
+}

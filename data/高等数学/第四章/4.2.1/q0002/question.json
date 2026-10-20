@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}\\frac1{n^2}(\\sqrt[3]{n^2}+\\sqrt[3]{2n^2}+\\cdots+\\sqrt[3]{n^3})$ 可以表示为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1\\sqrt{x}\\,dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1\\sqrt[3]{x^2}\\,dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1\\sqrt[3]{x}\\,dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_1^2\\sqrt[3]{x^3}\\,dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "将其化为黎曼和，极限为 $\\int_0^1\\sqrt[3]{x}\\,dx$。",
+  "search_text": "$\\lim_{n\\to\\infty}\\frac1{n^2}(\\sqrt[3]{n^2}+\\sqrt[3]{2n^2}+\\cdots+\\sqrt[3]{n^3})$ 可以表示为 $\\int_0^1\\sqrt{x}\\,dx$ $\\int_0^1\\sqrt[3]{x^2}\\,dx$ $\\int_0^1\\sqrt[3]{x}\\,dx$ $\\int_1^2\\sqrt[3]{x^3}\\,dx$ 将其化为黎曼和，极限为 $\\int_0^1\\sqrt[3]{x}\\,dx$。",
+  "sort_order": 2
+}

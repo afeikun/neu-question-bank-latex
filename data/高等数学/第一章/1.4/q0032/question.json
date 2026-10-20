@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\theta$ 是锐角，求 $\\lim_{n\\to\\infty}\\frac{\\cos^n\\theta-\\sin^n\\theta}{\\cos^n\\theta+\\sin^n\\theta}$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "以上都有可能"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$0<\\theta<\\pi/4$ 时极限为 1；$\\theta=\\pi/4$ 时为 0；$\\pi/4<\\theta<\\pi/2$ 时为 -1。",
+  "search_text": "若 $\\theta$ 是锐角，求 $\\lim_{n\\to\\infty}\\frac{\\cos^n\\theta-\\sin^n\\theta}{\\cos^n\\theta+\\sin^n\\theta}$（ ）。 0 1 -1 以上都有可能 $0<\\theta<\\pi/4$ 时极限为 1；$\\theta=\\pi/4$ 时为 0；$\\pi/4<\\theta<\\pi/2$ 时为 -1。",
+  "sort_order": 32
+}

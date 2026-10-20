@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime+16y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1\\cos4x+C_2\\sin4x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C\\cos4x+2\\sin4x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1\\cos2x+C_2\\sin2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C(\\cos4x+\\sin4x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 微分方程 $\\lambda^2+16=0$，特征根为 $\\lambda_1=4i,\\lambda_2=-4i$，\n\n故方程的通解为 $y=C_1\\cos4x+C_2\\sin4x$。\n\n因此选 D。",
+  "search_text": "微分方程 $y\\prime\\prime+16y=0$ 的通解为（ ） $y=C_1\\cos4x+C_2\\sin4x$ $y=C\\cos4x+2\\sin4x$ $y=C_1\\cos2x+C_2\\sin2x$ $y=C(\\cos4x+\\sin4x)$ 解答 微分方程 $\\lambda^2+16=0$，特征根为 $\\lambda_1=4i,\\lambda_2=-4i$，\n\n故方程的通解为 $y=C_1\\cos4x+C_2\\sin4x$。\n\n因此选 D。",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线y=eˣ、y=e⁻ˣ及x=e围成图形面积的积分表达式",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀ᵉ(e⁻ˣ−eˣ)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫_{e⁻¹}ᵉ(ln y−ln(1/y))dy"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫_{e⁻¹}ᵉ(eˣ−e⁻ˣ)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀ᵉ(eˣ−e⁻ˣ)dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "面积表达式为∫₀ᵉ(eˣ−e⁻ˣ)dx。",
+  "search_text": "曲线y=eˣ、y=e⁻ˣ及x=e围成图形面积的积分表达式 ∫₀ᵉ(e⁻ˣ−eˣ)dx ∫_{e⁻¹}ᵉ(ln y−ln(1/y))dy ∫_{e⁻¹}ᵉ(eˣ−e⁻ˣ)dx ∫₀ᵉ(eˣ−e⁻ˣ)dx 面积表达式为∫₀ᵉ(eˣ−e⁻ˣ)dx。",
+  "sort_order": 25
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于 $\\sum_{n=1}^{\\infty} 2^{-n}(nx/(1+n))^n$（$x>0$），说法正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x>2$ 时收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x>0$ 时收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0<x\\le2$ 时收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0<x<2$ 时收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "根值趋 $x/2$，$0<x<2$ 收敛，$x\\ge2$ 发散。",
+  "search_text": "关于 $\\sum_{n=1}^{\\infty} 2^{-n}(nx/(1+n))^n$（$x>0$），说法正确的是？ $x>2$ 时收敛 $x>0$ 时收敛 $0<x\\le2$ 时收敛 $0<x<2$ 时收敛 根值趋 $x/2$，$0<x<2$ 收敛，$x\\ge2$ 发散。",
+  "sort_order": 24
+}

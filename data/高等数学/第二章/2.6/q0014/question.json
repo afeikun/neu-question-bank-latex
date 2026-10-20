@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=e^{2t},y=\\sin t$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{e^{2t}\\cos t}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{e^{-2t}\\sin t}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{e^{-2t}\\cos t}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{e^{-2t}\\cos t}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=2e^{2t},\\quad \\frac{dy}{dt}=\\cos t,$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{e^{-2t}\\cos t}{2}.$",
+  "search_text": "$x=e^{2t},y=\\sin t$，求 $\\frac{dy}{dx}$。 $\\frac{e^{2t}\\cos t}{2}$ $\\frac{e^{-2t}\\sin t}{2}$ $\\frac{e^{-2t}\\cos t}{2}$ $-\\frac{e^{-2t}\\cos t}{2}$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=2e^{2t},\\quad \\frac{dy}{dt}=\\cos t,$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{e^{-2t}\\cos t}{2}.$",
+  "sort_order": 14
+}

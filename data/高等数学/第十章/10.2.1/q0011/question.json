@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\sqrt{1-x^2}\\,dy+\\sqrt{1-y^2}\\,dx=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin x+\\sin y=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arcsin x\\cdot\\arcsin y=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\arcsin x+\\arcsin y=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\arctan x+\\operatorname{arccot}y=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $\\frac{dx}{\\sqrt{1-x^2}}+\\frac{dy}{\\sqrt{1-y^2}}=0$\n\n两边积分 $\\arcsin x+\\arcsin y=C$",
+  "search_text": "微分方程 $\\sqrt{1-x^2}\\,dy+\\sqrt{1-y^2}\\,dx=0$ 的通解为（ ） $\\sin x+\\sin y=C$ $\\arcsin x\\cdot\\arcsin y=C$ $\\arcsin x+\\arcsin y=C$ $\\arctan x+\\operatorname{arccot}y=C$ 由 $\\frac{dx}{\\sqrt{1-x^2}}+\\frac{dy}{\\sqrt{1-y^2}}=0$\n\n两边积分 $\\arcsin x+\\arcsin y=C$",
+  "sort_order": 11
+}

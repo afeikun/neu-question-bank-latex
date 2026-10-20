@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为正向圆周 $|z|=1$，则 $\\displaystyle\\oint_C\\dfrac{2i}{z^2+2az-1}\\,dz\\ (a>1)=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac{2\\pi}{\\sqrt{a^2+1}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1{\\sqrt{a^2+1}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{i}{\\sqrt{a^2+1}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\dfrac{2\\pi i}{\\sqrt{a^2+1}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程 $z^2+2az-1=0$ 的根中，圆内只有 $z=-a+\\sqrt{a^2+1}$。其留数乘 $2\\pi i$ 得积分 $-\\dfrac{2\\pi}{\\sqrt{a^2+1}}$。",
+  "search_text": "设 $C$ 为正向圆周 $|z|=1$，则 $\\displaystyle\\oint_C\\dfrac{2i}{z^2+2az-1}\\,dz\\ (a>1)=(\\ \\ )$。 $-\\dfrac{2\\pi}{\\sqrt{a^2+1}}$ $\\dfrac1{\\sqrt{a^2+1}}$ $\\dfrac{i}{\\sqrt{a^2+1}}$ $-\\dfrac{2\\pi i}{\\sqrt{a^2+1}}$ 方程 $z^2+2az-1=0$ 的根中，圆内只有 $z=-a+\\sqrt{a^2+1}$。其留数乘 $2\\pi i$ 得积分 $-\\dfrac{2\\pi}{\\sqrt{a^2+1}}$。",
+  "sort_order": 4
+}

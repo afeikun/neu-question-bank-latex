@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由曲线 $y=x^2+x$（$x<0$）上曲率为 $\\sqrt2/2$ 的点的坐标为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-4,12)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-1,0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-2,2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-3,6)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime=2x+1$、$y\\prime\\prime=2$，解曲率方程得 $x=-1$ 或 $0$；由 $x<0$ 取 $x=-1$，点为 $(-1,0)$。",
+  "search_text": "由曲线 $y=x^2+x$（$x<0$）上曲率为 $\\sqrt2/2$ 的点的坐标为（ ）。 $(-4,12)$ $(-1,0)$ $(-2,2)$ $(-3,6)$ $y\\prime=2x+1$、$y\\prime\\prime=2$，解曲率方程得 $x=-1$ 或 $0$；由 $x<0$ 取 $x=-1$，点为 $(-1,0)$。",
+  "sort_order": 15
+}

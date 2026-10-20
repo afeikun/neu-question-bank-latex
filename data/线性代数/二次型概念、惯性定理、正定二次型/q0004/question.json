@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设二次型 $f(x_1,x_2,x_3)=x_1^2+ax_2^2+x_3^2+2bx_1x_2+2x_1x_3+2x_2x_3$，经正交变换 $x=Qy$ 化为 $f=y_2^2+4y_3^2$，则 $a,b$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=1,b=3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=0,b=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=3,b=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=3,b=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "二次型的矩阵为 $A=\\begin{pmatrix}1&b&1\\\\b&a&1\\\\1&1&1\\end{pmatrix}$，与 $\\Lambda=\\begin{pmatrix}0&0&0\\\\0&1&0\\\\0&0&4\\end{pmatrix}$ 相似。由迹相同得 $2+a=5$，又 $|A|=-(b-1)^2=0$，所以 $a=3,b=1$。",
+  "search_text": "设二次型 $f(x_1,x_2,x_3)=x_1^2+ax_2^2+x_3^2+2bx_1x_2+2x_1x_3+2x_2x_3$，经正交变换 $x=Qy$ 化为 $f=y_2^2+4y_3^2$，则 $a,b$ 的值为（ ）。 $a=1,b=3$ $a=0,b=1$ $a=3,b=1$ $a=3,b=0$ 二次型的矩阵为 $A=\\begin{pmatrix}1&b&1\\\\b&a&1\\\\1&1&1\\end{pmatrix}$，与 $\\Lambda=\\begin{pmatrix}0&0&0\\\\0&1&0\\\\0&0&4\\end{pmatrix}$ 相似。由迹相同得 $2+a=5$，又 $|A|=-(b-1)^2=0$，所以 $a=3,b=1$。",
+  "sort_order": 4
+}

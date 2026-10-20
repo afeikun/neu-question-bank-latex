@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "薄板为椭圆形，轴为 $2a$ 和 $2b(a>b)$，半轴竖直浸入水中，短轴与水面相齐，求液体对薄板每面的压力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13a^2b\\rho g$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12a^2b\\rho g$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23a^2b\\rho g$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac23a^2b\\rho g\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$P=\\int_0^a2\\rho gx\\sqrt{(b^2-b^2x^2/a^2)}dx=\\frac23a^2b\\rho g$。",
+  "search_text": "薄板为椭圆形，轴为 $2a$ 和 $2b(a>b)$，半轴竖直浸入水中，短轴与水面相齐，求液体对薄板每面的压力。 $\\frac13a^2b\\rho g$ $\\frac12a^2b\\rho g$ $\\frac23a^2b\\rho g$ $\\frac23a^2b\\rho g\\pi$ $P=\\int_0^a2\\rho gx\\sqrt{(b^2-b^2x^2/a^2)}dx=\\frac23a^2b\\rho g$。",
+  "sort_order": 2
+}

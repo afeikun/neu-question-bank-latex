@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{n\\to\\infty}(\\frac{1-a}{2a})^n=0$，则 $a$ 的取值范围是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a<-1$ 或 $a>\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a<-\\frac13$ 或 $a>1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1<a<\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "常数 $r$ 满足 $r^n\\to0$ 当且仅当 $|r|<1$。因此 $|\\frac{1-a}{2a}|<1$，解得 $a<-1$ 或 $a>\\frac13$。",
+  "search_text": "若 $\\lim_{n\\to\\infty}(\\frac{1-a}{2a})^n=0$，则 $a$ 的取值范围是（ ）。 $a<-1$ 或 $a>\\frac13$ $a<-\\frac13$ 或 $a>1$ $-1<a<\\frac13$ $a=1$ 常数 $r$ 满足 $r^n\\to0$ 当且仅当 $|r|<1$。因此 $|\\frac{1-a}{2a}|<1$，解得 $a<-1$ 或 $a>\\frac13$。",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x^3$ 的凹凸性为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在 $(-\\infty,+\\infty)$ 内曲线为凹"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在 $(-\\infty,0)$ 内曲线为凸"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在 $(-\\infty,+\\infty)$ 内曲线为凸"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在 $(0,+\\infty)$ 内曲线为凹"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=6x$，在 $(-\\infty,0)$ 为负、在 $(0,+\\infty)$ 为正，因此前段为凸、后段为凹。",
+  "search_text": "曲线 $y=x^3$ 的凹凸性为（ ）。 在 $(-\\infty,+\\infty)$ 内曲线为凹 在 $(-\\infty,0)$ 内曲线为凸 在 $(-\\infty,+\\infty)$ 内曲线为凸 在 $(0,+\\infty)$ 内曲线为凹 $y\\prime\\prime=6x$，在 $(-\\infty,0)$ 为负、在 $(0,+\\infty)$ 为正，因此前段为凸、后段为凹。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}2&4&0\\\\1&2&-1\\end{pmatrix},\\ B=\\begin{pmatrix}2&1\\\\0&-1\\\\1&0\\end{pmatrix},\\ C=E(2,3)$ 是三阶初等方阵，则 $ACB=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}8&-2\\\\4&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}4&-2\\\\8&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}4&2\\\\8&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}8&2\\\\4&2\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$AC=\\begin{pmatrix}2&0&4\\\\1&-1&2\\end{pmatrix}$，再右乘 $B$ 得 $\\begin{pmatrix}8&2\\\\4&2\\end{pmatrix}$，选项 4。",
+  "search_text": "设 $A=\\begin{pmatrix}2&4&0\\\\1&2&-1\\end{pmatrix},\\ B=\\begin{pmatrix}2&1\\\\0&-1\\\\1&0\\end{pmatrix},\\ C=E(2,3)$ 是三阶初等方阵，则 $ACB=(\\quad)$。 $\\begin{pmatrix}8&-2\\\\4&2\\end{pmatrix}$ $\\begin{pmatrix}4&-2\\\\8&2\\end{pmatrix}$ $\\begin{pmatrix}4&2\\\\8&2\\end{pmatrix}$ $\\begin{pmatrix}8&2\\\\4&2\\end{pmatrix}$ $AC=\\begin{pmatrix}2&0&4\\\\1&-1&2\\end{pmatrix}$，再右乘 $B$ 得 $\\begin{pmatrix}8&2\\\\4&2\\end{pmatrix}$，选项 4。",
+  "sort_order": 37
+}

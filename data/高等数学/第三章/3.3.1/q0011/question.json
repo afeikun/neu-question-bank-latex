@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to1}(x-1)\\tan\\frac\\pi2x=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $t=1-x$，得 $(x-1)\\tan(\\pi x/2)\\to-2/\\pi$。",
+  "search_text": "$\\lim_{x\\to1}(x-1)\\tan\\frac\\pi2x=(\\quad)$。 不存在 $-\\frac2\\pi$ $\\frac1\\pi$ $0$ 令 $t=1-x$，得 $(x-1)\\tan(\\pi x/2)\\to-2/\\pi$。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $1-\\cos x\\sim a\\sin^2x\\ (x\\to0)$，则 $a$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$1-\\cos x\\sim x^2/2$ 且 $\\sin^2x\\sim x^2$，所以 $a=1/2$。",
+  "search_text": "若 $1-\\cos x\\sim a\\sin^2x\\ (x\\to0)$，则 $a$ 的值为（ ）。 2 3 1 $\\frac12$ $1-\\cos x\\sim x^2/2$ 且 $\\sin^2x\\sim x^2$，所以 $a=1/2$。",
+  "sort_order": 32
+}

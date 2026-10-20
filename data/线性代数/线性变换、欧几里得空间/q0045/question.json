@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在线性空间 $\\mathbb R[x]_3$ 中，对任意向量 $f(x),g(x)\\in\\mathbb R[x]_n$ 定义内积 $[f(x),g(x)]=\\int_{-1}^{1}f(x)g(x)\\,dx$，使之成为内积空间 $V_1$。又在线性空间 $\\mathbb R[x]_3$ 中定义内积 $[f(x),g(x)]=\\int_0^1x f(x)g(x)\\,dx$，使之成为内积空间 $V_2$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$V_2$ 是 $V_1$ 的真子空间"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$V_1\\ne V_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$V_1=V_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$V_1$ 是 $V_2$ 的真子空间"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对应不同内积的空间是不同的欧几里得空间，而这两个空间中的元素一样多，彼此也不是互相包含的关系。",
+  "search_text": "在线性空间 $\\mathbb R[x]_3$ 中，对任意向量 $f(x),g(x)\\in\\mathbb R[x]_n$ 定义内积 $[f(x),g(x)]=\\int_{-1}^{1}f(x)g(x)\\,dx$，使之成为内积空间 $V_1$。又在线性空间 $\\mathbb R[x]_3$ 中定义内积 $[f(x),g(x)]=\\int_0^1x f(x)g(x)\\,dx$，使之成为内积空间 $V_2$，则（ ）。 $V_2$ 是 $V_1$ 的真子空间 $V_1\\ne V_2$ $V_1=V_2$ $V_1$ 是 $V_2$ 的真子空间 对应不同内积的空间是不同的欧几里得空间，而这两个空间中的元素一样多，彼此也不是互相包含的关系。",
+  "sort_order": 45
+}

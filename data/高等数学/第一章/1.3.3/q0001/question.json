@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{x\\to x_0}f(x)=A$（$A$ 是常数），则当 $x\\to x_0$ 时，$f(x)-A$ 是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "有界，而未必为无穷小量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无穷小量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无界，但非无穷大量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无穷大量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由极限定义，$f(x)=A+\\alpha$，其中 $\\alpha\\to0$，所以 $f(x)-A$ 是无穷小量。",
+  "search_text": "若 $\\lim_{x\\to x_0}f(x)=A$（$A$ 是常数），则当 $x\\to x_0$ 时，$f(x)-A$ 是（ ）。 有界，而未必为无穷小量 无穷小量 无界，但非无穷大量 无穷大量 由极限定义，$f(x)=A+\\alpha$，其中 $\\alpha\\to0$，所以 $f(x)-A$ 是无穷小量。",
+  "sort_order": 1
+}

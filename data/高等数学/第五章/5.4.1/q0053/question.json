@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=0}^{\\infty} e^n x^{2n}/(2n+1)^3$ 的收敛域是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1/\\sqrt e,1/\\sqrt e]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-1/\\sqrt e,1/\\sqrt e)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[-1/\\sqrt e,1/\\sqrt e)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[-1/\\sqrt e,1/\\sqrt e]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "端点化为 $p=3$ 级数，均收敛。",
+  "search_text": "幂级数 $\\sum_{n=0}^{\\infty} e^n x^{2n}/(2n+1)^3$ 的收敛域是？ $(-1/\\sqrt e,1/\\sqrt e]$ $(-1/\\sqrt e,1/\\sqrt e)$ $[-1/\\sqrt e,1/\\sqrt e)$ $[-1/\\sqrt e,1/\\sqrt e]$ 端点化为 $p=3$ 级数，均收敛。",
+  "sort_order": 53
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\frac1{2\\pi i}\\oint_C\\frac{2z-3}{z^2-3z}\\,dz=2$，则路径 $C$ 应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "圆周 $|z|=9$，正向"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "圆周 $|z|=1$，正向"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆周 $|z-1|=\\frac12$，正向"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "复合闭路 $C=C_1+C_2+C_3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆周 $|z|=9$ 同时包含 $0,3$，两处归一化积分相加为 $2$。",
+  "search_text": "为使 $\\frac1{2\\pi i}\\oint_C\\frac{2z-3}{z^2-3z}\\,dz=2$，则路径 $C$ 应为（ ）。 圆周 $|z|=9$，正向 圆周 $|z|=1$，正向 圆周 $|z-1|=\\frac12$，正向 复合闭路 $C=C_1+C_2+C_3$ 圆周 $|z|=9$ 同时包含 $0,3$，两处归一化积分相加为 $2$。",
+  "sort_order": 36
+}

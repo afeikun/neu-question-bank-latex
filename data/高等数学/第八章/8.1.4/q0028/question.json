@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若区域 $D:(x-1)^2+y^2\\leq1$，则二重积分 $\\iint_Df(x,y)dxdy$ 化为累次积分为[\\quad]（其中 $F(r,\\theta)=f(r\\cos\\theta,r\\sin\\theta)r$）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\int_0^{\\pi/2}d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^\\pi d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{-\\pi/2}^{\\pi/2}d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{-\\pi}^\\pi d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 在极坐标系下，积分区域 $D$ 的积分限为 $-\\frac{\\pi}{2}\\leq\\theta\\leq\\frac{\\pi}{2},0\\leq r\\leq2\\cos\\theta$。于是原式=$\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$。",
+  "search_text": "若区域 $D:(x-1)^2+y^2\\leq1$，则二重积分 $\\iint_Df(x,y)dxdy$ 化为累次积分为[\\quad]（其中 $F(r,\\theta)=f(r\\cos\\theta,r\\sin\\theta)r$） $2\\int_0^{\\pi/2}d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$ $\\int_0^\\pi d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$ $\\int_{-\\pi/2}^{\\pi/2}d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$ $\\int_{-\\pi}^\\pi d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$ 解答 在极坐标系下，积分区域 $D$ 的积分限为 $-\\frac{\\pi}{2}\\leq\\theta\\leq\\frac{\\pi}{2},0\\leq r\\leq2\\cos\\theta$。于是原式=$\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}F(r,\\theta)dr$。",
+  "sort_order": 28
+}

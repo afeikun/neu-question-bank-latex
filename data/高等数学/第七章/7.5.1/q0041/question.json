@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $y=y(x)$ 由方程 $y=1-xe^y$ 确定，则 $\\frac{dy}{dx}\\big|_{x=0}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "当 $x=0$ 时，$y=1$，又把方程每一项对 $x$ 求导，$y\\prime=-e^y-xe^y y\\prime$。\n\n$$y\\prime(1+xe^y)=-e^y\\quad y\\prime\\big|_{x=0}=-\\frac{e^y}{1+xe^y}\\big|_{\\substack{x=0\\\\y=1}}=-e$$",
+  "search_text": "设函数 $y=y(x)$ 由方程 $y=1-xe^y$ 确定，则 $\\frac{dy}{dx}\\big|_{x=0}=(\\quad)$。 $2e$ $-2e$ $-e$ $e$ 当 $x=0$ 时，$y=1$，又把方程每一项对 $x$ 求导，$y\\prime=-e^y-xe^y y\\prime$。\n\n$$y\\prime(1+xe^y)=-e^y\\quad y\\prime\\big|_{x=0}=-\\frac{e^y}{1+xe^y}\\big|_{\\substack{x=0\\\\y=1}}=-e$$",
+  "sort_order": 41
+}

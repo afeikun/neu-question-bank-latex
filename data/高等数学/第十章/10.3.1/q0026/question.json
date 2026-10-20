@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime+f\\prime(x)y=f(x)f\\prime(x)$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=f(x)+e^{-f(x)}-c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=f(x)+ce^{-f(x)}-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=cf(x)e^{-f(x)}-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=f(x)+ce^{-f(x)}+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$y=e^{-\\int f'(x)\\,dx}\\left[\\int f(x)f'(x)e^{\\int f'(x)\\,dx}\\,dx+c\\right]$$\n\n$$=e^{-f(x)}\\left[\\int f(x)f'(x)e^{f(x)}\\,dx+c\\right]$$\n\n$$=e^{-f(x)}\\left[\\int f(x)e^{f(x)}\\,df(x)+c\\right]$$\n\n$$=e^{-f(x)}\\left[e^{f(x)}(f(x)-1)+c\\right]$$\n\n$$=f(x)+ce^{-f(x)}-1$$",
+  "search_text": "微分方程 $y\\prime+f\\prime(x)y=f(x)f\\prime(x)$ 的解为（ ） $y=f(x)+e^{-f(x)}-c$ $y=f(x)+ce^{-f(x)}-1$ $y=cf(x)e^{-f(x)}-1$ $y=f(x)+ce^{-f(x)}+1$ $$y=e^{-\\int f'(x)\\,dx}\\left[\\int f(x)f'(x)e^{\\int f'(x)\\,dx}\\,dx+c\\right]$$\n\n$$=e^{-f(x)}\\left[\\int f(x)f'(x)e^{f(x)}\\,dx+c\\right]$$\n\n$$=e^{-f(x)}\\left[\\int f(x)e^{f(x)}\\,df(x)+c\\right]$$\n\n$$=e^{-f(x)}\\left[e^{f(x)}(f(x)-1)+c\\right]$$\n\n$$=f(x)+ce^{-f(x)}-1$$",
+  "sort_order": 26
+}

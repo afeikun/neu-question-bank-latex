@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=\\dfrac{\\sin z}{2\\cos^2z-1}$ 的解析区域是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "除 $z=k\\pi\\pm\\frac\\pi4$ 外，$f(z)$ 在复平面处处解析"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "除 $z=2k\\pi+\\frac\\pi4$ 外处处解析"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "除 $z=2k\\pi\\pm\\frac\\pi4$ 外处处解析"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "除 $z=k\\pi\\pm\\frac\\pi2$ 外处处解析"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$2\\cos^2z-1=0$ 的零点为 $z=k\\pi\\pm\\pi/4$。",
+  "search_text": "函数 $f(z)=\\dfrac{\\sin z}{2\\cos^2z-1}$ 的解析区域是（ ）。 除 $z=k\\pi\\pm\\frac\\pi4$ 外，$f(z)$ 在复平面处处解析 除 $z=2k\\pi+\\frac\\pi4$ 外处处解析 除 $z=2k\\pi\\pm\\frac\\pi4$ 外处处解析 除 $z=k\\pi\\pm\\frac\\pi2$ 外处处解析 $2\\cos^2z-1=0$ 的零点为 $z=k\\pi\\pm\\pi/4$。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\vec a=(-1,3,2)$，$\\vec b=(\\lambda,-3,-4)$，$\\vec c=(-3,12,6)$ 共面，则(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda=-2$，且 $c=5a+b$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda=-2$，且 $c=-5a+b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda=2$，且 $c=-5a+b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda=2$，且 $c=5a+b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "混合积为零得 $\\lambda=2$。再令 $c=k_1a+k_2b$ 解得 $k_1=5,k_2=1$，所以 $c=5a+b$。",
+  "search_text": "已知 $\\vec a=(-1,3,2)$，$\\vec b=(\\lambda,-3,-4)$，$\\vec c=(-3,12,6)$ 共面，则(\\quad)。 $\\lambda=-2$，且 $c=5a+b$ $\\lambda=-2$，且 $c=-5a+b$ $\\lambda=2$，且 $c=-5a+b$ $\\lambda=2$，且 $c=5a+b$ 混合积为零得 $\\lambda=2$。再令 $c=k_1a+k_2b$ 解得 $k_1=5,k_2=1$，所以 $c=5a+b$。",
+  "sort_order": 4
+}

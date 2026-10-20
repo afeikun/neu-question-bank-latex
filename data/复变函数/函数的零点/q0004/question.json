@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=0$ 是函数 $\\sin z(e^z-1)z^2$ 的（ ）级零点。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=0$ 是 $\\sin z$ 的一级零点，$e^z-1$ 的一级零点，$z^2$ 的二级零点，所以原函数在 $z=0$ 是四级零点。",
+  "search_text": "$z=0$ 是函数 $\\sin z(e^z-1)z^2$ 的（ ）级零点。 4 1 3 2 $z=0$ 是 $\\sin z$ 的一级零点，$e^z-1$ 的一级零点，$z^2$ 的二级零点，所以原函数在 $z=0$ 是四级零点。",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $D=\\begin{vmatrix}2&2&3\\\\1&1&2\\\\2&x&y\\end{vmatrix}$ 的代数余子式满足 $A_{11}+A_{12}+A_{13}=1$，则 $x,y$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=1,\\ y$ 为任意值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=2,\\ y=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=1,\\ y=2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=1,\\ y=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一行减去第二行，得 $D=2-x=A_{11}+A_{12}+A_{13}=1$，因此 $x=1$，$y$ 可为任意值。",
+  "search_text": "若 $D=\\begin{vmatrix}2&2&3\\\\1&1&2\\\\2&x&y\\end{vmatrix}$ 的代数余子式满足 $A_{11}+A_{12}+A_{13}=1$，则 $x,y$ 的值为（ ）。 $x=1,\\ y$ 为任意值 $x=2,\\ y=2$ $x=1,\\ y=2$ $x=1,\\ y=1$ 第一行减去第二行，得 $D=2-x=A_{11}+A_{12}+A_{13}=1$，因此 $x=1$，$y$ 可为任意值。",
+  "sort_order": 77
+}

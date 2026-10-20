@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z|=1}\\frac{z\\,dz}{(2z+1)(z+2)}=(\\quad)$（方向为正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{\\pi}{3}i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac25\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内只有奇点 $-\\frac12$，积分为 $2\\pi i f(-\\frac12)=-\\frac13\\pi i$。",
+  "search_text": "$\\oint_{|z|=1}\\frac{z\\,dz}{(2z+1)(z+2)}=(\\quad)$（方向为正向）。 $-\\frac{\\pi}{3}i$ $\\frac25\\pi i$ $\\pi i$ $1$ 圆内只有奇点 $-\\frac12$，积分为 $2\\pi i f(-\\frac12)=-\\frac13\\pi i$。",
+  "sort_order": 41
+}

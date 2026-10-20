@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\dfrac{dz}{(z^2-1)(z^3-1)}=0$，积分路径 $C$ 应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "圆周 $|z|=r<1$，方向为正向"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "圆周 $|z-1|=1$，方向为正向"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆周 $|z-2i|=2$，方向为正向"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "包含 $0,\\pm1$ 而不包含 $\\frac12(-1\\pm\\sqrt3i)$ 的正向简单闭曲线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆周 $|z|=r<1$ 内不含奇点，积分直接得零。",
+  "search_text": "为使 $\\oint_C\\dfrac{dz}{(z^2-1)(z^3-1)}=0$，积分路径 $C$ 应为（ ）。 圆周 $|z|=r<1$，方向为正向 圆周 $|z-1|=1$，方向为正向 圆周 $|z-2i|=2$，方向为正向 包含 $0,\\pm1$ 而不包含 $\\frac12(-1\\pm\\sqrt3i)$ 的正向简单闭曲线 被积函数在圆周 $|z|=r<1$ 内不含奇点，积分直接得零。",
+  "sort_order": 19
+}

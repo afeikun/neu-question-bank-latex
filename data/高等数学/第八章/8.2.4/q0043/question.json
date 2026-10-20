@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega$ 是由 $\\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{1-x^2-y^2}$ 所确定的立体，则三重积分 $\\iiint_\\Omega f(y,z)dv$ 化为球面坐标为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^1 f(r\\sin\\theta\\sin\\varphi,r\\cos\\varphi)r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^1 f(r\\sin\\theta\\sin\\varphi,r\\cos\\varphi)r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^1 f(y,z)r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{\\sqrt2/2} f(r\\sin\\theta\\sin\\varphi,r\\cos\\varphi)r^2\\sin\\varphi\\,dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由\n$$\n\\left\\{\\begin{array}{l}\nx^2+y^2=z^2\\\\\nx^2+y^2+z^2=1\n\\end{array}\\right.\n$$\n知\n$$\n\\left\\{\\begin{array}{l}\nx^2+y^2=\\frac{1}{2}\\\\\nz=\\frac{\\sqrt{2}}{2}\n\\end{array}\\right.,\\quad\\text{则}\\quad\n\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\\n0\\leq r\\leq1\n\\end{array}\\right.,\n$$\n$$\n\\iiint_\\Omega f(y,z)\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^1f(r\\sin\\theta\\sin\\varphi,r\\cos\\varphi)r^2\\sin\\varphi\\,dr\n$$",
+  "search_text": "设 $\\Omega$ 是由 $\\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{1-x^2-y^2}$ 所确定的立体，则三重积分 $\\iiint_\\Omega f(y,z)dv$ 化为球面坐标为（ ） $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^1 f(r\\sin\\theta\\sin\\varphi,r\\cos\\varphi)r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^1 f(r\\sin\\theta\\sin\\varphi,r\\cos\\varphi)r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^1 f(y,z)r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{\\sqrt2/2} f(r\\sin\\theta\\sin\\varphi,r\\cos\\varphi)r^2\\sin\\varphi\\,dr$ 由\n$$\n\\left\\{\\begin{array}{l}\nx^2+y^2=z^2\\\\\nx^2+y^2+z^2=1\n\\end{array}\\right.\n$$\n知\n$$\n\\left\\{\\begin{array}{l}\nx^2+y^2=\\frac{1}{2}\\\\\nz=\\frac{\\sqrt{2}}{2}\n\\end{array}\\right.,\\quad\\text{则}\\quad\n\\left\\{\\begin{array}{l}\n0\\leq\\theta\\leq2\\pi\\\\\n0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\\n0\\leq r\\leq1\n\\end{array}\\right.,\n$$\n$$\n\\iiint_\\Omega f(y,z)\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^1f(r\\sin\\theta\\sin\\varphi,r\\cos\\varphi)r^2\\sin\\varphi\\,dr\n$$",
+  "sort_order": 43
+}

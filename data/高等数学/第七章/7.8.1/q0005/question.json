@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=x^3+y^3-3xy$ 的极大值与极小值分别为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "都不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1，不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在，-1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1，-1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由题意知，$f(x,y)$ 具有二阶连续偏导数，解方程组：\n\n$$\\left\\{\\begin{aligned}\\frac{\\partial f}{\\partial x}&=3x^2-3y=0\\\\\\frac{\\partial f}{\\partial y}&=3y^2-3x=0\\end{aligned}\\right.$$ \n\n得驻点 $P_0(0,0)$ 及 $P_1(1,1)$，由 $\\displaystyle\\frac{\\partial^2 f}{\\partial x^2}=6x,\\quad \\frac{\\partial^2 f}{\\partial x\\partial y}=-3,\\quad \\frac{\\partial^2 f}{\\partial y^2}=6y$，易知在 $P_0$ 点，\n\n$A=0,B=-3,C=0,B^2-AC>0$，所以 $f(0,0)$ 不是极值。\n\n在 $P_1$ 点，$A=6,B=-3,C=6,B^2-AC<0$，且 $A>0$，所以 $f(1,1)=-1$ 为极小值。",
+  "search_text": "函数 $f(x,y)=x^3+y^3-3xy$ 的极大值与极小值分别为。 都不存在 1，不存在 不存在，-1 1，-1 由题意知，$f(x,y)$ 具有二阶连续偏导数，解方程组：\n\n$$\\left\\{\\begin{aligned}\\frac{\\partial f}{\\partial x}&=3x^2-3y=0\\\\\\frac{\\partial f}{\\partial y}&=3y^2-3x=0\\end{aligned}\\right.$$ \n\n得驻点 $P_0(0,0)$ 及 $P_1(1,1)$，由 $\\displaystyle\\frac{\\partial^2 f}{\\partial x^2}=6x,\\quad \\frac{\\partial^2 f}{\\partial x\\partial y}=-3,\\quad \\frac{\\partial^2 f}{\\partial y^2}=6y$，易知在 $P_0$ 点，\n\n$A=0,B=-3,C=0,B^2-AC>0$，所以 $f(0,0)$ 不是极值。\n\n在 $P_1$ 点，$A=6,B=-3,C=6,B^2-AC<0$，且 $A>0$，所以 $f(1,1)=-1$ 为极小值。",
+  "sort_order": 5
+}

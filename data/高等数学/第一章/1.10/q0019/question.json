@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\left(\\frac{2^x+3^x+4^x}{3}\\right)^{3/x}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$24$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对数极限为 $\\ln2+\\ln3+\\ln4=\\ln24$，故极限为 $24$。",
+  "search_text": "$\\lim_{x\\to0}\\left(\\frac{2^x+3^x+4^x}{3}\\right)^{3/x}=$（ ）。 $e^3$ $24$ $e$ $12$ 对数极限为 $\\ln2+\\ln3+\\ln4=\\ln24$，故极限为 $24$。",
+  "sort_order": 19
+}

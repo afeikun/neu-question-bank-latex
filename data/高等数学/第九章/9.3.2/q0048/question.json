@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是曲线 $x=t+1,\\ y=t^2+1$ 上从点 $(1,1)$ 到点 $(2,2)$ 的一段弧，则 $I=\\int_L2y\\,dx+(2-x)dy$ 的计算结果是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解：$I=\\int_0^1[2(t^2+1)+(1-t)\\cdot2t]dt=\\int_0^1(2+2t)dt=3$。",
+  "search_text": "设 $L$ 是曲线 $x=t+1,\\ y=t^2+1$ 上从点 $(1,1)$ 到点 $(2,2)$ 的一段弧，则 $I=\\int_L2y\\,dx+(2-x)dy$ 的计算结果是（ ） $1$ $2$ $-2$ $3$ 解：$I=\\int_0^1[2(t^2+1)+(1-t)\\cdot2t]dt=\\int_0^1(2+2t)dt=3$。",
+  "sort_order": 48
+}

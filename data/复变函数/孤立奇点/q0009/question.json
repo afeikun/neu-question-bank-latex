@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=-1$ 是函数 $\\dfrac{\\cot\\pi z}{(z+1)^4}$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "5阶极点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4阶极点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3阶极点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "6阶极点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\cot(\\pi z)/(z+1)^4=\\cos(\\pi z)/[\\sin(\\pi z)(z+1)^4]$。在 $z=-1$ 附近，$\\sin(\\pi z)=(z+1)g(z)$，其中 $g(-1)=-\\pi\\ne0$，且 $\\cos(-\\pi)=-1\\ne0$；故分母有五阶零点、分子不为零，$z=-1$ 为五阶极点。",
+  "search_text": "$z=-1$ 是函数 $\\dfrac{\\cot\\pi z}{(z+1)^4}$ 的（ ）。 5阶极点 4阶极点 3阶极点 6阶极点 $\\cot(\\pi z)/(z+1)^4=\\cos(\\pi z)/[\\sin(\\pi z)(z+1)^4]$。在 $z=-1$ 附近，$\\sin(\\pi z)=(z+1)g(z)$，其中 $g(-1)=-\\pi\\ne0$，且 $\\cos(-\\pi)=-1\\ne0$；故分母有五阶零点、分子不为零，$z=-1$ 为五阶极点。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=(a_{ij})_{n\\times n}$，且 $|A|=0$，但 $A$ 中某元素 $a_{ij}$ 的代数余子式 $A_{ij}\\ne0$，则 $AX=0$ 的基础解系中的解向量个数是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$l$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "存在非零的 $(n-1)$ 阶子式且 $|A|=0$，所以 $r(A)=n-1$。零空间维数为 $n-r(A)=1$，故基础解系含一个向量。",
+  "search_text": "设 $A=(a_{ij})_{n\\times n}$，且 $|A|=0$，但 $A$ 中某元素 $a_{ij}$ 的代数余子式 $A_{ij}\\ne0$，则 $AX=0$ 的基础解系中的解向量个数是（ ）。 $n$ $1$ $k$ $l$ 存在非零的 $(n-1)$ 阶子式且 $|A|=0$，所以 $r(A)=n-1$。零空间维数为 $n-r(A)=1$，故基础解系含一个向量。",
+  "sort_order": 17
+}

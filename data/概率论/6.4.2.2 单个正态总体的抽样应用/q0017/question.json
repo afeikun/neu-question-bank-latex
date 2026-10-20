@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,\\sigma^2)$，容量16样本，$\\sigma=5$，求$P(|\\bar X-\\mu|<2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.8904$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.7827$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.8664$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.6983$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准化区间为$\\pm1.6$，概率$2\\Phi(1.6)-1=0.8904$。",
+  "search_text": "$X\\sim N(\\mu,\\sigma^2)$，容量16样本，$\\sigma=5$，求$P(|\\bar X-\\mu|<2)$。 $0.8904$ $0.7827$ $0.8664$ $0.6983$ 标准化区间为$\\pm1.6$，概率$2\\Phi(1.6)-1=0.8904$。",
+  "sort_order": 17
+}

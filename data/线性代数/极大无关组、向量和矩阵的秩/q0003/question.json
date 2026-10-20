@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量组 $\\alpha_1=(1,1,1,4)^T,\\ \\alpha_2=(2,1,3,5)^T,\\ \\alpha_3=(1,-1,3,-2)^T,\\ \\alpha_4=(3,1,5,6)^T$ 的极大无关组为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha_2,\\alpha_3,\\alpha_4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_1,\\alpha_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "行化简可得秩为 $2$，并且 $\\alpha_3=-3\\alpha_1+2\\alpha_2$、$\\alpha_4=-\\alpha_1+2\\alpha_2$，故 $\\alpha_1,\\alpha_2$ 构成极大无关组。",
+  "search_text": "向量组 $\\alpha_1=(1,1,1,4)^T,\\ \\alpha_2=(2,1,3,5)^T,\\ \\alpha_3=(1,-1,3,-2)^T,\\ \\alpha_4=(3,1,5,6)^T$ 的极大无关组为（ ）。 $\\alpha_2,\\alpha_3,\\alpha_4$ $\\alpha_1,\\alpha_2,\\alpha_3$ $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ $\\alpha_1,\\alpha_2$ 行化简可得秩为 $2$，并且 $\\alpha_3=-3\\alpha_1+2\\alpha_2$、$\\alpha_4=-\\alpha_1+2\\alpha_2$，故 $\\alpha_1,\\alpha_2$ 构成极大无关组。",
+  "sort_order": 3
+}

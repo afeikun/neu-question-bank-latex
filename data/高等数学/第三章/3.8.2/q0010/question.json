@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\tan x$ 在点 $(\\pi/4,1)$ 处的曲率与曲率半径为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k=\\frac{4\\sqrt5}{25},\\ R=\\frac{\\sqrt5}{4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k=\\frac{4\\sqrt5}{25},\\ R=\\frac{5\\sqrt5}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k=\\frac{2\\sqrt5}{25},\\ R=\\frac{\\sqrt5}{4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k=\\frac{2\\sqrt5}{25},\\ R=\\frac{5\\sqrt5}{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime=\\sec^2x$、$y\\prime\\prime=2\\sec^2x\\tan x$，在 $x=\\pi/4$ 得 $k=4\\sqrt5/25$，$R=1/k=5\\sqrt5/4$。",
+  "search_text": "曲线 $y=\\tan x$ 在点 $(\\pi/4,1)$ 处的曲率与曲率半径为（ ）。 $k=\\frac{4\\sqrt5}{25},\\ R=\\frac{\\sqrt5}{4}$ $k=\\frac{4\\sqrt5}{25},\\ R=\\frac{5\\sqrt5}{4}$ $k=\\frac{2\\sqrt5}{25},\\ R=\\frac{\\sqrt5}{4}$ $k=\\frac{2\\sqrt5}{25},\\ R=\\frac{5\\sqrt5}{4}$ $y\\prime=\\sec^2x$、$y\\prime\\prime=2\\sec^2x\\tan x$，在 $x=\\pi/4$ 得 $k=4\\sqrt5/25$，$R=1/k=5\\sqrt5/4$。",
+  "sort_order": 10
+}

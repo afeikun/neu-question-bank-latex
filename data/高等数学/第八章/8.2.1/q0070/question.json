@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设薄片区域 $D$ 由 $y=\\sqrt{2px},x=x_0,y=0$ 围成（$p>0$），则均匀薄片的质心（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{4x_0}5,\\frac{y_0}8)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{x_0}5,\\frac{3y_0}8)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{3x_0}5,\\frac{3y_0}8)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{x_0}5,\\frac{y_0}8)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "如图所示所求质心为\n\n示意图：坐标轴标为 $x,y$，原点为 $O$；边界曲线标为 $y=\\sqrt{2px}$，竖边位于 $x=x_0$，区域内有斜线阴影。\n\n$$\nM=\\iint_D\\mu\\,dxdy=\\mu\\int_0^{x_0}dx\\int_0^{\\sqrt{2px}}dy=\\frac23\\mu\\sqrt{2px_0^3}\n$$\n\n$$\n\\bar{x}=\\frac{\\iint_Dx\\mu\\,dxdy}{M}=\\frac{\\int_0^{x_0}x\\mu\\,dx\\int_0^{\\sqrt{2px}}dy}{\\frac23\\mu\\sqrt{2px_0^3}}=\\frac{3x_0}{5}\n$$\n\n$$\n\\bar{y}=\\frac{\\iint_Dy\\mu\\,dxdy}{M}=\\frac{\\int_0^{x_0}\\mu\\,dx\\int_0^{\\sqrt{2px}}y\\,dy}{\\frac23\\mu\\sqrt{2px_0^3}}=\\frac{3y_0}{8}\n$$",
+  "search_text": "设薄片区域 $D$ 由 $y=\\sqrt{2px},x=x_0,y=0$ 围成（$p>0$），则均匀薄片的质心（ ） $(\\frac{4x_0}5,\\frac{y_0}8)$ $(\\frac{x_0}5,\\frac{3y_0}8)$ $(\\frac{3x_0}5,\\frac{3y_0}8)$ $(\\frac{x_0}5,\\frac{y_0}8)$ 如图所示所求质心为\n\n示意图：坐标轴标为 $x,y$，原点为 $O$；边界曲线标为 $y=\\sqrt{2px}$，竖边位于 $x=x_0$，区域内有斜线阴影。\n\n$$\nM=\\iint_D\\mu\\,dxdy=\\mu\\int_0^{x_0}dx\\int_0^{\\sqrt{2px}}dy=\\frac23\\mu\\sqrt{2px_0^3}\n$$\n\n$$\n\\bar{x}=\\frac{\\iint_Dx\\mu\\,dxdy}{M}=\\frac{\\int_0^{x_0}x\\mu\\,dx\\int_0^{\\sqrt{2px}}dy}{\\frac23\\mu\\sqrt{2px_0^3}}=\\frac{3x_0}{5}\n$$\n\n$$\n\\bar{y}=\\frac{\\iint_Dy\\mu\\,dxdy}{M}=\\frac{\\int_0^{x_0}\\mu\\,dx\\int_0^{\\sqrt{2px}}y\\,dy}{\\frac23\\mu\\sqrt{2px_0^3}}=\\frac{3y_0}{8}\n$$",
+  "sort_order": 70
+}

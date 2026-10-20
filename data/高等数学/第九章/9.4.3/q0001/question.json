@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=R^2$ 的外侧，且 $R$ 为正数，则计算 $\\oiint_\\Sigma\\frac1x dydz+\\frac1y dzdx+\\frac1z dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12\\pi R^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi R^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12\\pi R$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi R$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在 $yoz$ 面上的投影区域为 $D_{yz}:y^2+z^2<R^2$，于是\n$$\\oiint_\\Sigma\\frac{1}{x}dydz=2\\iint_{D_{yz}}\\frac{dydz}{\\sqrt{R^2-y^2-z^2}}=2\\int_0^{2\\pi}d\\theta\\int_0^R\\frac{rdr}{\\sqrt{R^2-r^2}}=4\\pi R，$$\n原式$=3\\times4\\pi R=12\\pi R$。",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=R^2$ 的外侧，且 $R$ 为正数，则计算 $\\oiint_\\Sigma\\frac1x dydz+\\frac1y dzdx+\\frac1z dxdy=$（ ） $12\\pi R^2$ $\\pi R^2$ $12\\pi R$ $\\pi R$ 解答 $\\Sigma$ 在 $yoz$ 面上的投影区域为 $D_{yz}:y^2+z^2<R^2$，于是\n$$\\oiint_\\Sigma\\frac{1}{x}dydz=2\\iint_{D_{yz}}\\frac{dydz}{\\sqrt{R^2-y^2-z^2}}=2\\int_0^{2\\pi}d\\theta\\int_0^R\\frac{rdr}{\\sqrt{R^2-r^2}}=4\\pi R，$$\n原式$=3\\times4\\pi R=12\\pi R$。",
+  "sort_order": 1
+}

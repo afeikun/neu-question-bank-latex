@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是圆 $x^2+y^2=1$ 的顺时针方向，则 $I_1=\\oint_Lx^3ds$ 与 $I_2=\\oint_Ly^5ds$ 的大小关系是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$I_1=I_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$I_1>I_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不能确定 $I_1,I_2$ 的大小关系"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$I_1<I_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 由 $L$ 关于 $y$ 轴对称，且 $x^3$ 是奇函数，故 $I_1=\\oint_Lx^3\\,ds=0$；又 $L$ 关于 $x$ 轴对称，且 $y^5$ 是奇函数，故 $I_2=\\oint_Ly^5\\,ds=0$。",
+  "search_text": "设 $L$ 是圆 $x^2+y^2=1$ 的顺时针方向，则 $I_1=\\oint_Lx^3ds$ 与 $I_2=\\oint_Ly^5ds$ 的大小关系是（ ） $I_1=I_2$ $I_1>I_2$ 不能确定 $I_1,I_2$ 的大小关系 $I_1<I_2$ 解答 由 $L$ 关于 $y$ 轴对称，且 $x^3$ 是奇函数，故 $I_1=\\oint_Lx^3\\,ds=0$；又 $L$ 关于 $x$ 轴对称，且 $y^5$ 是奇函数，故 $I_2=\\oint_Ly^5\\,ds=0$。",
+  "sort_order": 3
+}

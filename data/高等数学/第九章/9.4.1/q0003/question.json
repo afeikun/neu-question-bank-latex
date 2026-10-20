@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是平面 $z=1$ 上的圆域 $x^2+y^2\\le1$ 的上侧，则计算 $\\iint_\\Sigma(1+x)dydz+(y-1)dzdx$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在 $yoz$ 面上无投影区域，故 $\\iint_\\Sigma(1+x)dydz=0$，$\\Sigma$ 在 $zox$ 面上无投影区域，故 $\\iint_\\Sigma(y-1)dzdx=0$，\n\n所以 $\\iint_\\Sigma=\\iint_\\Sigma(1+x)dydz+\\iint_\\Sigma(y-1)dzdx=0$。",
+  "search_text": "已知 $\\Sigma$ 是平面 $z=1$ 上的圆域 $x^2+y^2\\le1$ 的上侧，则计算 $\\iint_\\Sigma(1+x)dydz+(y-1)dzdx$（ ） $2\\pi$ $1$ $-\\frac\\pi2$ $0$ 解答 $\\Sigma$ 在 $yoz$ 面上无投影区域，故 $\\iint_\\Sigma(1+x)dydz=0$，$\\Sigma$ 在 $zox$ 面上无投影区域，故 $\\iint_\\Sigma(y-1)dzdx=0$，\n\n所以 $\\iint_\\Sigma=\\iint_\\Sigma(1+x)dydz+\\iint_\\Sigma(y-1)dzdx=0$。",
+  "sort_order": 3
+}

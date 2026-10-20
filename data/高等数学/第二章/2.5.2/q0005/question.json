@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=x^{\\sin x}$（$x>0$），求 $y^\\prime$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^{\\sin x}\\sin x\\ln x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin x\\,x^{\\sin x-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^{\\sin x}\\cos x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^{\\sin x}(\\cos x\\ln x+\\frac{\\sin x}{x})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时取对数 $\\ln y=\\sin x\\ln x$，并对 $x$ 求导可得\n\n$$\\frac{y'}{y}=\\cos x\\cdot\\ln x+\\frac{\\sin x}{x}，\\text{则有 }y'=x^{\\sin x}\\left(\\cos x\\cdot\\ln x+\\frac{\\sin x}{x}\\right)$$",
+  "search_text": "设 $y=x^{\\sin x}$（$x>0$），求 $y^\\prime$。 $x^{\\sin x}\\sin x\\ln x$ $\\sin x\\,x^{\\sin x-1}$ $x^{\\sin x}\\cos x$ $x^{\\sin x}(\\cos x\\ln x+\\frac{\\sin x}{x})$ 解答 方程两边同时取对数 $\\ln y=\\sin x\\ln x$，并对 $x$ 求导可得\n\n$$\\frac{y'}{y}=\\cos x\\cdot\\ln x+\\frac{\\sin x}{x}，\\text{则有 }y'=x^{\\sin x}\\left(\\cos x\\cdot\\ln x+\\frac{\\sin x}{x}\\right)$$",
+  "sort_order": 5
+}

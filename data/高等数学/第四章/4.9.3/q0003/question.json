@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "自地面垂直向上发射火箭，问火箭应达到什么速度才可在无动力情况下飞离地球？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$v=\\sqrt{2gR}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$v=\\sqrt{3gR}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$v=\\sqrt{gR}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$v=\\sqrt{gR/2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由引力作功 $W=mgR$ 与能量守恒，$mv^2/2=mgR$，故 $v=\\sqrt{2gR}$。",
+  "search_text": "自地面垂直向上发射火箭，问火箭应达到什么速度才可在无动力情况下飞离地球？ $v=\\sqrt{2gR}$ $v=\\sqrt{3gR}$ $v=\\sqrt{gR}$ $v=\\sqrt{gR/2}$ 由引力作功 $W=mgR$ 与能量守恒，$mv^2/2=mgR$，故 $v=\\sqrt{2gR}$。",
+  "sort_order": 3
+}

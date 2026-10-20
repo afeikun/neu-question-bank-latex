@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim N(\\mu,\\sigma^2)$，求$2\\xi$的密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2\\mu)^2/[2(2\\sigma)^2]}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}\\sigma}e^{-(x-2\\mu)^2/(8\\sigma^2)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2\\mu)^2/(8\\sigma^2)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}\\sigma}e^{-(x-2\\mu)^2/(4\\sigma^2)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$2\\xi\\sim N(2\\mu,4\\sigma^2)$，密度标准差为$2\\sigma$。",
+  "search_text": "$\\xi\\sim N(\\mu,\\sigma^2)$，求$2\\xi$的密度。 $\\frac1{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2\\mu)^2/[2(2\\sigma)^2]}$ $\\frac1{\\sqrt{2\\pi}\\sigma}e^{-(x-2\\mu)^2/(8\\sigma^2)}$ $\\frac1{\\sqrt{2\\pi}(2\\sigma)}e^{-(x-2\\mu)^2/(8\\sigma^2)}$ $\\frac1{\\sqrt{2\\pi}\\sigma}e^{-(x-2\\mu)^2/(4\\sigma^2)}$ $2\\xi\\sim N(2\\mu,4\\sigma^2)$，密度标准差为$2\\sigma$。",
+  "sort_order": 27
+}

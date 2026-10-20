@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是 $n$ 阶正定矩阵，$E$ 是 $n$ 阶单位矩阵，则下列正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|A+E|<1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|A+E|\\ge1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|A+E|\\le1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|A+E|>1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $A$ 的 $n$ 个特征值为 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$。由 $A$ 正定，$\\lambda_i>0$，所以 $A+E$ 的特征值为 $\\lambda_i+1>1$，故 $|A+E|=(\\lambda_1+1)(\\lambda_2+1)\\cdots(\\lambda_n+1)>1$。",
+  "search_text": "设 $A$ 是 $n$ 阶正定矩阵，$E$ 是 $n$ 阶单位矩阵，则下列正确的是（ ）。 $|A+E|<1$ $|A+E|\\ge1$ $|A+E|\\le1$ $|A+E|>1$ 设 $A$ 的 $n$ 个特征值为 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$。由 $A$ 正定，$\\lambda_i>0$，所以 $A+E$ 的特征值为 $\\lambda_i+1>1$，故 $|A+E|=(\\lambda_1+1)(\\lambda_2+1)\\cdots(\\lambda_n+1)>1$。",
+  "sort_order": 32
+}

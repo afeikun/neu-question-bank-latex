@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int xe^x\\,dx$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x^2}{2}e^x-xe^x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x^2}{2}e^x-\\frac{x^3}{6}e^x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xe^x-\\frac x2e^x+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xe^x-e^x+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$I=\\int xe^x\\,dx=xe^x-\\int e^x\\,dx=xe^x-e^x+C$$",
+  "search_text": "不定积分 $\\int xe^x\\,dx$ 的值为（ ） $\\frac{x^2}{2}e^x-xe^x+C$ $\\frac{x^2}{2}e^x-\\frac{x^3}{6}e^x+C$ $xe^x-\\frac x2e^x+C$ $xe^x-e^x+C$ $$I=\\int xe^x\\,dx=xe^x-\\int e^x\\,dx=xe^x-e^x+C$$",
+  "sort_order": 19
+}

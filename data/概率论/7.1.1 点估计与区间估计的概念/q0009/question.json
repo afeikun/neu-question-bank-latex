@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "随机区间$[\\hat\\theta_1,\\hat\\theta_2]$是未知参数$\\theta$的95%置信区间，条件为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\hat\\theta_1<\\theta<\\hat\\theta_2)\\ge0.95$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha=0.95$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha=0.05$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(\\hat\\theta_1<\\theta<\\hat\\theta_2)=0.95$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "置信区间定义要求覆盖概率至少达到给定置信度。",
+  "search_text": "随机区间$[\\hat\\theta_1,\\hat\\theta_2]$是未知参数$\\theta$的95%置信区间，条件为（）。 $P(\\hat\\theta_1<\\theta<\\hat\\theta_2)\\ge0.95$ $\\alpha=0.95$ $\\alpha=0.05$ $P(\\hat\\theta_1<\\theta<\\hat\\theta_2)=0.95$ 置信区间定义要求覆盖概率至少达到给定置信度。",
+  "sort_order": 9
+}

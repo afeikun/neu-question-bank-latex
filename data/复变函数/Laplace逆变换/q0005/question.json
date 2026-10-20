@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(s)=\\ln(1+\\frac1s)$，则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1t(1-e^{-t})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1t(1-e^t)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1t(e^{-t}-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1t(e^t-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $f(t)=-\\frac1t\\mathcal{L}^{-1}[F\\prime(s)]$，得到 $\\frac1t(1-e^{-t})$。",
+  "search_text": "设 $F(s)=\\ln(1+\\frac1s)$，则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$ $\\frac1t(1-e^{-t})$ $\\frac1t(1-e^t)$ $\\frac1t(e^{-t}-1)$ $\\frac1t(e^t-1)$ 由 $f(t)=-\\frac1t\\mathcal{L}^{-1}[F\\prime(s)]$，得到 $\\frac1t(1-e^{-t})$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $V$ 是由 $\\alpha_1=\\begin{pmatrix}1&0\\\\1&0\\end{pmatrix}$，$\\alpha_2=\\begin{pmatrix}1&1\\\\0&0\\end{pmatrix}$，$\\alpha_3=\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$，$\\alpha_4=\\begin{pmatrix}2&2\\\\1&1\\end{pmatrix}$ 生成的向量空间，则 $V$ 的维数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\alpha_1,\\alpha_2,\\alpha_3$ 线性无关，且 $\\alpha_4=\\alpha_1+\\alpha_2+\\alpha_3$，所以 $V$ 的维数为 $3$。",
+  "search_text": "设 $V$ 是由 $\\alpha_1=\\begin{pmatrix}1&0\\\\1&0\\end{pmatrix}$，$\\alpha_2=\\begin{pmatrix}1&1\\\\0&0\\end{pmatrix}$，$\\alpha_3=\\begin{pmatrix}0&1\\\\0&1\\end{pmatrix}$，$\\alpha_4=\\begin{pmatrix}2&2\\\\1&1\\end{pmatrix}$ 生成的向量空间，则 $V$ 的维数为（ ）。 $1$ $2$ $3$ $4$ $\\alpha_1,\\alpha_2,\\alpha_3$ 线性无关，且 $\\alpha_4=\\alpha_1+\\alpha_2+\\alpha_3$，所以 $V$ 的维数为 $3$。",
+  "sort_order": 13
+}

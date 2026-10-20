@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\frac{dy}{dx}+\\frac yx=a(\\ln x)y^2$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$yx[x-a(\\ln x)^2]=c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$yx[c-\\frac a2(\\ln x)^2]=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2[c-\\frac a2(\\ln y)^2]=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$cyx[c-\\frac a2(\\ln x)^2]=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "",
+  "search_text": "微分方程 $\\frac{dy}{dx}+\\frac yx=a(\\ln x)y^2$ 的通解为（ ） $yx[x-a(\\ln x)^2]=c$ $yx[c-\\frac a2(\\ln x)^2]=1$ $x^2[c-\\frac a2(\\ln y)^2]=1$ $cyx[c-\\frac a2(\\ln x)^2]=1$ ",
+  "sort_order": 15
+}

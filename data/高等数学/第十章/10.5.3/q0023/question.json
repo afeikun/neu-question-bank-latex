@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $(y\\prime\\prime)^2-3y\\prime y^{(4)}=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1x+C_2$ 或 $y=-9C_2\\sqrt{-\\frac23x+C_1}+C_3x+C_4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1x^2+C_2x+C_3$ 或 $y=-9C_2\\sqrt{-\\frac23x+C_1}+C_3x+C_4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1x+C_2$ 或 $y=\\sqrt{-\\frac23x+C_1}+C_2x+C_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1x^2+C_2x+C_3$ 或 $y=\\sqrt{-\\frac23x+C_1}+C_2x+C_3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 原方程可化为 $\\frac{(y''')^2-y''y^{(4)}}{(y''')^2}=-\\frac23\\quad (y'''\\ne0)$，即 $\\left(\\frac{y''}{y'''}\\right)'=-\\frac23$，两边积分得 $\\frac{y''}{y'''}=-\\frac23x+C_1$，\n\n令 $y'''=p$，上式化为 $\\frac{dp}{p}=\\frac{dx}{-\\frac23x+C_1}$ 两边积分得到 $p=C_2\\left(-\\frac23x+C_1\\right)^{-\\frac32}$，即 $y''=C_2\\left(-\\frac23x+C_1\\right)^{-\\frac32}$，\n\n对上式两边积分得 $y'=3C_2\\left(-\\frac23x+C_1\\right)^{-\\frac12}+C_3$，对上式再次积分得通解\n\n$$y=-9C_2\\sqrt{-\\frac23x+C_1}+C_3x+C_4$$\n\n易见，$y'''=0$ 也满足原方程，即 $y=C_1x^2+C_2x+C_3$ 也是原方程的解。",
+  "search_text": "方程 $(y\\prime\\prime)^2-3y\\prime y^{(4)}=0$ 的通解为（ ） $y=C_1x+C_2$ 或 $y=-9C_2\\sqrt{-\\frac23x+C_1}+C_3x+C_4$ $y=C_1x^2+C_2x+C_3$ 或 $y=-9C_2\\sqrt{-\\frac23x+C_1}+C_3x+C_4$ $y=C_1x+C_2$ 或 $y=\\sqrt{-\\frac23x+C_1}+C_2x+C_3$ $y=C_1x^2+C_2x+C_3$ 或 $y=\\sqrt{-\\frac23x+C_1}+C_2x+C_3$ 解答 原方程可化为 $\\frac{(y''')^2-y''y^{(4)}}{(y''')^2}=-\\frac23\\quad (y'''\\ne0)$，即 $\\left(\\frac{y''}{y'''}\\right)'=-\\frac23$，两边积分得 $\\frac{y''}{y'''}=-\\frac23x+C_1$，\n\n令 $y'''=p$，上式化为 $\\frac{dp}{p}=\\frac{dx}{-\\frac23x+C_1}$ 两边积分得到 $p=C_2\\left(-\\frac23x+C_1\\right)^{-\\frac32}$，即 $y''=C_2\\left(-\\frac23x+C_1\\right)^{-\\frac32}$，\n\n对上式两边积分得 $y'=3C_2\\left(-\\frac23x+C_1\\right)^{-\\frac12}+C_3$，对上式再次积分得通解\n\n$$y=-9C_2\\sqrt{-\\frac23x+C_1}+C_3x+C_4$$\n\n易见，$y'''=0$ 也满足原方程，即 $y=C_1x^2+C_2x+C_3$ 也是原方程的解。",
+  "sort_order": 23
+}

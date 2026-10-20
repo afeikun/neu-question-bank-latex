@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算二重积分 $\\iint_Dx^2y\\cos(xy^2)\\,dxdy$，其中 $D:0\\leq x\\leq\\frac\\pi2,0\\leq y\\leq2$。（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac\\pi8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac\\pi{16}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi{16}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 原式 $=\\int_0^{\\frac{\\pi}{2}}dx\\int_0^2x^2y\\cos(xy^2)\\,dy=\\int_0^{\\frac{\\pi}{2}}\\frac{x}{2}\\sin4x\\,dx=-\\frac{\\pi}{16}$",
+  "search_text": "计算二重积分 $\\iint_Dx^2y\\cos(xy^2)\\,dxdy$，其中 $D:0\\leq x\\leq\\frac\\pi2,0\\leq y\\leq2$。（ ） $-\\frac\\pi8$ $\\frac\\pi8$ $-\\frac\\pi{16}$ $\\frac\\pi{16}$ 解答 原式 $=\\int_0^{\\frac{\\pi}{2}}dx\\int_0^2x^2y\\cos(xy^2)\\,dy=\\int_0^{\\frac{\\pi}{2}}\\frac{x}{2}\\sin4x\\,dx=-\\frac{\\pi}{16}$",
+  "sort_order": 21
+}

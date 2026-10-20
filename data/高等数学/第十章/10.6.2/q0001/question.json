@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime+6y\\prime+9y=0$ 在 $y|_{x=0}=1,y\\prime|_{x=0}=-1$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=(1+2x)e^{-3x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=(3+2x)e^{-3x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=(1-3x)e^{-3x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=(2+3x)e^{-3x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2+6\\lambda+9=0$，特征根为 $\\lambda_{1,2}=-3$，\n\n因此对应齐次方程的通解为 $y=(C_1+C_2x)e^{-3x}$。\n\n将 $y|_{x=0}=1$，代入通解得 $C_1=1$。\n\n由 $y'|_{x=0}=-1$ 代入得 $C_2=2$，\n\n故所求特解为 $y=(1+2x)e^{-3x}$。\n\n因此选 A。",
+  "search_text": "微分方程 $y\\prime\\prime+6y\\prime+9y=0$ 在 $y|_{x=0}=1,y\\prime|_{x=0}=-1$ 下的特解为（ ） $y=(1+2x)e^{-3x}$ $y=(3+2x)e^{-3x}$ $y=(1-3x)e^{-3x}$ $y=(2+3x)e^{-3x}$ 解答 齐次方程的特征方程为 $\\lambda^2+6\\lambda+9=0$，特征根为 $\\lambda_{1,2}=-3$，\n\n因此对应齐次方程的通解为 $y=(C_1+C_2x)e^{-3x}$。\n\n将 $y|_{x=0}=1$，代入通解得 $C_1=1$。\n\n由 $y'|_{x=0}=-1$ 代入得 $C_2=2$，\n\n故所求特解为 $y=(1+2x)e^{-3x}$。\n\n因此选 A。",
+  "sort_order": 1
+}

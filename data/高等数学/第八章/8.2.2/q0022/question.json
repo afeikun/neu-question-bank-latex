@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由曲面 $x^2=y^2+z^2$ 及平面 $x=2,x=4$ 所围区域，积分 $\\iiint_\\Omega xdv$ 的值（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1024\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$252\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$512\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$126\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用平行截面法可得，\n\n$$\n\\iiint_{\\Omega}xdv=\\int_2^4 dx\\iint_D xydz=\\pi\\int_2^4 x^3dx=252\\pi\n$$",
+  "search_text": "$\\Omega$ 是由曲面 $x^2=y^2+z^2$ 及平面 $x=2,x=4$ 所围区域，积分 $\\iiint_\\Omega xdv$ 的值（ ） $1024\\pi$ $252\\pi$ $512\\pi$ $126\\pi$ 利用平行截面法可得，\n\n$$\n\\iiint_{\\Omega}xdv=\\int_2^4 dx\\iint_D xydz=\\pi\\int_2^4 x^3dx=252\\pi\n$$",
+  "sort_order": 22
+}

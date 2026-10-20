@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "湖泊污染物总量 $A$，排入污水中的浓度为 $m_0/V$，河水流量保持恒定，按题设进出流速，求污染物降到 $m_0$ 所需年数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\ln2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6\\ln2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6\\ln3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\ln3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：设2011年初为$t=0$，第$t$年湖泊中污染物$A$的总量为$m$，浓度为$\\frac{m}{V}$，在时间间隔$[t,t+dt]$内，\n\n排入湖中$A$的量为$\\frac{m_0}{V}\\frac{V}{6}dt$，流出湖泊的水中$A$的量为$\\frac{m}{V}\\frac{V}{3}dt$，改变为$dm=\\left(\\frac{m_0}{V}\\frac{V}{6}-\\frac{m}{V}\\frac{V}{3}\\right)dt$，\n\n于是得$m=m_0-Ce^{-t/3}$代入初值$m|_{t=0}=5m_0$，得$m=\\frac{m_0}{2}(1+9e^{-t/3})$，令$m=m_0$，得$t=6\\ln 3$。",
+  "search_text": "湖泊污染物总量 $A$，排入污水中的浓度为 $m_0/V$，河水流量保持恒定，按题设进出流速，求污染物降到 $m_0$ 所需年数。 $3\\ln2$ $6\\ln2$ $6\\ln3$ $2\\ln3$ 解析：设2011年初为$t=0$，第$t$年湖泊中污染物$A$的总量为$m$，浓度为$\\frac{m}{V}$，在时间间隔$[t,t+dt]$内，\n\n排入湖中$A$的量为$\\frac{m_0}{V}\\frac{V}{6}dt$，流出湖泊的水中$A$的量为$\\frac{m}{V}\\frac{V}{3}dt$，改变为$dm=\\left(\\frac{m_0}{V}\\frac{V}{6}-\\frac{m}{V}\\frac{V}{3}\\right)dt$，\n\n于是得$m=m_0-Ce^{-t/3}$代入初值$m|_{t=0}=5m_0$，得$m=\\frac{m_0}{2}(1+9e^{-t/3})$，令$m=m_0$，得$t=6\\ln 3$。",
+  "sort_order": 33
+}

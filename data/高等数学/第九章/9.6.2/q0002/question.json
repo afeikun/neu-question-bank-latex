@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 为曲线 $y=\\cos(\\frac\\pi2x)+1$ 上从 $O(0,0)$ 到 $B(1,1)$ 的一段弧，求 $I=\\int_L(xy+3\\sin y)\\,dx+x^2\\,dy$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：$P(x,y)=2xy，\\quad Q(x,y)=x^2$，则 $\\frac{\\partial P}{\\partial y}=2x=\\frac{\\partial Q}{\\partial x}$。所以积分 $\\int_L2xy\\,dx+x^2\\,dy$ 与路径无关。选择从 $O(0,0)$ 到 $A(1,0)$，再到 $B(1,1)$ 的折线作为积分路径，\n\n$$I=\\int_0^1 2x\\cdot 0\\,dx+\\int_0^1 1^2\\,dy=1，$$",
+  "search_text": "设 $L$ 为曲线 $y=\\cos(\\frac\\pi2x)+1$ 上从 $O(0,0)$ 到 $B(1,1)$ 的一段弧，求 $I=\\int_L(xy+3\\sin y)\\,dx+x^2\\,dy$（ ） $\\ln2$ $2$ $3$ $1$ 解答：$P(x,y)=2xy，\\quad Q(x,y)=x^2$，则 $\\frac{\\partial P}{\\partial y}=2x=\\frac{\\partial Q}{\\partial x}$。所以积分 $\\int_L2xy\\,dx+x^2\\,dy$ 与路径无关。选择从 $O(0,0)$ 到 $A(1,0)$，再到 $B(1,1)$ 的折线作为积分路径，\n\n$$I=\\int_0^1 2x\\cdot 0\\,dx+\\int_0^1 1^2\\,dy=1，$$",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/(2z-3)$ 在 $z=1$ 处的 Taylor 展开式是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\sum_{n=0}^{\\infty}2^n(z-1)^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(1/2)^n(z-1)^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\sum_{n=1}^{\\infty}2^n(z-1)^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(1/2)^n(z-1)^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1/(2z-3)=-1/(1-2(z-1))=-\\sum_{n=0}^{\\infty}2^n(z-1)^n$。",
+  "search_text": "函数 $1/(2z-3)$ 在 $z=1$ 处的 Taylor 展开式是（ ） $-\\sum_{n=0}^{\\infty}2^n(z-1)^n$ $\\sum_{n=0}^{\\infty}(1/2)^n(z-1)^n$ $-\\sum_{n=1}^{\\infty}2^n(z-1)^n$ $\\sum_{n=1}^{\\infty}(1/2)^n(z-1)^n$ $1/(2z-3)=-1/(1-2(z-1))=-\\sum_{n=0}^{\\infty}2^n(z-1)^n$。",
+  "sort_order": 57
+}

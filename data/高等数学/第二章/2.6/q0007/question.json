@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=\\arctan t,\\ y=\\ln(1+t^2)$，求 $\\frac{d^2y}{dx^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2t}{1+t^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac2{1+t^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2(1+t^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\frac{1}{1+t^2}，\\frac{dy}{dt}=\\frac{2t}{1+t^2}，\\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=2t$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }\\frac{d^2y}{dx^2}=\\frac{d\\left(\\frac{dy}{dx}\\right)}{dx}=\\frac{d\\left(\\frac{dy}{dx}\\right)/dt}{dx/dt}=\\frac{2}{\\frac{1}{1+t^2}}=2(1+t^2)$$",
+  "search_text": "$x=\\arctan t,\\ y=\\ln(1+t^2)$，求 $\\frac{d^2y}{dx^2}$。 $\\frac{2t}{1+t^2}$ $2$ $\\frac2{1+t^2}$ $2(1+t^2)$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\frac{1}{1+t^2}，\\frac{dy}{dt}=\\frac{2t}{1+t^2}，\\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=2t$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }\\frac{d^2y}{dx^2}=\\frac{d\\left(\\frac{dy}{dx}\\right)}{dx}=\\frac{d\\left(\\frac{dy}{dx}\\right)/dt}{dx/dt}=\\frac{2}{\\frac{1}{1+t^2}}=2(1+t^2)$$",
+  "sort_order": 7
+}

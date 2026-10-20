@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 与 $\\sum_{n=1}^{\\infty} v_n$ 收敛，则下述结论中不正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty} ku_n$ 收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}(u_n+v_n)$ 收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty} u_nv_n$ 收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(u_n-v_n)$ 收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "取收敛但非绝对收敛的例子可使乘积级数发散，其余由级数基本性质成立。",
+  "search_text": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 与 $\\sum_{n=1}^{\\infty} v_n$ 收敛，则下述结论中不正确的是？ $\\sum_{n=1}^{\\infty} ku_n$ 收敛 $\\sum_{n=1}^{\\infty}(u_n+v_n)$ 收敛 $\\sum_{n=1}^{\\infty} u_nv_n$ 收敛 $\\sum_{n=1}^{\\infty}(u_n-v_n)$ 收敛 取收敛但非绝对收敛的例子可使乘积级数发散，其余由级数基本性质成立。",
+  "sort_order": 13
+}

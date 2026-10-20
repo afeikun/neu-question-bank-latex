@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sum_{n=1}^{\\infty}(-1)^n\\sqrt n\\sin(1/n^\\alpha)$ 绝对收敛，且 $\\sum_{n=1}^{\\infty}(-1)^n/n^{2-\\alpha}$ 条件收敛，则？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2<\\alpha<1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1<\\alpha<3/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/2<\\alpha<2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0<\\alpha<1/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "第一条件要求 $\\alpha>3/2$，第二条件要求 $1\\le\\alpha<2$，合并为 $3/2<\\alpha<2$。",
+  "search_text": "$\\sum_{n=1}^{\\infty}(-1)^n\\sqrt n\\sin(1/n^\\alpha)$ 绝对收敛，且 $\\sum_{n=1}^{\\infty}(-1)^n/n^{2-\\alpha}$ 条件收敛，则？ $1/2<\\alpha<1$ $1<\\alpha<3/2$ $3/2<\\alpha<2$ $0<\\alpha<1/2$ 第一条件要求 $\\alpha>3/2$，第二条件要求 $1\\le\\alpha<2$，合并为 $3/2<\\alpha<2$。",
+  "sort_order": 41
+}

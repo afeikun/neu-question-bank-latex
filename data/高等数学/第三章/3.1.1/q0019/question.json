@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在区间 $[-1,1]$ 上，下列函数满足罗尔中值定理条件的是 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)=\\begin{cases}e^x,&0\\le x\\le1\\\\x+1,&-1\\le x<0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)=|x|$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)=\\begin{cases}x,&-1\\le x<1\\\\-1,&x=1\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)=\\begin{cases}x^3,&0\\le x\\le1\\\\x^2,&-1\\le x<0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "原题解析指出 A 在 $0$ 处不可导，B 在区间内不可导，C 在端点不连续；D 在 $0$ 连续且可导、端点值相等，满足罗尔定理条件。",
+  "search_text": "在区间 $[-1,1]$ 上，下列函数满足罗尔中值定理条件的是 $(\\quad)$。 $f(x)=\\begin{cases}e^x,&0\\le x\\le1\\\\x+1,&-1\\le x<0\\end{cases}$ $f(x)=|x|$ $f(x)=\\begin{cases}x,&-1\\le x<1\\\\-1,&x=1\\end{cases}$ $f(x)=\\begin{cases}x^3,&0\\le x\\le1\\\\x^2,&-1\\le x<0\\end{cases}$ 原题解析指出 A 在 $0$ 处不可导，B 在区间内不可导，C 在端点不连续；D 在 $0$ 连续且可导、端点值相等，满足罗尔定理条件。",
+  "sort_order": 19
+}

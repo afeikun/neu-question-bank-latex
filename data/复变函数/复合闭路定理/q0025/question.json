@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\frac{\\cos z}{z^2-a^2}\\,dz=-\\frac{\\pi i\\cos a}{a}$（$a\\ne0$），正向简单闭曲线 $C$ 应（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "包含 $-a$，不包含 $a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不包含 $a,-a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "包含 $a$，不包含 $-a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "包含 $a,-a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$C$ 只包含 $-a$ 时，留数为 $-\\frac{\\cos a}{2a}$，积分等于 $-\\frac{\\pi i\\cos a}{a}$。",
+  "search_text": "为使 $\\oint_C\\frac{\\cos z}{z^2-a^2}\\,dz=-\\frac{\\pi i\\cos a}{a}$（$a\\ne0$），正向简单闭曲线 $C$ 应（ ）。 包含 $-a$，不包含 $a$ 不包含 $a,-a$ 包含 $a$，不包含 $-a$ 包含 $a,-a$ $C$ 只包含 $-a$ 时，留数为 $-\\frac{\\cos a}{2a}$，积分等于 $-\\frac{\\pi i\\cos a}{a}$。",
+  "sort_order": 25
+}

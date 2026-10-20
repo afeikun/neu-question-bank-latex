@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线上任一点 $(x,y)$ 处的切线斜率等于 $-(1+\\frac yx)$，且过点 $(2,1)$，则该曲线方程是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac4x+\\frac x2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac2x+\\frac x4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac4x-\\frac x2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac2x-\\frac x4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由题意知 $y'=-(1+\\frac{y}{x})$，解得 $y=\\frac{c}{x}-\\frac{x}{2}$，代入初值，得 $c=4$，所以有 $y=\\frac{4}{x}-\\frac{x}{2}$",
+  "search_text": "曲线上任一点 $(x,y)$ 处的切线斜率等于 $-(1+\\frac yx)$，且过点 $(2,1)$，则该曲线方程是（ ） $y=\\frac4x+\\frac x2$ $y=\\frac2x+\\frac x4$ $y=\\frac4x-\\frac x2$ $y=\\frac2x-\\frac x4$ 由题意知 $y'=-(1+\\frac{y}{x})$，解得 $y=\\frac{c}{x}-\\frac{x}{2}$，代入初值，得 $c=4$，所以有 $y=\\frac{4}{x}-\\frac{x}{2}$",
+  "sort_order": 21
+}

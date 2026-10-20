@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^{+\\infty}\\dfrac{x\\sin x}{1+x^2}\\,dx=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi{2e}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{\\pi e}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{3\\pi e}{5}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $f(z)=\\dfrac{ze^{iz}}{1+z^2}$，由上半平面的留数计算得到 $I=\\dfrac\\pi{2e}$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^{+\\infty}\\dfrac{x\\sin x}{1+x^2}\\,dx=(\\ \\ )$。 $\\dfrac\\pi{2e}$ $\\dfrac{\\pi e}{3}$ $\\dfrac\\pi e$ $\\dfrac{3\\pi e}{5}$ 令 $f(z)=\\dfrac{ze^{iz}}{1+z^2}$，由上半平面的留数计算得到 $I=\\dfrac\\pi{2e}$。",
+  "sort_order": 25
+}

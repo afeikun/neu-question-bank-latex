@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $y=e^x$、$y=1$、$x=2$ 围成的区域，若以 $x$ 为积分变量，面积积分的区间为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[0,2]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[1,2]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[0,e^2]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[0,1]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "面积以横坐标为积分变量，从交点 $x=0$ 到边界 $x=2$ 积分。",
+  "search_text": "由 $y=e^x$、$y=1$、$x=2$ 围成的区域，若以 $x$ 为积分变量，面积积分的区间为 $[0,2]$ $[1,2]$ $[0,e^2]$ $[0,1]$ 面积以横坐标为积分变量，从交点 $x=0$ 到边界 $x=2$ 积分。",
+  "sort_order": 1
+}

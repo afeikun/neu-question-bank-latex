@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\vec a=\\vec i$，$\\vec b=\\vec j-2\\vec k$，$\\vec c=2\\vec i-2\\vec j+\\vec k$，则满足 $\\vec n^{0}\\perp\\vec c$ 且 $\\vec n^{0},\\vec a,\\vec b$ 共面的单位向量 $\\vec n^{0}$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac23\\vec i-\\frac13\\vec j+\\frac23\\vec k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23\\vec i+\\frac13\\vec j+\\frac23\\vec k$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac23\\vec i+\\frac13\\vec j+\\frac23\\vec k$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac23\\vec i-\\frac13\\vec j+\\frac23\\vec k$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $\\vec n^0=(x,y,z)$，由单位长度、与 $\\vec c$ 垂直及共面条件解得 $\\vec n^0=\\pm(\\frac23,\\frac13,-\\frac23)$；所列选项为其相反向量。",
+  "search_text": "已知 $\\vec a=\\vec i$，$\\vec b=\\vec j-2\\vec k$，$\\vec c=2\\vec i-2\\vec j+\\vec k$，则满足 $\\vec n^{0}\\perp\\vec c$ 且 $\\vec n^{0},\\vec a,\\vec b$ 共面的单位向量 $\\vec n^{0}$ 为(\\quad)。 $-\\frac23\\vec i-\\frac13\\vec j+\\frac23\\vec k$ $\\frac23\\vec i+\\frac13\\vec j+\\frac23\\vec k$ $-\\frac23\\vec i+\\frac13\\vec j+\\frac23\\vec k$ $\\frac23\\vec i-\\frac13\\vec j+\\frac23\\vec k$ 令 $\\vec n^0=(x,y,z)$，由单位长度、与 $\\vec c$ 垂直及共面条件解得 $\\vec n^0=\\pm(\\frac23,\\frac13,-\\frac23)$；所列选项为其相反向量。",
+  "sort_order": 4
+}

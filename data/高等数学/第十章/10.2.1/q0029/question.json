@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "镭的衰变速度与它的现存量 $R$ 成正比，镭经过 $1600$ 年后只剩初始量的一半，求现存量 $R$ 与时间 $t$ 的函数关系（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$R=R_0(1+e^{-0.000433t})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$R=R_0(1+e^{0.000433t})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$R=R_0e^{-0.000433t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$R=R_0e^{0.000433t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{dR}{dt}=-\\lambda R$ 得 $\\frac{dR}{R}=-\\lambda\\,dt\\quad \\ln R=-\\lambda t+\\ln c\\quad R=ce^{-\\lambda t}$\n\n由 $R(0)=R_0\\quad R(1600)=\\frac{1}{2}R_0$\n\n得 $\\lambda=\\frac{\\ln 2}{1600}=0.000433$",
+  "search_text": "镭的衰变速度与它的现存量 $R$ 成正比，镭经过 $1600$ 年后只剩初始量的一半，求现存量 $R$ 与时间 $t$ 的函数关系（ ） $R=R_0(1+e^{-0.000433t})$ $R=R_0(1+e^{0.000433t})$ $R=R_0e^{-0.000433t}$ $R=R_0e^{0.000433t}$ $\\frac{dR}{dt}=-\\lambda R$ 得 $\\frac{dR}{R}=-\\lambda\\,dt\\quad \\ln R=-\\lambda t+\\ln c\\quad R=ce^{-\\lambda t}$\n\n由 $R(0)=R_0\\quad R(1600)=\\frac{1}{2}R_0$\n\n得 $\\lambda=\\frac{\\ln 2}{1600}=0.000433$",
+  "sort_order": 29
+}

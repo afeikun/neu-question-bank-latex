@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $\\begin{vmatrix}1&1&1&1\\\\2&2^2&2^3&2^4\\\\3&3^2&3^3&3^4\\\\4&4^2&4^3&4^4\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$24$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$288$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\begin{vmatrix}1&1&1&1\\\\2&2^2&2^3&2^4\\\\3&3^2&3^3&3^4\\\\4&4^2&4^3&4^4\\end{vmatrix}=2\\cdot3\\cdot4\\begin{vmatrix}1&1&1&1\\\\1&2&2^2&2^3\\\\1&3&3^2&3^3\\\\1&4&4^2&4^3\\end{vmatrix}=2\\cdot3\\cdot4(4-3)(4-2)(4-1)(3-2)(3-1)(2-1)=288$。",
+  "search_text": "行列式 $\\begin{vmatrix}1&1&1&1\\\\2&2^2&2^3&2^4\\\\3&3^2&3^3&3^4\\\\4&4^2&4^3&4^4\\end{vmatrix}$ 等于（ ）。 $12$ $24$ $288$ $0$ $\\begin{vmatrix}1&1&1&1\\\\2&2^2&2^3&2^4\\\\3&3^2&3^3&3^4\\\\4&4^2&4^3&4^4\\end{vmatrix}=2\\cdot3\\cdot4\\begin{vmatrix}1&1&1&1\\\\1&2&2^2&2^3\\\\1&3&3^2&3^3\\\\1&4&4^2&4^3\\end{vmatrix}=2\\cdot3\\cdot4(4-3)(4-2)(4-1)(3-2)(3-1)(2-1)=288$。",
+  "sort_order": 2
+}

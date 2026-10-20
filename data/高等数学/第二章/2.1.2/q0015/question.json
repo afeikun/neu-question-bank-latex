@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\begin{cases}e^{ax},&x\\le0\\\\b(1-x^2),&x>0\\end{cases}$，在 $x=0$ 处处处有导数，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=b=2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=-2,b=-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=b=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=0,b=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "右导数存在要求 $b=1$，左右导数相等要求 $a=0$。",
+  "search_text": "$f(x)=\\begin{cases}e^{ax},&x\\le0\\\\b(1-x^2),&x>0\\end{cases}$，在 $x=0$ 处处处有导数，则（ ）。 $a=b=2$ $a=-2,b=-1$ $a=b=1$ $a=0,b=1$ 右导数存在要求 $b=1$，左右导数相等要求 $a=0$。",
+  "sort_order": 15
+}

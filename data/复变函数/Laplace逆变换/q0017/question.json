@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal{L}^{-1}[\\frac{2s^2+s+5}{s^3+6s^2+11s+6}]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3e^{-t}-11e^{-2t}+10e^{-3t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3e^{-t}+11e^{-2t}+10e^{-3t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3e^{-t}-11e^{-2t}-10e^{-3t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3e^{-t}+11e^{-2t}-10e^{-3t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 $(s+1)(s+2)(s+3)$ 作部分分式，得 $3e^{-t}-11e^{-2t}+10e^{-3t}$。",
+  "search_text": "$\\mathcal{L}^{-1}[\\frac{2s^2+s+5}{s^3+6s^2+11s+6}]=(\\quad).$ $3e^{-t}-11e^{-2t}+10e^{-3t}$ $3e^{-t}+11e^{-2t}+10e^{-3t}$ $3e^{-t}-11e^{-2t}-10e^{-3t}$ $3e^{-t}+11e^{-2t}-10e^{-3t}$ 对 $(s+1)(s+2)(s+3)$ 作部分分式，得 $3e^{-t}-11e^{-2t}+10e^{-3t}$。",
+  "sort_order": 17
+}

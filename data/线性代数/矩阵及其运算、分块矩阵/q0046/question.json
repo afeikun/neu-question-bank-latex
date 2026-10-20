@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 均为 $2$ 阶矩阵，$A^*,B^*$ 分别表示矩阵 $A,B$ 的伴随矩阵，则分块矩阵 $\\begin{pmatrix}A&O\\\\O&B\\end{pmatrix}^*=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}|A|B^*&O\\\\O&|B|A^*\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}|B|A^*&O\\\\O&|A|B^*\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}|A|A^*&O\\\\O&|B|B^*\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}|B|B^*&O\\\\O&|A|A^*\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\begin{pmatrix}A&O\\\\O&B\\end{pmatrix}^*=\\left|\\begin{pmatrix}A&O\\\\O&B\\end{pmatrix}\\right|\\begin{pmatrix}A&O\\\\O&B\\end{pmatrix}^{-1}=\\begin{pmatrix}|A||B|A^{-1}&O\\\\O&|A||B|B^{-1}\\end{pmatrix}=\\begin{pmatrix}|B|A^*&O\\\\O&|A|B^*\\end{pmatrix}$。",
+  "search_text": "设 $A,B$ 均为 $2$ 阶矩阵，$A^*,B^*$ 分别表示矩阵 $A,B$ 的伴随矩阵，则分块矩阵 $\\begin{pmatrix}A&O\\\\O&B\\end{pmatrix}^*=$（ ）。 $\\begin{pmatrix}|A|B^*&O\\\\O&|B|A^*\\end{pmatrix}$ $\\begin{pmatrix}|B|A^*&O\\\\O&|A|B^*\\end{pmatrix}$ $\\begin{pmatrix}|A|A^*&O\\\\O&|B|B^*\\end{pmatrix}$ $\\begin{pmatrix}|B|B^*&O\\\\O&|A|A^*\\end{pmatrix}$ $\\begin{pmatrix}A&O\\\\O&B\\end{pmatrix}^*=\\left|\\begin{pmatrix}A&O\\\\O&B\\end{pmatrix}\\right|\\begin{pmatrix}A&O\\\\O&B\\end{pmatrix}^{-1}=\\begin{pmatrix}|A||B|A^{-1}&O\\\\O&|A||B|B^{-1}\\end{pmatrix}=\\begin{pmatrix}|B|A^*&O\\\\O&|A|B^*\\end{pmatrix}$。",
+  "sort_order": 46
+}

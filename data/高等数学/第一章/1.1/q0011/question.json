@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 的定义域为 $[0,1]$，则 $f(\\sin 2x)$ 的定义域为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2k\\pi,\\pi+2k\\pi),\\ k\\in\\mathbb Z$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[k\\pi,\\frac{\\pi}{2}+k\\pi],\\ k\\in\\mathbb Z$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2k\\pi,\\frac{\\pi}{2}+2k\\pi),\\ k\\in\\mathbb Z$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[k\\pi,\\pi+k\\pi],\\ k\\in\\mathbb Z$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $f(x)$ 的定义域为 $[0,1]$，要使 $f(\\sin 2x)$ 有意义，须 $\\sin 2x\\in[0,1]$。原题解析给出 $x\\in[k\\pi,\\frac{\\pi}{2}+k\\pi]$，$k\\in\\mathbb Z$。",
+  "search_text": "设 $f(x)$ 的定义域为 $[0,1]$，则 $f(\\sin 2x)$ 的定义域为（ ）。 $(2k\\pi,\\pi+2k\\pi),\\ k\\in\\mathbb Z$ $[k\\pi,\\frac{\\pi}{2}+k\\pi],\\ k\\in\\mathbb Z$ $(2k\\pi,\\frac{\\pi}{2}+2k\\pi),\\ k\\in\\mathbb Z$ $[k\\pi,\\pi+k\\pi],\\ k\\in\\mathbb Z$ 由 $f(x)$ 的定义域为 $[0,1]$，要使 $f(\\sin 2x)$ 有意义，须 $\\sin 2x\\in[0,1]$。原题解析给出 $x\\in[k\\pi,\\frac{\\pi}{2}+k\\pi]$，$k\\in\\mathbb Z$。",
+  "sort_order": 11
+}

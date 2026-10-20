@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设事件$A,B$仅发生一个的概率为0.3，且$P(A)+P(B)=0.5$，则$A,B$至少有一个不发生的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.9$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$A,B$仅发生一个的概率为$P(A\\overline B)+P(\\overline A B)=P(A)+P(B)-2P(AB)=0.3$，由$P(A)+P(B)=0.5$得$P(AB)=0.1$。至少有一个不发生的概率为$1-P(AB)=0.9$。",
+  "search_text": "设事件$A,B$仅发生一个的概率为0.3，且$P(A)+P(B)=0.5$，则$A,B$至少有一个不发生的概率为（ ）。 $0.9$ $0.8$ $0.2$ $0.1$ $A,B$仅发生一个的概率为$P(A\\overline B)+P(\\overline A B)=P(A)+P(B)-2P(AB)=0.3$，由$P(A)+P(B)=0.5$得$P(AB)=0.1$。至少有一个不发生的概率为$1-P(AB)=0.9$。",
+  "sort_order": 21
+}

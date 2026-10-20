@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $z=f(x,y)$ 在 $P_0(x_0,y_0)$ 处取得极大值，则必有。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f_x=f_y=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f_{xx}<0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "存在 $\\delta>0$ 使 $f(x,y)<f(x_0,y_0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "曲面在该点存在与xy平面平行切平面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "根据极值的定义可得选项 A 正确；由极值的必要条件可得，要得到选项 BCD 前提条件还必须 $z=f(x,y)$ 在 $P_0(x_0,y_0)$ 处存在偏导数。",
+  "search_text": "若 $z=f(x,y)$ 在 $P_0(x_0,y_0)$ 处取得极大值，则必有。 $f_x=f_y=0$ $f_{xx}<0$ 存在 $\\delta>0$ 使 $f(x,y)<f(x_0,y_0)$ 曲面在该点存在与xy平面平行切平面 根据极值的定义可得选项 A 正确；由极值的必要条件可得，要得到选项 BCD 前提条件还必须 $z=f(x,y)$ 在 $P_0(x_0,y_0)$ 处存在偏导数。",
+  "sort_order": 4
+}

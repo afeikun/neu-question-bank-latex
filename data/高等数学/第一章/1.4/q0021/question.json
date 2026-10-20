@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}(\\sqrt{(x+p)(x+q)}-x)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p+q$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac p2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac q2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{p+q}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "有理化后极限为 $\\lim_{x\\to\\infty}\\frac{(x+p)(x+q)-x^2}{\\sqrt{(x+p)(x+q)}+x}=\\frac{p+q}{2}$。",
+  "search_text": "$\\lim_{x\\to\\infty}(\\sqrt{(x+p)(x+q)}-x)=(\\ )$。 $p+q$ $\\frac p2$ $\\frac q2$ $\\frac{p+q}{2}$ 有理化后极限为 $\\lim_{x\\to\\infty}\\frac{(x+p)(x+q)-x^2}{\\sqrt{(x+p)(x+q)}+x}=\\frac{p+q}{2}$。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}1/n^k$ 发散时 $k$ 的范围为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1\\le k\\le2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k>1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k\\le2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k\\le1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$p$ 级数当 $k\\le1$ 时发散。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}1/n^k$ 发散时 $k$ 的范围为？ $1\\le k\\le2$ $k>1$ $k\\le2$ $k\\le1$ $p$ 级数当 $k\\le1$ 时发散。",
+  "sort_order": 44
+}

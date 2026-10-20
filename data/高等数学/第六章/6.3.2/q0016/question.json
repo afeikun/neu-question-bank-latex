@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知三平面 $\\Pi_1:4x+7y+2z+5=0$，$\\Pi_2:x-2y+3z-9=0$，$\\Pi_3:2x-2y+3z+10=0$，则必有(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\Pi_1$ 与 $\\Pi_2$ 平行"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\Pi_2$ 与 $\\Pi_3$ 平行"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Pi_2$ 与 $\\Pi_3$ 垂直"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\Pi_1$ 与 $\\Pi_3$ 垂直"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "法向量 $n_1=(4,7,2)$，$n_3=(2,-2,3)$，点积为 $0$，故 $\\Pi_1\\perp\\Pi_3$。",
+  "search_text": "已知三平面 $\\Pi_1:4x+7y+2z+5=0$，$\\Pi_2:x-2y+3z-9=0$，$\\Pi_3:2x-2y+3z+10=0$，则必有(\\quad)。 $\\Pi_1$ 与 $\\Pi_2$ 平行 $\\Pi_2$ 与 $\\Pi_3$ 平行 $\\Pi_2$ 与 $\\Pi_3$ 垂直 $\\Pi_1$ 与 $\\Pi_3$ 垂直 法向量 $n_1=(4,7,2)$，$n_3=(2,-2,3)$，点积为 $0$，故 $\\Pi_1\\perp\\Pi_3$。",
+  "sort_order": 16
+}

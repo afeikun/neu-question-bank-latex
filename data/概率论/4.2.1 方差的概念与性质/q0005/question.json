@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$D(\\xi)=2,D(\\eta)=1.5$且独立，求$D(3\\xi+2\\eta+1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$24$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$25$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$9D(\\xi)+4D(\\eta)=18+6=24$。",
+  "search_text": "$D(\\xi)=2,D(\\eta)=1.5$且独立，求$D(3\\xi+2\\eta+1)$。 $24$ $9$ $25$ $2$ $9D(\\xi)+4D(\\eta)=18+6=24$。",
+  "sort_order": 5
+}

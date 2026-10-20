@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列关于函数全微分的计算，正确的有（ ）个。\n\n（1）函数 $z=4xy^3+5x^2y^6$ 的全微分为 $dz=(4y^3+10xy^6)dx+(12xy^2+30x^2y^5)dy$。\n\n（2）函数 $z=e^{xy}$ 在点 $(2,1)$ 处的全微分为 $dz=e^2dx+2e^2dy$。\n\n（3）函数 $u=x^{y^z}$ 的全微分为 $du=x^{y^z}\\left(\\frac{y^z}{x}dx+\\frac{zy^z\\ln x}{y}dy+y^z\\ln x\\ln y\\,dz\\right)$。\n\n（4）函数 $f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\frac1{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0,\\\\0,&x^2+y^2=0\\end{cases}$ 在 $(0,0)$ 处可微分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "3个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "前三项由偏导数与全微分定义直接验证。第四项在原点两偏导数均为0；令 $r=\\sqrt{x^2+y^2}$，则 $f(x,y)/r=r\\sin(1/r)\\to0$，故在原点可微。四个命题均正确，选第一项。",
+  "search_text": "下列关于函数全微分的计算，正确的有（ ）个。\n\n（1）函数 $z=4xy^3+5x^2y^6$ 的全微分为 $dz=(4y^3+10xy^6)dx+(12xy^2+30x^2y^5)dy$。\n\n（2）函数 $z=e^{xy}$ 在点 $(2,1)$ 处的全微分为 $dz=e^2dx+2e^2dy$。\n\n（3）函数 $u=x^{y^z}$ 的全微分为 $du=x^{y^z}\\left(\\frac{y^z}{x}dx+\\frac{zy^z\\ln x}{y}dy+y^z\\ln x\\ln y\\,dz\\right)$。\n\n（4）函数 $f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\frac1{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0,\\\\0,&x^2+y^2=0\\end{cases}$ 在 $(0,0)$ 处可微分。 4个 2个 1个 3个 前三项由偏导数与全微分定义直接验证。第四项在原点两偏导数均为0；令 $r=\\sqrt{x^2+y^2}$，则 $f(x,y)/r=r\\sin(1/r)\\to0$，故在原点可微。四个命题均正确，选第一项。",
+  "sort_order": 5
+}

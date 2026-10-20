@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程组初值问题 $\\begin{cases}y\\prime-2z\\prime=f(t),\\\\y\\prime\\prime-z\\prime\\prime+z=0,\\\\y(0)=y\\prime(0)=z(0)=z\\prime(0)=0\\end{cases}$ 的解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}y(t)=(1-2\\cos t)*f(t),\\\\z(t)=-\\cos t*f(t)\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}y(t)=(1-2\\sin t)*f(t),\\\\z(t)=-\\sin t*f(t)\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}y(t)=(1-2\\cos t)f(t),\\\\z(t)=-(\\cos t)f(t)\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}y(t)=(1-2\\sin t)f(t),\\\\z(t)=-(\\sin t)f(t)\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "取 Laplace 变换解得 $Y(s)=\\left(\\dfrac1s-\\dfrac{2s}{s^2+1}\\right)F(s)$、$Z(s)=-\\dfrac{s}{s^2+1}F(s)$，故原图给出的解为选项 1。",
+  "search_text": "微分方程组初值问题 $\\begin{cases}y\\prime-2z\\prime=f(t),\\\\y\\prime\\prime-z\\prime\\prime+z=0,\\\\y(0)=y\\prime(0)=z(0)=z\\prime(0)=0\\end{cases}$ 的解为（ ）。 $\\begin{cases}y(t)=(1-2\\cos t)*f(t),\\\\z(t)=-\\cos t*f(t)\\end{cases}$ $\\begin{cases}y(t)=(1-2\\sin t)*f(t),\\\\z(t)=-\\sin t*f(t)\\end{cases}$ $\\begin{cases}y(t)=(1-2\\cos t)f(t),\\\\z(t)=-(\\cos t)f(t)\\end{cases}$ $\\begin{cases}y(t)=(1-2\\sin t)f(t),\\\\z(t)=-(\\sin t)f(t)\\end{cases}$ 取 Laplace 变换解得 $Y(s)=\\left(\\dfrac1s-\\dfrac{2s}{s^2+1}\\right)F(s)$、$Z(s)=-\\dfrac{s}{s^2+1}F(s)$，故原图给出的解为选项 1。",
+  "sort_order": 5
+}

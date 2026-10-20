@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Ln}(1+i\\sqrt3)^{-1}=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\ln2+(2k-\\frac13)\\pi i$（$k$ 为整数）"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\ln2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2k-\\frac13)\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\ln2-\\frac\\pi3i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\operatorname{Ln}(w^{-1})=-\\ln|w|-i\\arg w$，按多值幅角化简。",
+  "search_text": "$\\operatorname{Ln}(1+i\\sqrt3)^{-1}=(\\ )$。 $-\\ln2+(2k-\\frac13)\\pi i$（$k$ 为整数） $-\\ln2$ $(2k-\\frac13)\\pi i$ $-\\ln2-\\frac\\pi3i$ $\\operatorname{Ln}(w^{-1})=-\\ln|w|-i\\arg w$，按多值幅角化简。",
+  "sort_order": 9
+}

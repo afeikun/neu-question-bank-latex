@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "把第二类曲线积分 $\\int_LP(x,y)dx+Q(x,y)dy$ 化为第一类曲线积分，其中 $L:y=\\sqrt{x}$ 从 $(0,0)$ 到 $(1,1)$ 的一段弧，其结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_L\\frac{2\\sqrt{x}P(x,y)+Q(x,y)}{\\sqrt{1+4x}}ds$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_L\\frac{2\\sqrt{x}P(x,y)+2Q(x,y)}{\\sqrt{1+4x}}ds$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_L\\frac{\\sqrt{x}P(x,y)+Q(x,y)}{\\sqrt{1+4x}}ds$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_L\\frac{2\\sqrt{x}P(x,y)+Q(x,y)}{\\sqrt{1+x}}ds$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解：$y'=\\frac{1}{2\\sqrt{x}}$，$L$ 的切向量 $T=\\left\\{1,\\frac{1}{2\\sqrt{x}}\\right\\}$\n\n$$\\cos\\alpha=\\frac{1}{\\sqrt{1+\\left(\\frac{1}{2\\sqrt{x}}\\right)^2}}=\\frac{2\\sqrt{x}}{\\sqrt{1+4x}}\\qquad\\cos\\beta=\\frac{\\frac{1}{2\\sqrt{x}}}{\\sqrt{1+\\left(\\frac{1}{2\\sqrt{x}}\\right)^2}}=\\frac{1}{\\sqrt{1+4x}}$$\n\n于是\n\n$$\\int_LP(x,y)dx+Q(x,y)dy=\\int_L\\left[P(x,y)\\frac{2\\sqrt{x}}{\\sqrt{1+4x}}+Q(x,y)\\frac{1}{\\sqrt{1+4x}}\\right]ds$$\n\n$$=\\int_L\\frac{P(x,y)2\\sqrt{x}+Q(x,y)}{\\sqrt{1+4x}}\\,ds$$",
+  "search_text": "把第二类曲线积分 $\\int_LP(x,y)dx+Q(x,y)dy$ 化为第一类曲线积分，其中 $L:y=\\sqrt{x}$ 从 $(0,0)$ 到 $(1,1)$ 的一段弧，其结果为（ ） $\\int_L\\frac{2\\sqrt{x}P(x,y)+Q(x,y)}{\\sqrt{1+4x}}ds$ $\\int_L\\frac{2\\sqrt{x}P(x,y)+2Q(x,y)}{\\sqrt{1+4x}}ds$ $\\int_L\\frac{\\sqrt{x}P(x,y)+Q(x,y)}{\\sqrt{1+4x}}ds$ $\\int_L\\frac{2\\sqrt{x}P(x,y)+Q(x,y)}{\\sqrt{1+x}}ds$ 解：$y'=\\frac{1}{2\\sqrt{x}}$，$L$ 的切向量 $T=\\left\\{1,\\frac{1}{2\\sqrt{x}}\\right\\}$\n\n$$\\cos\\alpha=\\frac{1}{\\sqrt{1+\\left(\\frac{1}{2\\sqrt{x}}\\right)^2}}=\\frac{2\\sqrt{x}}{\\sqrt{1+4x}}\\qquad\\cos\\beta=\\frac{\\frac{1}{2\\sqrt{x}}}{\\sqrt{1+\\left(\\frac{1}{2\\sqrt{x}}\\right)^2}}=\\frac{1}{\\sqrt{1+4x}}$$\n\n于是\n\n$$\\int_LP(x,y)dx+Q(x,y)dy=\\int_L\\left[P(x,y)\\frac{2\\sqrt{x}}{\\sqrt{1+4x}}+Q(x,y)\\frac{1}{\\sqrt{1+4x}}\\right]ds$$\n\n$$=\\int_L\\frac{P(x,y)2\\sqrt{x}+Q(x,y)}{\\sqrt{1+4x}}\\,ds$$",
+  "sort_order": 2
+}

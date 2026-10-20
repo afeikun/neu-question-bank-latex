@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在某极限过程中，若 $f(x)$ 有极限，$g(x)$ 无极限，关于 $f(x)g(x)$ 说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无意义"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "一定存在极限"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不一定存在极限"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在极限"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "乘积极限不一定存在，例如不同选择的 $f,g$ 可使乘积有极限或无极限。",
+  "search_text": "在某极限过程中，若 $f(x)$ 有极限，$g(x)$ 无极限，关于 $f(x)g(x)$ 说法正确的是（ ）。 无意义 一定存在极限 不一定存在极限 不存在极限 乘积极限不一定存在，例如不同选择的 $f,g$ 可使乘积有极限或无极限。",
+  "sort_order": 52
+}

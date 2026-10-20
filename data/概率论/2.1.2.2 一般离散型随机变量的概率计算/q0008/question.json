@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "生产线发现次品即调整，$X$为两次调整之间生产的合格品数，次品概率0.1，求$P(X\\ge5)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0.1)^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0.9)^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0.9)^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0.1)^5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$X\\ge5$表示前5件均为合格品，概率$(0.9)^5$。",
+  "search_text": "生产线发现次品即调整，$X$为两次调整之间生产的合格品数，次品概率0.1，求$P(X\\ge5)$。 $(0.1)^4$ $(0.9)^4$ $(0.9)^5$ $(0.1)^5$ $X\\ge5$表示前5件均为合格品，概率$(0.9)^5$。",
+  "sort_order": 8
+}

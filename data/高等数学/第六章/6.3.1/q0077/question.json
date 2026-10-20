@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过两点 $M(3,-2,9)$，$N(-6,0,-4)$ 且与平面 $2x-y+4z-8=0$ 垂直的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-2y-z+2=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+2y-z+2=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+2y-z-2=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-2y-z-2=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "平面法向量为 $MN$ 与原平面法向量的叉积，可取 $(1,-2,-1)$，过 $N$ 得 $x-2y-z+2=0$。",
+  "search_text": "过两点 $M(3,-2,9)$，$N(-6,0,-4)$ 且与平面 $2x-y+4z-8=0$ 垂直的平面方程为(\\quad)。 $x-2y-z+2=0$ $x+2y-z+2=0$ $x+2y-z-2=0$ $x-2y-z-2=0$ 平面法向量为 $MN$ 与原平面法向量的叉积，可取 $(1,-2,-1)$，过 $N$ 得 $x-2y-z+2=0$。",
+  "sort_order": 77
+}

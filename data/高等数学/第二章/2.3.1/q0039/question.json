@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x=\\ln\\sqrt{1+\\sin^2t},y=\\cos2t$，则 $d^2y/dx^2=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-8(1+\\sin^2t)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-8(-1+\\sin^2t)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-8(1-\\sin^2t)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8(1+\\sin^2t)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$d^2y/dx^2=-8(1+\\sin^2t)$。",
+  "search_text": "设 $x=\\ln\\sqrt{1+\\sin^2t},y=\\cos2t$，则 $d^2y/dx^2=$（ ）。 $-8(1+\\sin^2t)$ $-8(-1+\\sin^2t)$ $-8(1-\\sin^2t)$ $8(1+\\sin^2t)$ $d^2y/dx^2=-8(1+\\sin^2t)$。",
+  "sort_order": 39
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由曲线 $C$ 型构件，其上每一点 $(x,y,z)$ 的线密度 $\\rho(x,y,z)=\\sqrt{2y}$，$C$ 的方程为 $x=t,y=\\frac12t^2,z=\\frac13t^3,\\ t\\in[0,1]$，该构件质量 $M=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1t^2\\sqrt{1+t^2+t^4}dt$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1t\\sqrt{1+t^2+t^4}dt$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1\\sqrt t\\sqrt{1+t^2+t^4}dt$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1\\sqrt{1+t^2+t^4}dt$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $M=\\int_C\\rho(x,y,z)ds=\\int_C\\sqrt{2y}ds=\\int_0^1t\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt$\n\n$$\n=\\int_0^1t\\sqrt{1+t^2+t^4}\\,dt\n$$",
+  "search_text": "由曲线 $C$ 型构件，其上每一点 $(x,y,z)$ 的线密度 $\\rho(x,y,z)=\\sqrt{2y}$，$C$ 的方程为 $x=t,y=\\frac12t^2,z=\\frac13t^3,\\ t\\in[0,1]$，该构件质量 $M=$（ ） $\\int_0^1t^2\\sqrt{1+t^2+t^4}dt$ $\\int_0^1t\\sqrt{1+t^2+t^4}dt$ $\\int_0^1\\sqrt t\\sqrt{1+t^2+t^4}dt$ $\\int_0^1\\sqrt{1+t^2+t^4}dt$ 解答 $M=\\int_C\\rho(x,y,z)ds=\\int_C\\sqrt{2y}ds=\\int_0^1t\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt$\n\n$$\n=\\int_0^1t\\sqrt{1+t^2+t^4}\\,dt\n$$",
+  "sort_order": 25
+}

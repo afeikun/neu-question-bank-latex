@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $3y\\prime\\prime-4y\\prime=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1x+C_2e^{3x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1+C_2e^{3x/4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1+C_2e^{4x/3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1x+C_2e^{4x/3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析 由特征方程 $\\lambda^2-4\\lambda=0$，得特征根 $r_1=0,r_2=\\frac43$，对照通项公式即得 $y=C_1+C_2e^{\\frac43x}$。",
+  "search_text": "微分方程 $3y\\prime\\prime-4y\\prime=0$ 的通解为（ ） $y=C_1x+C_2e^{3x}$ $y=C_1+C_2e^{3x/4}$ $y=C_1+C_2e^{4x/3}$ $y=C_1x+C_2e^{4x/3}$ 解析 由特征方程 $\\lambda^2-4\\lambda=0$，得特征根 $r_1=0,r_2=\\frac43$，对照通项公式即得 $y=C_1+C_2e^{\\frac43x}$。",
+  "sort_order": 46
+}

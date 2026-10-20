@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F=3x^2\\mathbf i+2y^3\\mathbf j+4z^4\\mathbf k$，则 $\\operatorname{div}F(1,-1,0)$ 为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6\\mathbf i-6\\mathbf j$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$28$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\mathbf i-2\\mathbf j+4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$$divF(1,-1,0)=\\frac{\\partial(3x^2)}{\\partial x}+\\frac{\\partial(2y^3)}{\\partial y}+\\left.\\frac{\\partial(4z^4)}{\\partial z}\\right|_{(1,-1,0)}=12$$",
+  "search_text": "设 $F=3x^2\\mathbf i+2y^3\\mathbf j+4z^4\\mathbf k$，则 $\\operatorname{div}F(1,-1,0)$ 为（ ） $6\\mathbf i-6\\mathbf j$ $12$ $28$ $3\\mathbf i-2\\mathbf j+4$ 参考答案：\n\n$$divF(1,-1,0)=\\frac{\\partial(3x^2)}{\\partial x}+\\frac{\\partial(2y^3)}{\\partial y}+\\left.\\frac{\\partial(4z^4)}{\\partial z}\\right|_{(1,-1,0)}=12$$",
+  "sort_order": 7
+}

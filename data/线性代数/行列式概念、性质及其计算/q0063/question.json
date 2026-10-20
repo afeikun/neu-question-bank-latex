@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知四阶行列式 $D$ 的某一行所有元素及其余子式都等于 $a$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$D=4a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$D=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D=4a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$D=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "按该行展开，$D=a^2\\left((-1)^{i+1}+(-1)^{i+2}+(-1)^{i+3}+(-1)^{i+4}\\right)=0$，所以 $D=0$。",
+  "search_text": "已知四阶行列式 $D$ 的某一行所有元素及其余子式都等于 $a$，则（ ）。 $D=4a^2$ $D=1$ $D=4a$ $D=0$ 按该行展开，$D=a^2\\left((-1)^{i+1}+(-1)^{i+2}+(-1)^{i+3}+(-1)^{i+4}\\right)=0$，所以 $D=0$。",
+  "sort_order": 63
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}\\frac1{x^2},&x<0,\\\\0,&x=0,\\\\x^2-2x,&0<x\\le2,\\\\3x-6,&x>2,\\end{cases}$，则下列说法正确的有（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "四条陈述均正确：$x\\to0$ 极限不存在；$x\\to2$ 极限为 0；$x\\to-\\infty$ 极限为 0；$x\\to+\\infty$ 极限为 $+\\infty$。",
+  "search_text": "设 $f(x)=\\begin{cases}\\frac1{x^2},&x<0,\\\\0,&x=0,\\\\x^2-2x,&0<x\\le2,\\\\3x-6,&x>2,\\end{cases}$，则下列说法正确的有（ ）。 $2$ 个 $3$ 个 $4$ 个 $1$ 个 四条陈述均正确：$x\\to0$ 极限不存在；$x\\to2$ 极限为 0；$x\\to-\\infty$ 极限为 0；$x\\to+\\infty$ 极限为 $+\\infty$。",
+  "sort_order": 13
+}

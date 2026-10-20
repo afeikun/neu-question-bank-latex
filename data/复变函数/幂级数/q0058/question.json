@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}[3+(-1)^{1/n}]^nz^n$ 的收敛半径 $R=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lim\\sqrt[n]{|c_n|}=4$，故 $R=1/4$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}[3+(-1)^{1/n}]^nz^n$ 的收敛半径 $R=\\underline{\\qquad}$。 $1/4$ $2$ $1/2$ $4$ $\\lim\\sqrt[n]{|c_n|}=4$，故 $R=1/4$。",
+  "sort_order": 58
+}

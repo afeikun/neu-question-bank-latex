@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "追逐问题：点 $Q$ 沿直线匀速运动，点 $P$ 沿曲线追逐且速度为 $\\lambda$ 倍，求 $Q$ 到达原点时被追及的距离。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{n^2}{n^2+n+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{n}{n^2+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{n}{n^2-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：以$O$为原点$OA$为$x$轴方向建立平面直角坐标系。设所求追迹曲线方程为$y=y(x)$。经过时刻$t$，甲在追迹曲线上的点为$A(x,y)$，乙在点$B(1,v_0t)$。\n\n于是$\\tan\\theta=y'=\\frac{v_0t-y}{1-x}$\n\n由题设，曲线的弧长$OP$为$\\int_0^x\\sqrt{1+y'^2}\\,dx=nv_0t$，\n\n两式联立消去$v_0$得$(1-x)y'+y=\\frac{1}{n}\\int_0^x\\sqrt{1+y'^2}\\,dx$，\n\n整理得$(1-x)y'=\\frac{1}{n}\\sqrt{1+y'^2}$。\n\n设$y'=p(x),y''=p'$，则方程化为$(1-x)p'=\\frac{1}{n}\\sqrt{1+p^2}\\quad\\frac{dp}{\\sqrt{1+p^2}}=\\frac{dx}{n(1-x)}$。\n\n两边积分得$\\ln(p+\\sqrt{1+p^2})=-\\frac{1}{n}\\ln|1-x|+\\ln|C_1|$，即$p+\\sqrt{1+p^2}=\\frac{C_1}{\\sqrt[n]{1-x}}$，\n\n代入初始条件$y|_{x=0}=p(0)=0$，得$C_1=1$。\n\n于是$y'+\\sqrt{1+y'^2}=\\frac{1}{\\sqrt[n]{1-x}}$\n\n两边取倒数得$y'-\\sqrt{1+y'^2}=-\\sqrt[n]{1-x}$，\n\n于是可得$y'=\\frac{1}{2}\\left(\\frac{1}{\\sqrt[n]{1-x}}-\\sqrt[n]{1-x}\\right)$，\n\n两边积分$y=\\frac{1}{2}\\left[-\\frac{n}{n-1}(1-x)^{\\frac{n-1}{n}}+\\frac{n}{n+1}(1-x)^{\\frac{n+1}{n}}\\right]+C_2$。\n\n代入初值$y|_{x=0}=0$可得$C_2=\\frac{n}{n^2-1}$\n\n故所求追迹曲线为$y=\\frac{1}{2}\\left[-\\frac{n}{n-1}(1-x)^{\\frac{n-1}{n}}+\\frac{n}{n+1}(1-x)^{\\frac{n+1}{n}}+\\frac{2n}{n^2-1}\\right](n>1)$。\n\n甲追到乙时，点P的横坐标$x=1$，此时$y=\\frac{n}{n^2-1}$。即乙行走至离$A$点$\\frac{n}{n^2-1}$个单位距离时被甲追到。",
+  "search_text": "追逐问题：点 $Q$ 沿直线匀速运动，点 $P$ 沿曲线追逐且速度为 $\\lambda$ 倍，求 $Q$ 到达原点时被追及的距离。 $\\frac{n^2}{n^2+n+1}$ $n+1$ $\\frac{n}{n^2+1}$ $\\frac{n}{n^2-1}$ 解析：以$O$为原点$OA$为$x$轴方向建立平面直角坐标系。设所求追迹曲线方程为$y=y(x)$。经过时刻$t$，甲在追迹曲线上的点为$A(x,y)$，乙在点$B(1,v_0t)$。\n\n于是$\\tan\\theta=y'=\\frac{v_0t-y}{1-x}$\n\n由题设，曲线的弧长$OP$为$\\int_0^x\\sqrt{1+y'^2}\\,dx=nv_0t$，\n\n两式联立消去$v_0$得$(1-x)y'+y=\\frac{1}{n}\\int_0^x\\sqrt{1+y'^2}\\,dx$，\n\n整理得$(1-x)y'=\\frac{1}{n}\\sqrt{1+y'^2}$。\n\n设$y'=p(x),y''=p'$，则方程化为$(1-x)p'=\\frac{1}{n}\\sqrt{1+p^2}\\quad\\frac{dp}{\\sqrt{1+p^2}}=\\frac{dx}{n(1-x)}$。\n\n两边积分得$\\ln(p+\\sqrt{1+p^2})=-\\frac{1}{n}\\ln|1-x|+\\ln|C_1|$，即$p+\\sqrt{1+p^2}=\\frac{C_1}{\\sqrt[n]{1-x}}$，\n\n代入初始条件$y|_{x=0}=p(0)=0$，得$C_1=1$。\n\n于是$y'+\\sqrt{1+y'^2}=\\frac{1}{\\sqrt[n]{1-x}}$\n\n两边取倒数得$y'-\\sqrt{1+y'^2}=-\\sqrt[n]{1-x}$，\n\n于是可得$y'=\\frac{1}{2}\\left(\\frac{1}{\\sqrt[n]{1-x}}-\\sqrt[n]{1-x}\\right)$，\n\n两边积分$y=\\frac{1}{2}\\left[-\\frac{n}{n-1}(1-x)^{\\frac{n-1}{n}}+\\frac{n}{n+1}(1-x)^{\\frac{n+1}{n}}\\right]+C_2$。\n\n代入初值$y|_{x=0}=0$可得$C_2=\\frac{n}{n^2-1}$\n\n故所求追迹曲线为$y=\\frac{1}{2}\\left[-\\frac{n}{n-1}(1-x)^{\\frac{n-1}{n}}+\\frac{n}{n+1}(1-x)^{\\frac{n+1}{n}}+\\frac{2n}{n^2-1}\\right](n>1)$。\n\n甲追到乙时，点P的横坐标$x=1$，此时$y=\\frac{n}{n^2-1}$。即乙行走至离$A$点$\\frac{n}{n^2-1}$个单位距离时被甲追到。",
+  "sort_order": 35
+}

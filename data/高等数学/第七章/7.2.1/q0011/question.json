@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x,y)=e^{-x}\\cos(y-x^2)$，则 $f_x'(x,x^2)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-e^{-x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{x^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+e^{x^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-x^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f_x=-e^{-x}\\cos(y-x^2)-e^{-x}\\sin(y-x^2)(-2x)=-e^{-x}\\cos(y-x^2)+2xe^{-x}\\sin(y-x^2)$，则 $f_x(x,x^2)=-e^{-x}$",
+  "search_text": "若 $f(x,y)=e^{-x}\\cos(y-x^2)$，则 $f_x'(x,x^2)=(\\quad)$。 $-e^{-x}$ $e^{x^2}$ $x+e^{x^2}$ $e^{-x^2}$ $f_x=-e^{-x}\\cos(y-x^2)-e^{-x}\\sin(y-x^2)(-2x)=-e^{-x}\\cos(y-x^2)+2xe^{-x}\\sin(y-x^2)$，则 $f_x(x,x^2)=-e^{-x}$",
+  "sort_order": 11
+}

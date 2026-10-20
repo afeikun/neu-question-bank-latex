@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0^+}\\left(\\frac{\\sin x}{x}\\right)^{1/x}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac1x\\ln\\frac{\\sin x}{x}\\to0$，故极限为 $1$。",
+  "search_text": "$\\lim_{x\\to0^+}\\left(\\frac{\\sin x}{x}\\right)^{1/x}=$（ ）。 $e^2$ $e$ $e^{-2}$ $1$ $\\frac1x\\ln\\frac{\\sin x}{x}\\to0$，故极限为 $1$。",
+  "sort_order": 3
+}

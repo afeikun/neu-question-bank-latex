@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "每日严重刑事案件数$Y\\sim Pois(1/3)$，$X$为一年365天内无案天数，给定$e^{-1/3}=0.7165$，求$E(X)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$262$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$365$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$162$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$436$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "每天无案概率$e^{-1/3}$，故$E(X)=365e^{-1/3}\\approx262$。",
+  "search_text": "每日严重刑事案件数$Y\\sim Pois(1/3)$，$X$为一年365天内无案天数，给定$e^{-1/3}=0.7165$，求$E(X)$。 $262$ $365$ $162$ $436$ 每天无案概率$e^{-1/3}$，故$E(X)=365e^{-1/3}\\approx262$。",
+  "sort_order": 16
+}

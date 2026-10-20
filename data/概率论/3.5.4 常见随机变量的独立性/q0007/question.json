@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(\\xi,\\eta)$服从二维正态分布$N(a,b,\\sigma_1,\\sigma_2,\\rho)$，相互独立的充要条件是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=0,b=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\rho=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\rho=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\rho=1,a=0,b=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "二维正态变量独立当且仅当相关系数$\\rho=0$。",
+  "search_text": "$(\\xi,\\eta)$服从二维正态分布$N(a,b,\\sigma_1,\\sigma_2,\\rho)$，相互独立的充要条件是。 $a=0,b=0$ $\\rho=0$ $\\rho=1$ $\\rho=1,a=0,b=0$ 二维正态变量独立当且仅当相关系数$\\rho=0$。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\ln\\sqrt{x^2+y^2}=\\\\arctan(\\frac yx)$，求 $dy/dx$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x+y}{y-x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x+y}{x-y}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x-y}{y+x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{y-x}{y+x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令\n\n$$\nF(x,y)=\\ln\\sqrt{x^2+y^2}-\\arctan\\frac{y}{x}\n$$\n\n则\n\n$$\nF_x(x,y)=\\frac{x+y}{x^2+y^2},\\qquad F_y(x,y)=\\frac{y-x}{x^2+y^2}\n$$\n\n故\n\n$$\n\\frac{dy}{dx}=-\\frac{F_x}{F_y}=-\\frac{x+y}{y-x}\n$$",
+  "search_text": "已知 $\\ln\\sqrt{x^2+y^2}=\\\\arctan(\\frac yx)$，求 $dy/dx$。 $\\frac{x+y}{y-x}$ $\\frac{x+y}{x-y}$ $\\frac{x-y}{y+x}$ $\\frac{y-x}{y+x}$ 令\n\n$$\nF(x,y)=\\ln\\sqrt{x^2+y^2}-\\arctan\\frac{y}{x}\n$$\n\n则\n\n$$\nF_x(x,y)=\\frac{x+y}{x^2+y^2},\\qquad F_y(x,y)=\\frac{y-x}{x^2+y^2}\n$$\n\n故\n\n$$\n\\frac{dy}{dx}=-\\frac{F_x}{F_y}=-\\frac{x+y}{y-x}\n$$",
+  "sort_order": 16
+}

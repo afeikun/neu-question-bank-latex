@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(x+y+z)\\,dS$，其中 $\\Sigma:x^2+y^2+z^2=2x+4y+6z$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$14\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$196\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$672\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$336\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：$\\iint_\\Sigma x\\,dS=\\bar{x}\\cdot\\iint_\\Sigma1\\,dS=56\\pi$，类似可求 $\\iint_\\Sigma y\\,dS=112\\pi$，$\\iint_\\Sigma z\\,dS=168\\pi$\n\n所以 $\\iint_\\Sigma(x+y+z)\\,dS=336\\pi$",
+  "search_text": "计算 $\\iint_\\Sigma(x+y+z)\\,dS$，其中 $\\Sigma:x^2+y^2+z^2=2x+4y+6z$。 $14\\pi$ $196\\pi$ $672\\pi$ $336\\pi$ 解答：$\\iint_\\Sigma x\\,dS=\\bar{x}\\cdot\\iint_\\Sigma1\\,dS=56\\pi$，类似可求 $\\iint_\\Sigma y\\,dS=112\\pi$，$\\iint_\\Sigma z\\,dS=168\\pi$\n\n所以 $\\iint_\\Sigma(x+y+z)\\,dS=336\\pi$",
+  "sort_order": 11
+}

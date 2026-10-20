@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "寿命样本$n=5,\\bar x=1160,s=99.75$，求均值95%单侧置信下限。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1064.9$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1164.9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1239$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$64.9$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "下限$1160-2.1318(99.75/\\sqrt5)=1064.9$。",
+  "search_text": "寿命样本$n=5,\\bar x=1160,s=99.75$，求均值95%单侧置信下限。 $1064.9$ $1164.9$ $1239$ $64.9$ 下限$1160-2.1318(99.75/\\sqrt5)=1064.9$。",
+  "sort_order": 19
+}

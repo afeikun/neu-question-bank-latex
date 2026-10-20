@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量 $\\vec a,\\vec b,\\vec c$ 两两都成 $60^\\circ$ 夹角，且 $|\\vec a|=2$，$|\\vec b|=4$，$|\\vec c|=6$，则 $|\\vec a+\\vec b+\\vec c|$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$100$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$80$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$10$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$120$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "将模长平方展开：$4+16+36+2(2\\cdot4+2\\cdot6+4\\cdot6)\\cos60^\\circ=100$，故模长为 $10$。",
+  "search_text": "设向量 $\\vec a,\\vec b,\\vec c$ 两两都成 $60^\\circ$ 夹角，且 $|\\vec a|=2$，$|\\vec b|=4$，$|\\vec c|=6$，则 $|\\vec a+\\vec b+\\vec c|$ 为(\\quad)。 $100$ $80$ $10$ $120$ 将模长平方展开：$4+16+36+2(2\\cdot4+2\\cdot6+4\\cdot6)\\cos60^\\circ=100$，故模长为 $10$。",
+  "sort_order": 24
+}

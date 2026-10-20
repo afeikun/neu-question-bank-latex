@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "矩阵 $A=\\begin{pmatrix}1&-1&0\\\\-1&0&0\\\\0&0&1\\end{pmatrix}$ 与矩阵 $B=\\begin{pmatrix}1&a&0\\\\-1&0&-1\\\\0&a&1\\end{pmatrix}$ 相似，则 $a=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{1}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "因为相似矩阵有相同的行列式，所以 $|A|=|B|$。\n\n$|A|=\\begin{vmatrix}1&-1&0\\\\-1&0&0\\\\0&0&1\\end{vmatrix}=-1$，$|B|=\\begin{vmatrix}1&a&0\\\\-1&0&-1\\\\0&a&1\\end{vmatrix}=2a$，得 $-1=2a$，所以 $a=-\\frac{1}{2}$。",
+  "search_text": "矩阵 $A=\\begin{pmatrix}1&-1&0\\\\-1&0&0\\\\0&0&1\\end{pmatrix}$ 与矩阵 $B=\\begin{pmatrix}1&a&0\\\\-1&0&-1\\\\0&a&1\\end{pmatrix}$ 相似，则 $a=$（ ）。 $\\frac{1}{2}$ $0$ $1$ $-\\frac{1}{2}$ 因为相似矩阵有相同的行列式，所以 $|A|=|B|$。 $|A|=\\begin{vmatrix}1&-1&0\\\\-1&0&0\\\\0&0&1\\end{vmatrix}=-1$，$|B|=\\begin{vmatrix}1&a&0\\\\-1&0&-1\\\\0&a&1\\end{vmatrix}=2a$，得 $-1=2a$，所以 $a=-\\frac{1}{2}$。",
+  "sort_order": 4
+}

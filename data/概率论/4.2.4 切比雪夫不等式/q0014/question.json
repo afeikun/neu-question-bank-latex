@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "掷一颗骰子连续4次，点数总和$X$，估计$P(10<X<18)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ge0.271$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\le0.271$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ge0.152$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\le0.152$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X)=14,D(X)=35/3$，概率下界$1-(35/3)/16=0.271$。",
+  "search_text": "掷一颗骰子连续4次，点数总和$X$，估计$P(10<X<18)$。 $\\ge0.271$ $\\le0.271$ $\\ge0.152$ $\\le0.152$ $E(X)=14,D(X)=35/3$，概率下界$1-(35/3)/16=0.271$。",
+  "sort_order": 14
+}

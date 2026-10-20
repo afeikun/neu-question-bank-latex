@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\sqrt{1+x}+\\sin x-0.5$ 在 $x=0$ 的线性化可表示为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32x+\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac32x+\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac32x-\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac32x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f'(x)=\\frac1{2\\sqrt{1+x}}+\\cos x$，故 $f'(0)=\\frac32$，且 $f(0)=\\frac12$。线性化为 $L(x)=\\frac32x+\\frac12$。",
+  "search_text": "函数 $f(x)=\\sqrt{1+x}+\\sin x-0.5$ 在 $x=0$ 的线性化可表示为 $(\\quad)$。 $\\frac32x+\\frac32$ $\\frac32x+\\frac12$ $\\frac32x-\\frac12$ $\\frac32x+1$ $f'(x)=\\frac1{2\\sqrt{1+x}}+\\cos x$，故 $f'(0)=\\frac32$，且 $f(0)=\\frac12$。线性化为 $L(x)=\\frac32x+\\frac12$。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设有四元线性方程组 $AX=b$，系数矩阵 $A$ 的秩为 $3$，又已知 $\\beta_1,\\beta_2,\\beta_3$ 为 $AX=b$ 的三个解，且 $\\beta_1=(2,0,0,2)^T$，$\\beta_2+\\beta_3=(0,2,2,0)^T$，则 $AX=b$ 的通解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k(2,0,0,2)^T+(0,1,1,0)^T,\\ k\\in\\mathbb R$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,2,2,0)^T+k(2,-1,-1,2)^T,\\ k\\in\\mathbb R$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k(2,0,0,2)^T+(2,-1,-1,2)^T,\\ k\\in\\mathbb R$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2,0,0,2)^T+k(2,-1,-1,2)^T,\\ k\\in\\mathbb R$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由于 $\\frac12(\\beta_2+\\beta_3)$ 是一个特解，$\\beta_1-\\frac12(\\beta_2+\\beta_3)=(2,-1,-1,2)^T$ 是齐次方程组的非零解。系数矩阵秩为 $3$，故基础解系含一个向量，通解为 $X=(2,0,0,2)^T+k(2,-1,-1,2)^T$。",
+  "search_text": "设有四元线性方程组 $AX=b$，系数矩阵 $A$ 的秩为 $3$，又已知 $\\beta_1,\\beta_2,\\beta_3$ 为 $AX=b$ 的三个解，且 $\\beta_1=(2,0,0,2)^T$，$\\beta_2+\\beta_3=(0,2,2,0)^T$，则 $AX=b$ 的通解为（ ）。 $k(2,0,0,2)^T+(0,1,1,0)^T,\\ k\\in\\mathbb R$ $(0,2,2,0)^T+k(2,-1,-1,2)^T,\\ k\\in\\mathbb R$ $k(2,0,0,2)^T+(2,-1,-1,2)^T,\\ k\\in\\mathbb R$ $(2,0,0,2)^T+k(2,-1,-1,2)^T,\\ k\\in\\mathbb R$ 由于 $\\frac12(\\beta_2+\\beta_3)$ 是一个特解，$\\beta_1-\\frac12(\\beta_2+\\beta_3)=(2,-1,-1,2)^T$ 是齐次方程组的非零解。系数矩阵秩为 $3$，故基础解系含一个向量，通解为 $X=(2,0,0,2)^T+k(2,-1,-1,2)^T$。",
+  "sort_order": 1
+}

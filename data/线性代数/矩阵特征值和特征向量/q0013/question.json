@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)=x^2-2x-1$，方阵 $A$ 的特征值为 $1,0,-1$，则 $f(A)$ 的特征值为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2,-1,-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2,1,2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2,-1,2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2,0,-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "多项式映射特征值：$f(1)=-2,f(0)=-1,f(-1)=2$，选项 3。",
+  "search_text": "已知 $f(x)=x^2-2x-1$，方阵 $A$ 的特征值为 $1,0,-1$，则 $f(A)$ 的特征值为(\\quad)。 $-2,-1,-2$ $2,1,2$ $-2,-1,2$ $2,0,-2$ 多项式映射特征值：$f(1)=-2,f(0)=-1,f(-1)=2$，选项 3。",
+  "sort_order": 13
+}

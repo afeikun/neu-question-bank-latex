@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $|\\vec a|=3$，$|\\vec b|=5$，且其夹角为 $\\theta=\\frac\\pi3$，则 $(\\vec a-2\\vec b)\\cdot(3\\vec a+2\\vec b)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-100$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$104$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-111$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-103$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "展开得 $3|\\vec a|^2-4|\\vec b|^2-4|\\vec a||\\vec b|\\cos\\frac\\pi3=27-100-30=-103$。",
+  "search_text": "已知 $|\\vec a|=3$，$|\\vec b|=5$，且其夹角为 $\\theta=\\frac\\pi3$，则 $(\\vec a-2\\vec b)\\cdot(3\\vec a+2\\vec b)=(\\quad)$。 $-100$ $104$ $-111$ $-103$ 展开得 $3|\\vec a|^2-4|\\vec b|^2-4|\\vec a||\\vec b|\\cos\\frac\\pi3=27-100-30=-103$。",
+  "sort_order": 5
+}

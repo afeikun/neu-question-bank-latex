@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=x^ye^x$，则 $f_x'(1,x)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-ex$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e(x+1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f'_x(x,y)=yx^{y-1}e^x+x^ye^x$，则 $f'_x(1,x)=e(x+1)$",
+  "search_text": "设 $f(x,y)=x^ye^x$，则 $f_x'(1,x)=(\\quad)$。 $1-ex$ $0$ $e(x+1)$ $e$ $f'_x(x,y)=yx^{y-1}e^x+x^ye^x$，则 $f'_x(1,x)=e(x+1)$",
+  "sort_order": 43
+}

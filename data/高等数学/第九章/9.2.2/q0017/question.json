@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(x^3+y^2+z)\\,dS$，其中 $\\Sigma$ 为抛物面 $z=\\frac12(x^2+y^2)$ 被平面 $z=2$ 截下的有限部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2\\pi}{15}(25\\sqrt5+1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{4\\pi}{15}(25\\sqrt5+1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{4\\pi}{15}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：由对称性 $\\iint_\\Sigma x^3\\,dS=0$。$dS=\\sqrt{1+x^2+y^2}\\,dxdy$\n\n原式 $=\\iint_{x^2+y^2\\leq4}\\left(y^2+\\frac{x^2+y^2}{2}\\right)\\sqrt{1+x^2+y^2}\\,dxdy$\n\n$$=\\iint_{x^2+y^2\\leq4}(y^2+x^2)\\sqrt{1+x^2+y^2}\\,dxdy$$\n\n$$=\\int_0^{2\\pi}d\\theta\\int_0^2r^3\\sqrt{1+r^2}\\,dr=\\frac{4}{15}\\pi(25\\sqrt{5}+1)$$",
+  "search_text": "计算 $\\iint_\\Sigma(x^3+y^2+z)\\,dS$，其中 $\\Sigma$ 为抛物面 $z=\\frac12(x^2+y^2)$ 被平面 $z=2$ 截下的有限部分。 $\\frac{2\\pi}{15}(25\\sqrt5+1)$ $\\pi$ $\\frac{4\\pi}{15}(25\\sqrt5+1)$ $\\frac{4\\pi}{15}$ 解答：由对称性 $\\iint_\\Sigma x^3\\,dS=0$。$dS=\\sqrt{1+x^2+y^2}\\,dxdy$\n\n原式 $=\\iint_{x^2+y^2\\leq4}\\left(y^2+\\frac{x^2+y^2}{2}\\right)\\sqrt{1+x^2+y^2}\\,dxdy$\n\n$$=\\iint_{x^2+y^2\\leq4}(y^2+x^2)\\sqrt{1+x^2+y^2}\\,dxdy$$\n\n$$=\\int_0^{2\\pi}d\\theta\\int_0^2r^3\\sqrt{1+r^2}\\,dr=\\frac{4}{15}\\pi(25\\sqrt{5}+1)$$",
+  "sort_order": 17
+}

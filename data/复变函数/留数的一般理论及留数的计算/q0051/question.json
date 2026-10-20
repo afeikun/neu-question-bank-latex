@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(\\zeta)$ 为解析函数，则 $\\displaystyle\\oint_{|z|=R}z f\\!\\left(\\dfrac1z\\right)dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi f''(0)i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi f''(0)i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi f'(0)i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi f'(0)i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将 $f(1/z)$ 展开，$zf(1/z)$ 的 $z^{-1}$ 项为 $f''(0)/2$，故积分为 $\\pi f''(0)i$。",
+  "search_text": "设 $f(\\zeta)$ 为解析函数，则 $\\displaystyle\\oint_{|z|=R}z f\\!\\left(\\dfrac1z\\right)dz=(\\ \\ )$。 $\\pi f''(0)i$ $2\\pi f''(0)i$ $\\pi f'(0)i$ $2\\pi f'(0)i$ 将 $f(1/z)$ 展开，$zf(1/z)$ 的 $z^{-1}$ 项为 $f''(0)/2$，故积分为 $\\pi f''(0)i$。",
+  "sort_order": 51
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "检验$H_0:\\sigma\\ge6,H_1:\\sigma<6$，样本标准差4.51，错误说法（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可以认为$\\sigma<6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\chi^2=19S^2/36$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "拒绝域$\\chi^2<10.117$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "观测值约10.74"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "观测统计量超过下尾临界值，应接受原假设。",
+  "search_text": "检验$H_0:\\sigma\\ge6,H_1:\\sigma<6$，样本标准差4.51，错误说法（）。 可以认为$\\sigma<6$ $\\chi^2=19S^2/36$ 拒绝域$\\chi^2<10.117$ 观测值约10.74 观测统计量超过下尾临界值，应接受原假设。",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$|\\vec a|=3$，$|\\vec b|=26$，$|\\vec c|=5$，且 $|\\vec a\\times\\vec b|=72$，则 $\\vec a\\cdot\\vec b=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$50$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pm40$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pm20$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pm30$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$|a||b|=78$，$\\sin\\theta=72/78=12/13$，故 $\\cos\\theta=\\pm5/13$，$\\vec a\\cdot\\vec b=\\pm30$。",
+  "search_text": "$|\\vec a|=3$，$|\\vec b|=26$，$|\\vec c|=5$，且 $|\\vec a\\times\\vec b|=72$，则 $\\vec a\\cdot\\vec b=(\\quad)$。 $50$ $\\pm40$ $\\pm20$ $\\pm30$ $|a||b|=78$，$\\sin\\theta=72/78=12/13$，故 $\\cos\\theta=\\pm5/13$，$\\vec a\\cdot\\vec b=\\pm30$。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算第二类曲线积分 $\\int_L ydx+xdy+x^2dz$，$L$ 是螺旋线 $x=a\\cos t,\\ y=a\\sin t,\\ z=bt$ 从 $t=0$ 到 $t=\\pi$ 上的一段，其结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12a^2(1+b)\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a^2b\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12a^2b\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a^2b^2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\\int_Lydx+xdy+x^2dz=\\int_0^\\pi(-a^2\\sin^2t+a^2\\cos^2t+a^2b\\cos^2t)dt$$\n$$=\\frac{1}{2}a^2b\\pi.\\quad$$",
+  "search_text": "计算第二类曲线积分 $\\int_L ydx+xdy+x^2dz$，$L$ 是螺旋线 $x=a\\cos t,\\ y=a\\sin t,\\ z=bt$ 从 $t=0$ 到 $t=\\pi$ 上的一段，其结果为（ ） $\\frac12a^2(1+b)\\pi$ $a^2b\\pi$ $\\frac12a^2b\\pi$ $a^2b^2\\pi$ $$\\int_Lydx+xdy+x^2dz=\\int_0^\\pi(-a^2\\sin^2t+a^2\\cos^2t+a^2b\\cos^2t)dt$$\n$$=\\frac{1}{2}a^2b\\pi.\\quad$$",
+  "sort_order": 40
+}

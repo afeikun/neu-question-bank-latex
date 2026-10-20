@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\theta$在$[-\\pi,\\pi]$上均匀分布，$X=\\sin\\theta,Y=\\cos\\theta$，则（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X,Y$不相关，不独立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X,Y$不相关，独立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X,Y$相关，不独立"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X,Y$相关，独立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对称积分得协方差为零；又$X^2+Y^2=1$，故不独立。",
+  "search_text": "$\\theta$在$[-\\pi,\\pi]$上均匀分布，$X=\\sin\\theta,Y=\\cos\\theta$，则（）。 $X,Y$不相关，不独立 $X,Y$不相关，独立 $X,Y$相关，不独立 $X,Y$相关，独立 对称积分得协方差为零；又$X^2+Y^2=1$，故不独立。",
+  "sort_order": 7
+}

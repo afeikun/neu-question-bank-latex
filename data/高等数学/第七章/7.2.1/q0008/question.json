@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由方程 $\\frac1z=\\frac1x-\\frac1y$ 确定，则 $x^2z_x+y^2z_y=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2x^2y^2}{(y-x)^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2z^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由题意可得，$z=\\dfrac{xy}{y-x}$，则 $z_x=\\dfrac{y(y-x)+xy}{(y-x)^2}=\\dfrac{y^2}{(y-x)^2}$，$z_y=\\dfrac{x(y-x)-xy}{(y-x)^2}=-\\dfrac{x^2}{(y-x)^2}$，则\n\\[\nx^2z_x+y^2z_y=0.\n\\]",
+  "search_text": "设 $z=z(x,y)$ 由方程 $\\frac1z=\\frac1x-\\frac1y$ 确定，则 $x^2z_x+y^2z_y=(\\quad)$。 $\\frac{2x^2y^2}{(y-x)^2}$ $2z^2$ $z^2$ $0$ 由题意可得，$z=\\dfrac{xy}{y-x}$，则 $z_x=\\dfrac{y(y-x)+xy}{(y-x)^2}=\\dfrac{y^2}{(y-x)^2}$，$z_y=\\dfrac{x(y-x)-xy}{(y-x)^2}=-\\dfrac{x^2}{(y-x)^2}$，则\n\\[\nx^2z_x+y^2z_y=0.\n\\]",
+  "sort_order": 8
+}

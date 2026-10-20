@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac1{2\\pi i}\\oint_{|z-i|=1}\\frac{\\cos(z+\\pi i)}{z(e^z+2)}\\,dz=(\\quad)$（方向正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13\\cos(\\pi i)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12\\sin(\\pi i)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\cos i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cosh1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在圆内 $e^z+2\\ne0$，被积函数仅有奇点 $0$，归一化积分为 $\\frac13\\cos(\\pi i)$。",
+  "search_text": "$\\frac1{2\\pi i}\\oint_{|z-i|=1}\\frac{\\cos(z+\\pi i)}{z(e^z+2)}\\,dz=(\\quad)$（方向正向）。 $\\frac13\\cos(\\pi i)$ $-\\frac12\\sin(\\pi i)$ $2\\cos i$ $\\cosh1$ 在圆内 $e^z+2\\ne0$，被积函数仅有奇点 $0$，归一化积分为 $\\frac13\\cos(\\pi i)$。",
+  "sort_order": 105
+}

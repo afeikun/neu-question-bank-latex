@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $z=f(x,y)$ 连续且 $\\sqrt{1+f_x^2+f_y^2}=2$，其投影区域面积为 $2$，求 $\\iint_\\Sigma\\frac{z}{f(x,y)}\\,dS$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\iint_\\Sigma\\frac{z}{f(x,y)}\\,dS=\\iint_D\\sqrt{1+f_x^2(x,y)+f_y^2(x,y)}\\,dxdy=\\iint_D2\\,dxdy=4，$$",
+  "search_text": "已知 $z=f(x,y)$ 连续且 $\\sqrt{1+f_x^2+f_y^2}=2$，其投影区域面积为 $2$，求 $\\iint_\\Sigma\\frac{z}{f(x,y)}\\,dS$。 $2\\pi$ $4$ $2$ $\\pi$ $$\\iint_\\Sigma\\frac{z}{f(x,y)}\\,dS=\\iint_D\\sqrt{1+f_x^2(x,y)+f_y^2(x,y)}\\,dxdy=\\iint_D2\\,dxdy=4，$$",
+  "sort_order": 22
+}

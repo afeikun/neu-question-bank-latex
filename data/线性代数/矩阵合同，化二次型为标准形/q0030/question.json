@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2)=2x_1^2+2x_2^2-2x_1x_2$，在条件 $x_1^2+x_2^2=1$ 下的最小值等于(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对应矩阵特征值为 1 和 3，单位圆上最小值为 1，选项 4。",
+  "search_text": "二次型 $f(x_1,x_2)=2x_1^2+2x_2^2-2x_1x_2$，在条件 $x_1^2+x_2^2=1$ 下的最小值等于(\\quad)。 $0$ $2$ $3$ $1$ 对应矩阵特征值为 1 和 3，单位圆上最小值为 1，选项 4。",
+  "sort_order": 30
+}

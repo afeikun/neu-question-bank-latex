@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$n$个事件$A_1,A_2,\\ldots,A_n$相互独立，且$P(A_k)=p$（$k=1,2,\\ldots,n$），则这$n$个事件恰好有一件不发生的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$np^{n-1}(1-p)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p^{n-1}(1-p)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-p^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$np(1-p)^{n-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "恰有一件不发生有$n$种选择，其余$n-1$件发生，概率$n(1-p)p^{n-1}$。",
+  "search_text": "设$n$个事件$A_1,A_2,\\ldots,A_n$相互独立，且$P(A_k)=p$（$k=1,2,\\ldots,n$），则这$n$个事件恰好有一件不发生的概率是（ ）。 $np^{n-1}(1-p)$ $p^{n-1}(1-p)$ $1-p^n$ $np(1-p)^{n-1}$ 恰有一件不发生有$n$种选择，其余$n-1$件发生，概率$n(1-p)p^{n-1}$。",
+  "sort_order": 11
+}

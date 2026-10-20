@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $x^3+y^3-xy=7$ 确定曲线在 $M(1,2)$ 处的切线方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-11y-23=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+11y+23=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+11y-23=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-11y+23=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时对 $x$ 求导可得\n\n$$3x^2+3y^2y'-y-xy'=0，\\text{带入初值可得 }y'(1)=-\\frac{1}{11}，\\text{则切线方程为 }y-2=-\\frac{1}{11}(x-1)$$",
+  "search_text": "由 $x^3+y^3-xy=7$ 确定曲线在 $M(1,2)$ 处的切线方程。 $x-11y-23=0$ $x+11y+23=0$ $x+11y-23=0$ $x-11y+23=0$ 解答 方程两边同时对 $x$ 求导可得\n\n$$3x^2+3y^2y'-y-xy'=0，\\text{带入初值可得 }y'(1)=-\\frac{1}{11}，\\text{则切线方程为 }y-2=-\\frac{1}{11}(x-1)$$",
+  "sort_order": 27
+}

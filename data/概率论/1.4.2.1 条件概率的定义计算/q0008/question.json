@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 为两事件，$P(A)=0.4$，$P(B)=0.8$，$P(\\overline A B)=0.5$，则 $P(B\\mid A)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.75$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.375$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.60$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(AB)=P(B)-P(\\overline A B)=0.8-0.5=0.3$，故 $P(B\\mid A)=0.3/0.4=0.75$。",
+  "search_text": "设 $A,B$ 为两事件，$P(A)=0.4$，$P(B)=0.8$，$P(\\overline A B)=0.5$，则 $P(B\\mid A)=(\\quad)$。 $0.75$ $0.375$ $0.60$ $1$ $P(AB)=P(B)-P(\\overline A B)=0.8-0.5=0.3$，故 $P(B\\mid A)=0.3/0.4=0.75$。",
+  "sort_order": 8
+}

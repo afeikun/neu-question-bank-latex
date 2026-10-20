@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $L$ 为圆周 $x^2+y^2=a^2$ 的顺时针方向，计算 $\\oint_L\\frac{xy^2dy-x^2y dx}{x^2+y^2}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac\\pi2a^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac\\pi3a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n注意到 $L$ 上的点 $(x,y)$ 满足 $x^2+y^2=a^2$，所以\n\n$$\n\\begin{aligned}\n\\oint_L\\frac{xy^2\\,dy-x^2y\\,dx}{x^2+y^2}\n&=-\\frac{1}{a^2}\\iint_D\\left[\\frac{\\partial(xy^2)}{\\partial x}-\\frac{\\partial(-x^2y)}{\\partial y}\\right]dxdy\\\\\n&=-\\frac{1}{a^2}\\iint_D(x^2+y^2)\\,dxdy\n=-\\frac{1}{a^2}\\int_0^{2\\pi}d\\theta\\int_0^a r^3\\,dr\n=-\\frac{\\pi}{2}a^2\n\\end{aligned}\n$$",
+  "search_text": "已知 $L$ 为圆周 $x^2+y^2=a^2$ 的顺时针方向，计算 $\\oint_L\\frac{xy^2dy-x^2y dx}{x^2+y^2}=$（ ） $-\\frac\\pi2a^2$ $\\frac\\pi4a^2$ $\\frac\\pi2a^2$ $-\\frac\\pi3a^2$ 解析：\n\n注意到 $L$ 上的点 $(x,y)$ 满足 $x^2+y^2=a^2$，所以\n\n$$\n\\begin{aligned}\n\\oint_L\\frac{xy^2\\,dy-x^2y\\,dx}{x^2+y^2}\n&=-\\frac{1}{a^2}\\iint_D\\left[\\frac{\\partial(xy^2)}{\\partial x}-\\frac{\\partial(-x^2y)}{\\partial y}\\right]dxdy\\\\\n&=-\\frac{1}{a^2}\\iint_D(x^2+y^2)\\,dxdy\n=-\\frac{1}{a^2}\\int_0^{2\\pi}d\\theta\\int_0^a r^3\\,dr\n=-\\frac{\\pi}{2}a^2\n\\end{aligned}\n$$",
+  "sort_order": 1
+}

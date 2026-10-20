@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $yy\\prime\\prime+2(y\\prime)^2=0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^3=C_1x^2+C_2x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^2=C_1x^3+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1x^3+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^3=C_1x+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：令 $y'=p$，则 $y''=p\\frac{dp}{dx}$，原方程可化为 $yp\\frac{dp}{dx}+2p^2=0$，则 $\\frac{dp}{p}=-2\\frac{dy}{y}$，积分得\n\n$$\\ln|p|=\\ln\\frac{1}{y^2}+\\ln C_0,$$ 即 $y'=p=\\frac{C_0}{y^2}$。分离变量得 $y^2\\,dy=C_0\\,dx$，积分得 $y^3=3C_0x+C_2$，则原方程的解为 $y^3=C_1x+C_2$。",
+  "search_text": "方程 $yy\\prime\\prime+2(y\\prime)^2=0$ 的通解是（ ） $y^3=C_1x^2+C_2x$ $y^2=C_1x^3+C_2$ $y=C_1x^3+C_2$ $y^3=C_1x+C_2$ 解析：令 $y'=p$，则 $y''=p\\frac{dp}{dx}$，原方程可化为 $yp\\frac{dp}{dx}+2p^2=0$，则 $\\frac{dp}{p}=-2\\frac{dy}{y}$，积分得\n\n$$\\ln|p|=\\ln\\frac{1}{y^2}+\\ln C_0,$$ 即 $y'=p=\\frac{C_0}{y^2}$。分离变量得 $y^2\\,dy=C_0\\,dx$，积分得 $y^3=3C_0x+C_2$，则原方程的解为 $y^3=C_1x+C_2$。",
+  "sort_order": 15
+}

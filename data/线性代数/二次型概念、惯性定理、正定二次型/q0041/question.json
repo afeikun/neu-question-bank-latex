@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 阶实对称矩阵 $A$ 正定，如果矩阵 $B$ 与 $A$ 相似，则 $B$ 必为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正定矩阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "可逆矩阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "实对称矩阵"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "正交矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$A$ 正定，所以 $|A|\\ne0$。若 $B=P^{-1}AP$，则 $|B|=|P^{-1}||A||P|=|A|\\ne0$，因此 $B$ 必为可逆矩阵；相似矩阵不一定保持对称性、正定性或正交性。",
+  "search_text": "设 $n$ 阶实对称矩阵 $A$ 正定，如果矩阵 $B$ 与 $A$ 相似，则 $B$ 必为（ ）。 正定矩阵 可逆矩阵 实对称矩阵 正交矩阵 $A$ 正定，所以 $|A|\\ne0$。若 $B=P^{-1}AP$，则 $|B|=|P^{-1}||A||P|=|A|\\ne0$，因此 $B$ 必为可逆矩阵；相似矩阵不一定保持对称性、正定性或正交性。",
+  "sort_order": 41
+}

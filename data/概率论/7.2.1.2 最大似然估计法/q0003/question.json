@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x;\\theta)=(\\theta+1)x^\\theta,0<x<1$，求$\\theta$的极大似然估计。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1-n/\\sum\\ln X_i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1+n/\\sum\\ln X_i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2n/\\sum\\ln X_i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-n/\\sum\\ln X_i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对数似然导数为$n/(\\theta+1)+\\sum\\ln X_i=0$，得选项1。",
+  "search_text": "$f(x;\\theta)=(\\theta+1)x^\\theta,0<x<1$，求$\\theta$的极大似然估计。 $-1-n/\\sum\\ln X_i$ $-1+n/\\sum\\ln X_i$ $-2n/\\sum\\ln X_i$ $-n/\\sum\\ln X_i$ 对数似然导数为$n/(\\theta+1)+\\sum\\ln X_i=0$，得选项1。",
+  "sort_order": 3
+}

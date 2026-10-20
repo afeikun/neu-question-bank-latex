@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知点 $A(4,0,5)$，$B(7,1,3)$，则与 $\\overrightarrow{AB}$ 平行的单位向量为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pm\\frac1{\\sqrt{14}}(3,1,-2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt{14}}(3,1,-2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pm\\frac1{\\sqrt{14}}(-3,-1,2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{\\sqrt{14}}(-3,-1,2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\overrightarrow{AB}=(3,1,-2)$，$|\\overrightarrow{AB}|=\\sqrt{14}$。与它平行的单位向量为 $\\pm\\frac1{\\sqrt{14}}(3,1,-2)$。",
+  "search_text": "已知点 $A(4,0,5)$，$B(7,1,3)$，则与 $\\overrightarrow{AB}$ 平行的单位向量为(\\quad)。 $\\pm\\frac1{\\sqrt{14}}(3,1,-2)$ $\\frac1{\\sqrt{14}}(3,1,-2)$ $\\pm\\frac1{\\sqrt{14}}(-3,-1,2)$ $\\frac1{\\sqrt{14}}(-3,-1,2)$ $\\overrightarrow{AB}=(3,1,-2)$，$|\\overrightarrow{AB}|=\\sqrt{14}$。与它平行的单位向量为 $\\pm\\frac1{\\sqrt{14}}(3,1,-2)$。",
+  "sort_order": 9
+}

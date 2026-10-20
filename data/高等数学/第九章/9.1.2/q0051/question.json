@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $L$ 是心脏线 $r=a(1+\\cos\\theta)$ 位于 $\\theta=0$ 到 $\\theta=\\pi$ 的弧段，则该弧段的长度是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$16a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $L=\\int_L1\\cdot ds=\\int_0^\\pi\\sqrt{p^2+p'^2}\\,d\\theta=\\int_0^\\pi\\sqrt{a^2(1+\\cos\\theta)^2+a^2\\sin^2\\theta}\\,d\\theta$\n\n$=\\int_0^\\pi2a\\cos\\frac{\\theta}{2}\\,d\\theta=4a\\sin\\frac{\\theta}{2}\\bigg|_0^\\pi=4a$",
+  "search_text": "曲线 $L$ 是心脏线 $r=a(1+\\cos\\theta)$ 位于 $\\theta=0$ 到 $\\theta=\\pi$ 的弧段，则该弧段的长度是（ ） $16a$ $4a$ $2a$ $6a$ 解答 $L=\\int_L1\\cdot ds=\\int_0^\\pi\\sqrt{p^2+p'^2}\\,d\\theta=\\int_0^\\pi\\sqrt{a^2(1+\\cos\\theta)^2+a^2\\sin^2\\theta}\\,d\\theta$\n\n$=\\int_0^\\pi2a\\cos\\frac{\\theta}{2}\\,d\\theta=4a\\sin\\frac{\\theta}{2}\\bigg|_0^\\pi=4a$",
+  "sort_order": 51
+}

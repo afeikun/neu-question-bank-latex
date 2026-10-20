@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x\\ln x$（$0<x<+\\infty$）的凹凸性为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在 $(0,1)$ 内凹，在 $(0,+\\infty)$ 内凸"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在 $(0,+\\infty)$ 内曲线为凹"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在 $(0,1)$ 内凸，在 $(0,+\\infty)$ 内凹"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在 $(0,+\\infty)$ 内曲线为凸"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=1/x>0$，在其定义域上恒为正，曲线为凹。",
+  "search_text": "曲线 $y=x\\ln x$（$0<x<+\\infty$）的凹凸性为（ ）。 在 $(0,1)$ 内凹，在 $(0,+\\infty)$ 内凸 在 $(0,+\\infty)$ 内曲线为凹 在 $(0,1)$ 内凸，在 $(0,+\\infty)$ 内凹 在 $(0,+\\infty)$ 内曲线为凸 $y\\prime\\prime=1/x>0$，在其定义域上恒为正，曲线为凹。",
+  "sort_order": 7
+}

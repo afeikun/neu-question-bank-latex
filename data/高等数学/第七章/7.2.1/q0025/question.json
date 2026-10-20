@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=\\sqrt{x^2-y^2}$，则 $f_y(1,0)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$;"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$;"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$;"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f_y(x,y)=\\frac{1}{2\\sqrt{x^2-y^2}}(-2y)=-\\frac{y}{\\sqrt{x^2-y^2}}$，将 $(x,y)=(1,0)$ 代入得 $f_y(1,0)=0$",
+  "search_text": "设 $f(x,y)=\\sqrt{x^2-y^2}$，则 $f_y(1,0)=(\\quad)$。 $1$; $2$ $0$; $-1$; $f_y(x,y)=\\frac{1}{2\\sqrt{x^2-y^2}}(-2y)=-\\frac{y}{\\sqrt{x^2-y^2}}$，将 $(x,y)=(1,0)$ 代入得 $f_y(1,0)=0$",
+  "sort_order": 25
+}

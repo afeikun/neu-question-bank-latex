@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "均匀心形线 $r=1+\\cos\\theta$（线密度为常数 $\\rho_0$）形状的构件的质量是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8\\rho_0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\rho_0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6\\rho_0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\rho_0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答\n\n$\\displaystyle M=\\oint_L\\rho_0\\,ds=\\rho_0\\int_0^{2\\pi}\\sqrt{(1+\\cos\\theta)^2+(1+\\cos\\theta)'^2}\\,d\\theta=2\\rho_0\\int_0^{2\\pi}\\left|\\cos\\frac{\\theta}{2}\\right|\\,d\\theta=8\\rho_0.$",
+  "search_text": "均匀心形线 $r=1+\\cos\\theta$（线密度为常数 $\\rho_0$）形状的构件的质量是（ ） $8\\rho_0$ $4\\rho_0$ $6\\rho_0$ $3\\rho_0$ 解答\n\n$\\displaystyle M=\\oint_L\\rho_0\\,ds=\\rho_0\\int_0^{2\\pi}\\sqrt{(1+\\cos\\theta)^2+(1+\\cos\\theta)'^2}\\,d\\theta=2\\rho_0\\int_0^{2\\pi}\\left|\\cos\\frac{\\theta}{2}\\right|\\,d\\theta=8\\rho_0.$",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_Lxy\\,dx+(y-x)\\,dy$，$L$ 由直线段从 $A(1,1)$ 到 $B(2,3)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$7$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{25}{6}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "直线 $AB：\\left\\{\\begin{aligned}x&=1+t\\\\y&=1+2t\\end{aligned}\\right.，\\quad t\\in[0,1]$\n\n故\n\n$$\n\\int_Lxy\\,\\mathrm{d}x+(y-x)\\,\\mathrm{d}y=\\int_0^1[(1+t)(1+2t)+2t]\\,\\mathrm{d}t=\\frac{25}{6}\n$$",
+  "search_text": "计算 $\\int_Lxy\\,dx+(y-x)\\,dy$，$L$ 由直线段从 $A(1,1)$ 到 $B(2,3)$。 $5$ $4$ $7$ $\\frac{25}{6}$ 直线 $AB：\\left\\{\\begin{aligned}x&=1+t\\\\y&=1+2t\\end{aligned}\\right.，\\quad t\\in[0,1]$\n\n故\n\n$$\n\\int_Lxy\\,\\mathrm{d}x+(y-x)\\,\\mathrm{d}y=\\int_0^1[(1+t)(1+2t)+2t]\\,\\mathrm{d}t=\\frac{25}{6}\n$$",
+  "sort_order": 7
+}

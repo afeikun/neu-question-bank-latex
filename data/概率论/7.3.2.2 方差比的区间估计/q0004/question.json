@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两正态总体样本量$n,m$，求方差比$\\sigma_1^2/\\sigma_2^2$的$1-\\alpha$置信区间形式。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\left(\\frac{S_1^2/S_2^2}{F_{\\alpha/2}(n-1,m-1)},\\frac{S_1^2/S_2^2}{F_{1-\\alpha/2}(n-1,m-1)}\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "分位数自由度$n,m$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "分位数自由度$n-1,m$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "分位数自由度$n,m-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两独立样本方差比按自由度$n-1,m-1$的F分布构造区间。",
+  "search_text": "两正态总体样本量$n,m$，求方差比$\\sigma_1^2/\\sigma_2^2$的$1-\\alpha$置信区间形式。 $\\left(\\frac{S_1^2/S_2^2}{F_{\\alpha/2}(n-1,m-1)},\\frac{S_1^2/S_2^2}{F_{1-\\alpha/2}(n-1,m-1)}\\right)$ 分位数自由度$n,m$ 分位数自由度$n-1,m$ 分位数自由度$n,m-1$ 两独立样本方差比按自由度$n-1,m-1$的F分布构造区间。",
+  "sort_order": 4
+}

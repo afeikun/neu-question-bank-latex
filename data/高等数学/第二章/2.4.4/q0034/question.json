@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $|x|$ 与正数 $a$ 比较是小的多时，用微分法可得 $\\sqrt{a^2+x}$ 的近似公式 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a+\\frac{x}{a}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a+\\frac{|x|}{a}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a+\\frac{x}{2a}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a+\\frac{|x|}{2a}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\sqrt{a^2+x}=a\\left(1+\\frac{x}{a^2}\\right)^{1/2}\\approx a\\left(1+\\frac{x}{2a^2}\\right)=a+\\frac{x}{2a}$。",
+  "search_text": "设 $|x|$ 与正数 $a$ 比较是小的多时，用微分法可得 $\\sqrt{a^2+x}$ 的近似公式 $(\\quad)$。 $a+\\frac{x}{a}$ $a+\\frac{|x|}{a}$ $a+\\frac{x}{2a}$ $a+\\frac{|x|}{2a}$ $\\sqrt{a^2+x}=a\\left(1+\\frac{x}{a^2}\\right)^{1/2}\\approx a\\left(1+\\frac{x}{2a^2}\\right)=a+\\frac{x}{2a}$。",
+  "sort_order": 34
+}

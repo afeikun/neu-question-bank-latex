@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $2xy\\ln y\\,dx+(x^2+y^2\\sqrt{1+y^2})dy=0$ 的积分因子为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "将方程重新整理可得\n\n$$\n(2xy\\ln y\\,dx+x^2dy)+y^2\\sqrt{1+y^2}\\,dy=0,\n$$\n\n则\n\n$$\n\\frac{1}{y}\\left((2xy\\ln y\\,dx+x^2dy)+y^2\\sqrt{1+y^2}\\,dy\\right)=0,\n$$\n\n可化为\n\n$$\ndx^2\\ln y+\\frac{1}{2}\\sqrt{1+y^2}\\,d(y^2+1)=0,\n$$",
+  "search_text": "微分方程 $2xy\\ln y\\,dx+(x^2+y^2\\sqrt{1+y^2})dy=0$ 的积分因子为（ ） $y$ $\\frac1y$ $x$ $\\frac1x$ 将方程重新整理可得\n\n$$\n(2xy\\ln y\\,dx+x^2dy)+y^2\\sqrt{1+y^2}\\,dy=0,\n$$\n\n则\n\n$$\n\\frac{1}{y}\\left((2xy\\ln y\\,dx+x^2dy)+y^2\\sqrt{1+y^2}\\,dy\\right)=0,\n$$\n\n可化为\n\n$$\ndx^2\\ln y+\\frac{1}{2}\\sqrt{1+y^2}\\,d(y^2+1)=0,\n$$",
+  "sort_order": 36
+}

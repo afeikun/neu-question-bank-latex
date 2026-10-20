@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/\\sqrt{1+z}$ 的主值支在 $z_0=i$ 处泰勒展开式中 $(z-i)^4$ 的系数为____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1\\cdot3\\cdot5\\cdot7\\sqrt{1+i}}{2^4\\cdot4!(1+i)^5}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1\\cdot3\\cdot5\\sqrt{1+i}}{2^2\\cdot2!(1+i)^7}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1\\cdot3\\cdot5\\sqrt{1+i}}{2^4\\cdot4!(1+i)^5}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1\\cdot3\\cdot5\\sqrt{1+i}}{2^2\\cdot2!(1+i)^7}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "二项级数系数为 $\\binom{-1/2}{4}(1+i)^{-9/2}=\\frac{1\\cdot3\\cdot5\\cdot7\\sqrt{1+i}}{2^4\\cdot4!(1+i)^5}$。",
+  "search_text": "函数 $1/\\sqrt{1+z}$ 的主值支在 $z_0=i$ 处泰勒展开式中 $(z-i)^4$ 的系数为____。 $\\frac{1\\cdot3\\cdot5\\cdot7\\sqrt{1+i}}{2^4\\cdot4!(1+i)^5}$ $\\frac{1\\cdot3\\cdot5\\sqrt{1+i}}{2^2\\cdot2!(1+i)^7}$ $\\frac{1\\cdot3\\cdot5\\sqrt{1+i}}{2^4\\cdot4!(1+i)^5}$ $\\frac{1\\cdot3\\cdot5\\sqrt{1+i}}{2^2\\cdot2!(1+i)^7}$ 二项级数系数为 $\\binom{-1/2}{4}(1+i)^{-9/2}=\\frac{1\\cdot3\\cdot5\\cdot7\\sqrt{1+i}}{2^4\\cdot4!(1+i)^5}$。",
+  "sort_order": 35
+}

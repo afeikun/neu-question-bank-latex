@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "密度$\\varphi(x)=\\frac1{\\sqrt\\pi}e^{-x^2+4x-4}$，求其正态分布。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$N(2,(1/\\sqrt2)^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$N(0,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$N(4,(1/2)^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$N(2,1^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "配方得$-x^2+4x-4=-(x-2)^2$，与正态密度比较得均值2、标准差$1/\\sqrt2$。",
+  "search_text": "密度$\\varphi(x)=\\frac1{\\sqrt\\pi}e^{-x^2+4x-4}$，求其正态分布。 $N(2,(1/\\sqrt2)^2)$ $N(0,1)$ $N(4,(1/2)^2)$ $N(2,1^2)$ 配方得$-x^2+4x-4=-(x-2)^2$，与正态密度比较得均值2、标准差$1/\\sqrt2$。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\vec a,\\vec b,\\vec c$ 均为非零向量，其中任意两个不共线，但 $\\vec a+\\vec b$ 与 $\\vec c$ 共线，$\\vec b+\\vec c$ 与 $\\vec a$ 共线，则(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\vec a+\\vec b+\\vec c=\\vec0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\vec a+\\vec b-\\vec c=\\vec0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\vec a-\\vec b+\\vec c=\\vec0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\vec a-\\vec b-\\vec c=\\vec0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $\\vec a+\\vec b=\\lambda\\vec c$，$\\vec b+\\vec c=\\mu\\vec a$。两式相减得 $(1+\\mu)\\vec a=(1+\\lambda)\\vec c$。因 $\\vec a,\\vec c$ 不共线且均非零，故 $\\lambda=\\mu=-1$，从而 $\\vec a+\\vec b+\\vec c=\\vec0$。",
+  "search_text": "$\\vec a,\\vec b,\\vec c$ 均为非零向量，其中任意两个不共线，但 $\\vec a+\\vec b$ 与 $\\vec c$ 共线，$\\vec b+\\vec c$ 与 $\\vec a$ 共线，则(\\quad)。 $\\vec a+\\vec b+\\vec c=\\vec0$ $\\vec a+\\vec b-\\vec c=\\vec0$ $\\vec a-\\vec b+\\vec c=\\vec0$ $\\vec a-\\vec b-\\vec c=\\vec0$ 设 $\\vec a+\\vec b=\\lambda\\vec c$，$\\vec b+\\vec c=\\mu\\vec a$。两式相减得 $(1+\\mu)\\vec a=(1+\\lambda)\\vec c$。因 $\\vec a,\\vec c$ 不共线且均非零，故 $\\lambda=\\mu=-1$，从而 $\\vec a+\\vec b+\\vec c=\\vec0$。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为实对称矩阵，且 $|A|\\ne0$，把 $f=x^TAx$ 化为 $f=y^TA^{-1}y$ 的线性变换为 $x=（ ）。y$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A^{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $x=A^{-1}y$，则 $(A^{-1})^TA(A^{-1})=(A^{-1})^T=(A^T)^{-1}=A^{-1}$，所以线性变换为 $x=A^{-1}y$。",
+  "search_text": "设 $A$ 为实对称矩阵，且 $|A|\\ne0$，把 $f=x^TAx$ 化为 $f=y^TA^{-1}y$ 的线性变换为 $x=（ ）。y$ $A^{-1}$ $A$ $A^T$ $A^2$ 令 $x=A^{-1}y$，则 $(A^{-1})^TA(A^{-1})=(A^{-1})^T=(A^T)^{-1}=A^{-1}$，所以线性变换为 $x=A^{-1}y$。",
+  "sort_order": 58
+}

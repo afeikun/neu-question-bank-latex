@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A\\in\\mathbb{R}^{n\\times n}$，则 $\\mathbb{R}^{n\\times n}$ 中的下列映射 $T$ 不是线性变换的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$T(A)=O$，其中 $O$ 为 $\\mathbb{R}^{n\\times n}$ 中的零矩阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$T(A)=A$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T(A)=A^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$T(A)=A+A^T$，其中 $A^T$ 代表 $A$ 的转置"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$T(A)=O$、$T(A)=A$ 和 $T(A)=A+A^T$ 均保持加法和数乘。对 $T(A)=A^2$，一般有 $(A+B)^2\\ne A^2+B^2$，所以不是线性变换。",
+  "search_text": "设 $A\\in\\mathbb{R}^{n\\times n}$，则 $\\mathbb{R}^{n\\times n}$ 中的下列映射 $T$ 不是线性变换的是（ ）。 $T(A)=O$，其中 $O$ 为 $\\mathbb{R}^{n\\times n}$ 中的零矩阵 $T(A)=A$ $T(A)=A^2$ $T(A)=A+A^T$，其中 $A^T$ 代表 $A$ 的转置 $T(A)=O$、$T(A)=A$ 和 $T(A)=A+A^T$ 均保持加法和数乘。对 $T(A)=A^2$，一般有 $(A+B)^2\\ne A^2+B^2$，所以不是线性变换。",
+  "sort_order": 5
+}

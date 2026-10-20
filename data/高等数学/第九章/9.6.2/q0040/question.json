@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为分段光滑的任意闭曲线，$\\varphi(x)$ 及 $\\psi(y)$ 为连续函数，则 $\\oint_C\\varphi(x)dx+\\psi(y)dy$ 的值（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "与 $C$ 有关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "与 $\\varphi(x),\\psi(y)$ 形式有关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "等于 $0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n因为 $\\frac{\\partial\\varphi(x)}{\\partial y}=0=\\frac{\\partial\\psi(y)}{\\partial x}$，且 $C$ 为分段光滑的任意闭曲线，\n\n所以，$\\oint_C\\varphi(x)\\,dx+\\psi(y)\\,dy=0$",
+  "search_text": "设 $C$ 为分段光滑的任意闭曲线，$\\varphi(x)$ 及 $\\psi(y)$ 为连续函数，则 $\\oint_C\\varphi(x)dx+\\psi(y)dy$ 的值（ ） $2\\pi$ 与 $C$ 有关 与 $\\varphi(x),\\psi(y)$ 形式有关 等于 $0$ 解析：\n\n因为 $\\frac{\\partial\\varphi(x)}{\\partial y}=0=\\frac{\\partial\\psi(y)}{\\partial x}$，且 $C$ 为分段光滑的任意闭曲线，\n\n所以，$\\oint_C\\varphi(x)\\,dx+\\psi(y)\\,dy=0$",
+  "sort_order": 40
+}

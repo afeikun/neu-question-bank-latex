@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "以 $A$ 表示事件“甲种产品滞销，且乙种产品滞销”，则其逆事件 $\\overline A$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "“甲种产品或乙种产品畅销”"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "“甲种产品滞销，乙种产品畅销”"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "“甲、乙两种产品均畅销”"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "“甲种产品滞销”"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $B=\\{\\text{甲种产品滞销}\\}$，$C=\\{\\text{乙种产品滞销}\\}$，则 $A=B\\cap C$，因此 $\\overline A=\\overline B\\cup\\overline C$，即甲种产品或乙种产品畅销。",
+  "search_text": "以 $A$ 表示事件“甲种产品滞销，且乙种产品滞销”，则其逆事件 $\\overline A$ 为(\\quad)。 “甲种产品或乙种产品畅销” “甲种产品滞销，乙种产品畅销” “甲、乙两种产品均畅销” “甲种产品滞销” 设 $B=\\{\\text{甲种产品滞销}\\}$，$C=\\{\\text{乙种产品滞销}\\}$，则 $A=B\\cap C$，因此 $\\overline A=\\overline B\\cup\\overline C$，即甲种产品或乙种产品畅销。",
+  "sort_order": 5
+}

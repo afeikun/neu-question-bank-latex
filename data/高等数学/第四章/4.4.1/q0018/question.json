@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₀^{π/4}cos³x dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "5√2/12"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "7√2/12"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "√2/3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "√2/4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令u=sin x，结果为5√2/12。",
+  "search_text": "计算∫₀^{π/4}cos³x dx 5√2/12 7√2/12 √2/3 √2/4 令u=sin x，结果为5√2/12。",
+  "sort_order": 18
+}

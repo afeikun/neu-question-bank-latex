@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime\\prime=1+(y\\prime)^2$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\ln|\\cos(x+C_1)|+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\ln|\\cos(x+C_1)|+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=-\\ln|\\cos(x+C_1)|+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\ln|C_1\\cos x|+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：设 $p=y'$，原方程化为\n\n$$\n\\frac{dp}{1+p^2}=dx，\n$$\n\n从而 $p=\\tan(x+C_1)$\n\n即 $\\frac{dy}{dx}=\\tan(x+C_1)$，所以\n\n$$\ny=-\\ln|\\cos(x+C_1)|+C_2。\n$$",
+  "search_text": "$y\\prime\\prime=1+(y\\prime)^2$ 的通解是（ ） $y=\\ln|\\cos(x+C_1)|+C_2$ $y=\\ln|\\cos(x+C_1)|+C_2$ $y=-\\ln|\\cos(x+C_1)|+C_2$ $y=\\ln|C_1\\cos x|+C_2$ 解析：设 $p=y'$，原方程化为\n\n$$\n\\frac{dp}{1+p^2}=dx，\n$$\n\n从而 $p=\\tan(x+C_1)$\n\n即 $\\frac{dy}{dx}=\\tan(x+C_1)$，所以\n\n$$\ny=-\\ln|\\cos(x+C_1)|+C_2。\n$$",
+  "sort_order": 12
+}

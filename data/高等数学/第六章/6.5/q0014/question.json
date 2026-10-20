@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "双曲面 $\\frac{x^2}{9}+\\frac{y^2}{16}-\\frac{z^2}{49}=1$ 与 $y=4$ 的交线为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "椭圆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "一对相交直线"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "抛物线"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "双曲线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：将 $y=4$ 带入 $\\frac{x^2}{9}+\\frac{y^2}{16}-\\frac{z^2}{49}=1$ 中，得 $x=\\pm\\frac{3}{7}z$，所以交线为平面 $y=4$ 上的一对相交直线。",
+  "search_text": "双曲面 $\\frac{x^2}{9}+\\frac{y^2}{16}-\\frac{z^2}{49}=1$ 与 $y=4$ 的交线为(\\quad)。 椭圆 一对相交直线 抛物线 双曲线 解答：将 $y=4$ 带入 $\\frac{x^2}{9}+\\frac{y^2}{16}-\\frac{z^2}{49}=1$ 中，得 $x=\\pm\\frac{3}{7}z$，所以交线为平面 $y=4$ 上的一对相交直线。",
+  "sort_order": 14
+}

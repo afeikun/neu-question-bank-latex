@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $0<\\arg(z-1)\\le\\frac\\pi4$ 与 $3\\le\\operatorname{Re}z<5$ 所确定的点集是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "非开集，亦非闭区域"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "闭区域"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "区域"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "开集，但非区域"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "点集由四条直线围成，并包含 $x=3$ 与 $x-y=1$ 边界，不含其余边界。",
+  "search_text": "由 $0<\\arg(z-1)\\le\\frac\\pi4$ 与 $3\\le\\operatorname{Re}z<5$ 所确定的点集是（ ）。 非开集，亦非闭区域 闭区域 区域 开集，但非区域 点集由四条直线围成，并包含 $x=3$ 与 $x-y=1$ 边界，不含其余边界。",
+  "sort_order": 34
+}

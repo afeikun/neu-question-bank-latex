@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\frac{d^2y}{dx^2}=\\frac1{\\cos^2x}$，且 $y|_{x=0}=1,y^{\\prime}|_{x=0}=0$ 的特解是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=-\\ln|1+\\sin x|+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\ln|1+\\sin x|+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=-\\ln|\\cos x|+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\ln|\\cos x|+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "先积分得 $y^{\\prime}=\\tan x+C_1$，再积分得 $y=-\\ln|\\cos x|+C_1x+C_2$。代入初始条件，$C_1=0,C_2=1$，故特解为 $y=-\\ln|\\cos x|+1$，选第三项。",
+  "search_text": "方程 $\\frac{d^2y}{dx^2}=\\frac1{\\cos^2x}$，且 $y|_{x=0}=1,y^{\\prime}|_{x=0}=0$ 的特解是（ ）。 $y=-\\ln|1+\\sin x|+1$ $y=\\ln|1+\\sin x|+1$ $y=-\\ln|\\cos x|+1$ $y=\\ln|\\cos x|+1$ 先积分得 $y^{\\prime}=\\tan x+C_1$，再积分得 $y=-\\ln|\\cos x|+C_1x+C_2$。代入初始条件，$C_1=0,C_2=1$，故特解为 $y=-\\ln|\\cos x|+1$，选第三项。",
+  "sort_order": 20
+}

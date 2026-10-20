@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "球面 $x^2+y^2+z^2=4a^2$ 包含在柱面 $x^2+y^2=2ax(a>0)$ 内的表面积 $S=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\int_0^{\\pi/2}d\\theta\\int_0^{2a\\cos\\theta}\\frac r{\\sqrt{4a^2-r^2}}dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\int_0^{\\pi/2}d\\theta\\int_0^{2a\\cos\\theta}\\frac{2ar}{\\sqrt{4a^2-r^2}}dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\int_0^{\\pi/2}d\\theta\\int_0^{2a\\cos\\theta}\\frac{2a}{\\sqrt{4a^2-r^2}}dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\int_0^{\\pi/2}d\\theta\\int_0^{2a\\cos\\theta}\\frac{ar}{\\sqrt{4a^2-r^2}}dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\nS=\\iint_{D_{xy}}\\sqrt{1+z_x^2+z_y^2}\\,dxdy=\\iint_{D_{xy}}\\frac{2a}{\\sqrt{4a^2-x^2-y^2}}\\,dxdy=4\\int_0^{\\frac\\pi2}d\\theta\\int_0^{2a\\cos\\theta}\\frac{2ar}{\\sqrt{4a^2-r^2}}\\,dr\n$$",
+  "search_text": "球面 $x^2+y^2+z^2=4a^2$ 包含在柱面 $x^2+y^2=2ax(a>0)$ 内的表面积 $S=（ ）$ $4\\int_0^{\\pi/2}d\\theta\\int_0^{2a\\cos\\theta}\\frac r{\\sqrt{4a^2-r^2}}dr$ $4\\int_0^{\\pi/2}d\\theta\\int_0^{2a\\cos\\theta}\\frac{2ar}{\\sqrt{4a^2-r^2}}dr$ $4\\int_0^{\\pi/2}d\\theta\\int_0^{2a\\cos\\theta}\\frac{2a}{\\sqrt{4a^2-r^2}}dr$ $4\\int_0^{\\pi/2}d\\theta\\int_0^{2a\\cos\\theta}\\frac{ar}{\\sqrt{4a^2-r^2}}dr$ $$\nS=\\iint_{D_{xy}}\\sqrt{1+z_x^2+z_y^2}\\,dxdy=\\iint_{D_{xy}}\\frac{2a}{\\sqrt{4a^2-x^2-y^2}}\\,dxdy=4\\int_0^{\\frac\\pi2}d\\theta\\int_0^{2a\\cos\\theta}\\frac{2ar}{\\sqrt{4a^2-r^2}}\\,dr\n$$",
+  "sort_order": 63
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=\\sqrt{x}$ 在点 $(9,3)$ 处的切线方程是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y-3=\\frac12(x-9)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y-3=\\frac13(x-9)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y-3=\\frac16(x-9)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y-3=\\frac15(x-9)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y\\prime=1/(2\\sqrt{x})$，在 $x=9$ 处斜率为 $1/6$。",
+  "search_text": "函数 $y=\\sqrt{x}$ 在点 $(9,3)$ 处的切线方程是（ ）。 $y-3=\\frac12(x-9)$ $y-3=\\frac13(x-9)$ $y-3=\\frac16(x-9)$ $y-3=\\frac15(x-9)$ $y\\prime=1/(2\\sqrt{x})$，在 $x=9$ 处斜率为 $1/6$。",
+  "sort_order": 2
+}

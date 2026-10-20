@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 是 $[a,b]$ 上的连续函数，则 $\\int_a^b f(x)dx-\\int_a^b f(t)dt$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_a^b dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_a^b f(x)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "定积分中积分变量是哑变量，两项相等，差为 $0$。",
+  "search_text": "设 $f(x)$ 是 $[a,b]$ 上的连续函数，则 $\\int_a^b f(x)dx-\\int_a^b f(t)dt$ 的值为 $1$ $\\int_a^b dx$ $\\int_a^b f(x)dx$ $0$ 定积分中积分变量是哑变量，两项相等，差为 $0$。",
+  "sort_order": 15
+}

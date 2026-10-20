@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两袋分别有4白2黑、3白5黑，各取一球，求两球一白一黑的概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$13/24$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5/12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/24$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7/24$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$4/6\\cdot5/8+2/6\\cdot3/8=13/24$。",
+  "search_text": "两袋分别有4白2黑、3白5黑，各取一球，求两球一白一黑的概率。 $13/24$ $5/12$ $3/24$ $7/24$ $4/6\\cdot5/8+2/6\\cdot3/8=13/24$。",
+  "sort_order": 30
+}

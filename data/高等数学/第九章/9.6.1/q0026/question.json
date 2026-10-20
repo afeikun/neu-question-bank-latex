@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{(1,0)}^{(6,8)}\\frac{x\\,dx+y\\,dy}{\\sqrt{x^2+y^2}}=(\\ )$，积分沿不通过坐标原点的路径。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$11$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$9$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n显然，当 $(x,y)\\ne(0,0)$ 时，\n\n$\\frac{x\\,dx+y\\,dy}{\\sqrt{x^2+y^2}}=d\\sqrt{x^2+y^2}$，于是\n\n$\\int_{(1,0)}^{(6,8)}\\frac{x\\,dx+y\\,dy}{\\sqrt{x^2+y^2}}=\\int_{(1,0)}^{(6,8)}d\\sqrt{x^2+y^2}=\\left.\\sqrt{x^2+y^2}\\right|_{(1,0)}^{(6,8)}=9$。",
+  "search_text": "$\\int_{(1,0)}^{(6,8)}\\frac{x\\,dx+y\\,dy}{\\sqrt{x^2+y^2}}=(\\ )$，积分沿不通过坐标原点的路径。 $11$ $5$ $13$ $9$ 解析：\n\n显然，当 $(x,y)\\ne(0,0)$ 时，\n\n$\\frac{x\\,dx+y\\,dy}{\\sqrt{x^2+y^2}}=d\\sqrt{x^2+y^2}$，于是\n\n$\\int_{(1,0)}^{(6,8)}\\frac{x\\,dx+y\\,dy}{\\sqrt{x^2+y^2}}=\\int_{(1,0)}^{(6,8)}d\\sqrt{x^2+y^2}=\\left.\\sqrt{x^2+y^2}\\right|_{(1,0)}^{(6,8)}=9$。",
+  "sort_order": 26
+}

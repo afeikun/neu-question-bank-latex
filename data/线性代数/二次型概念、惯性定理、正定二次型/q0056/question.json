@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha=\\begin{pmatrix}a_1\\\\a_2\\\\a_3\\end{pmatrix}$，$\\beta=\\begin{pmatrix}b_1\\\\b_2\\\\b_3\\end{pmatrix}$，则二次型 $f(x_1,x_2,x_3)=2(a_1x_1+a_2x_2+a_3x_3)^2+(b_1x_1+b_2x_2+b_3x_3)^2$ 的矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\alpha\\alpha^T+\\beta\\beta^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha\\alpha^T+\\beta\\beta^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\alpha\\alpha^T+2\\beta\\beta^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha\\alpha^T+2\\beta\\beta^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f=2(\\alpha^Tx)^2+(\\beta^Tx)^2=x^T(2\\alpha\\alpha^T+\\beta\\beta^T)x$，所以二次型矩阵为 $2\\alpha\\alpha^T+\\beta\\beta^T$。",
+  "search_text": "设 $\\alpha=\\begin{pmatrix}a_1\\\\a_2\\\\a_3\\end{pmatrix}$，$\\beta=\\begin{pmatrix}b_1\\\\b_2\\\\b_3\\end{pmatrix}$，则二次型 $f(x_1,x_2,x_3)=2(a_1x_1+a_2x_2+a_3x_3)^2+(b_1x_1+b_2x_2+b_3x_3)^2$ 的矩阵为（ ）。 $2\\alpha\\alpha^T+\\beta\\beta^T$ $\\alpha\\alpha^T+\\beta\\beta^T$ $2\\alpha\\alpha^T+2\\beta\\beta^T$ $\\alpha\\alpha^T+2\\beta\\beta^T$ $f=2(\\alpha^Tx)^2+(\\beta^Tx)^2=x^T(2\\alpha\\alpha^T+\\beta\\beta^T)x$，所以二次型矩阵为 $2\\alpha\\alpha^T+\\beta\\beta^T$。",
+  "sort_order": 56
+}

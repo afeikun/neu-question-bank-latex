@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "力 $F=(x^2+y^2)^m(yi-xj)$ 构成力场，$(y>0)$ 若已知质点在此力场内运动时，力所做的功与路径无关，则 $m=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：\n\n$P=(x^2+y^2)^m y，\\quad Q=-(x^2+y^2)^m x，$\n\n$$\\frac{\\partial P}{\\partial y}=(x^2+y^2)^m+2my^2(x^2+y^2)^{m-1}，$$\n\n$$\\frac{\\partial Q}{\\partial x}=-(x^2+y^2)^m-2mx^2(x^2+y^2)^{m-1}。$$\n\n由 $\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$，得 $m=-1$",
+  "search_text": "力 $F=(x^2+y^2)^m(yi-xj)$ 构成力场，$(y>0)$ 若已知质点在此力场内运动时，力所做的功与路径无关，则 $m=$（ ） $2$ $-1$ $1$ $\\frac12$ 解析：\n\n$P=(x^2+y^2)^m y，\\quad Q=-(x^2+y^2)^m x，$\n\n$$\\frac{\\partial P}{\\partial y}=(x^2+y^2)^m+2my^2(x^2+y^2)^{m-1}，$$\n\n$$\\frac{\\partial Q}{\\partial x}=-(x^2+y^2)^m-2mx^2(x^2+y^2)^{m-1}。$$\n\n由 $\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$，得 $m=-1$",
+  "sort_order": 19
+}

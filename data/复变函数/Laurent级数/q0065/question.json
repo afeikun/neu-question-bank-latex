@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=0$ 是函数 $\\dfrac1{\\sin z^2}$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "二级极点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "本性奇点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "一级极点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可去奇点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\sin z^2=z^2-\\dfrac{z^6}{3!}+\\cdots$，所以 $z=0$ 是 $\\sin z^2$ 的二级零点，原函数在 $z=0$ 为二级极点。",
+  "search_text": "$z=0$ 是函数 $\\dfrac1{\\sin z^2}$ 的（ ）。 二级极点 本性奇点 一级极点 可去奇点 $\\sin z^2=z^2-\\dfrac{z^6}{3!}+\\cdots$，所以 $z=0$ 是 $\\sin z^2$ 的二级零点，原函数在 $z=0$ 为二级极点。",
+  "sort_order": 65
+}

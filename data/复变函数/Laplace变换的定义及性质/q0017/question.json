@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal L[\\sin^2t]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac2{s(s^2+4)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac2{s^2+4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{s}{s^2+4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{2s}{s^2+4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal L[\\sin^2t]=\\dfrac12\\mathcal L[1-\\cos2t]=\\dfrac12\\left(\\dfrac1s-\\dfrac{s}{s^2+4}\\right)=\\dfrac2{s(s^2+4)}$。",
+  "search_text": "$\\mathcal L[\\sin^2t]=(\\ \\ )$。 $\\dfrac2{s(s^2+4)}$ $\\dfrac2{s^2+4}$ $\\dfrac{s}{s^2+4}$ $\\dfrac{2s}{s^2+4}$ $\\mathcal L[\\sin^2t]=\\dfrac12\\mathcal L[1-\\cos2t]=\\dfrac12\\left(\\dfrac1s-\\dfrac{s}{s^2+4}\\right)=\\dfrac2{s(s^2+4)}$。",
+  "sort_order": 17
+}

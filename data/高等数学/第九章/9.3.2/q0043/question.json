@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\oint_L\\frac{-y\\,dx+x\\,dy}{4x^2+y^2}$，$L$ 是正向椭圆 $x^2+\\frac{y^2}{4}=1$ 的结果是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\\oint_L\\frac{-y\\,dx+x\\,dy}{4x^2+y^2}=\\frac{1}{4}\\oint_Lx\\,dy-y\\,dx=\\frac{1}{2}\\cdot\\pi\\cdot1\\cdot2=\\pi.$$",
+  "search_text": "计算 $\\oint_L\\frac{-y\\,dx+x\\,dy}{4x^2+y^2}$，$L$ 是正向椭圆 $x^2+\\frac{y^2}{4}=1$ 的结果是（ ） $\\pi$ $\\frac\\pi3$ $-2\\pi$ $-\\frac12\\pi$ $$\\oint_L\\frac{-y\\,dx+x\\,dy}{4x^2+y^2}=\\frac{1}{4}\\oint_Lx\\,dy-y\\,dx=\\frac{1}{2}\\cdot\\pi\\cdot1\\cdot2=\\pi.$$",
+  "sort_order": 43
+}

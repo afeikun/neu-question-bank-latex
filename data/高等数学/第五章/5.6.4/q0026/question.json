@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $f(x)=\\begin{cases}x,0\\le x\\le1\\\\1,1<x\\le2\\end{cases}$ 展成以 $4$ 为周期的正弦函数，其系数 $b_n$ 为（　）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}\\frac1{(2k-1)\\pi}+\\frac{(-1)^{k-1}2}{(2k-1)^2\\pi^2}, n=2k-1\\\\0,n=2k\\end{cases}, k=1,2,\\cdots$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}\\frac{(-1)^{k-1}4}{(2k-1)^2\\pi^2},n=2k-1\\\\\\frac1{k\\pi},n=2k\\end{cases}, k=1,2,\\cdots$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}\\frac2{(2k-1)\\pi}+\\frac{(-1)^{k-1}4}{(2k-1)^2\\pi^2},n=2k-1\\\\\\frac1{k\\pi},n=2k\\end{cases}, k=1,2,\\cdots$； B."
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}0,n=2k-1\\\\-\\frac1{k\\pi},n=2k\\end{cases}, k=1,2,\\cdots$。"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解对 $f(x)$ 作奇延拓，则\n\n$b_n=\\frac22\\int_0^2f(x)\\sin\\frac{n\\pi x}{2}dx=\\int_0^1x\\sin\\frac{n\\pi x}{2}dx+\\int_1^2\\sin\\frac{n\\pi x}{2}dx$\n\n$=-\\frac2{n\\pi}\\cos n\\pi+\\frac4{n^2\\pi^2}\\sin\\frac{n\\pi}{2}=\\begin{cases}\\frac2{(2k-1)\\pi}+\\frac{(-1)^{k-1}4}{(2k-1)^2\\pi^2},n=2k-1\\\\-\\frac1{k\\pi},n=2k\\end{cases}, k=1,2,\\cdots$",
+  "search_text": "将 $f(x)=\\begin{cases}x,0\\le x\\le1\\\\1,1<x\\le2\\end{cases}$ 展成以 $4$ 为周期的正弦函数，其系数 $b_n$ 为（　） $\\begin{cases}\\frac1{(2k-1)\\pi}+\\frac{(-1)^{k-1}2}{(2k-1)^2\\pi^2}, n=2k-1\\\\0,n=2k\\end{cases}, k=1,2,\\cdots$； $\\begin{cases}\\frac{(-1)^{k-1}4}{(2k-1)^2\\pi^2},n=2k-1\\\\\\frac1{k\\pi},n=2k\\end{cases}, k=1,2,\\cdots$； $\\begin{cases}\\frac2{(2k-1)\\pi}+\\frac{(-1)^{k-1}4}{(2k-1)^2\\pi^2},n=2k-1\\\\\\frac1{k\\pi},n=2k\\end{cases}, k=1,2,\\cdots$； B. $\\begin{cases}0,n=2k-1\\\\-\\frac1{k\\pi},n=2k\\end{cases}, k=1,2,\\cdots$。 解对 $f(x)$ 作奇延拓，则\n\n$b_n=\\frac22\\int_0^2f(x)\\sin\\frac{n\\pi x}{2}dx=\\int_0^1x\\sin\\frac{n\\pi x}{2}dx+\\int_1^2\\sin\\frac{n\\pi x}{2}dx$\n\n$=-\\frac2{n\\pi}\\cos n\\pi+\\frac4{n^2\\pi^2}\\sin\\frac{n\\pi}{2}=\\begin{cases}\\frac2{(2k-1)\\pi}+\\frac{(-1)^{k-1}4}{(2k-1)^2\\pi^2},n=2k-1\\\\-\\frac1{k\\pi},n=2k\\end{cases}, k=1,2,\\cdots$",
+  "sort_order": 26
+}

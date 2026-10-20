@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{e^x-e^{\\sin x}}{x-\\sin x}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "提取 $e^{\\sin x}$，有 $e^{x-\\sin x}-1\\sim x-\\sin x$，极限为 1。",
+  "search_text": "$\\lim_{x\\to0}\\frac{e^x-e^{\\sin x}}{x-\\sin x}$ 的值为（ ）。 1 $e$ $\\infty$ 0 提取 $e^{\\sin x}$，有 $e^{x-\\sin x}-1\\sim x-\\sin x$，极限为 1。",
+  "sort_order": 29
+}

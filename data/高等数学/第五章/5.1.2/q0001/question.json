@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 与 $\\sum_{n=1}^{\\infty} v_n$ 分别收敛于 $S_1,S_2$，则下列结论中不成立的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty} kv_n=S_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty} ku_n=kS_1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}(u_n+v_n)=S_1+S_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty} u_n/\\sum_{n=1}^{\\infty} v_n=S_1/S_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "常数倍及和的运算保收敛；两个级数和的商一般不等于和之商。",
+  "search_text": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 与 $\\sum_{n=1}^{\\infty} v_n$ 分别收敛于 $S_1,S_2$，则下列结论中不成立的是？ $\\sum_{n=1}^{\\infty} kv_n=S_2$ $\\sum_{n=1}^{\\infty} ku_n=kS_1$ $\\sum_{n=1}^{\\infty}(u_n+v_n)=S_1+S_2$ $\\sum_{n=1}^{\\infty} u_n/\\sum_{n=1}^{\\infty} v_n=S_1/S_2$ 常数倍及和的运算保收敛；两个级数和的商一般不等于和之商。",
+  "sort_order": 1
+}

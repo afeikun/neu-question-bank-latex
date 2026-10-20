@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $3y\\prime\\prime+12y\\prime-15y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{2x}+C_2e^{-5x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{-5x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{-2x}+C_2e^{-5x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^x+C_2e^{-5x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析 由特征方程 $3r^2+12r-15=0$，得特征根 $r_1=1,r_2=-5$，对照通项公式即得 $y=C_1e^x+C_2e^{-5x}$。",
+  "search_text": "微分方程 $3y\\prime\\prime+12y\\prime-15y=0$ 的通解为（ ） $y=C_1e^{2x}+C_2e^{-5x}$ $y=C_1e^x+C_2e^{-5x}$ $y=C_1e^{-2x}+C_2e^{-5x}$ $y=C_1e^x+C_2e^{-5x}$ 解析 由特征方程 $3r^2+12r-15=0$，得特征根 $r_1=1,r_2=-5$，对照通项公式即得 $y=C_1e^x+C_2e^{-5x}$。",
+  "sort_order": 53
+}

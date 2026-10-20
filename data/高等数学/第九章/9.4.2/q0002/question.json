@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Sigma:(x-1)^2+(y-1)^2+(z-1)^2=R^2$ 的外侧，则 $\\oiint_\\Sigma x^2dydz+y^2dzdx+z^2dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8\\pi R^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi R^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac43\\pi R^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答，根据轮换对称性，只要计算 $\\oiint_\\Sigma z^2dxdy$。$z-1=\\pm\\sqrt{R^2-(x-1)^2-(y-1)^2}$\n$\\Sigma$ 在 $xoy$ 面上的投影为 $(x-1)^2-(y-1)^2\\le R^2$利用极坐标得\n$$\\oiint_\\Sigma z^2dxdy=\\iint_{D_{xy}}\\left[1+\\sqrt{R^2-(x-1)^2-(y-1)^2}\\right]^2dxdy-\\iint_{D_{xy}}\\left[1-\\sqrt{R^2-(x-1)^2-(y-1)^2}\\right]^2dxdy$$\n$$=4\\iint_{D_{xy}}\\sqrt{R^2-(x-1)^2-(y-1)^2}dxdy=4\\int_0^{2\\pi}d\\varphi\\int_0^R\\sqrt{R^2-r^2}rdr=\\frac{8}{3}\\pi R^3。$$\n则有 $\\oiint_\\Sigma x^2dydz=\\frac{8}{3}\\pi R^3$，$\\oiint_\\Sigma y^2dzdx=\\frac{8}{3}\\pi R^3$，所以原式$=8\\pi R^3$。",
+  "search_text": "$\\Sigma:(x-1)^2+(y-1)^2+(z-1)^2=R^2$ 的外侧，则 $\\oiint_\\Sigma x^2dydz+y^2dzdx+z^2dxdy=$（ ） $8\\pi R^3$ $2\\pi R^3$ $\\frac43\\pi R^3$ $0$ 解答，根据轮换对称性，只要计算 $\\oiint_\\Sigma z^2dxdy$。$z-1=\\pm\\sqrt{R^2-(x-1)^2-(y-1)^2}$\n$\\Sigma$ 在 $xoy$ 面上的投影为 $(x-1)^2-(y-1)^2\\le R^2$利用极坐标得\n$$\\oiint_\\Sigma z^2dxdy=\\iint_{D_{xy}}\\left[1+\\sqrt{R^2-(x-1)^2-(y-1)^2}\\right]^2dxdy-\\iint_{D_{xy}}\\left[1-\\sqrt{R^2-(x-1)^2-(y-1)^2}\\right]^2dxdy$$\n$$=4\\iint_{D_{xy}}\\sqrt{R^2-(x-1)^2-(y-1)^2}dxdy=4\\int_0^{2\\pi}d\\varphi\\int_0^R\\sqrt{R^2-r^2}rdr=\\frac{8}{3}\\pi R^3。$$\n则有 $\\oiint_\\Sigma x^2dydz=\\frac{8}{3}\\pi R^3$，$\\oiint_\\Sigma y^2dzdx=\\frac{8}{3}\\pi R^3$，所以原式$=8\\pi R^3$。",
+  "sort_order": 2
+}

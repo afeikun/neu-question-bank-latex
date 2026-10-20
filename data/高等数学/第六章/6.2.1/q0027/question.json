@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知向量 $\\vec a$ 与 $\\vec b$ 的夹角 $\\alpha=60^\\circ$，并且 $|\\vec a|=5$，$|\\vec b|=8$，则 $|\\vec a+\\vec b|$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{128}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt{127}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{126}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{129}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$|\\vec a+\\vec b|^2=25+64+2\\cdot5\\cdot8\\cos60^\\circ=129$，故模长为 $\\sqrt{129}$。",
+  "search_text": "已知向量 $\\vec a$ 与 $\\vec b$ 的夹角 $\\alpha=60^\\circ$，并且 $|\\vec a|=5$，$|\\vec b|=8$，则 $|\\vec a+\\vec b|$ 为(\\quad)。 $\\sqrt{128}$ $\\sqrt{127}$ $\\sqrt{126}$ $\\sqrt{129}$ $|\\vec a+\\vec b|^2=25+64+2\\cdot5\\cdot8\\cos60^\\circ=129$，故模长为 $\\sqrt{129}$。",
+  "sort_order": 27
+}

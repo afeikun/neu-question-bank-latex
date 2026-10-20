@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设区域 $D:x^2+y^2\\leq4$，$f$ 是区域 $D$ 上的连续函数，则 $\\iint_Df(\\sqrt{x^2+y^2})dxdy=[\\quad]$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi\\int_0^2f(r)dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi\\int_0^2rf(r)dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi\\int_0^2rf(r)dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi\\int_0^2f(r)dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答　令 $x=r\\cos\\theta,y=r\\sin\\theta$，则原式$=\\int_0^{2\\pi}d\\theta\\int_0^2f(r)rdr=2\\pi\\int_0^2rf(r)dr$。",
+  "search_text": "设区域 $D:x^2+y^2\\leq4$，$f$ 是区域 $D$ 上的连续函数，则 $\\iint_Df(\\sqrt{x^2+y^2})dxdy=[\\quad]$ $4\\pi\\int_0^2f(r)dr$ $4\\pi\\int_0^2rf(r)dr$ $2\\pi\\int_0^2rf(r)dr$ $2\\pi\\int_0^2f(r)dr$ 解答　令 $x=r\\cos\\theta,y=r\\sin\\theta$，则原式$=\\int_0^{2\\pi}d\\theta\\int_0^2f(r)rdr=2\\pi\\int_0^2rf(r)dr$。",
+  "sort_order": 20
+}

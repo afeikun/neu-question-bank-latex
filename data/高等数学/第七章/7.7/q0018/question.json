@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $u=\\ln(x^2+y^2+z^2)$ 在 $M_0(1,2,-2)$ 处的梯度为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac29(1,-2,-2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac19(1,2,2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac29(1,2,-2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac29(1,2,2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由于 $u_x(M_0)=\\left.\\frac{2x}{x^2+y^2+z^2}\\right|_{M_0}=\\frac{2}{9}，\\quad u_y(M_0)=\\left.\\frac{2y}{x^2+y^2+z^2}\\right|_{M_0}=\\frac{4}{9}，$\n\n$$u_z(M_0)=\\left.\\frac{2z}{x^2+y^2+z^2}\\right|_{M_0}=-\\frac{4}{9}，$$\n\n所以梯度 $\\left.\\operatorname{grad}u\\right|_{M_0}=\\frac{2}{9}(1,2,-2)。$",
+  "search_text": "函数 $u=\\ln(x^2+y^2+z^2)$ 在 $M_0(1,2,-2)$ 处的梯度为。 $\\frac29(1,-2,-2)$ $\\frac19(1,2,2)$ $\\frac29(1,2,-2)$ $\\frac29(1,2,2)$ 由于 $u_x(M_0)=\\left.\\frac{2x}{x^2+y^2+z^2}\\right|_{M_0}=\\frac{2}{9}，\\quad u_y(M_0)=\\left.\\frac{2y}{x^2+y^2+z^2}\\right|_{M_0}=\\frac{4}{9}，$\n\n$$u_z(M_0)=\\left.\\frac{2z}{x^2+y^2+z^2}\\right|_{M_0}=-\\frac{4}{9}，$$\n\n所以梯度 $\\left.\\operatorname{grad}u\\right|_{M_0}=\\frac{2}{9}(1,2,-2)。$",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $\\frac{x^2}{4}+\\frac{y^2}{9}+\\frac{z^2}{9}=1$ 是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$zOx$ 面上的曲线 $\\frac{x^2}{4}+\\frac{z^2}{9}=1$ 绕 $x$ 轴旋转而成"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "球面"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xOy$ 面上的曲线 $\\frac{x^2}{4}+\\frac{y^2}{9}=1$ 绕 $y$ 轴旋转而成"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "柱面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：曲面方程可改写成 $\\frac{x^2}{4}+\\frac{y^2+z^2}{9}=1$，故曲面为旋转椭圆面（椭圆），旋转轴为 $x$ 轴，母线为 $zOx$ 面上的曲线 $\\frac{x^2}{4}+\\frac{z^2}{9}=1$，或为 $xOy$ 面上的曲线 $\\frac{x^2}{4}+\\frac{y^2}{9}=1$。",
+  "search_text": "曲面 $\\frac{x^2}{4}+\\frac{y^2}{9}+\\frac{z^2}{9}=1$ 是(\\quad)。 $zOx$ 面上的曲线 $\\frac{x^2}{4}+\\frac{z^2}{9}=1$ 绕 $x$ 轴旋转而成 球面 $xOy$ 面上的曲线 $\\frac{x^2}{4}+\\frac{y^2}{9}=1$ 绕 $y$ 轴旋转而成 柱面 解答：曲面方程可改写成 $\\frac{x^2}{4}+\\frac{y^2+z^2}{9}=1$，故曲面为旋转椭圆面（椭圆），旋转轴为 $x$ 轴，母线为 $zOx$ 面上的曲线 $\\frac{x^2}{4}+\\frac{z^2}{9}=1$，或为 $xOy$ 面上的曲线 $\\frac{x^2}{4}+\\frac{y^2}{9}=1$。",
+  "sort_order": 13
+}

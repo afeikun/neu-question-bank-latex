@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(x)$，已知 $\\lim_{x\\to0}\\frac{f(x_0)-f(x_0+2x)}{6x}=3$，则 $dy|_{x=x_0}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-$3dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "-$9dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$18dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由极限得 $-f\\prime(x_0)/3=3$，故 $f\\prime(x_0)=-9$，$dy=-9dx$。",
+  "search_text": "设 $y=f(x)$，已知 $\\lim_{x\\to0}\\frac{f(x_0)-f(x_0+2x)}{6x}=3$，则 $dy|_{x=x_0}=$（ ）。 $2dx$ -$3dx$ -$9dx$ $18dx$ 由极限得 $-f\\prime(x_0)/3=3$，故 $f\\prime(x_0)=-9$，$dy=-9dx$。",
+  "sort_order": 26
+}

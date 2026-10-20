@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $V$ 是由 $\\alpha_1=(1,2,3,4)^T$，$\\alpha_2=(-1,0,1,2)^T$，$\\alpha_3=(1,1,1,1)^T$ 生成的向量空间，则 $V$ 的维数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$V$ 的维数是向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 的秩。将这些向量组成矩阵并化简可得秩为 $2$，所以 $\\dim V=2$。",
+  "search_text": "设 $V$ 是由 $\\alpha_1=(1,2,3,4)^T$，$\\alpha_2=(-1,0,1,2)^T$，$\\alpha_3=(1,1,1,1)^T$ 生成的向量空间，则 $V$ 的维数为（ ）。 $3$ $2$ $0$ $1$ $V$ 的维数是向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 的秩。将这些向量组成矩阵并化简可得秩为 $2$，所以 $\\dim V=2$。",
+  "sort_order": 15
+}

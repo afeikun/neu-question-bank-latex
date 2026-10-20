@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "点 $(3,1,-1)$ 到平面 $22x+4y-20z-45=0$ 的距离 $d=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "代入点到平面距离公式得 $d=3/2$。",
+  "search_text": "点 $(3,1,-1)$ 到平面 $22x+4y-20z-45=0$ 的距离 $d=(\\quad)$。 $\\frac32$ $\\frac12$ $1$ $2$ 代入点到平面距离公式得 $d=3/2$。",
+  "sort_order": 5
+}

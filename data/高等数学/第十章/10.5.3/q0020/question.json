@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $4\\frac{d^4y}{dx^4}=\\frac{d^2y}{dx^2}$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{-x/2}+C_2e^{x/2}+C_3e^{2x}+C_4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^{-x/2}+C_2e^{x/2}+C_3x^2+C_4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{-x/2}+C_2e^{x/2}+C_3x+C_4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{-x/2}+C_2e^{x/2}+C_3e^x+C_4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 设 $\\frac{d^2y}{dx^2}=p$，$\\frac{d^4y}{dx^4}=\\frac{d^2p}{dx^2}$，原方程化为 $4\\frac{d^2p}{dx^2}=p$。解得 $p=e^{rx}$，其中 $r$ 待定，则 $\\frac{d^2p}{dx^2}=r^2e^{rx}$，于是有 $4r^2e^{rx}=e^{rx}$。解出 $r=\\frac{1}{2}$ 或 $r=-\\frac{1}{2}$。故其通解为 $p=C_1e^{\\frac{1}{2}x}+C_2e^{-\\frac{1}{2}x}$，再积分两次，得方程的通解为\n\n$$y=\\frac{1}{4}C_1e^{\\frac{1}{2}x}+\\frac{1}{4}C_2e^{-\\frac{1}{2}x}+C_3x+C_4,$$\n\n仍可记为 $y=C_1e^{\\frac{1}{2}x}+C_2e^{-\\frac{1}{2}x}+C_3x+C_4$ 其中 $C_1$ 与 $C_2$ 是任意常数。",
+  "search_text": "方程 $4\\frac{d^4y}{dx^4}=\\frac{d^2y}{dx^2}$ 的通解是（ ） $y=C_1e^{-x/2}+C_2e^{x/2}+C_3e^{2x}+C_4$ $y=C_1e^{-x/2}+C_2e^{x/2}+C_3x^2+C_4$ $y=C_1e^{-x/2}+C_2e^{x/2}+C_3x+C_4$ $y=C_1e^{-x/2}+C_2e^{x/2}+C_3e^x+C_4$ 解答 设 $\\frac{d^2y}{dx^2}=p$，$\\frac{d^4y}{dx^4}=\\frac{d^2p}{dx^2}$，原方程化为 $4\\frac{d^2p}{dx^2}=p$。解得 $p=e^{rx}$，其中 $r$ 待定，则 $\\frac{d^2p}{dx^2}=r^2e^{rx}$，于是有 $4r^2e^{rx}=e^{rx}$。解出 $r=\\frac{1}{2}$ 或 $r=-\\frac{1}{2}$。故其通解为 $p=C_1e^{\\frac{1}{2}x}+C_2e^{-\\frac{1}{2}x}$，再积分两次，得方程的通解为\n\n$$y=\\frac{1}{4}C_1e^{\\frac{1}{2}x}+\\frac{1}{4}C_2e^{-\\frac{1}{2}x}+C_3x+C_4,$$\n\n仍可记为 $y=C_1e^{\\frac{1}{2}x}+C_2e^{-\\frac{1}{2}x}+C_3x+C_4$ 其中 $C_1$ 与 $C_2$ 是任意常数。",
+  "sort_order": 20
+}

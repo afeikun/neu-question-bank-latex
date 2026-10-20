@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(s)=\\frac{1}{(s^2+a^2)^2}$（$a>0$），则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1}{2a^3}(\\sin at-at\\cos at)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1}{2a^3}(\\sin at+at\\cos at)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1}{2a^3}(\\cos at-at\\sin at)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1}{2a^3}(\\cos at+at\\sin at)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用已知变换对，反变换为 $\\frac{1}{2a^3}(\\sin at-at\\cos at)$。",
+  "search_text": "设 $F(s)=\\frac{1}{(s^2+a^2)^2}$（$a>0$），则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$ $\\frac{1}{2a^3}(\\sin at-at\\cos at)$ $\\frac{1}{2a^3}(\\sin at+at\\cos at)$ $\\frac{1}{2a^3}(\\cos at-at\\sin at)$ $\\frac{1}{2a^3}(\\cos at+at\\sin at)$ 利用已知变换对，反变换为 $\\frac{1}{2a^3}(\\sin at-at\\cos at)$。",
+  "sort_order": 3
+}

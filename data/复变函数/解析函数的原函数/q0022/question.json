@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{1-i}^{3+2i}(2z^2-5z+6)\\,dz=(\\quad)$（积分路径从 $1-i$ 到 $3+2i$ 的直线段）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{31}{6}+15i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3+5i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2+3i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-6i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_{1-i}^{3+2i}(2z^2-5z+6)\\,dz=\\left(\\frac23z^3-\\frac52z^2+6z\\right)\\big|_{1-i}^{3+2i}=-\\frac{31}{6}+15i$。",
+  "search_text": "$\\int_{1-i}^{3+2i}(2z^2-5z+6)\\,dz=(\\quad)$（积分路径从 $1-i$ 到 $3+2i$ 的直线段）。 $-\\frac{31}{6}+15i$ $3+5i$ $2+3i$ $-6i$ $\\int_{1-i}^{3+2i}(2z^2-5z+6)\\,dz=\\left(\\frac23z^3-\\frac52z^2+6z\\right)\\big|_{1-i}^{3+2i}=-\\frac{31}{6}+15i$。",
+  "sort_order": 22
+}

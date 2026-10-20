@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "通过曲线 $\\begin{cases}x^2+y^2+z^2=8\\\\x+y+z=0\\end{cases}$ 做柱面 $\\Sigma$，且其母线垂直于 $xOy$ 面，则 $\\Sigma$ 的方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2+y^2+x+y=4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2+y^2+2x+y=4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2+y^2+2xy=4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2+y^2+xy=4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：由已知 $\\Sigma$ 的母线垂直于 $xOy$ 面，即母线平行于 $z$ 轴，$\\Sigma$ 为曲线关于 $xOy$ 面的投影柱面，故在曲线方程中消去 $z$，得 $x^2+y^2+(-x-y)^2=8$，整理得 $\\Sigma$ 的方程为 $x^2+y^2+xy=4$。",
+  "search_text": "通过曲线 $\\begin{cases}x^2+y^2+z^2=8\\\\x+y+z=0\\end{cases}$ 做柱面 $\\Sigma$，且其母线垂直于 $xOy$ 面，则 $\\Sigma$ 的方程为(\\quad)。 $x^2+y^2+x+y=4$ $x^2+y^2+2x+y=4$ $x^2+y^2+2xy=4$ $x^2+y^2+xy=4$ 解答：由已知 $\\Sigma$ 的母线垂直于 $xOy$ 面，即母线平行于 $z$ 轴，$\\Sigma$ 为曲线关于 $xOy$ 面的投影柱面，故在曲线方程中消去 $z$，得 $x^2+y^2+(-x-y)^2=8$，整理得 $\\Sigma$ 的方程为 $x^2+y^2+xy=4$。",
+  "sort_order": 17
+}

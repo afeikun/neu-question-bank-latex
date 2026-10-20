@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\prime\\prime=x$ 确定的经过 $M(0,1)$ 且在此点与直线 $y=\\frac x2+1$ 相切的积分曲线是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac{x^3}{6}+\\frac14x+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac{x^3}{6}+\\frac12x+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac{x^3}{6}+x+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac{x^3}{6}+2x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由题意，所求曲线是方程 $y''=x$ 满足初始条件 $y|_{x=0}=1，y'|_{x=0}=\\frac{1}{2}$ 的特解，由 $y''=x$ 积分得\n\n$$\ny'=\\frac{1}{2}x^2+C_1，\n$$\n\n将 $y'|_{x=0}=\\frac{1}{2}$ 代入得 $C_1=\\frac{1}{2}$，即有\n\n$$\ny'=\\frac{1}{2}x^2+\\frac{1}{2}，\n$$\n\n再次积分得\n\n$$\ny=\\frac{x^3}{6}+\\frac{1}{2}x+C_2，\n$$\n\n再将 $y|_{x=0}=1$ 代入得\n\n$$\ny=\\frac{x^3}{6}+\\frac{1}{2}x+1\n$$",
+  "search_text": "方程 $y\\prime\\prime=x$ 确定的经过 $M(0,1)$ 且在此点与直线 $y=\\frac x2+1$ 相切的积分曲线是（ ） $y=\\frac{x^3}{6}+\\frac14x+1$ $y=\\frac{x^3}{6}+\\frac12x+1$ $y=\\frac{x^3}{6}+x+1$ $y=\\frac{x^3}{6}+2x+1$ 由题意，所求曲线是方程 $y''=x$ 满足初始条件 $y|_{x=0}=1，y'|_{x=0}=\\frac{1}{2}$ 的特解，由 $y''=x$ 积分得\n\n$$\ny'=\\frac{1}{2}x^2+C_1，\n$$\n\n将 $y'|_{x=0}=\\frac{1}{2}$ 代入得 $C_1=\\frac{1}{2}$，即有\n\n$$\ny'=\\frac{1}{2}x^2+\\frac{1}{2}，\n$$\n\n再次积分得\n\n$$\ny=\\frac{x^3}{6}+\\frac{1}{2}x+C_2，\n$$\n\n再将 $y|_{x=0}=1$ 代入得\n\n$$\ny=\\frac{x^3}{6}+\\frac{1}{2}x+1\n$$",
+  "sort_order": 18
+}

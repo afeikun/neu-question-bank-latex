@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列各式不正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(A\\cup B)-B=A$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A\\subset B\\Rightarrow\\overline B\\subset\\overline A$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A(B-C)=AB-AC$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\overline{(AB\\cup C)(AC)}=A(B\\cup C)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$(A\\cup B)-B=A\\overline B=A-B$，一般不等于 $A$，因此选项 1 不正确。",
+  "search_text": "下列各式不正确的是(\\quad)。 $(A\\cup B)-B=A$ $A\\subset B\\Rightarrow\\overline B\\subset\\overline A$ $A(B-C)=AB-AC$ $\\overline{(AB\\cup C)(AC)}=A(B\\cup C)$ $(A\\cup B)-B=A\\overline B=A-B$，一般不等于 $A$，因此选项 1 不正确。",
+  "sort_order": 5
+}

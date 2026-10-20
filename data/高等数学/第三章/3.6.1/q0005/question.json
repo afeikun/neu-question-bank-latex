@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x^2-x^3$ 在区间 $[\\frac23,1]$ 上的特性是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "单调下降，曲线为凹"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调上升，曲线为凹"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单调下降，曲线为凸"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "单调上升，曲线为凸"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y\\prime=2x-3x^2<0$，$y\\prime\\prime=2-6x<0$，所以在该区间单调下降且曲线为凸。",
+  "search_text": "曲线 $y=x^2-x^3$ 在区间 $[\\frac23,1]$ 上的特性是（ ）。 单调下降，曲线为凹 单调上升，曲线为凹 单调下降，曲线为凸 单调上升，曲线为凸 $y\\prime=2x-3x^2<0$，$y\\prime\\prime=2-6x<0$，所以在该区间单调下降且曲线为凸。",
+  "sort_order": 5
+}

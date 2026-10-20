@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "铜丝折断力方差是否超过16，样本$n=9,S^2=20.36$，不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可以认为方差超过16"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\sigma^2\\le16,H_1:\\sigma^2>16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar x\\approx287.89,s^2\\approx20.3611$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\chi^2=8S^2/16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "统计量约10.18，小于临界值15.507，不能认为方差超过16。",
+  "search_text": "铜丝折断力方差是否超过16，样本$n=9,S^2=20.36$，不正确的是（）。 可以认为方差超过16 $H_0:\\sigma^2\\le16,H_1:\\sigma^2>16$ $\\bar x\\approx287.89,s^2\\approx20.3611$ $\\chi^2=8S^2/16$ 统计量约10.18，小于临界值15.507，不能认为方差超过16。",
+  "sort_order": 4
+}

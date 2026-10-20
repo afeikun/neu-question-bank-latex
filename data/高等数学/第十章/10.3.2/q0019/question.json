@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "伯努利方程 $y\\prime-3xy=xy^2$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32xy+\\ln|1+\\frac3y|=c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac32x^2+\\ln|1+\\frac3y|=c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12y^2+\\ln|x+\\frac3y|=c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac32y^2+\\ln|1-\\frac3x|=c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $z=y^{1-2}=\\frac{1}{y}$，原方程化为 $\\frac{dz}{dx}+3xz=-x$，即方程的解为\n\n$$z=e^{-\\int3x\\,dx}\\left(c_1+\\int-xe^{\\int3x\\,dx}\\,dx\\right)=e^{-\\frac{3}{2}x^2}\\left(c_1-\\int xe^{\\frac{3}{2}x^2}\\,dx\\right)$$\n\n$$=e^{-\\frac{3}{2}x^2}\\left(c_1-\\frac{1}{3}e^{\\frac{3}{2}x^2}\\right)$$\n\n代入变量 $y$，可得 $e^{\\frac{3}{2}x^2}=\\frac{3c_1y}{3+y}$，即 $\\frac{3}{2}x^2=\\ln|3c_1|+\\ln|y|-\\ln|3+y|=c-\\ln|1+\\frac{3}{y}|$，\n\n所以通解为\n\n$$\\frac{3}{2}x^2+\\ln|1+\\frac{3}{y}|=c$$",
+  "search_text": "伯努利方程 $y\\prime-3xy=xy^2$ 的通解为（ ） $\\frac32xy+\\ln|1+\\frac3y|=c$ $\\frac32x^2+\\ln|1+\\frac3y|=c$ $\\frac12y^2+\\ln|x+\\frac3y|=c$ $\\frac32y^2+\\ln|1-\\frac3x|=c$ 令 $z=y^{1-2}=\\frac{1}{y}$，原方程化为 $\\frac{dz}{dx}+3xz=-x$，即方程的解为\n\n$$z=e^{-\\int3x\\,dx}\\left(c_1+\\int-xe^{\\int3x\\,dx}\\,dx\\right)=e^{-\\frac{3}{2}x^2}\\left(c_1-\\int xe^{\\frac{3}{2}x^2}\\,dx\\right)$$\n\n$$=e^{-\\frac{3}{2}x^2}\\left(c_1-\\frac{1}{3}e^{\\frac{3}{2}x^2}\\right)$$\n\n代入变量 $y$，可得 $e^{\\frac{3}{2}x^2}=\\frac{3c_1y}{3+y}$，即 $\\frac{3}{2}x^2=\\ln|3c_1|+\\ln|y|-\\ln|3+y|=c-\\ln|1+\\frac{3}{y}|$，\n\n所以通解为\n\n$$\\frac{3}{2}x^2+\\ln|1+\\frac{3}{y}|=c$$",
+  "sort_order": 19
+}

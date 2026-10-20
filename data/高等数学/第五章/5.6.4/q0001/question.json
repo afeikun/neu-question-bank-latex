@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $f(x)=\\pi/4$（$0\\le x\\le\\pi$）展开成正弦级数，正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi/4=(2/\\pi)\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi/4=\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi/4=\\sum_{k=1}^{\\infty}\\sin(kx)/k$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi/4=2\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "奇延拓后 $b_n=2[1-(-1)^n]/(n\\pi)$，得到仅奇数项的正弦级数。",
+  "search_text": "将 $f(x)=\\pi/4$（$0\\le x\\le\\pi$）展开成正弦级数，正确的是？ $\\pi/4=(2/\\pi)\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)$ $\\pi/4=\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)$ $\\pi/4=\\sum_{k=1}^{\\infty}\\sin(kx)/k$ $\\pi/4=2\\sum_{k=1}^{\\infty}\\sin((2k-1)x)/(2k-1)$ 奇延拓后 $b_n=2[1-(-1)^n]/(n\\pi)$，得到仅奇数项的正弦级数。",
+  "sort_order": 1
+}

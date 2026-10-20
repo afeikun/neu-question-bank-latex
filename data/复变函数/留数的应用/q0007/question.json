@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac1{a+\\cos t}\\,dt$（$a>1$）$=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{2\\pi}{\\sqrt{a^2-1}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi{\\sqrt{a^2-1}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{2\\pi}{3\\sqrt{a^2-1}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{3\\pi}{5\\sqrt{a^2-1}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=e^{it}$，则 $\\cos t=(z^2+1)/(2z)$。利用留数定理计算圆内极点，得 $I=\\dfrac{2\\pi}{\\sqrt{a^2-1}}$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac1{a+\\cos t}\\,dt$（$a>1$）$=(\\ \\ )$。 $\\dfrac{2\\pi}{\\sqrt{a^2-1}}$ $\\dfrac\\pi{\\sqrt{a^2-1}}$ $\\dfrac{2\\pi}{3\\sqrt{a^2-1}}$ $\\dfrac{3\\pi}{5\\sqrt{a^2-1}}$ 令 $z=e^{it}$，则 $\\cos t=(z^2+1)/(2z)$。利用留数定理计算圆内极点，得 $I=\\dfrac{2\\pi}{\\sqrt{a^2-1}}$。",
+  "sort_order": 7
+}

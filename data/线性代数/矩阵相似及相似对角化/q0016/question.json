@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A\\sim B=\\begin{pmatrix}1&0&0&0\\\\0&1&0&0\\\\0&0&-1&2\\\\0&0&2&2\\end{pmatrix}$，则 $r(A-E)+r(A-3E)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为 $A\\sim B$，所以存在可逆矩阵 $P$，使得 $A=P^{-1}BP$，从而有 $r(A-E)+r(A-3E)=r(P^{-1}BP-E)+r(P^{-1}BP-3E)=r(P^{-1}(B-E)P)+r(P^{-1}(B-3E)P)=r(B-E)+r(B-3E)$。而 $B-E=\\begin{pmatrix}0&0&0&0\\\\0&0&0&0\\\\0&0&-2&2\\\\0&0&2&1\\end{pmatrix}$，$B-3E=\\begin{pmatrix}-2&0&0&0\\\\0&-2&0&0\\\\0&0&-4&2\\\\0&0&2&-1\\end{pmatrix}$，所以 $r(B-E)+r(B-3E)=5$。",
+  "search_text": "已知 $A\\sim B=\\begin{pmatrix}1&0&0&0\\\\0&1&0&0\\\\0&0&-1&2\\\\0&0&2&2\\end{pmatrix}$，则 $r(A-E)+r(A-3E)=$（ ）。 $0$ $1$ $5$ $4$ 因为 $A\\sim B$，所以存在可逆矩阵 $P$，使得 $A=P^{-1}BP$，从而有 $r(A-E)+r(A-3E)=r(P^{-1}BP-E)+r(P^{-1}BP-3E)=r(P^{-1}(B-E)P)+r(P^{-1}(B-3E)P)=r(B-E)+r(B-3E)$。而 $B-E=\\begin{pmatrix}0&0&0&0\\\\0&0&0&0\\\\0&0&-2&2\\\\0&0&2&1\\end{pmatrix}$，$B-3E=\\begin{pmatrix}-2&0&0&0\\\\0&-2&0&0\\\\0&0&-4&2\\\\0&0&2&-1\\end{pmatrix}$，所以 $r(B-E)+r(B-3E)=5$。",
+  "sort_order": 16
+}

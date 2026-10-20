@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x),g(x)$ 在 $(-\\infty,+\\infty)$ 内可导，且 $f(x)<g(x)$，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(-x)>g(-x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "对任意 $x_0$，$\\lim_{x\\to x_0}f(x)\\le\\lim_{x\\to x_0}g(x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$g(x)-f(x)$ 为增函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(x)<g\\prime(x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $f(x)<g(x)$ 且两函数连续，取极限得对任意 $x_0$，$\\lim_{x\\to x_0}f(x)\\le\\lim_{x\\to x_0}g(x)$。",
+  "search_text": "$f(x),g(x)$ 在 $(-\\infty,+\\infty)$ 内可导，且 $f(x)<g(x)$，则必有（ ）。 $f(-x)>g(-x)$ 对任意 $x_0$，$\\lim_{x\\to x_0}f(x)\\le\\lim_{x\\to x_0}g(x)$ $g(x)-f(x)$ 为增函数 $f\\prime(x)<g\\prime(x)$ 由 $f(x)<g(x)$ 且两函数连续，取极限得对任意 $x_0$，$\\lim_{x\\to x_0}f(x)\\le\\lim_{x\\to x_0}g(x)$。",
+  "sort_order": 19
+}

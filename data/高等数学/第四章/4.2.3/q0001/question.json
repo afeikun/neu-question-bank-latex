@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f,g在[0,1]连续且f≤g，对任意c∈(0,1)，正确的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₁/₂ᶜ f≤∫₁/₂ᶜ g"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫c¹ f≤∫c¹ g"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫c¹ f≥∫c¹ g"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₁/₂ᶜ f≥∫₁/₂ᶜ g"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由定积分保序性，第二项成立。",
+  "search_text": "f,g在[0,1]连续且f≤g，对任意c∈(0,1)，正确的是 ∫₁/₂ᶜ f≤∫₁/₂ᶜ g ∫c¹ f≤∫c¹ g ∫c¹ f≥∫c¹ g ∫₁/₂ᶜ f≥∫₁/₂ᶜ g 由定积分保序性，第二项成立。",
+  "sort_order": 1
+}

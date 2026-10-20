@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim U[-1,5]$，求$D(\\xi)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(\\xi)=(5-(-1))^2/12=3$。",
+  "search_text": "$\\xi\\sim U[-1,5]$，求$D(\\xi)$。 $3$ $6$ $2$ $4$ $D(\\xi)=(5-(-1))^2/12=3$。",
+  "sort_order": 14
+}

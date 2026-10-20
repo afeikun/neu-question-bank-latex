@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是单连通域上任意简单闭曲线，$a,b$ 为常数，则 $\\oint_L(a\\,dx+b\\,dy)=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi ab$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ab$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a+b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：\n\n有格林公式易知 $\\displaystyle\\oint_{L_+}(a\\,dx+b\\,dy)=\\iint_D0\\,dxdy=0$，其中 $D$ 为 $L$ 所围区域。",
+  "search_text": "设 $L$ 是单连通域上任意简单闭曲线，$a,b$ 为常数，则 $\\oint_L(a\\,dx+b\\,dy)=$（ ） $\\pi ab$ $ab$ $0$ $a+b$ 解析：\n\n有格林公式易知 $\\displaystyle\\oint_{L_+}(a\\,dx+b\\,dy)=\\iint_D0\\,dxdy=0$，其中 $D$ 为 $L$ 所围区域。",
+  "sort_order": 6
+}

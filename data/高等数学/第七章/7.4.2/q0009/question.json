@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=f(x^2-y^2,e^{xy})$，求 $z_x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2xf_1'+ye^{xy}f_2'$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$xf_1'+ye^{xy}f_2'$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2xf_1'+ye^{xy}f_2'$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2xf_1'+xe^{xy}f_2'$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\\frac{\\partial z}{\\partial x}=\\frac{\\partial z}{\\partial u}\\frac{\\partial u}{\\partial x}+\\frac{\\partial z}{\\partial v}\\frac{\\partial v}{\\partial x},\\quad\\text{其中 }u=x^2-y^2,\\quad v=e^{xy},$$\n\n$$=f_1'\\cdot2x+f_2'\\cdot xe^{xy}=2xf_1'+ye^{xy}f_2'$$",
+  "search_text": "设 $z=f(x^2-y^2,e^{xy})$，求 $z_x$。 $2xf_1'+ye^{xy}f_2'$ $xf_1'+ye^{xy}f_2'$ $2xf_1'+ye^{xy}f_2'$ $2xf_1'+xe^{xy}f_2'$ $$\\frac{\\partial z}{\\partial x}=\\frac{\\partial z}{\\partial u}\\frac{\\partial u}{\\partial x}+\\frac{\\partial z}{\\partial v}\\frac{\\partial v}{\\partial x},\\quad\\text{其中 }u=x^2-y^2,\\quad v=e^{xy},$$\n\n$$=f_1'\\cdot2x+f_2'\\cdot xe^{xy}=2xf_1'+ye^{xy}f_2'$$",
+  "sort_order": 9
+}

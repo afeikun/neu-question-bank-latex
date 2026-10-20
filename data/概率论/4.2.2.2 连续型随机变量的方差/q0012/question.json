@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$服从尺度参数$\\theta$的指数分布，求$D(X)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\theta^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\theta$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\theta^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\theta$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "指数分布均值$\\theta$、二阶矩$2\\theta^2$，方差为$\\theta^2$。",
+  "search_text": "$X$服从尺度参数$\\theta$的指数分布，求$D(X)$。 $\\theta^2$ $\\theta$ $2\\theta^2$ $2\\theta$ 指数分布均值$\\theta$、二阶矩$2\\theta^2$，方差为$\\theta^2$。",
+  "sort_order": 12
+}

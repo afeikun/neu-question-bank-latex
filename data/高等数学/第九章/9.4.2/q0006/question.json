@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=1$ 的外侧，则计算 $\\oiint_\\Sigma\\frac1x dydz+\\frac1y dzdx+\\frac1z dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$12\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$9\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在 $yoz$ 面上的投影区域为 $D_{yz}:y^2+z^2\\le1$，于是\n$$\\oiint_\\Sigma\\frac{1}{x}dydz=2\\iint_{D_{yz}}\\frac{dydz}{\\sqrt{1-y^2-z^2}}=2\\int_0^{2\\pi}d\\theta\\int_0^1\\frac{rdr}{\\sqrt{1-r^2}}=4\\pi，$$\n原式$=3\\times4\\pi=12\\pi$。",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=1$ 的外侧，则计算 $\\oiint_\\Sigma\\frac1x dydz+\\frac1y dzdx+\\frac1z dxdy=$（ ） $4\\pi$ $12\\pi$ $3\\pi$ $9\\pi$ 解答 $\\Sigma$ 在 $yoz$ 面上的投影区域为 $D_{yz}:y^2+z^2\\le1$，于是\n$$\\oiint_\\Sigma\\frac{1}{x}dydz=2\\iint_{D_{yz}}\\frac{dydz}{\\sqrt{1-y^2-z^2}}=2\\int_0^{2\\pi}d\\theta\\int_0^1\\frac{rdr}{\\sqrt{1-r^2}}=4\\pi，$$\n原式$=3\\times4\\pi=12\\pi$。",
+  "sort_order": 6
+}

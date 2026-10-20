@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\vec a=(3,-2,1)$，$\\vec b=(p,-4,-5)$，且 $\\vec a\\perp\\vec b$，则 $\\vec a\\times\\vec b=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(14,-14,-14)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(14,-14,14)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-14,14,14)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(14,14,-14)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由 $\\vec a\\cdot\\vec b=3p+8-5=0$ 得 $p=-1$，计算叉积为 $(14,14,-14)$。",
+  "search_text": "已知 $\\vec a=(3,-2,1)$，$\\vec b=(p,-4,-5)$，且 $\\vec a\\perp\\vec b$，则 $\\vec a\\times\\vec b=(\\quad)$。 $(14,-14,-14)$ $(14,-14,14)$ $(-14,14,14)$ $(14,14,-14)$ 由 $\\vec a\\cdot\\vec b=3p+8-5=0$ 得 $p=-1$，计算叉积为 $(14,14,-14)$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$df(e^{2x})=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$f\\prime(e^{2x})e^{2x}dx$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$f\\prime(e^{2x})2e^{2x}dx$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$f\\prime(e^{2x})2x dx$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$f\\prime(e^{2x})dx$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$df(u)=f\\prime(u)du$，且 $d(e^{2x})=2e^{2x}dx$。",
+  "search_text": "$df(e^{2x})=$（ ）。 $$f\\prime(e^{2x})e^{2x}dx$$ $$f\\prime(e^{2x})2e^{2x}dx$$ $$f\\prime(e^{2x})2x dx$$ $$f\\prime(e^{2x})dx$$ $df(u)=f\\prime(u)du$，且 $d(e^{2x})=2e^{2x}dx$。",
+  "sort_order": 5
+}

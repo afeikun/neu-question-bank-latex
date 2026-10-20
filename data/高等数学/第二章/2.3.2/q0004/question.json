@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $y=(1-x^2)^n$，则 $y^{(n)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$n!(1-x)^n[1+n^2\\frac{1+x}{1-x}+\\cdots+((1+x)/(1-x))^n]$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$n!(1-x)^n[-1+n^2\\frac{1+x}{1-x}+\\cdots+(-1)^n((1+x)/(1-x))^n]$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$(n+1)!(1-x)^{n+1}[1-n^2\\frac{1+x}{1-x}+\\cdots]$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$n!(1-x)^n[1-n^2\\frac{1+x}{1-x}+\\cdots+(-1)^n((1+x)/(1-x))^n]$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "按 Leibniz 公式展开 $(1+x)^n(1-x)^n$。",
+  "search_text": "已知 $y=(1-x^2)^n$，则 $y^{(n)}=$（ ）。 $$n!(1-x)^n[1+n^2\\frac{1+x}{1-x}+\\cdots+((1+x)/(1-x))^n]$$ $$n!(1-x)^n[-1+n^2\\frac{1+x}{1-x}+\\cdots+(-1)^n((1+x)/(1-x))^n]$$ $$(n+1)!(1-x)^{n+1}[1-n^2\\frac{1+x}{1-x}+\\cdots]$$ $$n!(1-x)^n[1-n^2\\frac{1+x}{1-x}+\\cdots+(-1)^n((1+x)/(1-x))^n]$$ 按 Leibniz 公式展开 $(1+x)^n(1-x)^n$。",
+  "sort_order": 4
+}

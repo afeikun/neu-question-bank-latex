@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "容器内壁由z=y²绕z轴旋转成曲面，原有8π m³的水，再注入64π m³，水面上升h m，求h",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "8"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "7"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "10"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "9"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "初始水面高度为4，再由π∫₄^{4+h}z dz=64π解得h=8。",
+  "search_text": "容器内壁由z=y²绕z轴旋转成曲面，原有8π m³的水，再注入64π m³，水面上升h m，求h 8 7 10 9 初始水面高度为4，再由π∫₄^{4+h}z dz=64π解得h=8。",
+  "sort_order": 3
+}

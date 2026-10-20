@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=x^2-y^2,v=x^2+y^2$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$u+iv$ 仅在直线 $y=x$ 上可导"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$v+iu$ 是复平面上的解析函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$u+iv$ 是复平面上的解析函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$v+iu$ 仅在直线 $y=x$ 上可导"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "柯西－黎曼方程只在 $y=x$ 成立。",
+  "search_text": "设 $u=x^2-y^2,v=x^2+y^2$，则（ ）。 $u+iv$ 仅在直线 $y=x$ 上可导 $v+iu$ 是复平面上的解析函数 $u+iv$ 是复平面上的解析函数 $v+iu$ 仅在直线 $y=x$ 上可导 柯西－黎曼方程只在 $y=x$ 成立。",
+  "sort_order": 79
+}

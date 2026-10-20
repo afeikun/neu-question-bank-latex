@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty} n!(x/n)^n$ 的收敛域是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-e,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-2e,2e)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-e,e)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1/e,1/e)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "根值判别得半径 $e$；端点通项不趋零，故区间为 $(-e,e)$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty} n!(x/n)^n$ 的收敛域是？ $(-e,0)$ $(-2e,2e)$ $(-e,e)$ $(-1/e,1/e)$ 根值判别得半径 $e$；端点通项不趋零，故区间为 $(-e,e)$。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}\\frac{(-1)^n+3^n}{2^n+3^n}$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac45$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac25$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "分子分母同除以 $3^n$，极限为 1。",
+  "search_text": "$\\lim_{n\\to\\infty}\\frac{(-1)^n+3^n}{2^n+3^n}$（ ）。 $\\infty$ $1$ $\\frac45$ $\\frac25$ 分子分母同除以 $3^n$，极限为 1。",
+  "sort_order": 44
+}

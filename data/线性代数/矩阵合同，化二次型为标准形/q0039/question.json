@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\end{pmatrix}, B=\\operatorname{diag}(4,0,0,0)$，则 $A$ 与 $B$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "合同但不相似"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "合同且相似"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不合同且相似"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不合同且不相似"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两矩阵特征值均为 $4,0,0,0$，且 $A$ 对称，故正交相似并合同，选项 2。",
+  "search_text": "设 $A=\\begin{pmatrix}1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\end{pmatrix}, B=\\operatorname{diag}(4,0,0,0)$，则 $A$ 与 $B$(\\quad)。 合同但不相似 合同且相似 不合同且相似 不合同且不相似 两矩阵特征值均为 $4,0,0,0$，且 $A$ 对称，故正交相似并合同，选项 2。",
+  "sort_order": 39
+}

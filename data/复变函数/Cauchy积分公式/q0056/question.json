@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z|=2}\\frac{\\overline z}{|z|}\\,dz=(\\quad)$（方向正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在 $|z|=2$ 上 $\\overline z/|z|=2/z$，积分为 $4\\pi i$。",
+  "search_text": "$\\oint_{|z|=2}\\frac{\\overline z}{|z|}\\,dz=(\\quad)$（方向正向）。 $4\\pi i$ $2i$ $2\\pi i$ $4$ 在 $|z|=2$ 上 $\\overline z/|z|=2/z$，积分为 $4\\pi i$。",
+  "sort_order": 56
+}

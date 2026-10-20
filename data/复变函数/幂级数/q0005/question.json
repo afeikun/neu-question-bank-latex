@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=0}^{\\infty}\\frac{(-1)^n}{2^n}z^n+\\sum_{n=1}^{\\infty}\\frac1{2^nz^n}$ 的收敛范围为____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2<|z|<2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/2\\le|z|\\le2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2<|z|\\le2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一级数收敛要求 $|z|<2$，第二级数要求 $|z|>1/2$，合并得 $1/2<|z|<2$。",
+  "search_text": "级数 $\\sum_{n=0}^{\\infty}\\frac{(-1)^n}{2^n}z^n+\\sum_{n=1}^{\\infty}\\frac1{2^nz^n}$ 的收敛范围为____。 $1/2<|z|<2$ $1/2\\le|z|\\le2$ $1/2<|z|\\le2$ 不存在 第一级数收敛要求 $|z|<2$，第二级数要求 $|z|>1/2$，合并得 $1/2<|z|<2$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "点 $M(-1,2,0)$ 在平面 $x+2y-z+1=0$ 上的投影为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac53,-\\frac23,\\frac23)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-\\frac53,-\\frac23,\\frac23)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-\\frac53,\\frac23,\\frac23)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\frac53,\\frac23,-\\frac23)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：平面法向量 $\\vec{n}=(1,2,-1)$，过点 $M(-1,2,0)$ 作平面的垂线方程为 $\\frac{x+1}{1}=\\frac{y-2}{2}=\\frac{z}{-1}$，参数式方程为 $\\begin{cases}x=t-1\\\\y=2t+2\\\\z=-t\\end{cases}$，代入平面 $x+2y-z+1=0$ 得 $t=-\\frac{2}{3}$，所以 $x=-\\frac{5}{3}，y=\\frac{2}{3}，z=\\frac{2}{3}$，所以交点坐标为 $(-\\frac{5}{3},\\frac{2}{3},\\frac{2}{3})$，即投影点为 $(-\\frac{5}{3},\\frac{2}{3},\\frac{2}{3})$。",
+  "search_text": "点 $M(-1,2,0)$ 在平面 $x+2y-z+1=0$ 上的投影为(\\quad)。 $(\\frac53,-\\frac23,\\frac23)$ $(-\\frac53,-\\frac23,\\frac23)$ $(-\\frac53,\\frac23,\\frac23)$ $(-\\frac53,\\frac23,-\\frac23)$ 解答：平面法向量 $\\vec{n}=(1,2,-1)$，过点 $M(-1,2,0)$ 作平面的垂线方程为 $\\frac{x+1}{1}=\\frac{y-2}{2}=\\frac{z}{-1}$，参数式方程为 $\\begin{cases}x=t-1\\\\y=2t+2\\\\z=-t\\end{cases}$，代入平面 $x+2y-z+1=0$ 得 $t=-\\frac{2}{3}$，所以 $x=-\\frac{5}{3}，y=\\frac{2}{3}，z=\\frac{2}{3}$，所以交点坐标为 $(-\\frac{5}{3},\\frac{2}{3},\\frac{2}{3})$，即投影点为 $(-\\frac{5}{3},\\frac{2}{3},\\frac{2}{3})$。",
+  "sort_order": 38
+}

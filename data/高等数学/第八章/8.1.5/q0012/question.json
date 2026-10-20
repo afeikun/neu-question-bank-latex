@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设薄片所占的闭区域 $D$ 由 $y=\\sqrt{2px},x=x_0,y=0$ 围成（$p>0$），则均匀薄片的质心（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{4x_0}5,\\frac{y_0}8)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{3x_0}5,\\frac{3y_0}8)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{x_0}5,\\frac{3y_0}8)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{x_0}5,\\frac{y_0}8)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "如图所示所求质心为\n\n图示：坐标轴原点标为 $O$，横轴标为 $x$，纵轴标为 $y$；曲线标为 $y=\\sqrt{2px}$，右侧竖线位于 $x_0$，曲线、横轴与竖线围成区域 $D$ 并画有阴影。\n\n$$\nM=\\iint_D \\mu\\,dxdy\n=\\mu\\int_0^{x_0}dx\\int_0^{\\sqrt{2px}}dy\n=\\frac{2}{3}\\mu\\sqrt{2p x_0^3}\n$$\n\n$$\n\\bar{x}\n=\\frac{\\iint_D x\\mu\\,dxdy}{M}\n=\\frac{\\int_0^{x_0}x\\mu\\,dx\\int_0^{\\sqrt{2px}}dy}{\\frac{2}{3}\\mu\\sqrt{2p x_0^3}}\n=\\frac{3x_0}{5}\n$$\n\n$$\n\\bar{y}\n=\\frac{\\iint_D y\\mu\\,dxdy}{M}\n=\\frac{\\int_0^{x_0}\\mu\\,dx\\int_0^{\\sqrt{2px}}y\\,dy}{\\frac{2}{3}\\mu\\sqrt{2p x_0^3}}\n=\\frac{3y_0}{8}\n$$",
+  "search_text": "设薄片所占的闭区域 $D$ 由 $y=\\sqrt{2px},x=x_0,y=0$ 围成（$p>0$），则均匀薄片的质心（ ） $(\\frac{4x_0}5,\\frac{y_0}8)$ $(\\frac{3x_0}5,\\frac{3y_0}8)$ $(\\frac{x_0}5,\\frac{3y_0}8)$ $(\\frac{x_0}5,\\frac{y_0}8)$ 如图所示所求质心为\n\n图示：坐标轴原点标为 $O$，横轴标为 $x$，纵轴标为 $y$；曲线标为 $y=\\sqrt{2px}$，右侧竖线位于 $x_0$，曲线、横轴与竖线围成区域 $D$ 并画有阴影。\n\n$$\nM=\\iint_D \\mu\\,dxdy\n=\\mu\\int_0^{x_0}dx\\int_0^{\\sqrt{2px}}dy\n=\\frac{2}{3}\\mu\\sqrt{2p x_0^3}\n$$\n\n$$\n\\bar{x}\n=\\frac{\\iint_D x\\mu\\,dxdy}{M}\n=\\frac{\\int_0^{x_0}x\\mu\\,dx\\int_0^{\\sqrt{2px}}dy}{\\frac{2}{3}\\mu\\sqrt{2p x_0^3}}\n=\\frac{3x_0}{5}\n$$\n\n$$\n\\bar{y}\n=\\frac{\\iint_D y\\mu\\,dxdy}{M}\n=\\frac{\\int_0^{x_0}\\mu\\,dx\\int_0^{\\sqrt{2px}}y\\,dy}{\\frac{2}{3}\\mu\\sqrt{2p x_0^3}}\n=\\frac{3y_0}{8}\n$$",
+  "sort_order": 12
+}

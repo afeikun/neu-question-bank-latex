@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x\\frac{d^2y}{dx^2}=\\frac{dy}{dx}\\ln\\left(\\frac{dy/dx}{x}\\right)$ 的通解是 [　]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac{1}{C_1}\\left(xe^{C_1x+1}-\\frac{1}{C_1}e^{C_1x+1}\\right)+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac{1}{C_1}\\left(xe^{C_1x+1}-\\frac{1}{C_1}e^{C_1x^2}\\right)+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac{1}{C_1}\\left(xe^{C_1x+1}-\\frac{x}{C_1}e^{C_1x+1}\\right)+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac{1}{C_1}\\left(xe^{C_1x^2}-\\frac{1}{C_1}e^{C_1x+1}\\right)+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 设 $p=\\frac{\\frac{dy}{dx}}{x}$，则 $\\frac{dy}{dx}=xp$，$\\frac{d^2y}{dx^2}=p+x\\frac{dp}{dx}$，于是方程化为 $p+x\\frac{dp}{dx}=p\\ln p$。分离变量 $\\frac{dp}{p(\\ln p-1)}=\\frac{1}{x}dx$。积分有 $\\ln(\\ln p-1)=\\ln x+\\ln C_1$，$p=e^{C_1x+1}$，故有 $\\frac{dy}{dx}=xe^{C_1x+1}$。方程的通解为 $y=\\frac{1}{C_1}\\left(xe^{C_1x+1}-\\frac{1}{C_1}e^{C_1x+1}\\right)+C_2$ 其中 $C_1$与$C_2$是任意常数。",
+  "search_text": "方程 $x\\frac{d^2y}{dx^2}=\\frac{dy}{dx}\\ln\\left(\\frac{dy/dx}{x}\\right)$ 的通解是 [　] $y=\\frac{1}{C_1}\\left(xe^{C_1x+1}-\\frac{1}{C_1}e^{C_1x+1}\\right)+C_2$ $y=\\frac{1}{C_1}\\left(xe^{C_1x+1}-\\frac{1}{C_1}e^{C_1x^2}\\right)+C_2$ $y=\\frac{1}{C_1}\\left(xe^{C_1x+1}-\\frac{x}{C_1}e^{C_1x+1}\\right)+C_2$ $y=\\frac{1}{C_1}\\left(xe^{C_1x^2}-\\frac{1}{C_1}e^{C_1x+1}\\right)+C_2$ 解答 设 $p=\\frac{\\frac{dy}{dx}}{x}$，则 $\\frac{dy}{dx}=xp$，$\\frac{d^2y}{dx^2}=p+x\\frac{dp}{dx}$，于是方程化为 $p+x\\frac{dp}{dx}=p\\ln p$。分离变量 $\\frac{dp}{p(\\ln p-1)}=\\frac{1}{x}dx$。积分有 $\\ln(\\ln p-1)=\\ln x+\\ln C_1$，$p=e^{C_1x+1}$，故有 $\\frac{dy}{dx}=xe^{C_1x+1}$。方程的通解为 $y=\\frac{1}{C_1}\\left(xe^{C_1x+1}-\\frac{1}{C_1}e^{C_1x+1}\\right)+C_2$ 其中 $C_1$与$C_2$是任意常数。",
+  "sort_order": 32
+}

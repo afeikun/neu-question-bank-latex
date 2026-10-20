@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "初值问题 $y\\prime=e^{-x-y},\\ y(0)=1$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-x}+e^y=1+e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln(1+x)=x+2y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{xy}=x+y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^x+e^y=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$e^y\\,dy=e^{-x}\\,dx$，积分得\n\n$e^y=-e^{-x}+C$，代入 $y(0)=1$，\n\n$C=1+e,\\quad e^{-x}+e^y=1+e$。",
+  "search_text": "初值问题 $y\\prime=e^{-x-y},\\ y(0)=1$ 的解为（ ） $e^{-x}+e^y=1+e$ $\\ln(1+x)=x+2y$ $e^{xy}=x+y$ $e^x+e^y=1$ $e^y\\,dy=e^{-x}\\,dx$，积分得\n\n$e^y=-e^{-x}+C$，代入 $y(0)=1$，\n\n$C=1+e,\\quad e^{-x}+e^y=1+e$。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式方程 $f(x)=\\begin{vmatrix}1&1&1&1\\\\1&1&-1&-1\\\\1&-1&1&-1\\\\x&-1&-1&1\\end{vmatrix}=0$ 的根是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=-3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为 $f(x)=-4(x+3)$，故 $x=-3$ 为 $f(x)=0$ 的根。",
+  "search_text": "行列式方程 $f(x)=\\begin{vmatrix}1&1&1&1\\\\1&1&-1&-1\\\\1&-1&1&-1\\\\x&-1&-1&1\\end{vmatrix}=0$ 的根是（ ）。 $x=-3$ $x=2$ $x=1$ $x=0$ 因为 $f(x)=-4(x+3)$，故 $x=-3$ 为 $f(x)=0$ 的根。",
+  "sort_order": 5
+}

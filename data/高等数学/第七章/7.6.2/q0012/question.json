@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $F_x(P)=\\sqrt3,F_y(P)=0,F_z(P)=1$，曲面 $F(x,y,z)=0$ 在 $P$ 处切平面与 $yOz$ 平面夹角为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2\\pi}3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "曲面 $F(x,y,z)=0$ 在点 $P$ 处的法线量为 $(\\sqrt{3},0,1)$，平面 $yOz$ 的法线量为 $(1,0,0)$，\n\n$$\\cos\\alpha=\\frac{\\sqrt{3}}{\\sqrt{3+1}}=\\frac{\\sqrt{3}}{2},$$\n\n因此 $\\alpha=\\frac{\\pi}{6}$。",
+  "search_text": "若 $F_x(P)=\\sqrt3,F_y(P)=0,F_z(P)=1$，曲面 $F(x,y,z)=0$ 在 $P$ 处切平面与 $yOz$ 平面夹角为。 $\\frac{2\\pi}3$ $\\frac\\pi3$ $\\frac\\pi6$ $\\frac\\pi4$ 曲面 $F(x,y,z)=0$ 在点 $P$ 处的法线量为 $(\\sqrt{3},0,1)$，平面 $yOz$ 的法线量为 $(1,0,0)$，\n\n$$\\cos\\alpha=\\frac{\\sqrt{3}}{\\sqrt{3+1}}=\\frac{\\sqrt{3}}{2},$$\n\n因此 $\\alpha=\\frac{\\pi}{6}$。",
+  "sort_order": 12
+}

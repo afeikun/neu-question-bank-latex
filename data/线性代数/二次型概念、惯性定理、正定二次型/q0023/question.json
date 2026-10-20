@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+2x_3^2+2x_1x_2$，则它的规范形为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f=y_1^2-y_2^2+y_3^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f=y_1^2+2y_2^2+2y_3^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f=2y_1^2+2y_2^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f=y_1^2+y_2^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "二次型矩阵为 $A=\\begin{pmatrix}1&1&0\\\\1&1&0\\\\0&0&2\\end{pmatrix}$，其特征值为 $0,2,2$，所以规范形为 $f=2y_2^2+2y_3^2$，对应选项 $3$。",
+  "search_text": "已知二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+2x_3^2+2x_1x_2$，则它的规范形为（ ）。 $f=y_1^2-y_2^2+y_3^2$ $f=y_1^2+2y_2^2+2y_3^2$ $f=2y_1^2+2y_2^2$ $f=y_1^2+y_2^2$ 二次型矩阵为 $A=\\begin{pmatrix}1&1&0\\\\1&1&0\\\\0&0&2\\end{pmatrix}$，其特征值为 $0,2,2$，所以规范形为 $f=2y_2^2+2y_3^2$，对应选项 $3$。",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int\\sin(\\ln x)\\,dx$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac x2(\\sin\\ln x+\\cos\\ln x)+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac x2(\\cos\\ln x-\\sin\\ln x)+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac x2(\\sin\\ln x-\\cos\\ln x)+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac x2\\sin(\\ln x-1)+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 令 $u=\\sin\\ln x$，$dv=dx$，我们有\n\n$$\\int\\sin\\ln x\\,dx=x\\sin\\ln x-\\int\\cos\\ln x\\,dx=x\\sin\\ln x-x\\ln\\cos x-\\int\\sin\\ln x\\,dx,$$\n\n由此可知，\n\n$$I=\\frac{x}{2}(\\sin\\ln x+\\cos\\ln x)+C$$",
+  "search_text": "不定积分 $\\int\\sin(\\ln x)\\,dx$ 的值为（ ） $\\frac x2(\\sin\\ln x+\\cos\\ln x)+C$ $\\frac x2(\\cos\\ln x-\\sin\\ln x)+C$ $\\frac x2(\\sin\\ln x-\\cos\\ln x)+C$ $\\frac x2\\sin(\\ln x-1)+C$ 解答 令 $u=\\sin\\ln x$，$dv=dx$，我们有\n\n$$\\int\\sin\\ln x\\,dx=x\\sin\\ln x-\\int\\cos\\ln x\\,dx=x\\sin\\ln x-x\\ln\\cos x-\\int\\sin\\ln x\\,dx,$$\n\n由此可知，\n\n$$I=\\frac{x}{2}(\\sin\\ln x+\\cos\\ln x)+C$$",
+  "sort_order": 14
+}

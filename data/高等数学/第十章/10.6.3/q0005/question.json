@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $y\\prime\\prime+a^2y=e^x$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1\\cos ax+C_2\\sin ax+\\frac{e^x}{1+2a^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1\\cos ax+C_2\\sin ax+\\frac{2e^x}{1+a^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1\\cos ax+C_2\\sin ax+\\frac{x}{1+a^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1\\cos ax+C_2\\sin ax+\\frac{e^x}{1+a^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n由 $r^2+a^2=0$，解得 $r_{1,2}=\\pm ai$，故对应的齐次方程的通解为 $Y=C_1\\cos ax+C_2\\sin ax$。因 $f(x)=e^x,\\lambda=1$ 不是特征方程的根，故设 $y^*=be^x$ 是原方程的一个特解，代入方程得 $be^x+a^2be^x=e^x$，消去 $e^x$，有 $b=\\frac{1}{1+a^2}$，即 $y^*=\\frac{e^x}{1+a^2}$ 故原方程的通解为 $y=Y+y^*=C_1\\cos ax+C_2\\sin ax+\\frac{e^x}{1+a^2}$",
+  "search_text": "解方程 $y\\prime\\prime+a^2y=e^x$（ ） $y=C_1\\cos ax+C_2\\sin ax+\\frac{e^x}{1+2a^2}$ $y=C_1\\cos ax+C_2\\sin ax+\\frac{2e^x}{1+a^2}$ $y=C_1\\cos ax+C_2\\sin ax+\\frac{x}{1+a^2}$ $y=C_1\\cos ax+C_2\\sin ax+\\frac{e^x}{1+a^2}$ 解析：\n\n由 $r^2+a^2=0$，解得 $r_{1,2}=\\pm ai$，故对应的齐次方程的通解为 $Y=C_1\\cos ax+C_2\\sin ax$。因 $f(x)=e^x,\\lambda=1$ 不是特征方程的根，故设 $y^*=be^x$ 是原方程的一个特解，代入方程得 $be^x+a^2be^x=e^x$，消去 $e^x$，有 $b=\\frac{1}{1+a^2}$，即 $y^*=\\frac{e^x}{1+a^2}$ 故原方程的通解为 $y=Y+y^*=C_1\\cos ax+C_2\\sin ax+\\frac{e^x}{1+a^2}$",
+  "sort_order": 5
+}

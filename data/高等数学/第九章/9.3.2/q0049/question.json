@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_L(1+2xy)dx+x^2dy$，$L$ 为从点 $(1,0)$ 到点 $(-1,0)$ 的上半椭圆弧 $x^2+2y^2=1\\ (y\\ge0)$，其计算结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac43$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解：由 $L:\\begin{cases}x=\\cos\\theta\\\\y=-\\frac{\\sqrt{2}}{2}\\sin\\theta\\end{cases}\\quad \\theta:0\\to\\pi$，得\n\n$$\\int_L(1+2xy)dx+x^2dy$$\n\n$$=\\int_0^\\pi\\left[1+2\\cos\\theta\\left(\\frac{\\sqrt{2}}{2}\\sin\\theta\\right)\\right](-\\sin\\theta)+\\cos^2\\theta\\frac{\\sqrt{2}}{2}\\cos\\theta\\,d\\theta$$\n\n$$=-\\int_0^\\pi\\sin\\theta\\,d\\theta-\\sqrt{2}\\int_0^\\pi\\sin^2\\theta\\cos\\theta\\,d\\theta+\\frac{\\sqrt{2}}{2}\\int_0^\\pi\\cos^3\\theta\\,d\\theta$$\n\n$$=\\left.\\cos\\theta\\right|_0^\\pi+\\sqrt{2}\\int_0^\\pi\\sin^2\\theta\\,d\\sin\\theta+\\frac{\\sqrt{2}}{2}\\int_0^\\pi(1-\\sin^2\\theta)\\,d\\sin\\theta$$\n\n$$=-2+\\left.\\sqrt{2}\\frac{\\sin^3\\theta}{3}\\right|_0^\\pi+\\left.\\frac{\\sqrt{2}}{2}\\left(\\sin\\theta-\\frac{\\sin^3\\theta}{3}\\right)\\right|_0^\\pi$$\n\n$$=-2-0+0=-2$$",
+  "search_text": "$\\int_L(1+2xy)dx+x^2dy$，$L$ 为从点 $(1,0)$ 到点 $(-1,0)$ 的上半椭圆弧 $x^2+2y^2=1\\ (y\\ge0)$，其计算结果为（ ） $-2$ $1$ $\\frac43$ $2$ 解：由 $L:\\begin{cases}x=\\cos\\theta\\\\y=-\\frac{\\sqrt{2}}{2}\\sin\\theta\\end{cases}\\quad \\theta:0\\to\\pi$，得\n\n$$\\int_L(1+2xy)dx+x^2dy$$\n\n$$=\\int_0^\\pi\\left[1+2\\cos\\theta\\left(\\frac{\\sqrt{2}}{2}\\sin\\theta\\right)\\right](-\\sin\\theta)+\\cos^2\\theta\\frac{\\sqrt{2}}{2}\\cos\\theta\\,d\\theta$$\n\n$$=-\\int_0^\\pi\\sin\\theta\\,d\\theta-\\sqrt{2}\\int_0^\\pi\\sin^2\\theta\\cos\\theta\\,d\\theta+\\frac{\\sqrt{2}}{2}\\int_0^\\pi\\cos^3\\theta\\,d\\theta$$\n\n$$=\\left.\\cos\\theta\\right|_0^\\pi+\\sqrt{2}\\int_0^\\pi\\sin^2\\theta\\,d\\sin\\theta+\\frac{\\sqrt{2}}{2}\\int_0^\\pi(1-\\sin^2\\theta)\\,d\\sin\\theta$$\n\n$$=-2+\\left.\\sqrt{2}\\frac{\\sin^3\\theta}{3}\\right|_0^\\pi+\\left.\\frac{\\sqrt{2}}{2}\\left(\\sin\\theta-\\frac{\\sin^3\\theta}{3}\\right)\\right|_0^\\pi$$\n\n$$=-2-0+0=-2$$",
+  "sort_order": 49
+}

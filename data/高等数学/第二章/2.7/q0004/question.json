@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "质点运动 $S=\\frac14t^4-4t^3+5t$，求 $t=8$ 时加速度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$192$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$128$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$64$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 速度 $v=S'(t)=t^3-12t^2+5$，加速度为 $a=v'=S''(t)=3t^2-24t$\n\n可得 $t=8,a=0.$",
+  "search_text": "质点运动 $S=\\frac14t^4-4t^3+5t$，求 $t=8$ 时加速度。 $192$ $128$ $64$ $0$ 解答 速度 $v=S'(t)=t^3-12t^2+5$，加速度为 $a=v'=S''(t)=3t^2-24t$\n\n可得 $t=8,a=0.$",
+  "sort_order": 4
+}

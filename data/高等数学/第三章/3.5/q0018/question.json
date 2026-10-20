@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\arctan\\frac{1-x}{1+x}$ 在 $[0,1]$ 上的最大值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f\\prime(x)=-1/(1+x^2)<0$，所以最大值在 $x=0$ 取得，为 $\\arctan1=\\pi/4$。",
+  "search_text": "函数 $f(x)=\\arctan\\frac{1-x}{1+x}$ 在 $[0,1]$ 上的最大值为（ ）。 $\\frac\\pi4$ $\\frac\\pi3$ $\\frac\\pi6$ $\\frac\\pi4$ $f\\prime(x)=-1/(1+x^2)<0$，所以最大值在 $x=0$ 取得，为 $\\arctan1=\\pi/4$。",
+  "sort_order": 18
+}

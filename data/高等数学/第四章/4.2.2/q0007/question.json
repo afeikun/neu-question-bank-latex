@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x(x-1)(x-2)$ 与 $x$ 轴围成的面积可以表示为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_1^2x(x-1)(x-2)\\,dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^2x(x-1)(x-2)\\,dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1x(x-1)(x-2)\\,dx+\\int_1^2x(x-1)(x-2)\\,dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1x(x-1)(x-2)\\,dx-\\int_1^2x(x-1)(x-2)\\,dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "函数在 $(0,1)$ 上为正、在 $(1,2)$ 上为负，面积需将第二段积分取相反数。",
+  "search_text": "曲线 $y=x(x-1)(x-2)$ 与 $x$ 轴围成的面积可以表示为 $\\int_1^2x(x-1)(x-2)\\,dx$ $\\int_0^2x(x-1)(x-2)\\,dx$ $\\int_0^1x(x-1)(x-2)\\,dx+\\int_1^2x(x-1)(x-2)\\,dx$ $\\int_0^1x(x-1)(x-2)\\,dx-\\int_1^2x(x-1)(x-2)\\,dx$ 函数在 $(0,1)$ 上为正、在 $(1,2)$ 上为负，面积需将第二段积分取相反数。",
+  "sort_order": 7
+}

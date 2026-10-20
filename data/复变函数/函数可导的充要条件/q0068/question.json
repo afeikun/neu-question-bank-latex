@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(z)=\\sin x\\cosh y+i v(x,y)$ 解析，则 $f\\prime(z)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos z$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$i\\sin x\\sinh y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos x\\cosh y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sin z$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime=u_x-iu_y=\\cos x\\cosh y-i\\sin x\\sinh y=\\cos z$。",
+  "search_text": "已知 $f(z)=\\sin x\\cosh y+i v(x,y)$ 解析，则 $f\\prime(z)=(\\ )$。 $\\cos z$ $i\\sin x\\sinh y$ $\\cos x\\cosh y$ $\\sin z$ $f\\prime=u_x-iu_y=\\cos x\\cosh y-i\\sin x\\sinh y=\\cos z$。",
+  "sort_order": 68
+}

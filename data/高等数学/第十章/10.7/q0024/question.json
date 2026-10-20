@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "连续函数 $f$ 满足 $\\iint_D f^\\prime(x+y)\\,dxdy=\\iint_D f(t)\\,dxdy$，其中 $D=\\{0\\le y\\le t-x,0\\le x\\le t\\}$，且 $f(0)=1$，求 $f(x)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f=\\frac1{(2-x)^2}+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f=\\frac4{(2-x)^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f=\\frac C{(2-x)^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f=\\frac1{(2-x)^2}+4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：\n\n$$\\iint_D f'(x+y)\\,dxdy=\\int_0^t dx\\int_0^{t-x}f'(x+y)\\,dy=\\int_0^t[f(t)-f(x)]\\,dx=tf(t)-\\int_0^t f(x)\\,dx$$\n\n$$\\iint_D f(t)\\,dxdy=\\frac{t^2}{2}f(t)，\\quad\\text{求导并化简得 }(2-t)f'=2f，\\text{结合初始条件 }f(0)=1\\text{ 可得}$$\n\n$$f(x)=\\frac{4}{(2-x)^2}\\quad(0\\le x\\le1)$$",
+  "search_text": "连续函数 $f$ 满足 $\\iint_D f^\\prime(x+y)\\,dxdy=\\iint_D f(t)\\,dxdy$，其中 $D=\\{0\\le y\\le t-x,0\\le x\\le t\\}$，且 $f(0)=1$，求 $f(x)$。 $f=\\frac1{(2-x)^2}+C$ $f=\\frac4{(2-x)^2}$ $f=\\frac C{(2-x)^2}$ $f=\\frac1{(2-x)^2}+4$ 解析：\n\n$$\\iint_D f'(x+y)\\,dxdy=\\int_0^t dx\\int_0^{t-x}f'(x+y)\\,dy=\\int_0^t[f(t)-f(x)]\\,dx=tf(t)-\\int_0^t f(x)\\,dx$$\n\n$$\\iint_D f(t)\\,dxdy=\\frac{t^2}{2}f(t)，\\quad\\text{求导并化简得 }(2-t)f'=2f，\\text{结合初始条件 }f(0)=1\\text{ 可得}$$\n\n$$f(x)=\\frac{4}{(2-x)^2}\\quad(0\\le x\\le1)$$",
+  "sort_order": 24
+}

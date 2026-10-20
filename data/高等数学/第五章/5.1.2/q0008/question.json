@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 收敛且 $k\\ne0$，求 $\\sum_{n=1}^{\\infty}(u_n+k)$ 的敛散性。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k=1$ 时收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可能收敛，可能发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "新通项 $u_n+k$ 趋于 $k\\ne0$，故发散。",
+  "search_text": "若级数 $\\sum_{n=1}^{\\infty} u_n$ 收敛且 $k\\ne0$，求 $\\sum_{n=1}^{\\infty}(u_n+k)$ 的敛散性。 收敛 发散 $k=1$ 时收敛 可能收敛，可能发散 新通项 $u_n+k$ 趋于 $k\\ne0$，故发散。",
+  "sort_order": 8
+}

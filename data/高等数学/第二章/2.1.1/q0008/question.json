@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(a)=0,f\\prime(a)=3$，则 $\\lim_{n\\to\\infty}n f(a-\\frac1n)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不一定存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f\\prime(a)=\\lim_{n\\to\\infty}\\frac{f(a-1/n)-f(a)}{-1/n}=3$，故极限为 $-3$。",
+  "search_text": "已知 $f(a)=0,f\\prime(a)=3$，则 $\\lim_{n\\to\\infty}n f(a-\\frac1n)=$（ ）。 1 -3 不存在 不一定存在 $f\\prime(a)=\\lim_{n\\to\\infty}\\frac{f(a-1/n)-f(a)}{-1/n}=3$，故极限为 $-3$。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "立体 $\\Omega$ 由 $x^2+y^2\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定的有界闭区域，立体 $\\Omega$ 上每点 $P(x,y,z)$ 的体密度 $\\rho(x,y,z)=z$，则立体对 $z$ 轴的转动惯量 $I_z=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{5\\pi}{24}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\nI_z=\\iiint_\\Omega(x^2+y^2)\\rho(x,y,z)\\,dv=\\iiint_\\Omega z(x^2+y^2)\\,dv\n$$\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^1r^3\\,dr\\int_{r^2}^{\\sqrt{2-r^2}}z\\,dz=\\pi\\int_0^1(2r^3-r^5-r^7)\\,dr=\\frac{5\\pi}{24}.\n$$",
+  "search_text": "立体 $\\Omega$ 由 $x^2+y^2\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定的有界闭区域，立体 $\\Omega$ 上每点 $P(x,y,z)$ 的体密度 $\\rho(x,y,z)=z$，则立体对 $z$ 轴的转动惯量 $I_z=$（ ） $\\frac\\pi3$ $\\frac\\pi6$ $\\frac\\pi4$ $\\frac{5\\pi}{24}$ $$\nI_z=\\iiint_\\Omega(x^2+y^2)\\rho(x,y,z)\\,dv=\\iiint_\\Omega z(x^2+y^2)\\,dv\n$$\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^1r^3\\,dr\\int_{r^2}^{\\sqrt{2-r^2}}z\\,dz=\\pi\\int_0^1(2r^3-r^5-r^7)\\,dr=\\frac{5\\pi}{24}.\n$$",
+  "sort_order": 6
+}

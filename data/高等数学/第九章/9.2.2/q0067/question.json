@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "线段 $y=R,0\\le x\\le H$ 绕 $x$ 轴旋转得到曲面，面密度 $1/(x^2+y^2+z^2)$。求 $I_x+I_y+I_z$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi RH$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi RH$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12\\pi RH$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi RH$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：\n\n$I_x+I_y+I_z=\\iint_\\Sigma\\frac{2(x^2+y^2+z^2)}{x^2+y^2+z^2}\\,dS=\\iint_\\Sigma2\\,dS=4\\pi RH$，",
+  "search_text": "线段 $y=R,0\\le x\\le H$ 绕 $x$ 轴旋转得到曲面，面密度 $1/(x^2+y^2+z^2)$。求 $I_x+I_y+I_z$。 $4\\pi RH$ $\\pi RH$ $12\\pi RH$ $2\\pi RH$ 解答：\n\n$I_x+I_y+I_z=\\iint_\\Sigma\\frac{2(x^2+y^2+z^2)}{x^2+y^2+z^2}\\,dS=\\iint_\\Sigma2\\,dS=4\\pi RH$，",
+  "sort_order": 67
+}

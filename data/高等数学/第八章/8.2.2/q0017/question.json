@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 为平面 $x=0,y=0,z=0$ 及 $x+y+z=1$ 所围成四面体，则 $\\iiint_\\Omega\\frac{dv}{(1+x+y+z)^3}$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12(\\ln2-\\frac58)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12(\\ln2-\\frac78)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln2-\\frac58$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12\\ln2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原式 $=\\int_0^1dx\\int_0^{1-x}dy\\int_0^{1-x-y}\\frac{dv}{(1+x+y+z)^3}$\n\n$$\n=\\int_0^1dx\\int_0^{1-x}\\left[\\frac{1}{2(1+x+y)^2}-\\frac{1}{8}\\right]dy\n$$\n\n$$\n=\\int_0^1\\left[\\frac{1}{2(1+x)}-\\frac{3}{8}+\\frac{1}{8}x\\right]dx\n$$\n\n$$\n=\\frac{1}{2}(\\ln 2-\\frac{5}{8})\n$$",
+  "search_text": "$\\Omega$ 为平面 $x=0,y=0,z=0$ 及 $x+y+z=1$ 所围成四面体，则 $\\iiint_\\Omega\\frac{dv}{(1+x+y+z)^3}$ 的值为（ ） $\\frac12(\\ln2-\\frac58)$ $\\frac12(\\ln2-\\frac78)$ $\\ln2-\\frac58$ $\\frac12\\ln2$ 原式 $=\\int_0^1dx\\int_0^{1-x}dy\\int_0^{1-x-y}\\frac{dv}{(1+x+y+z)^3}$\n\n$$\n=\\int_0^1dx\\int_0^{1-x}\\left[\\frac{1}{2(1+x+y)^2}-\\frac{1}{8}\\right]dy\n$$\n\n$$\n=\\int_0^1\\left[\\frac{1}{2(1+x)}-\\frac{3}{8}+\\frac{1}{8}x\\right]dx\n$$\n\n$$\n=\\frac{1}{2}(\\ln 2-\\frac{5}{8})\n$$",
+  "sort_order": 17
+}

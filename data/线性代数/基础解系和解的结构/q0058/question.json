@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\beta_1,\\beta_2$ 是非齐次线性方程组 $AX=b$ 的两个不同的解，$\\alpha_1,\\alpha_2$ 是 $AX=0$ 的基础解系，$k_1,k_2$ 为任意常数，则 $AX=b$ 的通解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k_1\\alpha_1+k_2(\\beta_1+\\beta_2)+\\frac12(\\beta_1-\\beta_2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k_1\\alpha_1+k_2(\\alpha_1+\\alpha_2)+\\frac12(\\beta_1-\\beta_2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k_1\\alpha_1+k_2(\\alpha_1-\\alpha_2)+\\frac12(\\beta_1+\\beta_2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k_1\\alpha_1+k_2(\\beta_1-\\beta_2)+\\frac12(\\beta_1+\\beta_2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac12(\\beta_1+\\beta_2)$ 是一个特解，$\\frac12(\\beta_1-\\beta_2)$ 是齐次解。$\\alpha_1,\\alpha_1-\\alpha_2$ 线性无关且仍张成齐次解空间，因此通解是选项 3。",
+  "search_text": "设 $\\beta_1,\\beta_2$ 是非齐次线性方程组 $AX=b$ 的两个不同的解，$\\alpha_1,\\alpha_2$ 是 $AX=0$ 的基础解系，$k_1,k_2$ 为任意常数，则 $AX=b$ 的通解为（ ）。 $k_1\\alpha_1+k_2(\\beta_1+\\beta_2)+\\frac12(\\beta_1-\\beta_2)$ $k_1\\alpha_1+k_2(\\alpha_1+\\alpha_2)+\\frac12(\\beta_1-\\beta_2)$ $k_1\\alpha_1+k_2(\\alpha_1-\\alpha_2)+\\frac12(\\beta_1+\\beta_2)$ $k_1\\alpha_1+k_2(\\beta_1-\\beta_2)+\\frac12(\\beta_1+\\beta_2)$ $\\frac12(\\beta_1+\\beta_2)$ 是一个特解，$\\frac12(\\beta_1-\\beta_2)$ 是齐次解。$\\alpha_1,\\alpha_1-\\alpha_2$ 线性无关且仍张成齐次解空间，因此通解是选项 3。",
+  "sort_order": 58
+}

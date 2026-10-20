@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "立体 $\\sqrt{x^2+y^2}\\leq z\\leq6-x^2-y^2$ 的表面积（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\left(\\frac{17\\sqrt{17}+1}{6}+\\sqrt2\\right)\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\left(\\frac{17\\sqrt{17}+1}{6}+4\\sqrt2\\right)\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\left(\\frac{17\\sqrt{17}-1}{6}+4\\sqrt2\\right)\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\left(\\frac{17\\sqrt{17}+1}{6}+6\\sqrt2\\right)\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "立体如图所示，满足条件的部分在 $xoy$ 面上的投影区域为 $D:x^2+y^2\\leq 4$，于是\n\n$$\nS=\\iint_D\\sqrt{1+(-2x)^2+(-2y)^2}\\,dxdy\n+\\iint_D\\sqrt{1+\\left(\\frac{x}{\\sqrt{x^2+y^2}}\\right)^2+\\left(\\frac{y}{\\sqrt{x^2+y^2}}\\right)^2}\\,dxdy\n$$\n\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^2r\\sqrt{1+4r^2}\\,dr+\\sqrt{2}\\iint_Ddxdy\n=\\left(\\frac{17\\sqrt{17}-1}{6}+4\\sqrt{2}\\right)\\pi\n$$\n\n图示：$z$ 轴竖直，$x$、$y$ 轴位于底面，原点标为 $O$；两曲面标注 $z=6-x^2-y^2$ 与 $z=\\sqrt{x^2+y^2}$，$z$ 轴上标有 $6$ 和 $2$，曲面上有箭头标注 $A$ 与 $A'$。",
+  "search_text": "立体 $\\sqrt{x^2+y^2}\\leq z\\leq6-x^2-y^2$ 的表面积（ ） $\\left(\\frac{17\\sqrt{17}+1}{6}+\\sqrt2\\right)\\pi$ $\\left(\\frac{17\\sqrt{17}+1}{6}+4\\sqrt2\\right)\\pi$ $\\left(\\frac{17\\sqrt{17}-1}{6}+4\\sqrt2\\right)\\pi$ $\\left(\\frac{17\\sqrt{17}+1}{6}+6\\sqrt2\\right)\\pi$ 立体如图所示，满足条件的部分在 $xoy$ 面上的投影区域为 $D:x^2+y^2\\leq 4$，于是\n\n$$\nS=\\iint_D\\sqrt{1+(-2x)^2+(-2y)^2}\\,dxdy\n+\\iint_D\\sqrt{1+\\left(\\frac{x}{\\sqrt{x^2+y^2}}\\right)^2+\\left(\\frac{y}{\\sqrt{x^2+y^2}}\\right)^2}\\,dxdy\n$$\n\n$$\n=\\int_0^{2\\pi}d\\theta\\int_0^2r\\sqrt{1+4r^2}\\,dr+\\sqrt{2}\\iint_Ddxdy\n=\\left(\\frac{17\\sqrt{17}-1}{6}+4\\sqrt{2}\\right)\\pi\n$$\n\n图示：$z$ 轴竖直，$x$、$y$ 轴位于底面，原点标为 $O$；两曲面标注 $z=6-x^2-y^2$ 与 $z=\\sqrt{x^2+y^2}$，$z$ 轴上标有 $6$ 和 $2$，曲面上有箭头标注 $A$ 与 $A'$。",
+  "sort_order": 15
+}

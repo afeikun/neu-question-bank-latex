@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若立体 $\\Omega$ 是 $1\\leq z\\leq\\sqrt{4-x^2-y^2}$，则 $\\iiint_\\Omega f(\\frac1{\\sqrt{x^2+y^2}})dv$ 化为球面坐标为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/3}d\\varphi\\int_{1/\\cos\\varphi}^2f(\\frac1{r\\cos\\varphi})r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/3}d\\varphi\\int_0^2f(\\frac1{r\\sin\\varphi})r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/3}d\\varphi\\int_{1/\\cos\\varphi}^2f(\\frac1{r\\sin\\varphi})r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_{1/\\cos\\varphi}^2f(\\frac1r)r^2\\sin\\varphi\\,dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "球面坐标下 $0\\leq\\theta\\leq2\\pi,0\\leq\\varphi\\leq\\pi/3,1/\\cos\\varphi\\leq r\\leq2$，且 $\\sqrt{x^2+y^2}=r\\sin\\varphi$，故原积分为 $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/3}d\\varphi\\int_{1/\\cos\\varphi}^2f(\\frac1{r\\sin\\varphi})r^2\\sin\\varphi\\,dr$。",
+  "search_text": "若立体 $\\Omega$ 是 $1\\leq z\\leq\\sqrt{4-x^2-y^2}$，则 $\\iiint_\\Omega f(\\frac1{\\sqrt{x^2+y^2}})dv$ 化为球面坐标为（ ） $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/3}d\\varphi\\int_{1/\\cos\\varphi}^2f(\\frac1{r\\cos\\varphi})r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/3}d\\varphi\\int_0^2f(\\frac1{r\\sin\\varphi})r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/3}d\\varphi\\int_{1/\\cos\\varphi}^2f(\\frac1{r\\sin\\varphi})r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/4}d\\varphi\\int_{1/\\cos\\varphi}^2f(\\frac1r)r^2\\sin\\varphi\\,dr$ 球面坐标下 $0\\leq\\theta\\leq2\\pi,0\\leq\\varphi\\leq\\pi/3,1/\\cos\\varphi\\leq r\\leq2$，且 $\\sqrt{x^2+y^2}=r\\sin\\varphi$，故原积分为 $\\int_0^{2\\pi}d\\theta\\int_{0}^{\\pi/3}d\\varphi\\int_{1/\\cos\\varphi}^2f(\\frac1{r\\sin\\varphi})r^2\\sin\\varphi\\,dr$。",
+  "sort_order": 29
+}

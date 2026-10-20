@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\frac13x^3+\\frac12x^2+6x+1$ 的图形在点 $(0,1)$ 处的切线与 $x$ 轴交点的坐标是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1/6,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-1/6,0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1,0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1,0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f\\prime(0)=6$，切线 $y=6x+1$，与 $x$ 轴交于 $(-1/6,0)$。",
+  "search_text": "函数 $f(x)=\\frac13x^3+\\frac12x^2+6x+1$ 的图形在点 $(0,1)$ 处的切线与 $x$ 轴交点的坐标是（ ）。 $(1/6,0)$ $(-1/6,0)$ $(1,0)$ $(-1,0)$ $f\\prime(0)=6$，切线 $y=6x+1$，与 $x$ 轴交于 $(-1/6,0)$。",
+  "sort_order": 13
+}

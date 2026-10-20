@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "长方形长以2cm/s增加、宽以3cm/s增加，$l=12$cm、$w=5$cm时，求对角线增加速率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解 答 设 $l=x(t),w=y(t)$，则对角线 $s(t)=\\sqrt{x^2(t)+y^2(t)}$，由题意可知初值为 $x(t_0)=12cm,y(t_0)=5cm,x(t_0)=12cm,y(t_0)=5cm,x'(t_0)=2,y'(t_0)=3$，\n\n即 $s'(t)\\big|_{t=t_0}=\\frac{x(t)x'(t)+y(t)y'(t)}{\\sqrt{x^2(t)+y^2(t)}}\\bigg|_{t=t_0}=3$，",
+  "search_text": "长方形长以2cm/s增加、宽以3cm/s增加，$l=12$cm、$w=5$cm时，求对角线增加速率。 $1$ $3$ $2$ $0$ 解 答 设 $l=x(t),w=y(t)$，则对角线 $s(t)=\\sqrt{x^2(t)+y^2(t)}$，由题意可知初值为 $x(t_0)=12cm,y(t_0)=5cm,x(t_0)=12cm,y(t_0)=5cm,x'(t_0)=2,y'(t_0)=3$，\n\n即 $s'(t)\\big|_{t=t_0}=\\frac{x(t)x'(t)+y(t)y'(t)}{\\sqrt{x^2(t)+y^2(t)}}\\bigg|_{t=t_0}=3$，",
+  "sort_order": 7
+}

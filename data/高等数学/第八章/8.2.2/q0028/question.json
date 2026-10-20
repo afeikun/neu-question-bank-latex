@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega=\\{(x,y,z)|0\\leq x\\leq a,0\\leq y\\leq b,0\\leq z\\leq c\\}$，则 $\\iiint_\\Omega(x+y+z)dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "以上选项都错"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14abc(a+b+c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$abc(a+b+c)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12abc(a+b+c)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "原积分\n\n$$\n=\\iiint_{\\Omega}xdv+\\iiint_{\\Omega}ydv+\\iiint_{\\Omega}zdv\n$$\n\n$$\n=\\int_0^a bcxdx+\\int_0^b acydy+\\int_0^c abz dz\n$$\n\n$$\n=\\frac{1}{2}abc(a+b+c)\n$$",
+  "search_text": "设 $\\Omega=\\{(x,y,z)|0\\leq x\\leq a,0\\leq y\\leq b,0\\leq z\\leq c\\}$，则 $\\iiint_\\Omega(x+y+z)dv$ 的值为（ ） 以上选项都错 $\\frac14abc(a+b+c)$ $abc(a+b+c)$ $\\frac12abc(a+b+c)$ 原积分\n\n$$\n=\\iiint_{\\Omega}xdv+\\iiint_{\\Omega}ydv+\\iiint_{\\Omega}zdv\n$$\n\n$$\n=\\int_0^a bcxdx+\\int_0^b acydy+\\int_0^c abz dz\n$$\n\n$$\n=\\frac{1}{2}abc(a+b+c)\n$$",
+  "sort_order": 28
+}

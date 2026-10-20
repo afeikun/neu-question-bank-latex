@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲边梯形f(x)≤y≤0（a≤x≤b）绕x轴旋转的体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫ₐᵇf²(x)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "π∫ₐᵇf²(x)dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2π∫ₐᵇxf(x)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫ₐᵇxf(x)dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "圆盘法体积为π∫ₐᵇf²(x)dx。",
+  "search_text": "曲边梯形f(x)≤y≤0（a≤x≤b）绕x轴旋转的体积 ∫ₐᵇf²(x)dx π∫ₐᵇf²(x)dx 2π∫ₐᵇxf(x)dx ∫ₐᵇxf(x)dx 圆盘法体积为π∫ₐᵇf²(x)dx。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^\\infty(x-5)^n/\\sqrt n$ 的收敛域是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[4,6)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-4,6)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-6,6)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[-4,4]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "半径为1；左端交错收敛，右端正项发散。",
+  "search_text": "级数 $\\sum_{n=1}^\\infty(x-5)^n/\\sqrt n$ 的收敛域是？ $[4,6)$ $(-4,6)$ $(-6,6)$ $[-4,4]$ 半径为1；左端交错收敛，右端正项发散。",
+  "sort_order": 6
+}

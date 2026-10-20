@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\ln y\\,dx+(x-\\ln y)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2x\\ln y=\\ln y+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2x\\ln y=y+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2x\\ln y=\\ln^2y+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2x\\ln y=\\ln^3y+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "原方程可写成 $\\frac{dx}{dy}+\\frac{1}{y\\ln y}x=\\frac{1}{y}$，\n\n则 $x=e^{-\\int\\frac{1}{y\\ln y}\\,dy}\\left(\\int\\frac{1}{y}e^{\\int\\frac{1}{y\\ln y}\\,dy}\\,dy+C\\right)=e^{-\\ln|\\ln y|}\\left[\\int\\frac{1}{y}e^{\\ln|\\ln y|}\\,dy+C\\right]$\n\n$$=\\frac{1}{\\ln y}\\left(\\int\\frac{\\ln y}{y}\\,dy+C\\right)=\\frac{1}{\\ln y}\\left(\\frac{1}{2}\\ln^2 y+C\\right)$$ 即 $2x\\ln y=\\ln^2 y+C$",
+  "search_text": "$y\\ln y\\,dx+(x-\\ln y)dy=0$ 的通解为（ ） $2x\\ln y=\\ln y+C$ $2x\\ln y=y+C$ $2x\\ln y=\\ln^2y+C$ $2x\\ln y=\\ln^3y+C$ 原方程可写成 $\\frac{dx}{dy}+\\frac{1}{y\\ln y}x=\\frac{1}{y}$，\n\n则 $x=e^{-\\int\\frac{1}{y\\ln y}\\,dy}\\left(\\int\\frac{1}{y}e^{\\int\\frac{1}{y\\ln y}\\,dy}\\,dy+C\\right)=e^{-\\ln|\\ln y|}\\left[\\int\\frac{1}{y}e^{\\ln|\\ln y|}\\,dy+C\\right]$\n\n$$=\\frac{1}{\\ln y}\\left(\\int\\frac{\\ln y}{y}\\,dy+C\\right)=\\frac{1}{\\ln y}\\left(\\frac{1}{2}\\ln^2 y+C\\right)$$ 即 $2x\\ln y=\\ln^2 y+C$",
+  "sort_order": 30
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$E(\\hat\\theta)=\\theta,D(\\hat\\theta)>0$，以下正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\hat\\theta^2$不是$\\theta^2$的无偏估计"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\hat\\theta$是$\\theta^2$的无偏估计"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\hat\\sigma^2$是$\\theta$的无偏估计"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\hat\\theta^2$是$\\theta$的无偏估计"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\hat\\theta^2)=\\theta^2+D(\\hat\\theta)>\\theta^2$。",
+  "search_text": "$E(\\hat\\theta)=\\theta,D(\\hat\\theta)>0$，以下正确的是（）。 $\\hat\\theta^2$不是$\\theta^2$的无偏估计 $\\hat\\theta$是$\\theta^2$的无偏估计 $\\hat\\sigma^2$是$\\theta$的无偏估计 $\\hat\\theta^2$是$\\theta$的无偏估计 $E(\\hat\\theta^2)=\\theta^2+D(\\hat\\theta)>\\theta^2$。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一质点在力场作用下由点 $A(2,2,1)$ 沿直线移动到 $B(4,4,2)$，已知力 $\\vec F$ 的方向指向坐标原点，其大小与作用点到 $xoy$ 面的距离成反比，则 $\\vec F$ 所作的功 $W=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3k\\ln2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-k\\ln2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k\\ln2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-3k\\ln2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "图示标记：$O$，$x$、$y$、$z$，$\\vec r$，$A$，$B$。\n\n解答 $\\displaystyle \\vec{F}=\\frac{k}{|z|}(-\\vec{r}^{\\,0})=-\\frac{k}{|z|}\\frac{x\\vec{i}+y\\vec{j}+z\\vec{k}}{\\sqrt{x^2+y^2+z^2}}$，\n\n$\\displaystyle \\overline{AB}:\\begin{cases}x=2t+2\\\\y=2t+2\\\\z=t+1\\end{cases}\\quad (t:0\\to1)$\n\n$$\nW=\\int_{\\overline{AB}}\\vec{F}\\cdot d\\vec{s}\n=-k\\int_{\\overline{AB}}\\frac{x\\,dx+y\\,dy+z\\,dz}{|z|\\sqrt{x^2+y^2+z^2}}\n=-k\\int_0^1\\frac{3\\,dt}{t+1}\n=-3k\\ln2。\n$$",
+  "search_text": "一质点在力场作用下由点 $A(2,2,1)$ 沿直线移动到 $B(4,4,2)$，已知力 $\\vec F$ 的方向指向坐标原点，其大小与作用点到 $xoy$ 面的距离成反比，则 $\\vec F$ 所作的功 $W=$（ ） $3k\\ln2$ $-k\\ln2$ $k\\ln2$ $-3k\\ln2$ 图示标记：$O$，$x$、$y$、$z$，$\\vec r$，$A$，$B$。\n\n解答 $\\displaystyle \\vec{F}=\\frac{k}{|z|}(-\\vec{r}^{\\,0})=-\\frac{k}{|z|}\\frac{x\\vec{i}+y\\vec{j}+z\\vec{k}}{\\sqrt{x^2+y^2+z^2}}$，\n\n$\\displaystyle \\overline{AB}:\\begin{cases}x=2t+2\\\\y=2t+2\\\\z=t+1\\end{cases}\\quad (t:0\\to1)$\n\n$$\nW=\\int_{\\overline{AB}}\\vec{F}\\cdot d\\vec{s}\n=-k\\int_{\\overline{AB}}\\frac{x\\,dx+y\\,dy+z\\,dz}{|z|\\sqrt{x^2+y^2+z^2}}\n=-k\\int_0^1\\frac{3\\,dt}{t+1}\n=-3k\\ln2。\n$$",
+  "sort_order": 9
+}

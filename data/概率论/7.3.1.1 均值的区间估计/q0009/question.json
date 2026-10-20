@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "轮胎寿命$n=16,\\bar x=41119.38,s=1345.46$，未知方差，求均值95%单侧下限。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$40529.73$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$41529.73$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$30529.73$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$50529.73$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "单侧下限$\\bar x-t_{0.05}(15)s/4=40529.73$。",
+  "search_text": "轮胎寿命$n=16,\\bar x=41119.38,s=1345.46$，未知方差，求均值95%单侧下限。 $40529.73$ $41529.73$ $30529.73$ $50529.73$ 单侧下限$\\bar x-t_{0.05}(15)s/4=40529.73$。",
+  "sort_order": 9
+}

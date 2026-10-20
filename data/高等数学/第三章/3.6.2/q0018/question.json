@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "确定曲线 $y=ax^3+bx^2+cx+d$ 中的 $a,b,c,d$，使曲线在 $x=-2$ 处有水平切线，$(1,-10)$ 为拐点，点 $(-2,44)$ 在曲线上，则正确选项为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=1,b=-1,c=-24,d=16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=1,b=-3,c=-24,d=16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=1,b=1,c=-24,d=16$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=1,b=3,c=-24,d=16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用 $y(-2)=44$、$y(1)=-10$、$y\\prime(-2)=0$ 与 $y\\prime\\prime(1)=0$ 列方程，解得 $a=1,b=-3,c=-24,d=16$。",
+  "search_text": "确定曲线 $y=ax^3+bx^2+cx+d$ 中的 $a,b,c,d$，使曲线在 $x=-2$ 处有水平切线，$(1,-10)$ 为拐点，点 $(-2,44)$ 在曲线上，则正确选项为（ ）。 $a=1,b=-1,c=-24,d=16$ $a=1,b=-3,c=-24,d=16$ $a=1,b=1,c=-24,d=16$ $a=1,b=3,c=-24,d=16$ 利用 $y(-2)=44$、$y(1)=-10$、$y\\prime(-2)=0$ 与 $y\\prime\\prime(1)=0$ 列方程，解得 $a=1,b=-3,c=-24,d=16$。",
+  "sort_order": 18
+}

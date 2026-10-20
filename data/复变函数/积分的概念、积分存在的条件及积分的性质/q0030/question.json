@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\oint_C\\dfrac z{\\bar z}\\,dz$ 等于（ ）。其中 $C$ 是上半平面内半圆环 $1\\le|z|\\le2,\\ \\operatorname{Im}z\\ge0$ 的正向边界：沿实轴从 $-2$ 到 $-1$，沿半径1的上半圆从 $-1$ 顺时针到 $1$，沿实轴从 $1$ 到 $2$，再沿半径2的上半圆从 $2$ 逆时针到 $-2$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac43$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac23i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分四段计算。在实轴两段上 $z=\\bar z=t$，积分分别为 $\\int_{-2}^{-1}dt=1$ 和 $\\int_1^2dt=1$。内弧取 $z=e^{i\\theta}$，$\\theta$ 从 $\\pi$ 到0，积分为 $\\int_\\pi^0ie^{3i\\theta}d\\theta=2/3$。外弧取 $z=2e^{i\\theta}$，$0\\le\\theta\\le\\pi$，积分为 $\\int_0^\\pi2ie^{3i\\theta}d\\theta=-4/3$。四段相加为 $1+2/3+1-4/3=4/3$，选第一项。",
+  "search_text": "积分 $\\oint_C\\dfrac z{\\bar z}\\,dz$ 等于（ ）。其中 $C$ 是上半平面内半圆环 $1\\le|z|\\le2,\\ \\operatorname{Im}z\\ge0$ 的正向边界：沿实轴从 $-2$ 到 $-1$，沿半径1的上半圆从 $-1$ 顺时针到 $1$，沿实轴从 $1$ 到 $2$，再沿半径2的上半圆从 $2$ 逆时针到 $-2$。 $\\frac43$ $\\frac23$ $-\\frac43$ $\\frac23i$ 分四段计算。在实轴两段上 $z=\\bar z=t$，积分分别为 $\\int_{-2}^{-1}dt=1$ 和 $\\int_1^2dt=1$。内弧取 $z=e^{i\\theta}$，$\\theta$ 从 $\\pi$ 到0，积分为 $\\int_\\pi^0ie^{3i\\theta}d\\theta=2/3$。外弧取 $z=2e^{i\\theta}$，$0\\le\\theta\\le\\pi$，积分为 $\\int_0^\\pi2ie^{3i\\theta}d\\theta=-4/3$。四段相加为 $1+2/3+1-4/3=4/3$，选第一项。",
+  "sort_order": 30
+}

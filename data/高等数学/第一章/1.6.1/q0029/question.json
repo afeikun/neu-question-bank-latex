@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{\\sqrt{1+x\\sin x}-\\cos x}{\\sin^2(x/2)}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "有理化后利用 $\\sin x\\sim x$，极限为 4。",
+  "search_text": "$\\lim_{x\\to0}\\frac{\\sqrt{1+x\\sin x}-\\cos x}{\\sin^2(x/2)}=[\\quad]$。 4 不存在 2 $\\frac12$ 有理化后利用 $\\sin x\\sim x$，极限为 4。",
+  "sort_order": 29
+}

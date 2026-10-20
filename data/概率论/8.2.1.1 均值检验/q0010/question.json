@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n=9,\\bar x=99.978,s=1.2122$，检验包装均值100是否变化，错误说法（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "拒绝域$(2.306,+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$H_0:\\mu=100,H_1:\\mu\\ne100$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T=(\\bar X-100)/(S/\\sqrt n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可认为包装工作正常"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧检验拒绝域应为$|T|>t_{0.025}(8)=2.306$，选项1只给出右尾。",
+  "search_text": "$n=9,\\bar x=99.978,s=1.2122$，检验包装均值100是否变化，错误说法（）。 拒绝域$(2.306,+\\infty)$ $H_0:\\mu=100,H_1:\\mu\\ne100$ $T=(\\bar X-100)/(S/\\sqrt n)$ 可认为包装工作正常 双侧检验拒绝域应为$|T|>t_{0.025}(8)=2.306$，选项1只给出右尾。",
+  "sort_order": 10
+}

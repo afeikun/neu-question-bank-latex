@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}(1+\\frac{x}{a})^{b/x}=[\\quad]\\quad(a\\ne0,b\\ne0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{b/a}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln\\frac ba$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "改写为 $[(1+x/a)^{a/x}]^{b/a}$，极限为 $e^{b/a}$。",
+  "search_text": "$\\lim_{x\\to0}(1+\\frac{x}{a})^{b/x}=[\\quad]\\quad(a\\ne0,b\\ne0)$。 不存在 1 $e^{b/a}$ $\\ln\\frac ba$ 改写为 $[(1+x/a)^{a/x}]^{b/a}$，极限为 $e^{b/a}$。",
+  "sort_order": 3
+}

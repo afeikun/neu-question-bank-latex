@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知点 $M_1(1,-1,2)$，$M_2(3,3,1)$，$M_3(3,1,3)$，则与 $\\overrightarrow{M_1M_2}$，$\\overrightarrow{M_2M_3}$ 都垂直的单位向量为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{\\pm3}{\\sqrt{17}},\\frac{\\pm2}{\\sqrt{17}},\\frac{\\mp2}{\\sqrt{17}})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{\\pm3}{\\sqrt{17}},\\frac{\\mp2}{\\sqrt{17}},\\frac{\\mp2}{\\sqrt{17}})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{\\pm3}{\\sqrt{17}},\\frac{\\pm2}{\\sqrt{\\dots}},\\frac{\\pm2}{\\sqrt{17}})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{\\pm3}{\\sqrt{17}},\\frac{\\mp2}{\\sqrt{17}},\\frac{\\pm2}{\\sqrt{17}})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$M_1M_2=(2,4,-1)$，$M_2M_3=(0,-2,2)$，叉积为 $(6,-4,-4)$，单位化为 $\\pm(3, -2,-2)/\\sqrt{17}$。",
+  "search_text": "已知点 $M_1(1,-1,2)$，$M_2(3,3,1)$，$M_3(3,1,3)$，则与 $\\overrightarrow{M_1M_2}$，$\\overrightarrow{M_2M_3}$ 都垂直的单位向量为(\\quad)。 $(\\frac{\\pm3}{\\sqrt{17}},\\frac{\\pm2}{\\sqrt{17}},\\frac{\\mp2}{\\sqrt{17}})$ $(\\frac{\\pm3}{\\sqrt{17}},\\frac{\\mp2}{\\sqrt{17}},\\frac{\\mp2}{\\sqrt{17}})$ $(\\frac{\\pm3}{\\sqrt{17}},\\frac{\\pm2}{\\sqrt{\\dots}},\\frac{\\pm2}{\\sqrt{17}})$ $(\\frac{\\pm3}{\\sqrt{17}},\\frac{\\mp2}{\\sqrt{17}},\\frac{\\pm2}{\\sqrt{17}})$ $M_1M_2=(2,4,-1)$，$M_2M_3=(0,-2,2)$，叉积为 $(6,-4,-4)$，单位化为 $\\pm(3, -2,-2)/\\sqrt{17}$。",
+  "sort_order": 15
+}

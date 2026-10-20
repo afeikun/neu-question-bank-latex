@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "5个灯泡寿命独立同分布，均值$a$方差$b$，平均寿命$\\eta$的方差为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.2b$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.04b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(\\eta)=5b/25=b/5$。",
+  "search_text": "5个灯泡寿命独立同分布，均值$a$方差$b$，平均寿命$\\eta$的方差为？ $0.2b$ $5b$ $b$ $0.04b$ $D(\\eta)=5b/25=b/5$。",
+  "sort_order": 3
+}

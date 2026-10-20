@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$的密度$f(x)$为偶函数，$F(x)$为分布函数，判断正确关系。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(-a)=\\int_a^{\\infty}f(x)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(x)$为奇函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(x)$为偶函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(-a)=F(a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F(-a)=\\int_{-\\infty}^{-a}f(x)dx$，利用偶对称换元即得$\\int_a^{\\infty}f(x)dx$。",
+  "search_text": "$X$的密度$f(x)$为偶函数，$F(x)$为分布函数，判断正确关系。 $F(-a)=\\int_a^{\\infty}f(x)dx$ $F(x)$为奇函数 $F(x)$为偶函数 $F(-a)=F(a)$ $F(-a)=\\int_{-\\infty}^{-a}f(x)dx$，利用偶对称换元即得$\\int_a^{\\infty}f(x)dx$。",
+  "sort_order": 3
+}

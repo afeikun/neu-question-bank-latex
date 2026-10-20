@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立同服从参数$\\lambda$指数分布，若$P(X>1)=e^{-2}$，求$P(\\min(X,Y)\\le1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-e^{-4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-e^{-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-e^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-e^{-3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lambda=2$，故$P(\\min(X,Y)>1)=e^{-2}e^{-2}=e^{-4}$。",
+  "search_text": "$X,Y$独立同服从参数$\\lambda$指数分布，若$P(X>1)=e^{-2}$，求$P(\\min(X,Y)\\le1)$。 $1-e^{-4}$ $1-e^{-1}$ $1-e^{-2}$ $1-e^{-3}$ $\\lambda=2$，故$P(\\min(X,Y)>1)=e^{-2}e^{-2}=e^{-4}$。",
+  "sort_order": 14
+}

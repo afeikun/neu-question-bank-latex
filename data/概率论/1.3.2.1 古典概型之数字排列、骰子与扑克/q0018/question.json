@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "从一副扑克牌（52张，无大小王）中任意抽取3张，抽取的3张中至少有两张花色相同的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[\\binom41\\binom{13}2\\binom{39}1+\\binom41\\binom{13}3]/\\binom{52}3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\binom41\\binom{13}2\\binom{39}1/\\binom{52}3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\binom41\\binom{13}2\\binom{39}1/\\binom{52}3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\binom{13}2\\binom{39}1/\\binom{52}3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "用补事件计数：三张花色各异的取法为$\\binom43 13^3$，故所求概率为$1-\\binom43 13^3/\\binom{52}3$，等价于题图选项1给出的组合计数表达式。",
+  "search_text": "从一副扑克牌（52张，无大小王）中任意抽取3张，抽取的3张中至少有两张花色相同的概率是（ ）。 $[\\binom41\\binom{13}2\\binom{39}1+\\binom41\\binom{13}3]/\\binom{52}3$ $\\binom41\\binom{13}2\\binom{39}1/\\binom{52}3$ $\\binom41\\binom{13}2\\binom{39}1/\\binom{52}3$ $\\binom{13}2\\binom{39}1/\\binom{52}3$ 用补事件计数：三张花色各异的取法为$\\binom43 13^3$，故所求概率为$1-\\binom43 13^3/\\binom{52}3$，等价于题图选项1给出的组合计数表达式。",
+  "sort_order": 18
+}

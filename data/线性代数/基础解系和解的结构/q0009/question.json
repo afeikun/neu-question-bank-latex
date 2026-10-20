@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=\\begin{pmatrix}a&1&1&2\\\\2&a+1&2a&3a+1\\\\1&1&1&2\\end{pmatrix}$，且存在 $3$ 阶非零矩阵 $B$，使得 $BA=0$，则 $a$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "存在非零 $B$ 满足 $BA=0$，意味着 $A^T x=0$ 有非零解，故 $r(A)\\le2$。行化简得到该条件要求 $a=1$。",
+  "search_text": "设矩阵 $A=\\begin{pmatrix}a&1&1&2\\\\2&a+1&2a&3a+1\\\\1&1&1&2\\end{pmatrix}$，且存在 $3$ 阶非零矩阵 $B$，使得 $BA=0$，则 $a$ 的值为（ ）。 $2$ $0$ $3$ $1$ 存在非零 $B$ 满足 $BA=0$，意味着 $A^T x=0$ 有非零解，故 $r(A)\\le2$。行化简得到该条件要求 $a=1$。",
+  "sort_order": 9
+}

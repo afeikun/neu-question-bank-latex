@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_C e^{iz}\\,dz=(\\quad)$，$C$ 为从 $0$ 到 $1-i$ 的线段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e\\sin1+i(1-e\\cos1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-e\\sin1+i(e\\cos1-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^i+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=(1-i)t$，代入指数并积分得 $e\\sin1+i(1-e\\cos1)$。",
+  "search_text": "$\\int_C e^{iz}\\,dz=(\\quad)$，$C$ 为从 $0$ 到 $1-i$ 的线段。 $e\\sin1+i(1-e\\cos1)$ $-e\\sin1+i(e\\cos1-1)$ $e^i+1$ $e-2$ 令 $z=(1-i)t$，代入指数并积分得 $e\\sin1+i(1-e\\cos1)$。",
+  "sort_order": 26
+}

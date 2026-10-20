@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(1+i)^{100}+(1-i)^{100}$ 的值是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2^{51}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2^{52}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2^{52}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2^{54}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两项相加为 $2^{50}(e^{25\\pi i}+e^{-25\\pi i})=-2^{51}$。",
+  "search_text": "$(1+i)^{100}+(1-i)^{100}$ 的值是（ ）。 $-2^{51}$ $-2^{52}$ $2^{52}$ $2^{54}$ 两项相加为 $2^{50}(e^{25\\pi i}+e^{-25\\pi i})=-2^{51}$。",
+  "sort_order": 46
+}

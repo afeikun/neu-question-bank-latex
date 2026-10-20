@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F(x)=0(x<0),\\sin x(0\\le x<\\pi/2),1(x\\ge\\pi/2)$，求密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos x(0\\le x<\\pi/2)$，其余0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin x(0\\le x<\\pi/2)$，其余0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sin x(-\\pi/2\\le x<\\pi/2)$，其余0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cos x(-\\pi/2\\le x<\\pi/2)$，其余0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分布函数求导得$\\varphi(x)=\\cos x$于$[0,\\pi/2)$。",
+  "search_text": "$F(x)=0(x<0),\\sin x(0\\le x<\\pi/2),1(x\\ge\\pi/2)$，求密度。 $\\cos x(0\\le x<\\pi/2)$，其余0 $\\sin x(0\\le x<\\pi/2)$，其余0 $\\sin x(-\\pi/2\\le x<\\pi/2)$，其余0 $\\cos x(-\\pi/2\\le x<\\pi/2)$，其余0 分布函数求导得$\\varphi(x)=\\cos x$于$[0,\\pi/2)$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f$ 在有界闭区域 $\\Omega$ 上可积，$\\Omega=\\Omega_1\\cup\\Omega_2$，则 $\\iiint_\\Omega f dv=\\iiint_{\\Omega_1}f dv+(\\quad)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iiint_\\Omega f dv$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iiint_{\\Omega_2}f dv$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iiint_{\\Omega-\\Omega_1}f dv$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iiint_{\\Omega\\cap\\Omega_1}f dv$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由三重积分的性质易知",
+  "search_text": "设 $f$ 在有界闭区域 $\\Omega$ 上可积，$\\Omega=\\Omega_1\\cup\\Omega_2$，则 $\\iiint_\\Omega f dv=\\iiint_{\\Omega_1}f dv+(\\quad)$ $\\iiint_\\Omega f dv$ $\\iiint_{\\Omega_2}f dv$ $\\iiint_{\\Omega-\\Omega_1}f dv$ $\\iiint_{\\Omega\\cap\\Omega_1}f dv$ 由三重积分的性质易知",
+  "sort_order": 25
+}

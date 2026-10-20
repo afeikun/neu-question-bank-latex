@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a_n=\\int_0^{\\pi/4}\\tan^n xdx$，比较 $\\sum_{n=1}^{\\infty}(a_n+a_{n+2})/n$ (1) 与 $\\sum_{n=1}^{\\infty} a_n/n^\\lambda$（$\\lambda>0$）(2)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)和(2)都收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)发散(2)收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)收敛(2)发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)和(2)都发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由积分得 $a_n+a_{n+2}=1/(n+1)$，(1)收敛；$a_n<1/(n+1)$，(2)也收敛。",
+  "search_text": "设 $a_n=\\int_0^{\\pi/4}\\tan^n xdx$，比较 $\\sum_{n=1}^{\\infty}(a_n+a_{n+2})/n$ (1) 与 $\\sum_{n=1}^{\\infty} a_n/n^\\lambda$（$\\lambda>0$）(2)。 (1)和(2)都收敛 (1)发散(2)收敛 (1)收敛(2)发散 (1)和(2)都发散 由积分得 $a_n+a_{n+2}=1/(n+1)$，(1)收敛；$a_n<1/(n+1)$，(2)也收敛。",
+  "sort_order": 31
+}

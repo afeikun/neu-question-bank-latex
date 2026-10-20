@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=cx(0\\le x\\le1)$，其余为0，求$P(0.3<X<0.7)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "归一化得$c=2$，区间概率$\\int_{0.3}^{0.7}2x dx=0.4$。",
+  "search_text": "$f(x)=cx(0\\le x\\le1)$，其余为0，求$P(0.3<X<0.7)$。 $0.4$ $0.5$ $0.6$ $0.8$ 归一化得$c=2$，区间概率$\\int_{0.3}^{0.7}2x dx=0.4$。",
+  "sort_order": 11
+}

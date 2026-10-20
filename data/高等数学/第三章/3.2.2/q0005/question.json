@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $xe^x$ 的 $n$ 阶 Maclaurin 公式为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+x^2+\\frac{x^3}{2!}+\\cdots+\\frac{x^n}{(n-1)!}+\\frac{e^\\xi}{n!}x^{n+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+x^2+\\frac{x^3}{2!}+\\cdots+\\frac{x^n}{(n-1)!}+\\frac{e^\\xi((n+1)+\\xi)}{(n+1)!}x^{n+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+x^2+\\frac{x^3}{2!}+\\cdots+\\frac{x^{n+1}}{n!}+\\frac{e^\\xi((n+1)+\\xi)}{(n+1)!}x^{n+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+x^2+\\frac{x^3}{2!}+\\cdots+\\frac{x^{n+1}}{n!}+\\frac{e^\\xi}{(n+1)!}x^{n+2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f^{(n)}(x)=(n+x)e^x$，故 $f^{(n)}(0)=n$，Taylor 多项式系数为 $x^k/(k-1)!$；余项由 $f^{(n+1)}(\\xi)=(n+1+\\xi)e^\\xi$ 给出。",
+  "search_text": "函数 $xe^x$ 的 $n$ 阶 Maclaurin 公式为 $(\\quad)$。 $x+x^2+\\frac{x^3}{2!}+\\cdots+\\frac{x^n}{(n-1)!}+\\frac{e^\\xi}{n!}x^{n+1}$ $x+x^2+\\frac{x^3}{2!}+\\cdots+\\frac{x^n}{(n-1)!}+\\frac{e^\\xi((n+1)+\\xi)}{(n+1)!}x^{n+1}$ $x+x^2+\\frac{x^3}{2!}+\\cdots+\\frac{x^{n+1}}{n!}+\\frac{e^\\xi((n+1)+\\xi)}{(n+1)!}x^{n+1}$ $x+x^2+\\frac{x^3}{2!}+\\cdots+\\frac{x^{n+1}}{n!}+\\frac{e^\\xi}{(n+1)!}x^{n+2}$ $f^{(n)}(x)=(n+x)e^x$，故 $f^{(n)}(0)=n$，Taylor 多项式系数为 $x^k/(k-1)!$；余项由 $f^{(n+1)}(\\xi)=(n+1+\\xi)e^\\xi$ 给出。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $V$ 是由 $\\alpha_1=x+1$，$\\alpha_2=x^2+2$，$\\alpha_3=x^2+x+1$ 生成的向量空间，则 $V$ 的维数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "在基 $\\{1,x,x^2\\}$ 下，三个多项式的系数向量线性无关，因此 $V$ 的维数为 $3$。",
+  "search_text": "设 $V$ 是由 $\\alpha_1=x+1$，$\\alpha_2=x^2+2$，$\\alpha_3=x^2+x+1$ 生成的向量空间，则 $V$ 的维数为（ ）。 $1$ $0$ $3$ $2$ 在基 $\\{1,x,x^2\\}$ 下，三个多项式的系数向量线性无关，因此 $V$ 的维数为 $3$。",
+  "sort_order": 14
+}

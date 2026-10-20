@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(0,1)$，求$P(|X|>2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2[1-\\Phi(2)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\Phi(2)-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2-\\Phi(2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-2\\Phi(2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由对称性，$P(|X|>2)=2[1-\\Phi(2)]$。",
+  "search_text": "$X\\sim N(0,1)$，求$P(|X|>2)$。 $2[1-\\Phi(2)]$ $2\\Phi(2)-1$ $2-\\Phi(2)$ $1-2\\Phi(2)$ 由对称性，$P(|X|>2)=2[1-\\Phi(2)]$。",
+  "sort_order": 5
+}

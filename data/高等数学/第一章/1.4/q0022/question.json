@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{x\\to x_0}f(x)=\\infty,\\lim_{x\\to x_0}g(x)=\\infty$，则下式中必定成立的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to x_0}[f(x)+g(x)]=\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{x\\to x_0}[f(x)-g(x)]=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{x\\to x_0}\\frac{f(x)}{g(x)}=e\\ne0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{x\\to x_0}kf(x)=\\infty\\ (k\\ne0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\lim kf(x)=k\\lim f(x)=k\\cdot\\infty=\\infty$（$k\\ne0$），必定成立。",
+  "search_text": "若 $\\lim_{x\\to x_0}f(x)=\\infty,\\lim_{x\\to x_0}g(x)=\\infty$，则下式中必定成立的是（ ）。 $\\lim_{x\\to x_0}[f(x)+g(x)]=\\infty$ $\\lim_{x\\to x_0}[f(x)-g(x)]=0$ $\\lim_{x\\to x_0}\\frac{f(x)}{g(x)}=e\\ne0$ $\\lim_{x\\to x_0}kf(x)=\\infty\\ (k\\ne0)$ $\\lim kf(x)=k\\lim f(x)=k\\cdot\\infty=\\infty$（$k\\ne0$），必定成立。",
+  "sort_order": 22
+}

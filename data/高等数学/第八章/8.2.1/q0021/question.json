@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设一均匀的直角三角形薄板，两直角边长分别为 $a,b$，对其中直角边 $b$ 的转动惯量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac16a^2b^2\\rho^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13a^2b\\rho$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac19ab^3\\rho^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{12}a^3b\\rho$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设三角形的两直角边 $a,b$ 分别在 $x$ 轴和 $y$ 轴上，对 $y$ 轴的转动惯量，\n\\[\nI_y=\\rho\\iint_Dx^2dxdy=\\rho\\int_0^bdy\\int_0^{a(1-\\frac{y}{b})}x^2dx=\\frac{1}{12}a^3b\\rho\n\\]\n图示：直角三角形区域 $D$ 着色，直角顶点为 $O$，$y$ 轴竖直、$x$ 轴水平；图中坐标轴标为 $x,y$。",
+  "search_text": "设一均匀的直角三角形薄板，两直角边长分别为 $a,b$，对其中直角边 $b$ 的转动惯量为（ ） $\\frac16a^2b^2\\rho^2$ $\\frac13a^2b\\rho$ $\\frac19ab^3\\rho^2$ $\\frac1{12}a^3b\\rho$ 设三角形的两直角边 $a,b$ 分别在 $x$ 轴和 $y$ 轴上，对 $y$ 轴的转动惯量，\n\\[\nI_y=\\rho\\iint_Dx^2dxdy=\\rho\\int_0^bdy\\int_0^{a(1-\\frac{y}{b})}x^2dx=\\frac{1}{12}a^3b\\rho\n\\]\n图示：直角三角形区域 $D$ 着色，直角顶点为 $O$，$y$ 轴竖直、$x$ 轴水平；图中坐标轴标为 $x,y$。",
+  "sort_order": 21
+}

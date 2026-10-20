@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\dfrac{\\varphi(z)}{\\psi(z)}$，$z_0$ 为 $\\varphi(z)$ 的一级零点、为 $\\psi(z)$ 的二级零点，则 $\\operatorname{Res}[f(z),z_0]=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{2\\varphi\\prime(z_0)}{\\psi\\prime\\prime(z_0)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{\\varphi(z_0)}{\\psi\\prime(z_0)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{\\varphi(z_0)}{\\psi\\prime\\prime(z_0)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将 $\\varphi$、$\\psi$ 在 $z_0$ 展开，留数为 $2\\varphi\\prime(z_0)/\\psi\\prime\\prime(z_0)$。",
+  "search_text": "设 $f(z)=\\dfrac{\\varphi(z)}{\\psi(z)}$，$z_0$ 为 $\\varphi(z)$ 的一级零点、为 $\\psi(z)$ 的二级零点，则 $\\operatorname{Res}[f(z),z_0]=(\\ )$。 $\\dfrac{2\\varphi\\prime(z_0)}{\\psi\\prime\\prime(z_0)}$ $\\dfrac{\\varphi(z_0)}{\\psi\\prime(z_0)}$ $\\dfrac{\\varphi(z_0)}{\\psi\\prime\\prime(z_0)}$ $0$ 将 $\\varphi$、$\\psi$ 在 $z_0$ 展开，留数为 $2\\varphi\\prime(z_0)/\\psi\\prime\\prime(z_0)$。",
+  "sort_order": 79
+}

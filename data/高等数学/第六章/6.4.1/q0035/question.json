@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过点 $M(2,-3,4)$ 且与 $y$ 轴垂直相交的直线方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x-2}{2}=\\frac{y+3}{0}=\\frac{z-4}{-4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-2}{2}=\\frac{y+3}{0}=\\frac{z-4}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x-2}{2}=\\frac{y-3}{0}=\\frac{z-4}{-4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-2}{2}=\\frac{y-3}{0}=\\frac{z-4}{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：因直线过点 $M(2,-3,4)$ 且与 $y$ 轴垂直相交，所以直线与 $y$ 轴的交点坐标 $N(0,-3,0)$，因此直线方向向量 $\\vec{s}=\\overrightarrow{NM}=(2,0,4)$，由点向式，得直线方程为 $\\frac{x-2}{2}=\\frac{y+3}{0}=\\frac{z-4}{4}$。",
+  "search_text": "过点 $M(2,-3,4)$ 且与 $y$ 轴垂直相交的直线方程为(\\quad)。 $\\frac{x-2}{2}=\\frac{y+3}{0}=\\frac{z-4}{-4}$ $\\frac{x-2}{2}=\\frac{y+3}{0}=\\frac{z-4}{4}$ $\\frac{x-2}{2}=\\frac{y-3}{0}=\\frac{z-4}{-4}$ $\\frac{x-2}{2}=\\frac{y-3}{0}=\\frac{z-4}{4}$ 解答：因直线过点 $M(2,-3,4)$ 且与 $y$ 轴垂直相交，所以直线与 $y$ 轴的交点坐标 $N(0,-3,0)$，因此直线方向向量 $\\vec{s}=\\overrightarrow{NM}=(2,0,4)$，由点向式，得直线方程为 $\\frac{x-2}{2}=\\frac{y+3}{0}=\\frac{z-4}{4}$。",
+  "sort_order": 35
+}

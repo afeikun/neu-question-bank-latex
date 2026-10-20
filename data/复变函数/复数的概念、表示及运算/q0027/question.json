@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\dfrac{i}{(i-1)(i-2)(i-3)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1{10}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac12+3i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac16-2i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac13+i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac{i}{(i-1)(i-2)(i-3)}=\\dfrac{i(-i-1)(-i-2)(-i-3)}{|i-1|^2|i-2|^2|i-3|^2}=\\dfrac1{10}$。",
+  "search_text": "$\\dfrac{i}{(i-1)(i-2)(i-3)}=(\\quad)$。 $\\dfrac1{10}$ $\\dfrac12+3i$ $\\dfrac16-2i$ $\\dfrac13+i$ $\\dfrac{i}{(i-1)(i-2)(i-3)}=\\dfrac{i(-i-1)(-i-2)(-i-3)}{|i-1|^2|i-2|^2|i-3|^2}=\\dfrac1{10}$。",
+  "sort_order": 27
+}

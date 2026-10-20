@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为正向圆周 $|z|=4$，则 $\\displaystyle\\oint_C\\dfrac{3z^2+2}{(z-1)(z^2+9)}\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{84}{5}\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{74}{5}\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内极点为 $1,3i,-3i$。计算三处留数并求和为 $3$，积分为 $6\\pi i$。",
+  "search_text": "设 $C$ 为正向圆周 $|z|=4$，则 $\\displaystyle\\oint_C\\dfrac{3z^2+2}{(z-1)(z^2+9)}\\,dz=(\\ \\ )$。 $6\\pi i$ $\\dfrac{84}{5}\\pi i$ $\\dfrac{74}{5}\\pi i$ $0$ 圆内极点为 $1,3i,-3i$。计算三处留数并求和为 $3$，积分为 $6\\pi i$。",
+  "sort_order": 49
+}

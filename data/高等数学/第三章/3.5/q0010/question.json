@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某汽车制造厂每小时生产 $x$ 台的总成本为 $C(x)=\\frac19x^2+x+100$（万元），需求 $x=75-3p$，则每小时生产（ ）台时利润最大。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$25$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$27$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$26$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$24$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由需求函数得收入 $R(x)=25x-\\frac13x^2$，利润 $L=R-C=24x-\\frac49x^2-100$。令 $L\\prime=0$ 得 $x=27$。",
+  "search_text": "某汽车制造厂每小时生产 $x$ 台的总成本为 $C(x)=\\frac19x^2+x+100$（万元），需求 $x=75-3p$，则每小时生产（ ）台时利润最大。 $25$ $27$ $26$ $24$ 由需求函数得收入 $R(x)=25x-\\frac13x^2$，利润 $L=R-C=24x-\\frac49x^2-100$。令 $L\\prime=0$ 得 $x=27$。",
+  "sort_order": 10
+}

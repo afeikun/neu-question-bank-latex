@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/(z-1)$ 在 $z=1+i$ 处的幂级数展开式是____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(z-1-i)^n/i^{n+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(z-1-i)^{n+1}/i^{n+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(z-1-i)^n/i^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^{n+1}(z-1-i)^n/i^{n+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $w=z-1-i$，则 $1/(z-1)=1/(w+i)=\\sum_{n=0}^{\\infty}(-1)^nw^n/i^{n+1}$。",
+  "search_text": "函数 $1/(z-1)$ 在 $z=1+i$ 处的幂级数展开式是____。 $\\sum_{n=0}^{\\infty}(-1)^n(z-1-i)^n/i^{n+1}$ $\\sum_{n=0}^{\\infty}(-1)^n(z-1-i)^{n+1}/i^{n+1}$ $\\sum_{n=0}^{\\infty}(-1)^n(z-1-i)^n/i^n$ $\\sum_{n=0}^{\\infty}(-1)^{n+1}(z-1-i)^n/i^{n+1}$ 令 $w=z-1-i$，则 $1/(z-1)=1/(w+i)=\\sum_{n=0}^{\\infty}(-1)^nw^n/i^{n+1}$。",
+  "sort_order": 31
+}

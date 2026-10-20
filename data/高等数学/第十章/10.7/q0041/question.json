@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "第一象限曲线与切线及坐标轴围成三角形面积为 $a^2$，求微分方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(yy^\\prime-x)^2=2a^2y^\\prime$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(xy^\\prime-y)^2=-2a^2y^\\prime$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(xy^\\prime-y)^2=-2a^2y^\\prime$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(xy^\\prime-y)^2=2a^2y^\\prime$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：设曲线方程为$y=y(x)$，其上任一点的坐标为$(x,y)$，过该点的切线方程为$Y-y=y'(X-x)$，所以切线在$x$轴上的截距为$x-\\frac{y}{y'}$，$y$轴上的截距为$y-xy'$，于是得三角形的面积为\n\n$$\\frac{1}{2}\\left(x-\\frac{y}{y'}\\right)(y-xy')=a^2。$$",
+  "search_text": "第一象限曲线与切线及坐标轴围成三角形面积为 $a^2$，求微分方程。 $(yy^\\prime-x)^2=2a^2y^\\prime$ $(xy^\\prime-y)^2=-2a^2y^\\prime$ $(xy^\\prime-y)^2=-2a^2y^\\prime$ $(xy^\\prime-y)^2=2a^2y^\\prime$ 解析：设曲线方程为$y=y(x)$，其上任一点的坐标为$(x,y)$，过该点的切线方程为$Y-y=y'(X-x)$，所以切线在$x$轴上的截距为$x-\\frac{y}{y'}$，$y$轴上的截距为$y-xy'$，于是得三角形的面积为\n\n$$\\frac{1}{2}\\left(x-\\frac{y}{y'}\\right)(y-xy')=a^2。$$",
+  "sort_order": 41
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)=\\begin{cases}a+bx^2,&x\\le0\\\\\\frac{\\sin bx}{2x},&x>0\\end{cases}$，在点 $x=0$ 处连续，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=2b$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2a=b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=-b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to0^+}f(x)=b/2$，$\\lim_{x\\to0^-}f(x)=a$，故 $2a=b$。",
+  "search_text": "设函数 $f(x)=\\begin{cases}a+bx^2,&x\\le0\\\\\\frac{\\sin bx}{2x},&x>0\\end{cases}$，在点 $x=0$ 处连续，则（ ）。 $a=2b$ $a=b$ $2a=b$ $a=-b$ $\\lim_{x\\to0^+}f(x)=b/2$，$\\lim_{x\\to0^-}f(x)=a$，故 $2a=b$。",
+  "sort_order": 34
+}

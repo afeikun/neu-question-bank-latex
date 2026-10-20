@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $n$ 为奇数时，$\\displaystyle\\oint_{|z|=1}z^n\\cos\\dfrac1z\\,dz=(\\ \\ )$，$n$ 为正整数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1)^{\\frac{n+1}{2}}\\dfrac{2\\pi i}{(n+1)!}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{2\\pi i}{n!}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1)^{\\frac{n-1}{2}}\\dfrac{2\\pi i}{(n-1)!}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\cos(1/z)=\\sum_{k=0}^\\infty(-1)^k/(2k)!z^{2k}$，奇数 $n$ 时 $z^{-1}$ 项对应 $2k=n+1$，故积分为 $(-1)^{(n+1)/2}2\\pi i/(n+1)!$。",
+  "search_text": "当 $n$ 为奇数时，$\\displaystyle\\oint_{|z|=1}z^n\\cos\\dfrac1z\\,dz=(\\ \\ )$，$n$ 为正整数。 $(-1)^{\\frac{n+1}{2}}\\dfrac{2\\pi i}{(n+1)!}$ $0$ $\\dfrac{2\\pi i}{n!}$ $(-1)^{\\frac{n-1}{2}}\\dfrac{2\\pi i}{(n-1)!}$ 由 $\\cos(1/z)=\\sum_{k=0}^\\infty(-1)^k/(2k)!z^{2k}$，奇数 $n$ 时 $z^{-1}$ 项对应 $2k=n+1$，故积分为 $(-1)^{(n+1)/2}2\\pi i/(n+1)!$。",
+  "sort_order": 60
+}

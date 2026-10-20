@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某班级有10名女生、20名男生，从中选出三名学生代表，则恰好选出一位女生和两位男生的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$95/203$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/100$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$95/609$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4/27$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "概率为$\\binom{10}1\\binom{20}2/\\binom{30}3=95/203$。",
+  "search_text": "某班级有10名女生、20名男生，从中选出三名学生代表，则恰好选出一位女生和两位男生的概率是（ ）。 $95/203$ $1/100$ $95/609$ $4/27$ 概率为$\\binom{10}1\\binom{20}2/\\binom{30}3=95/203$。",
+  "sort_order": 15
+}

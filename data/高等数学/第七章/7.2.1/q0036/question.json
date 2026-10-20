@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=x+(y-2)\\arcsin\\sqrt{x/y}$，则 $\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\frac{\\partial z}{\\partial y}=\\arcsin\\sqrt{\\frac{x}{y}}+(y-2)\\frac{1}{\\sqrt{1-\\frac{x}{y}}}\\frac{1}{2\\sqrt{\\frac{x}{y}}}\\left(-\\frac{x}{y^2}\\right)，$$将 $(x,y)=(1,2)$ 代入得，$$\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}=\\frac{\\pi}{4}$$",
+  "search_text": "设 $z=x+(y-2)\\arcsin\\sqrt{x/y}$，则 $\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}=(\\quad)$。 $1$ $\\frac\\pi4$ $\\frac\\pi2$ $0$ $$\\frac{\\partial z}{\\partial y}=\\arcsin\\sqrt{\\frac{x}{y}}+(y-2)\\frac{1}{\\sqrt{1-\\frac{x}{y}}}\\frac{1}{2\\sqrt{\\frac{x}{y}}}\\left(-\\frac{x}{y^2}\\right)，$$将 $(x,y)=(1,2)$ 代入得，$$\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,2)}=\\frac{\\pi}{4}$$",
+  "sort_order": 36
+}

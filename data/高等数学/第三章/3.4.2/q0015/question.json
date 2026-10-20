@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $F\\prime(x)=e^{x^2/2}$，且 $F(0)=0$，则 $F(x)$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "极值点为 $x=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无极值点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "极值点为 $x=0,1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "极值点为 $x=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$F\\prime(x)=e^{x^2/2}>0$，所以 $F$ 在全实数上单调增加，无极值点。",
+  "search_text": "若 $F\\prime(x)=e^{x^2/2}$，且 $F(0)=0$，则 $F(x)$（ ）。 极值点为 $x=0$ 无极值点 极值点为 $x=0,1$ 极值点为 $x=1$ $F\\prime(x)=e^{x^2/2}>0$，所以 $F$ 在全实数上单调增加，无极值点。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/((z-a)(z-b))$（$a\\ne b$）的 Taylor 展开式是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{a-b}\\sum_{n=0}^{\\infty}(1/b^{n+1}-1/a^{n+1})z^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{a-b}\\sum_{n=0}^{\\infty}(1/a^{n+1}-1/b^{n+1})z^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{a+b}\\sum_{n=0}^{\\infty}(1/b^{n+1}+1/a^{n+1})z^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{a+b}\\sum_{n=0}^{\\infty}(1/b^{n+1}-1/a^{n+1})z^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "部分分式为 $\\frac1{a-b}(1/(z-a)-1/(z-b))$，几何展开得第一式。",
+  "search_text": "函数 $1/((z-a)(z-b))$（$a\\ne b$）的 Taylor 展开式是（ ） $\\frac1{a-b}\\sum_{n=0}^{\\infty}(1/b^{n+1}-1/a^{n+1})z^n$ $\\frac1{a-b}\\sum_{n=0}^{\\infty}(1/a^{n+1}-1/b^{n+1})z^n$ $\\frac1{a+b}\\sum_{n=0}^{\\infty}(1/b^{n+1}+1/a^{n+1})z^n$ $\\frac1{a+b}\\sum_{n=0}^{\\infty}(1/b^{n+1}-1/a^{n+1})z^n$ 部分分式为 $\\frac1{a-b}(1/(z-a)-1/(z-b))$，几何展开得第一式。",
+  "sort_order": 50
+}

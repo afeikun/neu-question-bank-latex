@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $D:x^2+y^2\\leq4,y\\geq0$，则二重积分 $\\iint_D\\sin(x^3y^2)\\,d\\sigma=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 因为 $D$ 关于 $y$ 轴对称，而被积函数是关于 $x$ 的奇函数，所以 $\\iint_D\\sin(x^3y^2)\\,d\\sigma=0$",
+  "search_text": "设 $D:x^2+y^2\\leq4,y\\geq0$，则二重积分 $\\iint_D\\sin(x^3y^2)\\,d\\sigma=（ ）$ $-1$ $0$ $1$ $2$ 解答 因为 $D$ 关于 $y$ 轴对称，而被积函数是关于 $x$ 的奇函数，所以 $\\iint_D\\sin(x^3y^2)\\,d\\sigma=0$",
+  "sort_order": 34
+}

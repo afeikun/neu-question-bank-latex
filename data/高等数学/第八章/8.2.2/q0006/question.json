@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega$ 是由 $x^2+y^2+z^2=1$ 所围成区域，则 $\\iiint_\\Omega e^{|z|}dv=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac32\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由对称性及平行截面法，\n\n原式\n\n$$\n=2\\iiint_{\\Omega_{z\\ge0}}e^z\\,dv=2\\int_0^1\\pi(1-z^2)e^z\\,dz=2\\pi\n$$",
+  "search_text": "设 $\\Omega$ 是由 $x^2+y^2+z^2=1$ 所围成区域，则 $\\iiint_\\Omega e^{|z|}dv=（ ）$ $\\frac\\pi2$ $\\frac32\\pi$ $2\\pi$ $\\pi$ 由对称性及平行截面法，\n\n原式\n\n$$\n=2\\iiint_{\\Omega_{z\\ge0}}e^z\\,dv=2\\int_0^1\\pi(1-z^2)e^z\\,dz=2\\pi\n$$",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $(x+y^2)y\\prime\\prime+6yy\\prime y\\prime\\prime+3(y\\prime)^2+2(y\\prime)^3=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3xy+y^3=\\frac32C_1x^2+3C_2x+C_3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6xy-y^3=3C_1x+C_3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3xy-y^3=C_1x^3+C_2x+C_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3xy+y^3=\\frac32C_1x^3+3C_2x^2+C_3x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答将该方程重新分项组合，得到\n\n$$\\left[(1+2yy')y''+(x+y^2)y'''\\right]+\\left[2(y')^3+4yy'y''\\right]+2y''=0$$\n\n即 $\\left[(x+y^2)y''+2y(y')^2+2y'\\right]'=0$，积分得 $(x+y^2)y''+2y(y')^2+2y'=C_1$，将上式写为\n\n$$\\left[(x+y^2)y''+(1+2yy')y'\\right]+y'=C_1,$$\n\n两边积分，得 $(x+y^2)y'+y=C_1x+C_2$，用 $3$ 乘上式两端，得 $3(x+y^2)y'+3y=3C_1x+3C_2$，经整理得 $(3xy)'+(y^3)'=3C_1x+3C_2$，两边积分得通解\n\n$$3xy+y^3=\\frac{3}{2}C_1x^2+3C_2x+C_3.$$",
+  "search_text": "方程 $(x+y^2)y\\prime\\prime+6yy\\prime y\\prime\\prime+3(y\\prime)^2+2(y\\prime)^3=0$ 的通解为（ ） $3xy+y^3=\\frac32C_1x^2+3C_2x+C_3$ $6xy-y^3=3C_1x+C_3$ $3xy-y^3=C_1x^3+C_2x+C_3$ $3xy+y^3=\\frac32C_1x^3+3C_2x^2+C_3x$ 解答将该方程重新分项组合，得到\n\n$$\\left[(1+2yy')y''+(x+y^2)y'''\\right]+\\left[2(y')^3+4yy'y''\\right]+2y''=0$$\n\n即 $\\left[(x+y^2)y''+2y(y')^2+2y'\\right]'=0$，积分得 $(x+y^2)y''+2y(y')^2+2y'=C_1$，将上式写为\n\n$$\\left[(x+y^2)y''+(1+2yy')y'\\right]+y'=C_1,$$\n\n两边积分，得 $(x+y^2)y'+y=C_1x+C_2$，用 $3$ 乘上式两端，得 $3(x+y^2)y'+3y=3C_1x+3C_2$，经整理得 $(3xy)'+(y^3)'=3C_1x+3C_2$，两边积分得通解\n\n$$3xy+y^3=\\frac{3}{2}C_1x^2+3C_2x+C_3.$$",
+  "sort_order": 36
+}

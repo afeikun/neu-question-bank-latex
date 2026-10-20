@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=0}^\\infty(n+1)^2/n!$ 的和是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "5e"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "3e"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "4e"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2e"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "拆分 $n^2+2n+1$ 并求和，结果为 $5e$。",
+  "search_text": "级数 $\\sum_{n=0}^\\infty(n+1)^2/n!$ 的和是？ 5e 3e 4e 2e 拆分 $n^2+2n+1$ 并求和，结果为 $5e$。",
+  "sort_order": 24
+}

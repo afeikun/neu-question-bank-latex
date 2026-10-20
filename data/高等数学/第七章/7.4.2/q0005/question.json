@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=xf(x^2+y^2)$，求 $z_x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x^2+y^2)+2y^2f'(x^2+y^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x^2+y^2)+2x^2f'(x^2+y^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xf(x^2+y^2)+2x^2f'(x^2+y^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x^2+y^2)+2xyf'(x^2+y^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "这里 $z$ 是两个函数的乘积，先用乘法法则再用链式法则\n\n$$\\frac{\\partial z}{\\partial x}=f(x^2+y^2)+x\\cdot\\frac{\\partial f(x^2+y^2)}{\\partial x}=f(x^2+y^2)+x\\cdot2xf'(x^2+y^2)$$\n\n$$=f(x^2+y^2)+2x^2f'(x^2+y^2)$$",
+  "search_text": "设 $z=xf(x^2+y^2)$，求 $z_x$。 $f(x^2+y^2)+2y^2f'(x^2+y^2)$ $f(x^2+y^2)+2x^2f'(x^2+y^2)$ $xf(x^2+y^2)+2x^2f'(x^2+y^2)$ $f(x^2+y^2)+2xyf'(x^2+y^2)$ 这里 $z$ 是两个函数的乘积，先用乘法法则再用链式法则\n\n$$\\frac{\\partial z}{\\partial x}=f(x^2+y^2)+x\\cdot\\frac{\\partial f(x^2+y^2)}{\\partial x}=f(x^2+y^2)+x\\cdot2xf'(x^2+y^2)$$\n\n$$=f(x^2+y^2)+2x^2f'(x^2+y^2)$$",
+  "sort_order": 5
+}

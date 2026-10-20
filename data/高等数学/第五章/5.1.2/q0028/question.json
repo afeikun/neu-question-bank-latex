@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\lim_{n\\to\\infty}2^n n!/n^n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/e^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(e-3)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2/e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "相应正项级数比值极限为 $2/e<1$，故通项极限为0。",
+  "search_text": "求 $\\lim_{n\\to\\infty}2^n n!/n^n$。 $1/e^2$ $0$ $1/(e-3)$ $2/e$ 相应正项级数比值极限为 $2/e<1$，故通项极限为0。",
+  "sort_order": 28
+}

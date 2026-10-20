@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=x^2-2bxy-cy^2$，且 $u_y(2,1)=0$，则 $u_{yy}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2b$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial y}=-2bx-2cy，\\quad \\left.\\frac{\\partial u}{\\partial y}\\right|_{(2,1)}=-4b-2c=0，\\quad c=-2b$，则 $\\frac{\\partial^2u}{\\partial y^2}=-2c=4b$",
+  "search_text": "设 $u=x^2-2bxy-cy^2$，且 $u_y(2,1)=0$，则 $u_{yy}=(\\quad)$。 $2b$ $-4b$ $-2b$ $4b$ $\\frac{\\partial u}{\\partial y}=-2bx-2cy，\\quad \\left.\\frac{\\partial u}{\\partial y}\\right|_{(2,1)}=-4b-2c=0，\\quad c=-2b$，则 $\\frac{\\partial^2u}{\\partial y^2}=-2c=4b$",
+  "sort_order": 17
+}

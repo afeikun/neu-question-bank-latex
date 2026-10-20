@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(z)=x^2+axy-y^2+i(bx^2+2xy+y^2)$ 在复平面内处处解析，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=2,b=-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=-2,b=-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=2,b=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=4,b=-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "比较偏导数满足柯西－黎曼方程，得到 $a=2,b=-1$。",
+  "search_text": "设函数 $f(z)=x^2+axy-y^2+i(bx^2+2xy+y^2)$ 在复平面内处处解析，则（ ）。 $a=2,b=-1$ $a=-2,b=-1$ $a=2,b=1$ $a=4,b=-2$ 比较偏导数满足柯西－黎曼方程，得到 $a=2,b=-1$。",
+  "sort_order": 33
+}

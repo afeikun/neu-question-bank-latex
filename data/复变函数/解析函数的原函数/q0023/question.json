@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设积分路径 $C$ 为从 $1$ 到 $i$ 沿逆时针方向的单位圆周上的一段弧，则 $\\int_Ce^z\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\cos1-e+i\\sin1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos1-i\\sin1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_Ce^z\\,dz=e^z\\big|_1^i=e^i-e=\\cos1-e+i\\sin1$。",
+  "search_text": "设积分路径 $C$ 为从 $1$ 到 $i$ 沿逆时针方向的单位圆周上的一段弧，则 $\\int_Ce^z\\,dz=(\\quad)$。 $\\cos1-e+i\\sin1$ $e^i$ $\\cos1-i\\sin1$ $0$ $\\int_Ce^z\\,dz=e^z\\big|_1^i=e^i-e=\\cos1-e+i\\sin1$。",
+  "sort_order": 23
+}

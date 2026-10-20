@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=xy$ 在 $D:x\\ge0,y\\ge0,x+y\\le1$ 上的最大值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设 $L(x,y)=xy-\\lambda(x+y-1)$，令\n$$\n\\begin{cases}\nL_x=y-\\lambda=0\\\\\nL_y=x-\\lambda=0\\\\\nL_\\lambda=x+y-1=0\n\\end{cases}\n$$\n解得：$x=\\dfrac{1}{2},\\ y=\\dfrac{1}{2}$，由于极值点只有一个，因此为最大值，把 $x=\\dfrac{1}{2},y=\\dfrac{1}{2}$ 代入原函数式得到：$z=\\dfrac{1}{4}$。",
+  "search_text": "函数 $z=xy$ 在 $D:x\\ge0,y\\ge0,x+y\\le1$ 上的最大值为。 $\\frac14$ 1 $\\frac13$ $\\frac12$ 设 $L(x,y)=xy-\\lambda(x+y-1)$，令\n$$\n\\begin{cases}\nL_x=y-\\lambda=0\\\\\nL_y=x-\\lambda=0\\\\\nL_\\lambda=x+y-1=0\n\\end{cases}\n$$\n解得：$x=\\dfrac{1}{2},\\ y=\\dfrac{1}{2}$，由于极值点只有一个，因此为最大值，把 $x=\\dfrac{1}{2},y=\\dfrac{1}{2}$ 代入原函数式得到：$z=\\dfrac{1}{4}$。",
+  "sort_order": 3
+}

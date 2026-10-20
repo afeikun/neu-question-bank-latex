@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a$ 是正数，函数 $f(x)=a^x$，$\\Phi(x)=a^x\\log_a e$，则",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\Phi(x)$ 是 $f(x)$ 的不定积分"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)$ 是 $\\Phi(x)$ 的导数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Phi(x)$ 是 $f(x)$ 的导数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)$ 是 $\\Phi(x)$ 的原函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $\\Phi\\prime(x)=a^x=f(x)$，可知 $\\Phi(x)$ 是 $f(x)$ 的一个原函数。",
+  "search_text": "设 $a$ 是正数，函数 $f(x)=a^x$，$\\Phi(x)=a^x\\log_a e$，则 $\\Phi(x)$ 是 $f(x)$ 的不定积分 $f(x)$ 是 $\\Phi(x)$ 的导数 $\\Phi(x)$ 是 $f(x)$ 的导数 $f(x)$ 是 $\\Phi(x)$ 的原函数 由 $\\Phi\\prime(x)=a^x=f(x)$，可知 $\\Phi(x)$ 是 $f(x)$ 的一个原函数。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "椭圆x²/a²+y²/b²=1围成图形面积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1/2)πab"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "πab"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "πa²b²"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2πab"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "椭圆面积为πab。",
+  "search_text": "椭圆x²/a²+y²/b²=1围成图形面积 (1/2)πab πab πa²b² 2πab 椭圆面积为πab。",
+  "sort_order": 4
+}

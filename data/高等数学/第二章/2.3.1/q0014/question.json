@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 的一阶导函数在 $x=a$ 处连续，且 $\\lim_{x\\to0}\\frac{f\\prime(x+a)}x=1$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to0}f\\prime\\prime(x+a)$ 一定存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f\\prime\\prime(a)=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f\\prime(a)=2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)$ 在 $x=a$ 处二阶导数不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $f\\prime(a)=0$ 及差商定义可得 $f\\prime\\prime(a)=1$。",
+  "search_text": "设 $f(x)$ 的一阶导函数在 $x=a$ 处连续，且 $\\lim_{x\\to0}\\frac{f\\prime(x+a)}x=1$，则（ ）。 $\\lim_{x\\to0}f\\prime\\prime(x+a)$ 一定存在 $f\\prime\\prime(a)=1$ $f\\prime(a)=2$ $f(x)$ 在 $x=a$ 处二阶导数不存在 由 $f\\prime(a)=0$ 及差商定义可得 $f\\prime\\prime(a)=1$。",
+  "sort_order": 14
+}

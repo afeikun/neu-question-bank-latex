@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=(1,3,-3,0,9)^T,\\alpha_2=(2,-1,0,3,1)^T$，则 $|\\alpha_1|$ 和 $\\langle\\alpha_1,\\alpha_2\\rangle$ 分别等于(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$9,8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$10,14$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9,15$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$10,8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$|\\alpha_1|=10$，$\\alpha_1^T\\alpha_2=2-3+9=8$，选项 4。",
+  "search_text": "设 $\\alpha_1=(1,3,-3,0,9)^T,\\alpha_2=(2,-1,0,3,1)^T$，则 $|\\alpha_1|$ 和 $\\langle\\alpha_1,\\alpha_2\\rangle$ 分别等于(\\quad)。 $9,8$ $10,14$ $9,15$ $10,8$ $|\\alpha_1|=10$，$\\alpha_1^T\\alpha_2=2-3+9=8$，选项 4。",
+  "sort_order": 16
+}

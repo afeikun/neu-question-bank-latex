@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由 $z+e^z=xy^2$ 确定，求 $dz$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1}{1-e^z}(y^2dx+2xydy)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1}{1+e^z}(y^2dx+4xydy)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1}{1+e^z}(y^2dx+2xydy)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1}{1+e^z}(y^2dx-4xydy)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "等式 $z+e^z=xy^2$ 两端对 $x$ 求偏导，得\n\n$$\n\\frac{\\partial z}{\\partial x}+e^z\\frac{\\partial z}{\\partial x}=y^2\n$$\n\n则\n\n$$\n\\frac{\\partial z}{\\partial x}=\\frac{y^2}{1+e^z}\n$$\n\n同理可得\n\n$$\n\\frac{\\partial z}{\\partial y}=\\frac{2xy}{1+e^z}\n$$\n\n则\n\n$$\ndz=\\frac{1}{1+e^z}(y^2dx+2xydy)\n$$",
+  "search_text": "设 $z=z(x,y)$ 由 $z+e^z=xy^2$ 确定，求 $dz$。 $\\frac{1}{1-e^z}(y^2dx+2xydy)$ $\\frac{1}{1+e^z}(y^2dx+4xydy)$ $\\frac{1}{1+e^z}(y^2dx+2xydy)$ $\\frac{1}{1+e^z}(y^2dx-4xydy)$ 等式 $z+e^z=xy^2$ 两端对 $x$ 求偏导，得\n\n$$\n\\frac{\\partial z}{\\partial x}+e^z\\frac{\\partial z}{\\partial x}=y^2\n$$\n\n则\n\n$$\n\\frac{\\partial z}{\\partial x}=\\frac{y^2}{1+e^z}\n$$\n\n同理可得\n\n$$\n\\frac{\\partial z}{\\partial y}=\\frac{2xy}{1+e^z}\n$$\n\n则\n\n$$\ndz=\\frac{1}{1+e^z}(y^2dx+2xydy)\n$$",
+  "sort_order": 15
+}

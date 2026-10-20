@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma\\frac{1}{x^2+y^2+z^2}\\,dS$，$\\Sigma$ 为平面 $\\frac x2+\\frac y3+\\frac z4=1$ 在第一卦限中的部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi^2}{4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\pi^2}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "",
+  "search_text": "计算 $\\iint_\\Sigma\\frac{1}{x^2+y^2+z^2}\\,dS$，$\\Sigma$ 为平面 $\\frac x2+\\frac y3+\\frac z4=1$ 在第一卦限中的部分。 $\\frac{\\pi^2}{4}$ $\\frac{\\pi^2}{2}$ $\\pi^2$ $1$ ",
+  "sort_order": 57
+}

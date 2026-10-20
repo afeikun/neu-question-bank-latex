@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\mathbb{R}^3$ 中的两组基 $\\alpha_1=(1,0,0)^T$，$\\alpha_2=(-1,1,0)^T$，$\\alpha_3=(1,-2,1)^T$ 和 $\\beta_1=(2,0,0)^T$，$\\beta_2=(-2,1,0)^T$，$\\beta_3=(4,-4,1)^T$，则 $\\alpha_1,\\alpha_2,\\alpha_3$ 到 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}2&-1&0\\\\0&1&-2\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}2&1&1\\\\0&1&2\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1/2&1/2&1/2\\\\0&1&2\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}2&-1&1\\\\0&1&-2\\\\0&0&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由于 $(\\alpha_1,\\alpha_2,\\alpha_3)C=(\\beta_1,\\beta_2,\\beta_3)$，所以过渡矩阵为 $C=(\\alpha_1,\\alpha_2,\\alpha_3)^{-1}(\\beta_1,\\beta_2,\\beta_3)=\\begin{pmatrix}1&-1&1\\\\0&1&-2\\\\0&0&1\\end{pmatrix}^{-1}\\begin{pmatrix}2&-2&4\\\\0&1&-4\\\\0&0&1\\end{pmatrix}=\\begin{pmatrix}2&-1&1\\\\0&1&-2\\\\0&0&1\\end{pmatrix}$。",
+  "search_text": "设 $\\mathbb{R}^3$ 中的两组基 $\\alpha_1=(1,0,0)^T$，$\\alpha_2=(-1,1,0)^T$，$\\alpha_3=(1,-2,1)^T$ 和 $\\beta_1=(2,0,0)^T$，$\\beta_2=(-2,1,0)^T$，$\\beta_3=(4,-4,1)^T$，则 $\\alpha_1,\\alpha_2,\\alpha_3$ 到 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵为（ ）。 $\\begin{pmatrix}2&-1&0\\\\0&1&-2\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}2&1&1\\\\0&1&2\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}1/2&1/2&1/2\\\\0&1&2\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}2&-1&1\\\\0&1&-2\\\\0&0&1\\end{pmatrix}$ 由于 $(\\alpha_1,\\alpha_2,\\alpha_3)C=(\\beta_1,\\beta_2,\\beta_3)$，所以过渡矩阵为 $C=(\\alpha_1,\\alpha_2,\\alpha_3)^{-1}(\\beta_1,\\beta_2,\\beta_3)=\\begin{pmatrix}1&-1&1\\\\0&1&-2\\\\0&0&1\\end{pmatrix}^{-1}\\begin{pmatrix}2&-2&4\\\\0&1&-4\\\\0&0&1\\end{pmatrix}=\\begin{pmatrix}2&-1&1\\\\0&1&-2\\\\0&0&1\\end{pmatrix}$。",
+  "sort_order": 8
+}

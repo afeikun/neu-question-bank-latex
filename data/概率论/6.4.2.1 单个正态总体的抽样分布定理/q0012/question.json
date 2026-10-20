@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim N(0,1)$样本，$\\bar X,S^2$为样本均值与方差，下列不成立的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\bar X\\sim N(0,1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X_i\\sim N(0,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt n\\bar X/S\\sim t(n-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum X_i^2\\sim\\chi^2(n)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar X\\sim N(0,1/n)$，不是$N(0,1)$。",
+  "search_text": "$X_i\\sim N(0,1)$样本，$\\bar X,S^2$为样本均值与方差，下列不成立的是（）。 $\\bar X\\sim N(0,1)$ $X_i\\sim N(0,1)$ $\\sqrt n\\bar X/S\\sim t(n-1)$ $\\sum X_i^2\\sim\\chi^2(n)$ $\\bar X\\sim N(0,1/n)$，不是$N(0,1)$。",
+  "sort_order": 12
+}

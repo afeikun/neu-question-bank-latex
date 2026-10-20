@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=y(x)$ 由方程组 $\\begin{cases}x=3t^2+2t+3\\\\e^y\\sin t-y+1=0\\end{cases}$ 确定，则 $d^2y/dx^2|_{t=0}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2e-3e^2)/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-2e^2+3e)/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-2e+3e^2)/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2e^2-3e)/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$d^2y/dx^2=(2e^2-3e)/4$。",
+  "search_text": "设 $y=y(x)$ 由方程组 $\\begin{cases}x=3t^2+2t+3\\\\e^y\\sin t-y+1=0\\end{cases}$ 确定，则 $d^2y/dx^2|_{t=0}=$（ ）。 $(2e-3e^2)/4$ $(-2e^2+3e)/4$ $(-2e+3e^2)/4$ $(2e^2-3e)/4$ $d^2y/dx^2=(2e^2-3e)/4$。",
+  "sort_order": 38
+}

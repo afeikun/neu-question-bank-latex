@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "样本$X_1,\\ldots,X_n$来自总体，以下结论不成立的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_n$与$\\max\\{X_1,\\ldots,X_n\\}$分布相同"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X_i$有密度$\\varphi(x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X_i$有分布函数$F(x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\max\\{X_1,\\ldots,X_n\\}$的分布函数为$[F(x)]^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本独立同分布时最大值分布函数为$F(x)^n$，一般不与单个样本同分布。",
+  "search_text": "样本$X_1,\\ldots,X_n$来自总体，以下结论不成立的是（）。 $X_n$与$\\max\\{X_1,\\ldots,X_n\\}$分布相同 $X_i$有密度$\\varphi(x)$ $X_i$有分布函数$F(x)$ $\\max\\{X_1,\\ldots,X_n\\}$的分布函数为$[F(x)]^n$ 样本独立同分布时最大值分布函数为$F(x)^n$，一般不与单个样本同分布。",
+  "sort_order": 8
+}

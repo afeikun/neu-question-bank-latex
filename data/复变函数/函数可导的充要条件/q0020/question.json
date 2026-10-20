@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=e^x(x\\cos y-y\\sin y)+x-y+i v(x,y)$ 解析，则 $f\\prime(z)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1+z)e^z+1+i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1+z)e^z$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^z+z$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$ze^{-z}+z+i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由柯西－黎曼方程计算得 $f\\prime=(1+z)e^z+1+i$。",
+  "search_text": "设 $f(z)=e^x(x\\cos y-y\\sin y)+x-y+i v(x,y)$ 解析，则 $f\\prime(z)=(\\ )$。 $(1+z)e^z+1+i$ $(1+z)e^z$ $e^z+z$ $ze^{-z}+z+i$ 由柯西－黎曼方程计算得 $f\\prime=(1+z)e^z+1+i$。",
+  "sort_order": 20
+}

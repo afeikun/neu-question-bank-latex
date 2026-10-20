@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知一四面体的顶点 $A_k(x_k,y_k,z_k)$（$k=1,2,3,4$），则该四面体体积为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12|[A_1A_2,A_1A_3,A_1A_4]|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|[A_1A_2,A_1A_3,A_1A_4]|$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13|[A_1A_2,A_1A_3,A_1A_4]|$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16|[A_1A_2,A_1A_3,A_1A_4]|$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "四面体体积是以三条棱为邻边的平行六面体体积的 $1/6$。",
+  "search_text": "已知一四面体的顶点 $A_k(x_k,y_k,z_k)$（$k=1,2,3,4$），则该四面体体积为(\\quad)。 $\\frac12|[A_1A_2,A_1A_3,A_1A_4]|$ $|[A_1A_2,A_1A_3,A_1A_4]|$ $\\frac13|[A_1A_2,A_1A_3,A_1A_4]|$ $\\frac16|[A_1A_2,A_1A_3,A_1A_4]|$ 四面体体积是以三条棱为邻边的平行六面体体积的 $1/6$。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Omega:0\\leq\\theta\\leq\\frac\\pi2,0\\leq\\varphi\\leq\\frac\\pi2,1\\leq r\\leq2$，则 $I=\\iiint_\\Omega\\sin\\varphi\\,r\\,dr\\,d\\theta\\,d\\varphi=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$$\nI=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin\\varphi\\,d\\varphi\\int_1^2dr=\\frac{\\pi}{2}\\cdot1\\cdot1=\\frac{\\pi}{2}\n$$",
+  "search_text": "已知 $\\Omega:0\\leq\\theta\\leq\\frac\\pi2,0\\leq\\varphi\\leq\\frac\\pi2,1\\leq r\\leq2$，则 $I=\\iiint_\\Omega\\sin\\varphi\\,r\\,dr\\,d\\theta\\,d\\varphi=$（ ） $\\frac\\pi2$ $\\frac\\pi5$ $\\frac\\pi4$ $\\frac\\pi3$ $$\nI=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin\\varphi\\,d\\varphi\\int_1^2dr=\\frac{\\pi}{2}\\cdot1\\cdot1=\\frac{\\pi}{2}\n$$",
+  "sort_order": 41
+}

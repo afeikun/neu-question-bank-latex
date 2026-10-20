@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=u(x,y,z)$ 具有二阶连续偏导数，则 $\\operatorname{rot}(\\operatorname{grad}u)=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\operatorname{grad}u=\\left\\{\\frac{\\partial u}{\\partial x},\\frac{\\partial u}{\\partial y},\\frac{\\partial u}{\\partial z}\\right\\},$\n\n解析：\n$\\operatorname{rot}(\\operatorname{grad}u)=\\begin{vmatrix}\\vec{\\mathbf i}&\\vec{\\mathbf j}&\\vec{\\mathbf k}\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\\\frac{\\partial u}{\\partial x}&\\frac{\\partial u}{\\partial y}&\\frac{\\partial u}{\\partial z}\\end{vmatrix}=\\left(\\frac{\\partial^2u}{\\partial z\\partial y}-\\frac{\\partial^2u}{\\partial y\\partial z}\\right)\\vec{\\mathbf i}-\\left(\\frac{\\partial^2u}{\\partial z\\partial x}-\\frac{\\partial^2u}{\\partial x\\partial z}\\right)\\vec{\\mathbf j}-\\left(\\frac{\\partial^2u}{\\partial y\\partial x}-\\frac{\\partial^2u}{\\partial x\\partial y}\\right)\\vec{\\mathbf k}=0$",
+  "search_text": "设 $u=u(x,y,z)$ 具有二阶连续偏导数，则 $\\operatorname{rot}(\\operatorname{grad}u)=$（ ） $1$ $0$ $12$ $2\\pi$ $\\operatorname{grad}u=\\left\\{\\frac{\\partial u}{\\partial x},\\frac{\\partial u}{\\partial y},\\frac{\\partial u}{\\partial z}\\right\\},$\n\n解析：\n$\\operatorname{rot}(\\operatorname{grad}u)=\\begin{vmatrix}\\vec{\\mathbf i}&\\vec{\\mathbf j}&\\vec{\\mathbf k}\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\\\frac{\\partial u}{\\partial x}&\\frac{\\partial u}{\\partial y}&\\frac{\\partial u}{\\partial z}\\end{vmatrix}=\\left(\\frac{\\partial^2u}{\\partial z\\partial y}-\\frac{\\partial^2u}{\\partial y\\partial z}\\right)\\vec{\\mathbf i}-\\left(\\frac{\\partial^2u}{\\partial z\\partial x}-\\frac{\\partial^2u}{\\partial x\\partial z}\\right)\\vec{\\mathbf j}-\\left(\\frac{\\partial^2u}{\\partial y\\partial x}-\\frac{\\partial^2u}{\\partial x\\partial y}\\right)\\vec{\\mathbf k}=0$",
+  "sort_order": 6
+}

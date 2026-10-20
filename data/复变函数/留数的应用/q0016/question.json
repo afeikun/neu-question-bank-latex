@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\displaystyle\\int_0^{+\\infty}\\dfrac{\\cos(x/2)}{(x^2+4)^2}\\,dx=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi{16}e^{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi{16}e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi8e^{-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac\\pi8e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原积分等于 $\\dfrac12\\displaystyle\\int_{-\\infty}^{+\\infty}\\dfrac{e^{ix/2}}{(x^2+4)^2}\\,dx=\\pi i\\operatorname{Res}\\left[\\dfrac{e^{iz/2}}{(z^2+4)^2};2i\\right]=\\dfrac\\pi{16}e^{-1}$。",
+  "search_text": "$\\displaystyle\\int_0^{+\\infty}\\dfrac{\\cos(x/2)}{(x^2+4)^2}\\,dx=(\\ \\ )$。 $\\dfrac\\pi{16}e^{-1}$ $\\dfrac\\pi{16}e$ $\\dfrac\\pi8e^{-1}$ $\\dfrac\\pi8e$ 原积分等于 $\\dfrac12\\displaystyle\\int_{-\\infty}^{+\\infty}\\dfrac{e^{ix/2}}{(x^2+4)^2}\\,dx=\\pi i\\operatorname{Res}\\left[\\dfrac{e^{iz/2}}{(z^2+4)^2};2i\\right]=\\dfrac\\pi{16}e^{-1}$。",
+  "sort_order": 16
+}

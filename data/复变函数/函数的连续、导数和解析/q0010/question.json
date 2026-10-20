@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\dfrac{1}{(e^{\\pi/z}+1)\\cos(\\pi/z)}$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在除去 $z=0$、$z=(k+\\frac12)^{-1}$ 及 $z=(2k+1)i$ 的复平面上 $f(z)$ 处处解析"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在除去 $z=(k+\\frac12)^{-1}$ 的复平面上 $f(z)$ 处处解析"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在除去 $z=(k+\\frac12)^{-1}$ 及 $z=(2k+1)i$ 的复平面上 $f(z)$ 处处解析"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在除去 $z=(2k+1)i$ 的复平面上 $f(z)$ 处处解析"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $e^{\\pi/z}+1=0$ 解得 $z=(2k+1)i$，$k$ 为整数。又由 $\\cos\\frac{\\pi}{z}=0$，解得 $z=(k+\\frac12)^{-1}$。故在除去 $z=0$、$z=(k+\\frac12)^{-1}$ 及 $z=(2k+1)i$ 的复平面上 $f(z)$ 处处解析。",
+  "search_text": "设 $f(z)=\\dfrac{1}{(e^{\\pi/z}+1)\\cos(\\pi/z)}$，则（ ）。 在除去 $z=0$、$z=(k+\\frac12)^{-1}$ 及 $z=(2k+1)i$ 的复平面上 $f(z)$ 处处解析 在除去 $z=(k+\\frac12)^{-1}$ 的复平面上 $f(z)$ 处处解析 在除去 $z=(k+\\frac12)^{-1}$ 及 $z=(2k+1)i$ 的复平面上 $f(z)$ 处处解析 在除去 $z=(2k+1)i$ 的复平面上 $f(z)$ 处处解析 由 $e^{\\pi/z}+1=0$ 解得 $z=(2k+1)i$，$k$ 为整数。又由 $\\cos\\frac{\\pi}{z}=0$，解得 $z=(k+\\frac12)^{-1}$。故在除去 $z=0$、$z=(k+\\frac12)^{-1}$ 及 $z=(2k+1)i$ 的复平面上 $f(z)$ 处处解析。",
+  "sort_order": 10
+}

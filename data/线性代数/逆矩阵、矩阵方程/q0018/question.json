@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是三角矩阵，那么 $A$ 可逆的充分必要条件是 $A$ 的主对角线元素（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不全为零"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "全不为零"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "全部为正"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "全部为负"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "三角矩阵的行列式为其主对角线元素的乘积，因此可逆当且仅当主对角线元素全不为零。",
+  "search_text": "设 $A$ 是三角矩阵，那么 $A$ 可逆的充分必要条件是 $A$ 的主对角线元素（ ）。 不全为零 全不为零 全部为正 全部为负 三角矩阵的行列式为其主对角线元素的乘积，因此可逆当且仅当主对角线元素全不为零。",
+  "sort_order": 18
+}

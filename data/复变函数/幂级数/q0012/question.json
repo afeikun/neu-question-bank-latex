@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=1}^{\\infty}n^2z^n$ 的和函数是____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z(1+z)/(1-z)^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1+z)/(1-z)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1+z)/(1-z)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z(1+z)/(1-z)^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由对几何级数求导可得 $\\sum_{n=1}^{\\infty}n^2z^n=z(1+z)/(1-z)^3$。",
+  "search_text": "幂级数 $\\sum_{n=1}^{\\infty}n^2z^n$ 的和函数是____。 $z(1+z)/(1-z)^3$ $(1+z)/(1-z)$ $(1+z)/(1-z)^2$ $z(1+z)/(1-z)^4$ 由对几何级数求导可得 $\\sum_{n=1}^{\\infty}n^2z^n=z(1+z)/(1-z)^3$。",
+  "sort_order": 12
+}

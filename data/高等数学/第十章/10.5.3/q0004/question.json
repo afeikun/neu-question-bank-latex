@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\frac{d^2y}{dx^2}=\\frac{2y-1}{y^2+1}(\\frac{dy}{dx})^2$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$C_1y=e^{\\arcsin x}+C_2\\sin x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$C_1x=e^{\\arcsin y}+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$C_1y=e^{\\arctan x}+C_2\\sin x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C_1x=e^{\\arctan y}+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 设 $\\frac{dy}{dx}=p$，则 $\\frac{d^2y}{dx^2}=p\\frac{dp}{dy}$，原方程可化为 $p\\frac{dp}{dy}=\\frac{2y-1}{y^2+1}p^2$。当 $p=0$ 时，$y=C$ 是原方程的解，当 $p\\ne0$ 时，有 $\\frac{dp}{dy}=\\frac{2y-1}{y^2+1}\\,dy$。积分得 $p=\\frac{dy}{dx}=C_1(y^2+1)e^{-\\arctan y}$ 或 $C_1\\,dx=\\frac{e^{\\arctan y}}{1+y^2}\\,dy$。\n\n所以 $C_1x=e^{\\arctan y}+C_2$，（$y=C$）也包含于此通解之中。",
+  "search_text": "微分方程 $\\frac{d^2y}{dx^2}=\\frac{2y-1}{y^2+1}(\\frac{dy}{dx})^2$ 的通解是（ ） $C_1y=e^{\\arcsin x}+C_2\\sin x$ $C_1x=e^{\\arcsin y}+C_2$ $C_1y=e^{\\arctan x}+C_2\\sin x$ $C_1x=e^{\\arctan y}+C_2$ 解答 设 $\\frac{dy}{dx}=p$，则 $\\frac{d^2y}{dx^2}=p\\frac{dp}{dy}$，原方程可化为 $p\\frac{dp}{dy}=\\frac{2y-1}{y^2+1}p^2$。当 $p=0$ 时，$y=C$ 是原方程的解，当 $p\\ne0$ 时，有 $\\frac{dp}{dy}=\\frac{2y-1}{y^2+1}\\,dy$。积分得 $p=\\frac{dy}{dx}=C_1(y^2+1)e^{-\\arctan y}$ 或 $C_1\\,dx=\\frac{e^{\\arctan y}}{1+y^2}\\,dy$。\n\n所以 $C_1x=e^{\\arctan y}+C_2$，（$y=C$）也包含于此通解之中。",
+  "sort_order": 4
+}

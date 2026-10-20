@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=\\begin{cases}\\frac{x^2y^2}{x^4+y^4},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$ 在 $(0,0)$ 处(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可微"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "可偏导但不可微"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "连续但不可微"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既不连续又不可导"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f_x(0,0)=\\lim_{x\\to0}\\frac{f(x,0)-f(0,0)}{x}=0$，$f_y(0,0)=\\lim_{y\\to0}\\frac{f(0,y)-f(0,0)}{y}=0$，令 $\\rho=\\sqrt{\\Delta x^2+\\Delta y^2}$，$$\\lim_{\\rho\\to0}\\frac{1}{\\rho}\\left(f(\\Delta x,\\Delta y)-f_x(0,0)\\Delta x-f_y(0,0)\\Delta y\\right)=\\lim_{\\rho\\to0}\\frac{\\Delta x^2\\Delta y^2}{\\sqrt{\\Delta x^2+\\Delta y^2}(\\Delta x^4+\\Delta y^4)}$$ 不存在，所以不可微。",
+  "search_text": "$f(x,y)=\\begin{cases}\\frac{x^2y^2}{x^4+y^4},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$ 在 $(0,0)$ 处(\\quad)。 可微 可偏导但不可微 连续但不可微 既不连续又不可导 $f_x(0,0)=\\lim_{x\\to0}\\frac{f(x,0)-f(0,0)}{x}=0$，$f_y(0,0)=\\lim_{y\\to0}\\frac{f(0,y)-f(0,0)}{y}=0$，令 $\\rho=\\sqrt{\\Delta x^2+\\Delta y^2}$，$$\\lim_{\\rho\\to0}\\frac{1}{\\rho}\\left(f(\\Delta x,\\Delta y)-f_x(0,0)\\Delta x-f_y(0,0)\\Delta y\\right)=\\lim_{\\rho\\to0}\\frac{\\Delta x^2\\Delta y^2}{\\sqrt{\\Delta x^2+\\Delta y^2}(\\Delta x^4+\\Delta y^4)}$$ 不存在，所以不可微。",
+  "sort_order": 28
+}

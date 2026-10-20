@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "初值问题 $\\begin{cases}(x^2+y^2)dx+xy\\,dy=0\\\\\\left.y\\right|_{x=e}=0\\end{cases}$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^4+2x^2y^2=e^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^3+y^3=2x+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^4+y^4-2x^2y-1=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2+y^2+3xy=6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\frac{dy}{dx}=-\\frac{x}{y}-\\frac{y}{x}$，设 $u=\\frac{y}{x}$，代入得 $\\frac{u}{1+2u^2}du=-\\frac1x dx$。\n积分，代入 $u$ 得 $x^4+2x^2y^2=C$，\n代入 $y(e)=0,C=e^4$。",
+  "search_text": "初值问题 $\\begin{cases}(x^2+y^2)dx+xy\\,dy=0\\\\\\left.y\\right|_{x=e}=0\\end{cases}$ 的解为（ ） $x^4+2x^2y^2=e^4$ $x^3+y^3=2x+1$ $x^4+y^4-2x^2y-1=0$ $x^2+y^2+3xy=6$ $\\frac{dy}{dx}=-\\frac{x}{y}-\\frac{y}{x}$，设 $u=\\frac{y}{x}$，代入得 $\\frac{u}{1+2u^2}du=-\\frac1x dx$。\n积分，代入 $u$ 得 $x^4+2x^2y^2=C$，\n代入 $y(e)=0,C=e^4$。",
+  "sort_order": 18
+}

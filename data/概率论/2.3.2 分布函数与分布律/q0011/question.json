@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi$取值$0,1$，概率$1/3,2/3$，求其分布函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0(x<0),1/3(0\\le x<1),1(x\\ge1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0(x<0),1/3(0\\le x<1),1(x>1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0(x<0),1/3(0\\le x\\le1),2/3(x>1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0(x<0),1/3(0\\le x<1),2/3(x\\ge1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分布函数为$F(x)=P(\\xi\\le x)$，所以在$x\\ge1$时等于1。",
+  "search_text": "$\\xi$取值$0,1$，概率$1/3,2/3$，求其分布函数。 $0(x<0),1/3(0\\le x<1),1(x\\ge1)$ $0(x<0),1/3(0\\le x<1),1(x>1)$ $0(x<0),1/3(0\\le x\\le1),2/3(x>1)$ $0(x<0),1/3(0\\le x<1),2/3(x\\ge1)$ 分布函数为$F(x)=P(\\xi\\le x)$，所以在$x\\ge1$时等于1。",
+  "sort_order": 11
+}

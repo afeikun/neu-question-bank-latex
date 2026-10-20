@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi,\\eta$相互独立，均服从$[0,a]$均匀分布，求联合密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/a$于$0\\le x\\le a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a^2$于正方形"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/a^2$于正方形"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/a$于$0\\le y\\le a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "独立时联合密度为边缘密度乘积$1/a^2$于$0\\le x,y\\le a$。",
+  "search_text": "$\\xi,\\eta$相互独立，均服从$[0,a]$均匀分布，求联合密度。 $1/a$于$0\\le x\\le a$ $a^2$于正方形 $1/a^2$于正方形 $1/a$于$0\\le y\\le a$ 独立时联合密度为边缘密度乘积$1/a^2$于$0\\le x,y\\le a$。",
+  "sort_order": 8
+}

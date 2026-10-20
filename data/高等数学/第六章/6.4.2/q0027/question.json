@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两直线 $l_1:\\frac{x+1}{3}=\\frac{y+3}{2}=\\frac z1$，$l_2:\\frac x1=\\frac{y+5}{2}=\\frac{z-2}{-7}$ 的位置关系为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "异面且垂直"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "异面但不垂直"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "平行"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "相交且垂直"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：因 $\\frac{3}{1}\\ne\\frac{2}{2}\\ne\\frac{1}{-7}$，所以两条直线不平行，在 $l_1,l_2$ 上分别取一点 $P(-1,-3,0),Q(0,-5,2)$，则 $\\overrightarrow{PQ}=(1,-2,2)$，因\n\n$$\n[\\vec{s}_1,\\vec{s}_2,\\overrightarrow{PQ}]=\\begin{vmatrix}3&2&1\\\\1&2&-7\\\\1&-2&2\\end{vmatrix}=60\\ne0，\n$$\n\n所以两条直线不共面，又因 $\\vec{s}_1\\cdot\\vec{s}_2=(3,2,1)\\cdot(1,2,-7)=0$，所以两直线垂直，即两条直线异面垂直。",
+  "search_text": "两直线 $l_1:\\frac{x+1}{3}=\\frac{y+3}{2}=\\frac z1$，$l_2:\\frac x1=\\frac{y+5}{2}=\\frac{z-2}{-7}$ 的位置关系为(\\quad)。 异面且垂直 异面但不垂直 平行 相交且垂直 解答：因 $\\frac{3}{1}\\ne\\frac{2}{2}\\ne\\frac{1}{-7}$，所以两条直线不平行，在 $l_1,l_2$ 上分别取一点 $P(-1,-3,0),Q(0,-5,2)$，则 $\\overrightarrow{PQ}=(1,-2,2)$，因\n\n$$\n[\\vec{s}_1,\\vec{s}_2,\\overrightarrow{PQ}]=\\begin{vmatrix}3&2&1\\\\1&2&-7\\\\1&-2&2\\end{vmatrix}=60\\ne0，\n$$\n\n所以两条直线不共面，又因 $\\vec{s}_1\\cdot\\vec{s}_2=(3,2,1)\\cdot(1,2,-7)=0$，所以两直线垂直，即两条直线异面垂直。",
+  "sort_order": 27
+}

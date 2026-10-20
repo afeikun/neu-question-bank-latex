@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac yx dx+(y^3+\\ln x)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\ln x)y+\\frac13y^3=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y\\ln x+\\frac14y^4=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln xy+\\frac14y^4=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln xy+\\frac13y^3=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程重新组合为 $\\left(\\frac{y}{x}dx+\\ln x\\,dy\\right)+y^3dy=0$，\n\n即 $(y\\,d\\ln x+\\ln x\\,dy)+\\frac{1}{4}dy^4=0$，\n\n可得 $d\\left(y\\ln x+\\frac{1}{4}y^4\\right)=0$",
+  "search_text": "$\\frac yx dx+(y^3+\\ln x)dy=0$ 的通解为（ ） $(\\ln x)y+\\frac13y^3=C$ $y\\ln x+\\frac14y^4=C$ $\\ln xy+\\frac14y^4=C$ $\\ln xy+\\frac13y^3=C$ 方程重新组合为 $\\left(\\frac{y}{x}dx+\\ln x\\,dy\\right)+y^3dy=0$，\n\n即 $(y\\,d\\ln x+\\ln x\\,dy)+\\frac{1}{4}dy^4=0$，\n\n可得 $d\\left(y\\ln x+\\frac{1}{4}y^4\\right)=0$",
+  "sort_order": 7
+}

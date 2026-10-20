@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $z=f(x,y)$ 满足 $f_x^2+f_y^2=2$，求 $\\iint_\\Sigma x\\,dS$，其中 $\\Sigma$ 是 $z=f(x,y)$ 被柱面 $x^2+y^2=2x$ 截下的有限部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{32\\sqrt3}{15}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{128\\sqrt3}{3}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt3\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{64}{15}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：$\\iint_\\Sigma(x)\\,dS=\\iint_Dx\\sqrt{3}\\,dxdy=\\sqrt{3}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}r\\cos\\theta\\cdot r\\,dr=\\sqrt{3}\\pi$，",
+  "search_text": "已知 $z=f(x,y)$ 满足 $f_x^2+f_y^2=2$，求 $\\iint_\\Sigma x\\,dS$，其中 $\\Sigma$ 是 $z=f(x,y)$ 被柱面 $x^2+y^2=2x$ 截下的有限部分。 $\\frac{32\\sqrt3}{15}\\pi$ $\\frac{128\\sqrt3}{3}\\pi$ $\\sqrt3\\pi$ $\\frac{64}{15}$ 解答：$\\iint_\\Sigma(x)\\,dS=\\iint_Dx\\sqrt{3}\\,dxdy=\\sqrt{3}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_0^{2\\cos\\theta}r\\cos\\theta\\cdot r\\,dr=\\sqrt{3}\\pi$，",
+  "sort_order": 44
+}

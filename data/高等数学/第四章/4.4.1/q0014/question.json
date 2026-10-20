@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₀^{π/2}cos²x dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "π/2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "π/8"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "π/6"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "π/4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "用半角公式得π/4。",
+  "search_text": "计算∫₀^{π/2}cos²x dx π/2 π/8 π/6 π/4 用半角公式得π/4。",
+  "sort_order": 14
+}

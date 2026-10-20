@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "内积 $(f,g)=\\int_0^1 f(x)g(x)\\,dx$ 下，线性空间 $\\mathbb R[x]_2$ 的一个规范正交基是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f_1(x)=1,\\quad f_2(x)=\\sqrt3x-2\\sqrt3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f_1(x)=1,\\quad f_2(x)=2\\sqrt3x-\\sqrt3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f_1(x)=\\sqrt2,\\quad f_2(x)=2\\sqrt3x-\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f_1(x)=1,\\quad f_2(x)=\\sqrt3x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "只有 $f_1(x)=1$、$f_2(x)=2\\sqrt3x-\\sqrt3$ 的长度都是 $1$ 且内积为零。",
+  "search_text": "内积 $(f,g)=\\int_0^1 f(x)g(x)\\,dx$ 下，线性空间 $\\mathbb R[x]_2$ 的一个规范正交基是（ ）。 $f_1(x)=1,\\quad f_2(x)=\\sqrt3x-2\\sqrt3$ $f_1(x)=1,\\quad f_2(x)=2\\sqrt3x-\\sqrt3$ $f_1(x)=\\sqrt2,\\quad f_2(x)=2\\sqrt3x-\\sqrt3$ $f_1(x)=1,\\quad f_2(x)=\\sqrt3x$ 只有 $f_1(x)=1$、$f_2(x)=2\\sqrt3x-\\sqrt3$ 的长度都是 $1$ 且内积为零。",
+  "sort_order": 29
+}

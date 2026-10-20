@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设二次型 $f(x_1,x_2,x_3)=\\frac13x_1^2+\\frac13x_2^2+\\frac43x_1x_3+\\frac43x_2x_3$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f$ 为负定的"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f$ 为正定的"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f$ 的秩为 $1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f$ 既不正定，也不负定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f=\\frac13(x_1+2x_3)^2+\\frac13(x_2+2x_3)^2-\\frac83x_3^2$，正、负惯性指数分别为 $2$ 和 $1$，秩为 $3$，所以既不正定也不负定。",
+  "search_text": "设二次型 $f(x_1,x_2,x_3)=\\frac13x_1^2+\\frac13x_2^2+\\frac43x_1x_3+\\frac43x_2x_3$，则（ ）。 $f$ 为负定的 $f$ 为正定的 $f$ 的秩为 $1$ $f$ 既不正定，也不负定 $f=\\frac13(x_1+2x_3)^2+\\frac13(x_2+2x_3)^2-\\frac83x_3^2$，正、负惯性指数分别为 $2$ 和 $1$，秩为 $3$，所以既不正定也不负定。",
+  "sort_order": 33
+}

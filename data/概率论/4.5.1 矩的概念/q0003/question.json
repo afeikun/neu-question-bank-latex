@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$的密度$f(x)=0.5x$（$0<x<2$），下列关于1至4阶原点矩的计算不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\nu_3=3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\nu_1=4/3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\nu_2=2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\nu_4=16/3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\nu_3=E(X^3)=\\int_0^2 0.5x^4dx=16/5=3.2$，故选项1错误。",
+  "search_text": "$X$的密度$f(x)=0.5x$（$0<x<2$），下列关于1至4阶原点矩的计算不正确的是（）。 $\\nu_3=3$ $\\nu_1=4/3$ $\\nu_2=2$ $\\nu_4=16/3$ $\\nu_3=E(X^3)=\\int_0^2 0.5x^4dx=16/5=3.2$，故选项1错误。",
+  "sort_order": 3
+}

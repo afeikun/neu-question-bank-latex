@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $A,B$ 均为 $n$ 阶方阵，则下列说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A$ 或 $B$ 可逆，必有 $AB$ 可逆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$ 或 $B$ 不可逆，必有 $AB$ 不可逆"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A$ 和 $B$ 不可逆，必有 $A+B$ 不可逆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A$ 和 $B$ 可逆，必有 $A+B$ 可逆"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$|AB|=|A||B|$。若 $A,B$ 中有一个不可逆，则行列式为零，$AB$ 必不可逆。只有当 $A,B$ 都可逆时，$AB$ 才可逆。",
+  "search_text": "若 $A,B$ 均为 $n$ 阶方阵，则下列说法正确的是（ ）。 $A$ 或 $B$ 可逆，必有 $AB$ 可逆 $A$ 或 $B$ 不可逆，必有 $AB$ 不可逆 $A$ 和 $B$ 不可逆，必有 $A+B$ 不可逆 $A$ 和 $B$ 可逆，必有 $A+B$ 可逆 $|AB|=|A||B|$。若 $A,B$ 中有一个不可逆，则行列式为零，$AB$ 必不可逆。只有当 $A,B$ 都可逆时，$AB$ 才可逆。",
+  "sort_order": 48
+}

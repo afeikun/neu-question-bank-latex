@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由方程 $x^2y^2+y=1$（$y>0$）确定了函数 $y=y(x)$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=y(x)$ 无极值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=y(x)$ 既有极大值，又有极小值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=y(x)$ 有极大值，但无极小值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=y(x)$ 有极小值，但无极大值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "隐函数求导得 $y\\prime=-\\frac{2xy^2}{2x^2y+1}$。唯一驻点为 $x=0$，再求得该点二阶导数为负，故 $y$ 有极大值而无极小值。",
+  "search_text": "由方程 $x^2y^2+y=1$（$y>0$）确定了函数 $y=y(x)$，则（ ）。 $y=y(x)$ 无极值 $y=y(x)$ 既有极大值，又有极小值 $y=y(x)$ 有极大值，但无极小值 $y=y(x)$ 有极小值，但无极大值 隐函数求导得 $y\\prime=-\\frac{2xy^2}{2x^2y+1}$。唯一驻点为 $x=0$，再求得该点二阶导数为负，故 $y$ 有极大值而无极小值。",
+  "sort_order": 7
+}

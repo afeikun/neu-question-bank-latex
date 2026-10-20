@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一根长为 $20$m 的匀质链条跨过光滑钉子，两端分别垂下 $8$m 和 $12$m，释放后链条滑下，求滑完所需时间。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{\\frac2g}\\ln(3+2\\sqrt6)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt{\\frac5g}\\ln(5+2\\sqrt5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{\\frac{10}{g}}\\ln(5+2\\sqrt6)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt g\\ln(3+\\sqrt6)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：以钉子处为原点，$y$ 轴竖直向下，设在 $t$ 时刻，链条较长一段垂下 $y$ m，且设链条密度均匀分布为 $\\rho$，则可列链条下滑的作用力 $f=y\\rho g-(20-y)\\rho g=2(y-10)\\rho g$。\n\n由牛顿第二定律得\n\n$$\\left\\{\\begin{aligned}20\\rho\\frac{d^2y}{dt^2}=2\\rho g(y-10)\\end{aligned}\\right.,\\quad\\text{解得 }y=e^{\\sqrt{0.1g}t}+e^{-\\sqrt{0.1g}t}+10。$$\n\n$y(0)=12，y'(0)=0$\n\n从而 $t=\\sqrt{\\frac{10}{g}}\\ln[(\\frac{y}{2}-5)+\\sqrt{(\\frac{y}{2}-5)^2-1}]$。\n\n当 $y=20$ m 时，链条即全部滑下，需时 $\\sqrt{\\frac{10}{g}}\\ln(5+2\\sqrt{6})$ s。",
+  "search_text": "一根长为 $20$m 的匀质链条跨过光滑钉子，两端分别垂下 $8$m 和 $12$m，释放后链条滑下，求滑完所需时间。 $\\sqrt{\\frac2g}\\ln(3+2\\sqrt6)$ $\\sqrt{\\frac5g}\\ln(5+2\\sqrt5)$ $\\sqrt{\\frac{10}{g}}\\ln(5+2\\sqrt6)$ $\\sqrt g\\ln(3+\\sqrt6)$ 解析：以钉子处为原点，$y$ 轴竖直向下，设在 $t$ 时刻，链条较长一段垂下 $y$ m，且设链条密度均匀分布为 $\\rho$，则可列链条下滑的作用力 $f=y\\rho g-(20-y)\\rho g=2(y-10)\\rho g$。\n\n由牛顿第二定律得\n\n$$\\left\\{\\begin{aligned}20\\rho\\frac{d^2y}{dt^2}=2\\rho g(y-10)\\end{aligned}\\right.,\\quad\\text{解得 }y=e^{\\sqrt{0.1g}t}+e^{-\\sqrt{0.1g}t}+10。$$\n\n$y(0)=12，y'(0)=0$\n\n从而 $t=\\sqrt{\\frac{10}{g}}\\ln[(\\frac{y}{2}-5)+\\sqrt{(\\frac{y}{2}-5)^2-1}]$。\n\n当 $y=20$ m 时，链条即全部滑下，需时 $\\sqrt{\\frac{10}{g}}\\ln(5+2\\sqrt{6})$ s。",
+  "sort_order": 5
+}

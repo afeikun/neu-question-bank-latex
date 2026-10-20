@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=\\begin{pmatrix}a^2&b^2&c^2&d^2\\\\a&b&c&d\\\\1&1&1&1\\end{pmatrix}$，其中 $a<b<c<d$，则下列结论中错误的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|A^TA|\\ne0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "存在 $B\\ne0$，使得 $AB=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "方程组 $A^Tx=0$ 仅有零解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|A^TA|=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "任取前三列构成的 Vandermonde 型 $3$ 阶子式非零，故 $r(A)=3$。于是 $A^Tx=0$ 仅有零解，且 $AB=0$ 存在非零解 $B$；但 $A^TA$ 为 $4$ 阶且秩为 $3$，所以其行列式为零。错误项是 opt1。",
+  "search_text": "设矩阵 $A=\\begin{pmatrix}a^2&b^2&c^2&d^2\\\\a&b&c&d\\\\1&1&1&1\\end{pmatrix}$，其中 $a<b<c<d$，则下列结论中错误的是（ ）。 $|A^TA|\\ne0$ 存在 $B\\ne0$，使得 $AB=0$ 方程组 $A^Tx=0$ 仅有零解 $|A^TA|=0$ 任取前三列构成的 Vandermonde 型 $3$ 阶子式非零，故 $r(A)=3$。于是 $A^Tx=0$ 仅有零解，且 $AB=0$ 存在非零解 $B$；但 $A^TA$ 为 $4$ 阶且秩为 $3$，所以其行列式为零。错误项是 opt1。",
+  "sort_order": 43
+}

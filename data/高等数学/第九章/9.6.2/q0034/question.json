@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是一条从 $A(1,2)$ 到 $B(3,4)$ 的光滑曲线，求 $I=\\int_L(6xy^2-y^3)dx+(6x^2y-3xy^2)dy$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$233$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$234$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$235$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$236$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：设 $P(x,y)=6xy^2-y^3，\\quad Q(x,y)=6x^2y-3xy^2，\\quad \\frac{\\partial P}{\\partial y}=12xy-3y^2=\\frac{\\partial Q}{\\partial x}$，则曲线积分与路径无关，取从 $A(1,2)$ 到 $C(3,2)$，再到 $B(3,4)$ 的折线，则曲线积分\n\n$$I=\\int_1^3(24x-8)\\,dx+\\int_2^4(54y-9y^2)\\,dy=236$$",
+  "search_text": "设 $L$ 是一条从 $A(1,2)$ 到 $B(3,4)$ 的光滑曲线，求 $I=\\int_L(6xy^2-y^3)dx+(6x^2y-3xy^2)dy$（ ） $233$ $234$ $235$ $236$ 解答：设 $P(x,y)=6xy^2-y^3，\\quad Q(x,y)=6x^2y-3xy^2，\\quad \\frac{\\partial P}{\\partial y}=12xy-3y^2=\\frac{\\partial Q}{\\partial x}$，则曲线积分与路径无关，取从 $A(1,2)$ 到 $C(3,2)$，再到 $B(3,4)$ 的折线，则曲线积分\n\n$$I=\\int_1^3(24x-8)\\,dx+\\int_2^4(54y-9y^2)\\,dy=236$$",
+  "sort_order": 34
+}

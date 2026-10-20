@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设薄片在极坐标区域 $2\\sin\\theta\\leq r\\leq4\\sin\\theta,0\\leq\\theta\\leq\\pi$ 上，求薄片质量 $M$（面密度为 $\\mu$）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\mu\\int_\\pi^{2\\pi}d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}r^2dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt\\mu\\int_0^\\pi d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}rdr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\mu^2\\int_0^\\pi d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}r^2dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\mu\\int_0^\\pi d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}rdr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "",
+  "search_text": "设薄片在极坐标区域 $2\\sin\\theta\\leq r\\leq4\\sin\\theta,0\\leq\\theta\\leq\\pi$ 上，求薄片质量 $M$（面密度为 $\\mu$） $\\mu\\int_\\pi^{2\\pi}d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}r^2dr$ $\\sqrt\\mu\\int_0^\\pi d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}rdr$ $\\mu^2\\int_0^\\pi d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}r^2dr$ $\\mu\\int_0^\\pi d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}rdr$ ",
+  "sort_order": 8
+}

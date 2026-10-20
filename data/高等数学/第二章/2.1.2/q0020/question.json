@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知函数 $f(x)=\\begin{cases}x^2+1,&0\\le x<1\\\\3x-1,&x\\ge1\\end{cases}$，则下列说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在点 $x=1$ 处连续，但不可导"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在点 $x=1$ 处连续，可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在点 $x=1$ 处可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在点 $x=1$ 处不连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$x=1$ 处函数连续，左导数为 $2$、右导数为 $3$，故不可导；页面答案标记为 opt_3，与解析冲突。",
+  "search_text": "已知函数 $f(x)=\\begin{cases}x^2+1,&0\\le x<1\\\\3x-1,&x\\ge1\\end{cases}$，则下列说法正确的是（ ）。 在点 $x=1$ 处连续，但不可导 在点 $x=1$ 处连续，可导 在点 $x=1$ 处可导 在点 $x=1$ 处不连续 $x=1$ 处函数连续，左导数为 $2$、右导数为 $3$，故不可导；页面答案标记为 opt_3，与解析冲突。",
+  "sort_order": 20
+}

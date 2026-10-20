@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i$独立，$E(X_i)=i,D(X_i)=5-i$，$Y=2X_1-X_2+3X_3-\\frac12X_4$，求$(E(Y),D(Y))$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(7,37.25)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(10,37.25)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(7,36.25)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(10,36.25)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(Y)=2-2+9-2=7$；$D(Y)=16+2+18+0.25=36.25$。",
+  "search_text": "$X_i$独立，$E(X_i)=i,D(X_i)=5-i$，$Y=2X_1-X_2+3X_3-\\frac12X_4$，求$(E(Y),D(Y))$。 $(7,37.25)$ $(10,37.25)$ $(7,36.25)$ $(10,36.25)$ $E(Y)=2-2+9-2=7$；$D(Y)=16+2+18+0.25=36.25$。",
+  "sort_order": 4
+}

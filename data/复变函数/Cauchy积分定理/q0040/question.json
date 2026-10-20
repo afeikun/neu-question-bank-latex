@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z|=1}\\bar z z\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在 $|z|=1$ 上 $\\bar z z=1$，所以积分化为 $\\oint dz=0$。",
+  "search_text": "$\\oint_{|z|=1}\\bar z z\\,dz=(\\quad)$。 $0$ $2$ $2\\pi i$ $1$ 在 $|z|=1$ 上 $\\bar z z=1$，所以积分化为 $\\oint dz=0$。",
+  "sort_order": 40
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "螺旋线 $\\begin{cases}x=a\\cos\\theta\\\\y=a\\sin\\theta\\\\z=b\\theta\\end{cases}$ 在 $zOx$ 面上的投影曲线在直角坐标系下的方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}x=-a\\cos(z/b)\\\\y=0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}x=2a\\cos(z/b)\\\\y=0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}x=-2a\\cos(z/b)\\\\y=0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}x=a\\cos(z/b)\\\\y=0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：欲求曲线在 $zOx$ 面上的投影曲线的直角坐标方程，需先求母线平行于 $y$ 轴的投影柱面方程，即在曲线方程中消去 $y$：联立\n$$\n\\begin{cases}\nx=a\\cos\\theta\\\\\nz=b\\theta\n\\end{cases}\n$$\n，得解 $x=a\\cos\\left(\\frac{z}{b}\\right)$，即为投影柱面的方程，故投影曲线为\n$$\n\\begin{cases}\nx=a\\cos\\left(\\frac{z}{b}\\right)\\\\\ny=0\n\\end{cases}.\n$$",
+  "search_text": "螺旋线 $\\begin{cases}x=a\\cos\\theta\\\\y=a\\sin\\theta\\\\z=b\\theta\\end{cases}$ 在 $zOx$ 面上的投影曲线在直角坐标系下的方程为(\\quad)。 $\\begin{cases}x=-a\\cos(z/b)\\\\y=0\\end{cases}$ $\\begin{cases}x=2a\\cos(z/b)\\\\y=0\\end{cases}$ $\\begin{cases}x=-2a\\cos(z/b)\\\\y=0\\end{cases}$ $\\begin{cases}x=a\\cos(z/b)\\\\y=0\\end{cases}$ 解答：欲求曲线在 $zOx$ 面上的投影曲线的直角坐标方程，需先求母线平行于 $y$ 轴的投影柱面方程，即在曲线方程中消去 $y$：联立\n$$\n\\begin{cases}\nx=a\\cos\\theta\\\\\nz=b\\theta\n\\end{cases}\n$$\n，得解 $x=a\\cos\\left(\\frac{z}{b}\\right)$，即为投影柱面的方程，故投影曲线为\n$$\n\\begin{cases}\nx=a\\cos\\left(\\frac{z}{b}\\right)\\\\\ny=0\n\\end{cases}.\n$$",
+  "sort_order": 2
+}

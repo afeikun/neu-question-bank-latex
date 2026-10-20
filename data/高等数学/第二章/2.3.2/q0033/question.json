@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(x+y)$，且 $f(x)$ 有连续二阶导数、$f\\prime(x)\\ne1$，则 $y^{(3)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$[f^{(3)}(1+f\\prime)-2(f\\prime\\prime)^2]/(1-f\\prime)^3$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$[f^{(3)}(1-f\\prime)+2(f\\prime\\prime)^2]/(1-f\\prime)^3$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$[f^{(3)}(1-f\\prime)-2(f\\prime\\prime)^2]/(1-f\\prime)^3$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$-[f^{(3)}(1-f\\prime)+2(f\\prime\\prime)^2]/(1-f\\prime)^3$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对 $y\\prime\\prime=f\\prime\\prime/(1-f\\prime)^3$ 再求导并化简。",
+  "search_text": "设 $y=f(x+y)$，且 $f(x)$ 有连续二阶导数、$f\\prime(x)\\ne1$，则 $y^{(3)}=$（ ）。 $$[f^{(3)}(1+f\\prime)-2(f\\prime\\prime)^2]/(1-f\\prime)^3$$ $$[f^{(3)}(1-f\\prime)+2(f\\prime\\prime)^2]/(1-f\\prime)^3$$ $$[f^{(3)}(1-f\\prime)-2(f\\prime\\prime)^2]/(1-f\\prime)^3$$ $$-[f^{(3)}(1-f\\prime)+2(f\\prime\\prime)^2]/(1-f\\prime)^3$$ 对 $y\\prime\\prime=f\\prime\\prime/(1-f\\prime)^3$ 再求导并化简。",
+  "sort_order": 33
+}

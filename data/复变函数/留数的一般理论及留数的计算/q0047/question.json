@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\dfrac1{e^z-1}-\\operatorname{ctg}z$，则 $\\operatorname{Res}[f(z),0]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "合并为 $f(z)=\\dfrac{\\sin z-(e^z-1)\\cos z}{(e^z-1)\\sin z}$。分子与分母在 $0$ 均为二级零点，故 $f$ 可去，留数为 $0$。",
+  "search_text": "设 $f(z)=\\dfrac1{e^z-1}-\\operatorname{ctg}z$，则 $\\operatorname{Res}[f(z),0]=(\\ \\ )$。 $0$ -1 $2$ $1$ 合并为 $f(z)=\\dfrac{\\sin z-(e^z-1)\\cos z}{(e^z-1)\\sin z}$。分子与分母在 $0$ 均为二级零点，故 $f$ 可去，留数为 $0$。",
+  "sort_order": 47
+}

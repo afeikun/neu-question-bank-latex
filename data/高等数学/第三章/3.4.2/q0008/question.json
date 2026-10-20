@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于函数 $y=x+\\tan x$，下述结论正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "有极小值 $\\frac\\pi4+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "有极小值 $0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无极值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "有极大值 $0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y\\prime=1+\\sec^2x>0$，函数在定义域的每个区间上严格增加，没有极值。",
+  "search_text": "关于函数 $y=x+\\tan x$，下述结论正确的是（ ）。 有极小值 $\\frac\\pi4+1$ 有极小值 $0$ 无极值 有极大值 $0$ $y\\prime=1+\\sec^2x>0$，函数在定义域的每个区间上严格增加，没有极值。",
+  "sort_order": 8
+}

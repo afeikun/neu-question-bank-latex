@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=(\\alpha,\\gamma_1,\\gamma_2), B=(\\beta,\\gamma_1,\\gamma_2)$ 均是三阶方阵，$\\alpha,\\beta,\\gamma_1,\\gamma_2$ 是三维列向量，若 $|A|=2, |B|=3$，则 $|A+2B|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$72$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$54$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$A+2B$ 的第二、三列也分别是 $3\\gamma_1,3\\gamma_2$，故行列式为 $3^2(|A|+2|B|)=9(2+6)=72$，选项 3。",
+  "search_text": "设 $A=(\\alpha,\\gamma_1,\\gamma_2), B=(\\beta,\\gamma_1,\\gamma_2)$ 均是三阶方阵，$\\alpha,\\beta,\\gamma_1,\\gamma_2$ 是三维列向量，若 $|A|=2, |B|=3$，则 $|A+2B|=(\\quad)$。 $6$ $8$ $72$ $54$ $A+2B$ 的第二、三列也分别是 $3\\gamma_1,3\\gamma_2$，故行列式为 $3^2(|A|+2|B|)=9(2+6)=72$，选项 3。",
+  "sort_order": 7
+}

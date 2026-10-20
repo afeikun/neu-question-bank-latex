@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "I(x)=∫₀ˣte^(−t²)dt，正确叙述",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "I(0)=0是极大值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "I(0)=0是极小值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "x=0不是极值点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(0,0)是拐点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "I′(x)=xe^(−x²)，I″(0)>0，故为极小值。",
+  "search_text": "I(x)=∫₀ˣte^(−t²)dt，正确叙述 I(0)=0是极大值 I(0)=0是极小值 x=0不是极值点 (0,0)是拐点 I′(x)=xe^(−x²)，I″(0)>0，故为极小值。",
+  "sort_order": 15
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_0^{1+i}z^2\\sin z\\,dz=(\\quad)$，积分路径为 $z=0$ 到 $z=1+i$ 的直线段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-(2i-2)\\cos(1+i)+2(1+i)\\sin(1+i)-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-(2i-2)\\cos(1+i)+2(1+i)\\sin(1+i)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-(2i-2)\\cos(1+i)+2(1+i)\\sin(1+i)-4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-(2i-2)\\sin(1+i)+2(1+i)\\cos(1+i)-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_0^{1+i}z^2\\sin z\\,dz=\\left[-(z^2-2)\\cos z+2z\\sin z\\right]_0^{1+i}=-(2i-2)\\cos(1+i)+2(1+i)\\sin(1+i)-2$。",
+  "search_text": "$\\int_0^{1+i}z^2\\sin z\\,dz=(\\quad)$，积分路径为 $z=0$ 到 $z=1+i$ 的直线段。 $-(2i-2)\\cos(1+i)+2(1+i)\\sin(1+i)-2$ $-(2i-2)\\cos(1+i)+2(1+i)\\sin(1+i)$ $-(2i-2)\\cos(1+i)+2(1+i)\\sin(1+i)-4$ $-(2i-2)\\sin(1+i)+2(1+i)\\cos(1+i)-2$ $\\int_0^{1+i}z^2\\sin z\\,dz=\\left[-(z^2-2)\\cos z+2z\\sin z\\right]_0^{1+i}=-(2i-2)\\cos(1+i)+2(1+i)\\sin(1+i)-2$。",
+  "sort_order": 8
+}

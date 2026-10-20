@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}2,&|x|<\\frac12\\\\-1,&\\frac12<|x|<1\\end{cases}$，在 $(-1,1)$ 内将 $f(x)$ 展成以 $2$ 为周期的傅里叶级数，其展开式为（　）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1+\\frac2\\pi\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac1{2k-1}\\cos k\\pi x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12+\\sum_{k=1}^{\\infty}\\frac{\\cos kx}{k}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12+\\frac6\\pi\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac1{2k-1}\\cos k\\pi x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12+\\frac1\\pi\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac1{2k-1}\\cos k\\pi x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解由题意知，$f(x)$ 为偶函数，所以 $b_n=0,n=1,2,\\cdots$\n\n$a_0=\\frac21\\int_0^1f(x)dx=1$，\n\n$a_n=\\frac21\\int_0^1f(x)\\cos n\\pi x dx=2(\\int_0^{1/2}2\\cos n\\pi x dx-\\int_{1/2}^1\\cos n\\pi x dx)=\\frac{6\\sin\\frac{n\\pi}{2}}{n\\pi}=\\begin{cases}0,n=2k\\\\(-1)^{k-1}\\frac6{(2k-1)\\pi},&k=1,2,\\cdots\\end{cases}$\n\n所以 $f(x)$ 的傅里叶级数展开式为 $\\frac12+\\frac6\\pi\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac1{2k-1}\\cos k\\pi x$。",
+  "search_text": "设 $f(x)=\\begin{cases}2,&|x|<\\frac12\\\\-1,&\\frac12<|x|<1\\end{cases}$，在 $(-1,1)$ 内将 $f(x)$ 展成以 $2$ 为周期的傅里叶级数，其展开式为（　） $1+\\frac2\\pi\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac1{2k-1}\\cos k\\pi x$ $\\frac12+\\sum_{k=1}^{\\infty}\\frac{\\cos kx}{k}$ $\\frac12+\\frac6\\pi\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac1{2k-1}\\cos k\\pi x$ $\\frac12+\\frac1\\pi\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac1{2k-1}\\cos k\\pi x$ 解由题意知，$f(x)$ 为偶函数，所以 $b_n=0,n=1,2,\\cdots$\n\n$a_0=\\frac21\\int_0^1f(x)dx=1$，\n\n$a_n=\\frac21\\int_0^1f(x)\\cos n\\pi x dx=2(\\int_0^{1/2}2\\cos n\\pi x dx-\\int_{1/2}^1\\cos n\\pi x dx)=\\frac{6\\sin\\frac{n\\pi}{2}}{n\\pi}=\\begin{cases}0,n=2k\\\\(-1)^{k-1}\\frac6{(2k-1)\\pi},&k=1,2,\\cdots\\end{cases}$\n\n所以 $f(x)$ 的傅里叶级数展开式为 $\\frac12+\\frac6\\pi\\sum_{k=1}^{\\infty}(-1)^{k-1}\\frac1{2k-1}\\cos k\\pi x$。",
+  "sort_order": 13
+}

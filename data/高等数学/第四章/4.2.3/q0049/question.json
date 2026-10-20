@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "limₙ→∞∫₀¹/₂xⁿ/(1+x)dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1/2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "−1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "积分不超过1/(n+1)，极限为0。",
+  "search_text": "limₙ→∞∫₀¹/₂xⁿ/(1+x)dx 1 1/2 0 −1 积分不超过1/(n+1)，极限为0。",
+  "sort_order": 49
+}

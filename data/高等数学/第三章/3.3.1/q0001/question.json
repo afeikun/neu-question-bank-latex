@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\pi/2}(\\sec x-\\tan x)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\sec x-\\tan x=\\frac{1-\\sin x}{\\cos x}$，该式极限为 $0$。",
+  "search_text": "$\\lim_{x\\to\\pi/2}(\\sec x-\\tan x)=(\\quad)$。 $2$ $1$ $-1$ $0$ $\\sec x-\\tan x=\\frac{1-\\sin x}{\\cos x}$，该式极限为 $0$。",
+  "sort_order": 1
+}

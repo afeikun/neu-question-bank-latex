@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "应用拉格朗日中值定理，表达式 $\\sqrt[3]{x+1}-\\sqrt[3]{x-1}$ 可化为 $(\\quad)$（$x>1$）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac23(\\xi+1)^{-2/3},\\ x-1<\\xi<x+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\xi^{-2/3},\\ x-1<\\xi<x+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac23\\xi^{-2/3},\\ x-1<\\xi<x+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13\\xi^{-2/3},\\ x-1<\\xi<x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对 $\\sqrt[3]{x}$ 在 $[x-1,x+1]$ 应用中值定理，导数为 $\\frac1{3\\sqrt[3]{\\xi^2}}$，区间长度为 $2$。",
+  "search_text": "应用拉格朗日中值定理，表达式 $\\sqrt[3]{x+1}-\\sqrt[3]{x-1}$ 可化为 $(\\quad)$（$x>1$）。 $\\frac23(\\xi+1)^{-2/3},\\ x-1<\\xi<x+1$ $2\\xi^{-2/3},\\ x-1<\\xi<x+1$ $\\frac23\\xi^{-2/3},\\ x-1<\\xi<x+1$ $\\frac13\\xi^{-2/3},\\ x-1<\\xi<x+1$ 对 $\\sqrt[3]{x}$ 在 $[x-1,x+1]$ 应用中值定理，导数为 $\\frac1{3\\sqrt[3]{\\xi^2}}$，区间长度为 $2$。",
+  "sort_order": 4
+}

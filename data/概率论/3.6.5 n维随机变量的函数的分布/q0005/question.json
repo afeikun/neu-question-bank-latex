@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_1\\sim N(1,2),X_2\\sim N(0,3),X_3\\sim N(2,1)$独立，求$P(0\\le2X_1+3X_2-X_3\\le6)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.6587$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.8413$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.3413$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.6826$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$Y=2X_1+3X_2-X_3\\sim N(0,36)$，标准化后概率为$\\Phi(1)-\\Phi(0)=0.3413$。",
+  "search_text": "$X_1\\sim N(1,2),X_2\\sim N(0,3),X_3\\sim N(2,1)$独立，求$P(0\\le2X_1+3X_2-X_3\\le6)$。 $0.6587$ $0.8413$ $0.3413$ $0.6826$ $Y=2X_1+3X_2-X_3\\sim N(0,36)$，标准化后概率为$\\Phi(1)-\\Phi(0)=0.3413$。",
+  "sort_order": 5
+}

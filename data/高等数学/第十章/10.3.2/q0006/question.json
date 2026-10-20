@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(x^2-1)y\\prime+2xy-\\cos x=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sin x+C}{x^2-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\cos x+C}{x^2-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sin x}{x^2-1}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\cos x}{x^2-1}+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原方程可化为 $y'+\\frac{2x}{x^2-1}y=\\frac{\\cos x}{x^2-1}$，则\n\n$$y=e^{-\\int\\frac{2x}{x^2-1}\\,dx}\\left(\\int\\frac{\\cos x}{x^2-1}\\cdot e^{\\int\\frac{2x}{x^2-1}\\,dx}\\,dx+C\\right)$$\n\n$$=\\frac{1}{x^2-1}\\left[\\int\\frac{\\cos x}{x^2-1}\\cdot(x^2-1)\\,dx+C\\right]=\\frac{\\sin x+C}{x^2-1}$$",
+  "search_text": "$(x^2-1)y\\prime+2xy-\\cos x=0$ 的通解为（ ） $\\frac{\\sin x+C}{x^2-1}$ $\\frac{\\cos x+C}{x^2-1}$ $\\frac{\\sin x}{x^2-1}+C$ $\\frac{\\cos x}{x^2-1}+C$ 原方程可化为 $y'+\\frac{2x}{x^2-1}y=\\frac{\\cos x}{x^2-1}$，则\n\n$$y=e^{-\\int\\frac{2x}{x^2-1}\\,dx}\\left(\\int\\frac{\\cos x}{x^2-1}\\cdot e^{\\int\\frac{2x}{x^2-1}\\,dx}\\,dx+C\\right)$$\n\n$$=\\frac{1}{x^2-1}\\left[\\int\\frac{\\cos x}{x^2-1}\\cdot(x^2-1)\\,dx+C\\right]=\\frac{\\sin x+C}{x^2-1}$$",
+  "sort_order": 6
+}

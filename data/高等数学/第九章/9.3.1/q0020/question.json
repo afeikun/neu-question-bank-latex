@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_L(x^2+y^2)dx+(x^2-y^2)dy$，$L$ 为 $y=1-|1-x|$ 从 $x=0$ 至 $x=2$ 的弧。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac72$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac43$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解\n\n示意图：$x$ 轴与 $y$ 轴交于 $O$；折线由 $O$ 经 $(1,1)$ 到 $(2,0)$，第一段标记 $L_1$，第二段标记 $L_2$，箭头沿折线从左向右，$x$ 轴上标有 $1$、$2$。\n\n$L_1$ 的方程为 $y=x\\ (0\\leq x\\leq1)$，则\n\n$$\n\\int_{L_1}(x^2+y^2)\\,\\mathrm{d}x+(x^2-y^2)\\,\\mathrm{d}y=\\int_0^1 2x^2\\,\\mathrm{d}x=\\frac{2}{3}。\n$$\n\n$L_2$ 的方程为 $y=2-x\\ (1\\leq x\\leq2)$，则\n\n$$\n\\begin{aligned}\n\\int_{L_2}(x^2+y^2)\\,\\mathrm{d}x+(x^2-y^2)\\,\\mathrm{d}y\n&=\\int_1^2[x^2+(2-x)^2]\\,\\mathrm{d}x+\\int_1^2[x^2-(2-x)^2]\\cdot(-1)\\,\\mathrm{d}x\\\\\n&=\\int_1^2 2(2-x)^2\\,\\mathrm{d}x=\\frac{2}{3}。\n\\end{aligned}\n$$\n\n所以\n\n$$\n\\int_L(x^2+y^2)\\,\\mathrm{d}x+(x^2-y^2)\\,\\mathrm{d}y=\\frac{4}{3}。\n$$",
+  "search_text": "计算 $\\int_L(x^2+y^2)dx+(x^2-y^2)dy$，$L$ 为 $y=1-|1-x|$ 从 $x=0$ 至 $x=2$ 的弧。 $\\frac72$ $3$ $2$ $\\frac43$ 解\n\n示意图：$x$ 轴与 $y$ 轴交于 $O$；折线由 $O$ 经 $(1,1)$ 到 $(2,0)$，第一段标记 $L_1$，第二段标记 $L_2$，箭头沿折线从左向右，$x$ 轴上标有 $1$、$2$。\n\n$L_1$ 的方程为 $y=x\\ (0\\leq x\\leq1)$，则\n\n$$\n\\int_{L_1}(x^2+y^2)\\,\\mathrm{d}x+(x^2-y^2)\\,\\mathrm{d}y=\\int_0^1 2x^2\\,\\mathrm{d}x=\\frac{2}{3}。\n$$\n\n$L_2$ 的方程为 $y=2-x\\ (1\\leq x\\leq2)$，则\n\n$$\n\\begin{aligned}\n\\int_{L_2}(x^2+y^2)\\,\\mathrm{d}x+(x^2-y^2)\\,\\mathrm{d}y\n&=\\int_1^2[x^2+(2-x)^2]\\,\\mathrm{d}x+\\int_1^2[x^2-(2-x)^2]\\cdot(-1)\\,\\mathrm{d}x\\\\\n&=\\int_1^2 2(2-x)^2\\,\\mathrm{d}x=\\frac{2}{3}。\n\\end{aligned}\n$$\n\n所以\n\n$$\n\\int_L(x^2+y^2)\\,\\mathrm{d}x+(x^2-y^2)\\,\\mathrm{d}y=\\frac{4}{3}。\n$$",
+  "sort_order": 20
+}

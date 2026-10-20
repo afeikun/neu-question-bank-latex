@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列命题中错误的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若$\\xi$服从参数为$\\lambda$的指数分布，则$E(\\xi)=D(\\xi)=1/\\lambda$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若$\\xi\\sim P(\\lambda)$，则$E(\\xi)=D(\\xi)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若$\\xi\\sim B(1,\\theta)$，则$E(\\xi)=\\theta,D(\\xi)=\\theta(1-\\theta)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若$\\xi$服从区间$[a,b]$上的均匀分布，则$E(\\xi^2)=(a^2+ab+b^2)/3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "指数分布的方差为$1/\\lambda^2$，不是$1/\\lambda$；其余命题正确。",
+  "search_text": "下列命题中错误的是（）。 若$\\xi$服从参数为$\\lambda$的指数分布，则$E(\\xi)=D(\\xi)=1/\\lambda$ 若$\\xi\\sim P(\\lambda)$，则$E(\\xi)=D(\\xi)$ 若$\\xi\\sim B(1,\\theta)$，则$E(\\xi)=\\theta,D(\\xi)=\\theta(1-\\theta)$ 若$\\xi$服从区间$[a,b]$上的均匀分布，则$E(\\xi^2)=(a^2+ab+b^2)/3$ 指数分布的方差为$1/\\lambda^2$，不是$1/\\lambda$；其余命题正确。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=f(x,y,z)$，$y=g(x,t)$，$t=h(x,z)$，求 $(u_x,u_z)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(f_1'+f_2'(g_1'+g_2'h_1'), f_2'g_2'h_2'+f_3')$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(f_1'+f_2'g_1'+f_3'h_1', f_2'g_2'h_2'+f_3')$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(f_1'+f_2'(g_1'+g_2'h_1'), f_2'g_2'h_2'+f_3')$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(f_1'+f_2'g_1'+f_3'h_1', f_2'g_2'h_2'+f_3')$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x$ 和 $z$ 是自变量，有：\n\n$$\\frac{\\partial u}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial y}\\frac{\\partial y}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial y}\\left(\\frac{\\partial g}{\\partial x}+\\frac{\\partial g}{\\partial t}\\frac{\\partial h}{\\partial x}\\right)=f_1'+f_2'(g_1'+g_2'h_1')$$\n\n$$\\frac{\\partial u}{\\partial z}=\\frac{\\partial f}{\\partial y}\\frac{\\partial y}{\\partial z}+\\frac{\\partial f}{\\partial z}=\\frac{\\partial f}{\\partial y}\\frac{\\partial g}{\\partial t}\\frac{\\partial h}{\\partial z}+\\frac{\\partial f}{\\partial z}=f_2'g_2'h_2'+f_3'$$",
+  "search_text": "设 $u=f(x,y,z)$，$y=g(x,t)$，$t=h(x,z)$，求 $(u_x,u_z)$。 $(f_1'+f_2'(g_1'+g_2'h_1'), f_2'g_2'h_2'+f_3')$ $(f_1'+f_2'g_1'+f_3'h_1', f_2'g_2'h_2'+f_3')$ $(f_1'+f_2'(g_1'+g_2'h_1'), f_2'g_2'h_2'+f_3')$ $(f_1'+f_2'g_1'+f_3'h_1', f_2'g_2'h_2'+f_3')$ $x$ 和 $z$ 是自变量，有：\n\n$$\\frac{\\partial u}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial y}\\frac{\\partial y}{\\partial x}=\\frac{\\partial f}{\\partial x}+\\frac{\\partial f}{\\partial y}\\left(\\frac{\\partial g}{\\partial x}+\\frac{\\partial g}{\\partial t}\\frac{\\partial h}{\\partial x}\\right)=f_1'+f_2'(g_1'+g_2'h_1')$$\n\n$$\\frac{\\partial u}{\\partial z}=\\frac{\\partial f}{\\partial y}\\frac{\\partial y}{\\partial z}+\\frac{\\partial f}{\\partial z}=\\frac{\\partial f}{\\partial y}\\frac{\\partial g}{\\partial t}\\frac{\\partial h}{\\partial z}+\\frac{\\partial f}{\\partial z}=f_2'g_2'h_2'+f_3'$$",
+  "sort_order": 4
+}

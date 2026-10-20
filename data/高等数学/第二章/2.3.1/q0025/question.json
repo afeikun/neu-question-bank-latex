@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=(x-a)^2\\varphi(x)$，其中 $\\varphi(x)$ 的一阶导函数有界，则 $f\\prime\\prime(a)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\varphi(a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\varphi\\prime(a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\varphi(a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\varphi(2a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "二阶导数定义求得 $f\\prime\\prime(a)=2\\varphi(a)$。",
+  "search_text": "设 $f(x)=(x-a)^2\\varphi(x)$，其中 $\\varphi(x)$ 的一阶导函数有界，则 $f\\prime\\prime(a)=$（ ）。 $2\\varphi(a)$ $2\\varphi\\prime(a)$ $\\varphi(a)$ $\\varphi(2a)$ 二阶导数定义求得 $f\\prime\\prime(a)=2\\varphi(a)$。",
+  "sort_order": 25
+}

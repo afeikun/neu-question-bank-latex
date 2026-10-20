@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "电池$n=50,\\bar x=2.266,s=1.935$，求均值95%置信区间。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1.730,2.802)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1.730,2.502)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1.530,2.502)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1.730,2.552)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "大样本近似正态区间误差$1.96s/\\sqrt{50}\\approx0.536$。",
+  "search_text": "电池$n=50,\\bar x=2.266,s=1.935$，求均值95%置信区间。 $(1.730,2.802)$ $(1.730,2.502)$ $(1.530,2.502)$ $(1.730,2.552)$ 大样本近似正态区间误差$1.96s/\\sqrt{50}\\approx0.536$。",
+  "sort_order": 20
+}

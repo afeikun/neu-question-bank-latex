@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\xi_1=(1,0,2)^T,\\ \\xi_2=(0,1,-1)^T$ 都是 $AX=0$ 的解，则 $A$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-2,1,1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}-1&0&2\\\\0&1&-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}0&1&-1\\\\4&-2&-2\\\\0&1&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}2&0&-1\\\\0&1&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "选项 1 的行向量 $(-2,1,1)$ 与 $\\xi_1,\\xi_2$ 均正交，所以两个向量都满足 $AX=0$。",
+  "search_text": "若 $\\xi_1=(1,0,2)^T,\\ \\xi_2=(0,1,-1)^T$ 都是 $AX=0$ 的解，则 $A$ 为（ ）。 $(-2,1,1)$ $\\begin{pmatrix}-1&0&2\\\\0&1&-1\\end{pmatrix}$ $\\begin{pmatrix}0&1&-1\\\\4&-2&-2\\\\0&1&1\\end{pmatrix}$ $\\begin{pmatrix}2&0&-1\\\\0&1&1\\end{pmatrix}$ 选项 1 的行向量 $(-2,1,1)$ 与 $\\xi_1,\\xi_2$ 均正交，所以两个向量都满足 $AX=0$。",
+  "sort_order": 51
+}

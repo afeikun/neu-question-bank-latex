@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知向量组 $\\alpha_1=(1,1,1,1,0),\\ \\alpha_2=(1,1,1,0,0),\\ \\alpha_3=(1,1,0,0,0),\\ \\alpha_4=(1,0,0,0,0)$，则该向量组的一个极大线性无关组是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha_1,\\alpha_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1,\\alpha_3,\\alpha_4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "以这些向量为列组成的矩阵有四个主元，秩为 $4$，因此四个向量都线性无关，整个向量组是一个极大无关组。",
+  "search_text": "已知向量组 $\\alpha_1=(1,1,1,1,0),\\ \\alpha_2=(1,1,1,0,0),\\ \\alpha_3=(1,1,0,0,0),\\ \\alpha_4=(1,0,0,0,0)$，则该向量组的一个极大线性无关组是（ ）。 $\\alpha_1,\\alpha_2$ $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ $\\alpha_1,\\alpha_3,\\alpha_4$ $\\alpha_1,\\alpha_2,\\alpha_3$ 以这些向量为列组成的矩阵有四个主元，秩为 $4$，因此四个向量都线性无关，整个向量组是一个极大无关组。",
+  "sort_order": 13
+}

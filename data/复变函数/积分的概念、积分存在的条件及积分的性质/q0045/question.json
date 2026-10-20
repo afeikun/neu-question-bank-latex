@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_Ce^z\\,dz=(\\quad)$，$C$ 为从 $0$ 到 $2\\pi-i\\pi$ 的线段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-e^{2\\pi}-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(e^\\pi-1)i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^\\pi+i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原函数端点差 $e^{2\\pi-i\\pi}-1=-e^{2\\pi}-1$。",
+  "search_text": "$\\int_Ce^z\\,dz=(\\quad)$，$C$ 为从 $0$ 到 $2\\pi-i\\pi$ 的线段。 $-e^{2\\pi}-1$ $(e^\\pi-1)i$ $e^\\pi+i$ $e-2$ 原函数端点差 $e^{2\\pi-i\\pi}-1=-e^{2\\pi}-1$。",
+  "sort_order": 45
+}

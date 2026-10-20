@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立且均服从二项分布$B(n,p)$，则$Z=X+Y$服从（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$B(n,p^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$B(n,p)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$B(2n,p^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$B(2n,p)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "独立的两个$B(n,p)$变量之和服从$B(2n,p)$。",
+  "search_text": "$X,Y$独立且均服从二项分布$B(n,p)$，则$Z=X+Y$服从（）。 $B(n,p^2)$ $B(n,p)$ $B(2n,p^2)$ $B(2n,p)$ 独立的两个$B(n,p)$变量之和服从$B(2n,p)$。",
+  "sort_order": 7
+}

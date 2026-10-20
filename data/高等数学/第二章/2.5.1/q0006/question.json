@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $\\sin x\\,y+x\\ln y=0$ 确定 $y=y(x)$，求反函数 $x=x(y)$ 的导数 $\\frac{dx}{dy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x+xy\\cos y}{y(y\\cos xy+\\ln y)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{x-xy\\cos y}{y(y\\cos xy+\\ln y)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{x+xy\\cos y}{y(y\\cos xy-\\ln y)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{x+xy\\cos y}{y(y\\cos xy+\\ln y)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程的自变量看成是$y$，两边同时对$y$求导可得\n$(x'y+x)\\cos y+x'\\ln y+\\frac{x}{y}=0$，则有$x'=-\\frac{x+xy\\cos y}{y(y\\cos y+\\ln y)}$",
+  "search_text": "由 $\\sin x\\,y+x\\ln y=0$ 确定 $y=y(x)$，求反函数 $x=x(y)$ 的导数 $\\frac{dx}{dy}$。 $\\frac{x+xy\\cos y}{y(y\\cos xy+\\ln y)}$ $-\\frac{x-xy\\cos y}{y(y\\cos xy+\\ln y)}$ $-\\frac{x+xy\\cos y}{y(y\\cos xy-\\ln y)}$ $-\\frac{x+xy\\cos y}{y(y\\cos xy+\\ln y)}$ 解答 方程的自变量看成是$y$，两边同时对$y$求导可得\n$(x'y+x)\\cos y+x'\\ln y+\\frac{x}{y}=0$，则有$x'=-\\frac{x+xy\\cos y}{y(y\\cos y+\\ln y)}$",
+  "sort_order": 6
+}

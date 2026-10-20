@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求由 $x-y+\\frac12\\sin y=0$ 确定的隐函数的二阶导数 $y''$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{4\\sin y}{(2-\\cos y)^3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{4\\cos y}{(2-\\sin y)^3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{4\\cos y}{(2-\\sin y)^3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{4\\sin y}{(2-\\cos y)^3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程两边对 $x$ 求导，得：\n\n$$\n1-\\frac{dy}{dx}+\\frac{1}{2}\\cos y\\cdot\\frac{dy}{dx}=0\\Rightarrow\\frac{dy}{dx}=\\frac{2}{2-\\cos y}\n$$\n\n$$\n\\begin{aligned}\n\\frac{d^2y}{dx^2}&=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)=\\frac{d}{dx}\\left(\\frac{2}{2-\\cos y}\\right)=\\frac{-2\\sin y\\cdot y'}{(2-\\cos y)^2}=\\frac{-2\\sin y}{(2-\\cos y)^2}\\cdot\\frac{2}{2-\\cos y}=-\\frac{4\\sin y}{(2-\\cos y)^3}\n\\end{aligned}\n$$",
+  "search_text": "求由 $x-y+\\frac12\\sin y=0$ 确定的隐函数的二阶导数 $y''$。 $-\\frac{4\\sin y}{(2-\\cos y)^3}$ $-\\frac{4\\cos y}{(2-\\sin y)^3}$ $\\frac{4\\cos y}{(2-\\sin y)^3}$ $\\frac{4\\sin y}{(2-\\cos y)^3}$ 方程两边对 $x$ 求导，得：\n\n$$\n1-\\frac{dy}{dx}+\\frac{1}{2}\\cos y\\cdot\\frac{dy}{dx}=0\\Rightarrow\\frac{dy}{dx}=\\frac{2}{2-\\cos y}\n$$\n\n$$\n\\begin{aligned}\n\\frac{d^2y}{dx^2}&=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)=\\frac{d}{dx}\\left(\\frac{2}{2-\\cos y}\\right)=\\frac{-2\\sin y\\cdot y'}{(2-\\cos y)^2}=\\frac{-2\\sin y}{(2-\\cos y)^2}\\cdot\\frac{2}{2-\\cos y}=-\\frac{4\\sin y}{(2-\\cos y)^3}\n\\end{aligned}\n$$",
+  "sort_order": 20
+}

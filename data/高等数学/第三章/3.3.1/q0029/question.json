@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若函数 $y=x^{-5}(\\sin3x+A\\sin2x+B\\sin x)$ 当 $x\\to0$ 时存在有限极限，则常数 $A,B$ 的一组值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A=-2,B=7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A=-5,B=6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A=-4,B=5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A=-3,B=-5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "为使分子至少为五阶无穷小，令线性项和三次项系数为零，得 $A=-4,B=5$。",
+  "search_text": "若函数 $y=x^{-5}(\\sin3x+A\\sin2x+B\\sin x)$ 当 $x\\to0$ 时存在有限极限，则常数 $A,B$ 的一组值为 $(\\quad)$。 $A=-2,B=7$ $A=-5,B=6$ $A=-4,B=5$ $A=-3,B=-5$ 为使分子至少为五阶无穷小，令线性项和三次项系数为零，得 $A=-4,B=5$。",
+  "sort_order": 29
+}

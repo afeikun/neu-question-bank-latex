@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是 $n$ 阶方阵，且行列式 $|A|=25$，则行列式 $|-4A|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-4)^{n-1}\\cdot25$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-4)^n\\cdot25$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4^{n-1}\\cdot25$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4^n\\cdot25$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$|-4A|=(-4)^n|A|=(-4)^n\\cdot25$。",
+  "search_text": "设 $A$ 是 $n$ 阶方阵，且行列式 $|A|=25$，则行列式 $|-4A|=$（ ）。 $(-4)^{n-1}\\cdot25$ $(-4)^n\\cdot25$ $4^{n-1}\\cdot25$ $4^n\\cdot25$ $|-4A|=(-4)^n|A|=(-4)^n\\cdot25$。",
+  "sort_order": 60
+}

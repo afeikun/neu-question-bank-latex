@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 为连续函数，交换二次积分 $\\int_0^1dy\\int_{-\\sqrt{2-y^2}}^0f(x,y)dx$ 的积分次序[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{-\\sqrt2}^{-1}dx\\int_0^{\\sqrt{2-x^2}}f(x,y)dy+\\int_{-1}^0dx\\int_0^1f(x,y)dy+\\int_0^1dx\\int_x^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{-\\sqrt2}^{0}dx\\int_0^1f(x,y)dy+\\int_0^1dx\\int_0^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{-\\sqrt2}^{-1}dx\\int_0^{\\sqrt{2-x^2}}f(x,y)dy+\\int_{-1}^0dx\\int_0^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{-\\sqrt2}^{-1}dx\\int_0^{\\sqrt{2-x^2}}f(x,y)dy+\\int_{-1}^0dx\\int_x^1f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 原式=$\\int_{-\\sqrt{2}}^{-1}dx\\int_0^{\\sqrt{2-x^2}}f(x,y)dy+\\int_{-1}^0dx\\int_0^1f(x,y)dy+\\int_0^1dx\\int_x^1f(x,y)dy$。",
+  "search_text": "设 $f(x,y)$ 为连续函数，交换二次积分 $\\int_0^1dy\\int_{-\\sqrt{2-y^2}}^0f(x,y)dx$ 的积分次序[\\quad] $\\int_{-\\sqrt2}^{-1}dx\\int_0^{\\sqrt{2-x^2}}f(x,y)dy+\\int_{-1}^0dx\\int_0^1f(x,y)dy+\\int_0^1dx\\int_x^1f(x,y)dy$ $\\int_{-\\sqrt2}^{0}dx\\int_0^1f(x,y)dy+\\int_0^1dx\\int_0^1f(x,y)dy$ $\\int_{-\\sqrt2}^{-1}dx\\int_0^{\\sqrt{2-x^2}}f(x,y)dy+\\int_{-1}^0dx\\int_0^1f(x,y)dy$ $\\int_{-\\sqrt2}^{-1}dx\\int_0^{\\sqrt{2-x^2}}f(x,y)dy+\\int_{-1}^0dx\\int_x^1f(x,y)dy$ 解答 原式=$\\int_{-\\sqrt{2}}^{-1}dx\\int_0^{\\sqrt{2-x^2}}f(x,y)dy+\\int_{-1}^0dx\\int_0^1f(x,y)dy+\\int_0^1dx\\int_x^1f(x,y)dy$。",
+  "sort_order": 20
+}

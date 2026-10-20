@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\ln\\dfrac{z}{1+z}$ 在 $1<|z|<+\\infty$ 内的洛朗展开式为 ( )。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n\\dfrac{1}{nz^n}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^n\\dfrac{1}{nz^{n+1}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^{n+1}\\dfrac{1}{nz^{n+1}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(-1)^{n+1}\\dfrac{1}{nz^n}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\ln\\dfrac{z}{1+z}=-\\ln\\left(1+\\dfrac1z\\right)=\\sum_{n=1}^{\\infty}(-1)^n\\dfrac{1}{nz^n}$。",
+  "search_text": "$\\ln\\dfrac{z}{1+z}$ 在 $1<|z|<+\\infty$ 内的洛朗展开式为 ( )。 $\\sum_{n=1}^{\\infty}(-1)^n\\dfrac{1}{nz^n}$ $\\sum_{n=1}^{\\infty}(-1)^n\\dfrac{1}{nz^{n+1}}$ $\\sum_{n=1}^{\\infty}(-1)^{n+1}\\dfrac{1}{nz^{n+1}}$ $\\sum_{n=1}^{\\infty}(-1)^{n+1}\\dfrac{1}{nz^n}$ $\\ln\\dfrac{z}{1+z}=-\\ln\\left(1+\\dfrac1z\\right)=\\sum_{n=1}^{\\infty}(-1)^n\\dfrac{1}{nz^n}$。",
+  "sort_order": 12
+}

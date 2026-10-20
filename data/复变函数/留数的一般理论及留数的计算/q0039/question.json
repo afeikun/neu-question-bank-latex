@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\displaystyle\\oint_{|z|=2}\\dfrac{e^{2z}}{(z-1)^2}\\,dz=$（ ）（沿正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi i e^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2e^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8\\pi i e^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i e^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内 $z=1$ 为二级极点，留数为 $(e^{2z})'|_{z=1}=2e^2$，积分为 $4\\pi i e^2$。",
+  "search_text": "积分 $\\displaystyle\\oint_{|z|=2}\\dfrac{e^{2z}}{(z-1)^2}\\,dz=$（ ）（沿正向）。 $4\\pi i e^2$ $2e^2$ $8\\pi i e^2$ $\\pi i e^2$ 圆内 $z=1$ 为二级极点，留数为 $(e^{2z})'|_{z=1}=2e^2$，积分为 $4\\pi i e^2$。",
+  "sort_order": 39
+}

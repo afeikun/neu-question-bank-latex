@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是由 $\\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定的闭区域，且 $\\Omega$ 上每点 $(x,y,z)$ 处体密度为该点到原点的距离，则立体 $\\Omega$ 的质心坐标是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(0,0,\\frac{2\\sqrt2}{5})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,0,\\frac25)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(0,0,\\frac{2\\sqrt2-2}{5})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(0,0,\\frac{2\\sqrt2+2}{5})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\rho(x,y,z)=\\sqrt{x^2+y^2+z^2}$，质心坐标为 $(0,0,\\bar{z})$，\n$$\n\\bar{z}=\\frac{\\iiint_\\Omega z\\rho(x,y,z)\\,dv}{\\iiint_\\Omega\\rho(x,y,z)\\,dv},\n$$\n于是\n$$\n\\bar{z}=\\frac{\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^4\\cos\\varphi\\sin\\varphi\\,dr}{\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^3\\sin\\varphi\\,dr}\n=\\frac{\\frac{\\sqrt{2}}{5}}{1-\\frac{\\sqrt{2}}{2}}=\\frac{2(\\sqrt{2}+1)}{5}.\n$$",
+  "search_text": "若 $\\Omega$ 是由 $\\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定的闭区域，且 $\\Omega$ 上每点 $(x,y,z)$ 处体密度为该点到原点的距离，则立体 $\\Omega$ 的质心坐标是（ ） $(0,0,\\frac{2\\sqrt2}{5})$ $(0,0,\\frac25)$ $(0,0,\\frac{2\\sqrt2-2}{5})$ $(0,0,\\frac{2\\sqrt2+2}{5})$ $\\rho(x,y,z)=\\sqrt{x^2+y^2+z^2}$，质心坐标为 $(0,0,\\bar{z})$，\n$$\n\\bar{z}=\\frac{\\iiint_\\Omega z\\rho(x,y,z)\\,dv}{\\iiint_\\Omega\\rho(x,y,z)\\,dv},\n$$\n于是\n$$\n\\bar{z}=\\frac{\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^4\\cos\\varphi\\sin\\varphi\\,dr}{\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^3\\sin\\varphi\\,dr}\n=\\frac{\\frac{\\sqrt{2}}{5}}{1-\\frac{\\sqrt{2}}{2}}=\\frac{2(\\sqrt{2}+1)}{5}.\n$$",
+  "sort_order": 3
+}

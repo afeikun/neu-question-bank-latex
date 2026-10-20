@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=1}^{\\infty}n^2((z-i)/e)^n$ 的收敛圆是____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|z-i|<1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|z-i|<e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|z-i|<2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|z-i|<+\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "系数比值趋于 $1$，故 $|(z-i)/e|<1$，即 $|z-i|<e$。",
+  "search_text": "幂级数 $\\sum_{n=1}^{\\infty}n^2((z-i)/e)^n$ 的收敛圆是____。 $|z-i|<1$ $|z-i|<e$ $|z-i|<2$ $|z-i|<+\\infty$ 系数比值趋于 $1$，故 $|(z-i)/e|<1$，即 $|z-i|<e$。",
+  "sort_order": 23
+}

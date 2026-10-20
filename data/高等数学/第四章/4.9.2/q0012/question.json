@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "水中有一竖直矩形闸门，宽 $10m$、深 $6m$，求水面在门顶上 $8m$ 时闸门所受压力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$96\\times10^5N$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$86\\times10^5N$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$65\\times10^5N$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$76\\times10^5N$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$P=\\int_8^{14}10\\rho gx dx$，页面给出的结果为 $65\\times10^5N$。",
+  "search_text": "水中有一竖直矩形闸门，宽 $10m$、深 $6m$，求水面在门顶上 $8m$ 时闸门所受压力。 $96\\times10^5N$ $86\\times10^5N$ $65\\times10^5N$ $76\\times10^5N$ $P=\\int_8^{14}10\\rho gx dx$，页面给出的结果为 $65\\times10^5N$。",
+  "sort_order": 12
+}

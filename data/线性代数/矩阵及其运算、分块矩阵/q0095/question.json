@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=(a_1,a_2,a_3)$，$B=(b_1,b_2,b_3)$ 是两个三维向量，且 $A^TB=\\begin{pmatrix}3&0&2\\\\6&0&4\\\\9&0&6\\end{pmatrix}$，则 $AB^T=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$15$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$AB^T=a_1b_1+a_2b_2+a_3b_3$，即为 $A^TB$ 的对角线元素之和：$3+0+6=9$。",
+  "search_text": "设 $A=(a_1,a_2,a_3)$，$B=(b_1,b_2,b_3)$ 是两个三维向量，且 $A^TB=\\begin{pmatrix}3&0&2\\\\6&0&4\\\\9&0&6\\end{pmatrix}$，则 $AB^T=$（ ）。 $12$ $15$ $9$ $6$ $AB^T=a_1b_1+a_2b_2+a_3b_3$，即为 $A^TB$ 的对角线元素之和：$3+0+6=9$。",
+  "sort_order": 95
+}

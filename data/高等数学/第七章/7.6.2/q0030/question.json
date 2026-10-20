@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若曲面在点 $P$ 处有 $F_x=4\\sqrt2,F_y=F_z=4$，求该点切平面与 $xOy$ 平面的夹角。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2\\pi}3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由题设可得：曲面 $F(x,y,z)=0$ 的法向量为：$(4\\sqrt{2},4,4)$，$xOy$ 平面的法向量为：$(0,0,1)$，则两平面夹角的余弦为：\n\n$$\\cos\\theta=\\frac{|4\\sqrt{2}\\cdot0+4\\cdot0+4\\cdot1|}{\\sqrt{(4\\sqrt{2})^2+4^2+4^2}\\sqrt{1}}=\\frac{1}{2}，$$\n\n两平面夹角为：$\\frac{\\pi}{3}$。",
+  "search_text": "若曲面在点 $P$ 处有 $F_x=4\\sqrt2,F_y=F_z=4$，求该点切平面与 $xOy$ 平面的夹角。 $\\frac{2\\pi}3$ $\\frac\\pi3$ $\\frac\\pi2$ $\\frac\\pi4$ 由题设可得：曲面 $F(x,y,z)=0$ 的法向量为：$(4\\sqrt{2},4,4)$，$xOy$ 平面的法向量为：$(0,0,1)$，则两平面夹角的余弦为：\n\n$$\\cos\\theta=\\frac{|4\\sqrt{2}\\cdot0+4\\cdot0+4\\cdot1|}{\\sqrt{(4\\sqrt{2})^2+4^2+4^2}\\sqrt{1}}=\\frac{1}{2}，$$\n\n两平面夹角为：$\\frac{\\pi}{3}$。",
+  "sort_order": 30
+}

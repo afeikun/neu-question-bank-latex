@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $\\begin{cases}x+y+z=a\\\\x+cy=b\\end{cases}$ 在 $yOz$ 面上的投影为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}y+(1-c)z=a-b\\\\x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}y+(1+c)z=a+b\\\\x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}(1-c)y+z=a-b\\\\x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}(1+c)y+z=a+b\\\\x=0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：在直线方程中消去 $x$，得 $(1-c)y+z=a-b$，即为曲线的关于 $yOz$ 面的投影柱面的方程，再与 $yOz$ 面的方程 $x=0$ 联立，即为直线在 $yOz$ 面上的投影：\n$$\n\\begin{cases}\n(1-c)y+z=a-b\\\\\nx=0\n\\end{cases}.\n$$",
+  "search_text": "直线 $\\begin{cases}x+y+z=a\\\\x+cy=b\\end{cases}$ 在 $yOz$ 面上的投影为(\\quad)。 $\\begin{cases}y+(1-c)z=a-b\\\\x=0\\end{cases}$ $\\begin{cases}y+(1+c)z=a+b\\\\x=0\\end{cases}$ $\\begin{cases}(1-c)y+z=a-b\\\\x=0\\end{cases}$ $\\begin{cases}(1+c)y+z=a+b\\\\x=0\\end{cases}$ 解答：在直线方程中消去 $x$，得 $(1-c)y+z=a-b$，即为曲线的关于 $yOz$ 面的投影柱面的方程，再与 $yOz$ 面的方程 $x=0$ 联立，即为直线在 $yOz$ 面上的投影：\n$$\n\\begin{cases}\n(1-c)y+z=a-b\\\\\nx=0\n\\end{cases}.\n$$",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为计算 $\\sqrt[5]{1040}$ 的近似值，可适用近似公式 $(1+x)^\\alpha=1+\\alpha x$，这时式中的 $x=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$256$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{64}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{16}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\sqrt[5]{1040}=(1024+16)^{1/5}=4(1+\\frac1{64})^{1/5}$，故 $(1+x)^\\alpha$ 中 $x=\\frac1{64}$。",
+  "search_text": "为计算 $\\sqrt[5]{1040}$ 的近似值，可适用近似公式 $(1+x)^\\alpha=1+\\alpha x$，这时式中的 $x=(\\quad)$。 $256$ $16$ $\\frac1{64}$ $\\frac1{16}$ $\\sqrt[5]{1040}=(1024+16)^{1/5}=4(1+\\frac1{64})^{1/5}$，故 $(1+x)^\\alpha$ 中 $x=\\frac1{64}$。",
+  "sort_order": 1
+}

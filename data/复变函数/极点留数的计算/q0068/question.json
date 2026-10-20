@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac{z+1}{z^2-2z},2\\right)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac23$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=2$ 为一阶极点，留数 $\\lim_{z\\to2}(z-2)(z+1)/(z(z-2))=3/2$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac{z+1}{z^2-2z},2\\right)=(\\ )$。 $\\frac32$ $0$ $\\frac12$ $\\frac23$ $z=2$ 为一阶极点，留数 $\\lim_{z\\to2}(z-2)(z+1)/(z(z-2))=3/2$。",
+  "sort_order": 68
+}

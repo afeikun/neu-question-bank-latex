@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=0}^\\infty(n+1)(x-1)^n$ 的和函数是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/(2-x)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x/(2-x)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(1-x^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(1+x)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "几何级数求导得 $\\sum_{n=0}^{\\infty}(n+1)t^n=1/(1-t)^2$，取 $t=x-1$。",
+  "search_text": "级数 $\\sum_{n=0}^\\infty(n+1)(x-1)^n$ 的和函数是？ $1/(2-x)^2$ $x/(2-x)^2$ $1/(1-x^2)$ $1/(1+x)^2$ 几何级数求导得 $\\sum_{n=0}^{\\infty}(n+1)t^n=1/(1-t)^2$，取 $t=x-1$。",
+  "sort_order": 3
+}

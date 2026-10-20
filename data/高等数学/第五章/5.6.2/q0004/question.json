@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f'$ 的傅里叶系数为 $A_n,B_n$，$f$ 的系数为 $a_n,b_n$，则正确关系是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$B_n=-na_n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A_n=-nb_n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A_n=a_n/n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A_n=na_n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分部积分得 $A_n=nb_n,\\ B_n=-na_n$。",
+  "search_text": "若 $f'$ 的傅里叶系数为 $A_n,B_n$，$f$ 的系数为 $a_n,b_n$，则正确关系是？ $B_n=-na_n$ $A_n=-nb_n$ $A_n=a_n/n$ $A_n=na_n$ 分部积分得 $A_n=nb_n,\\ B_n=-na_n$。",
+  "sort_order": 4
+}

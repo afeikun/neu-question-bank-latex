@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设平面薄片 $D$ 由抛物线 $y=x^2$ 及直线 $y=x$ 围成，面密度 $\\rho=x^2y$，质心为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{35}{48},\\frac{35}{54})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{35}{46},\\frac{35}{54})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{35}{46},\\frac{35}{56})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{35}{46},\\frac{35}{48})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "薄片质量\n\n$$\nM=\\iint_D\\rho(x,y)\\,dxdy=\\int_0^1x^2\\,dx\\int_{x^2}^x y\\,dy=\\frac1{35}\n$$\n\n设质心坐标为 $(\\bar{x},\\bar{y})$，则\n\n$$\n\\bar{x}=\\frac{\\iint_Dx\\rho(x,y)\\,dxdy}{M}=\\frac{\\int_0^1x^3\\,dx\\int_{x^2}^x y\\,dy}{\\frac1{35}}=\\frac{35}{48},\n$$\n\n$$\n\\bar{y}=\\frac{\\iint_Dy\\rho(x,y)\\,dxdy}{M}=\\frac{\\int_0^1x^2\\,dx\\int_{x^2}^x y^2\\,dy}{\\frac1{35}}=\\frac{35}{54}.\n$$",
+  "search_text": "设平面薄片 $D$ 由抛物线 $y=x^2$ 及直线 $y=x$ 围成，面密度 $\\rho=x^2y$，质心为（ ） $(\\frac{35}{48},\\frac{35}{54})$ $(\\frac{35}{46},\\frac{35}{54})$ $(\\frac{35}{46},\\frac{35}{56})$ $(\\frac{35}{46},\\frac{35}{48})$ 薄片质量\n\n$$\nM=\\iint_D\\rho(x,y)\\,dxdy=\\int_0^1x^2\\,dx\\int_{x^2}^x y\\,dy=\\frac1{35}\n$$\n\n设质心坐标为 $(\\bar{x},\\bar{y})$，则\n\n$$\n\\bar{x}=\\frac{\\iint_Dx\\rho(x,y)\\,dxdy}{M}=\\frac{\\int_0^1x^3\\,dx\\int_{x^2}^x y\\,dy}{\\frac1{35}}=\\frac{35}{48},\n$$\n\n$$\n\\bar{y}=\\frac{\\iint_Dy\\rho(x,y)\\,dxdy}{M}=\\frac{\\int_0^1x^2\\,dx\\int_{x^2}^x y^2\\,dy}{\\frac1{35}}=\\frac{35}{54}.\n$$",
+  "sort_order": 57
+}

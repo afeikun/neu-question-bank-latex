@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $P(A)=\\alpha$，$P(B)=\\beta$，$P(B\\mid A)=\\gamma$，则 $P(A\\mid B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\alpha\\gamma}{\\beta}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\beta\\gamma}{\\alpha}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\alpha\\beta}{\\gamma}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha\\beta\\gamma$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(AB)=P(B\\mid A)P(A)=\\alpha\\gamma$，故 $P(A\\mid B)=P(AB)/P(B)=\\alpha\\gamma/\\beta$。",
+  "search_text": "设 $P(A)=\\alpha$，$P(B)=\\beta$，$P(B\\mid A)=\\gamma$，则 $P(A\\mid B)=(\\quad)$。 $\\frac{\\alpha\\gamma}{\\beta}$ $\\frac{\\beta\\gamma}{\\alpha}$ $\\frac{\\alpha\\beta}{\\gamma}$ $\\alpha\\beta\\gamma$ $P(AB)=P(B\\mid A)P(A)=\\alpha\\gamma$，故 $P(A\\mid B)=P(AB)/P(B)=\\alpha\\gamma/\\beta$。",
+  "sort_order": 1
+}

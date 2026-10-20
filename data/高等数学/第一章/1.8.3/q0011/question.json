@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\begin{cases}\\cos x,&0\\leq x\\leq x_0,\\\\\\sin x,&x_0\\leq x\\leq\\pi/2,\\end{cases}$ 在 $[0,\\pi/2]$ 上连续，则 $x_0=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/\\sqrt2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "连续要求 $\\cos x_0=\\sin x_0$，故 $x_0=\\pi/4$。",
+  "search_text": "$f(x)=\\begin{cases}\\cos x,&0\\leq x\\leq x_0,\\\\\\sin x,&x_0\\leq x\\leq\\pi/2,\\end{cases}$ 在 $[0,\\pi/2]$ 上连续，则 $x_0=(\\ )$。 $\\pi/4$ 不存在 $1/2$ $1/\\sqrt2$ 连续要求 $\\cos x_0=\\sin x_0$，故 $x_0=\\pi/4$。",
+  "sort_order": 11
+}

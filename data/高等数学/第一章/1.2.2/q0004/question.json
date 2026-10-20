@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "对于数列 $\\{x_n\\}$，若 $\\lim_{n\\to\\infty}x_{2n}=\\lim_{n\\to\\infty}x_{2n+1}=a$，则 $\\lim_{n\\to\\infty}x_n=a$ 是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分非必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "必要非充分条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既非充分又非必要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "偶数项与奇数项子列都趋于 $a$ 等价于原数列趋于 $a$。",
+  "search_text": "对于数列 $\\{x_n\\}$，若 $\\lim_{n\\to\\infty}x_{2n}=\\lim_{n\\to\\infty}x_{2n+1}=a$，则 $\\lim_{n\\to\\infty}x_n=a$ 是（ ）。 充分非必要条件 充分必要条件 必要非充分条件 既非充分又非必要条件 偶数项与奇数项子列都趋于 $a$ 等价于原数列趋于 $a$。",
+  "sort_order": 4
+}

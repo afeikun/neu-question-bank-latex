@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x^n$（$0\\le x<+\\infty,n>0$）的凹凸性为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0<n<1$ 时凸，$n>1$ 时凹"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "对一切 $n>0$ 曲线为凸"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "对一切 $n>0$ 曲线为凹"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0<n<1$ 时凹，$n>1$ 时凸"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=n(n-1)x^{n-2}$，所以 $0<n<1$ 时二阶导数为负、曲线凸；$n>1$ 时二阶导数为正、曲线凹。",
+  "search_text": "曲线 $y=x^n$（$0\\le x<+\\infty,n>0$）的凹凸性为（ ）。 $0<n<1$ 时凸，$n>1$ 时凹 对一切 $n>0$ 曲线为凸 对一切 $n>0$ 曲线为凹 $0<n<1$ 时凹，$n>1$ 时凸 $y\\prime\\prime=n(n-1)x^{n-2}$，所以 $0<n<1$ 时二阶导数为负、曲线凸；$n>1$ 时二阶导数为正、曲线凹。",
+  "sort_order": 8
+}

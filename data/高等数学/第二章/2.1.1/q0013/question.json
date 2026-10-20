@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 的 $n$ 阶导数存在，且 $\\lim_{x\\to a}\\frac{f^{(n-1)}(x)}{x-a}=f^{(n)}(a),a\\ne0$，则 $f^{(n-1)}(a)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由该极限有限知 $f^{(n-1)}(x)\\to0$，而该导函数连续，故 $f^{(n-1)}(a)=0$。",
+  "search_text": "设函数 $f(x)$ 的 $n$ 阶导数存在，且 $\\lim_{x\\to a}\\frac{f^{(n-1)}(x)}{x-a}=f^{(n)}(a),a\\ne0$，则 $f^{(n-1)}(a)=$（ ）。 1 $a$ $a-1$ $0$ 由该极限有限知 $f^{(n-1)}(x)\\to0$，而该导函数连续，故 $f^{(n-1)}(a)=0$。",
+  "sort_order": 13
+}

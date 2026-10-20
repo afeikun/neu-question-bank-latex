@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "判定下列积分值的大小：$I_1=\\iint_D\\ln^3(x+y)\\,dxdy;\\ I_2=\\iint_D(x+y)^3\\,dxdy;\\ I_3=\\iint_D[\\sin(x+y)]^3\\,dxdy$，其中 $D$ 由 $x=0,y=0,x+y=\\frac12,x+y=1$ 围成，则 $I_1,I_2,I_3$ 的大小顺序为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$I_1<I_2<I_3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$I_3<I_2<I_1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$I_1<I_3<I_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$I_3<I_1<I_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 由题意知 $\\frac12<x+y<1$，则有 $\\ln(x+y)<0$，即 $\\ln^3(x+y)<0$；\n\n$0<\\sin(x+y)<x+y$，即 $0<\\sin^3(x+y)<(x+y)^3$.\n\n综上所得 $I_1<I_3<I_2$.",
+  "search_text": "判定下列积分值的大小：$I_1=\\iint_D\\ln^3(x+y)\\,dxdy;\\ I_2=\\iint_D(x+y)^3\\,dxdy;\\ I_3=\\iint_D[\\sin(x+y)]^3\\,dxdy$，其中 $D$ 由 $x=0,y=0,x+y=\\frac12,x+y=1$ 围成，则 $I_1,I_2,I_3$ 的大小顺序为（ ） $I_1<I_2<I_3$ $I_3<I_2<I_1$ $I_1<I_3<I_2$ $I_3<I_1<I_2$ 解答 由题意知 $\\frac12<x+y<1$，则有 $\\ln(x+y)<0$，即 $\\ln^3(x+y)<0$；\n\n$0<\\sin(x+y)<x+y$，即 $0<\\sin^3(x+y)<(x+y)^3$.\n\n综上所得 $I_1<I_3<I_2$.",
+  "sort_order": 16
+}

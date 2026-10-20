@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime\\prime=\\frac{2y-1}{(y\\prime)^2+1}(y\\prime)^2$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{\\arctan y}=C_1x^2+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ye^{\\arctan y}=C_1x+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{\\arctan y}=C_1x+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{\\arctan y}=y(C_1x+C_2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：令 $y'=p(y)$，则原方程化为\n\n$$p\\frac{dp}{dy}=\\frac{2y-1}{y^2+1}p^2,$$ 分离变量并积分得\n\n$$\\ln p=\\ln(y^2+1)-\\arctan y+\\ln C_1,$$ 从而 $y'=p=C_1(y^2+1)e^{-\\arctan y}$，\n\n分离变量并积分得 $e^{\\arctan y}=C_1x+C_2$。",
+  "search_text": "$y\\prime\\prime=\\frac{2y-1}{(y\\prime)^2+1}(y\\prime)^2$ 的通解为（ ） $e^{\\arctan y}=C_1x^2+C_2$ $ye^{\\arctan y}=C_1x+C_2$ $e^{\\arctan y}=C_1x+C_2$ $e^{\\arctan y}=y(C_1x+C_2)$ 解析：令 $y'=p(y)$，则原方程化为\n\n$$p\\frac{dp}{dy}=\\frac{2y-1}{y^2+1}p^2,$$ 分离变量并积分得\n\n$$\\ln p=\\ln(y^2+1)-\\arctan y+\\ln C_1,$$ 从而 $y'=p=C_1(y^2+1)e^{-\\arctan y}$，\n\n分离变量并积分得 $e^{\\arctan y}=C_1x+C_2$。",
+  "sort_order": 24
+}

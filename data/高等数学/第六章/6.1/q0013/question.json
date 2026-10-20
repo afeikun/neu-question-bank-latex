@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\triangle ABC$ 的三边 $\\overrightarrow{BC}=\\vec a$，$\\overrightarrow{CA}=\\vec b$，$\\overrightarrow{AB}=\\vec c$，三边的中点分别为 $D,E,F$，则(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\overrightarrow{AD}+\\overrightarrow{BE}-\\overrightarrow{CF}=\\vec0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\overrightarrow{AD}-\\overrightarrow{BE}+\\overrightarrow{CF}=\\vec0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\overrightarrow{AD}-\\overrightarrow{BE}-\\overrightarrow{CF}=\\vec0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\overrightarrow{AD}+\\overrightarrow{BE}+\\overrightarrow{CF}=\\vec0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由中点关系，$\\overrightarrow{AD}=\\vec c-\\frac12\\vec a$，$\\overrightarrow{BE}=\\vec a+\\frac12\\vec b$，$\\overrightarrow{CF}=\\vec b+\\frac12\\vec c$。三式相加得 $\\frac32(\\vec a+\\vec b+\\vec c)=\\vec0$。",
+  "search_text": "设 $\\triangle ABC$ 的三边 $\\overrightarrow{BC}=\\vec a$，$\\overrightarrow{CA}=\\vec b$，$\\overrightarrow{AB}=\\vec c$，三边的中点分别为 $D,E,F$，则(\\quad)。 $\\overrightarrow{AD}+\\overrightarrow{BE}-\\overrightarrow{CF}=\\vec0$ $\\overrightarrow{AD}-\\overrightarrow{BE}+\\overrightarrow{CF}=\\vec0$ $\\overrightarrow{AD}-\\overrightarrow{BE}-\\overrightarrow{CF}=\\vec0$ $\\overrightarrow{AD}+\\overrightarrow{BE}+\\overrightarrow{CF}=\\vec0$ 由中点关系，$\\overrightarrow{AD}=\\vec c-\\frac12\\vec a$，$\\overrightarrow{BE}=\\vec a+\\frac12\\vec b$，$\\overrightarrow{CF}=\\vec b+\\frac12\\vec c$。三式相加得 $\\frac32(\\vec a+\\vec b+\\vec c)=\\vec0$。",
+  "sort_order": 13
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=x^3$ 在 $x=2$ 处的微分是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$12dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$dy=3x^2dx$，代入 $x=2$ 得 $12dx$。",
+  "search_text": "函数 $y=x^3$ 在 $x=2$ 处的微分是（ ）。 $6dx$ $8dx$ $2dx$ $12dx$ $dy=3x^2dx$，代入 $x=2$ 得 $12dx$。",
+  "sort_order": 12
+}

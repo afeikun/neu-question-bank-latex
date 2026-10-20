@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(s)=\\frac{2s+4}{s(s^2+4)}$，则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$",
+  "options_json": [
+    {
+      "content_md": "$1+\\sin2t-\\cos2t$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "$1+\\sin2t+\\cos2t$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$\\sin2t-\\cos2t$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$\\sin2t+\\cos2t$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "部分分式分解得 $\\frac{2}{s^2+4}+\\frac1s-\\frac{s}{s^2+4}$，反变换为 $1+\\sin2t-\\cos2t$。",
+  "search_text": "设 $F(s)=\\frac{2s+4}{s(s^2+4)}$，则 $\\mathcal{L}^{-1}[F(s)]=(\\quad).$ $1+\\sin2t-\\cos2t$ $1+\\sin2t+\\cos2t$ $\\sin2t-\\cos2t$ $\\sin2t+\\cos2t$ 部分分式分解得 $\\frac{2}{s^2+4}+\\frac1s-\\frac{s}{s^2+4}$，反变换为 $1+\\sin2t-\\cos2t$。",
+  "sort_order": 8
+}

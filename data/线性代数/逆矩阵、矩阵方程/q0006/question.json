@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 为 $n$ 阶可逆方阵，则 $(AB)^*=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A^*B^*$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A^{-1}B^{-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$B^*A^*$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$B^{-1}A^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由伴随矩阵定义，$(AB)(AB)^*=|AB|E$，并结合伴随矩阵乘积公式可得 $(AB)^*=B^*A^*$。",
+  "search_text": "设 $A,B$ 为 $n$ 阶可逆方阵，则 $(AB)^*=$（ ）。 $A^*B^*$ $A^{-1}B^{-1}$ $B^*A^*$ $B^{-1}A^{-1}$ 由伴随矩阵定义，$(AB)(AB)^*=|AB|E$，并结合伴随矩阵乘积公式可得 $(AB)^*=B^*A^*$。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Gamma$ 为椭圆 $x^2+y^2=a^2$ 与平面 $\\frac xa+\\frac zb=1$ 的交线（$a>0,b>0$），从 $x$ 轴正向看逆时针方向，计算 $\\oint_\\Gamma(y-z)dx+(z-x)dy+(x-y)dz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi a(a+b)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\pi a(a+b)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi a(a+b)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2\\pi a(a+b)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "图示标注：圆柱侧面有闭合曲线 $\\Gamma$，斜截面标为 $\\Sigma$；$z$ 轴向上，$y$ 轴向右，$x$ 轴斜向左下；图中标有 $a$（水平虚线段及底部和右侧）、$b$、$\\sqrt{a^2+b^2}$，曲线上有方向箭头。\n\n记 $\\Sigma$ 为平面 $\\frac{x}{a}+\\frac{z}{b}=1$ 被题设圆 $\\Gamma$ 所围部分的上侧，$\\Sigma$ 的单位法向量\n\n$$\\vec n^*=\\{\\cos\\alpha,0,\\cos\\gamma\\}=\\left\\{\\frac{b}{\\sqrt{a^2+b^2}},0,\\frac{a}{\\sqrt{a^2+b^2}}\\right\\}$$\n\n$$\\therefore\\ 原式=\\iint_\\Sigma\\begin{vmatrix}\\frac{b}{\\sqrt{a^2+b^2}}&0&\\frac{a}{\\sqrt{a^2+b^2}}\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\y-z&z-x&x-y\\end{vmatrix}dS=\\iint_\\Sigma\\left(-\\frac{2b}{\\sqrt{a^2+b^2}}+\\frac{-2a}{\\sqrt{a^2+b^2}}\\right)dS$$\n\n$$=-2\\frac{a+b}{\\sqrt{a^2+b^2}}\\iint_\\Sigma dS=-2\\frac{a+b}{\\sqrt{a^2+b^2}}\\pi\\sqrt{a^2+b^2}\\cdot a=-2\\pi a(a+b)$$",
+  "search_text": "已知 $\\Gamma$ 为椭圆 $x^2+y^2=a^2$ 与平面 $\\frac xa+\\frac zb=1$ 的交线（$a>0,b>0$），从 $x$ 轴正向看逆时针方向，计算 $\\oint_\\Gamma(y-z)dx+(z-x)dy+(x-y)dz=$（ ） $\\pi a(a+b)$ $-\\pi a(a+b)$ $2\\pi a(a+b)$ $-2\\pi a(a+b)$ 图示标注：圆柱侧面有闭合曲线 $\\Gamma$，斜截面标为 $\\Sigma$；$z$ 轴向上，$y$ 轴向右，$x$ 轴斜向左下；图中标有 $a$（水平虚线段及底部和右侧）、$b$、$\\sqrt{a^2+b^2}$，曲线上有方向箭头。\n\n记 $\\Sigma$ 为平面 $\\frac{x}{a}+\\frac{z}{b}=1$ 被题设圆 $\\Gamma$ 所围部分的上侧，$\\Sigma$ 的单位法向量\n\n$$\\vec n^*=\\{\\cos\\alpha,0,\\cos\\gamma\\}=\\left\\{\\frac{b}{\\sqrt{a^2+b^2}},0,\\frac{a}{\\sqrt{a^2+b^2}}\\right\\}$$\n\n$$\\therefore\\ 原式=\\iint_\\Sigma\\begin{vmatrix}\\frac{b}{\\sqrt{a^2+b^2}}&0&\\frac{a}{\\sqrt{a^2+b^2}}\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\y-z&z-x&x-y\\end{vmatrix}dS=\\iint_\\Sigma\\left(-\\frac{2b}{\\sqrt{a^2+b^2}}+\\frac{-2a}{\\sqrt{a^2+b^2}}\\right)dS$$\n\n$$=-2\\frac{a+b}{\\sqrt{a^2+b^2}}\\iint_\\Sigma dS=-2\\frac{a+b}{\\sqrt{a^2+b^2}}\\pi\\sqrt{a^2+b^2}\\cdot a=-2\\pi a(a+b)$$",
+  "sort_order": 13
+}

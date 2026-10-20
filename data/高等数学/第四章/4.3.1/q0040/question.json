@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "x=∫₀ᵗsin udu，y=∫₀ᵗcos udu，求dy/dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "tant"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "cotx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "cott"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "tanx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "dy/dx=cos t/sin t=cot t。",
+  "search_text": "x=∫₀ᵗsin udu，y=∫₀ᵗcos udu，求dy/dx tant cotx cott tanx dy/dx=cos t/sin t=cot t。",
+  "sort_order": 40
+}

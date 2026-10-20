@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f在[0,2]连续且严格递增，则",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀²xf(x)dx≤∫₀²f(x)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₀²xf(x)dx>∫₀²f(x)dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀²xf(x)dx=−∫₀²f(x)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "两积分相等"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "原解析图404，选项按可辨图转录。",
+  "search_text": "f在[0,2]连续且严格递增，则 ∫₀²xf(x)dx≤∫₀²f(x)dx ∫₀²xf(x)dx>∫₀²f(x)dx ∫₀²xf(x)dx=−∫₀²f(x)dx 两积分相等 原解析图404，选项按可辨图转录。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\lim_{x\\to1}\\frac{x^2-1}{x^2-x}=2$，则满足 $0<|x-1|<\\delta$ 的 $\\delta$ 最小值为（　）（其中 $\\varepsilon$ 为任意正实数）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\delta=\\frac\\varepsilon2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\delta=\\min(\\frac12,\\frac\\varepsilon2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\delta=\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不能确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "当 $0<|x-1|<\\frac12$ 时，误差可估为 $2|x-1|$，取 $\\delta=\\min(\\frac12,\\frac\\varepsilon2)$。",
+  "search_text": "已知 $\\lim_{x\\to1}\\frac{x^2-1}{x^2-x}=2$，则满足 $0<|x-1|<\\delta$ 的 $\\delta$ 最小值为（ ）（其中 $\\varepsilon$ 为任意正实数）。 $\\delta=\\frac\\varepsilon2$ $\\delta=\\min(\\frac12,\\frac\\varepsilon2)$ $\\delta=\\frac12$ 不能确定 当 $0<|x-1|<\\frac12$ 时，误差可估为 $2|x-1|$，取 $\\delta=\\min(\\frac12,\\frac\\varepsilon2)$。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两个正态总体方差σ1²、σ2²已知，独立样本检验H0:μ1−μ2=0，H1:μ1−μ2>0，应使用的检验统计量是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U=(\\bar X-\\bar Y-\\mu_0)/\\sqrt{\\sigma_1^2/n_1+\\sigma_2^2/n_2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "分母使用加权总体方差"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$T=(\\bar X-\\bar Y-\\mu_0)/(S_w\\sqrt{1/n_1+1/n_2})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F=S_1^2/S_2^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方差已知时，均值差检验使用标准正态U统计量。",
+  "search_text": "两个正态总体方差σ1²、σ2²已知，独立样本检验H0:μ1−μ2=0，H1:μ1−μ2>0，应使用的检验统计量是（）。 $U=(\\bar X-\\bar Y-\\mu_0)/\\sqrt{\\sigma_1^2/n_1+\\sigma_2^2/n_2}$ 分母使用加权总体方差 $T=(\\bar X-\\bar Y-\\mu_0)/(S_w\\sqrt{1/n_1+1/n_2})$ $F=S_1^2/S_2^2$ 方差已知时，均值差检验使用标准正态U统计量。",
+  "sort_order": 27
+}

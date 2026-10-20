@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "向量场 $H=-\\frac{y}{x^2+y^2}\\mathbf i+\\frac{x}{x^2+y^2}\\mathbf j$ 沿着闭曲线 $C$ 的环流量为（ ），其中 $C$ 不围绕 $Oz$ 轴。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\Gamma=\\oint_C\\left(-\\frac{y}{x^2+y^2}\\vec{\\mathbf i}+\\frac{x}{x^2+y^2}\\vec{\\mathbf j}\\right)\\cdot(dx\\vec{\\mathbf i}+dy\\vec{\\mathbf j})=\\oint_C\\frac{-ydx+xdy}{x^2+y^2}$\n\n∴ $\\frac{\\partial P}{\\partial y}=\\frac{y^2-x^2}{(x^2+y^2)^2}=\\frac{\\partial Q}{\\partial x},z=0$，$C$是不围绕$Oz$轴的闭曲线，故可以在$C$上缝以片不和$Oz$轴相交的曲面$S$，\n\n由斯托克斯公式\n\n$\\Gamma=\\oint_C\\frac{-ydx+xdy}{x^2+y^2}=\\iint_S0dxdy=0$",
+  "search_text": "向量场 $H=-\\frac{y}{x^2+y^2}\\mathbf i+\\frac{x}{x^2+y^2}\\mathbf j$ 沿着闭曲线 $C$ 的环流量为（ ），其中 $C$ 不围绕 $Oz$ 轴。 $4$ $2$ $0$ $3$ $\\Gamma=\\oint_C\\left(-\\frac{y}{x^2+y^2}\\vec{\\mathbf i}+\\frac{x}{x^2+y^2}\\vec{\\mathbf j}\\right)\\cdot(dx\\vec{\\mathbf i}+dy\\vec{\\mathbf j})=\\oint_C\\frac{-ydx+xdy}{x^2+y^2}$\n\n∴ $\\frac{\\partial P}{\\partial y}=\\frac{y^2-x^2}{(x^2+y^2)^2}=\\frac{\\partial Q}{\\partial x},z=0$，$C$是不围绕$Oz$轴的闭曲线，故可以在$C$上缝以片不和$Oz$轴相交的曲面$S$，\n\n由斯托克斯公式\n\n$\\Gamma=\\oint_C\\frac{-ydx+xdy}{x^2+y^2}=\\iint_S0dxdy=0$",
+  "sort_order": 13
+}

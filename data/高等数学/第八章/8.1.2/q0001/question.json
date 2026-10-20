@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次积分 $\\int_0^1x^5\\,dx\\int_{x^2}^1e^{-y^2}\\,dy=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{12}\\cdot\\frac2e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{12}(1-e^{-2})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{12}(1-\\frac2e)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{12}(2-\\frac1e)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 原式 $=\\int_0^1 e^{-y^2}\\,dy\\int_0^{\\sqrt{y}}x^5\\,dx=\\frac{1}{6}\\int_0^1 y^3e^{-y^2}\\,dy=\\frac{1}{12}(1-\\frac{2}{e})$",
+  "search_text": "二次积分 $\\int_0^1x^5\\,dx\\int_{x^2}^1e^{-y^2}\\,dy=（ ）$ $\\frac1{12}\\cdot\\frac2e$ $\\frac1{12}(1-e^{-2})$ $\\frac1{12}(1-\\frac2e)$ $\\frac1{12}(2-\\frac1e)$ 解答 原式 $=\\int_0^1 e^{-y^2}\\,dy\\int_0^{\\sqrt{y}}x^5\\,dx=\\frac{1}{6}\\int_0^1 y^3e^{-y^2}\\,dy=\\frac{1}{12}(1-\\frac{2}{e})$",
+  "sort_order": 1
+}

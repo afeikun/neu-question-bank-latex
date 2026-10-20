@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int\\frac{dx}{\\sqrt{1-x^2}+1}$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\arccos x+\\frac{1-\\sqrt{1-x^2}}x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arcsin x+\\frac{1-\\sqrt{1-x^2}}x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\arcsin x-\\frac{1-\\sqrt{1-x^2}}x+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\arccos x-\\frac{1-\\sqrt{1-x^2}}x+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $x=\\sin t$，积分化简为 $t-\\tan(t/2)+C$，故结果为 $\\arcsin x-\\frac{1-\\sqrt{1-x^2}}x+C$。",
+  "search_text": "$\\int\\frac{dx}{\\sqrt{1-x^2}+1}$ 的值为 $\\arccos x+\\frac{1-\\sqrt{1-x^2}}x+C$ $\\arcsin x+\\frac{1-\\sqrt{1-x^2}}x+C$ $\\arcsin x-\\frac{1-\\sqrt{1-x^2}}x+C$ $\\arccos x-\\frac{1-\\sqrt{1-x^2}}x+C$ 令 $x=\\sin t$，积分化简为 $t-\\tan(t/2)+C$，故结果为 $\\arcsin x-\\frac{1-\\sqrt{1-x^2}}x+C$。",
+  "sort_order": 1
+}

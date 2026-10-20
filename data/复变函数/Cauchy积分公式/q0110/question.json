@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z+4|=2}\\frac{\\sin(\\pi z/2)}{z^2+2z-3}\\,dz=(\\quad)$（方向正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi i}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{\\pi}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原解析称圆内只有奇点 $1$，并给出积分 $\\frac{\\pi i}{2}$；该结论与图示圆周/被积函数的留数符号存在疑点。",
+  "search_text": "$\\oint_{|z+4|=2}\\frac{\\sin(\\pi z/2)}{z^2+2z-3}\\,dz=(\\quad)$（方向正向）。 $\\frac{\\pi i}{2}$ $-\\frac{\\pi}{2}$ $\\frac14i$ $\\pi i$ 原解析称圆内只有奇点 $1$，并给出积分 $\\frac{\\pi i}{2}$；该结论与图示圆周/被积函数的留数符号存在疑点。",
+  "sort_order": 110
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_1^i(3z^4-2z^3)\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac35(i-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3+5i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2+3i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-6i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_1^i(3z^4-2z^3)\\,dz=\\left(\\frac35z^5-\\frac12z^4\\right)\\big|_1^i=\\frac35(i-1)$。",
+  "search_text": "$\\int_1^i(3z^4-2z^3)\\,dz=(\\quad)$。 $\\frac35(i-1)$ $3+5i$ $2+3i$ $-6i$ $\\int_1^i(3z^4-2z^3)\\,dz=\\left(\\frac35z^5-\\frac12z^4\\right)\\big|_1^i=\\frac35(i-1)$。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=\\frac{e^{1/(z-2)}}{z+i}$ 在 $z=0$ 处泰勒展开式的收敛半径是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$R=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$R=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$R=+\\infty$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$R$不确定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "奇点为 $z=-i$ 与 $z=2$，离展开中心最近距离为 $1$，故 $R=1$。",
+  "search_text": "函数 $f(z)=\\frac{e^{1/(z-2)}}{z+i}$ 在 $z=0$ 处泰勒展开式的收敛半径是（ ） $R=1$ $R=2$ $R=+\\infty$ $R$不确定 奇点为 $z=-i$ 与 $z=2$，离展开中心最近距离为 $1$，故 $R=1$。",
+  "sort_order": 28
+}

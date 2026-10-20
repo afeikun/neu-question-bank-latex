@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\frac{dy}{dx}+x(y-x)+x^3(y-x)^2=1$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=x+\\frac1{ce^{x^2/2}-x^2-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x+\\frac1{ce^{x^2/2}+x^2-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=x-\\frac1{ce^{x^2/2}-x^2+2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=x-\\frac1{ce^{x^2/2}-x^2-2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $y-x=u$，则 $\\frac{dy}{dx}=\\frac{du}{dx}+1$，于是得到伯努利方程 $\\frac{du}{dx}+xu=-x^3u^2$\n\n令 $z=u^{-1}$，上式即变为一阶线性方程 $\\frac{dz}{dx}-xz=x^3$，\n\n其通解为 $z=e^{\\frac{x^2}{2}}\\left(\\int x^3e^{-\\frac{x^2}{2}}\\,dx+c\\right)=ce^{\\frac{x^2}{2}}-x^2-2$，\n\n所以 $y=x+\\frac{1}{z}=x+\\frac{1}{ce^{\\frac{x^2}{2}}-x^2-2}$",
+  "search_text": "微分方程 $\\frac{dy}{dx}+x(y-x)+x^3(y-x)^2=1$ 的通解为（ ） $y=x+\\frac1{ce^{x^2/2}-x^2-2}$ $y=x+\\frac1{ce^{x^2/2}+x^2-2}$ $y=x-\\frac1{ce^{x^2/2}-x^2+2}$ $y=x-\\frac1{ce^{x^2/2}-x^2-2}$ 令 $y-x=u$，则 $\\frac{dy}{dx}=\\frac{du}{dx}+1$，于是得到伯努利方程 $\\frac{du}{dx}+xu=-x^3u^2$\n\n令 $z=u^{-1}$，上式即变为一阶线性方程 $\\frac{dz}{dx}-xz=x^3$，\n\n其通解为 $z=e^{\\frac{x^2}{2}}\\left(\\int x^3e^{-\\frac{x^2}{2}}\\,dx+c\\right)=ce^{\\frac{x^2}{2}}-x^2-2$，\n\n所以 $y=x+\\frac{1}{z}=x+\\frac{1}{ce^{\\frac{x^2}{2}}-x^2-2}$",
+  "sort_order": 26
+}

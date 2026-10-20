@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\arctan\\frac1{x-\\frac1x}$，则 $x=1$ 是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可去间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "跳跃间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "第二类间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "连续点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$x\\to1^-$ 与 $x\\to1^+$ 时函数极限分别为 $\\pi/2$ 与 $-\\pi/2$。",
+  "search_text": "$f(x)=\\arctan\\frac1{x-\\frac1x}$，则 $x=1$ 是（ ）。 可去间断点 跳跃间断点 第二类间断点 连续点 $x\\to1^-$ 与 $x\\to1^+$ 时函数极限分别为 $\\pi/2$ 与 $-\\pi/2$。",
+  "sort_order": 86
+}

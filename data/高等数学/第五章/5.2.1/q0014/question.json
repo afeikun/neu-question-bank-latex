@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $0\\le a_n<1/n$，下列级数中肯定收敛的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty} a_n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\sqrt{a_n}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty} a_n^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}(a_{n+1}+a_n)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$0\\le a_n^2<1/n^2$，故平方级数收敛。",
+  "search_text": "若 $0\\le a_n<1/n$，下列级数中肯定收敛的是？ $\\sum_{n=1}^{\\infty} a_n$ $\\sum_{n=1}^{\\infty}\\sqrt{a_n}$ $\\sum_{n=1}^{\\infty} a_n^2$ $\\sum_{n=1}^{\\infty}(a_{n+1}+a_n)$ $0\\le a_n^2<1/n^2$，故平方级数收敛。",
+  "sort_order": 14
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$D(\\xi)=0$是$P(\\xi=C)=1$（$C$常数）的什么条件？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "充分但非必要"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "必要但非充分"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既非充分也非必要"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方差为零当且仅当随机变量几乎处处为常数。",
+  "search_text": "$D(\\xi)=0$是$P(\\xi=C)=1$（$C$常数）的什么条件？ 充分必要条件 充分但非必要 必要但非充分 既非充分也非必要 方差为零当且仅当随机变量几乎处处为常数。",
+  "sort_order": 9
+}

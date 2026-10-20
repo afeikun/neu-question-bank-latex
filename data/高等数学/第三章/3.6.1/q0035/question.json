@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x^3(x-4)$ 在区间 $(3,+\\infty)$ 内（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "单调下降，曲线为凹"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调上升，曲线为凹"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单调下降，曲线为凸"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "单调上升，曲线为凸"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$y\\prime=4x^2(x-3)>0$，$y\\prime\\prime=12x(x-2)>0$，故单调上升且曲线凹。",
+  "search_text": "曲线 $y=x^3(x-4)$ 在区间 $(3,+\\infty)$ 内（ ）。 单调下降，曲线为凹 单调上升，曲线为凹 单调下降，曲线为凸 单调上升，曲线为凸 $y\\prime=4x^2(x-3)>0$，$y\\prime\\prime=12x(x-2)>0$，故单调上升且曲线凹。",
+  "sort_order": 35
+}

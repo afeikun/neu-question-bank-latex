@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_Lxy\\,dx+(y-x)dy$，其中 $L$ 分别为三角形边界 $ADBA$，从点 $A(1,1)$ 经点 $D(2,1)$ 到点 $B(2,3)$，其结果等于（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{10}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac83$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解：三角形周界$ADBA$：\n$$\\int_{ADBA}xy\\,dx+(y-x)dy=\\int_{AD}xy\\,dx+(y-x)dy+\\int_{DB}xy\\,dx+(y-x)dy+\\int_{BA}xy\\,dx+(y-x)dy$$\n$$=\\int_1^2x\\,dx+\\int_1^3(y-2)dy+\\int_1^0[(1+t)(1+2t)+2t]dt=\\frac{3}{2}+0+-\\frac{25}{6}=-\\frac{8}{3}$$",
+  "search_text": "计算 $\\int_Lxy\\,dx+(y-x)dy$，其中 $L$ 分别为三角形边界 $ADBA$，从点 $A(1,1)$ 经点 $D(2,1)$ 到点 $B(2,3)$，其结果等于（ ） $6$ $\\frac{10}{3}$ $4$ $-\\frac83$ 解：三角形周界$ADBA$：\n$$\\int_{ADBA}xy\\,dx+(y-x)dy=\\int_{AD}xy\\,dx+(y-x)dy+\\int_{DB}xy\\,dx+(y-x)dy+\\int_{BA}xy\\,dx+(y-x)dy$$\n$$=\\int_1^2x\\,dx+\\int_1^3(y-2)dy+\\int_1^0[(1+t)(1+2t)+2t]dt=\\frac{3}{2}+0+-\\frac{25}{6}=-\\frac{8}{3}$$",
+  "sort_order": 32
+}

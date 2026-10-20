@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\begin{cases}e^{-\\beta t},&0\\le t,\\\\0,&t<0\\end{cases}$，其中常数 $\\beta>0$。设 $g(t)=e^{i\\omega_0t}t f(t)$，则 $\\mathcal F[g(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1{(\\beta+i(\\omega-\\omega_0))^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1{(\\beta-i(\\omega-\\omega_0))^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1{(\\beta+i(\\omega+\\omega_0))^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac1{(\\beta-i(\\omega+\\omega_0))^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal F[f(t)]=\\dfrac1{\\beta+i\\omega}$。由频域微分与平移性质，$\\mathcal F[t e^{i\\omega_0t}f(t)]=\\dfrac1{(\\beta+i(\\omega-\\omega_0))^2}$。",
+  "search_text": "设 $f(t)=\\begin{cases}e^{-\\beta t},&0\\le t,\\\\0,&t<0\\end{cases}$，其中常数 $\\beta>0$。设 $g(t)=e^{i\\omega_0t}t f(t)$，则 $\\mathcal F[g(t)]=(\\ \\ )$。 $\\dfrac1{(\\beta+i(\\omega-\\omega_0))^2}$ $\\dfrac1{(\\beta-i(\\omega-\\omega_0))^2}$ $\\dfrac1{(\\beta+i(\\omega+\\omega_0))^2}$ $\\dfrac1{(\\beta-i(\\omega+\\omega_0))^2}$ $\\mathcal F[f(t)]=\\dfrac1{\\beta+i\\omega}$。由频域微分与平移性质，$\\mathcal F[t e^{i\\omega_0t}f(t)]=\\dfrac1{(\\beta+i(\\omega-\\omega_0))^2}$。",
+  "sort_order": 5
+}

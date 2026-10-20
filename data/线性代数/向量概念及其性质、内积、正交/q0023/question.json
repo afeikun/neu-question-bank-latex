@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知向量 $\\alpha_1=(1,2,3)^T,\\alpha_2=(3,2,1)^T$，则 $3\\alpha_1+2\\alpha_2=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(9,10,11)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(10,9,11)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(9,12,11)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(10,12,11)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$3(1,2,3)+2(3,2,1)=(9,10,11)^T$，选项 1。",
+  "search_text": "已知向量 $\\alpha_1=(1,2,3)^T,\\alpha_2=(3,2,1)^T$，则 $3\\alpha_1+2\\alpha_2=(\\quad)$。 $(9,10,11)^T$ $(10,9,11)^T$ $(9,12,11)^T$ $(10,12,11)^T$ $3(1,2,3)+2(3,2,1)=(9,10,11)^T$，选项 1。",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设I₁=∫₀^{π/2}(sin x)/x dx，I₂=∫₀^{π/2}x/(sin x)dx，比较",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "I₂<1<I₁"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1<I₁<I₂"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "I₁<I₂<1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "I₁<1<I₂"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由sin x/x与x/sin x比较并用凹性可得1<I₁<I₂。",
+  "search_text": "设I₁=∫₀^{π/2}(sin x)/x dx，I₂=∫₀^{π/2}x/(sin x)dx，比较 I₂<1<I₁ 1<I₁<I₂ I₁<I₂<1 I₁<1<I₂ 由sin x/x与x/sin x比较并用凹性可得1<I₁<I₂。",
+  "sort_order": 5
+}

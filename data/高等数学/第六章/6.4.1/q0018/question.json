@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $\\begin{cases}x=3z-5\\\\y=2z-8\\end{cases}$ 的对称式方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x+5}{3}=\\frac{y+8}{2}=\\frac z1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-5}{3}=\\frac{y-8}{-2}=\\frac z1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x+5}{3}=\\frac{y+8}{-2}=\\frac z1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x-5}{3}=\\frac{y-8}{2}=\\frac z1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：直线上任取一点，令 $z=0$，则 $x=-5，y=-8$，即点 $(-5,-8,0)$ 在直线上；\n\n直线的方向向量 $\\vec{s}=\\vec{n}_1\\times\\vec{n}_2=$\n$$\n\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&0&-3\\\\0&1&-2\\end{vmatrix}=(3,2,1)。\n$$\n\n所以直线的对称式方程为\n$$\n\\frac{x+5}{3}=\\frac{y+8}{2}=\\frac{z}{1}。\n$$",
+  "search_text": "直线 $\\begin{cases}x=3z-5\\\\y=2z-8\\end{cases}$ 的对称式方程为(\\quad)。 $\\frac{x+5}{3}=\\frac{y+8}{2}=\\frac z1$ $\\frac{x-5}{3}=\\frac{y-8}{-2}=\\frac z1$ $\\frac{x+5}{3}=\\frac{y+8}{-2}=\\frac z1$ $\\frac{x-5}{3}=\\frac{y-8}{2}=\\frac z1$ 解答：直线上任取一点，令 $z=0$，则 $x=-5，y=-8$，即点 $(-5,-8,0)$ 在直线上；\n\n直线的方向向量 $\\vec{s}=\\vec{n}_1\\times\\vec{n}_2=$\n$$\n\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&0&-3\\\\0&1&-2\\end{vmatrix}=(3,2,1)。\n$$\n\n所以直线的对称式方程为\n$$\n\\frac{x+5}{3}=\\frac{y+8}{2}=\\frac{z}{1}。\n$$",
+  "sort_order": 18
+}

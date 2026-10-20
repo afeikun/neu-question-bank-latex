@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=f(2x-y)+g(x,xy)$，求 $z_{xy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2f''+g_{21}''+g_2'+xyg_{22}''$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2f''+g_{21}''+g_2'+yg_{22}''$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2f''+xg_{21}''+g_2'+xyg_{22}''$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2f''+xg_{21}''+g_2'+yg_{22}''$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由于混合偏导数在连续条件下与求导次序无关，可以先求 $\\frac{\\partial^2z}{\\partial x\\partial y}$，也可以先求 $\\frac{\\partial^2z}{\\partial y\\partial x}$。\n\n方法一：先求 $\\frac{\\partial z}{\\partial x}$，由复合函数求导法，\n\n$\\frac{\\partial z}{\\partial x}=f'\\frac{\\partial}{\\partial x}(2x-y)+g_1'\\frac{\\partial}{\\partial x}(x)+g_2'\\frac{\\partial}{\\partial x}(xy)=2f'+g_1'+yg_2'$\n\n再对 $y$ 求偏导，得\n\n$\\frac{\\partial^2z}{\\partial x\\partial y}=\\frac{\\partial}{\\partial y}(2f'+g_1'+yg_2')=2f''\\frac{\\partial}{\\partial y}(2x-y)$\n\n$+\\left[g_{11}''\\frac{\\partial}{\\partial y}(x)+g_{12}''\\frac{\\partial}{\\partial y}(xy)\\right]+\\left[g_2'+yg_{21}''\\frac{\\partial}{\\partial y}(x)+yg_{22}''\\frac{\\partial}{\\partial y}(xy)\\right]$\n\n$=-2f''+g_{11}''\\cdot0+xg_{12}''+g_2'+yg_{21}''\\cdot0+xyg_{22}''$\n\n$=-2f''+xg_{12}''+g_2'+xyg_{22}''$。因此选 B。\n\n方法二：先求 $\\frac{\\partial z}{\\partial y}$，$\\frac{\\partial z}{\\partial y}=f'\\frac{\\partial}{\\partial y}(2x-y)+g_1'\\frac{\\partial}{\\partial y}(x)+g_2'\\frac{\\partial}{\\partial y}(xy)=-f'+xg_2'$，\n\n再对 $x$ 求偏导数，得 $\\frac{\\partial^2z}{\\partial x\\partial y}=\\frac{\\partial^2z}{\\partial y\\partial x}=\\frac{\\partial}{\\partial x}(-f'+xg_2')$\n\n$=-f''\\frac{\\partial}{\\partial x}(2x-y)+g_2'+xg_{21}''\\frac{\\partial}{\\partial x}(x)+xg_{22}''\\frac{\\partial}{\\partial x}(xy)$\n\n$=-2f''+g_2'+xg_{21}''+xyg_{22}''$。\n\n【相关知识点】复合函数求导法则：若 $u=u(x,y)$ 和 $v=v(x,y)$ 在点 $(x,y)$ 处偏导数存在，函数 $z=f(u,v)$ 在对应点 $(u,v)$ 具有连续偏导数，则复合函数 $z=f[u(x,y),v(x,y)]$ 在点 $(x,y)$ 处的偏导数存在，且\n\n$\\frac{\\partial z}{\\partial x}=\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial x}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial x},\\quad \\frac{\\partial z}{\\partial y}=\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial y}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial y}$",
+  "search_text": "设 $z=f(2x-y)+g(x,xy)$，求 $z_{xy}$。 $-2f''+g_{21}''+g_2'+xyg_{22}''$ $-2f''+g_{21}''+g_2'+yg_{22}''$ $-2f''+xg_{21}''+g_2'+xyg_{22}''$ $-2f''+xg_{21}''+g_2'+yg_{22}''$ 由于混合偏导数在连续条件下与求导次序无关，可以先求 $\\frac{\\partial^2z}{\\partial x\\partial y}$，也可以先求 $\\frac{\\partial^2z}{\\partial y\\partial x}$。\n\n方法一：先求 $\\frac{\\partial z}{\\partial x}$，由复合函数求导法，\n\n$\\frac{\\partial z}{\\partial x}=f'\\frac{\\partial}{\\partial x}(2x-y)+g_1'\\frac{\\partial}{\\partial x}(x)+g_2'\\frac{\\partial}{\\partial x}(xy)=2f'+g_1'+yg_2'$\n\n再对 $y$ 求偏导，得\n\n$\\frac{\\partial^2z}{\\partial x\\partial y}=\\frac{\\partial}{\\partial y}(2f'+g_1'+yg_2')=2f''\\frac{\\partial}{\\partial y}(2x-y)$\n\n$+\\left[g_{11}''\\frac{\\partial}{\\partial y}(x)+g_{12}''\\frac{\\partial}{\\partial y}(xy)\\right]+\\left[g_2'+yg_{21}''\\frac{\\partial}{\\partial y}(x)+yg_{22}''\\frac{\\partial}{\\partial y}(xy)\\right]$\n\n$=-2f''+g_{11}''\\cdot0+xg_{12}''+g_2'+yg_{21}''\\cdot0+xyg_{22}''$\n\n$=-2f''+xg_{12}''+g_2'+xyg_{22}''$。因此选 B。\n\n方法二：先求 $\\frac{\\partial z}{\\partial y}$，$\\frac{\\partial z}{\\partial y}=f'\\frac{\\partial}{\\partial y}(2x-y)+g_1'\\frac{\\partial}{\\partial y}(x)+g_2'\\frac{\\partial}{\\partial y}(xy)=-f'+xg_2'$，\n\n再对 $x$ 求偏导数，得 $\\frac{\\partial^2z}{\\partial x\\partial y}=\\frac{\\partial^2z}{\\partial y\\partial x}=\\frac{\\partial}{\\partial x}(-f'+xg_2')$\n\n$=-f''\\frac{\\partial}{\\partial x}(2x-y)+g_2'+xg_{21}''\\frac{\\partial}{\\partial x}(x)+xg_{22}''\\frac{\\partial}{\\partial x}(xy)$\n\n$=-2f''+g_2'+xg_{21}''+xyg_{22}''$。\n\n【相关知识点】复合函数求导法则：若 $u=u(x,y)$ 和 $v=v(x,y)$ 在点 $(x,y)$ 处偏导数存在，函数 $z=f(u,v)$ 在对应点 $(u,v)$ 具有连续偏导数，则复合函数 $z=f[u(x,y),v(x,y)]$ 在点 $(x,y)$ 处的偏导数存在，且\n\n$\\frac{\\partial z}{\\partial x}=\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial x}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial x},\\quad \\frac{\\partial z}{\\partial y}=\\frac{\\partial f}{\\partial u}\\frac{\\partial u}{\\partial y}+\\frac{\\partial f}{\\partial v}\\frac{\\partial v}{\\partial y}$",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若∫₀^{f(x)}t²dt=x³+x²，且f连续，求f(2)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "36"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∛36"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "⁶√36"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "6"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由f(0)=0及f(x)³/3=x³+x²，代入x=2得f(2)=∛36。",
+  "search_text": "若∫₀^{f(x)}t²dt=x³+x²，且f连续，求f(2) 36 ∛36 ⁶√36 6 由f(0)=0及f(x)³/3=x³+x²，代入x=2得f(2)=∛36。",
+  "sort_order": 2
+}

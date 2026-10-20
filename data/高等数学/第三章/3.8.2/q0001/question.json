@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\sqrt{4ax-x^2}$（$a>0$）在点 $(a,\\sqrt3a)$ 处的曲率 $k=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{2a}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由曲率公式 $k=|y\\prime\\prime|/(1+y\\prime^2)^{3/2}$，代入该点的导数值可得 $k=1/(2a)$。",
+  "search_text": "曲线 $y=\\sqrt{4ax-x^2}$（$a>0$）在点 $(a,\\sqrt3a)$ 处的曲率 $k=$（ ）。 $\\frac1{2a}$ $2a$ $a$ $\\frac1a$ 由曲率公式 $k=|y\\prime\\prime|/(1+y\\prime^2)^{3/2}$，代入该点的导数值可得 $k=1/(2a)$。",
+  "sort_order": 1
+}

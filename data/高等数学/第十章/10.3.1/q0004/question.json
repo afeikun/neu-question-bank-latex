@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime-\\frac1x y=\\frac5x$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=-5+cx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=-5c+x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac cx+x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=5+cx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "该方程是一阶线性非齐次方程，其中\n\n$P(x)=-\\frac{1}{x},Q(x)=\\frac{5}{x}$\n\n利用求解公式，得 $y=e^{\\int\\frac{1}{x}dx}\\left(\\int\\frac{5}{x}e^{-\\int\\frac{1}{x}dx}dx+c\\right)=x(-\\frac{5}{x}+c)=-5+cx$",
+  "search_text": "微分方程 $y\\prime-\\frac1x y=\\frac5x$ 的解为（ ） $y=-5+cx$ $y=-5c+x$ $y=\\frac cx+x$ $y=5+cx$ 该方程是一阶线性非齐次方程，其中\n\n$P(x)=-\\frac{1}{x},Q(x)=\\frac{5}{x}$\n\n利用求解公式，得 $y=e^{\\int\\frac{1}{x}dx}\\left(\\int\\frac{5}{x}e^{-\\int\\frac{1}{x}dx}dx+c\\right)=x(-\\frac{5}{x}+c)=-5+cx$",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=\\\\arctan(x/y)$ 在 $(0,1)$ 的梯度等于。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\\\mathbf j$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\\\mathbf i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\\\mathbf j$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\\\mathbf i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方法一：由 $f(x,y)=\\arctan\\frac{x}{y}$ 知\n\n$$\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,1)}=\\left.\\frac{\\frac{1}{y}}{1+\\left(\\frac{x}{y}\\right)^2}\\right|_{(0,1)}=1,\\quad \\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}=\\left.\\frac{-\\frac{x}{y^2}}{1+\\left(\\frac{x}{y}\\right)^2}\\right|_{(0,1)}=0,$$\n\n所以 $\\operatorname{grad}f(0,1)=\\vec{i}$。\n\n方法二：由 $f(x,y)=\\arctan\\frac{x}{y}$ 知\n\n$$\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,1)}=\\left.\\frac{d}{dx}f(x,1)\\right|_{x=0}=\\left.\\frac{d}{dx}\\arctan x\\right|_{x=0}=\\left.\\frac{1}{1+x^2}\\right|_{x=0}=1$$\n\n$$\\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}=\\left.\\frac{d}{dy}f(0,y)\\right|_{y=1}=0$$\n\n所以 $\\operatorname{grad}f(0,1)=\\vec{i}$。",
+  "search_text": "函数 $f(x,y)=\\\\arctan(x/y)$ 在 $(0,1)$ 的梯度等于。 $\\\\mathbf j$ $\\\\mathbf i$ $-\\\\mathbf j$ $-\\\\mathbf i$ 方法一：由 $f(x,y)=\\arctan\\frac{x}{y}$ 知\n\n$$\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,1)}=\\left.\\frac{\\frac{1}{y}}{1+\\left(\\frac{x}{y}\\right)^2}\\right|_{(0,1)}=1,\\quad \\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}=\\left.\\frac{-\\frac{x}{y^2}}{1+\\left(\\frac{x}{y}\\right)^2}\\right|_{(0,1)}=0,$$\n\n所以 $\\operatorname{grad}f(0,1)=\\vec{i}$。\n\n方法二：由 $f(x,y)=\\arctan\\frac{x}{y}$ 知\n\n$$\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,1)}=\\left.\\frac{d}{dx}f(x,1)\\right|_{x=0}=\\left.\\frac{d}{dx}\\arctan x\\right|_{x=0}=\\left.\\frac{1}{1+x^2}\\right|_{x=0}=1$$\n\n$$\\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}=\\left.\\frac{d}{dy}f(0,y)\\right|_{y=1}=0$$\n\n所以 $\\operatorname{grad}f(0,1)=\\vec{i}$。",
+  "sort_order": 33
+}

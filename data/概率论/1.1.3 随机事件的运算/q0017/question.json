@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设事件 $A,B,C$ 满足 $ABC\\ne\\varnothing$，则下列表示不正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A\\cup B\\cup C=A\\overline B\\overline C+\\overline A B\\overline C+\\overline A\\overline B C+ABC$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$AB\\cup C=AB\\overline C+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$B-AC=\\overline A B\\overline C+\\overline A BC+AB\\overline C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$B-AC=\\overline B C+\\overline A BC$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$A\\cup B\\cup C$ 还包含只发生两个事件的情形；选项 1 的展开式遗漏了这些部分，故不正确。",
+  "search_text": "设事件 $A,B,C$ 满足 $ABC\\ne\\varnothing$，则下列表示不正确的是(\\quad)。 $A\\cup B\\cup C=A\\overline B\\overline C+\\overline A B\\overline C+\\overline A\\overline B C+ABC$ $AB\\cup C=AB\\overline C+C$ $B-AC=\\overline A B\\overline C+\\overline A BC+AB\\overline C$ $B-AC=\\overline B C+\\overline A BC$ $A\\cup B\\cup C$ 还包含只发生两个事件的情形；选项 1 的展开式遗漏了这些部分，故不正确。",
+  "sort_order": 17
+}

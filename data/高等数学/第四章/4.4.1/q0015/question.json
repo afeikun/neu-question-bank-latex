@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "F(x)=∫ₓ^{x+2π}e^{sin t}cos t dt，判断F(x)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "负常数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "正常数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不是常数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "常数0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "被积函数原函数为e^{sin t}，区间长度为周期，积分恒为0。",
+  "search_text": "F(x)=∫ₓ^{x+2π}e^{sin t}cos t dt，判断F(x) 负常数 正常数 不是常数 常数0 被积函数原函数为e^{sin t}，区间长度为周期，积分恒为0。",
+  "sort_order": 15
+}

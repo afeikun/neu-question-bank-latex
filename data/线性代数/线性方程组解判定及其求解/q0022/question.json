@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程组 $\\begin{cases}x_1+2x_2+3x_3=0,\\\\3x_1+6x_2+10x_3=0,\\\\2x_1+5x_2+7x_3=0,\\\\x_1+2x_2+4x_3=0\\end{cases}$ 的解的情形是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "基础解系中有一个向量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "基础解系中有两个向量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "有唯一解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对方程组的系数矩阵进行初等行变换得 $\\begin{pmatrix}1&2&3\\\\3&6&10\\\\2&5&7\\\\1&2&4\\end{pmatrix}\\to\\begin{pmatrix}1&2&3\\\\0&0&1\\\\0&1&1\\\\0&0&1\\end{pmatrix}\\to\\begin{pmatrix}1&2&3\\\\0&1&0\\\\0&0&1\\\\0&0&0\\end{pmatrix}$，由 $r(A)=3$ 可知，线性方程组仅有唯一零解。",
+  "search_text": "方程组 $\\begin{cases}x_1+2x_2+3x_3=0,\\\\3x_1+6x_2+10x_3=0,\\\\2x_1+5x_2+7x_3=0,\\\\x_1+2x_2+4x_3=0\\end{cases}$ 的解的情形是（ ）。 基础解系中有一个向量 基础解系中有两个向量 有唯一解 无解 对方程组的系数矩阵进行初等行变换得 $\\begin{pmatrix}1&2&3\\\\3&6&10\\\\2&5&7\\\\1&2&4\\end{pmatrix}\\to\\begin{pmatrix}1&2&3\\\\0&0&1\\\\0&1&1\\\\0&0&1\\end{pmatrix}\\to\\begin{pmatrix}1&2&3\\\\0&1&0\\\\0&0&1\\\\0&0&0\\end{pmatrix}$，由 $r(A)=3$ 可知，线性方程组仅有唯一零解。",
+  "sort_order": 22
+}

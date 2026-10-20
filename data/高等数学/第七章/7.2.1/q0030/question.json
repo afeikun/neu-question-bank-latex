@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处具有偏导数是它在该点处存在全微分的(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必要而非充分条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "充分而非必要条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既非充分又非必要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "函数在点 $(x_0,y_0)$ 可微，则函数在点 $(x_0,y_0)$ 的偏导数必定存在，函数在点 $(x_0,y_0)$ 存在偏导数未必可微，例如 $f(x,y)=\\begin{cases}\\frac{xy}{\\sqrt{x^2+y^2}},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$，在 $(0,0)$ 点偏导数存在，但不可微。",
+  "search_text": "函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处具有偏导数是它在该点处存在全微分的(\\quad)。 充分必要条件 必要而非充分条件 充分而非必要条件 既非充分又非必要条件 函数在点 $(x_0,y_0)$ 可微，则函数在点 $(x_0,y_0)$ 的偏导数必定存在，函数在点 $(x_0,y_0)$ 存在偏导数未必可微，例如 $f(x,y)=\\begin{cases}\\frac{xy}{\\sqrt{x^2+y^2}},&(x,y)\\ne(0,0)\\\\0,&(x,y)=(0,0)\\end{cases}$，在 $(0,0)$ 点偏导数存在，但不可微。",
+  "sort_order": 30
+}

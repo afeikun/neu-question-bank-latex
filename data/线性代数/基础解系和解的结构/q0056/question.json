@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在非齐次方程组 $AX=b$ 有解时，若它的全部解可表示为 $X=X_0+\\sum_{j=1}^{n-r}k_jv_j$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_0$ 和 $\\sum_{j=1}^{n-r}k_jv_j$ 均为 $AX=0$ 的解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X_0$ 是 $AX=b$ 的解，$\\sum_{j=1}^{n-r}k_jv_j$ 是 $AX=0$ 的解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X_0$ 是 $AX=0$ 的解，$\\sum_{j=1}^{n-r}k_jv_j$ 是 $AX=b$ 的解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X_0$ 和 $\\sum_{j=1}^{n-r}k_jv_j$ 均为 $AX=b$ 的解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "非齐次方程组通解由一个特解与对应齐次方程组的通解相加构成。因此 $X_0$ 是 $AX=b$ 的解，而参数和是 $AX=0$ 的解。",
+  "search_text": "在非齐次方程组 $AX=b$ 有解时，若它的全部解可表示为 $X=X_0+\\sum_{j=1}^{n-r}k_jv_j$，则（ ）。 $X_0$ 和 $\\sum_{j=1}^{n-r}k_jv_j$ 均为 $AX=0$ 的解 $X_0$ 是 $AX=b$ 的解，$\\sum_{j=1}^{n-r}k_jv_j$ 是 $AX=0$ 的解 $X_0$ 是 $AX=0$ 的解，$\\sum_{j=1}^{n-r}k_jv_j$ 是 $AX=b$ 的解 $X_0$ 和 $\\sum_{j=1}^{n-r}k_jv_j$ 均为 $AX=b$ 的解 非齐次方程组通解由一个特解与对应齐次方程组的通解相加构成。因此 $X_0$ 是 $AX=b$ 的解，而参数和是 $AX=0$ 的解。",
+  "sort_order": 56
+}

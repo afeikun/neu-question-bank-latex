@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知向量 $\\vec a,\\vec b$ 的夹角 $\\theta=\\frac{3\\pi}{4}$，且 $|\\vec a|=\\sqrt2$，$|\\vec b|=3$，则 $|\\vec a-\\vec b|$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\sqrt5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{17}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\sqrt2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$|\\vec a-\\vec b|^2=2-2\\sqrt2\\cdot3\\cos\\frac{3\\pi}{4}+9=17$，故为 $\\sqrt{17}$。",
+  "search_text": "已知向量 $\\vec a,\\vec b$ 的夹角 $\\theta=\\frac{3\\pi}{4}$，且 $|\\vec a|=\\sqrt2$，$|\\vec b|=3$，则 $|\\vec a-\\vec b|$ 为(\\quad)。 $2\\sqrt5$ $4$ $\\sqrt{17}$ $3\\sqrt2$ $|\\vec a-\\vec b|^2=2-2\\sqrt2\\cdot3\\cos\\frac{3\\pi}{4}+9=17$，故为 $\\sqrt{17}$。",
+  "sort_order": 30
+}

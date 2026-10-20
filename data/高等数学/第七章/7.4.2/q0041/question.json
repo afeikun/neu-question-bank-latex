@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x,y$ 由 $x^2-y^2+2r=0$ 及 $xy-s=0$ 确定为 $r,s$ 的函数，求 $x_r$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac y{x^2+y^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac y{x^2+y^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac x{x^2+y^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac x{x^2+y^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\left\\{\\begin{array}{l}2x\\,dx-2y\\,dy+2\\,dr=0\\\\x\\,dy+y\\,dx-ds=0\\end{array}\\right.$ 可得：$dx=\\frac{y\\,ds-x\\,dr}{x^2+y^2},\\quad \\frac{\\partial x}{\\partial r}=-\\frac{x}{x^2+y^2}$",
+  "search_text": "设 $x,y$ 由 $x^2-y^2+2r=0$ 及 $xy-s=0$ 确定为 $r,s$ 的函数，求 $x_r$。 $\\frac y{x^2+y^2}$ $-\\frac y{x^2+y^2}$ $\\frac x{x^2+y^2}$ $-\\frac x{x^2+y^2}$ $\\left\\{\\begin{array}{l}2x\\,dx-2y\\,dy+2\\,dr=0\\\\x\\,dy+y\\,dx-ds=0\\end{array}\\right.$ 可得：$dx=\\frac{y\\,ds-x\\,dr}{x^2+y^2},\\quad \\frac{\\partial x}{\\partial r}=-\\frac{x}{x^2+y^2}$",
+  "sort_order": 41
+}

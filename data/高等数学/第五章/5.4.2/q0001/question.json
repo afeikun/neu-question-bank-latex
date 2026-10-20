@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f$ 在 $x_0$ 邻域内任意阶可导，Taylor 级数 $\\sum_{n=0}^{\\infty} f^{(n)}(x_0)(x-x_0)^n/n!$ 的和函数是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可能处处不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必是 $f(x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不是 $f(x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不一定是 $f(x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "Taylor 级数等于函数还需满足余项趋于零，单有任意阶可导不足以保证。",
+  "search_text": "若 $f$ 在 $x_0$ 邻域内任意阶可导，Taylor 级数 $\\sum_{n=0}^{\\infty} f^{(n)}(x_0)(x-x_0)^n/n!$ 的和函数是？ 可能处处不存在 必是 $f(x)$ 不是 $f(x)$ 不一定是 $f(x)$ Taylor 级数等于函数还需满足余项趋于零，单有任意阶可导不足以保证。",
+  "sort_order": 1
+}

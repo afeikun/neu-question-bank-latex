@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=e^{2t}+5\\delta(t)$，则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{5s-9}{s-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{5s+9}{s-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{5s-9}{s+2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{5s+9}{s+2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F(s)=\\mathcal L[e^{2t}]+5\\mathcal L[\\delta(t)]=\\dfrac1{s-2}+5=\\dfrac{5s-9}{s-2}$。",
+  "search_text": "设 $f(t)=e^{2t}+5\\delta(t)$，则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac{5s-9}{s-2}$ $\\dfrac{5s+9}{s-2}$ $\\dfrac{5s-9}{s+2}$ $\\dfrac{5s+9}{s+2}$ $F(s)=\\mathcal L[e^{2t}]+5\\mathcal L[\\delta(t)]=\\dfrac1{s-2}+5=\\dfrac{5s-9}{s-2}$。",
+  "sort_order": 11
+}

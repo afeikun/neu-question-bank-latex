@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程组 $x=-u^2+v,y=u+v^2$ 确定反函数组，求下列偏导中不正确的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$u_x=-\\frac{2v}{4uv+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$v_x=\\frac1{4uv+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$v_y=-\\frac{2u}{4uv+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$u_y=\\frac1{4uv+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由\n$$\n\\begin{cases}\nu=u(x,y)\\\\\nv=v(x,y)\n\\end{cases}\n$$\n在题设方程组两边对 $x$ 求偏导，得\n$$\n\\begin{cases}\n1=-2u\\cdot\\frac{\\partial u}{\\partial x}+\\frac{\\partial v}{\\partial x}\\\\\n0=\\frac{\\partial u}{\\partial x}+2v\\cdot\\frac{\\partial v}{\\partial x}\n\\end{cases}\n$$\n$$\n\\frac{\\partial u}{\\partial x}=\\frac{-2v}{4uv+1},\\quad\n\\frac{\\partial v}{\\partial x}=\\frac{1}{4uv+1}\n$$\n同理，在题设方程组两边对 $y$ 求偏导，可得\n$$\n\\frac{\\partial u}{\\partial y}=\\frac{1}{4uv+1},\\quad\n\\frac{\\partial v}{\\partial y}=\\frac{2u}{4uv+1}\n$$",
+  "search_text": "方程组 $x=-u^2+v,y=u+v^2$ 确定反函数组，求下列偏导中不正确的是哪一个？ $u_x=-\\frac{2v}{4uv+1}$ $v_x=\\frac1{4uv+1}$ $v_y=-\\frac{2u}{4uv+1}$ $u_y=\\frac1{4uv+1}$ 由\n$$\n\\begin{cases}\nu=u(x,y)\\\\\nv=v(x,y)\n\\end{cases}\n$$\n在题设方程组两边对 $x$ 求偏导，得\n$$\n\\begin{cases}\n1=-2u\\cdot\\frac{\\partial u}{\\partial x}+\\frac{\\partial v}{\\partial x}\\\\\n0=\\frac{\\partial u}{\\partial x}+2v\\cdot\\frac{\\partial v}{\\partial x}\n\\end{cases}\n$$\n$$\n\\frac{\\partial u}{\\partial x}=\\frac{-2v}{4uv+1},\\quad\n\\frac{\\partial v}{\\partial x}=\\frac{1}{4uv+1}\n$$\n同理，在题设方程组两边对 $y$ 求偏导，可得\n$$\n\\frac{\\partial u}{\\partial y}=\\frac{1}{4uv+1},\\quad\n\\frac{\\partial v}{\\partial y}=\\frac{2u}{4uv+1}\n$$",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 是连续函数，$D:x^2+y^2\\leq a^2(a>0)$，则二重积分 $\\iint_Df(x,y)dxdy$ 可化累次积分为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2a\\int_0^a dy\\int_{-\\sqrt{a^2-y^2}}^{\\sqrt{a^2-y^2}}f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\int_0^a dy\\int_{-\\sqrt{a^2-y^2}}^{\\sqrt{a^2-y^2}}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{-a}^adx\\int_{-\\sqrt{a^2-x^2}}^{\\sqrt{a^2-x^2}}f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\int_0^adx\\int_{-\\sqrt{a^2-x^2}}^{\\sqrt{a^2-x^2}}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 原式=$\\int_{-a}^{a}dx\\int_{-\\sqrt{a^2-x^2}}^{\\sqrt{a^2-x^2}}f(x,y)dy$，原式=$\\int_{-a}^{a}dy\\int_{-\\sqrt{a^2-y^2}}^{\\sqrt{a^2-y^2}}f(x,y)dx$。",
+  "search_text": "设 $f(x,y)$ 是连续函数，$D:x^2+y^2\\leq a^2(a>0)$，则二重积分 $\\iint_Df(x,y)dxdy$ 可化累次积分为[\\quad] $2a\\int_0^a dy\\int_{-\\sqrt{a^2-y^2}}^{\\sqrt{a^2-y^2}}f(x,y)dx$ $2\\int_0^a dy\\int_{-\\sqrt{a^2-y^2}}^{\\sqrt{a^2-y^2}}f(x,y)dx$ $\\int_{-a}^adx\\int_{-\\sqrt{a^2-x^2}}^{\\sqrt{a^2-x^2}}f(x,y)dy$ $2\\int_0^adx\\int_{-\\sqrt{a^2-x^2}}^{\\sqrt{a^2-x^2}}f(x,y)dy$ 解答 原式=$\\int_{-a}^{a}dx\\int_{-\\sqrt{a^2-x^2}}^{\\sqrt{a^2-x^2}}f(x,y)dy$，原式=$\\int_{-a}^{a}dy\\int_{-\\sqrt{a^2-y^2}}^{\\sqrt{a^2-y^2}}f(x,y)dx$。",
+  "sort_order": 15
+}

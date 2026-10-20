@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过原点且与两直线 $L_1:\\begin{cases}x=1\\\\y=t-1\\\\z=t+2\\end{cases}$，$L_2:\\frac{x+1}{1}=\\frac{y+2}{2}=\\frac{z-1}{1}$ 都平行的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-y-z=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-z=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+z=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-y+z=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方向向量叉积给法向量 $(-1,1,-1)$，过原点得 $x-y+z=0$。",
+  "search_text": "过原点且与两直线 $L_1:\\begin{cases}x=1\\\\y=t-1\\\\z=t+2\\end{cases}$，$L_2:\\frac{x+1}{1}=\\frac{y+2}{2}=\\frac{z-1}{1}$ 都平行的平面方程为(\\quad)。 $x-y-z=0$ $x-z=0$ $x+z=0$ $x-y+z=0$ 方向向量叉积给法向量 $(-1,1,-1)$，过原点得 $x-y+z=0$。",
+  "sort_order": 36
+}

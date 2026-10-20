@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 是空间 $V$ 的一个基，$\\beta_1=\\alpha_1+\\alpha_2-2\\alpha_3$，$\\beta_2=\\alpha_1-\\alpha_2-\\alpha_3$，$\\beta_3=\\alpha_1+\\alpha_3$ 是 $V$ 的另外一个基，则向量 $\\gamma=6\\beta_1-\\beta_2-\\beta_3$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1,2,4)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(4,7,-10)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1,2,3)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(4,7,-12)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由 $\\beta_1,\\beta_2,\\beta_3$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标组成矩阵 $C=\\begin{pmatrix}1&1&1\\\\1&-1&0\\\\-2&-1&1\\end{pmatrix}$。因此 $\\gamma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $C(6,-1,-1)^T=(4,7,-12)^T$。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 是空间 $V$ 的一个基，$\\beta_1=\\alpha_1+\\alpha_2-2\\alpha_3$，$\\beta_2=\\alpha_1-\\alpha_2-\\alpha_3$，$\\beta_3=\\alpha_1+\\alpha_3$ 是 $V$ 的另外一个基，则向量 $\\gamma=6\\beta_1-\\beta_2-\\beta_3$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标是（ ）。 $(1,2,4)^T$ $(4,7,-10)^T$ $(1,2,3)^T$ $(4,7,-12)^T$ 由 $\\beta_1,\\beta_2,\\beta_3$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标组成矩阵 $C=\\begin{pmatrix}1&1&1\\\\1&-1&0\\\\-2&-1&1\\end{pmatrix}$。因此 $\\gamma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的坐标为 $C(6,-1,-1)^T=(4,7,-12)^T$。",
+  "sort_order": 11
+}

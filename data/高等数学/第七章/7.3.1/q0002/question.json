@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=\\frac yx$ 在 $x=2,y=1,\\Delta x=0.1,\\Delta y=-0.2$ 时的全增量 $\\Delta z$ 和全微分 $dz$ 分别为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.119,0.125$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-0.119,-0.125$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.119,-0.125$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-0.119,0.125$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\Delta z=\\frac{y+\\Delta y}{x+\\Delta x}-\\frac{y}{x},\\ dz=-\\frac{y}{x^2}\\,dx+\\frac{1}{x}\\,dy,\\ 当x=2,\\ y=1,\\Delta x=0.1,\\Delta y=-0.2时，$\n\n$\\left.\\Delta z\\right|_{\\substack{x=2\\\\y=1}}=\\frac{1-0.2}{2+0.1}-\\frac{1}{2}=\\frac{0.8}{2.1}-0.5=-0.119,\\quad \\left.dz\\right|_{\\substack{x=2\\\\y=1}}=-\\frac{1}{4}\\cdot0.1+\\frac{1}{2}\\cdot(-0.2)=-0.125$",
+  "search_text": "函数 $z=\\frac yx$ 在 $x=2,y=1,\\Delta x=0.1,\\Delta y=-0.2$ 时的全增量 $\\Delta z$ 和全微分 $dz$ 分别为(\\quad)。 $0.119,0.125$ $-0.119,-0.125$ $0.119,-0.125$ $-0.119,0.125$ $\\Delta z=\\frac{y+\\Delta y}{x+\\Delta x}-\\frac{y}{x},\\ dz=-\\frac{y}{x^2}\\,dx+\\frac{1}{x}\\,dy,\\ 当x=2,\\ y=1,\\Delta x=0.1,\\Delta y=-0.2时，$\n\n$\\left.\\Delta z\\right|_{\\substack{x=2\\\\y=1}}=\\frac{1-0.2}{2+0.1}-\\frac{1}{2}=\\frac{0.8}{2.1}-0.5=-0.119,\\quad \\left.dz\\right|_{\\substack{x=2\\\\y=1}}=-\\frac{1}{4}\\cdot0.1+\\frac{1}{2}\\cdot(-0.2)=-0.125$",
+  "sort_order": 2
+}

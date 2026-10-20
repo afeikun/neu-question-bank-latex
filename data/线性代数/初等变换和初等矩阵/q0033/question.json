@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}4&1&-2\\\\2&2&1\\\\3&1&-1\\end{pmatrix}$，$B=\\begin{pmatrix}1&-3\\\\2&2\\\\3&-1\\end{pmatrix}$，则使 $AX=B$ 的 $X$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}-2&-2\\\\6&6\\\\9&5\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}10&2\\\\-15&-3\\\\12&4\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "以上均不正确"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}-2&-2\\\\9&5\\\\-12&-4\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对增广矩阵 $(A\\mid B)$ 作初等行变换，化为 $\\begin{pmatrix}1&0&0&10&2\\\\0&1&0&-15&-3\\\\0&0&1&12&4\\end{pmatrix}$，所以 $X=\\begin{pmatrix}10&2\\\\-15&-3\\\\12&4\\end{pmatrix}$。",
+  "search_text": "设 $A=\\begin{pmatrix}4&1&-2\\\\2&2&1\\\\3&1&-1\\end{pmatrix}$，$B=\\begin{pmatrix}1&-3\\\\2&2\\\\3&-1\\end{pmatrix}$，则使 $AX=B$ 的 $X$ 为（ ）。 $\\begin{pmatrix}-2&-2\\\\6&6\\\\9&5\\end{pmatrix}$ $\\begin{pmatrix}10&2\\\\-15&-3\\\\12&4\\end{pmatrix}$ 以上均不正确 $\\begin{pmatrix}-2&-2\\\\9&5\\\\-12&-4\\end{pmatrix}$ 对增广矩阵 $(A\\mid B)$ 作初等行变换，化为 $\\begin{pmatrix}1&0&0&10&2\\\\0&1&0&-15&-3\\\\0&0&1&12&4\\end{pmatrix}$，所以 $X=\\begin{pmatrix}10&2\\\\-15&-3\\\\12&4\\end{pmatrix}$。",
+  "sort_order": 33
+}

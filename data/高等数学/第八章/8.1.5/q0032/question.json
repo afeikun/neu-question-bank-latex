@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设薄片所占的闭区域是介于两个圆 $\\rho=a\\cos\\theta,\\rho=b\\cos\\theta\\ (0<a<b)$ 之间的区域，该薄片（$\\rho=1$）的质心（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{a^2+ab+b^2}{2(a+b)},0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{a^2+3ab+b^2}{3(a+b)},0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{a^2+2ab+b^2}{3(a+b)},0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{a^2+ab+b^2}{3(a+b)},0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "如图所示，由对称性可知\n\n图示：坐标轴标为 $x,y$，原点为 $O$；两圆在原点相切，圆弧围成的阴影区域位于两圆之间；横轴上标有 $a,b$。\n\n$$\n\\bar{y}=0,\\quad A=\\iint_D1dxdy\n=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{a\\cos\\theta}^{b\\cos\\theta}r\\,dr\n=\\frac{\\pi(b^2-a^2)}{4},\n$$\n$$\n\\bar{x}=\\frac{1}{A}\\iint_Dx\\,dxdy\n=\\frac{1}{A}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{a\\cos\\theta}^{b\\cos\\theta}r^2\\cos\\theta\\,dr\n=\\frac{a^2+ab+b^2}{2(a+b)}\n$$\n所以质心坐标为 $\\left(\\frac{a^2+ab+b^2}{2(a+b)},0\\right)$",
+  "search_text": "设薄片所占的闭区域是介于两个圆 $\\rho=a\\cos\\theta,\\rho=b\\cos\\theta\\ (0<a<b)$ 之间的区域，该薄片（$\\rho=1$）的质心（ ） $(\\frac{a^2+ab+b^2}{2(a+b)},0)$ $(\\frac{a^2+3ab+b^2}{3(a+b)},0)$ $(\\frac{a^2+2ab+b^2}{3(a+b)},0)$ $(\\frac{a^2+ab+b^2}{3(a+b)},0)$ 如图所示，由对称性可知\n\n图示：坐标轴标为 $x,y$，原点为 $O$；两圆在原点相切，圆弧围成的阴影区域位于两圆之间；横轴上标有 $a,b$。\n\n$$\n\\bar{y}=0,\\quad A=\\iint_D1dxdy\n=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{a\\cos\\theta}^{b\\cos\\theta}r\\,dr\n=\\frac{\\pi(b^2-a^2)}{4},\n$$\n$$\n\\bar{x}=\\frac{1}{A}\\iint_Dx\\,dxdy\n=\\frac{1}{A}\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}d\\theta\\int_{a\\cos\\theta}^{b\\cos\\theta}r^2\\cos\\theta\\,dr\n=\\frac{a^2+ab+b^2}{2(a+b)}\n$$\n所以质心坐标为 $\\left(\\frac{a^2+ab+b^2}{2(a+b)},0\\right)$",
+  "sort_order": 32
+}

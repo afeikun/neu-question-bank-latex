@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A$ 与 $B$ 相似，且 $A=\\begin{pmatrix}1&-1&1\\\\2&4&-2\\\\-3&-3&a\\end{pmatrix}$，$B=\\begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&b\\end{pmatrix}$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=5,b=6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=2,b=5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=4,b=6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=6,b=5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为矩阵 $A$ 与 $B$ 相似，则 $A$ 与 $B$ 有相同的特征值，利用特征值之和与之积的性质，有 $\\begin{cases}1+4+a=2+2+b,\\|A|=6(a-1)=|B|=2\\times2\\times b.\\end{cases}$ 解得 $a=5,b=6$。",
+  "search_text": "设矩阵 $A$ 与 $B$ 相似，且 $A=\\begin{pmatrix}1&-1&1\\\\2&4&-2\\\\-3&-3&a\\end{pmatrix}$，$B=\\begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&b\\end{pmatrix}$，则（ ）。 $a=5,b=6$ $a=2,b=5$ $a=4,b=6$ $a=6,b=5$ 因为矩阵 $A$ 与 $B$ 相似，则 $A$ 与 $B$ 有相同的特征值，利用特征值之和与之积的性质，有 $\\begin{cases}1+4+a=2+2+b,\\|A|=6(a-1)=|B|=2\\times2\\times b.\\end{cases}$ 解得 $a=5,b=6$。",
+  "sort_order": 8
+}

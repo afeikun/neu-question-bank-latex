@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "交换二次积分 $\\int_0^1dy\\int_0^yf(x,y)dx$ 的积分次序，下列正确的是[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dx\\int_1^xf(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1dx\\int_x^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^x dx\\int_0^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dx\\int_0^1f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答　原式$=\\int_0^1dx\\int_x^1f(x,y)dy$。\n\n图示：坐标轴标记 $x,y$，原点标记 $O$，横纵轴上标记 $1$；边界线标记 $y=x$，虚线为 $x=1$，三角形区域标记 $D$。",
+  "search_text": "交换二次积分 $\\int_0^1dy\\int_0^yf(x,y)dx$ 的积分次序，下列正确的是[\\quad] $\\int_0^1dx\\int_1^xf(x,y)dy$ $\\int_0^1dx\\int_x^1f(x,y)dy$ $\\int_0^x dx\\int_0^1f(x,y)dy$ $\\int_0^1dx\\int_0^1f(x,y)dy$ 解答　原式$=\\int_0^1dx\\int_x^1f(x,y)dy$。\n\n图示：坐标轴标记 $x,y$，原点标记 $O$，横纵轴上标记 $1$；边界线标记 $y=x$，虚线为 $x=1$，三角形区域标记 $D$。",
+  "sort_order": 6
+}

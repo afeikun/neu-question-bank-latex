@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)$ 在区域 $D$ 内解析，$C$ 为 $D$ 内任一负向简单闭曲线且内部包含于 $D$，$z_0$ 为曲线内一点，则 $\\oint_C\\frac{f''(z)}{z-z_0}dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2\\pi i f''(z_0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\pi i f''(z_0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i f''(z_0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i f''(z_0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "负向曲线的Cauchy积分公式给出 $-2\\pi i f''(z_0)$。",
+  "search_text": "设 $f(z)$ 在区域 $D$ 内解析，$C$ 为 $D$ 内任一负向简单闭曲线且内部包含于 $D$，$z_0$ 为曲线内一点，则 $\\oint_C\\frac{f''(z)}{z-z_0}dz$ 等于（ ）。 $-2\\pi i f''(z_0)$ $-\\pi i f''(z_0)$ $2\\pi i f''(z_0)$ $\\pi i f''(z_0)$ 负向曲线的Cauchy积分公式给出 $-2\\pi i f''(z_0)$。",
+  "sort_order": 4
+}

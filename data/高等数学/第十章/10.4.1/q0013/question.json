@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\frac{(x+ay)dx+y dy}{(x^2+y^2)^2}$ 为某函数的全微分，求 $a$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $P=\\frac{x+ay}{(x+y)^2},Q=\\frac{y}{(x+y)^2}$；\n\n$$\\frac{\\partial P}{\\partial y}=\\frac{(a-2)x-ay}{(x+y)^3},\\frac{\\partial Q}{\\partial x}=\\frac{-2y}{(x+y)^3};$$\n\n若原式为全微分方程，则有 $\\frac{\\partial Q}{\\partial x}=\\frac{\\partial P}{\\partial y}$，\n\n即 $\\frac{(a-2)x-ay}{(x+y)^3}=\\frac{-2y}{(x+y)^3}$，\n\n得 $a=2$。",
+  "search_text": "已知 $\\frac{(x+ay)dx+y dy}{(x^2+y^2)^2}$ 为某函数的全微分，求 $a$（ ） $0$ $2$ $-1$ $1$ 令 $P=\\frac{x+ay}{(x+y)^2},Q=\\frac{y}{(x+y)^2}$；\n\n$$\\frac{\\partial P}{\\partial y}=\\frac{(a-2)x-ay}{(x+y)^3},\\frac{\\partial Q}{\\partial x}=\\frac{-2y}{(x+y)^3};$$\n\n若原式为全微分方程，则有 $\\frac{\\partial Q}{\\partial x}=\\frac{\\partial P}{\\partial y}$，\n\n即 $\\frac{(a-2)x-ay}{(x+y)^3}=\\frac{-2y}{(x+y)^3}$，\n\n得 $a=2$。",
+  "sort_order": 13
+}

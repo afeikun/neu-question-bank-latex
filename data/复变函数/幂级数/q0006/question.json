@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=1}^{\\infty}(-1)^{n-1}nz^n$ 的和函数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z/(1+z)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-z/(1+z)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-z/(1+z)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z/(1+z)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\sum_{n=1}^{\\infty}(-1)^{n-1}nz^{n-1}=1/(1+z)^2$，乘以 $z$ 得和函数 $z/(1+z)^2$。",
+  "search_text": "幂级数 $\\sum_{n=1}^{\\infty}(-1)^{n-1}nz^n$ 的和函数为（ ）。 $z/(1+z)^2$ $-z/(1+z)^2$ $-z/(1+z)$ $z/(1+z)$ 由 $\\sum_{n=1}^{\\infty}(-1)^{n-1}nz^{n-1}=1/(1+z)^2$，乘以 $z$ 得和函数 $z/(1+z)^2$。",
+  "sort_order": 6
+}

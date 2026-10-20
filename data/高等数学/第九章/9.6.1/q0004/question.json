@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 在 $\\frac{x^2}{4}+y^2\\le1$ 具有连续的二阶偏导数，$L$ 是椭圆周 $\\frac{x^2}{4}+y^2=1$ 的顺时针方向，则 $\\oint_L[3y+f_x(x,y)]dx+f_y(x,y)dy$ 的值等于（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n$P=3y+f_x(x,y)$，$Q=f_y(x,y)$，\n\n有格林公式，\n\n$$\n\\oint_L[3y+f_x(x,y)]\\,dx+f_y(x,y)\\,dy\n=\\iint_D3\\,dxdy=6\\pi\n$$",
+  "search_text": "设 $f(x,y)$ 在 $\\frac{x^2}{4}+y^2\\le1$ 具有连续的二阶偏导数，$L$ 是椭圆周 $\\frac{x^2}{4}+y^2=1$ 的顺时针方向，则 $\\oint_L[3y+f_x(x,y)]dx+f_y(x,y)dy$ 的值等于（ ） $6\\pi$ $3\\pi$ $5\\pi$ $4\\pi$ 解析：\n\n$P=3y+f_x(x,y)$，$Q=f_y(x,y)$，\n\n有格林公式，\n\n$$\n\\oint_L[3y+f_x(x,y)]\\,dx+f_y(x,y)\\,dy\n=\\iint_D3\\,dxdy=6\\pi\n$$",
+  "sort_order": 4
+}

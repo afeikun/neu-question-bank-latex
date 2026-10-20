@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设备温度样本均值195，标准差8，检验是否高于190，错误说法是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$H_0:\\mu=190,H_1:\\mu\\ne190$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$T=(\\bar X-190)/(S/\\sqrt n)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "拒绝域$[1.7531,+\\infty)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可认为温度高于190"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "应设单侧假设$H_0:\\mu\\le190,H_1:\\mu>190$，选项1错误。",
+  "search_text": "设备温度样本均值195，标准差8，检验是否高于190，错误说法是（）。 $H_0:\\mu=190,H_1:\\mu\\ne190$ $T=(\\bar X-190)/(S/\\sqrt n)$ 拒绝域$[1.7531,+\\infty)$ 可认为温度高于190 应设单侧假设$H_0:\\mu\\le190,H_1:\\mu>190$，选项1错误。",
+  "sort_order": 22
+}

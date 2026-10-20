@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2z^n}$ 的收敛范围为____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|z|\\ge1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|z|<1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|z|>1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|z|\\le1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "当 $|z|\\ge1$ 时，通项模不超过 $1/n^2$，故绝对收敛；$|z|<1$ 时通项不趋于零。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2z^n}$ 的收敛范围为____。 $|z|\\ge1$ $|z|<1$ $|z|>1$ $|z|\\le1$ 当 $|z|\\ge1$ 时，通项模不超过 $1/n^2$，故绝对收敛；$|z|<1$ 时通项不趋于零。",
+  "sort_order": 4
+}

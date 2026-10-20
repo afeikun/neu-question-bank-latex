@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期4，分段函数 $f(x)=1+x$（$-1\\le x<0$），$1-x$（$0\\le x<3$），求傅里叶级数和 $S(\\pi)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi-3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "周期性得 $S(\\pi)=f(\\pi-4)=\\pi-3$。",
+  "search_text": "周期4，分段函数 $f(x)=1+x$（$-1\\le x<0$），$1-x$（$0\\le x<3$），求傅里叶级数和 $S(\\pi)$。 $\\pi-1$ $1-\\pi$ 0 $\\pi-3$ 周期性得 $S(\\pi)=f(\\pi-4)=\\pi-3$。",
+  "sort_order": 4
+}

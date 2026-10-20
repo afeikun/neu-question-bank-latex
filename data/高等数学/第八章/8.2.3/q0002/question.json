@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由 $xoy$ 平面上曲线 $y^2=2x$ 绕 $x$ 轴旋转而成的曲面与平面 $x=5$ 所围成的闭区域，则 $\\iiint_\\Omega(y^2+z^2)\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{125}{3}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{250}{3}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{625}{3}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$xoy$ 平面上曲线 $y^2=2x$ 绕 $x$ 轴旋转而成的曲面为 $x=\\frac{1}{2}(y^2+z^2)$，利用柱面坐标变换计算，\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{10}}dr\\int_{\\frac{r^2}{2}}^5r^3dx$\n\n$$\n=2\\pi\\int_0^{\\sqrt{10}}(5r^3-\\frac{1}{2}r^5)dr\n$$\n\n$$\n=\\frac{250}{3}\\pi。\n$$",
+  "search_text": "$\\Omega$ 是由 $xoy$ 平面上曲线 $y^2=2x$ 绕 $x$ 轴旋转而成的曲面与平面 $x=5$ 所围成的闭区域，则 $\\iiint_\\Omega(y^2+z^2)\\,dv$ 的值为（ ） $\\frac{125}{3}\\pi$ $\\frac{250}{3}\\pi$ $\\frac{625}{3}\\pi$ $0$ $xoy$ 平面上曲线 $y^2=2x$ 绕 $x$ 轴旋转而成的曲面为 $x=\\frac{1}{2}(y^2+z^2)$，利用柱面坐标变换计算，\n\n原式 $=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{10}}dr\\int_{\\frac{r^2}{2}}^5r^3dx$\n\n$$\n=2\\pi\\int_0^{\\sqrt{10}}(5r^3-\\frac{1}{2}r^5)dr\n$$\n\n$$\n=\\frac{250}{3}\\pi。\n$$",
+  "sort_order": 2
+}

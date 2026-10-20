@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=e^t,\\ y=\\sin t$，求 $\\frac{d^2y}{dx^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-(\\sin t+\\cos t)e^{-2t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-(\\sin t+\\cos t)e^{2t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\sin t+\\cos t)e^{-2t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\sin t+\\cos t)e^{2t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=e^t,\\quad \\frac{dy}{dt}=\\cos t,\\quad \\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=e^{-t}\\cos t.$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }\\frac{d^2y}{dx^2}=\\frac{d\\left(\\frac{dy}{dx}\\right)}{dx}=\\frac{d\\left(\\frac{dy}{dx}\\right)/dt}{dx/dt}=\\frac{-e^{-t}\\cos t-e^{-t}\\sin t}{e^t}=-\\frac{\\sin t+\\cos t}{e^{2t}}$$",
+  "search_text": "$x=e^t,\\ y=\\sin t$，求 $\\frac{d^2y}{dx^2}$。 $-(\\sin t+\\cos t)e^{-2t}$ $-(\\sin t+\\cos t)e^{2t}$ $(\\sin t+\\cos t)e^{-2t}$ $(\\sin t+\\cos t)e^{2t}$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=e^t,\\quad \\frac{dy}{dt}=\\cos t,\\quad \\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=e^{-t}\\cos t.$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }\\frac{d^2y}{dx^2}=\\frac{d\\left(\\frac{dy}{dx}\\right)}{dx}=\\frac{d\\left(\\frac{dy}{dx}\\right)/dt}{dx/dt}=\\frac{-e^{-t}\\cos t-e^{-t}\\sin t}{e^t}=-\\frac{\\sin t+\\cos t}{e^{2t}}$$",
+  "sort_order": 18
+}

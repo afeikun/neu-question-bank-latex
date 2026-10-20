@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$H_0:\\mu\\ge\\mu_0,H_1:\\mu<\\mu_0$，统计量$U=(\\bar X-\\mu_0)/(\\sigma/\\sqrt n)$，拒绝域（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U\\le-u_\\alpha$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|U|\\ge u_{\\alpha/2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$U\\ge u_\\alpha$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|U|\\ge u_\\alpha$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "左尾检验拒绝域为$U<-u_\\alpha$。",
+  "search_text": "$H_0:\\mu\\ge\\mu_0,H_1:\\mu<\\mu_0$，统计量$U=(\\bar X-\\mu_0)/(\\sigma/\\sqrt n)$，拒绝域（）。 $U\\le-u_\\alpha$ $|U|\\ge u_{\\alpha/2}$ $U\\ge u_\\alpha$ $|U|\\ge u_\\alpha$ 左尾检验拒绝域为$U<-u_\\alpha$。",
+  "sort_order": 9
+}

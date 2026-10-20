@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设曲线 $\\Gamma:\\ x=a\\cos t,y=a\\sin t,z=at,\\ t\\in[0,2\\pi]$，则 $\\int_\\Gamma\\frac{z}{x^2+y^2}ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\sqrt2\\pi^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt2\\pi^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\pi^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 原式 $=\\int_0^{2\\pi}\\frac{at}{a^2}\\cdot\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt=\\int_0^{2\\pi}\\frac{t}{a}\\cdot\\sqrt{2a^2}\\,dt=2\\sqrt{2}\\pi^2$",
+  "search_text": "设曲线 $\\Gamma:\\ x=a\\cos t,y=a\\sin t,z=at,\\ t\\in[0,2\\pi]$，则 $\\int_\\Gamma\\frac{z}{x^2+y^2}ds=$（ ） $2\\sqrt2\\pi^2$ $2\\pi^2$ $\\sqrt2\\pi^2$ $3\\pi^2$ 解答 原式 $=\\int_0^{2\\pi}\\frac{at}{a^2}\\cdot\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt=\\int_0^{2\\pi}\\frac{t}{a}\\cdot\\sqrt{2a^2}\\,dt=2\\sqrt{2}\\pi^2$",
+  "sort_order": 3
+}

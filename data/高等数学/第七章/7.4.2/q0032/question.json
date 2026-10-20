@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=f(x+y,x-y,xy)$，$f$ 有二阶连续偏导数，求全微分 $dz$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(f_1'+f_2'+yf_3')dx+(f_1'+f_2'+xf_3')dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(f_1'+f_2'+xf_3')dx+(f_1'-f_2'+yf_3')dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(f_1'+f_2'+yf_3')dx+(f_1'-f_2'+xf_3')dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(f_1'+f_2'+yf_3')dx+(f_1'+f_2'-xf_3')dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial x}=f_1'+f_2'+yf_3',\\quad \\frac{\\partial z}{\\partial y}=f_1'-f_2'+xf_3'$\n\n所以，$dz=\\frac{\\partial z}{\\partial x}dx+\\frac{\\partial z}{\\partial y}dy=(f_1'+f_2'+yf_3')dx+(f_1'-f_2'+xf_3')dy$",
+  "search_text": "设 $z=f(x+y,x-y,xy)$，$f$ 有二阶连续偏导数，求全微分 $dz$。 $(f_1'+f_2'+yf_3')dx+(f_1'+f_2'+xf_3')dy$ $(f_1'+f_2'+xf_3')dx+(f_1'-f_2'+yf_3')dy$ $(f_1'+f_2'+yf_3')dx+(f_1'-f_2'+xf_3')dy$ $(f_1'+f_2'+yf_3')dx+(f_1'+f_2'-xf_3')dy$ $\\frac{\\partial z}{\\partial x}=f_1'+f_2'+yf_3',\\quad \\frac{\\partial z}{\\partial y}=f_1'-f_2'+xf_3'$\n\n所以，$dz=\\frac{\\partial z}{\\partial x}dx+\\frac{\\partial z}{\\partial y}dy=(f_1'+f_2'+yf_3')dx+(f_1'-f_2'+xf_3')dy$",
+  "sort_order": 32
+}

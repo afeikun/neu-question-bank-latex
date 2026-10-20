@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为三阶矩阵，$P$ 为三阶可逆矩阵，且 $P^{-1}AP=\\operatorname{diag}(1,1,2)$。若 $P=[a_1,a_2,a_3]$，$Q=[a_1+a_2,a_2,a_3]$，则 $Q^{-1}AQ$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\operatorname{diag}(1,2,1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\operatorname{diag}(2,2,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\operatorname{diag}(2,1,2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\operatorname{diag}(1,1,2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$Q=PS$，其中 $S=\\begin{bmatrix}1&0&0\\\\1&1&0\\\\0&0&1\\end{bmatrix}$。因前两个特征值相同，$S^{-1}(P^{-1}AP)S=\\operatorname{diag}(1,1,2)$，选项 4。",
+  "search_text": "设 $A$ 为三阶矩阵，$P$ 为三阶可逆矩阵，且 $P^{-1}AP=\\operatorname{diag}(1,1,2)$。若 $P=[a_1,a_2,a_3]$，$Q=[a_1+a_2,a_2,a_3]$，则 $Q^{-1}AQ$ 为(\\quad)。 $\\operatorname{diag}(1,2,1)$ $\\operatorname{diag}(2,2,1)$ $\\operatorname{diag}(2,1,2)$ $\\operatorname{diag}(1,1,2)$ $Q=PS$，其中 $S=\\begin{bmatrix}1&0&0\\\\1&1&0\\\\0&0&1\\end{bmatrix}$。因前两个特征值相同，$S^{-1}(P^{-1}AP)S=\\operatorname{diag}(1,1,2)$，选项 4。",
+  "sort_order": 43
+}

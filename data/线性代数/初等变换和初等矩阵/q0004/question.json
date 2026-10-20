@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "矩阵 $A=\\begin{pmatrix}0&1&3\\\\1&-1&0\\\\-1&2&1\\end{pmatrix}$ 的逆矩阵 $A^{-1}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12\\begin{pmatrix}0&2&0\\\\2&0&0\\\\1&-1&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12\\begin{pmatrix}0&2&0\\\\-1&3&3\\\\1&-1&-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\begin{pmatrix}-1&5&3\\\\-1&3&3\\\\1&-1&-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12\\begin{pmatrix}0&2&0\\\\1&-3&-3\\\\-1&1&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对 $(A,E)$ 作初等行变换，将左半部分化为单位矩阵，右半部分即为 $A^{-1}$，可得 $A^{-1}=\\frac12\\begin{pmatrix}-1&5&3\\\\-1&3&3\\\\1&-1&-1\\end{pmatrix}$。",
+  "search_text": "矩阵 $A=\\begin{pmatrix}0&1&3\\\\1&-1&0\\\\-1&2&1\\end{pmatrix}$ 的逆矩阵 $A^{-1}=$（ ）。 $\\frac12\\begin{pmatrix}0&2&0\\\\2&0&0\\\\1&-1&1\\end{pmatrix}$ $\\frac12\\begin{pmatrix}0&2&0\\\\-1&3&3\\\\1&-1&-1\\end{pmatrix}$ $\\frac12\\begin{pmatrix}-1&5&3\\\\-1&3&3\\\\1&-1&-1\\end{pmatrix}$ $\\frac12\\begin{pmatrix}0&2&0\\\\1&-3&-3\\\\-1&1&1\\end{pmatrix}$ 对 $(A,E)$ 作初等行变换，将左半部分化为单位矩阵，右半部分即为 $A^{-1}$，可得 $A^{-1}=\\frac12\\begin{pmatrix}-1&5&3\\\\-1&3&3\\\\1&-1&-1\\end{pmatrix}$。",
+  "sort_order": 4
+}

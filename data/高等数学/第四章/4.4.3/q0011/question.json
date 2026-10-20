@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "F(x)=∫ₓ^{x+π}ln(1+cos²t)cos2t dt，判断F(x)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "为正数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "为负数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "恒为零"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不是常数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数为偶周期函数，化到对称区间后积分严格大于0。",
+  "search_text": "F(x)=∫ₓ^{x+π}ln(1+cos²t)cos2t dt，判断F(x) 为正数 为负数 恒为零 不是常数 被积函数为偶周期函数，化到对称区间后积分严格大于0。",
+  "sort_order": 11
+}

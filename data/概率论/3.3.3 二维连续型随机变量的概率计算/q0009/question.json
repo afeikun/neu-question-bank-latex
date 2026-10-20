@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=k(6-x-y)$于$0<x<2,2<y<4$，求$P(X<1.5)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5/8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5/32$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$27/32$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "归一化得$k=1/8$，对$x$从0到1.5、$y$从2到4积分得$27/32$。",
+  "search_text": "$f(x,y)=k(6-x-y)$于$0<x<2,2<y<4$，求$P(X<1.5)$。 $5/8$ $5/32$ $27/32$ $3/8$ 归一化得$k=1/8$，对$x$从0到1.5、$y$从2到4积分得$27/32$。",
+  "sort_order": 9
+}

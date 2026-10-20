@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $\\begin{vmatrix}0&a&0&0\\\\b&c&0&0\\\\0&0&d&e\\\\0&0&0&f\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$abef$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-abdf$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-abcf$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$abcd$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\begin{vmatrix}0&a&0&0\\\\b&c&0&0\\\\0&0&d&e\\\\0&0&0&f\\end{vmatrix}=\\begin{vmatrix}0&a\\\\b&c\\end{vmatrix}\\begin{vmatrix}d&e\\\\0&f\\end{vmatrix}=-abdf$。",
+  "search_text": "行列式 $\\begin{vmatrix}0&a&0&0\\\\b&c&0&0\\\\0&0&d&e\\\\0&0&0&f\\end{vmatrix}$ 等于（ ）。 $abef$ $-abdf$ $-abcf$ $abcd$ $\\begin{vmatrix}0&a&0&0\\\\b&c&0&0\\\\0&0&d&e\\\\0&0&0&f\\end{vmatrix}=\\begin{vmatrix}0&a\\\\b&c\\end{vmatrix}\\begin{vmatrix}d&e\\\\0&f\\end{vmatrix}=-abdf$。",
+  "sort_order": 4
+}

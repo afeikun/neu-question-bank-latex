@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2,x_3)$ 的正惯性指数是 2，且 $f$ 所对应的矩阵为不可逆，则 $f$ 是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正定"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "正交"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "半正定"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "正惯性指数为 2 且矩阵奇异，剩余特征值为 0，因此二次型半正定，选项 4。",
+  "search_text": "二次型 $f(x_1,x_2,x_3)$ 的正惯性指数是 2，且 $f$ 所对应的矩阵为不可逆，则 $f$ 是(\\quad)。 正定 不定 正交 半正定 正惯性指数为 2 且矩阵奇异，剩余特征值为 0，因此二次型半正定，选项 4。",
+  "sort_order": 42
+}

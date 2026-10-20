@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}a,&x=0,\\\\\\frac{1-\\sqrt{1-x}}{1-\\sqrt[3]{1-x}},&x\\ne0,\\end{cases}$ 在 $x=0$ 处连续，则 $a=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1/2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "3"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由连续性 $a=\\lim_{x\\to0}f(x)=3/2$。",
+  "search_text": "设 $f(x)=\\begin{cases}a,&x=0,\\\\\\frac{1-\\sqrt{1-x}}{1-\\sqrt[3]{1-x}},&x\\ne0,\\end{cases}$ 在 $x=0$ 处连续，则 $a=(\\ )$。 $\\frac32$ 1 1/2 3 由连续性 $a=\\lim_{x\\to0}f(x)=3/2$。",
+  "sort_order": 1
+}

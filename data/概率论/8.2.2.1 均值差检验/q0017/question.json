@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两个独立正态总体均值差检验，方差未知且不相等，检验统计量为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "Welch近似t统计量及近似自由度f"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "已知方差U统计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "合并方差t统计量且自由度n1+n2−2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "方差比F统计量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方差未知且不等时使用Welch近似t统计量，按Satterthwaite公式计算自由度。",
+  "search_text": "两个独立正态总体均值差检验，方差未知且不相等，检验统计量为（）。 Welch近似t统计量及近似自由度f 已知方差U统计量 合并方差t统计量且自由度n1+n2−2 方差比F统计量 方差未知且不等时使用Welch近似t统计量，按Satterthwaite公式计算自由度。",
+  "sort_order": 17
+}

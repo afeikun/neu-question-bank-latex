@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=Ae^{-2x^2+2xy-y^2}$，求$Y|X=x$的条件密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sqrt\\pi}e^{-(y-x)^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}}e^{-y^2+2xy}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{2\\sqrt\\pi}e^{-x^2+2xy-y^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{2\\sqrt\\pi}e^{-y^2+2xy}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "配方$-2x^2+2xy-y^2=-x^2-(y-x)^2$，对$y$积分得边缘密度$e^{-x^2}/\\sqrt\\pi$，条件密度为$e^{-(y-x)^2}/\\sqrt\\pi$。",
+  "search_text": "$f(x,y)=Ae^{-2x^2+2xy-y^2}$，求$Y|X=x$的条件密度。 $\\frac1{\\sqrt\\pi}e^{-(y-x)^2}$ $\\frac1{\\sqrt{2\\pi}}e^{-y^2+2xy}$ $\\frac1{2\\sqrt\\pi}e^{-x^2+2xy-y^2}$ $\\frac1{2\\sqrt\\pi}e^{-y^2+2xy}$ 配方$-2x^2+2xy-y^2=-x^2-(y-x)^2$，对$y$积分得边缘密度$e^{-x^2}/\\sqrt\\pi$，条件密度为$e^{-(y-x)^2}/\\sqrt\\pi$。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a>0$，则积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{x\\sin x}{x^2+a^2}\\,dx=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi2e^{-a}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi e^{-a}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi4e^{-a}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac\\pi3e^{-a}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "取 $f(z)=\\dfrac{ze^{iz}}{z^2+a^2}$，由留数定理得实轴积分为 $\\pi e^{-a}$，取虚部的一半得到所求积分 $\\dfrac\\pi2e^{-a}$。",
+  "search_text": "设 $a>0$，则积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{x\\sin x}{x^2+a^2}\\,dx=(\\ \\ )$。 $\\dfrac\\pi2e^{-a}$ $\\pi e^{-a}$ $\\dfrac\\pi4e^{-a}$ $\\dfrac\\pi3e^{-a}$ 取 $f(z)=\\dfrac{ze^{iz}}{z^2+a^2}$，由留数定理得实轴积分为 $\\pi e^{-a}$，取虚部的一半得到所求积分 $\\dfrac\\pi2e^{-a}$。",
+  "sort_order": 22
+}

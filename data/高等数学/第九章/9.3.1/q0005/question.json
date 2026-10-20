@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=a\\cos^3t,y=a\\sin^3t$（$0\\le t\\le2\\pi$）围成图形的面积。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac38\\pi a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac38\\pi a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac38\\pi a^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac37\\pi a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解\n\n$$\n\\begin{aligned}\nA&=\\frac{1}{2}\\oint_Lx\\,\\mathrm{d}y-y\\,\\mathrm{d}x\n=\\frac{1}{2}\\times4\\int_0^{\\frac{\\pi}{2}}\\left[a\\cos^3t\\cdot3a\\sin^2t\\cos t-a\\sin^3t\\cdot3a\\cos^2t(-\\sin t)\\right]\\,\\mathrm{d}t\\\\\n&=6a^2\\int_0^{\\frac{\\pi}{2}}\\left[\\cos^4t\\sin^2t+\\sin^4t\\cos^2t\\right]\\,\\mathrm{d}t\n=6a^2\\int_0^{\\frac{\\pi}{2}}\\cos^2t\\sin^2t\\,\\mathrm{d}t\n=\\frac{3}{8}\\pi a^2。\n\\end{aligned}\n$$",
+  "search_text": "曲线 $x=a\\cos^3t,y=a\\sin^3t$（$0\\le t\\le2\\pi$）围成图形的面积。 $\\frac38\\pi a^3$ $\\frac38\\pi a^2$ $-\\frac38\\pi a^2$ $\\frac37\\pi a^2$ 解\n\n$$\n\\begin{aligned}\nA&=\\frac{1}{2}\\oint_Lx\\,\\mathrm{d}y-y\\,\\mathrm{d}x\n=\\frac{1}{2}\\times4\\int_0^{\\frac{\\pi}{2}}\\left[a\\cos^3t\\cdot3a\\sin^2t\\cos t-a\\sin^3t\\cdot3a\\cos^2t(-\\sin t)\\right]\\,\\mathrm{d}t\\\\\n&=6a^2\\int_0^{\\frac{\\pi}{2}}\\left[\\cos^4t\\sin^2t+\\sin^4t\\cos^2t\\right]\\,\\mathrm{d}t\n=6a^2\\int_0^{\\frac{\\pi}{2}}\\cos^2t\\sin^2t\\,\\mathrm{d}t\n=\\frac{3}{8}\\pi a^2。\n\\end{aligned}\n$$",
+  "sort_order": 5
+}

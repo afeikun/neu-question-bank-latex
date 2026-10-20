@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{(0,1)}^{(2,3)}(x+y)\\,dx+(x-y)\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：\n\n显然，我们有\n\n$(x+y)\\,dx+(x-y)\\,dy$\n\n$=(y\\,dx+x\\,dy)+(x\\,dx-y\\,dy)$\n\n$=d(xy)+d\\left(\\frac{x^2-y^2}{2}\\right)$\n\n$=d\\left(xy+\\frac{x^2-y^2}{2}\\right)，$\n\n即为全微分方程，得\n\n原式 $=\\int_{(0,1)}^{(2,3)}d\\left(xy+\\frac{x^2-y^2}{2}\\right)$\n\n$=\\left(xy+\\frac{x^2-y^2}{2}\\right)\\bigg|_{(0,1)}^{(2,3)}=4$",
+  "search_text": "$\\int_{(0,1)}^{(2,3)}(x+y)\\,dx+(x-y)\\,dy=$（ ） $6$ $4$ $3$ $5$ 解析：\n\n显然，我们有\n\n$(x+y)\\,dx+(x-y)\\,dy$\n\n$=(y\\,dx+x\\,dy)+(x\\,dx-y\\,dy)$\n\n$=d(xy)+d\\left(\\frac{x^2-y^2}{2}\\right)$\n\n$=d\\left(xy+\\frac{x^2-y^2}{2}\\right)，$\n\n即为全微分方程，得\n\n原式 $=\\int_{(0,1)}^{(2,3)}d\\left(xy+\\frac{x^2-y^2}{2}\\right)$\n\n$=\\left(xy+\\frac{x^2-y^2}{2}\\right)\\bigg|_{(0,1)}^{(2,3)}=4$",
+  "sort_order": 18
+}

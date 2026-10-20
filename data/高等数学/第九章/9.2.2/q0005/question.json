@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "面密度为 $z$、半径为 $4$ 的球心在原点的上半球壳质量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$64\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$128\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$256\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$32\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：曲面 $\\Sigma:z=\\sqrt{16-x^2-y^2}$，投影区域为 $D:x^2+y^2\\leq16$。\n\n质量为 $\\iint_\\Sigma z\\,dS=\\iint_D\\sqrt{16-x^2-y^2}\\frac{4}{\\sqrt{16-x^2-y^2}}\\,dxdy=\\pi64$",
+  "search_text": "面密度为 $z$、半径为 $4$ 的球心在原点的上半球壳质量。 $64\\pi$ $128\\pi$ $256\\pi$ $32\\pi$ 解答：曲面 $\\Sigma:z=\\sqrt{16-x^2-y^2}$，投影区域为 $D:x^2+y^2\\leq16$。\n\n质量为 $\\iint_\\Sigma z\\,dS=\\iint_D\\sqrt{16-x^2-y^2}\\frac{4}{\\sqrt{16-x^2-y^2}}\\,dxdy=\\pi64$",
+  "sort_order": 5
+}

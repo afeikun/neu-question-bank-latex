@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\left|\\left(\\dfrac{10}{3+i}\\right)^{12}\\right|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$10^6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$10^8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5^6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$10^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|3+i|=\\sqrt{10}$，故 $|10/(3+i)|=\\sqrt{10}$，十二次方为 $10^6$。",
+  "search_text": "求 $\\left|\\left(\\dfrac{10}{3+i}\\right)^{12}\\right|=(\\quad)$。 $10^6$ $10^8$ $5^6$ $10^4$ $|3+i|=\\sqrt{10}$，故 $|10/(3+i)|=\\sqrt{10}$，十二次方为 $10^6$。",
+  "sort_order": 5
+}

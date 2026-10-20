@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=ax^3-6ax^2+b$ 在 $[-1,2]$ 上最大值为 $3$、最小值为 $-29$，且 $a>0$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=1,b=3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=3,b=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=2,b=-29$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=2,b=3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f\\prime=3ax(x-4)$，驻点 $x=0$ 处为极大值且 $f(0)=b$，所以 $b=3$；由 $f(2)=-16a+b=-29$ 得 $a=2$。",
+  "search_text": "函数 $f(x)=ax^3-6ax^2+b$ 在 $[-1,2]$ 上最大值为 $3$、最小值为 $-29$，且 $a>0$，则（ ）。 $a=1,b=3$ $a=3,b=2$ $a=2,b=-29$ $a=2,b=3$ $f\\prime=3ax(x-4)$，驻点 $x=0$ 处为极大值且 $f(0)=b$，所以 $b=3$；由 $f(2)=-16a+b=-29$ 得 $a=2$。",
+  "sort_order": 21
+}

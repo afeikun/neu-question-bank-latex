@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\frac{x^2}{4}+y^2=z^2$ 表示(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "锥面"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "椭球面"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "抛物面"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "双曲面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：锥面的一般方程为 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}-\\frac{z^2}{c^2}=0$，所以方程表示椭圆锥面。",
+  "search_text": "方程 $\\frac{x^2}{4}+y^2=z^2$ 表示(\\quad)。 锥面 椭球面 抛物面 双曲面 解答：锥面的一般方程为 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}-\\frac{z^2}{c^2}=0$，所以方程表示椭圆锥面。",
+  "sort_order": 11
+}

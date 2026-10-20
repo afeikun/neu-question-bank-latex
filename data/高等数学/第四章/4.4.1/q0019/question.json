@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₁²dx/(x²+x⁴)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1/2+π/3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1−1/√3−π/12"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1/3+π/4"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1/2+π/4−arctan2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "拆分为1/x²−1/(1+x²)，原函数为−1/x−arctan x，得到1/2+π/4−arctan2。",
+  "search_text": "计算∫₁²dx/(x²+x⁴) 1/2+π/3 1−1/√3−π/12 1/3+π/4 1/2+π/4−arctan2 拆分为1/x²−1/(1+x²)，原函数为−1/x−arctan x，得到1/2+π/4−arctan2。",
+  "sort_order": 19
+}

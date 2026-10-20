@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\sin t\\cos t$，则 $\\mathcal F[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{\\pi i}{2}\\left(\\delta(\\omega+2)-\\delta(\\omega-2)\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{\\pi i}{2}\\left(\\delta(\\omega-2)-\\delta(\\omega+2)\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{\\pi i}{2}\\left(\\delta(\\omega+2)+\\delta(\\omega-2)\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{\\pi i}{2}\\delta(\\omega\\pm2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal F[\\sin t\\cos t]=\\dfrac12\\mathcal F[\\sin2t]=\\dfrac{\\pi}{2i}(\\delta(\\omega-2)-\\delta(\\omega+2))=\\dfrac{\\pi i}{2}(\\delta(\\omega+2)-\\delta(\\omega-2))$。",
+  "search_text": "设 $f(t)=\\sin t\\cos t$，则 $\\mathcal F[f(t)]=(\\ \\ )$。 $\\dfrac{\\pi i}{2}\\left(\\delta(\\omega+2)-\\delta(\\omega-2)\\right)$ $\\dfrac{\\pi i}{2}\\left(\\delta(\\omega-2)-\\delta(\\omega+2)\\right)$ $\\dfrac{\\pi i}{2}\\left(\\delta(\\omega+2)+\\delta(\\omega-2)\\right)$ $\\dfrac{\\pi i}{2}\\delta(\\omega\\pm2)$ $\\mathcal F[\\sin t\\cos t]=\\dfrac12\\mathcal F[\\sin2t]=\\dfrac{\\pi}{2i}(\\delta(\\omega-2)-\\delta(\\omega+2))=\\dfrac{\\pi i}{2}(\\delta(\\omega+2)-\\delta(\\omega-2))$。",
+  "sort_order": 4
+}

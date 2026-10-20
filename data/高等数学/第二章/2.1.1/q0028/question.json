@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 在 $x_0$ 处可导，则 $\\lim_{\\Delta x\\to0}\\frac{f(x_0-\\Delta x)-f(x_0)}{\\Delta x}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-f\\prime(x_0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x_0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-f(x_0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(x_0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令增量为 $-\\Delta x$，该极限等于 $-f\\prime(x_0)$。",
+  "search_text": "设函数 $f(x)$ 在 $x_0$ 处可导，则 $\\lim_{\\Delta x\\to0}\\frac{f(x_0-\\Delta x)-f(x_0)}{\\Delta x}=$（ ）。 $-f\\prime(x_0)$ $f(x_0)$ $-f(x_0)$ $f\\prime(x_0)$ 令增量为 $-\\Delta x$，该极限等于 $-f\\prime(x_0)$。",
+  "sort_order": 28
+}

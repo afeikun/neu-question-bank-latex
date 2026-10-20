@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=\\arctan t+t^2,\\ y=2+t^2$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac3{1+t^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2(1+t^2)}{2t^3+2t+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{3t}{1+t^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2t(1+t^2)}{2t^3+2t+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$\\frac{dx}{dt}=\\frac{1}{1+t^2}+2t，\\quad \\frac{dy}{dt}=2t，$ 可得 $\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{2t}{\\frac{2t^3+2t+1}{1+t^2}}=\\frac{2t(1+t^2)}{2t^3+2t+1}。$",
+  "search_text": "$x=\\arctan t+t^2,\\ y=2+t^2$，求 $\\frac{dy}{dx}$。 $\\frac3{1+t^2}$ $\\frac{2(1+t^2)}{2t^3+2t+1}$ $\\frac{3t}{1+t^2}$ $\\frac{2t(1+t^2)}{2t^3+2t+1}$ 解答 方程组两边同时对 $t$ 求导可得\n\n$\\frac{dx}{dt}=\\frac{1}{1+t^2}+2t，\\quad \\frac{dy}{dt}=2t，$ 可得 $\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{2t}{\\frac{2t^3+2t+1}{1+t^2}}=\\frac{2t(1+t^2)}{2t^3+2t+1}。$",
+  "sort_order": 1
+}

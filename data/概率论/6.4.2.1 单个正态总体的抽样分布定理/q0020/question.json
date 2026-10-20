@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$N(\\mu,\\sigma^2)$容量16样本，$S^2$为无偏样本方差，求$D(S^2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\sigma^4/15$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sigma^4/15$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\sigma^4/15$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7\\sigma^4/15$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(S^2)=2\\sigma^4/(n-1)=2\\sigma^4/15$。",
+  "search_text": "$N(\\mu,\\sigma^2)$容量16样本，$S^2$为无偏样本方差，求$D(S^2)$。 $2\\sigma^4/15$ $\\sigma^4/15$ $4\\sigma^4/15$ $7\\sigma^4/15$ $D(S^2)=2\\sigma^4/(n-1)=2\\sigma^4/15$。",
+  "sort_order": 20
+}

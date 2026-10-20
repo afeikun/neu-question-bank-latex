@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=\\cos4x$ 为周期函数，其最小正周期为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{3\\pi}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "余弦函数周期为 $2\\pi$，故 $\\cos4x$ 的最小正周期为 $\\frac\\pi2$。",
+  "search_text": "函数 $y=\\cos4x$ 为周期函数，其最小正周期为（ ）。 $\\frac\\pi2$ $2\\pi$ $\\frac{3\\pi}{2}$ $\\pi$ 余弦函数周期为 $2\\pi$，故 $\\cos4x$ 的最小正周期为 $\\frac\\pi2$。",
+  "sort_order": 47
+}

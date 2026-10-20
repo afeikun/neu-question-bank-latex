@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\beta=\\begin{pmatrix}1&2\\\\0&3\\end{pmatrix}$ 在基 $\\alpha_1=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}$、$\\alpha_2=\\begin{pmatrix}1&1\\\\0&0\\end{pmatrix}$、$\\alpha_3=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}$ 下的坐标为 $(1,2,3)^T$，则 $\\beta=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}6&5\\\\0&3\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}6&2\\\\5&3\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&2\\\\0&3\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&2\\\\3&3\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\beta=\\alpha_1+2\\alpha_2+3\\alpha_3=\\begin{pmatrix}6&5\\\\0&3\\end{pmatrix}$，故选项 $1$ 正确。",
+  "search_text": "设 $\\beta=\\begin{pmatrix}1&2\\\\0&3\\end{pmatrix}$ 在基 $\\alpha_1=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}$、$\\alpha_2=\\begin{pmatrix}1&1\\\\0&0\\end{pmatrix}$、$\\alpha_3=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}$ 下的坐标为 $(1,2,3)^T$，则 $\\beta=$（ ）。 $\\begin{pmatrix}6&5\\\\0&3\\end{pmatrix}$ $\\begin{pmatrix}6&2\\\\5&3\\end{pmatrix}$ $\\begin{pmatrix}1&2\\\\0&3\\end{pmatrix}$ $\\begin{pmatrix}1&2\\\\3&3\\end{pmatrix}$ $\\beta=\\alpha_1+2\\alpha_2+3\\alpha_3=\\begin{pmatrix}6&5\\\\0&3\\end{pmatrix}$，故选项 $1$ 正确。",
+  "sort_order": 30
+}

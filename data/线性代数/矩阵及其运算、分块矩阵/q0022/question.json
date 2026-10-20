@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=(a_1,a_2,a_3)$，$B=(b_1,b_2,b_3)$ 是两个三维向量，且 $A^TB=\\begin{pmatrix}2&1&1\\\\-2&-1&-1\\\\2&1&1\\end{pmatrix}$，则 $A,B$ 的数量积和 $AB^T=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$AB^T=a_1b_1+a_2b_2+a_3b_3$，则 $A^TB$ 的对角线元素之和：$2+(-1)+1=2$。",
+  "search_text": "设 $A=(a_1,a_2,a_3)$，$B=(b_1,b_2,b_3)$ 是两个三维向量，且 $A^TB=\\begin{pmatrix}2&1&1\\\\-2&-1&-1\\\\2&1&1\\end{pmatrix}$，则 $A,B$ 的数量积和 $AB^T=$（ ）。 $6$ $2$ $3$ $4$ $AB^T=a_1b_1+a_2b_2+a_3b_3$，则 $A^TB$ 的对角线元素之和：$2+(-1)+1=2$。",
+  "sort_order": 22
+}

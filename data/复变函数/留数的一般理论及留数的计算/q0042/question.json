@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=(z-1)^3e^{\\frac1{z-1}}+\\dfrac{e^z}{z^3}$，则积分 $\\displaystyle\\oint_{|z-2|=5}f(z)\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{13}{12}\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{13}{14}\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{11}{12}\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分别在 $z=1$ 与 $z=0$ 计算留数，留数和为 $13/24$，因此积分为 $13\\pi i/12$。",
+  "search_text": "函数 $f(z)=(z-1)^3e^{\\frac1{z-1}}+\\dfrac{e^z}{z^3}$，则积分 $\\displaystyle\\oint_{|z-2|=5}f(z)\\,dz=(\\ \\ )$。 $\\dfrac{13}{12}\\pi i$ $\\pi i$ $\\dfrac{13}{14}\\pi i$ $\\dfrac{11}{12}\\pi i$ 分别在 $z=1$ 与 $z=0$ 计算留数，留数和为 $13/24$，因此积分为 $13\\pi i/12$。",
+  "sort_order": 42
+}

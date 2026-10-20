@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下面（ ）为 $\\mathbb{R}^3$ 中的一组正交基。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\left(\\begin{pmatrix}0\\\\-2\\\\2\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "向量 $(1,1,1)^T$、$(1,-2,1)^T$、$(-1,0,1)^T$ 两两正交，因此可以构成 $\\mathbb{R}^3$ 中的一组正交基。",
+  "search_text": "下面（ ）为 $\\mathbb{R}^3$ 中的一组正交基。 $\\left(\\begin{pmatrix}0\\\\-2\\\\2\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}\\right)$ $\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}\\right)$ $\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}\\right)$ $\\left(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix},\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}\\right)$ 向量 $(1,1,1)^T$、$(1,-2,1)^T$、$(-1,0,1)^T$ 两两正交，因此可以构成 $\\mathbb{R}^3$ 中的一组正交基。",
+  "sort_order": 53
+}

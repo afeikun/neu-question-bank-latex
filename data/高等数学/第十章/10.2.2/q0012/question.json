@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\prime=(x+y+5)^2$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+y+5-\\tan(x+y+5)=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arctan(x+y+5)=x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x+y+5=\\sin(x+C)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+y+5+\\ln(x+y+5)=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $x+y+5=u$ 则 $\\frac{dy}{dx}=\\frac{du}{dx}-1$\n\n$\\frac{du}{dx}=1+u^2$\n\n代入 $dx=\\frac{du}{1+u^2}$，积分 $\\arctan u=x+c$",
+  "search_text": "方程 $y\\prime=(x+y+5)^2$ 的通解为（ ） $x+y+5-\\tan(x+y+5)=C$ $\\arctan(x+y+5)=x+C$ $x+y+5=\\sin(x+C)$ $x+y+5+\\ln(x+y+5)=C$ 设 $x+y+5=u$ 则 $\\frac{dy}{dx}=\\frac{du}{dx}-1$\n\n$\\frac{du}{dx}=1+u^2$\n\n代入 $dx=\\frac{du}{1+u^2}$，积分 $\\arctan u=x+c$",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=(2z+1)/(z^2+z-2)$ 在 $|z|<1$ 内的 Taylor 展开式是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}((-1)^n/2^{n+1}-1)z^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(z-1)^{n-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n(z-1)^{n+2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(z-1)^{n+2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "部分分式为 $1/(z-1)+1/(z+2)$，在 $|z|<1$ 展开得所列系数。",
+  "search_text": "函数 $f(z)=(2z+1)/(z^2+z-2)$ 在 $|z|<1$ 内的 Taylor 展开式是（ ） $\\sum_{n=0}^{\\infty}((-1)^n/2^{n+1}-1)z^n$ $\\sum_{n=0}^{\\infty}(z-1)^{n-2}$ $\\sum_{n=0}^{\\infty}(-1)^n(z-1)^{n+2}$ $\\sum_{n=0}^{\\infty}(z-1)^{n+2}$ 部分分式为 $1/(z-1)+1/(z+2)$，在 $|z|<1$ 展开得所列系数。",
+  "sort_order": 62
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/(4-3z)$ 在 $z=1+i$ 处的 Taylor 展开式是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{3^n}{(1-3i)^{n+1}}(z-1-i)^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{3^{n+1}}{(1-3i)^{n+1}}(z-1-i)^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{3^n}{(1-3i)^n}(z-1-i)^{n+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{3^n}{(1-3i)^{n+1}}(z-1-i)^{n+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $w=z-1-i$，则 $4-3z=1-3i-3w$，按几何级数展开得第一项。",
+  "search_text": "函数 $1/(4-3z)$ 在 $z=1+i$ 处的 Taylor 展开式是（ ） $\\sum_{n=0}^{\\infty}\\frac{3^n}{(1-3i)^{n+1}}(z-1-i)^n$ $\\sum_{n=0}^{\\infty}\\frac{3^{n+1}}{(1-3i)^{n+1}}(z-1-i)^n$ $\\sum_{n=0}^{\\infty}\\frac{3^n}{(1-3i)^n}(z-1-i)^{n+1}$ $\\sum_{n=0}^{\\infty}\\frac{3^n}{(1-3i)^{n+1}}(z-1-i)^{n+1}$ 令 $w=z-1-i$，则 $4-3z=1-3i-3w$，按几何级数展开得第一项。",
+  "sort_order": 9
+}

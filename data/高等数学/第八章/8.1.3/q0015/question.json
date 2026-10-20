@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_De^{x^2+y^2}dxdy$（其中 $D:x^2+y^2\\leq2$）的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi(e+1)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi(e^2-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi(e-1)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi(e^2+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 利用极坐标进行计算 $\\iint_D e^{x^2+y^2}dxdy=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{2}}e^{r^2}rdr=\\pi(e^2-1)$。",
+  "search_text": "二重积分 $\\iint_De^{x^2+y^2}dxdy$（其中 $D:x^2+y^2\\leq2$）的值为[\\quad] $3\\pi(e+1)^2$ $\\pi(e^2-1)$ $3\\pi(e-1)^2$ $2\\pi(e^2+1)$ 解答 利用极坐标进行计算 $\\iint_D e^{x^2+y^2}dxdy=\\int_0^{2\\pi}d\\theta\\int_0^{\\sqrt{2}}e^{r^2}rdr=\\pi(e^2-1)$。",
+  "sort_order": 15
+}

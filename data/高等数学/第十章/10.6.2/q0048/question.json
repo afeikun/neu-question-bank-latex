@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime+y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1\\cos2x+C_2\\sin2x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=(C_1\\cos2x+C_2\\sin2x)e^{-x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1\\cos x+C_2\\sin x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=(C_1\\cos x+C_2\\sin x)e^{-x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析 特征方程为 $\\lambda^2+1=0$，特征根 $\\lambda_{1,2}=\\pm i$，故齐次方程的通解为 $y=C_1\\cos x+C_2\\sin x$。\n\n因此选 C。",
+  "search_text": "微分方程 $y\\prime\\prime+y=0$ 的通解为（ ） $y=C_1\\cos2x+C_2\\sin2x$ $y=(C_1\\cos2x+C_2\\sin2x)e^{-x}$ $y=C_1\\cos x+C_2\\sin x$ $y=(C_1\\cos x+C_2\\sin x)e^{-x}$ 解析 特征方程为 $\\lambda^2+1=0$，特征根 $\\lambda_{1,2}=\\pm i$，故齐次方程的通解为 $y=C_1\\cos x+C_2\\sin x$。\n\n因此选 C。",
+  "sort_order": 48
+}

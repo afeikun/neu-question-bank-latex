@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\displaystyle\\oint_{|z|=n}\\tan(\\pi z)\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-4ni$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2ni$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi ni$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$ni$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内 $\\tan(\\pi z)$ 有 $2n$ 个一级极点，留数各为 $-1/\\pi$，故积分为 $2\\pi i(2n)(-1/\\pi)=-4ni$。",
+  "search_text": "积分 $\\displaystyle\\oint_{|z|=n}\\tan(\\pi z)\\,dz=(\\ \\ )$。 $-4ni$ $-2ni$ $\\pi ni$ $ni$ 圆内 $\\tan(\\pi z)$ 有 $2n$ 个一级极点，留数各为 $-1/\\pi$，故积分为 $2\\pi i(2n)(-1/\\pi)=-4ni$。",
+  "sort_order": 86
+}

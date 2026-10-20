@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $z=x^2-y^2$ 与 $zOx$ 面的交线为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}x^2=y\\\\z=0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}x^2-y^2=0\\\\z=0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}y^2=z\\\\x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}x^2=z\\\\y=0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：$zOx$ 面的方程为 $y=0$，带入曲面方程得 $x^2=z$，故交线方程为\n$$\n\\begin{cases}x^2=z\\\\y=0\\end{cases}。\n$$",
+  "search_text": "曲面 $z=x^2-y^2$ 与 $zOx$ 面的交线为(\\quad)。 $\\begin{cases}x^2=y\\\\z=0\\end{cases}$ $\\begin{cases}x^2-y^2=0\\\\z=0\\end{cases}$ $\\begin{cases}y^2=z\\\\x=0\\end{cases}$ $\\begin{cases}x^2=z\\\\y=0\\end{cases}$ 解答：$zOx$ 面的方程为 $y=0$，带入曲面方程得 $x^2=z$，故交线方程为\n$$\n\\begin{cases}x^2=z\\\\y=0\\end{cases}。\n$$",
+  "sort_order": 8
+}

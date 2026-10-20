@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知矩阵 $A=\\begin{pmatrix}1&0&0\\\\1&1&0\\\\1&1&1\\end{pmatrix}$，$B=\\begin{pmatrix}0&1&1\\\\1&0&1\\\\1&1&0\\end{pmatrix}$，且矩阵 $X$ 满足关系式 $AXA+BXB=AXB+BXA+E$，其中 $E$ 是 $3$ 阶单位矩阵，则矩阵 $X$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\2&1&0\\\\5&2&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}0&0&1\\\\0&1&2\\\\1&2&5\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&2&5\\\\0&1&2\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}5&2&1\\\\2&1&0\\\\1&0&0\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "移项得 $AX(A-B)-BX(A-B)=E$，即 $(A-B)X(A-B)=E$。因此 $X=(A-B)^{-2}=\\begin{pmatrix}1&2&5\\\\0&1&2\\\\0&0&1\\end{pmatrix}$。",
+  "search_text": "已知矩阵 $A=\\begin{pmatrix}1&0&0\\\\1&1&0\\\\1&1&1\\end{pmatrix}$，$B=\\begin{pmatrix}0&1&1\\\\1&0&1\\\\1&1&0\\end{pmatrix}$，且矩阵 $X$ 满足关系式 $AXA+BXB=AXB+BXA+E$，其中 $E$ 是 $3$ 阶单位矩阵，则矩阵 $X$ 等于（ ）。 $\\begin{pmatrix}1&0&0\\\\2&1&0\\\\5&2&1\\end{pmatrix}$ $\\begin{pmatrix}0&0&1\\\\0&1&2\\\\1&2&5\\end{pmatrix}$ $\\begin{pmatrix}1&2&5\\\\0&1&2\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}5&2&1\\\\2&1&0\\\\1&0&0\\end{pmatrix}$ 移项得 $AX(A-B)-BX(A-B)=E$，即 $(A-B)X(A-B)=E$。因此 $X=(A-B)^{-2}=\\begin{pmatrix}1&2&5\\\\0&1&2\\\\0&0&1\\end{pmatrix}$。",
+  "sort_order": 28
+}

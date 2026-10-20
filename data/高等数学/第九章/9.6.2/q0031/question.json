@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{(0,0)}^{(a,b)}f(x+y)(dx+dy)=$（ ），其中 $f(u)$ 为连续函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{a+b}f(u)du$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(a)f(b)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(a+b)f(a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(a)+f(b)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n令 $F(x,y)=\\int_0^{x+y}f(u)\\,du$，由于 $f(u)$ 连续，故\n\n$$F'_x(x,y)=f(x+y)，\\quad F'_y(x,y)=f(x+y)，$$\n\n并且它们都是 $x，y$ 的连续函数，因此，$F(x,y)$ 可微，且\n\n$$dF(x,y)=F'_x(x,y)\\,dx+F'_y(x,y)\\,dy，$$\n\n$$=f(x+y)(dx+dy)，$$\n\n故 $f(x+y)(dx+dy)$ 是全微分，并且\n\n原式 $=F(a,b)-F(0,0)$\n\n$$=\\int_0^{a+b}f(u)\\,du$$",
+  "search_text": "$\\int_{(0,0)}^{(a,b)}f(x+y)(dx+dy)=$（ ），其中 $f(u)$ 为连续函数。 $\\int_0^{a+b}f(u)du$ $f(a)f(b)$ $f(a+b)f(a)$ $f(a)+f(b)$ 解析：\n\n令 $F(x,y)=\\int_0^{x+y}f(u)\\,du$，由于 $f(u)$ 连续，故\n\n$$F'_x(x,y)=f(x+y)，\\quad F'_y(x,y)=f(x+y)，$$\n\n并且它们都是 $x，y$ 的连续函数，因此，$F(x,y)$ 可微，且\n\n$$dF(x,y)=F'_x(x,y)\\,dx+F'_y(x,y)\\,dy，$$\n\n$$=f(x+y)(dx+dy)，$$\n\n故 $f(x+y)(dx+dy)$ 是全微分，并且\n\n原式 $=F(a,b)-F(0,0)$\n\n$$=\\int_0^{a+b}f(u)\\,du$$",
+  "sort_order": 31
+}

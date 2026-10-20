@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\frac\\pi2^-}\\frac{x^2+\\ln x}{\\cos x}=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "分子趋于正数 $\\pi^2/4+\\ln(\\pi/2)$，分母从正侧趋于 $0$，故极限为 $+\\infty$。",
+  "search_text": "$\\lim_{x\\to\\frac\\pi2^-}\\frac{x^2+\\ln x}{\\cos x}=$（ ）。 $2$ $4$ $0$ $\\infty$ 分子趋于正数 $\\pi^2/4+\\ln(\\pi/2)$，分母从正侧趋于 $0$，故极限为 $+\\infty$。",
+  "sort_order": 9
+}

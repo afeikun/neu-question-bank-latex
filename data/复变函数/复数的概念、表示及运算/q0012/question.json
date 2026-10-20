@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设复数 $z$ 满足 $\\arg(z+2)=\\dfrac\\pi3$，$\\arg(z-2)=\\dfrac{5\\pi}6$，那么 $z=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1+\\sqrt3 i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\sqrt3+i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac12+\\dfrac{\\sqrt3}2i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\dfrac{\\sqrt3}2+\\dfrac12i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac{y}{x+2}=\\tan\\dfrac\\pi3=\\sqrt3$，$\\dfrac{y}{x-2}=\\tan\\dfrac{5\\pi}6=-\\dfrac1{\\sqrt3}$，解得 $x=-1,y=\\sqrt3$。",
+  "search_text": "设复数 $z$ 满足 $\\arg(z+2)=\\dfrac\\pi3$，$\\arg(z-2)=\\dfrac{5\\pi}6$，那么 $z=(\\quad)$。 $-1+\\sqrt3 i$ $-\\sqrt3+i$ $\\dfrac12+\\dfrac{\\sqrt3}2i$ $-\\dfrac{\\sqrt3}2+\\dfrac12i$ $\\dfrac{y}{x+2}=\\tan\\dfrac\\pi3=\\sqrt3$，$\\dfrac{y}{x-2}=\\tan\\dfrac{5\\pi}6=-\\dfrac1{\\sqrt3}$，解得 $x=-1,y=\\sqrt3$。",
+  "sort_order": 12
+}

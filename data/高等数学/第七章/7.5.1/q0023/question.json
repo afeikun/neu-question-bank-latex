@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设方程 $F(\\frac xz,\\frac zy)=0$ 可确定隐函数 $z=z(x,y)$，求 $(z_x,z_y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\frac{yF_1'}{xyF_1'-z^2F_2'},-\\frac{z^2F_1'}{y(z^2F_2'-xyF_1')})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{yF_1'}{xyF_1'-z^2F_2'},-\\frac{z^2F_1'}{y(z^2F_2'-xyF_1')})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{yzF_1'}{xyF_1'-z^2F_2'},\\frac{z^3F_1'}{y(z^2F_2'-xyF_1')})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{yzF_1'}{xyF_1'-z^2F_2'},-\\frac{z^3F_1'}{y(z^2F_2'-xyF_1')})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由隐函数求导公式得\n\n$$\n\\frac{\\partial z}{\\partial x}=-\\frac{\\frac{1}{z}F_1'}{\\left(-\\frac{x}{z^2}\\right)F_1'+\\frac{1}{y}F_2'}=\\frac{yzF_1'}{xyF_1'-z^2F_2'},\\qquad \\frac{\\partial z}{\\partial y}=-\\frac{-\\frac{z}{y^2}F_2'}{\\left(-\\frac{x}{z^2}\\right)F_1'+\\frac{1}{y}F_2'}=\\frac{z^3F_2'}{y(z^2F_2'-xyF_1')}\n$$",
+  "search_text": "设方程 $F(\\frac xz,\\frac zy)=0$ 可确定隐函数 $z=z(x,y)$，求 $(z_x,z_y)$。 $(-\\frac{yF_1'}{xyF_1'-z^2F_2'},-\\frac{z^2F_1'}{y(z^2F_2'-xyF_1')})$ $(\\frac{yF_1'}{xyF_1'-z^2F_2'},-\\frac{z^2F_1'}{y(z^2F_2'-xyF_1')})$ $(\\frac{yzF_1'}{xyF_1'-z^2F_2'},\\frac{z^3F_1'}{y(z^2F_2'-xyF_1')})$ $(\\frac{yzF_1'}{xyF_1'-z^2F_2'},-\\frac{z^3F_1'}{y(z^2F_2'-xyF_1')})$ 由隐函数求导公式得\n\n$$\n\\frac{\\partial z}{\\partial x}=-\\frac{\\frac{1}{z}F_1'}{\\left(-\\frac{x}{z^2}\\right)F_1'+\\frac{1}{y}F_2'}=\\frac{yzF_1'}{xyF_1'-z^2F_2'},\\qquad \\frac{\\partial z}{\\partial y}=-\\frac{-\\frac{z}{y^2}F_2'}{\\left(-\\frac{x}{z^2}\\right)F_1'+\\frac{1}{y}F_2'}=\\frac{z^3F_2'}{y(z^2F_2'-xyF_1')}\n$$",
+  "sort_order": 23
+}

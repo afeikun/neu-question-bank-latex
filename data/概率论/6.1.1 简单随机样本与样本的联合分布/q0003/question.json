@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$x_i(i=1,\\ldots,n)$是总体的一组样本观测值，则（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x_i$为$X$的$n$个取值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x_i$的取值是不确定的"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x_i$与$X$有相同分布"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x_i$与$X$有相同数字特征"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "观测值是样本随机变量取得的具体数值，已经确定。",
+  "search_text": "设$x_i(i=1,\\ldots,n)$是总体的一组样本观测值，则（）。 $x_i$为$X$的$n$个取值 $x_i$的取值是不确定的 $x_i$与$X$有相同分布 $x_i$与$X$有相同数字特征 观测值是样本随机变量取得的具体数值，已经确定。",
+  "sort_order": 3
+}

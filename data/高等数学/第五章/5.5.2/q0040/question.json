@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将函数 $f(x)=\\frac{1}{3+5x-2x^2}$ 展开成 $x$ 的幂级数[　]。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac17\\sum_{n=1}^{\\infty}[\\frac1{3^{n+1}}-(-2)^{n+1}]x^n,\\ x\\in[-\\frac12,\\frac12]$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac17\\sum_{n=1}^{\\infty}[\\frac1{3^{n+1}}+(-2)^{n+1}]x^n,\\ x\\in(-\\frac12,\\frac12)$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac17\\sum_{n=1}^{\\infty}[\\frac1{3^{n+1}}-(-2)^{n+1}]x^n,\\ x\\in(-\\frac12,\\frac12)$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac17\\sum_{n=1}^{\\infty}[\\frac1{3^{n+1}}+(-2)^{n+1}]x^n,\\ x\\in[-\\frac12,\\frac12]$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解 利用部分分式得到\n$f(x)=\\frac1{21}(\\frac1{1-\\frac x3})+\\frac27(\\frac1{1+2x})$，\n再利用（6）式（$\\alpha=-1$），得到\n$f(x)=\\frac17\\sum_{n=0}^{\\infty}[\\frac1{3^{n+1}}-(-2)^{n+1}]x^n,\\quad x\\in(-\\frac12,\\frac12)$。",
+  "search_text": "将函数 $f(x)=\\frac{1}{3+5x-2x^2}$ 展开成 $x$ 的幂级数[　]。 $\\frac17\\sum_{n=1}^{\\infty}[\\frac1{3^{n+1}}-(-2)^{n+1}]x^n,\\ x\\in[-\\frac12,\\frac12]$； $\\frac17\\sum_{n=1}^{\\infty}[\\frac1{3^{n+1}}+(-2)^{n+1}]x^n,\\ x\\in(-\\frac12,\\frac12)$； $\\frac17\\sum_{n=1}^{\\infty}[\\frac1{3^{n+1}}-(-2)^{n+1}]x^n,\\ x\\in(-\\frac12,\\frac12)$； $\\frac17\\sum_{n=1}^{\\infty}[\\frac1{3^{n+1}}+(-2)^{n+1}]x^n,\\ x\\in[-\\frac12,\\frac12]$； 解 利用部分分式得到\n$f(x)=\\frac1{21}(\\frac1{1-\\frac x3})+\\frac27(\\frac1{1+2x})$，\n再利用（6）式（$\\alpha=-1$），得到\n$f(x)=\\frac17\\sum_{n=0}^{\\infty}[\\frac1{3^{n+1}}-(-2)^{n+1}]x^n,\\quad x\\in(-\\frac12,\\frac12)$。",
+  "sort_order": 40
+}

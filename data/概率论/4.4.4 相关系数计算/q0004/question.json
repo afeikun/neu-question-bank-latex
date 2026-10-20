@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$D(X)=16,D(Y)=25,\\rho_{XY}=0.5$，求$D(X+Y),D(X-Y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$61,21$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$61,31$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$21,61$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$21,31$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(X\\pm Y)=16+25\\pm2(0.5)(4)(5)$，即$61,21$。",
+  "search_text": "$D(X)=16,D(Y)=25,\\rho_{XY}=0.5$，求$D(X+Y),D(X-Y)$。 $61,21$ $61,31$ $21,61$ $21,31$ $D(X\\pm Y)=16+25\\pm2(0.5)(4)(5)$，即$61,21$。",
+  "sort_order": 4
+}

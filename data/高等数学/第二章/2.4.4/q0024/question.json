@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用微分代替增量得 $\\sqrt[4]{80}\\approx(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.0007$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3.9907$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2.9907$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.0013$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由线性化公式 $\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$，$\\sqrt[4]{80}=\\sqrt[4]{81-1}=3\\sqrt[4]{1-\\frac1{81}}\\approx3\\left(1-\\frac1{4\\cdot81}\\right)\\approx2.9907$。",
+  "search_text": "用微分代替增量得 $\\sqrt[4]{80}\\approx(\\quad)$。 $0.0007$ $3.9907$ $2.9907$ $0.0013$ 由线性化公式 $\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$，$\\sqrt[4]{80}=\\sqrt[4]{81-1}=3\\sqrt[4]{1-\\frac1{81}}\\approx3\\left(1-\\frac1{4\\cdot81}\\right)\\approx2.9907$。",
+  "sort_order": 24
+}

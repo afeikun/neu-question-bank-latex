@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "子弹以 $200$m/s 射入厚 $0.1$m 铁板，离板速度 $80$m/s，阻力与速度平方成正比，求穿板时间。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{3}{4000\\ln2.5}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{3}{4000\\ln(2.5)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{3}{400\\ln2.5}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{3}{4000\\ln(5/2)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：设 $t$ 时刻子弹在钢板里的运动速度为 $v$，则由题意得 $m\\frac{dv}{dt}=-kv^2$。解得 $v=\\frac{1}{\\frac{k}{m}t+C}$，结合定解条件 $v(0)=200$，$s(t_0)=\\int_0^{t_0}v\\,dt=0.1$，$v(t_0)=80$ 得 $t_0=\\frac{3}{200k}\\ln 2.5$",
+  "search_text": "子弹以 $200$m/s 射入厚 $0.1$m 铁板，离板速度 $80$m/s，阻力与速度平方成正比，求穿板时间。 $\\frac{3}{4000\\ln2.5}$ $\\frac{3}{4000\\ln(2.5)}$ $\\frac{3}{400\\ln2.5}$ $\\frac{3}{4000\\ln(5/2)}$ 解析：设 $t$ 时刻子弹在钢板里的运动速度为 $v$，则由题意得 $m\\frac{dv}{dt}=-kv^2$。解得 $v=\\frac{1}{\\frac{k}{m}t+C}$，结合定解条件 $v(0)=200$，$s(t_0)=\\int_0^{t_0}v\\,dt=0.1$，$v(t_0)=80$ 得 $t_0=\\frac{3}{200k}\\ln 2.5$",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "拉普拉斯密度$f(x)=Ae^{-|x|}$，求系数及分布函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(x)=2-\\frac12e^x(x<0);-\\frac12e^{-x}(x\\ge0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(x)=\\frac12e^x(x<0);1-\\frac12e^{-x}(x\\ge0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(x)=\\frac12e^x(x\\ge0);1-\\frac12e^{-x}(x<0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(x)=e^x(x<0);1+\\frac12e^{-x}(x\\ge0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "归一化得$A=1/2$，积分得第二项所示分布函数。",
+  "search_text": "拉普拉斯密度$f(x)=Ae^{-|x|}$，求系数及分布函数。 $F(x)=2-\\frac12e^x(x<0);-\\frac12e^{-x}(x\\ge0)$ $F(x)=\\frac12e^x(x<0);1-\\frac12e^{-x}(x\\ge0)$ $F(x)=\\frac12e^x(x\\ge0);1-\\frac12e^{-x}(x<0)$ $F(x)=e^x(x<0);1+\\frac12e^{-x}(x\\ge0)$ 归一化得$A=1/2$，积分得第二项所示分布函数。",
+  "sort_order": 4
+}

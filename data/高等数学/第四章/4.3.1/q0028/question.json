@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f可导奇函数，g为f的反函数，求d/dx ∫ₓ^(−f(x)) xg(t−x)dt",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀^(−f(x))g(t)dt+xf′(x)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₀^(−f(x))g(t)dt−xf′(x)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀^(−f(x))g(t)dt+x²f′(x)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀^(−f(x))g(t)dt−x²f′(x)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "换元并用变限积分求导，得到选项3。",
+  "search_text": "f可导奇函数，g为f的反函数，求d/dx ∫ₓ^(−f(x)) xg(t−x)dt ∫₀^(−f(x))g(t)dt+xf′(x) ∫₀^(−f(x))g(t)dt−xf′(x) ∫₀^(−f(x))g(t)dt+x²f′(x) ∫₀^(−f(x))g(t)dt−x²f′(x) 换元并用变限积分求导，得到选项3。",
+  "sort_order": 28
+}

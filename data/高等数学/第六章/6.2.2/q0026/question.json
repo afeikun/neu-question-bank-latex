@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec a$ 垂直于 $z$ 轴，又垂直于 $\\vec b=(8,-15,3)$，且与 $x$ 轴成锐角，$|\\vec a|=51$，则 $\\vec a$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(45,0,24)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(45,24,0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(24,45,0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(24,0,45)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$a$ 平行于 $k\\times b=(15,8,0)$，其模为 $17$，乘以 $3$ 且取与 $x$ 轴成锐角的方向，得 $(45,24,0)$。",
+  "search_text": "设 $\\vec a$ 垂直于 $z$ 轴，又垂直于 $\\vec b=(8,-15,3)$，且与 $x$ 轴成锐角，$|\\vec a|=51$，则 $\\vec a$ 为(\\quad)。 $(45,0,24)$ $(45,24,0)$ $(24,45,0)$ $(24,0,45)$ $a$ 平行于 $k\\times b=(15,8,0)$，其模为 $17$，乘以 $3$ 且取与 $x$ 轴成锐角的方向，得 $(45,24,0)$。",
+  "sort_order": 26
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sqrt[4]{|3+4i|}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt[4]5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt[4]7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|3+4i|=5$，故结果为 $\\sqrt[4]5$。",
+  "search_text": "$\\sqrt[4]{|3+4i|}=(\\quad)$。 $\\sqrt[4]5$ $\\sqrt[4]7$ $5^4$ $7^4$ $|3+4i|=5$，故结果为 $\\sqrt[4]5$。",
+  "sort_order": 8
+}

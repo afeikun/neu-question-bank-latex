@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(3,2),Y\\sim N(-2,2)$独立，$Z=-X+3Y-1$服从。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$N(-10,20)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$N(10,15)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$N(-9,20)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$N(-10,16)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "均值$-3-6-1=-10$，方差$2+9\\cdot2=20$。",
+  "search_text": "$X\\sim N(3,2),Y\\sim N(-2,2)$独立，$Z=-X+3Y-1$服从。 $N(-10,20)$ $N(10,15)$ $N(-9,20)$ $N(-10,16)$ 均值$-3-6-1=-10$，方差$2+9\\cdot2=20$。",
+  "sort_order": 17
+}

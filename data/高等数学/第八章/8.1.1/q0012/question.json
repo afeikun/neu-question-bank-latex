@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用直线 $x=1+\\frac{i}{n},y=1+\\frac{2j}{n}\\ (i,j=0,1,\\ldots,n)$ 把矩形区域 $D:1\\leq x\\leq2,1\\leq y\\leq3$ 分割成一系列小长方形，则二重积分 $\\iint_D(x^2+y^2)\\,d\\sigma=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(1+\\frac{i}{n})^2+(1+\\frac{2j}{n})^2]\\frac1{n^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(1+\\frac{i}{n})^2+(1+\\frac{2j}{n})^2]\\frac1{n^2}\\cdot\\frac2{n^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(1+\\frac{i}{n})^2+(1+\\frac{2j}{n})^2]\\frac1n\\cdot\\frac2n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(1+\\frac{i}{n})^2+(1+\\frac{2j}{n})^2]\\frac1n\\cdot\\frac2n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 根据二重积分的概念易知\n\n$$\\iint_D(x^2+y^2)d\\sigma=\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\left[\\left(1+\\frac{i}{n}\\right)^2+\\left(1+\\frac{2j}{n}\\right)^2\\right]\\cdot\\frac1n\\cdot\\frac2n$$",
+  "search_text": "用直线 $x=1+\\frac{i}{n},y=1+\\frac{2j}{n}\\ (i,j=0,1,\\ldots,n)$ 把矩形区域 $D:1\\leq x\\leq2,1\\leq y\\leq3$ 分割成一系列小长方形，则二重积分 $\\iint_D(x^2+y^2)\\,d\\sigma=（ ）$ $\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(1+\\frac{i}{n})^2+(1+\\frac{2j}{n})^2]\\frac1{n^2}$ $\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(1+\\frac{i}{n})^2+(1+\\frac{2j}{n})^2]\\frac1{n^2}\\cdot\\frac2{n^2}$ $\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(1+\\frac{i}{n})^2+(1+\\frac{2j}{n})^2]\\frac1n\\cdot\\frac2n$ $\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=1}^n[(1+\\frac{i}{n})^2+(1+\\frac{2j}{n})^2]\\frac1n\\cdot\\frac2n$ 解答 根据二重积分的概念易知\n\n$$\\iint_D(x^2+y^2)d\\sigma=\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\left[\\left(1+\\frac{i}{n}\\right)^2+\\left(1+\\frac{2j}{n}\\right)^2\\right]\\cdot\\frac1n\\cdot\\frac2n$$",
+  "sort_order": 12
+}

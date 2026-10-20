@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=(1,1,0),\\ \\alpha_2=(0,1,1),\\ \\alpha_3=(1,0,1)$，试判断 $\\alpha_1,\\alpha_2,\\alpha_3$ 的相关性（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "线性相关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "既线性相关又线性无关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不确定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "线性无关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "若 $k_1\\alpha_1+k_2\\alpha_2+k_3\\alpha_3=0$，由对应齐次方程组只有零解可知三个向量线性无关。",
+  "search_text": "设 $\\alpha_1=(1,1,0),\\ \\alpha_2=(0,1,1),\\ \\alpha_3=(1,0,1)$，试判断 $\\alpha_1,\\alpha_2,\\alpha_3$ 的相关性（ ）。 线性相关 既线性相关又线性无关 不确定 线性无关 若 $k_1\\alpha_1+k_2\\alpha_2+k_3\\alpha_3=0$，由对应齐次方程组只有零解可知三个向量线性无关。",
+  "sort_order": 16
+}

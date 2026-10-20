@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i$为总体样本，$\\bar X=\\frac1n\\sum X_i$，下列结论错误的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$D(\\bar X)=D(X)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E(\\bar X)=E(X)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(\\bar X)=D(X)/n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X$是$E(X)$的无偏估计"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本均值方差为$D(X)/n$，一般不等于总体方差。",
+  "search_text": "$X_i$为总体样本，$\\bar X=\\frac1n\\sum X_i$，下列结论错误的是（）。 $D(\\bar X)=D(X)$ $E(\\bar X)=E(X)$ $D(\\bar X)=D(X)/n$ $\\bar X$是$E(X)$的无偏估计 样本均值方差为$D(X)/n$，一般不等于总体方差。",
+  "sort_order": 33
+}

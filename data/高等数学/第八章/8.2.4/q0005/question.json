@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是由曲面 $z=\\frac{x^2+y^2+z^2}{2}$ 与 $z=\\sqrt{x^2+y^2}$ 所围含 $z$ 轴的立体区域，则立体 $\\Omega$ 的体积用球面坐标可表示为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^1r^2\\sin\\varphi\\,dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^1r^2\\sin\\varphi\\,dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\begin{cases}x^2+y^2+z^2=2z\\\\z=x^2+y^2\\end{cases}$，则 $\\begin{cases}x^2+y^2=1\\\\z=1\\end{cases}$，于是 $\\Omega:\\quad\\begin{cases}0\\leq\\theta\\leq2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\0\\leq r\\leq2\\cos\\varphi\\end{cases}$，\n\n$$\nV=\\iiint_\\Omega1dV=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr.\n$$",
+  "search_text": "若 $\\Omega$ 是由曲面 $z=\\frac{x^2+y^2+z^2}{2}$ 与 $z=\\sqrt{x^2+y^2}$ 所围含 $z$ 轴的立体区域，则立体 $\\Omega$ 的体积用球面坐标可表示为（ ） $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/4}d\\varphi\\int_0^1r^2\\sin\\varphi\\,dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{\\pi/2}d\\varphi\\int_0^1r^2\\sin\\varphi\\,dr$ 由 $\\begin{cases}x^2+y^2+z^2=2z\\\\z=x^2+y^2\\end{cases}$，则 $\\begin{cases}x^2+y^2=1\\\\z=1\\end{cases}$，于是 $\\Omega:\\quad\\begin{cases}0\\leq\\theta\\leq2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\0\\leq r\\leq2\\cos\\varphi\\end{cases}$，\n\n$$\nV=\\iiint_\\Omega1dV=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{2\\cos\\varphi}r^2\\sin\\varphi\\,dr.\n$$",
+  "sort_order": 5
+}

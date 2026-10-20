@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A_1,A_2,A_3$ 为完备事件组，且 $P(A_1)=0.1$，$P(A_2)=0.5$，$P(B\\mid A_1)=0.2$，$P(B\\mid A_2)=0.6$，$P(B\\mid A_3)=0.1$，则 $P(A_1\\mid B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{18}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac19$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(A_3)=1-0.1-0.5=0.4$。由贝叶斯公式，$P(A_1\\mid B)=\\frac{0.1\\times0.2}{0.1\\times0.2+0.5\\times0.6+0.4\\times0.1}=\\frac1{18}$。",
+  "search_text": "已知 $A_1,A_2,A_3$ 为完备事件组，且 $P(A_1)=0.1$，$P(A_2)=0.5$，$P(B\\mid A_1)=0.2$，$P(B\\mid A_2)=0.6$，$P(B\\mid A_3)=0.1$，则 $P(A_1\\mid B)=(\\quad)$。 $\\frac1{18}$ $\\frac13$ $\\frac16$ $\\frac19$ $P(A_3)=1-0.1-0.5=0.4$。由贝叶斯公式，$P(A_1\\mid B)=\\frac{0.1\\times0.2}{0.1\\times0.2+0.5\\times0.6+0.4\\times0.1}=\\frac1{18}$。",
+  "sort_order": 2
+}

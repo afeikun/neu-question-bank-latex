@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{-\\pi i}^{\\pi i}\\sin^2 z\\,dz=(\\quad)$，积分路径为从下限到上限的任意简单曲线。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi i-i\\sinh\\pi\\cosh\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cosh\\pi\\sinh\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi^2}{2}i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $\\sin^2 z$ 在复平面内解析，且 $\\frac12z-\\frac12\\sin z\\cos z$ 是它的一个原函数，$\\int_{-\\pi i}^{\\pi i}\\sin^2z\\,dz=\\left(\\frac12z-\\frac12\\sin z\\cos z\\right)\\big|_{-\\pi i}^{\\pi i}=\\pi i-i\\sinh\\pi\\cosh\\pi$。",
+  "search_text": "$\\int_{-\\pi i}^{\\pi i}\\sin^2 z\\,dz=(\\quad)$，积分路径为从下限到上限的任意简单曲线。 $\\pi i-i\\sinh\\pi\\cosh\\pi$ $\\cosh\\pi\\sinh\\pi$ $\\pi i$ $\\frac{\\pi^2}{2}i$ 由于 $\\sin^2 z$ 在复平面内解析，且 $\\frac12z-\\frac12\\sin z\\cos z$ 是它的一个原函数，$\\int_{-\\pi i}^{\\pi i}\\sin^2z\\,dz=\\left(\\frac12z-\\frac12\\sin z\\cos z\\right)\\big|_{-\\pi i}^{\\pi i}=\\pi i-i\\sinh\\pi\\cosh\\pi$。",
+  "sort_order": 17
+}

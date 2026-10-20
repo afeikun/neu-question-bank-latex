@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}\\frac{x^4}{x^3+5}=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac15$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "分子次数高于分母次数，故极限为 $+\\infty$。",
+  "search_text": "$\\lim_{x\\to\\infty}\\frac{x^4}{x^3+5}=$（ ）。 $0$ $\\infty$ $\\frac15$ $-1$ 分子次数高于分母次数，故极限为 $+\\infty$。",
+  "sort_order": 4
+}

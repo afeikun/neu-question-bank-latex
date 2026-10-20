@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $y=e^x\\cos x$，则 $y^{(3)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$2\\sqrt2e^x\\cos(x+3\\pi/4)$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$\\sqrt2e^x\\sin(x+3\\pi/4)$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$2\\sqrt2e^x\\sin(x+3\\pi/4)$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$\\sqrt2e^x\\cos(x+3\\pi/4)$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "连续求导得 $y^{(3)}=2\\sqrt2e^x\\cos(x+3\\pi/4)$。",
+  "search_text": "已知 $y=e^x\\cos x$，则 $y^{(3)}=$（ ）。 $$2\\sqrt2e^x\\cos(x+3\\pi/4)$$ $$\\sqrt2e^x\\sin(x+3\\pi/4)$$ $$2\\sqrt2e^x\\sin(x+3\\pi/4)$$ $$\\sqrt2e^x\\cos(x+3\\pi/4)$$ 连续求导得 $y^{(3)}=2\\sqrt2e^x\\cos(x+3\\pi/4)$。",
+  "sort_order": 21
+}

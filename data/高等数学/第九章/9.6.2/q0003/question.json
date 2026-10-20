@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $I=\\int_L(1+xe^{2y})\\,dx+(x^2e^{2y}-y^2)\\,dy$，$L$ 为圆 $(x-2)^2+y^2=4$ 上从 $O(0,0)$ 沿上半圆到 $A(4,0)$ 的弧段，求 $I$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$14$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n$$P(x,y)=1+xe^{2y}，\\quad Q(x,y)=x^2e^{2y}-y^2，$$\n\n由于 $\\frac{\\partial Q}{\\partial x}=2xe^{2y}=\\frac{\\partial P}{\\partial y}$，且 $P(x,y)$ 与 $Q(x,y)$ 在全平面上有一阶连续偏导数，因此这个曲线积分与路径无关，\n\n取直线段 $OA$ 作为积分路径，于是\n\n$$I=\\int_{OA}(1+xe^{2y})\\,dx+(x^2e^{2y}-y^2)\\,dy=\\int_0^4(1+x)\\,dx=12$$",
+  "search_text": "设 $I=\\int_L(1+xe^{2y})\\,dx+(x^2e^{2y}-y^2)\\,dy$，$L$ 为圆 $(x-2)^2+y^2=4$ 上从 $O(0,0)$ 沿上半圆到 $A(4,0)$ 的弧段，求 $I$（ ） $12$ $0$ $13$ $14$ 解析：\n\n$$P(x,y)=1+xe^{2y}，\\quad Q(x,y)=x^2e^{2y}-y^2，$$\n\n由于 $\\frac{\\partial Q}{\\partial x}=2xe^{2y}=\\frac{\\partial P}{\\partial y}$，且 $P(x,y)$ 与 $Q(x,y)$ 在全平面上有一阶连续偏导数，因此这个曲线积分与路径无关，\n\n取直线段 $OA$ 作为积分路径，于是\n\n$$I=\\int_{OA}(1+xe^{2y})\\,dx+(x^2e^{2y}-y^2)\\,dy=\\int_0^4(1+x)\\,dx=12$$",
+  "sort_order": 3
+}

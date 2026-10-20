@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由方程 $\\sqrt x+\\sqrt y+\\sqrt z=1$ 确定，则全微分 $dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{y/x}dx-\\sqrt{x/y}dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt{x/z}dx+\\sqrt{y/z}dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-(\\sqrt{z/x}dx+\\sqrt{z/y}dy)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{z/x}dy-\\sqrt{z/y}dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为$\\frac{1}{2}x^{-\\frac{1}{2}}+\\frac{1}{2}z^{-\\frac{1}{2}}z_x=0,\\quad \\frac{1}{2}y^{-\\frac{1}{2}}+\\frac{1}{2}z^{-\\frac{1}{2}}z_x=0,$所以$z_x=-\\sqrt{\\frac{z}{x}},\\quad z_y=-\\sqrt{\\frac{z}{y}},$\n\n则全微分$dz=-\\left(\\sqrt{\\frac{z}{x}}dx+\\sqrt{\\frac{z}{y}}dy\\right).$",
+  "search_text": "设 $z=z(x,y)$ 由方程 $\\sqrt x+\\sqrt y+\\sqrt z=1$ 确定，则全微分 $dz=(\\quad)$。 $\\sqrt{y/x}dx-\\sqrt{x/y}dy$ $\\sqrt{x/z}dx+\\sqrt{y/z}dy$ $-(\\sqrt{z/x}dx+\\sqrt{z/y}dy)$ $\\sqrt{z/x}dy-\\sqrt{z/y}dx$ 因为$\\frac{1}{2}x^{-\\frac{1}{2}}+\\frac{1}{2}z^{-\\frac{1}{2}}z_x=0,\\quad \\frac{1}{2}y^{-\\frac{1}{2}}+\\frac{1}{2}z^{-\\frac{1}{2}}z_x=0,$所以$z_x=-\\sqrt{\\frac{z}{x}},\\quad z_y=-\\sqrt{\\frac{z}{y}},$\n\n则全微分$dz=-\\left(\\sqrt{\\frac{z}{x}}dx+\\sqrt{\\frac{z}{y}}dy\\right).$",
+  "sort_order": 12
+}

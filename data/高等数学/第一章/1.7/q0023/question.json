@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0^+$ 时，$\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}\\sim\\frac14x^a$，则 $a$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "有理化并用 $\\tan x-\\sin x\\sim x^3/2$，差值主项为 $x^3/4$，故 $a=3$。",
+  "search_text": "当 $x\\to0^+$ 时，$\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}\\sim\\frac14x^a$，则 $a$ 等于（ ）。 4 3 1 2 有理化并用 $\\tan x-\\sin x\\sim x^3/2$，差值主项为 $x^3/4$，故 $a=3$。",
+  "sort_order": 23
+}

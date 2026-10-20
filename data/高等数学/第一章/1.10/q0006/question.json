@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\pi}(1-\\cos x)^{2\\sec x}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to\\pi}2\\sec x\\ln(1-\\cos x)=-2\\ln2$，故极限为 $1/4$。",
+  "search_text": "$\\lim_{x\\to\\pi}(1-\\cos x)^{2\\sec x}=$（ ）。 $e^{-2}$ $e^2$ $\\frac14$ $4$ $\\lim_{x\\to\\pi}2\\sec x\\ln(1-\\cos x)=-2\\ln2$，故极限为 $1/4$。",
+  "sort_order": 6
+}

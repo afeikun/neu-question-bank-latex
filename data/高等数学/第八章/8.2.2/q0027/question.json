@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 由曲面 $y=x/3+z/4$ 与平面 $y=\\sqrt\\pi,y=\\sqrt{2\\pi}$ 围成，则 $\\iiint_\\Omega\\sin y^2dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt3}2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt3\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\sqrt3\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\sqrt3\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "注意到 $\\int\\sin y^2dy$ 不是初等函数，所以避免先对 $y$ 积分，$\\Omega$ 可以表示为：\n\n$$\n\\sqrt{\\pi}\\leq y\\leq\\sqrt{2\\pi}\\quad D：\\ \\frac{x^2}{3}+\\frac{z^2}{4}\\leq y，\\text{于是由平行截面法可得，}\n$$\n\n原式 $=\\int_{\\sqrt{\\pi}}^{\\sqrt{2\\pi}}dy\\iint_D\\sin y^2dx dz$\n\n$$\n=\\int_{\\sqrt{\\pi}}^{\\sqrt{2\\pi}}\\pi\\sqrt{3}\\sqrt{4y}\\sin y^2dy\n$$\n\n$$\n=2\\sqrt{3}\\pi。\n$$",
+  "search_text": "$\\Omega$ 由曲面 $y=x/3+z/4$ 与平面 $y=\\sqrt\\pi,y=\\sqrt{2\\pi}$ 围成，则 $\\iiint_\\Omega\\sin y^2dv$ 的值为（ ） $\\frac{\\sqrt3}2\\pi$ $\\sqrt3\\pi$ $4\\sqrt3\\pi$ $2\\sqrt3\\pi$ 注意到 $\\int\\sin y^2dy$ 不是初等函数，所以避免先对 $y$ 积分，$\\Omega$ 可以表示为：\n\n$$\n\\sqrt{\\pi}\\leq y\\leq\\sqrt{2\\pi}\\quad D：\\ \\frac{x^2}{3}+\\frac{z^2}{4}\\leq y，\\text{于是由平行截面法可得，}\n$$\n\n原式 $=\\int_{\\sqrt{\\pi}}^{\\sqrt{2\\pi}}dy\\iint_D\\sin y^2dx dz$\n\n$$\n=\\int_{\\sqrt{\\pi}}^{\\sqrt{2\\pi}}\\pi\\sqrt{3}\\sqrt{4y}\\sin y^2dy\n$$\n\n$$\n=2\\sqrt{3}\\pi。\n$$",
+  "sort_order": 27
+}

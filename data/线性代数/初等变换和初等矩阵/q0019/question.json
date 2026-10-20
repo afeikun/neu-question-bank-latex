@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "矩阵 $A=\\begin{pmatrix}1&-1&2\\\\3&2&1\\\\1&-2&0\\end{pmatrix}$ 的行最简形矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&0&1\\\\0&1&1\\\\0&0&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&0&2\\\\0&1&1\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对矩阵 $A$ 作初等行变换。由于 $|A|\\ne0$，矩阵满秩，其行最简形为三阶单位矩阵 $E_3$，即选项 $4$。",
+  "search_text": "矩阵 $A=\\begin{pmatrix}1&-1&2\\\\3&2&1\\\\1&-2&0\\end{pmatrix}$ 的行最简形矩阵为（ ）。 $\\begin{pmatrix}1&0&1\\\\0&1&1\\\\0&0&0\\end{pmatrix}$ $\\begin{pmatrix}1&0&2\\\\0&1&1\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&0\\end{pmatrix}$ $\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}$ 对矩阵 $A$ 作初等行变换。由于 $|A|\\ne0$，矩阵满秩，其行最简形为三阶单位矩阵 $E_3$，即选项 $4$。",
+  "sort_order": 19
+}

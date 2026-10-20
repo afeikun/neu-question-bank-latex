@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $u_n\\to+\\infty$ 且单调递增，比较 $\\sum_{n=1}^{\\infty}(-1)^{n-1}/\\sqrt{u_n}$ 与 $\\sum_{n=1}^{\\infty}1/\\sqrt{u_n^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "一个收敛，另一个也收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "敛散性均不能确定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "一个收敛，另一个敛散性不确定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "均收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "第一项由交错判别收敛；第二项可随 $u_n$ 增长速度而收敛或发散。",
+  "search_text": "若 $u_n\\to+\\infty$ 且单调递增，比较 $\\sum_{n=1}^{\\infty}(-1)^{n-1}/\\sqrt{u_n}$ 与 $\\sum_{n=1}^{\\infty}1/\\sqrt{u_n^2}$。 一个收敛，另一个也收敛 敛散性均不能确定 一个收敛，另一个敛散性不确定 均收敛 第一项由交错判别收敛；第二项可随 $u_n$ 增长速度而收敛或发散。",
+  "sort_order": 25
+}

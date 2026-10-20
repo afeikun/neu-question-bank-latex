@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=\\frac{\\sqrt5}{3}t^3+7,y=t^4-3,z=t^2-t+4$ 在 $t=1/2$ 处的切线与 $zOx$ 平面的夹角是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\\\arccos(\\frac23)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\\\arcsin(\\frac13)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\\\arcsin(\\frac23)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\\\arccos(\\frac13)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\nx'_t\\bigg|_{t=\\frac{1}{2}}=\\sqrt{5}t^2\\bigg|_{t=\\frac{1}{2}}=\\frac{\\sqrt{5}}{4},\\quad\ny'_t\\bigg|_{t=\\frac{1}{2}}=4t^3=\\frac{1}{2},\\quad\nz'_t\\bigg|_{t=\\frac{1}{2}}=2t-1=0,\n$$\n则曲线切向量为：$\\left(\\frac{\\sqrt{5}}{4},\\frac{1}{2},0\\right)$，$zOx$ 平面的法向量为：$(0,1,0)$，\n\n则\n$$\n\\sin\\varphi=\\frac{\\frac{1}{2}}{\\sqrt{\\frac{9}{16}}}=\\frac{2}{3},\n$$\n得到：$\\varphi=\\arcsin\\frac{2}{3}$。",
+  "search_text": "曲线 $x=\\frac{\\sqrt5}{3}t^3+7,y=t^4-3,z=t^2-t+4$ 在 $t=1/2$ 处的切线与 $zOx$ 平面的夹角是。 $\\\\arccos(\\frac23)$ $\\\\arcsin(\\frac13)$ $\\\\arcsin(\\frac23)$ $\\\\arccos(\\frac13)$ $$\nx'_t\\bigg|_{t=\\frac{1}{2}}=\\sqrt{5}t^2\\bigg|_{t=\\frac{1}{2}}=\\frac{\\sqrt{5}}{4},\\quad\ny'_t\\bigg|_{t=\\frac{1}{2}}=4t^3=\\frac{1}{2},\\quad\nz'_t\\bigg|_{t=\\frac{1}{2}}=2t-1=0,\n$$\n则曲线切向量为：$\\left(\\frac{\\sqrt{5}}{4},\\frac{1}{2},0\\right)$，$zOx$ 平面的法向量为：$(0,1,0)$，\n\n则\n$$\n\\sin\\varphi=\\frac{\\frac{1}{2}}{\\sqrt{\\frac{9}{16}}}=\\frac{2}{3},\n$$\n得到：$\\varphi=\\arcsin\\frac{2}{3}$。",
+  "sort_order": 11
+}

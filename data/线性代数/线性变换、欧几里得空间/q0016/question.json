@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在线性空间 $\\mathbb R[x]_n$ 中，对任意向量 $f(x),g(x)\\in\\mathbb R[x]_n$，以下可以作为内积的二元运算是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[f(x),g(x)]=\\int_{-1}^{1}(x^2-1)f(x)g(x)\\,dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[f(x),g(x)]=\\int_{-1}^{1}x f(x)g(x)\\,dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[f(x),g(x)]=\\int_{-1}^{1}e^{-x}f(x)g(x)\\,dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[f(x),g(x)]=\\int_{-1}^{1}[f(x)]^2g(x)\\,dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "带权积分 $\\int_{-1}^1e^{-x}f(x)g(x)\\,dx$ 的权函数处处为正，满足内积定义的正定性，且其余双线性与对称条件也成立。$(x^2-1)$ 与 $x$ 作权函数时不满足正定性；最后一项不满足对称性。",
+  "search_text": "在线性空间 $\\mathbb R[x]_n$ 中，对任意向量 $f(x),g(x)\\in\\mathbb R[x]_n$，以下可以作为内积的二元运算是（ ）。 $[f(x),g(x)]=\\int_{-1}^{1}(x^2-1)f(x)g(x)\\,dx$ $[f(x),g(x)]=\\int_{-1}^{1}x f(x)g(x)\\,dx$ $[f(x),g(x)]=\\int_{-1}^{1}e^{-x}f(x)g(x)\\,dx$ $[f(x),g(x)]=\\int_{-1}^{1}[f(x)]^2g(x)\\,dx$ 带权积分 $\\int_{-1}^1e^{-x}f(x)g(x)\\,dx$ 的权函数处处为正，满足内积定义的正定性，且其余双线性与对称条件也成立。$(x^2-1)$ 与 $x$ 作权函数时不满足正定性；最后一项不满足对称性。",
+  "sort_order": 16
+}

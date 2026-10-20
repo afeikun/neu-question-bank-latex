@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若齐次线性方程组 $\\begin{cases}2x+y+z=0\\\\kx+y+z=0\\\\x-y+z=0\\end{cases}$ 有非零解，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k=-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k=2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k=-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "齐次线性方程组有非零解，当且仅当系数矩阵行列式为零。$\\begin{vmatrix}2&1&1\\\\k&1&1\\\\1&-1&1\\end{vmatrix}=2(2-k)=0$，所以 $k=2$。",
+  "search_text": "若齐次线性方程组 $\\begin{cases}2x+y+z=0\\\\kx+y+z=0\\\\x-y+z=0\\end{cases}$ 有非零解，则（ ）。 $k=-2$ $k=1$ $k=2$ $k=-1$ 齐次线性方程组有非零解，当且仅当系数矩阵行列式为零。$\\begin{vmatrix}2&1&1\\\\k&1&1\\\\1&-1&1\\end{vmatrix}=2(2-k)=0$，所以 $k=2$。",
+  "sort_order": 29
+}

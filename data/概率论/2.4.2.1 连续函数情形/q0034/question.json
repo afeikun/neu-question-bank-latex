@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim U[0,1]$，$\\eta=1-2\\xi$，则？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\eta\\sim U[-1,1]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\eta\\sim U(0,1/2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\eta\\sim U[0,1]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\varphi(y)=0(-1\\le y\\le1)$，其他1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "线性变换将$[0,1]$映为$[-1,1]$，密度均匀。",
+  "search_text": "$\\xi\\sim U[0,1]$，$\\eta=1-2\\xi$，则？ $\\eta\\sim U[-1,1]$ $\\eta\\sim U(0,1/2)$ $\\eta\\sim U[0,1]$ $\\varphi(y)=0(-1\\le y\\le1)$，其他1 线性变换将$[0,1]$映为$[-1,1]$，密度均匀。",
+  "sort_order": 34
+}

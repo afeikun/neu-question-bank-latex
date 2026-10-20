@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{(1,\\pi)}^{(2,\\pi)}\\left(1-\\frac{y^2}{x^2}\\cos\\frac{y}{x}\\right)dx+\\left(\\sin\\frac{y}{x}+\\frac{y}{x}\\cos\\frac{y}{x}\\right)dy=$（ ），（沿着不与 $Oy$ 轴相交的路径）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi+2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n$P=1-\\frac{y^2}{x^2}\\cos\\frac{y}{x}，\\quad Q=\\sin\\frac{y}{x}+\\frac{y}{x}\\cos\\frac{y}{x}，$\n\n$$\\frac{\\partial P}{\\partial y}=-\\frac{2y}{x^2}\\cos\\frac{y}{x}+\\frac{y^2}{x^3}\\sin\\frac{y}{x}，\\quad \\frac{\\partial Q}{\\partial x}=-\\frac{2y}{x^2}\\cos\\frac{y}{x}+\\frac{y^2}{x^3}\\sin\\frac{y}{x}，$$\n\n在右半平面 $\\Omega=\\{(x,y)\\mid x>0\\}$，$\\Omega$ 是单连通区域，又 $\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$，故在 $\\Omega$ 上必是某函数 $u(x,y)$ 的全微分，且可取\n\n$$u(x,y)=\\int_1^x\\left(1-\\frac{y^2}{x^2}\\cos\\frac{y}{x}\\right)dx+\\int_\\pi^y(\\sin y+y\\cos y)dy$$\n\n$$=x-1+y\\sin\\frac{y}{x}$$\n\n于是\n\n$$原式=(x-1+y\\sin\\frac{y}{x})\\bigg|_{(1,\\pi)}^{(2,\\pi)}=\\pi+1，$$",
+  "search_text": "$\\int_{(1,\\pi)}^{(2,\\pi)}\\left(1-\\frac{y^2}{x^2}\\cos\\frac{y}{x}\\right)dx+\\left(\\sin\\frac{y}{x}+\\frac{y}{x}\\cos\\frac{y}{x}\\right)dy=$（ ），（沿着不与 $Oy$ 轴相交的路径） $\\pi+2$ $\\frac\\pi2$ $\\pi$ $\\pi+1$ 解析：\n\n$P=1-\\frac{y^2}{x^2}\\cos\\frac{y}{x}，\\quad Q=\\sin\\frac{y}{x}+\\frac{y}{x}\\cos\\frac{y}{x}，$\n\n$$\\frac{\\partial P}{\\partial y}=-\\frac{2y}{x^2}\\cos\\frac{y}{x}+\\frac{y^2}{x^3}\\sin\\frac{y}{x}，\\quad \\frac{\\partial Q}{\\partial x}=-\\frac{2y}{x^2}\\cos\\frac{y}{x}+\\frac{y^2}{x^3}\\sin\\frac{y}{x}，$$\n\n在右半平面 $\\Omega=\\{(x,y)\\mid x>0\\}$，$\\Omega$ 是单连通区域，又 $\\frac{\\partial P}{\\partial y}=\\frac{\\partial Q}{\\partial x}$，故在 $\\Omega$ 上必是某函数 $u(x,y)$ 的全微分，且可取\n\n$$u(x,y)=\\int_1^x\\left(1-\\frac{y^2}{x^2}\\cos\\frac{y}{x}\\right)dx+\\int_\\pi^y(\\sin y+y\\cos y)dy$$\n\n$$=x-1+y\\sin\\frac{y}{x}$$\n\n于是\n\n$$原式=(x-1+y\\sin\\frac{y}{x})\\bigg|_{(1,\\pi)}^{(2,\\pi)}=\\pi+1，$$",
+  "sort_order": 23
+}

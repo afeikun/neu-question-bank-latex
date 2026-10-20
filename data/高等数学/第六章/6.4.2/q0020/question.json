@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两直线 $l_1:\\begin{cases}x=t-4\\\\y=-2t+3\\\\z=3t+2\\end{cases}$，$l_2:\\begin{cases}x=2t-3\\\\y=-4t-1\\\\z=6t+5\\end{cases}$ 的位置关系为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "相交且垂直"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "平行"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "异面且不垂直"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "异面且垂直"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：两直线方向向量 $\\vec{s}_1=(1,-2,3)，\\vec{s}_2=(2,-4,6)$，因 $\\frac{1}{2}=\\frac{-2}{-4}=\\frac{3}{6}$，所以两直线平行。",
+  "search_text": "两直线 $l_1:\\begin{cases}x=t-4\\\\y=-2t+3\\\\z=3t+2\\end{cases}$，$l_2:\\begin{cases}x=2t-3\\\\y=-4t-1\\\\z=6t+5\\end{cases}$ 的位置关系为(\\quad)。 相交且垂直 平行 异面且不垂直 异面且垂直 解答：两直线方向向量 $\\vec{s}_1=(1,-2,3)，\\vec{s}_2=(2,-4,6)$，因 $\\frac{1}{2}=\\frac{-2}{-4}=\\frac{3}{6}$，所以两直线平行。",
+  "sort_order": 20
+}

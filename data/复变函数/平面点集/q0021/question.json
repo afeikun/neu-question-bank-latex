@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由不等式 $|z|>1$ 所确定的区域是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "多连通区域"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单连通区域"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单连通闭区域"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "多连通闭区域"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆 $x^2+y^2=1$ 的外部区域是多连通区域。",
+  "search_text": "由不等式 $|z|>1$ 所确定的区域是（ ）。 多连通区域 单连通区域 单连通闭区域 多连通闭区域 圆 $x^2+y^2=1$ 的外部区域是多连通区域。",
+  "sort_order": 21
+}

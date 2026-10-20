@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $I_1=\\iint_D\\ln(x+y)\\,d\\sigma,I_2=\\iint_D[\\ln(x+y)]^2\\,d\\sigma,D:3\\leq x\\leq5,0\\leq y\\leq1$，则（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$I_1与I_2的大小关系不定$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$I_1=I_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$I_1<I_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$I_1>I_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $x+y\\geq3,\\ln(x+y)>1$，则 $[\\ln(x+y)]^2>\\ln(x+y)$，故 $I_1<I_2$.",
+  "search_text": "若 $I_1=\\iint_D\\ln(x+y)\\,d\\sigma,I_2=\\iint_D[\\ln(x+y)]^2\\,d\\sigma,D:3\\leq x\\leq5,0\\leq y\\leq1$，则（ ） $I_1与I_2的大小关系不定$ $I_1=I_2$ $I_1<I_2$ $I_1>I_2$ 解答 $x+y\\geq3,\\ln(x+y)>1$，则 $[\\ln(x+y)]^2>\\ln(x+y)$，故 $I_1<I_2$.",
+  "sort_order": 29
+}

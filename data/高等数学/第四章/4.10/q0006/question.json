@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若某产品总产量的变化率为 $f(t)=10t-t^2$，求 $t_0=4$ 到 $t_1=8$ 这段时间内总产量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$272/6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$272/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$272/3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$272/5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$Q=\\int_4^8(10t-t^2)dt=272/3$。",
+  "search_text": "若某产品总产量的变化率为 $f(t)=10t-t^2$，求 $t_0=4$ 到 $t_1=8$ 这段时间内总产量。 $272/6$ $272/4$ $272/3$ $272/5$ $Q=\\int_4^8(10t-t^2)dt=272/3$。",
+  "sort_order": 6
+}

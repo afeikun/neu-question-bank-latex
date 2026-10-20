@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\vec c\\ne\\vec0$，$\\lambda\\in\\mathbb R$，则使 $\\vec a=\\vec b$ 的充分条件为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\vec a\\cdot\\vec c=\\vec b\\cdot\\vec c$，且 $\\vec a\\times\\vec c=\\vec b\\times\\vec c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\vec a=\\lambda\\vec b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\vec a\\times\\vec c=\\vec b\\times\\vec c$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\vec a\\cdot\\vec c=\\vec b\\cdot\\vec c$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一条件说明 $\\vec a-\\vec b$ 同时平行且垂直于非零向量 $\\vec c$，因此 $\\vec a-\\vec b=\\vec0$。",
+  "search_text": "已知 $\\vec c\\ne\\vec0$，$\\lambda\\in\\mathbb R$，则使 $\\vec a=\\vec b$ 的充分条件为(\\quad)。 $\\vec a\\cdot\\vec c=\\vec b\\cdot\\vec c$，且 $\\vec a\\times\\vec c=\\vec b\\times\\vec c$ $\\vec a=\\lambda\\vec b$ $\\vec a\\times\\vec c=\\vec b\\times\\vec c$ $\\vec a\\cdot\\vec c=\\vec b\\cdot\\vec c$ 第一条件说明 $\\vec a-\\vec b$ 同时平行且垂直于非零向量 $\\vec c$，因此 $\\vec a-\\vec b=\\vec0$。",
+  "sort_order": 6
+}

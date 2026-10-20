@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若力的方向沿 $x$ 轴负方向，且力的模等于质点的横坐标的平方，则质点在第一象限内沿抛物线 $1-x=y^2$ 从 $A(1,0)$ 移动到 $B(0,1)$ 时力所做的功是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac4{15}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac8{15}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac8{15}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac4{15}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "",
+  "search_text": "若力的方向沿 $x$ 轴负方向，且力的模等于质点的横坐标的平方，则质点在第一象限内沿抛物线 $1-x=y^2$ 从 $A(1,0)$ 移动到 $B(0,1)$ 时力所做的功是（ ） $-\\frac4{15}$ $\\frac8{15}$ $-\\frac8{15}$ $\\frac4{15}$ ",
+  "sort_order": 2
+}

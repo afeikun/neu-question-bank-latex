@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "三台机器独立工作，正常工作的概率分别为$0.9,0.85,0.8$，至少一台发生故障的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.388$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.612$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.35$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.108$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "至少一台故障的概率为$1-0.9\\times0.85\\times0.8=0.388$。",
+  "search_text": "三台机器独立工作，正常工作的概率分别为$0.9,0.85,0.8$，至少一台发生故障的概率为（ ）。 $0.388$ $0.612$ $0.35$ $0.108$ 至少一台故障的概率为$1-0.9\\times0.85\\times0.8=0.388$。",
+  "sort_order": 10
+}

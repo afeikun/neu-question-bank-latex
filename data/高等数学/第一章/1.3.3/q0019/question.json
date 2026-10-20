@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列说法中正确的是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无穷小是一个函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "非常小的数是无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "两个无穷大的和一定是无穷大"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "两个无穷小的商是无穷小"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "无穷小量是以零为极限的函数；其余说法不总成立。",
+  "search_text": "下列说法中正确的是（ ）。 无穷小是一个函数 非常小的数是无穷小 两个无穷大的和一定是无穷大 两个无穷小的商是无穷小 无穷小量是以零为极限的函数；其余说法不总成立。",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于曲线 $y=x+\\sin x$ 的渐近线，下列结论正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "只有铅直渐近线"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "只有水平渐近线"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "既有水平渐近线，又有铅直渐近线"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "既没有水平渐近线，也没有铅直渐近线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "函数在全实数上连续，且 $x+\\sin x$ 在无穷远处无有限水平极限，故没有水平或铅直渐近线。",
+  "search_text": "关于曲线 $y=x+\\sin x$ 的渐近线，下列结论正确的是（ ）。 只有铅直渐近线 只有水平渐近线 既有水平渐近线，又有铅直渐近线 既没有水平渐近线，也没有铅直渐近线 函数在全实数上连续，且 $x+\\sin x$ 在无穷远处无有限水平极限，故没有水平或铅直渐近线。",
+  "sort_order": 10
+}

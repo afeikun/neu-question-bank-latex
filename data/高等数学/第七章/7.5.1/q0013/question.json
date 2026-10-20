@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x=r\\cos\\theta，y=r\\sin\\theta$，求 $J=\\frac{\\partial(x,y)}{\\partial(r,\\theta)}=(\\quad)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-r$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$r^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$r$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$J=\\frac{\\partial(x,y)}{\\partial(r,\\theta)}=\\begin{vmatrix}x_r&x_\\theta\\\\y_r&y_\\theta\\end{vmatrix}=\\begin{vmatrix}\\cos\\theta&-r\\sin\\theta\\\\\\sin\\theta&r\\cos\\theta\\end{vmatrix}=r$",
+  "search_text": "设 $x=r\\cos\\theta，y=r\\sin\\theta$，求 $J=\\frac{\\partial(x,y)}{\\partial(r,\\theta)}=(\\quad)$ $0$ $-r$ $r^2$ $r$ $J=\\frac{\\partial(x,y)}{\\partial(r,\\theta)}=\\begin{vmatrix}x_r&x_\\theta\\\\y_r&y_\\theta\\end{vmatrix}=\\begin{vmatrix}\\cos\\theta&-r\\sin\\theta\\\\\\sin\\theta&r\\cos\\theta\\end{vmatrix}=r$",
+  "sort_order": 13
+}

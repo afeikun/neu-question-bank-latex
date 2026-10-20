@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设曲线积分 $\\int_C f(x,y)(y\\,dx+x\\,dy)$ 与积分路径无关，则可微函数 $f(x,y)$ 应满足（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y f_y(x,y)+x f_x(x,y)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x f_y(x,y)+y f_x(x,y)=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y f_y(x,y)-x f_x(x,y)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x f_x(x,y)-y f_y(x,y)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "这里 $P=yf(x,y)，\\quad Q=xf(x,y)$，应有\n\n$$\\frac{\\partial}{\\partial x}[xf(x,y)]=\\frac{\\partial}{\\partial y}[yf(x,y)]，$$\n\n即 $xf'_x(x,y)-yf'_y(x,y)=0$",
+  "search_text": "设曲线积分 $\\int_C f(x,y)(y\\,dx+x\\,dy)$ 与积分路径无关，则可微函数 $f(x,y)$ 应满足（ ） $y f_y(x,y)+x f_x(x,y)=0$ $x f_y(x,y)+y f_x(x,y)=0$ $y f_y(x,y)-x f_x(x,y)=0$ $x f_x(x,y)-y f_y(x,y)=0$ 这里 $P=yf(x,y)，\\quad Q=xf(x,y)$，应有\n\n$$\\frac{\\partial}{\\partial x}[xf(x,y)]=\\frac{\\partial}{\\partial y}[yf(x,y)]，$$\n\n即 $xf'_x(x,y)-yf'_y(x,y)=0$",
+  "sort_order": 9
+}

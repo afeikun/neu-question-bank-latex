@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若函数 $z=z(x,y)$ 由方程 $e^{x+2y+3z}+xyz=1$ 确定，则 $dz\\big|_{(0,0)}=(\\quad)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{1}{3}dx-\\frac{2}{3}dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{1}{3}dx+\\frac{2}{3}dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1}{3}dx+\\frac{2}{3}dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1}{3}dx-\\frac{2}{3}dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$dz=\\frac{\\partial z}{\\partial x}dx+\\frac{\\partial z}{\\partial y}dy，x=0\\quad y=0\\quad z=0$\n\n两边对 $x$ 求导 $e^{x+2y+3z}\\cdot(3\\frac{\\partial z}{\\partial x}+1)+yz+xy\\frac{\\partial z}{\\partial x}=0$\n\n代入 $x=0，y=0$，$\\left.\\frac{\\partial z}{\\partial x}\\right|_{x=0}=-\\frac{1}{3}$\n\n两边对 $y$ 求导 $e^{x+2y+3z}\\cdot(3\\frac{\\partial z}{\\partial y}+2)+xz+xy\\frac{\\partial z}{\\partial y}=0$\n\n$\\Rightarrow\\left.\\frac{\\partial z}{\\partial y}\\right|_{y=0}= -\\frac{2}{3}$\n\n代入 $x=0，y=0$\n\n$\\Rightarrow dz\\big|_{(0,0)}=-\\frac{1}{3}dx-\\frac{2}{3}dy$",
+  "search_text": "若函数 $z=z(x,y)$ 由方程 $e^{x+2y+3z}+xyz=1$ 确定，则 $dz\\big|_{(0,0)}=(\\quad)$ $-\\frac{1}{3}dx-\\frac{2}{3}dy$ $-\\frac{1}{3}dx+\\frac{2}{3}dy$ $\\frac{1}{3}dx+\\frac{2}{3}dy$ $\\frac{1}{3}dx-\\frac{2}{3}dy$ $dz=\\frac{\\partial z}{\\partial x}dx+\\frac{\\partial z}{\\partial y}dy，x=0\\quad y=0\\quad z=0$\n\n两边对 $x$ 求导 $e^{x+2y+3z}\\cdot(3\\frac{\\partial z}{\\partial x}+1)+yz+xy\\frac{\\partial z}{\\partial x}=0$\n\n代入 $x=0，y=0$，$\\left.\\frac{\\partial z}{\\partial x}\\right|_{x=0}=-\\frac{1}{3}$\n\n两边对 $y$ 求导 $e^{x+2y+3z}\\cdot(3\\frac{\\partial z}{\\partial y}+2)+xz+xy\\frac{\\partial z}{\\partial y}=0$\n\n$\\Rightarrow\\left.\\frac{\\partial z}{\\partial y}\\right|_{y=0}= -\\frac{2}{3}$\n\n代入 $x=0，y=0$\n\n$\\Rightarrow dz\\big|_{(0,0)}=-\\frac{1}{3}dx-\\frac{2}{3}dy$",
+  "sort_order": 12
+}

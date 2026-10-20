@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $|z-\\frac12|+|z+\\frac13|=1$ 表示的平面图形为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "椭圆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "直线段"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "直线"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z$ 到 $-\\frac13$ 与 $\\frac12$ 的距离之和为定长且大于两点距离，表示椭圆。",
+  "search_text": "方程 $|z-\\frac12|+|z+\\frac13|=1$ 表示的平面图形为（ ）。 椭圆 直线段 圆 直线 $z$ 到 $-\\frac13$ 与 $\\frac12$ 的距离之和为定长且大于两点距离，表示椭圆。",
+  "sort_order": 5
+}

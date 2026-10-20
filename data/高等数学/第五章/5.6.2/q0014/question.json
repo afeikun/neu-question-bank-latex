@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 是周期为 $2\\pi$ 的周期函数，它在区间 $[-\\pi,\\pi)$ 内的表达式为 $f(x)=3x^2+1$，则 $f(x)$ 的傅里叶展开式为（　）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2(\\pi^2+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\pi^2+1)+6\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2(\\pi^2+1)+6\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\pi^2+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解由于 $f(x)$ 为偶函数，所以 $b_n=0(n=1,2,\\cdots)$\n\n$a_0=\\frac2\\pi\\int_0^\\pi(3x^2+1)dx=2(\\pi^2+1)$，\n\n$a_n=\\frac2\\pi\\int_0^\\pi(3x^2+1)\\cos nx dx=\\frac2{n\\pi}[(3x^2+1)\\sin nx|_0^\\pi-\\int_0^\\pi6x\\sin nx dx]$\n\n$=\\frac{12}{n^2\\pi}[x\\cos nx|_0^\\pi-\\int_0^\\pi\\cos nx dx]=(-1)^n\\frac{12}{n^2},n=1,2,\\cdots$，\n\n又因为 $f(x)$ 在 $[-\\pi,\\pi)$ 内连续，且 $f(-\\pi+0)=f(\\pi-0)=3\\pi^2+1$，所以\n\n$f(x)=3x^2+1=(\\pi^2+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$。",
+  "search_text": "设函数 $f(x)$ 是周期为 $2\\pi$ 的周期函数，它在区间 $[-\\pi,\\pi)$ 内的表达式为 $f(x)=3x^2+1$，则 $f(x)$ 的傅里叶展开式为（　） $2(\\pi^2+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$ $(\\pi^2+1)+6\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$ $2(\\pi^2+1)+6\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$ $(\\pi^2+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$ 解由于 $f(x)$ 为偶函数，所以 $b_n=0(n=1,2,\\cdots)$\n\n$a_0=\\frac2\\pi\\int_0^\\pi(3x^2+1)dx=2(\\pi^2+1)$，\n\n$a_n=\\frac2\\pi\\int_0^\\pi(3x^2+1)\\cos nx dx=\\frac2{n\\pi}[(3x^2+1)\\sin nx|_0^\\pi-\\int_0^\\pi6x\\sin nx dx]$\n\n$=\\frac{12}{n^2\\pi}[x\\cos nx|_0^\\pi-\\int_0^\\pi\\cos nx dx]=(-1)^n\\frac{12}{n^2},n=1,2,\\cdots$，\n\n又因为 $f(x)$ 在 $[-\\pi,\\pi)$ 内连续，且 $f(-\\pi+0)=f(\\pi-0)=3\\pi^2+1$，所以\n\n$f(x)=3x^2+1=(\\pi^2+1)+12\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\cos nx(-\\infty<x<+\\infty)$。",
+  "sort_order": 14
+}

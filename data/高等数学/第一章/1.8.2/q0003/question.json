@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\frac{\\sin(\\sin(\\sin x))}{\\sqrt{1+x\\sqrt{1+x}}-1}\\ (x\\ne0)$，为使 $f(x)$ 在 $x=0$ 处连续，应补充定义 $f(0)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "5"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "分子约为 $x$，分母约为 $x/2$，极限为 2。",
+  "search_text": "$f(x)=\\frac{\\sin(\\sin(\\sin x))}{\\sqrt{1+x\\sqrt{1+x}}-1}\\ (x\\ne0)$，为使 $f(x)$ 在 $x=0$ 处连续，应补充定义 $f(0)=(\\ )$。 1 5 3 2 分子约为 $x$，分母约为 $x/2$，极限为 2。",
+  "sort_order": 3
+}

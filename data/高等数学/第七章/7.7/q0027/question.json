@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $u=xy^2+\\sqrt z$ 在 $(-1,1,\\frac14)$ 处沿函数值增加最快方向的方向导数是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "函数值增加最快方向是沿梯度方向，此时函数在点 $\\left(-1,1,\\frac{1}{4}\\right)$ 的方向导数取最大值，就是梯度的模。\n\n$$\\left.\\operatorname{grad}u\\right|_{\\left(-1,1,\\frac{1}{4}\\right)}=\\left(y^2,2xy,\\frac{1}{2\\sqrt{z}}\\right)\\bigg|_{\\left(-1,1,\\frac{1}{4}\\right)}=(1,-2,1)\\triangleq\\vec{l}$$\n\n$$\\left.\\frac{\\partial u}{\\partial l}\\right|_{\\left(-1,1,\\frac{1}{4}\\right)}=\\left.|\\operatorname{grad}u|\\right._{\\left(-1,1,\\frac{1}{4}\\right)}=\\sqrt{1^2+(-2)^2+1^2}=\\sqrt{6}.$$",
+  "search_text": "函数 $u=xy^2+\\sqrt z$ 在 $(-1,1,\\frac14)$ 处沿函数值增加最快方向的方向导数是。 4 0 $\\sqrt6$ $\\sqrt8$ 函数值增加最快方向是沿梯度方向，此时函数在点 $\\left(-1,1,\\frac{1}{4}\\right)$ 的方向导数取最大值，就是梯度的模。\n\n$$\\left.\\operatorname{grad}u\\right|_{\\left(-1,1,\\frac{1}{4}\\right)}=\\left(y^2,2xy,\\frac{1}{2\\sqrt{z}}\\right)\\bigg|_{\\left(-1,1,\\frac{1}{4}\\right)}=(1,-2,1)\\triangleq\\vec{l}$$\n\n$$\\left.\\frac{\\partial u}{\\partial l}\\right|_{\\left(-1,1,\\frac{1}{4}\\right)}=\\left.|\\operatorname{grad}u|\\right._{\\left(-1,1,\\frac{1}{4}\\right)}=\\sqrt{1^2+(-2)^2+1^2}=\\sqrt{6}.$$",
+  "sort_order": 27
+}

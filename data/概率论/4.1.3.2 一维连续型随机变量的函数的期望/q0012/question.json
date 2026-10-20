@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f_X(x)=\\frac14(3+2x)$于$-1<x<0$，$\\frac14(3-2x)$于$0\\le x\\le1$，求$E(X)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "密度关于0对称，期望为0。",
+  "search_text": "$f_X(x)=\\frac14(3+2x)$于$-1<x<0$，$\\frac14(3-2x)$于$0\\le x\\le1$，求$E(X)$。 $0$ $1$ $2$ $3$ 密度关于0对称，期望为0。",
+  "sort_order": 12
+}

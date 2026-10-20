@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "包装标准偏差是否超过10，样本$n=9$，以下说法不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可认为标准差未超过10"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\chi^2=(n-1)S^2/\\sigma_0^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar x=499,s\\approx16.031$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可以认为标准差超过10"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "观测统计量20.65超过临界值3.325，应拒绝未超过10的假设，选项1不正确。",
+  "search_text": "包装标准偏差是否超过10，样本$n=9$，以下说法不正确的是（）。 可认为标准差未超过10 $\\chi^2=(n-1)S^2/\\sigma_0^2$ $\\bar x=499,s\\approx16.031$ 可以认为标准差超过10 观测统计量20.65超过临界值3.325，应拒绝未超过10的假设，选项1不正确。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\vec a,\\vec b$ 为非零向量，且 $|\\vec a-\\vec b|=|\\vec a+\\vec b|$，则必有(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\vec a+\\vec b=\\vec0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\vec a\\times\\vec b=\\vec0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\vec a-\\vec b=\\vec0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\vec a\\cdot\\vec b=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "两边平方并展开得 $-2\\vec a\\cdot\\vec b=2\\vec a\\cdot\\vec b$，故 $\\vec a\\cdot\\vec b=0$。",
+  "search_text": "已知 $\\vec a,\\vec b$ 为非零向量，且 $|\\vec a-\\vec b|=|\\vec a+\\vec b|$，则必有(\\quad)。 $\\vec a+\\vec b=\\vec0$ $\\vec a\\times\\vec b=\\vec0$ $\\vec a-\\vec b=\\vec0$ $\\vec a\\cdot\\vec b=0$ 两边平方并展开得 $-2\\vec a\\cdot\\vec b=2\\vec a\\cdot\\vec b$，故 $\\vec a\\cdot\\vec b=0$。",
+  "sort_order": 23
+}

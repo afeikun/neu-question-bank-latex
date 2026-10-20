@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 在原点邻域 $D$ 连续，区域 $D:x^2+y^2\\leq t^2$ 在该邻域内，$F(t)=\\iint_D f(x,y)\\,d\\sigma$，则 $\\lim_{t\\to0^+}\\frac{F(t)}t=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi f(0,0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi A$（$A$ 为 $D$ 的面积）"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 由二重积分的中值定理有 $\\iint_Df(x,y)d\\sigma=\\pi t^2f(\\xi,\\eta)$，其中 $(\\xi,\\eta)$ 为 $D:x^2+y^2\\leq t^2$ 内一点。当 $t\\to0$ 时，$(\\xi,\\eta)\\to(0,0)$，$f(x,y)$ 的连续性有\n\n$$\\lim_{t\\to0^+}\\frac{F(t)}{t^2}=\\lim_{t\\to0^+}\\frac{\\pi t^2f(\\xi,\\eta)}{t^2}=\\pi f(0,0)$$",
+  "search_text": "设 $f(x,y)$ 在原点邻域 $D$ 连续，区域 $D:x^2+y^2\\leq t^2$ 在该邻域内，$F(t)=\\iint_D f(x,y)\\,d\\sigma$，则 $\\lim_{t\\to0^+}\\frac{F(t)}t=（ ）$ $\\pi f(0,0)$ $\\pi$ $\\pi A$（$A$ 为 $D$ 的面积） 不存在 解答 由二重积分的中值定理有 $\\iint_Df(x,y)d\\sigma=\\pi t^2f(\\xi,\\eta)$，其中 $(\\xi,\\eta)$ 为 $D:x^2+y^2\\leq t^2$ 内一点。当 $t\\to0$ 时，$(\\xi,\\eta)\\to(0,0)$，$f(x,y)$ 的连续性有\n\n$$\\lim_{t\\to0^+}\\frac{F(t)}{t^2}=\\lim_{t\\to0^+}\\frac{\\pi t^2f(\\xi,\\eta)}{t^2}=\\pi f(0,0)$$",
+  "sort_order": 6
+}

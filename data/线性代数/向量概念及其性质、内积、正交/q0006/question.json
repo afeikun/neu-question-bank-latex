@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设四阶方阵 $A=|\\zeta,\\alpha,\\beta,\\gamma|,\\ B=|\\eta,\\beta,\\gamma,\\alpha|$，已知行列式 $|A|=1,\\ |B|=2$，则行列式 $|A+B|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "按列线性展开，非零项为 $2|A|+2|B|=2+4=6$，选项 3。",
+  "search_text": "设四阶方阵 $A=|\\zeta,\\alpha,\\beta,\\gamma|,\\ B=|\\eta,\\beta,\\gamma,\\alpha|$，已知行列式 $|A|=1,\\ |B|=2$，则行列式 $|A+B|=(\\quad)$。 $4$ $8$ $6$ $12$ 按列线性展开，非零项为 $2|A|+2|B|=2+4=6$，选项 3。",
+  "sort_order": 6
+}

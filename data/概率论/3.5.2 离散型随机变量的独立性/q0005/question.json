@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "以下四种$(X,Y)$中，判断相互独立性：离散表1；离散表2；连续密度$f(x,y)=x+y$（$0\\le x,y\\le1$）；均匀密度$1/5$（$1\\le x\\le2,0\\le y\\le5$）。选不独立者。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "离散表$p_{ij}=p_iq_j$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "离散表$p_{ij}=p_iq_j$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x,y)=x+y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x,y)=1/5$于矩形"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对第三个密度，边缘密度为$x+1/2$与$y+1/2$，其乘积不等于$x+y$，故不独立。",
+  "search_text": "以下四种$(X,Y)$中，判断相互独立性：离散表1；离散表2；连续密度$f(x,y)=x+y$（$0\\le x,y\\le1$）；均匀密度$1/5$（$1\\le x\\le2,0\\le y\\le5$）。选不独立者。 离散表$p_{ij}=p_iq_j$ 离散表$p_{ij}=p_iq_j$ $f(x,y)=x+y$ $f(x,y)=1/5$于矩形 对第三个密度，边缘密度为$x+1/2$与$y+1/2$，其乘积不等于$x+y$，故不独立。",
+  "sort_order": 5
+}

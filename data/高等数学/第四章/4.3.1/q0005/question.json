@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "y=∫₀ˣ²√(1+t²)dt，求dy/dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2x√(1+x⁴)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "x²√(1+x⁴)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "√(1+x²)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2x√(1+x²)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "变上限积分链式求导。",
+  "search_text": "y=∫₀ˣ²√(1+t²)dt，求dy/dx 2x√(1+x⁴) x²√(1+x⁴) √(1+x²) 2x√(1+x²) 变上限积分链式求导。",
+  "sort_order": 5
+}

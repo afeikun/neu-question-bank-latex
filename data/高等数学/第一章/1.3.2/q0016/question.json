@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}3x+2,&x<0,\\\\x^2+1,&0<x\\le1,\\\\2/x,&1<x,\\end{cases}$，则下列说法正确的是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to1}f(x)=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{x\\to1}f(x)=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{x\\to0}f(x)=2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{x\\to0}f(x)=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$x\\to1$ 时左右极限均为 $2$；$x\\to0$ 左右极限分别为 $2$ 与 $1$，故只有第二项正确。",
+  "search_text": "设 $f(x)=\\begin{cases}3x+2,&x<0,\\\\x^2+1,&0<x\\le1,\\\\2/x,&1<x,\\end{cases}$，则下列说法正确的是（ ）。 $\\lim_{x\\to1}f(x)=1$ $\\lim_{x\\to1}f(x)=2$ $\\lim_{x\\to0}f(x)=2$ $\\lim_{x\\to0}f(x)=1$ $x\\to1$ 时左右极限均为 $2$；$x\\to0$ 左右极限分别为 $2$ 与 $1$，故只有第二项正确。",
+  "sort_order": 16
+}

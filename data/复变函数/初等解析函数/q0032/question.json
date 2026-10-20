@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=e^{-y}(\\cos x+i\\sin x)$，求 $f\\prime(1+i)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-1}(-\\sin1+i\\cos1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-1}(\\cos1+i\\sin1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e(-\\sin1+i\\cos1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e(\\cos1+i\\sin1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(z)=e^{iz}$，$f\\prime=ie^{iz}$。",
+  "search_text": "设 $f(z)=e^{-y}(\\cos x+i\\sin x)$，求 $f\\prime(1+i)=(\\ )$。 $e^{-1}(-\\sin1+i\\cos1)$ $e^{-1}(\\cos1+i\\sin1)$ $e(-\\sin1+i\\cos1)$ $e(\\cos1+i\\sin1)$ $f(z)=e^{iz}$，$f\\prime=ie^{iz}$。",
+  "sort_order": 32
+}

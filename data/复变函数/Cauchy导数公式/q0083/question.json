@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\oint_{|z-1|=1}\\frac{\\cos(\\pi z/4)}{(z-1)^2(z-3)}\\,dz$ 等于（ ），方向为正向。",
+  "options_json": [
+    {
+      "content_md": "$\\frac{\\sqrt2\\pi i}{4}(\\frac\\pi2-1)$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "-$\\frac{\\sqrt2\\pi i}{2}$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$\\frac{\\sqrt2\\pi i}{2}$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$\\frac{\\sqrt2\\pi i}{4}$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由一阶Cauchy导数公式，在 $z=1$ 处求导，结果为 $\\frac{\\sqrt2\\pi i}{4}(\\pi/2-1)$。",
+  "search_text": "积分 $\\oint_{|z-1|=1}\\frac{\\cos(\\pi z/4)}{(z-1)^2(z-3)}\\,dz$ 等于（ ），方向为正向。 $\\frac{\\sqrt2\\pi i}{4}(\\frac\\pi2-1)$ -$\\frac{\\sqrt2\\pi i}{2}$ $\\frac{\\sqrt2\\pi i}{2}$ $\\frac{\\sqrt2\\pi i}{4}$ 由一阶Cauchy导数公式，在 $z=1$ 处求导，结果为 $\\frac{\\sqrt2\\pi i}{4}(\\pi/2-1)$。",
+  "sort_order": 83
+}

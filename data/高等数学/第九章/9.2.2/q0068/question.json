@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\iint_\\Sigma(2xy+2xz+2yz+y^2+z^2)\\,dS$，$\\Sigma$ 为平面 $y+z=5$ 被柱面 $x^2+y^2=25$ 截得的有限部分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$125\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$625\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$125\\sqrt2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$625\\sqrt2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：根据对称性，$\\iint_\\Sigma2xy\\,dS=\\iint_\\Sigma2xz\\,dS=0$，所以原式$=\\iint_\\Sigma(y+z)^2\\,dS=\\iint_\\Sigma25\\,dS=25A$，\n\n$A$为$\\Sigma$的面积。截面$\\Sigma$为椭圆面，在 xoy 面投影为半径为 5 的圆。并且$\\Sigma$与 xoy 面的夹角为$\\frac{\\pi}{4}$，\n\n所以$\\Sigma$的面积为$25\\sqrt{2}\\pi$。",
+  "search_text": "计算 $\\iint_\\Sigma(2xy+2xz+2yz+y^2+z^2)\\,dS$，$\\Sigma$ 为平面 $y+z=5$ 被柱面 $x^2+y^2=25$ 截得的有限部分。 $125\\pi$ $625\\pi$ $125\\sqrt2\\pi$ $625\\sqrt2\\pi$ 解答：根据对称性，$\\iint_\\Sigma2xy\\,dS=\\iint_\\Sigma2xz\\,dS=0$，所以原式$=\\iint_\\Sigma(y+z)^2\\,dS=\\iint_\\Sigma25\\,dS=25A$，\n\n$A$为$\\Sigma$的面积。截面$\\Sigma$为椭圆面，在 xoy 面投影为半径为 5 的圆。并且$\\Sigma$与 xoy 面的夹角为$\\frac{\\pi}{4}$，\n\n所以$\\Sigma$的面积为$25\\sqrt{2}\\pi$。",
+  "sort_order": 68
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是球体 $x^2+y^2+z^2\\leq R^2$ 位于第一卦限部分，则积分 $\\iiint_\\Omega(R^2-x^2-y^2-z^2)dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi{10}R^5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi{15}R^5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi3R^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi5R^5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "原式 $=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^R(R^2-r^2)r^2\\sin\\varphi\\,dr=\\frac{\\pi}{2}\\cdot\\int_0^{\\frac{\\pi}{2}}\\sin\\varphi\\,d\\varphi\\cdot\\int_0^R(R^2r^2-r^4)\\,dr$\n\n$=\\frac{\\pi}{2}\\cdot1\\cdot(\\frac{R^5}{3}-\\frac{R^5}{5})=\\frac{\\pi R^5}{15}$。",
+  "search_text": "若 $\\Omega$ 是球体 $x^2+y^2+z^2\\leq R^2$ 位于第一卦限部分，则积分 $\\iiint_\\Omega(R^2-x^2-y^2-z^2)dv=$（ ） $\\frac\\pi{10}R^5$ $\\frac\\pi{15}R^5$ $\\frac\\pi3R^5$ $\\frac\\pi5R^5$ 原式 $=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{\\pi}{2}}d\\varphi\\int_0^R(R^2-r^2)r^2\\sin\\varphi\\,dr=\\frac{\\pi}{2}\\cdot\\int_0^{\\frac{\\pi}{2}}\\sin\\varphi\\,d\\varphi\\cdot\\int_0^R(R^2r^2-r^4)\\,dr$\n\n$=\\frac{\\pi}{2}\\cdot1\\cdot(\\frac{R^5}{3}-\\frac{R^5}{5})=\\frac{\\pi R^5}{15}$。",
+  "sort_order": 10
+}

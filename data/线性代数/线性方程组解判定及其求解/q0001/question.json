@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $m\\times n$ 矩阵，$B$ 为 $s\\times n$ 矩阵，$X=(x_1,x_2,\\ldots,x_n)^T$。如果 $r(A)<\\frac n2$，$r(B)<\\frac n2$，则下列必成立的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n$ 元齐次线性方程组 $AX=0$ 与 $BX=0$ 只有零解相同"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n$ 元齐次线性方程组 $AX=0$ 与 $BX=0$ 同解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n$ 元齐次线性方程组 $AX=0$ 与 $BX=0$ 没有相同的解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n$ 元齐次线性方程组 $AX=0$ 与 $BX=0$ 至少有一个相同的非零解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对方程组 $\\begin{pmatrix}A\\\\B\\end{pmatrix}X=0$，有 $r\\begin{pmatrix}A\\\\B\\end{pmatrix}<r(A)+r(B)<n$，故该齐次线性方程组有非零解。此非零解同时满足 $AX=0$ 与 $BX=0$。",
+  "search_text": "设 $A$ 为 $m\\times n$ 矩阵，$B$ 为 $s\\times n$ 矩阵，$X=(x_1,x_2,\\ldots,x_n)^T$。如果 $r(A)<\\frac n2$，$r(B)<\\frac n2$，则下列必成立的是（ ）。 $n$ 元齐次线性方程组 $AX=0$ 与 $BX=0$ 只有零解相同 $n$ 元齐次线性方程组 $AX=0$ 与 $BX=0$ 同解 $n$ 元齐次线性方程组 $AX=0$ 与 $BX=0$ 没有相同的解 $n$ 元齐次线性方程组 $AX=0$ 与 $BX=0$ 至少有一个相同的非零解 对方程组 $\\begin{pmatrix}A\\\\B\\end{pmatrix}X=0$，有 $r\\begin{pmatrix}A\\\\B\\end{pmatrix}<r(A)+r(B)<n$，故该齐次线性方程组有非零解。此非零解同时满足 $AX=0$ 与 $BX=0$。",
+  "sort_order": 1
+}

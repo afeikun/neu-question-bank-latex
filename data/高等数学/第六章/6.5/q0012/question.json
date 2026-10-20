@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "双曲面 $x^2-\\frac{y^2}{4}-\\frac{z^2}{9}=1$ 与 $yOz$ 面(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不相交"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "交线为一对相交直线"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "交线为一双曲线"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "交线为一椭圆"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：$yOz$ 面的方程为 $x=0$，带入曲面方程得 $-\\frac{y^2}{4}-\\frac{z^2}{9}=1$，此方程无解，所以双曲面与 $yOz$ 面不相交。",
+  "search_text": "双曲面 $x^2-\\frac{y^2}{4}-\\frac{z^2}{9}=1$ 与 $yOz$ 面(\\quad)。 不相交 交线为一对相交直线 交线为一双曲线 交线为一椭圆 解答：$yOz$ 面的方程为 $x=0$，带入曲面方程得 $-\\frac{y^2}{4}-\\frac{z^2}{9}=1$，此方程无解，所以双曲面与 $yOz$ 面不相交。",
+  "sort_order": 12
+}

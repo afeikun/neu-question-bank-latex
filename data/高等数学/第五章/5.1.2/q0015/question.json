@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\sum_{n=1}^{\\infty} u_{2n}$ 与 $\\sum_{n=1}^{\\infty} u_{2n-1}$ 均收敛，则 $\\sum_{n=1}^{\\infty} u_n$ 收敛的条件是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "既非充分又非必要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "必要但非充分条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "充分但非必要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "奇数项、偶数项子级数均收敛可推出全级数收敛，但反之不必，故为充分但非必要条件。",
+  "search_text": "若 $\\sum_{n=1}^{\\infty} u_{2n}$ 与 $\\sum_{n=1}^{\\infty} u_{2n-1}$ 均收敛，则 $\\sum_{n=1}^{\\infty} u_n$ 收敛的条件是？ 充分必要条件 既非充分又非必要条件 必要但非充分条件 充分但非必要条件 奇数项、偶数项子级数均收敛可推出全级数收敛，但反之不必，故为充分但非必要条件。",
+  "sort_order": 15
+}

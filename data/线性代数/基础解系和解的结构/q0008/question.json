@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "要使 $\\eta_1=(1,0,1)^T,\\ \\eta_2=(1,-1,1)^T$ 都是线性方程组 $AX=0$ 的解，只有系数矩阵 $A$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}0&1&1\\\\1&2&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&1&-1\\\\-2&1&2\\\\1&-2&-3\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&2&-1\\\\-1&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}-1&0&1\\\\2&0&-2\\\\3&0&-3\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "分别代入两向量可验证，只有选项 $\\begin{pmatrix}-1&0&1\\\\2&0&-2\\\\3&0&-3\\end{pmatrix}$ 满足 $A\\eta_1=A\\eta_2=0$。",
+  "search_text": "要使 $\\eta_1=(1,0,1)^T,\\ \\eta_2=(1,-1,1)^T$ 都是线性方程组 $AX=0$ 的解，只有系数矩阵 $A$ 为（ ）。 $\\begin{pmatrix}0&1&1\\\\1&2&1\\end{pmatrix}$ $\\begin{pmatrix}1&1&-1\\\\-2&1&2\\\\1&-2&-3\\end{pmatrix}$ $\\begin{pmatrix}1&2&-1\\\\-1&0&1\\end{pmatrix}$ $\\begin{pmatrix}-1&0&1\\\\2&0&-2\\\\3&0&-3\\end{pmatrix}$ 分别代入两向量可验证，只有选项 $\\begin{pmatrix}-1&0&1\\\\2&0&-2\\\\3&0&-3\\end{pmatrix}$ 满足 $A\\eta_1=A\\eta_2=0$。",
+  "sort_order": 8
+}

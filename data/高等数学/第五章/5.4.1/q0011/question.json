@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=0}^\\infty x^n/[a^n+(-b)^n]$（$a,b>0,a\\ne b$）的收敛半径是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\max(a,b)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\min(ab,a+b)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\min(a,b)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\max(ab,a+b)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "系数的 $n$ 次方根趋于 $1/\\min(a,b)$，故半径为 $\\min(a,b)$。",
+  "search_text": "幂级数 $\\sum_{n=0}^\\infty x^n/[a^n+(-b)^n]$（$a,b>0,a\\ne b$）的收敛半径是？ $\\max(a,b)$ $\\min(ab,a+b)$ $\\min(a,b)$ $\\max(ab,a+b)$ 系数的 $n$ 次方根趋于 $1/\\min(a,b)$，故半径为 $\\min(a,b)$。",
+  "sort_order": 11
+}

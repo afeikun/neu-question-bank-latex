@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=4xy$，$0<x,y<1$，求$P(0\\le X\\le3/4,1/8\\le Y\\le1/2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$125/1024$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$175/1024$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$135/1024$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$155/1024$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\int_{1/8}^{1/2}\\int_0^{3/4}4xy\\,dx\\,dy=135/1024$。",
+  "search_text": "$f(x,y)=4xy$，$0<x,y<1$，求$P(0\\le X\\le3/4,1/8\\le Y\\le1/2)$。 $125/1024$ $175/1024$ $135/1024$ $155/1024$ $\\int_{1/8}^{1/2}\\int_0^{3/4}4xy\\,dx\\,dy=135/1024$。",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知微分方程 $y\\prime\\prime-2y\\prime+5y=\\cos 2x$ 的一个特解为 $y^*=\\frac1{17}\\cos2x-\\frac4{17}\\sin2x$，则其通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^x(C_1\\cos x+C_2\\sin x)+\\frac1{17}\\cos x-\\frac4{17}\\sin x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^x(C_1\\cos2x+C_2\\sin2x)+\\frac1{17}\\cos2x-\\frac4{17}\\sin2x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^x(C_1\\cos x+C_2\\sin x)+\\frac2{17}\\cos x+\\frac3{17}\\sin x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^x(C_1\\cos2x+C_2\\sin2x)+\\frac2{17}\\cos2x+\\frac3{17}\\sin2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2-2\\lambda+5=0$，其特征根为 $\\lambda=1\\pm2i$。因此对应的齐次方程的通解为\n\n$$e^x(C_1\\cos2x+C_2\\sin2x).$$\n\n又非齐次方程的特解为 $y^*=\\frac1{17}\\cos2x-\\frac4{17}\\sin2x$。\n\n所以，原方程的通解为 $y=e^x(C_1\\cos2x+C_2\\sin2x)+\\frac1{17}\\cos2x-\\frac4{17}\\sin2x$。\n\n因此选 B。",
+  "search_text": "已知微分方程 $y\\prime\\prime-2y\\prime+5y=\\cos 2x$ 的一个特解为 $y^*=\\frac1{17}\\cos2x-\\frac4{17}\\sin2x$，则其通解为（ ） $y=e^x(C_1\\cos x+C_2\\sin x)+\\frac1{17}\\cos x-\\frac4{17}\\sin x$ $y=e^x(C_1\\cos2x+C_2\\sin2x)+\\frac1{17}\\cos2x-\\frac4{17}\\sin2x$ $y=e^x(C_1\\cos x+C_2\\sin x)+\\frac2{17}\\cos x+\\frac3{17}\\sin x$ $y=e^x(C_1\\cos2x+C_2\\sin2x)+\\frac2{17}\\cos2x+\\frac3{17}\\sin2x$ 解答 齐次方程的特征方程为 $\\lambda^2-2\\lambda+5=0$，其特征根为 $\\lambda=1\\pm2i$。因此对应的齐次方程的通解为\n\n$$e^x(C_1\\cos2x+C_2\\sin2x).$$\n\n又非齐次方程的特解为 $y^*=\\frac1{17}\\cos2x-\\frac4{17}\\sin2x$。\n\n所以，原方程的通解为 $y=e^x(C_1\\cos2x+C_2\\sin2x)+\\frac1{17}\\cos2x-\\frac4{17}\\sin2x$。\n\n因此选 B。",
+  "sort_order": 1
+}

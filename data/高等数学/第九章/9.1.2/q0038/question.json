@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某弧形构件形如曲线 $L:x^{2/3}+y^{2/3}=a^{2/3}(a>0)$ 在第一象限部分，其上每一点线密度 $\\rho(x,y)=x+xy+y$，该构件质量 $M=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{9\\pi}{256}a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac65a^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac65a^2+\\frac{9\\pi}{256}a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{9\\pi}{128}a^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $L:\\begin{cases}x=a\\cos^3t\\\\y=a\\sin^3t\\end{cases}$，且 $\\sqrt{x_t'^2+y_t'^2}=3a\\sin t\\cos t$，\n\n$$\nM=\\int_L\\rho(x,y)ds=\\int_0^{\\frac{\\pi}{2}}(a\\cos^3t+a^2\\sin^3t\\cos^3t+a\\sin^3t)\\sqrt{x_t'^2+y_t'^2}\\,dt\n$$\n\n$$\n=\\int_0^{\\frac{\\pi}{2}}(a\\cos^3t+a^2\\sin^3t\\cos^3t+a\\sin^3t)\\cdot3a\\sin t\\cos tdt\n$$\n\n$$\n=3a^2\\int_0^{\\frac{\\pi}{2}}\\sin t\\cos^4tdt+3a^3\\int_0^{\\frac{\\pi}{2}}\\sin^4t\\cos^4tdt+3a^2\\int_0^{\\frac{\\pi}{2}}\\sin^4t\\cos tdt\n$$\n\n$$\n=\\frac{6a^2}{5}+3a^3\\left[\\int_0^{\\frac{\\pi}{2}}(\\sin^4t-2\\sin^6t+\\sin^8t)dt\\right]\n$$\n\n$$\n=\\frac{6}{5}a^2+\\frac{9\\pi}{256}a^3.\n$$",
+  "search_text": "某弧形构件形如曲线 $L:x^{2/3}+y^{2/3}=a^{2/3}(a>0)$ 在第一象限部分，其上每一点线密度 $\\rho(x,y)=x+xy+y$，该构件质量 $M=$（ ） $\\frac{9\\pi}{256}a^3$ $\\frac65a^2$ $\\frac65a^2+\\frac{9\\pi}{256}a^3$ $\\frac{9\\pi}{128}a^2$ 解答 $L:\\begin{cases}x=a\\cos^3t\\\\y=a\\sin^3t\\end{cases}$，且 $\\sqrt{x_t'^2+y_t'^2}=3a\\sin t\\cos t$，\n\n$$\nM=\\int_L\\rho(x,y)ds=\\int_0^{\\frac{\\pi}{2}}(a\\cos^3t+a^2\\sin^3t\\cos^3t+a\\sin^3t)\\sqrt{x_t'^2+y_t'^2}\\,dt\n$$\n\n$$\n=\\int_0^{\\frac{\\pi}{2}}(a\\cos^3t+a^2\\sin^3t\\cos^3t+a\\sin^3t)\\cdot3a\\sin t\\cos tdt\n$$\n\n$$\n=3a^2\\int_0^{\\frac{\\pi}{2}}\\sin t\\cos^4tdt+3a^3\\int_0^{\\frac{\\pi}{2}}\\sin^4t\\cos^4tdt+3a^2\\int_0^{\\frac{\\pi}{2}}\\sin^4t\\cos tdt\n$$\n\n$$\n=\\frac{6a^2}{5}+3a^3\\left[\\int_0^{\\frac{\\pi}{2}}(\\sin^4t-2\\sin^6t+\\sin^8t)dt\\right]\n$$\n\n$$\n=\\frac{6}{5}a^2+\\frac{9\\pi}{256}a^3.\n$$",
+  "sort_order": 38
+}

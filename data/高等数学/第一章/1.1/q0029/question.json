@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=2x^2+6x-3$，则 $\\Phi(x)=\\frac12[f(x)-f(-x)]$ 是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "奇函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "偶函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "非奇非偶函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不能判断"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\Phi(x)=\\frac12[2x^2+6x-3-(2x^2-6x-3)]=6x$，故为奇函数。",
+  "search_text": "设 $f(x)=2x^2+6x-3$，则 $\\Phi(x)=\\frac12[f(x)-f(-x)]$ 是（ ）。 奇函数 偶函数 非奇非偶函数 不能判断 $\\Phi(x)=\\frac12[2x^2+6x-3-(2x^2-6x-3)]=6x$，故为奇函数。",
+  "sort_order": 29
+}

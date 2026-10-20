@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=z(x,y)$ 由 $x^z=\\sqrt{\\frac{y^2+2}{x^2+1}}$ 所确定，则 $\\frac{\\partial z}{\\partial x}=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{z(x^2+1)+x^2}{x(x^2+1)\\ln x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{-[z(x^2+1)+x^2]}{x(x^2+1)\\ln x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{-[z(x^2+1)+x^2]}{(x^2+1)\\ln x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{z(x^2+1)-x^2}{x(x^2+1)\\ln x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "有题设可知：\n\n$$z\\ln x=\\frac12[\\ln(y^2+2)-\\ln(x^2+1)]$$\n\n$$\\frac{\\partial z}{\\partial x}\\ln x+\\frac{z}{x}=-\\frac{2x}{2(x^2+1)}=-\\frac{x}{x^2+1}$$\n\n$$\\frac{\\partial z}{\\partial x}=\\frac{-[z(x^2+1)+x^2]}{x(x^2+1)\\ln x}$$",
+  "search_text": "函数 $z=z(x,y)$ 由 $x^z=\\sqrt{\\frac{y^2+2}{x^2+1}}$ 所确定，则 $\\frac{\\partial z}{\\partial x}=$（　）。 $\\frac{z(x^2+1)+x^2}{x(x^2+1)\\ln x}$ $\\frac{-[z(x^2+1)+x^2]}{x(x^2+1)\\ln x}$ $\\frac{-[z(x^2+1)+x^2]}{(x^2+1)\\ln x}$ $\\frac{z(x^2+1)-x^2}{x(x^2+1)\\ln x}$ 有题设可知：\n\n$$z\\ln x=\\frac12[\\ln(y^2+2)-\\ln(x^2+1)]$$\n\n$$\\frac{\\partial z}{\\partial x}\\ln x+\\frac{z}{x}=-\\frac{2x}{2(x^2+1)}=-\\frac{x}{x^2+1}$$\n\n$$\\frac{\\partial z}{\\partial x}=\\frac{-[z(x^2+1)+x^2]}{x(x^2+1)\\ln x}$$",
+  "sort_order": 44
+}

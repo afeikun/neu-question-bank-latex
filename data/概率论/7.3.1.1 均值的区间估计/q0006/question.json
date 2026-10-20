@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体均值方差未知，均值双侧$1-\\alpha$区间为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\bar X-t_{\\alpha/2}(n-1)S/\\sqrt n,\\bar X+t_{\\alpha/2}(n-1)S/\\sqrt n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "用$t_{\\alpha/2}(n)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "用$t_\\alpha(n-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "用$t_{1-\\alpha}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "未知方差时用自由度$n-1$的$t$分布。",
+  "search_text": "正态总体均值方差未知，均值双侧$1-\\alpha$区间为（）。 $(\\bar X-t_{\\alpha/2}(n-1)S/\\sqrt n,\\bar X+t_{\\alpha/2}(n-1)S/\\sqrt n)$ 用$t_{\\alpha/2}(n)$ 用$t_\\alpha(n-1)$ 用$t_{1-\\alpha}$ 未知方差时用自由度$n-1$的$t$分布。",
+  "sort_order": 6
+}

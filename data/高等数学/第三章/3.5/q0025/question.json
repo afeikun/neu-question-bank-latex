@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "原点 $O(0,0)$ 与曲线 $y=\\frac1{2\\sqrt x}$ 之间的最短距离为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt5}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt2}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt3}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "曲线上点 $(x,1/(2\\sqrt x))$ 到原点距离平方为 $D^2=x^2+1/(4x)$。令导数为零得 $x=1/2$，最短距离为 $\\sqrt3/2$。",
+  "search_text": "原点 $O(0,0)$ 与曲线 $y=\\frac1{2\\sqrt x}$ 之间的最短距离为（ ）。 $\\frac{\\sqrt5}{2}$ $\\frac{\\sqrt2}{2}$ $\\frac12$ $\\frac{\\sqrt3}{2}$ 曲线上点 $(x,1/(2\\sqrt x))$ 到原点距离平方为 $D^2=x^2+1/(4x)$。令导数为零得 $x=1/2$，最短距离为 $\\sqrt3/2$。",
+  "sort_order": 25
+}

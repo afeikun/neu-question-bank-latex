@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F(t)=\\int_0^tdx\\int_0^xdy\\int_0^a(y+z)e^{z^2}dz$，则 $F''(0)=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12(e^{a^2}-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12(e^{a^2}+1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12(e^a-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F'(t)=\\int_0^tdy\\int_0^a(y+z)e^{z^2}dz,F''(t)=\\int_0^a(t+z)e^{z^2}dz,$\n$F''(t)=\\int_0^a ze^{z^2}dz=\\frac12(e^{a^2}-1)$",
+  "search_text": "设 $F(t)=\\int_0^tdx\\int_0^xdy\\int_0^a(y+z)e^{z^2}dz$，则 $F''(0)=（ ）$ $\\frac12(e^{a^2}-1)$ $\\frac12(e^{a^2}+1)$ $\\frac12(e^a-1)$ $0$ $F'(t)=\\int_0^tdy\\int_0^a(y+z)e^{z^2}dz,F''(t)=\\int_0^a(t+z)e^{z^2}dz,$\n$F''(t)=\\int_0^a ze^{z^2}dz=\\frac12(e^{a^2}-1)$",
+  "sort_order": 28
+}

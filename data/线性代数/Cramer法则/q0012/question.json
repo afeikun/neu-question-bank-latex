@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若齐次线性方程组 $$\\begin{cases}\nx_1+kx_2+x_3=0\\\\\nkx_1+x_2-x_3=0\\\\\n2x_1+x_2+x_3=0\n\\end{cases}$$ 只有零解，则 $k=(\\quad)$.",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k=0$ 或 $-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k\\neq 0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k\\neq 0,-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为当系数行列式 $D=\\begin{vmatrix}1&k&1\\\\\nk&1&-1\\\\\n2&1&1\\end{vmatrix}=(k+1)\\begin{vmatrix}1&1&0\\\\\nk&1&-1\\\\\n2&1&1\\end{vmatrix}=-k(k+1)\\neq 0$ 时，方程组只有\n零解. 所以，$k\\neq 0,-1$.",
+  "search_text": "若齐次线性方程组 $$\\begin{cases} x_1+kx_2+x_3=0\\\\ kx_1+x_2-x_3=0\\\\ 2x_1+x_2+x_3=0 \\end{cases}$$ 只有零解，则 $k=(\\quad)$. $k=0$ 或 $-1$ $k\\neq 0$ $k\\neq 0,-1$ $k=0$ 因为当系数行列式 $D=\\begin{vmatrix}1&k&1\\\\ k&1&-1\\\\ 2&1&1\\end{vmatrix}=(k+1)\\begin{vmatrix}1&1&0\\\\ k&1&-1\\\\ 2&1&1\\end{vmatrix}=-k(k+1)\\neq 0$ 时，方程组只有 零解. 所以，$k\\neq 0,-1$.",
+  "sort_order": 12
+}

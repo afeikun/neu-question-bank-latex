@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=(\\frac1{\\sqrt2},\\frac1{\\sqrt2},0)^T$，$\\alpha_2=(\\frac1{\\sqrt3},-\\frac1{\\sqrt3},\\frac1{\\sqrt3})^T$，$\\alpha_3=(-\\frac1{\\sqrt6},\\frac1{\\sqrt6},\\frac2{\\sqrt6})^T$ 是三维向量空间 $\\mathbb{R}^3$ 的一个规范正交基，则向量 $\\beta=(2,2,3)^T$ 在这个基下的坐标为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\sqrt2,2\\sqrt3,-\\sqrt6)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(2\\sqrt2,-\\sqrt3,\\sqrt6)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2\\sqrt2,\\sqrt3,\\sqrt6)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\sqrt2,\\sqrt3,2\\sqrt6)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由于 $(\\beta,\\alpha_1)=2\\sqrt2$，$(\\beta,\\alpha_2)=\\sqrt3$，$(\\beta,\\alpha_3)=\\sqrt6$，所以 $\\beta=2\\sqrt2\\alpha_1+\\sqrt3\\alpha_2+\\sqrt6\\alpha_3$，坐标为 $(2\\sqrt2,\\sqrt3,\\sqrt6)^T$。",
+  "search_text": "设 $\\alpha_1=(\\frac1{\\sqrt2},\\frac1{\\sqrt2},0)^T$，$\\alpha_2=(\\frac1{\\sqrt3},-\\frac1{\\sqrt3},\\frac1{\\sqrt3})^T$，$\\alpha_3=(-\\frac1{\\sqrt6},\\frac1{\\sqrt6},\\frac2{\\sqrt6})^T$ 是三维向量空间 $\\mathbb{R}^3$ 的一个规范正交基，则向量 $\\beta=(2,2,3)^T$ 在这个基下的坐标为（ ）。 $(\\sqrt2,2\\sqrt3,-\\sqrt6)^T$ $(2\\sqrt2,-\\sqrt3,\\sqrt6)^T$ $(2\\sqrt2,\\sqrt3,\\sqrt6)^T$ $(-\\sqrt2,\\sqrt3,2\\sqrt6)^T$ 由于 $(\\beta,\\alpha_1)=2\\sqrt2$，$(\\beta,\\alpha_2)=\\sqrt3$，$(\\beta,\\alpha_3)=\\sqrt6$，所以 $\\beta=2\\sqrt2\\alpha_1+\\sqrt3\\alpha_2+\\sqrt6\\alpha_3$，坐标为 $(2\\sqrt2,\\sqrt3,\\sqrt6)^T$。",
+  "sort_order": 5
+}

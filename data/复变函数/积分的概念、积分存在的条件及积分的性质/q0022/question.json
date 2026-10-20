@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_C\\operatorname{Im}z\\,dz=(\\quad)$，$C$ 从原点沿实轴至 2，再由 2 垂直到 $2+i$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac i2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "水平段为零，垂直段积分为 $i/2$。",
+  "search_text": "$\\int_C\\operatorname{Im}z\\,dz=(\\quad)$，$C$ 从原点沿实轴至 2，再由 2 垂直到 $2+i$。 $\\frac i2$ $i$ $-i$ $\\frac12$ 水平段为零，垂直段积分为 $i/2$。",
+  "sort_order": 22
+}

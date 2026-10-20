@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=x\\sqrt{3-x}-3$ 在 $[0,3]$ 上满足罗尔中值定理的条件，由罗尔中值定理确定的罗尔中值点 $\\xi=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f'(x)=\\sqrt{3-x}-\\frac{x}{2\\sqrt{3-x}}=\\frac{6-3x}{2\\sqrt{3-x}}=0$，得 $\\xi=2$。",
+  "search_text": "函数 $f(x)=x\\sqrt{3-x}-3$ 在 $[0,3]$ 上满足罗尔中值定理的条件，由罗尔中值定理确定的罗尔中值点 $\\xi=(\\quad)$。 4 3 1 2 $f'(x)=\\sqrt{3-x}-\\frac{x}{2\\sqrt{3-x}}=\\frac{6-3x}{2\\sqrt{3-x}}=0$，得 $\\xi=2$。",
+  "sort_order": 12
+}

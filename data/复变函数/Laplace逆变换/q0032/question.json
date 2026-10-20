@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal{L}^{-1}[\\frac{s+1}{s^2+s-6}]=(\\quad).$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac35e^{2t}+\\frac25e^{-3t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac35e^{-2t}+\\frac25e^{3t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac35e^{2t}-\\frac25e^{-3t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac35e^{-2t}-\\frac25e^{3t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因式分解分母为 $(s-2)(s+3)$，部分分式为 $\\frac{3/5}{s-2}+\\frac{2/5}{s+3}$。",
+  "search_text": "$\\mathcal{L}^{-1}[\\frac{s+1}{s^2+s-6}]=(\\quad).$ $\\frac35e^{2t}+\\frac25e^{-3t}$ $\\frac35e^{-2t}+\\frac25e^{3t}$ $\\frac35e^{2t}-\\frac25e^{-3t}$ $\\frac35e^{-2t}-\\frac25e^{3t}$ 因式分解分母为 $(s-2)(s+3)$，部分分式为 $\\frac{3/5}{s-2}+\\frac{2/5}{s+3}$。",
+  "sort_order": 32
+}

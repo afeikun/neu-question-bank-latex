@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)$ 连续，且 $f(0)=0$。$\\Omega:0\\le z\\le h,\\ x^2+y^2\\le t^2(t>0)$，又 $F(t)=\\iiint_\\Omega[f(x^2+y^2)+z^2],dv$，则 $\\lim_{t\\to0^+}\\frac{F(t)}{t^2}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi3h^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2\\pi}3h^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi2h^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi6h^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用柱面坐标变换化简 $F(t)$，\n\n$F(t)=\\int_0^h dz\\int_0^{2\\pi}d\\theta\\int_0^t(f(r^2)+z^2)r\\,dr$\n\n$\\phantom{F(t)}=\\frac{\\pi}{3}t^2h^3+2\\pi h\\int_0^t f(r^2)r\\,dr$\n\n所以：\n\n$\\lim_{t\\to0^+}\\frac{F(t)}{t^2}=\\frac{\\pi}{3}h^3+\\lim_{t\\to0^+}\\frac{2\\pi h\\int_0^t f(r^2)r\\,dr}{t^2}$\n\n$=\\frac{\\pi}{3}h^3+\\lim_{t\\to0^+}\\frac{2\\pi h f(t^2)t}{2t}$\n\n$=\\frac{\\pi}{3}h^3$。",
+  "search_text": "设 $f(t)$ 连续，且 $f(0)=0$。$\\Omega:0\\le z\\le h,\\ x^2+y^2\\le t^2(t>0)$，又 $F(t)=\\iiint_\\Omega[f(x^2+y^2)+z^2],dv$，则 $\\lim_{t\\to0^+}\\frac{F(t)}{t^2}=$（ ） $\\frac\\pi3h^3$ $\\frac{2\\pi}3h^3$ $\\frac\\pi2h^3$ $\\frac\\pi6h^3$ 利用柱面坐标变换化简 $F(t)$，\n\n$F(t)=\\int_0^h dz\\int_0^{2\\pi}d\\theta\\int_0^t(f(r^2)+z^2)r\\,dr$\n\n$\\phantom{F(t)}=\\frac{\\pi}{3}t^2h^3+2\\pi h\\int_0^t f(r^2)r\\,dr$\n\n所以：\n\n$\\lim_{t\\to0^+}\\frac{F(t)}{t^2}=\\frac{\\pi}{3}h^3+\\lim_{t\\to0^+}\\frac{2\\pi h\\int_0^t f(r^2)r\\,dr}{t^2}$\n\n$=\\frac{\\pi}{3}h^3+\\lim_{t\\to0^+}\\frac{2\\pi h f(t^2)t}{2t}$\n\n$=\\frac{\\pi}{3}h^3$。",
+  "sort_order": 13
+}

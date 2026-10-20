@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "容量16正态样本，样本均值与总体均值之差绝对值大于2的概率为0.01，求总体标准差。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3.11$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3.21$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3.12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4.11$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$2[1-\\Phi(8/\\sigma)]=0.01$，故$8/\\sigma=2.575,\\sigma=3.11$。",
+  "search_text": "容量16正态样本，样本均值与总体均值之差绝对值大于2的概率为0.01，求总体标准差。 $3.11$ $3.21$ $3.12$ $4.11$ $2[1-\\Phi(8/\\sigma)]=0.01$，故$8/\\sigma=2.575,\\sigma=3.11$。",
+  "sort_order": 11
+}

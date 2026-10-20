@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\to0$ 时，下列说法中正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2-x^3$ 是比 $x-x^2$ 高阶的无穷小"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin x+x^2\\cos(1/x)$ 与 $(1+\\cos x)\\ln(1+x)$ 不是同阶无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sin x+x^2\\cos(1/x)$ 与 $(1+\\cos x)\\ln(1+x)$ 是等价无穷小"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-x^2$ 是比 $x^2-x^3$ 高阶的无穷小"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "DOM 答案标记对应第三项；按原题保留。直接比较可发现题面陈述/标记可能冲突，记为源题疑误。",
+  "search_text": "当 $x o0$ 时，下列说法中正确的是（ ）。 $x^2-x^3$ 是比 $x-x^2$ 高阶的无穷小 $\\sin x+x^2\\cos(1/x)$ 与 $(1+\\cos x)\\ln(1+x)$ 不是同阶无穷小 $\\sin x+x^2\\cos(1/x)$ 与 $(1+\\cos x)\\ln(1+x)$ 是等价无穷小 $x-x^2$ 是比 $x^2-x^3$ 高阶的无穷小 DOM 答案标记对应第三项；按原题保留。直接比较可发现题面陈述/标记可能冲突，记为源题疑误。",
+  "sort_order": 15
+}

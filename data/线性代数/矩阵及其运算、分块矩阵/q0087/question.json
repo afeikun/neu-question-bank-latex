@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若矩阵 $A=\\begin{pmatrix}1&2-x&3\\\\2&6&5z\\end{pmatrix}$，$B=\\begin{pmatrix}1&x&3\\\\y&6&z-8\\end{pmatrix}$，且 $A=B$，则 $x,y,z$ 分别为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=2,\\ y=2,\\ z=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=1,\\ y=2,\\ z=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=1,\\ y=2,\\ z=-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=2,\\ y=2,\\ z=-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$2-x=x,\\ 2=y,\\ 5z=z-8$，$\\therefore x=1,y=2,z=-2$。",
+  "search_text": "若矩阵 $A=\\begin{pmatrix}1&2-x&3\\\\2&6&5z\\end{pmatrix}$，$B=\\begin{pmatrix}1&x&3\\\\y&6&z-8\\end{pmatrix}$，且 $A=B$，则 $x,y,z$ 分别为（ ）。 $x=2,\\ y=2,\\ z=1$ $x=1,\\ y=2,\\ z=2$ $x=1,\\ y=2,\\ z=-2$ $x=2,\\ y=2,\\ z=-1$ $2-x=x,\\ 2=y,\\ 5z=z-8$，$\\therefore x=1,y=2,z=-2$。",
+  "sort_order": 87
+}

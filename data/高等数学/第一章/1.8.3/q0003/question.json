@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sin x+x+1=0$ 在 $( -\\pi/2,\\pi/2)$ 内有（ ）根。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "两个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不能确定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "零个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "至少一个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "端点函数值异号，连续函数零点定理保证至少有一个根。",
+  "search_text": "$\\sin x+x+1=0$ 在 $( -\\pi/2,\\pi/2)$ 内有（ ）根。 两个 不能确定 零个 至少一个 端点函数值异号，连续函数零点定理保证至少有一个根。",
+  "sort_order": 3
+}

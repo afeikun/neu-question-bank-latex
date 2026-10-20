@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{\\substack{x\\to0\\\\y\\to\\pi}}\\frac{\\sin(xy)}x=(\\quad)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lim_{\\substack{x\\to0\\\\y\\to\\pi}}\\frac{\\sin(xy)}{x}=\\lim_{\\substack{x\\to0\\\\y\\to\\pi}}y\\cdot\\frac{\\sin(xy)}{xy}=\\pi$.",
+  "search_text": "$\\lim_{\\substack{x\\to0\\\\y\\to\\pi}}\\frac{\\sin(xy)}x=(\\quad)$ $\\pi$ $0$ $1$ $-\\pi$ $\\lim_{\\substack{x\\to0\\\\y\\to\\pi}}\\frac{\\sin(xy)}{x}=\\lim_{\\substack{x\\to0\\\\y\\to\\pi}}y\\cdot\\frac{\\sin(xy)}{xy}=\\pi$.",
+  "sort_order": 21
+}

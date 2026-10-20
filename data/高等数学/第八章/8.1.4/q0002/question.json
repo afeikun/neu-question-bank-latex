@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "交换二次积分 $\\int_0^1dx\\int_{x^2}^xf(x,y)dy$ 的积分次序，下列正确的是[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_{-1}^1dy\\int_{y^2}^yf(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_{-1}^0dy\\int_{y^2}^{\\sqrt y}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_{-1}^0dy\\int_y^{y^2}f(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_0^1dy\\int_y^{\\sqrt y}f(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答　题设二次积分的积分限 $0\\leq x\\leq1,x^2\\leq y\\leq x$，可改写成 $0\\leq y\\leq1,y\\leq x\\leq\\sqrt{y}$，所以\n\n$$\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_0^1dy\\int_y^{\\sqrt{y}}f(x,y)dx.$$ \n\n图示：坐标轴标记 $x,y$，原点标记 $O$；曲线标记 $x=\\sqrt{y}$ 和 $x=y$，两曲线间区域着色；图中虚线辅助标记可见 $-1$、$1$ 刻度及 $y=1$ 水平线。\n另有经过标记 $y$ 高度的水平辅助线。",
+  "search_text": "交换二次积分 $\\int_0^1dx\\int_{x^2}^xf(x,y)dy$ 的积分次序，下列正确的是[\\quad] $\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_{-1}^1dy\\int_{y^2}^yf(x,y)dx$ $\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_{-1}^0dy\\int_{y^2}^{\\sqrt y}f(x,y)dx$ $\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_{-1}^0dy\\int_y^{y^2}f(x,y)dx$ $\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_0^1dy\\int_y^{\\sqrt y}f(x,y)dx$ 解答　题设二次积分的积分限 $0\\leq x\\leq1,x^2\\leq y\\leq x$，可改写成 $0\\leq y\\leq1,y\\leq x\\leq\\sqrt{y}$，所以\n\n$$\\int_0^1dx\\int_{x^2}^xf(x,y)dy=\\int_0^1dy\\int_y^{\\sqrt{y}}f(x,y)dx.$$ \n\n图示：坐标轴标记 $x,y$，原点标记 $O$；曲线标记 $x=\\sqrt{y}$ 和 $x=y$，两曲线间区域着色；图中虚线辅助标记可见 $-1$、$1$ 刻度及 $y=1$ 水平线。\n另有经过标记 $y$ 高度的水平辅助线。",
+  "sort_order": 2
+}

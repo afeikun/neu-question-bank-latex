@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由 $\\sin(y-z)+e^{x-z}=2$ 确定，求 $z_x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{e^{x-z}}{e^{x-z}+\\sin(y-z)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{e^{x-z}}{e^{x-z}-\\cos(y-z)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{e^{x-z}}{e^{x-z}+\\sin(x-z)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{e^{x-z}}{e^{x-z}+\\cos(y-z)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "原式 $\\sin(y-z)+e^{x-z}=2$ 两边求微分得\n\n$$\n\\cos(y-z)(dy-dz)+e^{x-z}(dx-dz)=0\n$$\n\n$$\ndz=\\frac{e^{x-z}\\,dx+\\cos(y-z)\\,dy}{e^{x-z}+\\cos(y-z)}\n$$\n\n可得：\n\n$$\n\\frac{\\partial z}{\\partial x}=\\frac{e^{x-z}}{e^{x-z}+\\cos(y-z)}\n$$",
+  "search_text": "设 $z=z(x,y)$ 由 $\\sin(y-z)+e^{x-z}=2$ 确定，求 $z_x$。 $\\frac{e^{x-z}}{e^{x-z}+\\sin(y-z)}$ $\\frac{e^{x-z}}{e^{x-z}-\\cos(y-z)}$ $\\frac{e^{x-z}}{e^{x-z}+\\sin(x-z)}$ $\\frac{e^{x-z}}{e^{x-z}+\\cos(y-z)}$ 原式 $\\sin(y-z)+e^{x-z}=2$ 两边求微分得\n\n$$\n\\cos(y-z)(dy-dz)+e^{x-z}(dx-dz)=0\n$$\n\n$$\ndz=\\frac{e^{x-z}\\,dx+\\cos(y-z)\\,dy}{e^{x-z}+\\cos(y-z)}\n$$\n\n可得：\n\n$$\n\\frac{\\partial z}{\\partial x}=\\frac{e^{x-z}}{e^{x-z}+\\cos(y-z)}\n$$",
+  "sort_order": 35
+}

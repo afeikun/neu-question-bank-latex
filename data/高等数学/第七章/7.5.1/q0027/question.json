@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由 $\\frac{x}{z}=\\ln\\cos(\\frac zy)$ 确定，求 $z_x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{zy}{y-x^2\\tan(z^2/y)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{xz}{y^2+z^2\\tan(x/y^2)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{xy}{xz+\\tan(z/y)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{zy}{xy-z^2\\tan(z/y)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\n\\frac{z-xz_x}{z^2}=\\frac{1}{\\cos\\frac{z}{y}}\\left(-\\sin\\frac{z}{y}\\right)\\frac{z_x}{y}\n$$\n\n则\n\n$$\n\\frac{\\partial z}{\\partial x}=\\frac{\\frac{1}{z}}{\\frac{x}{z^2}-\\frac{1}{y}\\tan\\frac{z}{y}}=\\frac{zy}{xy-z^2\\tan\\frac{z}{y}}\n$$",
+  "search_text": "设 $z=z(x,y)$ 由 $\\frac{x}{z}=\\ln\\cos(\\frac zy)$ 确定，求 $z_x$。 $\\frac{zy}{y-x^2\\tan(z^2/y)}$ $\\frac{xz}{y^2+z^2\\tan(x/y^2)}$ $\\frac{xy}{xz+\\tan(z/y)}$ $\\frac{zy}{xy-z^2\\tan(z/y)}$ $$\n\\frac{z-xz_x}{z^2}=\\frac{1}{\\cos\\frac{z}{y}}\\left(-\\sin\\frac{z}{y}\\right)\\frac{z_x}{y}\n$$\n\n则\n\n$$\n\\frac{\\partial z}{\\partial x}=\\frac{\\frac{1}{z}}{\\frac{x}{z^2}-\\frac{1}{y}\\tan\\frac{z}{y}}=\\frac{zy}{xy-z^2\\tan\\frac{z}{y}}\n$$",
+  "sort_order": 27
+}

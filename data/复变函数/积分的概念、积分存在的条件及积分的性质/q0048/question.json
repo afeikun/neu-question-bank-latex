@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z|=r}x^2\\,dz=(\\quad)$（$r$ 为正常数，方向为正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2r^2\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$r^2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$r^3\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "参数化后积分为 $r^3i\\int_0^{2\\pi}\\cos^3t\\,dt=0$。",
+  "search_text": "$\\oint_{|z|=r}x^2\\,dz=(\\quad)$（$r$ 为正常数，方向为正向）。 $0$ $2r^2\\pi i$ $r^2\\pi i$ $r^3\\pi i$ 参数化后积分为 $r^3i\\int_0^{2\\pi}\\cos^3t\\,dt=0$。",
+  "sort_order": 48
+}

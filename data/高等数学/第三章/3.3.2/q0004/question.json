@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $a>0$，则 $\\displaystyle\\lim_{x\\to+\\infty}\\frac{\\ln x}{e^{ax}}$ 的值等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由洛必达法则，原式等于 $\\lim_{x\\to+\\infty}\\frac{1}{ax e^{ax}}=0$。",
+  "search_text": "设 $a>0$，则 $\\displaystyle\\lim_{x\\to+\\infty}\\frac{\\ln x}{e^{ax}}$ 的值等于（ ）。 $1$ $\\frac12$ $0$ $\\frac13$ 由洛必达法则，原式等于 $\\lim_{x\\to+\\infty}\\frac{1}{ax e^{ax}}=0$。",
+  "sort_order": 4
+}

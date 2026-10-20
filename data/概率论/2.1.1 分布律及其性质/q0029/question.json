@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列哪组数可作为离散随机变量的概率分布？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2^n/n!)e^{-2}, n=0,1,2,\\ldots$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p,p^2$（$p$任意实数）"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.1,0.2,0.3,0.5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2^n/n!, n=1,2,\\ldots$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一组选项各项非负且$\\sum_{n=0}^\\infty(2^n/n!)e^{-2}=1$，符合分布律条件。",
+  "search_text": "下列哪组数可作为离散随机变量的概率分布？ $(2^n/n!)e^{-2}, n=0,1,2,\\ldots$ $p,p^2$（$p$任意实数） $0.1,0.2,0.3,0.5$ $2^n/n!, n=1,2,\\ldots$ 第一组选项各项非负且$\\sum_{n=0}^\\infty(2^n/n!)e^{-2}=1$，符合分布律条件。",
+  "sort_order": 29
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "F(x)=∫ₓ^{x+2π}e^{sin t}sin t dt，判断F(x)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不是常数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "负常数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "零"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "正常数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "利用周期性及分部积分，积分等于∫₀^{2π}e^{sin t}cos²t dt>0。",
+  "search_text": "F(x)=∫ₓ^{x+2π}e^{sin t}sin t dt，判断F(x) 不是常数 负常数 零 正常数 利用周期性及分部积分，积分等于∫₀^{2π}e^{sin t}cos²t dt>0。",
+  "sort_order": 24
+}

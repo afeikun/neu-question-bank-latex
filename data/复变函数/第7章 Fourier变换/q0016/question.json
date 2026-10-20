@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\sin\\left(5t+\\dfrac\\pi3\\right)$，则 $\\mathcal F[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi2\\left((\\sqrt3+i)\\delta(\\omega+5)+(\\sqrt3-i)\\delta(\\omega-5)\\right)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi2\\left((\\sqrt3-i)\\delta(\\omega+5)+(\\sqrt3+i)\\delta(\\omega-5)\\right)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi2\\left((\\sqrt3+i)\\delta(\\omega+5)-(\\sqrt3-i)\\delta(\\omega-5)\\right)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac\\pi2\\left((\\sqrt3-i)\\delta(\\omega+5)-(\\sqrt3+i)\\delta(\\omega-5)\\right)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathcal F[f(t)]=\\dfrac1{2i}\\mathcal F\\left[e^{i5t}e^{i\\pi/3}-e^{-i5t}e^{-i\\pi/3}\\right]=\\dfrac\\pi2\\left((\\sqrt3+i)\\delta(\\omega+5)+(\\sqrt3-i)\\delta(\\omega-5)\\right)$。",
+  "search_text": "设 $f(t)=\\sin\\left(5t+\\dfrac\\pi3\\right)$，则 $\\mathcal F[f(t)]=(\\ \\ )$。 $\\dfrac\\pi2\\left((\\sqrt3+i)\\delta(\\omega+5)+(\\sqrt3-i)\\delta(\\omega-5)\\right)$ $\\dfrac\\pi2\\left((\\sqrt3-i)\\delta(\\omega+5)+(\\sqrt3+i)\\delta(\\omega-5)\\right)$ $\\dfrac\\pi2\\left((\\sqrt3+i)\\delta(\\omega+5)-(\\sqrt3-i)\\delta(\\omega-5)\\right)$ $\\dfrac\\pi2\\left((\\sqrt3-i)\\delta(\\omega+5)-(\\sqrt3+i)\\delta(\\omega-5)\\right)$ $\\mathcal F[f(t)]=\\dfrac1{2i}\\mathcal F\\left[e^{i5t}e^{i\\pi/3}-e^{-i5t}e^{-i\\pi/3}\\right]=\\dfrac\\pi2\\left((\\sqrt3+i)\\delta(\\omega+5)+(\\sqrt3-i)\\delta(\\omega-5)\\right)$。",
+  "sort_order": 16
+}

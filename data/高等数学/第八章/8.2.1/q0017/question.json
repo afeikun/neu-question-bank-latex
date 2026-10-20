@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设平面薄片由摆线 $x=a(t-\\sin t),y=a(1-\\cos t)\\ (0\\leq t\\leq2\\pi)$ 与 $x$ 轴围成，面密度为1，求重心坐标（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\pi a,\\frac56\\pi a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\pi a,\\frac13\\pi a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\pi a,\\frac16\\pi a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\pi a,\\frac56a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "先求区域 $D$ 的面积 $A$，\n\\[\n0\\leq t\\leq 2\\pi\\Rightarrow 0\\leq x\\leq 2\\pi a\n\\]\n\\[\nA=\\int_0^{2\\pi a}y(x)dx=\\int_0^{2\\pi}a(1-\\cos t)d[a(t-\\sin t)]=3\\pi a^2\n\\]\n图示：坐标轴为 $x,y$，曲线标为 $y(x)$，曲线与 $x$ 轴围成的绿色区域标为 $D$，$x$ 轴右端标 $2\\pi a$。\n\n由于区域关于直线 $x=\\pi a$ 对称，所以重心在 $x=\\pi a$ 上，即 $\\bar{x}=\\pi a$\n\\[\n\\bar{y}=\\frac{1}{A}\\iint_D y\\,d\\sigma=\\frac{1}{A}\\int_0^{2\\pi a}dx\\int_0^{y(x)}ydy=\\frac{5a}{6}\n\\]\n所求重心坐标为 $\\left(\\pi a,\\frac{5}{6}a\\right)$。",
+  "search_text": "设平面薄片由摆线 $x=a(t-\\sin t),y=a(1-\\cos t)\\ (0\\leq t\\leq2\\pi)$ 与 $x$ 轴围成，面密度为1，求重心坐标（ ） $(\\pi a,\\frac56\\pi a)$ $(\\pi a,\\frac13\\pi a)$ $(\\pi a,\\frac16\\pi a)$ $(\\pi a,\\frac56a)$ 先求区域 $D$ 的面积 $A$，\n\\[\n0\\leq t\\leq 2\\pi\\Rightarrow 0\\leq x\\leq 2\\pi a\n\\]\n\\[\nA=\\int_0^{2\\pi a}y(x)dx=\\int_0^{2\\pi}a(1-\\cos t)d[a(t-\\sin t)]=3\\pi a^2\n\\]\n图示：坐标轴为 $x,y$，曲线标为 $y(x)$，曲线与 $x$ 轴围成的绿色区域标为 $D$，$x$ 轴右端标 $2\\pi a$。\n\n由于区域关于直线 $x=\\pi a$ 对称，所以重心在 $x=\\pi a$ 上，即 $\\bar{x}=\\pi a$\n\\[\n\\bar{y}=\\frac{1}{A}\\iint_D y\\,d\\sigma=\\frac{1}{A}\\int_0^{2\\pi a}dx\\int_0^{y(x)}ydy=\\frac{5a}{6}\n\\]\n所求重心坐标为 $\\left(\\pi a,\\frac{5}{6}a\\right)$。",
+  "sort_order": 17
+}

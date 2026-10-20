@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,1)$，$n=9$检验$H_0:\\mu=0,H_1:\\mu\\ne0$，$\\alpha=.05$，非拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|\\bar X|<0.653$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|\\bar X|<0.548$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar X<0.548$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar X>-0.548$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "双侧阈值$u_{0.025}/\\sqrt9=1.96/3=0.653$。",
+  "search_text": "$X\\sim N(\\mu,1)$，$n=9$检验$H_0:\\mu=0,H_1:\\mu\\ne0$，$\\alpha=.05$，非拒绝域为（）。 $|\\bar X|<0.653$ $|\\bar X|<0.548$ $\\bar X<0.548$ $\\bar X>-0.548$ 双侧阈值$u_{0.025}/\\sqrt9=1.96/3=0.653$。",
+  "sort_order": 5
+}

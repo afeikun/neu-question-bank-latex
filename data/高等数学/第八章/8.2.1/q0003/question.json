@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设空间区域 $\\Omega_1:x^2+y^2+z^2\\leq R^2,z\\geq0,\\Omega_2:x^2+y^2+z^2\\leq R^2,x\\geq0,y\\geq0,z\\geq0$，则成立的是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iiint_{\\Omega_1}xyzv=4\\iiint_{\\Omega_2}xyzv$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iiint_{\\Omega_1}xdy=4\\iiint_{\\Omega_2}xdy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iiint_{\\Omega_1}ydv=4\\iiint_{\\Omega_2}ydv$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iiint_{\\Omega_1}zdv=4\\iiint_{\\Omega_2}zdv$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "奇偶性，对称性",
+  "search_text": "设空间区域 $\\Omega_1:x^2+y^2+z^2\\leq R^2,z\\geq0,\\Omega_2:x^2+y^2+z^2\\leq R^2,x\\geq0,y\\geq0,z\\geq0$，则成立的是（ ） $\\iiint_{\\Omega_1}xyzv=4\\iiint_{\\Omega_2}xyzv$ $\\iiint_{\\Omega_1}xdy=4\\iiint_{\\Omega_2}xdy$ $\\iiint_{\\Omega_1}ydv=4\\iiint_{\\Omega_2}ydv$ $\\iiint_{\\Omega_1}zdv=4\\iiint_{\\Omega_2}zdv$ 奇偶性，对称性",
+  "sort_order": 3
+}

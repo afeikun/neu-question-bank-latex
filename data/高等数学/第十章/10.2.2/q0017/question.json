@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "初值问题 $(y+x\\cos\\frac xy)dy-y\\cos\\frac xy dx=0,\\ y(0)=1$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\tan\\frac xy=\\frac xy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin\\frac xy=\\ln y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sin\\frac xy+\\cos\\frac xy=1-y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cos\\frac xy=y+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程变形为 $\\frac{dx}{dy}=\\sec\\frac{x}{y}+\\frac{x}{y}$\n\n设 $u=\\frac{x}{y}$，则 $x=uy$ 代入 $\\cos u\\,du=\\frac{1}{y}dy$，\n\n积分得 $\\sin u=\\ln y+c$ 由 $y(0)=1$，$c=0$",
+  "search_text": "初值问题 $(y+x\\cos\\frac xy)dy-y\\cos\\frac xy dx=0,\\ y(0)=1$ 的解为（ ） $\\tan\\frac xy=\\frac xy$ $\\sin\\frac xy=\\ln y$ $\\sin\\frac xy+\\cos\\frac xy=1-y$ $\\cos\\frac xy=y+1$ 方程变形为 $\\frac{dx}{dy}=\\sec\\frac{x}{y}+\\frac{x}{y}$\n\n设 $u=\\frac{x}{y}$，则 $x=uy$ 代入 $\\cos u\\,du=\\frac{1}{y}dy$，\n\n积分得 $\\sin u=\\ln y+c$ 由 $y(0)=1$，$c=0$",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\vec a=2\\vec i+3\\vec j-\\vec k$，$\\vec b=\\vec i+\\vec j+\\vec k$，$\\vec c=\\vec j+3\\vec k$，则 $(\\vec a\\cdot\\vec b)\\vec c+(\\vec b\\cdot\\vec c)\\vec a=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-8\\vec i+16\\vec j+8\\vec k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8\\vec i+16\\vec j+8\\vec k$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-8\\vec i+16\\vec j-8\\vec k$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8\\vec i-16\\vec j+8\\vec k$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\vec a\\cdot\\vec b=4$，$\\vec b\\cdot\\vec c=4$，所以所求为 $4\\vec c+4\\vec a=8\\vec i+16\\vec j+8\\vec k$。",
+  "search_text": "$\\vec a=2\\vec i+3\\vec j-\\vec k$，$\\vec b=\\vec i+\\vec j+\\vec k$，$\\vec c=\\vec j+3\\vec k$，则 $(\\vec a\\cdot\\vec b)\\vec c+(\\vec b\\cdot\\vec c)\\vec a=(\\quad)$。 $-8\\vec i+16\\vec j+8\\vec k$ $8\\vec i+16\\vec j+8\\vec k$ $-8\\vec i+16\\vec j-8\\vec k$ $8\\vec i-16\\vec j+8\\vec k$ $\\vec a\\cdot\\vec b=4$，$\\vec b\\cdot\\vec c=4$，所以所求为 $4\\vec c+4\\vec a=8\\vec i+16\\vec j+8\\vec k$。",
+  "sort_order": 2
+}

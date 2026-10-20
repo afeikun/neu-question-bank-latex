@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "区域 $xy>1$（$z=x+iy$）在复平面上表示一个（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "开集，非区域"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单连通区域"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "多连通区域"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "闭区域"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$x>0$ 时 $y>1/x$，$x<0$ 时 $y<1/x$，表示两个不连通的开集。",
+  "search_text": "区域 $xy>1$（$z=x+iy$）在复平面上表示一个（ ）。 开集，非区域 单连通区域 多连通区域 闭区域 $x>0$ 时 $y>1/x$，$x<0$ 时 $y<1/x$，表示两个不连通的开集。",
+  "sort_order": 44
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z_0$ 为 $f(z)$ 的一级零点，则 $\\operatorname{Res}\\left[\\dfrac1{f(z)},z_0\\right]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1{f'(z_0)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{z_0}{f(z_0)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{z-z_0}{f'(z_0)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$1/f$ 在 $z_0$ 为一级极点，其留数 $\\lim_{z\\to z_0}(z-z_0)/f(z)=1/f'(z_0)$。",
+  "search_text": "设 $z_0$ 为 $f(z)$ 的一级零点，则 $\\operatorname{Res}\\left[\\dfrac1{f(z)},z_0\\right]=(\\ \\ )$。 $\\dfrac1{f'(z_0)}$ $0$ $\\dfrac{z_0}{f(z_0)}$ $\\dfrac{z-z_0}{f'(z_0)}$ $1/f$ 在 $z_0$ 为一级极点，其留数 $\\lim_{z\\to z_0}(z-z_0)/f(z)=1/f'(z_0)$。",
+  "sort_order": 24
+}

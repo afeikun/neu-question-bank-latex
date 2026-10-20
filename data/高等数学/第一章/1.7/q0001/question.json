@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0$ 时，$\\frac14(\\cos3x-\\cos x)$ 是 $x^2$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "等价无穷小"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "同阶但不是等价无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "低阶无穷小"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "高阶无穷小"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "其与 $x^2$ 的比值趋于 $-1$，故同阶但不等价。",
+  "search_text": "当 $x\\to0$ 时，$\\frac14(\\cos3x-\\cos x)$ 是 $x^2$ 的（ ）。 等价无穷小 同阶但不是等价无穷小 低阶无穷小 高阶无穷小 其与 $x^2$ 的比值趋于 $-1$，故同阶但不等价。",
+  "sort_order": 1
+}

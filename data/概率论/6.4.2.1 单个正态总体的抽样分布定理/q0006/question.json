@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim N(\\mu,\\sigma^2)$，$\\bar X$和$S_n^2=\\frac1{n-1}\\sum(X_i-\\bar X)^2$，错误的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\bar X-\\mu)/\\sigma\\sim N(0,1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X$与$S_n^2$独立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(n-1)S_n^2/\\sigma^2\\sim\\chi^2(n-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt n(\\bar X-\\mu)/S_n\\sim t(n-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正确标准化应为$(\\bar X-\\mu)/(\\sigma/\\sqrt n)\\sim N(0,1)$，选项1错误。",
+  "search_text": "$X_i\\sim N(\\mu,\\sigma^2)$，$\\bar X$和$S_n^2=\\frac1{n-1}\\sum(X_i-\\bar X)^2$，错误的是（）。 $(\\bar X-\\mu)/\\sigma\\sim N(0,1)$ $\\bar X$与$S_n^2$独立 $(n-1)S_n^2/\\sigma^2\\sim\\chi^2(n-1)$ $\\sqrt n(\\bar X-\\mu)/S_n\\sim t(n-1)$ 正确标准化应为$(\\bar X-\\mu)/(\\sigma/\\sqrt n)\\sim N(0,1)$，选项1错误。",
+  "sort_order": 6
+}

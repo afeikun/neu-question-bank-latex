@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "如果 $D=\\begin{vmatrix}2&2&3\\\\1&1&2\\\\2&x&y\\end{vmatrix}$ 的代数余子式满足 $A_{11}+A_{12}+A_{13}=1$，那么 $D$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2-x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "第一行减去第二行，得 $D=\\begin{vmatrix}1&1&1\\\\1&1&2\\\\2&x&y\\end{vmatrix}=A_{11}+A_{12}+A_{13}=1$。",
+  "search_text": "如果 $D=\\begin{vmatrix}2&2&3\\\\1&1&2\\\\2&x&y\\end{vmatrix}$ 的代数余子式满足 $A_{11}+A_{12}+A_{13}=1$，那么 $D$ 等于（ ）。 $2-x$ $-1$ $0$ $1$ 第一行减去第二行，得 $D=\\begin{vmatrix}1&1&1\\\\1&1&2\\\\2&x&y\\end{vmatrix}=A_{11}+A_{12}+A_{13}=1$。",
+  "sort_order": 56
+}

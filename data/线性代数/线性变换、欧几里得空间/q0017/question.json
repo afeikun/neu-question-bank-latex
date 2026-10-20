@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "对于线性空间 $V$ 上的任意向量 $\\alpha$，当内积 $[\\alpha,\\alpha]=0$ 时，错误结论是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha$ 必可被任意向量线性表出"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "向量 $\\alpha$ 与 $\\alpha$ 正交"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha$ 必为单位向量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha$ 必然为零向量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "内积正定性说明 $[\\alpha,\\alpha]=0$ 当且仅当 $\\alpha$ 为零向量。零向量与任意向量正交，且可以由向量线性表出；它不是单位向量。",
+  "search_text": "对于线性空间 $V$ 上的任意向量 $\\alpha$，当内积 $[\\alpha,\\alpha]=0$ 时，错误结论是（ ）。 $\\alpha$ 必可被任意向量线性表出 向量 $\\alpha$ 与 $\\alpha$ 正交 $\\alpha$ 必为单位向量 $\\alpha$ 必然为零向量 内积正定性说明 $[\\alpha,\\alpha]=0$ 当且仅当 $\\alpha$ 为零向量。零向量与任意向量正交，且可以由向量线性表出；它不是单位向量。",
+  "sort_order": 17
+}

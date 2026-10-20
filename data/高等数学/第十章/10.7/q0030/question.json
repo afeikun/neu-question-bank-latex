@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设连接 $A(0,1)$ 和 $B(1,0)$ 的凸弧为 $y=y(x)$，其上任一点记为 $P$，已知弧与弦 $AP$ 之间的面积为 $x^3$，则此凸弧所满足的微分方程是（　）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6x^2-xy'=y-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6x^2=y-1-xy'$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6x^2-1=y-xy'$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3x^2=y-1-xy'$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：过 $P$ 点作 $x$ 轴的垂线，垂足为 $C(x,0)$。依题意得 $x^3=\\int_0^x y(s)ds-\\frac{1}{2}(1+y)x$，两边对 $x$ 求得 $6x^2=y-1-xy'$。",
+  "search_text": "设连接 $A(0,1)$ 和 $B(1,0)$ 的凸弧为 $y=y(x)$，其上任一点记为 $P$，已知弧与弦 $AP$ 之间的面积为 $x^3$，则此凸弧所满足的微分方程是（　） $6x^2-xy'=y-1$ $6x^2=y-1-xy'$ $6x^2-1=y-xy'$ $3x^2=y-1-xy'$ 解析：过 $P$ 点作 $x$ 轴的垂线，垂足为 $C(x,0)$。依题意得 $x^3=\\int_0^x y(s)ds-\\frac{1}{2}(1+y)x$，两边对 $x$ 求得 $6x^2=y-1-xy'$。",
+  "sort_order": 30
+}

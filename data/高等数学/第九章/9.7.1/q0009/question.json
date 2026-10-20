@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Sigma$ 为旋转抛物面 $z=1-x^2-y^2$ 在 $0\\le z\\le1$ 部分的外侧，求 $\\iint_\\Sigma(z^2-y)dzdx+(x^2-z)dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{3\\pi}{4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{3\\pi}{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "图示标注：$z$ 轴向上，$y$ 轴向右，$x$ 轴斜向左下；原点标为 $O$，顶端标为 $1$，曲面标为 $\\Sigma$，内部区域标为 $\\Omega$，下方曲面标为 $\\Sigma_1$；图中有阴影线。\n\n由高斯公式得\n\n$$\\iint_{\\Sigma}(z^2-y)dzdx+(x^2-z)dxdy=\\iiint_{\\Omega}(-2)dv-\\iint_{\\Sigma_1}(x^2-z)dxdy$$\n\n$$=-2\\int_0^{2\\pi}d\\theta\\int_0^1dr\\int_0^{1-r^2}rdz+\\iint_Dx^2d\\sigma$$\n\n$$=4\\pi\\int_0^1r(1-r^2)dr+\\int_0^{2\\pi}d\\theta\\int_0^1r^2\\cos^2\\theta\\cdot rdr$$\n\n$$=-\\pi+\\frac{\\pi}{4}=-\\frac{3\\pi}{4}$$",
+  "search_text": "$\\Sigma$ 为旋转抛物面 $z=1-x^2-y^2$ 在 $0\\le z\\le1$ 部分的外侧，求 $\\iint_\\Sigma(z^2-y)dzdx+(x^2-z)dxdy=$（ ） $\\frac\\pi4$ $-\\pi$ $-\\frac{3\\pi}{4}$ $\\frac{3\\pi}{4}$ 图示标注：$z$ 轴向上，$y$ 轴向右，$x$ 轴斜向左下；原点标为 $O$，顶端标为 $1$，曲面标为 $\\Sigma$，内部区域标为 $\\Omega$，下方曲面标为 $\\Sigma_1$；图中有阴影线。\n\n由高斯公式得\n\n$$\\iint_{\\Sigma}(z^2-y)dzdx+(x^2-z)dxdy=\\iiint_{\\Omega}(-2)dv-\\iint_{\\Sigma_1}(x^2-z)dxdy$$\n\n$$=-2\\int_0^{2\\pi}d\\theta\\int_0^1dr\\int_0^{1-r^2}rdz+\\iint_Dx^2d\\sigma$$\n\n$$=4\\pi\\int_0^1r(1-r^2)dr+\\int_0^{2\\pi}d\\theta\\int_0^1r^2\\cos^2\\theta\\cdot rdr$$\n\n$$=-\\pi+\\frac{\\pi}{4}=-\\frac{3\\pi}{4}$$",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "高为 $H$，半顶角为 $\\frac\\pi4$ 的正圆锥体（体密度 $\\rho_0$ 为常数）的形心坐标为 $(0,0,\\bar z)$，则 $\\bar z=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac35H$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac25H$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac45H$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac34H$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\n\\bar z=\\frac{\\iiint_{\\Omega}z\\rho_0\\,dV}{\\iiint_{\\Omega}\\rho_0\\,dV}=\\frac{\\rho_0\\int_0^{2\\pi}d\\theta\\int_0^H r\\,dr\\int_r^H z\\,dz}{\\rho_0\\int_0^{2\\pi}d\\theta\\int_0^H r\\,dr\\int_r^H dz}=\\frac{\\frac{\\pi}{4}H^4}{\\frac{\\pi}{3}H^3}=\\frac{3}{4}H.\n$$",
+  "search_text": "高为 $H$，半顶角为 $\\frac\\pi4$ 的正圆锥体（体密度 $\\rho_0$ 为常数）的形心坐标为 $(0,0,\\bar z)$，则 $\\bar z=$（ ） $\\frac35H$ $\\frac25H$ $\\frac45H$ $\\frac34H$ $$\n\\bar z=\\frac{\\iiint_{\\Omega}z\\rho_0\\,dV}{\\iiint_{\\Omega}\\rho_0\\,dV}=\\frac{\\rho_0\\int_0^{2\\pi}d\\theta\\int_0^H r\\,dr\\int_r^H z\\,dz}{\\rho_0\\int_0^{2\\pi}d\\theta\\int_0^H r\\,dr\\int_r^H dz}=\\frac{\\frac{\\pi}{4}H^4}{\\frac{\\pi}{3}H^3}=\\frac{3}{4}H.\n$$",
+  "sort_order": 13
+}

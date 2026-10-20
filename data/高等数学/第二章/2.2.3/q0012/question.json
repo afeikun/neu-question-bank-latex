@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\ln(x^3+x),x>0$，则 $dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(x^2+3)/(x^3+x)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(3x^2+1)/(x^3+x)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(3x^2+1)/(x^3+3x)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x^2+1)/(x^3+x)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$dy=y\\prime dx=\\frac{3x^2+1}{x^3+x}dx$。",
+  "search_text": "设 $y=\\ln(x^3+x),x>0$，则 $dy=$（ ）。 $(x^2+3)/(x^3+x)dx$ $(3x^2+1)/(x^3+x)dx$ $(3x^2+1)/(x^3+3x)dx$ $(x^2+1)/(x^3+x)dx$ $dy=y\\prime dx=\\frac{3x^2+1}{x^3+x}dx$。",
+  "sort_order": 12
+}

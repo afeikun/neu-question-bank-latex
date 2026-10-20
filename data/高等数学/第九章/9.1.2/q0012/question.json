@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是从原点到 $(2,1)$ 的直线段，则 $\\int_Ly\\sin x\\,ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12\\cos2+\\frac32\\cos1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac25(\\sin2-\\cos2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt5}{4}(\\sin2-2\\cos2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt3}{2}(\\sin1-\\cos1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $L:y=\\frac{1}{2}x,0\\leq x\\leq2$，于是\n\n$$\n\\int_Ly\\sin xds=\\int_0^2\\frac{1}{2}x\\sin x\\sqrt{1+\\frac{1}{4}}\\,dx=\\frac{\\sqrt{5}}{4}\\int_0^2x\\sin xdx\n$$\n\n$$\n=\\frac{\\sqrt{5}}{4}\\int_0^2x\\,d(-\\cos x)=-\\frac{\\sqrt{5}}{4}x\\cos x\\Big|_0^2+\\frac{\\sqrt{5}}{4}\\sin x\\Big|_0^2=\\frac{\\sqrt{5}}{4}(\\sin 2-2\\cos 2)\n$$",
+  "search_text": "设 $L$ 是从原点到 $(2,1)$ 的直线段，则 $\\int_Ly\\sin x\\,ds=$（ ） $\\frac12\\cos2+\\frac32\\cos1$ $\\frac25(\\sin2-\\cos2)$ $\\frac{\\sqrt5}{4}(\\sin2-2\\cos2)$ $\\frac{\\sqrt3}{2}(\\sin1-\\cos1)$ 解答 $L:y=\\frac{1}{2}x,0\\leq x\\leq2$，于是\n\n$$\n\\int_Ly\\sin xds=\\int_0^2\\frac{1}{2}x\\sin x\\sqrt{1+\\frac{1}{4}}\\,dx=\\frac{\\sqrt{5}}{4}\\int_0^2x\\sin xdx\n$$\n\n$$\n=\\frac{\\sqrt{5}}{4}\\int_0^2x\\,d(-\\cos x)=-\\frac{\\sqrt{5}}{4}x\\cos x\\Big|_0^2+\\frac{\\sqrt{5}}{4}\\sin x\\Big|_0^2=\\frac{\\sqrt{5}}{4}(\\sin 2-2\\cos 2)\n$$",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 对任何 $x$ 满足 $f(x+1)=2f(x)$，且 $f(0)=1,f\\prime(0)=3$，则 $f\\prime(1)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "6"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-6"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "3"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对等式求导得 $f\\prime(x+1)=2f\\prime(x)$，故 $f\\prime(1)=6$。",
+  "search_text": "设 $f(x)$ 对任何 $x$ 满足 $f(x+1)=2f(x)$，且 $f(0)=1,f\\prime(0)=3$，则 $f\\prime(1)=$（ ）。 6 -6 不存在 3 对等式求导得 $f\\prime(x+1)=2f\\prime(x)$，故 $f\\prime(1)=6$。",
+  "sort_order": 3
+}

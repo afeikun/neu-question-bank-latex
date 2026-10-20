@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=\\begin{cases}\\frac1{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$，则 $f(x,y)$ 在 $(0,0)$ 点处(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "连续但不可导"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不连续也不可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不连续但可导"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "连续且可导"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "当 $(x,y)\\ne(0,0)$ 时，$\\lim_{(x,y)\\to(0,0)}f(x,y)=\\lim_{(x,y)\\to(0,0)}\\frac{1}{x^2+y^2}=\\infty$，极限不存在，因此原函数在原点处不连续。\n\n又 $f_x(0,0)=\\lim_{\\Delta x\\to0}\\frac{f(\\Delta x,0)-f(0,0)}{\\Delta x}=\\lim_{\\Delta x\\to0}\\frac{1}{\\Delta x\\sqrt{(\\Delta x)^2}}$ 不存在，同理 $f_y(0,0)$ 也不存在，所以原函数不可导。",
+  "search_text": "设 $f(x,y)=\\begin{cases}\\frac1{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2=0\\end{cases}$，则 $f(x,y)$ 在 $(0,0)$ 点处(\\quad)。 连续但不可导 不连续也不可导 不连续但可导 连续且可导 当 $(x,y)\\ne(0,0)$ 时，$\\lim_{(x,y)\\to(0,0)}f(x,y)=\\lim_{(x,y)\\to(0,0)}\\frac{1}{x^2+y^2}=\\infty$，极限不存在，因此原函数在原点处不连续。\n\n又 $f_x(0,0)=\\lim_{\\Delta x\\to0}\\frac{f(\\Delta x,0)-f(0,0)}{\\Delta x}=\\lim_{\\Delta x\\to0}\\frac{1}{\\Delta x\\sqrt{(\\Delta x)^2}}$ 不存在，同理 $f_y(0,0)$ 也不存在，所以原函数不可导。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F(x)=0(x<0),[1-(k^2x^2+2kx+2)e^{-kx}]/2(x\\ge0)$，求$P(-1/k\\le\\xi\\le1/k)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-5/(2e)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2/(5e)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5/(2e)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-2/(5e)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F(1/k)-F(-1/k)=1-5/(2e)$。",
+  "search_text": "$F(x)=0(x<0),[1-(k^2x^2+2kx+2)e^{-kx}]/2(x\\ge0)$，求$P(-1/k\\le\\xi\\le1/k)$。 $1-5/(2e)$ $2/(5e)$ $5/(2e)$ $1-2/(5e)$ $F(1/k)-F(-1/k)=1-5/(2e)$。",
+  "sort_order": 9
+}

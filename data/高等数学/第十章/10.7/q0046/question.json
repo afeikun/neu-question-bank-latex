@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "点 $Q$ 沿直线匀速运动，点 $P$ 沿曲线追逐，初始间距2个单位，$P$ 速度为 $Q$ 的 $\\lambda$ 倍，求轨迹方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac{\\lambda}{\\lambda^2+1}(\\frac x2)^{\\frac{\\lambda+1}{\\lambda}}+\\frac{\\lambda}{\\lambda^2-1}(\\frac x2)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{2\\lambda}{\\lambda^2-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\lambda(\\frac x2)^{\\frac{\\lambda+1}{\\lambda}}-\\lambda^2(\\frac x2)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{2\\lambda}{\\lambda^2-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=(\\lambda+1)(\\frac x2)^{\\frac{\\lambda+1}{\\lambda}}-(\\lambda-1)(\\frac x2)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{\\lambda}{\\lambda^2-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac{\\lambda}{\\lambda+1}(\\frac x2)^{\\frac{\\lambda+1}{\\lambda}}-\\frac{\\lambda}{\\lambda-1}(\\frac x2)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{2\\lambda}{\\lambda^2-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：设$Q$的速率为$a$，则$P$的速率为$\\lambda a$，设$P$点的运动轨迹方程为$y=y(x)$，$Q$点的运动轨迹为$y=at$\n\n由于$P$点运动的方向始终朝向$Q$可知$\\frac{dy}{dx}=\\frac{at-y}{0-x}$，且$\\sqrt{\\left(\\frac{dx}{dt}\\right)^2+\\left(\\frac{dy}{dt}\\right)^2}=\\lambda a$，对$\\frac{dy}{dx}=\\frac{at-y}{0-x}$关于$x$求导，\n\n得$-x\\frac{d^2y}{dx^2}=a\\frac{dt}{dx}$，代入$\\sqrt{\\left(\\frac{dx}{dt}\\right)^2+\\left(\\frac{dy}{dt}\\right)^2}=\\lambda a$得：$\\sqrt{1+\\left(\\frac{dy}{dx}\\right)^2}=\\lambda x\\frac{d^2y}{dx^2}$，且满足初始条件$y(2)=0$，\n\n$\\left.\\frac{dy}{dx}\\right|_{x=2}=0$，解得$y=\\frac{\\lambda}{\\lambda+1}\\left(\\frac{x}{2}\\right)^{\\frac{\\lambda+1}{\\lambda}}-\\frac{\\lambda}{\\lambda-1}\\left(\\frac{x}{2}\\right)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{2\\lambda}{\\lambda^2-1}$。",
+  "search_text": "点 $Q$ 沿直线匀速运动，点 $P$ 沿曲线追逐，初始间距2个单位，$P$ 速度为 $Q$ 的 $\\lambda$ 倍，求轨迹方程。 $y=\\frac{\\lambda}{\\lambda^2+1}(\\frac x2)^{\\frac{\\lambda+1}{\\lambda}}+\\frac{\\lambda}{\\lambda^2-1}(\\frac x2)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{2\\lambda}{\\lambda^2-1}$ $y=\\lambda(\\frac x2)^{\\frac{\\lambda+1}{\\lambda}}-\\lambda^2(\\frac x2)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{2\\lambda}{\\lambda^2-1}$ $y=(\\lambda+1)(\\frac x2)^{\\frac{\\lambda+1}{\\lambda}}-(\\lambda-1)(\\frac x2)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{\\lambda}{\\lambda^2-1}$ $y=\\frac{\\lambda}{\\lambda+1}(\\frac x2)^{\\frac{\\lambda+1}{\\lambda}}-\\frac{\\lambda}{\\lambda-1}(\\frac x2)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{2\\lambda}{\\lambda^2-1}$ 解析：设$Q$的速率为$a$，则$P$的速率为$\\lambda a$，设$P$点的运动轨迹方程为$y=y(x)$，$Q$点的运动轨迹为$y=at$\n\n由于$P$点运动的方向始终朝向$Q$可知$\\frac{dy}{dx}=\\frac{at-y}{0-x}$，且$\\sqrt{\\left(\\frac{dx}{dt}\\right)^2+\\left(\\frac{dy}{dt}\\right)^2}=\\lambda a$，对$\\frac{dy}{dx}=\\frac{at-y}{0-x}$关于$x$求导，\n\n得$-x\\frac{d^2y}{dx^2}=a\\frac{dt}{dx}$，代入$\\sqrt{\\left(\\frac{dx}{dt}\\right)^2+\\left(\\frac{dy}{dt}\\right)^2}=\\lambda a$得：$\\sqrt{1+\\left(\\frac{dy}{dx}\\right)^2}=\\lambda x\\frac{d^2y}{dx^2}$，且满足初始条件$y(2)=0$，\n\n$\\left.\\frac{dy}{dx}\\right|_{x=2}=0$，解得$y=\\frac{\\lambda}{\\lambda+1}\\left(\\frac{x}{2}\\right)^{\\frac{\\lambda+1}{\\lambda}}-\\frac{\\lambda}{\\lambda-1}\\left(\\frac{x}{2}\\right)^{\\frac{\\lambda-1}{\\lambda}}+\\frac{2\\lambda}{\\lambda^2-1}$。",
+  "sort_order": 46
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是由坐标面和平面 $x=a,y=a,z=a$ 所围成正方体 $\\Omega$ 的表面外侧，$a>0$，计算 $\\iint_\\Sigma(x^3-y^2z)dydz-2x^2y dzdx+xy dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13a^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac15a^5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n由高斯公式\n\n$$\\oiint_{\\Sigma}=\\iiint_{\\Omega}x^2dv=\\int_0^a x^2dx\\cdot\\int_0^a dy\\cdot\\int_0^a dz=\\frac{1}{3}a^5$$",
+  "search_text": "已知 $\\Sigma$ 是由坐标面和平面 $x=a,y=a,z=a$ 所围成正方体 $\\Omega$ 的表面外侧，$a>0$，计算 $\\iint_\\Sigma(x^3-y^2z)dydz-2x^2y dzdx+xy dxdy=$（ ） $\\frac13a^3$ $\\frac14a^3$ $\\frac13a^5$ $\\frac15a^5$ 参考答案：\n\n由高斯公式\n\n$$\\oiint_{\\Sigma}=\\iiint_{\\Omega}x^2dv=\\int_0^a x^2dx\\cdot\\int_0^a dy\\cdot\\int_0^a dz=\\frac{1}{3}a^5$$",
+  "sort_order": 16
+}

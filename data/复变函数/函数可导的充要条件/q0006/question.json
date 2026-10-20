@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(z)=u(x,y)+i(x^2-y^2)$ 解析，则 $f\\prime(z)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2iz$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2yi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由柯西－黎曼方程得 $f\\prime=2x+2yi=2iz$。",
+  "search_text": "已知 $f(z)=u(x,y)+i(x^2-y^2)$ 解析，则 $f\\prime(z)=(\\ )$。 $2iz$ $2x$ $2y$ $2yi$ 由柯西－黎曼方程得 $f\\prime=2x+2yi=2iz$。",
+  "sort_order": 6
+}

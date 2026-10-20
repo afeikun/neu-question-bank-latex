@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{\\substack{x\\to\\infty\\\\y\\to\\infty}}\\frac{x+y}{x^2+y^2}$ 的值为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当 $xy\\ne0$ 时，\n\\[\n0\\le\\left|\\frac{x+y}{x^2+y^2}\\right|\n\\le\\frac{|x|+|y|}{x^2+y^2}\n\\le\\frac{|x|+|y|}{2|xy|}\n\\le\\frac{1}{2|y|}+\\frac{1}{2|x|}\n\\to0\\ (x\\to\\infty,y\\to\\infty)\n\\]\n\n所以 $\\lim_{\\substack{x\\to\\infty\\\\y\\to\\infty}}\\frac{x+y}{x^2+y^2}=0$.",
+  "search_text": "$\\lim_{\\substack{x\\to\\infty\\\\y\\to\\infty}}\\frac{x+y}{x^2+y^2}$ 的值为(\\quad)。 不存在 $-1$ $1$ $0$ 当 $xy\\ne0$ 时，\n\\[\n0\\le\\left|\\frac{x+y}{x^2+y^2}\\right|\n\\le\\frac{|x|+|y|}{x^2+y^2}\n\\le\\frac{|x|+|y|}{2|xy|}\n\\le\\frac{1}{2|y|}+\\frac{1}{2|x|}\n\\to0\\ (x\\to\\infty,y\\to\\infty)\n\\]\n\n所以 $\\lim_{\\substack{x\\to\\infty\\\\y\\to\\infty}}\\frac{x+y}{x^2+y^2}=0$.",
+  "sort_order": 24
+}

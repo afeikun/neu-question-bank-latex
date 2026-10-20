@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x\\frac{dy}{dx}+2y=\\sin x$ 在条件 $y(\\pi)=\\frac1\\pi$ 下的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\cos x-x\\sin x)x^{-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\sin x-x\\cos x)x^{-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\sin x+x\\cos x)x^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\cos x-x\\cos x)x^{-2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程可化为：$y'+\\frac{2}{x}y=\\frac{\\sin x}{x}$\n\n通解为 $y=e^{-\\int\\frac{2}{x}\\,dx}\\left(\\int\\frac{\\sin x}{x}\\cdot e^{\\int\\frac{2}{x}\\,dx}\\,dx+C\\right)=\\frac{1}{x^2}(\\sin x-x\\cos x+C)$\n\n代入初值 $x=\\pi$ 时，$y=\\frac{1}{\\pi}$ 得 $C=0$",
+  "search_text": "$x\\frac{dy}{dx}+2y=\\sin x$ 在条件 $y(\\pi)=\\frac1\\pi$ 下的特解为（ ） $(\\cos x-x\\sin x)x^{-2}$ $(\\sin x-x\\cos x)x^{-2}$ $(\\sin x+x\\cos x)x^{-2}$ $(\\cos x-x\\cos x)x^{-2}$ 方程可化为：$y'+\\frac{2}{x}y=\\frac{\\sin x}{x}$\n\n通解为 $y=e^{-\\int\\frac{2}{x}\\,dx}\\left(\\int\\frac{\\sin x}{x}\\cdot e^{\\int\\frac{2}{x}\\,dx}\\,dx+C\\right)=\\frac{1}{x^2}(\\sin x-x\\cos x+C)$\n\n代入初值 $x=\\pi$ 时，$y=\\frac{1}{\\pi}$ 得 $C=0$",
+  "sort_order": 11
+}

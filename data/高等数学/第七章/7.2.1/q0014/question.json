@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=y^{y^x}$，则 $\\frac{\\partial z}{\\partial y}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^{y^x}y^{y^x}(x\\ln y+1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^{y^x}y^{x-1}(x\\ln y+1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^{y^x}y^{x-1}(x+\\ln y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^{y^x}y^{x-1}(y\\ln x+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两边取对数 $\\ln z=y^x\\ln y$，两边关于 $y$ 求导，$\\frac{1}{z}\\frac{\\partial z}{\\partial y}=xy^{x-1}\\ln y+y^{x-1}$，则 $$\\frac{\\partial z}{\\partial y}=y^{y^x}y^{x-1}(x\\ln y+1)$$",
+  "search_text": "设 $z=y^{y^x}$，则 $\\frac{\\partial z}{\\partial y}=(\\quad)$。 $y^{y^x}y^{y^x}(x\\ln y+1)$ $y^{y^x}y^{x-1}(x\\ln y+1)$ $y^{y^x}y^{x-1}(x+\\ln y)$ $y^{y^x}y^{x-1}(y\\ln x+1)$ 两边取对数 $\\ln z=y^x\\ln y$，两边关于 $y$ 求导，$\\frac{1}{z}\\frac{\\partial z}{\\partial y}=xy^{x-1}\\ln y+y^{x-1}$，则 $$\\frac{\\partial z}{\\partial y}=y^{y^x}y^{x-1}(x\\ln y+1)$$",
+  "sort_order": 14
+}

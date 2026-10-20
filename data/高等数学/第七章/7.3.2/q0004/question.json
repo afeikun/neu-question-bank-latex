@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u(x,y)=\\ln(x+\\sqrt{x^2+y^2})$，则 $du=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sqrt{x^2+y^2}}(dx-\\frac{y}{x+\\sqrt{x^2+y^2}}dy)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt{x^2+y^2}}(dx-\\frac{x}{x+\\sqrt{x^2+y^2}}dy)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac1{\\sqrt{x^2+y^2}}(dx+\\frac{y}{x+\\sqrt{x^2+y^2}}dy)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{\\sqrt{x^2+y^2}}(dx+\\frac{y}{x+\\sqrt{x^2+y^2}}dy)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$u_x=\\frac{1+\\dfrac{x}{\\sqrt{x^2+y^2}}}{x+\\sqrt{x^2+y^2}}=\\frac{1}{\\sqrt{x^2+y^2}},\\quad u_y=\\frac{\\dfrac{y}{\\sqrt{x^2+y^2}}}{x+\\sqrt{x^2+y^2}}=\\frac{y}{\\sqrt{x^2+y^2}\\left(x+\\sqrt{x^2+y^2}\\right)},$\n\n所以$du=\\frac{1}{\\sqrt{x^2+y^2}}dx+\\frac{y}{\\sqrt{x^2+y^2}\\left(x+\\sqrt{x^2+y^2}\\right)}dy=\\frac{1}{\\sqrt{x^2+y^2}}\\left(dx+\\frac{y}{x+\\sqrt{x^2+y^2}}dy\\right)$",
+  "search_text": "设 $u(x,y)=\\ln(x+\\sqrt{x^2+y^2})$，则 $du=(\\quad)$。 $\\frac1{\\sqrt{x^2+y^2}}(dx-\\frac{y}{x+\\sqrt{x^2+y^2}}dy)$ $\\frac1{\\sqrt{x^2+y^2}}(dx-\\frac{x}{x+\\sqrt{x^2+y^2}}dy)$ $-\\frac1{\\sqrt{x^2+y^2}}(dx+\\frac{y}{x+\\sqrt{x^2+y^2}}dy)$ $\\frac1{\\sqrt{x^2+y^2}}(dx+\\frac{y}{x+\\sqrt{x^2+y^2}}dy)$ $u_x=\\frac{1+\\dfrac{x}{\\sqrt{x^2+y^2}}}{x+\\sqrt{x^2+y^2}}=\\frac{1}{\\sqrt{x^2+y^2}},\\quad u_y=\\frac{\\dfrac{y}{\\sqrt{x^2+y^2}}}{x+\\sqrt{x^2+y^2}}=\\frac{y}{\\sqrt{x^2+y^2}\\left(x+\\sqrt{x^2+y^2}\\right)},$\n\n所以$du=\\frac{1}{\\sqrt{x^2+y^2}}dx+\\frac{y}{\\sqrt{x^2+y^2}\\left(x+\\sqrt{x^2+y^2}\\right)}dy=\\frac{1}{\\sqrt{x^2+y^2}}\\left(dx+\\frac{y}{x+\\sqrt{x^2+y^2}}dy\\right)$",
+  "sort_order": 4
+}

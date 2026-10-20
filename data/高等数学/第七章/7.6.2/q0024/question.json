@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "旋转抛物面 $z=x^2+y^2-1$ 在点 $(2,1,4)$ 处的切平面方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4x+2y-z-7=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4x+2y+z-6=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4x+2y-z-6=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4x+2y+z-7=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $F(x,y,z)=x^2+y^2-1-z\\Rightarrow\\vec{n}_{(2,1,4)}=(2x,2y,-1)|_{(2,1,4)}=(4,2,-1)$，\n\n切平面方程为 $4(x-2)+2(y-1)-(z-4)=0\\Rightarrow4x+2y-z-6=0$。",
+  "search_text": "旋转抛物面 $z=x^2+y^2-1$ 在点 $(2,1,4)$ 处的切平面方程为。 $4x+2y-z-7=0$ $4x+2y+z-6=0$ $4x+2y-z-6=0$ $4x+2y+z-7=0$ 令 $F(x,y,z)=x^2+y^2-1-z\\Rightarrow\\vec{n}_{(2,1,4)}=(2x,2y,-1)|_{(2,1,4)}=(4,2,-1)$，\n\n切平面方程为 $4(x-2)+2(y-1)-(z-4)=0\\Rightarrow4x+2y-z-6=0$。",
+  "sort_order": 24
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 由 $x^2+y^2\\leq z^2$ 和 $x^2+y^2+(z-a)^2\\leq a^2$（$a>0$）确定，三重积分 $\\iiint_\\Omega(x^3+\\sin y+z)dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac76\\pi a^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac56\\pi a^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\pi a^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16\\pi a^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由对称性知：$\\iiint_{\\Omega}x^3dv=0$，$\\iiint_{\\Omega}\\sin ydv=0$。\n\n用平行截面法知：原式 $=\\int_0^a zdz\\iint_{D_z}dxdy+\\int_a^{2a}zdz\\iint_{D_z}dxdu$\n\n$$\n=\\int_0^a \\pi z^3 dz+\\int_a^{2a}\\pi z(2az-z^2)dz=\\frac{7}{6}\\pi a^4。\n$$",
+  "search_text": "$\\Omega$ 由 $x^2+y^2\\leq z^2$ 和 $x^2+y^2+(z-a)^2\\leq a^2$（$a>0$）确定，三重积分 $\\iiint_\\Omega(x^3+\\sin y+z)dv$ 的值为（ ） $\\frac76\\pi a^4$ $\\frac56\\pi a^4$ $\\frac12\\pi a^4$ $\\frac16\\pi a^4$ 由对称性知：$\\iiint_{\\Omega}x^3dv=0$，$\\iiint_{\\Omega}\\sin ydv=0$。\n\n用平行截面法知：原式 $=\\int_0^a zdz\\iint_{D_z}dxdy+\\int_a^{2a}zdz\\iint_{D_z}dxdu$\n\n$$\n=\\int_0^a \\pi z^3 dz+\\int_a^{2a}\\pi z(2az-z^2)dz=\\frac{7}{6}\\pi a^4。\n$$",
+  "sort_order": 14
+}

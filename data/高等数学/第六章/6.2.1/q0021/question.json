@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "力 $\\vec f=2\\vec i-3\\vec j+5\\vec k$ 作用在一点上，使该质点自 $M_1(1,1,2)$ 沿直线移动至 $M_2(3,4,5)$，则该力所做的功为(设力的单位为 N，位移的单位为 m)(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$10\\,\\mathrm{N\\cdot m}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$15\\,\\mathrm{N\\cdot m}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12\\,\\mathrm{N\\cdot m}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$11\\,\\mathrm{N\\cdot m}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "位移为 $(2,3,3)$，功 $W=\\vec f\\cdot\\overrightarrow{M_1M_2}=2\\cdot2-3\\cdot3+5\\cdot3=10\\,\\mathrm{N\\cdot m}$。",
+  "search_text": "力 $\\vec f=2\\vec i-3\\vec j+5\\vec k$ 作用在一点上，使该质点自 $M_1(1,1,2)$ 沿直线移动至 $M_2(3,4,5)$，则该力所做的功为(设力的单位为 N，位移的单位为 m)(\\quad)。 $10\\,\\mathrm{N\\cdot m}$ $15\\,\\mathrm{N\\cdot m}$ $12\\,\\mathrm{N\\cdot m}$ $11\\,\\mathrm{N\\cdot m}$ 位移为 $(2,3,3)$，功 $W=\\vec f\\cdot\\overrightarrow{M_1M_2}=2\\cdot2-3\\cdot3+5\\cdot3=10\\,\\mathrm{N\\cdot m}$。",
+  "sort_order": 21
+}

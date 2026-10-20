@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $z=\\dfrac{(1+i)^5}{(\\sqrt3+i)^6}$，则 $\\operatorname{Re}z,|z|$ 分别是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{16},\\ \\frac1{8\\sqrt2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac18,\\ \\frac1{4\\sqrt2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14,\\ \\frac1{16\\sqrt2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac1{16},\\ \\frac1{\\sqrt2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=\\dfrac{(\\sqrt2e^{i\\pi/4})^5}{(2e^{i\\pi/6})^6}=\\dfrac1{8\\sqrt2}e^{i\\pi/4}$，故 $|z|=\\frac1{8\\sqrt2}$、$\\operatorname{Re}z=\\frac1{16}$。",
+  "search_text": "已知 $z=\\dfrac{(1+i)^5}{(\\sqrt3+i)^6}$，则 $\\operatorname{Re}z,|z|$ 分别是（ ）。 $\\frac1{16},\\ \\frac1{8\\sqrt2}$ $\\frac18,\\ \\frac1{4\\sqrt2}$ $\\frac14,\\ \\frac1{16\\sqrt2}$ $-\\frac1{16},\\ \\frac1{\\sqrt2}$ $z=\\dfrac{(\\sqrt2e^{i\\pi/4})^5}{(2e^{i\\pi/6})^6}=\\dfrac1{8\\sqrt2}e^{i\\pi/4}$，故 $|z|=\\frac1{8\\sqrt2}$、$\\operatorname{Re}z=\\frac1{16}$。",
+  "sort_order": 38
+}

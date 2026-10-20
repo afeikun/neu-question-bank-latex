@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}(\\frac{1+\\tan x}{1+\\sin x})^{1/\\sin^3x}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\sqrt e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对数化简后趋于 $1/2$，原极限为 $\\sqrt e$。",
+  "search_text": "$\\lim_{x\\to0}(\\frac{1+\\tan x}{1+\\sin x})^{1/\\sin^3x}$ 的值为（ ）。 -1 1 $-\\sqrt e$ $\\sqrt e$ 对数化简后趋于 $1/2$，原极限为 $\\sqrt e$。",
+  "sort_order": 40
+}

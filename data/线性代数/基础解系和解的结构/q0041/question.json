@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "三元非齐次线性方程组的系数矩阵的秩为 $1$，已知 $\\alpha_1,\\alpha_2,\\alpha_3$ 是三个解向量，其中 $\\alpha_1+\\alpha_2=(1,2,3)^T,\\ \\alpha_3+\\alpha_1=(1,0,-1)^T,\\ \\alpha_2+\\alpha_3=(0,-1,1)^T$，则该线性方程组的通解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X=\\frac12(0,-3,-3)^T+k(0,2,4)^T\\ (k\\in\\mathbb R)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X=\\frac12(0,3,3)^T+k_1(1,3,2)^T+k_2(0,2,4)^T\\ (k_1,k_2\\in\\mathbb R)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X=\\frac12(0,-3,-3)^T+k(1,3,2)^T\\ (k\\in\\mathbb R)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X=\\frac12(0,-3,-3)^T+k_1(1,3,2)^T+k_2(0,2,4)^T\\ (k_1,k_2\\in\\mathbb R)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "系数矩阵秩为 $1$，故齐次零空间维数为 $3-1=2$。可取 $\\alpha_1-\\alpha_3=(1,3,2)^T$、$\\alpha_2-\\alpha_3=(0,2,4)^T$ 为基础解系，并由 $\\alpha_3=\\frac12(0,-3,-3)^T$ 得通解为选项 4。",
+  "search_text": "三元非齐次线性方程组的系数矩阵的秩为 $1$，已知 $\\alpha_1,\\alpha_2,\\alpha_3$ 是三个解向量，其中 $\\alpha_1+\\alpha_2=(1,2,3)^T,\\ \\alpha_3+\\alpha_1=(1,0,-1)^T,\\ \\alpha_2+\\alpha_3=(0,-1,1)^T$，则该线性方程组的通解为（ ）。 $X=\\frac12(0,-3,-3)^T+k(0,2,4)^T\\ (k\\in\\mathbb R)$ $X=\\frac12(0,3,3)^T+k_1(1,3,2)^T+k_2(0,2,4)^T\\ (k_1,k_2\\in\\mathbb R)$ $X=\\frac12(0,-3,-3)^T+k(1,3,2)^T\\ (k\\in\\mathbb R)$ $X=\\frac12(0,-3,-3)^T+k_1(1,3,2)^T+k_2(0,2,4)^T\\ (k_1,k_2\\in\\mathbb R)$ 系数矩阵秩为 $1$，故齐次零空间维数为 $3-1=2$。可取 $\\alpha_1-\\alpha_3=(1,3,2)^T$、$\\alpha_2-\\alpha_3=(0,2,4)^T$ 为基础解系，并由 $\\alpha_3=\\frac12(0,-3,-3)^T$ 得通解为选项 4。",
+  "sort_order": 41
+}

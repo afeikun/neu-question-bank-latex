@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$ 是 $4$ 阶矩阵，$A^*$ 为 $A$ 的伴随矩阵，若 $(1,0,1,0)^T$ 是 $Ax=0$ 的一个基础解系，那么 $A^*x=0$ 解空间的一组基可为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha_1,\\alpha_3,\\alpha_4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_3,\\alpha_4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_2,\\alpha_3,\\alpha_4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "因为 $A$ 的秩等于 $3$，故 $A^*$ 的秩等于 $1$，进而 $A^*x=0$ 解空间的维数等于 $3$。由于 $\\alpha_2,\\alpha_3,\\alpha_4$ 是 $Ax=0$ 的三个线性无关向量，故可作为一组基。",
+  "search_text": "设 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$ 是 $4$ 阶矩阵，$A^*$ 为 $A$ 的伴随矩阵，若 $(1,0,1,0)^T$ 是 $Ax=0$ 的一个基础解系，那么 $A^*x=0$ 解空间的一组基可为（ ）。 $\\alpha_1,\\alpha_3,\\alpha_4$ $\\alpha_3,\\alpha_4$ $\\alpha_1,\\alpha_2,\\alpha_3$ $\\alpha_2,\\alpha_3,\\alpha_4$ 因为 $A$ 的秩等于 $3$，故 $A^*$ 的秩等于 $1$，进而 $A^*x=0$ 解空间的维数等于 $3$。由于 $\\alpha_2,\\alpha_3,\\alpha_4$ 是 $Ax=0$ 的三个线性无关向量，故可作为一组基。",
+  "sort_order": 20
+}

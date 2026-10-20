@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "横放圆柱形水桶盛半桶水，底半径为 $R$，求桶一端面上所受压力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\rho g}{3}R^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{5\\rho g}{3}R^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2\\rho g}{3}R^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{4\\rho g}{3}R^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "端面半圆积分 $P=\\int_0^R2\\rho gx\\sqrt{R^2-x^2}dx=\\frac23\\rho gR^3$。",
+  "search_text": "横放圆柱形水桶盛半桶水，底半径为 $R$，求桶一端面上所受压力。 $\\frac{\\rho g}{3}R^3$ $\\frac{5\\rho g}{3}R^3$ $\\frac{2\\rho g}{3}R^3$ $\\frac{4\\rho g}{3}R^3$ 端面半圆积分 $P=\\int_0^R2\\rho gx\\sqrt{R^2-x^2}dx=\\frac23\\rho gR^3$。",
+  "sort_order": 8
+}

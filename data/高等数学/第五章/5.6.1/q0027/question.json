@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期6，$f(x)=1-x$（$0\\le x<1$），$f(x)=x-1$（$1<x<3$），求余弦级数和 $S(\\pi)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5-\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi-5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "周期性映射得 $S(\\pi)=S(6-\\pi)=5-\\pi$。",
+  "search_text": "周期6，$f(x)=1-x$（$0\\le x<1$），$f(x)=x-1$（$1<x<3$），求余弦级数和 $S(\\pi)$。 $1-\\pi$ $5-\\pi$ $\\pi-5$ $\\pi-1$ 周期性映射得 $S(\\pi)=S(6-\\pi)=5-\\pi$。",
+  "sort_order": 27
+}

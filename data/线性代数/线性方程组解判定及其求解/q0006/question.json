@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "非齐次线性方程组 $A_{5\\times5}x=b$，当下列（ ）成立时，则该方程组有无穷多解。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$r(A)=r(Ab)=5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$r(A)=5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$r(Ab)=5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$r(A)=r(Ab)=4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "线性方程组 $A_{m\\times n}x=b$ 有无穷多解的条件是 $r(A)=r(Ab)<n$。选项中 $r(A)=r(Ab)=4<5$ 满足条件。",
+  "search_text": "非齐次线性方程组 $A_{5\\times5}x=b$，当下列（ ）成立时，则该方程组有无穷多解。 $r(A)=r(Ab)=5$ $r(A)=5$ $r(Ab)=5$ $r(A)=r(Ab)=4$ 线性方程组 $A_{m\\times n}x=b$ 有无穷多解的条件是 $r(A)=r(Ab)<n$。选项中 $r(A)=r(Ab)=4<5$ 满足条件。",
+  "sort_order": 6
+}

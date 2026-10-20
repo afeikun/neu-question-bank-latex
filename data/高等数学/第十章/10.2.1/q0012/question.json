@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y$ 是 $x$ 的连续可微函数，且满足 $x\\int_0^x y(t)\\,dt=(x+1)\\int_0^x t y(t)\\,dt$，则 $y=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}\\frac{c}{x}e^{1/x},&x\\ne0\\\\0,&x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}x\\ln x+cx,&x\\ne0\\\\0,&x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}\\frac{c}{x^3}e^{-1/x},&x\\ne0\\\\0,&x=0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}ce^{1/x}+x,&x\\ne0\\\\0,&x=0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "原方程两边对 $x$ 求导\n$$\nxy(x)+\\int_0^x y(t)\\,dt=(x+1)xy(x)+\\int_0^x ty(t)\\,dt\n$$\n再求导\n$$\ny(x)+xy'(x)+y(x)=xy(x)+(2x+1)y(x)+(x^2+x)y'(x)\n$$\n整理 $\\frac{dy}{y}=\\frac{1-3x}{x^2}\\,dx$ 积分 $\\ln y=-\\frac{1}{y}-3\\ln x+\\ln c,\\quad y=\\frac{c}{x^3}e^{-\\frac{1}{x}}$\n\n由 $\\lim_{x\\to +0}y(x)=0$ 得 C",
+  "search_text": "设 $y$ 是 $x$ 的连续可微函数，且满足 $x\\int_0^x y(t)\\,dt=(x+1)\\int_0^x t y(t)\\,dt$，则 $y=$（ ） $\\begin{cases}\\frac{c}{x}e^{1/x},&x\\ne0\\\\0,&x=0\\end{cases}$ $\\begin{cases}x\\ln x+cx,&x\\ne0\\\\0,&x=0\\end{cases}$ $\\begin{cases}\\frac{c}{x^3}e^{-1/x},&x\\ne0\\\\0,&x=0\\end{cases}$ $\\begin{cases}ce^{1/x}+x,&x\\ne0\\\\0,&x=0\\end{cases}$ 原方程两边对 $x$ 求导\n$$\nxy(x)+\\int_0^x y(t)\\,dt=(x+1)xy(x)+\\int_0^x ty(t)\\,dt\n$$\n再求导\n$$\ny(x)+xy'(x)+y(x)=xy(x)+(2x+1)y(x)+(x^2+x)y'(x)\n$$\n整理 $\\frac{dy}{y}=\\frac{1-3x}{x^2}\\,dx$ 积分 $\\ln y=-\\frac{1}{y}-3\\ln x+\\ln c,\\quad y=\\frac{c}{x^3}e^{-\\frac{1}{x}}$\n\n由 $\\lim_{x\\to +0}y(x)=0$ 得 C",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(y^2+2xy)dx-x^2dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1-x)Cy=x^2,\\ y=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac{x^2}{1-x}+C,\\ y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(C-x)y=x^2,\\ y=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C-xy=x^2,\\ y=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程可化为 $y'=\\frac{2}{x}y+\\frac{1}{x^2}y^2$ 为伯努利方程。\n\n两边同乘 $y^{-2}$，得 $y^{-2}y'-\\frac{2}{x}y^{-1}=\\frac{1}{x^2}$，令 $z=y^{-1}$\n\n化为 $\\frac{dz}{dx}=-\\frac{2}{x}z-\\frac{1}{x^2}$，$z=e^{-\\int \\frac{2}{x}\\,dx}\\left[-\\int \\frac{1}{x^2}e^{\\int \\frac{2}{x}\\,dx}\\,dx+C\\right]=x^{-2}(-x+C)$\n\n通解为 $(C-x)y=x^2$，$y=0$ 为一个解。",
+  "search_text": "$(y^2+2xy)dx-x^2dy=0$ 的通解为（ ） $(1-x)Cy=x^2,\\ y=0$ $y=\\frac{x^2}{1-x}+C,\\ y=0$ $(C-x)y=x^2,\\ y=0$ $C-xy=x^2,\\ y=0$ 方程可化为 $y'=\\frac{2}{x}y+\\frac{1}{x^2}y^2$ 为伯努利方程。\n\n两边同乘 $y^{-2}$，得 $y^{-2}y'-\\frac{2}{x}y^{-1}=\\frac{1}{x^2}$，令 $z=y^{-1}$\n\n化为 $\\frac{dz}{dx}=-\\frac{2}{x}z-\\frac{1}{x^2}$，$z=e^{-\\int \\frac{2}{x}\\,dx}\\left[-\\int \\frac{1}{x^2}e^{\\int \\frac{2}{x}\\,dx}\\,dx+C\\right]=x^{-2}(-x+C)$\n\n通解为 $(C-x)y=x^2$，$y=0$ 为一个解。",
+  "sort_order": 28
+}

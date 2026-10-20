@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Sigma$ 为上半球体 $0\\le z\\le\\sqrt{a^2-x^2-y^2}$ 的表面外侧，则 $\\iint_\\Sigma xz^2dy\\,dz+(x^2y-z^3)dz\\,dx+(2xy+y^2z)dx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac25\\pi a^5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac45\\pi a^5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac35\\pi a^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac15\\pi a^5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$$P=xz^2,Q=x^2y-z^3,R=2xy+y^2z$$\n\n$$\\frac{\\partial P}{\\partial x}=z^2,\\frac{\\partial Q}{\\partial y}=x^2,\\frac{\\partial R}{\\partial z}=y^2$$\n\n原式\n\n$$=\\iiint_\\Omega(z^2+x^2+y^2)dV=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin\\varphi\\cos\\varphi\\,d\\varphi\\int_0^a r^4dr=2\\pi\\cdot\\left.\\cos\\varphi\\right|_{\\frac{\\pi}{2}}^0\\cdot\\left.\\frac{1}{5}r^5\\right|_0^a=\\frac{2}{5}\\pi a^5$$",
+  "search_text": "$\\Sigma$ 为上半球体 $0\\le z\\le\\sqrt{a^2-x^2-y^2}$ 的表面外侧，则 $\\iint_\\Sigma xz^2dy\\,dz+(x^2y-z^3)dz\\,dx+(2xy+y^2z)dx\\,dy=$（ ） $\\frac25\\pi a^5$ $-\\frac45\\pi a^5$ $-\\frac35\\pi a^5$ $\\frac15\\pi a^5$ 参考答案：\n\n$$P=xz^2,Q=x^2y-z^3,R=2xy+y^2z$$\n\n$$\\frac{\\partial P}{\\partial x}=z^2,\\frac{\\partial Q}{\\partial y}=x^2,\\frac{\\partial R}{\\partial z}=y^2$$\n\n原式\n\n$$=\\iiint_\\Omega(z^2+x^2+y^2)dV=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin\\varphi\\cos\\varphi\\,d\\varphi\\int_0^a r^4dr=2\\pi\\cdot\\left.\\cos\\varphi\\right|_{\\frac{\\pi}{2}}^0\\cdot\\left.\\frac{1}{5}r^5\\right|_0^a=\\frac{2}{5}\\pi a^5$$",
+  "sort_order": 38
+}

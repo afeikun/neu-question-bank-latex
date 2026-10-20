@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 阶矩阵 $A$ 的各行元素之和均为零，且 $A$ 的秩为 $n-1$，则线性方程组 $AX=0$ 的全解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1,1,\\ldots,1)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k(1,1,\\ldots,1)^T\\ (k\\in\\mathbb R)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1,1,\\ldots,1)^T$ 和零解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "只有零解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "各行元素和为零说明 $(1,1,\\ldots,1)^T$ 是非零解；又由秩为 $n-1$，零空间维数为 $1$，故全部解为它的数乘。",
+  "search_text": "设 $n$ 阶矩阵 $A$ 的各行元素之和均为零，且 $A$ 的秩为 $n-1$，则线性方程组 $AX=0$ 的全解为（ ）。 $(1,1,\\ldots,1)^T$ $k(1,1,\\ldots,1)^T\\ (k\\in\\mathbb R)$ $(1,1,\\ldots,1)^T$ 和零解 只有零解 各行元素和为零说明 $(1,1,\\ldots,1)^T$ 是非零解；又由秩为 $n-1$，零空间维数为 $1$，故全部解为它的数乘。",
+  "sort_order": 7
+}

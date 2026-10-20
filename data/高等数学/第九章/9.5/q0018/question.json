@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设在力场 $\\vec F=(y,-x,z)$ 作用下，质点由 $A(R,0,0)$ 沿 $\\Gamma$ 移动到 $B(R,0,2\\pi k)$，其中 $\\Gamma$ 为 $AB$，则力场对质点所作的功为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2\\pi^2k^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi^2k^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\pi^2k^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi^2k^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "图示标记：$O$，$x$、$y$、$z$，$A$，$B$。\n\n解答 $\\Gamma$ 的参数方程为 $x=R,\\ y=0,\\ z=t;\\ t:0\\to2\\pi k$\n\n$$\nW=\\int_{\\Gamma}\\vec{F}\\cdot d\\vec{s}\n=\\int_{\\overline{AB}}y\\,dx-x\\,dy+z\\,dz\n=\\int_0^{2\\pi k}t\\,dt\n=2\\pi^2k^2。\n$$",
+  "search_text": "设在力场 $\\vec F=(y,-x,z)$ 作用下，质点由 $A(R,0,0)$ 沿 $\\Gamma$ 移动到 $B(R,0,2\\pi k)$，其中 $\\Gamma$ 为 $AB$，则力场对质点所作的功为（ ） $-2\\pi^2k^2$ $\\pi^2k^2$ $-\\pi^2k^2$ $2\\pi^2k^2$ 图示标记：$O$，$x$、$y$、$z$，$A$，$B$。\n\n解答 $\\Gamma$ 的参数方程为 $x=R,\\ y=0,\\ z=t;\\ t:0\\to2\\pi k$\n\n$$\nW=\\int_{\\Gamma}\\vec{F}\\cdot d\\vec{s}\n=\\int_{\\overline{AB}}y\\,dx-x\\,dy+z\\,dz\n=\\int_0^{2\\pi k}t\\,dt\n=2\\pi^2k^2。\n$$",
+  "sort_order": 18
+}

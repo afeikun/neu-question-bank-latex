@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\lim_{n\\to\\infty}[x\\arctan(n\\cot x)]$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=0$ 是跳跃间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=\\pi$ 是可去间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=-\\frac\\pi2$ 是可去间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=\\frac\\pi2$ 是跳跃间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "分段极限在 $x=\\frac\\pi2$ 两侧取不同值，故为跳跃间断点。",
+  "search_text": "设 $y=\\lim_{n\\to\\infty}[x\\arctan(n\\cot x)]$，则（ ）。 $x=0$ 是跳跃间断点 $x=\\pi$ 是可去间断点 $x=-\\frac\\pi2$ 是可去间断点 $x=\\frac\\pi2$ 是跳跃间断点 分段极限在 $x=\\frac\\pi2$ 两侧取不同值，故为跳跃间断点。",
+  "sort_order": 32
+}

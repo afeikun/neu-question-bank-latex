@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "打靶3发，事件A_i表示“击中i发”，i=0,1,2,3，那么A=A_0+A_1+A_2+A_3表示（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "必然事件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "全部打中"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "至少击中一发"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不少于一发击中"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "A覆盖击中0、1、2、3发的所有情况，是必然事件。",
+  "search_text": "打靶3发，事件A_i表示“击中i发”，i=0,1,2,3，那么A=A_0+A_1+A_2+A_3表示（）。 必然事件 全部打中 至少击中一发 不少于一发击中 A覆盖击中0、1、2、3发的所有情况，是必然事件。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 是线性空间 $V$ 的基，$V$ 上线性变换 $T_1$ 和 $T_2$ 在此基下的矩阵分别为 $A$ 和 $B$，则 $V$ 上线性变换 $2T_1+3T_2$ 在此基下的矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6AB$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2A+3B$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2AB$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2A-3B$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "若基向量按行排列，则 $T_1(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)A$，$T_2(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)B$。故 $(2T_1+3T_2)(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)(2A+3B)$，所求矩阵为 $2A+3B$。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 是线性空间 $V$ 的基，$V$ 上线性变换 $T_1$ 和 $T_2$ 在此基下的矩阵分别为 $A$ 和 $B$，则 $V$ 上线性变换 $2T_1+3T_2$ 在此基下的矩阵为（ ）。 $6AB$ $2A+3B$ $2AB$ $2A-3B$ 若基向量按行排列，则 $T_1(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)A$，$T_2(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)B$。故 $(2T_1+3T_2)(\\alpha_1,\\ldots,\\alpha_n)=(\\alpha_1,\\ldots,\\alpha_n)(2A+3B)$，所求矩阵为 $2A+3B$。",
+  "sort_order": 51
+}

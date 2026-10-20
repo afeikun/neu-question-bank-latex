@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $I_1=\\iiint_\\Omega e^{\\sqrt{x^2+y^2+z^2}}dv,I_2=\\iiint_\\Omega(1+x^2+y^2+z^2)dv,I_3=\\iiint_\\Omega(1+\\sqrt{x^2+y^2+z^2})dv$，$\\Omega$ 由 $z\\geq\\sqrt{x^2+y^2}$ 及 $x^2+y^2+z^2\\leq1$ 确定，则 $I_1,I_2,I_3$ 的大小关系是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$I_2>I_3>I_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$I_1>I_3>I_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$I_3>I_2>I_1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$I_3>I_1>I_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由于 $0<x^2+y^2+z^2\\leq 1$ 所以 $x^2+y^2+z^2<\\sqrt{x^2+y^2+z^2}$ 即 $I_3>I_2$。由\n\\[\ne^x=1+x+\\frac{x^2}{2!}+\\cdots+\\frac{x^n}{n!}\n\\]\n可得\n\\[\ne^{\\sqrt{x^2+y^2+z^2}}=1+\\sqrt{x^2+y^2+z^2}+\\frac{x^2+y^2+z^2}{2!}+\\cdots,\n\\]\n所以有 $I_1>I_3$ 综上得 $I_1>I_3>I_2$。",
+  "search_text": "设 $I_1=\\iiint_\\Omega e^{\\sqrt{x^2+y^2+z^2}}dv,I_2=\\iiint_\\Omega(1+x^2+y^2+z^2)dv,I_3=\\iiint_\\Omega(1+\\sqrt{x^2+y^2+z^2})dv$，$\\Omega$ 由 $z\\geq\\sqrt{x^2+y^2}$ 及 $x^2+y^2+z^2\\leq1$ 确定，则 $I_1,I_2,I_3$ 的大小关系是（ ） $I_2>I_3>I_1$ $I_1>I_3>I_2$ $I_3>I_2>I_1$ $I_3>I_1>I_2$ 由于 $0<x^2+y^2+z^2\\leq 1$ 所以 $x^2+y^2+z^2<\\sqrt{x^2+y^2+z^2}$ 即 $I_3>I_2$。由\n\\[\ne^x=1+x+\\frac{x^2}{2!}+\\cdots+\\frac{x^n}{n!}\n\\]\n可得\n\\[\ne^{\\sqrt{x^2+y^2+z^2}}=1+\\sqrt{x^2+y^2+z^2}+\\frac{x^2+y^2+z^2}{2!}+\\cdots,\n\\]\n所以有 $I_1>I_3$ 综上得 $I_1>I_3>I_2$。",
+  "sort_order": 13
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z_0$ 是 $f(z)$ 的三级极点，则 $\\operatorname{Res}[f(z),z_0]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac1{3!}\\lim_{z\\to z_0}[(z-z_0)^4f(z)]'''$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1{2!}\\lim_{z\\to z_0}[(z-z_0)^2f(z)]'''$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1{3!}\\lim_{z\\to z_0}[(z-z_0)^3f(z)]'''$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{z\\to z_0}[(z-z_0)^3f(z)]'''$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "若 $f=C_{-3}/(z-z_0)^3+C_{-2}/(z-z_0)^2+C_{-1}/(z-z_0)+\\cdots$，则 $[(z-z_0)^4f]'''|_{z_0}=3!C_{-1}$，故留数等于该导数除以 $3!$。",
+  "search_text": "设 $z_0$ 是 $f(z)$ 的三级极点，则 $\\operatorname{Res}[f(z),z_0]=(\\ \\ )$。 $\\dfrac1{3!}\\lim_{z\\to z_0}[(z-z_0)^4f(z)]'''$ $\\dfrac1{2!}\\lim_{z\\to z_0}[(z-z_0)^2f(z)]'''$ $\\dfrac1{3!}\\lim_{z\\to z_0}[(z-z_0)^3f(z)]'''$ $\\lim_{z\\to z_0}[(z-z_0)^3f(z)]'''$ 若 $f=C_{-3}/(z-z_0)^3+C_{-2}/(z-z_0)^2+C_{-1}/(z-z_0)+\\cdots$，则 $[(z-z_0)^4f]'''|_{z_0}=3!C_{-1}$，故留数等于该导数除以 $3!$。",
+  "sort_order": 27
+}

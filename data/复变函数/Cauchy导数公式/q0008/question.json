@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z-i|=2$ 正向，则 $\\oint_C e^{-z}\\sin z/z^2\\,dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i(e+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原函数 $f(z)=e^{-z}\\sin z$ 满足 $f'(0)=1$，积分为 $2\\pi i$。",
+  "search_text": "设 $C$ 为圆周 $|z-i|=2$ 正向，则 $\\oint_C e^{-z}\\sin z/z^2\\,dz$ 等于（ ）。 $2\\pi i$ $e\\pi i$ $0$ $2\\pi i(e+1)$ 原函数 $f(z)=e^{-z}\\sin z$ 满足 $f'(0)=1$，积分为 $2\\pi i$。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\lim_{x\\to0}\\frac{x}{f(3x)}=2$，则 $\\lim_{x\\to0}\\frac{f(2x)}x=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac34$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac43$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由已知 $\\lim_{t\\to0}\\frac{3t}{f(3t)}=6$，可得 $\\lim_{t\\to0}\\frac{f(2t)}t=\\frac13$。",
+  "search_text": "已知 $\\lim_{x\\to0}\\frac{x}{f(3x)}=2$，则 $\\lim_{x\\to0}\\frac{f(2x)}x=(\\ )$。 $\\frac34$ $\\frac43$ 3 $\\frac13$ 由已知 $\\lim_{t\\to0}\\frac{3t}{f(3t)}=6$，可得 $\\lim_{t\\to0}\\frac{f(2t)}t=\\frac13$。",
+  "sort_order": 25
+}

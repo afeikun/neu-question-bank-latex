@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "只有当 $z=x+iy$ 满足条件（ ）时，$\\cos2z$ 的值才为纯虚数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=\\frac{k\\pi}{2}+\\frac\\pi4,y\\ne0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=2k\\pi+\\frac\\pi2,y\\ne0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=k\\pi+\\frac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\operatorname{Re}(\\cos2z)=\\cos2x\\cosh2y=0$。",
+  "search_text": "只有当 $z=x+iy$ 满足条件（ ）时，$\\cos2z$ 的值才为纯虚数。 $x=\\frac{k\\pi}{2}+\\frac\\pi4,y\\ne0$ $x=2k\\pi+\\frac\\pi2,y\\ne0$ $x=k\\pi+\\frac\\pi2$ $x=\\pi$ $\\operatorname{Re}(\\cos2z)=\\cos2x\\cosh2y=0$。",
+  "sort_order": 68
+}

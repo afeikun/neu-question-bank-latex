@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由方程 $e^y+x^2y-1=0$ 确定的函数 $y=y(x)$ 的二阶导数 $y\\prime\\prime(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[2ye^{2xy}+8xye^{2xy}+(12x^2y-x^3y^2)e^{xy}+6x^3y]/[x^2(e^y+x)^3]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[2ye^{3xy}+8xye^{2xy}+(12x^2y-x^3y^2)e^{xy}+6x^3y]/[x^2(e^y+x)^3]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[2ye^{3xy}+8xye^{2xy}+(12x^2y-x^3y^2)e^{xy}+6x^3y]/[x^2(e^y+x)^3]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[2ye^{3xy}+8xye^{3xy}+(12x^2y-x^3y^2)e^{xy}+6x^3y]/[x^2(e^y+x)^3]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对方程两次求导并整理。",
+  "search_text": "由方程 $e^y+x^2y-1=0$ 确定的函数 $y=y(x)$ 的二阶导数 $y\\prime\\prime(x)=$（ ）。 $[2ye^{2xy}+8xye^{2xy}+(12x^2y-x^3y^2)e^{xy}+6x^3y]/[x^2(e^y+x)^3]$ $[2ye^{3xy}+8xye^{2xy}+(12x^2y-x^3y^2)e^{xy}+6x^3y]/[x^2(e^y+x)^3]$ $[2ye^{3xy}+8xye^{2xy}+(12x^2y-x^3y^2)e^{xy}+6x^3y]/[x^2(e^y+x)^3]$ $[2ye^{3xy}+8xye^{3xy}+(12x^2y-x^3y^2)e^{xy}+6x^3y]/[x^2(e^y+x)^3]$ 对方程两次求导并整理。",
+  "sort_order": 34
+}

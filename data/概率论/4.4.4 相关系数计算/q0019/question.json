@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$D(X)=3,D(Y)=5,\\rho_{XY}=-1/2,Z=X-2Y-2$，求$D(Z)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$23+2\\sqrt{15}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8-\\sqrt{15}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$8+2\\sqrt{15}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$13-\\sqrt{15}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\operatorname{cov}(X,Y)=-\\sqrt{15}/2$，故$D(Z)=3+4(5)-4\\operatorname{cov}(X,Y)=23+2\\sqrt{15}$。",
+  "search_text": "$D(X)=3,D(Y)=5,\\rho_{XY}=-1/2,Z=X-2Y-2$，求$D(Z)$。 $23+2\\sqrt{15}$ $8-\\sqrt{15}$ $8+2\\sqrt{15}$ $13-\\sqrt{15}$ $\\operatorname{cov}(X,Y)=-\\sqrt{15}/2$，故$D(Z)=3+4(5)-4\\operatorname{cov}(X,Y)=23+2\\sqrt{15}$。",
+  "sort_order": 19
+}

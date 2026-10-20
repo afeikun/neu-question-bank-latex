@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim F(n_1,n_2)$，下列性质正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/X\\sim F(n_2,n_1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F_{1-\\alpha}(n_1,n_2)=2/F_\\alpha(n_2,n_1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F_{1-\\alpha}(n_1,n_2)=-1/F_\\alpha(n_2,n_1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/X$不服从F分布"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "F分布倒数交换自由度；相应分位数关系为$F_{1-\\alpha}(n_1,n_2)=1/F_\\alpha(n_2,n_1)$。",
+  "search_text": "$X\\sim F(n_1,n_2)$，下列性质正确的是（）。 $1/X\\sim F(n_2,n_1)$ $F_{1-\\alpha}(n_1,n_2)=2/F_\\alpha(n_2,n_1)$ $F_{1-\\alpha}(n_1,n_2)=-1/F_\\alpha(n_2,n_1)$ $1/X$不服从F分布 F分布倒数交换自由度；相应分位数关系为$F_{1-\\alpha}(n_1,n_2)=1/F_\\alpha(n_2,n_1)$。",
+  "sort_order": 10
+}

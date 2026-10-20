@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知向量 $a=(\\cos\\theta,\\sin\\theta)$，向量 $b=(\\sqrt3,-1)$，则 $|2a-b|$ 的最大值、最小值分别是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4,0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4,4\\sqrt2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$16,0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\sqrt2,0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|a|=1,|b|=2$，$|2a-b|^2=8-8\\cos(\\theta+\\pi/6)$，故最大值 $4$，最小值 $0$，选项 1。",
+  "search_text": "已知向量 $a=(\\cos\\theta,\\sin\\theta)$，向量 $b=(\\sqrt3,-1)$，则 $|2a-b|$ 的最大值、最小值分别是(\\quad)。 $4,0$ $4,4\\sqrt2$ $16,0$ $4\\sqrt2,0$ $|a|=1,|b|=2$，$|2a-b|^2=8-8\\cos(\\theta+\\pi/6)$，故最大值 $4$，最小值 $0$，选项 1。",
+  "sort_order": 21
+}

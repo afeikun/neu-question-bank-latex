@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac{dt}{1-2a\\cos t+a^2}\\ (0<a<1)=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{2\\pi}{1-a^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{\\pi}{3(1-a^2)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{3\\pi}{4(1-a^2)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{2\\pi}{3(1-a^2)}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=e^{it}$，则 $\\cos t=\\dfrac{z^2+1}{2z}$。化为单位圆积分后，圆内极点留数给出 $I=\\dfrac{2\\pi}{1-a^2}$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^{2\\pi}\\dfrac{dt}{1-2a\\cos t+a^2}\\ (0<a<1)=(\\ \\ )$。 $\\dfrac{2\\pi}{1-a^2}$ $\\dfrac{\\pi}{3(1-a^2)}$ $\\dfrac{3\\pi}{4(1-a^2)}$ $\\dfrac{2\\pi}{3(1-a^2)}$ 令 $z=e^{it}$，则 $\\cos t=\\dfrac{z^2+1}{2z}$。化为单位圆积分后，圆内极点留数给出 $I=\\dfrac{2\\pi}{1-a^2}$。",
+  "sort_order": 23
+}

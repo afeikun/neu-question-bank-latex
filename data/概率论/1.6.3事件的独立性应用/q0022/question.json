@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "电路由A、B、C串联，故障概率分别为$0.3,0.4,0.6$且独立，求电路故障概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.832$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.42$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.24$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.168$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "电路正常概率为$0.7\\times0.6\\times0.4=0.168$，故障概率$0.832$。",
+  "search_text": "电路由A、B、C串联，故障概率分别为$0.3,0.4,0.6$且独立，求电路故障概率。 $0.832$ $0.42$ $0.24$ $0.168$ 电路正常概率为$0.7\\times0.6\\times0.4=0.168$，故障概率$0.832$。",
+  "sort_order": 22
+}

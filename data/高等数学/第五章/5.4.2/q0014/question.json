@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\sum a_nx^n$ 与 $\\sum(n+1)a_nx^{n+1}$ 的收敛半径分别为 $R_1,R_2$，则？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$R_1<R_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$R_1=R_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不能确定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$R_1>R_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "乘以 $x$ 并乘系数 $n+1$ 不改变幂级数收敛半径。",
+  "search_text": "若 $\\sum a_nx^n$ 与 $\\sum(n+1)a_nx^{n+1}$ 的收敛半径分别为 $R_1,R_2$，则？ $R_1<R_2$ $R_1=R_2$ 不能确定 $R_1>R_2$ 乘以 $x$ 并乘系数 $n+1$ 不改变幂级数收敛半径。",
+  "sort_order": 14
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程组 $\\begin{cases}2x+ky+z=0,\\\\(k-1)x-y+2z=0,\\\\4x+y+4z=0\\end{cases}$ 有非零解，则 $k$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k=1$ 或 $k=\\frac94$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k\\ne1$ 且 $k\\ne\\frac94$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k=\\frac94$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程组要有非零解，必须 $\\begin{vmatrix}2&k&1\\\\k-1&-1&2\\\\4&1&4\\end{vmatrix}=0$，即 $9k-9-4k(k-1)=0$，解得 $k=1$ 或 $k=\\frac94$。",
+  "search_text": "方程组 $\\begin{cases}2x+ky+z=0,\\\\(k-1)x-y+2z=0,\\\\4x+y+4z=0\\end{cases}$ 有非零解，则 $k$ 的值为（ ）。 $k=1$ 或 $k=\\frac94$ $k=1$ $k\\ne1$ 且 $k\\ne\\frac94$ $k=\\frac94$ 方程组要有非零解，必须 $\\begin{vmatrix}2&k&1\\\\k-1&-1&2\\\\4&1&4\\end{vmatrix}=0$，即 $9k-9-4k(k-1)=0$，解得 $k=1$ 或 $k=\\frac94$。",
+  "sort_order": 19
+}

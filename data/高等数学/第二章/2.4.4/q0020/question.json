@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $10$ 厘米的金属圆片加热后，半径伸长了 $0.005$ 厘米，面积增大了 $(\\quad)$ 平方厘米。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\pi}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{3\\pi}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆面积 $A=\\pi r^2$，微分 $dA=2\\pi r\\,dr$。取 $r=10$、$dr=0.005$，则面积增量近似为 $\\Delta A\\approx dA=2\\pi\\cdot10\\cdot0.005=\\pi\\text{ cm}^2$。",
+  "search_text": "半径为 $10$ 厘米的金属圆片加热后，半径伸长了 $0.005$ 厘米，面积增大了 $(\\quad)$ 平方厘米。 $\\pi$ $3\\pi$ $\\frac{\\pi}{2}$ $\\frac{3\\pi}{2}$ 圆面积 $A=\\pi r^2$，微分 $dA=2\\pi r\\,dr$。取 $r=10$、$dr=0.005$，则面积增量近似为 $\\Delta A\\approx dA=2\\pi\\cdot10\\cdot0.005=\\pi\\text{ cm}^2$。",
+  "sort_order": 20
+}

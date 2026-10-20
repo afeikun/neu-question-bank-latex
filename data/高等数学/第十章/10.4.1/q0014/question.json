@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{2x}{y^3}dx+\\frac{y^2-3x^2}{y^4}dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac1y+\\frac{2x^2}{y^3}=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac1y+\\frac{x^2}{y^2}=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac1y+\\frac{x^2}{y^3}=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac2y+\\frac{x^2}{y^3}=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial P}{\\partial y}=-\\frac{6x}{y^4}=\\frac{\\partial Q}{\\partial x}$，原方程式全微分方程，将左端重新组合\n\n$$\\frac{1}{y^2}dy+\\left(\\frac{2x}{y^3}dx-\\frac{3x^2}{y^4}dy\\right)=d\\left(-\\frac{1}{y}\\right)+d\\left(\\frac{x^2}{y^3}\\right)=d\\left(-\\frac{1}{y}+\\frac{x^2}{y^3}\\right),$$\n\n原方程的通解为 $-\\frac{1}{y}+\\frac{x^2}{y^3}=C$。",
+  "search_text": "$\\frac{2x}{y^3}dx+\\frac{y^2-3x^2}{y^4}dy=0$ 的通解为（ ） $-\\frac1y+\\frac{2x^2}{y^3}=C$ $-\\frac1y+\\frac{x^2}{y^2}=C$ $-\\frac1y+\\frac{x^2}{y^3}=C$ $-\\frac2y+\\frac{x^2}{y^3}=C$ $\\frac{\\partial P}{\\partial y}=-\\frac{6x}{y^4}=\\frac{\\partial Q}{\\partial x}$，原方程式全微分方程，将左端重新组合\n\n$$\\frac{1}{y^2}dy+\\left(\\frac{2x}{y^3}dx-\\frac{3x^2}{y^4}dy\\right)=d\\left(-\\frac{1}{y}\\right)+d\\left(\\frac{x^2}{y^3}\\right)=d\\left(-\\frac{1}{y}+\\frac{x^2}{y^3}\\right),$$\n\n原方程的通解为 $-\\frac{1}{y}+\\frac{x^2}{y^3}=C$。",
+  "sort_order": 14
+}

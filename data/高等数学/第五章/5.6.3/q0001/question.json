@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f$ 为 $2\\pi$ 周期奇函数且 $f(x+\\pi/2)=-f(\\pi/2-x)$，求傅里叶系数 $b_{2n-1}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\pi/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将积分在区间两半配对，利用给定对称关系可得奇次正弦系数为0。",
+  "search_text": "$f$ 为 $2\\pi$ 周期奇函数且 $f(x+\\pi/2)=-f(\\pi/2-x)$，求傅里叶系数 $b_{2n-1}$。 $\\pi/2$ 1 $-\\pi/2$ 0 将积分在区间两半配对，利用给定对称关系可得奇次正弦系数为0。",
+  "sort_order": 1
+}

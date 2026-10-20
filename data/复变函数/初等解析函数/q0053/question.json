@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(2i)^{2i}$ 的主值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-\\pi}(\\cos(2\\ln2)+i\\sin(2\\ln2))$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos\\ln2+i\\sin\\ln2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{\\pi/2}(\\cos(2\\ln2)+i\\sin(2\\ln2))$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-\\pi/2}\\cos\\ln2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "主值 $\\operatorname{Ln}(2i)=\\ln2+i\\pi/2$，乘以 $2i$ 后取指数。",
+  "search_text": "$(2i)^{2i}$ 的主值为（ ）。 $e^{-\\pi}(\\cos(2\\ln2)+i\\sin(2\\ln2))$ $\\cos\\ln2+i\\sin\\ln2$ $e^{\\pi/2}(\\cos(2\\ln2)+i\\sin(2\\ln2))$ $e^{-\\pi/2}\\cos\\ln2$ 主值 $\\operatorname{Ln}(2i)=\\ln2+i\\pi/2$，乘以 $2i$ 后取指数。",
+  "sort_order": 53
+}

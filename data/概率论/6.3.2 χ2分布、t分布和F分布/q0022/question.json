@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi\\sim N(0,1),\\eta\\sim\\chi^2(n)$且独立，$T=\\xi\\sqrt n/\\sqrt\\eta$服从（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "自由度$n$的$t$分布"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "正态分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\chi^2$分布"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F$分布"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准正态除以独立卡方除以自由度平方根服从$t(n)$。",
+  "search_text": "$\\xi\\sim N(0,1),\\eta\\sim\\chi^2(n)$且独立，$T=\\xi\\sqrt n/\\sqrt\\eta$服从（）。 自由度$n$的$t$分布 正态分布 $\\chi^2$分布 $F$分布 标准正态除以独立卡方除以自由度平方根服从$t(n)$。",
+  "sort_order": 22
+}

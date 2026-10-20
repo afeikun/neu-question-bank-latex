@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\iint_\\Sigma(|x|+|y|)^2\\,dS=$（ ），其中 $\\Sigma$ 为八面体 $|x|+|y|+|z|\\le1$ 的表面。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "【源第二选项图实际为解析，未见可辨识的选项内容】"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\sqrt5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\Sigma_1$ 为 $\\Sigma$ 在第一卦限部分，方程为 $z=1-x-y$，在 $xOy$ 面投影为 $D:0\\le x\\le1,0\\le y\\le1-x$。$\\iint_\\Sigma(|x|+|y|)^2dS=8\\iint_{\\Sigma_1}(|x|+|y|)^2dS=8\\iint_{\\Sigma_1}(x^2+y^2+2xy)dS=16\\iint_{\\Sigma_1}(x^2+xy)dS=16\\sqrt3\\iint_D(x^2+xy)dxdy=2\\sqrt3$。",
+  "search_text": "$\\iint_\\Sigma(|x|+|y|)^2\\,dS=$（ ），其中 $\\Sigma$ 为八面体 $|x|+|y|+|z|\\le1$ 的表面。 $\\sqrt3$ 【源第二选项图实际为解析，未见可辨识的选项内容】 $2\\sqrt3$ $2\\sqrt5$ $\\Sigma_1$ 为 $\\Sigma$ 在第一卦限部分，方程为 $z=1-x-y$，在 $xOy$ 面投影为 $D:0\\le x\\le1,0\\le y\\le1-x$。$\\iint_\\Sigma(|x|+|y|)^2dS=8\\iint_{\\Sigma_1}(|x|+|y|)^2dS=8\\iint_{\\Sigma_1}(x^2+y^2+2xy)dS=16\\iint_{\\Sigma_1}(x^2+xy)dS=16\\sqrt3\\iint_D(x^2+xy)dxdy=2\\sqrt3$。",
+  "sort_order": 46
+}

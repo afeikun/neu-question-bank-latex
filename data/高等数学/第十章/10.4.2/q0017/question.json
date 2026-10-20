@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{2x}{y^3}dx+\\frac{y^2-3x^2}{y^4}dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$Cy^3=x^2+y^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$Cy=x^2+y^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$Cy=x^2-y^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$Cy^3=x^2-y^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方程可整理为\n\n$$\n\\frac{1}{y^3}\\,dx^2+\\frac{1}{y^2}\\,dy+x^2\\,d\\frac{1}{y^3}=0,\n$$\n\n即\n\n$$\nd\\left(\\frac{x^2}{y^3}-\\frac{1}{y}\\right)=0,\n$$",
+  "search_text": "$\\frac{2x}{y^3}dx+\\frac{y^2-3x^2}{y^4}dy=0$ 的通解为（ ） $Cy^3=x^2+y^2$ $Cy=x^2+y^2$ $Cy=x^2-y^2$ $Cy^3=x^2-y^2$ 方程可整理为\n\n$$\n\\frac{1}{y^3}\\,dx^2+\\frac{1}{y^2}\\,dy+x^2\\,d\\frac{1}{y^3}=0,\n$$\n\n即\n\n$$\nd\\left(\\frac{x^2}{y^3}-\\frac{1}{y}\\right)=0,\n$$",
+  "sort_order": 17
+}

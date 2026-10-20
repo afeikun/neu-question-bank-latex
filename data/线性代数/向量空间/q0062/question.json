@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 是 $\\mathbb{R}^3$ 中的一组基，现有 $\\beta_1=4\\alpha_1+2\\alpha_2+\\alpha_3$，$\\beta_2=\\alpha_1+\\alpha_2+2\\alpha_3$，$\\beta_3=2\\alpha_1+\\alpha_2+\\alpha_3$，那么正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\beta_1,\\beta_2,\\beta_3$ 不构成 $\\mathbb{R}^3$ 中的一组基"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不能确定 $\\beta_1,\\beta_2,\\beta_3$ 是否构成 $\\mathbb{R}^3$ 中的一组基"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\beta_1,\\beta_2,\\beta_3$ 也构成 $\\mathbb{R}^3$ 中的一组基"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\beta_1,\\beta_2,\\beta_3$ 是否构成 $\\mathbb{R}^3$ 中的一组基，与 $\\alpha_1,\\alpha_2,\\alpha_3$ 的选取有关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为 $(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}4&1&2\\\\2&1&1\\\\1&2&1\\end{pmatrix}$，且该矩阵可逆，所以 $\\beta_1,\\beta_2,\\beta_3$ 也构成 $\\mathbb{R}^3$ 中的一组基。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 是 $\\mathbb{R}^3$ 中的一组基，现有 $\\beta_1=4\\alpha_1+2\\alpha_2+\\alpha_3$，$\\beta_2=\\alpha_1+\\alpha_2+2\\alpha_3$，$\\beta_3=2\\alpha_1+\\alpha_2+\\alpha_3$，那么正确的是（ ）。 $\\beta_1,\\beta_2,\\beta_3$ 不构成 $\\mathbb{R}^3$ 中的一组基 不能确定 $\\beta_1,\\beta_2,\\beta_3$ 是否构成 $\\mathbb{R}^3$ 中的一组基 $\\beta_1,\\beta_2,\\beta_3$ 也构成 $\\mathbb{R}^3$ 中的一组基 $\\beta_1,\\beta_2,\\beta_3$ 是否构成 $\\mathbb{R}^3$ 中的一组基，与 $\\alpha_1,\\alpha_2,\\alpha_3$ 的选取有关 因为 $(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}4&1&2\\\\2&1&1\\\\1&2&1\\end{pmatrix}$，且该矩阵可逆，所以 $\\beta_1,\\beta_2,\\beta_3$ 也构成 $\\mathbb{R}^3$ 中的一组基。",
+  "sort_order": 62
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "对线性空间 $\\mathbb R[x]_3$ 中线性变换：$T[p(x)]=p(x+1)-p(x)$（$\\forall p(x)\\in\\mathbb R[x]_3$），求 $T$ 在基 $p_1(x)=1$，$p_2(x)=x$，$p_3(x)=x^2$ 下的矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}0&0&1\\\\0&1&0\\\\0&0&2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}0&1&1\\\\0&0&2\\\\0&0&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&1&0\\\\0&1&2\\\\0&0&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$T[p_1(x)]=0$，$T[p_2(x)]=1=p_1(x)$，$T[p_3(x)]=2x+1=p_1(x)+2p_2(x)$，所以矩阵为 $\\begin{pmatrix}0&1&1\\\\0&0&2\\\\0&0&0\\end{pmatrix}$。",
+  "search_text": "对线性空间 $\\mathbb R[x]_3$ 中线性变换：$T[p(x)]=p(x+1)-p(x)$（$\\forall p(x)\\in\\mathbb R[x]_3$），求 $T$ 在基 $p_1(x)=1$，$p_2(x)=x$，$p_3(x)=x^2$ 下的矩阵为（ ）。 $\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&2\\end{pmatrix}$ $\\begin{pmatrix}0&0&1\\\\0&1&0\\\\0&0&2\\end{pmatrix}$ $\\begin{pmatrix}0&1&1\\\\0&0&2\\\\0&0&0\\end{pmatrix}$ $\\begin{pmatrix}1&1&0\\\\0&1&2\\\\0&0&1\\end{pmatrix}$ $T[p_1(x)]=0$，$T[p_2(x)]=1=p_1(x)$，$T[p_3(x)]=2x+1=p_1(x)+2p_2(x)$，所以矩阵为 $\\begin{pmatrix}0&1&1\\\\0&0&2\\\\0&0&0\\end{pmatrix}$。",
+  "sort_order": 34
+}

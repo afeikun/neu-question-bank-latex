@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F(x)=0(x<0),1/2(0\\le x<1),1-e^{-x}(x\\ge1)$，求$P(X=1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2-e^{-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-e^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$P(X=1)=F(1)-F(1-)=1-e^{-1}-1/2=1/2-e^{-1}$。",
+  "search_text": "$F(x)=0(x<0),1/2(0\\le x<1),1-e^{-x}(x\\ge1)$，求$P(X=1)$。 $0$ $1/2$ $1/2-e^{-1}$ $1-e^{-1}$ $P(X=1)=F(1)-F(1-)=1-e^{-1}-1/2=1/2-e^{-1}$。",
+  "sort_order": 4
+}

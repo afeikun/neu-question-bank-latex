@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z|=2$，方向为正向，则 $\\oint_C\\frac{3z^2-2}{z^2-z}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\frac1{z^2-z}=\\frac1{z-1}-\\frac1z$ 得，积分等于 $2\\pi i(3\\cdot1^2-2)-2\\pi i(-2)=6\\pi i$。",
+  "search_text": "设 $C$ 为圆周 $|z|=2$，方向为正向，则 $\\oint_C\\frac{3z^2-2}{z^2-z}\\,dz=(\\quad)$。 $6\\pi i$ $2\\pi i$ $\\pi i$ $4\\pi i$ 由 $\\frac1{z^2-z}=\\frac1{z-1}-\\frac1z$ 得，积分等于 $2\\pi i(3\\cdot1^2-2)-2\\pi i(-2)=6\\pi i$。",
+  "sort_order": 33
+}

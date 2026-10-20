@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $\\sqrt[x]{y}=\\sqrt[y]{x}$（$x>e,y>e$）确定 $y=y(x)$，求 $y^\\prime$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1-\\ln x}{1-\\ln y}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1-\\ln x}{1+\\ln y}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1+\\ln x}{1-\\ln y}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1+\\ln x}{1+\\ln y}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时取对数得 $\\frac1x\\ln y=\\frac1y\\ln x，y\\ln y=x\\ln x$，对 $x$ 求导可得\n\n$$y'\\ln y+y'=\\ln x+1，\\text{可得 }y'=\\frac{1+\\ln x}{1+\\ln y}$$",
+  "search_text": "由 $\\sqrt[x]{y}=\\sqrt[y]{x}$（$x>e,y>e$）确定 $y=y(x)$，求 $y^\\prime$。 $\\frac{1-\\ln x}{1-\\ln y}$ $\\frac{1-\\ln x}{1+\\ln y}$ $\\frac{1+\\ln x}{1-\\ln y}$ $\\frac{1+\\ln x}{1+\\ln y}$ 解答 方程两边同时取对数得 $\\frac1x\\ln y=\\frac1y\\ln x，y\\ln y=x\\ln x$，对 $x$ 求导可得\n\n$$y'\\ln y+y'=\\ln x+1，\\text{可得 }y'=\\frac{1+\\ln x}{1+\\ln y}$$",
+  "sort_order": 1
+}

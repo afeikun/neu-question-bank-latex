@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过点 $M(2,3,5)$ 且与平面 $5x-3y+2z-10=0$ 平行的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5x+3y+2z-11=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5x-3y+2z+11=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5x-3y+2z-11=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5x+3y+2z+11=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "保留法向量 $(5,-3,2)$，代入 $M$ 得常数项 $-11$。",
+  "search_text": "过点 $M(2,3,5)$ 且与平面 $5x-3y+2z-10=0$ 平行的平面方程为(\\quad)。 $5x+3y+2z-11=0$ $5x-3y+2z+11=0$ $5x-3y+2z-11=0$ $5x+3y+2z+11=0$ 保留法向量 $(5,-3,2)$，代入 $M$ 得常数项 $-11$。",
+  "sort_order": 65
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "如果 $n$ 阶实对称矩阵 $A$ 的特征值为 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$，$A-tE$ 为正定矩阵，则 $t$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t<\\min\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$t>\\max\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$t>\\min\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t<\\max\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$A-tE$ 的特征值为 $\\lambda_i-t$。为正定矩阵的充要条件是 $\\lambda_i-t>0$，即 $t<\\lambda_i$（$i=1,2,\\cdots,n$），故 $t<\\min\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$。",
+  "search_text": "如果 $n$ 阶实对称矩阵 $A$ 的特征值为 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$，$A-tE$ 为正定矩阵，则 $t$ 的值为（ ）。 $t<\\min\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$ $t>\\max\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$ $t>\\min\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$ $t<\\max\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$ $A-tE$ 的特征值为 $\\lambda_i-t$。为正定矩阵的充要条件是 $\\lambda_i-t>0$，即 $t<\\lambda_i$（$i=1,2,\\cdots,n$），故 $t<\\min\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\}$。",
+  "sort_order": 14
+}

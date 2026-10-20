@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "给定分段函数作周期 $2\\pi$ 傅里叶级数，利用展开式求 $\\sum_{n=1}^{\\infty}1/(2n-1)^2$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi/8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi^2/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi^2/6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi^2/8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "在 $x=0$ 代入余弦级数得到 $\\sum_{n=1}^{\\infty}1/(2n-1)^2=\\pi^2/8$。",
+  "search_text": "给定分段函数作周期 $2\\pi$ 傅里叶级数，利用展开式求 $\\sum_{n=1}^{\\infty}1/(2n-1)^2$。 $\\pi/8$ $\\pi^2/4$ $\\pi^2/6$ $\\pi^2/8$ 在 $x=0$ 代入余弦级数得到 $\\sum_{n=1}^{\\infty}1/(2n-1)^2=\\pi^2/8$。",
+  "sort_order": 17
+}

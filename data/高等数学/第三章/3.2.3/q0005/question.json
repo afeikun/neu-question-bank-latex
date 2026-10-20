@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "利用 3 阶 Maclaurin 公式求 $\\ln1.2\\approx(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.1287$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.1782$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.1827$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.1278$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\ln(1+x)\\approx x-\\frac{x^2}{2}+\\frac{x^3}{3}$，取 $x=0.2$ 得 $\\ln1.2\\approx0.1827$。",
+  "search_text": "利用 3 阶 Maclaurin 公式求 $\\ln1.2\\approx(\\quad)$。 $0.1287$ $0.1782$ $0.1827$ $0.1278$ $\\ln(1+x)\\approx x-\\frac{x^2}{2}+\\frac{x^3}{3}$，取 $x=0.2$ 得 $\\ln1.2\\approx0.1827$。",
+  "sort_order": 5
+}

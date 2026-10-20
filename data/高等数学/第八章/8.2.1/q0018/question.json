@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "位于两圆 $r=2\\sin\\theta$ 和 $r=4\\sin\\theta$ 之间的均匀薄片（$\\rho(x,y)=1/y$）的质量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "如图，\n\\[\nm=\\iint_D\\rho(x,y)d\\sigma=\\iint_D\\frac{1}{y}dxdy=\\int_0^\\pi d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}\\frac{1}{r\\sin\\theta}rdr=\\int_0^\\pi2d\\theta=2\\pi\n\\]\n图示：$y$ 轴竖直、$x$ 轴水平，原点标为 $O$；两圆之间的黄色区域标为 $D$，$y$ 轴旁标有 $2$ 和 $4$。",
+  "search_text": "位于两圆 $r=2\\sin\\theta$ 和 $r=4\\sin\\theta$ 之间的均匀薄片（$\\rho(x,y)=1/y$）的质量为（ ） $\\frac\\pi2$ $\\frac\\pi3$ $2\\pi$ $5\\pi$ 如图，\n\\[\nm=\\iint_D\\rho(x,y)d\\sigma=\\iint_D\\frac{1}{y}dxdy=\\int_0^\\pi d\\theta\\int_{2\\sin\\theta}^{4\\sin\\theta}\\frac{1}{r\\sin\\theta}rdr=\\int_0^\\pi2d\\theta=2\\pi\n\\]\n图示：$y$ 轴竖直、$x$ 轴水平，原点标为 $O$；两圆之间的黄色区域标为 $D$，$y$ 轴旁标有 $2$ 和 $4$。",
+  "sort_order": 18
+}

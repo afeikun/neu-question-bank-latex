@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "测量误差$X\\sim N(0,10^2)$，100次独立测量中绝对误差超过19.6的次数不少于3次的概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.87$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.66$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.92$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.59$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "单次越界概率约$0.05$，次数服从$B(100,0.05)$，泊松近似参数5，$P(Y\\ge3)\\approx0.87$。",
+  "search_text": "测量误差$X\\sim N(0,10^2)$，100次独立测量中绝对误差超过19.6的次数不少于3次的概率。 $0.87$ $0.66$ $0.92$ $0.59$ 单次越界概率约$0.05$，次数服从$B(100,0.05)$，泊松近似参数5，$P(Y\\ge3)\\approx0.87$。",
+  "sort_order": 12
+}

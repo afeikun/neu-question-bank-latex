@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 是连续函数，$D:y\\geq x,x\\geq-1,y\\leq1$，则二重积分 $\\iint_Df(x,y)dxdy$ 可化累次积分为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{-1}^1dy\\int_y^1f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{-1}^1dx\\int_{-1}^xf(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{-1}^1dx\\int_x^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{-1}^0dy\\int_{-1}^yf(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 原式$=\\int_{-1}^{1}dx\\int_x^1f(x,y)dy$，原式$=\\int_{-1}^{1}dy\\int_{-1}^{y}f(x,y)dx$。",
+  "search_text": "设 $f(x,y)$ 是连续函数，$D:y\\geq x,x\\geq-1,y\\leq1$，则二重积分 $\\iint_Df(x,y)dxdy$ 可化累次积分为[\\quad] $\\int_{-1}^1dy\\int_y^1f(x,y)dx$ $\\int_{-1}^1dx\\int_{-1}^xf(x,y)dy$ $\\int_{-1}^1dx\\int_x^1f(x,y)dy$ $\\int_{-1}^0dy\\int_{-1}^yf(x,y)dx$ 解答 原式$=\\int_{-1}^{1}dx\\int_x^1f(x,y)dy$，原式$=\\int_{-1}^{1}dy\\int_{-1}^{y}f(x,y)dx$。",
+  "sort_order": 21
+}

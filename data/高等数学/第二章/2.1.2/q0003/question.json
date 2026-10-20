@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\begin{cases}(x-2)\\arctan\\frac1{x-2},&x\\ne2\\\\0,&x=2\\end{cases}$，则右导数 $f\\prime_+(2)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "原解析计算 $x\\to2^-$ 得 $-\\pi/2$；按题干右导数，右侧值应为 $\\pi/2$，与页面答案标记不一致。",
+  "search_text": "$f(x)=\\begin{cases}(x-2)\\arctan\\frac1{x-2},&x\\ne2\\\\0,&x=2\\end{cases}$，则右导数 $f\\prime_+(2)=$（ ）。 $\\frac\\pi4$ $-\\frac\\pi2$ $-\\frac\\pi4$ $\\frac\\pi2$ 原解析计算 $x\\to2^-$ 得 $-\\pi/2$；按题干右导数，右侧值应为 $\\pi/2$，与页面答案标记不一致。",
+  "sort_order": 3
+}

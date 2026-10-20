@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i$独立同分布且$E(X_i)=\\mu$，令样本均值$\\bar X_n$，则（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{n\\to\\infty}P\\left(\\frac1n\\left|\\sum_{i=1}^nX_i-n\\mu\\right|\\ge\\varepsilon\\right)=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{n\\to\\infty}P\\left(\\frac1n\\left|\\sum_{i=1}^nX_i-\\mu\\right|\\ge\\varepsilon\\right)=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{n\\to\\infty}P\\left(\\frac1n\\left|\\sum_{i=1}^nX_i-\\mu\\right|\\le\\varepsilon\\right)=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{n\\to\\infty}P\\left(\\frac1n\\left|\\sum_{i=1}^nX_i-n\\mu\\right|\\ge\\varepsilon\\right)=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一项绝对值内的和偏离 $n\\mu$ 后整体除以 $n$，恰为 $|\\bar X_n-\\mu|$。弱大数定律给其尾概率趋于0，故第一项正确。",
+  "search_text": "$X_i$独立同分布且$E(X_i)=\\mu$，令样本均值$\\bar X_n$，则（）。 $\\lim_{n\\to\\infty}P\\left(\\frac1n\\left|\\sum_{i=1}^nX_i-n\\mu\\right|\\ge\\varepsilon\\right)=0$ $\\lim_{n\\to\\infty}P\\left(\\frac1n\\left|\\sum_{i=1}^nX_i-\\mu\\right|\\ge\\varepsilon\\right)=0$ $\\lim_{n\\to\\infty}P\\left(\\frac1n\\left|\\sum_{i=1}^nX_i-\\mu\\right|\\le\\varepsilon\\right)=1$ $\\lim_{n\\to\\infty}P\\left(\\frac1n\\left|\\sum_{i=1}^nX_i-n\\mu\\right|\\ge\\varepsilon\\right)=1$ 第一项绝对值内的和偏离 $n\\mu$ 后整体除以 $n$，恰为 $|\\bar X_n-\\mu|$。弱大数定律给其尾概率趋于0，故第一项正确。",
+  "sort_order": 3
+}

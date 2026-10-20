@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用二元函数的全微分计算 $(1.04)^{2.02}$ 的近似值为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1.28$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1.68$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1.08$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1.48$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设函数$f(x,y)=x^y,$取$x=1,y=2,\\Delta x=0.04,\\Delta y=0.02,$则$f(1,2)=1,$\n\n$f_x(x,y)=yx^{y-1},\\ f_y(x,y)=x^y\\ln x,\\ f_x(1,2)=2,\\ f_y(1,2)=0,$\n\n由二元函数全微分近似计算公式的$(1.04)^{2.02}\\approx1+2\\times0.04+0\\times0.02=1.08.$",
+  "search_text": "用二元函数的全微分计算 $(1.04)^{2.02}$ 的近似值为(\\quad)。 $1.28$ $1.68$ $1.08$ $1.48$ 设函数$f(x,y)=x^y,$取$x=1,y=2,\\Delta x=0.04,\\Delta y=0.02,$则$f(1,2)=1,$\n\n$f_x(x,y)=yx^{y-1},\\ f_y(x,y)=x^y\\ln x,\\ f_x(1,2)=2,\\ f_y(1,2)=0,$\n\n由二元函数全微分近似计算公式的$(1.04)^{2.02}\\approx1+2\\times0.04+0\\times0.02=1.08.$",
+  "sort_order": 4
+}

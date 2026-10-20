@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}x^2,&x\\ge0\\\\\\cos x,&x<0\\end{cases}$，$g(x)=\\begin{cases}x\\sin\\frac1x,&x\\ne0\\\\0,&x=0\\end{cases}$，则在区间 $(-1,1)$ 内",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)$ 存在原函数，$g(x)$ 不存在原函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x),g(x)$ 都存在原函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)$ 不存在原函数，$g(x)$ 存在原函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x),g(x)$ 都不存在原函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f(x)$ 在 $(-1,1)$ 内有跳跃间断点，故无原函数；$g(x)$ 在 $(-1,1)$ 内连续，故有原函数。",
+  "search_text": "设 $f(x)=\\begin{cases}x^2,&x\\ge0\\\\\\cos x,&x<0\\end{cases}$，$g(x)=\\begin{cases}x\\sin\\frac1x,&x\\ne0\\\\0,&x=0\\end{cases}$，则在区间 $(-1,1)$ 内 $f(x)$ 存在原函数，$g(x)$ 不存在原函数 $f(x),g(x)$ 都存在原函数 $f(x)$ 不存在原函数，$g(x)$ 存在原函数 $f(x),g(x)$ 都不存在原函数 $f(x)$ 在 $(-1,1)$ 内有跳跃间断点，故无原函数；$g(x)$ 在 $(-1,1)$ 内连续，故有原函数。",
+  "sort_order": 2
+}

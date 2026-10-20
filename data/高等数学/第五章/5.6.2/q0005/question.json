@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在区间 $(-\\pi,\\pi)$ 上将函数 $f(x)=1-\\frac{2x}{\\pi}$ 展成以 $2\\pi$ 为周期的傅里叶级数，其展开式为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac4{\\pi^2}\\sum_{k=1}^{\\infty}\\frac{\\cos((2k-1)x)}{(2k-1)^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac2\\pi\\sum_{n=1}^{\\infty}\\frac{\\cos(nx)}{n^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac8{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(nx)}{n^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac8{\\pi^2}\\sum_{k=1}^{\\infty}\\frac{\\cos((2k-1)x)}{(2k-1)^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "源解析给出 $a_0=\\frac1\\pi\\int_{-\\pi}^{\\pi}(1-\\frac{2x}{\\pi})dx=2$，$a_n=\\frac1\\pi\\int_{-\\pi}^{\\pi}(1-\\frac{2x}{\\pi})\\cos(nx)dx=0\\ (n=1,2,\\ldots)$，$b_n=\\frac1\\pi\\int_{-\\pi}^{\\pi}(1-\\frac{2x}{\\pi})\\sin(nx)dx=(-1)^n\\frac4{n\\pi}\\ (n=1,2,\\ldots)$。由于 $f(x)$ 在 $(-\\pi,\\pi)$ 上分段单调、连续，源末行写为 $f(x)=1+\\frac4\\pi\\sum_{k=1}^{\\infty}\\frac{(-1)^n}{n}\\sin(nx),\\quad x\\in(-\\pi,\\pi)$。",
+  "search_text": "在区间 $(-\\pi,\\pi)$ 上将函数 $f(x)=1-\\frac{2x}{\\pi}$ 展成以 $2\\pi$ 为周期的傅里叶级数，其展开式为（ ）。 $\\frac4{\\pi^2}\\sum_{k=1}^{\\infty}\\frac{\\cos((2k-1)x)}{(2k-1)^2}$ $-\\frac2\\pi\\sum_{n=1}^{\\infty}\\frac{\\cos(nx)}{n^2}$ $\\frac8{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{\\cos(nx)}{n^2}$ $\\frac8{\\pi^2}\\sum_{k=1}^{\\infty}\\frac{\\cos((2k-1)x)}{(2k-1)^2}$ 源解析给出 $a_0=\\frac1\\pi\\int_{-\\pi}^{\\pi}(1-\\frac{2x}{\\pi})dx=2$，$a_n=\\frac1\\pi\\int_{-\\pi}^{\\pi}(1-\\frac{2x}{\\pi})\\cos(nx)dx=0\\ (n=1,2,\\ldots)$，$b_n=\\frac1\\pi\\int_{-\\pi}^{\\pi}(1-\\frac{2x}{\\pi})\\sin(nx)dx=(-1)^n\\frac4{n\\pi}\\ (n=1,2,\\ldots)$。由于 $f(x)$ 在 $(-\\pi,\\pi)$ 上分段单调、连续，源末行写为 $f(x)=1+\\frac4\\pi\\sum_{k=1}^{\\infty}\\frac{(-1)^n}{n}\\sin(nx),\\quad x\\in(-\\pi,\\pi)$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sqrt[7]{100}$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.938$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1.938$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1.856$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1.732$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用 $\\sqrt[n]{a^n+x}\\approx a+\\frac{x}{na^{n-1}}$，有 $\\sqrt[7]{100}=\\sqrt[7]{2^7-28}\\approx2-\\frac{28}{7\\cdot2^6}\\approx1.938$。",
+  "search_text": "$\\sqrt[7]{100}$ 的近似值为 $(\\quad)$。 $0.938$ $1.938$ $1.856$ $1.732$ 利用 $\\sqrt[n]{a^n+x}\\approx a+\\frac{x}{na^{n-1}}$，有 $\\sqrt[7]{100}=\\sqrt[7]{2^7-28}\\approx2-\\frac{28}{7\\cdot2^6}\\approx1.938$。",
+  "sort_order": 29
+}

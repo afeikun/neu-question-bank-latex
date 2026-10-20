@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)$ 在单连通区域 $D$ 内处处解析且不为零，$C$ 为 $D$ 内任一条正向简单闭曲线，则 $\\oint_C\\frac{\\alpha f^{(m)}(z)+\\beta f^{(n)}(z)}{f(z)}\\,dz$ 等于（ ），其中 $\\alpha,\\beta$ 为常数，$m,n$ 为正整数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "-$\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在 $D$ 内解析，故积分直接得零。",
+  "search_text": "设 $f(z)$ 在单连通区域 $D$ 内处处解析且不为零，$C$ 为 $D$ 内任一条正向简单闭曲线，则 $\\oint_C\\frac{\\alpha f^{(m)}(z)+\\beta f^{(n)}(z)}{f(z)}\\,dz$ 等于（ ），其中 $\\alpha,\\beta$ 为常数，$m,n$ 为正整数。 $0$ -$1$ $\\pi i$ -$\\pi i$ 被积函数在 $D$ 内解析，故积分直接得零。",
+  "sort_order": 72
+}

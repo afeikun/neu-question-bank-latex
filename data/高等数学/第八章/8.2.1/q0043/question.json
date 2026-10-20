@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算由曲面 $z=xy,(x-1)^2+(y-1)^2=1$ 及 $z=0$ 围成的曲顶柱体体积（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\nV=\\int_0^2dy\\int_{1-\\sqrt{2y-y^2}}^{1+\\sqrt{2y-y^2}}xy\\,dx=2\\int_0^2y\\sqrt{2y-y^2}\\,dy\n$$\n\n$$\n=2\\int_0^2(y-1)\\sqrt{2y-y^2}\\,dy+2\\int_0^2\\sqrt{2y-y^2}\\,dy=\\pi\n$$",
+  "search_text": "计算由曲面 $z=xy,(x-1)^2+(y-1)^2=1$ 及 $z=0$ 围成的曲顶柱体体积（ ） $\\frac32\\pi$ $\\frac\\pi2$ $\\pi$ $2\\pi$ $$\nV=\\int_0^2dy\\int_{1-\\sqrt{2y-y^2}}^{1+\\sqrt{2y-y^2}}xy\\,dx=2\\int_0^2y\\sqrt{2y-y^2}\\,dy\n$$\n\n$$\n=2\\int_0^2(y-1)\\sqrt{2y-y^2}\\,dy+2\\int_0^2\\sqrt{2y-y^2}\\,dy=\\pi\n$$",
+  "sort_order": 43
+}

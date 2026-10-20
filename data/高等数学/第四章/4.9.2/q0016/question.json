@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "斜边为定长的直角三角形薄板垂直放置于水中，一直角边与水面相齐，问斜边与水面交成的锐角 $\theta$ 取何值时板所受压力最大？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\theta_0=\\arccos(1/2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\theta_0=\\arccos(\\sqrt3/3)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\theta_0=\\arccos(\\sqrt3/2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\theta_0=\\arccos(1/3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "压力正比于 $\\cos\\theta-\\cos^3\\theta$，令导数为零得到 $\\cos\\theta=\\sqrt3/3$。",
+  "search_text": "斜边为定长的直角三角形薄板垂直放置于水中，一直角边与水面相齐，问斜边与水面交成的锐角 $\theta$ 取何值时板所受压力最大？ $\\theta_0=\\arccos(1/2)$ $\\theta_0=\\arccos(\\sqrt3/3)$ $\\theta_0=\\arccos(\\sqrt3/2)$ $\\theta_0=\\arccos(1/3)$ 压力正比于 $\\cos\\theta-\\cos^3\\theta$，令导数为零得到 $\\cos\\theta=\\sqrt3/3$。",
+  "sort_order": 16
+}

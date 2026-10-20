@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A\\in\\mathbb{R}^{m\\times n}$，$\\alpha,\\beta\\in\\mathbb{R}^n$，则集合 $V_1=\\{(1,x_2,\\ldots,x_n)^T\\mid x_2,\\ldots,x_n\\in\\mathbb{R}\\}$，$V_2=\\{(2,x_2,\\ldots,x_n)^T\\mid x_2,\\ldots,x_n\\in\\mathbb{R}\\}$，$V_3=\\{\\lambda\\alpha-\\mu\\beta\\mid\\lambda,\\mu\\in\\mathbb{R}\\}$，$V_4=\\{x\\mid Ax\\ne0\\}$ 中是线性空间的有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "只有集合 $V_3$ 对线性运算封闭，构成线性空间，所以有 $1$ 个。",
+  "search_text": "设 $A\\in\\mathbb{R}^{m\\times n}$，$\\alpha,\\beta\\in\\mathbb{R}^n$，则集合 $V_1=\\{(1,x_2,\\ldots,x_n)^T\\mid x_2,\\ldots,x_n\\in\\mathbb{R}\\}$，$V_2=\\{(2,x_2,\\ldots,x_n)^T\\mid x_2,\\ldots,x_n\\in\\mathbb{R}\\}$，$V_3=\\{\\lambda\\alpha-\\mu\\beta\\mid\\lambda,\\mu\\in\\mathbb{R}\\}$，$V_4=\\{x\\mid Ax\\ne0\\}$ 中是线性空间的有（ ）。 $4$ 个 $1$ 个 $3$ 个 $2$ 个 只有集合 $V_3$ 对线性运算封闭，构成线性空间，所以有 $1$ 个。",
+  "sort_order": 7
+}

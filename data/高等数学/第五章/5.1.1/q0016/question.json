@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}n/3^n$ 的和为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2/3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4/5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5/6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用等比级数求和，$\\sum_{n=1}^{\\infty} n/3^n=3/4$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}n/3^n$ 的和为？ $2/3$ $3/4$ $4/5$ $5/6$ 利用等比级数求和，$\\sum_{n=1}^{\\infty} n/3^n=3/4$。",
+  "sort_order": 16
+}

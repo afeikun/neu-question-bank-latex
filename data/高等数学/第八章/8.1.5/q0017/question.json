@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平面 $\\frac xa+\\frac yb+\\frac zc=1$ 被三坐标面所截出的有限部分的面积（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12\\sqrt{a^4+b^4+c^4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12abc$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12\\sqrt{a^2b^2+b^2c^2+a^2c^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a^3b^3c^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "平面 $\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1$ 在平面 $xoy$ 上的投影 $D_{xy}$ 为 $\\frac{x}{a}+\\frac{y}{b}=1$，\n\n$$\nS=\\iint_{D_{xy}}\\sqrt{1+z_x^2+z_y^2}\\,dxdy\n=\\sqrt{1+\\frac{c^2}{a^2}+\\frac{c^2}{b^2}}\\iint_{D_{xy}}dxdy\n=\\frac{1}{2}\\sqrt{a^2b^2+b^2c^2+a^2c^2}\n$$",
+  "search_text": "平面 $\\frac xa+\\frac yb+\\frac zc=1$ 被三坐标面所截出的有限部分的面积（ ） $\\frac12\\sqrt{a^4+b^4+c^4}$ $\\frac12abc$ $\\frac12\\sqrt{a^2b^2+b^2c^2+a^2c^2}$ $a^3b^3c^3$ 平面 $\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1$ 在平面 $xoy$ 上的投影 $D_{xy}$ 为 $\\frac{x}{a}+\\frac{y}{b}=1$，\n\n$$\nS=\\iint_{D_{xy}}\\sqrt{1+z_x^2+z_y^2}\\,dxdy\n=\\sqrt{1+\\frac{c^2}{a^2}+\\frac{c^2}{b^2}}\\iint_{D_{xy}}dxdy\n=\\frac{1}{2}\\sqrt{a^2b^2+b^2c^2+a^2c^2}\n$$",
+  "sort_order": 17
+}

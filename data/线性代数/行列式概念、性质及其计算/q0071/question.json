@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}a^3&a&1\\\\b^3&b&1\\\\c^3&c&1\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(a+b+c)(b+c)(c-a)(b-a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(a+b+c)(c-b)(a+c)(b-a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(a+b+c)(c-b)(c-a)(b+a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-(a+b+c)(c-b)(c-a)(b-a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将行列式写成四阶范德蒙德型行列式关于 $x^2$ 的系数，得 $D=-(a+b+c)(c-b)(c-a)(b-a)$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}a^3&a&1\\\\b^3&b&1\\\\c^3&c&1\\end{vmatrix}$ 等于（ ）。 $(a+b+c)(b+c)(c-a)(b-a)$ $(a+b+c)(c-b)(a+c)(b-a)$ $(a+b+c)(c-b)(c-a)(b+a)$ $-(a+b+c)(c-b)(c-a)(b-a)$ 将行列式写成四阶范德蒙德型行列式关于 $x^2$ 的系数，得 $D=-(a+b+c)(c-b)(c-a)(b-a)$。",
+  "sort_order": 71
+}

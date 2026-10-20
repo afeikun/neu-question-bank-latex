@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}\\frac{(2x-1)^{30}(3x-2)^{20}}{(2x+1)^{50}}=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{3^{20}}{2^{50}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\left(\\frac32\\right)^{20}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{3^{20}}{2^{30}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "比较最高次项，极限为 $\\frac{2^{30}3^{20}}{2^{50}}=(\\frac32)^{20}$。",
+  "search_text": "$\\lim_{x\\to\\infty}\\frac{(2x-1)^{30}(3x-2)^{20}}{(2x+1)^{50}}=(\\ )$。 $\\frac{3^{20}}{2^{50}}$ $\\left(\\frac32\\right)^{20}$ $\\frac{3^{20}}{2^{30}}$ 0 比较最高次项，极限为 $\\frac{2^{30}3^{20}}{2^{50}}=(\\frac32)^{20}$。",
+  "sort_order": 31
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\left(\\frac{d^3y}{dx^3}\\right)^2+\\left(\\frac{d^2y}{dx^2}\\right)^2=1$ 满足 $y(0)=0,y\\prime(0)=1,y\\prime\\prime(0)=0$ 的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=2x-\\sin x$ 或 $y=-\\frac12x^2-\\cos x+1$ 或 $y=\\sin x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=2x-\\sin x$ 或 $y=-\\frac12x^2-\\cos x+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=-\\frac12x^2-\\cos x+1$ 或 $y=\\sin x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=2x-\\sin x$ 或 $y=\\sin x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 设 $\\frac{d^2y}{dx^2}=p$，则原方程可化为 $\\frac{dp}{dx}=\\pm(1-p^2)^{\\frac{1}{2}}$。解之 $\\arcsin p=\\pm x+C_1$。由于 $p(0)=\\left.\\frac{d^2y}{dx^2}\\right|_{x=0}=0$，所以 $C_1=0$，所以 $\\frac{d^2y}{dx^2}=\\pm\\sin x$。积分两次有 $y=\\mp\\sin x+C_2x+C_3$。因为 $y(0)=0$，$\\left.\\frac{dy}{dx}\\right|_{x=0}=1$。所以 $y=2x-\\sin x$ 或 $y=\\sin x$。",
+  "search_text": "微分方程 $\\left(\\frac{d^3y}{dx^3}\\right)^2+\\left(\\frac{d^2y}{dx^2}\\right)^2=1$ 满足 $y(0)=0,y\\prime(0)=1,y\\prime\\prime(0)=0$ 的特解为（ ） $y=2x-\\sin x$ 或 $y=-\\frac12x^2-\\cos x+1$ 或 $y=\\sin x$ $y=2x-\\sin x$ 或 $y=-\\frac12x^2-\\cos x+1$ $y=-\\frac12x^2-\\cos x+1$ 或 $y=\\sin x$ $y=2x-\\sin x$ 或 $y=\\sin x$ 解答 设 $\\frac{d^2y}{dx^2}=p$，则原方程可化为 $\\frac{dp}{dx}=\\pm(1-p^2)^{\\frac{1}{2}}$。解之 $\\arcsin p=\\pm x+C_1$。由于 $p(0)=\\left.\\frac{d^2y}{dx^2}\\right|_{x=0}=0$，所以 $C_1=0$，所以 $\\frac{d^2y}{dx^2}=\\pm\\sin x$。积分两次有 $y=\\mp\\sin x+C_2x+C_3$。因为 $y(0)=0$，$\\left.\\frac{dy}{dx}\\right|_{x=0}=1$。所以 $y=2x-\\sin x$ 或 $y=\\sin x$。",
+  "sort_order": 2
+}

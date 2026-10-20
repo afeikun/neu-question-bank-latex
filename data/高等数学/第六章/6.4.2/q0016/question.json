@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $\\frac x0=\\frac y1=\\frac z2$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "过原点且平行于 $x$ 轴"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "过原点且垂直于 $x$ 轴"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "平行于 $x$ 轴但不过原点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "垂直于 $x$ 轴但不过原点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：由直线方程可以看出直线过原点。因直线的方向向量 $\\vec{s}=(0,1,2)$，$x$ 轴上的单位向量 $\\vec{i}=(1,0,0)$，\n而 $\\vec{s}\\cdot\\vec{i}=(0,1,2)\\cdot(1,0,0)=0$，所以 $\\vec{s}\\perp\\vec{i}$，即直线与 $x$ 轴垂直。（或因方向余弦 $\\cos\\alpha=0\\Rightarrow\\alpha=\\frac{\\pi}{2}$，\n所以直线与 $x$ 轴正半轴夹角为 $\\frac{\\pi}{2}$，即直线与 $x$ 轴垂直）。",
+  "search_text": "直线 $\\frac x0=\\frac y1=\\frac z2$(\\quad)。 过原点且平行于 $x$ 轴 过原点且垂直于 $x$ 轴 平行于 $x$ 轴但不过原点 垂直于 $x$ 轴但不过原点 解答：由直线方程可以看出直线过原点。因直线的方向向量 $\\vec{s}=(0,1,2)$，$x$ 轴上的单位向量 $\\vec{i}=(1,0,0)$，\n而 $\\vec{s}\\cdot\\vec{i}=(0,1,2)\\cdot(1,0,0)=0$，所以 $\\vec{s}\\perp\\vec{i}$，即直线与 $x$ 轴垂直。（或因方向余弦 $\\cos\\alpha=0\\Rightarrow\\alpha=\\frac{\\pi}{2}$，\n所以直线与 $x$ 轴正半轴夹角为 $\\frac{\\pi}{2}$，即直线与 $x$ 轴垂直）。",
+  "sort_order": 16
+}

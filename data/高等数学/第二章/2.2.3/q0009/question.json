@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列各式中正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin x\\,dx=d(\\cos x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin2x\\,dx=d(\\sin^2x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$dx/\\sqrt{x}=d(\\sqrt{x})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{2x}dx/2=d(e^{2x})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$d(\\sin^2x)=2\\sin x\\cos x\\,dx=\\sin2x\\,dx$。",
+  "search_text": "下列各式中正确的是（ ）。 $\\sin x\\,dx=d(\\cos x)$ $\\sin2x\\,dx=d(\\sin^2x)$ $dx/\\sqrt{x}=d(\\sqrt{x})$ $e^{2x}dx/2=d(e^{2x})$ $d(\\sin^2x)=2\\sin x\\cos x\\,dx=\\sin2x\\,dx$。",
+  "sort_order": 9
+}

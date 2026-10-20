@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime=\\frac{xy}{1+x^2}$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=xy^2+x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C\\sqrt{1+x^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\arctan x+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=2x^2+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $\\frac{dy}{y}=\\frac{x}{1+x^2}\\,dx$。两边积分得\n\n$\\ln y=\\frac{1}{2}\\ln(1+x^2)+\\ln C,\\quad y=C\\sqrt{1+x^2}$。",
+  "search_text": "微分方程 $y\\prime=\\frac{xy}{1+x^2}$ 的通解为（ ） $y=xy^2+x+C$ $y=C\\sqrt{1+x^2}$ $y=\\arctan x+C$ $y=2x^2+C$ 由 $\\frac{dy}{y}=\\frac{x}{1+x^2}\\,dx$。两边积分得\n\n$\\ln y=\\frac{1}{2}\\ln(1+x^2)+\\ln C,\\quad y=C\\sqrt{1+x^2}$。",
+  "sort_order": 1
+}

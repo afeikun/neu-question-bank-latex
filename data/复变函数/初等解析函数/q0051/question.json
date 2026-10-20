@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(\\sqrt3+i)^i=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-\\frac{(2k+1)\\pi}{6}}(\\cos\\ln2+i\\sin\\ln2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-\\pi/4}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-\\frac{(2k+1)\\pi}{4}}(\\cos\\ln2+i\\sin\\ln2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-(2k+\\frac12)\\pi}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "源解析将底数写为 $2e^{i\\pi/6}$ 并代入复幂定义。",
+  "search_text": "$(\\sqrt3+i)^i=(\\ )$。 $e^{-\\frac{(2k+1)\\pi}{6}}(\\cos\\ln2+i\\sin\\ln2)$ $e^{-\\pi/4}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$ $e^{-\\frac{(2k+1)\\pi}{4}}(\\cos\\ln2+i\\sin\\ln2)$ $e^{-(2k+\\frac12)\\pi}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$ 源解析将底数写为 $2e^{i\\pi/6}$ 并代入复幂定义。",
+  "sort_order": 51
+}

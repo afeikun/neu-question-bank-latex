@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为包含 $0,1$ 不包含 $-1$ 的正向简单闭曲线，则 $\\oint_C\\frac{\\sin z}{z(z^2-1)}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi i\\sin1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i\\cos1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$0,1$ 两处留数相加得 $\\frac12\\sin1$，积分为 $\\pi i\\sin1$。",
+  "search_text": "设 $C$ 为包含 $0,1$ 不包含 $-1$ 的正向简单闭曲线，则 $\\oint_C\\frac{\\sin z}{z(z^2-1)}\\,dz=(\\quad)$。 $\\pi i\\sin1$ $-1$ $0$ $\\pi i\\cos1$ $0,1$ 两处留数相加得 $\\frac12\\sin1$，积分为 $\\pi i\\sin1$。",
+  "sort_order": 37
+}

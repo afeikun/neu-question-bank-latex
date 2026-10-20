@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 为球面 $x^2+y^2+z^2=1$ 及三个坐标面围成第一卦限区域，则 $\\iiint_\\Omega xyz dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{48}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{12}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{64}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原式 $=\\int_0^1 dx\\int_0^{\\sqrt{1-x^2}}dy\\int_0^{\\sqrt{1-x^2-y^2}}xyz dz$\n\n$$\n=\\int_0^1 dx\\int_0^{\\sqrt{1-x^2}}\\frac{1}{2}xy(1-x^2-y^2)dy\n$$\n\n$$\n=\\int_0^1\\frac{1}{8}x(1-x^2)^2 dx\n$$\n\n$$\n=\\frac{1}{48}\n$$",
+  "search_text": "$\\Omega$ 为球面 $x^2+y^2+z^2=1$ 及三个坐标面围成第一卦限区域，则 $\\iiint_\\Omega xyz dv$ 的值为（ ） $\\frac1{48}$ $\\frac16$ $\\frac1{12}$ $\\frac1{64}$ 原式 $=\\int_0^1 dx\\int_0^{\\sqrt{1-x^2}}dy\\int_0^{\\sqrt{1-x^2-y^2}}xyz dz$\n\n$$\n=\\int_0^1 dx\\int_0^{\\sqrt{1-x^2}}\\frac{1}{2}xy(1-x^2-y^2)dy\n$$\n\n$$\n=\\int_0^1\\frac{1}{8}x(1-x^2)^2 dx\n$$\n\n$$\n=\\frac{1}{48}\n$$",
+  "sort_order": 32
+}

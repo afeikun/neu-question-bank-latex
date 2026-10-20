@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\left|\\dfrac{(3+4i)(1+i)^6}{i^5(2+4i)^2}\\right|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "用 $|i|=1$、$|2+4i|=2\\sqrt5$、$|1+i|=\\sqrt2$、$|3+4i|=5$ 化简得 $2$。",
+  "search_text": "$\\left|\\dfrac{(3+4i)(1+i)^6}{i^5(2+4i)^2}\\right|=(\\quad)$。 $2$ $4$ $5$ $8$ 用 $|i|=1$、$|2+4i|=2\\sqrt5$、$|1+i|=\\sqrt2$、$|3+4i|=5$ 化简得 $2$。",
+  "sort_order": 49
+}

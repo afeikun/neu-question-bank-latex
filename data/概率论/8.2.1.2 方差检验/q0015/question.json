@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n=100,\\bar x=2.7,\\sum(X_i-\\bar X)^2=225$，下列说法不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "方差双侧检验统计量$99S^2/2.5$，接受$H_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "均值检验统计量为t分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "方差检验自由度99"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "样本方差$225/99$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "检验统计量为90，位于方差双侧接受域内，应接受$H_0$，故选项1不正确。",
+  "search_text": "$n=100,\\bar x=2.7,\\sum(X_i-\\bar X)^2=225$，下列说法不正确的是（）。 方差双侧检验统计量$99S^2/2.5$，接受$H_1$ 均值检验统计量为t分布 方差检验自由度99 样本方差$225/99$ 检验统计量为90，位于方差双侧接受域内，应接受$H_0$，故选项1不正确。",
+  "sort_order": 15
+}

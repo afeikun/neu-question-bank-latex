@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n$ 阶行列式 $D=\\begin{vmatrix}1&1&1&1&\\cdots&1\\\\1&0&1&1&\\cdots&1\\\\1&1&0&1&\\cdots&1\\\\\\vdots&\\vdots&\\vdots&\\ddots&\\vdots&\\vdots\\\\1&1&1&1&\\cdots&0\\end{vmatrix}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1)^{n-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "将第一行分别减去其余各行，按所得行列式计算可得 $D=(-1)^{n-1}$。",
+  "search_text": "$n$ 阶行列式 $D=\\begin{vmatrix}1&1&1&1&\\cdots&1\\\\1&0&1&1&\\cdots&1\\\\1&1&0&1&\\cdots&1\\\\\\vdots&\\vdots&\\vdots&\\ddots&\\vdots&\\vdots\\\\1&1&1&1&\\cdots&0\\end{vmatrix}$ 的值为（ ）。 $1$ $-1$ $0$ $(-1)^{n-1}$ 将第一行分别减去其余各行，按所得行列式计算可得 $D=(-1)^{n-1}$。",
+  "sort_order": 13
+}

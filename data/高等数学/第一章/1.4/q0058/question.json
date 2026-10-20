@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\lim_{x\\to2}\\frac{x^2+ax+b}{x^2-x-2}=2$，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=2,b=-8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=0,b=8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=2,b=8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=2,b=5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分子须在 $x=2$ 时为零，约分后要求另一个根为 $-4$，解得 $a=2,b=-8$。",
+  "search_text": "若 $\\lim_{x\\to2}\\frac{x^2+ax+b}{x^2-x-2}=2$，则必有（ ）。 $a=2,b=-8$ $a=0,b=8$ $a=2,b=8$ $a=2,b=5$ 分子须在 $x=2$ 时为零，约分后要求另一个根为 $-4$，解得 $a=2,b=-8$。",
+  "sort_order": 58
+}

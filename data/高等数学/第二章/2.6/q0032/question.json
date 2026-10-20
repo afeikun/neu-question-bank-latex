@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=t\\cos t,y=t\\sin t$，求 $t=\\frac\\pi2$ 处切线方程。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y-\\frac\\pi2=\\frac\\pi2x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y+\\frac\\pi2=-\\frac\\pi2x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y+\\frac\\pi2=\\frac\\pi2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y-\\frac\\pi2=-\\frac\\pi2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\cos t-t\\sin t,\\quad \\frac{dy}{dt}=\\sin t+t\\cos t,\\quad \\left.\\frac{dy}{dx}\\right|_{t=\\frac{\\pi}{2}}=\\left.\\frac{dy/dt}{dx/dt}\\right|_{t=\\frac{\\pi}{2}}=\\left.\\frac{\\sin t+t\\cos t}{\\cos t-t\\sin t}\\right|_{t=\\frac{\\pi}{2}}=-\\frac{2}{\\pi}.$$\n\n带入初值可得 $y\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi}{2},x\\left(\\frac{\\pi}{2}\\right)=0$ 则切线方程为 $y-\\frac{\\pi}{2}=-\\frac{\\pi}{2}x$",
+  "search_text": "$x=t\\cos t,y=t\\sin t$，求 $t=\\frac\\pi2$ 处切线方程。 $y-\\frac\\pi2=\\frac\\pi2x$ $y+\\frac\\pi2=-\\frac\\pi2x$ $y+\\frac\\pi2=\\frac\\pi2x$ $y-\\frac\\pi2=-\\frac\\pi2x$ 解答方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\cos t-t\\sin t,\\quad \\frac{dy}{dt}=\\sin t+t\\cos t,\\quad \\left.\\frac{dy}{dx}\\right|_{t=\\frac{\\pi}{2}}=\\left.\\frac{dy/dt}{dx/dt}\\right|_{t=\\frac{\\pi}{2}}=\\left.\\frac{\\sin t+t\\cos t}{\\cos t-t\\sin t}\\right|_{t=\\frac{\\pi}{2}}=-\\frac{2}{\\pi}.$$\n\n带入初值可得 $y\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi}{2},x\\left(\\frac{\\pi}{2}\\right)=0$ 则切线方程为 $y-\\frac{\\pi}{2}=-\\frac{\\pi}{2}x$",
+  "sort_order": 32
+}

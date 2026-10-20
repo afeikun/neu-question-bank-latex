@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0$ 时 $f(x)=x-(a+b\\cos x)\\sin x$ 是关于 $x$ 的 5 阶无穷小，则 $a,b$ 为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=-\\frac43,b=-\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=-\\frac43,b=\\frac13$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=\\frac43,b=\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=\\frac43,b=-\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "展开得 $f(x)=(1-a-b)x+(\\frac a6+\\frac{2b}3)x^3+O(x^5)$；令一次、三次项系数为零，得 $a=\\frac43,b=-\\frac13$。",
+  "search_text": "当 $x\\to0$ 时 $f(x)=x-(a+b\\cos x)\\sin x$ 是关于 $x$ 的 5 阶无穷小，则 $a,b$ 为 $(\\quad)$。 $a=-\\frac43,b=-\\frac13$ $a=-\\frac43,b=\\frac13$ $a=\\frac43,b=\\frac13$ $a=\\frac43,b=-\\frac13$ 展开得 $f(x)=(1-a-b)x+(\\frac a6+\\frac{2b}3)x^3+O(x^5)$；令一次、三次项系数为零，得 $a=\\frac43,b=-\\frac13$。",
+  "sort_order": 3
+}

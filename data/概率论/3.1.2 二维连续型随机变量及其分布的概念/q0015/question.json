@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "联合分布函数$F(x,y)=P(\\xi<x,\\eta<y)$，求事件$\\xi\\ge2,\\eta\\ge3$概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-F(2,+\\infty)-F(+\\infty,3)+F(2,3)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(2,3)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(2,+\\infty)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-F(2,3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "用容斥得$1-F(2,+\\infty)-F(+\\infty,3)+F(2,3)$。",
+  "search_text": "联合分布函数$F(x,y)=P(\\xi<x,\\eta<y)$，求事件$\\xi\\ge2,\\eta\\ge3$概率。 $1-F(2,+\\infty)-F(+\\infty,3)+F(2,3)$ $F(2,3)$ $F(2,+\\infty)$ $1-F(2,3)$ 用容斥得$1-F(2,+\\infty)-F(+\\infty,3)+F(2,3)$。",
+  "sort_order": 15
+}

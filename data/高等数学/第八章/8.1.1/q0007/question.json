@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\frac{n}{(n+i)(n^2+j^2)}=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dx\\int_0^1\\frac{1}{(1+x)(1+y)}\\,dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1dx\\int_0^1\\frac{1}{(1+x)(1+y^2)}\\,dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dx\\int_0^1\\frac{x}{(1+x)(1+y^2)}\\,dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dx\\int_0^x\\frac{1}{(1+x)(1+y)}\\,dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\\begin{aligned}\n&\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\frac{n}{(n+i)(n^2+j^2)}\\\\\n={}&\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\frac{n}{n\\left(1+\\frac{i}{n}\\right)n^2\\left[1+\\left(\\frac{j}{n}\\right)^2\\right]}\\\\\n={}&\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\frac{1}{n^2}\\cdot\\frac{1}{1+\\frac{i}{n}}\\cdot\\frac{1}{1+\\left(\\frac{j}{n}\\right)^2}\\\\\n={}&\\int_0^1dx\\int_0^1\\frac{1}{(1+x)(1+y^2)}dy.\n\\end{aligned}$$",
+  "search_text": "$\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\frac{n}{(n+i)(n^2+j^2)}=（ ）$ $\\int_0^1dx\\int_0^1\\frac{1}{(1+x)(1+y)}\\,dy$ $\\int_0^1dx\\int_0^1\\frac{1}{(1+x)(1+y^2)}\\,dy$ $\\int_0^1dx\\int_0^1\\frac{x}{(1+x)(1+y^2)}\\,dy$ $\\int_0^1dx\\int_0^x\\frac{1}{(1+x)(1+y)}\\,dy$ $$\\begin{aligned}\n&\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\frac{n}{(n+i)(n^2+j^2)}\\\\\n={}&\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\frac{n}{n\\left(1+\\frac{i}{n}\\right)n^2\\left[1+\\left(\\frac{j}{n}\\right)^2\\right]}\\\\\n={}&\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sum_{j=1}^{n}\\frac{1}{n^2}\\cdot\\frac{1}{1+\\frac{i}{n}}\\cdot\\frac{1}{1+\\left(\\frac{j}{n}\\right)^2}\\\\\n={}&\\int_0^1dx\\int_0^1\\frac{1}{(1+x)(1+y^2)}dy.\n\\end{aligned}$$",
+  "sort_order": 7
+}

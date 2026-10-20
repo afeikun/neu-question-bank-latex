@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设随机事件 $A$ 与 $B$ 互不相容，$P(A)>0$，$P(B)>0$，则(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\overline{AB})=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A)=1-P(B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(AB)=P(A)P(B)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(A\\cup B)=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为 $A$ 与 $B$ 互不相容，所以 $AB=\\varnothing$，从而 $P(\\overline{AB})=1$。",
+  "search_text": "设随机事件 $A$ 与 $B$ 互不相容，$P(A)>0$，$P(B)>0$，则(\\quad)。 $P(\\overline{AB})=1$ $P(A)=1-P(B)$ $P(AB)=P(A)P(B)$ $P(A\\cup B)=1$ 因为 $A$ 与 $B$ 互不相容，所以 $AB=\\varnothing$，从而 $P(\\overline{AB})=1$。",
+  "sort_order": 11
+}

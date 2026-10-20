@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一曲线经过 $(\\pi,1)$ 点，且在 $(x,y)$ 处的切线为 $\\frac1x(\\sin x-y)$，则该曲线方程为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac1x(-\\cos x+\\pi-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac1x(-\\sin x-\\pi+1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1x(-\\cos x-\\pi+1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac1x(-\\sin x+\\pi-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "根据题意列出下列初值问题\n\n$$\\begin{cases}\\frac{dy}{dx}=\\frac{1}{x}(\\sin x-y)\\\\y(\\pi)=1\\end{cases}$$\n\n方程写成 $\\frac{dy}{dx}+\\frac{1}{x}y=\\frac{1}{x}\\sin x$\n\n通解为 $y=\\frac{1}{x}(-\\cos x+C)$\n\n代入条件 $x=\\pi$ 时，$y=1$。得 $C=\\pi-1$",
+  "search_text": "一曲线经过 $(\\pi,1)$ 点，且在 $(x,y)$ 处的切线为 $\\frac1x(\\sin x-y)$，则该曲线方程为（ ） $y=\\frac1x(-\\cos x+\\pi-1)$ $y=\\frac1x(-\\sin x-\\pi+1)$ $y=\\frac1x(-\\cos x-\\pi+1)$ $y=\\frac1x(-\\sin x+\\pi-1)$ 根据题意列出下列初值问题\n\n$$\\begin{cases}\\frac{dy}{dx}=\\frac{1}{x}(\\sin x-y)\\\\y(\\pi)=1\\end{cases}$$\n\n方程写成 $\\frac{dy}{dx}+\\frac{1}{x}y=\\frac{1}{x}\\sin x$\n\n通解为 $y=\\frac{1}{x}(-\\cos x+C)$\n\n代入条件 $x=\\pi$ 时，$y=1$。得 $C=\\pi-1$",
+  "sort_order": 14
+}

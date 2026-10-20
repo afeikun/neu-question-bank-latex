@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\displaystyle\\lim_{x\\to0^+}\\left(\\frac{a^x+b^x+c^x}{3}\\right)^{1/x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{abc}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1a+\\frac1b+\\frac1c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sqrt{abc}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt[3]{abc}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "取对数并用 $a^x=1+x\\ln a+o(x)$ 等展开，得对数极限为 $\\frac{\\ln a+\\ln b+\\ln c}{3}$，故结果为 $\\sqrt[3]{abc}$。",
+  "search_text": "$\\displaystyle\\lim_{x\\to0^+}\\left(\\frac{a^x+b^x+c^x}{3}\\right)^{1/x}=(\\quad)$。 $\\sqrt{abc}$ $\\frac1a+\\frac1b+\\frac1c$ $\\frac1{\\sqrt{abc}}$ $\\sqrt[3]{abc}$ 取对数并用 $a^x=1+x\\ln a+o(x)$ 等展开，得对数极限为 $\\frac{\\ln a+\\ln b+\\ln c}{3}$，故结果为 $\\sqrt[3]{abc}$。",
+  "sort_order": 3
+}

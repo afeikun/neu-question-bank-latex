@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设区域 $D:x\\leq y\\leq2x,2\\leq x\\leq4$，则 $I=\\iint_Df(x,y)d\\sigma$ 写成先对 $y$ 后对 $x$ 的二次积分时，$I=[\\quad]$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_1^2dx\\int_0^{2x}f(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_x^{2x}dx\\int_2^4f(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_2^4dx\\int_x^{x^2}f(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_2^4dx\\int_x^{2x}f(x,y)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由题意可得 $I=\\int_2^4dx\\int_x^{2x}f(x,y)dy$。",
+  "search_text": "设区域 $D:x\\leq y\\leq2x,2\\leq x\\leq4$，则 $I=\\iint_Df(x,y)d\\sigma$ 写成先对 $y$ 后对 $x$ 的二次积分时，$I=[\\quad]$ $\\int_1^2dx\\int_0^{2x}f(x,y)dy$ $\\int_x^{2x}dx\\int_2^4f(x,y)dy$ $\\int_2^4dx\\int_x^{x^2}f(x,y)dy$ $\\int_2^4dx\\int_x^{2x}f(x,y)dy$ 解答 由题意可得 $I=\\int_2^4dx\\int_x^{2x}f(x,y)dy$。",
+  "sort_order": 31
+}

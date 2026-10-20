@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=(a_{ij})_{3\\times3}$，$B=\\begin{bmatrix}a_{21}&a_{22}+ka_{23}&a_{23}\\\\a_{31}&a_{32}+ka_{33}&a_{33}\\\\a_{11}&a_{12}+ka_{13}&a_{13}\\end{bmatrix}$，$P_1=\\begin{bmatrix}0&1&0\\\\0&0&1\\\\1&0&0\\end{bmatrix}$，$P_2=\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&k&1\\end{bmatrix}$，则 $A$ 等于(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P_1^{-1}P_2^{-1}B$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$BP_1^{-1}P_2^{-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$BP_1^{-1}P_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P_1^{-1}BP_2^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由 $B=P_1AP_2$，解出 $A=P_1^{-1}BP_2^{-1}$，选项 4。",
+  "search_text": "设矩阵 $A=(a_{ij})_{3\\times3}$，$B=\\begin{bmatrix}a_{21}&a_{22}+ka_{23}&a_{23}\\\\a_{31}&a_{32}+ka_{33}&a_{33}\\\\a_{11}&a_{12}+ka_{13}&a_{13}\\end{bmatrix}$，$P_1=\\begin{bmatrix}0&1&0\\\\0&0&1\\\\1&0&0\\end{bmatrix}$，$P_2=\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&k&1\\end{bmatrix}$，则 $A$ 等于(\\quad)。 $P_1^{-1}P_2^{-1}B$ $BP_1^{-1}P_2^{-1}$ $BP_1^{-1}P_2$ $P_1^{-1}BP_2^{-1}$ 由 $B=P_1AP_2$，解出 $A=P_1^{-1}BP_2^{-1}$，选项 4。",
+  "sort_order": 48
+}

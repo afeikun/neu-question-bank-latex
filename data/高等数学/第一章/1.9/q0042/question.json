@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)=\\frac{e^x-b}{(x-a)(x-1)}$ 在点 $x=0$ 处有无穷间断点，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=0,b=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=1,b=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=1,b\\ne0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=0,b\\ne1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$x=0$ 处发散要求 $a=0$，且分子在 $x=0$ 不为零，即 $b\\ne1$。",
+  "search_text": "设函数 $f(x)=\\frac{e^x-b}{(x-a)(x-1)}$ 在点 $x=0$ 处有无穷间断点，则（ ）。 $a=0,b=1$ $a=1,b=0$ $a=1,b\\ne0$ $a=0,b\\ne1$ $x=0$ 处发散要求 $a=0$，且分子在 $x=0$ 不为零，即 $b\\ne1$。",
+  "sort_order": 42
+}

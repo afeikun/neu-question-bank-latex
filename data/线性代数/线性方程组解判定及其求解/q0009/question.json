@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "齐次线性方程组 $\\begin{cases}\\lambda x_1+x_2+\\lambda^2x_3=0,\\\\x_1+\\lambda x_2+x_3=0,\\\\x_1+x_2+\\lambda x_3=0\\end{cases}$ 的系数矩阵记为 $A$，若存在三阶矩阵 $B\\ne0$，使得 $AB=0$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda=1$ 且 $|B|\\ne0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda=-2$ 且 $|B|=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda=-2$ 且 $|B|\\ne0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda=1$ 且 $|B|=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当 $\\lambda\\ne1$ 时，$r(A)=3$，与齐次方程组有非零解矛盾，所以 $\\lambda=1$。此时 $r(A)=1$，由 $AB=0$ 知 $r(B)\\le2$，故 $|B|=0$。",
+  "search_text": "齐次线性方程组 $\\begin{cases}\\lambda x_1+x_2+\\lambda^2x_3=0,\\\\x_1+\\lambda x_2+x_3=0,\\\\x_1+x_2+\\lambda x_3=0\\end{cases}$ 的系数矩阵记为 $A$，若存在三阶矩阵 $B\\ne0$，使得 $AB=0$，则（ ）。 $\\lambda=1$ 且 $|B|\\ne0$ $\\lambda=-2$ 且 $|B|=0$ $\\lambda=-2$ 且 $|B|\\ne0$ $\\lambda=1$ 且 $|B|=0$ 当 $\\lambda\\ne1$ 时，$r(A)=3$，与齐次方程组有非零解矛盾，所以 $\\lambda=1$。此时 $r(A)=1$，由 $AB=0$ 知 $r(B)\\le2$，故 $|B|=0$。",
+  "sort_order": 9
+}

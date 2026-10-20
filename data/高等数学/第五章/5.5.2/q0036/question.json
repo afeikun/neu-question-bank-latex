@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $1/(x^2-x-2)$ 在 $x=1$ 展开成幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13\\sum_{n=0}^{\\infty}[(-1)^n/2^{n+1}-1](x-1)^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12\\sum_{n=0}^{\\infty}(-1)^n((x-1)/2)^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13\\sum_{n=0}^{\\infty}[(-1)^n/2^{n+1}-1](x-1)^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n((x-1)/2)^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分解为 $\\frac13(1/(x-2)-1/(x+1))$ 再分别展开。",
+  "search_text": "将 $1/(x^2-x-2)$ 在 $x=1$ 展开成幂级数。 $\\frac13\\sum_{n=0}^{\\infty}[(-1)^n/2^{n+1}-1](x-1)^n$ $\\frac12\\sum_{n=0}^{\\infty}(-1)^n((x-1)/2)^n$ $\\frac13\\sum_{n=0}^{\\infty}[(-1)^n/2^{n+1}-1](x-1)^n$ $\\sum_{n=0}^{\\infty}(-1)^n((x-1)/2)^n$ 分解为 $\\frac13(1/(x-2)-1/(x+1))$ 再分别展开。",
+  "sort_order": 36
+}

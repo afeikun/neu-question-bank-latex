@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\vec a=(2,1,-1)$，$\\vec a\\parallel\\vec b$，且 $\\vec a\\cdot\\vec b=3$，则 $\\vec b=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1,-\\frac12,-\\frac12)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1,\\frac12,\\frac12)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1,-\\frac12,\\frac12)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1,\\frac12,-\\frac12)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $\\vec b=\\lambda\\vec a$。由 $\\vec a\\cdot\\vec b=\\lambda|\\vec a|^2=6\\lambda=3$，得 $\\lambda=\\frac12$。",
+  "search_text": "已知 $\\vec a=(2,1,-1)$，$\\vec a\\parallel\\vec b$，且 $\\vec a\\cdot\\vec b=3$，则 $\\vec b=(\\quad)$。 $(1,-\\frac12,-\\frac12)$ $(1,\\frac12,\\frac12)$ $(1,-\\frac12,\\frac12)$ $(1,\\frac12,-\\frac12)$ 设 $\\vec b=\\lambda\\vec a$。由 $\\vec a\\cdot\\vec b=\\lambda|\\vec a|^2=6\\lambda=3$，得 $\\lambda=\\frac12$。",
+  "sort_order": 11
+}

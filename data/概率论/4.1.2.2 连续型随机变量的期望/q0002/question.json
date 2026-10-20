@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "南方人身高$\\xi$、北方人身高$\\eta$，通常说“北方人比南方人高”的含义是。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$E(\\eta)>E(\\xi)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\eta>\\xi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(\\eta)>D(\\xi)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\operatorname{cov}(\\xi,\\eta)>0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "这句话指总体平均身高更高，即$E(\\eta)>E(\\xi)$。",
+  "search_text": "南方人身高$\\xi$、北方人身高$\\eta$，通常说“北方人比南方人高”的含义是。 $E(\\eta)>E(\\xi)$ $\\eta>\\xi$ $D(\\eta)>D(\\xi)$ $\\operatorname{cov}(\\xi,\\eta)>0$ 这句话指总体平均身高更高，即$E(\\eta)>E(\\xi)$。",
+  "sort_order": 2
+}

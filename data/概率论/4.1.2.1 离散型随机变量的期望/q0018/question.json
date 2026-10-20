@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "7台电视机有2台次品，随机取3台，求次品数$X$期望。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$6/7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5/7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4/7$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "超几何分布期望$nK/N=3\\cdot2/7=6/7$。",
+  "search_text": "7台电视机有2台次品，随机取3台，求次品数$X$期望。 $6/7$ $5/7$ $4/7$ $3/7$ 超几何分布期望$nK/N=3\\cdot2/7=6/7$。",
+  "sort_order": 18
+}

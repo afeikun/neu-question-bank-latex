@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若∫₁^∞f²(x)dx收敛，则I=∫₁^∞f(x)/x dx的敛散性",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无法判断"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由|f/x|≤(f²+x⁻²)/2，积分绝对收敛。",
+  "search_text": "若∫₁^∞f²(x)dx收敛，则I=∫₁^∞f(x)/x dx的敛散性 无法判断 绝对收敛 条件收敛 发散 由|f/x|≤(f²+x⁻²)/2，积分绝对收敛。",
+  "sort_order": 10
+}

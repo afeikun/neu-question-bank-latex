@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to a$ 时，$f(x),g(x)$ 分别是 $x-a$ 的 $n$ 阶与 $m$ 阶无穷小，则下列命题中正确的个数是（ ）：①$fg$ 为 $n+m$ 阶；②若 $n>m$，$f/g$ 为 $n-m$ 阶；③若 $n\\le m$，$f+g$ 为 $n$ 阶。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "①②正确；③在 $n=m$ 时可能抵消，因此正确命题数为 2。",
+  "search_text": "当 $x\\to a$ 时，$f(x),g(x)$ 分别是 $x-a$ 的 $n$ 阶与 $m$ 阶无穷小，则下列命题中正确的个数是（ ）：①$fg$ 为 $n+m$ 阶；②若 $n>m$，$f/g$ 为 $n-m$ 阶；③若 $n\\le m$，$f+g$ 为 $n$ 阶。 1 0 3 2 ①②正确；③在 $n=m$ 时可能抵消，因此正确命题数为 2。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int\\sqrt{a^2-x^2}\\,dx$（$a>0$）的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac a2\\arcsin\\frac xa+\\frac12x\\sqrt{a^2-x^2}+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{a^2}2\\arcsin\\frac xa+\\frac12x\\sqrt{a^2-x^2}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac a2\\arcsin\\frac xa-\\frac12x\\sqrt{a^2-x^2}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{a^2}2\\arcsin\\frac xa-\\frac12x\\sqrt{a^2-x^2}+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $x=a\\sin t$，积分化为 $\\frac{a^2}{2}(t+\\sin t\\cos t)+C$，即 $\\frac{a^2}2\\arcsin\\frac xa+\\frac12x\\sqrt{a^2-x^2}+C$。",
+  "search_text": "$\\int\\sqrt{a^2-x^2}\\,dx$（$a>0$）的值为 $\\frac a2\\arcsin\\frac xa+\\frac12x\\sqrt{a^2-x^2}+C$ $\\frac{a^2}2\\arcsin\\frac xa+\\frac12x\\sqrt{a^2-x^2}+C$ $\\frac a2\\arcsin\\frac xa-\\frac12x\\sqrt{a^2-x^2}+C$ $\\frac{a^2}2\\arcsin\\frac xa-\\frac12x\\sqrt{a^2-x^2}+C$ 令 $x=a\\sin t$，积分化为 $\\frac{a^2}{2}(t+\\sin t\\cos t)+C$，即 $\\frac{a^2}2\\arcsin\\frac xa+\\frac12x\\sqrt{a^2-x^2}+C$。",
+  "sort_order": 13
+}

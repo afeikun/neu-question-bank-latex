@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\iint_\\Sigma(x^2+y^2)\\,dS$，$\\Sigma:z=\\sqrt{a^2-x^2-y^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{4\\pi a^4}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{4\\pi a^3}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi a^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：$z=\\sqrt{a^2-x^2-y^2}$，投影区域为 $D:x^2+y^2\\leq a^2$。\n\n$$\\iint_\\Sigma(x^2+y^2)\\,dS=\\iint_D(x^2+y^2)\\frac{a}{\\sqrt{a^2-x^2-y^2}}\\,dxdy=a\\int_0^{2\\pi}d\\theta\\int_0^a\\frac{r^3}{\\sqrt{a^2-r^2}}\\,dr=\\frac{4\\pi a^4}{3}$$",
+  "search_text": "求 $\\iint_\\Sigma(x^2+y^2)\\,dS$，$\\Sigma:z=\\sqrt{a^2-x^2-y^2}$。 $\\frac{4\\pi a^4}{3}$ $4\\pi a^3$ $\\frac{4\\pi a^3}{3}$ $4\\pi a^4$ 解答：$z=\\sqrt{a^2-x^2-y^2}$，投影区域为 $D:x^2+y^2\\leq a^2$。\n\n$$\\iint_\\Sigma(x^2+y^2)\\,dS=\\iint_D(x^2+y^2)\\frac{a}{\\sqrt{a^2-x^2-y^2}}\\,dxdy=a\\int_0^{2\\pi}d\\theta\\int_0^a\\frac{r^3}{\\sqrt{a^2-r^2}}\\,dr=\\frac{4\\pi a^4}{3}$$",
+  "sort_order": 10
+}

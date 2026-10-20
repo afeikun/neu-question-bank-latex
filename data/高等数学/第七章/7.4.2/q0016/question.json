@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(u)$ 可导，$z=xf(u)$，$u=\\frac yx$，求 $z_x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(\\frac xy)+\\frac{2y}{3x}f'(\\frac xy)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(\\frac xy)+\\frac xy f'(\\frac xy)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f'(\\frac yx)-\\frac{y^2}{x}f(\\frac yx)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(\\frac yx)-\\frac yx f'(\\frac yx)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\\frac{\\partial z}{\\partial x}=f(u)+xf'(u)\\cdot\\left(-\\frac{y}{x^2}\\right)=f\\left(\\frac{y}{x}\\right)-\\frac{y}{x}f'\\left(\\frac{y}{x}\\right)$$",
+  "search_text": "设 $f(u)$ 可导，$z=xf(u)$，$u=\\frac yx$，求 $z_x$。 $f(\\frac xy)+\\frac{2y}{3x}f'(\\frac xy)$ $f(\\frac xy)+\\frac xy f'(\\frac xy)$ $f'(\\frac yx)-\\frac{y^2}{x}f(\\frac yx)$ $f(\\frac yx)-\\frac yx f'(\\frac yx)$ $$\\frac{\\partial z}{\\partial x}=f(u)+xf'(u)\\cdot\\left(-\\frac{y}{x^2}\\right)=f\\left(\\frac{y}{x}\\right)-\\frac{y}{x}f'\\left(\\frac{y}{x}\\right)$$",
+  "sort_order": 16
+}

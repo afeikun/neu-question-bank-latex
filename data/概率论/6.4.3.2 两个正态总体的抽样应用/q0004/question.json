@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在下列结果中不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若$X_i$来自$N(\\mu,\\sigma^2)$样本，则$\\sum (X_i-\\bar X)^2/\\sigma^2\\sim\\chi^2(n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "独立标准正态$X,Y$满足$X^2+Y^2\\sim\\chi^2(2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若$X\\sim\\chi^2(10)$且$X^2+Y^2\\sim\\chi^2(15)$并独立，则$Y\\sim\\chi^2(5)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "两个正态样本方差比服从$F(n-1,n-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本残差平方和除以总体方差服从自由度$n-1$的卡方分布，不是$n$。",
+  "search_text": "在下列结果中不正确的是（）。 若$X_i$来自$N(\\mu,\\sigma^2)$样本，则$\\sum (X_i-\\bar X)^2/\\sigma^2\\sim\\chi^2(n)$ 独立标准正态$X,Y$满足$X^2+Y^2\\sim\\chi^2(2)$ 若$X\\sim\\chi^2(10)$且$X^2+Y^2\\sim\\chi^2(15)$并独立，则$Y\\sim\\chi^2(5)$ 两个正态样本方差比服从$F(n-1,n-1)$ 样本残差平方和除以总体方差服从自由度$n-1$的卡方分布，不是$n$。",
+  "sort_order": 4
+}

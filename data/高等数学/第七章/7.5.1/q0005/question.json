@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=x(y,z),\\ y=y(x,z),\\ z=z(x,y)$ 都是由方程 $F(x,y,z)=0$ 所确定的具有连续偏导数的函数，则\n\\[\n\\frac{\\partial x}{\\partial y}\\cdot\\frac{\\partial y}{\\partial z}\\cdot\\frac{\\partial z}{\\partial x}=(\\quad)\n\\]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$F(x,y,z)=0$ 可确定隐函数 $z=z(x,y)$，\n\n则：$F'_x(x,y,z)=0\\Rightarrow F'_1(x,y,z)\\cdot1+F'_2(x,y,z)\\cdot0+F'_3(x,y,z)\\cdot z_x=0$\n\n得：$z_x=-\\frac{F'_1(x,y,z)}{F'_3(x,y,z)}$\n\n同理可以推出：$y'_z=-\\frac{F'_3(x,y,z)}{F'_2(x,y,z)}$，$x'_y=-\\frac{F'_2(x,y,z)}{F'_1(x,y,z)}$\n\n则 $\\frac{\\partial x}{\\partial y}\\cdot\\frac{\\partial y}{\\partial z}\\cdot\\frac{\\partial z}{\\partial x}=z'_xy'_zx'_z=-1$",
+  "search_text": "$x=x(y,z),\\ y=y(x,z),\\ z=z(x,y)$ 都是由方程 $F(x,y,z)=0$ 所确定的具有连续偏导数的函数，则\n\\[\n\\frac{\\partial x}{\\partial y}\\cdot\\frac{\\partial y}{\\partial z}\\cdot\\frac{\\partial z}{\\partial x}=(\\quad)\n\\] $0$ $2$ $-1$ $1$ $F(x,y,z)=0$ 可确定隐函数 $z=z(x,y)$，\n\n则：$F'_x(x,y,z)=0\\Rightarrow F'_1(x,y,z)\\cdot1+F'_2(x,y,z)\\cdot0+F'_3(x,y,z)\\cdot z_x=0$\n\n得：$z_x=-\\frac{F'_1(x,y,z)}{F'_3(x,y,z)}$\n\n同理可以推出：$y'_z=-\\frac{F'_3(x,y,z)}{F'_2(x,y,z)}$，$x'_y=-\\frac{F'_2(x,y,z)}{F'_1(x,y,z)}$\n\n则 $\\frac{\\partial x}{\\partial y}\\cdot\\frac{\\partial y}{\\partial z}\\cdot\\frac{\\partial z}{\\partial x}=z'_xy'_zx'_z=-1$",
+  "sort_order": 5
+}

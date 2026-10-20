@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_Ly^2dx$，其中 $L$ 为逆时针方向绕行的上半圆 $x^2+y^2=a^2$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac45a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac43a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac45a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac43a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解 $L$ 的参数方程为 $x=a\\cos\\theta，y=a\\sin\\theta$，\n\n$$\n\\theta\\text{ 从 }0\\text{ 变到 }\\pi。\n$$\n\n因此\n\n$$\n\\int_Ly^2\\,\\mathrm{d}x=\\int_0^\\pi a^2\\sin^2\\theta(-a\\sin\\theta)\\,\\mathrm{d}\\theta=a^3\\int_0^\\pi(1-\\cos^2\\theta)\\,\\mathrm{d}\\cos\\theta=-\\frac{4}{3}a^3。\n$$",
+  "search_text": "计算 $\\int_Ly^2dx$，其中 $L$ 为逆时针方向绕行的上半圆 $x^2+y^2=a^2$。 $-\\frac45a^3$ $\\frac43a^3$ $\\frac45a^3$ $-\\frac43a^3$ 解 $L$ 的参数方程为 $x=a\\cos\\theta，y=a\\sin\\theta$，\n\n$$\n\\theta\\text{ 从 }0\\text{ 变到 }\\pi。\n$$\n\n因此\n\n$$\n\\int_Ly^2\\,\\mathrm{d}x=\\int_0^\\pi a^2\\sin^2\\theta(-a\\sin\\theta)\\,\\mathrm{d}\\theta=a^3\\int_0^\\pi(1-\\cos^2\\theta)\\,\\mathrm{d}\\cos\\theta=-\\frac{4}{3}a^3。\n$$",
+  "sort_order": 17
+}

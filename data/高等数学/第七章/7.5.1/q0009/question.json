@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\sin y+e^x-xy^2=0$，求 $\\frac{dy}{dx}$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{e^x-y^2}{\\sin y-2xy}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{y^2-e^x}{\\sin y-2xy}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{e^x-y^2}{\\cos y-2xy}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{y^2-e^x}{\\cos y-2xy}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设 $F(x,y)=\\sin y+e^x-xy^2$，则 $F'_x=e^x-y^2，F'_y=\\cos y-2xy$\n\n当 $F'_y\\ne0$ 时，有 $\\frac{dy}{dx}=-\\frac{F'_x}{F'_y}=-\\frac{e^x-y^2}{\\cos y-2xy}=\\frac{y^2-e^x}{\\cos y-2xy}$",
+  "search_text": "设 $\\sin y+e^x-xy^2=0$，求 $\\frac{dy}{dx}$ $\\frac{e^x-y^2}{\\sin y-2xy}$ $\\frac{y^2-e^x}{\\sin y-2xy}$ $\\frac{e^x-y^2}{\\cos y-2xy}$ $\\frac{y^2-e^x}{\\cos y-2xy}$ 设 $F(x,y)=\\sin y+e^x-xy^2$，则 $F'_x=e^x-y^2，F'_y=\\cos y-2xy$\n\n当 $F'_y\\ne0$ 时，有 $\\frac{dy}{dx}=-\\frac{F'_x}{F'_y}=-\\frac{e^x-y^2}{\\cos y-2xy}=\\frac{y^2-e^x}{\\cos y-2xy}$",
+  "sort_order": 9
+}

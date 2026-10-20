@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 为按逆时针方向椭圆 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$，$\\oint_L(x+2y)dx+(2x-y)dy$ 的计算结果是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "椭圆$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$的参数方程是$$\\begin{cases}x=a\\cos\\theta\\\\y=b\\sin\\theta\\end{cases}\\quad\\theta从0变到2\\pi$$\n原式$$\\int_0^{2\\pi}[(a\\cos\\theta+2b\\sin\\theta)(-a\\sin\\theta)+(2a\\cos\\theta-b\\sin\\theta)b\\cos\\theta]d\\theta$$\n$$=\\int_0^{2\\pi}\\left(ab\\cos2\\theta-\\frac{b^2}{2}\\sin2\\theta\\right)d\\theta=0$$",
+  "search_text": "$L$ 为按逆时针方向椭圆 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$，$\\oint_L(x+2y)dx+(2x-y)dy$ 的计算结果是（ ） $2$ $3$ $0$ $1$ 椭圆$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$的参数方程是$$\\begin{cases}x=a\\cos\\theta\\\\y=b\\sin\\theta\\end{cases}\\quad\\theta从0变到2\\pi$$\n原式$$\\int_0^{2\\pi}[(a\\cos\\theta+2b\\sin\\theta)(-a\\sin\\theta)+(2a\\cos\\theta-b\\sin\\theta)b\\cos\\theta]d\\theta$$\n$$=\\int_0^{2\\pi}\\left(ab\\cos2\\theta-\\frac{b^2}{2}\\sin2\\theta\\right)d\\theta=0$$",
+  "sort_order": 34
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n>3$样本中哪个不是总体均值$\\mu$的无偏估计量？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_1+\\cdots+X_{n-1}-X_n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\bar X$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.1(6X_1+4X_n)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$X_1+X_2-X_3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "选项1的期望为$(n-2)\\mu$，不等于$\\mu$。",
+  "search_text": "$n>3$样本中哪个不是总体均值$\\mu$的无偏估计量？ $X_1+\\cdots+X_{n-1}-X_n$ $\\bar X$ $0.1(6X_1+4X_n)$ $X_1+X_2-X_3$ 选项1的期望为$(n-2)\\mu$，不等于$\\mu$。",
+  "sort_order": 16
+}

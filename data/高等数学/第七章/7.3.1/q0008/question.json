@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=e^{xy}-\\cos e^{xy}$，则 $dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{xy}(1+\\sin e^{xy})(y,dx+x,dy)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$xye^{xy}(1+\\sin e^{xy})(dx-dy)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xe^{xy}(1-y\\sin e^{xy})(dx+dy)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{xy}(1-x\\sin e^{xy})(y,dx-dy)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z_x=ye^{xy}+ye^{xy}\\sin e^{xy},\\ z_y=xe^{xy}+xe^{xy}\\sin e^{xy},$\n\n则$dz=e^{xy}(1+\\sin e^{xy})(ydx+xdy).$",
+  "search_text": "设 $z=e^{xy}-\\cos e^{xy}$，则 $dz=(\\quad)$。 $e^{xy}(1+\\sin e^{xy})(y,dx+x,dy)$ $xye^{xy}(1+\\sin e^{xy})(dx-dy)$ $xe^{xy}(1-y\\sin e^{xy})(dx+dy)$ $e^{xy}(1-x\\sin e^{xy})(y,dx-dy)$ $z_x=ye^{xy}+ye^{xy}\\sin e^{xy},\\ z_y=xe^{xy}+xe^{xy}\\sin e^{xy},$\n\n则$dz=e^{xy}(1+\\sin e^{xy})(ydx+xdy).$",
+  "sort_order": 8
+}

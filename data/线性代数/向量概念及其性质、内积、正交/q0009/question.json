@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若二维向量 $e_1,e_2$ 是夹角为 $\\frac{\\pi}{3}$ 的单位向量，且 $a=2e_1+e_2, b=-3e_1+2e_2$，则两向量的内积 $[a,b]=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac72$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac72$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "展开内积得 $-6+(4-3)[e_1,e_2]+2=-4+\\frac12=-\\frac72$。",
+  "search_text": "若二维向量 $e_1,e_2$ 是夹角为 $\\frac{\\pi}{3}$ 的单位向量，且 $a=2e_1+e_2, b=-3e_1+2e_2$，则两向量的内积 $[a,b]=(\\quad)$。 $-\\frac72$ $1$ $-4$ $\\frac72$ 展开内积得 $-6+(4-3)[e_1,e_2]+2=-4+\\frac12=-\\frac72$。",
+  "sort_order": 9
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算二重积分 $\\iint_D(|x+y|)\\,dxdy$，其中 $D:|x|+|y|\\leq1$。（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac23$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac23$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 原式 $=\\iint_D|x|x\\,dxdy+\\iint_Dyx\\,dxdy=4\\iint_{\\substack{0\\le y\\le1-x\\\\0\\le x\\le1}}x\\,dxdy+0=4\\int_0^1dx\\int_0^{1-x}x\\,dy=4\\int_0^1x(1-x)\\,dx=\\frac{2}{3}$。",
+  "search_text": "计算二重积分 $\\iint_D(|x+y|)\\,dxdy$，其中 $D:|x|+|y|\\leq1$。（ ） $-\\frac13$ $-\\frac23$ $\\frac13$ $\\frac23$ 解答 原式 $=\\iint_D|x|x\\,dxdy+\\iint_Dyx\\,dxdy=4\\iint_{\\substack{0\\le y\\le1-x\\\\0\\le x\\le1}}x\\,dxdy+0=4\\int_0^1dx\\int_0^{1-x}x\\,dy=4\\int_0^1x(1-x)\\,dx=\\frac{2}{3}$。",
+  "sort_order": 17
+}

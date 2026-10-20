@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列关于函数 $f(x)=\\lim_{n\\to\\infty}\\frac{x+x^2e^{nx}}{1+e^{nx}}$ 的叙述正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=0$ 为第一类可去间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=0$ 为第二类间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "函数处处连续"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=0$ 为第一类跳跃间断点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f(x)=\\begin{cases}x,&x\\le0\\\\x^2,&x>0\\end{cases}$，在 $x=0$ 连续。",
+  "search_text": "下列关于函数 $f(x)=\\lim_{n\\to\\infty}\\frac{x+x^2e^{nx}}{1+e^{nx}}$ 的叙述正确的是（ ）。 $x=0$ 为第一类可去间断点 $x=0$ 为第二类间断点 函数处处连续 $x=0$ 为第一类跳跃间断点 $f(x)=\\begin{cases}x,&x\\le0\\\\x^2,&x>0\\end{cases}$，在 $x=0$ 连续。",
+  "sort_order": 41
+}

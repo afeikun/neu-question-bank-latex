@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_0^1dx\\int_{x^2}^x(x^2+y^2)^{-1/2}dy=[\\quad]$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt2-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt3-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答　积分限为 $0\\leq x\\leq1,x^2\\leq y\\leq x$，化为 $D:0\\leq\\theta\\leq\\frac{\\pi}{4},0\\leq r\\leq\\tan\\theta\\sec\\theta$，\n\n$$\\int_0^1dx\\int_{x^2}^x(x^2+y^2)^{-\\frac{1}{2}}dy=\\int_0^{\\frac{\\pi}{4}}d\\theta\\int_0^{\\tan\\theta\\sec\\theta}\\frac{1}{r}rdr=\\int_0^{\\frac{\\pi}{4}}\\tan\\theta\\sec\\theta d\\theta=\\sqrt{2}-1.$$",
+  "search_text": "$\\int_0^1dx\\int_{x^2}^x(x^2+y^2)^{-1/2}dy=[\\quad]$ $\\frac32$ $\\sqrt2-1$ $2$ $\\sqrt3-1$ 解答　积分限为 $0\\leq x\\leq1,x^2\\leq y\\leq x$，化为 $D:0\\leq\\theta\\leq\\frac{\\pi}{4},0\\leq r\\leq\\tan\\theta\\sec\\theta$，\n\n$$\\int_0^1dx\\int_{x^2}^x(x^2+y^2)^{-\\frac{1}{2}}dy=\\int_0^{\\frac{\\pi}{4}}d\\theta\\int_0^{\\tan\\theta\\sec\\theta}\\frac{1}{r}rdr=\\int_0^{\\frac{\\pi}{4}}\\tan\\theta\\sec\\theta d\\theta=\\sqrt{2}-1.$$",
+  "sort_order": 17
+}

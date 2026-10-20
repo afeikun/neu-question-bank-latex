@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(\\mu,4^2),Y\\sim N(\\mu,5^2)$，$p_1=P(X\\le\\mu-4),p_2=P(Y\\ge\\mu+5)$，关系正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p_1=1-\\Phi(0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p_1=1+\\Phi(0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$p_2=1-\\Phi(1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$p_2=1-\\Phi(0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "标准化得$p_1=\\Phi(-1)=1-\\Phi(1)$，且$p_2=1-\\Phi(1)$，故两者相等。",
+  "search_text": "$X\\sim N(\\mu,4^2),Y\\sim N(\\mu,5^2)$，$p_1=P(X\\le\\mu-4),p_2=P(Y\\ge\\mu+5)$，关系正确的是（ ）。 $p_1=1-\\Phi(0)$ $p_1=1+\\Phi(0)$ $p_2=1-\\Phi(1)$ $p_2=1-\\Phi(0)$ 标准化得$p_1=\\Phi(-1)=1-\\Phi(1)$，且$p_2=1-\\Phi(1)$，故两者相等。",
+  "sort_order": 4
+}

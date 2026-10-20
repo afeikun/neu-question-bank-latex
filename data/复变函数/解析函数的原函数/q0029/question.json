@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_0^i z\\cos z\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-1}-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$i\\cos i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sin i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_0^i z\\cos z\\,dz=\\int_0^i z(\\sin z)'\\,dz=z\\sin z\\big|_0^i-\\int_0^i\\sin z\\,dz=i\\sin i+\\cos z\\big|_0^i=e^{-1}-1$。",
+  "search_text": "$\\int_0^i z\\cos z\\,dz=(\\quad)$。 $e^{-1}-1$ $e-1$ $i\\cos i$ $\\sin i$ $\\int_0^i z\\cos z\\,dz=\\int_0^i z(\\sin z)'\\,dz=z\\sin z\\big|_0^i-\\int_0^i\\sin z\\,dz=i\\sin i+\\cos z\\big|_0^i=e^{-1}-1$。",
+  "sort_order": 29
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 在 $D:0\\leq y\\leq1-x,0\\leq x\\leq1$ 上连续，将 $\\iint_Df(x,y)d\\sigma$ 写成极坐标下的二次积分是[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{\\pi/2}d\\theta\\int_0^{1/(\\sin\\theta+\\cos\\theta)}f(r\\cos\\theta,r\\sin\\theta)rdr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{\\pi/2}d\\theta\\int_0^{1-\\cos\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{\\pi/2}d\\theta\\int_0^1f(r\\cos\\theta,r\\sin\\theta)rdr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{\\pi/2}d\\theta\\int_0^{\\sin\\theta+\\cos\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 令 $x=r\\cos\\theta,y=r\\sin\\theta$，则在 $D$ 中有 $0\\leq\\theta\\leq\\frac{\\pi}{2},0\\leq r\\leq\\frac{1}{\\sin\\theta+\\cos\\theta}$，所以有 $\\iint_Df(x,y)d\\sigma=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{1}{\\sin\\theta+\\cos\\theta}}f(r\\cos\\theta,r\\sin\\theta)rdr$。",
+  "search_text": "设 $f(x,y)$ 在 $D:0\\leq y\\leq1-x,0\\leq x\\leq1$ 上连续，将 $\\iint_Df(x,y)d\\sigma$ 写成极坐标下的二次积分是[\\quad] $\\int_0^{\\pi/2}d\\theta\\int_0^{1/(\\sin\\theta+\\cos\\theta)}f(r\\cos\\theta,r\\sin\\theta)rdr$ $\\int_0^{\\pi/2}d\\theta\\int_0^{1-\\cos\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$ $\\int_0^{\\pi/2}d\\theta\\int_0^1f(r\\cos\\theta,r\\sin\\theta)rdr$ $\\int_0^{\\pi/2}d\\theta\\int_0^{\\sin\\theta+\\cos\\theta}f(r\\cos\\theta,r\\sin\\theta)rdr$ 解答 令 $x=r\\cos\\theta,y=r\\sin\\theta$，则在 $D$ 中有 $0\\leq\\theta\\leq\\frac{\\pi}{2},0\\leq r\\leq\\frac{1}{\\sin\\theta+\\cos\\theta}$，所以有 $\\iint_Df(x,y)d\\sigma=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{\\frac{1}{\\sin\\theta+\\cos\\theta}}f(r\\cos\\theta,r\\sin\\theta)rdr$。",
+  "sort_order": 24
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 是周期为 $2\\pi$ 的周期函数，在区间 $(-\\pi,\\pi]$ 上表示为 $f(x)=\\begin{cases}-1,&-\\pi<x\\le0,\\\\1+x^2,&0<x\\le\\pi.\\end{cases}$ 则 $f(x)$ 的傅里叶展开式在区间 $(-\\pi,\\pi]$ 上的和函数 $S(x)$ 的表达式为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$S(x)=\\begin{cases}-1,&-\\pi<x\\le0,\\\\\\arctan x,&0<x<\\pi,\\\\1+\\pi^2,&x=\\pi;\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$S(x)=\\begin{cases}-1,&-\\pi<x<0,\\\\0,&x=0,\\\\1+x^2,&0<x<\\pi,\\\\\\pi^2/2,&x=\\pi;\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$S(x)=\\begin{cases}-1,&-\\pi<x\\le0,\\\\1+x^2,&0<x\\le\\pi;\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$S(x)=\\begin{cases}-1,&-\\pi<x<0,\\\\1,&x=0,\\\\1+x^2,&0<x\\le\\pi.\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "源解析指出 $f(x)$ 满足狄利克雷收敛定理的条件，在 $(-\\pi,\\pi]$ 上第一类间断点为 $x=0,\\pi$，其余点连续。根据收敛定理，$S(0)=\\frac{f(0-0)+f(0+0)}2=\\frac{-1+1}2=0$，$S(\\pi)=\\frac{f(\\pi-0)+f(-\\pi+0)}2=\\frac{(1+\\pi^2)+(-1)}2=\\frac{\\pi^2}2$。于是 $S(x)=\\begin{cases}-1,&-\\pi<x<0,\\\\0,&x=0,\\\\1+x^2,&0<x<\\pi,\\\\\\pi^2/2,&x=\\pi.\\end{cases}$",
+  "search_text": "设函数 $f(x)$ 是周期为 $2\\pi$ 的周期函数，在区间 $(-\\pi,\\pi]$ 上表示为 $f(x)=\\begin{cases}-1,&-\\pi<x\\le0,\\\\1+x^2,&0<x\\le\\pi.\\end{cases}$ 则 $f(x)$ 的傅里叶展开式在区间 $(-\\pi,\\pi]$ 上的和函数 $S(x)$ 的表达式为（ ）。 $S(x)=\\begin{cases}-1,&-\\pi<x\\le0,\\\\\\arctan x,&0<x<\\pi,\\\\1+\\pi^2,&x=\\pi;\\end{cases}$ $S(x)=\\begin{cases}-1,&-\\pi<x<0,\\\\0,&x=0,\\\\1+x^2,&0<x<\\pi,\\\\\\pi^2/2,&x=\\pi;\\end{cases}$ $S(x)=\\begin{cases}-1,&-\\pi<x\\le0,\\\\1+x^2,&0<x\\le\\pi;\\end{cases}$ $S(x)=\\begin{cases}-1,&-\\pi<x<0,\\\\1,&x=0,\\\\1+x^2,&0<x\\le\\pi.\\end{cases}$ 源解析指出 $f(x)$ 满足狄利克雷收敛定理的条件，在 $(-\\pi,\\pi]$ 上第一类间断点为 $x=0,\\pi$，其余点连续。根据收敛定理，$S(0)=\\frac{f(0-0)+f(0+0)}2=\\frac{-1+1}2=0$，$S(\\pi)=\\frac{f(\\pi-0)+f(-\\pi+0)}2=\\frac{(1+\\pi^2)+(-1)}2=\\frac{\\pi^2}2$。于是 $S(x)=\\begin{cases}-1,&-\\pi<x<0,\\\\0,&x=0,\\\\1+x^2,&0<x<\\pi,\\\\\\pi^2/2,&x=\\pi.\\end{cases}$",
+  "sort_order": 24
+}

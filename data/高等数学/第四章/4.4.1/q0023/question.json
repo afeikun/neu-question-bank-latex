@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "I=∫₀^{π/4}ln(1+tan x)dx，求I",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "πln2/8"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "ln2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "πln2/2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "−πln2/4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用x→π/4−x对称，得2I=(π/4)ln2。",
+  "search_text": "I=∫₀^{π/4}ln(1+tan x)dx，求I πln2/8 ln2 πln2/2 −πln2/4 利用x→π/4−x对称，得2I=(π/4)ln2。",
+  "sort_order": 23
+}

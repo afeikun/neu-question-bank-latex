@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\displaystyle\\int_{-\\infty}^{+\\infty}\\dfrac{x^2-x+2}{x^4+10x^2+9}\\,dx=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{5\\pi}{12}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{7\\pi}{12}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{5\\pi}{9}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{7\\pi}{9}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $R(z)=\\dfrac{z^2-z+2}{z^4+10z^2+9}$，上半平面极点为 $3i,i$。由留数定理，积分等于 $2\\pi i$ 乘以两点留数之和，结果为 $\\dfrac{5\\pi}{12}$。",
+  "search_text": "$\\displaystyle\\int_{-\\infty}^{+\\infty}\\dfrac{x^2-x+2}{x^4+10x^2+9}\\,dx=(\\ \\ )$。 $\\dfrac{5\\pi}{12}$ $\\dfrac{7\\pi}{12}$ $\\dfrac{5\\pi}{9}$ $\\dfrac{7\\pi}{9}$ 令 $R(z)=\\dfrac{z^2-z+2}{z^4+10z^2+9}$，上半平面极点为 $3i,i$。由留数定理，积分等于 $2\\pi i$ 乘以两点留数之和，结果为 $\\dfrac{5\\pi}{12}$。",
+  "sort_order": 9
+}

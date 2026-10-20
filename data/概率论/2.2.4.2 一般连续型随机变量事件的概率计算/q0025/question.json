@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=12x^2-12x+3(0<x<1)$，求$P(X\\le0.2\\mid0.1<X\\le0.5)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.732$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.323$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.578$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.359$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "条件概率为$\\frac{\\int_{0.1}^{0.2}f(x)dx}{\\int_{0.1}^{0.5}f(x)dx}=\\frac{0.148}{0.256}\\approx0.578$。",
+  "search_text": "$f(x)=12x^2-12x+3(0<x<1)$，求$P(X\\le0.2\\mid0.1<X\\le0.5)$。 $0.732$ $0.323$ $0.578$ $0.359$ 条件概率为$\\frac{\\int_{0.1}^{0.2}f(x)dx}{\\int_{0.1}^{0.5}f(x)dx}=\\frac{0.148}{0.256}\\approx0.578$。",
+  "sort_order": 25
+}

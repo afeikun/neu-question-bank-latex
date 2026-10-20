@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime-4y\\prime+3y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{-x}+C_2e^{2x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{3x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{-2x}+C_2e^{3x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^x+C_2e^{-3x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2-4\\lambda+3=0$，其特征根为 $\\lambda_1=1,\\lambda_2=3$。因此齐次方程的通解为\n\n$$y=C_1e^x+C_2e^{3x}.$$\n\n因此选 D。",
+  "search_text": "微分方程 $y\\prime\\prime-4y\\prime+3y=0$ 的通解为（ ） $y=C_1e^{-x}+C_2e^{2x}$ $y=C_1e^x+C_2e^{3x}$ $y=C_1e^{-2x}+C_2e^{3x}$ $y=C_1e^x+C_2e^{-3x}$ 解答 齐次方程的特征方程为 $\\lambda^2-4\\lambda+3=0$，其特征根为 $\\lambda_1=1,\\lambda_2=3$。因此齐次方程的通解为\n\n$$y=C_1e^x+C_2e^{3x}.$$\n\n因此选 D。",
+  "sort_order": 17
+}

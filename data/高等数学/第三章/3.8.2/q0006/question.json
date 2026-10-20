@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y^2=x$ 在点 $(0,0)$ 处的曲率 $k=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $2yy\\prime=1$ 得 $y\\prime=1/(2y)$，曲率公式取极限后在原点为 $2$。",
+  "search_text": "曲线 $y^2=x$ 在点 $(0,0)$ 处的曲率 $k=$（ ）。 $0$ $3$ $2$ $1$ 由 $2yy\\prime=1$ 得 $y\\prime=1/(2y)$，曲率公式取极限后在原点为 $2$。",
+  "sort_order": 6
+}

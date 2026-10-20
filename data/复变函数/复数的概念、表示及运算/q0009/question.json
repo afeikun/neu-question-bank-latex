@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Re}(1+i\\sqrt3)^4=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$18$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$(1+i\\sqrt3)^4=(-2+2i\\sqrt3)^2=-8+8i\\sqrt3$。",
+  "search_text": "$\\operatorname{Re}(1+i\\sqrt3)^4=(\\quad)$。 $-8$ $9$ $18$ $-6$ $(1+i\\sqrt3)^4=(-2+2i\\sqrt3)^2=-8+8i\\sqrt3$。",
+  "sort_order": 9
+}

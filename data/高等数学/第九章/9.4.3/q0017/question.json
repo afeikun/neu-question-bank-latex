@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 是锥面 $z=\\sqrt{x^2+y^2}$ 被平面 $z=1,z=2$ 所截部分的外侧，则 $I=\\iint_\\Sigma y\\,dydz-x\\,dzdx+z^2dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac52\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac52\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{15}2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{15}2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $I=\\iint_\\Sigma(y,-x,z^2)\\cdot(-z_x,-z_y,1)dxdy=\\iint_\\Sigma(y,-x,z^2)\\cdot\\left(\\frac{-x}{\\sqrt{x^2+y^2}},\\frac{-y}{\\sqrt{x^2+y^2}},1\\right)dxdy=\\iint_\\Sigma z^2dxdy$\n$$=-\\iint_{D_{xy}}(x^2+y^2)dxdy-\\iint_{1\\le x^2+y^2\\le4}(x^2+y^2)dxdy=-\\int_0^{2\\pi}d\\theta\\int_1^2r^2\\cdot rdr=-\\frac{15}{2}\\pi。$$",
+  "search_text": "设 $\\Sigma$ 是锥面 $z=\\sqrt{x^2+y^2}$ 被平面 $z=1,z=2$ 所截部分的外侧，则 $I=\\iint_\\Sigma y\\,dydz-x\\,dzdx+z^2dxdy=$（ ） $\\frac52\\pi$ $-\\frac52\\pi$ $-\\frac{15}2\\pi$ $\\frac{15}2\\pi$ 解答 $I=\\iint_\\Sigma(y,-x,z^2)\\cdot(-z_x,-z_y,1)dxdy=\\iint_\\Sigma(y,-x,z^2)\\cdot\\left(\\frac{-x}{\\sqrt{x^2+y^2}},\\frac{-y}{\\sqrt{x^2+y^2}},1\\right)dxdy=\\iint_\\Sigma z^2dxdy$\n$$=-\\iint_{D_{xy}}(x^2+y^2)dxdy-\\iint_{1\\le x^2+y^2\\le4}(x^2+y^2)dxdy=-\\int_0^{2\\pi}d\\theta\\int_1^2r^2\\cdot rdr=-\\frac{15}{2}\\pi。$$",
+  "sort_order": 17
+}

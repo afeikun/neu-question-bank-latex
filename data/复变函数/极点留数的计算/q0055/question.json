@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Res}\\left(\\dfrac1{z^3\\sin z},k\\pi\\right)=(\\ )$（$k=\\pm1,\\pm2,\\ldots$）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{(-1)^k}{(k\\pi)^3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{(-1)^{k+1}}{(k\\pi)^3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac1{(k\\pi)^3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=k\\pi$ 为一阶极点，代入留数公式得 $(-1)^k/(k\\pi)^3$。",
+  "search_text": "$\\operatorname{Res}\\left(\\dfrac1{z^3\\sin z},k\\pi\\right)=(\\ )$（$k=\\pm1,\\pm2,\\ldots$）。 $\\dfrac{(-1)^k}{(k\\pi)^3}$ $\\dfrac{(-1)^{k+1}}{(k\\pi)^3}$ $\\dfrac1{(k\\pi)^3}$ $0$ $z=k\\pi$ 为一阶极点，代入留数公式得 $(-1)^k/(k\\pi)^3$。",
+  "sort_order": 55
+}

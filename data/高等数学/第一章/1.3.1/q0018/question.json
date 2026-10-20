@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\lim_{x\\to1}\\frac{x^2-1}{x-1}=2$，则满足 $0<|x-1|<\\delta$ 的 $\\delta$ 应取为（　）（其中 $\\varepsilon$ 为任意正实数）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\delta=\\varepsilon$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\delta=\\frac\\varepsilon3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\delta=\\frac\\varepsilon2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "函数在点 $x=1$ 处没有定义"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对 $x\\ne1$，$\\frac{x^2-1}{x-1}=x+1$，误差为 $|x-1|$，取 $\\delta=\\varepsilon$。",
+  "search_text": "已知 $\\lim_{x\\to1}\\frac{x^2-1}{x-1}=2$，则满足 $0<|x-1|<\\delta$ 的 $\\delta$ 应取为（ ）（其中 $\\varepsilon$ 为任意正实数）。 $\\delta=\\varepsilon$ $\\delta=\\frac\\varepsilon3$ $\\delta=\\frac\\varepsilon2$ 函数在点 $x=1$ 处没有定义 对 $x\\ne1$，$\\frac{x^2-1}{x-1}=x+1$，误差为 $|x-1|$，取 $\\delta=\\varepsilon$。",
+  "sort_order": 18
+}

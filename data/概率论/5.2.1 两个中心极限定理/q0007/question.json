@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_n$表示$n$次独立试验中事件$A$出现次数，$P(A)=p$，求$P(a<X_n\\le b)$近似。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\Phi((b-p)/\\sqrt{pq})-\\Phi((a-p)/\\sqrt{pq})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\Phi((b-p)/\\sqrt{npq})-\\Phi((a-p)/\\sqrt{npq})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Phi((b-np)/\\sqrt{npq})-\\Phi((a-np)/\\sqrt{npq})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\Phi((b-p)/(n\\sqrt{pq}))-\\Phi((a-p)/(n\\sqrt{pq}))$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "二项变量中心极限定理标准化形式为$(X_n-np)/\\sqrt{npq}$。",
+  "search_text": "$X_n$表示$n$次独立试验中事件$A$出现次数，$P(A)=p$，求$P(a<X_n\\le b)$近似。 $\\Phi((b-p)/\\sqrt{pq})-\\Phi((a-p)/\\sqrt{pq})$ $\\Phi((b-p)/\\sqrt{npq})-\\Phi((a-p)/\\sqrt{npq})$ $\\Phi((b-np)/\\sqrt{npq})-\\Phi((a-np)/\\sqrt{npq})$ $\\Phi((b-p)/(n\\sqrt{pq}))-\\Phi((a-p)/(n\\sqrt{pq}))$ 二项变量中心极限定理标准化形式为$(X_n-np)/\\sqrt{npq}$。",
+  "sort_order": 7
+}

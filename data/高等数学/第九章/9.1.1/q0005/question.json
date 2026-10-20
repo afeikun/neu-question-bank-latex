@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线弧 $AB$ 上曲线积分与曲线弧 $BA$ 上曲线积分的关系是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_{AB}f(x,y)ds=-\\int_{BA}f(-x,-y)ds$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{AB}f(x,y)ds=\\int_{BA}f(x,y)ds$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{AB}f(x,y)ds=-\\int_{BA}f(-x,-y)ds$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_{AB}f(x,y)ds=-\\int_{BA}f(x,y)ds$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 对弧长的曲线积分与曲线方向无关，由性质立刻知道：\n$$\n\\int_{AB}f(x,y)\\,ds=\\int_{BA}f(x,y)\\,ds\n$$",
+  "search_text": "曲线弧 $AB$ 上曲线积分与曲线弧 $BA$ 上曲线积分的关系是（ ） $\\int_{AB}f(x,y)ds=-\\int_{BA}f(-x,-y)ds$ $\\int_{AB}f(x,y)ds=\\int_{BA}f(x,y)ds$ $\\int_{AB}f(x,y)ds=-\\int_{BA}f(-x,-y)ds$ $\\int_{AB}f(x,y)ds=-\\int_{BA}f(x,y)ds$ 解答 对弧长的曲线积分与曲线方向无关，由性质立刻知道：\n$$\n\\int_{AB}f(x,y)\\,ds=\\int_{BA}f(x,y)\\,ds\n$$",
+  "sort_order": 5
+}

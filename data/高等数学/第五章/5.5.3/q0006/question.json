@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_0^1e^{-x^2}\\,dx$ 的近似值（误差不超过0.0001）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0.7205"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0.7871"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0.7741"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0.7468"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "代入高斯指数级数逐项积分，得约0.7468。",
+  "search_text": "计算 $\\int_0^1e^{-x^2}\\,dx$ 的近似值（误差不超过0.0001）。 0.7205 0.7871 0.7741 0.7468 代入高斯指数级数逐项积分，得约0.7468。",
+  "sort_order": 6
+}

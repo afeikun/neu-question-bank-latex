@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "区域$D$由$y=2x,x=1,y=0$围成，求$P((X,Y)\\in D)$的积分表示。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_1^2\\int_{1/2}^y p(x,y)dxdy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1\\int_0^{y/2}p(x,y)dxdy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1\\int_0^2p(x,y)dydx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^2\\int_{y/2}^1p(x,y)dxdy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "按先对$x$积分时，$0\\le y\\le2$且$y/2\\le x\\le1$，对应选项4。",
+  "search_text": "区域$D$由$y=2x,x=1,y=0$围成，求$P((X,Y)\\in D)$的积分表示。 $\\int_1^2\\int_{1/2}^y p(x,y)dxdy$ $\\int_0^1\\int_0^{y/2}p(x,y)dxdy$ $\\int_0^1\\int_0^2p(x,y)dydx$ $\\int_0^2\\int_{y/2}^1p(x,y)dxdy$ 按先对$x$积分时，$0\\le y\\le2$且$y/2\\le x\\le1$，对应选项4。",
+  "sort_order": 14
+}

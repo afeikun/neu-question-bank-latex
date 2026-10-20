@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方差20、35的两个正态总体抽样容量8和10，求$P(S_1^2\\ge2S_2^2)$范围。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.025\\le P\\le0.05$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.025\\le P\\le0.06$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.015\\le P\\le0.05$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.025\\le P\\le0.04$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$S_1^2/S_2^2$标准化后服从$F(7,9)$，阈值对应3.5，位于0.05与0.025分位点之间。",
+  "search_text": "方差20、35的两个正态总体抽样容量8和10，求$P(S_1^2\\ge2S_2^2)$范围。 $0.025\\le P\\le0.05$ $0.025\\le P\\le0.06$ $0.015\\le P\\le0.05$ $0.025\\le P\\le0.04$ $S_1^2/S_2^2$标准化后服从$F(7,9)$，阈值对应3.5，位于0.05与0.025分位点之间。",
+  "sort_order": 12
+}

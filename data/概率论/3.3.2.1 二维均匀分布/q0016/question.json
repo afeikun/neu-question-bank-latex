@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(\\xi,\\eta)$在$y=x^2,y=x$围成区域$G$上均匀，求联合密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/6$于$G$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/4$于$G$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$于$G$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$于$G$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$G$面积$\\int_0^1(x-x^2)dx=1/6$，密度为6。",
+  "search_text": "$(\\xi,\\eta)$在$y=x^2,y=x$围成区域$G$上均匀，求联合密度。 $1/6$于$G$ $1/4$于$G$ $6$于$G$ $4$于$G$ $G$面积$\\int_0^1(x-x^2)dx=1/6$，密度为6。",
+  "sort_order": 16
+}

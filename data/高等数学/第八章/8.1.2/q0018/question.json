@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次积分 $\\int_0^1dx\\int_x^1x\\sin y^3\\,dy=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac16-\\cos1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14(1-\\cos1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14\\cos1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac16(1-\\cos1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 原式 $=\\int_0^1dy\\int_0^yx\\sin y^3\\,dx=\\int_0^1\\sin y^3\\cdot\\frac{1}{2}y^2\\,dy=\\frac{1}{6}(1-\\cos1)$",
+  "search_text": "二次积分 $\\int_0^1dx\\int_x^1x\\sin y^3\\,dy=（ ）$ $\\frac16-\\cos1$ $\\frac14(1-\\cos1)$ $\\frac14\\cos1$ $\\frac16(1-\\cos1)$ 解答 原式 $=\\int_0^1dy\\int_0^yx\\sin y^3\\,dx=\\int_0^1\\sin y^3\\cdot\\frac{1}{2}y^2\\,dy=\\frac{1}{6}(1-\\cos1)$",
+  "sort_order": 18
+}

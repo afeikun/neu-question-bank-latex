@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求解常系数线性微分方程 $y\\prime\\prime\\prime-y\\prime\\prime=12x^2-6$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^x+C_2x+C_3-x^4-4x^3-9x^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2x+C_3-x^4-2x^3-9x^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^x+C_2x+C_3-x^4-4x^3-x^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{2x}+C_2x+C_3-x^4-4x^3-9x^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "其特征方程为 $r^3-r^2=0$ 解得 $r_1=1,r_2=r_3=0$，设特解为 $y=x^2(Ax^2+Bx+C)$ 代入原方程，解之得 $A=-1,B=-4,C=-9$ 于是微分方程的通解为 $y=c_1e^x+c_2x+c_3-x^4-4x^3-9x^2$",
+  "search_text": "求解常系数线性微分方程 $y\\prime\\prime\\prime-y\\prime\\prime=12x^2-6$（ ） $y=C_1e^x+C_2x+C_3-x^4-4x^3-9x^2$ $y=C_1e^x+C_2x+C_3-x^4-2x^3-9x^2$ $y=C_1e^x+C_2x+C_3-x^4-4x^3-x^2$ $y=C_1e^{2x}+C_2x+C_3-x^4-4x^3-9x^2$ 其特征方程为 $r^3-r^2=0$ 解得 $r_1=1,r_2=r_3=0$，设特解为 $y=x^2(Ax^2+Bx+C)$ 代入原方程，解之得 $A=-1,B=-4,C=-9$ 于是微分方程的通解为 $y=c_1e^x+c_2x+c_3-x^4-4x^3-9x^2$",
+  "sort_order": 8
+}

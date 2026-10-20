@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=x^2+y^2+xy\\ln\\left(\\frac yx\\right)$，则 $f(kx,ky)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k^2f(x,y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$kf(x,y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{k}f(x,y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k^3f(x,y)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(kx,ky)=(kx)^2+(ky)^2+kxky\\ln\\left(\\frac{ky}{kx}\\right)=k^2\\left[x^2+y^2+xy\\ln\\left(\\frac{y}{x}\\right)\\right]=k^2f(x,y).$",
+  "search_text": "设 $f(x,y)=x^2+y^2+xy\\ln\\left(\\frac yx\\right)$，则 $f(kx,ky)=(\\quad)$。 $k^2f(x,y)$ $kf(x,y)$ $\\sqrt{k}f(x,y)$ $k^3f(x,y)$ $f(kx,ky)=(kx)^2+(ky)^2+kxky\\ln\\left(\\frac{ky}{kx}\\right)=k^2\\left[x^2+y^2+xy\\ln\\left(\\frac{y}{x}\\right)\\right]=k^2f(x,y).$",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $\\begin{cases}x=t^2+7\\\\y=t^2+4t+1\\end{cases}$ 在 $t=1$ 处的曲率半径 $R=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5\\sqrt{10}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt{10}}{100}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$10\\sqrt{10}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt{10}}{50}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "参数求导得 $y\\prime=1+2/t$、$y\\prime\\prime=-2/t^3$，代入 $t=1$ 的曲率公式得 $R=10\\sqrt{10}$。",
+  "search_text": "曲线 $\\begin{cases}x=t^2+7\\\\y=t^2+4t+1\\end{cases}$ 在 $t=1$ 处的曲率半径 $R=$（ ）。 $5\\sqrt{10}$ $\\frac{\\sqrt{10}}{100}$ $10\\sqrt{10}$ $\\frac{\\sqrt{10}}{50}$ 参数求导得 $y\\prime=1+2/t$、$y\\prime\\prime=-2/t^3$，代入 $t=1$ 的曲率公式得 $R=10\\sqrt{10}$。",
+  "sort_order": 12
+}

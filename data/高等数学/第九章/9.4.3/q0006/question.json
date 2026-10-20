@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 为下半球面 $z=-\\sqrt{a^2-x^2-y^2}$ 的上侧，$a$ 为正常数，计算 $\\iint_\\Sigma\\frac{ax\\,dydz+(z+a)^2dxdy}{(x^2+y^2+z^2)^{1/2}}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac\\pi2a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 为下半球面 $z=-\\sqrt{a^2-x^2-y^2}$，有\n$$\\iint_\\Sigma\\frac{axdydz+(z+a)^2dxdy}{(x^2+y^2+z^2)^{\\frac{1}{2}}}=\\iint_\\Sigma\\frac{axdydz+(z+a)^2dxdy}{a}=\\iint_\\Sigma xdydz+\\frac{1}{a}\\iint_\\Sigma(z+a)^2dxdy=I_1+I_2。$$\n对 $I_1$，$\\Sigma$ 分成 $\\Sigma_{qian}:x=\\sqrt{a^2-y^2-z^2}$（$\\alpha$ 为钝角）；$\\Sigma_{hou}:x=-\\sqrt{a^2-y^2-z^2}$（$\\alpha$ 为锐角）有\n$$I_1=\\iint_{\\Sigma_{qian}}xdydz+\\iint_{\\Sigma_{hou}}xdydz=-\\iint_{D_{yz}}\\sqrt{a^2-y^2-z^2}dydz+\\iint_{D_{yz}}-\\sqrt{a^2-y^2-z^2}dydz$$\n$$=-2\\iint_{y^2+z^2\\le a^2}\\sqrt{a^2-y^2-z^2}dydz=-2\\int_\\pi^{2\\pi}d\\theta\\int_0^a\\sqrt{a^2-r^2}rdr=-\\frac{2}{3}\\pi a^3。$$\n对 $I_2$，$\\Sigma:z=-\\sqrt{a^2-x^2-y^2}$（$\\gamma$ 为锐角）；$(x,y)\\in D_{xy}:x^2+y^2\\le a^2$ 有\n$$I_2=\\frac{1}{a}\\iint_{D_{xy}}\\left[a-\\sqrt{a^2-x^2-y^2}\\right]^2dxdy=\\frac{1}{a}\\int_0^{2\\pi}d\\theta\\int_0^a(2a^2-2a\\sqrt{a^2-r^2}-r^2)rdr=\\frac{\\pi}{6}a^3。$$\n\n图示：下半球面，原点标为 $O$，可见坐标轴标为 $x,y$，曲面上两支箭头朝向球面内部。",
+  "search_text": "已知 $\\Sigma$ 为下半球面 $z=-\\sqrt{a^2-x^2-y^2}$ 的上侧，$a$ 为正常数，计算 $\\iint_\\Sigma\\frac{ax\\,dydz+(z+a)^2dxdy}{(x^2+y^2+z^2)^{1/2}}=$（ ） $\\frac\\pi2a^3$ $a^3$ $-\\frac\\pi2a^3$ $-\\frac12a^3$ 解答 $\\Sigma$ 为下半球面 $z=-\\sqrt{a^2-x^2-y^2}$，有\n$$\\iint_\\Sigma\\frac{axdydz+(z+a)^2dxdy}{(x^2+y^2+z^2)^{\\frac{1}{2}}}=\\iint_\\Sigma\\frac{axdydz+(z+a)^2dxdy}{a}=\\iint_\\Sigma xdydz+\\frac{1}{a}\\iint_\\Sigma(z+a)^2dxdy=I_1+I_2。$$\n对 $I_1$，$\\Sigma$ 分成 $\\Sigma_{qian}:x=\\sqrt{a^2-y^2-z^2}$（$\\alpha$ 为钝角）；$\\Sigma_{hou}:x=-\\sqrt{a^2-y^2-z^2}$（$\\alpha$ 为锐角）有\n$$I_1=\\iint_{\\Sigma_{qian}}xdydz+\\iint_{\\Sigma_{hou}}xdydz=-\\iint_{D_{yz}}\\sqrt{a^2-y^2-z^2}dydz+\\iint_{D_{yz}}-\\sqrt{a^2-y^2-z^2}dydz$$\n$$=-2\\iint_{y^2+z^2\\le a^2}\\sqrt{a^2-y^2-z^2}dydz=-2\\int_\\pi^{2\\pi}d\\theta\\int_0^a\\sqrt{a^2-r^2}rdr=-\\frac{2}{3}\\pi a^3。$$\n对 $I_2$，$\\Sigma:z=-\\sqrt{a^2-x^2-y^2}$（$\\gamma$ 为锐角）；$(x,y)\\in D_{xy}:x^2+y^2\\le a^2$ 有\n$$I_2=\\frac{1}{a}\\iint_{D_{xy}}\\left[a-\\sqrt{a^2-x^2-y^2}\\right]^2dxdy=\\frac{1}{a}\\int_0^{2\\pi}d\\theta\\int_0^a(2a^2-2a\\sqrt{a^2-r^2}-r^2)rdr=\\frac{\\pi}{6}a^3。$$\n\n图示：下半球面，原点标为 $O$，可见坐标轴标为 $x,y$，曲面上两支箭头朝向球面内部。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A_i$ 表示“掷一个骰子恰好出现 $i$ 点”的事件，$A$ 表示“掷三个骰子的点数和大于 15”的事件，则 $A=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A_4A_6A_6+A_6A_4A_6+A_6A_6A_4+A_5A_5A_6+A_5A_6A_5+A_6A_5A_5+A_5A_6A_6+A_6A_5A_6+A_6A_6A_5+A_6A_6A_6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3A_4A_6A_6+3A_5A_6A_6+3A_5A_5A_6+A_6A_6A_6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A_4A_6A_6+A_5A_5A_6+A_6A_6A_6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A_4A_5A_6+A_5A_5A_6+A_6A_6A_6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "点数和大于 15 时，三骰点数和为 16、17 或 18。按骰子顺序列出所有满足条件的互斥情形，即选项 1。",
+  "search_text": "设 $A_i$ 表示“掷一个骰子恰好出现 $i$ 点”的事件，$A$ 表示“掷三个骰子的点数和大于 15”的事件，则 $A=(\\quad)$。 $A_4A_6A_6+A_6A_4A_6+A_6A_6A_4+A_5A_5A_6+A_5A_6A_5+A_6A_5A_5+A_5A_6A_6+A_6A_5A_6+A_6A_6A_5+A_6A_6A_6$ $3A_4A_6A_6+3A_5A_6A_6+3A_5A_5A_6+A_6A_6A_6$ $A_4A_6A_6+A_5A_5A_6+A_6A_6A_6$ $A_4A_5A_6+A_5A_5A_6+A_6A_6A_6$ 点数和大于 15 时，三骰点数和为 16、17 或 18。按骰子顺序列出所有满足条件的互斥情形，即选项 1。",
+  "sort_order": 4
+}

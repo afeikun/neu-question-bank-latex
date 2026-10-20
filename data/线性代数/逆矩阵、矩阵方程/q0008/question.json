@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}$，则伴随矩阵 $A^*=（ ）。$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}d&-c\\\\-b&a\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}-d&b\\\\c&-a\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}d&b\\\\c&a\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由伴随矩阵定义，$A^*$ 的元素为代数余子式转置，故 $A^*=\\begin{pmatrix}d&-c\\\\-b&a\\end{pmatrix}$。",
+  "search_text": "设矩阵 $A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}$，则伴随矩阵 $A^*=（ ）。$ $\\begin{pmatrix}d&-c\\\\-b&a\\end{pmatrix}$ $\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}$ $\\begin{pmatrix}-d&b\\\\c&-a\\end{pmatrix}$ $\\begin{pmatrix}d&b\\\\c&a\\end{pmatrix}$ 由伴随矩阵定义，$A^*$ 的元素为代数余子式转置，故 $A^*=\\begin{pmatrix}d&-c\\\\-b&a\\end{pmatrix}$。",
+  "sort_order": 8
+}

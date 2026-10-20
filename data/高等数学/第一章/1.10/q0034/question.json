@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}\\left(\\frac{x+3}{x+1}\\right)^{2x+1}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\left(1+\\frac2{x+1}\\right)^{2x+1}\\to e^4$。",
+  "search_text": "$\\lim_{x\\to\\infty}\\left(\\frac{x+3}{x+1}\\right)^{2x+1}=$（ ）。 $e^{-2}$ $e^4$ $e^2$ $e^{-4}$ $\\left(1+\\frac2{x+1}\\right)^{2x+1}\\to e^4$。",
+  "sort_order": 34
+}

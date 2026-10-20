@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 为连续函数，$D$ 是以 $O(0,0),A(1,0),B(1,1)$ 为顶点的三角形区域，则二重积分 $\\iint_Df(x,y)dxdy$ 的累次积分为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dx\\int_0^xf(x,y)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1dx\\int_y^1f(x,y)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dx\\int_{-x}^xf(x,y)dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dy\\int_y^1f(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 原式=$\\int_0^1dx\\int_0^xf(x,y)dy$，原式=$\\int_0^1dy\\int_y^1f(x,y)dx$。",
+  "search_text": "设 $f(x,y)$ 为连续函数，$D$ 是以 $O(0,0),A(1,0),B(1,1)$ 为顶点的三角形区域，则二重积分 $\\iint_Df(x,y)dxdy$ 的累次积分为[\\quad] $\\int_0^1dx\\int_0^xf(x,y)dy$ $\\int_0^1dx\\int_y^1f(x,y)dy$ $\\int_0^1dx\\int_{-x}^xf(x,y)dy$ $\\int_0^1dy\\int_y^1f(x,y)dx$ 解答 原式=$\\int_0^1dx\\int_0^xf(x,y)dy$，原式=$\\int_0^1dy\\int_y^1f(x,y)dx$。",
+  "sort_order": 34
+}

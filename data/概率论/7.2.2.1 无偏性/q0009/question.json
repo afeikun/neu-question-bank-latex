@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$E(X)=\\mu,D(X)=\\sigma^2,\\mu\\ne0$，以下正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12[(X_1-\\mu)^2+(X_2-\\mu)^2]$是$\\sigma^2$无偏估计"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$X_i^2$是$\\sigma^2$无偏估计"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{n-1}\\sum(X_i-\\mu)^2$是无偏估计"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{n-1}\\sum(X_i-\\mu)^2$不是无偏估计"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两个独立观测的离差平方均值期望为$\\sigma^2$。",
+  "search_text": "$E(X)=\\mu,D(X)=\\sigma^2,\\mu\\ne0$，以下正确的是（）。 $\\frac12[(X_1-\\mu)^2+(X_2-\\mu)^2]$是$\\sigma^2$无偏估计 $X_i^2$是$\\sigma^2$无偏估计 $\\frac1{n-1}\\sum(X_i-\\mu)^2$是无偏估计 $\\frac1{n-1}\\sum(X_i-\\mu)^2$不是无偏估计 两个独立观测的离差平方均值期望为$\\sigma^2$。",
+  "sort_order": 9
+}

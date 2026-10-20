@@ -1,0 +1,18 @@
+{
+  "question_type": "fill_blank",
+  "stem_md": "下列函数中奇函数的个数是 {{blank:b1}}：$f_1(x)=\\tan x$，$f_2(x)=\\sin x$，$f_3(x)=x^2+1$，$f_4(x)=\\cos x$。",
+  "options_json": [],
+  "answer_json": {
+    "blanks": [
+      {
+        "key": "b1",
+        "answers": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "analysis_md": "$\\tan x$ 和 $\\sin x$ 为奇函数，$x^2+1$ 和 $\\cos x$ 为偶函数，所以奇函数的个数是 2。",
+  "search_text": "下列函数中奇函数的个数是 {{blank:b1}}：$f_1(x)=\\tan x$，$f_2(x)=\\sin x$，$f_3(x)=x^2+1$，$f_4(x)=\\cos x$。 $\\tan x$ 和 $\\sin x$ 为奇函数，$x^2+1$ 和 $\\cos x$ 为偶函数，所以奇函数的个数是 2。",
+  "sort_order": 39
+}

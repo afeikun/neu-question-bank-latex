@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列选项解答过程正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\displaystyle\\lim_{x\\to0}\\frac{\\sin kx}{x}=\\lim_{x\\to0}\\frac{k\\cos kx}{1}=k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\displaystyle\\lim_{x\\to\\infty}\\frac{x+\\sin x}{x-\\sin x}=\\lim_{x\\to\\infty}\\frac{1+\\cos x}{1-\\cos x}=-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "由洛必达法则，$\\{\\frac{\\ln n}{n}\\}$ 的极限为 $\\lim_{x\\to\\infty}\\frac{\\ln x}{x}=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\displaystyle\\lim_{x\\to1}\\frac{x^2-1}{x^2+x-1}=\\lim_{x\\to1}\\frac{2x}{2x+1}=\\frac23$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一项是 $0/0$ 型，应用洛必达法则得到 $k$。第二项并非未定式比值，第三项极限实际为 $0$，第四项原式可直接代入得 $0$，不能用洛必达法则。",
+  "search_text": "下列选项解答过程正确的是（ ）。 $\\displaystyle\\lim_{x\\to0}\\frac{\\sin kx}{x}=\\lim_{x\\to0}\\frac{k\\cos kx}{1}=k$ $\\displaystyle\\lim_{x\\to\\infty}\\frac{x+\\sin x}{x-\\sin x}=\\lim_{x\\to\\infty}\\frac{1+\\cos x}{1-\\cos x}=-1$ 由洛必达法则，$\\{\\frac{\\ln n}{n}\\}$ 的极限为 $\\lim_{x\\to\\infty}\\frac{\\ln x}{x}=1$ $\\displaystyle\\lim_{x\\to1}\\frac{x^2-1}{x^2+x-1}=\\lim_{x\\to1}\\frac{2x}{2x+1}=\\frac23$ 第一项是 $0/0$ 型，应用洛必达法则得到 $k$。第二项并非未定式比值，第三项极限实际为 $0$，第四项原式可直接代入得 $0$，不能用洛必达法则。",
+  "sort_order": 9
+}

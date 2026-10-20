@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\iint_D\\frac{\\sin(\\pi\\sqrt{x^2+y^2})}{\\sqrt{x^2+y^2}}dxdy$（其中积分区域 $D=\\{(x,y)|1\\leq x^2+y^2\\leq4\\}$）的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答　由对称性，可只考虑第一象限部分 $D=4D_1$，注意被积函数也有对称性，则有\n\n$$\\iint_D\\frac{\\sin(\\pi\\sqrt{x^2+y^2})}{\\sqrt{x^2+y^2}}dxdy=4\\iint_{D_1}\\frac{\\sin(\\pi\\sqrt{x^2+y^2})}{\\sqrt{x^2+y^2}}dxdy=4\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_1^2\\frac{\\sin\\pi r}{r}rdr=-4.$$ \n\n图示：圆环区域 $D$，内圆半径标记 $1$、外圆半径标记 $2$；第一象限圆环扇区红色并标记 $D_1$，其余圆环黄色并标记 $D$；坐标轴标记 $x,y$，原点标记 $O$，横轴标记 $-2,-1,1,2$。",
+  "search_text": "二重积分 $\\iint_D\\frac{\\sin(\\pi\\sqrt{x^2+y^2})}{\\sqrt{x^2+y^2}}dxdy$（其中积分区域 $D=\\{(x,y)|1\\leq x^2+y^2\\leq4\\}$）的值为[\\quad] $4$ $-4$ $-5$ $5$ 解答　由对称性，可只考虑第一象限部分 $D=4D_1$，注意被积函数也有对称性，则有\n\n$$\\iint_D\\frac{\\sin(\\pi\\sqrt{x^2+y^2})}{\\sqrt{x^2+y^2}}dxdy=4\\iint_{D_1}\\frac{\\sin(\\pi\\sqrt{x^2+y^2})}{\\sqrt{x^2+y^2}}dxdy=4\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_1^2\\frac{\\sin\\pi r}{r}rdr=-4.$$ \n\n图示：圆环区域 $D$，内圆半径标记 $1$、外圆半径标记 $2$；第一象限圆环扇区红色并标记 $D_1$，其余圆环黄色并标记 $D$；坐标轴标记 $x,y$，原点标记 $O$，横轴标记 $-2,-1,1,2$。",
+  "sort_order": 23
+}

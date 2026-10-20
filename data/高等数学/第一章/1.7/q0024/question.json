@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0^+$ 时，$\\frac{\\sin x}{\\sqrt{x}}$ 与函数（ ）是等价无穷小。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2x"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sin x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\sin x/\\sqrt{x}\\sim x/\\sqrt{x}=\\sqrt{x}$。",
+  "search_text": "当 $x\\to0^+$ 时，$\\frac{\\sin x}{\\sqrt{x}}$ 与函数（ ）是等价无穷小。 2x $\\sin x$ $x^2$ $\\sqrt{x}$ $\\sin x/\\sqrt{x}\\sim x/\\sqrt{x}=\\sqrt{x}$。",
+  "sort_order": 24
+}

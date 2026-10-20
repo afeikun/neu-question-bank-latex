@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列级数收敛的有几个？(1) $\\sum_{n=1}^{\\infty}3^n/(n2^n)$；(2) $\\sum_{n=1}^{\\infty}(2n-1)/2^n$；(3) $\\sum_{n=1}^{\\infty}1/[2^{2n-1}(2n-1)]$；(4) $\\sum_{n=1}^{\\infty}5^{n-1}/n!$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "(1)发散，(2)(3)(4)比值判别均收敛，共3个。",
+  "search_text": "下列级数收敛的有几个？(1) $\\sum_{n=1}^{\\infty}3^n/(n2^n)$；(2) $\\sum_{n=1}^{\\infty}(2n-1)/2^n$；(3) $\\sum_{n=1}^{\\infty}1/[2^{2n-1}(2n-1)]$；(4) $\\sum_{n=1}^{\\infty}5^{n-1}/n!$。 $1$个 $2$个 $3$个 $4$个 (1)发散，(2)(3)(4)比值判别均收敛，共3个。",
+  "sort_order": 8
+}

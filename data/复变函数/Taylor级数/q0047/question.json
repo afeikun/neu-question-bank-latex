@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $\\sin(2z^3)$ 在 $z=0$ 处的Taylor展开式是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n2^{2n+1}z^{6n+3}/(2n+1)!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^{n+1}2^nz^{2n+1}/(2n+1)!$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n2^nz^{6n+3}/(2n+1)!$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^nz^{2n+1}/(2n+1)!$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "代入正弦级数得 $\\sum_{n=0}^{\\infty}(-1)^n(2z^3)^{2n+1}/(2n+1)!$。",
+  "search_text": "函数 $\\sin(2z^3)$ 在 $z=0$ 处的Taylor展开式是（ ） $\\sum_{n=0}^{\\infty}(-1)^n2^{2n+1}z^{6n+3}/(2n+1)!$ $\\sum_{n=0}^{\\infty}(-1)^{n+1}2^nz^{2n+1}/(2n+1)!$ $\\sum_{n=0}^{\\infty}(-1)^n2^nz^{6n+3}/(2n+1)!$ $\\sum_{n=0}^{\\infty}(-1)^nz^{2n+1}/(2n+1)!$ 代入正弦级数得 $\\sum_{n=0}^{\\infty}(-1)^n(2z^3)^{2n+1}/(2n+1)!$。",
+  "sort_order": 47
+}

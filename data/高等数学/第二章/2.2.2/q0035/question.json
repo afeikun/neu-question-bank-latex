@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=e^{-x^2}\\sin2x$，则 $y\\prime(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$-2xe^{-x^2}\\sin2x+e^{-x^2}\\cos2x$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$-2xe^{-x^2}\\sin2x+2e^{-x^2}\\cos2x$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$-xe^{-x^2}\\sin2x+e^{-x^2}\\cos2x$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$-xe^{-x^2}\\sin2x+2e^{-x^2}\\cos2x$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "乘积求导得 $-2xe^{-x^2}\\sin2x+2e^{-x^2}\\cos2x$。",
+  "search_text": "设 $y=e^{-x^2}\\sin2x$，则 $y\\prime(x)=$（ ）。 $$-2xe^{-x^2}\\sin2x+e^{-x^2}\\cos2x$$ $$-2xe^{-x^2}\\sin2x+2e^{-x^2}\\cos2x$$ $$-xe^{-x^2}\\sin2x+e^{-x^2}\\cos2x$$ $$-xe^{-x^2}\\sin2x+2e^{-x^2}\\cos2x$$ 乘积求导得 $-2xe^{-x^2}\\sin2x+2e^{-x^2}\\cos2x$。",
+  "sort_order": 35
+}

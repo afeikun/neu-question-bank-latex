@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列哪个函数 $f(x)$ 在区间 $(-1,1)$ 内存在 $\\xi$ 使得 $f'(\\xi)=0$，但在区间 $[-1,1]$ 上不满足罗尔中值定理条件？$(\\quad)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)=x^2|x|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)=\\sqrt[3]{x^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)=x^{5/3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)=\\arccos x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x^2|x|$ 满足罗尔定理条件；选项 B 在 $0$ 不可导，选项 D 端点导数不存在；选项 C 有 $f'(0)=0$，但不满足端点函数值相等条件。",
+  "search_text": "下列哪个函数 $f(x)$ 在区间 $(-1,1)$ 内存在 $\\xi$ 使得 $f'(\\xi)=0$，但在区间 $[-1,1]$ 上不满足罗尔中值定理条件？$(\\quad)$ $f(x)=x^2|x|$ $f(x)=\\sqrt[3]{x^2}$ $f(x)=x^{5/3}$ $f(x)=\\arccos x$ $x^2|x|$ 满足罗尔定理条件；选项 B 在 $0$ 不可导，选项 D 端点导数不存在；选项 C 有 $f'(0)=0$，但不满足端点函数值相等条件。",
+  "sort_order": 21
+}

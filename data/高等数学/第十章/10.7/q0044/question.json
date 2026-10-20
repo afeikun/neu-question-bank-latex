@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一质量为 $m$ 的质点作直线运动，已知其上受一个与运动方向一致，大小与时间平方成正比（比例系数为 $k_1$）的力的作用，且还受一个与速度成正比（比例系数为 $k_2$）的阻力作用，则该质点运动速度与时间应满足的微分方程是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$v'-\\frac{k_1}{m}v=\\frac{k_2}{m}t^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$v'-\\frac{k_2}{m}v=\\frac{k_1}{m}t^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$v'+\\frac{k_1}{m}v=\\frac{k_2}{m}t^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$v'+\\frac{k_2}{m}v=\\frac{k_1}{m}t^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：由已知得 $k_1t^2-k_2v=mv'$，于是成立 $v'+\\frac{k_2}{m}v=\\frac{k_1}{m}t^2$。",
+  "search_text": "一质量为 $m$ 的质点作直线运动，已知其上受一个与运动方向一致，大小与时间平方成正比（比例系数为 $k_1$）的力的作用，且还受一个与速度成正比（比例系数为 $k_2$）的阻力作用，则该质点运动速度与时间应满足的微分方程是（ ） $v'-\\frac{k_1}{m}v=\\frac{k_2}{m}t^2$ $v'-\\frac{k_2}{m}v=\\frac{k_1}{m}t^2$ $v'+\\frac{k_1}{m}v=\\frac{k_2}{m}t^2$ $v'+\\frac{k_2}{m}v=\\frac{k_1}{m}t^2$ 解析：由已知得 $k_1t^2-k_2v=mv'$，于是成立 $v'+\\frac{k_2}{m}v=\\frac{k_1}{m}t^2$。",
+  "sort_order": 44
+}

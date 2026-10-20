@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算双曲抛物面 $z=xy$ 被柱面 $x^2+y^2=R^2$ 所截出的面积（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43\\pi[(1+R^2)^{3/2}-1]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23\\pi[(1+R^2)^{3/2}-1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13\\pi[(1+R^2)^{3/2}-1]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac53\\pi[(1+R^2)^{3/2}-1]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "该曲面在 $xoy$ 面上投影为 $D:x^2+y^2\\leq R^2$，则\n$$\nS=\\iint_{D_{xy}}\\sqrt{1+z_x^2+z_y^2}\\,dxdy\n=\\iint_{D_{xy}}\\sqrt{1+x^2+y^2}\\,dxdy\n=\\int_0^{2\\pi}d\\theta\\int_0^Rr\\sqrt{1+r^2}\\,dr\n=\\frac{2}{3}\\pi\\left[(1+R^2)^{\\frac{3}{2}}-1\\right]\n$$\n\n图示：双曲抛物面以网格展示，坐标轴标为 $x,y,z$。",
+  "search_text": "计算双曲抛物面 $z=xy$ 被柱面 $x^2+y^2=R^2$ 所截出的面积（ ） $\\frac43\\pi[(1+R^2)^{3/2}-1]$ $\\frac23\\pi[(1+R^2)^{3/2}-1]$ $\\frac13\\pi[(1+R^2)^{3/2}-1]$ $\\frac53\\pi[(1+R^2)^{3/2}-1]$ 该曲面在 $xoy$ 面上投影为 $D:x^2+y^2\\leq R^2$，则\n$$\nS=\\iint_{D_{xy}}\\sqrt{1+z_x^2+z_y^2}\\,dxdy\n=\\iint_{D_{xy}}\\sqrt{1+x^2+y^2}\\,dxdy\n=\\int_0^{2\\pi}d\\theta\\int_0^Rr\\sqrt{1+r^2}\\,dr\n=\\frac{2}{3}\\pi\\left[(1+R^2)^{\\frac{3}{2}}-1\\right]\n$$\n\n图示：双曲抛物面以网格展示，坐标轴标为 $x,y,z$。",
+  "sort_order": 46
+}

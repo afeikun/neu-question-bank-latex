@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在整个空间内，向量场 $A$ 为有势场的充要条件是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A$ 为无源场且为无旋场"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$ 为无旋场"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "以上三者都不对"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A$ 为无源场"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "参考答案：\n由有势场的定义可知，有势场对应的函数为单值函数则该单值函数的向量场 $A$ 满足 $\\operatorname{rot}A=0$，因此 $A$ 为无旋场。",
+  "search_text": "在整个空间内，向量场 $A$ 为有势场的充要条件是（ ） $A$ 为无源场且为无旋场 $A$ 为无旋场 以上三者都不对 $A$ 为无源场 参考答案：\n由有势场的定义可知，有势场对应的函数为单值函数则该单值函数的向量场 $A$ 满足 $\\operatorname{rot}A=0$，因此 $A$ 为无旋场。",
+  "sort_order": 3
+}

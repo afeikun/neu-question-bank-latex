@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $2y\\prime\\prime-4y\\prime+5y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^x(C_1\\cos\\frac{\\sqrt6}2x+C_2\\sin\\frac{\\sqrt6}2x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{-x}(C_1\\cos\\frac{\\sqrt6}2x+C_2\\sin\\frac{\\sqrt6}2x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^{-2x}(C_1\\cos\\frac{\\sqrt6}2x+C_2\\sin\\frac{\\sqrt6}2x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^{-x}(C_1\\cos\\frac{\\sqrt3}2x+C_2\\sin\\frac{\\sqrt3}2x)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析 特征方程为 $2\\lambda^2-4\\lambda+5=0$，特征根 $\\lambda=1\\pm\\frac{\\sqrt6}{2}i$，故通解为 $y=e^x\\left(C_1\\cos\\frac{\\sqrt6}{2}x+C_2\\sin\\frac{\\sqrt6}{2}x\\right)$。",
+  "search_text": "微分方程 $2y\\prime\\prime-4y\\prime+5y=0$ 的通解为（ ） $y=e^x(C_1\\cos\\frac{\\sqrt6}2x+C_2\\sin\\frac{\\sqrt6}2x)$ $y=e^{-x}(C_1\\cos\\frac{\\sqrt6}2x+C_2\\sin\\frac{\\sqrt6}2x)$ $y=e^{-2x}(C_1\\cos\\frac{\\sqrt6}2x+C_2\\sin\\frac{\\sqrt6}2x)$ $y=e^{-x}(C_1\\cos\\frac{\\sqrt3}2x+C_2\\sin\\frac{\\sqrt3}2x)$ 解析 特征方程为 $2\\lambda^2-4\\lambda+5=0$，特征根 $\\lambda=1\\pm\\frac{\\sqrt6}{2}i$，故通解为 $y=e^x\\left(C_1\\cos\\frac{\\sqrt6}{2}x+C_2\\sin\\frac{\\sqrt6}{2}x\\right)$。",
+  "sort_order": 6
+}

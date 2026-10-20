@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $z=f(x,y)$ 在 $(x_0,y_0)$ 处沿 $x$ 轴正方向的方向导数为 $A$，则 $f$ 在该点对 $x$ 的偏导数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "为A"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "为-A"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "一定不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不一定存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial x}$ 在很多情况下是存在的，比如：$f(x,y)=3x+5y$，\n\n但也有不存在的时候，举个反例：\n\n例如 $z=\\sqrt{x^2+y^2}$ 在点 $(0,0)$ 处沿 $\\vec{l}=\\vec{i}$ 方向 $\\frac{\\partial z}{\\partial l}=1$，而 $\\frac{\\partial z}{\\partial x}$ 不存在。",
+  "search_text": "若 $z=f(x,y)$ 在 $(x_0,y_0)$ 处沿 $x$ 轴正方向的方向导数为 $A$，则 $f$ 在该点对 $x$ 的偏导数。 为A 为-A 一定不存在 不一定存在 $\\frac{\\partial z}{\\partial x}$ 在很多情况下是存在的，比如：$f(x,y)=3x+5y$，\n\n但也有不存在的时候，举个反例：\n\n例如 $z=\\sqrt{x^2+y^2}$ 在点 $(0,0)$ 处沿 $\\vec{l}=\\vec{i}$ 方向 $\\frac{\\partial z}{\\partial l}=1$，而 $\\frac{\\partial z}{\\partial x}$ 不存在。",
+  "sort_order": 12
+}

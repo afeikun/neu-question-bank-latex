@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是一个 $n$ 阶方阵，存在一个 $n$ 阶非零矩阵 $B$，使得 $AB=0$ 的充要条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|A|<0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|A|=n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|A|=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|A|>0$ 且 $|A|\\ne n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "存在一个 $n$ 阶非零矩阵 $B$ 使得 $AB=0$ 等价于 $Ax=0$ 有非零解 $B$，故 $Ax=0$ 有非零解的充要条件是 $r(A)<n$，即 $|A|=0$。",
+  "search_text": "设 $A$ 是一个 $n$ 阶方阵，存在一个 $n$ 阶非零矩阵 $B$，使得 $AB=0$ 的充要条件是（ ）。 $|A|<0$ $|A|=n$ $|A|=0$ $|A|>0$ 且 $|A|\\ne n$ 存在一个 $n$ 阶非零矩阵 $B$ 使得 $AB=0$ 等价于 $Ax=0$ 有非零解 $B$，故 $Ax=0$ 有非零解的充要条件是 $r(A)<n$，即 $|A|=0$。",
+  "sort_order": 33
+}

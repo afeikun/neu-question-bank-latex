@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$S^*$ 为球面 $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ 的外侧，则 $\\iint_{S^*}(x^2-yz)dy dz+(y^2-xz)dz dx+(z^2-xy)dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac83\\pi R^3(a+b+c)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi R^3(a+b+c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac83\\pi R^3(a+b-c)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac53\\pi R^3(a+b+c)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$P=x^2-yz,Q=y^2-xz,R=z^2-xy$\n\n$$\\frac{\\partial P}{\\partial x}=2x,\\frac{\\partial Q}{\\partial y}=2y,\\frac{\\partial R}{\\partial z}=2z$$\n\n∴原式 $=2\\iiint_V(x+y+z)dxdydz$，其中 $V$ 为 $S$ 所围的球。\n\n若把球体看作密度为 $1$ 的球体，则由球体重心的公式\n\n$$a=\\frac{1}{V}\\iiint_V x\\,dxdydz,b=\\frac{1}{V}\\iiint_V y\\,dxdydz,c=\\frac{1}{V}\\iiint_V z\\,dxdydz$$\n\n∴原式 $=2(a+b+c)V=\\frac{8}{3}\\pi R^3(a+b+c)$",
+  "search_text": "$S^*$ 为球面 $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ 的外侧，则 $\\iint_{S^*}(x^2-yz)dy dz+(y^2-xz)dz dx+(z^2-xy)dxdy=$（ ） $\\frac83\\pi R^3(a+b+c)$ $\\pi R^3(a+b+c)$ $\\frac83\\pi R^3(a+b-c)$ $\\frac53\\pi R^3(a+b+c)$ 参考答案：\n\n$P=x^2-yz,Q=y^2-xz,R=z^2-xy$\n\n$$\\frac{\\partial P}{\\partial x}=2x,\\frac{\\partial Q}{\\partial y}=2y,\\frac{\\partial R}{\\partial z}=2z$$\n\n∴原式 $=2\\iiint_V(x+y+z)dxdydz$，其中 $V$ 为 $S$ 所围的球。\n\n若把球体看作密度为 $1$ 的球体，则由球体重心的公式\n\n$$a=\\frac{1}{V}\\iiint_V x\\,dxdydz,b=\\frac{1}{V}\\iiint_V y\\,dxdydz,c=\\frac{1}{V}\\iiint_V z\\,dxdydz$$\n\n∴原式 $=2(a+b+c)V=\\frac{8}{3}\\pi R^3(a+b+c)$",
+  "sort_order": 8
+}

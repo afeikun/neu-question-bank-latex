@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "甲、乙、丙三人各射一次靶，记 $A,B,C$ 分别为三人中靶事件，则下列说法中不正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "“三人中恰好有一人中靶”表示为 $A\\overline B\\overline C\\cup\\overline A B\\overline C\\cup\\overline A\\overline B C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "“甲未中靶”表示为 $\\overline A$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "“甲中靶而乙未中靶”表示为 $A\\overline B$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "“三人中只有两人未中靶”表示为 $\\overline A\\overline B C\\cup\\overline A B\\overline C\\cup A\\overline B\\overline C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "逐项按事件含义对照选项与题图解析；源 HTML 高亮选项 1。",
+  "search_text": "甲、乙、丙三人各射一次靶，记 $A,B,C$ 分别为三人中靶事件，则下列说法中不正确的是(\\quad)。 “三人中恰好有一人中靶”表示为 $A\\overline B\\overline C\\cup\\overline A B\\overline C\\cup\\overline A\\overline B C$ “甲未中靶”表示为 $\\overline A$ “甲中靶而乙未中靶”表示为 $A\\overline B$ “三人中只有两人未中靶”表示为 $\\overline A\\overline B C\\cup\\overline A B\\overline C\\cup A\\overline B\\overline C$ 逐项按事件含义对照选项与题图解析；源 HTML 高亮选项 1。",
+  "sort_order": 9
+}

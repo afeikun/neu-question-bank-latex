@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\,dx+(1+y)x\\,dy=e^y dy$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=\\frac{ce^{-y}}y+\\frac{e^y}{2y}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=\\frac{e^{-y}}y+\\frac{ce^y}{2y}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=\\frac{ce^{-y}}{2y}+\\frac{e^y}y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=\\frac{ce^{-y}}y+\\frac{e^{-y}}{2y}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将原方程变形为：$\\frac{dx}{dy}+\\frac{1+y}{y}x=\\frac{e^y}{y}$\n\n$$x=e^{-\\int\\frac{1+y}{y}\\,dy}\\left(c+\\int\\frac{e^y}{y}e^{\\int\\frac{1+y}{y}\\,dy}\\,dy\\right)=\\frac{e^{-y}}{y}\\left(c+\\int e^{2y}\\,dy\\right)$$\n\n所求通解为\n\n$$=\\frac{ce^{-y}}{y}+\\frac{e^y}{2y}$$",
+  "search_text": "微分方程 $y\\,dx+(1+y)x\\,dy=e^y dy$ 的解为（ ） $x=\\frac{ce^{-y}}y+\\frac{e^y}{2y}$ $x=\\frac{e^{-y}}y+\\frac{ce^y}{2y}$ $x=\\frac{ce^{-y}}{2y}+\\frac{e^y}y$ $x=\\frac{ce^{-y}}y+\\frac{e^{-y}}{2y}$ 将原方程变形为：$\\frac{dx}{dy}+\\frac{1+y}{y}x=\\frac{e^y}{y}$\n\n$$x=e^{-\\int\\frac{1+y}{y}\\,dy}\\left(c+\\int\\frac{e^y}{y}e^{\\int\\frac{1+y}{y}\\,dy}\\,dy\\right)=\\frac{e^{-y}}{y}\\left(c+\\int e^{2y}\\,dy\\right)$$\n\n所求通解为\n\n$$=\\frac{ce^{-y}}{y}+\\frac{e^y}{2y}$$",
+  "sort_order": 33
+}

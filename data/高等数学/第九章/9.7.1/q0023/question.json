@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a>0$，则 $\\iint_\\Sigma y\\,dx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$\\Sigma$ 围成球体 $\\Omega$ 由高斯公式\n\n$$\\oiint_{\\Sigma}ydxdy=\\iiint_{\\Omega}0dv=0$$",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a>0$，则 $\\iint_\\Sigma y\\,dx\\,dy=$（ ） $0$ $1$ $5$ $2$ 参考答案：\n\n$\\Sigma$ 围成球体 $\\Omega$ 由高斯公式\n\n$$\\oiint_{\\Sigma}ydxdy=\\iiint_{\\Omega}0dv=0$$",
+  "sort_order": 23
+}

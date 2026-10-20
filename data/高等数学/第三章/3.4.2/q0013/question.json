@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 是方程 $y\\prime\\prime-2y\\prime+4y=0$ 的一个特解。若 $f(x_0)>0$ 且 $f\\prime(x_0)=0$，则 $f(x)$ 在 $x_0$ 处（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "取极大值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在某邻域内单调减少"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在某邻域内单调增加"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不取极小值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程给出 $f\\prime\\prime(x_0)=2f\\prime(x_0)-4f(x_0)=-4f(x_0)<0$，由二阶判别法知 $f$ 在 $x_0$ 处取极大值。",
+  "search_text": "$f(x)$ 是方程 $y\\prime\\prime-2y\\prime+4y=0$ 的一个特解。若 $f(x_0)>0$ 且 $f\\prime(x_0)=0$，则 $f(x)$ 在 $x_0$ 处（ ）。 取极大值 在某邻域内单调减少 在某邻域内单调增加 不取极小值 方程给出 $f\\prime\\prime(x_0)=2f\\prime(x_0)-4f(x_0)=-4f(x_0)<0$，由二阶判别法知 $f$ 在 $x_0$ 处取极大值。",
+  "sort_order": 13
+}

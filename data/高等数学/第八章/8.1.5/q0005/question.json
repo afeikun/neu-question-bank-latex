@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "立体 $\\sqrt{x^2+y^2}\\leq z\\leq6-x^2-y^2$ 的体积（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{32\\pi}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{31\\pi}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "立体如图所示，满足条件的部分在 $xoy$ 面上的投影区域为 $D:x^2+y^2\\leq4$，于是\n$$\nV=\\iint_D(6-x^2-y^2-\\sqrt{x^2+y^2})d\\sigma=\\int_0^{2\\pi}d\\theta\\int_0^2(6r-r^3-r^2)dr=\\frac{32\\pi}{3}\n$$\n\n图示：立体由曲面 $z=6-x^2-y^2$ 和 $z=\\sqrt{x^2+y^2}$ 围成；图中标有 $z$ 轴及高度 $6$、$2$，坐标原点 $O$ 和 $x,y$ 轴，曲面部分标记为 $A_1$、$A_2$。",
+  "search_text": "立体 $\\sqrt{x^2+y^2}\\leq z\\leq6-x^2-y^2$ 的体积（ ） $\\frac{32\\pi}{3}$ $\\frac{31\\pi}{3}$ $6\\pi$ $2\\pi$ 立体如图所示，满足条件的部分在 $xoy$ 面上的投影区域为 $D:x^2+y^2\\leq4$，于是\n$$\nV=\\iint_D(6-x^2-y^2-\\sqrt{x^2+y^2})d\\sigma=\\int_0^{2\\pi}d\\theta\\int_0^2(6r-r^3-r^2)dr=\\frac{32\\pi}{3}\n$$\n\n图示：立体由曲面 $z=6-x^2-y^2$ 和 $z=\\sqrt{x^2+y^2}$ 围成；图中标有 $z$ 轴及高度 $6$、$2$，坐标原点 $O$ 和 $x,y$ 轴，曲面部分标记为 $A_1$、$A_2$。",
+  "sort_order": 5
+}

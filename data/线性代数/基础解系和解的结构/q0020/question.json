@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若齐次线性方程组 $\\begin{cases}x_1+x_2+x_3+x_4=0,\\\\x_1+\\lambda x_2+x_3-x_4=0,\\\\x_1+x_2+\\lambda x_3-x_4=0\\end{cases}$ 的基础解系中只含有一个解向量，则 $\\lambda$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda\\ne1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda\\ne-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda=-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "基础解系含一个向量意味着 $4-r(A)=1$，即 $r(A)=3$。消元可见当且仅当 $\\lambda\\ne1$ 时秩为 $3$。",
+  "search_text": "若齐次线性方程组 $\\begin{cases}x_1+x_2+x_3+x_4=0,\\\\x_1+\\lambda x_2+x_3-x_4=0,\\\\x_1+x_2+\\lambda x_3-x_4=0\\end{cases}$ 的基础解系中只含有一个解向量，则 $\\lambda$ 的值为（ ）。 $\\lambda\\ne1$ $\\lambda\\ne-1$ $\\lambda=1$ $\\lambda=-1$ 基础解系含一个向量意味着 $4-r(A)=1$，即 $r(A)=3$。消元可见当且仅当 $\\lambda\\ne1$ 时秩为 $3$。",
+  "sort_order": 20
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列函数能在给定区间内使用柯西中值定理得到相应结论为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x)=x^2,\\ g(x)=x^4,\\ [-2,1]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f(x)=2^x,\\ g(x)=3^x,\\ [-1,1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)=x^3,\\ g(x)=x^5,\\ [-1,2]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f(x)=x^2,\\ g(x)=x^3,\\ [-1,1]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "只有 $f(x)=2^x$ 与 $g(x)=3^x$ 在给定区间内的导数均不为零。",
+  "search_text": "下列函数能在给定区间内使用柯西中值定理得到相应结论为 $(\\quad)$。 $f(x)=x^2,\\ g(x)=x^4,\\ [-2,1]$ $f(x)=2^x,\\ g(x)=3^x,\\ [-1,1]$ $f(x)=x^3,\\ g(x)=x^5,\\ [-1,2]$ $f(x)=x^2,\\ g(x)=x^3,\\ [-1,1]$ 只有 $f(x)=2^x$ 与 $g(x)=3^x$ 在给定区间内的导数均不为零。",
+  "sort_order": 1
+}

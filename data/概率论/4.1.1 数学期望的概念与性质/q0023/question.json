@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "甲乙射击得分分布：甲取$0,1,2$概率$0,.2,.8$；乙概率$.6,.3,.1$。谁成绩更好？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "乙远不如甲"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "甲远不如乙"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "二人成绩相当"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无法评价"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X_1)=1.8,E(X_2)=0.5$，按期望得分甲较好。",
+  "search_text": "甲乙射击得分分布：甲取$0,1,2$概率$0,.2,.8$；乙概率$.6,.3,.1$。谁成绩更好？ 乙远不如甲 甲远不如乙 二人成绩相当 无法评价 $E(X_1)=1.8,E(X_2)=0.5$，按期望得分甲较好。",
+  "sort_order": 23
+}

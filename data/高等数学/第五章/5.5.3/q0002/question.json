@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\frac2{\\sqrt\\pi}\\int_0^{1/2}e^{-x^2}\\,dx$ 的近似值（误差不超过0.0001）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0.5205"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0.5741"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0.5986"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0.5871"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将 $e^{-x^2}$ 展开后逐项积分，近似值为0.5205。",
+  "search_text": "计算 $\\frac2{\\sqrt\\pi}\\int_0^{1/2}e^{-x^2}\\,dx$ 的近似值（误差不超过0.0001）。 0.5205 0.5741 0.5986 0.5871 将 $e^{-x^2}$ 展开后逐项积分，近似值为0.5205。",
+  "sort_order": 2
+}

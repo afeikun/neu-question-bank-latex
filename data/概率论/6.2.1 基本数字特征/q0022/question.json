@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "频数表中观测值$x_i$频数$n_i$，总数$n=\\sum n_i$，样本均值为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1n\\sum n_ix_i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1m\\sum x_i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{n-1}\\sum n_i(x_i-\\bar x)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1{m-1}\\sum(x_i-\\bar x)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "均值为所有观测值总和除以$n$，即频数加权均值。",
+  "search_text": "频数表中观测值$x_i$频数$n_i$，总数$n=\\sum n_i$，样本均值为（）。 $\\frac1n\\sum n_ix_i$ $\\frac1m\\sum x_i$ $\\frac1{n-1}\\sum n_i(x_i-\\bar x)^2$ $\\frac1{m-1}\\sum(x_i-\\bar x)^2$ 均值为所有观测值总和除以$n$，即频数加权均值。",
+  "sort_order": 22
+}

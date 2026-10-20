@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=(\\frac1{\\sqrt2},\\frac1{\\sqrt2},0)^T$，$\\alpha_2=(\\frac1{\\sqrt2},-\\frac1{\\sqrt2},0)^T$，$\\alpha_3=(0,0,1)^T$ 是三维向量空间 $\\mathbb{R}^3$ 的一个规范正交基，则向量 $\\beta=(\\sqrt2,\\sqrt2,3)^T$ 在这个基下的坐标为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-2,2,3)^T$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-\\sqrt2,\\sqrt2,3)^T$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\sqrt2,0,\\sqrt3)^T$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2,0,3)^T$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由于 $(\\beta,\\alpha_1)=2$，$(\\beta,\\alpha_2)=0$，$(\\beta,\\alpha_3)=3$，所以 $\\beta=2\\alpha_1+3\\alpha_3$，坐标为 $(2,0,3)^T$。",
+  "search_text": "设 $\\alpha_1=(\\frac1{\\sqrt2},\\frac1{\\sqrt2},0)^T$，$\\alpha_2=(\\frac1{\\sqrt2},-\\frac1{\\sqrt2},0)^T$，$\\alpha_3=(0,0,1)^T$ 是三维向量空间 $\\mathbb{R}^3$ 的一个规范正交基，则向量 $\\beta=(\\sqrt2,\\sqrt2,3)^T$ 在这个基下的坐标为（ ）。 $(-2,2,3)^T$ $(-\\sqrt2,\\sqrt2,3)^T$ $(\\sqrt2,0,\\sqrt3)^T$ $(2,0,3)^T$ 由于 $(\\beta,\\alpha_1)=2$，$(\\beta,\\alpha_2)=0$，$(\\beta,\\alpha_3)=3$，所以 $\\beta=2\\alpha_1+3\\alpha_3$，坐标为 $(2,0,3)^T$。",
+  "sort_order": 10
+}

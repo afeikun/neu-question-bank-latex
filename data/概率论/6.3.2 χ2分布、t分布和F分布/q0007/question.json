@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "两独立正态总体$X,Y\\sim N(0,3^2)$，样本容量均为9，统计量$T=(\\sum X_i)/\\sqrt{\\sum Y_i^2}$服从自由度为（ ）的t分布。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "标准化后分子除以$\\sqrt9$为标准正态，分母平方和除以9为$\\chi^2(9)$，故自由度9。",
+  "search_text": "两独立正态总体$X,Y\\sim N(0,3^2)$，样本容量均为9，统计量$T=(\\sum X_i)/\\sqrt{\\sum Y_i^2}$服从自由度为（ ）的t分布。 $9$ $4$ $6$ $5$ 标准化后分子除以$\\sqrt9$为标准正态，分母平方和除以9为$\\chi^2(9)$，故自由度9。",
+  "sort_order": 7
+}

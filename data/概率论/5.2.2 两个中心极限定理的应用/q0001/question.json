@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设各零件的重量都是随机变量，它们相互独立且服从相同分布，数学期望为0.5kg，均方差（标准差）为0.1kg。5000只零件的总重量超过2510kg的概率为（ ）。已知 $\\Phi(1.414)=0.9214$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.0786$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.0789$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.8428$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.1574$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "设各零件重量为 $X_i\\ (i=1,\\ldots,5000)$，源题给出 $\\mu=E(X_i)=0.5\\text{kg},\\sigma=\\sqrt{D(X_i)}=0.1\\text{kg}$。总重量 $Z=\\sum_{i=1}^{5000}X_i$，按源解析，$P(Z>2510)\\approx1-\\Phi\\left(\\frac{2510-5000\\times0.5}{0.1\\sqrt{5000}}\\right)=1-\\Phi(1.414)=1-0.9214=0.0786$。",
+  "search_text": "设各零件的重量都是随机变量，它们相互独立且服从相同分布，数学期望为0.5kg，均方差（标准差）为0.1kg。5000只零件的总重量超过2510kg的概率为（ ）。已知 $\\Phi(1.414)=0.9214$。 $0.0786$ $0.0789$ $0.8428$ $0.1574$ 设各零件重量为 $X_i\\ (i=1,\\ldots,5000)$，源题给出 $\\mu=E(X_i)=0.5\\text{kg},\\sigma=\\sqrt{D(X_i)}=0.1\\text{kg}$。总重量 $Z=\\sum_{i=1}^{5000}X_i$，按源解析，$P(Z>2510)\\approx1-\\Phi\\left(\\frac{2510-5000\\times0.5}{0.1\\sqrt{5000}}\\right)=1-\\Phi(1.414)=1-0.9214=0.0786$。",
+  "sort_order": 1
+}

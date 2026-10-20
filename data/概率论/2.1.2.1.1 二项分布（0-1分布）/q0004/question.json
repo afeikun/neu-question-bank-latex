@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim B(n,p)$，$P(X=k)$最大时$k$取值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(n+1)p$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lfloor(n+1)p\\rfloor$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(n+1)p,(n+1)p-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(n+1)p$或$(n+1)p-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "若$(n+1)p$为整数，有两个众数$(n+1)p$和$(n+1)p-1$；否则众数为$\\lfloor(n+1)p\\rfloor$。",
+  "search_text": "$X\\sim B(n,p)$，$P(X=k)$最大时$k$取值为（ ）。 $(n+1)p$ $\\lfloor(n+1)p\\rfloor$ $(n+1)p,(n+1)p-1$ $(n+1)p$或$(n+1)p-1$ 若$(n+1)p$为整数，有两个众数$(n+1)p$和$(n+1)p-1$；否则众数为$\\lfloor(n+1)p\\rfloor$。",
+  "sort_order": 4
+}

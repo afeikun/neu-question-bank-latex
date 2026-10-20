@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y^{(n)}=e^{ax}+x^b\\ (a\\ne0,b\\ne0)$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac1{a^n}e^{ax}+[(b+n)(b+n-1)\\cdots b]^{-1}x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac1{a^n}e^{ax}+[(b+n)(b+n-1)\\cdots(b+1)]^{-1}x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1{a^n}e^{ax}+[(b+n)(b+n-1)\\cdots b]x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac1{a^n}e^{ax}+[(b+n)(b+n-1)\\cdots(b+1)]x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $\\int e^{ax}dx=e^{ax}/a+C$ 和 $\\int x^tdx=x^{t+1}/(t+1)+C$，连续积分 $n$ 次得 $y=e^{ax}/a^n+\\frac{x^{b+n}}{(b+n)(b+n-1)\\cdots(b+1)}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$，对应第二项。源题条件仅给 $a\\ne0,b\\ne0$，上述式子还要求 $b\\notin\\{-1,-2,\\ldots,-n\\}$；否则连续积分会出现对数项。保留原题条件与选项，并提示这一源题适用条件缺失。",
+  "search_text": "方程 $y^{(n)}=e^{ax}+x^b\\ (a\\ne0,b\\ne0)$ 的通解为（ ） $y=\\frac1{a^n}e^{ax}+[(b+n)(b+n-1)\\cdots b]^{-1}x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$ $y=\\frac1{a^n}e^{ax}+[(b+n)(b+n-1)\\cdots(b+1)]^{-1}x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$ $y=\\frac1{a^n}e^{ax}+[(b+n)(b+n-1)\\cdots b]x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$ $y=\\frac1{a^n}e^{ax}+[(b+n)(b+n-1)\\cdots(b+1)]x^{b+n}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$ 由 $\\int e^{ax}dx=e^{ax}/a+C$ 和 $\\int x^tdx=x^{t+1}/(t+1)+C$，连续积分 $n$ 次得 $y=e^{ax}/a^n+\\frac{x^{b+n}}{(b+n)(b+n-1)\\cdots(b+1)}+C_1x^{n-1}+C_2x^{n-2}+\\cdots+C_{n-1}x+C_n$，对应第二项。源题条件仅给 $a\\ne0,b\\ne0$，上述式子还要求 $b\\notin\\{-1,-2,\\ldots,-n\\}$；否则连续积分会出现对数项。保留原题条件与选项，并提示这一源题适用条件缺失。",
+  "sort_order": 21
+}

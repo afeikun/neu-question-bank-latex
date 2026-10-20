@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由方程 $y^5+2y-x-3x^7=0$ 确定的隐函数在 $x=0$ 的导数 $y'(0)$ 为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "方程两边对 $x$ 求导，得：\n\n$$\n\\frac{d}{dx}(y^5+2y-x-3x^7)=0\n$$\n\n得：\n\n$$\n5y^4\\frac{dy}{dx}+2\\frac{dy}{dx}-1-21x^6=0\n$$\n\n$$\n\\therefore\\frac{dy}{dx}=\\frac{1+21x^6}{5y^4+2}\n$$\n\n因 $x=0$ 时 $y=0$，故\n\n$$\n\\left.\\frac{dy}{dx}\\right|_{x=0}=\\frac{1}{2}\n$$",
+  "search_text": "由方程 $y^5+2y-x-3x^7=0$ 确定的隐函数在 $x=0$ 的导数 $y'(0)$ 为。 1 $\\frac12$ -1 $-\\frac12$ 方程两边对 $x$ 求导，得：\n\n$$\n\\frac{d}{dx}(y^5+2y-x-3x^7)=0\n$$\n\n得：\n\n$$\n5y^4\\frac{dy}{dx}+2\\frac{dy}{dx}-1-21x^6=0\n$$\n\n$$\n\\therefore\\frac{dy}{dx}=\\frac{1+21x^6}{5y^4+2}\n$$\n\n因 $x=0$ 时 $y=0$，故\n\n$$\n\\left.\\frac{dy}{dx}\\right|_{x=0}=\\frac{1}{2}\n$$",
+  "sort_order": 22
+}

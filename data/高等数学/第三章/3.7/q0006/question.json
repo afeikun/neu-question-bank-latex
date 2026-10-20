@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=\\frac{x^2+x}{(x-2)(x+3)}$ 的斜渐近线条数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分子分母同阶，只有水平渐近线；分母零点给出铅直渐近线，没有斜渐近线，因此斜渐近线条数为 $0$。",
+  "search_text": "曲线 $y=\\frac{x^2+x}{(x-2)(x+3)}$ 的斜渐近线条数为（ ）。 $3$ $4$ $2$ $1$ 分子分母同阶，只有水平渐近线；分母零点给出铅直渐近线，没有斜渐近线，因此斜渐近线条数为 $0$。",
+  "sort_order": 6
+}

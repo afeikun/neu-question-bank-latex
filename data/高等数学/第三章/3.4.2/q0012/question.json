@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)$ 和 $g(x)$ 都在 $x=a$ 处取得极大值，则 $F(x)=f(x)g(x)$ 在 $x=a$ 处（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不能取得极值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不能确定是否取得极大值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "必取极小值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "必取极大值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两个函数都在 $a$ 处取极大值，并不能确定乘积极值。例如 $(-x^2)(-x^4)=x^6$ 在 $0$ 取极小值，而 $\\cos x\\cos2x$ 在 $0$ 取极大值。",
+  "search_text": "设函数 $f(x)$ 和 $g(x)$ 都在 $x=a$ 处取得极大值，则 $F(x)=f(x)g(x)$ 在 $x=a$ 处（ ）。 不能取得极值 不能确定是否取得极大值 必取极小值 必取极大值 两个函数都在 $a$ 处取极大值，并不能确定乘积极值。例如 $(-x^2)(-x^4)=x^6$ 在 $0$ 取极小值，而 $\\cos x\\cos2x$ 在 $0$ 取极大值。",
+  "sort_order": 12
+}

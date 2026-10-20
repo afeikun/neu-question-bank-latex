@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使积分 $\\frac1\\pi\\oint_C\\frac{e^z}{z(z-3i)}\\,dz=\\frac{2\\pi}{3}(\\cos3+i\\sin3-1)$，则积分路径 $C$ 应取（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "圆周 $|z-2i|=3$，正向"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "圆周 $|z-2i|=\\frac12$，正向"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆周 $|z-2i|=\\frac32$，正向"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "圆周 $|z|=\\frac15$，正向"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|z-2i|=3$ 包含 $0,3i$，两处积分之和为 $2\\pi i(1-e^{3i})$，按原题归一化后得到所列值。",
+  "search_text": "为使积分 $\\frac1\\pi\\oint_C\\frac{e^z}{z(z-3i)}\\,dz=\\frac{2\\pi}{3}(\\cos3+i\\sin3-1)$，则积分路径 $C$ 应取（ ）。 圆周 $|z-2i|=3$，正向 圆周 $|z-2i|=\\frac12$，正向 圆周 $|z-2i|=\\frac32$，正向 圆周 $|z|=\\frac15$，正向 $|z-2i|=3$ 包含 $0,3i$，两处积分之和为 $2\\pi i(1-e^{3i})$，按原题归一化后得到所列值。",
+  "sort_order": 30
+}

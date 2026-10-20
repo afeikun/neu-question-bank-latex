@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "泊松变量满足$P(\\xi=3)=P(\\xi=4)$，求$P(\\xi=2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8e^{-4}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14e^{-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4e^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac18e^{-4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(3)=P(4)$得$\\lambda=4$，所以$P(2)=e^{-4}4^2/2!=8e^{-4}$。",
+  "search_text": "泊松变量满足$P(\\xi=3)=P(\\xi=4)$，求$P(\\xi=2)$。 $8e^{-4}$ $\\frac14e^{-2}$ $4e^{-2}$ $\\frac18e^{-4}$ $P(3)=P(4)$得$\\lambda=4$，所以$P(2)=e^{-4}4^2/2!=8e^{-4}$。",
+  "sort_order": 6
+}

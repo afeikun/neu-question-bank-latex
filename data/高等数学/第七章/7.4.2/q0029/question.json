@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x+y,\\frac yx)=x^2-y^2$，且 $f$ 存在偏导数，求 $f_x(x,y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{1-y^2}{x(1+y)^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2y(1+y^2)}{(1-x)^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2x(1-y^2)}{(1+y)^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2y(1-x^2)}{(1+x)^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设 $x+y=m,\\quad\\frac{y}{x}=n$，则 $x=\\frac{m}{1+n},\\quad y=\\frac{mn}{1+n}$\n\n得：$f(m,n)=\\left(\\frac{m}{1+n}\\right)^2-\\left(\\frac{mn}{1+n}\\right)^2=\\frac{m^2(1-n^2)}{(1+n)^2}$\n\n那么：$f(x,y)=\\frac{x^2(1-y)^2}{(1+y)^2}$，则 $\\frac{\\partial f(x,y)}{\\partial x}=\\frac{2x(1-y^2)}{(1+y)^2}$",
+  "search_text": "设 $f(x+y,\\frac yx)=x^2-y^2$，且 $f$ 存在偏导数，求 $f_x(x,y)$。 $\\frac{1-y^2}{x(1+y)^2}$ $\\frac{2y(1+y^2)}{(1-x)^2}$ $\\frac{2x(1-y^2)}{(1+y)^2}$ $\\frac{2y(1-x^2)}{(1+x)^2}$ 设 $x+y=m,\\quad\\frac{y}{x}=n$，则 $x=\\frac{m}{1+n},\\quad y=\\frac{mn}{1+n}$\n\n得：$f(m,n)=\\left(\\frac{m}{1+n}\\right)^2-\\left(\\frac{mn}{1+n}\\right)^2=\\frac{m^2(1-n^2)}{(1+n)^2}$\n\n那么：$f(x,y)=\\frac{x^2(1-y)^2}{(1+y)^2}$，则 $\\frac{\\partial f(x,y)}{\\partial x}=\\frac{2x(1-y^2)}{(1+y)^2}$",
+  "sort_order": 29
+}

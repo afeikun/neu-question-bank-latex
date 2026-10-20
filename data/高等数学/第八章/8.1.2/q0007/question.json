@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算二次积分 $\\int_0^a dx\\int_x^a e^{y^2}\\,dy=（ ）\\ (a>0)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12(ae^{a^2}-\\frac1a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt\\pi}{2}a(e^{a^2}-e^a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12(e^{a^2}-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt\\pi}{2}(e^{a^2}-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 交换积分顺序\n\n$$\\int_0^a dx\\int_x^a e^{y^2}\\,dy=\\int_0^a dy\\int_0^y e^{y^2}\\,dx=\\int_0^a ye^{y^2}\\,dy=\\frac{1}{2}(e^{a^2}-1)$$",
+  "search_text": "计算二次积分 $\\int_0^a dx\\int_x^a e^{y^2}\\,dy=（ ）\\ (a>0)$ $\\frac12(ae^{a^2}-\\frac1a)$ $\\frac{\\sqrt\\pi}{2}a(e^{a^2}-e^a)$ $\\frac12(e^{a^2}-1)$ $\\frac{\\sqrt\\pi}{2}(e^{a^2}-1)$ 解答 交换积分顺序\n\n$$\\int_0^a dx\\int_x^a e^{y^2}\\,dy=\\int_0^a dy\\int_0^y e^{y^2}\\,dx=\\int_0^a ye^{y^2}\\,dy=\\frac{1}{2}(e^{a^2}-1)$$",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\cos^2t$，则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{s^2+2}{s(s^2+4)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{s^2-4}{s(s^2+4)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{s^2+2}{s^2+4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{s^2-2}{s^2+4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F(s)=\\mathcal L[\\cos^2t]=\\dfrac12\\mathcal L[\\cos2t]+\\dfrac12\\mathcal L[1]=\\dfrac12\\left(\\dfrac{s}{s^2+4}+\\dfrac1s\\right)=\\dfrac{s^2+2}{s(s^2+4)}$。",
+  "search_text": "设 $f(t)=\\cos^2t$，则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac{s^2+2}{s(s^2+4)}$ $\\dfrac{s^2-4}{s(s^2+4)}$ $\\dfrac{s^2+2}{s^2+4}$ $\\dfrac{s^2-2}{s^2+4}$ $F(s)=\\mathcal L[\\cos^2t]=\\dfrac12\\mathcal L[\\cos2t]+\\dfrac12\\mathcal L[1]=\\dfrac12\\left(\\dfrac{s}{s^2+4}+\\dfrac1s\\right)=\\dfrac{s^2+2}{s(s^2+4)}$。",
+  "sort_order": 2
+}

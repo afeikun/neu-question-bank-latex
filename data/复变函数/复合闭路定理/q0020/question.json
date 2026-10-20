@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为包含 $0,1$ 不包含 $-1$ 的正向简单闭曲线，则 $\\oint_C\\frac{dz}{z(z^2-1)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$0,1$ 两处留数和为 $-1+\\frac12=-\\frac12$，积分为 $-\\pi i$。",
+  "search_text": "设 $C$ 为包含 $0,1$ 不包含 $-1$ 的正向简单闭曲线，则 $\\oint_C\\frac{dz}{z(z^2-1)}=(\\quad)$。 $-\\pi i$ $-1$ $0$ $\\pi i$ $0,1$ 两处留数和为 $-1+\\frac12=-\\frac12$，积分为 $-\\pi i$。",
+  "sort_order": 20
+}

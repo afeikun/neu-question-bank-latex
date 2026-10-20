@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立且密度均为$xe^{-x}$（$x>0$），求$Z=X+Y$密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z^3e^{-z}/6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$ze^{-z}/6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z^3e^{-z}/3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$ze^{-z}/3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "卷积得$f_Z(z)=\\int_0^z xe^{-x}(z-x)e^{-(z-x)}dx=z^3e^{-z}/6$。",
+  "search_text": "$X,Y$独立且密度均为$xe^{-x}$（$x>0$），求$Z=X+Y$密度。 $z^3e^{-z}/6$ $ze^{-z}/6$ $z^3e^{-z}/3$ $ze^{-z}/3$ 卷积得$f_Z(z)=\\int_0^z xe^{-x}(z-x)e^{-(z-x)}dx=z^3e^{-z}/6$。",
+  "sort_order": 8
+}

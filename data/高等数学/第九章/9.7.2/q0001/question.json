@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F=x^3\\mathbf i+y^3\\mathbf j-z^3\\mathbf k$，则在点 $P(1,0,-1)$ 处的散度 $\\operatorname{div}F=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\sqrt2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n$$\\frac{\\partial x^3}{\\partial x}=3x^2,\\frac{\\partial y^3}{\\partial y}=0,\\frac{\\partial(-z^3)}{\\partial z}=-3z^2$$\n\n则在点 $P(1,0,-1)$ 处的散度 $\\operatorname{div}F=3-3=0$.",
+  "search_text": "$F=x^3\\mathbf i+y^3\\mathbf j-z^3\\mathbf k$，则在点 $P(1,0,-1)$ 处的散度 $\\operatorname{div}F=$（ ） $0$ $3\\sqrt2$ $\\sqrt6$ $6$ 参考答案：\n\n$$\\frac{\\partial x^3}{\\partial x}=3x^2,\\frac{\\partial y^3}{\\partial y}=0,\\frac{\\partial(-z^3)}{\\partial z}=-3z^2$$\n\n则在点 $P(1,0,-1)$ 处的散度 $\\operatorname{div}F=3-3=0$.",
+  "sort_order": 1
+}

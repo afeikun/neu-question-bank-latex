@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $D:x^2+y^2\\leq a^2,y\\geq0$，当 $m$ 为奇数时，$\\iint_Dx^my^n\\,dxdy=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 因为 $D$ 关于 $y$ 轴对称，而被积函数是关于 $x$ 的奇函数，所以 $\\iint_Dx^my^n\\,dxdy=0$。",
+  "search_text": "设 $D:x^2+y^2\\leq a^2,y\\geq0$，当 $m$ 为奇数时，$\\iint_Dx^my^n\\,dxdy=（ ）$ $1$ $-1$ $2$ $0$ 解答 因为 $D$ 关于 $y$ 轴对称，而被积函数是关于 $x$ 的奇函数，所以 $\\iint_Dx^my^n\\,dxdy=0$。",
+  "sort_order": 37
+}

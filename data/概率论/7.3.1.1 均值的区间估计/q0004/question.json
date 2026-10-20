@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体方差未知，均值置信区间长度$L$为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2t_{\\alpha/2}(n-1)S/\\sqrt n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2t_{\\alpha/2}(n)S/\\sqrt n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2t_{\\alpha/2}(n-1)\\sigma/\\sqrt n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2t_{\\alpha/2}(n)\\sigma/\\sqrt n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "未知方差时使用样本标准差及自由度$n-1$的$t$分布。",
+  "search_text": "正态总体方差未知，均值置信区间长度$L$为（）。 $2t_{\\alpha/2}(n-1)S/\\sqrt n$ $2t_{\\alpha/2}(n)S/\\sqrt n$ $2t_{\\alpha/2}(n-1)\\sigma/\\sqrt n$ $2t_{\\alpha/2}(n)\\sigma/\\sqrt n$ 未知方差时使用样本标准差及自由度$n-1$的$t$分布。",
+  "sort_order": 4
+}

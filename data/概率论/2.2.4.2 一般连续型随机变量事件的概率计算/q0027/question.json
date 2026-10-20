@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=12x(1-x)^2(0<x<1)$，求$P(0<\\xi<0.5)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{11}{16}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac58$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac78$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac5{16}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_0^{1/2}12x(1-x)^2dx=\\frac{11}{16}$。",
+  "search_text": "$f(x)=12x(1-x)^2(0<x<1)$，求$P(0<\\xi<0.5)$。 $\\frac{11}{16}$ $\\frac58$ $\\frac78$ $\\frac5{16}$ $\\int_0^{1/2}12x(1-x)^2dx=\\frac{11}{16}$。",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $|\\vec a|=2$，$|\\vec b|=\\sqrt2$，且 $\\vec a\\cdot\\vec b=2$，则 $|\\vec a\\times\\vec b|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\sqrt2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt2}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\cos\\theta=\\frac{2}{2\\sqrt2}=\\frac{\\sqrt2}{2}$，故 $\\sin\\theta=\\frac{\\sqrt2}{2}$，叉积模为 $2$。",
+  "search_text": "已知 $|\\vec a|=2$，$|\\vec b|=\\sqrt2$，且 $\\vec a\\cdot\\vec b=2$，则 $|\\vec a\\times\\vec b|=(\\quad)$。 $2\\sqrt2$ $2$ $\\frac{\\sqrt2}{2}$ $1$ $\\cos\\theta=\\frac{2}{2\\sqrt2}=\\frac{\\sqrt2}{2}$，故 $\\sin\\theta=\\frac{\\sqrt2}{2}$，叉积模为 $2$。",
+  "sort_order": 17
+}

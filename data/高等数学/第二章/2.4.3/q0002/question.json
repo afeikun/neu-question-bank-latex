@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\varphi(x)$ 在 $x=0$ 连续，则 $y=x\\varphi(x)$ 在 $x=0$ 处微分 $dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\varphi(0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\varphi(0)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\varphi\\prime(0)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\varphi\\prime(0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$y\\prime(0)=\\varphi(0)$，所以 $dy=\\varphi(0)dx$。",
+  "search_text": "设 $\\varphi(x)$ 在 $x=0$ 连续，则 $y=x\\varphi(x)$ 在 $x=0$ 处微分 $dy=$（ ）。 $\\varphi(0)$ $\\varphi(0)dx$ $\\varphi\\prime(0)dx$ $\\varphi\\prime(0)$ $y\\prime(0)=\\varphi(0)$，所以 $dy=\\varphi(0)dx$。",
+  "sort_order": 2
+}

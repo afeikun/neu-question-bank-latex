@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=z(x,y)$ 由方程 $F(\\frac yx,\\frac zx)=0$ 确定，$F_2'\\ne0$，则 $x z_x+y z_y=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial x}=-\\frac{F'_x}{F'_z}=-\\frac{F'_1(-\\frac{y}{x^2})+F'_2(-\\frac{z}{x^2})}{F'_2\\frac{1}{x}}=\\frac{F'_1y+F'_2z}{xF'_2}$，$$\\frac{\\partial z}{\\partial y}=-\\frac{F'_y}{F'_z}=-\\frac{F'_1\\frac{1}{x}}{F'_2\\frac{1}{x}}=-\\frac{F'_1}{F'_2}$$，则 $x\\frac{\\partial z}{\\partial x}+y\\frac{\\partial z}{\\partial y}=x\\frac{F'_1y+F'_2z}{xF'_2}+y(-\\frac{F'_1}{F'_2})=z$",
+  "search_text": "设 $z=z(x,y)$ 由方程 $F(\\frac yx,\\frac zx)=0$ 确定，$F_2'\\ne0$，则 $x z_x+y z_y=(\\quad)$。 $z$ $-x$ $x$ $z$ $\\frac{\\partial z}{\\partial x}=-\\frac{F'_x}{F'_z}=-\\frac{F'_1(-\\frac{y}{x^2})+F'_2(-\\frac{z}{x^2})}{F'_2\\frac{1}{x}}=\\frac{F'_1y+F'_2z}{xF'_2}$，$$\\frac{\\partial z}{\\partial y}=-\\frac{F'_y}{F'_z}=-\\frac{F'_1\\frac{1}{x}}{F'_2\\frac{1}{x}}=-\\frac{F'_1}{F'_2}$$，则 $x\\frac{\\partial z}{\\partial x}+y\\frac{\\partial z}{\\partial y}=x\\frac{F'_1y+F'_2z}{xF'_2}+y(-\\frac{F'_1}{F'_2})=z$",
+  "sort_order": 15
+}

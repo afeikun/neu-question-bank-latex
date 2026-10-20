@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将正数 $a$ 分成三个正数 $x,y,z$，使 $f=x^my^nz^p$ 最大，求 $(x,y,z)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac{pa}{m+n+p},\\frac{na}{m+n+p},\\frac{ma}{m+n+p})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac{ma}{m+n+p},\\frac{pa}{m+n+p},\\frac{na}{m+n+p})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac{na}{m+n+p},\\frac{ma}{m+n+p},\\frac{pa}{m+n+p})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac{ma}{m+n+p},\\frac{na}{m+n+p},\\frac{pa}{m+n+p})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "只需求出使 $\\ln f$ 为最大的 $x,y,z$，设 $L=m\\ln x+n\\ln y+p\\ln z+\\lambda(x+y+z-a)$，令\n$$\n\\begin{cases}\nL_x=\\dfrac{m}{x}+\\lambda=0\\\\\nL_y=\\dfrac{n}{y}+\\lambda=0\\\\\nL_z=\\dfrac{p}{z}+\\lambda=0\\\\\nx+y+z-a=0\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\nx=\\dfrac{ma}{m+n+p}\\\\\ny=\\dfrac{na}{m+n+p}\\\\\nz=\\dfrac{pa}{m+n+p}\n\\end{cases}\n，\n$$\n由于 $f$ 连续，且在边界\n$$\n\\begin{cases}\nx+y+z=a\\\\\nx=0\n\\end{cases}\n\\quad\n\\begin{cases}\nx+y+z=a\\\\\ny=0\n\\end{cases}\n\\quad\n\\begin{cases}\nx+y+z=a\\\\\nz=0\n\\end{cases}\n$$\n上 $f=0$，所以 $f$ 的最大值应在区域内部取得。函数 $f$ 在闭区域上的最大值显然存在，而在区域上 $f$ 只有唯一一个驻点，所以该点必是 $f$ 的最大值点，即当 $x=\\dfrac{ma}{m+n+p}$，$y=\\dfrac{na}{m+n+p}$，$z=\\dfrac{pa}{m+n+p}$，$f=x^my^nz^p$ 有最大值。",
+  "search_text": "将正数 $a$ 分成三个正数 $x,y,z$，使 $f=x^my^nz^p$ 最大，求 $(x,y,z)$。 $(\\frac{pa}{m+n+p},\\frac{na}{m+n+p},\\frac{ma}{m+n+p})$ $(\\frac{ma}{m+n+p},\\frac{pa}{m+n+p},\\frac{na}{m+n+p})$ $(\\frac{na}{m+n+p},\\frac{ma}{m+n+p},\\frac{pa}{m+n+p})$ $(\\frac{ma}{m+n+p},\\frac{na}{m+n+p},\\frac{pa}{m+n+p})$ 只需求出使 $\\ln f$ 为最大的 $x,y,z$，设 $L=m\\ln x+n\\ln y+p\\ln z+\\lambda(x+y+z-a)$，令\n$$\n\\begin{cases}\nL_x=\\dfrac{m}{x}+\\lambda=0\\\\\nL_y=\\dfrac{n}{y}+\\lambda=0\\\\\nL_z=\\dfrac{p}{z}+\\lambda=0\\\\\nx+y+z-a=0\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\nx=\\dfrac{ma}{m+n+p}\\\\\ny=\\dfrac{na}{m+n+p}\\\\\nz=\\dfrac{pa}{m+n+p}\n\\end{cases}\n，\n$$\n由于 $f$ 连续，且在边界\n$$\n\\begin{cases}\nx+y+z=a\\\\\nx=0\n\\end{cases}\n\\quad\n\\begin{cases}\nx+y+z=a\\\\\ny=0\n\\end{cases}\n\\quad\n\\begin{cases}\nx+y+z=a\\\\\nz=0\n\\end{cases}\n$$\n上 $f=0$，所以 $f$ 的最大值应在区域内部取得。函数 $f$ 在闭区域上的最大值显然存在，而在区域上 $f$ 只有唯一一个驻点，所以该点必是 $f$ 的最大值点，即当 $x=\\dfrac{ma}{m+n+p}$，$y=\\dfrac{na}{m+n+p}$，$z=\\dfrac{pa}{m+n+p}$，$f=x^my^nz^p$ 有最大值。",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $X_1,\\ldots,X_{100}$ 独立同分布，$P(X_i=k)=e^{-1}/k!$（$k=0,1,\\ldots$）。根据中心极限定理，$P(\\sum_{i=1}^{100}X_i<120)\\approx$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\Phi(2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\Phi(0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Phi(1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\Phi(3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "每个变量的均值与方差均为1，和的均值100、标准差10，标准化上界为2，故概率近似 $\\Phi(2)$。",
+  "search_text": "设 $X_1,\\ldots,X_{100}$ 独立同分布，$P(X_i=k)=e^{-1}/k!$（$k=0,1,\\ldots$）。根据中心极限定理，$P(\\sum_{i=1}^{100}X_i<120)\\approx$（ ）。 $\\Phi(2)$ $\\Phi(0)$ $\\Phi(1)$ $\\Phi(3)$ 每个变量的均值与方差均为1，和的均值100、标准差10，标准化上界为2，故概率近似 $\\Phi(2)$。",
+  "sort_order": 4
+}

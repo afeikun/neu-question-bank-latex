@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "事件$A,B$相互独立，且$P(A)=p$，$P(B)=q$（$0<p<1,0<q<1$），则$P(A\\cup B)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p+q-pq$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p+q$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(1-p)(1-q)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$p(1-q)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立时$P(AB)=pq$，故$P(A\\cup B)=p+q-pq$。",
+  "search_text": "事件$A,B$相互独立，且$P(A)=p$，$P(B)=q$（$0<p<1,0<q<1$），则$P(A\\cup B)=(\\quad)$。 $p+q-pq$ $p+q$ $(1-p)(1-q)$ $p(1-q)$ 独立时$P(AB)=pq$，故$P(A\\cup B)=p+q-pq$。",
+  "sort_order": 15
+}

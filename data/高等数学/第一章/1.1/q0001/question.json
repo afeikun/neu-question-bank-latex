@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)=x^2-5x+8$，则 $f(2x+1)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4x^2+6x+4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4x^2-6x+4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "以上说法都不正确。"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4x^2-6x-4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f(2x+1)=(2x+1)^2-5(2x+1)+8=4x^2-6x+4$。",
+  "search_text": "已知 $f(x)=x^2-5x+8$，则 $f(2x+1)=(\\quad)$。 $4x^2+6x+4$ $4x^2-6x+4$ 以上说法都不正确。 $4x^2-6x-4$ $f(2x+1)=(2x+1)^2-5(2x+1)+8=4x^2-6x+4$。",
+  "sort_order": 1
+}

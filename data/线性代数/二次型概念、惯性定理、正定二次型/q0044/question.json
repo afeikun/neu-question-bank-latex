@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n$ 元二次型 $\\sum_{i=1}^{n}x_i^2+\\sum_{1\\le i<j\\le n}x_ix_j$ 的正定性为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不定的"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "半正定的"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "负定的"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "正定的"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "其矩阵为 $A=\\frac12(E+\\alpha\\alpha^T)$，其中 $\\alpha=(1,1,\\cdots,1)^T$。$\\alpha\\alpha^T$ 的特征值为 $n$ 和 $0$，故 $A$ 的特征值为 $\\frac12(n+1)$ 和 $\\frac12$，均为正，所以二次型正定。",
+  "search_text": "$n$ 元二次型 $\\sum_{i=1}^{n}x_i^2+\\sum_{1\\le i<j\\le n}x_ix_j$ 的正定性为（ ）。 不定的 半正定的 负定的 正定的 其矩阵为 $A=\\frac12(E+\\alpha\\alpha^T)$，其中 $\\alpha=(1,1,\\cdots,1)^T$。$\\alpha\\alpha^T$ 的特征值为 $n$ 和 $0$，故 $A$ 的特征值为 $\\frac12(n+1)$ 和 $\\frac12$，均为正，所以二次型正定。",
+  "sort_order": 44
+}

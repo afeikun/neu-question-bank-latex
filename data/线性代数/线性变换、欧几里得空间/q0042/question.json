@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "线性空间 $\\mathbb R[x]_2$ 中定义内积 $(f,g)=\\int_0^1f(x)g(x)\\,dx$，且向量 $f_1(x)=1$，$f_2(x)=x+a$ 是 $\\mathbb R[x]_2$ 的正交基，则 $a=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由正交条件 $(f_1,f_2)=\\int_0^1(x+a)\\,dx=\\frac12+a=0$，所以 $a=-\\frac12$。",
+  "search_text": "线性空间 $\\mathbb R[x]_2$ 中定义内积 $(f,g)=\\int_0^1f(x)g(x)\\,dx$，且向量 $f_1(x)=1$，$f_2(x)=x+a$ 是 $\\mathbb R[x]_2$ 的正交基，则 $a=$（ ）。 $-1$ $2$ $-\\frac12$ $1$ 由正交条件 $(f_1,f_2)=\\int_0^1(x+a)\\,dx=\\frac12+a=0$，所以 $a=-\\frac12$。",
+  "sort_order": 42
+}

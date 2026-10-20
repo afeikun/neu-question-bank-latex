@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(0,1),Y=e^X$，求$Y$的密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}y}e^{-(\\ln y)^2/2},y>0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sqrt{2\\pi}}e^{-(\\ln y)^2/2},y>0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sqrt{\\pi y}}e^{-(\\ln y)^2/2},y>0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0,y>0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$x=\\ln y$，雅可比$1/y$，故$f_Y(y)=\\frac1{\\sqrt{2\\pi}y}e^{-(\\ln y)^2/2}$，$y>0$。",
+  "search_text": "$X\\sim N(0,1),Y=e^X$，求$Y$的密度。 $\\frac1{\\sqrt{2\\pi}y}e^{-(\\ln y)^2/2},y>0$ $\\frac1{\\sqrt{2\\pi}}e^{-(\\ln y)^2/2},y>0$ $\\frac1{\\sqrt{\\pi y}}e^{-(\\ln y)^2/2},y>0$ $0,y>0$ $x=\\ln y$，雅可比$1/y$，故$f_Y(y)=\\frac1{\\sqrt{2\\pi}y}e^{-(\\ln y)^2/2}$，$y>0$。",
+  "sort_order": 18
+}

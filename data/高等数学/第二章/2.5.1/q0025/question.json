@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $e^{y^2}-x^2=y\\cos x$ 确定 $y=y(x)$，求 $y^\\prime(0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答由题可知 $y(0)=1$，方程两边同时对 $x$ 求导可得\n\n$$e^{y^2}\\cdot(y^2+2xyy')-2x=y'\\cos x-y\\sin x，\\text{带入初值可得 }y'(0)=1$$",
+  "search_text": "由 $e^{y^2}-x^2=y\\cos x$ 确定 $y=y(x)$，求 $y^\\prime(0)$。 $1$ $0$ $e$ $-1$ 解答由题可知 $y(0)=1$，方程两边同时对 $x$ 求导可得\n\n$$e^{y^2}\\cdot(y^2+2xyy')-2x=y'\\cos x-y\\sin x，\\text{带入初值可得 }y'(0)=1$$",
+  "sort_order": 25
+}

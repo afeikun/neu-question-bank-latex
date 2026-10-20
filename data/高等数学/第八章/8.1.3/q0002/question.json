@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若区域 $D:x^2+y^2\\leq2x$，则二重积分 $\\iint_D(x+y)\\sqrt{x^2+y^2}\\,dxdy$ 化成累次积分为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\int_0^{\\pi/2}(\\cos\\theta+\\sin\\theta)d\\theta\\int_0^{2\\cos\\theta}r^3dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_{-\\pi/2}^{\\pi/2}(\\cos\\theta+\\sin\\theta)d\\theta\\int_0^{2\\cos\\theta}r^3dr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_{-\\pi/2}^{\\pi/2}d\\theta\\int_0^{2\\cos\\theta}(\\cos\\theta+\\sin\\theta)\\sqrt{2r\\cos\\theta}\\,dr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^\\pi(\\cos\\theta+\\sin\\theta)d\\theta\\int_0^{2\\cos\\theta}r^3dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答　在极坐标系下，积分区域 $D$ 的积分限为 $-\\frac{\\pi}{2}\\leq\\theta\\leq\\frac{\\pi}{2},0\\leq r\\leq2\\cos\\theta$，于是\n\n$$\\iint_D(x+y)\\sqrt{x^2+y^2}dxdy=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}(\\cos\\theta+\\sin\\theta)d\\theta\\int_0^{2\\cos\\theta}r^3dr.$$",
+  "search_text": "若区域 $D:x^2+y^2\\leq2x$，则二重积分 $\\iint_D(x+y)\\sqrt{x^2+y^2}\\,dxdy$ 化成累次积分为[\\quad] $2\\int_0^{\\pi/2}(\\cos\\theta+\\sin\\theta)d\\theta\\int_0^{2\\cos\\theta}r^3dr$ $\\int_{-\\pi/2}^{\\pi/2}(\\cos\\theta+\\sin\\theta)d\\theta\\int_0^{2\\cos\\theta}r^3dr$ $\\int_{-\\pi/2}^{\\pi/2}d\\theta\\int_0^{2\\cos\\theta}(\\cos\\theta+\\sin\\theta)\\sqrt{2r\\cos\\theta}\\,dr$ $\\int_0^\\pi(\\cos\\theta+\\sin\\theta)d\\theta\\int_0^{2\\cos\\theta}r^3dr$ 解答　在极坐标系下，积分区域 $D$ 的积分限为 $-\\frac{\\pi}{2}\\leq\\theta\\leq\\frac{\\pi}{2},0\\leq r\\leq2\\cos\\theta$，于是\n\n$$\\iint_D(x+y)\\sqrt{x^2+y^2}dxdy=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}(\\cos\\theta+\\sin\\theta)d\\theta\\int_0^{2\\cos\\theta}r^3dr.$$",
+  "sort_order": 2
+}

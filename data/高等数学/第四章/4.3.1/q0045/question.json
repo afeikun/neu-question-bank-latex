@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "F(x)=∫₀ˣ(∫₀ᵘ²ln(1+t²)dt)du，曲线凹凸性",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在负半轴凹、正半轴凸"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "全域凸"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在负半轴凸、正半轴凹"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "全域凹"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "F″=2xln(1+x⁴)，负半轴小于0，正半轴大于0。",
+  "search_text": "F(x)=∫₀ˣ(∫₀ᵘ²ln(1+t²)dt)du，曲线凹凸性 在负半轴凹、正半轴凸 全域凸 在负半轴凸、正半轴凹 全域凹 F″=2xln(1+x⁴)，负半轴小于0，正半轴大于0。",
+  "sort_order": 45
+}

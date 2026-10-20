@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}(-1)^n 2^n\\sin^{2n}x/n$，下列说法正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "发散，敛散性与 $x$ 无关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-n\\pi=\\pi/4$ 时绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|x-n\\pi|<\\pi/4$ 时绝对收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|x-n\\pi|>\\pi/4$ 时绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "根值极限为 $(\\sqrt2\\sin x)^2$；绝对收敛条件为 $|x-n\\pi|<\\pi/4$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}(-1)^n 2^n\\sin^{2n}x/n$，下列说法正确的是？ 发散，敛散性与 $x$ 无关 $x-n\\pi=\\pi/4$ 时绝对收敛 $|x-n\\pi|<\\pi/4$ 时绝对收敛 $|x-n\\pi|>\\pi/4$ 时绝对收敛 根值极限为 $(\\sqrt2\\sin x)^2$；绝对收敛条件为 $|x-n\\pi|<\\pi/4$。",
+  "sort_order": 4
+}

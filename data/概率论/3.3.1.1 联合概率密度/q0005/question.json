@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=c(R-\\sqrt{x^2+y^2})$，$x^2+y^2<R^2$，求$c$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3/(\\pi R^3)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/(\\pi R^3)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/(\\pi R)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(\\pi R)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "极坐标积分$1=2\\pi c\\int_0^R(R-r)rdr=\\pi cR^3/3$，故$c=3/(\\pi R^3)$。",
+  "search_text": "$f(x,y)=c(R-\\sqrt{x^2+y^2})$，$x^2+y^2<R^2$，求$c$。 $3/(\\pi R^3)$ $1/(\\pi R^3)$ $3/(\\pi R)$ $1/(\\pi R)$ 极坐标积分$1=2\\pi c\\int_0^R(R-r)rdr=\\pi cR^3/3$，故$c=3/(\\pi R^3)$。",
+  "sort_order": 5
+}

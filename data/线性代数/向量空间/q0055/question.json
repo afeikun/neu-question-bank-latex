@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设由 $\\alpha_1=(1,2,-1,0)^T$，$\\alpha_2=(1,1,0,2)^T$，$\\alpha_3=(2,1,1,a)^T$ 生成的向量空间 $V$ 的维数为 $2$，则 $a=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-6$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$V$ 的维数是向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 的秩。对向量组成的矩阵化简，秩为 $2$ 时需 $a-6=0$，所以 $a=6$。",
+  "search_text": "设由 $\\alpha_1=(1,2,-1,0)^T$，$\\alpha_2=(1,1,0,2)^T$，$\\alpha_3=(2,1,1,a)^T$ 生成的向量空间 $V$ 的维数为 $2$，则 $a=$（ ）。 $3$ $-3$ $6$ $-6$ $V$ 的维数是向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 的秩。对向量组成的矩阵化简，秩为 $2$ 时需 $a-6=0$，所以 $a=6$。",
+  "sort_order": 55
+}

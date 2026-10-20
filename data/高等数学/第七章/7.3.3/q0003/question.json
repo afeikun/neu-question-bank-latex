@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知边长为 $x=6m$，$y=8m$ 的矩形，若 $x$ 边增加 $2cm$，而 $y$ 边减少 $5cm$，则对角线近似值的变化为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "对角线约增加 $0.28cm$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "对角线约减少 $2.8cm$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "对角线约增加 $2.8cm$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "对角线约减少 $0.28cm$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "记对角线为$z,$则$z=\\sqrt{x^2+y^2},$\n\n$\\Delta z\\approx dz=f_x(x,y)\\Delta x+f_y(x,y)\\Delta y=\\frac{x}{\\sqrt{x^2+y^2}}dx+\\frac{y}{\\sqrt{x^2+y^2}}dy,$\n\n当$x=6,y=8,\\Delta x=0.02,\\Delta y=-0.05$时，\n\n$\\Delta z=\\frac{1}{\\sqrt{6^2+8^2}}\\left[6\\times0.02+8\\times(-0.05)\\right]=\\frac{1}{10}(0.12-0.4)=-0.028$\n\n可见对角线约减少了$2.8cm.$",
+  "search_text": "已知边长为 $x=6m$，$y=8m$ 的矩形，若 $x$ 边增加 $2cm$，而 $y$ 边减少 $5cm$，则对角线近似值的变化为(\\quad)。 对角线约增加 $0.28cm$ 对角线约减少 $2.8cm$ 对角线约增加 $2.8cm$ 对角线约减少 $0.28cm$ 记对角线为$z,$则$z=\\sqrt{x^2+y^2},$\n\n$\\Delta z\\approx dz=f_x(x,y)\\Delta x+f_y(x,y)\\Delta y=\\frac{x}{\\sqrt{x^2+y^2}}dx+\\frac{y}{\\sqrt{x^2+y^2}}dy,$\n\n当$x=6,y=8,\\Delta x=0.02,\\Delta y=-0.05$时，\n\n$\\Delta z=\\frac{1}{\\sqrt{6^2+8^2}}\\left[6\\times0.02+8\\times(-0.05)\\right]=\\frac{1}{10}(0.12-0.4)=-0.028$\n\n可见对角线约减少了$2.8cm.$",
+  "sort_order": 3
+}

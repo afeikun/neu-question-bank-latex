@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$Y\\sim Exp(1)$，$X_k=0$若$Y\\le k$，$1$若$Y>k$，$k=1,2$，求$P(X_1=1)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-1}-e^{-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-e^{-2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(X_1=1)=P(Y>1)=e^{-1}$。",
+  "search_text": "$Y\\sim Exp(1)$，$X_k=0$若$Y\\le k$，$1$若$Y>k$，$k=1,2$，求$P(X_1=1)$。 $e^{-1}$ $e^{-1}-e^{-2}$ $e^{-2}$ $1-e^{-2}$ $P(X_1=1)=P(Y>1)=e^{-1}$。",
+  "sort_order": 9
+}

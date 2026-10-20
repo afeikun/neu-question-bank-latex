@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)=\\begin{cases}\\frac{g(x)}x,&x\\ne0\\\\0,&x=0\\end{cases}$，且 $g(0)=g\\prime(0)=0,g\\prime\\prime(0)=2$，求 $f\\prime(0)$ 的正确方法是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f\\prime(0)=\\lim_{x\\to0}\\frac{g(x)}{x^2}=\\lim_{x\\to0}\\frac{g\\prime(x)}{2x}=\\frac12g\\prime\\prime(0)=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f\\prime(0)=\\lim_{x\\to0}\\frac{g(x)}{x^2}=\\lim_{x\\to0}\\frac{g\\prime(x)}{2x}=\\lim_{x\\to0}\\frac{g\\prime\\prime(x)}2=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f\\prime(0)=\\lim_{x\\to0}\\frac{g\\prime(x)}{x}=g\\prime\\prime(0)=2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(0)=\\frac{g\\prime\\prime(0)}2=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "题目只给出 $g$ 在 $0$ 处二阶导数存在，未说明邻域内二阶导连续；按原解析标记所示方法计算。",
+  "search_text": "设 $f(x)=\\begin{cases}\\frac{g(x)}x,&x\\ne0\\\\0,&x=0\\end{cases}$，且 $g(0)=g\\prime(0)=0,g\\prime\\prime(0)=2$，求 $f\\prime(0)$ 的正确方法是（ ）。 $f\\prime(0)=\\lim_{x\\to0}\\frac{g(x)}{x^2}=\\lim_{x\\to0}\\frac{g\\prime(x)}{2x}=\\frac12g\\prime\\prime(0)=1$ $f\\prime(0)=\\lim_{x\\to0}\\frac{g(x)}{x^2}=\\lim_{x\\to0}\\frac{g\\prime(x)}{2x}=\\lim_{x\\to0}\\frac{g\\prime\\prime(x)}2=1$ $f\\prime(0)=\\lim_{x\\to0}\\frac{g\\prime(x)}{x}=g\\prime\\prime(0)=2$ $f\\prime(0)=\\frac{g\\prime\\prime(0)}2=1$ 题目只给出 $g$ 在 $0$ 处二阶导数存在，未说明邻域内二阶导连续；按原解析标记所示方法计算。",
+  "sort_order": 11
+}

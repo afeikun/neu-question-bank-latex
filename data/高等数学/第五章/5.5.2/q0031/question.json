@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $\\arctan((1+x)/(1-x))$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n x^{2n+1}/(2n+1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n x^{2n}/(2n+1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n x^{2n+1}/(2n+1),\\ (-1,1]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(-1)^n x^{2n+1}/(2n),\\ [-1,1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "求导得 $1/(1+x^2)$，积分后为交错奇次幂级数。",
+  "search_text": "将 $\\arctan((1+x)/(1-x))$ 展开成 $x$ 的幂级数。 $\\sum_{n=0}^{\\infty}(-1)^n x^{2n+1}/(2n+1)$ $\\sum_{n=0}^{\\infty}(-1)^n x^{2n}/(2n+1)$ $\\sum_{n=0}^{\\infty}(-1)^n x^{2n+1}/(2n+1),\\ (-1,1]$ $\\sum_{n=0}^{\\infty}(-1)^n x^{2n+1}/(2n),\\ [-1,1)$ 求导得 $1/(1+x^2)$，积分后为交错奇次幂级数。",
+  "sort_order": 31
+}

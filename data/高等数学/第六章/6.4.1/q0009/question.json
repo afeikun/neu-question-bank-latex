@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过点 $M(0,-3,0)$ 且平行于两平面 $\\Pi_1:x+2y=1$，$\\Pi_2:x+5z=3$ 的直线方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x}{10}=\\frac{y+3}{-5}=\\frac z2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x}{10}=\\frac{y+3}{5}=\\frac z{-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x}{10}=\\frac{y+3}{5}=\\frac z2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x}{10}=\\frac{y+3}{-5}=\\frac z{-2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：因直线与两平面都平行，所以直线的方向向量\n$$\n\\vec{s}=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&2&0\\\\1&0&5\\end{vmatrix}=(10,-5,-2)，\n$$\n又因过点 $M(0,-3,0)$，所以由点向式，得直线方程为\n$$\n\\frac{x}{10}=\\frac{y+3}{-5}=\\frac{z}{-2}。\n$$",
+  "search_text": "过点 $M(0,-3,0)$ 且平行于两平面 $\\Pi_1:x+2y=1$，$\\Pi_2:x+5z=3$ 的直线方程为(\\quad)。 $\\frac{x}{10}=\\frac{y+3}{-5}=\\frac z2$ $\\frac{x}{10}=\\frac{y+3}{5}=\\frac z{-2}$ $\\frac{x}{10}=\\frac{y+3}{5}=\\frac z2$ $\\frac{x}{10}=\\frac{y+3}{-5}=\\frac z{-2}$ 解答：因直线与两平面都平行，所以直线的方向向量\n$$\n\\vec{s}=\\begin{vmatrix}\\vec{i}&\\vec{j}&\\vec{k}\\\\1&2&0\\\\1&0&5\\end{vmatrix}=(10,-5,-2)，\n$$\n又因过点 $M(0,-3,0)$，所以由点向式，得直线方程为\n$$\n\\frac{x}{10}=\\frac{y+3}{-5}=\\frac{z}{-2}。\n$$",
+  "sort_order": 9
+}

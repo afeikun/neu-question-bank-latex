@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设曲线 $\\Gamma:\\ x^2+y^2+z^2=4,\\ z=\\sqrt3$，则 $\\oint_\\Gamma(x^2+x)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\Gamma$ 即 $\\begin{cases}x^2+y^2=1\\\\z=\\sqrt{3}\\end{cases}$，或 $\\Gamma:\\begin{cases}x=\\cos t\\\\y=\\sin t,t\\in[0,2\\pi]\\\\z=\\sqrt{3}\\end{cases}$，\n\n$$\n\\oint_\\Gamma(x^2+x)ds=\\int_0^{2\\pi}(\\cos^2t+\\cos t)\\sqrt{(\\cos t)'^2+(\\sin t)'^2+(\\sqrt{3})'^2}\\,dt\n$$\n\n$$\n=\\int_0^{2\\pi}(\\cos^2t+\\cos t)dt=\\pi.\n$$",
+  "search_text": "设曲线 $\\Gamma:\\ x^2+y^2+z^2=4,\\ z=\\sqrt3$，则 $\\oint_\\Gamma(x^2+x)ds=$（ ） $2\\pi$ $4\\pi$ $\\pi$ $8\\pi$ 解答 $\\Gamma$ 即 $\\begin{cases}x^2+y^2=1\\\\z=\\sqrt{3}\\end{cases}$，或 $\\Gamma:\\begin{cases}x=\\cos t\\\\y=\\sin t,t\\in[0,2\\pi]\\\\z=\\sqrt{3}\\end{cases}$，\n\n$$\n\\oint_\\Gamma(x^2+x)ds=\\int_0^{2\\pi}(\\cos^2t+\\cos t)\\sqrt{(\\cos t)'^2+(\\sin t)'^2+(\\sqrt{3})'^2}\\,dt\n$$\n\n$$\n=\\int_0^{2\\pi}(\\cos^2t+\\cos t)dt=\\pi.\n$$",
+  "sort_order": 23
+}

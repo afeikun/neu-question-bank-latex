@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "极坐标曲线 $\\rho=a\\theta$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\theta-\\tan\\theta}{1+\\theta\\tan\\theta}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\theta-\\tan\\theta}{1-\\theta\\tan\\theta}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\theta+\\tan\\theta}{1+\\theta\\tan\\theta}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\theta+\\tan\\theta}{1-\\theta\\tan\\theta}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由极坐标方程可得参数方程 $\\left\\{\\begin{array}{l}x=a\\theta\\cos\\theta\\\\y=a\\theta\\sin\\theta\\end{array}\\right.$ 两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=a\\cos\\theta-a\\theta\\sin\\theta,\\quad \\frac{dy}{d\\theta}=a\\sin\\theta+a\\theta\\cos\\theta,$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a(\\theta\\cos\\theta+\\sin\\theta)}{a(\\cos\\theta-\\theta\\sin\\theta)}=\\frac{\\theta+\\tan\\theta}{1-\\theta\\tan\\theta}.$",
+  "search_text": "极坐标曲线 $\\rho=a\\theta$，求 $\\frac{dy}{dx}$。 $\\frac{\\theta-\\tan\\theta}{1+\\theta\\tan\\theta}$ $\\frac{\\theta-\\tan\\theta}{1-\\theta\\tan\\theta}$ $\\frac{\\theta+\\tan\\theta}{1+\\theta\\tan\\theta}$ $\\frac{\\theta+\\tan\\theta}{1-\\theta\\tan\\theta}$ 解答 由极坐标方程可得参数方程 $\\left\\{\\begin{array}{l}x=a\\theta\\cos\\theta\\\\y=a\\theta\\sin\\theta\\end{array}\\right.$ 两边同时对 $\\theta$ 求导可得\n\n$$\\frac{dx}{d\\theta}=a\\cos\\theta-a\\theta\\sin\\theta,\\quad \\frac{dy}{d\\theta}=a\\sin\\theta+a\\theta\\cos\\theta,$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/d\\theta}{dx/d\\theta}=\\frac{a(\\theta\\cos\\theta+\\sin\\theta)}{a(\\cos\\theta-\\theta\\sin\\theta)}=\\frac{\\theta+\\tan\\theta}{1-\\theta\\tan\\theta}.$",
+  "sort_order": 13
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $(\\cos y)^x=(\\sin x)^y$，求 $y^\\prime$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\ln\\cos y+y\\cot x}{x\\tan y-\\ln\\sin x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\ln\\cos y-y\\cot x}{x\\tan y+\\ln\\sin x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\ln\\cos y+y\\cot x}{x\\tan y+\\ln\\sin x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\ln\\cos y-y\\cot x}{x\\tan y-\\ln\\sin x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 方程两边同时取对数 $x\\cdot\\ln\\cos y=y\\cdot\\ln\\sin x$，并对 $x$ 求导可得\n\n$$\\ln\\cos y+x\\cdot\\frac{-\\sin y\\cdot y'}{\\cos y}=y'\\ln\\sin x+y\\cos x\\cdot\\frac{1}{\\sin x}，\\text{则有 }y'=\\frac{\\ln\\cos y-y\\cot x}{x\\tan y+\\ln\\sin x}$$",
+  "search_text": "设 $(\\cos y)^x=(\\sin x)^y$，求 $y^\\prime$。 $\\frac{\\ln\\cos y+y\\cot x}{x\\tan y-\\ln\\sin x}$ $\\frac{\\ln\\cos y-y\\cot x}{x\\tan y+\\ln\\sin x}$ $\\frac{\\ln\\cos y+y\\cot x}{x\\tan y+\\ln\\sin x}$ $\\frac{\\ln\\cos y-y\\cot x}{x\\tan y-\\ln\\sin x}$ 解答 方程两边同时取对数 $x\\cdot\\ln\\cos y=y\\cdot\\ln\\sin x$，并对 $x$ 求导可得\n\n$$\\ln\\cos y+x\\cdot\\frac{-\\sin y\\cdot y'}{\\cos y}=y'\\ln\\sin x+y\\cos x\\cdot\\frac{1}{\\sin x}，\\text{则有 }y'=\\frac{\\ln\\cos y-y\\cot x}{x\\tan y+\\ln\\sin x}$$",
+  "sort_order": 4
+}

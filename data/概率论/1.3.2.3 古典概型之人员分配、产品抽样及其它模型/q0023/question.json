@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "包括$a$和$b$二人在内共$n$个人排队，则$a,b$间恰有$r$个人的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2(n-r-1)/[n(n-1)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(n-r-1)/[n(n-1)]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2(n-r)/[n(n-1)]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2(n-r-1)/[n(n+1)]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$a,b$的位置相差$r+1$有$2(n-r-1)$种有序选择，总有序位置为$n(n-1)$，概率为$2(n-r-1)/[n(n-1)]$。",
+  "search_text": "包括$a$和$b$二人在内共$n$个人排队，则$a,b$间恰有$r$个人的概率是（ ）。 $2(n-r-1)/[n(n-1)]$ $(n-r-1)/[n(n-1)]$ $2(n-r)/[n(n-1)]$ $2(n-r-1)/[n(n+1)]$ $a,b$的位置相差$r+1$有$2(n-r-1)$种有序选择，总有序位置为$n(n-1)$，概率为$2(n-r-1)/[n(n-1)]$。",
+  "sort_order": 23
+}

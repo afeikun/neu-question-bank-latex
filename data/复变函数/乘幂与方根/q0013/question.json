@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$|(\\sqrt3+\\sqrt2i)^4(1+2i)^2|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$125$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$16\\sqrt5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$25$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$80$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|\\sqrt3+\\sqrt2i|=\\sqrt5$，$|1+2i|=\\sqrt5$，故模为 $5^2\\cdot5=125$。",
+  "search_text": "$|(\\sqrt3+\\sqrt2i)^4(1+2i)^2|=(\\quad)$。 $125$ $16\\sqrt5$ $25$ $80$ $|\\sqrt3+\\sqrt2i|=\\sqrt5$，$|1+2i|=\\sqrt5$，故模为 $5^2\\cdot5=125$。",
+  "sort_order": 13
+}

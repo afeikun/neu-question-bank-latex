@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=3\\sin\\omega t-4\\cos\\omega t,\\ y=4\\sin\\omega t+3\\cos\\omega t$，求 $t=0$ 时速度大小。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5\\omega$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac43$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\omega$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\omega$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=3\\omega\\cos\\omega t+4\\omega\\sin\\omega t,\\quad \\frac{dy}{dt}=4\\omega\\cos\\omega t-3\\omega\\sin\\omega t,\\quad \\text{可得}$$\n\n$$x'(0)=3\\omega,y'(0)=4\\omega.v\\big|_{t=0}=\\sqrt{x'^2(0)+y'^2(0)}=5\\omega$$",
+  "search_text": "$x=3\\sin\\omega t-4\\cos\\omega t,\\ y=4\\sin\\omega t+3\\cos\\omega t$，求 $t=0$ 时速度大小。 $5\\omega$ $\\frac43$ $4\\omega$ $3\\omega$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=3\\omega\\cos\\omega t+4\\omega\\sin\\omega t,\\quad \\frac{dy}{dt}=4\\omega\\cos\\omega t-3\\omega\\sin\\omega t,\\quad \\text{可得}$$\n\n$$x'(0)=3\\omega,y'(0)=4\\omega.v\\big|_{t=0}=\\sqrt{x'^2(0)+y'^2(0)}=5\\omega$$",
+  "sort_order": 21
+}

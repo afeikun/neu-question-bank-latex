@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Gamma$ 是平面 $y=z$ 截球面 $x^2+y^2+z^2=1$ 所得截痕，从 $z$ 轴正向看逆时针，计算 $\\oint_\\Gamma xyz\\,dz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt2}{8\\pi}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt3}{16\\pi}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt2\\pi}{16}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由斯托克斯公式，取平面 $y=z$ 的上侧圆盘，原积分 $=\\iint_\\Sigma xz\\,dy\\,dz-yz\\,dz\\,dx$。第一项投影退化为零；在 $zOx$ 平面的投影为 $D:x^2+2z^2\\le1$，第二项化为 $\\iint_Dz^2dz\\,dx$。令 $z=r\\cos\\theta/\\sqrt2,x=r\\sin\\theta$，雅可比为 $r/\\sqrt2$，积分为 $\\frac1{2\\sqrt2}\\int_0^{2\\pi}\\cos^2\\theta\\,d\\theta\\int_0^1r^3dr=\\frac{\\sqrt2\\pi}{16}$。原图D为 $\\sqrt2/(16\\pi)$，与原解析及计算矛盾，现按原解析勘误为 $\\sqrt2\\pi/16$，选第四项。",
+  "search_text": "已知 $\\Gamma$ 是平面 $y=z$ 截球面 $x^2+y^2+z^2=1$ 所得截痕，从 $z$ 轴正向看逆时针，计算 $\\oint_\\Gamma xyz\\,dz=$（ ） $0$ $\\frac{\\sqrt2}{8\\pi}$ $\\frac{\\sqrt3}{16\\pi}$ $\\frac{\\sqrt2\\pi}{16}$ 由斯托克斯公式，取平面 $y=z$ 的上侧圆盘，原积分 $=\\iint_\\Sigma xz\\,dy\\,dz-yz\\,dz\\,dx$。第一项投影退化为零；在 $zOx$ 平面的投影为 $D:x^2+2z^2\\le1$，第二项化为 $\\iint_Dz^2dz\\,dx$。令 $z=r\\cos\\theta/\\sqrt2,x=r\\sin\\theta$，雅可比为 $r/\\sqrt2$，积分为 $\\frac1{2\\sqrt2}\\int_0^{2\\pi}\\cos^2\\theta\\,d\\theta\\int_0^1r^3dr=\\frac{\\sqrt2\\pi}{16}$。原图D为 $\\sqrt2/(16\\pi)$，与原解析及计算矛盾，现按原解析勘误为 $\\sqrt2\\pi/16$，选第四项。",
+  "sort_order": 14
+}

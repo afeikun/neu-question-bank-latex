@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=uv+\\sin t$，$u=e^t,v=\\cos t$，则全导数 $dz/dt=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^t(\\cos t+\\sin t)-\\cos t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^t(\\cos t+\\sin t)+\\cos t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^t(\\cos t-\\sin t)+\\cos t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^t(\\cos t-\\sin t)-\\cos t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{dz}{dt}=\\frac{\\partial z}{\\partial u}\\frac{du}{dt}+\\frac{\\partial z}{\\partial v}\\frac{dv}{dt}+\\frac{\\partial z}{\\partial t}=e^t\\cos t-e^t\\sin t+\\cos t=e^t(\\cos t-\\sin t)+\\cos t$",
+  "search_text": "设 $z=uv+\\sin t$，$u=e^t,v=\\cos t$，则全导数 $dz/dt=(\\quad)$。 $e^t(\\cos t+\\sin t)-\\cos t$ $e^t(\\cos t+\\sin t)+\\cos t$ $e^t(\\cos t-\\sin t)+\\cos t$ $e^t(\\cos t-\\sin t)-\\cos t$ $\\frac{dz}{dt}=\\frac{\\partial z}{\\partial u}\\frac{du}{dt}+\\frac{\\partial z}{\\partial v}\\frac{dv}{dt}+\\frac{\\partial z}{\\partial t}=e^t\\cos t-e^t\\sin t+\\cos t=e^t(\\cos t-\\sin t)+\\cos t$",
+  "sort_order": 1
+}

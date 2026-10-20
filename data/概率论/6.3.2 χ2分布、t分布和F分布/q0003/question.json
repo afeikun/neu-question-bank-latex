@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体$X\\sim N(0,1)$，样本$X_1,\\ldots,X_n$，下列结论错误的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(X_1+X_2)/\\sqrt{X_1^2+X_2^2}\\sim t(2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(X_1-X_2)/\\sqrt{X_3^2+X_4^2}\\sim t(2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{n-1}X_1/\\sqrt{\\sum_{i=2}^nX_i^2}\\sim t(n-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{(n-3)\\sum_{1}^3X_i^2}{3\\sum_{4}^nX_i^2}\\sim F(3,n-3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "选项1分子与分母不满足独立标准正态除以独立卡方的t分布结构。",
+  "search_text": "总体$X\\sim N(0,1)$，样本$X_1,\\ldots,X_n$，下列结论错误的是（）。 $(X_1+X_2)/\\sqrt{X_1^2+X_2^2}\\sim t(2)$ $(X_1-X_2)/\\sqrt{X_3^2+X_4^2}\\sim t(2)$ $\\sqrt{n-1}X_1/\\sqrt{\\sum_{i=2}^nX_i^2}\\sim t(n-1)$ $\\frac{(n-3)\\sum_{1}^3X_i^2}{3\\sum_{4}^nX_i^2}\\sim F(3,n-3)$ 选项1分子与分母不满足独立标准正态除以独立卡方的t分布结构。",
+  "sort_order": 3
+}

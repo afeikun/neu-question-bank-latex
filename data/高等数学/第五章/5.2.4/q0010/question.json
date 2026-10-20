@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "讨论 $\\sum_{n=1}^{\\infty}\\ln n/n^p$ 的敛散性，正确说法是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p>1$ 时发散，$p\\le1$ 时收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$p>1$ 时收敛，$p\\le1$ 时发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "积分判别给出 $p>1$ 收敛、$p\\le1$ 发散。",
+  "search_text": "讨论 $\\sum_{n=1}^{\\infty}\\ln n/n^p$ 的敛散性，正确说法是？ $p>1$ 时发散，$p\\le1$ 时收敛 收敛 $p>1$ 时收敛，$p\\le1$ 时发散 发散 积分判别给出 $p>1$ 收敛、$p\\le1$ 发散。",
+  "sort_order": 10
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\sqrt{|xy|}$，则它（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在 $z=0$ 处满足柯西－黎曼方程"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在 $z=0$ 处可导"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在 $z=0$ 处解析"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在 $z=0$ 处不满足柯西－黎曼方程"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原点偏导为零；复导数极限随路径不同而异，故不可导。",
+  "search_text": "设 $f(z)=\\sqrt{|xy|}$，则它（ ）。 在 $z=0$ 处满足柯西－黎曼方程 在 $z=0$ 处可导 在 $z=0$ 处解析 在 $z=0$ 处不满足柯西－黎曼方程 原点偏导为零；复导数极限随路径不同而异，故不可导。",
+  "sort_order": 71
+}

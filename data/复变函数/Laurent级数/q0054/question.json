@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=i$ 是函数 $\\dfrac{z^6+1}{z(z^2+1)^2}$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "一级极点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "二级极点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "可去奇点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "本性奇点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $P(z)=z^6+1$，$Q(z)=z(z^2+1)^2$。在 $z=i$，$P(i)=0$、$P\\prime(i)\\ne0$，而 $Q$ 为二级零点，所以约去后为一级极点。",
+  "search_text": "$z=i$ 是函数 $\\dfrac{z^6+1}{z(z^2+1)^2}$ 的（ ）。 一级极点 二级极点 可去奇点 本性奇点 令 $P(z)=z^6+1$，$Q(z)=z(z^2+1)^2$。在 $z=i$，$P(i)=0$、$P\\prime(i)\\ne0$，而 $Q$ 为二级零点，所以约去后为一级极点。",
+  "sort_order": 54
+}

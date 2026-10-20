@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "圆x²+(y−5)²=16绕x轴旋转体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "160π"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "160π²"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "120π²"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "60π²"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "用垫片法积分得160π²。",
+  "search_text": "圆x²+(y−5)²=16绕x轴旋转体积 160π 160π² 120π² 60π² 用垫片法积分得160π²。",
+  "sort_order": 29
+}

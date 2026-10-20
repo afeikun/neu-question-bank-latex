@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "6 个毕业生，两个留校，另 4 人分配到 4 个不同的单位，每单位一人，则分配方法有(\\quad)种。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$360$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$720$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$225$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$120$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "4 人分配到 4 个不同单位，从 6 人中依次选出 4 人，分配方法为 $6\\times5\\times4\\times3=360$ 种。",
+  "search_text": "6 个毕业生，两个留校，另 4 人分配到 4 个不同的单位，每单位一人，则分配方法有(\\quad)种。 $360$ $720$ $225$ $120$ 4 人分配到 4 个不同单位，从 6 人中依次选出 4 人，分配方法为 $6\\times5\\times4\\times3=360$ 种。",
+  "sort_order": 1
+}

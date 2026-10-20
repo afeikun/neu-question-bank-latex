@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "甲、乙、丙独立地对同一目标各射击1次，命中率分别为0.6与0.5，已知目标被命中，则是甲射中的概率是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5/11$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6/11$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由题解，$P(A|C)=P(A)/P(C)=0.6/0.8=3/4$。",
+  "search_text": "甲、乙、丙独立地对同一目标各射击1次，命中率分别为0.6与0.5，已知目标被命中，则是甲射中的概率是（ ）。 $3/4$ $0.6$ $5/11$ $6/11$ 由题解，$P(A|C)=P(A)/P(C)=0.6/0.8=3/4$。",
+  "sort_order": 5
+}

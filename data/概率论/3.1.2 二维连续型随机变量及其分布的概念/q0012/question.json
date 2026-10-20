@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用联合分布函数$F(X,Y)$表示$P(X>a,Y>b)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1+F(a,b)-F(+\\infty,b)-F(a,+\\infty)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(b,c)-F(a,c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(a,b)-F(a,b-0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(-\\infty,a)-F(-\\infty,0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对补事件用容斥，$P(X>a,Y>b)=1-F(a,+\\infty)-F(+\\infty,b)+F(a,b)$。",
+  "search_text": "用联合分布函数$F(X,Y)$表示$P(X>a,Y>b)$。 $1+F(a,b)-F(+\\infty,b)-F(a,+\\infty)$ $F(b,c)-F(a,c)$ $F(a,b)-F(a,b-0)$ $F(-\\infty,a)-F(-\\infty,0)$ 对补事件用容斥，$P(X>a,Y>b)=1-F(a,+\\infty)-F(+\\infty,b)+F(a,b)$。",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分积分方程 $\\begin{cases}y\\prime-4y+4\\displaystyle\\int_0^t y(\\tau)\\,d\\tau=\\dfrac13t^3,\\\\y(0)=0\\end{cases}$ 的解为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{t^2}{4}+\\dfrac t2+\\dfrac38+\\dfrac t4e^{2t}-\\dfrac38e^{2t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{t^2}{4}-\\dfrac t2+\\dfrac38+\\dfrac t4e^{2t}-\\dfrac38e^{2t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{t^2}{4}+\\dfrac t2+\\dfrac38-\\dfrac t4e^{2t}-\\dfrac38e^{2t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{t^2}{4}+\\dfrac t2-\\dfrac38+\\dfrac t4e^{2t}+\\dfrac38e^{2t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$s\\bar y(s)-4\\bar y(s)+\\dfrac4s\\bar y(s)=\\dfrac2{s^4}$，故 $\\bar y(s)=\\dfrac2{s^3(s-2)^2}$；逆变换得选项 1。",
+  "search_text": "微分积分方程 $\\begin{cases}y\\prime-4y+4\\displaystyle\\int_0^t y(\\tau)\\,d\\tau=\\dfrac13t^3,\\\\y(0)=0\\end{cases}$ 的解为（ ）。 $\\dfrac{t^2}{4}+\\dfrac t2+\\dfrac38+\\dfrac t4e^{2t}-\\dfrac38e^{2t}$ $\\dfrac{t^2}{4}-\\dfrac t2+\\dfrac38+\\dfrac t4e^{2t}-\\dfrac38e^{2t}$ $\\dfrac{t^2}{4}+\\dfrac t2+\\dfrac38-\\dfrac t4e^{2t}-\\dfrac38e^{2t}$ $\\dfrac{t^2}{4}+\\dfrac t2-\\dfrac38+\\dfrac t4e^{2t}+\\dfrac38e^{2t}$ $s\\bar y(s)-4\\bar y(s)+\\dfrac4s\\bar y(s)=\\dfrac2{s^4}$，故 $\\bar y(s)=\\dfrac2{s^3(s-2)^2}$；逆变换得选项 1。",
+  "sort_order": 13
+}

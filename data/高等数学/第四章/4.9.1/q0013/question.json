@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在弹性限度内，将一弹簧从平衡位置拉到离平衡位置 $l$ 米处，求克服弹力所作的功。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12kl^2(J)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2kl^2(J)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac32kl^2(J)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$kl^2(J)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F(x)=kx$，$W=\\int_0^l kx dx=\\frac12kl^2$。",
+  "search_text": "在弹性限度内，将一弹簧从平衡位置拉到离平衡位置 $l$ 米处，求克服弹力所作的功。 $\\frac12kl^2(J)$ $2kl^2(J)$ $\\frac32kl^2(J)$ $kl^2(J)$ $F(x)=kx$，$W=\\int_0^l kx dx=\\frac12kl^2$。",
+  "sort_order": 13
+}

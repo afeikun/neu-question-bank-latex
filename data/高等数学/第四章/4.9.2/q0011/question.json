@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "水中有一竖直矩形闸门，宽 $10m$、深 $6m$，门上边平行于水面，水面在门顶上 $8m$，若要使压力加倍，水面应升高多少？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$11m$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$12m$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$13m$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$14m$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令上升 $h$，由 $\\int_{8+h}^{14+h}10\\rho gx dx=2\\int_8^{14}10\\rho gx dx$，得 $h=11m$。",
+  "search_text": "水中有一竖直矩形闸门，宽 $10m$、深 $6m$，门上边平行于水面，水面在门顶上 $8m$，若要使压力加倍，水面应升高多少？ $11m$ $12m$ $13m$ $14m$ 令上升 $h$，由 $\\int_{8+h}^{14+h}10\\rho gx dx=2\\int_8^{14}10\\rho gx dx$，得 $h=11m$。",
+  "sort_order": 11
+}

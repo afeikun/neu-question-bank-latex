@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f在[0,1]连续，下列说法不正确的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀¹f(x)dx是常数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₀ˣf(t)dt是x的函数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀^(1/x)xf(tx)dt是x和t的函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀¹xf(t)dt是x的函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "第三项经换元为定值，不依赖积分变量。",
+  "search_text": "f在[0,1]连续，下列说法不正确的是 ∫₀¹f(x)dx是常数 ∫₀ˣf(t)dt是x的函数 ∫₀^(1/x)xf(tx)dt是x和t的函数 ∫₀¹xf(t)dt是x的函数 第三项经换元为定值，不依赖积分变量。",
+  "sort_order": 47
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\oint_{|\\xi|=3}\\frac{e^\\xi\\sin\\xi}{\\xi-z}\\,d\\xi$，方向正向，则 $f'(1+i)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi i e^{1+i}[\\sin(1+i)+\\cos(1+i)]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{1+i}[\\sin(1+i)+\\cos(1+i)]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i e^{1+i}\\sin(1+i)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{1+i}\\cos(1+i)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(z)=2\\pi i e^z\\sin z$，求导得 $f'(1+i)=2\\pi i e^{1+i}[\\sin(1+i)+\\cos(1+i)]$。",
+  "search_text": "设 $f(z)=\\oint_{|\\xi|=3}\\frac{e^\\xi\\sin\\xi}{\\xi-z}\\,d\\xi$，方向正向，则 $f'(1+i)=(\\quad)$。 $2\\pi i e^{1+i}[\\sin(1+i)+\\cos(1+i)]$ $e^{1+i}[\\sin(1+i)+\\cos(1+i)]$ $2\\pi i e^{1+i}\\sin(1+i)$ $e^{1+i}\\cos(1+i)$ $f(z)=2\\pi i e^z\\sin z$，求导得 $f'(1+i)=2\\pi i e^{1+i}[\\sin(1+i)+\\cos(1+i)]$。",
+  "sort_order": 47
+}

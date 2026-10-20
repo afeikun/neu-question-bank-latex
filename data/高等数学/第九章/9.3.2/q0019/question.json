@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 是顶点 $A(1,0),B(0,1),C(-1,0)$ 的三角形边界（逆时针），计算 $\\oint_L|y|dx+|x|dy$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解：$$AB:\\begin{cases}x=1-t\\\\y=t\\end{cases}\\quad BC:\\begin{cases}x=-t\\\\y=1-t\\end{cases}\\quad CA:\\begin{cases}x=-1+2t\\\\y=0\\end{cases},\\quad t从0变到1$$\n原式=$$\\int_0^1(1-2t)dt+\\int_0^1(t-1-t)dt=\\int_0^1(-2t)dt=-1$$",
+  "search_text": "$L$ 是顶点 $A(1,0),B(0,1),C(-1,0)$ 的三角形边界（逆时针），计算 $\\oint_L|y|dx+|x|dy$。 $2$ $5$ $-1$ $-1$ 解：$$AB:\\begin{cases}x=1-t\\\\y=t\\end{cases}\\quad BC:\\begin{cases}x=-t\\\\y=1-t\\end{cases}\\quad CA:\\begin{cases}x=-1+2t\\\\y=0\\end{cases},\\quad t从0变到1$$\n原式=$$\\int_0^1(1-2t)dt+\\int_0^1(t-1-t)dt=\\int_0^1(-2t)dt=-1$$",
+  "sort_order": 19
+}

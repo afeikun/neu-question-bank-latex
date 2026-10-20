@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $R$ 的球的内接正圆锥体最大体积为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2\\pi R^3}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{23}{81}\\pi R^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\pi R^3}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{32}{81}\\pi R^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设球心到底面圆心距离为 $x$，底面半径平方为 $R^2-x^2$，高为 $R+x$。对 $V(x)=\\frac13\\pi(R^2-x^2)(R+x)$ 求极值，最大体积为 $\\frac{32}{81}\\pi R^3$。",
+  "search_text": "半径为 $R$ 的球的内接正圆锥体最大体积为（ ）。 $\\frac{2\\pi R^3}{3}$ $\\frac{23}{81}\\pi R^3$ $\\frac{\\pi R^3}{3}$ $\\frac{32}{81}\\pi R^3$ 设球心到底面圆心距离为 $x$，底面半径平方为 $R^2-x^2$，高为 $R+x$。对 $V(x)=\\frac13\\pi(R^2-x^2)(R+x)$ 求极值，最大体积为 $\\frac{32}{81}\\pi R^3$。",
+  "sort_order": 5
+}

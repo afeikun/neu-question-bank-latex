@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $1/(2-3z)$ 在 $z=1-i$ 处的幂级数展开式是____。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\frac{3^{n-1}}{(-1+3i)^n}(z-1+i)^{n-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{3^{n-1}}{(-1+3i)^n}(z-1+i)^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\frac{3^n}{(-1+3i)^n}(z-1+i)^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\frac{3^n}{(-1+3i)^n}(z-1+i)^{n-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在中心 $1-i$ 展开几何级数，系数为 $3^n/(-1+3i)^{n+1}$，与第一式重编号等价。",
+  "search_text": "函数 $1/(2-3z)$ 在 $z=1-i$ 处的幂级数展开式是____。 $\\sum_{n=1}^{\\infty}\\frac{3^{n-1}}{(-1+3i)^n}(z-1+i)^{n-1}$ $\\sum_{n=0}^{\\infty}\\frac{3^{n-1}}{(-1+3i)^n}(z-1+i)^n$ $\\sum_{n=0}^{\\infty}\\frac{3^n}{(-1+3i)^n}(z-1+i)^n$ $\\sum_{n=1}^{\\infty}\\frac{3^n}{(-1+3i)^n}(z-1+i)^{n-1}$ 在中心 $1-i$ 展开几何级数，系数为 $3^n/(-1+3i)^{n+1}$，与第一式重编号等价。",
+  "sort_order": 65
+}

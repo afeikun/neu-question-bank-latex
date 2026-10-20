@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i$独立同分布，$E(X_i)=D(X_i)=1$，$X=\\sum_{i=1}^9X_i$，求切比雪夫下界。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(|X-9|<\\varepsilon)\\ge1-9/\\varepsilon^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(|X-1|<\\varepsilon)\\ge1-1/\\varepsilon^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(|X-9|<\\varepsilon)\\ge1-1/\\varepsilon^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(|X/9-1|<\\varepsilon)\\ge1-1/\\varepsilon^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X)=9,D(X)=9$，切比雪夫给$P(|X-9|<\\varepsilon)\\ge1-9/\\varepsilon^2$。",
+  "search_text": "$X_i$独立同分布，$E(X_i)=D(X_i)=1$，$X=\\sum_{i=1}^9X_i$，求切比雪夫下界。 $P(|X-9|<\\varepsilon)\\ge1-9/\\varepsilon^2$ $P(|X-1|<\\varepsilon)\\ge1-1/\\varepsilon^2$ $P(|X-9|<\\varepsilon)\\ge1-1/\\varepsilon^2$ $P(|X/9-1|<\\varepsilon)\\ge1-1/\\varepsilon^2$ $E(X)=9,D(X)=9$，切比雪夫给$P(|X-9|<\\varepsilon)\\ge1-9/\\varepsilon^2$。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设分段光滑平面曲线 $L:y=f(x),\\ (f(x)\\geq0)$，将 $L$ 绕 $x$ 轴旋转得到的旋转面的面积可用曲线积分表示为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_L2\\pi x\\,ds$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_L2\\pi f(x)\\,ds$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_L\\pi x^2\\,ds$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_L\\pi f^2(x)\\,ds$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 由微元法，旋转面的面积为 $\\int_L 2\\pi f(x)\\,ds$，",
+  "search_text": "设分段光滑平面曲线 $L:y=f(x),\\ (f(x)\\geq0)$，将 $L$ 绕 $x$ 轴旋转得到的旋转面的面积可用曲线积分表示为（ ） $\\int_L2\\pi x\\,ds$ $\\int_L2\\pi f(x)\\,ds$ $\\int_L\\pi x^2\\,ds$ $\\int_L\\pi f^2(x)\\,ds$ 解答 由微元法，旋转面的面积为 $\\int_L 2\\pi f(x)\\,ds$，",
+  "sort_order": 2
+}

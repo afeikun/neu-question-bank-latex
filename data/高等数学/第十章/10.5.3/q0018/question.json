@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知一曲线满足方程 $y\\prime\\prime=2(y^2-y\\prime)$，其在 $(0,1)$ 处的切线为 $y=2x+1$，则该曲线是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\tan(2x+\\frac\\pi4)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\arcsin(x+\\frac\\pi4)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\tan(x+\\frac\\pi4)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\arcsin(2x+\\frac\\pi4)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：即为一个初值问题 $yy''=2(y^2-y')$，$y(0)=0$，$y'(0)=2$ 的特解问题，令 $y'=p$，则 $y''=p\\frac{dp}{dx}$，代入原方程 $\\frac{dp}{dy}=\\frac{2(p-1)}{y}$，$\\int\\frac{dp}{p-1}=\\int\\frac{dy}{y}$，$\\ln(p-1)=\\ln y^2+C$。将 $y=1,p=2$ 代入得 $C=0$，所以 $y'=p=y^2+1$，$\\frac{dy}{y^2+1}=dx$，$\\int\\frac{dy}{y^2+1}=\\int dx$，可得 $\\arctan y=x+C$，将 $x=0$，$y=1$ 代入，解的 $C=\\frac{\\pi}{4}$，解得曲线为\n\n$$y=\\arctan\\left(x+\\frac{\\pi}{4}\\right).$$",
+  "search_text": "已知一曲线满足方程 $y\\prime\\prime=2(y^2-y\\prime)$，其在 $(0,1)$ 处的切线为 $y=2x+1$，则该曲线是（ ） $y=\\tan(2x+\\frac\\pi4)$ $y=\\arcsin(x+\\frac\\pi4)$ $y=\\tan(x+\\frac\\pi4)$ $y=\\arcsin(2x+\\frac\\pi4)$ 解析：即为一个初值问题 $yy''=2(y^2-y')$，$y(0)=0$，$y'(0)=2$ 的特解问题，令 $y'=p$，则 $y''=p\\frac{dp}{dx}$，代入原方程 $\\frac{dp}{dy}=\\frac{2(p-1)}{y}$，$\\int\\frac{dp}{p-1}=\\int\\frac{dy}{y}$，$\\ln(p-1)=\\ln y^2+C$。将 $y=1,p=2$ 代入得 $C=0$，所以 $y'=p=y^2+1$，$\\frac{dy}{y^2+1}=dx$，$\\int\\frac{dy}{y^2+1}=\\int dx$，可得 $\\arctan y=x+C$，将 $x=0$，$y=1$ 代入，解的 $C=\\frac{\\pi}{4}$，解得曲线为\n\n$$y=\\arctan\\left(x+\\frac{\\pi}{4}\\right).$$",
+  "sort_order": 18
+}

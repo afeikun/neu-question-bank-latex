@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\int_L(e^x+y)dx-xdy$，其中 $L$ 从点 $A(1,0)$ 沿半圆周 $y=\\sqrt{1-x^2}$ 到点 $B(-1,0)$ 的一段弧（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1e+\\pi-e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1e-\\pi-2e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1e-\\pi-e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1e-\\pi+e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：\n$$x=\\cos t,y=\\sin t,t:0\\to\\pi$$\n原式$$=\\int_0^\\pi(e^{\\cos t}+\\sin t)(-\\sin t)-\\cos t\\cdot\\cos t\\,dt=-\\int_0^\\pi(1+e^{\\cos t}\\sin t)dt=\\frac{1}{e}-\\pi-e$$",
+  "search_text": "求 $\\int_L(e^x+y)dx-xdy$，其中 $L$ 从点 $A(1,0)$ 沿半圆周 $y=\\sqrt{1-x^2}$ 到点 $B(-1,0)$ 的一段弧（ ） $\\frac1e+\\pi-e$ $\\frac1e-\\pi-2e$ $\\frac1e-\\pi-e$ $\\frac1e-\\pi+e$ 解答：\n$$x=\\cos t,y=\\sin t,t:0\\to\\pi$$\n原式$$=\\int_0^\\pi(e^{\\cos t}+\\sin t)(-\\sin t)-\\cos t\\cdot\\cos t\\,dt=-\\int_0^\\pi(1+e^{\\cos t}\\sin t)dt=\\frac{1}{e}-\\pi-e$$",
+  "sort_order": 37
+}

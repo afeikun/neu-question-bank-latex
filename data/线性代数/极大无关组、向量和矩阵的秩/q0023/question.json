@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量组（I）$\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$；（II）$\\beta_1,\\beta_2,\\ldots,\\beta_t$ 的秩分别是 $r_1$ 和 $r_2$，且（I）中每个向量都可由（II）线性表示，则 $r_1$ 和 $r_2$ 的关系是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$r_1\\le r_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$r_1<r_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$r_1\\ge r_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$r_1=r_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "（I）中每个向量都可由（II）线性表示，因此（I）的张成空间包含于（II）的张成空间，故 $r_1\\le r_2$。",
+  "search_text": "设向量组（I）$\\alpha_1,\\alpha_2,\\ldots,\\alpha_s$；（II）$\\beta_1,\\beta_2,\\ldots,\\beta_t$ 的秩分别是 $r_1$ 和 $r_2$，且（I）中每个向量都可由（II）线性表示，则 $r_1$ 和 $r_2$ 的关系是（ ）。 $r_1\\le r_2$ $r_1<r_2$ $r_1\\ge r_2$ $r_1=r_2$ （I）中每个向量都可由（II）线性表示，因此（I）的张成空间包含于（II）的张成空间，故 $r_1\\le r_2$。",
+  "sort_order": 23
+}

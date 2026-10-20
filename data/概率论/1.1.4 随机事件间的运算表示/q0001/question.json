@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B,C$ 为 3 个随机事件，则事件 $D=\\{A,B,C$ 中不多于一个事件发生$\\}$ 的表示错误的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\overline{AB}\\cup\\overline{AC}\\cup\\overline{BC}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\overline A\\,\\overline B C\\cup\\overline A B\\overline C\\cup A\\overline B\\overline C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\overline{AB}\\cap\\overline{AC}\\cap\\overline{BC}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\overline A\\,\\overline B\\cup\\overline A\\,\\overline C\\cup\\overline B\\,\\overline C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "不多于一个事件发生包括三者都不发生或恰有一个发生。可表示为 $\\overline A\\overline B\\overline C\\cup A\\overline B\\overline C\\cup\\overline A B\\overline C\\cup\\overline A\\overline B C$，也可写成 $\\overline{AB}\\cap\\overline{AC}\\cap\\overline{BC}$。",
+  "search_text": "设 $A,B,C$ 为 3 个随机事件，则事件 $D=\\{A,B,C$ 中不多于一个事件发生$\\}$ 的表示错误的是(\\quad)。 $\\overline{AB}\\cup\\overline{AC}\\cup\\overline{BC}$ $\\overline A\\,\\overline B C\\cup\\overline A B\\overline C\\cup A\\overline B\\overline C$ $\\overline{AB}\\cap\\overline{AC}\\cap\\overline{BC}$ $\\overline A\\,\\overline B\\cup\\overline A\\,\\overline C\\cup\\overline B\\,\\overline C$ 不多于一个事件发生包括三者都不发生或恰有一个发生。可表示为 $\\overline A\\overline B\\overline C\\cup A\\overline B\\overline C\\cup\\overline A B\\overline C\\cup\\overline A\\overline B C$，也可写成 $\\overline{AB}\\cap\\overline{AC}\\cap\\overline{BC}$。",
+  "sort_order": 1
+}

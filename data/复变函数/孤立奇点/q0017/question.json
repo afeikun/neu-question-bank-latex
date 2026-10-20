@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=1$ 是函数 $\\dfrac{\\ln z}{z^2-1}$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可去奇点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "极点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "本性奇点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "非孤立奇点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=1$ 是 $\\ln z$ 的一级零点，也是 $z^2-1$ 的一级零点，故为可去奇点。",
+  "search_text": "$z=1$ 是函数 $\\dfrac{\\ln z}{z^2-1}$ 的（ ）。 可去奇点 极点 本性奇点 非孤立奇点 $z=1$ 是 $\\ln z$ 的一级零点，也是 $z^2-1$ 的一级零点，故为可去奇点。",
+  "sort_order": 17
+}

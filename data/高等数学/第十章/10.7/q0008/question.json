@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)=\\sin2x+\\int_0^x f^\\prime(x-t)\\,dt$，且 $f$ 二阶可导，求 $f(x)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f=\\frac15e^x-\\frac15e^{-x}+\\frac45\\sin2x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f=\\frac15e^x+\\frac15e^{-x}+\\frac45\\sin2x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f=e^x-e^{-x}+\\sin2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f=\\frac45\\sin2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：先处理变上限积分函数\n\n$$\\int_0^x f'(x-t)\\,dt=\\int_x^0(x-u)f''(u)(-du)=x\\int_0^x f''(u)\\,du-\\int_0^x uf''(u)\\,du$$\n\n求导两次可得 $\\begin{cases}f''=-4\\sin 2x+f\\\\f(0)=0\\\\f'=2\\end{cases}$，解得 $f(x)=\\frac{1}{5}e^x-\\frac{1}{5}e^{-x}+\\frac{4}{5}\\sin 2x$",
+  "search_text": "已知 $f(x)=\\sin2x+\\int_0^x f^\\prime(x-t)\\,dt$，且 $f$ 二阶可导，求 $f(x)$。 $f=\\frac15e^x-\\frac15e^{-x}+\\frac45\\sin2x$ $f=\\frac15e^x+\\frac15e^{-x}+\\frac45\\sin2x$ $f=e^x-e^{-x}+\\sin2x$ $f=\\frac45\\sin2x$ 解析：先处理变上限积分函数\n\n$$\\int_0^x f'(x-t)\\,dt=\\int_x^0(x-u)f''(u)(-du)=x\\int_0^x f''(u)\\,du-\\int_0^x uf''(u)\\,du$$\n\n求导两次可得 $\\begin{cases}f''=-4\\sin 2x+f\\\\f(0)=0\\\\f'=2\\end{cases}$，解得 $f(x)=\\frac{1}{5}e^x-\\frac{1}{5}e^{-x}+\\frac{4}{5}\\sin 2x$",
+  "sort_order": 8
+}

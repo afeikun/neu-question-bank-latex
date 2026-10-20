@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "面密度为常数 $\\rho_0$ 的半球壳对 $z$ 轴的转动惯量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{4\\pi\\rho_0a^4}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2\\pi\\rho_0a^4}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{4\\pi\\rho_0a^3}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2\\pi\\rho_0a^3}{3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 不妨设 $z=\\sqrt{a^2-x^2-y^2}$，$dS=\\frac{a}{\\sqrt{a^2-x^2-y^2}}\\,dxdy$，$D_{xy}:x^2+y^2\\leq a^2$。所求转动惯量为\n\n$$\nI=\\iint_{\\Sigma}(x^2+y^2)\\rho_0\\,dS\n=\\iint_{D_{xy}}(x^2+y^2)\\rho_0\\frac{a}{\\sqrt{a^2-x^2-y^2}}\\,dxdy\n=a\\rho_0\\int_0^{2\\pi}d\\theta\\int_0^a\\frac{r^3}{\\sqrt{a^2-r^2}}\\,dr\n$$\n\n$$\n\\xrightarrow{r=a\\sin t}\n2\\pi a\\rho_0\\int_0^{\\pi/2}\\frac{a^3\\sin^3t}{a\\cos t}\\,a\\cos t\\,dt\n=\\frac{4\\pi\\rho_0a^4}{3}\n$$",
+  "search_text": "面密度为常数 $\\rho_0$ 的半球壳对 $z$ 轴的转动惯量为（ ） $\\frac{4\\pi\\rho_0a^4}{3}$ $\\frac{2\\pi\\rho_0a^4}{3}$ $\\frac{4\\pi\\rho_0a^3}{3}$ $\\frac{2\\pi\\rho_0a^3}{3}$ 解答 不妨设 $z=\\sqrt{a^2-x^2-y^2}$，$dS=\\frac{a}{\\sqrt{a^2-x^2-y^2}}\\,dxdy$，$D_{xy}:x^2+y^2\\leq a^2$。所求转动惯量为\n\n$$\nI=\\iint_{\\Sigma}(x^2+y^2)\\rho_0\\,dS\n=\\iint_{D_{xy}}(x^2+y^2)\\rho_0\\frac{a}{\\sqrt{a^2-x^2-y^2}}\\,dxdy\n=a\\rho_0\\int_0^{2\\pi}d\\theta\\int_0^a\\frac{r^3}{\\sqrt{a^2-r^2}}\\,dr\n$$\n\n$$\n\\xrightarrow{r=a\\sin t}\n2\\pi a\\rho_0\\int_0^{\\pi/2}\\frac{a^3\\sin^3t}{a\\cos t}\\,a\\cos t\\,dt\n=\\frac{4\\pi\\rho_0a^4}{3}\n$$",
+  "sort_order": 5
+}

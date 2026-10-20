@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\sqrt[100]{1.002}$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1.00002$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1.00004$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1.00001$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "取 $f(x)=\\sqrt[100]{x}$，$f'(1)=\\frac1{100}$。于是 $\\sqrt[100]{1.002}\\approx f(1)+f'(1)\\cdot0.002=1.00002$。",
+  "search_text": "$\\sqrt[100]{1.002}$ 的近似值为 $(\\quad)$。 $1.00002$ $1.00004$ $1.00001$ $1$ 取 $f(x)=\\sqrt[100]{x}$，$f'(1)=\\frac1{100}$。于是 $\\sqrt[100]{1.002}\\approx f(1)+f'(1)\\cdot0.002=1.00002$。",
+  "sort_order": 14
+}

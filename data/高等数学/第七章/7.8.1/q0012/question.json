@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x,y)=\\ln(1+x^2+y^2)+1-\\frac{x^3}{15}-\\frac{y^2}{4}$ 的极值为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "最大值 $\\ln5+\\frac7{15}$，极小值1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "最大值1，极小值 $-\\ln5-\\frac7{15}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "最大值 $\\ln5+\\frac7{15}$，极小值 $-\\ln5-\\frac7{15}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "最大值1，极小值-1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令\n\n$$\\left\\{\\begin{aligned}f'_x&=\\frac{2x}{1+x^2+y^2}-\\frac{x^2}{5}=0\\\\f'_y&=\\frac{2y}{1+x^2+y^2}-\\frac{y}{2}=0\\end{aligned}\\right.$$ \n\n得到驻点 $(0,0),(2,0),(0,\\sqrt{3}),(0,-\\sqrt{3})$，则：\n\n$$A=f''_{xx}=\\frac{2(1+y^2-x^2)}{(1+x^2+y^2)^2}-\\frac{2x}{5},\\quad B=f''_{xy}=-\\frac{4xy}{(1+x^2+y^2)^2},\\quad C=f''_{yy}=\\frac{2(1+x^2-y^2)}{(1+x^2+y^2)^2}-\\frac{1}{2}$$\n\n①在 $(0,0)$ 处，$A=2>0,B=0,C=\\frac{3}{2},AC-B^2=3>0$，是极小值点，极小值 $f(0,0)=1$。\n\n②在 $(2,0)$ 处，$A=-\\frac{26}{25}<0,B=0,C=-\\frac{1}{10},AC-B^2>0$，是极大值点，极大值 $f(2,0)=\\ln 5+\\frac{7}{15}$。\n\n③在 $(0,\\sqrt{3})$ 处，$A=\\frac{1}{2}>0,B=0,C=-\\frac{3}{4},AC-B^2<0$，不是极值点。\n\n④在 $(0,-\\sqrt{3})$ 处，$A=\\frac{1}{2}>0,B=0,C=-\\frac{3}{4},AC-B^2<0$，不是极值点。",
+  "search_text": "函数 $f(x,y)=\\ln(1+x^2+y^2)+1-\\frac{x^3}{15}-\\frac{y^2}{4}$ 的极值为。 最大值 $\\ln5+\\frac7{15}$，极小值1 最大值1，极小值 $-\\ln5-\\frac7{15}$ 最大值 $\\ln5+\\frac7{15}$，极小值 $-\\ln5-\\frac7{15}$ 最大值1，极小值-1 令\n\n$$\\left\\{\\begin{aligned}f'_x&=\\frac{2x}{1+x^2+y^2}-\\frac{x^2}{5}=0\\\\f'_y&=\\frac{2y}{1+x^2+y^2}-\\frac{y}{2}=0\\end{aligned}\\right.$$ \n\n得到驻点 $(0,0),(2,0),(0,\\sqrt{3}),(0,-\\sqrt{3})$，则：\n\n$$A=f''_{xx}=\\frac{2(1+y^2-x^2)}{(1+x^2+y^2)^2}-\\frac{2x}{5},\\quad B=f''_{xy}=-\\frac{4xy}{(1+x^2+y^2)^2},\\quad C=f''_{yy}=\\frac{2(1+x^2-y^2)}{(1+x^2+y^2)^2}-\\frac{1}{2}$$\n\n①在 $(0,0)$ 处，$A=2>0,B=0,C=\\frac{3}{2},AC-B^2=3>0$，是极小值点，极小值 $f(0,0)=1$。\n\n②在 $(2,0)$ 处，$A=-\\frac{26}{25}<0,B=0,C=-\\frac{1}{10},AC-B^2>0$，是极大值点，极大值 $f(2,0)=\\ln 5+\\frac{7}{15}$。\n\n③在 $(0,\\sqrt{3})$ 处，$A=\\frac{1}{2}>0,B=0,C=-\\frac{3}{4},AC-B^2<0$，不是极值点。\n\n④在 $(0,-\\sqrt{3})$ 处，$A=\\frac{1}{2}>0,B=0,C=-\\frac{3}{4},AC-B^2<0$，不是极值点。",
+  "sort_order": 12
+}

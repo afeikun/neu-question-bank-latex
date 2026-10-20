@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数满足 $f(x)+f\\prime(x)=e^x$，且 $f(0)=0$，则 $f(x)=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12(e^{2x}+e^{-x})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12(e^{2x}-e^{-x})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12(e^x+e^{-x})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12(e^x-e^{-x})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由一阶线性微分方程的求解公式\n\n$$y=e^{-\\int1\\,dx}\\left[\\int e^xe^{\\int1\\,dx}\\,dx+c\\right]=\\frac{1}{2}e^x+ce^{-x}$$\n\n代入初值 $f(0)=0$，得 $c=-\\frac{1}{2}$，\n\n所以 $f(x)=\\frac{1}{2}(e^x-e^{-x})$",
+  "search_text": "函数满足 $f(x)+f\\prime(x)=e^x$，且 $f(0)=0$，则 $f(x)=$（ ） $\\frac12(e^{2x}+e^{-x})$ $\\frac12(e^{2x}-e^{-x})$ $\\frac12(e^x+e^{-x})$ $\\frac12(e^x-e^{-x})$ 由一阶线性微分方程的求解公式\n\n$$y=e^{-\\int1\\,dx}\\left[\\int e^xe^{\\int1\\,dx}\\,dx+c\\right]=\\frac{1}{2}e^x+ce^{-x}$$\n\n代入初值 $f(0)=0$，得 $c=-\\frac{1}{2}$，\n\n所以 $f(x)=\\frac{1}{2}(e^x-e^{-x})$",
+  "sort_order": 27
+}

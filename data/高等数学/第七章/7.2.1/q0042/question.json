@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=f(x,y)$ 在上半平面 $y>0$ 处处可微，且对任意 $t>0$ 有 $f(tx,ty)=f(x,y)$，则 $\\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "根据题意对任意 $t>0$ 都有 $f(tx,ty)=f(x,y)$，$$\\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}=\\lim_{x\\to0}\\frac{f(0,x+1)-f(0,1)}{x}=\\lim_{x\\to0}\\frac{f(0\\cdot(x+1),1\\cdot(x+1))-f(0,1)}{x}=0$$",
+  "search_text": "设 $z=f(x,y)$ 在上半平面 $y>0$ 处处可微，且对任意 $t>0$ 有 $f(tx,ty)=f(x,y)$，则 $\\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}=(\\quad)$。 $1$ $2$ $-1$ $0$ 根据题意对任意 $t>0$ 都有 $f(tx,ty)=f(x,y)$，$$\\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}=\\lim_{x\\to0}\\frac{f(0,x+1)-f(0,1)}{x}=\\lim_{x\\to0}\\frac{f(0\\cdot(x+1),1\\cdot(x+1))-f(0,1)}{x}=0$$",
+  "sort_order": 42
+}

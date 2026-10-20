@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=x^2f(xy,y/x)$，$f$ 具有二阶连续偏导数，则 $\\partial z/\\partial y=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^3f_1'-xf_2'$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^3f_2'+xf_1'$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^3f_1'+xf_2'$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^3f_2'-xf_1'$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial y}=x^2\\left(xf_1'+\\frac{1}{x}f_2'\\right)=x^3f_1'+xf_2'$",
+  "search_text": "设 $z=x^2f(xy,y/x)$，$f$ 具有二阶连续偏导数，则 $\\partial z/\\partial y=$（ ）。 $x^3f_1'-xf_2'$ $x^3f_2'+xf_1'$ $x^3f_1'+xf_2'$ $x^3f_2'-xf_1'$ $\\frac{\\partial z}{\\partial y}=x^2\\left(xf_1'+\\frac{1}{x}f_2'\\right)=x^3f_1'+xf_2'$",
+  "sort_order": 45
+}

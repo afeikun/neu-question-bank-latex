@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z|=2}\\frac{z^2+2z-5}{(z-1)^2}dz=\\underline{\\qquad}$（正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$8\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $f(z)=z^2+2z-5$，$f'(1)=4$，积分为 $2\\pi i f'(1)=8\\pi i$。",
+  "search_text": "$\\oint_{|z|=2}\\frac{z^2+2z-5}{(z-1)^2}dz=\\underline{\\qquad}$（正向）。 $8\\pi i$ $3$ $4\\pi i$ $4$ 令 $f(z)=z^2+2z-5$，$f'(1)=4$，积分为 $2\\pi i f'(1)=8\\pi i$。",
+  "sort_order": 19
+}

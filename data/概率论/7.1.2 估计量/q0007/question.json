@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n^{-1}\\sum(X_i-\\bar X)^k$是$E(X-EX)^k$的（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "一致估计量，但未必是无偏估计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "一致无偏估计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无偏估计量但未必一致"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "未必无偏也未必一致"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "样本中心矩依概率收敛至总体中心矩，但有限样本下通常有偏。",
+  "search_text": "$n^{-1}\\sum(X_i-\\bar X)^k$是$E(X-EX)^k$的（）。 一致估计量，但未必是无偏估计量 一致无偏估计量 无偏估计量但未必一致 未必无偏也未必一致 样本中心矩依概率收敛至总体中心矩，但有限样本下通常有偏。",
+  "sort_order": 7
+}

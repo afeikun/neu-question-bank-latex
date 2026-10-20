@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 为球面 $x^2+y^2+z^2=4$ 在 $z\\ge0$ 的外侧，则 $\\iint_\\Sigma yz\\,dz\\,dx+2dx\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$10\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$8\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设 $\\Sigma_1$ 表示：$x^2+y^2\\le4,z=0$ 下侧面，则 $\\Sigma+\\Sigma_1$ 为封闭曲面的外侧。这里 $p=0,Q=yz,R=2$，则有\n\n$$\\frac{\\partial P}{\\partial x}=0,\\frac{\\partial Q}{\\partial y}=z,\\frac{\\partial R}{\\partial z}=0$$\n\n皆为 $\\Omega$ 内的连续函数，由高斯公式有\n\n$$\\oiint_{\\Sigma+\\Sigma_1}yz\\,dzdx+2dxdy=\\iiint_{\\Omega}z\\,dxdydz=\\int_0^2dz\\iint_Dz\\,dxdy=\\int_0^2\\pi z(4-z^2)dz=4\\pi$$\n\n将 $\\Sigma_1$ 投影到 $zOx$ 坐标平面，其投影域为线段，因此 $\\iint_{\\Sigma_1}yz\\,dzdx=0,$\n\n$\\Sigma_1$ 在 $zOx$ 坐标平面上的投影域 $D:x^2+y^2\\le4$。则 $\\iint_{\\Sigma_1}2dxdy=-2\\iint_Ddxdy=-8\\pi$\n\n故\n\n原式 $=\\oiint_{\\Sigma+\\Sigma_1}yz\\,dzdx+2dxdy-\\iint_{\\Sigma_1}yz\\,dzdx+2dxdy=4\\pi-(-8\\pi)=12\\pi$",
+  "search_text": "已知 $\\Sigma$ 为球面 $x^2+y^2+z^2=4$ 在 $z\\ge0$ 的外侧，则 $\\iint_\\Sigma yz\\,dz\\,dx+2dx\\,dy=$（ ） $10\\pi$ $8\\pi$ $12\\pi$ $6\\pi$ 设 $\\Sigma_1$ 表示：$x^2+y^2\\le4,z=0$ 下侧面，则 $\\Sigma+\\Sigma_1$ 为封闭曲面的外侧。这里 $p=0,Q=yz,R=2$，则有\n\n$$\\frac{\\partial P}{\\partial x}=0,\\frac{\\partial Q}{\\partial y}=z,\\frac{\\partial R}{\\partial z}=0$$\n\n皆为 $\\Omega$ 内的连续函数，由高斯公式有\n\n$$\\oiint_{\\Sigma+\\Sigma_1}yz\\,dzdx+2dxdy=\\iiint_{\\Omega}z\\,dxdydz=\\int_0^2dz\\iint_Dz\\,dxdy=\\int_0^2\\pi z(4-z^2)dz=4\\pi$$\n\n将 $\\Sigma_1$ 投影到 $zOx$ 坐标平面，其投影域为线段，因此 $\\iint_{\\Sigma_1}yz\\,dzdx=0,$\n\n$\\Sigma_1$ 在 $zOx$ 坐标平面上的投影域 $D:x^2+y^2\\le4$。则 $\\iint_{\\Sigma_1}2dxdy=-2\\iint_Ddxdy=-8\\pi$\n\n故\n\n原式 $=\\oiint_{\\Sigma+\\Sigma_1}yz\\,dzdx+2dxdy-\\iint_{\\Sigma_1}yz\\,dzdx+2dxdy=4\\pi-(-8\\pi)=12\\pi$",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\arctan x+\\operatorname{arccot} x-a^x(a>0)$，则 $y\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-a^x\\ln a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a^x/\\ln a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a^x\\ln a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-a^x/\\ln a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\arctan x$ 与 $\\operatorname{arccot} x$ 导数抵消，剩 $-a^x\\ln a$。",
+  "search_text": "设 $y=\\arctan x+\\operatorname{arccot} x-a^x(a>0)$，则 $y\\prime=$（ ）。 $-a^x\\ln a$ $a^x/\\ln a$ $a^x\\ln a$ $-a^x/\\ln a$ $\\arctan x$ 与 $\\operatorname{arccot} x$ 导数抵消，剩 $-a^x\\ln a$。",
+  "sort_order": 11
+}

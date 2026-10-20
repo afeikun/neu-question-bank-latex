@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $|x|$ 较小时，下列近似公式正确的是 $(\\quad)$。\\n(1) $\\sin x\\approx x$；(2) $e^x\\approx1+x$；(3) $\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由线性化公式，在 $x=0$ 附近有 $\\sin x\\approx x$、$e^x\\approx1+x$、$\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$，三式均正确。",
+  "search_text": "当 $|x|$ 较小时，下列近似公式正确的是 $(\\quad)$。\\n(1) $\\sin x\\approx x$；(2) $e^x\\approx1+x$；(3) $\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$。 $3$ 个 $1$ 个 $2$ 个 $0$ 个 由线性化公式，在 $x=0$ 附近有 $\\sin x\\approx x$、$e^x\\approx1+x$、$\\sqrt[n]{1+x}\\approx1+\\frac{x}{n}$，三式均正确。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F_X(x)=0(x<0),x^3(0\\le x\\le1),1(x>1)$，求$E(X)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1 3x^3dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^\\infty x^4dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1x^4dx-\\int_0^\\infty xdx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^\\infty3x^3dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f_X(x)=3x^2$于$(0,1)$，所以$E(X)=\\int_0^1 3x^3dx=3/4$。",
+  "search_text": "$F_X(x)=0(x<0),x^3(0\\le x\\le1),1(x>1)$，求$E(X)$。 $\\int_0^1 3x^3dx$ $\\int_0^\\infty x^4dx$ $\\int_0^1x^4dx-\\int_0^\\infty xdx$ $\\int_0^\\infty3x^3dx$ $f_X(x)=3x^2$于$(0,1)$，所以$E(X)=\\int_0^1 3x^3dx=3/4$。",
+  "sort_order": 3
+}

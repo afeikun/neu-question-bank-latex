@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 是 $x^2+y^2+z^2=a^2$ 的上半球上侧（$a>1$），在求 $\\iint_\\Sigma\\frac{1}{x^2+y^2+z^2}(xy\\,dz+yz\\,dx+zx\\,dy)$ 时，需要补充曲面后使用 Gauss 公式，下面补法正确的是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "补下半球面"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z=0$ 圆盘取下侧并加单位上半球取下侧"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z=0$ 圆盘取下侧并加单位上半球取下侧"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z=0$ 圆盘取上侧"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n由于被积函数存在不连续点（$0,0,0$），所以所补区域不能包含原点，因此可选择：$\\Sigma_1+\\Sigma_2$，其中\n\n$\\Sigma_1:z=0\\ (1\\le x^2+y^2\\le a^2)$ 取下侧，$\\Sigma_2$：以原点为中心的单位球面上半部分取下侧。",
+  "search_text": "设 $\\Sigma$ 是 $x^2+y^2+z^2=a^2$ 的上半球上侧（$a>1$），在求 $\\iint_\\Sigma\\frac{1}{x^2+y^2+z^2}(xy\\,dz+yz\\,dx+zx\\,dy)$ 时，需要补充曲面后使用 Gauss 公式，下面补法正确的是（ ） 补下半球面 $z=0$ 圆盘取下侧并加单位上半球取下侧 $z=0$ 圆盘取下侧并加单位上半球取下侧 $z=0$ 圆盘取上侧 参考答案：\n\n由于被积函数存在不连续点（$0,0,0$），所以所补区域不能包含原点，因此可选择：$\\Sigma_1+\\Sigma_2$，其中\n\n$\\Sigma_1:z=0\\ (1\\le x^2+y^2\\le a^2)$ 取下侧，$\\Sigma_2$：以原点为中心的单位球面上半部分取下侧。",
+  "sort_order": 21
+}

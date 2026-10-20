@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=x+y$于单位正方形，求$D(\\xi),D(\\eta)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(11/144,11/144)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(7/12,7/12)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(7/12,5/12)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(5/12,5/12)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\xi)=7/12,E(\\xi^2)=5/12$，故$D(\\xi)=11/144$，由对称性相同。",
+  "search_text": "$f(x,y)=x+y$于单位正方形，求$D(\\xi),D(\\eta)$。 $(11/144,11/144)$ $(7/12,7/12)$ $(7/12,5/12)$ $(5/12,5/12)$ $E(\\xi)=7/12,E(\\xi^2)=5/12$，故$D(\\xi)=11/144$，由对称性相同。",
+  "sort_order": 10
+}

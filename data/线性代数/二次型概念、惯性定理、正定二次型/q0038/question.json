@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "实二次型 $f(x_1,x_2,x_3)=kx_1^2+kx_2^2+kx_3^2+2kx_1x_2+2x_1x_3$ 正定，则 $k$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "为任意实数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k<0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k>0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "二次型矩阵为 $A=\\begin{pmatrix}k&k&1\\\\k&k&0\\\\1&0&k\\end{pmatrix}$。正定需有 $k>0$，但二阶顺序主子式 $\\begin{vmatrix}k&k\\\\k&k\\end{vmatrix}=0$，不满足正定条件，因此不存在这样的 $k$。",
+  "search_text": "实二次型 $f(x_1,x_2,x_3)=kx_1^2+kx_2^2+kx_3^2+2kx_1x_2+2x_1x_3$ 正定，则 $k$ 的值为（ ）。 为任意实数 不存在 $k<0$ $k>0$ 二次型矩阵为 $A=\\begin{pmatrix}k&k&1\\\\k&k&0\\\\1&0&k\\end{pmatrix}$。正定需有 $k>0$，但二阶顺序主子式 $\\begin{vmatrix}k&k\\\\k&k\\end{vmatrix}=0$，不满足正定条件，因此不存在这样的 $k$。",
+  "sort_order": 38
+}

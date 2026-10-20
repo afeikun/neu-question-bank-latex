@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "齐次方程组 $$\\begin{cases}\nkx+y+z=0\\\\\nx+ky-z=0\\\\\n2x-y+z=0\n\\end{cases}$$ 有非零解，则 $k=(\\quad)$.",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k=-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k=-1$ 或 $4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k\\neq-1$ 且 $k\\neq 4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k=4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$D=\\begin{vmatrix}k&1&1\\\\\n1&k&-1\\\\\n2&-1&1\\end{vmatrix}=(k+1)(k-4)$. 由题意及克莱姆法则得当且仅当 $D=0$，即 $k=-1$ 或 $4$\n时，已知方程组有非零解.",
+  "search_text": "齐次方程组 $$\\begin{cases} kx+y+z=0\\\\ x+ky-z=0\\\\ 2x-y+z=0 \\end{cases}$$ 有非零解，则 $k=(\\quad)$. $k=-1$ $k=-1$ 或 $4$ $k\\neq-1$ 且 $k\\neq 4$ $k=4$ $D=\\begin{vmatrix}k&1&1\\\\ 1&k&-1\\\\ 2&-1&1\\end{vmatrix}=(k+1)(k-4)$. 由题意及克莱姆法则得当且仅当 $D=0$，即 $k=-1$ 或 $4$ 时，已知方程组有非零解.",
+  "sort_order": 13
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $P(B)>0$ 且 $P((A_1\\cup A_2)\\mid B)=P(A_1\\mid B)+P(A_2\\mid B)$，则有(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(A_1B\\cup A_2B)=P(A_1B)+P(A_2B)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A_1A_2)=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(A_1\\cup A_2)=P(A_1)+P(A_2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(B)=P(BA_1)P(A_1)+P(BA_2)P(A_2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由条件概率定义将等式两边乘以 $P(B)$，并用分配律可得 $P(A_1B\\cup A_2B)=P(A_1B)+P(A_2B)$。",
+  "search_text": "设 $P(B)>0$ 且 $P((A_1\\cup A_2)\\mid B)=P(A_1\\mid B)+P(A_2\\mid B)$，则有(\\quad)。 $P(A_1B\\cup A_2B)=P(A_1B)+P(A_2B)$ $P(A_1A_2)=0$ $P(A_1\\cup A_2)=P(A_1)+P(A_2)$ $P(B)=P(BA_1)P(A_1)+P(BA_2)P(A_2)$ 由条件概率定义将等式两边乘以 $P(B)$，并用分配律可得 $P(A_1B\\cup A_2B)=P(A_1B)+P(A_2B)$。",
+  "sort_order": 10
+}

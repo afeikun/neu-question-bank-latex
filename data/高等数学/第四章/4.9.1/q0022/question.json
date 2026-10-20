@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $R$、密度为 $\\rho$ 的球沉入深为 $H(H>2R)$ 的水池，水密度 $\\rho_0<\\rho$，将球从水池中取出需作多少功？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac23\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac43\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac83\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "计入出水前后的浮力功，合并积分后得 $W=\\frac43\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$。",
+  "search_text": "半径为 $R$、密度为 $\\rho$ 的球沉入深为 $H(H>2R)$ 的水池，水密度 $\\rho_0<\\rho$，将球从水池中取出需作多少功？ $\\frac23\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$ $\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$ $\\frac43\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$ $\\frac83\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$ 计入出水前后的浮力功，合并积分后得 $W=\\frac43\\pi R^3[(\\rho-\\rho_0)H+\\rho_0R]g$。",
+  "sort_order": 22
+}

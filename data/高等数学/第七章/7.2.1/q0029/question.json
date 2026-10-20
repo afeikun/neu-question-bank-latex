@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=\\begin{cases}x^2\\arctan(y/x)-y^2\\arctan(x/y),&xy\\ne0\\\\0,&xy=0\\end{cases}$，则 $\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,y)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-y$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,y)}=\\lim_{x\\to0}\\frac{x^2\\arctan\\frac{y}{x}-y^2\\arctan\\frac{x}{y}}{x}=\\lim_{x\\to0}x\\arctan\\frac{y}{x}-\\lim_{x\\to0}\\frac{y\\arctan\\frac{x}{y}}{\\frac{x}{y}}=-y$",
+  "search_text": "$f(x,y)=\\begin{cases}x^2\\arctan(y/x)-y^2\\arctan(x/y),&xy\\ne0\\\\0,&xy=0\\end{cases}$，则 $\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,y)}=(\\quad)$。 $-y$ $0$ $1-y$ $y$ $\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,y)}=\\lim_{x\\to0}\\frac{x^2\\arctan\\frac{y}{x}-y^2\\arctan\\frac{x}{y}}{x}=\\lim_{x\\to0}x\\arctan\\frac{y}{x}-\\lim_{x\\to0}\\frac{y\\arctan\\frac{x}{y}}{\\frac{x}{y}}=-y$",
+  "sort_order": 29
+}

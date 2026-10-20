@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\oint_{|z|=2}\\frac{(z^2-9z+8)e^z}{(z-1)^3}\\,dz$ 等于（ ），方向正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-12\\pi e i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-6e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi e i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "约去一个 $z-1$ 后用二阶导数公式，得 $-12\\pi e i$。",
+  "search_text": "积分 $I=\\oint_{|z|=2}\\frac{(z^2-9z+8)e^z}{(z-1)^3}\\,dz$ 等于（ ），方向正向。 $-12\\pi e i$ $-6e$ $0$ $2\\pi e i$ 约去一个 $z-1$ 后用二阶导数公式，得 $-12\\pi e i$。",
+  "sort_order": 2
+}

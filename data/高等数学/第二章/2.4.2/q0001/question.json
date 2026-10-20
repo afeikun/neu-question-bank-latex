@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(t),t=\\varphi(x)$ 都可微，则 $dy=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$f\\prime(t)dx$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$f\\prime(t)\\varphi\\prime(x)dt$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$f\\prime(t)dt$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$\\varphi\\prime(x)dx$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$dy=f\\prime(t)dt=f\\prime(t)\\varphi\\prime(x)dx$。",
+  "search_text": "设 $y=f(t),t=\\varphi(x)$ 都可微，则 $dy=$（ ）。 $$f\\prime(t)dx$$ $$f\\prime(t)\\varphi\\prime(x)dt$$ $$f\\prime(t)dt$$ $$\\varphi\\prime(x)dx$$ $dy=f\\prime(t)dt=f\\prime(t)\\varphi\\prime(x)dx$。",
+  "sort_order": 1
+}

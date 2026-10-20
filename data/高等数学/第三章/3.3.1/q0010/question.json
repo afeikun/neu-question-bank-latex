@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}(1+\\sin^2 3x)^{1/\\ln\\cos x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^9$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-18}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{18}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-9}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "取对数，指数极限为 $-18$，故原极限为 $e^{-18}$。",
+  "search_text": "$\\lim_{x\\to0}(1+\\sin^2 3x)^{1/\\ln\\cos x}=(\\quad)$。 $e^9$ $e^{-18}$ $e^{18}$ $e^{-9}$ 取对数，指数极限为 $-18$，故原极限为 $e^{-18}$。",
+  "sort_order": 10
+}

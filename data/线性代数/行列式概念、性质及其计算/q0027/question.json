@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n$ 阶行列式 $D=\\begin{vmatrix}1&2&3&\\cdots&n\\\\-1&0&3&\\cdots&n\\\\-1&-2&0&\\cdots&n\\\\\\vdots&\\vdots&\\vdots&\\ddots&\\vdots\\\\-1&-2&-3&\\cdots&0\\end{vmatrix}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-1)^{n-1}(n-1)!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n!$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(n-1)!$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1)^n n!$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "按图示将第一行分别与其余各行相加，可化为上三角行列式，主对角线元素为 $1,2,3,\\ldots,n$，因此 $D=n!$。",
+  "search_text": "$n$ 阶行列式 $D=\\begin{vmatrix}1&2&3&\\cdots&n\\\\-1&0&3&\\cdots&n\\\\-1&-2&0&\\cdots&n\\\\\\vdots&\\vdots&\\vdots&\\ddots&\\vdots\\\\-1&-2&-3&\\cdots&0\\end{vmatrix}$ 的值为（ ）。 $(-1)^{n-1}(n-1)!$ $n!$ $(n-1)!$ $(-1)^n n!$ 按图示将第一行分别与其余各行相加，可化为上三角行列式，主对角线元素为 $1,2,3,\\ldots,n$，因此 $D=n!$。",
+  "sort_order": 27
+}

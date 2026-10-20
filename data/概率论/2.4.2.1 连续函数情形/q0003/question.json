@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim U(0,2)$，令$Y=X^2$，求$(0,4)$上的密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/(2\\sqrt y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4/\\sqrt y(0<y<1/4)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/\\sqrt y(0<y<1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(4\\sqrt y)(0<y<4)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f_X=1/2$且$x=\\sqrt y$，因此$f_Y(y)=\\frac1{4\\sqrt y},0<y<4$。",
+  "search_text": "$X\\sim U(0,2)$，令$Y=X^2$，求$(0,4)$上的密度。 $1/(2\\sqrt y)$ $4/\\sqrt y(0<y<1/4)$ $1/\\sqrt y(0<y<1)$ $1/(4\\sqrt y)(0<y<4)$ $f_X=1/2$且$x=\\sqrt y$，因此$f_Y(y)=\\frac1{4\\sqrt y},0<y<4$。",
+  "sort_order": 3
+}

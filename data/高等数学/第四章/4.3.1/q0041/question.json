@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "y=∫ₓ²ˣ³ x cos(πu²)du，求导数",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫ₓ²ˣ³cos(πu²)du+3x³cos(πx⁶)−2x²cos(πx⁴)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "x⁴cos(πx⁶)−x³cos(πx⁴)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3x³cos(πx⁶)−2x²cos(πx⁴)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "3x²cos(πx⁶)−2xcos(πx⁴)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "乘积法则和变限积分求导。",
+  "search_text": "y=∫ₓ²ˣ³ x cos(πu²)du，求导数 ∫ₓ²ˣ³cos(πu²)du+3x³cos(πx⁶)−2x²cos(πx⁴) x⁴cos(πx⁶)−x³cos(πx⁴) 3x³cos(πx⁶)−2x²cos(πx⁴) 3x²cos(πx⁶)−2xcos(πx⁴) 乘积法则和变限积分求导。",
+  "sort_order": 41
+}

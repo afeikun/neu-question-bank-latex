@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_i\\sim N(0,0.3^2)$，求$P(0.3325\\cdot0.3^2\\le\\frac1{10}\\sum(X_i-\\bar X)^2\\le1.6919\\cdot0.3^2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.90$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.10$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.05$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.95$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "中心化平方和除$\\sigma^2$服从$\\chi^2(9)$，概率$0.95-0.05=0.90$。",
+  "search_text": "$X_i\\sim N(0,0.3^2)$，求$P(0.3325\\cdot0.3^2\\le\\frac1{10}\\sum(X_i-\\bar X)^2\\le1.6919\\cdot0.3^2)$。 $0.90$ $0.10$ $0.05$ $0.95$ 中心化平方和除$\\sigma^2$服从$\\chi^2(9)$，概率$0.95-0.05=0.90$。",
+  "sort_order": 9
+}

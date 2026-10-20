@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=e^{x-y}\\left[x^{\\frac13}(y-1)^{\\frac13}+y^{\\frac13}(x-1)^{\\frac23}\\right]$，则在 $(0,1)$ 点处的两个偏导数 $f'_x(0,1)$ 和 $f'_y(0,1)$ 的情况为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f'_x(0,1)$ 不存在，$f'_y(0,1)=\\frac43e$;"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "两个偏导数均不存在;"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f'_x(0,1)=\\frac e3$，$f'_y(0,1)$ 不存在."
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f'_x(0,1)=\\frac1{3e},\\ f'_y(0,1)=-\\frac2{3e}$;"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "按照导数的定义，有\n\\[\nf'_x(0,1)=\\lim_{x\\to0}\\frac{f(x,1)-f(0,1)}{x}=\\lim_{x\\to0}\\frac{e^{x-1}(x-1)^{\\frac23}-e^{-1}}{x}=\\lim_{x\\to0}\\frac{e^{x-1}(x-1)^{\\frac23}+\\frac23e^{x-1}(x-1)^{-\\frac13}}{1}=\\frac1{3e}\n\\]\n\\[\nf'_y(0,1)=\\lim_{y\\to0}\\frac{f(0,y+1)-f(0,1)}{y}=\\lim_{y\\to0}\\frac{e^{-y-1}(y+1)^{\\frac13}-e^{-1}}{y}=\\lim_{y\\to0}\\frac{-e^{-y-1}(y+1)^{\\frac13}+\\frac13e^{-y-1}(y+1)^{-\\frac23}}{1}=-\\frac2{3e}\n\\]",
+  "search_text": "设 $f(x,y)=e^{x-y}\\left[x^{\\frac13}(y-1)^{\\frac13}+y^{\\frac13}(x-1)^{\\frac23}\\right]$，则在 $(0,1)$ 点处的两个偏导数 $f'_x(0,1)$ 和 $f'_y(0,1)$ 的情况为 $(\\quad)$。 $f'_x(0,1)$ 不存在，$f'_y(0,1)=\\frac43e$; 两个偏导数均不存在; $f'_x(0,1)=\\frac e3$，$f'_y(0,1)$ 不存在. $f'_x(0,1)=\\frac1{3e},\\ f'_y(0,1)=-\\frac2{3e}$; 按照导数的定义，有\n\\[\nf'_x(0,1)=\\lim_{x\\to0}\\frac{f(x,1)-f(0,1)}{x}=\\lim_{x\\to0}\\frac{e^{x-1}(x-1)^{\\frac23}-e^{-1}}{x}=\\lim_{x\\to0}\\frac{e^{x-1}(x-1)^{\\frac23}+\\frac23e^{x-1}(x-1)^{-\\frac13}}{1}=\\frac1{3e}\n\\]\n\\[\nf'_y(0,1)=\\lim_{y\\to0}\\frac{f(0,y+1)-f(0,1)}{y}=\\lim_{y\\to0}\\frac{e^{-y-1}(y+1)^{\\frac13}-e^{-1}}{y}=\\lim_{y\\to0}\\frac{-e^{-y-1}(y+1)^{\\frac13}+\\frac13e^{-y-1}(y+1)^{-\\frac23}}{1}=-\\frac2{3e}\n\\]",
+  "sort_order": 46
+}

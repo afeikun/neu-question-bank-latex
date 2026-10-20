@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int x\\cos x\\,dx$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x\\cos x+\\sin x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x(\\cos x+1)+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x\\sin x+\\cos x+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x(\\sin x+1)+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令$I=\\int x\\,d(\\sin x)=x\\sin x-\\int\\sin x\\,dx=x\\sin x+\\cos x+C$。",
+  "search_text": "不定积分 $\\int x\\cos x\\,dx$ 的值为（ ） $x\\cos x+\\sin x+C$ $x(\\cos x+1)+C$ $x\\sin x+\\cos x+C$ $x(\\sin x+1)+C$ 令$I=\\int x\\,d(\\sin x)=x\\sin x-\\int\\sin x\\,dx=x\\sin x+\\cos x+C$。",
+  "sort_order": 6
+}

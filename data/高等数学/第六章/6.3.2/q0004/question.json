@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过 $x$ 轴且与平面 $x+2y-z=0$ 的夹角为 $\\frac\\pi6$ 的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y+z=0$ 或 $7y+z=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y-z=0$ 或 $7y-z=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y-z=0$ 或 $y+7z=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y+z=0$ 或 $y-7z=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "过 $x$ 轴的平面为 $By+Cz=0$；由夹角公式解得 $B=-C$ 或 $B=-7C$，对应 $y-z=0$ 或 $7y-z=0$。",
+  "search_text": "过 $x$ 轴且与平面 $x+2y-z=0$ 的夹角为 $\\frac\\pi6$ 的平面方程为(\\quad)。 $y+z=0$ 或 $7y+z=0$ $y-z=0$ 或 $7y-z=0$ $y-z=0$ 或 $y+7z=0$ $y+z=0$ 或 $y-7z=0$ 过 $x$ 轴的平面为 $By+Cz=0$；由夹角公式解得 $B=-C$ 或 $B=-7C$，对应 $y-z=0$ 或 $7y-z=0$。",
+  "sort_order": 4
+}

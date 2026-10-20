@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{ch}(\\pi i)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\operatorname{ch}(\\pi i)=(e^{\\pi i}+e^{-\\pi i})/2=-1$。",
+  "search_text": "$\\operatorname{ch}(\\pi i)=(\\ )$。 $-1$ $1$ $i$ $-i$ $\\operatorname{ch}(\\pi i)=(e^{\\pi i}+e^{-\\pi i})/2=-1$。",
+  "sort_order": 15
+}

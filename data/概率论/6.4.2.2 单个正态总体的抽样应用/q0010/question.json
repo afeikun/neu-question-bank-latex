@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$N(\\mu,12)$总体抽取容量6样本，$\\tilde\\sigma^2=\\frac16\\sum(X_i-\\bar X)^2$，求$P(2.29<\\tilde\\sigma^2<22.14)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.90$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.85$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.95$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.975$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\tilde\\sigma^2/2$换算得$\\chi^2(5)$区间$(1.145,11.07)$，概率$0.90$。",
+  "search_text": "$N(\\mu,12)$总体抽取容量6样本，$\\tilde\\sigma^2=\\frac16\\sum(X_i-\\bar X)^2$，求$P(2.29<\\tilde\\sigma^2<22.14)$。 $0.90$ $0.85$ $0.95$ $0.975$ $\\tilde\\sigma^2/2$换算得$\\chi^2(5)$区间$(1.145,11.07)$，概率$0.90$。",
+  "sort_order": 10
+}

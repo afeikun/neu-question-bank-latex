@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z-i|=2$，方向为正向，则积分 $\\oint_C\\frac{\\cos(z-i)\\sin^2z}{(z-i)^2}\\,dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "content_md": "$2\\pi i\\sin(2i)$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "$2\\pi i\\cos(2i)$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$\\cos(2i)$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$\\frac{1}{2\\pi i}$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由一阶Cauchy导数公式，积分为 $2\\pi i f\\prime(i)=2\\pi i\\sin(2i)$。",
+  "search_text": "设 $C$ 为圆周 $|z-i|=2$，方向为正向，则积分 $\\oint_C\\frac{\\cos(z-i)\\sin^2z}{(z-i)^2}\\,dz$ 等于（ ）。 $2\\pi i\\sin(2i)$ $2\\pi i\\cos(2i)$ $\\cos(2i)$ $\\frac{1}{2\\pi i}$ 由一阶Cauchy导数公式，积分为 $2\\pi i f\\prime(i)=2\\pi i\\sin(2i)$。",
+  "sort_order": 79
+}

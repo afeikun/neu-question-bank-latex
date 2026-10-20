@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y^{\\prime\\prime\\prime}=e^{2x}-\\cos x$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac18e^{2x}-\\sin x+C_1x^2+C_2x+C_3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^{2x}-\\sin x+C_1x^2+C_2x+C_3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac18e^{2x}+\\sin x+C_1x^2+C_2x+C_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^{2x}+\\sin x+C_1x^2+C_2x+C_3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "积分三次得 $y^{\\prime\\prime}=e^{2x}/2-\\sin x+C_0$，$y^{\\prime}=e^{2x}/4+\\cos x+C_0x+C_2$，$y=e^{2x}/8+\\sin x+C_1x^2+C_2x+C_3$，其中 $C_1=C_0/2$，选第三项。",
+  "search_text": "$y^{\\prime\\prime\\prime}=e^{2x}-\\cos x$ 的通解为（ ） $y=\\frac18e^{2x}-\\sin x+C_1x^2+C_2x+C_3$ $y=e^{2x}-\\sin x+C_1x^2+C_2x+C_3$ $y=\\frac18e^{2x}+\\sin x+C_1x^2+C_2x+C_3$ $y=e^{2x}+\\sin x+C_1x^2+C_2x+C_3$ 积分三次得 $y^{\\prime\\prime}=e^{2x}/2-\\sin x+C_0$，$y^{\\prime}=e^{2x}/4+\\cos x+C_0x+C_2$，$y=e^{2x}/8+\\sin x+C_1x^2+C_2x+C_3$，其中 $C_1=C_0/2$，选第三项。",
+  "sort_order": 22
+}

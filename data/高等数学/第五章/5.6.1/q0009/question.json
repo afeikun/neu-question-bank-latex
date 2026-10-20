@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期4的偶延拓函数，求余弦级数和 $S(15/4)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1/16$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1/4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "周期性及偶性给出 $S(15/4)=S(1/4)=1/16$。",
+  "search_text": "周期4的偶延拓函数，求余弦级数和 $S(15/4)$。 $-1/16$ $-1/4$ $1/4$ $1/16$ 周期性及偶性给出 $S(15/4)=S(1/4)=1/16$。",
+  "sort_order": 9
+}

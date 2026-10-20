@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x(4y dx+2xdy)+y^3(3y dx+5xdy)$ 的积分因子是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$xy^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2y^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2y$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$P,Q$ 为多项式，设积分因子形式为 $\\mu=x^m y^n$，于是方程乘积分因子后变为\n\n$$\n(4x^{m+1}y^{n+1}+3x^m y^{n+4})\\,dx+(2x^{m+2}y^n+5x^{m+1}y^{n+3})\\,dy=0,\n$$\n\n方程为恰当方程的充要条件为\n\n$$\n4(n+1)x^{m+1}y^n+3(n+4)x^m y^{n+3}=2(m+2)x^{m+1}y^n+5(m+1)x^m y^{n+3},\n$$\n\n对比系数可得 $4n-2m=0,3n-5m+7=0,$\n\n即解为 $m=2,n=1,$",
+  "search_text": "$x(4y dx+2xdy)+y^3(3y dx+5xdy)$ 的积分因子是（ ） $xy^2$ $x^2y^2$ $x^2y$ $xy$ $P,Q$ 为多项式，设积分因子形式为 $\\mu=x^m y^n$，于是方程乘积分因子后变为\n\n$$\n(4x^{m+1}y^{n+1}+3x^m y^{n+4})\\,dx+(2x^{m+2}y^n+5x^{m+1}y^{n+3})\\,dy=0,\n$$\n\n方程为恰当方程的充要条件为\n\n$$\n4(n+1)x^{m+1}y^n+3(n+4)x^m y^{n+3}=2(m+2)x^{m+1}y^n+5(m+1)x^m y^{n+3},\n$$\n\n对比系数可得 $4n-2m=0,3n-5m+7=0,$\n\n即解为 $m=2,n=1,$",
+  "sort_order": 27
+}

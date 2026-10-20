@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=f(-x)$为偶密度，分布函数$F(x)$，问下列说法错误的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(|X|\\le a)=2F(a)-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(a)=\\int_{-a}^{\\infty}f(x)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(|X|>a)=2-2F(a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(-a)=1-\\int_0^a f(x)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "偶密度下四式均可由对称性推出；图示此题标为“错误的是”，按题源相应选项保留并标记该题答案存在题源歧义。",
+  "search_text": "$f(x)=f(-x)$为偶密度，分布函数$F(x)$，问下列说法错误的是（ ）。 $P(|X|\\le a)=2F(a)-1$ $F(a)=\\int_{-a}^{\\infty}f(x)dx$ $P(|X|>a)=2-2F(a)$ $F(-a)=1-\\int_0^a f(x)dx$ 偶密度下四式均可由对称性推出；图示此题标为“错误的是”，按题源相应选项保留并标记该题答案存在题源歧义。",
+  "sort_order": 22
+}

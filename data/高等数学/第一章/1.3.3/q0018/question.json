@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0^+$ 时，下列变量中，为无穷大的是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sin x}{\\sqrt{x}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arctan\\frac1x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\operatorname{arccot}\\frac1x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "当 $x\\to0^+$，$\\ln x\\to-\\infty$；其他选项均有限或趋于零。",
+  "search_text": "当 $x\\to0^+$ 时，下列变量中，为无穷大的是（ ）。 $\\frac{\\sin x}{\\sqrt{x}}$ $\\arctan\\frac1x$ $\\operatorname{arccot}\\frac1x$ $\\ln x$ 当 $x\\to0^+$，$\\ln x\\to-\\infty$；其他选项均有限或趋于零。",
+  "sort_order": 18
+}

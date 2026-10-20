@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线r²=4cos2θ围成图形面积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "π"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "π²"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "8"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "对称分区积分得4。",
+  "search_text": "曲线r²=4cos2θ围成图形面积 π π² 8 4 对称分区积分得4。",
+  "sort_order": 20
+}

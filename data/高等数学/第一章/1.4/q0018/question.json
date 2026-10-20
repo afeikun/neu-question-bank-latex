@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在数列 $\\{a_n\\}$ 中，$a_n=4n-\\frac52$，$a_1+a_2+\\cdots+a_n=an^2+bn$，其中 $a,b$ 为常数。则 $\\lim_{n\\to\\infty}\\frac{a^n-b^n}{a^n+b^n}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "-1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由等差数列求和得 $a=2,b=-\\frac12$，故极限 $=1$。",
+  "search_text": "在数列 $\\{a_n\\}$ 中，$a_n=4n-\\frac52$，$a_1+a_2+\\cdots+a_n=an^2+bn$，其中 $a,b$ 为常数。则 $\\lim_{n\\to\\infty}\\frac{a^n-b^n}{a^n+b^n}$ 的值为（ ）。 1 不存在 -1 0 由等差数列求和得 $a=2,b=-\\frac12$，故极限 $=1$。",
+  "sort_order": 18
+}

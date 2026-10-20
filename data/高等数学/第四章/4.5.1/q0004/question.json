@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设f可导，为使∫₁^∞f′(1−x)dx收敛，应要求lim_{x→?}f(x)存在，括号中应为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "x→−∞"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "x→0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "x→1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "x→+∞"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "换元u=1−x后积分端点趋于−∞，需lim_{u→−∞}f(u)存在。",
+  "search_text": "设f可导，为使∫₁^∞f′(1−x)dx收敛，应要求lim_{x→?}f(x)存在，括号中应为 x→−∞ x→0 x→1 x→+∞ 换元u=1−x后积分端点趋于−∞，需lim_{u→−∞}f(u)存在。",
+  "sort_order": 4
+}

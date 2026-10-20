@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是柱面 $x^2+y^2=1$ 介于 $2\\le z\\le4$ 间部分，它的法向量指向 $z$ 轴，则曲面积分 $2\\iint_\\Sigma\\sqrt{x^2+y^2+z^2}dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 因 $\\Sigma$ 在 $xoy$ 平面上的投影 $D_{xy}=0$，故曲面积分等于零。",
+  "search_text": "已知 $\\Sigma$ 是柱面 $x^2+y^2=1$ 介于 $2\\le z\\le4$ 间部分，它的法向量指向 $z$ 轴，则曲面积分 $2\\iint_\\Sigma\\sqrt{x^2+y^2+z^2}dxdy=$（ ） $\\frac32$ $1$ $5$ $0$ 解答 因 $\\Sigma$ 在 $xoy$ 平面上的投影 $D_{xy}=0$，故曲面积分等于零。",
+  "sort_order": 15
+}

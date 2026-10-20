@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过两点 $M(2,-1,0)$，$N(0,0,1)$ 且平行于 $y$ 轴的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x-2=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+z=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-z-1=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+z-1=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "设方程 $Ax+Cz+D=0$，代入两点得 $x+z-1=0$。",
+  "search_text": "过两点 $M(2,-1,0)$，$N(0,0,1)$ 且平行于 $y$ 轴的平面方程为(\\quad)。 $x-2=0$ $x+z=0$ $x-z-1=0$ $x+z-1=0$ 设方程 $Ax+Cz+D=0$，代入两点得 $x+z-1=0$。",
+  "sort_order": 69
+}

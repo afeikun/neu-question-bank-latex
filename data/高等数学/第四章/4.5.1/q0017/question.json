@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "广义积分I=∫₀^∞(arctan(αx))/x^λ dx收敛的必要条件是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "λ≤2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "α>0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "λ≥1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "λ>1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "在无穷远处被积函数与x⁻λ同阶，必要条件为λ>1。",
+  "search_text": "广义积分I=∫₀^∞(arctan(αx))/x^λ dx收敛的必要条件是 λ≤2 α>0 λ≥1 λ>1 在无穷远处被积函数与x⁻λ同阶，必要条件为λ>1。",
+  "sort_order": 17
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\iiint_\\Omega(x^2+3y^2)dv=\\iiint_\\Omega(3xy-\\frac12x^2)dv-(\\quad)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iiint_\\Omega(3xy+x^2-3y^2)dv$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iiint_\\Omega(3xy-\\frac32x^2-3y^2)dv$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iiint_\\Omega(xy-\\frac12x^2-\\frac32y^2)dv$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iiint_\\Omega(3xy+2y^2)dv$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $\\iiint_\\Omega f(x,y)dv$，则有\n\\[\nx^2+3y^2=3xy-\\frac{1}{2}x^2-f(x,y)\n\\]\n解得 $f(x,y)=3xy-\\frac{3}{2}x^2-3y^2$。",
+  "search_text": "$\\iiint_\\Omega(x^2+3y^2)dv=\\iiint_\\Omega(3xy-\\frac12x^2)dv-(\\quad)$ $\\iiint_\\Omega(3xy+x^2-3y^2)dv$ $\\iiint_\\Omega(3xy-\\frac32x^2-3y^2)dv$ $\\iiint_\\Omega(xy-\\frac12x^2-\\frac32y^2)dv$ $\\iiint_\\Omega(3xy+2y^2)dv$ 设 $\\iiint_\\Omega f(x,y)dv$，则有\n\\[\nx^2+3y^2=3xy-\\frac{1}{2}x^2-f(x,y)\n\\]\n解得 $f(x,y)=3xy-\\frac{3}{2}x^2-3y^2$。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$I=\\oint_{|z|=2}\\frac{z^2\\cos z}{z-i}\\,dz=(\\quad)$（正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2\\pi i\\cosh1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i\\cosh1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=i$ 在圆内，$I=2\\pi i(i^2\\cos i)=-2\\pi i\\cosh1$。",
+  "search_text": "$I=\\oint_{|z|=2}\\frac{z^2\\cos z}{z-i}\\,dz=(\\quad)$（正向）。 $-2\\pi i\\cosh1$ $2\\pi i$ $2\\pi i\\cosh1$ $0$ $z=i$ 在圆内，$I=2\\pi i(i^2\\cos i)=-2\\pi i\\cosh1$。",
+  "sort_order": 116
+}

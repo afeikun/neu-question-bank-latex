@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $L$ 是顶点 $(0,0),(2,0),(0,2)$ 所围正方形区域的正向边界，计算 $\\oint_L(x^2-xy^3)\\,dx+(y^2-2xy)\\,dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$P=x^2-xy^3,\\quad P'_y=-3xy^2\\in C(D);\\quad Q=y^2-2xy,\\quad Q'_x=-2y\\in C(D)$$\n\n$D$ 是正方形，它分四段光滑。故题设积分满足格林公式的条件，如图\n\n图示：坐标轴为 $x$ 轴向右、$y$ 轴向上；区域 $D$ 为 $0\\le x\\le2,\\ 0\\le y\\le2$ 的正方形，标有 $O$、顶点 $(2,2)$ 及轴上的刻度 $2$。边界箭头依次沿下边向右、右边向上、上边向左、左边向下。\n\n所以，原式\n\n$$=\\iint_D(-2y+3xy^2)dxdy$$\n\n$$=\\int_0^2dx\\int_0^2(3xy^2-2y)dy=\\int_0^2(xy^3-y^2)|_0^2dx$$\n\n$$=\\int_0^2(8x-4)dx=(4x^2-4x)|_0^2=8$$",
+  "search_text": "已知 $L$ 是顶点 $(0,0),(2,0),(0,2)$ 所围正方形区域的正向边界，计算 $\\oint_L(x^2-xy^3)\\,dx+(y^2-2xy)\\,dy=$（ ） $9$ $5$ $3$ $8$ $$P=x^2-xy^3,\\quad P'_y=-3xy^2\\in C(D);\\quad Q=y^2-2xy,\\quad Q'_x=-2y\\in C(D)$$\n\n$D$ 是正方形，它分四段光滑。故题设积分满足格林公式的条件，如图\n\n图示：坐标轴为 $x$ 轴向右、$y$ 轴向上；区域 $D$ 为 $0\\le x\\le2,\\ 0\\le y\\le2$ 的正方形，标有 $O$、顶点 $(2,2)$ 及轴上的刻度 $2$。边界箭头依次沿下边向右、右边向上、上边向左、左边向下。\n\n所以，原式\n\n$$=\\iint_D(-2y+3xy^2)dxdy$$\n\n$$=\\int_0^2dx\\int_0^2(3xy^2-2y)dy=\\int_0^2(xy^3-y^2)|_0^2dx$$\n\n$$=\\int_0^2(8x-4)dx=(4x^2-4x)|_0^2=8$$",
+  "sort_order": 41
+}

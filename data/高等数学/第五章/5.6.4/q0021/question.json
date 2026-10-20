@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "分段函数 $f(x)=x$（$0\\le x<\\pi/2$），$2x$（$\\pi/2\\le x<\\pi$）作奇延拓，求 $S(3\\pi/2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-3\\pi/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-3\\pi/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "周期性和奇性给 $S(3\\pi/2)=-3\\pi/4$。",
+  "search_text": "分段函数 $f(x)=x$（$0\\le x<\\pi/2$），$2x$（$\\pi/2\\le x<\\pi$）作奇延拓，求 $S(3\\pi/2)$。 $3\\pi/2$ $-3\\pi/2$ $3\\pi/4$ $-3\\pi/4$ 周期性和奇性给 $S(3\\pi/2)=-3\\pi/4$。",
+  "sort_order": 21
+}

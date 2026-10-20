@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "无限循环小数 $0.9$ 的值（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "无限接近于 1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "小于 1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不确定"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "等于 1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "无限循环小数 $0.999\\ldots=1$。",
+  "search_text": "无限循环小数 $0.9$ 的值（ ）。 无限接近于 1 小于 1 不确定 等于 1 无限循环小数 $0.999\\ldots=1$。",
+  "sort_order": 8
+}

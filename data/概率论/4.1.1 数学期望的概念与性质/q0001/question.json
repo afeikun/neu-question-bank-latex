@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列离散分布中，数学期望不存在的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\xi=3^k/k)=2/3^k,k=1,2,\\ldots$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "泊松分布$P(\\xi=k)=\\lambda^ke^{-\\lambda}/k!$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(\\xi=k)=2^{-k},k=1,2,\\ldots$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "伯努利分布"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一项期望级数为$\\sum_k(3^k/k)(2/3^k)=\\sum_k2/k$，发散。",
+  "search_text": "下列离散分布中，数学期望不存在的是（）。 $P(\\xi=3^k/k)=2/3^k,k=1,2,\\ldots$ 泊松分布$P(\\xi=k)=\\lambda^ke^{-\\lambda}/k!$ $P(\\xi=k)=2^{-k},k=1,2,\\ldots$ 伯努利分布 第一项期望级数为$\\sum_k(3^k/k)(2/3^k)=\\sum_k2/k$，发散。",
+  "sort_order": 1
+}

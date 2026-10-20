@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=x+iy$，由不等式 $|x|<|y|<1$ 在 $z$ 平面上所确定的点集是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "开集，非区域"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "多连通区域"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单连通区域"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "闭区域"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "该点集是正方形内两条对角线之间的上下两部分，不连通。",
+  "search_text": "设 $z=x+iy$，由不等式 $|x|<|y|<1$ 在 $z$ 平面上所确定的点集是（ ）。 开集，非区域 多连通区域 单连通区域 闭区域 该点集是正方形内两条对角线之间的上下两部分，不连通。",
+  "sort_order": 24
+}

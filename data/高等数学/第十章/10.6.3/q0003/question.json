@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $2y\\prime\\prime+5y\\prime=5x^2-2x-1$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1+C_2e^{-5x/2}+\\frac13x^3-\\frac35x^2+\\frac7{25}x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1+C_2e^{-5x/2}+\\frac13x^3-\\frac25x^2+\\frac7{25}x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1+C_2e^{-5x/2}+\\frac13x^3-\\frac35x^2+\\frac7{25}x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1+C_2e^{-5x/2}+\\frac15x^3-\\frac35x^2+\\frac7{25}x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n由 $2r^2+5r=0$，解得 $r_1=0,r_2=-5/2$，故对应的齐次方程的通解为 $Y=C_1+C_2e^{-\\frac{5}{2}x}$ 因 $f'(x)=5x^2-2x-1,\\lambda=0$ 是特征方程的单根，故设 $y^*=x(b_0x^2+b_1x+b_2)$ 是原方程的一个特解，代入方程并整理，得 $15b_0x^2+(12b_0+10b_1)x+4b_1+5b_2=5x^2-2x-1$，比较系数得 $b_0=1/3,b_1=-3/5,b_2=7/25$，即 $y^*=\\frac{1}{3}x^3-\\frac{3}{5}x^2+\\frac{7}{25}x$ 故原方程的通解为\n\n$y=Y+y^*=C_1+C_2e^{-\\frac{5}{2}x}+\\frac{1}{3}x^3-\\frac{3}{5}x^2+\\frac{7}{25}x$",
+  "search_text": "解方程 $2y\\prime\\prime+5y\\prime=5x^2-2x-1$（ ） $y=C_1+C_2e^{-5x/2}+\\frac13x^3-\\frac35x^2+\\frac7{25}x$ $y=C_1+C_2e^{-5x/2}+\\frac13x^3-\\frac25x^2+\\frac7{25}x$ $y=C_1+C_2e^{-5x/2}+\\frac13x^3-\\frac35x^2+\\frac7{25}x$ $y=C_1+C_2e^{-5x/2}+\\frac15x^3-\\frac35x^2+\\frac7{25}x$ 解析：\n\n由 $2r^2+5r=0$，解得 $r_1=0,r_2=-5/2$，故对应的齐次方程的通解为 $Y=C_1+C_2e^{-\\frac{5}{2}x}$ 因 $f'(x)=5x^2-2x-1,\\lambda=0$ 是特征方程的单根，故设 $y^*=x(b_0x^2+b_1x+b_2)$ 是原方程的一个特解，代入方程并整理，得 $15b_0x^2+(12b_0+10b_1)x+4b_1+5b_2=5x^2-2x-1$，比较系数得 $b_0=1/3,b_1=-3/5,b_2=7/25$，即 $y^*=\\frac{1}{3}x^3-\\frac{3}{5}x^2+\\frac{7}{25}x$ 故原方程的通解为\n\n$y=Y+y^*=C_1+C_2e^{-\\frac{5}{2}x}+\\frac{1}{3}x^3-\\frac{3}{5}x^2+\\frac{7}{25}x$",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $|\\vec m|=2$，$|\\vec n|=1$，且其夹角为 $\\theta=\\frac\\pi2$，又 $\\vec a=4\\vec m-\\vec n$，$\\vec b=\\vec m+2\\vec n$，$\\vec c=2\\vec m-3\\vec n$，则 $\\vec a\\cdot\\vec a+3\\vec a\\cdot\\vec b-2\\vec b\\cdot\\vec c+1=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$104$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$105$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$102$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$103$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用 $\\vec m\\cdot\\vec n=0$、$|m|^2=4$、$|n|^2=1$ 展开各点积，得所求为 $104$。",
+  "search_text": "已知 $|\\vec m|=2$，$|\\vec n|=1$，且其夹角为 $\\theta=\\frac\\pi2$，又 $\\vec a=4\\vec m-\\vec n$，$\\vec b=\\vec m+2\\vec n$，$\\vec c=2\\vec m-3\\vec n$，则 $\\vec a\\cdot\\vec a+3\\vec a\\cdot\\vec b-2\\vec b\\cdot\\vec c+1=(\\quad)$。 $104$ $105$ $102$ $103$ 利用 $\\vec m\\cdot\\vec n=0$、$|m|^2=4$、$|n|^2=1$ 展开各点积，得所求为 $104$。",
+  "sort_order": 38
+}

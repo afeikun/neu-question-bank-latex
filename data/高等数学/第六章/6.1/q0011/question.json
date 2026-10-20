@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\vec a,\\vec b,\\vec c$ 为单位向量，且满足 $\\vec a+\\vec b+\\vec c=\\vec0$，求 $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac32$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由 $\\vec a+\\vec b=-\\vec c$ 得 $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a=-|\\vec c|^2=-1$。循环同理的三个等式相加，得所求和为 $-\\frac32$。",
+  "search_text": "已知 $\\vec a,\\vec b,\\vec c$ 为单位向量，且满足 $\\vec a+\\vec b+\\vec c=\\vec0$，求 $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a=(\\quad)$。 $\\frac32$ $\\frac12$ $-\\frac32$ $-\\frac12$ 由 $\\vec a+\\vec b=-\\vec c$ 得 $\\vec a\\cdot\\vec b+\\vec b\\cdot\\vec c+\\vec c\\cdot\\vec a=-|\\vec c|^2=-1$。循环同理的三个等式相加，得所求和为 $-\\frac32$。",
+  "sort_order": 11
+}

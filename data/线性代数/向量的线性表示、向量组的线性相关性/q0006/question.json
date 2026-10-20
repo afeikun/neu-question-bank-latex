@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 是四维向量，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 一定线性相关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 一定线性无关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\alpha_1$ 一定可以由 $\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 线性表示"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\alpha_5$ 一定可以由 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 线性表示"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在四维空间中，任意五个向量必线性相关，因此选项 $1$ 正确。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 是四维向量，则（ ）。 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 一定线性相关 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 一定线性无关 $\\alpha_1$ 一定可以由 $\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 线性表示 $\\alpha_5$ 一定可以由 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 线性表示 在四维空间中，任意五个向量必线性相关，因此选项 $1$ 正确。",
+  "sort_order": 6
+}

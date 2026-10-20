@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "指出下列命题中正确者。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若级数发散，则通项极限非零"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若通项趋于0，则级数收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若级数收敛，则通项趋于0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若相邻项差趋于0，则级数收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "级数收敛的必要条件是通项趋于0。",
+  "search_text": "指出下列命题中正确者。 若级数发散，则通项极限非零 若通项趋于0，则级数收敛 若级数收敛，则通项趋于0 若相邻项差趋于0，则级数收敛 级数收敛的必要条件是通项趋于0。",
+  "sort_order": 24
+}

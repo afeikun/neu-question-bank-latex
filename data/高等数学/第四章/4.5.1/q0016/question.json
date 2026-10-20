@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列广义积分中收敛的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫ₑ^∞dx/(x√ln x)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫ₑ^∞dx/(x ln x)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫ₑ^∞dx/[x(ln x)²]"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫ₑ^∞(ln x)/x dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "第三个换元u=ln x后为∫₁^∞u⁻²du，收敛。",
+  "search_text": "下列广义积分中收敛的是 ∫ₑ^∞dx/(x√ln x) ∫ₑ^∞dx/(x ln x) ∫ₑ^∞dx/[x(ln x)²] ∫ₑ^∞(ln x)/x dx 第三个换元u=ln x后为∫₁^∞u⁻²du，收敛。",
+  "sort_order": 16
+}

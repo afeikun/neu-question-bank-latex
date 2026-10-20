@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Sigma$ 为锥面 $x^2+y^2=z^2\\ (0\\le z\\le h)$ 的外侧，$\\cos\\alpha,\\cos\\beta,\\cos\\gamma$ 为此曲面外法向量的方向余弦，则 $\\iint_\\Sigma(x^2\\cos\\alpha+y^2\\cos\\beta+z^2\\cos\\gamma)dS=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac12\\pi h^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12\\pi h^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi h^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2\\pi h^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "补充平面 $\\Sigma_1:z=h\\ (x^2+y^2\\le h^2)$，取 $\\Sigma_1$ 的上侧，则 $\\Sigma+\\Sigma_1$ 构成封闭曲面，设其所围成空间区域为 $\\Omega$。\n\n于是\n\n$$\\oiint_{\\Sigma+\\Sigma_1}(x^2\\cos\\alpha+y^2\\cos\\beta+z^2\\cos\\gamma)dS$$\n\n$$=2\\iiint_{\\Omega}(x+y+z)dv$$\n\n$$=2\\iint_D dxdy\\int_{\\sqrt{x^2+y^2}}^h zdz=\\iint_D(h^2-x^2-y^2)dxdy=\\int_0^{2\\pi}d\\theta\\int_0^h(h^2-r^2)rdr=\\frac{1}{2}\\pi h^4$$\n\n图示标注：$z$ 轴向上，$x$ 轴向右，$y$ 轴斜向左下；顶面椭圆标为 $\\Sigma_1$，锥面标为 $\\Sigma$，顶面高度标为 $h$，底部投影标为 $D_{xy}$。\n\n而\n\n$$\\iint_{\\Sigma_1}(x^2\\cos\\alpha+y^2\\cos\\beta+z^2\\cos\\gamma)dS=\\iint_{\\Sigma_1}z^2dxdy=\\iint_D h^2dxdy=\\pi h^4$$\n\n故\n\n$$\\iint_{\\Sigma}(x^2\\cos\\alpha+y^2\\cos\\beta+z^2\\cos\\gamma)dS=\\frac{1}{2}\\pi h^4-\\pi h^4=-\\frac{1}{2}\\pi h^4$$",
+  "search_text": "$\\Sigma$ 为锥面 $x^2+y^2=z^2\\ (0\\le z\\le h)$ 的外侧，$\\cos\\alpha,\\cos\\beta,\\cos\\gamma$ 为此曲面外法向量的方向余弦，则 $\\iint_\\Sigma(x^2\\cos\\alpha+y^2\\cos\\beta+z^2\\cos\\gamma)dS=$（ ） $-\\frac12\\pi h^4$ $\\frac12\\pi h^4$ $\\pi h^4$ $-2\\pi h^4$ 补充平面 $\\Sigma_1:z=h\\ (x^2+y^2\\le h^2)$，取 $\\Sigma_1$ 的上侧，则 $\\Sigma+\\Sigma_1$ 构成封闭曲面，设其所围成空间区域为 $\\Omega$。\n\n于是\n\n$$\\oiint_{\\Sigma+\\Sigma_1}(x^2\\cos\\alpha+y^2\\cos\\beta+z^2\\cos\\gamma)dS$$\n\n$$=2\\iiint_{\\Omega}(x+y+z)dv$$\n\n$$=2\\iint_D dxdy\\int_{\\sqrt{x^2+y^2}}^h zdz=\\iint_D(h^2-x^2-y^2)dxdy=\\int_0^{2\\pi}d\\theta\\int_0^h(h^2-r^2)rdr=\\frac{1}{2}\\pi h^4$$\n\n图示标注：$z$ 轴向上，$x$ 轴向右，$y$ 轴斜向左下；顶面椭圆标为 $\\Sigma_1$，锥面标为 $\\Sigma$，顶面高度标为 $h$，底部投影标为 $D_{xy}$。\n\n而\n\n$$\\iint_{\\Sigma_1}(x^2\\cos\\alpha+y^2\\cos\\beta+z^2\\cos\\gamma)dS=\\iint_{\\Sigma_1}z^2dxdy=\\iint_D h^2dxdy=\\pi h^4$$\n\n故\n\n$$\\iint_{\\Sigma}(x^2\\cos\\alpha+y^2\\cos\\beta+z^2\\cos\\gamma)dS=\\frac{1}{2}\\pi h^4-\\pi h^4=-\\frac{1}{2}\\pi h^4$$",
+  "sort_order": 4
+}

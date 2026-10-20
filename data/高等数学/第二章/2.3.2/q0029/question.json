@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=3x^3+x^2|x|$，使 $f^{(n)}(0)$ 存在的最高阶数 $n$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$4$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$1$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$2$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$3$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$x^2|x|$ 二階导数连续但三阶导数在零点不存在，故 $n=2$。",
+  "search_text": "$f(x)=3x^3+x^2|x|$，使 $f^{(n)}(0)$ 存在的最高阶数 $n$ 等于（ ）。 $$4$$ $$1$$ $$2$$ $$3$$ $x^2|x|$ 二階导数连续但三阶导数在零点不存在，故 $n=2$。",
+  "sort_order": 29
+}

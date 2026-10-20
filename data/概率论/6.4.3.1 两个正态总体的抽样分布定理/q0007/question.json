@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(20,3)$，样本量10和15，求$P(|\\bar X-\\bar Y|>0.3)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.6744$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.6533$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.6727$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.7832$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\bar X-\\bar Y$方差$3/10+3/15=0.5$，标准化边界$0.3/\\sqrt{0.5}$，概率约0.6744。",
+  "search_text": "$X\\sim N(20,3)$，样本量10和15，求$P(|\\bar X-\\bar Y|>0.3)$。 $0.6744$ $0.6533$ $0.6727$ $0.7832$ $\\bar X-\\bar Y$方差$3/10+3/15=0.5$，标准化边界$0.3/\\sqrt{0.5}$，概率约0.6744。",
+  "sort_order": 7
+}

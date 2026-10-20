@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "甲盒中有2个白球和3个黑球，乙盒中有3个白球和2个黑球，各从每盒中取2球，发现它们是同一颜色的，则该颜色是黑色的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两盒同为白球或同为黑球的概率分别为$\\binom32/\\binom52\\cdot\\binom32/\\binom52$与$\\binom32/\\binom52\\cdot\\binom22/\\binom52$，在同色条件下黑色概率为$1/2$。",
+  "search_text": "甲盒中有2个白球和3个黑球，乙盒中有3个白球和2个黑球，各从每盒中取2球，发现它们是同一颜色的，则该颜色是黑色的概率为（ ）。 $1/2$ $1/3$ $1/4$ $1/5$ 两盒同为白球或同为黑球的概率分别为$\\binom32/\\binom52\\cdot\\binom32/\\binom52$与$\\binom32/\\binom52\\cdot\\binom22/\\binom52$，在同色条件下黑色概率为$1/2$。",
+  "sort_order": 18
+}

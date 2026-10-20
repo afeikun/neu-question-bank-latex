@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "非零向量 $\\vec a,\\vec b$ 的数量积 $\\vec a\\cdot\\vec b$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\vec a\\,\\operatorname{Prj}_{\\vec a}\\vec a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|\\vec a|\\,\\operatorname{Prj}_{\\vec b}\\vec a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|\\vec a|\\,\\operatorname{Prj}_{\\vec a}\\vec b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|\\vec b|\\,\\operatorname{Prj}_{\\vec b}\\vec b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由数量积和投影的定义，$\\vec a\\cdot\\vec b=|\\vec a|\\operatorname{Prj}_{\\vec a}\\vec b=|\\vec b|\\operatorname{Prj}_{\\vec b}\\vec a$。",
+  "search_text": "非零向量 $\\vec a,\\vec b$ 的数量积 $\\vec a\\cdot\\vec b$ 为(\\quad)。 $\\vec a\\,\\operatorname{Prj}_{\\vec a}\\vec a$ $|\\vec a|\\,\\operatorname{Prj}_{\\vec b}\\vec a$ $|\\vec a|\\,\\operatorname{Prj}_{\\vec a}\\vec b$ $|\\vec b|\\,\\operatorname{Prj}_{\\vec b}\\vec b$ 由数量积和投影的定义，$\\vec a\\cdot\\vec b=|\\vec a|\\operatorname{Prj}_{\\vec a}\\vec b=|\\vec b|\\operatorname{Prj}_{\\vec b}\\vec a$。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}a_{11}&a_{12}&a_{13}\\\\a_{21}&a_{22}&a_{23}\\\\a_{31}&a_{32}&a_{33}\\end{pmatrix}$，$B=\\begin{pmatrix}a_{11}&-3a_{12}&a_{11}+a_{13}\\\\a_{21}&-3a_{22}&a_{21}+a_{23}\\\\a_{31}&-3a_{32}&a_{31}+a_{33}\\end{pmatrix}$，且 $|A|=2$，则 $(A^*B)^{-1}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\begin{pmatrix}1&0&-1\\\\0&-\\frac13&0\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12\\begin{pmatrix}1&0&-1\\\\0&-\\frac13&0\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\begin{pmatrix}1&0&-1\\\\0&-3&0\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12\\begin{pmatrix}1&0&-1\\\\0&-3&0\\\\0&0&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $B=AP_1P_2$，其中 $P_1=\\begin{pmatrix}1&0&0\\\\0&-3&0\\\\0&0&1\\end{pmatrix}$，$P_2=\\begin{pmatrix}1&0&1\\\\0&1&0\\\\0&0&1\\end{pmatrix}$，所以 $A^*B=A^*AP_1P_2=|A|P_1P_2=2P_1P_2$。因此 $(A^*B)^{-1}=\\frac12P_2^{-1}P_1^{-1}=\\frac12\\begin{pmatrix}1&0&-1\\\\0&-\\frac13&0\\\\0&0&1\\end{pmatrix}$。",
+  "search_text": "设 $A=\\begin{pmatrix}a_{11}&a_{12}&a_{13}\\\\a_{21}&a_{22}&a_{23}\\\\a_{31}&a_{32}&a_{33}\\end{pmatrix}$，$B=\\begin{pmatrix}a_{11}&-3a_{12}&a_{11}+a_{13}\\\\a_{21}&-3a_{22}&a_{21}+a_{23}\\\\a_{31}&-3a_{32}&a_{31}+a_{33}\\end{pmatrix}$，且 $|A|=2$，则 $(A^*B)^{-1}=$（ ）。 $2\\begin{pmatrix}1&0&-1\\\\0&-\\frac13&0\\\\0&0&1\\end{pmatrix}$ $\\frac12\\begin{pmatrix}1&0&-1\\\\0&-\\frac13&0\\\\0&0&1\\end{pmatrix}$ $2\\begin{pmatrix}1&0&-1\\\\0&-3&0\\\\0&0&1\\end{pmatrix}$ $\\frac12\\begin{pmatrix}1&0&-1\\\\0&-3&0\\\\0&0&1\\end{pmatrix}$ 由 $B=AP_1P_2$，其中 $P_1=\\begin{pmatrix}1&0&0\\\\0&-3&0\\\\0&0&1\\end{pmatrix}$，$P_2=\\begin{pmatrix}1&0&1\\\\0&1&0\\\\0&0&1\\end{pmatrix}$，所以 $A^*B=A^*AP_1P_2=|A|P_1P_2=2P_1P_2$。因此 $(A^*B)^{-1}=\\frac12P_2^{-1}P_1^{-1}=\\frac12\\begin{pmatrix}1&0&-1\\\\0&-\\frac13&0\\\\0&0&1\\end{pmatrix}$。",
+  "sort_order": 30
+}

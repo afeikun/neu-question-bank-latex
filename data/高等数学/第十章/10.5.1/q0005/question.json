@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\frac{d^2y}{dx^2}=\\cos x+\\sin x$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\cos x-\\sin x+C_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=-\\cos x+\\sin x+C_1x+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\cos x+\\sin x+C_1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=-\\cos x-\\sin x+C_1x+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "积分一次得 $y^{\\prime}=\\sin x-\\cos x+C_1$，再积分得 $y=-\\cos x-\\sin x+C_1x+C_2$，选第四项。",
+  "search_text": "微分方程 $\\frac{d^2y}{dx^2}=\\cos x+\\sin x$ 的通解是（ ） $y=\\cos x-\\sin x+C_1$ $y=-\\cos x+\\sin x+C_1x+C_2$ $y=\\cos x+\\sin x+C_1$ $y=-\\cos x-\\sin x+C_1x+C_2$ 积分一次得 $y^{\\prime}=\\sin x-\\cos x+C_1$，再积分得 $y=-\\cos x-\\sin x+C_1x+C_2$，选第四项。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\varphi(x,y)=e^{-(x+y)}$于$x,y\\ge0$，求$P((\\xi,\\eta)\\in G)$，$G:x>0,y>0,x+y<1$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-e^{-1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2/e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-e^{-2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-2/e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\int_0^1\\int_0^{1-y}e^{-(x+y)}dxdy=1-2/e$。",
+  "search_text": "$\\varphi(x,y)=e^{-(x+y)}$于$x,y\\ge0$，求$P((\\xi,\\eta)\\in G)$，$G:x>0,y>0,x+y<1$。 $1-e^{-1}$ $2/e$ $1-e^{-2}$ $1-2/e$ $\\int_0^1\\int_0^{1-y}e^{-(x+y)}dxdy=1-2/e$。",
+  "sort_order": 1
+}

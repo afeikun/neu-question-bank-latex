@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $F_u(2,-6)=4,F_v(2,-6)=2$，曲面 $F(x+y+z,xyz)=0$ 在 $(3,-2,1)$ 处切平面方程为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5y-4z-14=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$5y-4z+7=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5y-4z+14=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5y-4z-7=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由点 $(3,-2,1)$ 在曲面 $F(x+y+z,xyz)=0$ 上，则 $F(2,-6)=0$，曲面在点 $(3,-2,1)$ 处的偏导数为：\n\n$$\\frac{\\partial F}{\\partial x}=\\frac{\\partial F}{\\partial u}\\frac{\\partial u}{\\partial x}+\\frac{\\partial F}{\\partial v}\\frac{\\partial v}{\\partial x}=4\\cdot1+2\\cdot(-2)\\cdot1=0，\\quad \\frac{\\partial F}{\\partial y}=\\frac{\\partial F}{\\partial u}\\frac{\\partial u}{\\partial y}+\\frac{\\partial F}{\\partial v}\\frac{\\partial v}{\\partial y}=10，\\quad \\frac{\\partial F}{\\partial z}=\\frac{\\partial F}{\\partial u}\\frac{\\partial u}{\\partial z}+\\frac{\\partial F}{\\partial v}\\frac{\\partial v}{\\partial z}=-8，$$\n\n则曲面的切平面为：$10(y+2)-8(z-1)=0$，即：$5y-4z+14=0$。",
+  "search_text": "设 $F_u(2,-6)=4,F_v(2,-6)=2$，曲面 $F(x+y+z,xyz)=0$ 在 $(3,-2,1)$ 处切平面方程为。 $5y-4z-14=0$ $5y-4z+7=0$ $5y-4z+14=0$ $5y-4z-7=0$ 由点 $(3,-2,1)$ 在曲面 $F(x+y+z,xyz)=0$ 上，则 $F(2,-6)=0$，曲面在点 $(3,-2,1)$ 处的偏导数为：\n\n$$\\frac{\\partial F}{\\partial x}=\\frac{\\partial F}{\\partial u}\\frac{\\partial u}{\\partial x}+\\frac{\\partial F}{\\partial v}\\frac{\\partial v}{\\partial x}=4\\cdot1+2\\cdot(-2)\\cdot1=0，\\quad \\frac{\\partial F}{\\partial y}=\\frac{\\partial F}{\\partial u}\\frac{\\partial u}{\\partial y}+\\frac{\\partial F}{\\partial v}\\frac{\\partial v}{\\partial y}=10，\\quad \\frac{\\partial F}{\\partial z}=\\frac{\\partial F}{\\partial u}\\frac{\\partial u}{\\partial z}+\\frac{\\partial F}{\\partial v}\\frac{\\partial v}{\\partial z}=-8，$$\n\n则曲面的切平面为：$10(y+2)-8(z-1)=0$，即：$5y-4z+14=0$。",
+  "sort_order": 36
+}

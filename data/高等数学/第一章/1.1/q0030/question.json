@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f:\\mathbb R\\to\\mathbb R$ 严增，$f^{-1}$ 是其反函数，$x_1$ 是 $f(x)+x=a$ 的根，$x_2$ 是 $f^{-1}(x)+x=a$ 的根，则 $x_1+x_2$ 的值为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "无法计算"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $f(x_1)+x_1=a$ 且 $f^{-1}(f(x_1))=x_1$，可知 $f(x_1)$ 满足第二个方程，因此 $x_2=f(x_1)$，故 $x_1+x_2=a$。",
+  "search_text": "设 $f:\\mathbb R\\to\\mathbb R$ 严增，$f^{-1}$ 是其反函数，$x_1$ 是 $f(x)+x=a$ 的根，$x_2$ 是 $f^{-1}(x)+x=a$ 的根，则 $x_1+x_2$ 的值为（ ）。 $0$ $a$ 无法计算 $2a$ 由 $f(x_1)+x_1=a$ 且 $f^{-1}(f(x_1))=x_1$，可知 $f(x_1)$ 满足第二个方程，因此 $x_2=f(x_1)$，故 $x_1+x_2=a$。",
+  "sort_order": 30
+}

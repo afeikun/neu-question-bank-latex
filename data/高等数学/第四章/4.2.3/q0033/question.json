@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f在[a,b]连续且单调递增，则",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫xf=(b−a)/2∫f"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫xf=(a+b)/2∫f"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫xf=(b−a)∫f"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫xf≥(a+b)/2∫f"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "单调性给出∫(x−(a+b)/2)f(x)dx≥0。",
+  "search_text": "f在[a,b]连续且单调递增，则 ∫xf=(b−a)/2∫f ∫xf=(a+b)/2∫f ∫xf=(b−a)∫f ∫xf≥(a+b)/2∫f 单调性给出∫(x−(a+b)/2)f(x)dx≥0。",
+  "sort_order": 33
+}

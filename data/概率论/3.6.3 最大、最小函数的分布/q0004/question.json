@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "系统 $L$ 由相互独立的两个子系统 $L_1,L_2$ 串联而成，其寿命 $X,Y$ 的密度分别为 $\\varphi_1(x)=\\alpha e^{-\\alpha x}$（$x>0$，否则为0）、$\\varphi_2(y)=\\beta e^{-\\beta y}$（$y>0$，否则为0），其中 $\\alpha>0,\\beta>0,\\alpha\\ne\\beta$。系统 $L$ 的寿命 $Z$ 的密度为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}(\\alpha+\\beta)e^{-(\\alpha-\\beta)z},&z>0,\\\\0,&z\\le0\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}(\\alpha+\\beta)e^{-(\\alpha+\\beta)z},&z>0,\\\\0,&z\\le0\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}(\\alpha-\\beta)e^{-(\\alpha+\\beta)z},&z>0,\\\\0,&z\\le0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}(\\alpha-\\beta)e^{-(\\alpha-\\beta)z},&z>0,\\\\0,&z\\le0\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "串联系统寿命 $Z=\\min(X,Y)$。对 $z>0$，$P(Z>z)=P(X>z)P(Y>z)=e^{-(\\alpha+\\beta)z}$，故密度为 $(\\alpha+\\beta)e^{-(\\alpha+\\beta)z}$；$z\\le0$ 时为0，选第二项。",
+  "search_text": "系统 $L$ 由相互独立的两个子系统 $L_1,L_2$ 串联而成，其寿命 $X,Y$ 的密度分别为 $\\varphi_1(x)=\\alpha e^{-\\alpha x}$（$x>0$，否则为0）、$\\varphi_2(y)=\\beta e^{-\\beta y}$（$y>0$，否则为0），其中 $\\alpha>0,\\beta>0,\\alpha\\ne\\beta$。系统 $L$ 的寿命 $Z$ 的密度为（ ）。 $\\begin{cases}(\\alpha+\\beta)e^{-(\\alpha-\\beta)z},&z>0,\\\\0,&z\\le0\\end{cases}$ $\\begin{cases}(\\alpha+\\beta)e^{-(\\alpha+\\beta)z},&z>0,\\\\0,&z\\le0\\end{cases}$ $\\begin{cases}(\\alpha-\\beta)e^{-(\\alpha+\\beta)z},&z>0,\\\\0,&z\\le0\\end{cases}$ $\\begin{cases}(\\alpha-\\beta)e^{-(\\alpha-\\beta)z},&z>0,\\\\0,&z\\le0\\end{cases}$ 串联系统寿命 $Z=\\min(X,Y)$。对 $z>0$，$P(Z>z)=P(X>z)P(Y>z)=e^{-(\\alpha+\\beta)z}$，故密度为 $(\\alpha+\\beta)e^{-(\\alpha+\\beta)z}$；$z\\le0$ 时为0，选第二项。",
+  "sort_order": 4
+}

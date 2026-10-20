@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $x\\frac{d^2y}{dx^2}+\\frac{dy}{dx}=0$ 的通解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1x^3\\ln|x|+C_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1\\ln|x|+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1x^2\\ln|x|+C_2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1x\\ln|x|+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：令 $p=y'$，$y''=p'$，原方程化为 $xp'+p=0$，即 $\\frac{dp}{p}=-\\frac{dx}{x}$，积分得 $\\ln p=-\\ln x+\\ln C_1$，即得 $p=\\frac{C_1}{x}$，\n\n又由 $p=y'$ 得 $y'=\\frac{C_1}{x}$，从而 $y=C_1\\ln|x|+C_2$，即原方程的通解为 $y=C_1\\ln|x|+C_2$。",
+  "search_text": "方程 $x\\frac{d^2y}{dx^2}+\\frac{dy}{dx}=0$ 的通解是（ ） $y=C_1x^3\\ln|x|+C_2$ $y=C_1\\ln|x|+C_2$ $y=C_1x^2\\ln|x|+C_2$ $y=C_1x\\ln|x|+C_2$ 解析：令 $p=y'$，$y''=p'$，原方程化为 $xp'+p=0$，即 $\\frac{dp}{p}=-\\frac{dx}{x}$，积分得 $\\ln p=-\\ln x+\\ln C_1$，即得 $p=\\frac{C_1}{x}$，\n\n又由 $p=y'$ 得 $y'=\\frac{C_1}{x}$，从而 $y=C_1\\ln|x|+C_2$，即原方程的通解为 $y=C_1\\ln|x|+C_2$。",
+  "sort_order": 29
+}

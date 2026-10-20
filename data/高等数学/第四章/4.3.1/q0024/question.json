@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f(x)>0连续，F(x)=∫ₐˣf(t)dt+∫ₓᵇ1/f(t)dt，关于F(x)的正确叙述",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "4个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "按导数F′=f−1/f判断所列性质。",
+  "search_text": "f(x)>0连续，F(x)=∫ₐˣf(t)dt+∫ₓᵇ1/f(t)dt，关于F(x)的正确叙述 2个 1个 3个 4个 按导数F′=f−1/f判断所列性质。",
+  "sort_order": 24
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $|x|$ 与正数 $a$ 比较是小的多时，用微分法可得 $\\sqrt[n]{a^n+x}$ 的近似公式 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a+\\frac{x}{na}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a+\\frac{x}{na^{n-1}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a+\\frac{|x|}{na^{n-1}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a-\\frac{x}{na}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\sqrt[n]{a^n+x}=a(1+\\frac{x}{a^n})^{1/n}\\approx a(1+\\frac{x}{na^n})=a+\\frac{x}{na^{n-1}}$。",
+  "search_text": "设 $|x|$ 与正数 $a$ 比较是小的多时，用微分法可得 $\\sqrt[n]{a^n+x}$ 的近似公式 $(\\quad)$。 $a+\\frac{x}{na}$ $a+\\frac{x}{na^{n-1}}$ $a+\\frac{|x|}{na^{n-1}}$ $a-\\frac{x}{na}$ $\\sqrt[n]{a^n+x}=a(1+\\frac{x}{a^n})^{1/n}\\approx a(1+\\frac{x}{na^n})=a+\\frac{x}{na^{n-1}}$。",
+  "sort_order": 3
+}

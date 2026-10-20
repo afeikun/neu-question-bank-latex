@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体$N(\\mu,\\sigma^2)$，$\\mu,\\sigma^2$未知，求$\\sigma^2$极大似然估计。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n^{-1}\\sum(X_i-\\bar X)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(n-1)^{-1}\\sum(X_i-\\mu)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$n^{-1}\\sum X_i^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(n-1)^{-1}\\sum(X_i-\\bar X)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正态总体方差MLE为以$n$为分母的样本中心二阶矩。",
+  "search_text": "正态总体$N(\\mu,\\sigma^2)$，$\\mu,\\sigma^2$未知，求$\\sigma^2$极大似然估计。 $n^{-1}\\sum(X_i-\\bar X)^2$ $(n-1)^{-1}\\sum(X_i-\\mu)^2$ $n^{-1}\\sum X_i^2$ $(n-1)^{-1}\\sum(X_i-\\bar X)^2$ 正态总体方差MLE为以$n$为分母的样本中心二阶矩。",
+  "sort_order": 13
+}

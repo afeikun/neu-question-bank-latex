@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\dfrac{z^3+6\\sin z}{z^4}$，则 $\\operatorname{Res}[f(z),0]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac56$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "展开 $\\sin z$ 可见 $z^3+6\\sin z=6z+z^3-z^5+\\cdots$。除以 $z^4$ 后无 $z^{-1}$ 项，留数为 $0$。",
+  "search_text": "设 $f(z)=\\dfrac{z^3+6\\sin z}{z^4}$，则 $\\operatorname{Res}[f(z),0]=(\\ \\ )$。 $0$ $1$ $2$ $\\dfrac56$ 展开 $\\sin z$ 可见 $z^3+6\\sin z=6z+z^3-z^5+\\cdots$。除以 $z^4$ 后无 $z^{-1}$ 项，留数为 $0$。",
+  "sort_order": 16
+}

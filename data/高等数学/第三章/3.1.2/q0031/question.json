@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列表达式中不是常数的为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\arccos x+\\arccos(3x-4x^3)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arctan x+\\operatorname{arccot}x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\arcsin x+\\arccos x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3\\arccos x-\\arccos(3x-4x^3)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原题解析指出只有 $3\\arccos x+\\arccos(3x-4x^3)$ 的导数不为 $0$，因此该式不是常数。",
+  "search_text": "下列表达式中不是常数的为 $(\\quad)$。 $3\\arccos x+\\arccos(3x-4x^3)$ $\\arctan x+\\operatorname{arccot}x$ $\\arcsin x+\\arccos x$ $3\\arccos x-\\arccos(3x-4x^3)$ 原题解析指出只有 $3\\arccos x+\\arccos(3x-4x^3)$ 的导数不为 $0$，因此该式不是常数。",
+  "sort_order": 31
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 均为 $n$ 阶可逆矩阵，则 $\\left|-2\\begin{pmatrix}A^T&0\\\\0&B^{-1}\\end{pmatrix}\\right|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2|A||B^{-1}|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-2)^{2n}|A||B^{-1}|$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-2)^n|A||B^{-1}|$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2|A^T||B|$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "因 $A,B$ 都是 $n$ 阶可逆阵，所以 $\\left|-2\\begin{pmatrix}A^T&0\\\\0&B^{-1}\\end{pmatrix}\\right|=(-2)^{2n}\\left|\\begin{pmatrix}A^T&0\\\\0&B^{-1}\\end{pmatrix}\\right|=(-2)^{2n}|A^T||B^{-1}|=(-2)^{2n}|A||B|^{-1}$。",
+  "search_text": "设 $A,B$ 均为 $n$ 阶可逆矩阵，则 $\\left|-2\\begin{pmatrix}A^T&0\\\\0&B^{-1}\\end{pmatrix}\\right|=$（ ）。 $-2|A||B^{-1}|$ $(-2)^{2n}|A||B^{-1}|$ $(-2)^n|A||B^{-1}|$ $-2|A^T||B|$ 因 $A,B$ 都是 $n$ 阶可逆阵，所以 $\\left|-2\\begin{pmatrix}A^T&0\\\\0&B^{-1}\\end{pmatrix}\\right|=(-2)^{2n}\\left|\\begin{pmatrix}A^T&0\\\\0&B^{-1}\\end{pmatrix}\\right|=(-2)^{2n}|A^T||B^{-1}|=(-2)^{2n}|A||B|^{-1}$。",
+  "sort_order": 53
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "物体以速度 $v=3t^2+2t$（m/s）作直线运动，计算它在 $t=0$ 到 $t=3s$ 这段时间内的平均速度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$36$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$27$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "平均速度为位移除以时间，$\\frac13\\int_0^3(3t^2+2t)dt=12$。",
+  "search_text": "物体以速度 $v=3t^2+2t$（m/s）作直线运动，计算它在 $t=0$ 到 $t=3s$ 这段时间内的平均速度。 $36$ $9$ $27$ $12$ 平均速度为位移除以时间，$\\frac13\\int_0^3(3t^2+2t)dt=12$。",
+  "sort_order": 2
+}

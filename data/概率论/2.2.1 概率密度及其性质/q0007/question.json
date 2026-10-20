@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\varphi(x)=\\cos x$（$x\\in G$），其余为0，成为概率密度的区间$G$为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[-\\pi/2,\\pi/2]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[0,\\pi/2]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\pi/2,\\pi)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[\\pi,2\\pi]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "需$\\cos x\\ge0$且积分为1，区间$[0,\\pi/2]$满足$\\int_0^{\\pi/2}\\cos xdx=1$。",
+  "search_text": "$\\varphi(x)=\\cos x$（$x\\in G$），其余为0，成为概率密度的区间$G$为（ ）。 $[-\\pi/2,\\pi/2]$ $[0,\\pi/2]$ $(\\pi/2,\\pi)$ $[\\pi,2\\pi]$ 需$\\cos x\\ge0$且积分为1，区间$[0,\\pi/2]$满足$\\int_0^{\\pi/2}\\cos xdx=1$。",
+  "sort_order": 7
+}

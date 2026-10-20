@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2,x_3)=(\\lambda-1)x_1^2+\\lambda x_2^2+(\\lambda+1)x_3^2$ 正定，则 $\\lambda$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lambda>1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lambda\\ge1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lambda>0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda>-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "二次型矩阵为对角矩阵，正定的充要条件为 $\\lambda-1>0$、$\\lambda>0$、$\\lambda+1>0$，所以 $\\lambda>1$。",
+  "search_text": "二次型 $f(x_1,x_2,x_3)=(\\lambda-1)x_1^2+\\lambda x_2^2+(\\lambda+1)x_3^2$ 正定，则 $\\lambda$ 的值为（ ）。 $\\lambda>1$ $\\lambda\\ge1$ $\\lambda>0$ $\\lambda>-1$ 二次型矩阵为对角矩阵，正定的充要条件为 $\\lambda-1>0$、$\\lambda>0$、$\\lambda+1>0$，所以 $\\lambda>1$。",
+  "sort_order": 39
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量 $\\vec a,\\vec b,\\vec c$ 具有相等的模，并且两两所成的角相等，若 $\\vec a=(1,1,0)$，$\\vec b=(0,1,1)$，则 $\\vec c$ 可以取(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\frac13,\\frac43,\\frac13)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,1,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac13,-\\frac43,\\frac13)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1,0,1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $\\vec c=(x,y,z)$，由模相等及点积相等列方程可得候选解；符合等模、等夹角条件的选项为 $(1,0,1)$。",
+  "search_text": "设向量 $\\vec a,\\vec b,\\vec c$ 具有相等的模，并且两两所成的角相等，若 $\\vec a=(1,1,0)$，$\\vec b=(0,1,1)$，则 $\\vec c$ 可以取(\\quad)。 $(\\frac13,\\frac43,\\frac13)$ $(0,1,1)$ $(\\frac13,-\\frac43,\\frac13)$ $(1,0,1)$ 令 $\\vec c=(x,y,z)$，由模相等及点积相等列方程可得候选解；符合等模、等夹角条件的选项为 $(1,0,1)$。",
+  "sort_order": 19
+}

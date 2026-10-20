@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X,Y$独立，$f_X(x)=1$于$[0,1]$，$f_Y(y)=e^{-y}$于$y>0$，$Z=X+Y$，求密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$((e-1)e^{-z},z\\ge1;1-e^{-z},0\\le z<1;0,z<0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$((e+1)e^{-z},z\\ge1;1+e^{-z},0\\le z<1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(e^{-z},z\\ge1;1-e^{-z},0\\le z<1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(e^{1-z},z\\ge1;1-e^{-z},0\\le z<1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "卷积得$1-e^{-z}$于$0\\le z<1$，$(e-1)e^{-z}$于$z\\ge1$。",
+  "search_text": "$X,Y$独立，$f_X(x)=1$于$[0,1]$，$f_Y(y)=e^{-y}$于$y>0$，$Z=X+Y$，求密度。 $((e-1)e^{-z},z\\ge1;1-e^{-z},0\\le z<1;0,z<0)$ $((e+1)e^{-z},z\\ge1;1+e^{-z},0\\le z<1)$ $(e^{-z},z\\ge1;1-e^{-z},0\\le z<1)$ $(e^{1-z},z\\ge1;1-e^{-z},0\\le z<1)$ 卷积得$1-e^{-z}$于$0\\le z<1$，$(e-1)e^{-z}$于$z\\ge1$。",
+  "sort_order": 13
+}

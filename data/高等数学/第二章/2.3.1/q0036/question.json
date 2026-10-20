@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=x+\\ln x(x>0)$ 的反函数的二阶导数等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2x/(1+x)^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x/(1+x)^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x/(1+x)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-x/(1+x)^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "反函数二阶导数为 $x/(1+x)^3$。",
+  "search_text": "函数 $f(x)=x+\\ln x(x>0)$ 的反函数的二阶导数等于（ ）。 $2x/(1+x)^3$ $x/(1+x)^3$ $x/(1+x)^2$ $-x/(1+x)^3$ 反函数二阶导数为 $x/(1+x)^3$。",
+  "sort_order": 36
+}

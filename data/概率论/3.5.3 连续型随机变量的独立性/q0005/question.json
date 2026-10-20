@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\xi,\\eta$ 相互独立，分布函数分别为 $F_\\xi(x)=\\begin{cases}1-e^{-x^2},&x\\ge0,\\\\0,&x<0\\end{cases}$、$F_\\eta(y)=\\begin{cases}1-e^{-2y^2},&y\\ge0,\\\\0,&y<0\\end{cases}$，则其联合分布函数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}1-e^{-x^2}-e^{-2y^2},&x\\ge0,y\\ge0,\\\\0,&\\text{其它}\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2},&x\\ge0,y\\ge0,\\\\0,&\\text{其它}\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}1-e^{-x^2}+e^{-2y^2}-e^{-x^2-2y^2},&x\\ge0,y\\ge0,\\\\0,&\\text{其它}\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "独立性给 $F(x,y)=F_\\xi(x)F_\\eta(y)$。在非负象限相乘并展开，支持范围外为0，对应第三项。",
+  "search_text": "设 $\\xi,\\eta$ 相互独立，分布函数分别为 $F_\\xi(x)=\\begin{cases}1-e^{-x^2},&x\\ge0,\\\\0,&x<0\\end{cases}$、$F_\\eta(y)=\\begin{cases}1-e^{-2y^2},&y\\ge0,\\\\0,&y<0\\end{cases}$，则其联合分布函数为（ ）。 $\\begin{cases}1-e^{-x^2}-e^{-2y^2},&x\\ge0,y\\ge0,\\\\0,&\\text{其它}\\end{cases}$ $1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2}$ $\\begin{cases}1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2},&x\\ge0,y\\ge0,\\\\0,&\\text{其它}\\end{cases}$ $\\begin{cases}1-e^{-x^2}+e^{-2y^2}-e^{-x^2-2y^2},&x\\ge0,y\\ge0,\\\\0,&\\text{其它}\\end{cases}$ 独立性给 $F(x,y)=F_\\xi(x)F_\\eta(y)$。在非负象限相乘并展开，支持范围外为0，对应第三项。",
+  "sort_order": 5
+}

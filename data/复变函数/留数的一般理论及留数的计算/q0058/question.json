@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为正向圆周 $|z|=2$，则 $\\displaystyle\\oint_C\\left(\\dfrac1{\\sin z}-\\dfrac1{\\cos z}\\right)dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内极点为 $z=0,\\pi/2,-\\pi/2$，计算三处留数之和为 $1$，故积分为 $2\\pi i$。",
+  "search_text": "设 $C$ 为正向圆周 $|z|=2$，则 $\\displaystyle\\oint_C\\left(\\dfrac1{\\sin z}-\\dfrac1{\\cos z}\\right)dz=(\\ \\ )$。 $2\\pi i$ $4\\pi i$ $-2\\pi i$ $6\\pi i$ 圆内极点为 $z=0,\\pi/2,-\\pi/2$，计算三处留数之和为 $1$，故积分为 $2\\pi i$。",
+  "sort_order": 58
+}

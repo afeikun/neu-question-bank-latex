@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "命中率0.001，射击5000次，命中数不大于5的概率约为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.4587$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.4874$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.4413$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "近似$N(5,4.995)$，$P(0\\le Y\\le5)\\approx\\Phi(0)-\\Phi(-2.24)=0.4874$。",
+  "search_text": "命中率0.001，射击5000次，命中数不大于5的概率约为（）。 $0.4587$ $0.4874$ $0.4413$ $0.5$ 近似$N(5,4.995)$，$P(0\\le Y\\le5)\\approx\\Phi(0)-\\Phi(-2.24)=0.4874$。",
+  "sort_order": 11
+}

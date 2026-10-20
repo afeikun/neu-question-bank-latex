@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $\\frac12(e^x-e^{-x})$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{k=0}^{\\infty} x^{2k}/(2k)!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{k=0}^{\\infty} x^{2k+1}/(2k+1)!$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{k=0}^{\\infty} x^{2k-1}/(2k+1)!$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{k=0}^{\\infty} x^{2k-1}/(2k)!$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\sinh x=\\frac12(e^x-e^{-x})=\\sum_{k=0}^{\\infty}\\frac{x^{2k+1}}{(2k+1)!}$，适用于所有实数 $x$。求和指标必须与通项一致为 $k$，第二项正确。",
+  "search_text": "将 $\\frac12(e^x-e^{-x})$ 展开成 $x$ 的幂级数。 $\\sum_{k=0}^{\\infty} x^{2k}/(2k)!$ $\\sum_{k=0}^{\\infty} x^{2k+1}/(2k+1)!$ $\\sum_{k=0}^{\\infty} x^{2k-1}/(2k+1)!$ $\\sum_{k=0}^{\\infty} x^{2k-1}/(2k)!$ $\\sinh x=\\frac12(e^x-e^{-x})=\\sum_{k=0}^{\\infty}\\frac{x^{2k+1}}{(2k+1)!}$，适用于所有实数 $x$。求和指标必须与通项一致为 $k$，第二项正确。",
+  "sort_order": 8
+}

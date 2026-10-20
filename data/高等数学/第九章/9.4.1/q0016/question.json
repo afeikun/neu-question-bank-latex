@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a$ 为正数，则计算 $\\oiint_\\Sigma xy^2dydz+yz^2dzdx+zx^2dxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac35\\pi a^5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac25\\pi a^5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac45\\pi a^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac65\\pi a^5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 围成球体 $\\Omega$，用高斯公式\n\n$$\\oiint_\\Sigma xy^2dydz+yz^2dzdx+zx^2dxdy=\\iiint_\\Omega(y^2+z^2+x^2)dv$$\n\n$$=\\int_0^{2\\pi}d\\theta\\int_0^\\pi\\sin\\varphi\\,d\\varphi\\int_0^a r^4dr=2\\pi\\cdot2\\cdot\\frac{a^5}{5}=\\frac{4}{5}\\pi a^5$$",
+  "search_text": "已知 $\\Sigma$ 是球面 $x^2+y^2+z^2=a^2$ 的外侧，$a$ 为正数，则计算 $\\oiint_\\Sigma xy^2dydz+yz^2dzdx+zx^2dxdy=$（ ） $\\frac35\\pi a^5$ $\\frac25\\pi a^5$ $\\frac45\\pi a^5$ $\\frac65\\pi a^5$ 解答 $\\Sigma$ 围成球体 $\\Omega$，用高斯公式\n\n$$\\oiint_\\Sigma xy^2dydz+yz^2dzdx+zx^2dxdy=\\iiint_\\Omega(y^2+z^2+x^2)dv$$\n\n$$=\\int_0^{2\\pi}d\\theta\\int_0^\\pi\\sin\\varphi\\,d\\varphi\\int_0^a r^4dr=2\\pi\\cdot2\\cdot\\frac{a^5}{5}=\\frac{4}{5}\\pi a^5$$",
+  "sort_order": 16
+}

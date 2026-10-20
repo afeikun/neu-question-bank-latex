@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f_X(x)=2x$于$(0,1)$，求$P(|X-E(X)|\\ge2\\sqrt{D(X)})$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(6-4\\sqrt2)/9$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(9-8\\sqrt2)/9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(6+4\\sqrt2)/9$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(9+8\\sqrt2)/9$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(X)=2/3,D(X)=1/18$，积分补集得$(6-4\\sqrt2)/9$。",
+  "search_text": "$f_X(x)=2x$于$(0,1)$，求$P(|X-E(X)|\\ge2\\sqrt{D(X)})$。 $(6-4\\sqrt2)/9$ $(9-8\\sqrt2)/9$ $(6+4\\sqrt2)/9$ $(9+8\\sqrt2)/9$ $E(X)=2/3,D(X)=1/18$，积分补集得$(6-4\\sqrt2)/9$。",
+  "sort_order": 4
+}

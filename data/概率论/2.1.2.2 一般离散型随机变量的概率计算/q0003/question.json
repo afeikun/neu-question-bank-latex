@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(\\xi=k)=(k+1)/20$，$k=1,2,3,4,5$，求$P(1<\\xi\\le4)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2/5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3/5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$P(1<\\xi\\le4)=P(2)+P(3)+P(4)=(3+4+5)/20=3/5$。",
+  "search_text": "$P(\\xi=k)=(k+1)/20$，$k=1,2,3,4,5$，求$P(1<\\xi\\le4)$。 $3/4$ $2/5$ $1/2$ $3/5$ $P(1<\\xi\\le4)=P(2)+P(3)+P(4)=(3+4+5)/20=3/5$。",
+  "sort_order": 3
+}

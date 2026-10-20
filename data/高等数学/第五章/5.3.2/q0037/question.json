@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在下列四个级数中，条件收敛的是哪些？ (1) $\\sum_{n=1}^{\\infty}(-1)^{n-1}\\ln(n+1)/n$；(2) $\\sum_{n=1}^{\\infty}(-1)^{n-1}n/2^n$；(3) $\\sum_{n=2}^\\infty(-1)^{n-1}/(\\sqrt n-(-1)^n)$；(4) $\\sum_{n=1}^\\infty\\sin(n\\pi+1/\\sqrt n)$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1),(2)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(2),(3)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1),(4)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(3),(4)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "(1)及(4)交错收敛但不绝对收敛；(2)绝对收敛，(3)发散。",
+  "search_text": "在下列四个级数中，条件收敛的是哪些？ (1) $\\sum_{n=1}^{\\infty}(-1)^{n-1}\\ln(n+1)/n$；(2) $\\sum_{n=1}^{\\infty}(-1)^{n-1}n/2^n$；(3) $\\sum_{n=2}^\\infty(-1)^{n-1}/(\\sqrt n-(-1)^n)$；(4) $\\sum_{n=1}^\\infty\\sin(n\\pi+1/\\sqrt n)$ (1),(2) (2),(3) (1),(4) (3),(4) (1)及(4)交错收敛但不绝对收敛；(2)绝对收敛，(3)发散。",
+  "sort_order": 37
+}

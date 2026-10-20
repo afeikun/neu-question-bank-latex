@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正椭圆锥高h，底边界x²/a²+y²/b²=1，求体积的积分表达式",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₀ʰπab(1+2z/h)²dz"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₀ʰπab(1−z/h)²dz"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₀ʰπab(1−2z/h)²dz"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₀ʰπab(1+z/h)²dz"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "高度z处截面椭圆面积为πab(1−z/h)²，故体积为第二项。",
+  "search_text": "正椭圆锥高h，底边界x²/a²+y²/b²=1，求体积的积分表达式 ∫₀ʰπab(1+2z/h)²dz ∫₀ʰπab(1−z/h)²dz ∫₀ʰπab(1−2z/h)²dz ∫₀ʰπab(1+z/h)²dz 高度z处截面椭圆面积为πab(1−z/h)²，故体积为第二项。",
+  "sort_order": 5
+}

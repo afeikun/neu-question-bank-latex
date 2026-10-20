@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{e^x-e^{-x}}{x(1-x^2)}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$e^x-e^{-x}\\sim2x$，故极限为 2。",
+  "search_text": "$\\lim_{x\\to0}\\frac{e^x-e^{-x}}{x(1-x^2)}$ 的值为（ ）。 1 2 3 0 $e^x-e^{-x}\\sim2x$，故极限为 2。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "长边为 $a$、短边为 $b$ 的矩形薄板与液面成 $\\alpha$ 角斜沉于液体内，长边平行液面且位于深 $h$ 处，液体比重为 $\\rho$，求每面压力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\rho abg(2h+b\\sin\\alpha)/4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\rho abg(2h+b\\sin\\alpha)/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\rho abg(2h+b\\sin\\alpha)/3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\rho abg(2h+b\\sin\\alpha)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$P=\\int_0^b\\rho ag(h+x\\sin\\alpha)dx=\\frac12\\rho abg(2h+b\\sin\\alpha)$。",
+  "search_text": "长边为 $a$、短边为 $b$ 的矩形薄板与液面成 $\\alpha$ 角斜沉于液体内，长边平行液面且位于深 $h$ 处，液体比重为 $\\rho$，求每面压力。 $\\rho abg(2h+b\\sin\\alpha)/4$ $\\rho abg(2h+b\\sin\\alpha)/2$ $\\rho abg(2h+b\\sin\\alpha)/3$ $\\rho abg(2h+b\\sin\\alpha)$ $P=\\int_0^b\\rho ag(h+x\\sin\\alpha)dx=\\frac12\\rho abg(2h+b\\sin\\alpha)$。",
+  "sort_order": 9
+}

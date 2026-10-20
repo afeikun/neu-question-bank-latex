@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体样本，$S^2=\\frac1n\\sum(X_i-\\bar X)^2$，求$(\\bar X-\\mu)/(S/\\sqrt{n-1})$分布。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t(n-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$N(0,1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\chi^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将分母换算为残差卡方除以$n-1$的平方根，所得统计量服从$t(n-1)$。",
+  "search_text": "正态总体样本，$S^2=\\frac1n\\sum(X_i-\\bar X)^2$，求$(\\bar X-\\mu)/(S/\\sqrt{n-1})$分布。 $t(n-1)$ $N(0,1)$ $\\chi^2$ $F$ 将分母换算为残差卡方除以$n-1$的平方根，所得统计量服从$t(n-1)$。",
+  "sort_order": 9
+}

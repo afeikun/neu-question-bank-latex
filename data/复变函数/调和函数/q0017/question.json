@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $v=e^{-x}\\sin y$ 为解析函数 $f(z)$ 的虚部，则 $f(z)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-e^{-z}+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{2z}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^z+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2e^z+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f\\prime(z)=v_y+iv_x=e^{-x}\\cos y-ie^{-x}\\sin y=e^{-z}$，故 $f(z)=-e^{-z}+C$。",
+  "search_text": "设 $v=e^{-x}\\sin y$ 为解析函数 $f(z)$ 的虚部，则 $f(z)=(\\quad)$。 $-e^{-z}+C$ $e^{2z}+C$ $e^z+C$ $2e^z+C$ $f\\prime(z)=v_y+iv_x=e^{-x}\\cos y-ie^{-x}\\sin y=e^{-z}$，故 $f(z)=-e^{-z}+C$。",
+  "sort_order": 17
+}

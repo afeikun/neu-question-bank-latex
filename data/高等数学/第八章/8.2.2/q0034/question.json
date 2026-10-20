@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由锥面 $z=\\frac hr\\sqrt{x^2+y^2}$ 与平面 $z=h$ 所围闭区域，则 $\\iiint_\\Omega zdv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{16}\\pi r^2h^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac18\\pi r^2h^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac14\\pi r^2h^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "利用平行截面法，易得\n\n$$\n\\text{原式}=\\int_0^h\\pi\\frac{r^2}{h^2}z^2\\cdot zdz\n$$\n\n$$\n=\\frac{1}{4}\\pi r^2h^2\n$$\n\n选 C。",
+  "search_text": "$\\Omega$ 是由锥面 $z=\\frac hr\\sqrt{x^2+y^2}$ 与平面 $z=h$ 所围闭区域，则 $\\iiint_\\Omega zdv$ 的值为（ ） $0$ $\\frac1{16}\\pi r^2h^2$ $\\frac18\\pi r^2h^2$ $\\frac14\\pi r^2h^2$ 利用平行截面法，易得\n\n$$\n\\text{原式}=\\int_0^h\\pi\\frac{r^2}{h^2}z^2\\cdot zdz\n$$\n\n$$\n=\\frac{1}{4}\\pi r^2h^2\n$$\n\n选 C。",
+  "sort_order": 34
+}

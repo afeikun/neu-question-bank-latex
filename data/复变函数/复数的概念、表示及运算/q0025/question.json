@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "复数 $z=-2\\left(\\cos\\dfrac\\pi5-i\\sin\\dfrac\\pi5\\right)$ 的三角表示式为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z=2(\\cos\\dfrac{4\\pi}5+i\\sin\\dfrac{4\\pi}5)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z=2(\\cos\\dfrac{4\\pi}5-i\\sin\\dfrac{4\\pi}5)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z=-2(\\cos\\dfrac{4\\pi}5+i\\sin\\dfrac{4\\pi}5)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z=-2(\\cos\\dfrac{4\\pi}5-i\\sin\\dfrac{4\\pi}5)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=-2(\\cos(-\\frac\\pi5)+i\\sin(-\\frac\\pi5))=2(\\cos\\frac{4\\pi}5+i\\sin\\frac{4\\pi}5)$。",
+  "search_text": "复数 $z=-2\\left(\\cos\\dfrac\\pi5-i\\sin\\dfrac\\pi5\\right)$ 的三角表示式为（ ）。 $z=2(\\cos\\dfrac{4\\pi}5+i\\sin\\dfrac{4\\pi}5)$ $z=2(\\cos\\dfrac{4\\pi}5-i\\sin\\dfrac{4\\pi}5)$ $z=-2(\\cos\\dfrac{4\\pi}5+i\\sin\\dfrac{4\\pi}5)$ $z=-2(\\cos\\dfrac{4\\pi}5-i\\sin\\dfrac{4\\pi}5)$ $z=-2(\\cos(-\\frac\\pi5)+i\\sin(-\\frac\\pi5))=2(\\cos\\frac{4\\pi}5+i\\sin\\frac{4\\pi}5)$。",
+  "sort_order": 25
+}

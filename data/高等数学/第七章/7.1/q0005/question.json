@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二元函数 $f(x,y)=\\frac{\\arcsin(3-x^2-y^2)}{\\sqrt{x-y^2}}$ 的定义域为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{(x,y)\\mid 2<x^2+y^2<4,x>y^2\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{(x,y)\\mid 2\\le x^2+y^2\\le4,x<y^2\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{(x,y)\\mid 2\\le x^2+y^2\\le4,x>y^2\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{(x,y)\\mid 2<x^2+y^2<4,x<y^2\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\begin{cases}\n|3-x^2-y^2|\\le 1\\\\\nx-y^2>0\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\n2\\le x^2+y^2\\le 4\\\\\nx-y^2>0\n\\end{cases},$\n\n所求定义域为 $D=\\{(x,y)\\mid 2\\le x^2+y^2\\le 4,\\ x>y^2\\}$.",
+  "search_text": "二元函数 $f(x,y)=\\frac{\\arcsin(3-x^2-y^2)}{\\sqrt{x-y^2}}$ 的定义域为(\\quad)。 $\\{(x,y)\\mid 2<x^2+y^2<4,x>y^2\\}$ $\\{(x,y)\\mid 2\\le x^2+y^2\\le4,x<y^2\\}$ $\\{(x,y)\\mid 2\\le x^2+y^2\\le4,x>y^2\\}$ $\\{(x,y)\\mid 2<x^2+y^2<4,x<y^2\\}$ $\\begin{cases}\n|3-x^2-y^2|\\le 1\\\\\nx-y^2>0\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\n2\\le x^2+y^2\\le 4\\\\\nx-y^2>0\n\\end{cases},$\n\n所求定义域为 $D=\\{(x,y)\\mid 2\\le x^2+y^2\\le 4,\\ x>y^2\\}$.",
+  "sort_order": 5
+}

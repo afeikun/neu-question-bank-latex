@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=x^2\\sin2x$，则 $y^{(50)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$2^{50}(x^2\\sin2x-50x\\cos2x+1225/2\\sin2x)$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$2^{50}(-x^2\\sin2x+50x\\cos2x-1225/2\\sin2x)$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$2^{50}(x^2\\sin2x-50x\\cos2x-1225/2\\sin2x)$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$2^{50}(-x^2\\sin2x+50x\\cos2x+1225/2\\sin2x)$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "用 Leibniz 公式计算仅非零的前三项。",
+  "search_text": "$y=x^2\\sin2x$，则 $y^{(50)}=$（ ）。 $$2^{50}(x^2\\sin2x-50x\\cos2x+1225/2\\sin2x)$$ $$2^{50}(-x^2\\sin2x+50x\\cos2x-1225/2\\sin2x)$$ $$2^{50}(x^2\\sin2x-50x\\cos2x-1225/2\\sin2x)$$ $$2^{50}(-x^2\\sin2x+50x\\cos2x+1225/2\\sin2x)$$ 用 Leibniz 公式计算仅非零的前三项。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "连续函数f满足f(2x)=2f(x)，且∫₁²xf(x)dx=a∫₀¹xf(x)dx，求a",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "5"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "7"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "8"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "6"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "换元与区间拆分可得∫₀²xf(x)dx=8∫₀¹xf(x)dx，故a+1=8，a=7。",
+  "search_text": "连续函数f满足f(2x)=2f(x)，且∫₁²xf(x)dx=a∫₀¹xf(x)dx，求a 5 7 8 6 换元与区间拆分可得∫₀²xf(x)dx=8∫₀¹xf(x)dx，故a+1=8，a=7。",
+  "sort_order": 7
+}

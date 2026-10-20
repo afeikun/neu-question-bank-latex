@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "矩形场地面积 $60m^2$，正面材料每平方米10元，余下三面每平方米5元，材料费最少时长、宽为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(\\sqrt{10},2\\sqrt{10})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(3\\sqrt{10},3\\sqrt{10})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2\\sqrt{10},3\\sqrt{10})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\sqrt{10},\\sqrt{10})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "设矩形场地的正面为 $x$ 米，侧面为 $y$ 米，该题即求函数 $S=15x+10y$ 在 $xy=60$ 的条件下的最小值。令 $F(x,y,\\lambda)=15x+10y+\\lambda(xy-60)$，\n$$\n\\begin{cases}\nF'_x=15+\\lambda y=0\\\\\nF'_y=10+\\lambda x=0\\\\\nF'_\\lambda=xy-60=0\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\nx=2\\sqrt{10}\\\\\ny=3\\sqrt{10}\n\\end{cases}\n.\n$$\n根据实际，可知 $S$ 存在极小值。故当正面长为 $2\\sqrt{10}$ 米，宽为 $3\\sqrt{10}$ 米时所需材料费最少。\n\n$S=15\\times2\\sqrt{10}+10\\times3\\sqrt{10}\\approx15\\times6.325+10\\times9.486=189.74$ 元。",
+  "search_text": "矩形场地面积 $60m^2$，正面材料每平方米10元，余下三面每平方米5元，材料费最少时长、宽为。 $(\\sqrt{10},2\\sqrt{10})$ $(3\\sqrt{10},3\\sqrt{10})$ $(2\\sqrt{10},3\\sqrt{10})$ $(\\sqrt{10},\\sqrt{10})$ 设矩形场地的正面为 $x$ 米，侧面为 $y$ 米，该题即求函数 $S=15x+10y$ 在 $xy=60$ 的条件下的最小值。令 $F(x,y,\\lambda)=15x+10y+\\lambda(xy-60)$，\n$$\n\\begin{cases}\nF'_x=15+\\lambda y=0\\\\\nF'_y=10+\\lambda x=0\\\\\nF'_\\lambda=xy-60=0\n\\end{cases}\n\\Rightarrow\n\\begin{cases}\nx=2\\sqrt{10}\\\\\ny=3\\sqrt{10}\n\\end{cases}\n.\n$$\n根据实际，可知 $S$ 存在极小值。故当正面长为 $2\\sqrt{10}$ 米，宽为 $3\\sqrt{10}$ 米时所需材料费最少。\n\n$S=15\\times2\\sqrt{10}+10\\times3\\sqrt{10}\\approx15\\times6.325+10\\times9.486=189.74$ 元。",
+  "sort_order": 13
+}

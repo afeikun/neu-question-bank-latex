@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=2x^3+3x^2-12x+14$ 在 $[-3,4]$ 上的最大值与最小值分别为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$73,22$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$92,34$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$142,7$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$142,0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f\\prime=6(x-1)(x+2)$。比较端点与驻点处函数值：$f(4)=142$ 为最大值，$f(1)=7$ 为最小值。",
+  "search_text": "函数 $f(x)=2x^3+3x^2-12x+14$ 在 $[-3,4]$ 上的最大值与最小值分别为（ ）。 $73,22$ $92,34$ $142,7$ $142,0$ $f\\prime=6(x-1)(x+2)$。比较端点与驻点处函数值：$f(4)=142$ 为最大值，$f(1)=7$ 为最小值。",
+  "sort_order": 12
+}

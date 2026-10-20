@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$的分布函数$F$为严格单调连续函数，令$Y=F(X)$，正确说法是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$Y$不服从$[0,1]$均匀分布"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$Y$服从$[0,1]$均匀分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$G(y)=1(y<0),y(0\\le y\\le1),0(y>1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$g(y)=0(0\\le y\\le1),1$其他"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$G(y)=0(y<0),y(0\\le y\\le1),1(y>1)$，因此$Y\\sim U[0,1]$。",
+  "search_text": "$X$的分布函数$F$为严格单调连续函数，令$Y=F(X)$，正确说法是？ $Y$不服从$[0,1]$均匀分布 $Y$服从$[0,1]$均匀分布 $G(y)=1(y<0),y(0\\le y\\le1),0(y>1)$ $g(y)=0(0\\le y\\le1),1$其他 $G(y)=0(y<0),y(0\\le y\\le1),1(y>1)$，因此$Y\\sim U[0,1]$。",
+  "sort_order": 12
+}

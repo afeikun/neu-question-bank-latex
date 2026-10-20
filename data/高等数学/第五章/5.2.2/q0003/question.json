@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列题中由公式定义的级数 $\\sum_{n=1}^{\\infty} a_n$，发散的有几个？(1) $a_1=2,a_{n+1}=((1+\\sin n)/n)a_n$；(2) $a_1=1/3,a_{n+1}=((3n-1)/(2n+5))a_n$；(3) $a_1=1/3,a_{n+1}=\\sqrt{a_n}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "(1)比值小于1收敛，(2)比值趋于3/2发散，(3)通项趋于1而发散，共2个。",
+  "search_text": "下列题中由公式定义的级数 $\\sum_{n=1}^{\\infty} a_n$，发散的有几个？(1) $a_1=2,a_{n+1}=((1+\\sin n)/n)a_n$；(2) $a_1=1/3,a_{n+1}=((3n-1)/(2n+5))a_n$；(3) $a_1=1/3,a_{n+1}=\\sqrt{a_n}$。 $3$个 $1$个 $2$个 $0$个 (1)比值小于1收敛，(2)比值趋于3/2发散，(3)通项趋于1而发散，共2个。",
+  "sort_order": 3
+}

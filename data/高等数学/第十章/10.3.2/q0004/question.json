@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime+y\\tan x=\\sin 2x$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin x-2\\sin^2x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\cos x-2\\cos^2x+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$C\\cos x-2\\cos^2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C\\sin x-2\\sin^2x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$y=e^{-\\int\\tan x\\,dx}\\left(\\int\\sin2x\\cdot e^{\\int\\tan x\\,dx}\\,dx+C\\right)=\\cos x\\left(\\int\\frac{\\sin2x}{\\cos x}\\,dx+C\\right)=\\cos x\\left(\\int2\\sin x\\,dx+C\\right)=C\\cos x-2\\cos^2x$$",
+  "search_text": "$y\\prime+y\\tan x=\\sin 2x$ 的通解为（ ） $\\sin x-2\\sin^2x+C$ $\\cos x-2\\cos^2x+C$ $C\\cos x-2\\cos^2x$ $C\\sin x-2\\sin^2x$ $$y=e^{-\\int\\tan x\\,dx}\\left(\\int\\sin2x\\cdot e^{\\int\\tan x\\,dx}\\,dx+C\\right)=\\cos x\\left(\\int\\frac{\\sin2x}{\\cos x}\\,dx+C\\right)=\\cos x\\left(\\int2\\sin x\\,dx+C\\right)=C\\cos x-2\\cos^2x$$",
+  "sort_order": 4
+}

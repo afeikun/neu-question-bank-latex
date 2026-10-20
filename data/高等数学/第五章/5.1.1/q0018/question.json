@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "循环小数 $5.232323\\cdots$ 表示成两个整数之比为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$523/101$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$518/99$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$517/98$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$525/103$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$5.2323\\ldots=5+\\frac{23}{100}(1+1/100+\\cdots)=518/99$。",
+  "search_text": "循环小数 $5.232323\\cdots$ 表示成两个整数之比为？ $523/101$ $518/99$ $517/98$ $525/103$ $5.2323\\ldots=5+\\frac{23}{100}(1+1/100+\\cdots)=518/99$。",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $0<\\varphi\\le\\pi$，$z=1-\\cos\\varphi+i\\sin\\varphi$ 的指数形式是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z=2\\sin\\dfrac\\varphi2e^{i(\\frac\\pi2-\\frac\\varphi2)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z=\\sin\\dfrac\\varphi2e^{i(\\frac\\pi2-\\frac\\varphi2)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z=2\\sin\\dfrac\\varphi2e^{i\\frac\\varphi2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z=2\\cos\\dfrac\\varphi2e^{i\\frac\\varphi2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=2\\sin^2\\dfrac\\varphi2+2i\\sin\\dfrac\\varphi2\\cos\\dfrac\\varphi2=2\\sin\\dfrac\\varphi2(\\sin\\dfrac\\varphi2+i\\cos\\dfrac\\varphi2)$，故 $|z|=2\\sin\\dfrac\\varphi2$，$\\arg z=\\dfrac\\pi2-\\dfrac\\varphi2$。",
+  "search_text": "设 $0<\\varphi\\le\\pi$，$z=1-\\cos\\varphi+i\\sin\\varphi$ 的指数形式是（ ）。 $z=2\\sin\\dfrac\\varphi2e^{i(\\frac\\pi2-\\frac\\varphi2)}$ $z=\\sin\\dfrac\\varphi2e^{i(\\frac\\pi2-\\frac\\varphi2)}$ $z=2\\sin\\dfrac\\varphi2e^{i\\frac\\varphi2}$ $z=2\\cos\\dfrac\\varphi2e^{i\\frac\\varphi2}$ $z=2\\sin^2\\dfrac\\varphi2+2i\\sin\\dfrac\\varphi2\\cos\\dfrac\\varphi2=2\\sin\\dfrac\\varphi2(\\sin\\dfrac\\varphi2+i\\cos\\dfrac\\varphi2)$，故 $|z|=2\\sin\\dfrac\\varphi2$，$\\arg z=\\dfrac\\pi2-\\dfrac\\varphi2$。",
+  "sort_order": 14
+}

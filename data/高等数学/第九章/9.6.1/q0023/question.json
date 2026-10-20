@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 表示 $|y|=1-x^2$ 围线的正向，则 $\\oint_L\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\ln2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由题意知，$P=\\frac{2x}{2x^2+y^2},\\quad Q=\\frac{y}{2x^2+y^2},$\n\n$$\\frac{\\partial P}{\\partial y}=\\frac{\\partial}{\\partial y}\\left(\\frac{2x}{2x^2+y^2}\\right)=\\frac{-4xy}{(2x^2+y^2)^2},\\quad \\frac{\\partial Q}{\\partial x}=\\frac{\\partial}{\\partial x}\\left(\\frac{y}{2x^2+y^2}\\right)=\\frac{-4xy}{(2x^2+y^2)^2},$$\n\n设 $L$ 所围闭区域为 $D$，因为 $(0,0)\\in D$ 时，作位于 $D$ 内椭圆 $l:\\ 2x^2+y^2=r^2$，逆时针方向，记 $D_1$ 由 $L$ 和 $l$ 所围成区域，应用格林公式，得\n\n$$\\oint_L\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}-\\oint_l\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}=0,$$\n\n故\n\n$$\\oint_L\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}=\\oint_l\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}$$\n\n$$=\\oint_l\\frac{2x\\,dx+y\\,dy}{r^2}=\\iint_{D-D_1}(0-0)dxdy=0$$",
+  "search_text": "设 $L$ 表示 $|y|=1-x^2$ 围线的正向，则 $\\oint_L\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}=$（ ） $4\\ln2$ $2\\pi$ $-2\\pi$ $0$ 由题意知，$P=\\frac{2x}{2x^2+y^2},\\quad Q=\\frac{y}{2x^2+y^2},$\n\n$$\\frac{\\partial P}{\\partial y}=\\frac{\\partial}{\\partial y}\\left(\\frac{2x}{2x^2+y^2}\\right)=\\frac{-4xy}{(2x^2+y^2)^2},\\quad \\frac{\\partial Q}{\\partial x}=\\frac{\\partial}{\\partial x}\\left(\\frac{y}{2x^2+y^2}\\right)=\\frac{-4xy}{(2x^2+y^2)^2},$$\n\n设 $L$ 所围闭区域为 $D$，因为 $(0,0)\\in D$ 时，作位于 $D$ 内椭圆 $l:\\ 2x^2+y^2=r^2$，逆时针方向，记 $D_1$ 由 $L$ 和 $l$ 所围成区域，应用格林公式，得\n\n$$\\oint_L\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}-\\oint_l\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}=0,$$\n\n故\n\n$$\\oint_L\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}=\\oint_l\\frac{2x\\,dx+y\\,dy}{2x^2+y^2}$$\n\n$$=\\oint_l\\frac{2x\\,dx+y\\,dy}{r^2}=\\iint_{D-D_1}(0-0)dxdy=0$$",
+  "sort_order": 23
+}

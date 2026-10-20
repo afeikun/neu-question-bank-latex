@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_n=(\\frac{2+\\sqrt3i}{4})^n$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt3}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|\\alpha_n|=|(2+\\sqrt3i)/4|^n=(\\sqrt7/4)^n\\to0$，故极限为 $0$。",
+  "search_text": "设 $\\alpha_n=(\\frac{2+\\sqrt3i}{4})^n$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。 $0$ $\\frac{\\sqrt3}{4}$ $\\frac12$ 不存在 $|\\alpha_n|=|(2+\\sqrt3i)/4|^n=(\\sqrt7/4)^n\\to0$，故极限为 $0$。",
+  "sort_order": 5
+}

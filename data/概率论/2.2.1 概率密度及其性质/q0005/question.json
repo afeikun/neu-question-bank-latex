@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列函数中哪个为概率密度？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin x,\\ \\pi\\le x\\le3\\pi/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-\\cos x,\\ \\pi\\le x\\le3\\pi/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\sin x,\\ \\pi\\le x\\le3\\pi/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\cos x,\\ \\pi\\le x\\le3\\pi/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "区间上$-\\sin x\\ge0$且积分$[-\\cos x]_{\\pi}^{3\\pi/2}=1$，故选项3。",
+  "search_text": "下列函数中哪个为概率密度？ $\\sin x,\\ \\pi\\le x\\le3\\pi/2$ $1-\\cos x,\\ \\pi\\le x\\le3\\pi/2$ $-\\sin x,\\ \\pi\\le x\\le3\\pi/2$ $\\cos x,\\ \\pi\\le x\\le3\\pi/2$ 区间上$-\\sin x\\ge0$且积分$[-\\cos x]_{\\pi}^{3\\pi/2}=1$，故选项3。",
+  "sort_order": 5
+}

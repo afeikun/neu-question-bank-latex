@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2x_1x_2+2x_1x_3+2x_2x_3$ 的标准形是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y_1^2+y_2^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-y_1^2-y_2^2-y_3^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y_1^2-y_2^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3y_1^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "矩阵为全 1 矩阵，秩为 1，唯一非零特征值为 3，标准形为 $3y_1^2$，选项 4。",
+  "search_text": "二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2x_1x_2+2x_1x_3+2x_2x_3$ 的标准形是(\\quad)。 $y_1^2+y_2^2$ $-y_1^2-y_2^2-y_3^2$ $y_1^2-y_2^2$ $3y_1^2$ 矩阵为全 1 矩阵，秩为 1，唯一非零特征值为 3，标准形为 $3y_1^2$，选项 4。",
+  "sort_order": 37
+}

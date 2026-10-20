@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=0$ 是函数 $z\\cos\\dfrac1z$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "本性奇点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "二级极点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "三级极点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可去奇点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z\\cos\\dfrac1z=\\sum_{n=0}^{\\infty}\\dfrac{(-1)^n}{(2n)!}z^{1-2n}$，含有无限多个负幂项，所以 $z=0$ 是本性奇点。",
+  "search_text": "$z=0$ 是函数 $z\\cos\\dfrac1z$ 的（ ）。 本性奇点 二级极点 三级极点 可去奇点 $z\\cos\\dfrac1z=\\sum_{n=0}^{\\infty}\\dfrac{(-1)^n}{(2n)!}z^{1-2n}$，含有无限多个负幂项，所以 $z=0$ 是本性奇点。",
+  "sort_order": 52
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "球面 $x^2+y^2+z^2=R^2$ 的面密度为 $(x+y+z+1)^2$，则质量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac43\\pi R^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac43\\pi R^4+4\\pi R^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4\\pi(R^4+R^2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi R^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：质量为 $\\iint_\\Sigma(x+y+z+1)^2\\,dS=$\n\n$$=\\iint_\\Sigma(x^2+y^2+z^2)\\,dS+4\\pi R^2=4\\pi R^4+4\\pi R^2$$",
+  "search_text": "球面 $x^2+y^2+z^2=R^2$ 的面密度为 $(x+y+z+1)^2$，则质量为（ ） $\\frac43\\pi R^3$ $\\frac43\\pi R^4+4\\pi R^2$ $4\\pi(R^4+R^2)$ $4\\pi R^2$ 解答：质量为 $\\iint_\\Sigma(x+y+z+1)^2\\,dS=$\n\n$$=\\iint_\\Sigma(x^2+y^2+z^2)\\,dS+4\\pi R^2=4\\pi R^4+4\\pi R^2$$",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(1,4)$，分布函数$F$、密度$f$，对任意$x$有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(1-x)=1-F(1+x)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(x)=1-F(-x)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)=f(-x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F((1-x)/2)=1-F((1+x)/2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正态密度以均值1为对称中心，故$F(1-x)=1-F(1+x)$。",
+  "search_text": "$X\\sim N(1,4)$，分布函数$F$、密度$f$，对任意$x$有（ ）。 $F(1-x)=1-F(1+x)$ $F(x)=1-F(-x)$ $f(x)=f(-x)$ $F((1-x)/2)=1-F((1+x)/2)$ 正态密度以均值1为对称中心，故$F(1-x)=1-F(1+x)$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "联合分布$P(X=0,Y=1)=P(X=0,Y=2)=P(X=1,Y=2)=1/3$，则$X,Y$（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不独立，相关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "独立，不相关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "独立，相关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不独立，不相关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "边缘概率给出$E(XY)=2/3,E(X)=1/3,E(Y)=5/3$，协方差$1/9\\ne0$，且联合分布不等于边缘乘积，故不独立且相关。",
+  "search_text": "联合分布$P(X=0,Y=1)=P(X=0,Y=2)=P(X=1,Y=2)=1/3$，则$X,Y$（）。 不独立，相关 独立，不相关 独立，相关 不独立，不相关 边缘概率给出$E(XY)=2/3,E(X)=1/3,E(Y)=5/3$，协方差$1/9\\ne0$，且联合分布不等于边缘乘积，故不独立且相关。",
+  "sort_order": 4
+}

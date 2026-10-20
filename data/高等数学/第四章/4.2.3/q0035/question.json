@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列关系正确的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "e≤∫₀¹eˣ²dx≤e²"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0≤∫₀¹eˣ²dx≤1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "以上都不对"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1≤∫₀¹eˣ²dx≤e"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "1≤eˣ²≤e，积分在1和e之间。",
+  "search_text": "下列关系正确的是 e≤∫₀¹eˣ²dx≤e² 0≤∫₀¹eˣ²dx≤1 以上都不对 1≤∫₀¹eˣ²dx≤e 1≤eˣ²≤e，积分在1和e之间。",
+  "sort_order": 35
+}

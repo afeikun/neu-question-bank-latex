@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将函数 $f(z)=\\dfrac1{z+i}-\\dfrac1{z-i}$ 在环形域 $0<|z-i|<2$ 内展开为洛朗级数（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^n\\dfrac{(z-i)^n}{(2i)^{n+1}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac{(z-i)^n}{(2i)^n}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac{(z-i)^{n+1}}{(2i)^n}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^n\\dfrac{(z-i)^{n+1}}{(2i)^{n+1}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(z)=-\\dfrac1{z-i}+\\dfrac1{2i}\\left(\\dfrac1{1+\\dfrac{z-i}{2i}}\\right)=-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^n\\dfrac{(z-i)^n}{(2i)^{n+1}}$。",
+  "search_text": "将函数 $f(z)=\\dfrac1{z+i}-\\dfrac1{z-i}$ 在环形域 $0<|z-i|<2$ 内展开为洛朗级数（ ）。 $-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^n\\dfrac{(z-i)^n}{(2i)^{n+1}}$ $-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac{(z-i)^n}{(2i)^n}$ $-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^{n+1}\\dfrac{(z-i)^{n+1}}{(2i)^n}$ $-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^n\\dfrac{(z-i)^{n+1}}{(2i)^{n+1}}$ $f(z)=-\\dfrac1{z-i}+\\dfrac1{2i}\\left(\\dfrac1{1+\\dfrac{z-i}{2i}}\\right)=-\\dfrac1{z-i}+\\sum_{n=0}^{\\infty}(-1)^n\\dfrac{(z-i)^n}{(2i)^{n+1}}$。",
+  "sort_order": 30
+}

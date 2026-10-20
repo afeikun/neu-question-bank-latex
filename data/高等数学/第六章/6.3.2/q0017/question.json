@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若平面 $3x+2y+kz+10=0$ 垂直于平面 $2x-y+2z+5=0$，则 $k=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "法向量垂直，$(3,2,k)\\cdot(2,-1,2)=4+2k=0$，故 $k=-2$。",
+  "search_text": "若平面 $3x+2y+kz+10=0$ 垂直于平面 $2x-y+2z+5=0$，则 $k=(\\quad)$。 $-2$ $-4$ $4$ $2$ 法向量垂直，$(3,2,k)\\cdot(2,-1,2)=4+2k=0$，故 $k=-2$。",
+  "sort_order": 17
+}

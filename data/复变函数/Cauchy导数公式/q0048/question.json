@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\oint_{|z-1|=1}\\frac{\\cos(\\pi z)}{(z^2-1)^2}\\,dz$ 等于（ ），方向沿 $|z-1|=1$ 的正向。",
+  "options_json": [
+    {
+      "content_md": "$\\frac{\\pi i}{2}$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "-$\\frac{\\pi i}{4}$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "-$\\frac{\\pi i}{2}$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$0$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将被积函数写为 $\\frac{1}{(z-1)^2}\\frac{\\cos\\pi z}{(z+1)^2}$，在 $z=1$ 处应用Cauchy导数公式，得 $\\pi i/2$。",
+  "search_text": "积分 $I=\\oint_{|z-1|=1}\\frac{\\cos(\\pi z)}{(z^2-1)^2}\\,dz$ 等于（ ），方向沿 $|z-1|=1$ 的正向。 $\\frac{\\pi i}{2}$ -$\\frac{\\pi i}{4}$ -$\\frac{\\pi i}{2}$ $0$ 将被积函数写为 $\\frac{1}{(z-1)^2}\\frac{\\cos\\pi z}{(z+1)^2}$，在 $z=1$ 处应用Cauchy导数公式，得 $\\pi i/2$。",
+  "sort_order": 48
+}

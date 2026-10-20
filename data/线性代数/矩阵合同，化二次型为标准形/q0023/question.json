@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\operatorname{diag}(1,2,2), B=\\begin{pmatrix}1&0&0\\\\0&2&1\\\\0&0&3\\end{pmatrix}$，则 $A$ 与 $B$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "合同但不相似"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不合同也不相似"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "相似但不合同"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "合同且相似"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "两矩阵特征值不同，故不相似；$A$ 对称而 $B$ 不对称，二者不合同，选项 2。",
+  "search_text": "设 $A=\\operatorname{diag}(1,2,2), B=\\begin{pmatrix}1&0&0\\\\0&2&1\\\\0&0&3\\end{pmatrix}$，则 $A$ 与 $B$(\\quad)。 合同但不相似 不合同也不相似 相似但不合同 合同且相似 两矩阵特征值不同，故不相似；$A$ 对称而 $B$ 不对称，二者不合同，选项 2。",
+  "sort_order": 23
+}

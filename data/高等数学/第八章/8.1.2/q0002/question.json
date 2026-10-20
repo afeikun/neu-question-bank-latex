@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $D$ 是以 $a$ 为半径，以原点为心的圆所成的闭区域，则 $\\iint_D|xy|\\,d\\sigma=（ ）$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{a^4}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{a^4}{4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{a^4}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 其中 $D_1$ 为 $D$ 在第一象限中的部分。\n\n$$\\iint_{D_1}|xy|\\,d\\sigma=\\iint_{D_1}xy\\,d\\sigma=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^a r^2\\sin\\theta\\cos\\theta\\cdot r\\,dr=\\frac{a^4}{8}$$\n\n所以 $\\iint_D|xy|\\,d\\sigma=\\frac{a^4}{2}$",
+  "search_text": "设 $D$ 是以 $a$ 为半径，以原点为心的圆所成的闭区域，则 $\\iint_D|xy|\\,d\\sigma=（ ）$ $\\frac{a^4}{3}$ $\\frac{a^4}{4}$ $\\frac{a^4}{2}$ $a^4$ 解答 其中 $D_1$ 为 $D$ 在第一象限中的部分。\n\n$$\\iint_{D_1}|xy|\\,d\\sigma=\\iint_{D_1}xy\\,d\\sigma=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^a r^2\\sin\\theta\\cos\\theta\\cdot r\\,dr=\\frac{a^4}{8}$$\n\n所以 $\\iint_D|xy|\\,d\\sigma=\\frac{a^4}{2}$",
+  "sort_order": 2
+}

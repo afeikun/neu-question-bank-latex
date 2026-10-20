@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₁⁵√(3x+1)/x dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4−ln(3/5)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4+ln(3/5)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "4+ln(6/5)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "4−ln(6/5)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令t=√(3x+1)换元，结果为4+ln(6/5)。",
+  "search_text": "计算∫₁⁵√(3x+1)/x dx 4−ln(3/5) 4+ln(3/5) 4+ln(6/5) 4−ln(6/5) 令t=√(3x+1)换元，结果为4+ln(6/5)。",
+  "sort_order": 12
+}

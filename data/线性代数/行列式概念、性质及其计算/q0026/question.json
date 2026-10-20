@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}-1&1&0&\\cdots&0&0\\\\0&-2&2&\\cdots&0&0\\\\0&0&-3&\\cdots&0&0\\\\\\vdots&\\vdots&\\vdots&\\ddots&\\vdots&\\vdots\\\\0&0&0&\\cdots&-n&n\\\\1&1&1&\\cdots&1&1\\end{vmatrix}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$n!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(n+1)!$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-1)^n(n+1)!$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-1)^n n!$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "依次将最后一行的前 $n$ 个元素与上方各行相加，可化为对角行列式；按图示行变换计算得 $D=(-1)^n(n+1)!$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}-1&1&0&\\cdots&0&0\\\\0&-2&2&\\cdots&0&0\\\\0&0&-3&\\cdots&0&0\\\\\\vdots&\\vdots&\\vdots&\\ddots&\\vdots&\\vdots\\\\0&0&0&\\cdots&-n&n\\\\1&1&1&\\cdots&1&1\\end{vmatrix}$ 的值为（ ）。 $n!$ $(n+1)!$ $(-1)^n(n+1)!$ $(-1)^n n!$ 依次将最后一行的前 $n$ 个元素与上方各行相加，可化为对角行列式；按图示行变换计算得 $D=(-1)^n(n+1)!$。",
+  "sort_order": 26
+}

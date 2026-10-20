@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B,C$ 为同阶方阵，且 $A$ 可逆，下列命题正确的是（ ）。命题（1）：若 $AB=AC$，则 $B=C$；命题（2）：若 $AB=CB$，则 $A=C$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "（1）"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "都不正确"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "（2）"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "（1）（2）"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "（1）正确：$A$ 可逆，在 $AB=AC$ 两侧同时左乘 $A^{-1}$，得 $B=C$。（2）错误：若 $B$ 可逆可推出 $A=C$，但题目未给出 $B$ 可逆条件。",
+  "search_text": "设 $A,B,C$ 为同阶方阵，且 $A$ 可逆，下列命题正确的是（ ）。命题（1）：若 $AB=AC$，则 $B=C$；命题（2）：若 $AB=CB$，则 $A=C$。 （1） 都不正确 （2） （1）（2） （1）正确：$A$ 可逆，在 $AB=AC$ 两侧同时左乘 $A^{-1}$，得 $B=C$。（2）错误：若 $B$ 可逆可推出 $A=C$，但题目未给出 $B$ 可逆条件。",
+  "sort_order": 41
+}

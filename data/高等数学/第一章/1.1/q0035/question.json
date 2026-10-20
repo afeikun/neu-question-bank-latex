@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=\\begin{cases}1+x^2,&x>0,\\\\0,&x=0,\\\\-(1+x^2),&x<0\\end{cases}$ 的反函数是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{cases}\\sqrt{x+1},&x>1,\\\\0,&x=0,\\\\-\\sqrt{-x-1},&x<-1\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{cases}\\sqrt{x-1},&x>1,\\\\0,&x=0,\\\\\\sqrt{x+1},&x<-1\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{cases}\\sqrt{x-1},&x>1,\\\\0,&x=0,\\\\-\\sqrt{-x-1},&x<-1\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{cases}\\sqrt{x-1},&x>1,\\\\0,&x=0,\\\\\\sqrt{-x-1},&x<-1\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "分别解 $y=1+x^2$（$x>0$）、$y=0$、$y=-(1+x^2)$（$x<0$），得到反函数分段式。",
+  "search_text": "函数 $y=\\begin{cases}1+x^2,&x>0,\\\\0,&x=0,\\\\-(1+x^2),&x<0\\end{cases}$ 的反函数是（ ）。 $\\begin{cases}\\sqrt{x+1},&x>1,\\\\0,&x=0,\\\\-\\sqrt{-x-1},&x<-1\\end{cases}$ $\\begin{cases}\\sqrt{x-1},&x>1,\\\\0,&x=0,\\\\\\sqrt{x+1},&x<-1\\end{cases}$ $\\begin{cases}\\sqrt{x-1},&x>1,\\\\0,&x=0,\\\\-\\sqrt{-x-1},&x<-1\\end{cases}$ $\\begin{cases}\\sqrt{x-1},&x>1,\\\\0,&x=0,\\\\\\sqrt{-x-1},&x<-1\\end{cases}$ 分别解 $y=1+x^2$（$x>0$）、$y=0$、$y=-(1+x^2)$（$x<0$），得到反函数分段式。",
+  "sort_order": 35
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$H_0:\\sigma^2\\ge16,H_1:\\sigma^2<16$，统计量及拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{(n-1)S^2}{16},(0,\\chi^2_{1-\\alpha}(n-1))$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "已知均值自由度$n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "右尾拒绝域"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{(n-1)S^2}{16},(\\chi^2_\\alpha(n-1),+\\infty)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "均值未知时自由度$n-1$，左尾拒绝域为卡方分布下尾。",
+  "search_text": "$H_0:\\sigma^2\\ge16,H_1:\\sigma^2<16$，统计量及拒绝域为（）。 $\\frac{(n-1)S^2}{16},(0,\\chi^2_{1-\\alpha}(n-1))$ 已知均值自由度$n$ 右尾拒绝域 $\\frac{(n-1)S^2}{16},(\\chi^2_\\alpha(n-1),+\\infty)$ 均值未知时自由度$n-1$，左尾拒绝域为卡方分布下尾。",
+  "sort_order": 18
+}

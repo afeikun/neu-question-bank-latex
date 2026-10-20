@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列等式正确有（ ）。（1）$\\iint_Dd\\sigma=\\sigma$（$\\sigma$为区域$D$的面积）；（2）$\\iint_Dkf(x,y)d\\sigma=k\\iint_Df(x,y)d\\sigma$（其中$k$为常数）；（3）$\\iint_Df(x,y)d\\sigma=\\iint_{D_1}f(x,y)d\\sigma+\\iint_{D_2}f(x,y)d\\sigma$，其中$D=D_1\\cup D_2$，$D_1,D_2$为两个无公共内点的闭区域",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 由二重积分的性质可以得到上面三个都正确",
+  "search_text": "下列等式正确有（ ）。（1）$\\iint_Dd\\sigma=\\sigma$（$\\sigma$为区域$D$的面积）；（2）$\\iint_Dkf(x,y)d\\sigma=k\\iint_Df(x,y)d\\sigma$（其中$k$为常数）；（3）$\\iint_Df(x,y)d\\sigma=\\iint_{D_1}f(x,y)d\\sigma+\\iint_{D_2}f(x,y)d\\sigma$，其中$D=D_1\\cup D_2$，$D_1,D_2$为两个无公共内点的闭区域 $0$个 $2$个 $3$个 $1$个 解答 由二重积分的性质可以得到上面三个都正确",
+  "sort_order": 25
+}

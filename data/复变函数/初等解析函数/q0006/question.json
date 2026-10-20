@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(1+i)^i=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-\\pi/4}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-(2k+1)\\pi/4}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-\\pi/4}(\\cos\\ln2+i\\sin\\ln2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-(2k+1)\\pi/4}(\\cos\\ln2+i\\sin\\ln2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $1+i=\\sqrt2e^{i(\\pi/4+2k\\pi)}$ 代入复幂定义。",
+  "search_text": "$(1+i)^i=(\\ )$。 $e^{-\\pi/4}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$ $e^{-(2k+1)\\pi/4}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$ $e^{-\\pi/4}(\\cos\\ln2+i\\sin\\ln2)$ $e^{-(2k+1)\\pi/4}(\\cos\\ln2+i\\sin\\ln2)$ 由 $1+i=\\sqrt2e^{i(\\pi/4+2k\\pi)}$ 代入复幂定义。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "电子管寿命密度$f(x)=100/x^2(x\\ge100)$。三只电子管使用150小时都不需更换的概率为多少？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac8{27}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{27}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{16}{27}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{10}{27}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(X>150)=\\int_{150}^{\\infty}100x^{-2}dx=\\frac23$，独立性给出$(\\frac23)^3=\\frac8{27}$。",
+  "search_text": "电子管寿命密度$f(x)=100/x^2(x\\ge100)$。三只电子管使用150小时都不需更换的概率为多少？ $\\frac8{27}$ $\\frac1{27}$ $\\frac{16}{27}$ $\\frac{10}{27}$ $P(X>150)=\\int_{150}^{\\infty}100x^{-2}dx=\\frac23$，独立性给出$(\\frac23)^3=\\frac8{27}$。",
+  "sort_order": 2
+}

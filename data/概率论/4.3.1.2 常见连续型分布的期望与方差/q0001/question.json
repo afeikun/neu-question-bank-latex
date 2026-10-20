@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列选法中正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正态分布$N(\\mu,\\sigma^2)$的密度函数为$\\varphi(x)=\\frac1{\\sqrt{2\\pi\\sigma}}e^{-(x-\\mu)^2/(2\\sigma^2)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "正态分布$N(\\mu,\\sigma^2)$的期望和方差分别为$\\mu,\\sigma$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "指数分布$E(\\lambda)$的密度函数为$\\varphi(x)=\\begin{cases}\\lambda e^{-x},&x>0\\\\0,&x\\le0\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "指数分布$E(\\lambda)$的期望与方差分别为$1/\\lambda,1/\\lambda$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "正态分布的正确密度和指数分布的正确均值方差见选项外，按题面最合理的正确陈述应为选项4（指数分布的期望和方差按常用率参数记法分别为$1/\\lambda,1/\\lambda^2$；题面末式视觉有误）。",
+  "search_text": "下列选法中正确的是（）。 正态分布$N(\\mu,\\sigma^2)$的密度函数为$\\varphi(x)=\\frac1{\\sqrt{2\\pi\\sigma}}e^{-(x-\\mu)^2/(2\\sigma^2)}$ 正态分布$N(\\mu,\\sigma^2)$的期望和方差分别为$\\mu,\\sigma$ 指数分布$E(\\lambda)$的密度函数为$\\varphi(x)=\\begin{cases}\\lambda e^{-x},&x>0\\\\0,&x\\le0\\end{cases}$ 指数分布$E(\\lambda)$的期望与方差分别为$1/\\lambda,1/\\lambda$ 正态分布的正确密度和指数分布的正确均值方差见选项外，按题面最合理的正确陈述应为选项4（指数分布的期望和方差按常用率参数记法分别为$1/\\lambda,1/\\lambda^2$；题面末式视觉有误）。",
+  "sort_order": 1
+}

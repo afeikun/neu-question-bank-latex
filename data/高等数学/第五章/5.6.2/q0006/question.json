@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在 $(-\\pi,\\pi)$ 内将函数 $f(x)=\\cos\\frac{x}{4}$ 展成以 $2\\pi$ 为周期的傅里叶级数，其展开式为（　）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\frac{8(-1)^n n}{\\pi(8n^2-1)}\\cos nx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2\\sqrt2}{\\pi}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}8\\sqrt2}{\\pi(16n^2-1)}\\cos nx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty}\\frac{4\\sqrt2(-1)^n n}{\\pi(16n^2-1)}\\cos nx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2\\sqrt2}{\\pi}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}4\\sqrt2}{\\pi(16n^2-1)}\\cos nx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解由于 $f(x)=\\cos\\frac{x}{4}$ 为偶函数，所以 $b_n=0(n=1,2,\\cdots)$。\n\n$a_0=\\frac1\\pi\\int_{-\\pi}^{\\pi}\\cos\\frac{x}{4}dx=\\frac{4\\sqrt2}{\\pi}$\n\n$a_n=\\frac2\\pi\\int_0^\\pi\\cos\\frac{x}{4}\\cos nx dx=\\frac1\\pi\\int_0^\\pi[\\cos(n+\\frac14)x+\\cos(n-\\frac14)x]dx$\n\n$=\\frac1\\pi[\\frac{\\sin(n+\\frac14)\\pi}{n+\\frac14}+\\frac{\\sin(n-\\frac14)\\pi}{n-\\frac14}]=\\frac{(-1)^{n-1}4\\sqrt2}{\\pi(16n^2-1)}(n=1,2,\\cdots)$\n\n所以 $f(x)=\\cos\\frac{x}{4}$ 在 $(-\\pi,\\pi)$ 内的傅里叶级数为 $\\frac{2\\sqrt2}{\\pi}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}4\\sqrt2}{\\pi(16n^2-1)}\\cos nx$。",
+  "search_text": "在 $(-\\pi,\\pi)$ 内将函数 $f(x)=\\cos\\frac{x}{4}$ 展成以 $2\\pi$ 为周期的傅里叶级数，其展开式为（　） $\\sum_{n=1}^{\\infty}\\frac{8(-1)^n n}{\\pi(8n^2-1)}\\cos nx$ $\\frac{2\\sqrt2}{\\pi}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}8\\sqrt2}{\\pi(16n^2-1)}\\cos nx$ $\\sum_{n=1}^{\\infty}\\frac{4\\sqrt2(-1)^n n}{\\pi(16n^2-1)}\\cos nx$ $\\frac{2\\sqrt2}{\\pi}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}4\\sqrt2}{\\pi(16n^2-1)}\\cos nx$ 解由于 $f(x)=\\cos\\frac{x}{4}$ 为偶函数，所以 $b_n=0(n=1,2,\\cdots)$。\n\n$a_0=\\frac1\\pi\\int_{-\\pi}^{\\pi}\\cos\\frac{x}{4}dx=\\frac{4\\sqrt2}{\\pi}$\n\n$a_n=\\frac2\\pi\\int_0^\\pi\\cos\\frac{x}{4}\\cos nx dx=\\frac1\\pi\\int_0^\\pi[\\cos(n+\\frac14)x+\\cos(n-\\frac14)x]dx$\n\n$=\\frac1\\pi[\\frac{\\sin(n+\\frac14)\\pi}{n+\\frac14}+\\frac{\\sin(n-\\frac14)\\pi}{n-\\frac14}]=\\frac{(-1)^{n-1}4\\sqrt2}{\\pi(16n^2-1)}(n=1,2,\\cdots)$\n\n所以 $f(x)=\\cos\\frac{x}{4}$ 在 $(-\\pi,\\pi)$ 内的傅里叶级数为 $\\frac{2\\sqrt2}{\\pi}+\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}4\\sqrt2}{\\pi(16n^2-1)}\\cos nx$。",
+  "sort_order": 6
+}

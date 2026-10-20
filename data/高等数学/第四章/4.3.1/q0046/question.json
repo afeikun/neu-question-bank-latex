@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "limₓ→₀ ∫₀ˣsin(t²)dt/x³",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1/2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1/3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1/6"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "sin(t²)∼t²，积分等价于x³/3。",
+  "search_text": "limₓ→₀ ∫₀ˣsin(t²)dt/x³ 1/2 1/3 1/6 1 sin(t²)∼t²，积分等价于x³/3。",
+  "sort_order": 46
+}

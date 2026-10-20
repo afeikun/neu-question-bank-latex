@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设$0<P(A)<1$，$0<P(B)<1$，$P(A|B)+P(\\overline A|\\overline B)=1$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "事件$A$与$B$相互独立"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "事件$A$与$B$互不相同"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "事件$A$与$B$互相对立"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "事件$A$与$B$互不对立"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将条件概率展开并整理可得$P(AB)=P(A)P(B)$，因此$A,B$独立。",
+  "search_text": "设$0<P(A)<1$，$0<P(B)<1$，$P(A|B)+P(\\overline A|\\overline B)=1$，则（ ）。 事件$A$与$B$相互独立 事件$A$与$B$互不相同 事件$A$与$B$互相对立 事件$A$与$B$互不对立 将条件概率展开并整理可得$P(AB)=P(A)P(B)$，因此$A,B$独立。",
+  "sort_order": 8
+}

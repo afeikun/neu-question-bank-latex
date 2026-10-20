@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y$ 在某点可微的含义是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\Delta y\\approx a\\Delta x$, $a$ 为常数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\Delta y=a\\Delta x+\\alpha$, $\\alpha$ 与 $\\Delta x$ 无关且为高阶无穷小"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Delta y$ 与 $\\Delta x$ 成比例"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\Delta y=a\\Delta x+\\alpha$，$\\alpha\\to0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "可微定义为增量可写成线性主部加高阶无穷小。",
+  "search_text": "函数 $y$ 在某点可微的含义是（ ）。 $\\Delta y\\approx a\\Delta x$, $a$ 为常数 $\\Delta y=a\\Delta x+\\alpha$, $\\alpha$ 与 $\\Delta x$ 无关且为高阶无穷小 $\\Delta y$ 与 $\\Delta x$ 成比例 $\\Delta y=a\\Delta x+\\alpha$，$\\alpha\\to0$ 可微定义为增量可写成线性主部加高阶无穷小。",
+  "sort_order": 18
+}

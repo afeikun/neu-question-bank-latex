@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\Omega$ 是由曲面 $x^2+y^2=2z$ 及平面 $z=8$ 所围成的区域，则 $\\iiint_\\Omega z\\,dv$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{24}{3}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{16}{3}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{512}{3}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1024}{3}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "\\Omega 在 $xoy$ 面上投影为：$x^2+y^2\\leq16$，利用柱面坐标变换计算\n\n$$\n\\iiint_{\\Omega}zdv=\\int_0^{2\\pi}d\\theta\\int_0^4rdr\\int_{\\frac{r^2}{2}}^8zdz=2\\pi\\int_0^4r(32-\\frac{r^4}{8})dr=\\frac{1024}{3}\\pi\n$$",
+  "search_text": "$\\Omega$ 是由曲面 $x^2+y^2=2z$ 及平面 $z=8$ 所围成的区域，则 $\\iiint_\\Omega z\\,dv$ 的值为（ ） $\\frac{24}{3}\\pi$ $\\frac{16}{3}\\pi$ $\\frac{512}{3}\\pi$ $\\frac{1024}{3}\\pi$ \\Omega 在 $xoy$ 面上投影为：$x^2+y^2\\leq16$，利用柱面坐标变换计算\n\n$$\n\\iiint_{\\Omega}zdv=\\int_0^{2\\pi}d\\theta\\int_0^4rdr\\int_{\\frac{r^2}{2}}^8zdz=2\\pi\\int_0^4r(32-\\frac{r^4}{8})dr=\\frac{1024}{3}\\pi\n$$",
+  "sort_order": 7
+}

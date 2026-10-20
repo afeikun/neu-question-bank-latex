@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若连续函数 $y(x)$ 满足方程 $y(x)=\\int_0^x y(t)dt+e^x$，则 $y(x)$ 的表达式为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y(x)=ce^x+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y(x)=e^xx+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y(x)=e^x(x+1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y(x)=e^x(cx+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "在已知等式两边对 $x$ 求导可得：$y'=y+e^x$\n\n所以 $y(x)=e^{\\int dx}[\\int e^xe^{-\\int dx}dx+c]=e^x(x+c)$，由 $y(0)=1$ 得 $c=1$\n\n即 $y(x)=e^x(x+1)$",
+  "search_text": "若连续函数 $y(x)$ 满足方程 $y(x)=\\int_0^x y(t)dt+e^x$，则 $y(x)$ 的表达式为（ ） $y(x)=ce^x+1$ $y(x)=e^xx+1$ $y(x)=e^x(x+1)$ $y(x)=e^x(cx+1)$ 在已知等式两边对 $x$ 求导可得：$y'=y+e^x$\n\n所以 $y(x)=e^{\\int dx}[\\int e^xe^{-\\int dx}dx+c]=e^x(x+c)$，由 $y(0)=1$ 得 $c=1$\n\n即 $y(x)=e^x(x+1)$",
+  "sort_order": 13
+}

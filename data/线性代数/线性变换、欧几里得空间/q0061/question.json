@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "假设线性变换 $T$ 在两个基 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 和 $\\beta_1,\\beta_2,\\ldots,\\beta_n$ 下的矩阵分别是 $A$ 和 $B$，若 $A$ 可逆，则结论正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$B$ 可逆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "矩阵 $A$ 与 $B$ 必然均为可逆矩阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "矩阵 $A$ 与 $B$ 可能一个可逆另一个不可逆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "矩阵 $A$ 与 $B$ 必然均为不可逆矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "不同基下的矩阵满足 $B=C^{-1}AC$，其中 $C$ 为可逆过渡矩阵。因此 $A$ 与 $B$ 相似，具有相同的秩；若 $A$ 可逆，则 $B$ 也可逆。",
+  "search_text": "假设线性变换 $T$ 在两个基 $\\alpha_1,\\alpha_2,\\ldots,\\alpha_n$ 和 $\\beta_1,\\beta_2,\\ldots,\\beta_n$ 下的矩阵分别是 $A$ 和 $B$，若 $A$ 可逆，则结论正确的是（ ）。 $B$ 可逆 矩阵 $A$ 与 $B$ 必然均为可逆矩阵 矩阵 $A$ 与 $B$ 可能一个可逆另一个不可逆 矩阵 $A$ 与 $B$ 必然均为不可逆矩阵 不同基下的矩阵满足 $B=C^{-1}AC$，其中 $C$ 为可逆过渡矩阵。因此 $A$ 与 $B$ 相似，具有相同的秩；若 $A$ 可逆，则 $B$ 也可逆。",
+  "sort_order": 61
+}

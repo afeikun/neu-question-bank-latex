@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $l:\\frac x3=\\frac y{-2}=\\frac z{-7}$ 与平面 $\\Pi:3x-2y-7z-3=0$ 的位置关系为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$l\\parallel\\Pi$ 且 $l\\not\\subset\\Pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$l$ 在 $\\Pi$ 上"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$l$ 与 $\\Pi$ 相交且垂直"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$l$ 与 $\\Pi$ 相交但不垂直"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因 $\\vec{s}=(3,-2,-7)=\\vec{n}$，所以直线与平面垂直，故 $l$ 与 $\\Pi$ 垂直相交。",
+  "search_text": "直线 $l:\\frac x3=\\frac y{-2}=\\frac z{-7}$ 与平面 $\\Pi:3x-2y-7z-3=0$ 的位置关系为(\\quad)。 $l\\parallel\\Pi$ 且 $l\\not\\subset\\Pi$ $l$ 在 $\\Pi$ 上 $l$ 与 $\\Pi$ 相交且垂直 $l$ 与 $\\Pi$ 相交但不垂直 因 $\\vec{s}=(3,-2,-7)=\\vec{n}$，所以直线与平面垂直，故 $l$ 与 $\\Pi$ 垂直相交。",
+  "sort_order": 5
+}

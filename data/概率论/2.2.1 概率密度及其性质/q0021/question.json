@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\varphi(x)=\\sin x$（$x\\in I$），其余为0，$I$为区间且使其成为密度，选（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[-\\pi/2,\\pi)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(0,\\pi]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\pi,3\\pi/2]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$[-\\pi/2,0]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "需要$\\sin x\\ge0$且积分为1，区间$(0,\\pi)$满足$\\int_0^\\pi\\sin xdx=2$，题图解析给出$[-\\cos x]_a^b=1$，对应选项1。",
+  "search_text": "$\\varphi(x)=\\sin x$（$x\\in I$），其余为0，$I$为区间且使其成为密度，选（ ）。 $[-\\pi/2,\\pi)$ $(0,\\pi]$ $(\\pi,3\\pi/2]$ $[-\\pi/2,0]$ 需要$\\sin x\\ge0$且积分为1，区间$(0,\\pi)$满足$\\int_0^\\pi\\sin xdx=2$，题图解析给出$[-\\cos x]_a^b=1$，对应选项1。",
+  "sort_order": 21
+}

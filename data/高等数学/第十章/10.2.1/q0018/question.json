@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\frac{dy}{dx}=\\frac{1+y^2}{xy+x^3y}$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1+x^2)(1+y^2)=Cx^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x^2y^2=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x^2+y^2=2xy+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$xy=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\frac{y\\,dy}{1+y^2}=\\frac{dx}{x(1+x^2)}$，两边积分，\n\n左边 $=\\frac{1}{2}\\int\\frac{d(1+y^2)}{1+y^2}=\\frac{1}{2}\\ln(1+y^2)$，\n\n右边 $=\\int\\frac{x\\,dx}{x^2(1+x^2)}=\\frac{1}{2}\\int\\frac{dx^2}{x^2(1+x^2)}=\\frac{1}{2}\\int\\left(\\frac{1}{x^2}-\\frac{1}{1+x^2}\\right)dx^2=\\frac{1}{2}\\ln\\frac{x^2}{1+x^2}+\\frac{1}{2}\\ln C.$",
+  "search_text": "微分方程 $\\frac{dy}{dx}=\\frac{1+y^2}{xy+x^3y}$ 的通解为（ ） $(1+x^2)(1+y^2)=Cx^2$ $x^2y^2=C$ $x^2+y^2=2xy+C$ $xy=C$ $\\frac{y\\,dy}{1+y^2}=\\frac{dx}{x(1+x^2)}$，两边积分，\n\n左边 $=\\frac{1}{2}\\int\\frac{d(1+y^2)}{1+y^2}=\\frac{1}{2}\\ln(1+y^2)$，\n\n右边 $=\\int\\frac{x\\,dx}{x^2(1+x^2)}=\\frac{1}{2}\\int\\frac{dx^2}{x^2(1+x^2)}=\\frac{1}{2}\\int\\left(\\frac{1}{x^2}-\\frac{1}{1+x^2}\\right)dx^2=\\frac{1}{2}\\ln\\frac{x^2}{1+x^2}+\\frac{1}{2}\\ln C.$",
+  "sort_order": 18
+}

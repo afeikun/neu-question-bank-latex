@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$yy\\prime\\prime+(y\\prime)^2=0$ 满足条件 $y\\prime(0)=\\frac12,\\ y(0)=1$ 的特解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^2=\\frac{x}{2}+\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^2=x+\\frac12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^2=\\frac12x+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^2=x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：$\\frac{d}{dx}(yy')=0$，故有 $yy'=C_1$，由 $y'(0)=\\frac{1}{2}$，$y(0)=1$ 得 $C_1=\\frac{1}{2}$，\n\n即 $yy'=\\frac{1}{2}$，从而 $\\frac{y^2}{2}=\\frac{1}{2}x+C_2$。由 $y(0)=1$ 得 $C_2=\\frac{1}{2}$，所以 $y^2=x+1$",
+  "search_text": "$yy\\prime\\prime+(y\\prime)^2=0$ 满足条件 $y\\prime(0)=\\frac12,\\ y(0)=1$ 的特解是（ ） $y^2=\\frac{x}{2}+\\frac12$ $y^2=x+\\frac12$ $y^2=\\frac12x+1$ $y^2=x+1$ 解析：$\\frac{d}{dx}(yy')=0$，故有 $yy'=C_1$，由 $y'(0)=\\frac{1}{2}$，$y(0)=1$ 得 $C_1=\\frac{1}{2}$，\n\n即 $yy'=\\frac{1}{2}$，从而 $\\frac{y^2}{2}=\\frac{1}{2}x+C_2$。由 $y(0)=1$ 得 $C_2=\\frac{1}{2}$，所以 $y^2=x+1$",
+  "sort_order": 25
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期3且在区间可积，傅里叶余弦系数 $a_n$ 的表达式是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac23\\int_{-3/2}^{3/2}f(x)\\cos(2n\\pi x/3)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac13\\int f(x)\\cos(n\\pi x)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13\\int_{-3/2}^{3/2}f(x)\\cos(2n\\pi x/3)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac23\\int_a^bf(x)\\cos(n\\pi x)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "周期 $2l=3$ 时 $a_n=\\frac1l\\int_{-l}^l f(x)\\cos(n\\pi x/l)dx$。",
+  "search_text": "周期3且在区间可积，傅里叶余弦系数 $a_n$ 的表达式是？ $\\frac23\\int_{-3/2}^{3/2}f(x)\\cos(2n\\pi x/3)dx$ $\\frac13\\int f(x)\\cos(n\\pi x)dx$ $\\frac13\\int_{-3/2}^{3/2}f(x)\\cos(2n\\pi x/3)dx$ $\\frac23\\int_a^bf(x)\\cos(n\\pi x)dx$ 周期 $2l=3$ 时 $a_n=\\frac1l\\int_{-l}^l f(x)\\cos(n\\pi x/l)dx$。",
+  "sort_order": 26
+}

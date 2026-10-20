@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f$ 为 $2\\pi$ 周期连续可导函数，其傅里叶系数 $a_n,b_n$，下列正确的是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim a_n=-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim a_n=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim b_n=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim b_n=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "分部积分可得 $a_n,b_n=O(1/n)$，故均趋于0。",
+  "search_text": "若 $f$ 为 $2\\pi$ 周期连续可导函数，其傅里叶系数 $a_n,b_n$，下列正确的是？ $\\lim a_n=-1$ $\\lim a_n=1$ $\\lim b_n=0$ $\\lim b_n=1$ 分部积分可得 $a_n,b_n=O(1/n)$，故均趋于0。",
+  "sort_order": 1
+}

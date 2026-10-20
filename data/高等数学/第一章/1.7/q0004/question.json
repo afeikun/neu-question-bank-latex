@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0$ 时，$\\arcsin(\\sqrt{4+x^2}-2)$ 是 $x$ 的几阶无穷小？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\sqrt{4+x^2}-2\\sim x^2/4$ 且 $\\arcsin u\\sim u$，故为二阶无穷小。",
+  "search_text": "当 $x\\to0$ 时，$\\arcsin(\\sqrt{4+x^2}-2)$ 是 $x$ 的几阶无穷小？ 4 3 2 1 $\\sqrt{4+x^2}-2\\sim x^2/4$ 且 $\\arcsin u\\sim u$，故为二阶无穷小。",
+  "sort_order": 4
+}

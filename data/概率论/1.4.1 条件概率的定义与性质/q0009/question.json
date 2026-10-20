@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 是两个随机事件，且 $0<P(A)<1$，$P(B)>0$，$P(B\\mid A)=P(B\\mid\\overline A)$，则有(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\overline A B)=P(\\overline A)P(B)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A\\mid B)=P(\\overline A\\mid\\overline B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(A\\mid B)\\ne P(\\overline A\\mid\\overline B)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(\\overline{AB})\\ne P(\\overline A)P(B)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "条件 $P(B\\mid A)=P(B\\mid\\overline A)$ 表明 $A,B$ 独立，因此 $P(\\overline A B)=P(\\overline A)P(B)$。",
+  "search_text": "设 $A,B$ 是两个随机事件，且 $0<P(A)<1$，$P(B)>0$，$P(B\\mid A)=P(B\\mid\\overline A)$，则有(\\quad)。 $P(\\overline A B)=P(\\overline A)P(B)$ $P(A\\mid B)=P(\\overline A\\mid\\overline B)$ $P(A\\mid B)\\ne P(\\overline A\\mid\\overline B)$ $P(\\overline{AB})\\ne P(\\overline A)P(B)$ 条件 $P(B\\mid A)=P(B\\mid\\overline A)$ 表明 $A,B$ 独立，因此 $P(\\overline A B)=P(\\overline A)P(B)$。",
+  "sort_order": 9
+}

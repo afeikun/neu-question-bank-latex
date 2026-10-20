@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $m\\times n$ 矩阵，$R(A)<n$，则方程组 $A^TAx=0$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "有无穷多组解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无解"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "仅有零解"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "有有限多组解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$R(A)<n$ 表明 $Ax=0$ 有非零解，而 $A^TAx=0$ 与 $Ax=0$ 同解，因此也有无穷多组解。",
+  "search_text": "设 $A$ 为 $m\\times n$ 矩阵，$R(A)<n$，则方程组 $A^TAx=0$（ ）。 有无穷多组解 无解 仅有零解 有有限多组解 $R(A)<n$ 表明 $Ax=0$ 有非零解，而 $A^TAx=0$ 与 $Ax=0$ 同解，因此也有无穷多组解。",
+  "sort_order": 33
+}

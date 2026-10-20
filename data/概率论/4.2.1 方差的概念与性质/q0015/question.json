@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设随机变量 $\\xi_1,\\xi_2,\\ldots,\\xi_n$ 相互独立，且 $E(\\xi_i)$ 及 $D(\\xi_i)$ 都存在（$i=1,2,\\ldots,n$），又 $c,k_1,k_2,\\ldots,k_n$ 为 $n+1$ 个任意常数，则下面的等式中错误的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$D\\left(\\sum_{i=1}^{n}k_i\\xi_i+c\\right)=\\sum_{i=1}^{n}k_iD(\\xi_i)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E\\left(\\sum_{i=1}^{n}k_i\\xi_i+c\\right)=\\sum_{i=1}^{n}k_iE(\\xi_i)+c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$E\\left(\\\\prod_{i=1}^{n}k_i\\xi_i\\right)=\\\\prod_{i=1}^{n}k_iE(\\xi_i)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$D\\left(\\sum_{i=1}^{n}k_i\\xi_i\\right)=\\sum_{i=1}^{n}k_i^2D(\\xi_i)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "独立变量线性组合的方差为 $\\sum k_i^2D(\\xi_i)$，常数项不影响方差；因此选项1漏掉了系数平方，是错误等式。",
+  "search_text": "设随机变量 $\\xi_1,\\xi_2,\\ldots,\\xi_n$ 相互独立，且 $E(\\xi_i)$ 及 $D(\\xi_i)$ 都存在（$i=1,2,\\ldots,n$），又 $c,k_1,k_2,\\ldots,k_n$ 为 $n+1$ 个任意常数，则下面的等式中错误的是(\\quad)。 $D\\left(\\sum_{i=1}^{n}k_i\\xi_i+c\\right)=\\sum_{i=1}^{n}k_iD(\\xi_i)$ $E\\left(\\sum_{i=1}^{n}k_i\\xi_i+c\\right)=\\sum_{i=1}^{n}k_iE(\\xi_i)+c$ $E\\left(\\\\prod_{i=1}^{n}k_i\\xi_i\\right)=\\\\prod_{i=1}^{n}k_iE(\\xi_i)$ $D\\left(\\sum_{i=1}^{n}k_i\\xi_i\\right)=\\sum_{i=1}^{n}k_i^2D(\\xi_i)$ 独立变量线性组合的方差为 $\\sum k_i^2D(\\xi_i)$，常数项不影响方差；因此选项1漏掉了系数平方，是错误等式。",
+  "sort_order": 15
+}

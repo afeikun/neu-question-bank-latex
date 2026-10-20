@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(z)=\\dfrac{e^z}{z-1}$ 在环形域 $0<|z-1|<+\\infty$ 内的洛朗展开式为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e\\sum_{n=0}^{\\infty}\\dfrac{(z-1)^{n-1}}{n!}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\dfrac{e(z-1)^{n-1}}{n}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\dfrac{e^n(z-1)^{n-1}}{n!}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}\\dfrac{e^n(z-1)^{n-1}}{n}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(z)=\\dfrac{e}{z-1}e^{z-1}=\\dfrac{e}{z-1}\\sum_{n=0}^{\\infty}\\dfrac{(z-1)^n}{n!}=e\\sum_{n=0}^{\\infty}\\dfrac{(z-1)^{n-1}}{n!}$。",
+  "search_text": "函数 $f(z)=\\dfrac{e^z}{z-1}$ 在环形域 $0<|z-1|<+\\infty$ 内的洛朗展开式为（ ）。 $e\\sum_{n=0}^{\\infty}\\dfrac{(z-1)^{n-1}}{n!}$ $\\sum_{n=0}^{\\infty}\\dfrac{e(z-1)^{n-1}}{n}$ $\\sum_{n=0}^{\\infty}\\dfrac{e^n(z-1)^{n-1}}{n!}$ $\\sum_{n=0}^{\\infty}\\dfrac{e^n(z-1)^{n-1}}{n}$ $f(z)=\\dfrac{e}{z-1}e^{z-1}=\\dfrac{e}{z-1}\\sum_{n=0}^{\\infty}\\dfrac{(z-1)^n}{n!}=e\\sum_{n=0}^{\\infty}\\dfrac{(z-1)^{n-1}}{n!}$。",
+  "sort_order": 42
+}

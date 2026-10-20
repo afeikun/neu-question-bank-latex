@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=f(x)$ 与 $x$ 轴围成的曲边梯形面积与曲线弧长正比，比例系数 $k$，求曲线。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln|y+\\sqrt{y^2-k^2}|=\\pm x+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\ln|y-\\sqrt{y^2-k^2}|=\\pm \\frac{x}{k}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln|y+\\sqrt{y^2-k^2}|=\\pm \\frac{x}{k}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln|y+\\sqrt{y^2-k^2}|=\\pm x/k+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：依题意得：$\\int_a^{x_0}y\\,dx=k\\int_a^{x_0}\\sqrt{1+y'^2}\\,dx$，两边关于$x_0$求导得：$y=k\\sqrt{1+y'^2}$，积分得\n\n$\\ln|y+\\sqrt{y^2-k^2}|=\\pm\\frac{x}{k}+C$。",
+  "search_text": "曲线 $y=f(x)$ 与 $x$ 轴围成的曲边梯形面积与曲线弧长正比，比例系数 $k$，求曲线。 $\\ln|y+\\sqrt{y^2-k^2}|=\\pm x+C$ $\\ln|y-\\sqrt{y^2-k^2}|=\\pm \\frac{x}{k}+C$ $\\ln|y+\\sqrt{y^2-k^2}|=\\pm \\frac{x}{k}+C$ $\\ln|y+\\sqrt{y^2-k^2}|=\\pm x/k+C$ 解析：依题意得：$\\int_a^{x_0}y\\,dx=k\\int_a^{x_0}\\sqrt{1+y'^2}\\,dx$，两边关于$x_0$求导得：$y=k\\sqrt{1+y'^2}$，积分得\n\n$\\ln|y+\\sqrt{y^2-k^2}|=\\pm\\frac{x}{k}+C$。",
+  "sort_order": 37
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $f(x)=\\frac{e^x-b}{(x-a)(x-1)}$ 在点 $x=1$ 处有可去间断点，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a\\ne1,b=e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=1,b=e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=e,b\\ne1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a\\ne1,b\\ne e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "可去间断条件给出 $e^1-b=0$，故 $b=e$；且 $x-a$ 在 $x=1$ 不为零，故 $a\\ne1$。",
+  "search_text": "设函数 $f(x)=\\frac{e^x-b}{(x-a)(x-1)}$ 在点 $x=1$ 处有可去间断点，则（ ）。 $a\\ne1,b=e$ $a=1,b=e$ $a=e,b\\ne1$ $a\\ne1,b\\ne e$ 可去间断条件给出 $e^1-b=0$，故 $b=e$；且 $x-a$ 在 $x=1$ 不为零，故 $a\\ne1$。",
+  "sort_order": 30
+}

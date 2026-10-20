@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线 $\\begin{cases}3x+2z=0\\\\5x-1=0\\end{cases}$(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "平行于 $x$ 轴"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "平行于 $y$ 轴"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "垂直于 $y$ 轴"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "垂直于 $xoy$ 面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：由直线方程解得\n$$\n\\begin{cases}x=\\frac{1}{5}\\\\z=-\\frac{3}{10}\\end{cases}\n$$\n，所以两平面交线即直线平行于 $y$ 轴。",
+  "search_text": "直线 $\\begin{cases}3x+2z=0\\\\5x-1=0\\end{cases}$(\\quad)。 平行于 $x$ 轴 平行于 $y$ 轴 垂直于 $y$ 轴 垂直于 $xoy$ 面 解答：由直线方程解得\n$$\n\\begin{cases}x=\\frac{1}{5}\\\\z=-\\frac{3}{10}\\end{cases}\n$$\n，所以两平面交线即直线平行于 $y$ 轴。",
+  "sort_order": 24
+}

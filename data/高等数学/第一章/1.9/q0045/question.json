@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\begin{cases}2\\sqrt{x},&0\\le x<1\\\\1,&x=1\\\\1+x,&x>1\\end{cases}$，在点 $x=1$ 处（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "有第二类间断点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "有跳跃间断点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "有可去间断点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "连续"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\lim_{x\\to1^-}f(x)=\\lim_{x\\to1^+}f(x)=2\\ne f(1)$，故为可去间断点。",
+  "search_text": "函数 $f(x)=\\begin{cases}2\\sqrt{x},&0\\le x<1\\\\1,&x=1\\\\1+x,&x>1\\end{cases}$，在点 $x=1$ 处（ ）。 有第二类间断点 有跳跃间断点 有可去间断点 连续 $\\lim_{x\\to1^-}f(x)=\\lim_{x\\to1^+}f(x)=2\\ne f(1)$，故为可去间断点。",
+  "sort_order": 45
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一闸门形状如图，宽 $2m$，水面距门顶 $1m$，门高 $3m$，求水对闸门压力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1.47\\times10^5N$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4.47\\times10^5N$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2.47\\times10^5N$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3.47\\times10^5N$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P=\\int_1^4 10^3\\cdot9.8\\cdot2x dx=1.47\\times10^5N$。",
+  "search_text": "一闸门形状如图，宽 $2m$，水面距门顶 $1m$，门高 $3m$，求水对闸门压力。 $1.47\\times10^5N$ $4.47\\times10^5N$ $2.47\\times10^5N$ $3.47\\times10^5N$ $P=\\int_1^4 10^3\\cdot9.8\\cdot2x dx=1.47\\times10^5N$。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲面 $z=\\sqrt{x^2+y^2}$ 是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$zOx$ 面上的曲线 $z=x$ 绕 $z$ 轴旋转而成的旋转曲面"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$yOz$ 面上的曲线 $z=y$ 绕 $z$ 轴旋转而成的旋转曲面"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$zOx$ 面上的曲线 $z=x$ 绕 $x$ 轴旋转而成的旋转曲面"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$yOz$ 面上的曲线 $z=|y|$ 绕 $z$ 轴旋转而成的旋转曲面"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答：由曲面方程可知，曲面为旋转曲面（锥面），旋转轴为 $z$ 轴，且 $z\\ge0$；母线为 $zOx$ 面上的曲线 $z=|x|$，或为 $yOz$ 面上的曲线 $z=|y|$。",
+  "search_text": "曲面 $z=\\sqrt{x^2+y^2}$ 是(\\quad)。 $zOx$ 面上的曲线 $z=x$ 绕 $z$ 轴旋转而成的旋转曲面 $yOz$ 面上的曲线 $z=y$ 绕 $z$ 轴旋转而成的旋转曲面 $zOx$ 面上的曲线 $z=x$ 绕 $x$ 轴旋转而成的旋转曲面 $yOz$ 面上的曲线 $z=|y|$ 绕 $z$ 轴旋转而成的旋转曲面 解答：由曲面方程可知，曲面为旋转曲面（锥面），旋转轴为 $z$ 轴，且 $z\\ge0$；母线为 $zOx$ 面上的曲线 $z=|x|$，或为 $yOz$ 面上的曲线 $z=|y|$。",
+  "sort_order": 4
+}

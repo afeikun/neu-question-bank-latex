@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\mathcal{L}^{-1}[\\frac{s+3}{s^3+3s^2+6s+4}]=(\\quad).$",
+  "options_json": [
+    {
+      "content_md": "$\\frac13e^{-t}(\\sqrt3\\sin\\sqrt3t+2-2\\cos\\sqrt3t)$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "$\\frac13e^{-t}(\\sqrt3\\sin\\sqrt3t+2+2\\cos\\sqrt3t)$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$\\frac13e^{-t}(\\sqrt3\\sin\\sqrt3t-2+2\\cos\\sqrt3t)$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$\\frac13e^{-t}(\\sqrt3\\sin\\sqrt3t-2-2\\cos\\sqrt3t)$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分母分解为 $(s+1)((s+1)^2+3)$ 并作部分分式，反变换得选项1。",
+  "search_text": "$\\mathcal{L}^{-1}[\\frac{s+3}{s^3+3s^2+6s+4}]=(\\quad).$ $\\frac13e^{-t}(\\sqrt3\\sin\\sqrt3t+2-2\\cos\\sqrt3t)$ $\\frac13e^{-t}(\\sqrt3\\sin\\sqrt3t+2+2\\cos\\sqrt3t)$ $\\frac13e^{-t}(\\sqrt3\\sin\\sqrt3t-2+2\\cos\\sqrt3t)$ $\\frac13e^{-t}(\\sqrt3\\sin\\sqrt3t-2-2\\cos\\sqrt3t)$ 分母分解为 $(s+1)((s+1)^2+3)$ 并作部分分式，反变换得选项1。",
+  "sort_order": 9
+}

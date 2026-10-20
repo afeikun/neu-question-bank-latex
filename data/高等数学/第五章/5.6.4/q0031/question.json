@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $f(x)=x-1$（$0\\le x\\le2$）作周期4正弦级数，求展开式。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac4\\pi\\sum_{n=1}^{\\infty}\\sin(n\\pi x)/n^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac4\\pi\\sum_{n=1}^{\\infty}\\sin(n\\pi x/2)/n^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac4\\pi\\sum_{n=1}^{\\infty}\\frac{\\sin(n\\pi x)}n,\\quad x\\in(0,2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac2\\pi\\sum_{n=1}^{\\infty}\\sin(n\\pi x/2)/n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "源解析对 $f(x)$ 进行奇延拓，$a_n=0$。并给出 $b_n=\\frac22\\int_0^2(x-1)\\sin\\frac{n\\pi x}2dx=-\\frac2{n\\pi}[(-1)^n+1]=\\begin{cases}0,&n=2k-1,\\\\-\\frac4{k\\pi},&n=2k,\\end{cases}\\ k=1,2,\\ldots$。所以源末行写为 $f(x)=-\\frac4\\pi\\sum_{k=1}^{\\infty}\\frac1k\\sin(k\\pi x),\\ x\\in(0,2)$。",
+  "search_text": "将 $f(x)=x-1$（$0\\le x\\le2$）作周期4正弦级数，求展开式。 $-\\frac4\\pi\\sum_{n=1}^{\\infty}\\sin(n\\pi x)/n^2$ $-\\frac4\\pi\\sum_{n=1}^{\\infty}\\sin(n\\pi x/2)/n^2$ $-\\frac4\\pi\\sum_{n=1}^{\\infty}\\frac{\\sin(n\\pi x)}n,\\quad x\\in(0,2)$ $-\\frac2\\pi\\sum_{n=1}^{\\infty}\\sin(n\\pi x/2)/n$ 源解析对 $f(x)$ 进行奇延拓，$a_n=0$。并给出 $b_n=\\frac22\\int_0^2(x-1)\\sin\\frac{n\\pi x}2dx=-\\frac2{n\\pi}[(-1)^n+1]=\\begin{cases}0,&n=2k-1,\\\\-\\frac4{k\\pi},&n=2k,\\end{cases}\\ k=1,2,\\ldots$。所以源末行写为 $f(x)=-\\frac4\\pi\\sum_{k=1}^{\\infty}\\frac1k\\sin(k\\pi x),\\ x\\in(0,2)$。",
+  "sort_order": 31
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=Ae^{-2x^2+2xy-y^2}$，全平面上为密度，求$A$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(2\\pi)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对二次型配方并作高斯积分，归一化得$A=1/\\pi$。",
+  "search_text": "$f(x,y)=Ae^{-2x^2+2xy-y^2}$，全平面上为密度，求$A$。 $\\pi$ $2\\pi$ $1/\\pi$ $1/(2\\pi)$ 对二次型配方并作高斯积分，归一化得$A=1/\\pi$。",
+  "sort_order": 5
+}

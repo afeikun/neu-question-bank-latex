@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=x^{n-1}e^{-1/x},n=1,2,\\ldots$，则 $y^{(n)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$(-1)^{n-1}x^{-n-1}e^{-1/x}$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$(-1)^{n-1}x^{-n}e^{-1/x}$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$x^{-n}e^{-1/x}$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$x^{-n-1}e^{-1/x}$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "按归纳法求导可得 $y^{(n)}=x^{-n-1}e^{-1/x}$。",
+  "search_text": "$y=x^{n-1}e^{-1/x},n=1,2,\\ldots$，则 $y^{(n)}=$（ ）。 $$(-1)^{n-1}x^{-n-1}e^{-1/x}$$ $$(-1)^{n-1}x^{-n}e^{-1/x}$$ $$x^{-n}e^{-1/x}$$ $$x^{-n-1}e^{-1/x}$$ 按归纳法求导可得 $y^{(n)}=x^{-n-1}e^{-1/x}$。",
+  "sort_order": 17
+}

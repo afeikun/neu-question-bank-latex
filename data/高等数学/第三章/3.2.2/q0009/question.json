@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\cos x=1-\\frac{x^2}{2}+R_3(x)$，则 $R_3(x)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\cos\\xi}{4!}x^4$（$\\xi$ 介于 $0$ 与 $x$ 之间）；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\cos\\xi}{3!}x^3$（$\\xi$ 介于 $0$ 与 $x$ 之间）；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac{\\cos\\xi}{3!}x^3$（$\\xi$ 介于 $0$ 与 $x$ 之间）；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{\\cos\\xi}{4!}x^4$（$\\xi$ 介于 $0$ 与 $x$ 之间）。"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "三阶余项中前三阶导数在零点的相应项后，Lagrange 余项为 $R_3(x)=\\frac{f^{(4)}(\\xi)}{4!}x^4=\\frac{\\cos\\xi}{4!}x^4$。",
+  "search_text": "设 $\\cos x=1-\\frac{x^2}{2}+R_3(x)$，则 $R_3(x)=(\\quad)$。 $\\frac{\\cos\\xi}{4!}x^4$（$\\xi$ 介于 $0$ 与 $x$ 之间）； $\\frac{\\cos\\xi}{3!}x^3$（$\\xi$ 介于 $0$ 与 $x$ 之间）； $-\\frac{\\cos\\xi}{3!}x^3$（$\\xi$ 介于 $0$ 与 $x$ 之间）； $-\\frac{\\cos\\xi}{4!}x^4$（$\\xi$ 介于 $0$ 与 $x$ 之间）。 三阶余项中前三阶导数在零点的相应项后，Lagrange 余项为 $R_3(x)=\\frac{f^{(4)}(\\xi)}{4!}x^4=\\frac{\\cos\\xi}{4!}x^4$。",
+  "sort_order": 9
+}

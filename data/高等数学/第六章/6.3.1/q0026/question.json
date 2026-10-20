@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过点 $M(1,2,1)$ 且与两向量 $s_1=(1,-2,-3)$，$s_2=(0,-1,-1)$ 都平行的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x+y-z=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x-y+z=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-y-z=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x+y+z=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "法向量 $s_1\\times s_2=(-1,1,-1)$，过 $M$ 得 $x-y+z=0$。",
+  "search_text": "过点 $M(1,2,1)$ 且与两向量 $s_1=(1,-2,-3)$，$s_2=(0,-1,-1)$ 都平行的平面方程为(\\quad)。 $x+y-z=0$ $x-y+z=0$ $x-y-z=0$ $x+y+z=0$ 法向量 $s_1\\times s_2=(-1,1,-1)$，过 $M$ 得 $x-y+z=0$。",
+  "sort_order": 26
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "摆线 $\\begin{cases}x=a(t-\\sin t)\\\\y=a(1-\\cos t)\\end{cases}$（$a>0$）在 $t=\\pi/2$ 处的曲率 $k=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt2}{a}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt2}{4a}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt2}{2a}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "参数求导得 $y\\prime=\\cot(t/2)$、$y\\prime\\prime=-\\frac1{4a}\\csc^4(t/2)$，代入 $t=\\pi/2$ 得 $k=\\sqrt2/(4a)$。",
+  "search_text": "摆线 $\\begin{cases}x=a(t-\\sin t)\\\\y=a(1-\\cos t)\\end{cases}$（$a>0$）在 $t=\\pi/2$ 处的曲率 $k=$（ ）。 $\\frac{\\sqrt2}{a}$ $\\frac{\\sqrt2}{4a}$ $0$ $\\frac{\\sqrt2}{2a}$ 参数求导得 $y\\prime=\\cot(t/2)$、$y\\prime\\prime=-\\frac1{4a}\\csc^4(t/2)$，代入 $t=\\pi/2$ 得 $k=\\sqrt2/(4a)$。",
+  "sort_order": 3
+}

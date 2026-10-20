@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "立体 $\\Omega$ 是由 $x^2+y^2\\leq z\\leq2-x^2-y^2$ 决定的有界闭区域，体密度 $\\rho(x,y,z)=z$，则立体对 $z$ 轴的转动惯量 $I_z=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由柱坐标变换，$0\\leq r\\leq1$，$r^2\\leq z\\leq2-r^2$，故 $I_z=\\iiint_\\Omega z(x^2+y^2)\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^1r^3dr\\int_{r^2}^{2-r^2}z\\,dz=\\pi\\int_0^1(4r^3-4r^5)dr=\\frac\\pi3$，选 C。",
+  "search_text": "立体 $\\Omega$ 是由 $x^2+y^2\\leq z\\leq2-x^2-y^2$ 决定的有界闭区域，体密度 $\\rho(x,y,z)=z$，则立体对 $z$ 轴的转动惯量 $I_z=$（ ） $\\frac\\pi6$ $\\frac\\pi4$ $\\frac\\pi3$ $\\frac\\pi2$ 由柱坐标变换，$0\\leq r\\leq1$，$r^2\\leq z\\leq2-r^2$，故 $I_z=\\iiint_\\Omega z(x^2+y^2)\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^1r^3dr\\int_{r^2}^{2-r^2}z\\,dz=\\pi\\int_0^1(4r^3-4r^5)dr=\\frac\\pi3$，选 C。",
+  "sort_order": 7
+}

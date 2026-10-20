@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "给定周期函数及 $a_n$ 的傅里叶余弦系数，求 $\\sum_{n=0}^\\infty a_n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用 $S(0)=f(0)$ 与 $a_0/2$ 的关系，所得和为0。",
+  "search_text": "给定周期函数及 $a_n$ 的傅里叶余弦系数，求 $\\sum_{n=0}^\\infty a_n$。 $\\pi$ 0 $3\\pi$ $4\\pi$ 利用 $S(0)=f(0)$ 与 $a_0/2$ 的关系，所得和为0。",
+  "sort_order": 8
+}

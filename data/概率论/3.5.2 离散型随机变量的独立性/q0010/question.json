@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二维离散随机变量$(\\xi,\\eta)$的联合分布律为$p_{ij}$，边缘分布为$p_i,q_j$，相互独立的充分必要条件是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$p_{11}=p_1q_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p_{ij}=p_iq_j$仅对$i=j$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$p_{ij}=p_iq_j$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$p_{ij}=p_iq_j\\ (i,j=1,2,\\ldots)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "独立当且仅当所有支持点均满足联合概率等于边缘概率乘积。",
+  "search_text": "二维离散随机变量$(\\xi,\\eta)$的联合分布律为$p_{ij}$，边缘分布为$p_i,q_j$，相互独立的充分必要条件是（）。 $p_{11}=p_1q_1$ $p_{ij}=p_iq_j$仅对$i=j$ $p_{ij}=p_iq_j$ $p_{ij}=p_iq_j\\ (i,j=1,2,\\ldots)$ 独立当且仅当所有支持点均满足联合概率等于边缘概率乘积。",
+  "sort_order": 10
+}

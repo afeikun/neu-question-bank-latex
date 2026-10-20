@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $X$ 和 $Y$ 的联合密度为 $f(x,y)=\\begin{cases}cxy,0\\le x\\le1,0\\le y\\le1\\\\0,其它\\end{cases}$，则 $X$ 和 $Y$ 的联合分布函数 $F(x,y)$ 为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$F(x,y)=\\begin{cases}0&x\\le0或y\\le0\\\\x^2&0\\le x\\le1,y>1\\\\x^2y^2&0\\le x\\le1,0\\le y\\le1\\\\y^2&x>1,0\\le y\\le1\\\\1&x>1,y>1\\end{cases}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$F(x,y)=\\begin{cases}0&x\\le0或y\\le0\\\\y^2&0\\le x\\le1,y>1\\\\x^2y^2&0\\le x\\le1,0\\le y\\le1\\\\x^2&x>1,0\\le y\\le1\\\\1&x>1,y>1\\end{cases}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$F(x,y)=\\begin{cases}1&x\\le0或y\\le0\\\\x^2&0\\le x\\le1,y>1\\\\x^2y^2&0\\le x\\le1,0\\le y\\le1\\\\y^2&x>1,0\\le y\\le1\\\\0&x>1,y>1\\end{cases}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$F(x,y)=\\begin{cases}1&x\\le0或y\\le0\\\\y^2&0\\le x\\le1,y>1\\\\x^2y^2&0\\le x\\le1,0\\le y\\le1\\\\x^2&x>1,0\\le y\\le1\\\\0&x>1,y>1\\end{cases}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由于 $1=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dxdy=c\\int_0^1\\int_0^1xydxdy=\\frac c4,c=4$。\n\n当 $x\\le0或y\\le0$ 时，显然 $F(x,y)=0$；\n\n当 $x\\ge1,y\\ge1$ 时，显然 $F(x,y)=0$。\n\n设 $0\\le x\\le1,0\\le y\\le1$，有 $F(x,y)=\\int_{-\\infty}^x\\int_{-\\infty}^yf(u,v)dudv=4\\int_0^xudu\\int_0^yv\\,dv=x^2y^2$。\n\n设 $0\\le x\\le1,y>1$，有 $F(x,y)=P\\{X\\le1,Y\\le y\\}=4\\int_0^xu\\,du\\int_0^1y\\,dy=x^2$。\n\n最后，设 $x>0,0\\le y\\le1$，有 $F(x,y)=P\\{X\\le1,Y\\le y\\}=4\\int_0^1xdx\\int_0^yv\\,dv=y^2$。\n\n函数 $F(x,y)$ 在平面各区域的表达式 $F(x,y)=\\begin{cases}0,&x\\le0或y\\le0\\\\x^2,&0\\le x\\le1,y>1\\\\x^2y^2,&0\\le x\\le1,0\\le y\\le1\\\\y^2,&x>1,0\\le y\\le1\\\\1,&x>1,y>1\\end{cases}$",
+  "search_text": "已知 $X$ 和 $Y$ 的联合密度为 $f(x,y)=\\begin{cases}cxy,0\\le x\\le1,0\\le y\\le1\\\\0,其它\\end{cases}$，则 $X$ 和 $Y$ 的联合分布函数 $F(x,y)$ 为（）。 $F(x,y)=\\begin{cases}0&x\\le0或y\\le0\\\\x^2&0\\le x\\le1,y>1\\\\x^2y^2&0\\le x\\le1,0\\le y\\le1\\\\y^2&x>1,0\\le y\\le1\\\\1&x>1,y>1\\end{cases}$ $F(x,y)=\\begin{cases}0&x\\le0或y\\le0\\\\y^2&0\\le x\\le1,y>1\\\\x^2y^2&0\\le x\\le1,0\\le y\\le1\\\\x^2&x>1,0\\le y\\le1\\\\1&x>1,y>1\\end{cases}$ $F(x,y)=\\begin{cases}1&x\\le0或y\\le0\\\\x^2&0\\le x\\le1,y>1\\\\x^2y^2&0\\le x\\le1,0\\le y\\le1\\\\y^2&x>1,0\\le y\\le1\\\\0&x>1,y>1\\end{cases}$ $F(x,y)=\\begin{cases}1&x\\le0或y\\le0\\\\y^2&0\\le x\\le1,y>1\\\\x^2y^2&0\\le x\\le1,0\\le y\\le1\\\\x^2&x>1,0\\le y\\le1\\\\0&x>1,y>1\\end{cases}$ 由于 $1=\\int_{-\\infty}^{+\\infty}\\int_{-\\infty}^{+\\infty}f(x,y)dxdy=c\\int_0^1\\int_0^1xydxdy=\\frac c4,c=4$。\n\n当 $x\\le0或y\\le0$ 时，显然 $F(x,y)=0$；\n\n当 $x\\ge1,y\\ge1$ 时，显然 $F(x,y)=0$。\n\n设 $0\\le x\\le1,0\\le y\\le1$，有 $F(x,y)=\\int_{-\\infty}^x\\int_{-\\infty}^yf(u,v)dudv=4\\int_0^xudu\\int_0^yv\\,dv=x^2y^2$。\n\n设 $0\\le x\\le1,y>1$，有 $F(x,y)=P\\{X\\le1,Y\\le y\\}=4\\int_0^xu\\,du\\int_0^1y\\,dy=x^2$。\n\n最后，设 $x>0,0\\le y\\le1$，有 $F(x,y)=P\\{X\\le1,Y\\le y\\}=4\\int_0^1xdx\\int_0^yv\\,dv=y^2$。\n\n函数 $F(x,y)$ 在平面各区域的表达式 $F(x,y)=\\begin{cases}0,&x\\le0或y\\le0\\\\x^2,&0\\le x\\le1,y>1\\\\x^2y^2,&0\\le x\\le1,0\\le y\\le1\\\\y^2,&x>1,0\\le y\\le1\\\\1,&x>1,y>1\\end{cases}$",
+  "sort_order": 3
+}

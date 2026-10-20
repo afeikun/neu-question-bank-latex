@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A(1,2,0)$，$B(2,3,1)$，$C(4,2,2)$，$M(x,y,z)$ 四点共面，则点 $M$ 的坐标 $x,y,z$ 所满足的方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2x+y-3z+4=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2x+y-3z-4=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2x+y+3z-4=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2x-y+3z-4=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $AM,AB,AC$ 的混合积为零，展开得平面方程 $2x+y-3z-4=0$。",
+  "search_text": "已知 $A(1,2,0)$，$B(2,3,1)$，$C(4,2,2)$，$M(x,y,z)$ 四点共面，则点 $M$ 的坐标 $x,y,z$ 所满足的方程为(\\quad)。 $2x+y-3z+4=0$ $2x+y-3z-4=0$ $2x+y+3z-4=0$ $2x-y+3z-4=0$ 令 $AM,AB,AC$ 的混合积为零，展开得平面方程 $2x+y-3z-4=0$。",
+  "sort_order": 11
+}

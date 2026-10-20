@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A=\\begin{pmatrix}a^2&b^2&c^2&d^2\\\\a&b&c&d\\\\1&1&1&1\\end{pmatrix}$，其中 $a<b<c<d$，下列说法中，错误的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$|A^TA|=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|AA^T|\\ne0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "存在 $B\\ne0$，使 $AB=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A^Tx=0$ 只有零解"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\begin{vmatrix}a^2&b^2&c^2\\\\a&b&c\\\\1&1&1\\end{vmatrix}=-(b-a)(c-a)(c-b)\\ne0$，矩阵 $A$ 存在三阶子式，且不存在四阶子式，故 $r(A_{3\\times4})=3<4$，则 $Ax=0$ 有非零解，因此存在 $B\\ne0$，使 $AB=0$；由于 $r(A^T_{4\\times3})=3=r(A)$，故 $A^Tx=0$ 只有零解；又 $r(A^TA)\\le\\{r(A),r(A^T)\\}=3$，而 $A^TA$ 为四阶矩阵，故 $|A^TA|=0$。",
+  "search_text": "已知 $A=\\begin{pmatrix}a^2&b^2&c^2&d^2\\\\a&b&c&d\\\\1&1&1&1\\end{pmatrix}$，其中 $a<b<c<d$，下列说法中，错误的是（ ）。 $|A^TA|=0$ $|AA^T|\\ne0$ 存在 $B\\ne0$，使 $AB=0$ $A^Tx=0$ 只有零解 $\\begin{vmatrix}a^2&b^2&c^2\\\\a&b&c\\\\1&1&1\\end{vmatrix}=-(b-a)(c-a)(c-b)\\ne0$，矩阵 $A$ 存在三阶子式，且不存在四阶子式，故 $r(A_{3\\times4})=3<4$，则 $Ax=0$ 有非零解，因此存在 $B\\ne0$，使 $AB=0$；由于 $r(A^T_{4\\times3})=3=r(A)$，故 $A^Tx=0$ 只有零解；又 $r(A^TA)\\le\\{r(A),r(A^T)\\}=3$，而 $A^TA$ 为四阶矩阵，故 $|A^TA|=0$。",
+  "sort_order": 26
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{10^{2x}-7^{-x}}{2\\tan x-\\arctan x}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\ln10+\\ln7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln10-\\ln7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "分子导数在零点为 $2\\ln10+\\ln7$，分母导数为 $1$，极限为 $2\\ln10+\\ln7$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{10^{2x}-7^{-x}}{2\\tan x-\\arctan x}=(\\quad)$。 $\\frac12$ $2\\ln10+\\ln7$ $2$ $\\ln10-\\ln7$ 分子导数在零点为 $2\\ln10+\\ln7$，分母导数为 $1$，极限为 $2\\ln10+\\ln7$。",
+  "sort_order": 41
+}

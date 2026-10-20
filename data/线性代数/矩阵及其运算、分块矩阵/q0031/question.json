@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $3$ 阶方阵，且 $|A|=3$，则 $\\left|\\left(\\frac12A\\right)^2\\right|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac98$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac94$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac92$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac9{64}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\left|\\left(\\frac12A\\right)^2\\right|=\\left|\\frac14A^2\\right|=\\left(\\frac14\\right)^3|A^2|=\\frac1{64}|A||A|=\\frac9{64}$。",
+  "search_text": "设 $A$ 为 $3$ 阶方阵，且 $|A|=3$，则 $\\left|\\left(\\frac12A\\right)^2\\right|=$（ ）。 $\\frac98$ $\\frac94$ $\\frac92$ $\\frac9{64}$ $\\left|\\left(\\frac12A\\right)^2\\right|=\\left|\\frac14A^2\\right|=\\left(\\frac14\\right)^3|A^2|=\\frac1{64}|A||A|=\\frac9{64}$。",
+  "sort_order": 31
+}

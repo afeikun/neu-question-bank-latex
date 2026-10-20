@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(x)=\\begin{cases}x\\sin x,&x<0,\\\\x+1,&x\\ge0,\\end{cases}$，则 $\\lim_{x\\to0}f(x)=$（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "左极限为 $0$，右极限为 $1$，所以极限不存在。",
+  "search_text": "已知 $f(x)=\\begin{cases}x\\sin x,&x<0,\\\\x+1,&x\\ge0,\\end{cases}$，则 $\\lim_{x\\to0}f(x)=$（ ）。 $0$ $1$ $-1$ 不存在 左极限为 $0$，右极限为 $1$，所以极限不存在。",
+  "sort_order": 23
+}

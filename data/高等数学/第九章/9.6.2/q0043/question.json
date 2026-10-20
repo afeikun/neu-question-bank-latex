@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{(-2,-1)}^{(3,0)}(x^4+4xy^3)dx+(6x^2y^2-5y^4)dy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$62$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-2\\sqrt2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$5\\sqrt3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：\n\n$$P=x^4+4xy^3,\\quad Q=6x^2y^2-5y^4,$$\n\n$$\\frac{\\partial P}{\\partial y}=12xy^2=\\frac{\\partial Q}{\\partial x},$$\n\n$$\\left(x^4+4xy^3\\right)dx+\\left(6x^2y^2-5y^4\\right)dy$$\n\n$$=d\\left(\\frac{x^5}{5}\\right)+2y^3d\\left(x^2\\right)+2x^2d\\left(y^3\\right)-d\\left(y^5\\right)$$\n\n$$=d\\left(\\frac{x^5}{5}+2x^2y^3-y^5\\right),$$\n\n从而，\n\n原式 $=d\\left(\\frac{x^5}{5}+2x^2y^3-y^5\\right)\\Big|_{(-2,-1)}^{(3,0)}=62$",
+  "search_text": "$\\int_{(-2,-1)}^{(3,0)}(x^4+4xy^3)dx+(6x^2y^2-5y^4)dy=$（ ） $62$ $-2\\sqrt2$ $-6$ $5\\sqrt3$ 解析：\n\n$$P=x^4+4xy^3,\\quad Q=6x^2y^2-5y^4,$$\n\n$$\\frac{\\partial P}{\\partial y}=12xy^2=\\frac{\\partial Q}{\\partial x},$$\n\n$$\\left(x^4+4xy^3\\right)dx+\\left(6x^2y^2-5y^4\\right)dy$$\n\n$$=d\\left(\\frac{x^5}{5}\\right)+2y^3d\\left(x^2\\right)+2x^2d\\left(y^3\\right)-d\\left(y^5\\right)$$\n\n$$=d\\left(\\frac{x^5}{5}+2x^2y^3-y^5\\right),$$\n\n从而，\n\n原式 $=d\\left(\\frac{x^5}{5}+2x^2y^3-y^5\\right)\\Big|_{(-2,-1)}^{(3,0)}=62$",
+  "sort_order": 43
+}

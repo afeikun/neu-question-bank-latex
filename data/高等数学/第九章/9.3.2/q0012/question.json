@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_\\Gamma(y^2-z^2)dx+2yzdy-x^2dz$，$\\Gamma:(x,y,z)=(t,t^2,t^3)$，$t$ 从 $0$ 到 $2\\pi$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{64}{5}\\pi^5+\\frac{384}{7}\\pi^7$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{61}{5}\\pi^5+\\frac{382}{7}\\pi^7$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2-2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{64}{5}\\pi^5+\\frac{384}{7}\\pi^7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解：$$\\int_\\Gamma(y^2-z^2)dx+2yzdy-x^2dz$$\n$$=\\int_0^{2\\pi}(3t^6-2t^4)dt=-\\frac{64}{5}\\pi^5+\\frac{384}{7}\\pi^7$$",
+  "search_text": "计算 $\\int_\\Gamma(y^2-z^2)dx+2yzdy-x^2dz$，$\\Gamma:(x,y,z)=(t,t^2,t^3)$，$t$ 从 $0$ 到 $2\\pi$。 $-\\frac{64}{5}\\pi^5+\\frac{384}{7}\\pi^7$ $-\\frac{61}{5}\\pi^5+\\frac{382}{7}\\pi^7$ $-2-2\\pi$ $-\\frac{64}{5}\\pi^5+\\frac{384}{7}\\pi^7$ 解：$$\\int_\\Gamma(y^2-z^2)dx+2yzdy-x^2dz$$\n$$=\\int_0^{2\\pi}(3t^6-2t^4)dt=-\\frac{64}{5}\\pi^5+\\frac{384}{7}\\pi^7$$",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L:\\ x=a\\cos^3t,\\ y=a\\sin^3t\\ (a>0)$，则 $I=\\int_L(x^{4/3}+y^{4/3})ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3a^{7/3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$4a^{7/3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a^{7/3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 由对称性，只考虑 $L$ 位于第一象限部分 $L_1$，则\n\n$$\nI=4\\int_{L_1}\\left(x^{\\frac{4}{3}}+y^{\\frac{4}{3}}\\right)ds=4a^{\\frac{4}{3}}\\int_0^{\\frac{\\pi}{2}}\\left(\\cos^4 t+\\sin^4 t\\right)\\sqrt{x_t'^2+y_t'^2}\\,dt\n$$\n\n$$\n=4a^{\\frac{4}{3}}\\int_0^{\\frac{\\pi}{2}}\\left(\\cos^4 t+\\sin^4 t\\right)\\sqrt{9a^2\\cos^4 t\\sin^2 t+9a^2\\cos^2 t\\sin^4 t}\\,dt\n$$\n\n$$\n=12a^{\\frac{7}{3}}\\left[\\int_0^{\\frac{\\pi}{2}}\\left(\\cos^4 t+\\sin^4 t\\right)\\sin t\\cos t\\right]dt\n$$\n\n$$\n=12a^{\\frac{7}{3}}\\left[\\int_0^{\\frac{\\pi}{2}}\\sin t\\cos^5 t\\,dt+\\int_0^{\\frac{\\pi}{2}}\\sin^5 t\\cos t\\,dt\\right]=4a^{\\frac{7}{3}}\n$$",
+  "search_text": "设 $L:\\ x=a\\cos^3t,\\ y=a\\sin^3t\\ (a>0)$，则 $I=\\int_L(x^{4/3}+y^{4/3})ds=$（ ） $3a^{7/3}$ $4a$ $4a^{7/3}$ $a^{7/3}$ 解答 由对称性，只考虑 $L$ 位于第一象限部分 $L_1$，则\n\n$$\nI=4\\int_{L_1}\\left(x^{\\frac{4}{3}}+y^{\\frac{4}{3}}\\right)ds=4a^{\\frac{4}{3}}\\int_0^{\\frac{\\pi}{2}}\\left(\\cos^4 t+\\sin^4 t\\right)\\sqrt{x_t'^2+y_t'^2}\\,dt\n$$\n\n$$\n=4a^{\\frac{4}{3}}\\int_0^{\\frac{\\pi}{2}}\\left(\\cos^4 t+\\sin^4 t\\right)\\sqrt{9a^2\\cos^4 t\\sin^2 t+9a^2\\cos^2 t\\sin^4 t}\\,dt\n$$\n\n$$\n=12a^{\\frac{7}{3}}\\left[\\int_0^{\\frac{\\pi}{2}}\\left(\\cos^4 t+\\sin^4 t\\right)\\sin t\\cos t\\right]dt\n$$\n\n$$\n=12a^{\\frac{7}{3}}\\left[\\int_0^{\\frac{\\pi}{2}}\\sin t\\cos^5 t\\,dt+\\int_0^{\\frac{\\pi}{2}}\\sin^5 t\\cos t\\,dt\\right]=4a^{\\frac{7}{3}}\n$$",
+  "sort_order": 1
+}

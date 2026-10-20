@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $(3xy+y^2)dx+(x^2+xy)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$yx^3+\\frac12x^2y^2=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$yx^3+\\frac12xy=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$yx^3+\\frac12x^2y=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$yx^2+\\frac12x^2y^2=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两边同乘 $x$，可得\n\n$$\n(3x^2y\\,dx+x^3\\,dy)+(xy^2\\,dx+x^2y\\,dy)=0,\n$$\n\n即\n\n$$\nd\\,x^3y+\\frac{1}{2}d\\,x^2y^2=C,\n$$",
+  "search_text": "方程 $(3xy+y^2)dx+(x^2+xy)dy=0$ 的通解为（ ） $yx^3+\\frac12x^2y^2=C$ $yx^3+\\frac12xy=C$ $yx^3+\\frac12x^2y=C$ $yx^2+\\frac12x^2y^2=C$ 两边同乘 $x$，可得\n\n$$\n(3x^2y\\,dx+x^3\\,dy)+(xy^2\\,dx+x^2y\\,dy)=0,\n$$\n\n即\n\n$$\nd\\,x^3y+\\frac{1}{2}d\\,x^2y^2=C,\n$$",
+  "sort_order": 7
+}

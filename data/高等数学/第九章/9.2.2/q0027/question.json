@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "面密度为 $\\rho(x,y,z)$ 的曲面型薄壳绕原点的转动惯量为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\iint_\\Sigma(x^2+y^2+z^2)\\rho(x,y,z)\\,dS$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\iint_\\Sigma(x^2+z^2)\\rho(x,y,z)\\,dS$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\iint_\\Sigma(x^2+y^2)\\rho(x,y,z)\\,dS$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\iint_\\Sigma(y^2+z^2)\\rho(x,y,z)\\,dS$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答：A 为对 $z$ 轴转动惯量公式，B 为对 $x$ 轴的转动惯量公式，C 为对 $y$ 轴转动惯量公式，D 为对原点转动惯量公式。",
+  "search_text": "面密度为 $\\rho(x,y,z)$ 的曲面型薄壳绕原点的转动惯量为（ ） $\\iint_\\Sigma(x^2+y^2+z^2)\\rho(x,y,z)\\,dS$ $\\iint_\\Sigma(x^2+z^2)\\rho(x,y,z)\\,dS$ $\\iint_\\Sigma(x^2+y^2)\\rho(x,y,z)\\,dS$ $\\iint_\\Sigma(y^2+z^2)\\rho(x,y,z)\\,dS$ 解答：A 为对 $z$ 轴转动惯量公式，B 为对 $x$ 轴的转动惯量公式，C 为对 $y$ 轴转动惯量公式，D 为对原点转动惯量公式。",
+  "sort_order": 27
+}

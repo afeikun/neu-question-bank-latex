@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac1{2\\pi i}\\oint_{|z-i|=1/2}\\frac{z^4\\cos(1/z)}{(z-i)^2}dz=\\underline{\\qquad}$（正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sin i-4i\\cos i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12\\sin3i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\cos i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\operatorname{sh}1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由一阶导数公式等于 $(z^4\\cos(1/z))'|_{z=i}=\\sin i-4i\\cos i$。",
+  "search_text": "$\\frac1{2\\pi i}\\oint_{|z-i|=1/2}\\frac{z^4\\cos(1/z)}{(z-i)^2}dz=\\underline{\\qquad}$（正向）。 $\\sin i-4i\\cos i$ $-\\frac12\\sin3i$ $2\\cos i$ $\\operatorname{sh}1$ 由一阶导数公式等于 $(z^4\\cos(1/z))'|_{z=i}=\\sin i-4i\\cos i$。",
+  "sort_order": 34
+}

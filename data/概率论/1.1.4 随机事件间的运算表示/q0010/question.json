@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "甲、乙、丙三人各射一次靶，记 $A,B,C$ 分别为三人中靶事件，则下列说法中不正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "“三人中至多一人中靶”表示为 $A\\cup B\\cup C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "“三人中至多两人中靶”表示为 $\\overline{ABC}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "“三人中至多两人中靶”表示为 $\\overline A\\cup\\overline B\\cup\\overline C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "“三人中至多一人中靶”表示为 $A\\overline B\\overline C\\cup\\overline A B\\overline C\\cup\\overline A\\overline B C\\cup\\overline A\\overline B\\overline C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一项写“至多一人中靶”，但 $A\\cup B\\cup C$ 表示“至少一人中靶”，故第一项不正确。第二、三项均为“至多两人中靶”，两事件式由德摩根律等价；第四项为0人或恰1人中靶。原HTML高亮第一项正确，之前修复误读“至多”为“至少”并改了答案键，现已恢复。",
+  "search_text": "甲、乙、丙三人各射一次靶，记 $A,B,C$ 分别为三人中靶事件，则下列说法中不正确的是(\\quad)。 “三人中至多一人中靶”表示为 $A\\cup B\\cup C$ “三人中至多两人中靶”表示为 $\\overline{ABC}$ “三人中至多两人中靶”表示为 $\\overline A\\cup\\overline B\\cup\\overline C$ “三人中至多一人中靶”表示为 $A\\overline B\\overline C\\cup\\overline A B\\overline C\\cup\\overline A\\overline B C\\cup\\overline A\\overline B\\overline C$ 第一项写“至多一人中靶”，但 $A\\cup B\\cup C$ 表示“至少一人中靶”，故第一项不正确。第二、三项均为“至多两人中靶”，两事件式由德摩根律等价；第四项为0人或恰1人中靶。原HTML高亮第一项正确，之前修复误读“至多”为“至少”并改了答案键，现已恢复。",
+  "sort_order": 10
+}

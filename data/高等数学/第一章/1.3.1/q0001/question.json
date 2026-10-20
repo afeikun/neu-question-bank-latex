@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $x\\to0^+$，$\\ln x\\to\\infty$，则对于任意正数 $M$，当 $0<x<\\delta<（　）$ 时，能保证 $\\ln x<-M$ 成立。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\ln M$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-1/M}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-M}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln\\frac1M$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\ln x<-M$ 等价于 $x<e^{-M}$，故取 $\\delta=e^{-M}$。",
+  "search_text": "当 $x\\to0^+$，$\\ln x\\to\\infty$，则对于任意正数 $M$，当 $0<x<\\delta<（ ）$ 时，能保证 $\\ln x<-M$ 成立。 $\\ln M$ $e^{-1/M}$ $e^{-M}$ $\\ln\\frac1M$ $\\ln x<-M$ 等价于 $x<e^{-M}$，故取 $\\delta=e^{-M}$。",
+  "sort_order": 1
+}

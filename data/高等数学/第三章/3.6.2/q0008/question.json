@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=2x^3-3x^2-12x+2$ 的拐点为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(2,\\frac12)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-1,\\frac12)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac12,-\\frac92)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(\\frac12,-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$y\\prime\\prime=12x-6=0$ 给出 $x=1/2$，代入函数得 $y=-9/2$，拐点为 $(1/2,-9/2)$。",
+  "search_text": "曲线 $y=2x^3-3x^2-12x+2$ 的拐点为（ ）。 $(2,\\frac12)$ $(-1,\\frac12)$ $(\\frac12,-\\frac92)$ $(\\frac12,-1)$ $y\\prime\\prime=12x-6=0$ 给出 $x=1/2$，代入函数得 $y=-9/2$，拐点为 $(1/2,-9/2)$。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_L(x+y)dx+(y-x)dy$，其中 $L$ 从点 $(1,1)$ 到点 $(4,2)$ 的直线段，其结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{34}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$11$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解：过 $(1,1),(4,2)$ 的直线方程为 $x=3y-2,dx=3dy$\n\n所以 原式 $=\\int_1^2\\{3(4y-2)+(2-2y)\\}\\,dy$\n\n$$=\\int_1^2(10y-4)\\,dy$$\n\n$$=11$$",
+  "search_text": "计算 $\\int_L(x+y)dx+(y-x)dy$，其中 $L$ 从点 $(1,1)$ 到点 $(4,2)$ 的直线段，其结果为（ ） $\\frac{34}{3}$ $11$ $0$ $2$ 解：过 $(1,1),(4,2)$ 的直线方程为 $x=3y-2,dx=3dy$\n\n所以 原式 $=\\int_1^2\\{3(4y-2)+(2-2y)\\}\\,dy$\n\n$$=\\int_1^2(10y-4)\\,dy$$\n\n$$=11$$",
+  "sort_order": 45
+}

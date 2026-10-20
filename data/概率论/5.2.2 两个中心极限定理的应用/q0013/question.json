@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "保险公司每月收到保费$\\xi$，$E(\\xi)=10$万元,$D(\\xi)=1$，求100个月总保费超过1010万元概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.1587$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.1336$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.0668$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.0556$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总和标准化阈值1，右尾$1-\\Phi(1)=0.1587$。",
+  "search_text": "保险公司每月收到保费$\\xi$，$E(\\xi)=10$万元,$D(\\xi)=1$，求100个月总保费超过1010万元概率。 $0.1587$ $0.1336$ $0.0668$ $0.0556$ 总和标准化阈值1，右尾$1-\\Phi(1)=0.1587$。",
+  "sort_order": 13
+}

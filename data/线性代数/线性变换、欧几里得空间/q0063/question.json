@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A^*$ 代表 $A$ 的伴随矩阵，以下说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在 $\\mathbb R^{3\\times3}$ 中的变换 $T(A)=A^*$ 为线性变换"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在 $\\mathbb R^{2\\times2}$ 中的变换 $T(A)=(A^*)^*$ 不是线性变换"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在 $\\mathbb R^{2\\times2}$ 中的变换 $T(A)=A^*$ 为线性变换"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在 $\\mathbb R^{3\\times3}$ 中的变换 $T(A)=3A^*$ 为线性变换"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "三阶矩阵的伴随矩阵元素是二阶子式，不满足线性；二阶矩阵满足 $(A+B)^*=A^*+B^*$ 和 $(kA)^*=kA^*$，故在 $\\mathbb R^{2\\times2}$ 中 $A\\mapsto A^*$ 为线性变换，正确的是选项3。",
+  "search_text": "设 $A^*$ 代表 $A$ 的伴随矩阵，以下说法正确的是（ ）。 在 $\\mathbb R^{3\\times3}$ 中的变换 $T(A)=A^*$ 为线性变换 在 $\\mathbb R^{2\\times2}$ 中的变换 $T(A)=(A^*)^*$ 不是线性变换 在 $\\mathbb R^{2\\times2}$ 中的变换 $T(A)=A^*$ 为线性变换 在 $\\mathbb R^{3\\times3}$ 中的变换 $T(A)=3A^*$ 为线性变换 三阶矩阵的伴随矩阵元素是二阶子式，不满足线性；二阶矩阵满足 $(A+B)^*=A^*+B^*$ 和 $(kA)^*=kA^*$，故在 $\\mathbb R^{2\\times2}$ 中 $A\\mapsto A^*$ 为线性变换，正确的是选项3。",
+  "sort_order": 63
+}

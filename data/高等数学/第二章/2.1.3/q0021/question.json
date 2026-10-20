@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $y=y(x)$ 由方程 $y-xe^y=1$ 确定，则曲线上横坐标 $x=0$ 处的切线方程是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=ex+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=ex-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e(x+1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$x=0$ 时 $y=1$；隐式求导得 $y\\prime(0)=e$，切线 $y=ex+1$。",
+  "search_text": "设函数 $y=y(x)$ 由方程 $y-xe^y=1$ 确定，则曲线上横坐标 $x=0$ 处的切线方程是（ ）。 $y=ex+1$ $y=x+1$ $y=ex-1$ $y=e(x+1)$ $x=0$ 时 $y=1$；隐式求导得 $y\\prime(0)=e$，切线 $y=ex+1$。",
+  "sort_order": 21
+}

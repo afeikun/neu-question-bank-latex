@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知函数 $f(x)$ 的定义域是 $[0,1]$，则 $f(x^3)$ 的定义域是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$[-1,1]$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$[0,1]$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$[-1,0]$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "以上都不正确"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "需 $x^3\\in[0,1]$，所以 $x\\in[0,1]$。",
+  "search_text": "已知函数 $f(x)$ 的定义域是 $[0,1]$，则 $f(x^3)$ 的定义域是（ ）。 $[-1,1]$ $[0,1]$ $[-1,0]$ 以上都不正确 需 $x^3\\in[0,1]$，所以 $x\\in[0,1]$。",
+  "sort_order": 31
+}

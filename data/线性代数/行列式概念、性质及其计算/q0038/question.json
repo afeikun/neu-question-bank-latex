@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $\\begin{vmatrix}1&1&0&0\\\\1&k&1&0\\\\0&0&k&2\\\\0&0&2&k\\end{vmatrix}\\ne0$，则 $k$ 应满足（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k\\ne1,\\ k\\ne2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k\\ne1,\\ k\\ne\\pm2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k\\ne1,\\ k\\ne-2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k\\ne2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "利用分块上三角行列式，$D=-(k-1)(4-k^2)$。要求 $D\\ne0$，所以 $k\\ne1$ 且 $k\\ne\\pm2$。",
+  "search_text": "行列式 $\\begin{vmatrix}1&1&0&0\\\\1&k&1&0\\\\0&0&k&2\\\\0&0&2&k\\end{vmatrix}\\ne0$，则 $k$ 应满足（ ）。 $k\\ne1,\\ k\\ne2$ $k\\ne1,\\ k\\ne\\pm2$ $k\\ne1,\\ k\\ne-2$ $k\\ne2$ 利用分块上三角行列式，$D=-(k-1)(4-k^2)$。要求 $D\\ne0$，所以 $k\\ne1$ 且 $k\\ne\\pm2$。",
+  "sort_order": 38
+}

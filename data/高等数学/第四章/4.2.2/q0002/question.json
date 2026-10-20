@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=f(x)<0$ 在 $[a,b]$ 上连续，则曲线与直线 $x=a,x=b$ 及 $x$ 轴围成图形的面积为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_a^b f(x)\\,dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_b^a f(x)\\,dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_a^b |f(x)|\\,dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\int_b^a f(x)\\,dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "函数在区间上为负，面积等于积分的相反数，即 $\\int_b^a f(x)\\,dx$。",
+  "search_text": "曲线 $y=f(x)<0$ 在 $[a,b]$ 上连续，则曲线与直线 $x=a,x=b$ 及 $x$ 轴围成图形的面积为 $\\int_a^b f(x)\\,dx$ $\\int_b^a f(x)\\,dx$ $\\int_a^b |f(x)|\\,dx$ $-\\int_b^a f(x)\\,dx$ 函数在区间上为负，面积等于积分的相反数，即 $\\int_b^a f(x)\\,dx$。",
+  "sort_order": 2
+}

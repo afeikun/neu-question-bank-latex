@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知∫₁³f(x)dx=6，下列等式成立的是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₂⁴f=6"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₁²f+∫₂³f=6"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "∫₂³f=3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₁²f=6"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "按可加性，区间分拆积分之和为6。",
+  "search_text": "已知∫₁³f(x)dx=6，下列等式成立的是 ∫₂⁴f=6 ∫₁²f+∫₂³f=6 ∫₂³f=3 ∫₁²f=6 按可加性，区间分拆积分之和为6。",
+  "sort_order": 26
+}

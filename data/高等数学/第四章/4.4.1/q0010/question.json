@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₀ᵃx√(a²−x²)dx（a>0）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "πa³/4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "a³/4"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "a³/3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "πa³/3"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令u=a²−x²，积分结果为a³/3。",
+  "search_text": "计算∫₀ᵃx√(a²−x²)dx（a>0） πa³/4 a³/4 a³/3 πa³/3 令u=a²−x²，积分结果为a³/3。",
+  "sort_order": 10
+}

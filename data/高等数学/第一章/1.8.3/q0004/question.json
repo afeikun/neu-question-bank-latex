@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x)$ 在 $[0,1]$ 上连续，且 $f(0)=f(1)$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在某实数 c 使 $f(c)=f(c+1/2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "不一定存在实数使等式成立"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f(x)$ 在 $[0,1]$ 上有零点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "一定存在某实数 c 使 $f(c)=f(c+1/2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $F(x)=f(x)-f(x+1/2)$，则 $F(0)$ 与 $F(1/2)$ 互为相反数或同时为零，故有零点。",
+  "search_text": "设 $f(x)$ 在 $[0,1]$ 上连续，且 $f(0)=f(1)$，则（ ）。 不存在某实数 c 使 $f(c)=f(c+1/2)$ 不一定存在实数使等式成立 $f(x)$ 在 $[0,1]$ 上有零点 一定存在某实数 c 使 $f(c)=f(c+1/2)$ 令 $F(x)=f(x)-f(x+1/2)$，则 $F(0)$ 与 $F(1/2)$ 互为相反数或同时为零，故有零点。",
+  "sort_order": 4
+}

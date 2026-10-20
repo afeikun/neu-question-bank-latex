@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "使交错级数 $\\sum_{n=1}^{\\infty}(-1)^na_n$ 收敛的条件是？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=1}^{\\infty} a_{2n-1}$ 收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{a_n\\}$ 单调递减趋于零"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=1}^{\\infty} a_n^2$ 收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=1}^{\\infty}|a_{2n}|$ 收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "莱布尼茨判别条件是正项单调递减且趋于零。",
+  "search_text": "使交错级数 $\\sum_{n=1}^{\\infty}(-1)^na_n$ 收敛的条件是？ $\\sum_{n=1}^{\\infty} a_{2n-1}$ 收敛 $\\{a_n\\}$ 单调递减趋于零 $\\sum_{n=1}^{\\infty} a_n^2$ 收敛 $\\sum_{n=1}^{\\infty}|a_{2n}|$ 收敛 莱布尼茨判别条件是正项单调递减且趋于零。",
+  "sort_order": 18
+}

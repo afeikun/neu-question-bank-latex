@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使积分 $\\oint_C\\frac{z^2-\\sin z}{z^4}\\,dz=\\frac{\\pi i}{3}$，则积分路径 $C$ 应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正向圆周 $|z-2|=3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "负向圆周 $|z-2i|=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "负向圆周 $|z|=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "正向圆周 $|z-3|=2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "沿包围原点的正向圆周 $|z-2|=3$ 积分，结果为 $\\pi i/3$。",
+  "search_text": "为使积分 $\\oint_C\\frac{z^2-\\sin z}{z^4}\\,dz=\\frac{\\pi i}{3}$，则积分路径 $C$ 应为（ ）。 正向圆周 $|z-2|=3$ 负向圆周 $|z-2i|=1$ 负向圆周 $|z|=1$ 正向圆周 $|z-3|=2$ 沿包围原点的正向圆周 $|z-2|=3$ 积分，结果为 $\\pi i/3$。",
+  "sort_order": 44
+}

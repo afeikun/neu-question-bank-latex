@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "初值问题 $y^3y\\prime\\prime+1=0,\\ y|_{x=1}=1,\\ y\\prime|_{x=1}=0$ 的解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\sqrt{2x+x^3-2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\sqrt{2x+x^2-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\sqrt{2x-x^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\sqrt{2x-x^3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 令 $y'=p$，则 $y''=p\\frac{dp}{dx}$，原方程变为 $y^3p\\frac{dp}{dx}=-1$，从而 $p\\,dp=-y^{-3}\\,dy$，积分得 $p^2=\\frac{1}{y^2}+C_1$，\n\n即有 $(y')^2=\\frac{1}{y^2}+C_1$。由 $x=1$ 时 $y=1$，$y'=0$，得 $C_1=-1$，从而 $(y')^2=\\frac{1}{y^2}-1$，即有 $y'=\\pm\\frac{1}{y}\\sqrt{1-y^2}$，则有\n\n$$\\pm\\sqrt{1-y^2}=x+C_2,$$ 再由 $x=1$ 时 $y=1$ 得 $C_2=-1$，因此其解为 $\\pm\\sqrt{1-y^2}=x-1$，即 $y=\\sqrt{2x-x^2}$（含 $y=-\\sqrt{2x-x^2}$，$y|_{x=1}=1$）。",
+  "search_text": "初值问题 $y^3y\\prime\\prime+1=0,\\ y|_{x=1}=1,\\ y\\prime|_{x=1}=0$ 的解是（ ） $y=\\sqrt{2x+x^3-2}$ $y=\\sqrt{2x+x^2-2}$ $y=\\sqrt{2x-x^2}$ $y=\\sqrt{2x-x^3}$ 解答 令 $y'=p$，则 $y''=p\\frac{dp}{dx}$，原方程变为 $y^3p\\frac{dp}{dx}=-1$，从而 $p\\,dp=-y^{-3}\\,dy$，积分得 $p^2=\\frac{1}{y^2}+C_1$，\n\n即有 $(y')^2=\\frac{1}{y^2}+C_1$。由 $x=1$ 时 $y=1$，$y'=0$，得 $C_1=-1$，从而 $(y')^2=\\frac{1}{y^2}-1$，即有 $y'=\\pm\\frac{1}{y}\\sqrt{1-y^2}$，则有\n\n$$\\pm\\sqrt{1-y^2}=x+C_2,$$ 再由 $x=1$ 时 $y=1$ 得 $C_2=-1$，因此其解为 $\\pm\\sqrt{1-y^2}=x-1$，即 $y=\\sqrt{2x-x^2}$（含 $y=-\\sqrt{2x-x^2}$，$y|_{x=1}=1$）。",
+  "sort_order": 12
+}

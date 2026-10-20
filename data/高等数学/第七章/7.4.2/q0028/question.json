@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=f(x,y)$ 满足 $4u_{xx}+12u_{xy}+5u_{yy}=0$，作变换 $\\xi=x+ay,\\eta=x+by$ 后方程化为 $u_{\\xi\\eta}=0$，求 $(a,b)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-2,-2),(-\\frac25,-\\frac25),(-\\frac25,-2),(-2,-\\frac25)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(-\\\\frac25,-2),(-2,-\\\\frac25)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(\\\\frac25,2),(2,\\\\frac25)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-2,-2),(-\\frac25,-\\frac25)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "",
+  "search_text": "设 $u=f(x,y)$ 满足 $4u_{xx}+12u_{xy}+5u_{yy}=0$，作变换 $\\xi=x+ay,\\eta=x+by$ 后方程化为 $u_{\\xi\\eta}=0$，求 $(a,b)$。 $(-2,-2),(-\\frac25,-\\frac25),(-\\frac25,-2),(-2,-\\frac25)$ (-\\\\frac25,-2),(-2,-\\\\frac25) (\\\\frac25,2),(2,\\\\frac25) $(-2,-2),(-\\frac25,-\\frac25)$ ",
+  "sort_order": 28
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $r>2$ 时，积分 $\\displaystyle\\oint_{|z|=r}\\dfrac{1}{(z+1)^2(z-2)}\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{2\\pi i}{9}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac{2\\pi i}{9}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\dfrac{4\\pi i}{9}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内有 $z=-1$ 二级极点与 $z=2$ 一级极点，留数分别为 $-1/9$ 与 $1/9$，积分为 $0$。",
+  "search_text": "当 $r>2$ 时，积分 $\\displaystyle\\oint_{|z|=r}\\dfrac{1}{(z+1)^2(z-2)}\\,dz=(\\ \\ )$。 $0$ $\\dfrac{2\\pi i}{9}$ $-\\dfrac{2\\pi i}{9}$ $-\\dfrac{4\\pi i}{9}$ 圆内有 $z=-1$ 二级极点与 $z=2$ 一级极点，留数分别为 $-1/9$ 与 $1/9$，积分为 $0$。",
+  "sort_order": 55
+}

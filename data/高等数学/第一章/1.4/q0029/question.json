@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\lim_{x\\to2}\\frac{x^3-1}{x^2-5x+3}$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac73$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac73$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "直接代入得 $\\frac{2^3-1}{2^2-5\\cdot2+3}=-\\frac73$。",
+  "search_text": "计算 $\\lim_{x\\to2}\\frac{x^3-1}{x^2-5x+3}$（ ）。 $-\\frac73$ $\\frac73$ $2$ $-2$ 直接代入得 $\\frac{2^3-1}{2^2-5\\cdot2+3}=-\\frac73$。",
+  "sort_order": 29
+}

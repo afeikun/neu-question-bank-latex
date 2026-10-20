@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}b+c&c+a&a+b\\\\a^2&b^2&c^2\\\\a&b&c\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(a+b+c)(b+c)(c-a)(b-a)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(a+b+c)(c-b)(c-a)(b-a)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-(a+b+c)(c-b)(c-a)(b-a)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(a+b+c)(c-b)(a+c)(b-a)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "提取第一行公因子 $a+b+c$ 并交换行，化为范德蒙德型行列式，得 $D=-(a+b+c)(c-b)(c-a)(b-a)$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}b+c&c+a&a+b\\\\a^2&b^2&c^2\\\\a&b&c\\end{vmatrix}$ 等于（ ）。 $(a+b+c)(b+c)(c-a)(b-a)$ $(a+b+c)(c-b)(c-a)(b-a)$ $-(a+b+c)(c-b)(c-a)(b-a)$ $(a+b+c)(c-b)(a+c)(b-a)$ 提取第一行公因子 $a+b+c$ 并交换行，化为范德蒙德型行列式，得 $D=-(a+b+c)(c-b)(c-a)(b-a)$。",
+  "sort_order": 70
+}

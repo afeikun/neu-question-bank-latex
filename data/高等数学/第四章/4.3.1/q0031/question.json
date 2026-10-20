@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "I₁=∫ₑˣlntdt，I₂=∫ₑˣ(ln t)²dt，x>0，判断大小",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "仅x>e时I₁<I₂"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "对一切x≠e有I₁≥I₂"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "对一切x≠e有I₁<I₂"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "仅x<e时I₁<I₂"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "依据ln t与其平方在积分区间上的关系判断。",
+  "search_text": "I₁=∫ₑˣlntdt，I₂=∫ₑˣ(ln t)²dt，x>0，判断大小 仅x>e时I₁<I₂ 对一切x≠e有I₁≥I₂ 对一切x≠e有I₁<I₂ 仅x<e时I₁<I₂ 依据ln t与其平方在积分区间上的关系判断。",
+  "sort_order": 31
+}

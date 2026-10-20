@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "从$0$至$9$取数$\\xi$后不放回再取$\\eta$，求联合分布律。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\xi=i,\\eta=k)=1/90,i\\ne k$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/100$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/90,i\\ne k$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/100,i,k=0,\\ldots,9,i\\ne k$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "有序不相同数对共$90$种且等可能，概率$1/90$。",
+  "search_text": "从$0$至$9$取数$\\xi$后不放回再取$\\eta$，求联合分布律。 $P(\\xi=i,\\eta=k)=1/90,i\\ne k$ $1/100$ $1/90,i\\ne k$ $1/100,i,k=0,\\ldots,9,i\\ne k$ 有序不相同数对共$90$种且等可能，概率$1/90$。",
+  "sort_order": 3
+}

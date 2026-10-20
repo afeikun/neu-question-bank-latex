@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y^{\\prime\\prime\\prime}=e^{3x}-\\cos x$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac1{27}e^{3x}-\\cos x+C_1x^2+C_2x+C_3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac1{27}e^{3x}-\\sin x+C_1x^2+C_2x+C_3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1{27}e^{3x}+\\sin x+C_1x^2+C_2x+C_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac1{27}e^{3x}+\\cos x+C_1x^2+C_2x+C_3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "将方程积分三次，得通解 $y=e^{3x}/27+\\sin x+C_1x^2+C_2x+C_3$，选第三项。其三阶导数为 $e^{3x}-\\cos x$。",
+  "search_text": "$y^{\\prime\\prime\\prime}=e^{3x}-\\cos x$ 的通解为（ ） $y=\\frac1{27}e^{3x}-\\cos x+C_1x^2+C_2x+C_3$ $y=\\frac1{27}e^{3x}-\\sin x+C_1x^2+C_2x+C_3$ $y=\\frac1{27}e^{3x}+\\sin x+C_1x^2+C_2x+C_3$ $y=\\frac1{27}e^{3x}+\\cos x+C_1x^2+C_2x+C_3$ 将方程积分三次，得通解 $y=e^{3x}/27+\\sin x+C_1x^2+C_2x+C_3$，选第三项。其三阶导数为 $e^{3x}-\\cos x$。",
+  "sort_order": 17
+}

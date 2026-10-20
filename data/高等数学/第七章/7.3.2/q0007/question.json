@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)=\\sqrt{x^2+y^2}$，则 $df=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{xdx+ydy}{2\\sqrt{x^2+y^2}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{ydx+xdy}{\\sqrt{x^2+y^2}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{xdx+ydy}{\\sqrt{x^2+y^2}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt{x}dx+\\sqrt{y}dy}{\\sqrt{x^2+y^2}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "因为$f_x=\\frac{1}{2}(x^2+y^2)^{-\\frac{1}{2}}2x=\\frac{x}{\\sqrt{x^2+y^2}},\\quad f_y=\\frac{y}{\\sqrt{x^2+y^2}},\\quad$所以$df=\\frac{x\\,dx+y\\,dy}{\\sqrt{x^2+y^2}}.$",
+  "search_text": "设 $f(x,y)=\\sqrt{x^2+y^2}$，则 $df=(\\quad)$。 $\\frac{xdx+ydy}{2\\sqrt{x^2+y^2}}$ $\\frac{ydx+xdy}{\\sqrt{x^2+y^2}}$ $\\frac{xdx+ydy}{\\sqrt{x^2+y^2}}$ $\\frac{\\sqrt{x}dx+\\sqrt{y}dy}{\\sqrt{x^2+y^2}}$ 因为$f_x=\\frac{1}{2}(x^2+y^2)^{-\\frac{1}{2}}2x=\\frac{x}{\\sqrt{x^2+y^2}},\\quad f_y=\\frac{y}{\\sqrt{x^2+y^2}},\\quad$所以$df=\\frac{x\\,dx+y\\,dy}{\\sqrt{x^2+y^2}}.$",
+  "sort_order": 7
+}

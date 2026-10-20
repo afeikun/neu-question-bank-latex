@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设A表示“掷三个骰子的点数和不大于5”的事件，样本空间为三个骰子的所有可能点数，则A的样本点数为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "10"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "15"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "20"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "三个有序点数和不超过5的样本点共10个。",
+  "search_text": "设A表示“掷三个骰子的点数和不大于5”的事件，样本空间为三个骰子的所有可能点数，则A的样本点数为（）。 10 4 15 20 三个有序点数和不超过5的样本点共10个。",
+  "sort_order": 2
+}

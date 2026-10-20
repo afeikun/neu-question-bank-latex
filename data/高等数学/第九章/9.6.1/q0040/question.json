@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是圆周 $(x-2)^2+y^2=1$ 逆时针一周，则 $\\oint_L\\frac{y\\,dx-x\\,dy}{2(x^2+y^2)}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：\n\n记 $L$ 所围成的闭区域为 $D$，令\n\n$$P=\\frac{y}{2(x^2+y^2)},\\quad Q=\\frac{-x}{2(x^2+y^2)},$$\n\n则当 $x^2+y^2\\ne0$ 时，有\n\n$$\\frac{\\partial Q}{\\partial x}=\\frac{2x^2-2y^2}{4(x^2+y^2)^2}=\\frac{\\partial P}{\\partial y}$$\n\n因为 $(0,0)\\notin D$ 时，由格林公式知\n\n$$\\oint_L\\frac{y\\,dx-x\\,dy}{2(x^2+y^2)}=0$$",
+  "search_text": "设 $L$ 是圆周 $(x-2)^2+y^2=1$ 逆时针一周，则 $\\oint_L\\frac{y\\,dx-x\\,dy}{2(x^2+y^2)}=$（ ） $1$ $-1$ $0$ $-2$ 解析：\n\n记 $L$ 所围成的闭区域为 $D$，令\n\n$$P=\\frac{y}{2(x^2+y^2)},\\quad Q=\\frac{-x}{2(x^2+y^2)},$$\n\n则当 $x^2+y^2\\ne0$ 时，有\n\n$$\\frac{\\partial Q}{\\partial x}=\\frac{2x^2-2y^2}{4(x^2+y^2)^2}=\\frac{\\partial P}{\\partial y}$$\n\n因为 $(0,0)\\notin D$ 时，由格林公式知\n\n$$\\oint_L\\frac{y\\,dx-x\\,dy}{2(x^2+y^2)}=0$$",
+  "sort_order": 40
+}

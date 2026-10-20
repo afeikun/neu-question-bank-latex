@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\begin{cases}ax^2-bx+c,&x<0\\\\\\ln(1+x),&x\\ge0\\end{cases}$，若 $f\\prime\\prime(0)$ 存在，则 $a,b,c$ 取值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=-1/2,b=1,c=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=1/2,b=1,c=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=-1/2,b=-1,c=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=1/2,b=-1,c=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "匹配函数值、一阶导数、二阶导数得 $c=0,b=-1,2a=-1$；留意源题前段系数符号据解析定为对应选项。",
+  "search_text": "$f(x)=\\begin{cases}ax^2-bx+c,&x<0\\\\\\ln(1+x),&x\\ge0\\end{cases}$，若 $f\\prime\\prime(0)$ 存在，则 $a,b,c$ 取值为（ ）。 $a=-1/2,b=1,c=0$ $a=1/2,b=1,c=0$ $a=-1/2,b=-1,c=0$ $a=1/2,b=-1,c=0$ 匹配函数值、一阶导数、二阶导数得 $c=0,b=-1,2a=-1$；留意源题前段系数符号据解析定为对应选项。",
+  "sort_order": 13
+}

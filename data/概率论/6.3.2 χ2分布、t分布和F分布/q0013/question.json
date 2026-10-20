@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列结果中不正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X\\sim\\chi^2(n_1),Y\\sim\\chi^2(n_2)$则$X+Y\\sim\\chi^2(n_1+n_2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "独立标准正态平方和服从相应卡方分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$X\\sim\\chi^2(10)$则$D(X)=20$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$E[\\frac1{\\sigma^2}\\sum(X_i-\\bar X)^2]=n-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "卡方和需要独立性条件。",
+  "search_text": "下列结果中不正确的是（）。 $X\\sim\\chi^2(n_1),Y\\sim\\chi^2(n_2)$则$X+Y\\sim\\chi^2(n_1+n_2)$ 独立标准正态平方和服从相应卡方分布 $X\\sim\\chi^2(10)$则$D(X)=20$ $E[\\frac1{\\sigma^2}\\sum(X_i-\\bar X)^2]=n-1$ 卡方和需要独立性条件。",
+  "sort_order": 13
+}

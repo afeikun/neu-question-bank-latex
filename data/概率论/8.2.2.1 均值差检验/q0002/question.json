@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设两正态总体N(μ1,σ1²)、N(μ2,σ2²)有相互独立样本，容量n1、n2，均值X̄、Ȳ，且σ1²、σ2²已知。检验H0:μ1−μ2=0，H1:μ1−μ2<0，给定显著性水平α，拒绝域为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$U<-u_\\alpha$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|U|>u_\\alpha$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$U>u_\\alpha$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|U|>u_{\\alpha/2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方差已知且左侧备择时，拒绝域为U<−uα。",
+  "search_text": "设两正态总体N(μ1,σ1²)、N(μ2,σ2²)有相互独立样本，容量n1、n2，均值X̄、Ȳ，且σ1²、σ2²已知。检验H0:μ1−μ2=0，H1:μ1−μ2<0，给定显著性水平α，拒绝域为（）。 $U<-u_\\alpha$ $|U|>u_\\alpha$ $U>u_\\alpha$ $|U|>u_{\\alpha/2}$ 方差已知且左侧备择时，拒绝域为U<−uα。",
+  "sort_order": 2
+}

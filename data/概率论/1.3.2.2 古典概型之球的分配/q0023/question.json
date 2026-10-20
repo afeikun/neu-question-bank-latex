@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一箱子中装有分别标号为1,2,…,N的N个球，从箱中有放回地摸$n$（$n<N$）次球，依次记下其号码，则这些号码是按严格上升次序排列的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\binom Nn/N^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$n!/N^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\binom Nn n!/N^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$n/N^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总样本数$N^n$。严格递增的号码序列只需从N个号码中选n个，唯一排序，故概率为$\\binom Nn/N^n$。",
+  "search_text": "一箱子中装有分别标号为1,2,…,N的N个球，从箱中有放回地摸$n$（$n<N$）次球，依次记下其号码，则这些号码是按严格上升次序排列的概率为（ ）。 $\\binom Nn/N^n$ $n!/N^n$ $\\binom Nn n!/N^n$ $n/N^n$ 总样本数$N^n$。严格递增的号码序列只需从N个号码中选n个，唯一排序，故概率为$\\binom Nn/N^n$。",
+  "sort_order": 23
+}

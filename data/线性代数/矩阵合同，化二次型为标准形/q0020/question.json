@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 是 $n$ 阶矩阵，且 $A$ 为正交矩阵，则 $AB$ 与 $BA$ 一定是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "合同但不相似"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "合同且相似"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不合同且相似"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不合同且不相似"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$BA=A^{-1}(AB)A=A^T(AB)A$，故两者相似且合同，选项 2。",
+  "search_text": "设 $A,B$ 是 $n$ 阶矩阵，且 $A$ 为正交矩阵，则 $AB$ 与 $BA$ 一定是(\\quad)。 合同但不相似 合同且相似 不合同且相似 不合同且不相似 $BA=A^{-1}(AB)A=A^T(AB)A$，故两者相似且合同，选项 2。",
+  "sort_order": 20
+}

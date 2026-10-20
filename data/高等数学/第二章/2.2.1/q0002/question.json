@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(x)$ 具有连续的一阶导数，已知 $f(2)=1,f\\prime(2)=e$，则 $[(f^{-1}(x))\\prime]_{x=1}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$(f^{-1})\\prime(1)=1/f\\prime(2)=e^{-1}$。",
+  "search_text": "设 $y=f(x)$ 具有连续的一阶导数，已知 $f(2)=1,f\\prime(2)=e$，则 $[(f^{-1}(x))\\prime]_{x=1}=$（ ）。 $e^2$ $e$ $e^{-1}$ $e^{-2}$ $(f^{-1})\\prime(1)=1/f\\prime(2)=e^{-1}$。",
+  "sort_order": 2
+}

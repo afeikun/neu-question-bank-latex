@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(s)$ 在 $(-\\infty,+\\infty)$ 内有连续导数，$L$ 为从 $A(\\frac23,3)$ 到 $B(2,1)$ 的直线段，求 $I=\\int_L\\frac{1+x^2f(xy)}{x}\\,dy+\\frac{y}{x^2}[x^2f(xy)-1]dx$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：$P(x,y)=\\frac{y}{x^2}(x^2f(xy)-1)，\\quad Q(x,y)=\\frac{1}{x}(x^2f(xy)+1)$\n\n$$\\frac{\\partial P}{\\partial y}=\\frac{x^2f(xy)+x^2yf'(xy)-1}{x^2}=\\frac{\\partial Q}{\\partial x}\\quad(y>0)$$\n\n这是单连通区域，故积分与路径无关，选择从 $A(\\frac{2}{3},3)$ 到 $C(\\frac{2}{3},1)$，再到 $B(2,1)$ 的折线作为积分路径，则\n\n$$I=\\int_3^1\\frac{1+\\frac{4}{9}f(\\frac{2}{3}y)}{\\frac{2}{3}}\\,dy+\\int_{\\frac{2}{3}}^2\\frac{1}{x^2}(x^2f(x)-1)\\,dx$$\n\n$$=\\int_3^1\\frac{3}{2}\\,dy+\\int_3^1\\frac{2}{3}f(\\frac{2}{3}y)\\,dy+\\int_{\\frac{2}{3}}^2f(x)\\,dx-\\int_{\\frac{2}{3}}^2\\frac{1}{x^2}\\,dx$$\n\n$$=-3-\\int_{\\frac{2}{3}}^2f(y)\\,dy+\\int_{\\frac{2}{3}}^2f(y)\\,dy+\\left.\\frac{1}{x}\\right|_{\\frac{2}{3}}^2=-4，$$",
+  "search_text": "设 $f(s)$ 在 $(-\\infty,+\\infty)$ 内有连续导数，$L$ 为从 $A(\\frac23,3)$ 到 $B(2,1)$ 的直线段，求 $I=\\int_L\\frac{1+x^2f(xy)}{x}\\,dy+\\frac{y}{x^2}[x^2f(xy)-1]dx$（ ） $0$ $4$ $-4$ $-3$ 解答：$P(x,y)=\\frac{y}{x^2}(x^2f(xy)-1)，\\quad Q(x,y)=\\frac{1}{x}(x^2f(xy)+1)$\n\n$$\\frac{\\partial P}{\\partial y}=\\frac{x^2f(xy)+x^2yf'(xy)-1}{x^2}=\\frac{\\partial Q}{\\partial x}\\quad(y>0)$$\n\n这是单连通区域，故积分与路径无关，选择从 $A(\\frac{2}{3},3)$ 到 $C(\\frac{2}{3},1)$，再到 $B(2,1)$ 的折线作为积分路径，则\n\n$$I=\\int_3^1\\frac{1+\\frac{4}{9}f(\\frac{2}{3}y)}{\\frac{2}{3}}\\,dy+\\int_{\\frac{2}{3}}^2\\frac{1}{x^2}(x^2f(x)-1)\\,dx$$\n\n$$=\\int_3^1\\frac{3}{2}\\,dy+\\int_3^1\\frac{2}{3}f(\\frac{2}{3}y)\\,dy+\\int_{\\frac{2}{3}}^2f(x)\\,dx-\\int_{\\frac{2}{3}}^2\\frac{1}{x^2}\\,dx$$\n\n$$=-3-\\int_{\\frac{2}{3}}^2f(y)\\,dy+\\int_{\\frac{2}{3}}^2f(y)\\,dy+\\left.\\frac{1}{x}\\right|_{\\frac{2}{3}}^2=-4，$$",
+  "sort_order": 30
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "使 $f(z)=\\dfrac{x+k-iy}{x^2+y^2+2x+1}$（$z\\ne-1$）为解析函数的实数 $k$ 是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "柯西－黎曼方程解得 $k=1$。",
+  "search_text": "使 $f(z)=\\dfrac{x+k-iy}{x^2+y^2+2x+1}$（$z\\ne-1$）为解析函数的实数 $k$ 是（ ）。 $1$ $2$ $-1$ $-2$ 柯西－黎曼方程解得 $k=1$。",
+  "sort_order": 22
+}

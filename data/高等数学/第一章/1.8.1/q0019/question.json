@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{1-\\sqrt{\\cos x}}{x\\ln(1+x)}$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac13$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac14$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$1-\\sqrt{\\cos x}\\sim x^2/4$ 且 $x\\ln(1+x)\\sim x^2$，极限为 $1/4$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{1-\\sqrt{\\cos x}}{x\\ln(1+x)}$ 的值为（ ）。 $\\frac13$ $\\frac16$ $\\frac14$ $\\frac12$ $1-\\sqrt{\\cos x}\\sim x^2/4$ 且 $x\\ln(1+x)\\sim x^2$，极限为 $1/4$。",
+  "sort_order": 19
+}

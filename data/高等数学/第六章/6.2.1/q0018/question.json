@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设均匀流速为 $\\vec v$ 的流体流过一个面积为 $A$ 的平面域，向量 $\\vec n$ 为垂直于该平面域的单位向量，$\\vec v$ 与 $\\vec n$ 的夹角为 $\\theta$，设流体密度为 $\\rho$，则单位时间内流过该平面域的流体质量 $P$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\rho A|\\vec v\\times\\vec n|$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\rho A|\\vec v|\\sin\\theta$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\rho A\\vec v\\cdot\\vec n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\rho A|\\vec n\\times\\vec v|$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "流过平面的法向速度分量为 $\\vec v\\cdot\\vec n=|\\vec v|\\cos\\theta$，故质量流率 $P=\\rho A\\vec v\\cdot\\vec n$。",
+  "search_text": "设均匀流速为 $\\vec v$ 的流体流过一个面积为 $A$ 的平面域，向量 $\\vec n$ 为垂直于该平面域的单位向量，$\\vec v$ 与 $\\vec n$ 的夹角为 $\\theta$，设流体密度为 $\\rho$，则单位时间内流过该平面域的流体质量 $P$ 为(\\quad)。 $\\rho A|\\vec v\\times\\vec n|$ $\\rho A|\\vec v|\\sin\\theta$ $\\rho A\\vec v\\cdot\\vec n$ $\\rho A|\\vec n\\times\\vec v|$ 流过平面的法向速度分量为 $\\vec v\\cdot\\vec n=|\\vec v|\\cos\\theta$，故质量流率 $P=\\rho A\\vec v\\cdot\\vec n$。",
+  "sort_order": 18
+}

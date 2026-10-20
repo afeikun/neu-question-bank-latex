@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "长度为 $l$、线密度为 $\\mu$ 的均匀细直棒，在其中垂线上距 $a$ 处有质量 $m$ 的质点，求细棒对质点的引力。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{km\\mu l}{a\\sqrt{4a^2+l^2}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{km\\mu l}{2a\\sqrt{4a^2+l^2}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{3km\\mu l}{a\\sqrt{4a^2+l^2}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2km\\mu l}{a\\sqrt{4a^2+l^2}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由对称性仅保留垂直分量，积分得 $F=\\frac{2km\\mu l}{a\\sqrt{4a^2+l^2}}$。",
+  "search_text": "长度为 $l$、线密度为 $\\mu$ 的均匀细直棒，在其中垂线上距 $a$ 处有质量 $m$ 的质点，求细棒对质点的引力。 $\\frac{km\\mu l}{a\\sqrt{4a^2+l^2}}$ $\\frac{km\\mu l}{2a\\sqrt{4a^2+l^2}}$ $\\frac{3km\\mu l}{a\\sqrt{4a^2+l^2}}$ $\\frac{2km\\mu l}{a\\sqrt{4a^2+l^2}}$ 由对称性仅保留垂直分量，积分得 $F=\\frac{2km\\mu l}{a\\sqrt{4a^2+l^2}}$。",
+  "sort_order": 5
+}

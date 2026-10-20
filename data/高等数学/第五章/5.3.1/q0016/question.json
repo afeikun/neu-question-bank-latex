@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "当 $\\sum_{n=1}^{\\infty} u_n$ 收敛时，$\\sum_{n=1}^{\\infty}(-1)^n u_n$ 如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "部分和有界"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "必发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "必绝对收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可能收敛也可能发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "取不同收敛级数可分别得到交错后收敛或发散。",
+  "search_text": "当 $\\sum_{n=1}^{\\infty} u_n$ 收敛时，$\\sum_{n=1}^{\\infty}(-1)^n u_n$ 如何？ 部分和有界 必发散 必绝对收敛 可能收敛也可能发散 取不同收敛级数可分别得到交错后收敛或发散。",
+  "sort_order": 16
+}

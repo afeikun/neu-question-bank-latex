@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega: \\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$，则 $\\iiint_\\Omega(x^2+z)dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{4\\sqrt2-5}{30}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(8\\sqrt2-5)\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{16\\sqrt2-5}{30}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{8\\sqrt2-5}{30}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\Omega$ 即 $\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\0\\leq r\\leq\\sqrt{2}\\end{cases}$，\n\n原式 $=\\iiint_\\Omega x^2\\,dv+\\iiint_\\Omega z\\,dv=\\frac{1}{2}\\iiint_\\Omega(x^2+y^2)\\,dv+\\iiint_\\Omega z\\,dv$\n\n$=\\frac{1}{2}\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^4\\sin^3\\varphi\\,dr+\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^3\\cos\\varphi\\sin\\varphi$\n\n$=\\frac{4\\sqrt{2}}{5}\\pi\\int_0^{\\frac{\\pi}{4}}\\sin^3\\varphi\\,d\\varphi+2\\pi\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos\\varphi\\,d\\varphi$\n\n$=\\frac{4\\sqrt{2}\\pi}{5}(\\frac{\\cos^3\\varphi}{3}-\\cos\\varphi)\\big|_0^{\\frac{\\pi}{4}}+\\frac{\\pi}{2}=\\frac{16\\sqrt{2}-5}{30}\\pi$。",
+  "search_text": "若 $\\Omega: \\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$，则 $\\iiint_\\Omega(x^2+z)dv=$（ ） $\\frac{4\\sqrt2-5}{30}\\pi$ $(8\\sqrt2-5)\\pi$ $\\frac{16\\sqrt2-5}{30}\\pi$ $\\frac{8\\sqrt2-5}{30}\\pi$ $\\Omega$ 即 $\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\frac{\\pi}{4}\\\\0\\leq r\\leq\\sqrt{2}\\end{cases}$，\n\n原式 $=\\iiint_\\Omega x^2\\,dv+\\iiint_\\Omega z\\,dv=\\frac{1}{2}\\iiint_\\Omega(x^2+y^2)\\,dv+\\iiint_\\Omega z\\,dv$\n\n$=\\frac{1}{2}\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^4\\sin^3\\varphi\\,dr+\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^3\\cos\\varphi\\sin\\varphi$\n\n$=\\frac{4\\sqrt{2}}{5}\\pi\\int_0^{\\frac{\\pi}{4}}\\sin^3\\varphi\\,d\\varphi+2\\pi\\int_0^{\\frac{\\pi}{4}}\\sin\\varphi\\cos\\varphi\\,d\\varphi$\n\n$=\\frac{4\\sqrt{2}\\pi}{5}(\\frac{\\cos^3\\varphi}{3}-\\cos\\varphi)\\big|_0^{\\frac{\\pi}{4}}+\\frac{\\pi}{2}=\\frac{16\\sqrt{2}-5}{30}\\pi$。",
+  "sort_order": 18
+}

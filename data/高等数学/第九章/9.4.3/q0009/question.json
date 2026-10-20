@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\iint_\\Sigma\\{[f(x,y,z)+x]dydz+[2f(x,y,z)+y]dzdx+[f(x,y,z)+z]dxdy\\}$，其中 $\\Sigma$ 是平面 $x-y+z=1$ 在第四卦限部分的上侧（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt3}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 平面 $\\Sigma$ 的法向量 $\\vec n=\\{1,-1,1\\}$。单位法向量 $\\vec n=\\left\\{\\frac{1}{\\sqrt{3}},-\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}}\\right\\}=\\{\\cos\\alpha,\\cos\\beta,\\cos\\gamma\\}$\n$$原式=\\iint_\\Sigma(P\\cos\\alpha+Q\\cos\\beta+R\\cos\\gamma)dS=\\frac{1}{\\sqrt{3}}\\iint_\\Sigma[(f+x)-(2f+y)+(f+z)]dS$$\n$$=\\frac{1}{\\sqrt{3}}\\iint_\\Sigma(x-y+z)dS=\\frac{1}{\\sqrt{3}}\\iint_\\Sigma1\\cdot dS=\\frac{1}{\\sqrt{3}}S_\\Delta=\\frac{1}{\\sqrt{3}}\\cdot\\frac{1}{2}\\cdot\\sqrt{2}\\cdot\\sqrt{\\frac{3}{2}}=\\frac{1}{2}。$$\n从图可见，三角形 $\\Sigma$ 的边长均为 $\\sqrt{2}$，其高线长为 $\\sqrt{\\frac{3}{2}}$。\n\n图示：三角形的三个顶点在 $x,y,z$ 轴上，分别标为 $1,-1,1$，原点标为 $O$；从三角形向左上方的箭头标为 $\\vec n$。",
+  "search_text": "$\\iint_\\Sigma\\{[f(x,y,z)+x]dydz+[2f(x,y,z)+y]dzdx+[f(x,y,z)+z]dxdy\\}$，其中 $\\Sigma$ 是平面 $x-y+z=1$ 在第四卦限部分的上侧（ ） $\\sqrt2$ $1$ $\\frac{\\sqrt3}{3}$ $\\frac12$ 解答 平面 $\\Sigma$ 的法向量 $\\vec n=\\{1,-1,1\\}$。单位法向量 $\\vec n=\\left\\{\\frac{1}{\\sqrt{3}},-\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}}\\right\\}=\\{\\cos\\alpha,\\cos\\beta,\\cos\\gamma\\}$\n$$原式=\\iint_\\Sigma(P\\cos\\alpha+Q\\cos\\beta+R\\cos\\gamma)dS=\\frac{1}{\\sqrt{3}}\\iint_\\Sigma[(f+x)-(2f+y)+(f+z)]dS$$\n$$=\\frac{1}{\\sqrt{3}}\\iint_\\Sigma(x-y+z)dS=\\frac{1}{\\sqrt{3}}\\iint_\\Sigma1\\cdot dS=\\frac{1}{\\sqrt{3}}S_\\Delta=\\frac{1}{\\sqrt{3}}\\cdot\\frac{1}{2}\\cdot\\sqrt{2}\\cdot\\sqrt{\\frac{3}{2}}=\\frac{1}{2}。$$\n从图可见，三角形 $\\Sigma$ 的边长均为 $\\sqrt{2}$，其高线长为 $\\sqrt{\\frac{3}{2}}$。\n\n图示：三角形的三个顶点在 $x,y,z$ 轴上，分别标为 $1,-1,1$，原点标为 $O$；从三角形向左上方的箭头标为 $\\vec n$。",
+  "sort_order": 9
+}

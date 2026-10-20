@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "从编号$1,2,\\ldots,n$的袋中有放回抽取$k$次，求号码和$X$的期望。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k(n+1)/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(n+1)/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$kn$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k/n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "每次抽取期望$(n+1)/2$，总和期望$k(n+1)/2$。",
+  "search_text": "从编号$1,2,\\ldots,n$的袋中有放回抽取$k$次，求号码和$X$的期望。 $k(n+1)/2$ $(n+1)/2$ $kn$ $k/n$ 每次抽取期望$(n+1)/2$，总和期望$k(n+1)/2$。",
+  "sort_order": 4
+}

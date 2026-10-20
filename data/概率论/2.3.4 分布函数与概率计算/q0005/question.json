@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$F(x)=0(x<0),x^2/25(0\\le x<5),1(x\\ge5)$，求$P(3\\le\\xi<6)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$9/25$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$9/16$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$16/25$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$6/16$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "端点无点概率，$F(6)-F(3)=1-9/25=16/25$。",
+  "search_text": "$F(x)=0(x<0),x^2/25(0\\le x<5),1(x\\ge5)$，求$P(3\\le\\xi<6)$。 $9/25$ $9/16$ $16/25$ $6/16$ 端点无点概率，$F(6)-F(3)=1-9/25=16/25$。",
+  "sort_order": 5
+}

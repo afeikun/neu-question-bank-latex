@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac{dy}{dx}=-\\sin^2(x+y)$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\tan(x+y)=x+C$ 或 $y=k\\pi+\\frac\\pi2-x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=k\\pi+\\frac\\pi2-x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\tan(x+y)=Cx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\tan(x+y)=x+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z=x+y$，方程可化为 $\\frac{dz}{dx}=1-\\sin^2 z=\\cos^2 z$，当 $\\cos z\\ne0\\quad\\frac{dz}{\\cos^2 z}=dx$\n\n即通解为 $\\tan(x+y)=x+C$。\n\n$\\cos^2 z=0$，即 $z=k\\pi+\\frac{\\pi}{2}$ 时，也是方程的解",
+  "search_text": "$\\frac{dy}{dx}=-\\sin^2(x+y)$ 的通解为（ ） $\\tan(x+y)=x+C$ 或 $y=k\\pi+\\frac\\pi2-x$ $y=k\\pi+\\frac\\pi2-x$ $\\tan(x+y)=Cx$ $\\tan(x+y)=x+C$ 令 $z=x+y$，方程可化为 $\\frac{dz}{dx}=1-\\sin^2 z=\\cos^2 z$，当 $\\cos z\\ne0\\quad\\frac{dz}{\\cos^2 z}=dx$\n\n即通解为 $\\tan(x+y)=x+C$。\n\n$\\cos^2 z=0$，即 $z=k\\pi+\\frac{\\pi}{2}$ 时，也是方程的解",
+  "sort_order": 36
+}

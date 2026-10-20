@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $l$ 沿抛物线 $y=x^2$ 从 $O(0,0)$ 到 $A(1,1)$，将 $\\int_lPdx+Qdy$ 化为第一类曲线积分。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_l\\frac{P+xQ}{\\sqrt{1+4x^2}}ds$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_l\\frac{P+2xQ}{\\sqrt{1+4x^2}}ds$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_l\\frac{P-2xQ}{\\sqrt{1+4x^2}}ds$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_l\\frac{P+2xQ}{\\sqrt{1+x^2}}ds$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "显然$\\alpha\\in(0,\\frac{\\pi}{2})$，抛物线$y=x^2$上的点$(x,y)$处切向量为$(1,2x)$则！$\\cos\\alpha=\\frac{1}{\\sqrt{1+4x^2}}$\n$$\\cos\\beta=\\frac{2x}{\\sqrt{1+4x^2}},ds=\\sqrt{1+4x^2}dx，$$\n因此，有$$\\int_lPdx+Qdy=\\int_l\\frac{P+2xQ}{\\sqrt{1+4x^2}}ds$$",
+  "search_text": "设 $l$ 沿抛物线 $y=x^2$ 从 $O(0,0)$ 到 $A(1,1)$，将 $\\int_lPdx+Qdy$ 化为第一类曲线积分。 $\\int_l\\frac{P+xQ}{\\sqrt{1+4x^2}}ds$ $\\int_l\\frac{P+2xQ}{\\sqrt{1+4x^2}}ds$ $\\int_l\\frac{P-2xQ}{\\sqrt{1+4x^2}}ds$ $\\int_l\\frac{P+2xQ}{\\sqrt{1+x^2}}ds$ 显然$\\alpha\\in(0,\\frac{\\pi}{2})$，抛物线$y=x^2$上的点$(x,y)$处切向量为$(1,2x)$则！$\\cos\\alpha=\\frac{1}{\\sqrt{1+4x^2}}$\n$$\\cos\\beta=\\frac{2x}{\\sqrt{1+4x^2}},ds=\\sqrt{1+4x^2}dx，$$\n因此，有$$\\int_lPdx+Qdy=\\int_l\\frac{P+2xQ}{\\sqrt{1+4x^2}}ds$$",
+  "sort_order": 11
+}

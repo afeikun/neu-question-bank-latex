@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^\\infty\\frac{\\cos(in)}{2^n}$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "收敛但非绝对收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "绝对收敛但非收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\cos(in)=(e^n+e^{-n})/2$，通项不趋于 $0$，故发散。",
+  "search_text": "级数 $\\sum_{n=1}^\\infty\\frac{\\cos(in)}{2^n}$（ ） 发散 收敛但非绝对收敛 绝对收敛但非收敛 绝对收敛 $\\cos(in)=(e^n+e^{-n})/2$，通项不趋于 $0$，故发散。",
+  "sort_order": 22
+}

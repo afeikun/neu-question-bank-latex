@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi,\\eta$独立，$F_\\xi(x)=1-e^{-x^2}$（$x\\ge0$），$F_\\eta(y)=1-e^{-2y^2}$（$y\\ge0$），求联合分布函数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-e^{-x^2}-e^{-2y^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2}$无分段"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2}$另支0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1-e^{-x^2}+e^{-2y^2}-e^{-x^2-2y^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "独立时$F(x,y)=F_\\xi(x)F_\\eta(y)$；在$x,y\\ge0$展开为$1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2}$，其他区域为0。",
+  "search_text": "$\\xi,\\eta$独立，$F_\\xi(x)=1-e^{-x^2}$（$x\\ge0$），$F_\\eta(y)=1-e^{-2y^2}$（$y\\ge0$），求联合分布函数。 $1-e^{-x^2}-e^{-2y^2}$ $1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2}$无分段 $1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2}$另支0 $1-e^{-x^2}+e^{-2y^2}-e^{-x^2-2y^2}$ 独立时$F(x,y)=F_\\xi(x)F_\\eta(y)$；在$x,y\\ge0$展开为$1-e^{-x^2}-e^{-2y^2}+e^{-x^2-2y^2}$，其他区域为0。",
+  "sort_order": 4
+}

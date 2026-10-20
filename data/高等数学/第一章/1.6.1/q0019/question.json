@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}\\frac{\\sin x-\\tan x}{(\\sqrt[3]{1+x^2})(\\sqrt{1+\\sin x}-1)}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "-12"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "-3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "6"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$\\sin x-\\tan x\\sim-x^3/2$，分母约为 $x^2/2$，极限为 $-3$。",
+  "search_text": "$\\lim_{x\\to0}\\frac{\\sin x-\\tan x}{(\\sqrt[3]{1+x^2})(\\sqrt{1+\\sin x}-1)}=[\\quad]$。 -12 -3 不存在 6 $\\sin x-\\tan x\\sim-x^3/2$，分母约为 $x^2/2$，极限为 $-3$。",
+  "sort_order": 19
+}

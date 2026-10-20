@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "抛硬币3次，$X$为正面次数，以下正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(X=2)=3/8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(X=2)=1/8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(X\\le1)=3/8$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(X\\le1)=1/8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(X=2)=C_3^2/2^3=3/8$。",
+  "search_text": "抛硬币3次，$X$为正面次数，以下正确的是（ ）。 $P(X=2)=3/8$ $P(X=2)=1/8$ $P(X\\le1)=3/8$ $P(X\\le1)=1/8$ $P(X=2)=C_3^2/2^3=3/8$。",
+  "sort_order": 32
+}

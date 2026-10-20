@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $x,y$ 为任意两个正数且 $x\\ne y$，则当 $n>1$ 时正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{x^n+y^n}{2}>\\left(\\frac{x+y}{2}\\right)^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x^n+y^n}{2}<\\left(\\frac{x+y}{2}\\right)^n$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x^n+y^n}{2}\\ge\\left(\\frac{x+y}{2}\\right)^n$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{x^n+y^n}{2}\\le\\left(\\frac{x+y}{2}\\right)^n$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$x^n$ 在正数上严格凸，应用严格 Jensen 不等式可得算术平均值不等式，左侧严格大于右侧。",
+  "search_text": "设 $x,y$ 为任意两个正数且 $x\\ne y$，则当 $n>1$ 时正确的是（ ）。 $\\frac{x^n+y^n}{2}>\\left(\\frac{x+y}{2}\\right)^n$ $\\frac{x^n+y^n}{2}<\\left(\\frac{x+y}{2}\\right)^n$ $\\frac{x^n+y^n}{2}\\ge\\left(\\frac{x+y}{2}\\right)^n$ $\\frac{x^n+y^n}{2}\\le\\left(\\frac{x+y}{2}\\right)^n$ $x^n$ 在正数上严格凸，应用严格 Jensen 不等式可得算术平均值不等式，左侧严格大于右侧。",
+  "sort_order": 7
+}

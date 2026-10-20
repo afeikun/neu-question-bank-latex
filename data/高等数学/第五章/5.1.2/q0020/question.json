@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列结论中正确的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $\\sum_{n=1}^{\\infty}(u_n+v_n)$ 收敛，则 $\\sum_{n=1}^{\\infty} u_n$ 与 $\\sum_{n=1}^{\\infty} v_n$ 都收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若两级数都发散，则其和级数发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若两级数都收敛，则其和级数收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若和级数发散，则两级数都发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "收敛级数的和仍收敛。",
+  "search_text": "下列结论中正确的是哪一个？ 若 $\\sum_{n=1}^{\\infty}(u_n+v_n)$ 收敛，则 $\\sum_{n=1}^{\\infty} u_n$ 与 $\\sum_{n=1}^{\\infty} v_n$ 都收敛 若两级数都发散，则其和级数发散 若两级数都收敛，则其和级数收敛 若和级数发散，则两级数都发散 收敛级数的和仍收敛。",
+  "sort_order": 20
+}

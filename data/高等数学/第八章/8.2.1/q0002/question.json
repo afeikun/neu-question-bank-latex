@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $a$ 的均匀半圆薄片对其直径的转动惯量（ ）($M$ 为薄片的质量)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12Ma^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac14Ma^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac13Ma^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$Ma^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "建立坐标系如图，\n\\[\nD:\\left\\{\\begin{array}{l}x^2+y^2\\leq a^2\\\\y\\geq 0\\end{array}\\right.\n\\]\n半圆薄片的质量 $M=\\frac{1}{2}\\pi a^2\\mu$\n\\[\nI_x=\\mu\\iint_D y^2dxdy=\\mu\\iint_D r^3\\sin^2\\theta\\,d\\theta dr=\\mu\\int_0^\\pi\\sin^2\\theta\\,d\\theta\\int_0^a r^3dr=\\frac{1}{8}\\pi a^4\\mu=\\frac{1}{4}Ma^2\n\\]\n图示：半圆区域 $D$ 位于 $x$ 轴上方；$y$ 轴向上，$x$ 轴向右，原点为 $O$，左右端点分别标为 $-a$ 和 $a$。",
+  "search_text": "半径为 $a$ 的均匀半圆薄片对其直径的转动惯量（ ）($M$ 为薄片的质量) $\\frac12Ma^2$ $\\frac14Ma^2$ $\\frac13Ma^2$ $Ma^2$ 建立坐标系如图，\n\\[\nD:\\left\\{\\begin{array}{l}x^2+y^2\\leq a^2\\\\y\\geq 0\\end{array}\\right.\n\\]\n半圆薄片的质量 $M=\\frac{1}{2}\\pi a^2\\mu$\n\\[\nI_x=\\mu\\iint_D y^2dxdy=\\mu\\iint_D r^3\\sin^2\\theta\\,d\\theta dr=\\mu\\int_0^\\pi\\sin^2\\theta\\,d\\theta\\int_0^a r^3dr=\\frac{1}{8}\\pi a^4\\mu=\\frac{1}{4}Ma^2\n\\]\n图示：半圆区域 $D$ 位于 $x$ 轴上方；$y$ 轴向上，$x$ 轴向右，原点为 $O$，左右端点分别标为 $-a$ 和 $a$。",
+  "sort_order": 2
+}

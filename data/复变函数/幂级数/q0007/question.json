@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=0}^{\\infty}(2^n-1)z^n$ 的和函数为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z/((1-2z)(1-z))$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/((1-2z)(1-z))$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2/((1-2z)(1-z))$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2z/((1-2z)(1-z))$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "拆为 $\\sum_{n=0}^{\\infty}(2z)^n-\\sum_{n=0}^{\\infty}z^n=1/(1-2z)-1/(1-z)=z/((1-2z)(1-z))$。",
+  "search_text": "幂级数 $\\sum_{n=0}^{\\infty}(2^n-1)z^n$ 的和函数为（ ）。 $z/((1-2z)(1-z))$ $1/((1-2z)(1-z))$ $2/((1-2z)(1-z))$ $2z/((1-2z)(1-z))$ 拆为 $\\sum_{n=0}^{\\infty}(2z)^n-\\sum_{n=0}^{\\infty}z^n=1/(1-2z)-1/(1-z)=z/((1-2z)(1-z))$。",
+  "sort_order": 7
+}

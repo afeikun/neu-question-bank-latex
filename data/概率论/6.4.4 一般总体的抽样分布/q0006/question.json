@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_1,X_2$为0-1总体样本，$P(\\xi=1)=0.8$，$\\eta=\\max\\{X_1,X_2\\}$的分布为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(0)=0.5,P(1)=0.5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(0)=0.04,P(1)=0.96$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(0)=0.8,P(1)=0.2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(0)=0.2,P(1)=0.8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$P(\\eta=0)=0.2^2=0.04$，所以$P(\\eta=1)=0.96$。",
+  "search_text": "$X_1,X_2$为0-1总体样本，$P(\\xi=1)=0.8$，$\\eta=\\max\\{X_1,X_2\\}$的分布为（）。 $P(0)=0.5,P(1)=0.5$ $P(0)=0.04,P(1)=0.96$ $P(0)=0.8,P(1)=0.2$ $P(0)=0.2,P(1)=0.8$ $P(\\eta=0)=0.2^2=0.04$，所以$P(\\eta=1)=0.96$。",
+  "sort_order": 6
+}

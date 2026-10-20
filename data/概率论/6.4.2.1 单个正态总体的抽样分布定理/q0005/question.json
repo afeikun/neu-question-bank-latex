@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态样本中下列结论错误的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\bar X-\\mu}{\\sum(X_i-\\mu)^2}\\sim t(n)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1{\\sigma^2}\\sum(X_i-\\mu)^2\\sim\\chi^2(n)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{\\sigma^2}\\sum(X_i-\\bar X)^2\\sim\\chi^2(n-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\bar X-\\mu}{\\sqrt{\\sum(X_i-\\bar X)^2}}\\sqrt{\\frac{n-1}{n}}\\sim t(n-1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "选项1分子与分母不独立，且量纲也不符合$t$分布定义。",
+  "search_text": "正态样本中下列结论错误的是（）。 $\\frac{\\bar X-\\mu}{\\sum(X_i-\\mu)^2}\\sim t(n)$ $\\frac1{\\sigma^2}\\sum(X_i-\\mu)^2\\sim\\chi^2(n)$ $\\frac1{\\sigma^2}\\sum(X_i-\\bar X)^2\\sim\\chi^2(n-1)$ $\\frac{\\bar X-\\mu}{\\sqrt{\\sum(X_i-\\bar X)^2}}\\sqrt{\\frac{n-1}{n}}\\sim t(n-1)$ 选项1分子与分母不独立，且量纲也不符合$t$分布定义。",
+  "sort_order": 5
+}

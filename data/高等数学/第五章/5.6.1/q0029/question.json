@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "周期2，$f(x)=|x|$（$-1\\le x\\le1$），求傅里叶级数和 $S(-5)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "3"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "周期性给 $S(-5)=S(-1)=1$。",
+  "search_text": "周期2，$f(x)=|x|$（$-1\\le x\\le1$），求傅里叶级数和 $S(-5)$。 1 $\\pi-1$ 0 3 周期性给 $S(-5)=S(-1)=1$。",
+  "sort_order": 29
+}

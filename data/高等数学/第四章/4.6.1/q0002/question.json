@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "直线y=ax与抛物线y=x²围成面积为S₁，它们与x=1围成面积为S₂，0<a<1，若S₁+S₂最小，求a",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "1/√2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1/3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1/2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "1/√3"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "面积和关于a的导数为a²−1/2，最小值处a=1/√2。",
+  "search_text": "直线y=ax与抛物线y=x²围成面积为S₁，它们与x=1围成面积为S₂，0<a<1，若S₁+S₂最小，求a 1/√2 1/3 1/2 1/√3 面积和关于a的导数为a²−1/2，最小值处a=1/√2。",
+  "sort_order": 2
+}

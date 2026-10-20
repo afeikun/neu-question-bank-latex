@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{1+i}^{1-i}(z^3-6z)\\,dz=(\\quad)$（积分路径是从下限到上限的任意路径）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$12i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-12i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_{1+i}^{1-i}(z^3-6z)\\,dz=\\left(\\frac{z^4}{4}-3z^2\\right)\\big|_{1+i}^{1-i}=12i$。",
+  "search_text": "$\\int_{1+i}^{1-i}(z^3-6z)\\,dz=(\\quad)$（积分路径是从下限到上限的任意路径）。 $12i$ $6i$ $3i$ $-12i$ $\\int_{1+i}^{1-i}(z^3-6z)\\,dz=\\left(\\frac{z^4}{4}-3z^2\\right)\\big|_{1+i}^{1-i}=12i$。",
+  "sort_order": 6
+}

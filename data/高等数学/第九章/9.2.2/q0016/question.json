@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\iint_\\Sigma\\sin x\\,dS$，其中 $\\Sigma:z=-\\sqrt{2-x^2-y^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：曲面 $\\Sigma:z=-\\sqrt{1-x^2-y^2}$，\n\n根据奇函数性质：$\\iint_\\Sigma\\sin x\\,dS=0$",
+  "search_text": "求 $\\iint_\\Sigma\\sin x\\,dS$，其中 $\\Sigma:z=-\\sqrt{2-x^2-y^2}$。 $1$ $\\pi$ $0$ $2\\pi$ 解答：曲面 $\\Sigma:z=-\\sqrt{1-x^2-y^2}$，\n\n根据奇函数性质：$\\iint_\\Sigma\\sin x\\,dS=0$",
+  "sort_order": 16
+}

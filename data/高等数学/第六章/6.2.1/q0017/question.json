@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $2\\vec a+5\\vec b$ 与 $\\vec a-\\vec b$ 垂直，$2\\vec a+3\\vec b$ 与 $\\vec a-5\\vec b$ 垂直，则 $(\\widehat{\\vec a,\\vec b})$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2\\pi}3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "将两个垂直关系展开联立，得 $|\\vec a|=2|\\vec b|$ 且 $\\vec a\\cdot\\vec b=-|\\vec b|^2$，所以余弦为 $-\\frac12$，夹角为 $\\frac{2\\pi}3$。",
+  "search_text": "设 $2\\vec a+5\\vec b$ 与 $\\vec a-\\vec b$ 垂直，$2\\vec a+3\\vec b$ 与 $\\vec a-5\\vec b$ 垂直，则 $(\\widehat{\\vec a,\\vec b})$ 为(\\quad)。 $\\frac\\pi4$ $\\frac{2\\pi}3$ $\\frac\\pi6$ $\\frac\\pi3$ 将两个垂直关系展开联立，得 $|\\vec a|=2|\\vec b|$ 且 $\\vec a\\cdot\\vec b=-|\\vec b|^2$，所以余弦为 $-\\frac12$，夹角为 $\\frac{2\\pi}3$。",
+  "sort_order": 17
+}

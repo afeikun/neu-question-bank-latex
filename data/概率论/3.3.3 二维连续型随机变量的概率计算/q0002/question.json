@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=12e^{-(3x+4y)}$（$x,y>0$），求$P(0<X\\le1,0<Y\\le2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-3}(1-e^{-8})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1-e^{-3})(1-e^{-8})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-8}(1-e^{-3})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1-e^{-6})(1-e^{-8})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "密度可分离，积分得$(1-e^{-3})(1-e^{-8})$。",
+  "search_text": "$f(x,y)=12e^{-(3x+4y)}$（$x,y>0$），求$P(0<X\\le1,0<Y\\le2)$。 $e^{-3}(1-e^{-8})$ $(1-e^{-3})(1-e^{-8})$ $e^{-8}(1-e^{-3})$ $(1-e^{-6})(1-e^{-8})$ 密度可分离，积分得$(1-e^{-3})(1-e^{-8})$。",
+  "sort_order": 2
+}

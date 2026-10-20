@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to0}(\\cot x-\\frac1x)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $\\cot x=1/x-x/3+o(x)$，差的极限为 $0$。",
+  "search_text": "$\\lim_{x\\to0}(\\cot x-\\frac1x)=(\\quad)$。 $\\infty$ $0$ $-1$ $1$ 由 $\\cot x=1/x-x/3+o(x)$，差的极限为 $0$。",
+  "sort_order": 53
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，且 $f(x)\\ne0$，$\\varphi(x)$ 有间断点，则（ ）必有间断点。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(\\varphi(x))$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\varphi(x)}{f(x)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\varphi^2(x)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\varphi(f(x))$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$f(x)$ 连续且处处非零，除以 $f(x)$ 不会消除 $\\varphi(x)$ 的间断。",
+  "search_text": "$f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，且 $f(x)\\ne0$，$\\varphi(x)$ 有间断点，则（ ）必有间断点。 $f(\\varphi(x))$ $\\frac{\\varphi(x)}{f(x)}$ $\\varphi^2(x)$ $\\varphi(f(x))$ $f(x)$ 连续且处处非零，除以 $f(x)$ 不会消除 $\\varphi(x)$ 的间断。",
+  "sort_order": 30
+}

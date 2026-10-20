@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)$ 二阶可导，且 $f\\prime\\prime(x)>0$，$f(0)=0$，则 $F(x)=\\frac{f(x)}x$ 在 $0<x<+\\infty$ 上（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "单调减少"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调增加"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "有极小值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "有极大值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $g(x)=xf\\prime(x)-f(x)$，则 $g\\prime(x)=xf\\prime\\prime(x)>0$ 且 $g(0)=0$，所以 $F\\prime(x)=g(x)/x^2>0$，$F$ 单调增加。",
+  "search_text": "若 $f(x)$ 二阶可导，且 $f\\prime\\prime(x)>0$，$f(0)=0$，则 $F(x)=\\frac{f(x)}x$ 在 $0<x<+\\infty$ 上（ ）。 单调减少 单调增加 有极小值 有极大值 令 $g(x)=xf\\prime(x)-f(x)$，则 $g\\prime(x)=xf\\prime\\prime(x)>0$ 且 $g(0)=0$，所以 $F\\prime(x)=g(x)/x^2>0$，$F$ 单调增加。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(\\xi,\\eta)$在矩形$a\\le x\\le b,c\\le y\\le d$上均匀分布，求联合密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/[(b-a)(d-c)]$于该矩形，其他0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/(b-a)$于矩形"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/(d-c)$于矩形"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x-a)(y-c)/[(b-a)(d-c)]$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "矩形面积为$(b-a)(d-c)$，均匀密度为其倒数。",
+  "search_text": "$(\\xi,\\eta)$在矩形$a\\le x\\le b,c\\le y\\le d$上均匀分布，求联合密度。 $1/[(b-a)(d-c)]$于该矩形，其他0 $1/(b-a)$于矩形 $1/(d-c)$于矩形 $(x-a)(y-c)/[(b-a)(d-c)]$ 矩形面积为$(b-a)(d-c)$，均匀密度为其倒数。",
+  "sort_order": 1
+}

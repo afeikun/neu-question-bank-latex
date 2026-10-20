@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设非齐次线性方程组 $\\begin{cases}a x_1+a x_2+\\cdots+a x_n=k,\\\\b x_1+b x_2+\\cdots+b x_n=l\\end{cases}$ 无解，其中 $a,b,k,l$ 均不为 $0$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{l}{b}=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{a}{b}=\\frac{k}{l}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{a}{b}\\ne\\frac{k}{l}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{k}{a}=1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "两行系数成比例，方程组无解要求常数项不按相同比例变化，即 $l-\\frac ba k\\ne0$，等价于 $\\frac ab\\ne\\frac kl$。",
+  "search_text": "设非齐次线性方程组 $\\begin{cases}a x_1+a x_2+\\cdots+a x_n=k,\\\\b x_1+b x_2+\\cdots+b x_n=l\\end{cases}$ 无解，其中 $a,b,k,l$ 均不为 $0$，则（ ）。 $\\frac{l}{b}=1$ $\\frac{a}{b}=\\frac{k}{l}$ $\\frac{a}{b}\\ne\\frac{k}{l}$ $\\frac{k}{a}=1$ 两行系数成比例，方程组无解要求常数项不按相同比例变化，即 $l-\\frac ba k\\ne0$，等价于 $\\frac ab\\ne\\frac kl$。",
+  "sort_order": 22
+}

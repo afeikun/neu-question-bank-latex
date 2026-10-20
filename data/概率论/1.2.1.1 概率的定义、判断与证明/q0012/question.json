@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B,C$ 为三个事件，$P(AB)>0$ 且 $P(C\\mid AB)=1$，则有(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(C)\\ge P(A)+P(B)-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(C)\\le P(A)+P(B)-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(C)\\le P(A\\cup B)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(C)\\ge P(A\\cup B)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "条件概率为 1 表示 $P(ABC)=P(AB)$，即 $AB$ 几乎必然包含于 $C$。由 $P(A\\cup B)=P(A)+P(B)-P(AB)\\le1$，有 $P(C)\\ge P(AB)\\ge P(A)+P(B)-1$。",
+  "search_text": "设 $A,B,C$ 为三个事件，$P(AB)>0$ 且 $P(C\\mid AB)=1$，则有(\\quad)。 $P(C)\\ge P(A)+P(B)-1$ $P(C)\\le P(A)+P(B)-1$ $P(C)\\le P(A\\cup B)$ $P(C)\\ge P(A\\cup B)$ 条件概率为 1 表示 $P(ABC)=P(AB)$，即 $AB$ 几乎必然包含于 $C$。由 $P(A\\cup B)=P(A)+P(B)-P(AB)\\le1$，有 $P(C)\\ge P(AB)\\ge P(A)+P(B)-1$。",
+  "sort_order": 12
+}

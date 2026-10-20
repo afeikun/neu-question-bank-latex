@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\frac{(x+ay)dx+y\\,dy}{(x+y)^2}$ 为某函数的全微分，则 $a$ 等于 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由于存在函数 $u(x,y)$，使得 $du=\\frac{(x+ay)dx}{(x+y)^2}+\\frac{y\\,dy}{(x+y)^2}$，\n\n由可微与可偏导的关系，知 $\\frac{\\partial u}{\\partial x}=\\frac{x+ay}{(x+y)^2},\\quad\\frac{\\partial u}{\\partial y}=\\frac{y}{(x+y)^2}$，\n\n分别对 $y,x$ 求偏导数，得\n\n$\\frac{\\partial^2u}{\\partial x\\partial y}=\\frac{a(x+y)^2-(x+ay)\\cdot2(x+y)}{(x+y)^4}=\\frac{(a-2)x-ay}{(x+y)^3},\\quad\\frac{\\partial^2u}{\\partial y\\partial x}=\\frac{-2y}{(x+y)^3}$。\n\n由于 $\\frac{\\partial^2u}{\\partial y\\partial x}$ 与 $\\frac{\\partial^2u}{\\partial x\\partial y}$ 连续，所以 $\\frac{\\partial^2u}{\\partial y\\partial x}=\\frac{\\partial^2u}{\\partial x\\partial y}$，即\n\n$\\frac{(a-2)x-ay}{(x+y)^3}=\\frac{-2y}{(x+y)^3}\\Rightarrow a=2$，",
+  "search_text": "已知 $\\frac{(x+ay)dx+y\\,dy}{(x+y)^2}$ 为某函数的全微分，则 $a$ 等于 $(\\quad)$。 $0$ $1$ $2$ $-1$ 由于存在函数 $u(x,y)$，使得 $du=\\frac{(x+ay)dx}{(x+y)^2}+\\frac{y\\,dy}{(x+y)^2}$，\n\n由可微与可偏导的关系，知 $\\frac{\\partial u}{\\partial x}=\\frac{x+ay}{(x+y)^2},\\quad\\frac{\\partial u}{\\partial y}=\\frac{y}{(x+y)^2}$，\n\n分别对 $y,x$ 求偏导数，得\n\n$\\frac{\\partial^2u}{\\partial x\\partial y}=\\frac{a(x+y)^2-(x+ay)\\cdot2(x+y)}{(x+y)^4}=\\frac{(a-2)x-ay}{(x+y)^3},\\quad\\frac{\\partial^2u}{\\partial y\\partial x}=\\frac{-2y}{(x+y)^3}$。\n\n由于 $\\frac{\\partial^2u}{\\partial y\\partial x}$ 与 $\\frac{\\partial^2u}{\\partial x\\partial y}$ 连续，所以 $\\frac{\\partial^2u}{\\partial y\\partial x}=\\frac{\\partial^2u}{\\partial x\\partial y}$，即\n\n$\\frac{(a-2)x-ay}{(x+y)^3}=\\frac{-2y}{(x+y)^3}\\Rightarrow a=2$，",
+  "sort_order": 7
+}

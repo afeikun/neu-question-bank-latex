@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=2}^\\infty(-1)^n\\sqrt n/(n-1)$ 如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "绝对收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "敛散性不确定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "通项绝对值渐近于 $1/\\sqrt n$，递减趋零，故条件收敛。",
+  "search_text": "级数 $\\sum_{n=2}^\\infty(-1)^n\\sqrt n/(n-1)$ 如何？ 绝对收敛 敛散性不确定 条件收敛 发散 通项绝对值渐近于 $1/\\sqrt n$，递减趋零，故条件收敛。",
+  "sort_order": 27
+}

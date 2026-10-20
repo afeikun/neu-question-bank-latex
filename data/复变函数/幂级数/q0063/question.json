@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "幂级数 $\\sum_{n=0}^{\\infty}(-1)^{n+1}z^{2n}$（$|z|<1$）内的和函数是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1/(1+z^2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/(1-z^2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-1/(z^2-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/(1+z^2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "这是首项为 $-1$、公比为 $-z^2$ 的几何级数，和为 $-1/(1+z^2)$。",
+  "search_text": "幂级数 $\\sum_{n=0}^{\\infty}(-1)^{n+1}z^{2n}$（$|z|<1$）内的和函数是（ ）。 $-1/(1+z^2)$ $1/(1-z^2)$ $-1/(z^2-1)$ $1/(1+z^2)$ 这是首项为 $-1$、公比为 $-z^2$ 的几何级数，和为 $-1/(1+z^2)$。",
+  "sort_order": 63
+}

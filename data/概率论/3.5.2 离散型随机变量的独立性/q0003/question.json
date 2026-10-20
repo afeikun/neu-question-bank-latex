@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(X=k)=a/k,P(Y=-k)=b/k^2(k=1,2)$，且$X,Y$独立，求$P(XY=-2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=3/2,b=4/5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(XY=-1)=3/5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(XY=-2)=2/5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=6/11,b=36/49$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "归一化得$a=2/3,b=4/5$；$XY=-2$由$(1,-2)$或$(2,-1)$产生，概率$ab(1/4+1/2)=2/5$，选项2。",
+  "search_text": "$P(X=k)=a/k,P(Y=-k)=b/k^2(k=1,2)$，且$X,Y$独立，求$P(XY=-2)$。 $a=3/2,b=4/5$ $P(XY=-1)=3/5$ $P(XY=-2)=2/5$ $a=6/11,b=36/49$ 归一化得$a=2/3,b=4/5$；$XY=-2$由$(1,-2)$或$(2,-1)$产生，概率$ab(1/4+1/2)=2/5$，选项2。",
+  "sort_order": 3
+}

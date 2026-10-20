@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是 $x^2+y^2+z^2\\leq1$ 的位于第五卦限部分的立体，则 $\\iiint_\\Omega z\\,dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac\\pi4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac\\pi{16}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac\\pi4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi{16}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_\\Omega z\\,dv=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_{\\frac{\\pi}{2}}^\\pi d\\varphi\\int_0^1r^3\\sin\\varphi\\cos\\varphi\\,dr=-\\frac{\\pi}{16}\n$$",
+  "search_text": "若 $\\Omega$ 是 $x^2+y^2+z^2\\leq1$ 的位于第五卦限部分的立体，则 $\\iiint_\\Omega z\\,dv=$（ ） $-\\frac\\pi4$ $-\\frac\\pi{16}$ $-\\frac\\pi4$ $\\frac\\pi{16}$ $$\n\\iiint_\\Omega z\\,dv=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_{\\frac{\\pi}{2}}^\\pi d\\varphi\\int_0^1r^3\\sin\\varphi\\cos\\varphi\\,dr=-\\frac{\\pi}{16}\n$$",
+  "sort_order": 23
+}

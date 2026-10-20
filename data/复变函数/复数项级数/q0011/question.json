@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_n=((1+i)/2)^n$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不存在"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|(1+i)/2|=\\sqrt2/2<1$，故 $\\alpha_n\\to0$。",
+  "search_text": "设 $\\alpha_n=((1+i)/2)^n$，则 $\\lim_{n\\to\\infty}\\alpha_n=\\underline{\\qquad}$。 $0$ $1$ $1/2$ 不存在 $|(1+i)/2|=\\sqrt2/2<1$，故 $\\alpha_n\\to0$。",
+  "sort_order": 11
+}

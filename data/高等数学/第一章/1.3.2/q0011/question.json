@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列极限中，不正确的是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\lim_{x\\to0}(\\frac12)^{1/x}=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\lim_{x\\to3}(x+1)=4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\lim_{x\\to1}\\frac{\\sin(x-1)}x=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{x\\to0^-}e^{1/x}=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "第一项的双侧极限不存在：右极限为 $0$，左极限为 $+\\infty$。其余各式成立。",
+  "search_text": "下列极限中，不正确的是（ ）。 $\\lim_{x\\to0}(\\frac12)^{1/x}=0$ $\\lim_{x\\to3}(x+1)=4$ $\\lim_{x\\to1}\\frac{\\sin(x-1)}x=0$ $\\lim_{x\\to0^-}e^{1/x}=0$ 第一项的双侧极限不存在：右极限为 $0$，左极限为 $+\\infty$。其余各式成立。",
+  "sort_order": 11
+}

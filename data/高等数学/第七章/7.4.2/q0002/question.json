@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=f(t)$，$t=e^x+e^{-y}$，求 $u_{xx}+u_{yy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(e^{2x}-e^{-2y})f''(t)+(e^x-e^{-y})f'(t)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(e^{2x}+e^{-2y})f''(t)+(e^x-e^{-y})f'(t)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(e^{2x}+e^{-2y})f''(t)+(e^x+e^{-y})f'(t)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(e^{2x}-e^{-2y})f''(t)+(e^x+e^{-y})f'(t)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\\frac{\\partial u}{\\partial x}=\\frac{\\partial u}{\\partial t}\\frac{\\partial t}{\\partial x}=f'(t)e^x,\\quad\\frac{\\partial u}{\\partial y}=\\frac{\\partial u}{\\partial t}\\frac{\\partial t}{\\partial y}=-f'(t)e^{-y}$$\n\n$$\\frac{\\partial^2u}{\\partial x^2}=\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial u}{\\partial x}\\right)=f''(t)e^{2x}+f'(t)e^x$$\n\n$$\\frac{\\partial^2u}{\\partial y^2}=\\frac{\\partial}{\\partial y}\\left(\\frac{\\partial u}{\\partial y}\\right)=-f''(t)(-e^{-y})e^{-y}+f'(t)e^{-y}=f''(t)e^{-2y}+f'(t)e^{-y}$$\n\n$$\\text{则：}\\quad\\frac{\\partial^2u}{\\partial x^2}+\\frac{\\partial^2u}{\\partial y^2}=(e^{2x}+e^{-2y})f''(t)+(e^x+e^{-y})f'(t)$$",
+  "search_text": "设 $u=f(t)$，$t=e^x+e^{-y}$，求 $u_{xx}+u_{yy}$。 $(e^{2x}-e^{-2y})f''(t)+(e^x-e^{-y})f'(t)$ $(e^{2x}+e^{-2y})f''(t)+(e^x-e^{-y})f'(t)$ $(e^{2x}+e^{-2y})f''(t)+(e^x+e^{-y})f'(t)$ $(e^{2x}-e^{-2y})f''(t)+(e^x+e^{-y})f'(t)$ $$\\frac{\\partial u}{\\partial x}=\\frac{\\partial u}{\\partial t}\\frac{\\partial t}{\\partial x}=f'(t)e^x,\\quad\\frac{\\partial u}{\\partial y}=\\frac{\\partial u}{\\partial t}\\frac{\\partial t}{\\partial y}=-f'(t)e^{-y}$$\n\n$$\\frac{\\partial^2u}{\\partial x^2}=\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial u}{\\partial x}\\right)=f''(t)e^{2x}+f'(t)e^x$$\n\n$$\\frac{\\partial^2u}{\\partial y^2}=\\frac{\\partial}{\\partial y}\\left(\\frac{\\partial u}{\\partial y}\\right)=-f''(t)(-e^{-y})e^{-y}+f'(t)e^{-y}=f''(t)e^{-2y}+f'(t)e^{-y}$$\n\n$$\\text{则：}\\quad\\frac{\\partial^2u}{\\partial x^2}+\\frac{\\partial^2u}{\\partial y^2}=(e^{2x}+e^{-2y})f''(t)+(e^x+e^{-y})f'(t)$$",
+  "sort_order": 2
+}

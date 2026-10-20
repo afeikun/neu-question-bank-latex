@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=x^2-2axy-by^2$，其中 $a,b$ 为常数，且 $u_y(2,1)=0$，则 $u_{yy}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4a$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial y}=-2ax-2by，\\quad \\frac{\\partial^2u}{\\partial y^2}=-2b$，由 $\\left.\\frac{\\partial u}{\\partial y}\\right|_{(2,1)}=0$ 得 $b=-2a$，则 $\\frac{\\partial^2u}{\\partial y^2}=4a$",
+  "search_text": "设 $u=x^2-2axy-by^2$，其中 $a,b$ 为常数，且 $u_y(2,1)=0$，则 $u_{yy}=(\\quad)$。 $2a$ $-4a$ $-2a$ $4a$ $\\frac{\\partial u}{\\partial y}=-2ax-2by，\\quad \\frac{\\partial^2u}{\\partial y^2}=-2b$，由 $\\left.\\frac{\\partial u}{\\partial y}\\right|_{(2,1)}=0$ 得 $b=-2a$，则 $\\frac{\\partial^2u}{\\partial y^2}=4a$",
+  "sort_order": 27
+}

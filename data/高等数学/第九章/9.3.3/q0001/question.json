@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Gamma$ 为曲线 $x=t,y=t^2,z=t^3$ 相应于 $t$ 从 $0$ 变到 $1$ 的一段曲线弧，把对坐标的曲线积分 $\\int_\\Gamma Pdx+Qdy+Rdz$ 化为关于弧长的曲线积分，其结果为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_\\Gamma\\frac{P+xQ+3yR}{\\sqrt{1+y+xz}}ds$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_\\Gamma\\frac{P+2xQ+3yR}{\\sqrt{1+y+xz}}ds$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_\\Gamma\\frac{P+xQ+3yR}{\\sqrt{1+4y+9xz}}ds$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_\\Gamma\\frac{P+2xQ+3yR}{\\sqrt{1+4y+9xz}}ds$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解：$\\frac{dx}{dt}=1,\\quad\\frac{dy}{dt}=2t,\\quad\\frac{dz}{dt}=3t^2$\n\n$$\\cos\\alpha=\\frac{1}{\\sqrt{1+4t^2+9t^4}}=\\frac{1}{\\sqrt{1+4y^2+9xz}}$$\n\n$$\\cos\\beta=\\frac{2t}{\\sqrt{1+4t^2+9t^4}}=\\frac{2x}{\\sqrt{1+4y^2+9xz}}$$\n\n$$\\cos\\gamma=\\frac{3t^2}{\\sqrt{1+4t^2+9t^4}}=\\frac{3y}{\\sqrt{1+4y^2+9xz}}$$\n\n$$\\int_\\Gamma Pdx+Qdy+Rdz=\\int_\\Gamma(P\\cos\\alpha+Q\\cos\\beta+R\\cos\\gamma)\\,ds=\\int_\\Gamma\\frac{P+2xQ+3yR}{\\sqrt{1+4y+9xz}}\\,ds$$",
+  "search_text": "设 $\\Gamma$ 为曲线 $x=t,y=t^2,z=t^3$ 相应于 $t$ 从 $0$ 变到 $1$ 的一段曲线弧，把对坐标的曲线积分 $\\int_\\Gamma Pdx+Qdy+Rdz$ 化为关于弧长的曲线积分，其结果为（ ） $\\int_\\Gamma\\frac{P+xQ+3yR}{\\sqrt{1+y+xz}}ds$ $\\int_\\Gamma\\frac{P+2xQ+3yR}{\\sqrt{1+y+xz}}ds$ $\\int_\\Gamma\\frac{P+xQ+3yR}{\\sqrt{1+4y+9xz}}ds$ $\\int_\\Gamma\\frac{P+2xQ+3yR}{\\sqrt{1+4y+9xz}}ds$ 解：$\\frac{dx}{dt}=1,\\quad\\frac{dy}{dt}=2t,\\quad\\frac{dz}{dt}=3t^2$\n\n$$\\cos\\alpha=\\frac{1}{\\sqrt{1+4t^2+9t^4}}=\\frac{1}{\\sqrt{1+4y^2+9xz}}$$\n\n$$\\cos\\beta=\\frac{2t}{\\sqrt{1+4t^2+9t^4}}=\\frac{2x}{\\sqrt{1+4y^2+9xz}}$$\n\n$$\\cos\\gamma=\\frac{3t^2}{\\sqrt{1+4t^2+9t^4}}=\\frac{3y}{\\sqrt{1+4y^2+9xz}}$$\n\n$$\\int_\\Gamma Pdx+Qdy+Rdz=\\int_\\Gamma(P\\cos\\alpha+Q\\cos\\beta+R\\cos\\gamma)\\,ds=\\int_\\Gamma\\frac{P+2xQ+3yR}{\\sqrt{1+4y+9xz}}\\,ds$$",
+  "sort_order": 1
+}

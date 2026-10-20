@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设曲面 $F(x,y,z)=0$ 在 $M(2,-1,0)$ 处法向量为 $(5,-\\sqrt2,-3)$ 或其反向，且与 $x$ 轴正向夹钝角，求法向量与 $z$ 轴正向的夹角。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac\\pi3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{2\\pi}3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由题设给出的曲面 $F(x,y,z)=0$ 在点 $M(2,-1,0)$ 处的偏导数可以得到曲线在此点的法向量 $\\vec{n}$ 可能为 $(5,-\\sqrt{2},-3)$ 或 $(-5,\\sqrt{2},3)$，又因为 $\\vec{n}$ 与 $x$ 轴正向的夹角为钝角，所以 $\\vec{n}=(-5,\\sqrt{2},3)$，则 $\\vec{n}$ 与 $z$ 轴正向的夹角的余弦：\n\n$$\\cos\\gamma=\\frac{3\\cdot1}{\\sqrt{(-5)^2+(\\sqrt{2})^2+3^2}\\sqrt{1}}=\\frac{1}{2}，\\quad 夹角\\gamma=\\frac{\\pi}{3}。$$",
+  "search_text": "设曲面 $F(x,y,z)=0$ 在 $M(2,-1,0)$ 处法向量为 $(5,-\\sqrt2,-3)$ 或其反向，且与 $x$ 轴正向夹钝角，求法向量与 $z$ 轴正向的夹角。 $\\frac\\pi2$ $\\frac\\pi4$ $\\frac\\pi3$ $\\frac{2\\pi}3$ 由题设给出的曲面 $F(x,y,z)=0$ 在点 $M(2,-1,0)$ 处的偏导数可以得到曲线在此点的法向量 $\\vec{n}$ 可能为 $(5,-\\sqrt{2},-3)$ 或 $(-5,\\sqrt{2},3)$，又因为 $\\vec{n}$ 与 $x$ 轴正向的夹角为钝角，所以 $\\vec{n}=(-5,\\sqrt{2},3)$，则 $\\vec{n}$ 与 $z$ 轴正向的夹角的余弦：\n\n$$\\cos\\gamma=\\frac{3\\cdot1}{\\sqrt{(-5)^2+(\\sqrt{2})^2+3^2}\\sqrt{1}}=\\frac{1}{2}，\\quad 夹角\\gamma=\\frac{\\pi}{3}。$$",
+  "sort_order": 35
+}

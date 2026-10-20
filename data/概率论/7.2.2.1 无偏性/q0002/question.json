@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$E(X_i)=\\mu$，常数$a_i$，下列正确的是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum a_iX_i/\\sum a_i$是$\\mu$的无偏估计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum X_i/\\sum a_i$是$\\mu$的无偏估计量"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum a_iX_i/\\sum a_iX$是$\\mu$的无偏估计量"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum a_iX_{i-1}/\\sum a_i$是$\\mu$的无偏估计量"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "线性组合期望为$\\mu\\sum a_i$，除以$\\sum a_i$仍为$\\mu$。",
+  "search_text": "$E(X_i)=\\mu$，常数$a_i$，下列正确的是（）。 $\\sum a_iX_i/\\sum a_i$是$\\mu$的无偏估计量 $\\sum X_i/\\sum a_i$是$\\mu$的无偏估计量 $\\sum a_iX_i/\\sum a_iX$是$\\mu$的无偏估计量 $\\sum a_iX_{i-1}/\\sum a_i$是$\\mu$的无偏估计量 线性组合期望为$\\mu\\sum a_i$，除以$\\sum a_i$仍为$\\mu$。",
+  "sort_order": 2
+}

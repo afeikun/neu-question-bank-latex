@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "用 $A_j$ 表示 $3$ 阶行列式 $|A|$ 的第 $j$ 列（$j=1,2,3$），已知 $|A|=-2$，则 $|A_3-2A_1\\quad 3A_2\\quad A_1|=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$27$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-6$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-27$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$|A_3-2A_1,3A_2,A_1|=-|A_1,3A_2,A_3-2A_1|=-3|A_1,A_2,A_3|=6$。",
+  "search_text": "用 $A_j$ 表示 $3$ 阶行列式 $|A|$ 的第 $j$ 列（$j=1,2,3$），已知 $|A|=-2$，则 $|A_3-2A_1\\quad 3A_2\\quad A_1|=$（ ）。 $27$ $6$ $-6$ $-27$ $|A_3-2A_1,3A_2,A_1|=-|A_1,3A_2,A_3-2A_1|=-3|A_1,A_2,A_3|=6$。",
+  "sort_order": 11
+}

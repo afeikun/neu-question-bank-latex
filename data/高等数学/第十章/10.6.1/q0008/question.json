@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知微分方程 $y\\prime\\prime-2y\\prime+2y=x^2$ 的一个特解为 $y^*=\\frac12(x+1)^2$，则其通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^{-x}(C_1\\cos x+C_2\\sin x)-\\frac12(x+1)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=e^x(C_1\\cos x+C_2\\sin x)+(x+1)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^x(C_1\\cos x+C_2\\sin x)+\\frac12(x+1)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=e^{-x}(C_1\\cos x+C_2\\sin x)-(x-1)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 齐次方程的特征方程为 $\\lambda^2-2\\lambda+2=0$，特征根为 $\\lambda_1=1+i,\\lambda_2=1-i$，\n\n因此对应的齐次方程的通解为 $e^x(C_1\\cos x+C_2\\sin x)$。\n\n又非齐次方程的通解为 $y=e^x(C_1\\cos x+C_2\\sin x)+\\frac12(x+1)^2$。\n\n因此选 D。",
+  "search_text": "已知微分方程 $y\\prime\\prime-2y\\prime+2y=x^2$ 的一个特解为 $y^*=\\frac12(x+1)^2$，则其通解为（ ） $y=e^{-x}(C_1\\cos x+C_2\\sin x)-\\frac12(x+1)^2$ $y=e^x(C_1\\cos x+C_2\\sin x)+(x+1)^2$ $y=e^x(C_1\\cos x+C_2\\sin x)+\\frac12(x+1)^2$ $y=e^{-x}(C_1\\cos x+C_2\\sin x)-(x-1)^2$ 解答 齐次方程的特征方程为 $\\lambda^2-2\\lambda+2=0$，特征根为 $\\lambda_1=1+i,\\lambda_2=1-i$，\n\n因此对应的齐次方程的通解为 $e^x(C_1\\cos x+C_2\\sin x)$。\n\n又非齐次方程的通解为 $y=e^x(C_1\\cos x+C_2\\sin x)+\\frac12(x+1)^2$。\n\n因此选 D。",
+  "sort_order": 8
+}

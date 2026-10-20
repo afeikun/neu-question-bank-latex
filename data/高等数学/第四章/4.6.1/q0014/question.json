@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线y=(x−1)(x−2)(x−4)与横轴围成图形面积的积分表达式",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "∫₁²p(x)dx−∫₂⁴p(x)dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "∫₁²p(x)dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "−∫₂⁴p(x)dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "∫₁²p(x)dx+∫₂⁴p(x)dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "曲线在[1,2]下方、[2,4]上方，面积为前段积分取负并加后段积分。",
+  "search_text": "曲线y=(x−1)(x−2)(x−4)与横轴围成图形面积的积分表达式 ∫₁²p(x)dx−∫₂⁴p(x)dx ∫₁²p(x)dx −∫₂⁴p(x)dx ∫₁²p(x)dx+∫₂⁴p(x)dx 曲线在[1,2]下方、[2,4]上方，面积为前段积分取负并加后段积分。",
+  "sort_order": 14
+}

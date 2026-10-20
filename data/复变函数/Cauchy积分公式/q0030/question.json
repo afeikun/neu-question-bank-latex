@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z+1|=2}\\frac{\\sin(iz)}{z^2-z-2}\\,dz=(\\quad)$（方向为正向）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{2\\pi i\\sin i}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac12\\pi i\\sin3i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi i\\cosh1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆内只有奇点 $-1$，$\\oint_{|z+1|=2}\\frac{\\sin(iz)}{(z+1)(z-2)}\\,dz=2\\pi i\\frac{\\sin(iz)}{z-2}\\big|_{z=-1}=\\frac{2\\pi i\\sin i}{3}$。",
+  "search_text": "$\\oint_{|z+1|=2}\\frac{\\sin(iz)}{z^2-z-2}\\,dz=(\\quad)$（方向为正向）。 $\\frac{2\\pi i\\sin i}{3}$ $-\\frac12\\pi i\\sin3i$ $1$ $\\pi i\\cosh1$ 被积函数在圆内只有奇点 $-1$，$\\oint_{|z+1|=2}\\frac{\\sin(iz)}{(z+1)(z-2)}\\,dz=2\\pi i\\frac{\\sin(iz)}{z-2}\\big|_{z=-1}=\\frac{2\\pi i\\sin i}{3}$。",
+  "sort_order": 30
+}

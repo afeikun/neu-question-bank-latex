@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于极限 $\\lim_{x\\to0}\\frac5{3+e^{1/x}}$，结论正确的是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac54$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac53$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "右极限为 $0$，左极限为 $5/4$，所以双侧极限不存在。",
+  "search_text": "关于极限 $\\lim_{x\\to0}\\frac5{3+e^{1/x}}$，结论正确的是（ ）。 $\\frac54$ $0$ 不存在 $\\frac53$ 右极限为 $0$，左极限为 $5/4$，所以双侧极限不存在。",
+  "sort_order": 26
+}

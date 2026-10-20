@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于数列 $x_n=(-1)^{n+1}$，下列说法正确的是（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "有界且收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无界且不收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "有界但不收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "无界但收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "数列有界，但其子列分别收敛到 $1$ 和 $-1$，所以数列不收敛。",
+  "search_text": "关于数列 $x_n=(-1)^{n+1}$，下列说法正确的是（ ）。 有界且收敛 无界且不收敛 有界但不收敛 无界但收敛 数列有界，但其子列分别收敛到 $1$ 和 $-1$，所以数列不收敛。",
+  "sort_order": 1
+}

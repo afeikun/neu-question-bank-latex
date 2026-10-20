@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 是两个 $n$ 阶矩阵，则以下结论正确的个数是（ ）。\n\n（1）$(AB)^T=A^TB^T$；\n\n（2）$(A+B)^T=A^T+B^T$；\n\n（3）$(AB)^n=A^nB^n$；\n\n（4）$|AB|=|A||B|$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "因为 $(A+B)^T=A^T+B^T=A+B$；$|AB|=|A||B|$；所以（2）（4）正确。但 $(AB)^T=B^TA^T$，所以（1）错误；而 $(AB)^n=ABAB\\cdots AB$ 必须当 $AB=BA$ 成立时（3）才正确，所以（3）错误。",
+  "search_text": "设 $A,B$ 是两个 $n$ 阶矩阵，则以下结论正确的个数是（ ）。 （1）$(AB)^T=A^TB^T$； （2）$(A+B)^T=A^T+B^T$； （3）$(AB)^n=A^nB^n$； （4）$|AB|=|A||B|$。 $3$ $2$ $1$ $4$ 因为 $(A+B)^T=A^T+B^T=A+B$；$|AB|=|A||B|$；所以（2）（4）正确。但 $(AB)^T=B^TA^T$，所以（1）错误；而 $(AB)^n=ABAB\\cdots AB$ 必须当 $AB=BA$ 成立时（3）才正确，所以（3）错误。",
+  "sort_order": 15
+}

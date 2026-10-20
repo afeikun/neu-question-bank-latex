@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $A$ 是（ ），则 $A$ 必为方阵。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "非齐次线性方程组系数阵"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "任意矩阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "齐次线性方程组系数阵"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "可逆矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "可逆矩阵按定义必为方阵；线性方程组的系数矩阵不一定是方阵。",
+  "search_text": "若 $A$ 是（ ），则 $A$ 必为方阵。 非齐次线性方程组系数阵 任意矩阵 齐次线性方程组系数阵 可逆矩阵 可逆矩阵按定义必为方阵；线性方程组的系数矩阵不一定是方阵。",
+  "sort_order": 16
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $U$ 为基本空间，$A,B,C$ 是 $U$ 中的事件，且 $U=\\{0\\le x\\le5\\}$，$A=\\{0\\le x\\le3\\}$，$B=\\{1\\le x\\le2\\}$，则 $A-B=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\{0\\le x<1\\}\\cup\\{2<x\\le3\\}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\{0\\le x<2\\}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\{1<x\\le3\\}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\{0<x\\le1\\}\\cup\\{2\\le x<3\\}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "从区间 $[0,3]$ 中去掉 $[1,2]$，得 $A-B=[0,1)\\cup(2,3]$。",
+  "search_text": "设 $U$ 为基本空间，$A,B,C$ 是 $U$ 中的事件，且 $U=\\{0\\le x\\le5\\}$，$A=\\{0\\le x\\le3\\}$，$B=\\{1\\le x\\le2\\}$，则 $A-B=(\\quad)$。 $\\{0\\le x<1\\}\\cup\\{2<x\\le3\\}$ $\\{0\\le x<2\\}$ $\\{1<x\\le3\\}$ $\\{0<x\\le1\\}\\cup\\{2\\le x<3\\}$ 从区间 $[0,3]$ 中去掉 $[1,2]$，得 $A-B=[0,1)\\cup(2,3]$。",
+  "sort_order": 16
+}

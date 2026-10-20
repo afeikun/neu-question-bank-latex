@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $L$ 是圆周 $x^2+y^2=1$，则 $\\oint_Lx^2ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac\\pi2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $\\oint_Lx^2ds=\\int_Ly^2ds=\\frac{1}{2}\\oint_L(x^2+y^2)ds=\\pi$",
+  "search_text": "设 $L$ 是圆周 $x^2+y^2=1$，则 $\\oint_Lx^2ds=$（ ） $2\\pi$ $\\pi$ $0$ $\\frac\\pi2$ 解答 $\\oint_Lx^2ds=\\int_Ly^2ds=\\frac{1}{2}\\oint_L(x^2+y^2)ds=\\pi$",
+  "sort_order": 52
+}

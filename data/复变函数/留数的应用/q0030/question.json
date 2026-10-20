@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_{-\\infty}^{+\\infty}\\dfrac{x^2}{x^4+x^2+1}\\,dx=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi{\\sqrt3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac{2\\pi}{\\sqrt3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac\\pi2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{4\\pi}{\\sqrt3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分解 $z^4+z^2+1=(z^2-z+1)(z^2+z+1)$，上半平面有两个极点。由留数定理得 $I=\\dfrac\\pi{\\sqrt3}$。",
+  "search_text": "积分 $I=\\displaystyle\\int_{-\\infty}^{+\\infty}\\dfrac{x^2}{x^4+x^2+1}\\,dx=(\\ \\ )$。 $\\dfrac\\pi{\\sqrt3}$ $\\dfrac{2\\pi}{\\sqrt3}$ $\\dfrac\\pi2$ $\\dfrac{4\\pi}{\\sqrt3}$ 分解 $z^4+z^2+1=(z^2-z+1)(z^2+z+1)$，上半平面有两个极点。由留数定理得 $I=\\dfrac\\pi{\\sqrt3}$。",
+  "sort_order": 30
+}

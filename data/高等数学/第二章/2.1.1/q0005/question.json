@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $y=f(x)$ 在 $x=x_0$ 处可导，则必有（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$dy=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\Delta y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Delta y=dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lim_{x\\to x_0}\\Delta y=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\Delta y/\\Delta x$ 有有限极限且 $\\Delta x\\to0$，故 $\\Delta y\\to0$。",
+  "search_text": "设函数 $y=f(x)$ 在 $x=x_0$ 处可导，则必有（ ）。 $dy=0$ $\\Delta y=0$ $\\Delta y=dy$ $\\lim_{x\\to x_0}\\Delta y=0$ $\\Delta y/\\Delta x$ 有有限极限且 $\\Delta x\\to0$，故 $\\Delta y\\to0$。",
+  "sort_order": 5
+}

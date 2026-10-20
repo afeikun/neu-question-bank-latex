@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "独立同分布总体样本，比较$\\bar X$与$Y=\\sum C_iX_i$，$C_i\\ge0,\\sum C_i=1$的有效性。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$Y$比$\\bar X$有效"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$Y$无效"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar X$更有效"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "二者都无效"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "二者无偏，且$D(Y)=\\sigma^2\\sum C_i^2\\ge\\sigma^2/n=D(\\bar X)$，故样本均值更有效。",
+  "search_text": "独立同分布总体样本，比较$\\bar X$与$Y=\\sum C_iX_i$，$C_i\\ge0,\\sum C_i=1$的有效性。 $Y$比$\\bar X$有效 $Y$无效 $\\bar X$更有效 二者都无效 二者无偏，且$D(Y)=\\sigma^2\\sum C_i^2\\ge\\sigma^2/n=D(\\bar X)$，故样本均值更有效。",
+  "sort_order": 18
+}

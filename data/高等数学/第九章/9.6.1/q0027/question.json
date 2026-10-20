@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 是曲线 $y=x^2$ 及直线 $y=1$ 所围成的区域 $D$ 的正向边界，则曲线积分 $\\oint_L ydx-xdy=(\\ )$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac43$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：\n\n这里 $P=y，\\quad Q=-x，$\n\n由格林公式\n\n$\\oint_L ydx-xdy$\n\n$=-2\\iint_D dxdy$\n\n$=-\\int_{-1}^{1}dx\\int_{x^2}^{1}dy=-\\int_{-1}^{1}(1-x^2)dx=-\\frac{4}{3}$",
+  "search_text": "$L$ 是曲线 $y=x^2$ 及直线 $y=1$ 所围成的区域 $D$ 的正向边界，则曲线积分 $\\oint_L ydx-xdy=(\\ )$ $-1$ $2$ $-\\frac43$ $1$ 解析：\n\n这里 $P=y，\\quad Q=-x，$\n\n由格林公式\n\n$\\oint_L ydx-xdy$\n\n$=-2\\iint_D dxdy$\n\n$=-\\int_{-1}^{1}dx\\int_{x^2}^{1}dy=-\\int_{-1}^{1}(1-x^2)dx=-\\frac{4}{3}$",
+  "sort_order": 27
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 是 $n\\times m$ 矩阵，$r(A)=n$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$AA^T$ 必与 $E$ 相似"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$AA^T$ 是可逆矩阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A^TA$ 必与 $E$ 相似"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A^TA$ 是可逆矩阵"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "可以证明线性方程组 $Ax=0$ 和 $A^TAx=0$ 同解，所以 $r(A^TA)=r(A)$。于是 $A^TA$ 为 $m\\times m$ 矩阵，且 $r(A^TA)=r(A)=n\\le m$，故 $A^TA$ 不一定可逆。\n\n$AA^T$ 为 $n\\times n$ 矩阵，于是 $r(AA^T)=r(A)=n$，故 $AA^T$ 为可逆矩阵。单位矩阵 $E$ 只能与 $r(AA^T)=r(A)=n$ 的 $n\\times n$ 矩阵相似，而 $AA^T$ 的确是可逆矩阵。",
+  "search_text": "设 $A$ 是 $n\\times m$ 矩阵，$r(A)=n$，则（ ）。 $AA^T$ 必与 $E$ 相似 $AA^T$ 是可逆矩阵 $A^TA$ 必与 $E$ 相似 $A^TA$ 是可逆矩阵 可以证明线性方程组 $Ax=0$ 和 $A^TAx=0$ 同解，所以 $r(A^TA)=r(A)$。于是 $A^TA$ 为 $m\\times m$ 矩阵，且 $r(A^TA)=r(A)=n\\le m$，故 $A^TA$ 不一定可逆。 $AA^T$ 为 $n\\times n$ 矩阵，于是 $r(AA^T)=r(A)=n$，故 $AA^T$ 为可逆矩阵。单位矩阵 $E$ 只能与 $r(AA^T)=r(A)=n$ 的 $n\\times n$ 矩阵相似，而 $AA^T$ 的确是可逆矩阵。",
+  "sort_order": 6
+}

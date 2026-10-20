@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_{-\\pi i}^{0}e^{-z}\\,dz=(\\quad)$（积分路径是从下限到上限的任意路径）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_{-\\pi i}^{0}e^{-z}\\,dz=-e^{-z}\\big|_{-\\pi i}^{0}=-2$。",
+  "search_text": "$\\int_{-\\pi i}^{0}e^{-z}\\,dz=(\\quad)$（积分路径是从下限到上限的任意路径）。 $-2$ $2$ $2\\pi i$ $1$ $\\int_{-\\pi i}^{0}e^{-z}\\,dz=-e^{-z}\\big|_{-\\pi i}^{0}=-2$。",
+  "sort_order": 12
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\frac{dz}{z^2+1}=\\pi$，则积分路径 $C$ 为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "以 $\\pm1,2i$ 为顶点的正向三角形"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "圆周 $|z|=\\frac12$，正向"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "圆周 $|z|=2$，负向"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "圆周 $|z+i|=1$，正向"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "以 $\\pm1,2i$ 为顶点的正向三角形包含 $i$ 而不包含 $-i$，故积分为 $\\pi$。",
+  "search_text": "为使 $\\oint_C\\frac{dz}{z^2+1}=\\pi$，则积分路径 $C$ 为（ ）。 以 $\\pm1,2i$ 为顶点的正向三角形 圆周 $|z|=\\frac12$，正向 圆周 $|z|=2$，负向 圆周 $|z+i|=1$，正向 以 $\\pm1,2i$ 为顶点的正向三角形包含 $i$ 而不包含 $-i$，故积分为 $\\pi$。",
+  "sort_order": 89
+}

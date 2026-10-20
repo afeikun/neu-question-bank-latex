@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $\\oint_C\\frac{z^2+z+2}{(z-1)^2z}\\,dz$ 等于（ ），其中 $C$ 为连接 $2\\pm i$、$-1\\pm i$ 而成的矩形边界正向。",
+  "options_json": [
+    {
+      "content_md": "$2\\pi i$",
+      "key": "opt_1"
+    },
+    {
+      "content_md": "$0$",
+      "key": "opt_2"
+    },
+    {
+      "content_md": "$\\pi i$",
+      "key": "opt_3"
+    },
+    {
+      "content_md": "$1$",
+      "key": "opt_4"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在矩形内有奇点 $0$ 和 $1$。分别使用Cauchy公式与导数公式，积分为 $4\\pi i-2\\pi i=2\\pi i$。",
+  "search_text": "积分 $\\oint_C\\frac{z^2+z+2}{(z-1)^2z}\\,dz$ 等于（ ），其中 $C$ 为连接 $2\\pm i$、$-1\\pm i$ 而成的矩形边界正向。 $2\\pi i$ $0$ $\\pi i$ $1$ 被积函数在矩形内有奇点 $0$ 和 $1$。分别使用Cauchy公式与导数公式，积分为 $4\\pi i-2\\pi i=2\\pi i$。",
+  "sort_order": 77
+}

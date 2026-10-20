@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设随机变量$X$的概率密度为$f(x)=ax^2+bx+c$（$0<x<1$），其余为0，且$E(X)=0.5,D(X)=0.15$，求$a,b,c$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=12,b=-12,c=3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=12,b=-12,c=-3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=12,b=12,c=3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=12,b=12,c=-3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由归一化、$E(X)=1/2$及$E(X^2)=0.4$列方程组，解得$a=12,b=-12,c=3$。",
+  "search_text": "设随机变量$X$的概率密度为$f(x)=ax^2+bx+c$（$0<x<1$），其余为0，且$E(X)=0.5,D(X)=0.15$，求$a,b,c$。 $a=12,b=-12,c=3$ $a=12,b=-12,c=-3$ $a=12,b=12,c=3$ $a=12,b=12,c=-3$ 由归一化、$E(X)=1/2$及$E(X^2)=0.4$列方程组，解得$a=12,b=-12,c=3$。",
+  "sort_order": 3
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $c>0$，$x_1=\\sqrt c$，$x_{n+1}=\\sqrt{c+x_n}$（$n=1,2,\\ldots$），求 $\\lim_{n\\to\\infty}x_n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1+\\sqrt{1+4c}}2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{1-\\sqrt{1+4c}}2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{2c}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "数列单调递增且有上界，极限 $a$ 满足 $a=\\sqrt{c+a}$，得 $a=\\frac{1+\\sqrt{1+4c}}2$。",
+  "search_text": "设 $c>0$，$x_1=\\sqrt c$，$x_{n+1}=\\sqrt{c+x_n}$（$n=1,2,\\ldots$），求 $\\lim_{n\\to\\infty}x_n$。 $c$ $\\frac{1+\\sqrt{1+4c}}2$ $\\frac{1-\\sqrt{1+4c}}2$ $\\sqrt{2c}$ 数列单调递增且有上界，极限 $a$ 满足 $a=\\sqrt{c+a}$，得 $a=\\frac{1+\\sqrt{1+4c}}2$。",
+  "sort_order": 20
+}

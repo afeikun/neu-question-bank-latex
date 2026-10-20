@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $xy\\prime-x\\sin\\frac yx-y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\ln(x+y)+c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=2x\\arcsin x+c$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=2x\\arctan(cx)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y+c=\\sin x+\\sin y$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程变形为 $y'=\\sin\\frac{y}{x}+\\frac{y}{x}$\n\n设 $u=\\frac{y}{x}$，则 $y'=u+xu'$ 代入\n\n$xu'=\\sin u$\n\n$\\frac{du}{\\sin u}=\\frac{dx}{x}$\n\n积分得 $\\ln\\tan\\frac{y}{2x}=\\ln x+\\ln c$",
+  "search_text": "方程 $xy\\prime-x\\sin\\frac yx-y=0$ 的通解为（ ） $y=\\ln(x+y)+c$ $y=2x\\arcsin x+c$ $y=2x\\arctan(cx)$ $y+c=\\sin x+\\sin y$ 方程变形为 $y'=\\sin\\frac{y}{x}+\\frac{y}{x}$\n\n设 $u=\\frac{y}{x}$，则 $y'=u+xu'$ 代入\n\n$xu'=\\sin u$\n\n$\\frac{du}{\\sin u}=\\frac{dx}{x}$\n\n积分得 $\\ln\\tan\\frac{y}{2x}=\\ln x+\\ln c$",
+  "sort_order": 14
+}

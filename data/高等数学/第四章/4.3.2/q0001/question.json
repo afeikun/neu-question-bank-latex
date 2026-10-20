@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f在[a,b]可导，f′+f²−∫ₐˣf(t)dt=0，且∫ₐᵇf(t)dt=0，则∫ₐˣf(t)dt在(a,b)内必",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "恒为正"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "恒为零"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "恒为负"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "变号"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令F(x)=∫ₐˣf，利用微分关系与端点条件推出F恒为零。",
+  "search_text": "f在[a,b]可导，f′+f²−∫ₐˣf(t)dt=0，且∫ₐᵇf(t)dt=0，则∫ₐˣf(t)dt在(a,b)内必 恒为正 恒为零 恒为负 变号 令F(x)=∫ₐˣf，利用微分关系与端点条件推出F恒为零。",
+  "sort_order": 1
+}

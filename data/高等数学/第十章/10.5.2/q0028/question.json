@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y^3y\\prime\\prime+1=0,\\ y(1)=1,\\ y\\prime(1)=0$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y\\prime^2=\\frac1{y^2}+C_1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\pm\\sqrt{1-(x+C_2)^2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\sqrt{2x-x^2},\\ 0<x<2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y\\prime^2=\\frac1{y^2}-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析：方程变形为 $2yy''=-\\frac{2(y')^2}{y^3}$，即 $d(y')^2=-\\frac{2}{y^3}\\,dy$，积分得\n\n$$ (y')^2=\\frac{1}{y^2}+C_1,$$ 又初始条件得到 $C_1=-1$；\n\n所以 $(y')^2=\\frac{1}{y^2}-1$，$\\frac{y\\,dy}{\\sqrt{1-y^2}}=\\pm dx$，$y=\\pm\\sqrt{1-(x+C_2)^2}$，由 $y(1)=1$ 得到\n\n$C_2=1$，且取正号，所以 $y=\\sqrt{2x-x^2}$，$0<x<2$。",
+  "search_text": "$y^3y\\prime\\prime+1=0,\\ y(1)=1,\\ y\\prime(1)=0$ 的解为（ ） $y\\prime^2=\\frac1{y^2}+C_1$ $y=\\pm\\sqrt{1-(x+C_2)^2}$ $y=\\sqrt{2x-x^2},\\ 0<x<2$ $y\\prime^2=\\frac1{y^2}-1$ 解析：方程变形为 $2yy''=-\\frac{2(y')^2}{y^3}$，即 $d(y')^2=-\\frac{2}{y^3}\\,dy$，积分得\n\n$$ (y')^2=\\frac{1}{y^2}+C_1,$$ 又初始条件得到 $C_1=-1$；\n\n所以 $(y')^2=\\frac{1}{y^2}-1$，$\\frac{y\\,dy}{\\sqrt{1-y^2}}=\\pm dx$，$y=\\pm\\sqrt{1-(x+C_2)^2}$，由 $y(1)=1$ 得到\n\n$C_2=1$，且取正号，所以 $y=\\sqrt{2x-x^2}$，$0<x<2$。",
+  "sort_order": 28
+}

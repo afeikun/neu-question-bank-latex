@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "半径为 $r$ 的半球形水池灌满水，把池内的水全部抽出需作多少功？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac14\\rho g\\pi r^4(J)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac34\\rho g\\pi r^4(J)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\rho g\\pi r^4(J)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12\\rho g\\pi r^4(J)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "水深 $x$ 处截面积为 $\\pi(r^2-x^2)$，$W=\\int_0^r\\rho g\\pi(r^2-x^2)x dx=\\frac14\\rho g\\pi r^4$。",
+  "search_text": "半径为 $r$ 的半球形水池灌满水，把池内的水全部抽出需作多少功？ $\\frac14\\rho g\\pi r^4(J)$ $\\frac34\\rho g\\pi r^4(J)$ $\\rho g\\pi r^4(J)$ $\\frac12\\rho g\\pi r^4(J)$ 水深 $x$ 处截面积为 $\\pi(r^2-x^2)$，$W=\\int_0^r\\rho g\\pi(r^2-x^2)x dx=\\frac14\\rho g\\pi r^4$。",
+  "sort_order": 11
+}

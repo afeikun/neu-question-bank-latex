@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}A_{11}&A_{12}\\\\A_{21}&A_{22}\\end{pmatrix}$ 为分块矩阵，则 $A^T=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}A_{21}^T&A_{22}^T\\\\A_{11}^T&A_{12}^T\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}A_{11}^T&A_{21}^T\\\\A_{12}^T&A_{22}^T\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}A_{12}^T&A_{11}^T\\\\A_{22}^T&A_{21}^T\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}A_{11}^T&A_{12}^T\\\\A_{21}^T&A_{22}^T\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由分块矩阵转置的公式可知 $A^T=\\begin{pmatrix}A_{11}^T&A_{21}^T\\\\A_{12}^T&A_{22}^T\\end{pmatrix}$。",
+  "search_text": "设 $A=\\begin{pmatrix}A_{11}&A_{12}\\\\A_{21}&A_{22}\\end{pmatrix}$ 为分块矩阵，则 $A^T=$（ ）。 $\\begin{pmatrix}A_{21}^T&A_{22}^T\\\\A_{11}^T&A_{12}^T\\end{pmatrix}$ $\\begin{pmatrix}A_{11}^T&A_{21}^T\\\\A_{12}^T&A_{22}^T\\end{pmatrix}$ $\\begin{pmatrix}A_{12}^T&A_{11}^T\\\\A_{22}^T&A_{21}^T\\end{pmatrix}$ $\\begin{pmatrix}A_{11}^T&A_{12}^T\\\\A_{21}^T&A_{22}^T\\end{pmatrix}$ 由分块矩阵转置的公式可知 $A^T=\\begin{pmatrix}A_{11}^T&A_{21}^T\\\\A_{12}^T&A_{22}^T\\end{pmatrix}$。",
+  "sort_order": 32
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为正向圆周 $|z+1|=\\frac12$，则 $\\oint_C\\frac{dz}{z(z^3+1)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{2\\pi i}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac{\\pi i}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac13$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内只有奇点 $-1$，留数为 $1/[(-1)\\cdot3]=-1/3$，积分为 $-\\frac{2\\pi i}{3}$。",
+  "search_text": "设 $C$ 为正向圆周 $|z+1|=\\frac12$，则 $\\oint_C\\frac{dz}{z(z^3+1)}=(\\quad)$。 $-\\frac{2\\pi i}{3}$ $-\\frac{\\pi i}{2}$ $\\pi i$ $-\\frac13$ 圆内只有奇点 $-1$，留数为 $1/[(-1)\\cdot3]=-1/3$，积分为 $-\\frac{2\\pi i}{3}$。",
+  "sort_order": 84
+}

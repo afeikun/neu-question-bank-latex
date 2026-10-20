@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一弹簧长 $1\\,m$，若自 $80\\,cm$ 压缩至 $60\\,cm$，做功 $0.03$ 焦，问弹簧的弹力系数有多大？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.6$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$W=\\int_{0.6}^{0.8}k(1-x)dx=0.03$，解得 $k=0.5$。",
+  "search_text": "一弹簧长 $1\\,m$，若自 $80\\,cm$ 压缩至 $60\\,cm$，做功 $0.03$ 焦，问弹簧的弹力系数有多大？ $0.6$ $0.5$ $0.2$ $0.1$ $W=\\int_{0.6}^{0.8}k(1-x)dx=0.03$，解得 $k=0.5$。",
+  "sort_order": 3
+}

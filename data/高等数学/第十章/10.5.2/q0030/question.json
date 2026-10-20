@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $(x^2+1)\\frac{d^2y}{dx^2}=2x\\frac{dy}{dx}$ 且满足条件 $y|_{x=0}=1,\\ y\\prime|_{x=0}=1$ 的解（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=x^3+3x+1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=x^3-3x+1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=x^2+3x+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=x^3+2x+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答首先作变量替换 $z=\\frac{dy}{dx}$，则原微分方程变形为 $(x^2+1)\\frac{dz}{dx}=2x\\cdot z$，分离变量得 $\\frac{dz}{z}=\\frac{2x}{1+x^2}\\,dx$，\n\n积分得到 $z=C_1(1+x^2)$，再用 $\\frac{dy}{dx}$ 替换 $z$，在对 $x$ 进行积分，可得 $y=C_1(\\frac{x^3}{3}+3x)+C_2$，最后由初值条件可得 $C_1=1，\\ C_2=1$，故选 A。",
+  "search_text": "方程 $(x^2+1)\\frac{d^2y}{dx^2}=2x\\frac{dy}{dx}$ 且满足条件 $y|_{x=0}=1,\\ y\\prime|_{x=0}=1$ 的解（ ） $y=x^3+3x+1$ $y=x^3-3x+1$ $y=x^2+3x+1$ $y=x^3+2x+1$ 解答首先作变量替换 $z=\\frac{dy}{dx}$，则原微分方程变形为 $(x^2+1)\\frac{dz}{dx}=2x\\cdot z$，分离变量得 $\\frac{dz}{z}=\\frac{2x}{1+x^2}\\,dx$，\n\n积分得到 $z=C_1(1+x^2)$，再用 $\\frac{dy}{dx}$ 替换 $z$，在对 $x$ 进行积分，可得 $y=C_1(\\frac{x^3}{3}+3x)+C_2$，最后由初值条件可得 $C_1=1，\\ C_2=1$，故选 A。",
+  "sort_order": 30
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "为使 $\\oint_C\\frac{e^{iz}}{(z-2)^n}dz=\\frac{2\\pi i^n}{(n-1)!}e^{2i}$，则 $C$ 应为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "正向圆周 $|z-2|=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "负向圆周 $|z-2i|=3/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "正向圆周 $|z|=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "负向圆周 $|z|=3/4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "只需路径正向包围 $z=2$，Cauchy高阶导数公式即成立。",
+  "search_text": "为使 $\\oint_C\\frac{e^{iz}}{(z-2)^n}dz=\\frac{2\\pi i^n}{(n-1)!}e^{2i}$，则 $C$ 应为（ ）。 正向圆周 $|z-2|=1$ 负向圆周 $|z-2i|=3/2$ 正向圆周 $|z|=1$ 负向圆周 $|z|=3/4$ 只需路径正向包围 $z=2$，Cauchy高阶导数公式即成立。",
+  "sort_order": 22
+}

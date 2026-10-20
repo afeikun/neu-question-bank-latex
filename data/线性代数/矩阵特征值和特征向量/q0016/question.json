@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 阶矩阵 $A$ 满足关系式 $A^2+kA+6E=O$，且 $A$ 有特征值 2，则 $k=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "代入特征值 2 得 $2^2+2k+6=0$，解得 $k=-5$，选项 2。",
+  "search_text": "设 $n$ 阶矩阵 $A$ 满足关系式 $A^2+kA+6E=O$，且 $A$ 有特征值 2，则 $k=(\\quad)$。 $4$ $-5$ $5$ $0$ 代入特征值 2 得 $2^2+2k+6=0$，解得 $k=-5$，选项 2。",
+  "sort_order": 16
+}

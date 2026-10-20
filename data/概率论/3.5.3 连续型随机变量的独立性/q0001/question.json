@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "联合密度$f(x,y)=2/\\pi$于$x^2+y^2\\le1$，其余为0，判断$\\xi,\\eta$关系。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不独立同分布"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "独立同分布"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "独立不同分布"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "不独立也不同分布"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "边缘密度为$2\\sqrt{1-x^2}/\\pi$与$2\\sqrt{1-y^2}/\\pi$，联合密度不等于边缘乘积，二者同分布但不独立。",
+  "search_text": "联合密度$f(x,y)=2/\\pi$于$x^2+y^2\\le1$，其余为0，判断$\\xi,\\eta$关系。 不独立同分布 独立同分布 独立不同分布 不独立也不同分布 边缘密度为$2\\sqrt{1-x^2}/\\pi$与$2\\sqrt{1-y^2}/\\pi$，联合密度不等于边缘乘积，二者同分布但不独立。",
+  "sort_order": 1
+}

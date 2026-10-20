@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若齐次方程组 $\\begin{cases}ax_1+x_2+x_3=0\\\\x_1+bx_2+x_3=0\\\\x_1+2bx_2+x_3=0\\end{cases}$ 有非零解，则 $a,b$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$b=0$ 或 $a=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$b=0$ 且 $a=1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$b=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "系数行列式为 $\\begin{vmatrix}a&1&1\\\\1&b&1\\\\1&2b&1\\end{vmatrix}=b(1-a)$。有非零解要求行列式为零，因此 $b=0$ 或 $a=1$。",
+  "search_text": "若齐次方程组 $\\begin{cases}ax_1+x_2+x_3=0\\\\x_1+bx_2+x_3=0\\\\x_1+2bx_2+x_3=0\\end{cases}$ 有非零解，则 $a,b$ 的值为（ ）。 $b=0$ 或 $a=1$ $b=0$ 且 $a=1$ $a=1$ $b=0$ 系数行列式为 $\\begin{vmatrix}a&1&1\\\\1&b&1\\\\1&2b&1\\end{vmatrix}=b(1-a)$。有非零解要求行列式为零，因此 $b=0$ 或 $a=1$。",
+  "sort_order": 32
+}

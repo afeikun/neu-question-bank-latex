@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z-1|=6$，方向正向，则 $\\oint_C\\frac{2i}{z^2+1}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "利用 $\\frac{2i}{z^2+1}=\\frac1{z-i}-\\frac1{z+i}$，圆内包含两极点，积分为 $2\\pi i-2\\pi i=0$。",
+  "search_text": "设 $C$ 为圆周 $|z-1|=6$，方向正向，则 $\\oint_C\\frac{2i}{z^2+1}\\,dz=(\\quad)$。 $0$ $1$ $\\pi i$ $-\\pi i$ 利用 $\\frac{2i}{z^2+1}=\\frac1{z-i}-\\frac1{z+i}$，圆内包含两极点，积分为 $2\\pi i-2\\pi i=0$。",
+  "sort_order": 104
+}

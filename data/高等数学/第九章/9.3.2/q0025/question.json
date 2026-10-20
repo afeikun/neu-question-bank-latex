@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\int_L\\frac{2y}{x}dx+xdy$，$L$ 为 $y=\\ln x$ 上从 $(1,0)$ 到 $(e,1)$ 的弧段。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解 由$y=\\ln x$得$\\frac{1}{x}dx=dy，x=e^y$，故\n原式$$=\\int_0^1 2ydy+\\int_0^1e^ydy=(y^2+e^y)|_0^1=e$$",
+  "search_text": "求 $\\int_L\\frac{2y}{x}dx+xdy$，$L$ 为 $y=\\ln x$ 上从 $(1,0)$ 到 $(e,1)$ 的弧段。 $2e$ $e$ $0$ $1$ 解 由$y=\\ln x$得$\\frac{1}{x}dx=dy，x=e^y$，故\n原式$$=\\int_0^1 2ydy+\\int_0^1e^ydy=(y^2+e^y)|_0^1=e$$",
+  "sort_order": 25
+}

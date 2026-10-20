@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim U[0,\\lambda]$且$\\lambda$未知，样本$X_1,\\ldots,X_n$，下列哪个是统计量？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_1+X_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1n\\sum X_i-\\lambda/2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1n\\sum(X_i-\\bar X)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1n\\sum X_i^2-D(X)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "统计量只能由样本构成，不能包含总体未知参数；选项1符合。",
+  "search_text": "$X\\sim U[0,\\lambda]$且$\\lambda$未知，样本$X_1,\\ldots,X_n$，下列哪个是统计量？ $X_1+X_2$ $\\frac1n\\sum X_i-\\lambda/2$ $\\frac1n\\sum(X_i-\\bar X)^2$ $\\frac1n\\sum X_i^2-D(X)$ 统计量只能由样本构成，不能包含总体未知参数；选项1符合。",
+  "sort_order": 2
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\hat\\theta_1,\\hat\\theta_2$均无偏，$\\hat\\theta=a\\hat\\theta_1-b\\hat\\theta_2$何时无偏？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=1/2,b=-1/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=2/3,b=1/6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=3/2,b=-1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=1/3,b=1/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(\\hat\\theta)=(a-b)\\theta$，需$a-b=1$。",
+  "search_text": "$\\hat\\theta_1,\\hat\\theta_2$均无偏，$\\hat\\theta=a\\hat\\theta_1-b\\hat\\theta_2$何时无偏？ $a=1/2,b=-1/2$ $a=2/3,b=1/6$ $a=3/2,b=-1/2$ $a=1/3,b=1/2$ $E(\\hat\\theta)=(a-b)\\theta$，需$a-b=1$。",
+  "sort_order": 20
+}

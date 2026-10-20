@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $x\\prime\\prime+6x\\prime+5x=e^{2t}$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=c_1e^{-t}+c_2e^{-5t}+\\frac1{21}e^{2t}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=c_1e^{-t}+c_2e^{-5t}+\\frac12e^{2t}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=c_1e^{-t}+c_2e^{-5t}+\\frac1{21}e^{2t}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=c_1e^{-t}+c_2e^{5t}+\\frac1{21}e^{2t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对应齐次方程的特征方程为 $r^2+6r+5=0$ 它有根 $r_1=-1,r_2=-5$ 故齐次线性方程的通解为 $X=c_1e^{-t}+c_2e^{-5t}$ 由于 $r=2$ 不是特征方程的根，故方程有形如 $x^*=Ae^{2t}$ 的特解，代入原方程解得 $A=1/21$ 于是方程的通解为 $x=c_1e^{-t}+c_2e^{-5t}+\\frac{1}{21}e^{2t}$ 其中 $c_1,c_2$ 为任意常数。",
+  "search_text": "解方程 $x\\prime\\prime+6x\\prime+5x=e^{2t}$（ ） $x=c_1e^{-t}+c_2e^{-5t}+\\frac1{21}e^{2t}$ $x=c_1e^{-t}+c_2e^{-5t}+\\frac12e^{2t}$ $x=c_1e^{-t}+c_2e^{-5t}+\\frac1{21}e^{2t}$ $x=c_1e^{-t}+c_2e^{5t}+\\frac1{21}e^{2t}$ 对应齐次方程的特征方程为 $r^2+6r+5=0$ 它有根 $r_1=-1,r_2=-5$ 故齐次线性方程的通解为 $X=c_1e^{-t}+c_2e^{-5t}$ 由于 $r=2$ 不是特征方程的根，故方程有形如 $x^*=Ae^{2t}$ 的特解，代入原方程解得 $A=1/21$ 于是方程的通解为 $x=c_1e^{-t}+c_2e^{-5t}+\\frac{1}{21}e^{2t}$ 其中 $c_1,c_2$ 为任意常数。",
+  "sort_order": 26
+}

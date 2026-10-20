@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$S_1^2=\\frac1{n-1}\\sum(X_i-\\bar X)^2,S_2^2=\\frac1n\\sum(X_i-\\bar X)^2$等，哪个统计量服从$t(n-1)$？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{n-1}(\\bar X-\\mu)/S_2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt{n-1}(\\bar X-\\mu)/S_1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{n-1}(\\bar X-\\mu)/S_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{n-1}(\\bar X-\\mu)/S_4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$S_2^2=\\sum residual^2/n$，对应$t$统计量为$\\sqrt{n-1}(\\bar X-\\mu)/S_2$。",
+  "search_text": "$S_1^2=\\frac1{n-1}\\sum(X_i-\\bar X)^2,S_2^2=\\frac1n\\sum(X_i-\\bar X)^2$等，哪个统计量服从$t(n-1)$？ $\\sqrt{n-1}(\\bar X-\\mu)/S_2$ $\\sqrt{n-1}(\\bar X-\\mu)/S_1$ $\\sqrt{n-1}(\\bar X-\\mu)/S_3$ $\\sqrt{n-1}(\\bar X-\\mu)/S_4$ $S_2^2=\\sum residual^2/n$，对应$t$统计量为$\\sqrt{n-1}(\\bar X-\\mu)/S_2$。",
+  "sort_order": 4
+}

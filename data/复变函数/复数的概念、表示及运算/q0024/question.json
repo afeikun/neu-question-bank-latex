@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Re}\\dfrac{(1+i\\sqrt3)^4}{\\sqrt3-i}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\sqrt3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-16\\sqrt3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8\\sqrt3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac{(1+i\\sqrt3)^4}{\\sqrt3-i}=\\dfrac{-8-8i\\sqrt3}{\\sqrt3-i}=-8i$。",
+  "search_text": "$\\operatorname{Re}\\dfrac{(1+i\\sqrt3)^4}{\\sqrt3-i}=(\\quad)$。 $0$ $4\\sqrt3$ $-16\\sqrt3$ $8\\sqrt3$ $\\dfrac{(1+i\\sqrt3)^4}{\\sqrt3-i}=\\dfrac{-8-8i\\sqrt3}{\\sqrt3-i}=-8i$。",
+  "sort_order": 24
+}

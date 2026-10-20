@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\frac{(x+ay)dx+y,dy}{(x+y)^2}$ 为某函数的全微分，则 $a=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$M=\\frac{x+ay}{(x+y)^2},\\ N=\\frac{y}{(x+y)^2},\\ \\frac{\\partial M}{\\partial y}=\\frac{\\partial N}{\\partial x}\\Rightarrow(a-2)x+(2-a)y=0\\Rightarrow a=2$",
+  "search_text": "已知 $\\frac{(x+ay)dx+y,dy}{(x+y)^2}$ 为某函数的全微分，则 $a=(\\quad)$。 $-1$ $2$ $1$ $0$ $M=\\frac{x+ay}{(x+y)^2},\\ N=\\frac{y}{(x+y)^2},\\ \\frac{\\partial M}{\\partial y}=\\frac{\\partial N}{\\partial x}\\Rightarrow(a-2)x+(2-a)y=0\\Rightarrow a=2$",
+  "sort_order": 1
+}

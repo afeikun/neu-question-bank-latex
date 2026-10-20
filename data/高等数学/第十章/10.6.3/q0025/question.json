@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解方程 $2y\\prime\\prime+y\\prime-y=2e^x$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{x/2}+C_2e^{-x/2}+3e^x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^{x/2}+C_2e^{-x/2}+e^x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{x/2}+C_2e^{-x/2}+2e^x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{x/2}+C_2e^{-x/2}+e^x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $2r^2+r-1=0$，解得 $r_1=\\frac{1}{2},r_2=-1$。故对应的齐次方程的通解为 $Y=C_1e^{\\frac{x}{2}}+C_2e^{-x}$。因 $f(x)=2e^x,\\lambda=1$ 不是特征方程的根，故可设 $y^*=ae^x$ 是原方程的一个特解，代入原方程得 $2ae^x+ae^x-ae^x=2e^x$ 消去 $e^x$，有 $a=1$，即 $y^*=e^x$。故原方程的通解为 $y=Y+y^*=C_1e^{\\frac{x}{2}}+C_2e^{-x}+e^x$。",
+  "search_text": "解方程 $2y\\prime\\prime+y\\prime-y=2e^x$（ ） $y=C_1e^{x/2}+C_2e^{-x/2}+3e^x$ $y=C_1e^{x/2}+C_2e^{-x/2}+e^x$ $y=C_1e^{x/2}+C_2e^{-x/2}+2e^x$ $y=C_1e^{x/2}+C_2e^{-x/2}+e^x$ 由 $2r^2+r-1=0$，解得 $r_1=\\frac{1}{2},r_2=-1$。故对应的齐次方程的通解为 $Y=C_1e^{\\frac{x}{2}}+C_2e^{-x}$。因 $f(x)=2e^x,\\lambda=1$ 不是特征方程的根，故可设 $y^*=ae^x$ 是原方程的一个特解，代入原方程得 $2ae^x+ae^x-ae^x=2e^x$ 消去 $e^x$，有 $a=1$，即 $y^*=e^x$。故原方程的通解为 $y=Y+y^*=C_1e^{\\frac{x}{2}}+C_2e^{-x}+e^x$。",
+  "sort_order": 25
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\tan 136^\\circ$ 的近似值为 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-0.96509$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.96509$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\tan x\\approx\\tan x_0+\\tan'(x_0)(x-x_0)$。取 $x_0=135^\\circ=\\frac{3\\pi}{4}$，$x-x_0=1^\\circ=\\frac{\\pi}{180}$，得 $\\tan136^\\circ\\approx\\tan\\frac{3\\pi}{4}+\\sec^2\\frac{3\\pi}{4}\\cdot\\frac{\\pi}{180}\\approx-0.96509$。",
+  "search_text": "$\\tan 136^\\circ$ 的近似值为 $(\\quad)$。 $-0.96509$ $1$ $0.96509$ $-1$ $\\tan x\\approx\\tan x_0+\\tan'(x_0)(x-x_0)$。取 $x_0=135^\\circ=\\frac{3\\pi}{4}$，$x-x_0=1^\\circ=\\frac{\\pi}{180}$，得 $\\tan136^\\circ\\approx\\tan\\frac{3\\pi}{4}+\\sec^2\\frac{3\\pi}{4}\\cdot\\frac{\\pi}{180}\\approx-0.96509$。",
+  "sort_order": 16
+}

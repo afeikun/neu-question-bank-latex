@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是立体：$2z\\leq x^2+y^2+z^2\\leq4z$，则 $\\iiint_\\Omega z\\,dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$20\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$10\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$$\n\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin\\varphi\\cos\\varphi\\,d\\varphi\\int_{2\\cos\\varphi}^{4\\cos\\varphi}r^3\\,dr=120\\pi\\int_0^{\\frac{\\pi}{2}}\\cos^5\\varphi\\sin\\varphi\\,d\\varphi=20\\pi.\n$$",
+  "search_text": "若 $\\Omega$ 是立体：$2z\\leq x^2+y^2+z^2\\leq4z$，则 $\\iiint_\\Omega z\\,dv=$（ ） $2\\pi$ $4\\pi$ $20\\pi$ $10\\pi$ $$\n\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{2}}\\sin\\varphi\\cos\\varphi\\,d\\varphi\\int_{2\\cos\\varphi}^{4\\cos\\varphi}r^3\\,dr=120\\pi\\int_0^{\\frac{\\pi}{2}}\\cos^5\\varphi\\sin\\varphi\\,d\\varphi=20\\pi.\n$$",
+  "sort_order": 40
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=\\varphi[x+\\\\psi(y)]$，下列等式正确的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$u_xu_{xxy}=u_yu_{yy}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$u_xu_{xxy}=u_yu_{xxy}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$u_xu_{yy}=u_yu_{xx}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$u_xu_{xy}=u_yu_{xx}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "由于 $\\frac{\\partial u}{\\partial x}=\\varphi',\\frac{\\partial u}{\\partial y}=\\varphi'\\psi',\\frac{\\partial^2u}{\\partial x\\partial y}=\\varphi''\\psi',\\frac{\\partial^2u}{\\partial x^2}=\\varphi''$\n\n因此：$\\frac{\\partial u}{\\partial x}\\frac{\\partial^2u}{\\partial x\\partial y}=\\varphi'\\psi'\\varphi''=\\frac{\\partial u}{\\partial y}\\frac{\\partial^2u}{\\partial x^2}$",
+  "search_text": "设 $u=\\varphi[x+\\\\psi(y)]$，下列等式正确的是哪一个？ $u_xu_{xxy}=u_yu_{yy}$ $u_xu_{xxy}=u_yu_{xxy}$ $u_xu_{yy}=u_yu_{xx}$ $u_xu_{xy}=u_yu_{xx}$ 由于 $\\frac{\\partial u}{\\partial x}=\\varphi',\\frac{\\partial u}{\\partial y}=\\varphi'\\psi',\\frac{\\partial^2u}{\\partial x\\partial y}=\\varphi''\\psi',\\frac{\\partial^2u}{\\partial x^2}=\\varphi''$\n\n因此：$\\frac{\\partial u}{\\partial x}\\frac{\\partial^2u}{\\partial x\\partial y}=\\varphi'\\psi'\\varphi''=\\frac{\\partial u}{\\partial y}\\frac{\\partial^2u}{\\partial x^2}$",
+  "sort_order": 6
+}

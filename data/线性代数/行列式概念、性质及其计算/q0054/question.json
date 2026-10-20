@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "行列式 $D=\\begin{vmatrix}1&1&1&1\\\\2&3&4&5\\\\4&9&16&25\\\\8&27&64&125\\end{vmatrix}$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-24$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-12$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$24$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "这是以 $1,2,3,4,5$ 中 $2,3,4,5$ 为节点的范德蒙德型行列式，$D=\\prod_{2\\le i<j\\le5}(j-i)=12$。",
+  "search_text": "行列式 $D=\\begin{vmatrix}1&1&1&1\\\\2&3&4&5\\\\4&9&16&25\\\\8&27&64&125\\end{vmatrix}$ 等于（ ）。 $-24$ $-12$ $12$ $24$ 这是以 $1,2,3,4,5$ 中 $2,3,4,5$ 为节点的范德蒙德型行列式，$D=\\prod_{2\\le i<j\\le5}(j-i)=12$。",
+  "sort_order": 54
+}

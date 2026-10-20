@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $3^x$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty}1/n!\\,x^n$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(\\ln3)^{n-1}x^n/n!$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(\\ln3)^n x^{n+1}/n!$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(\\ln3)^n x^n/n!$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$3^x=e^{x\\ln3}$。",
+  "search_text": "将 $3^x$ 展开成 $x$ 的幂级数。 $\\sum_{n=0}^{\\infty}1/n!\\,x^n$ $\\sum_{n=0}^{\\infty}(\\ln3)^{n-1}x^n/n!$ $\\sum_{n=0}^{\\infty}(\\ln3)^n x^{n+1}/n!$ $\\sum_{n=0}^{\\infty}(\\ln3)^n x^n/n!$ $3^x=e^{x\\ln3}$。",
+  "sort_order": 20
+}

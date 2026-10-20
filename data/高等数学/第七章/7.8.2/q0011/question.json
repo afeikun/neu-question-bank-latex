@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设函数 $z=2x^2-3y^2$，判断 $(0,0)$ 处极值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不是极值点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "是最大值点或最小值点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "取得极大值"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "取得极小值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $z_x=4x=0,z_y=-6y=0$，则驻点为 $(x,y)=(0,0)$，又 $z_{xx}=4,z_{yy}=-6,z_{xy}=0$，所以 $z_{xx}z_{yy}-z_{xy}^2=-24<0$，因此点 $(0,0)$ 非函数 $z$ 的极值点。",
+  "search_text": "设函数 $z=2x^2-3y^2$，判断 $(0,0)$ 处极值。 不是极值点 是最大值点或最小值点 取得极大值 取得极小值 令 $z_x=4x=0,z_y=-6y=0$，则驻点为 $(x,y)=(0,0)$，又 $z_{xx}=4,z_{yy}=-6,z_{xy}=0$，所以 $z_{xx}z_{yy}-z_{xy}^2=-24<0$，因此点 $(0,0)$ 非函数 $z$ 的极值点。",
+  "sort_order": 11
+}

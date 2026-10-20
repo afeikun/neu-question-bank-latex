@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(1-i)^i=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{(\\frac14-2k)\\pi}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$（$k$ 为整数）"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{1-i}{\\sqrt2}e^{i\\pi/4}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{1-i}{\\sqrt2}e^{(\\frac12-2k)\\pi}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\operatorname{Ln}(1-i)=\\ln\\sqrt2+i(-\\pi/4+2k\\pi)$ 代入复幂。",
+  "search_text": "$(1-i)^i=(\\ )$。 $e^{(\\frac14-2k)\\pi}(\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2)$（$k$ 为整数） $\\frac{1-i}{\\sqrt2}e^{i\\pi/4}$ $\\cos\\ln\\sqrt2+i\\sin\\ln\\sqrt2$ $\\frac{1-i}{\\sqrt2}e^{(\\frac12-2k)\\pi}$ 由 $\\operatorname{Ln}(1-i)=\\ln\\sqrt2+i(-\\pi/4+2k\\pi)$ 代入复幂。",
+  "sort_order": 58
+}

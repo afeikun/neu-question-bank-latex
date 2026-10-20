@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=a\\cos t,\\ y=b\\sin t$，求 $\\frac{d^2y}{dx^2}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "【源图首选项损坏，待补源】"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\frac ba\\csc^2t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\frac b{a^2}\\csc^3t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{b^2}{a^2}\\csc^3t$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "对参数方程关于 $t$ 求导，$dx/dt=-a\\sin t,dy/dt=b\\cos t$，故 $dy/dx=-(b/a)\\cot t$。再次求导，$d^2y/dx^2=\\frac{d[-(b/a)\\cot t]/dt}{dx/dt}=-\\frac b{a^2}\\csc^3t$，对应原图第三项。首选项源数据实际为404错误页，无法辨认，已标待补源；后三项按可读原图恢复，答案保留第三项，本题尚未完整修复。",
+  "search_text": "$x=a\\cos t,\\ y=b\\sin t$，求 $\\frac{d^2y}{dx^2}$。 【源图首选项损坏，待补源】 $-\\frac ba\\csc^2t$ $-\\frac b{a^2}\\csc^3t$ $-\\frac{b^2}{a^2}\\csc^3t$ 对参数方程关于 $t$ 求导，$dx/dt=-a\\sin t,dy/dt=b\\cos t$，故 $dy/dx=-(b/a)\\cot t$。再次求导，$d^2y/dx^2=\\frac{d[-(b/a)\\cot t]/dt}{dx/dt}=-\\frac b{a^2}\\csc^3t$，对应原图第三项。首选项源数据实际为404错误页，无法辨认，已标待补源；后三项按可读原图恢复，答案保留第三项，本题尚未完整修复。",
+  "sort_order": 6
+}

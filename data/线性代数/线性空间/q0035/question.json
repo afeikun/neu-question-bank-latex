@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列命题中正确的有（ ）。\n\n(1) $\\mathbb{R}[x]_2$ 是 $\\mathbb{R}[x]_5$ 的子空间；\n\n(2) 设 $A\\in\\mathbb{R}^{m\\times n}$，则 $Ax=0$ 的解集合是 $\\mathbb{R}^n$ 的子空间；\n\n(3) $n$ 阶上三角矩阵集合是 $\\mathbb{R}^{n\\times n}$ 的子空间。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$ 个"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$ 个"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$ 个"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$ 个"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\mathbb{R}[x]_2\\subset\\mathbb{R}[x]_5$，且它们都是线性空间；$Ax=0$ 的解集是 $\\mathbb{R}^n$ 的子空间；$n$ 阶上三角矩阵集合是 $\\mathbb{R}^{n\\times n}$ 的子空间。因此三个命题都正确。",
+  "search_text": "下列命题中正确的有（ ）。 (1) $\\mathbb{R}[x]_2$ 是 $\\mathbb{R}[x]_5$ 的子空间； (2) 设 $A\\in\\mathbb{R}^{m\\times n}$，则 $Ax=0$ 的解集合是 $\\mathbb{R}^n$ 的子空间； (3) $n$ 阶上三角矩阵集合是 $\\mathbb{R}^{n\\times n}$ 的子空间。 $3$ 个 $1$ 个 $0$ 个 $2$ 个 $\\mathbb{R}[x]_2\\subset\\mathbb{R}[x]_5$，且它们都是线性空间；$Ax=0$ 的解集是 $\\mathbb{R}^n$ 的子空间；$n$ 阶上三角矩阵集合是 $\\mathbb{R}^{n\\times n}$ 的子空间。因此三个命题都正确。",
+  "sort_order": 35
+}

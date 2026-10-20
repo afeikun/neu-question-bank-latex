@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $\\Omega$ 是由 $\\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定的闭区域，且 $\\Omega$ 上每点 $(x,y,z)$ 处体密度为该点到原点的距离，则立体 $\\Omega$ 关于对称轴的转动惯量 $I=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{16+10\\sqrt2}{9}\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{8-5\\sqrt2}{9}\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{8-5\\sqrt2}{6}\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{16-10\\sqrt2}{9}\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$$\nI=I_z=\\iiint_{\\Omega}(x^2+y^2)\\rho(x,y,z)\\,dv，\\quad\\text{其中 }\\rho(x,y,z)=\\sqrt{x^2+y^2+z^2}，\n$$\n于是\n$$\nI=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^2\\sin^2\\varphi\\cdot r\\cdot r^2\\sin\\varphi\\,dr=\\frac{16-10\\sqrt{2}}{9}\\pi。\n$$",
+  "search_text": "若 $\\Omega$ 是由 $\\sqrt{x^2+y^2}\\leq z\\leq\\sqrt{2-x^2-y^2}$ 决定的闭区域，且 $\\Omega$ 上每点 $(x,y,z)$ 处体密度为该点到原点的距离，则立体 $\\Omega$ 关于对称轴的转动惯量 $I=$（ ） $\\frac{16+10\\sqrt2}{9}\\pi$ $\\frac{8-5\\sqrt2}{9}\\pi$ $\\frac{8-5\\sqrt2}{6}\\pi$ $\\frac{16-10\\sqrt2}{9}\\pi$ $$\nI=I_z=\\iiint_{\\Omega}(x^2+y^2)\\rho(x,y,z)\\,dv，\\quad\\text{其中 }\\rho(x,y,z)=\\sqrt{x^2+y^2+z^2}，\n$$\n于是\n$$\nI=\\int_0^{2\\pi}d\\theta\\int_0^{\\frac{\\pi}{4}}d\\varphi\\int_0^{\\sqrt{2}}r^2\\sin^2\\varphi\\cdot r\\cdot r^2\\sin\\varphi\\,dr=\\frac{16-10\\sqrt{2}}{9}\\pi。\n$$",
+  "sort_order": 14
+}

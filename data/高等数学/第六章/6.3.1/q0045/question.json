@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "过两直线 $L_1:\\begin{cases}x=2t-1\\\\y=3t+2\\\\z=2t-3\\end{cases}$，$L_2:\\begin{cases}x=2t+3\\\\y=3t-3\\\\z=2t+1\\end{cases}$ 的平面方程为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2x+3y+2z+2=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x+z-2=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-z-2=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x-2y+z=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "两直线平行，求法向量并代入直线点，得 $x-z-2=0$。",
+  "search_text": "过两直线 $L_1:\\begin{cases}x=2t-1\\\\y=3t+2\\\\z=2t-3\\end{cases}$，$L_2:\\begin{cases}x=2t+3\\\\y=3t-3\\\\z=2t+1\\end{cases}$ 的平面方程为(\\quad)。 $2x+3y+2z+2=0$ $x+z-2=0$ $x-z-2=0$ $x-2y+z=0$ 两直线平行，求法向量并代入直线点，得 $x-z-2=0$。",
+  "sort_order": 45
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A=\\begin{pmatrix}0&-1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$，$B=P^{-1}AP$，其中 $P$ 为 $3$ 阶可逆矩阵，则 $B^{2008}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}0&-1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}-1&0&0\\\\0&-1&0\\\\0&0&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $B=P^{-1}AP$ 得 $B^{2008}=P^{-1}A^{2008}P$。且 $A^2=\\operatorname{diag}(-1,-1,1)$、$A^4=E$，所以 $A^{2008}=(A^4)^{502}=E$，从而 $B^{2008}=E$。",
+  "search_text": "设 $A=\\begin{pmatrix}0&-1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$，$B=P^{-1}AP$，其中 $P$ 为 $3$ 阶可逆矩阵，则 $B^{2008}=$（ ）。 $\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}0&-1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}-1&0&0\\\\0&-1&0\\\\0&0&1\\end{pmatrix}$ $\\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$ 由 $B=P^{-1}AP$ 得 $B^{2008}=P^{-1}A^{2008}P$。且 $A^2=\\operatorname{diag}(-1,-1,1)$、$A^4=E$，所以 $A^{2008}=(A^4)^{502}=E$，从而 $B^{2008}=E$。",
+  "sort_order": 23
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=1/(1+x^2)$ 在区间 $[0,1]$ 上的平均值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi/4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\pi/3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\int_0^1(1+x^2)^{-1}dx=\\pi/4$，区间长度为 $1$。",
+  "search_text": "函数 $y=1/(1+x^2)$ 在区间 $[0,1]$ 上的平均值。 $\\pi/2$ $1$ $\\pi/4$ $\\pi/3$ $\\int_0^1(1+x^2)^{-1}dx=\\pi/4$，区间长度为 $1$。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$K\\sim U(0,10)$，求方程$x^2+Kx+1=0$无实根概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.8$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.9$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "无实根要求$K^2-4<0$，即$0<K<2$，概率$2/10=0.2$。",
+  "search_text": "$K\\sim U(0,10)$，求方程$x^2+Kx+1=0$无实根概率。 $0.2$ $0.8$ $0.9$ $0.7$ 无实根要求$K^2-4<0$，即$0<K<2$，概率$2/10=0.2$。",
+  "sort_order": 9
+}

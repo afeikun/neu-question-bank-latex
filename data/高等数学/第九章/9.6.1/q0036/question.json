@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $D: x^2+(y-2)^2\\le1$，$L$ 是 $D$ 的边界正向一周，则 $\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+4y^2}=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：\n\n令 $P=\\frac{-y}{x^2+4y^2}$，$Q=\\frac{x}{x^2+4y^2}$，\n\n则当 $x^2+y^2\\ne0$ 时，有\n\n$$\\frac{\\partial Q}{\\partial x}=\\frac{4y^2-x^2}{(x^2+4y^2)^2}=\\frac{\\partial P}{\\partial y}$$\n\n因为 $(0,0)\\notin D$ 时，由格林公式知\n\n$$\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+4y^2}=0$$",
+  "search_text": "设 $D: x^2+(y-2)^2\\le1$，$L$ 是 $D$ 的边界正向一周，则 $\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+4y^2}=$（ ） $-1$ $2$ $1$ $0$ 解析：\n\n令 $P=\\frac{-y}{x^2+4y^2}$，$Q=\\frac{x}{x^2+4y^2}$，\n\n则当 $x^2+y^2\\ne0$ 时，有\n\n$$\\frac{\\partial Q}{\\partial x}=\\frac{4y^2-x^2}{(x^2+4y^2)^2}=\\frac{\\partial P}{\\partial y}$$\n\n因为 $(0,0)\\notin D$ 时，由格林公式知\n\n$$\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+4y^2}=0$$",
+  "sort_order": 36
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "y=∫sinx^cosx e^(−t²)dt，求dy",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "[e^(−cos²x)sinx+e^(−sin²x)cosx]dx"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "[e^(−cos²x)sinx−e^(−sin²x)cosx]dx"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "−[e^(−cos²x)sinx+e^(−sin²x)cosx]dx"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "−[e^(−cos²x)sinx−e^(−sin²x)cosx]dx"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "变上、下限积分求导。",
+  "search_text": "y=∫sinx^cosx e^(−t²)dt，求dy [e^(−cos²x)sinx+e^(−sin²x)cosx]dx [e^(−cos²x)sinx−e^(−sin²x)cosx]dx −[e^(−cos²x)sinx+e^(−sin²x)cosx]dx −[e^(−cos²x)sinx−e^(−sin²x)cosx]dx 变上、下限积分求导。",
+  "sort_order": 6
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $f(z)=u(x,y)+ie^x(x\\sin y+y\\cos y)$ 解析，则 $f\\prime(z)=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(1+z)e^z$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(1+z)e^{-z}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$ze^z$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(2+z)e^z$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $f\\prime=u_x-iu_y$，代入得到 $(1+z)e^z$。",
+  "search_text": "已知 $f(z)=u(x,y)+ie^x(x\\sin y+y\\cos y)$ 解析，则 $f\\prime(z)=(\\ )$。 $(1+z)e^z$ $(1+z)e^{-z}$ $ze^z$ $(2+z)e^z$ 由 $f\\prime=u_x-iu_y$，代入得到 $(1+z)e^z$。",
+  "sort_order": 1
+}

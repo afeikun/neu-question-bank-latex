@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一袋中装10个球，其中3个黑球、7个白球，先后两次从中随意各取一球（不放回），则两次取到的均为黑球的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1/15$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3/10$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2/9$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2/3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$3/10\\times2/9=1/15$。",
+  "search_text": "一袋中装10个球，其中3个黑球、7个白球，先后两次从中随意各取一球（不放回），则两次取到的均为黑球的概率为（ ）。 $1/15$ $3/10$ $2/9$ $2/3$ $3/10\\times2/9=1/15$。",
+  "sort_order": 6
+}

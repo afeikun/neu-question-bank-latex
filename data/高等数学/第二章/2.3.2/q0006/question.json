@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y=e^{ax}\\sin bx$，则 $y^{(n)}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$(a^2+b^2)^{n/2}e^{ax}\\sin(bx+n\\phi),\\ \\phi=\\arctan(b/a)$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$(a^2+b^2)^{n/2}e^{ax}\\cos(bx+n\\phi)$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$(a^2+b^2)^{n/2}e^{ax}\\sin(bx+n\\phi),\\phi=\\arctan(a/b)$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$(a^2+b^2)^{n/2}e^{ax}\\cos(bx+n\\phi),\\phi=\\arctan(a/b)$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $\\phi=\\arctan(b/a)$，反复求导可写成振幅相位形式。",
+  "search_text": "$y=e^{ax}\\sin bx$，则 $y^{(n)}=$（ ）。 $$(a^2+b^2)^{n/2}e^{ax}\\sin(bx+n\\phi),\\ \\phi=\\arctan(b/a)$$ $$(a^2+b^2)^{n/2}e^{ax}\\cos(bx+n\\phi)$$ $$(a^2+b^2)^{n/2}e^{ax}\\sin(bx+n\\phi),\\phi=\\arctan(a/b)$$ $$(a^2+b^2)^{n/2}e^{ax}\\cos(bx+n\\phi),\\phi=\\arctan(a/b)$$ 令 $\\phi=\\arctan(b/a)$，反复求导可写成振幅相位形式。",
+  "sort_order": 6
+}

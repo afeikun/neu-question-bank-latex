@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(X=k)=c k/N$，$k=1,\\ldots,N$，求$c$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2/(1+N)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/(1+N)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2/N$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/N$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\sum_{k=1}^N ck/N=c(N+1)/2=1$，故$c=2/(N+1)$。",
+  "search_text": "$P(X=k)=c k/N$，$k=1,\\ldots,N$，求$c$。 $2/(1+N)$ $1/(1+N)$ $2/N$ $1/N$ $\\sum_{k=1}^N ck/N=c(N+1)/2=1$，故$c=2/(N+1)$。",
+  "sort_order": 19
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z|=2$，方向为正向，则 $\\oint_C\\frac{2z-1}{z^2-z}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\frac1{z^2-z}=\\frac1{z-1}-\\frac1z$，积分为 $2\\pi i(1)-2\\pi i(-2)=4\\pi i$。",
+  "search_text": "设 $C$ 为圆周 $|z|=2$，方向为正向，则 $\\oint_C\\frac{2z-1}{z^2-z}\\,dz=(\\quad)$。 $4\\pi i$ $2\\pi i$ $\\pi i$ $2$ 由 $\\frac1{z^2-z}=\\frac1{z-1}-\\frac1z$，积分为 $2\\pi i(1)-2\\pi i(-2)=4\\pi i$。",
+  "sort_order": 81
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "随机变量$X,Y$的方差均非零，则不相关的等价条件是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$D(X-Y)=D(X+Y)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$D(XY)=D(X)D(Y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$D(XY)\\ne D(X)D(Y)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$D(X+Y)\\ne D(X-Y)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$D(X+Y)=D(X-Y)$当且仅当$\\operatorname{cov}(X,Y)=0$。",
+  "search_text": "随机变量$X,Y$的方差均非零，则不相关的等价条件是（）。 $D(X-Y)=D(X+Y)$ $D(XY)=D(X)D(Y)$ $D(XY)\\ne D(X)D(Y)$ $D(X+Y)\\ne D(X-Y)$ $D(X+Y)=D(X-Y)$当且仅当$\\operatorname{cov}(X,Y)=0$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=\\phi(t),y=f(t)$（$\\phi^\\prime(t)\\ne0,f^\\prime(t)\\ne0$），下列微分公式不正确的是哪一个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$dy=\\frac{f^\\prime(t)}{\\phi^\\prime(t)}dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$dy=f^\\prime(t)dt$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$dy=\\frac{f^\\prime(t)}{\\phi^\\prime(t)}d\\phi(t)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$dy=\\frac{f^\\prime(t)}{\\phi^\\prime(t)}dt$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\phi'(t)，\\frac{dy}{dt}=f'(t)，\\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{f'(t)}{\\phi'(t)}$$\n\n即 $dy=\\frac{f'(t)}{\\phi'(t)}dx，\\quad dy=\\frac{f'(t)}{\\phi'(t)}dx=\\frac{f'(t)}{\\phi'(t)}d\\phi(t)=\\frac{f'(t)}{\\phi'(t)}\\phi'(t)dt=f'(t)dt$",
+  "search_text": "$x=\\phi(t),y=f(t)$（$\\phi^\\prime(t)\\ne0,f^\\prime(t)\\ne0$），下列微分公式不正确的是哪一个？ $dy=\\frac{f^\\prime(t)}{\\phi^\\prime(t)}dx$ $dy=f^\\prime(t)dt$ $dy=\\frac{f^\\prime(t)}{\\phi^\\prime(t)}d\\phi(t)$ $dy=\\frac{f^\\prime(t)}{\\phi^\\prime(t)}dt$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\phi'(t)，\\frac{dy}{dt}=f'(t)，\\text{可得 }\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{f'(t)}{\\phi'(t)}$$\n\n即 $dy=\\frac{f'(t)}{\\phi'(t)}dx，\\quad dy=\\frac{f'(t)}{\\phi'(t)}dx=\\frac{f'(t)}{\\phi'(t)}d\\phi(t)=\\frac{f'(t)}{\\phi'(t)}\\phi'(t)dt=f'(t)dt$",
+  "sort_order": 4
+}

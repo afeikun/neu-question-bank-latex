@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_{ij}$独立同分布且$E(X_{ij})=3$，行列式$Y=\\begin{vmatrix}X_{11}&X_{12}\\\\X_{21}&X_{22}\\end{vmatrix}$的数学期望为？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$9$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$81$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E(Y)=E(X_{11})E(X_{22})-E(X_{12})E(X_{21})=9-9=0$。",
+  "search_text": "$X_{ij}$独立同分布且$E(X_{ij})=3$，行列式$Y=\\begin{vmatrix}X_{11}&X_{12}\\\\X_{21}&X_{22}\\end{vmatrix}$的数学期望为？ $0$ $3$ $9$ $81$ $E(Y)=E(X_{11})E(X_{22})-E(X_{12})E(X_{21})=9-9=0$。",
+  "sort_order": 17
+}

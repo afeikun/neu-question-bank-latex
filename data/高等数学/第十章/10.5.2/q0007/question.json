@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $\\frac{d^5x}{dt^5}-\\frac{1}{t}\\frac{d^4x}{dt^4}=0$ 的通解是[　]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=C_1t^5+C_2t^3+C_3t^2+C_4t+C_5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=t^5+C_2t^3+C_3t^2+C_4t+C_5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=t^5+C_2t^4+C_3t^2+C_4t+C_5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=C_1t^4+C_2t^3+C_3t^2+C_4t+C_5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析 令 $\\frac{d^4x}{dt^4}=y$，则五阶方程化为一阶方程 $\\frac{dy}{dt}-\\frac{1}{t}y=0$，积分，得其通解为 $y=ct$，即 $\\frac{d^4x}{dt^4}=ct$，\n积分四次，得原方程通解 $x=C_1t^5+C_2t^3+C_3t^2+C_4t+C_5$（$C_i$为任意常数），故选 A。",
+  "search_text": "方程 $\\frac{d^5x}{dt^5}-\\frac{1}{t}\\frac{d^4x}{dt^4}=0$ 的通解是[　] $x=C_1t^5+C_2t^3+C_3t^2+C_4t+C_5$ $x=t^5+C_2t^3+C_3t^2+C_4t+C_5$ $x=t^5+C_2t^4+C_3t^2+C_4t+C_5$ $x=C_1t^4+C_2t^3+C_3t^2+C_4t+C_5$ 解析 令 $\\frac{d^4x}{dt^4}=y$，则五阶方程化为一阶方程 $\\frac{dy}{dt}-\\frac{1}{t}y=0$，积分，得其通解为 $y=ct$，即 $\\frac{d^4x}{dt^4}=ct$，\n积分四次，得原方程通解 $x=C_1t^5+C_2t^3+C_3t^2+C_4t+C_5$（$C_i$为任意常数），故选 A。",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Omega$ 是空心球体 $1\\leq x^2+y^2+z^2\\leq4$，则 $\\iiint_\\Omega(z^2+z)dv=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{32\\pi}{15}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac43\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{124\\pi}{15}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac45\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\Omega$ 即 $\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\pi\\\\1\\leq r\\leq 2\\end{cases}$，\n\n原式 $=\\iiint_\\Omega z^2\\,dv+\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_1^2r^2\\cos^2\\varphi\\cdot r^2\\sin\\varphi\\,dr+0$\n\n$=2\\pi\\int_0^\\pi\\cos^2\\varphi\\sin\\varphi\\,d\\varphi\\cdot\\int_1^2r^4\\,dr=\\frac{62}{5}\\pi(-\\frac{\\cos^3\\varphi}{3})\\big|_0^\\pi=\\frac{124}{15}\\pi$。",
+  "search_text": "设 $\\Omega$ 是空心球体 $1\\leq x^2+y^2+z^2\\leq4$，则 $\\iiint_\\Omega(z^2+z)dv=$（ ） $\\frac{32\\pi}{15}$ $\\frac43\\pi$ $\\frac{124\\pi}{15}$ $\\frac45\\pi$ $\\Omega$ 即 $\\begin{cases}0\\leq\\theta\\leq 2\\pi\\\\0\\leq\\varphi\\leq\\pi\\\\1\\leq r\\leq 2\\end{cases}$，\n\n原式 $=\\iiint_\\Omega z^2\\,dv+\\iiint_\\Omega z\\,dv=\\int_0^{2\\pi}d\\theta\\int_0^\\pi d\\varphi\\int_1^2r^2\\cos^2\\varphi\\cdot r^2\\sin\\varphi\\,dr+0$\n\n$=2\\pi\\int_0^\\pi\\cos^2\\varphi\\sin\\varphi\\,d\\varphi\\cdot\\int_1^2r^4\\,dr=\\frac{62}{5}\\pi(-\\frac{\\cos^3\\varphi}{3})\\big|_0^\\pi=\\frac{124}{15}\\pi$。",
+  "sort_order": 17
+}

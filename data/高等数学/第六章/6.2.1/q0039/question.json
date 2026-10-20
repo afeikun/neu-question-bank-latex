@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\vec a=(2,-3,1)$，$\\vec b=(1,-2,3)$，$\\vec c=(2,1,2)$，向量 $\\vec r$ 满足 $\\vec r\\perp\\vec a$，$\\vec r\\perp\\vec b$，$\\operatorname{Prj}_{\\vec c}\\vec r=14$，则 $\\vec r$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(14,2,10)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(14,10,2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(10,14,2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(10,2,14)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "令 $\\vec r=(r_1,r_2,r_3)$，由两个垂直条件及 $\\operatorname{Prj}_{c}r=14$ 得方程组，解得 $(r_1,r_2,r_3)=(14,10,2)$。",
+  "search_text": "设 $\\vec a=(2,-3,1)$，$\\vec b=(1,-2,3)$，$\\vec c=(2,1,2)$，向量 $\\vec r$ 满足 $\\vec r\\perp\\vec a$，$\\vec r\\perp\\vec b$，$\\operatorname{Prj}_{\\vec c}\\vec r=14$，则 $\\vec r$ 为(\\quad)。 $(14,2,10)$ $(14,10,2)$ $(10,14,2)$ $(10,2,14)$ 令 $\\vec r=(r_1,r_2,r_3)$，由两个垂直条件及 $\\operatorname{Prj}_{c}r=14$ 得方程组，解得 $(r_1,r_2,r_3)=(14,10,2)$。",
+  "sort_order": 39
+}

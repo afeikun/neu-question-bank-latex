@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $x\\frac{dy}{dx}=y(\\ln y-\\ln x)$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{x+y}=x^3+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac yx=Cx^3+2y$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\ln(x+y)=x^3+y+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\ln\\frac yx=Cx+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方程变形为 $\\frac{dy}{dx}=\\frac{y}{x}\\ln\\frac{y}{x}$，\n\n设 $\\frac{y}{x}=u$，代入方程 $u+x\\frac{du}{dx}=u\\ln u$，即 $\\frac{du}{u(\\ln u-1)}=\\frac{dx}{x}$，\n\n积分 $\\ln(\\ln u-1)=\\ln x+\\ln C$，\n\n代入 $u$，整理得 $\\ln\\frac{y}{x}=Cx+1$。",
+  "search_text": "微分方程 $x\\frac{dy}{dx}=y(\\ln y-\\ln x)$ 的通解为（ ） $e^{x+y}=x^3+C$ $\\frac yx=Cx^3+2y$ $\\ln(x+y)=x^3+y+C$ $\\ln\\frac yx=Cx+1$ 方程变形为 $\\frac{dy}{dx}=\\frac{y}{x}\\ln\\frac{y}{x}$，\n\n设 $\\frac{y}{x}=u$，代入方程 $u+x\\frac{du}{dx}=u\\ln u$，即 $\\frac{du}{u(\\ln u-1)}=\\frac{dx}{x}$，\n\n积分 $\\ln(\\ln u-1)=\\ln x+\\ln C$，\n\n代入 $u$，整理得 $\\ln\\frac{y}{x}=Cx+1$。",
+  "sort_order": 11
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "28.若求一个阶数尽可能低的常系数线性齐次微分方程，使得函数 $y_1=2xe^x$ 与 $y_2=3\\sin2x$ 是它的解，则符合题意的是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^{(4)}+2y^{(3)}-5y\\prime\\prime+8y\\prime-4y=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y\\prime\\prime+5y\\prime\\prime-8y\\prime+4y=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^{(4)}-2y^{(3)}+5y\\prime\\prime-8y\\prime+4y=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y\\prime\\prime-5y\\prime\\prime+8y\\prime-4y=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解析 由 $y_1=2xe^x,\\ y_2=3\\sin2x$ 是常系数线性齐次微分方程的解，所以 $\\lambda=1$ 为其特征方程的二重根，\n\n$r=\\pm2i$ 也为其特征方程的根，其特征方程为 $(\\lambda-1)^2(\\lambda-2i)(\\lambda+2i)=0$，所以对应齐次微分方程为\n\n$$y^{(4)}-2y'''+5y''-8y'+4y=0$$\n\n因此选 A。",
+  "search_text": "28.若求一个阶数尽可能低的常系数线性齐次微分方程，使得函数 $y_1=2xe^x$ 与 $y_2=3\\sin2x$ 是它的解，则符合题意的是（ ） $y^{(4)}+2y^{(3)}-5y\\prime\\prime+8y\\prime-4y=0$ $y\\prime\\prime+5y\\prime\\prime-8y\\prime+4y=0$ $y^{(4)}-2y^{(3)}+5y\\prime\\prime-8y\\prime+4y=0$ $y\\prime\\prime-5y\\prime\\prime+8y\\prime-4y=0$ 解析 由 $y_1=2xe^x,\\ y_2=3\\sin2x$ 是常系数线性齐次微分方程的解，所以 $\\lambda=1$ 为其特征方程的二重根，\n\n$r=\\pm2i$ 也为其特征方程的根，其特征方程为 $(\\lambda-1)^2(\\lambda-2i)(\\lambda+2i)=0$，所以对应齐次微分方程为\n\n$$y^{(4)}-2y'''+5y''-8y'+4y=0$$\n\n因此选 A。",
+  "sort_order": 4
+}

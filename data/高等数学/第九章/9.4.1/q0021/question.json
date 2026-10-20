@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\Sigma$ 是 $xoy$ 面上的闭区域 $0\\le x\\le3,0\\le y\\le3$ 的上侧，则 $3\\iint_\\Sigma(x+y+z)dydz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 $\n\\Sigma$ 在平面 $yoz$ 上的投影是线段，所以\n$$3\\iint_\\Sigma (x+y+z)dydz=0.$$",
+  "search_text": "设 $\\Sigma$ 是 $xoy$ 面上的闭区域 $0\\le x\\le3,0\\le y\\le3$ 的上侧，则 $3\\iint_\\Sigma(x+y+z)dydz=$（ ） $-1$ $0$ $2$ $1$ 解答 $\n\\Sigma$ 在平面 $yoz$ 上的投影是线段，所以\n$$3\\iint_\\Sigma (x+y+z)dydz=0.$$",
+  "sort_order": 21
+}

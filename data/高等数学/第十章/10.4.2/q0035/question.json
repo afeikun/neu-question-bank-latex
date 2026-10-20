@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(x+y)dx-(x-y)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sqrt{x^2+y^2}=Ce^{\\tan(y/x)}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sqrt{x^2+y^2}=e^{\\arctan(y/x)}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sqrt{x^2+y^2}=Ce^{\\arctan(y/x)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt{x^2+y^2}=e^{\\tan(y/x)}+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程有积分因子 $\\frac{1}{x^2+y^2}$，\n\n则全微分方程为\n\n$$\n\\frac{xdx+ydy}{x^2+y^2}-\\frac{xdy-ydx}{x^2+y^2}=0,\n$$\n\n积分得\n\n$$\n\\frac{1}{2}\\ln(x^2+y^2)-\\arctan\\frac{y}{x}=\\ln C,C>0,\n$$\n\n因此\n\n$$\n\\sqrt{x^2+y^2}=Ce^{\\arctan\\frac{y}{x}},\n$$",
+  "search_text": "$(x+y)dx-(x-y)dy=0$ 的通解为（ ） $\\sqrt{x^2+y^2}=Ce^{\\tan(y/x)}$ $\\sqrt{x^2+y^2}=e^{\\arctan(y/x)}+C$ $\\sqrt{x^2+y^2}=Ce^{\\arctan(y/x)}$ $\\sqrt{x^2+y^2}=e^{\\tan(y/x)}+C$ 方程有积分因子 $\\frac{1}{x^2+y^2}$，\n\n则全微分方程为\n\n$$\n\\frac{xdx+ydy}{x^2+y^2}-\\frac{xdy-ydx}{x^2+y^2}=0,\n$$\n\n积分得\n\n$$\n\\frac{1}{2}\\ln(x^2+y^2)-\\arctan\\frac{y}{x}=\\ln C,C>0,\n$$\n\n因此\n\n$$\n\\sqrt{x^2+y^2}=Ce^{\\arctan\\frac{y}{x}},\n$$",
+  "sort_order": 35
+}

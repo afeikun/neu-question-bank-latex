@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 为平面 $x+y+z=1$ 在第一卦限的下侧曲面，则 $\\iint_\\Sigma(x^2+y^2+z)dxdy$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\int_0^1dx\\int_0^{1-x}(x^2+y^2-z)dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^1dx\\int_0^{1-x}(x^2+y^2-x-y+1)dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dy\\int_0^{1-y}(x^2+y^2-x-y+1)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\int_0^1dx\\int_0^{1-x}(x^2+y^2-x-y+1)dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 $\\Sigma$ 在平面 $xoy$ 上的投影为 $D_{xy}:x+y=1$ 与坐标轴所围区域。\n\n$$\\iint_\\Sigma(x^2+y^2+z)dxdy=-\\iint_{D_{xy}}(x^2+y^2-x-y+1)dxdy=-\\int_0^1dx\\int_0^{1-x}(x^2+y^2-x-y+1)dy。$$",
+  "search_text": "已知 $\\Sigma$ 为平面 $x+y+z=1$ 在第一卦限的下侧曲面，则 $\\iint_\\Sigma(x^2+y^2+z)dxdy$（ ） $-\\int_0^1dx\\int_0^{1-x}(x^2+y^2-z)dy$ $\\int_0^1dx\\int_0^{1-x}(x^2+y^2-x-y+1)dy$ $\\int_0^1dy\\int_0^{1-y}(x^2+y^2-x-y+1)dx$ $-\\int_0^1dx\\int_0^{1-x}(x^2+y^2-x-y+1)dy$ 解答 $\\Sigma$ 在平面 $xoy$ 上的投影为 $D_{xy}:x+y=1$ 与坐标轴所围区域。\n\n$$\\iint_\\Sigma(x^2+y^2+z)dxdy=-\\iint_{D_{xy}}(x^2+y^2-x-y+1)dxdy=-\\int_0^1dx\\int_0^{1-x}(x^2+y^2-x-y+1)dy。$$",
+  "sort_order": 5
+}

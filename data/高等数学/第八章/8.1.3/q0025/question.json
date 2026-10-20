@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\iint_D(x^2+y^2)dxdy$（其中 $D$ 是由 $x^2+y^2=2ax$ 与 $x$ 轴所围成的上半部分闭区域，$a>0$）的值为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi a^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac32\\pi a^4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi a^4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac34\\pi a^4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答　如图，积分区域 $D:0\\leq x\\leq2a,0\\leq y\\leq\\sqrt{2ax-x^2}$。上半圆 $y=\\sqrt{2ax-x^2}$ 的极坐标方程为：\n\n$$r=2a\\cos\\theta,\\text{原式}$$\n\n$$=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{2a\\cos\\theta}r^3dr=4a^4\\int_0^{\\frac{\\pi}{2}}\\cos^4\\theta d\\theta=4a^4\\cdot\\frac{3}{4}\\cdot\\frac{1}{2}\\cdot\\frac{\\pi}{2}=\\frac{3}{4}\\pi a^4.$$ \n\n图示：第一象限下方阴影区域 $D$，边界为 $x$ 轴和半圆弧 $r=2a\\cos\\theta$；坐标轴标记 $x,y$，原点标记 $O$，横轴上标记 $a$ 和 $2a$；区域内半径标记 $r$，与正 $x$ 轴夹角标记 $\\theta$。",
+  "search_text": "$\\iint_D(x^2+y^2)dxdy$（其中 $D$ 是由 $x^2+y^2=2ax$ 与 $x$ 轴所围成的上半部分闭区域，$a>0$）的值为[\\quad] $\\pi a^4$ $\\frac32\\pi a^4$ $2\\pi a^4$ $\\frac34\\pi a^4$ 解答　如图，积分区域 $D:0\\leq x\\leq2a,0\\leq y\\leq\\sqrt{2ax-x^2}$。上半圆 $y=\\sqrt{2ax-x^2}$ 的极坐标方程为：\n\n$$r=2a\\cos\\theta,\\text{原式}$$\n\n$$=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{2a\\cos\\theta}r^3dr=4a^4\\int_0^{\\frac{\\pi}{2}}\\cos^4\\theta d\\theta=4a^4\\cdot\\frac{3}{4}\\cdot\\frac{1}{2}\\cdot\\frac{\\pi}{2}=\\frac{3}{4}\\pi a^4.$$ \n\n图示：第一象限下方阴影区域 $D$，边界为 $x$ 轴和半圆弧 $r=2a\\cos\\theta$；坐标轴标记 $x,y$，原点标记 $O$，横轴上标记 $a$ 和 $2a$；区域内半径标记 $r$，与正 $x$ 轴夹角标记 $\\theta$。",
+  "sort_order": 25
+}

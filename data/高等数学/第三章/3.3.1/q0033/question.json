@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}(n\\tan\\frac1n)^n=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{1/3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "取对数并用 $\\tan t=t+t^3/3+o(t^3)$，对数趋于 $1/3$，极限为 $e^{1/3}$。",
+  "search_text": "$\\lim_{n\\to\\infty}(n\\tan\\frac1n)^n=(\\quad)$。 $e^{1/3}$ $0$ $1$ $e$ 取对数并用 $\\tan t=t+t^3/3+o(t^3)$，对数趋于 $1/3$，极限为 $e^{1/3}$。",
+  "sort_order": 33
+}

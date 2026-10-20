@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{n\\to\\infty}(\\frac{n-2}{n+1})^n$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "极限不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "极限存在，但不能求出"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "题面答案标记为 3，但按所示表达式该极限为 $e^{-3}$，与所有选项均不一致，按原题标记保留。",
+  "search_text": "$\\lim_{n\\to\\infty}(\\frac{n-2}{n+1})^n$。 极限不存在 极限存在，但不能求出 3 0 题面答案标记为 3，但按所示表达式该极限为 $e^{-3}$，与所有选项均不一致，按原题标记保留。",
+  "sort_order": 25
+}

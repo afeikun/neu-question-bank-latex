@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 是 $\\mathbb{R}^3$ 中的一组基，现有 $\\beta_1=4\\alpha_1+2\\alpha_2+\\alpha_3$，$\\beta_2=\\alpha_1+\\alpha_2+2\\alpha_3$，$\\beta_3=k\\alpha_1+k\\alpha_2+\\alpha_3$，那么参数 $k$ 满足（ ）时 $\\beta_1,\\beta_2,\\beta_3$ 构成 $\\mathbb{R}^3$ 中的一组基。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$k=1/2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$k$ 为任意非零实数"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$k$ 为任意实数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$k\\ne1/2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "因为 $(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}4&1&k\\\\2&1&k\\\\1&2&1\\end{pmatrix}$，所以这些向量构成一组基当且仅当系数矩阵行列式 $\\begin{vmatrix}4&1&k\\\\2&1&k\\\\1&2&1\\end{vmatrix}=2-4k\\ne0$，即 $k\\ne1/2$。",
+  "search_text": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 是 $\\mathbb{R}^3$ 中的一组基，现有 $\\beta_1=4\\alpha_1+2\\alpha_2+\\alpha_3$，$\\beta_2=\\alpha_1+\\alpha_2+2\\alpha_3$，$\\beta_3=k\\alpha_1+k\\alpha_2+\\alpha_3$，那么参数 $k$ 满足（ ）时 $\\beta_1,\\beta_2,\\beta_3$ 构成 $\\mathbb{R}^3$ 中的一组基。 $k=1/2$ $k$ 为任意非零实数 $k$ 为任意实数 $k\\ne1/2$ 因为 $(\\beta_1,\\beta_2,\\beta_3)=(\\alpha_1,\\alpha_2,\\alpha_3)\\begin{pmatrix}4&1&k\\\\2&1&k\\\\1&2&1\\end{pmatrix}$，所以这些向量构成一组基当且仅当系数矩阵行列式 $\\begin{vmatrix}4&1&k\\\\2&1&k\\\\1&2&1\\end{vmatrix}=2-4k\\ne0$，即 $k\\ne1/2$。",
+  "sort_order": 40
+}

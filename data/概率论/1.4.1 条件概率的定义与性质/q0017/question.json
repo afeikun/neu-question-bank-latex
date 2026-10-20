@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设事件 $A,B$ 为任意两事件，且 $A\\subseteq B$，$P(B)>0$，则下列选项必然成立的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(A)\\le P(A\\mid B)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$P(A)<P(A\\mid B)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$P(A)>P(A\\mid B)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$P(A)\\ge P(A\\mid B)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $A\\subseteq B$，$P(A\\mid B)=P(A)/P(B)\\ge P(A)$，故选项 1 成立。",
+  "search_text": "设事件 $A,B$ 为任意两事件，且 $A\\subseteq B$，$P(B)>0$，则下列选项必然成立的是(\\quad)。 $P(A)\\le P(A\\mid B)$ $P(A)<P(A\\mid B)$ $P(A)>P(A\\mid B)$ $P(A)\\ge P(A\\mid B)$ 由 $A\\subseteq B$，$P(A\\mid B)=P(A)/P(B)\\ge P(A)$，故选项 1 成立。",
+  "sort_order": 17
+}

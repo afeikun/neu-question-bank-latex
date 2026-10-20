@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "f(x)=∫₀ˣ|t−1|dt，判断x=1左右导数",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "左右导数都不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "f′₊(1)=f′₋(1)=0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "左右导数存在但不等"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "左右导数相等且非零"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "f′(x)=|x−1|，在1处两侧均趋于0。",
+  "search_text": "f(x)=∫₀ˣ|t−1|dt，判断x=1左右导数 左右导数都不存在 f′₊(1)=f′₋(1)=0 左右导数存在但不等 左右导数相等且非零 f′(x)=|x−1|，在1处两侧均趋于0。",
+  "sort_order": 42
+}

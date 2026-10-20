@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $u=f(x^2-y^2,e^{x+y})$，$f$ 有二阶连续偏导数，求 $u_{xy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4xyf_{11}''+2(x-y)e^{x+y}f_{12}''+e^{2x+2y}f_{22}''+e^{x+y}f_2'$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-4xyf_{11}''+2(x+y)e^{x+y}f_{12}''+e^{2x+2y}f_{22}''+e^{x+y}f_2'$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-4xyf_{11}''+2(x-y)e^{x+y}f_{12}''+e^{2x+2y}f_{22}''+e^{x+y}f_2'$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4xyf_{11}''+2(x+y)e^{x+y}f_{12}''+e^{2x+2y}f_{22}''+e^{x+y}f_2'$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial u}{\\partial x}=2xf_1'+e^{x+y}f_2',\\quad \\frac{\\partial u}{\\partial y}=-2yf_1'+e^{x+y}f_2'$\n\n$\\frac{\\partial^2u}{\\partial x\\partial y}=2x\\left[f_{11}''(-2y)+f_{12}''e^{x+y}\\right]+e^{x+y}f_2'+e^{x+y}\\left[f_{21}''(-2y)+f_{22}''e^{x+y}\\right]$\n\n$=-4xyf_{11}''+2(x-y)e^{x+y}f_{12}'+e^{2x+2y}f_{22}'+e^{x+y}f_2'$",
+  "search_text": "已知 $u=f(x^2-y^2,e^{x+y})$，$f$ 有二阶连续偏导数，求 $u_{xy}$。 $4xyf_{11}''+2(x-y)e^{x+y}f_{12}''+e^{2x+2y}f_{22}''+e^{x+y}f_2'$ $-4xyf_{11}''+2(x+y)e^{x+y}f_{12}''+e^{2x+2y}f_{22}''+e^{x+y}f_2'$ $-4xyf_{11}''+2(x-y)e^{x+y}f_{12}''+e^{2x+2y}f_{22}''+e^{x+y}f_2'$ $4xyf_{11}''+2(x+y)e^{x+y}f_{12}''+e^{2x+2y}f_{22}''+e^{x+y}f_2'$ $\\frac{\\partial u}{\\partial x}=2xf_1'+e^{x+y}f_2',\\quad \\frac{\\partial u}{\\partial y}=-2yf_1'+e^{x+y}f_2'$\n\n$\\frac{\\partial^2u}{\\partial x\\partial y}=2x\\left[f_{11}''(-2y)+f_{12}''e^{x+y}\\right]+e^{x+y}f_2'+e^{x+y}\\left[f_{21}''(-2y)+f_{22}''e^{x+y}\\right]$\n\n$=-4xyf_{11}''+2(x-y)e^{x+y}f_{12}'+e^{2x+2y}f_{22}'+e^{x+y}f_2'$",
+  "sort_order": 40
+}

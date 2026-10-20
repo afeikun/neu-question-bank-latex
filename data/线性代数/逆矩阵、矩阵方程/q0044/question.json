@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $n$ 阶非零矩阵，$E$ 为 $n$ 阶单位矩阵。若 $A^2=0$，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$E-A$ 可逆，$A+E$ 可逆"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$E-A$ 可逆，$A+E$ 不可逆"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$E-A$ 不可逆，$A+E$ 可逆"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$E-A$ 不可逆，$A+E$ 不可逆"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$(E-A)(A+E)=E-A^2=E$，因此 $E-A$ 与 $A+E$ 互为逆矩阵，二者均可逆。",
+  "search_text": "设 $A$ 为 $n$ 阶非零矩阵，$E$ 为 $n$ 阶单位矩阵。若 $A^2=0$，则（ ）。 $E-A$ 可逆，$A+E$ 可逆 $E-A$ 可逆，$A+E$ 不可逆 $E-A$ 不可逆，$A+E$ 可逆 $E-A$ 不可逆，$A+E$ 不可逆 $(E-A)(A+E)=E-A^2=E$，因此 $E-A$ 与 $A+E$ 互为逆矩阵，二者均可逆。",
+  "sort_order": 44
+}

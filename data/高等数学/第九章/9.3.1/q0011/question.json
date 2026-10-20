@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "重力沿 $z$ 轴方向，质量 $m$ 的质点从 $(x_1,y_1,z_1)$ 移至 $(x_2,y_2,z_2)$，重力做功为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$mg(z_2-z_1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "无法确定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$mg(z_2+z_1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$mg(y_2-y_1)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解 因为力 $\\vec{F}=(0,0,mg)$\n\n所以\n\n$$\nW=\\int_{z_1}^{z_2}mg\\,\\mathrm{d}z=mg(z_2-z_1)。\n$$",
+  "search_text": "重力沿 $z$ 轴方向，质量 $m$ 的质点从 $(x_1,y_1,z_1)$ 移至 $(x_2,y_2,z_2)$，重力做功为（ ） $mg(z_2-z_1)$ 无法确定 $mg(z_2+z_1)$ $mg(y_2-y_1)$ 解 因为力 $\\vec{F}=(0,0,mg)$\n\n所以\n\n$$\nW=\\int_{z_1}^{z_2}mg\\,\\mathrm{d}z=mg(z_2-z_1)。\n$$",
+  "sort_order": 11
+}

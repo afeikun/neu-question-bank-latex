@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $y\\prime\\prime+2x(y\\prime)^2=0,\\ y|_{x=0}=1,\\ y\\prime|_{x=0}=-\\frac12$ 的特解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=\\frac1{\\sqrt2}\\ln\\left|\\frac{x-\\sqrt2}{x+\\sqrt2}\\right|+2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=\\frac12\\ln\\left|\\frac{x-\\sqrt2}{x+\\sqrt2}\\right|+\\sqrt2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=\\frac1{2\\sqrt2}\\ln\\left|\\frac{x+\\sqrt2}{x-\\sqrt2}\\right|+1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=\\frac1{2\\sqrt2}\\ln\\left|\\frac{x-\\sqrt2}{x+\\sqrt2}\\right|+1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解：令 $y'=p$，则有 $p'+2xp^2=0$，解得 $\\frac{1}{p}=x^2+C_1$，由 $y'|_{x=0}=-\\frac{1}{2}$ 得 $C_1=-2$，所以 $p=\\frac{1}{x^2-2}$，即\n\n$$\\frac{dy}{dx}=\\frac{1}{2\\sqrt{2}}\\left(\\frac{1}{x-\\sqrt{2}}-\\frac{1}{x+\\sqrt{2}}\\right),$$ 解得 $y=\\frac{1}{2\\sqrt{2}}\\ln\\left|\\frac{x-\\sqrt{2}}{x+\\sqrt{2}}\\right|+C_2$，由 $y|_{x=0}=1$，得 $C_2=1$，所以，所求特解为\n\n$$y=\\frac{1}{2\\sqrt{2}}\\ln\\left|\\frac{x-\\sqrt{2}}{x+\\sqrt{2}}\\right|+1.$$",
+  "search_text": "方程 $y\\prime\\prime+2x(y\\prime)^2=0,\\ y|_{x=0}=1,\\ y\\prime|_{x=0}=-\\frac12$ 的特解为（ ） $y=\\frac1{\\sqrt2}\\ln\\left|\\frac{x-\\sqrt2}{x+\\sqrt2}\\right|+2$ $y=\\frac12\\ln\\left|\\frac{x-\\sqrt2}{x+\\sqrt2}\\right|+\\sqrt2$ $y=\\frac1{2\\sqrt2}\\ln\\left|\\frac{x+\\sqrt2}{x-\\sqrt2}\\right|+1$ $y=\\frac1{2\\sqrt2}\\ln\\left|\\frac{x-\\sqrt2}{x+\\sqrt2}\\right|+1$ 解：令 $y'=p$，则有 $p'+2xp^2=0$，解得 $\\frac{1}{p}=x^2+C_1$，由 $y'|_{x=0}=-\\frac{1}{2}$ 得 $C_1=-2$，所以 $p=\\frac{1}{x^2-2}$，即\n\n$$\\frac{dy}{dx}=\\frac{1}{2\\sqrt{2}}\\left(\\frac{1}{x-\\sqrt{2}}-\\frac{1}{x+\\sqrt{2}}\\right),$$ 解得 $y=\\frac{1}{2\\sqrt{2}}\\ln\\left|\\frac{x-\\sqrt{2}}{x+\\sqrt{2}}\\right|+C_2$，由 $y|_{x=0}=1$，得 $C_2=1$，所以，所求特解为\n\n$$y=\\frac{1}{2\\sqrt{2}}\\ln\\left|\\frac{x-\\sqrt{2}}{x+\\sqrt{2}}\\right|+1.$$",
+  "sort_order": 38
+}

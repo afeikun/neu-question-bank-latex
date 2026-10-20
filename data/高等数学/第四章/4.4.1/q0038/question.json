@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₋π/₄^{π/4}dx/(1+sin x)",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "4"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "8"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "利用对称性并化简，积分为2。",
+  "search_text": "计算∫₋π/₄^{π/4}dx/(1+sin x) 4 1 2 8 利用对称性并化简，积分为2。",
+  "sort_order": 38
+}

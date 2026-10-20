@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\lim_{n\\to\\infty} n!/[2\\cdot5\\cdot8\\cdots(3n-1)]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "趋于无穷，不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{1/2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2/e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "对应正项级数比值极限为 $1/3<1$，其通项趋于 $0$。",
+  "search_text": "求 $\\lim_{n\\to\\infty} n!/[2\\cdot5\\cdot8\\cdots(3n-1)]$。 趋于无穷，不存在 $0$ $e^{1/2}$ $2/e$ 对应正项级数比值极限为 $1/3<1$，其通项趋于 $0$。",
+  "sort_order": 18
+}

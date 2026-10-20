@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设均匀薄片（面密度为常数1）所占闭区域 $D=\\{(x,y)|\\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\leq1\\}$，则转动惯量 $I_y$ 为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi}{2}a^3b$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\pi}{5}a^3b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\pi}{4}a^3b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi}{3}a^3b$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$I_y=\\iint_Dx^2dxdy=4\\int_0^a dx\\int_0^{\\frac{b}{a}\\sqrt{a^2-x^2}}x^2dy$\n$=4\\int_0^a\\frac{b}{a}x^2\\sqrt{a^2-x^2}dx$\n$\\overset{x=a\\sin t}{=}\\frac{4b}{a}\\int_0^{\\frac\\pi2}a^2\\sin^2t\\cdot a\\cos t\\cdot a\\cos tdt$\n$=\\frac\\pi4a^3b$",
+  "search_text": "设均匀薄片（面密度为常数1）所占闭区域 $D=\\{(x,y)|\\frac{x^2}{a^2}+\\frac{y^2}{b^2}\\leq1\\}$，则转动惯量 $I_y$ 为（ ） $\\frac{\\pi}{2}a^3b$ $\\frac{\\pi}{5}a^3b$ $\\frac{\\pi}{4}a^3b$ $\\frac{\\pi}{3}a^3b$ $I_y=\\iint_Dx^2dxdy=4\\int_0^a dx\\int_0^{\\frac{b}{a}\\sqrt{a^2-x^2}}x^2dy$\n$=4\\int_0^a\\frac{b}{a}x^2\\sqrt{a^2-x^2}dx$\n$\\overset{x=a\\sin t}{=}\\frac{4b}{a}\\int_0^{\\frac\\pi2}a^2\\sin^2t\\cdot a\\cos t\\cdot a\\cos tdt$\n$=\\frac\\pi4a^3b$",
+  "sort_order": 34
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $n$ 阶方阵 $A$ 与矩阵 $B$ 相似，则下列说法正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $\\lambda_0$ 为 $A$ 与 $B$ 的特征值时，方程组 $(\\lambda_0E-A)X=0$ 与 $(\\lambda_0E-B)X=0$ 同解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "对于任意常数 $t$，有 $|tE-A|=|tE-B|$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "存在对角阵 $\\Lambda$，使得 $A$ 与 $B$ 都相似于 $\\Lambda$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\lambda E-A=\\lambda E-B$，其中 $\\lambda$ 为 $A$ 与 $B$ 的特征值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "相似矩阵有相同的特征多项式，即 $|\\lambda E-A|=|\\lambda E-B|$，而不是 $\\lambda E-A=\\lambda E-B$。由于 $A$ 与 $B$ 相似，则存在可逆矩阵 $P$，使得 $P^{-1}AP=B$，则 $|tE-B|=|tE-P^{-1}AP|=|P^{-1}(tE-A)P|=|tE-A|$。$A$ 与 $B$ 不一定与对角阵相似，且相似矩阵有相同的特征值，但不一定有相同的特征向量。",
+  "search_text": "设 $n$ 阶方阵 $A$ 与矩阵 $B$ 相似，则下列说法正确的是（ ）。 若 $\\lambda_0$ 为 $A$ 与 $B$ 的特征值时，方程组 $(\\lambda_0E-A)X=0$ 与 $(\\lambda_0E-B)X=0$ 同解 对于任意常数 $t$，有 $|tE-A|=|tE-B|$ 存在对角阵 $\\Lambda$，使得 $A$ 与 $B$ 都相似于 $\\Lambda$ $\\lambda E-A=\\lambda E-B$，其中 $\\lambda$ 为 $A$ 与 $B$ 的特征值 相似矩阵有相同的特征多项式，即 $|\\lambda E-A|=|\\lambda E-B|$，而不是 $\\lambda E-A=\\lambda E-B$。由于 $A$ 与 $B$ 相似，则存在可逆矩阵 $P$，使得 $P^{-1}AP=B$，则 $|tE-B|=|tE-P^{-1}AP|=|P^{-1}(tE-A)P|=|tE-A|$。$A$ 与 $B$ 不一定与对角阵相似，且相似矩阵有相同的特征值，但不一定有相同的特征向量。",
+  "sort_order": 22
+}

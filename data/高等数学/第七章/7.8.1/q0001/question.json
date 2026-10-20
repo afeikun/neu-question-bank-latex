@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $z=2x^2+2y^2+3xy+ax+by+c$ 在 $(-2,3)$ 取极小值 $-3$，求 $abc$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "30"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "20"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "10"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "因为：\n\n$$\\left\\{\\begin{aligned}z_x&=4x+3y+a\\\\z_y&=4y+3x+b\\end{aligned}\\right.$$\n\n由题意知函数在点 $(-2,3)$ 处取得极小值，则：\n\n$$\\left\\{\\begin{aligned}4\\cdot(-2)+3\\cdot3+a&=0\\\\3\\cdot(-2)+4\\cdot3+b&=0\\end{aligned}\\right.$$ \n\n得到：$a=1,b=-6$，把 $a,b$ 值代入原函数，由函数在点 $(-2,3)$ 处取得极小值 $-3$ 可得：\n\n$$2\\cdot(-2)^2+2\\cdot3^2+3\\cdot(-2)\\cdot3+(-1)\\cdot(-2)+(-6)\\cdot3+c=-3,$$ 则 $c=5$，得到：$abc=30$。",
+  "search_text": "若 $z=2x^2+2y^2+3xy+ax+by+c$ 在 $(-2,3)$ 取极小值 $-3$，求 $abc$。 30 0 20 10 因为：\n\n$$\\left\\{\\begin{aligned}z_x&=4x+3y+a\\\\z_y&=4y+3x+b\\end{aligned}\\right.$$\n\n由题意知函数在点 $(-2,3)$ 处取得极小值，则：\n\n$$\\left\\{\\begin{aligned}4\\cdot(-2)+3\\cdot3+a&=0\\\\3\\cdot(-2)+4\\cdot3+b&=0\\end{aligned}\\right.$$ \n\n得到：$a=1,b=-6$，把 $a,b$ 值代入原函数，由函数在点 $(-2,3)$ 处取得极小值 $-3$ 可得：\n\n$$2\\cdot(-2)^2+2\\cdot3^2+3\\cdot(-2)\\cdot3+(-1)\\cdot(-2)+(-6)\\cdot3+c=-3,$$ 则 $c=5$，得到：$abc=30$。",
+  "sort_order": 1
+}

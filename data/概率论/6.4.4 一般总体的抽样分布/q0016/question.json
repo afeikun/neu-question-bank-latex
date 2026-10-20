@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "总体$X$在$[a,b]$上均匀分布，$Y=\\max\\{X_1,\\ldots,X_n\\}$的密度为（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{n(x-a)^{n-1}}{(b-a)^n}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{2n(x-a)^{n-1}}{(b-a)^n}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{2n(x-a)^n}{(b-a)^n}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{n(x-a)^n}{(b-a)^n}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "最大值的分布函数在 $a\\le x\\le b$ 时为 $F_Y(x)=((x-a)/(b-a))^n$。求导得 $f_Y(x)=n(x-a)^{n-1}/(b-a)^n$（$a<x<b$），支持集外为0，故选第一项。",
+  "search_text": "总体$X$在$[a,b]$上均匀分布，$Y=\\max\\{X_1,\\ldots,X_n\\}$的密度为（）。 $\\frac{n(x-a)^{n-1}}{(b-a)^n}$ $\\frac{2n(x-a)^{n-1}}{(b-a)^n}$ $\\frac{2n(x-a)^n}{(b-a)^n}$ $\\frac{n(x-a)^n}{(b-a)^n}$ 最大值的分布函数在 $a\\le x\\le b$ 时为 $F_Y(x)=((x-a)/(b-a))^n$。求导得 $f_Y(x)=n(x-a)^{n-1}/(b-a)^n$（$a<x<b$），支持集外为0，故选第一项。",
+  "sort_order": 16
+}

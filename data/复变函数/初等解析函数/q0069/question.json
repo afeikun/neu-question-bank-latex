@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Ln}(\\sqrt3+i)^{-1}=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\ln2+(2k-\\frac16)\\pi i$（$k$ 为整数）"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\ln2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2k-\\frac13)\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\ln2-\\frac\\pi3i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "倒数的对数由模 $2$ 和幅角 $\\pi/6+2k\\pi$ 求得。",
+  "search_text": "$\\operatorname{Ln}(\\sqrt3+i)^{-1}=(\\ )$。 $-\\ln2+(2k-\\frac16)\\pi i$（$k$ 为整数） $-\\ln2$ $(2k-\\frac13)\\pi i$ $-\\ln2-\\frac\\pi3i$ 倒数的对数由模 $2$ 和幅角 $\\pi/6+2k\\pi$ 求得。",
+  "sort_order": 69
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=2}^{\\infty}\\frac{i^n}{\\ln n}$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "收敛但非绝对收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "绝对收敛但非收敛"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分解实虚部，实部是交错级数收敛，虚部是交错级数收敛；但模级数为 $\\sum_{n=2}^{\\infty}1/\\ln n$ 发散，故条件收敛。",
+  "search_text": "级数 $\\sum_{n=2}^{\\infty}\\frac{i^n}{\\ln n}$（ ） 收敛但非绝对收敛 发散 绝对收敛但非收敛 绝对收敛 分解实虚部，实部是交错级数收敛，虚部是交错级数收敛；但模级数为 $\\sum_{n=2}^{\\infty}1/\\ln n$ 发散，故条件收敛。",
+  "sort_order": 14
+}

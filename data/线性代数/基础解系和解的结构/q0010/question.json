@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "线性方程组 $AX=0$ 的解空间由向量组 $\\alpha_1=(1,-1,1,0)^T,\\ \\alpha_2=(1,1,0,1)^T,\\ \\alpha_3=(2,0,1,1)^T$ 所生成，则 $A=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&-1&1&-1\\\\1&1&1&0\\\\1&-1&-1&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&-1&-1&0\\\\1&1&-1&1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(2,1,0,-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&0&-1&-1\\\\0&1&1&-1\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$\\alpha_3=\\alpha_1+\\alpha_2$，所以解空间维数为 $2$，且 $\\alpha_1,\\alpha_2$ 是一组基。齐次方程的系数矩阵各行需与这两个基向量正交，只有选项 4 满足。",
+  "search_text": "线性方程组 $AX=0$ 的解空间由向量组 $\\alpha_1=(1,-1,1,0)^T,\\ \\alpha_2=(1,1,0,1)^T,\\ \\alpha_3=(2,0,1,1)^T$ 所生成，则 $A=$（ ）。 $\\begin{pmatrix}1&-1&1&-1\\\\1&1&1&0\\\\1&-1&-1&1\\end{pmatrix}$ $\\begin{pmatrix}1&-1&-1&0\\\\1&1&-1&1\\end{pmatrix}$ $(2,1,0,-1)$ $\\begin{pmatrix}1&0&-1&-1\\\\0&1&1&-1\\end{pmatrix}$ $\\alpha_3=\\alpha_1+\\alpha_2$，所以解空间维数为 $2$，且 $\\alpha_1,\\alpha_2$ 是一组基。齐次方程的系数矩阵各行需与这两个基向量正交，只有选项 4 满足。",
+  "sort_order": 10
+}

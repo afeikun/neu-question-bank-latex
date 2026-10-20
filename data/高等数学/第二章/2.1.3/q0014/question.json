@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "抛物线 $y=ax^2+bx+c$ 上具有水平切线的点是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\frac{b-ac}{2a},\\frac{4ac-b^2}{4})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-\\frac{b+ac}{2a},\\frac{4ac-b^2}{4})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-\\frac b2,\\frac{4ac-b^2}{4a})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\frac b{2a},\\frac{4ac-b^2}{4a})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "水平切线处 $2ax+b=0$，代入函数值得顶点 $(-b/(2a),(4ac-b^2)/(4a))$。",
+  "search_text": "抛物线 $y=ax^2+bx+c$ 上具有水平切线的点是（ ）。 $(-\\frac{b-ac}{2a},\\frac{4ac-b^2}{4})$ $(-\\frac{b+ac}{2a},\\frac{4ac-b^2}{4})$ $(-\\frac b2,\\frac{4ac-b^2}{4a})$ $(-\\frac b{2a},\\frac{4ac-b^2}{4a})$ 水平切线处 $2ax+b=0$，代入函数值得顶点 $(-b/(2a),(4ac-b^2)/(4a))$。",
+  "sort_order": 14
+}

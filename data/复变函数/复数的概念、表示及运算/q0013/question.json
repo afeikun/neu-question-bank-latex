@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $z=\\dfrac{2+i}{1-i}$，则 $\\operatorname{Arg}z=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2k\\pi+\\arctan3,\\quad k=0,\\pm1,\\pm2,\\ldots$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2k\\pi-\\arctan3,\\quad k=0,\\pm1,\\pm2,\\ldots$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2k\\pi+\\arctan2,\\quad k=0,\\pm1,\\pm2,\\ldots$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2k\\pi-\\arctan2,\\quad k=0,\\pm1,\\pm2,\\ldots$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$z=\\dfrac{2+i}{1-i}=\\dfrac{(2+i)(1+i)}{(1-i)(1+i)}=\\dfrac12+\\dfrac32i$。",
+  "search_text": "已知 $z=\\dfrac{2+i}{1-i}$，则 $\\operatorname{Arg}z=(\\quad)$。 $2k\\pi+\\arctan3,\\quad k=0,\\pm1,\\pm2,\\ldots$ $2k\\pi-\\arctan3,\\quad k=0,\\pm1,\\pm2,\\ldots$ $2k\\pi+\\arctan2,\\quad k=0,\\pm1,\\pm2,\\ldots$ $2k\\pi-\\arctan2,\\quad k=0,\\pm1,\\pm2,\\ldots$ $z=\\dfrac{2+i}{1-i}=\\dfrac{(2+i)(1+i)}{(1-i)(1+i)}=\\dfrac12+\\dfrac32i$。",
+  "sort_order": 13
+}

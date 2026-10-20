@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$取值$0,1,2$，概率$0.3,0.5,0.2$，求$F(1.5)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.7$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F(1.5)=0.3+0.5=0.8$。",
+  "search_text": "$X$取值$0,1,2$，概率$0.3,0.5,0.2$，求$F(1.5)$。 $0.8$ $0.5$ $0.7$ $0.3$ $F(1.5)=0.3+0.5=0.8$。",
+  "sort_order": 21
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由 $\\sin y+xy=0$ 确定反函数 $x=x(y)$，求 $\\frac{dx}{dy}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{x-\\cos y}{y}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{x-\\cos y}{y}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{x+\\cos y}{y}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac{x+\\cos y}{y}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 方程的自变量看成是$y$，两边同时对$y$求导可得\n$\\cos y+x+yx'=0$，则有$x'=-\\frac{x+\\cos y}{y}$",
+  "search_text": "由 $\\sin y+xy=0$ 确定反函数 $x=x(y)$，求 $\\frac{dx}{dy}$。 $-\\frac{x-\\cos y}{y}$ $\\frac{x-\\cos y}{y}$ $\\frac{x+\\cos y}{y}$ $-\\frac{x+\\cos y}{y}$ 解答 方程的自变量看成是$y$，两边同时对$y$求导可得\n$\\cos y+x+yx'=0$，则有$x'=-\\frac{x+\\cos y}{y}$",
+  "sort_order": 18
+}

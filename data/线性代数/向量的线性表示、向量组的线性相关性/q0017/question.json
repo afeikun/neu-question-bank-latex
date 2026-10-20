@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $\\alpha_1=\\begin{pmatrix}a\\\\a\\\\a\\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix}a-1\\\\a\\\\a-1\\end{pmatrix},\\ \\alpha_3=\\begin{pmatrix}1\\\\1\\\\a-1\\end{pmatrix},\\ \\beta=\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}$。若 $\\beta$ 可以由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表示，但表示式不唯一，则 $a$ 的值为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=0$ 或 $a=2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a\\ne0$ 且 $a\\ne2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "将系数方程组增广消元可见，只有 $a=2$ 时方程组有无穷多解，即表示存在且不唯一。",
+  "search_text": "设 $\\alpha_1=\\begin{pmatrix}a\\\\a\\\\a\\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix}a-1\\\\a\\\\a-1\\end{pmatrix},\\ \\alpha_3=\\begin{pmatrix}1\\\\1\\\\a-1\\end{pmatrix},\\ \\beta=\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}$。若 $\\beta$ 可以由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表示，但表示式不唯一，则 $a$ 的值为（ ）。 $a=0$ 或 $a=2$ $a\\ne0$ 且 $a\\ne2$ $a=2$ $a=0$ 将系数方程组增广消元可见，只有 $a=2$ 时方程组有无穷多解，即表示存在且不唯一。",
+  "sort_order": 17
+}

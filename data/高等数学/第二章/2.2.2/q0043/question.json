@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$d\\sin\\sqrt{\\cos x}=(\\quad)d\\cos x$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$\\cos(1/(2\\sqrt{\\cos x}))$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$\\cos\\sqrt{\\cos x}/\\sqrt{\\cos x}$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$\\cos\\sqrt{\\cos x}/(2\\sqrt{\\cos x})$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$\\cos\\sqrt{\\cos x}\\cdot2/\\sqrt{\\cos x}$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $t=\\cos x$，则 $d\\sin\\sqrt t=\\cos\\sqrt t\\,dt/(2\\sqrt t)$。",
+  "search_text": "$d\\sin\\sqrt{\\cos x}=(\\quad)d\\cos x$。 $$\\cos(1/(2\\sqrt{\\cos x}))$$ $$\\cos\\sqrt{\\cos x}/\\sqrt{\\cos x}$$ $$\\cos\\sqrt{\\cos x}/(2\\sqrt{\\cos x})$$ $$\\cos\\sqrt{\\cos x}\\cdot2/\\sqrt{\\cos x}$$ 令 $t=\\cos x$，则 $d\\sin\\sqrt t=\\cos\\sqrt t\\,dt/(2\\sqrt t)$。",
+  "sort_order": 43
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$E(X)=\\mu,D(X)=\\sigma^2$，求$P(|X-\\mu|<k\\sigma)$下界。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-1/k^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sigma^2/k^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-\\sigma^2/k^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/k^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "切比雪夫给出概率至少$1-1/k^2$。",
+  "search_text": "$E(X)=\\mu,D(X)=\\sigma^2$，求$P(|X-\\mu|<k\\sigma)$下界。 $1-1/k^2$ $\\sigma^2/k^2$ $1-\\sigma^2/k^2$ $1/k^2$ 切比雪夫给出概率至少$1-1/k^2$。",
+  "sort_order": 20
+}

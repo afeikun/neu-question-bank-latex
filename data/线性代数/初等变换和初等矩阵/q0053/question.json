@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A=(a_{ij})_{3\\times3}$，$B=\\begin{bmatrix}a_{11}+2a_{31}&a_{13}+2a_{33}&a_{12}+2a_{32}\\\\a_{21}&a_{23}&a_{22}\\\\a_{31}&a_{33}&a_{32}\\end{bmatrix}$，若 $A^{-1}=\\begin{bmatrix}1&0&-2\\\\2&1&-2\\\\4&4&-4\\end{bmatrix}$，则 $B^{-1}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{bmatrix}1&0&-2\\\\4&1&-2\\\\2&4&-4\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{bmatrix}1&0&-2\\\\2&5&-2\\\\4&3&-4\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{bmatrix}1&3&0\\\\0&2&1\\\\1&6&2\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{bmatrix}1&0&-2\\\\4&5&-2\\\\2&3&-4\\end{bmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "按图中所示的行列变换写成 $B=PAQ$，再用 $B^{-1}=Q^{-1}A^{-1}P^{-1}$，结果为选项 4。",
+  "search_text": "已知 $A=(a_{ij})_{3\\times3}$，$B=\\begin{bmatrix}a_{11}+2a_{31}&a_{13}+2a_{33}&a_{12}+2a_{32}\\\\a_{21}&a_{23}&a_{22}\\\\a_{31}&a_{33}&a_{32}\\end{bmatrix}$，若 $A^{-1}=\\begin{bmatrix}1&0&-2\\\\2&1&-2\\\\4&4&-4\\end{bmatrix}$，则 $B^{-1}=(\\quad)$。 $\\begin{bmatrix}1&0&-2\\\\4&1&-2\\\\2&4&-4\\end{bmatrix}$ $\\begin{bmatrix}1&0&-2\\\\2&5&-2\\\\4&3&-4\\end{bmatrix}$ $\\begin{bmatrix}1&3&0\\\\0&2&1\\\\1&6&2\\end{bmatrix}$ $\\begin{bmatrix}1&0&-2\\\\4&5&-2\\\\2&3&-4\\end{bmatrix}$ 按图中所示的行列变换写成 $B=PAQ$，再用 $B^{-1}=Q^{-1}A^{-1}P^{-1}$，结果为选项 4。",
+  "sort_order": 53
+}

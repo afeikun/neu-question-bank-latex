@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}(-1)^n(n-1)/(n+1)\\cdot1/\\sqrt[100]n$ 如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "条件收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "敛散性不确定"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "绝对收敛"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "可拆为两个交错幂级数；绝对值级数发散而原级数满足交错判别，条件收敛。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}(-1)^n(n-1)/(n+1)\\cdot1/\\sqrt[100]n$ 如何？ 条件收敛 敛散性不确定 发散 绝对收敛 可拆为两个交错幂级数；绝对值级数发散而原级数满足交错判别，条件收敛。",
+  "sort_order": 36
+}

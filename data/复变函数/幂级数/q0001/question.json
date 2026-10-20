@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n!}z^n$ 的收敛半径 $R=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "比值极限 $|c_{n+1}/c_n|=1/(n+1)\\to0$，故收敛半径 $R=\\infty$。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n!}z^n$ 的收敛半径 $R=(\\quad)$。 $\\infty$ $2$ $0$ $1$ 比值极限 $|c_{n+1}/c_n|=1/(n+1)\\to0$，故收敛半径 $R=\\infty$。",
+  "sort_order": 1
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\bar x=14.75,\\sum(x_i-\\bar x)^2=53.5,n=16$，检验$\\mu=15$的t统计量观测值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-0.53$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.50$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-0.50$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.53$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$t=(14.75-15)/\\sqrt{(53.5/15)/16}\\approx-0.53$。",
+  "search_text": "$\\bar x=14.75,\\sum(x_i-\\bar x)^2=53.5,n=16$，检验$\\mu=15$的t统计量观测值。 $-0.53$ $0.50$ $-0.50$ $0.53$ $t=(14.75-15)/\\sqrt{(53.5/15)/16}\\approx-0.53$。",
+  "sort_order": 19
+}

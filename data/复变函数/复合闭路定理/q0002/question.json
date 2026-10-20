@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\frac1{2\\pi i}\\oint_C\\frac{\\sinh z}{\\sin^3z}\\,dz=(\\quad)$，$C$ 由 $|z|=2$ 正向圆与 $|z|=3$ 负向圆组成。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "两圆上的积分相等而方向相反，复合闭路积分为 $0$。",
+  "search_text": "$\\frac1{2\\pi i}\\oint_C\\frac{\\sinh z}{\\sin^3z}\\,dz=(\\quad)$，$C$ 由 $|z|=2$ 正向圆与 $|z|=3$ 负向圆组成。 $0$ $2\\pi i$ $\\pi i$ $-\\pi i$ 两圆上的积分相等而方向相反，复合闭路积分为 $0$。",
+  "sort_order": 2
+}

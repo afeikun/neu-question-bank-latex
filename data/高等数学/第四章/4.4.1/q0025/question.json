@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₀^{ln2}√(1+eˣ)dx",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2√3−2√2"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "2√3"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "2√3−2√2+ln((2−√3)/(3−2√2))"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2√2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令t=√(1+eˣ)，将积分化为∫_{√2}^{√3}2t²/(t²−1)dt，结果为选项3。",
+  "search_text": "计算∫₀^{ln2}√(1+eˣ)dx 2√3−2√2 2√3 2√3−2√2+ln((2−√3)/(3−2√2)) 2√2 令t=√(1+eˣ)，将积分化为∫_{√2}^{√3}2t²/(t²−1)dt，结果为选项3。",
+  "sort_order": 25
+}

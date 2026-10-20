@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "解析函数 $f(z)=u+iv$，其中 $u+v=x^2-y^2+2xy-5x-5y$，则 $f(z)=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z^2-5z+(1-i)C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z^2+5z+(1-i)C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\bar z^2+5z+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\bar z^2-5z+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $u_x+v_x=2x+2y-5$，$u_y+v_y=-2y+2x-5$，再联立 $u_x=v_y$、$u_y=-v_x$，积分可得 $u=x^2-5x-y^2+c_0$，$v=2xy-5y-c_0$，所以 $f(z)=z^2-5z+(1-i)c_0$。",
+  "search_text": "解析函数 $f(z)=u+iv$，其中 $u+v=x^2-y^2+2xy-5x-5y$，则 $f(z)=(\\quad)$。 $z^2-5z+(1-i)C$ $z^2+5z+(1-i)C$ $\\bar z^2+5z+C$ $\\bar z^2-5z+C$ 令 $u_x+v_x=2x+2y-5$，$u_y+v_y=-2y+2x-5$，再联立 $u_x=v_y$、$u_y=-v_x$，积分可得 $u=x^2-5x-y^2+c_0$，$v=2xy-5y-c_0$，所以 $f(z)=z^2-5z+(1-i)c_0$。",
+  "sort_order": 2
+}

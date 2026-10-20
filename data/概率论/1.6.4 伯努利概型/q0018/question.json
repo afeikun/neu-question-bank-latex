@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "独立重复5次试验，事件$A$每次发生概率$p$，至少发生一次的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-(1-p)^5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$p^5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1-p^5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1-p)^5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "补事件为五次均不发生，概率$(1-p)^5$，故所求为$1-(1-p)^5$。",
+  "search_text": "独立重复5次试验，事件$A$每次发生概率$p$，至少发生一次的概率为（ ）。 $1-(1-p)^5$ $p^5$ $1-p^5$ $(1-p)^5$ 补事件为五次均不发生，概率$(1-p)^5$，故所求为$1-(1-p)^5$。",
+  "sort_order": 18
+}

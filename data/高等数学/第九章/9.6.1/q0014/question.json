@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设椭圆 $L:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$，则 $\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "与 $L$ 取向无关，与 $a,b$ 大小无关"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "与 $L$ 取向有关，与 $a,b$ 大小无关"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "与 $L$ 取向有关，与 $a,b$ 大小有关"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "与 $L$ 取向无关，与 $a,b$ 大小有关"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "设 $L$ 所围成的闭区域为 $D$，令 $P=\\frac{-y}{x^2+y^2},\\quad Q=\\frac{x}{x^2+y^2},$\n\n则当 $x^2+y^2\\ne 0$ 时，有\n\n$$\\frac{\\partial Q}{\\partial x}=\\frac{y^2-x^2}{(x^2+y^2)^2}=\\frac{\\partial P}{\\partial y}$$\n\n因为 $L:\\ \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ 围住了原点，作位于 $D$ 内圆周 $l:\\ x^2+y^2=r^2$，记 $D_1$ 由 $L$ 和 $l$ 所围成，应用格林公式，\n\n得 $\\displaystyle\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}-\\oint_l\\frac{x\\,dy-y\\,dx}{x^2+y^2}=0$，故\n\n$$\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}=\\oint_l\\frac{x\\,dy-y\\,dx}{x^2+y^2}$$",
+  "search_text": "设椭圆 $L:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$，则 $\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}$（ ） 与 $L$ 取向无关，与 $a,b$ 大小无关 与 $L$ 取向有关，与 $a,b$ 大小无关 与 $L$ 取向有关，与 $a,b$ 大小有关 与 $L$ 取向无关，与 $a,b$ 大小有关 设 $L$ 所围成的闭区域为 $D$，令 $P=\\frac{-y}{x^2+y^2},\\quad Q=\\frac{x}{x^2+y^2},$\n\n则当 $x^2+y^2\\ne 0$ 时，有\n\n$$\\frac{\\partial Q}{\\partial x}=\\frac{y^2-x^2}{(x^2+y^2)^2}=\\frac{\\partial P}{\\partial y}$$\n\n因为 $L:\\ \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ 围住了原点，作位于 $D$ 内圆周 $l:\\ x^2+y^2=r^2$，记 $D_1$ 由 $L$ 和 $l$ 所围成，应用格林公式，\n\n得 $\\displaystyle\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}-\\oint_l\\frac{x\\,dy-y\\,dx}{x^2+y^2}=0$，故\n\n$$\\oint_L\\frac{x\\,dy-y\\,dx}{x^2+y^2}=\\oint_l\\frac{x\\,dy-y\\,dx}{x^2+y^2}$$",
+  "sort_order": 14
+}

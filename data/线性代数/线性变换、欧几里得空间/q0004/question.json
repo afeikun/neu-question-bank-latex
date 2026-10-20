@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在线性空间 $\\mathbb{R}[x]_3$ 中求微分的线性变换 $D$ 在基 $\\alpha_1=1+x$，$\\alpha_2=x+x^2$，$\\alpha_3=x^2$ 下的矩阵为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{pmatrix}1&1&0\\\\0&2&2\\\\0&0&0\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{pmatrix}1&1&0\\\\-1&1&2\\\\1&-1&-2\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{pmatrix}1&1&0\\\\-1&1&1\\\\1&1&-1\\end{pmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{pmatrix}1&1&0\\\\1&2&1\\\\1&0&2\\end{pmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "有 $D(\\alpha_1)=1=\\alpha_1-\\alpha_2+\\alpha_3$，$D(\\alpha_2)=1+2x=\\alpha_1+\\alpha_2-\\alpha_3$，$D(\\alpha_3)=2x=2\\alpha_2-2\\alpha_3$，故矩阵为 $\\begin{pmatrix}1&1&0\\\\-1&1&2\\\\1&-1&-2\\end{pmatrix}$。",
+  "search_text": "在线性空间 $\\mathbb{R}[x]_3$ 中求微分的线性变换 $D$ 在基 $\\alpha_1=1+x$，$\\alpha_2=x+x^2$，$\\alpha_3=x^2$ 下的矩阵为（ ）。 $\\begin{pmatrix}1&1&0\\\\0&2&2\\\\0&0&0\\end{pmatrix}$ $\\begin{pmatrix}1&1&0\\\\-1&1&2\\\\1&-1&-2\\end{pmatrix}$ $\\begin{pmatrix}1&1&0\\\\-1&1&1\\\\1&1&-1\\end{pmatrix}$ $\\begin{pmatrix}1&1&0\\\\1&2&1\\\\1&0&2\\end{pmatrix}$ 有 $D(\\alpha_1)=1=\\alpha_1-\\alpha_2+\\alpha_3$，$D(\\alpha_2)=1+2x=\\alpha_1+\\alpha_2-\\alpha_3$，$D(\\alpha_3)=2x=2\\alpha_2-2\\alpha_3$，故矩阵为 $\\begin{pmatrix}1&1&0\\\\-1&1&2\\\\1&-1&-2\\end{pmatrix}$。",
+  "sort_order": 4
+}

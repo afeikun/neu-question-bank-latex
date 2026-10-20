@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为圆周 $|z|=2$，方向为正向，则积分 $\\oint_C\\frac{z^3+3z+1}{z^4-5z^2}\\,dz$ 等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\frac{6\\pi i}{5}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$10\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{3\\pi}{5}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数在圆内只有奇点 $0$，用Cauchy导数公式得 $-6\\pi i/5$。",
+  "search_text": "设 $C$ 为圆周 $|z|=2$，方向为正向，则积分 $\\oint_C\\frac{z^3+3z+1}{z^4-5z^2}\\,dz$ 等于（ ）。 $-\\frac{6\\pi i}{5}$ $10\\pi i$ $0$ $\\frac{3\\pi}{5}$ 被积函数在圆内只有奇点 $0$，用Cauchy导数公式得 $-6\\pi i/5$。",
+  "sort_order": 61
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 为球面 $x^2+y^2+z^2=a^2$ 的外侧，则计算 $\\oiint_\\Sigma zdxdy=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac43\\pi a^3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "[图：球面示意图，标注 $z,y,x,O,\\Sigma_1,\\Sigma_2,\\vec{n},-\\vec{n}$。]\n\n解答 如图，$\\Sigma$ 分为两部分 $\\Sigma_1:z=\\sqrt{a^2-x^2-y^2},\\quad\\Sigma_2:z=-\\sqrt{a^2-x^2-y^2}$，$\\Sigma$ 在 $xoy$ 面内的投影\n\n$$D_{xy}:x^2+y^2\\le a^2。$$所以\n\n$$\\oiint_\\Sigma zdxdy=\\oiint_{\\Sigma_1}zdxdy+\\oiint_{\\Sigma_2}zdxdy=\\iint_{D_{xy}}\\sqrt{a^2-x^2-y^2}\\,dxdy-\\iint_{D_{xy}}\\sqrt{a^2-x^2-y^2}\\,dxdy$$\n\n$$=2\\iint_{D_{xy}}\\sqrt{a^2-x^2-y^2}\\,dxdy\\quad\\text{（几何意义）}\\quad\\frac{4}{3}\\pi a^3。$$",
+  "search_text": "已知 $\\Sigma$ 为球面 $x^2+y^2+z^2=a^2$ 的外侧，则计算 $\\oiint_\\Sigma zdxdy=$（ ） $3\\pi a^3$ $\\frac43\\pi a^3$ $\\pi a^3$ $2\\pi a^3$ [图：球面示意图，标注 $z,y,x,O,\\Sigma_1,\\Sigma_2,\\vec{n},-\\vec{n}$。]\n\n解答 如图，$\\Sigma$ 分为两部分 $\\Sigma_1:z=\\sqrt{a^2-x^2-y^2},\\quad\\Sigma_2:z=-\\sqrt{a^2-x^2-y^2}$，$\\Sigma$ 在 $xoy$ 面内的投影\n\n$$D_{xy}:x^2+y^2\\le a^2。$$所以\n\n$$\\oiint_\\Sigma zdxdy=\\oiint_{\\Sigma_1}zdxdy+\\oiint_{\\Sigma_2}zdxdy=\\iint_{D_{xy}}\\sqrt{a^2-x^2-y^2}\\,dxdy-\\iint_{D_{xy}}\\sqrt{a^2-x^2-y^2}\\,dxdy$$\n\n$$=2\\iint_{D_{xy}}\\sqrt{a^2-x^2-y^2}\\,dxdy\\quad\\text{（几何意义）}\\quad\\frac{4}{3}\\pi a^3。$$",
+  "sort_order": 19
+}

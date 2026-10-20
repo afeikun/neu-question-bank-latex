@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "求 $\\left|(\\sqrt3+\\sqrt2i)^2\\left(\\frac{4-i}{4i-1}\\right)^3\\right|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$25$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|\\sqrt3+\\sqrt2i|=\\sqrt5$，且分式模为 $1$，结果为 $5$。",
+  "search_text": "求 $\\left|(\\sqrt3+\\sqrt2i)^2\\left(\\frac{4-i}{4i-1}\\right)^3\\right|=(\\quad)$。 $5$ $25$ $2$ $4$ $|\\sqrt3+\\sqrt2i|=\\sqrt5$，且分式模为 $1$，结果为 $5$。",
+  "sort_order": 22
+}

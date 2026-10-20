@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "判断函数 $f(x)=x^2e^{-x^2}$ 的奇偶性（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "偶函数"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "以上说法都不对"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "非奇非偶函数"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "奇函数"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$f(-x)=(-x)^2e^{-(-x)^2}=x^2e^{-x^2}=f(x)$，所以 $f$ 是偶函数。",
+  "search_text": "判断函数 $f(x)=x^2e^{-x^2}$ 的奇偶性（ ）。 偶函数 以上说法都不对 非奇非偶函数 奇函数 $f(-x)=(-x)^2e^{-(-x)^2}=x^2e^{-x^2}=f(x)$，所以 $f$ 是偶函数。",
+  "sort_order": 40
+}

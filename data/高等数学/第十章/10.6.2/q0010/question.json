@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime-3y\\prime=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{3x}+C_2e^{2x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1+C_2e^{3x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1+C_2e^{3x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{3x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 特征方程 $\\lambda^2-3\\lambda=0$，特征根为 $\\lambda_1=0,\\lambda_2=3$，\n\n故方程的通解为 $y=C_1e^0+C_2e^{3x}=C_1+C_2e^{3x}$。\n\n因此选 A。",
+  "search_text": "微分方程 $y\\prime\\prime-3y\\prime=0$ 的通解为（ ） $y=C_1e^{3x}+C_2e^{2x}$ $y=C_1+C_2e^{3x}$ $y=C_1+C_2e^{3x}$ $y=C_1e^{3x}$ 解答 特征方程 $\\lambda^2-3\\lambda=0$，特征根为 $\\lambda_1=0,\\lambda_2=3$，\n\n故方程的通解为 $y=C_1e^0+C_2e^{3x}=C_1+C_2e^{3x}$。\n\n因此选 A。",
+  "sort_order": 10
+}

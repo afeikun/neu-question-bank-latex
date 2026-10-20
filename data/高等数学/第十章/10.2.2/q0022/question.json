@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $\\frac{dx}{x^2-xy+y^2}=\\frac{dy}{2y^2-xy}$ 的解是（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x^2+xy+y^3=cx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(y-x)^2=c\\ln(x+y)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(y-x)^2=cy(y-2x)^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(x+y)^3=2(y-x)^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "方程化为 $\\frac{dy}{dx}=\\frac{2(\\frac{y}{x})^2-\\frac{y}{x}}{1-\\frac{y}{x}+(\\frac{y}{x})^2}$\n\n设 $u=\\frac{y}{x}$，有 $y'=u+xu'$\n\n$\\left(\\frac{1}{u-1}-\\frac{3}{2u-2}-\\frac{1}{2u}\\right)du=\\frac{dx}{x}$\n\n则\n\n积分得 $\\frac{u-1}{\\sqrt{u}(u-2)^{\\frac{3}{2}}}=cx$，代入 $u=\\frac{y}{x}$ 得",
+  "search_text": "微分方程 $\\frac{dx}{x^2-xy+y^2}=\\frac{dy}{2y^2-xy}$ 的解是（ ） $x^2+xy+y^3=cx$ $(y-x)^2=c\\ln(x+y)$ $(y-x)^2=cy(y-2x)^3$ $(x+y)^3=2(y-x)^3$ 方程化为 $\\frac{dy}{dx}=\\frac{2(\\frac{y}{x})^2-\\frac{y}{x}}{1-\\frac{y}{x}+(\\frac{y}{x})^2}$\n\n设 $u=\\frac{y}{x}$，有 $y'=u+xu'$\n\n$\\left(\\frac{1}{u-1}-\\frac{3}{2u-2}-\\frac{1}{2u}\\right)du=\\frac{dx}{x}$\n\n则\n\n积分得 $\\frac{u-1}{\\sqrt{u}(u-2)^{\\frac{3}{2}}}=cx$，代入 $u=\\frac{y}{x}$ 得",
+  "sort_order": 22
+}

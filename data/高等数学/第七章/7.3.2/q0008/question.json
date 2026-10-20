@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由方程 $xyz+\\sqrt{x^2+y^2+z^2}=\\sqrt2$ 确定 $z=z(x,y)$，在点 $(1,0,-1)$ 处全微分 $dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\sqrt3dx-\\sqrt2dy$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$dx-\\sqrt2dy$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2dx+dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-dx+\\sqrt2dy$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由于$yz+xyz_x+\\frac{1}{2}(2x+2zz_x)\\frac{1}{\\sqrt{x^2+y^2+z^2}}=0,\\quad \\left.z_x\\right|_{(1,0,-1)}=1,$\n\n$xz+xyz_y+\\frac{1}{2}(2y+2zz_y)\\frac{1}{\\sqrt{x^2+y^2+z^2}}=0,\\quad \\left.z_y\\right|_{(1,0,-1)}=-\\sqrt{2},$\n\n所以$dz=dx-\\sqrt{2}dy.$",
+  "search_text": "由方程 $xyz+\\sqrt{x^2+y^2+z^2}=\\sqrt2$ 确定 $z=z(x,y)$，在点 $(1,0,-1)$ 处全微分 $dz=(\\quad)$。 $-\\sqrt3dx-\\sqrt2dy$ $dx-\\sqrt2dy$ $2dx+dy$ $-dx+\\sqrt2dy$ 由于$yz+xyz_x+\\frac{1}{2}(2x+2zz_x)\\frac{1}{\\sqrt{x^2+y^2+z^2}}=0,\\quad \\left.z_x\\right|_{(1,0,-1)}=1,$\n\n$xz+xyz_y+\\frac{1}{2}(2y+2zz_y)\\frac{1}{\\sqrt{x^2+y^2+z^2}}=0,\\quad \\left.z_y\\right|_{(1,0,-1)}=-\\sqrt{2},$\n\n所以$dz=dx-\\sqrt{2}dy.$",
+  "sort_order": 8
+}

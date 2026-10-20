@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\operatorname{Re}\\dfrac{2}{1-3i}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac15$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\dfrac15$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac35$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\dfrac{2}{1-3i}=\\dfrac{2(1+3i)}{(1-3i)(1+3i)}=\\dfrac{2(1+3i)}{10}$。",
+  "search_text": "$\\operatorname{Re}\\dfrac{2}{1-3i}=(\\quad)$。 $\\dfrac15$ $1$ $-\\dfrac15$ $\\dfrac35$ $\\dfrac{2}{1-3i}=\\dfrac{2(1+3i)}{(1-3i)(1+3i)}=\\dfrac{2(1+3i)}{10}$。",
+  "sort_order": 10
+}

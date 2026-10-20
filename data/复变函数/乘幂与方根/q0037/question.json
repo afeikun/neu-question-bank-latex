@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\left|(\\sqrt3+i)^2\\left(\\dfrac{3-i}{3i-1}\\right)^3\\right|=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$|\\sqrt3+i|=2$ 且 $|3-i|=|3i-1|$，结果为 $4$。",
+  "search_text": "$\\left|(\\sqrt3+i)^2\\left(\\dfrac{3-i}{3i-1}\\right)^3\\right|=(\\quad)$。 $4$ $1$ $2$ $3$ $|\\sqrt3+i|=2$ 且 $|3-i|=|3i-1|$，结果为 $4$。",
+  "sort_order": 37
+}

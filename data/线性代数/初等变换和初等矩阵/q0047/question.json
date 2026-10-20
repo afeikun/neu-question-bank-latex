@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设矩阵 $A=\\begin{bmatrix}1&2&3&4\\\\2&3&4&5\\\\5&4&3&2\\end{bmatrix}$，则使矩阵 $A$ 化为行最简形矩阵 $PA$ 的可逆矩阵 $P$ 为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\begin{bmatrix}-3&2&0\\\\2&-1&0\\\\7&-6&1\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\begin{bmatrix}-3&2&0\\\\2&-1&0\\\\-5&0&1\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\begin{bmatrix}-3&2&0\\\\-2&1&0\\\\7&-6&1\\end{bmatrix}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\begin{bmatrix}1&0&0\\\\2&-1&0\\\\7&-6&1\\end{bmatrix}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "按图中增广矩阵行变换的初等矩阵连乘，得到选项 1。",
+  "search_text": "设矩阵 $A=\\begin{bmatrix}1&2&3&4\\\\2&3&4&5\\\\5&4&3&2\\end{bmatrix}$，则使矩阵 $A$ 化为行最简形矩阵 $PA$ 的可逆矩阵 $P$ 为(\\quad)。 $\\begin{bmatrix}-3&2&0\\\\2&-1&0\\\\7&-6&1\\end{bmatrix}$ $\\begin{bmatrix}-3&2&0\\\\2&-1&0\\\\-5&0&1\\end{bmatrix}$ $\\begin{bmatrix}-3&2&0\\\\-2&1&0\\\\7&-6&1\\end{bmatrix}$ $\\begin{bmatrix}1&0&0\\\\2&-1&0\\\\7&-6&1\\end{bmatrix}$ 按图中增广矩阵行变换的初等矩阵连乘，得到选项 1。",
+  "sort_order": 47
+}

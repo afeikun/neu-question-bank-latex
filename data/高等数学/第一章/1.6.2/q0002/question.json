@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\lim_{x\\to\\infty}(\\frac{3+x}{2+x})^{2x}=[\\quad]$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在但非 $\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "题解推导的极限为 $e^2$，但 DOM 标记选项为 $e^{-2}$，保留页面答案并记源题疑误。",
+  "search_text": "$\\lim_{x\\to\\infty}(\\frac{3+x}{2+x})^{2x}=[\\quad]$。 不存在但非 $\\infty$ $e$ 1 $e^{-2}$ 题解推导的极限为 $e^2$，但 DOM 标记选项为 $e^{-2}$，保留页面答案并记源题疑误。",
+  "sort_order": 2
+}

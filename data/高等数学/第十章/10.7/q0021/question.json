@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "小阻尼自由振动方程 $x^{\\prime\\prime}+2\\nu x^\\prime+\\omega^2x=0$（$\\nu<\\omega$），求通解。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$x=e^{-\\nu t}(C_1\\cos\\sqrt{\\omega^2-\\nu^2}t+C_2\\sin\\sqrt{\\omega^2-\\nu^2}t)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$x=e^{-\\nu t}(C_1\\cos\\omega t+C_2\\sin\\nu t)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x=e^{-\\nu t}(C_1\\cos\\omega t+C_2\\sin\\omega t)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x=e^{-\\nu t}(C_1\\cos\\sqrt{\\omega^2+\\nu^2}t+C_2\\sin\\sqrt{\\omega^2+\\nu^2}t)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解析：模型的特征方程为 $r^2+2\\nu r+\\omega^2=0$，\n\n其根为 $r=\\frac{-2\\nu\\pm\\sqrt{4\\nu^2-4\\omega^2}}{2}=-\\nu\\pm\\sqrt{\\nu^2-\\omega^2}$，特征根 $r=-\\nu\\pm i\\sqrt{\\omega^2-\\nu^2}$，\n\n故原方程的通解为 $x(t)=e^{-\\nu t}(C_1\\cos\\sqrt{\\omega^2-\\nu^2}t+C_2\\sin\\sqrt{\\omega^2-\\nu^2}t)$。",
+  "search_text": "小阻尼自由振动方程 $x^{\\prime\\prime}+2\\nu x^\\prime+\\omega^2x=0$（$\\nu<\\omega$），求通解。 $x=e^{-\\nu t}(C_1\\cos\\sqrt{\\omega^2-\\nu^2}t+C_2\\sin\\sqrt{\\omega^2-\\nu^2}t)$ $x=e^{-\\nu t}(C_1\\cos\\omega t+C_2\\sin\\nu t)$ $x=e^{-\\nu t}(C_1\\cos\\omega t+C_2\\sin\\omega t)$ $x=e^{-\\nu t}(C_1\\cos\\sqrt{\\omega^2+\\nu^2}t+C_2\\sin\\sqrt{\\omega^2+\\nu^2}t)$ 解析：模型的特征方程为 $r^2+2\\nu r+\\omega^2=0$，\n\n其根为 $r=\\frac{-2\\nu\\pm\\sqrt{4\\nu^2-4\\omega^2}}{2}=-\\nu\\pm\\sqrt{\\nu^2-\\omega^2}$，特征根 $r=-\\nu\\pm i\\sqrt{\\omega^2-\\nu^2}$，\n\n故原方程的通解为 $x(t)=e^{-\\nu t}(C_1\\cos\\sqrt{\\omega^2-\\nu^2}t+C_2\\sin\\sqrt{\\omega^2-\\nu^2}t)$。",
+  "sort_order": 21
+}

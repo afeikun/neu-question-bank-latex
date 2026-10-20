@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X_1,\\ldots,X_{10}$为$N(0,0.3^2)$总体样本，求$P\\{\\sum_{i=1}^{10}X_i^2>1.44\\}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.9$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\sum(X_i/0.3)^2\\sim\\chi^2(10)$，阈值换算为16，因此概率为$P(\\chi^2_{10}>16)=0.1$。",
+  "search_text": "$X_1,\\ldots,X_{10}$为$N(0,0.3^2)$总体样本，求$P\\{\\sum_{i=1}^{10}X_i^2>1.44\\}$。 $0.1$ $0.9$ $0.2$ $0.3$ $\\sum(X_i/0.3)^2\\sim\\chi^2(10)$，阈值换算为16，因此概率为$P(\\chi^2_{10}>16)=0.1$。",
+  "sort_order": 5
+}

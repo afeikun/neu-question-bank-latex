@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $I=\\oint_L(z+y)dx+(x+z)dy+(x+y)dz$，$L$ 为椭圆柱面 $x^2+y^2=1$ 与平面 $x-y+z=2$ 的交线，从 $z$ 轴正方向看取逆时针方向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-2\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解 $L$ 的参数方程为\n\n$$\nx=\\cos t，\\quad y=\\sin t，\\quad z=\\sin t-\\cos t+2，\\quad\\text{则}\n$$\n\n$$\n\\begin{aligned}\nI&=\\int_{2\\pi}^0\\left[(2-\\cos t+2\\sin t)(-\\sin t)+(2+\\sin t)\\cos t+(\\cos t+\\sin t)(\\cos t+\\sin t)\\right]\\,\\mathrm{d}t\\\\\n&=\\int_{2\\pi}^0(\\cos2t+2\\sin2t-2\\sin t+2\\cos t)\\,\\mathrm{d}t=0\n\\end{aligned}\n$$",
+  "search_text": "计算 $I=\\oint_L(z+y)dx+(x+z)dy+(x+y)dz$，$L$ 为椭圆柱面 $x^2+y^2=1$ 与平面 $x-y+z=2$ 的交线，从 $z$ 轴正方向看取逆时针方向。 $3\\pi$ $\\pi$ $-2\\pi$ $0$ 解 $L$ 的参数方程为\n\n$$\nx=\\cos t，\\quad y=\\sin t，\\quad z=\\sin t-\\cos t+2，\\quad\\text{则}\n$$\n\n$$\n\\begin{aligned}\nI&=\\int_{2\\pi}^0\\left[(2-\\cos t+2\\sin t)(-\\sin t)+(2+\\sin t)\\cos t+(\\cos t+\\sin t)(\\cos t+\\sin t)\\right]\\,\\mathrm{d}t\\\\\n&=\\int_{2\\pi}^0(\\cos2t+2\\sin2t-2\\sin t+2\\cos t)\\,\\mathrm{d}t=0\n\\end{aligned}\n$$",
+  "sort_order": 13
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "球体 $x^2+y^2+z^2=a^2$ 被圆柱面 $x^2+y^2=ax$ 所截得（含在圆柱面内的部分）表面积为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3a^2(\\pi-2)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a^2(\\pi-2)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2a^2(\\pi-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2a^2(\\pi-2)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "上半球面方程为 $z=\\sqrt{a^2-x^2-y^2}$，由对称性，如图所示，所求面积\n$$\nA=\\iint_D\\sqrt{1+z_x^2+z_y^2}dxdy=4\\iint_{D_1}\\sqrt{1+z_x^2+z_y^2}dxdy\n$$\n其中 $D_1$ 为曲面在第一卦限的投影 $x^2+y^2\\leq ax,y\\geq0$，故\n$$\nA=4\\iint_{D_1}\\sqrt{1+\\frac{x^2}{a^2-x^2-y^2}+\\frac{y^2}{a^2-x^2-y^2}}dxdy=4\\iint_{D_1}\\frac{a}{\\sqrt{a^2-x^2-y^2}}dxdy\n$$\n$$\n=4\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{a\\cos\\theta}r\\frac{a}{\\sqrt{a^2-r^2}}dr=2a^2(\\pi-2)\n$$\n\n图示：球面与圆柱相交示意图标出 $x,y,z$ 坐标轴、原点 $O$、标记 $a$，以及区域 $D$、$D_1$；$D_1$ 投影区域以阴影线表示。",
+  "search_text": "球体 $x^2+y^2+z^2=a^2$ 被圆柱面 $x^2+y^2=ax$ 所截得（含在圆柱面内的部分）表面积为（ ） $3a^2(\\pi-2)$ $a^2(\\pi-2)$ $2a^2(\\pi-1)$ $2a^2(\\pi-2)$ 上半球面方程为 $z=\\sqrt{a^2-x^2-y^2}$，由对称性，如图所示，所求面积\n$$\nA=\\iint_D\\sqrt{1+z_x^2+z_y^2}dxdy=4\\iint_{D_1}\\sqrt{1+z_x^2+z_y^2}dxdy\n$$\n其中 $D_1$ 为曲面在第一卦限的投影 $x^2+y^2\\leq ax,y\\geq0$，故\n$$\nA=4\\iint_{D_1}\\sqrt{1+\\frac{x^2}{a^2-x^2-y^2}+\\frac{y^2}{a^2-x^2-y^2}}dxdy=4\\iint_{D_1}\\frac{a}{\\sqrt{a^2-x^2-y^2}}dxdy\n$$\n$$\n=4\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^{a\\cos\\theta}r\\frac{a}{\\sqrt{a^2-r^2}}dr=2a^2(\\pi-2)\n$$\n\n图示：球面与圆柱相交示意图标出 $x,y,z$ 坐标轴、原点 $O$、标记 $a$，以及区域 $D$、$D_1$；$D_1$ 投影区域以阴影线表示。",
+  "sort_order": 11
+}

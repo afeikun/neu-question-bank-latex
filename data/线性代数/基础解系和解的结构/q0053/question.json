@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $n$ 阶方阵，则存在 $n$ 阶非零矩阵 $B$，使得 $AB=0$ 的充要条件是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A=0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A$ 为可逆矩阵"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|B|\\ne0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|A|=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "存在非零矩阵 $B$ 使 $AB=0$ 等价于 $Ax=0$ 有非零解，也就是 $A$ 不可逆，故 $|A|=0$。",
+  "search_text": "设 $A$ 为 $n$ 阶方阵，则存在 $n$ 阶非零矩阵 $B$，使得 $AB=0$ 的充要条件是（ ）。 $A=0$ $A$ 为可逆矩阵 $|B|\\ne0$ $|A|=0$ 存在非零矩阵 $B$ 使 $AB=0$ 等价于 $Ax=0$ 有非零解，也就是 $A$ 不可逆，故 $|A|=0$。",
+  "sort_order": 53
+}

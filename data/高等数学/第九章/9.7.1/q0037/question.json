@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oiint_\\Sigma(x-2y)dy\\,dz+(3y-z)dz\\,dx+(3x-2z)dx\\,dy=$（ ），其中 $\\Sigma$ 是由 $x=0,y=0,z=0$ 及 $\\frac{x}{1}+\\frac{y}{2}+\\frac{z}{3}=1$ 在第一卦限中所围成的立体 $\\Omega$ 的表面的外侧。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3.4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：由高斯公式 $\\oiint_\\Sigma=\\iiint_\\Omega(1+3-2)dv=2\\iiint_\\Omega dv=2\\cdot\\frac16\\cdot1\\cdot2\\cdot3=2$",
+  "search_text": "$\\oiint_\\Sigma(x-2y)dy\\,dz+(3y-z)dz\\,dx+(3x-2z)dx\\,dy=$（ ），其中 $\\Sigma$ 是由 $x=0,y=0,z=0$ 及 $\\frac{x}{1}+\\frac{y}{2}+\\frac{z}{3}=1$ 在第一卦限中所围成的立体 $\\Omega$ 的表面的外侧。 $3.4$ $2$ $3$ $7$ 解析：由高斯公式 $\\oiint_\\Sigma=\\iiint_\\Omega(1+3-2)dv=2\\iiint_\\Omega dv=2\\cdot\\frac16\\cdot1\\cdot2\\cdot3=2$",
+  "sort_order": 37
+}

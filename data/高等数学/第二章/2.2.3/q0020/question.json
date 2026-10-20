@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=\\sqrt{\\sin\\sqrt{x}}+\\cos(\\sin\\frac{x}{3})$，则 $y\\prime=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\cos\\sqrt{x}}{4\\sqrt{x}\\sqrt{\\sin\\sqrt{x}}}-\\frac13\\sin(\\sin\\frac{x}{3})\\cos\\frac{x}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\cos\\sqrt{x}}{4\\sqrt{x}\\sqrt{\\sin\\sqrt{x}}}+\\frac13\\cos(\\sin\\frac{x}{3})\\cos\\frac{x}{3}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\cos\\sqrt{x}}{4\\sqrt{x}\\sqrt{\\sin\\sqrt{x}}}-\\sin(\\sin\\frac{x}{3})\\cos\\frac{x}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\cos\\sqrt{x}}{2\\sqrt{x}\\sqrt{\\sin\\sqrt{x}}}-\\frac13\\sin(\\sin\\frac{x}{3})\\cos\\frac{x}{3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "对两个复合函数分别用链式法则。",
+  "search_text": "设 $y=\\sqrt{\\sin\\sqrt{x}}+\\cos(\\sin\\frac{x}{3})$，则 $y\\prime=$（ ）。 $\\frac{\\cos\\sqrt{x}}{4\\sqrt{x}\\sqrt{\\sin\\sqrt{x}}}-\\frac13\\sin(\\sin\\frac{x}{3})\\cos\\frac{x}{3}$ $\\frac{\\cos\\sqrt{x}}{4\\sqrt{x}\\sqrt{\\sin\\sqrt{x}}}+\\frac13\\cos(\\sin\\frac{x}{3})\\cos\\frac{x}{3}$ $\\frac{\\cos\\sqrt{x}}{4\\sqrt{x}\\sqrt{\\sin\\sqrt{x}}}-\\sin(\\sin\\frac{x}{3})\\cos\\frac{x}{3}$ $\\frac{\\cos\\sqrt{x}}{2\\sqrt{x}\\sqrt{\\sin\\sqrt{x}}}-\\frac13\\sin(\\sin\\frac{x}{3})\\cos\\frac{x}{3}$ 对两个复合函数分别用链式法则。",
+  "sort_order": 20
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $z=\\ln(xy^2)$，下列偏导数计算错误的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$z_{xx}=-\\frac1{x^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$z_{xy}=0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$z_{xy}=\\frac1x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$z_{yy}=-\\frac2{y^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{\\partial z}{\\partial x}=\\frac{1}{xy^2}\\cdot y^2=\\frac{1}{x}，\\quad \\frac{\\partial z}{\\partial y}=\\frac{1}{xy^2}\\cdot 2xy=\\frac{2}{y}，\\quad \\frac{\\partial^2z}{\\partial x^2}=-\\frac{1}{x^2}，\\quad \\frac{\\partial^2z}{\\partial y^2}=-\\frac{2}{y^2}，\\quad \\frac{\\partial^2z}{\\partial x\\partial y}=0$。",
+  "search_text": "设 $z=\\ln(xy^2)$，下列偏导数计算错误的是(\\quad)。 $z_{xx}=-\\frac1{x^2}$ $z_{xy}=0$ $z_{xy}=\\frac1x$ $z_{yy}=-\\frac2{y^2}$ $\\frac{\\partial z}{\\partial x}=\\frac{1}{xy^2}\\cdot y^2=\\frac{1}{x}，\\quad \\frac{\\partial z}{\\partial y}=\\frac{1}{xy^2}\\cdot 2xy=\\frac{2}{y}，\\quad \\frac{\\partial^2z}{\\partial x^2}=-\\frac{1}{x^2}，\\quad \\frac{\\partial^2z}{\\partial y^2}=-\\frac{2}{y^2}，\\quad \\frac{\\partial^2z}{\\partial x\\partial y}=0$。",
+  "sort_order": 18
+}

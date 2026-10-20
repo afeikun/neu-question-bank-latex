@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $u=u(x,y)$ 可微，在极坐标变换 $x=r\\cos\\theta,y=r\\sin\\theta$ 下，求 $(u_x)^2+(u_y)^2$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(u_r)^2+\\frac1{r^2}(u_\\theta)^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(u_r)^2+(u_\\theta)^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$r^2(u_r)^2+(u_\\theta)^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$r^2(u_r)^2+\\frac1{r^2}(u_\\theta)^2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "为方便起见，我们从欲证等式的右端出发来证明。\n\n函数 $u$ 视为 $r,\\theta$ 的复合函数，即 $u=u(r\\cos\\theta,r\\sin\\theta)$，则\n\n$$\\frac{\\partial u}{\\partial r}=\\frac{\\partial u}{\\partial x}\\frac{\\partial x}{\\partial r}+\\frac{\\partial u}{\\partial y}\\frac{\\partial y}{\\partial r}=\\frac{\\partial u}{\\partial x}\\cos\\theta+\\frac{\\partial u}{\\partial y}\\sin\\theta$$\n\n$$\\frac{\\partial u}{\\partial\\theta}=\\frac{\\partial u}{\\partial x}\\frac{\\partial x}{\\partial\\theta}+\\frac{\\partial u}{\\partial y}\\frac{\\partial y}{\\partial\\theta}=\\frac{\\partial u}{\\partial x}(-r\\sin\\theta)+\\frac{\\partial u}{\\partial y}r\\cos\\theta$$\n\n所以，\n\n$$\\left(\\frac{\\partial u}{\\partial r}\\right)^2+\\frac1{r^2}\\left(\\frac{\\partial u}{\\partial\\theta}\\right)^2=\\left(\\frac{\\partial u}{\\partial x}\\cos\\theta+\\frac{\\partial u}{\\partial y}\\sin\\theta\\right)^2+\\frac1{r^2}\\left(\\frac{\\partial u}{\\partial x}(-r\\sin\\theta)+\\frac{\\partial u}{\\partial y}r\\cos\\theta\\right)^2=\\left(\\frac{\\partial u}{\\partial x}\\right)^2+\\left(\\frac{\\partial u}{\\partial y}\\right)^2.$$",
+  "search_text": "设 $u=u(x,y)$ 可微，在极坐标变换 $x=r\\cos\\theta,y=r\\sin\\theta$ 下，求 $(u_x)^2+(u_y)^2$。 $(u_r)^2+\\frac1{r^2}(u_\\theta)^2$ $(u_r)^2+(u_\\theta)^2$ $r^2(u_r)^2+(u_\\theta)^2$ $r^2(u_r)^2+\\frac1{r^2}(u_\\theta)^2$ 为方便起见，我们从欲证等式的右端出发来证明。\n\n函数 $u$ 视为 $r,\\theta$ 的复合函数，即 $u=u(r\\cos\\theta,r\\sin\\theta)$，则\n\n$$\\frac{\\partial u}{\\partial r}=\\frac{\\partial u}{\\partial x}\\frac{\\partial x}{\\partial r}+\\frac{\\partial u}{\\partial y}\\frac{\\partial y}{\\partial r}=\\frac{\\partial u}{\\partial x}\\cos\\theta+\\frac{\\partial u}{\\partial y}\\sin\\theta$$\n\n$$\\frac{\\partial u}{\\partial\\theta}=\\frac{\\partial u}{\\partial x}\\frac{\\partial x}{\\partial\\theta}+\\frac{\\partial u}{\\partial y}\\frac{\\partial y}{\\partial\\theta}=\\frac{\\partial u}{\\partial x}(-r\\sin\\theta)+\\frac{\\partial u}{\\partial y}r\\cos\\theta$$\n\n所以，\n\n$$\\left(\\frac{\\partial u}{\\partial r}\\right)^2+\\frac1{r^2}\\left(\\frac{\\partial u}{\\partial\\theta}\\right)^2=\\left(\\frac{\\partial u}{\\partial x}\\cos\\theta+\\frac{\\partial u}{\\partial y}\\sin\\theta\\right)^2+\\frac1{r^2}\\left(\\frac{\\partial u}{\\partial x}(-r\\sin\\theta)+\\frac{\\partial u}{\\partial y}r\\cos\\theta\\right)^2=\\left(\\frac{\\partial u}{\\partial x}\\right)^2+\\left(\\frac{\\partial u}{\\partial y}\\right)^2.$$",
+  "sort_order": 30
+}

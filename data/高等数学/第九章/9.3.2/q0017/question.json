@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$L$ 从 $A(-1,1)$ 沿抛物线 $y=x^2$ 到 $O(0,0)$，再沿 $x$ 轴到 $B(2,0)$，求 $\\int_L(12xy+e^y)dx-(\\cos y-xe^y)dy$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e+\\sin1-1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sin1-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e+\\sin1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解：原式=$$\\int_{-1}^0(12x^3+e^{x^2}-2x\\cos x^2+2x^2e^{x^2})dx+\\int_0^2 1dx$$\n$$=\\left[3x^4-\\sin x^2+xe^{x^2}\\right]_{-1}^0+2=-3+\\sin1+e+2=e+\\sin1-1$$",
+  "search_text": "$L$ 从 $A(-1,1)$ 沿抛物线 $y=x^2$ 到 $O(0,0)$，再沿 $x$ 轴到 $B(2,0)$，求 $\\int_L(12xy+e^y)dx-(\\cos y-xe^y)dy$。 $e+\\sin1-1$ $e$ $\\sin1-1$ $e+\\sin1$ 解：原式=$$\\int_{-1}^0(12x^3+e^{x^2}-2x\\cos x^2+2x^2e^{x^2})dx+\\int_0^2 1dx$$\n$$=\\left[3x^4-\\sin x^2+xe^{x^2}\\right]_{-1}^0+2=-3+\\sin1+e+2=e+\\sin1-1$$",
+  "sort_order": 17
+}

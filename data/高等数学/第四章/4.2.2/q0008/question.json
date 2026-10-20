@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $f(x)=\\frac{\\sin x}{e^x}$，$x\\in[0,5\\pi]$，与 $x$ 轴围成平面图形的面积是",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{5\\pi}(\\frac{\\sin x}{e^x})^2\\,dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{5\\pi}|\\frac{\\sin x}{e^x}|\\,dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$-\\int_0^{5\\pi}\\frac{\\sin x}{e^x}\\,dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^{5\\pi}\\frac{\\sin x}{e^x}\\,dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "面积需对函数值取绝对值，故为 $\\int_0^{5\\pi}|\\sin x/e^x|\\,dx$。",
+  "search_text": "函数 $f(x)=\\frac{\\sin x}{e^x}$，$x\\in[0,5\\pi]$，与 $x$ 轴围成平面图形的面积是 $\\int_0^{5\\pi}(\\frac{\\sin x}{e^x})^2\\,dx$ $\\int_0^{5\\pi}|\\frac{\\sin x}{e^x}|\\,dx$ $-\\int_0^{5\\pi}\\frac{\\sin x}{e^x}\\,dx$ $\\int_0^{5\\pi}\\frac{\\sin x}{e^x}\\,dx$ 面积需对函数值取绝对值，故为 $\\int_0^{5\\pi}|\\sin x/e^x|\\,dx$。",
+  "sort_order": 8
+}

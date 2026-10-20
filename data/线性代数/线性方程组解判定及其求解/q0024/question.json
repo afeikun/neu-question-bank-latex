@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A,B$ 是 $n$ 阶方阵，$x,y,b$ 是 $n\\times1$ 矩阵，则方程组 $\\begin{pmatrix}0&B\\\\A&0\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}0\\\\b\\end{pmatrix}$ 有解的充要条件（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$Ax=b$ 有解，$By=0$ 有非零解"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|A|\\ne0$，$b$ 可由 $B$ 的列向量线性表出"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|B|\\ne0$，$b$ 可由 $A$ 的列向量线性表出"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$r(A)=r(A:b)$，$r(B)$ 任意"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方程组有解的充要条件是 $r\\begin{pmatrix}0&B\\\\A&0\\end{pmatrix}=r\\begin{pmatrix}0&B&0\\\\A&0&b\\end{pmatrix}$。又因为可用初等行变换求矩阵的秩，且变换后的阶梯矩阵的行数为矩阵的秩，可得 $r(A)=r(A:b)$，$r(B)$ 任意。",
+  "search_text": "设 $A,B$ 是 $n$ 阶方阵，$x,y,b$ 是 $n\\times1$ 矩阵，则方程组 $\\begin{pmatrix}0&B\\\\A&0\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}0\\\\b\\end{pmatrix}$ 有解的充要条件（ ）。 $Ax=b$ 有解，$By=0$ 有非零解 $|A|\\ne0$，$b$ 可由 $B$ 的列向量线性表出 $|B|\\ne0$，$b$ 可由 $A$ 的列向量线性表出 $r(A)=r(A:b)$，$r(B)$ 任意 方程组有解的充要条件是 $r\\begin{pmatrix}0&B\\\\A&0\\end{pmatrix}=r\\begin{pmatrix}0&B&0\\\\A&0&b\\end{pmatrix}$。又因为可用初等行变换求矩阵的秩，且变换后的阶梯矩阵的行数为矩阵的秩，可得 $r(A)=r(A:b)$，$r(B)$ 任意。",
+  "sort_order": 24
+}

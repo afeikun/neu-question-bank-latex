@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(x)$ 是 $y\\prime\\prime+y\\prime=e^{\\sin x}$ 的解，$f\\prime(x_0)=0$，则 $f(x)$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "在 $x_0$ 的某邻域内单调减少"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "在 $x_0$ 处有极小值"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "在 $x_0$ 的某邻域内单调增加"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "在 $x_0$ 处有极大值"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "由 $y''(x_0)+y'(x_0)=e^{\\sin x_0}$，$y''(x_0)>0$，有极小值。",
+  "search_text": "设 $y=f(x)$ 是 $y\\prime\\prime+y\\prime=e^{\\sin x}$ 的解，$f\\prime(x_0)=0$，则 $f(x)$（ ） 在 $x_0$ 的某邻域内单调减少 在 $x_0$ 处有极小值 在 $x_0$ 的某邻域内单调增加 在 $x_0$ 处有极大值 由 $y''(x_0)+y'(x_0)=e^{\\sin x_0}$，$y''(x_0)>0$，有极小值。",
+  "sort_order": 21
+}

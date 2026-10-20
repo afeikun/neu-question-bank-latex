@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(t)=\\delta(t)\\cos t-u(t)\\sin t$，则 $\\mathcal L[f(t)]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac{s^2}{s^2+1}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac1{s^2+1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{s}{s^2+1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac{s-1}{s^2+1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$F(s)=\\int_0^{+\\infty}\\delta(t)\\cos t\\,e^{-st}\\,dt-\\mathcal L[\\sin t]=1-\\dfrac1{s^2+1}=\\dfrac{s^2}{s^2+1}$。",
+  "search_text": "设 $f(t)=\\delta(t)\\cos t-u(t)\\sin t$，则 $\\mathcal L[f(t)]=(\\ \\ )$。 $\\dfrac{s^2}{s^2+1}$ $\\dfrac1{s^2+1}$ $\\dfrac{s}{s^2+1}$ $\\dfrac{s-1}{s^2+1}$ $F(s)=\\int_0^{+\\infty}\\delta(t)\\cos t\\,e^{-st}\\,dt-\\mathcal L[\\sin t]=1-\\dfrac1{s^2+1}=\\dfrac{s^2}{s^2+1}$。",
+  "sort_order": 16
+}

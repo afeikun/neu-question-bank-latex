@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y,z)=z\\sqrt{x/y}$，则 $df|_{(1,1,1)}=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$dx-dy+dz$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$dx+dy-dz$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$dx-dy$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$dy-dz$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f_x=\\frac{1}{z}\\left(\\frac{x}{y}\\right)^{\\frac{1}{z}-1}\\frac{1}{y},\\quad f_y=\\frac{1}{z}\\left(\\frac{x}{y}\\right)^{\\frac{1}{z}-1}\\left(-\\frac{x}{y^2}\\right),\\quad f_x=\\left(\\frac{x}{y}\\right)^{\\frac{1}{z}}\\left(-\\frac{1}{z^2}\\right)\\ln\\frac{x}{y},$\n\n于是$\\left.df\\right|_{(1,1,1)}=dx-dy.$",
+  "search_text": "设 $f(x,y,z)=z\\sqrt{x/y}$，则 $df|_{(1,1,1)}=(\\quad)$。 $dx-dy+dz$ $dx+dy-dz$ $dx-dy$ $dy-dz$ $f_x=\\frac{1}{z}\\left(\\frac{x}{y}\\right)^{\\frac{1}{z}-1}\\frac{1}{y},\\quad f_y=\\frac{1}{z}\\left(\\frac{x}{y}\\right)^{\\frac{1}{z}-1}\\left(-\\frac{x}{y^2}\\right),\\quad f_x=\\left(\\frac{x}{y}\\right)^{\\frac{1}{z}}\\left(-\\frac{1}{z^2}\\right)\\ln\\frac{x}{y},$\n\n于是$\\left.df\\right|_{(1,1,1)}=dx-dy.$",
+  "sort_order": 16
+}

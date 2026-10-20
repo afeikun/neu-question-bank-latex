@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $f(x)=(1+x)e^x$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum_{n=0}^{\\infty} n x^n/(n+1)!$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum_{n=0}^{\\infty}(1+n)x^n/n!$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum_{n=0}^{\\infty}(1+n)x^n/(n+2)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum_{n=0}^{\\infty}(1+n)x^{n+1}/n!$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$e^x+xe^x=\\sum_{n=0}^{\\infty}(1+n)x^n/n!$。",
+  "search_text": "将 $f(x)=(1+x)e^x$ 展开成 $x$ 的幂级数。 $\\sum_{n=0}^{\\infty} n x^n/(n+1)!$ $\\sum_{n=0}^{\\infty}(1+n)x^n/n!$ $\\sum_{n=0}^{\\infty}(1+n)x^n/(n+2)$ $\\sum_{n=0}^{\\infty}(1+n)x^{n+1}/n!$ $e^x+xe^x=\\sum_{n=0}^{\\infty}(1+n)x^n/n!$。",
+  "sort_order": 32
+}

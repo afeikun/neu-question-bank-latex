@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算∫₁^∞dx/(e^{x+1}+e^{3−x})",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(π/4)e²"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(π/2)e²"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(π/2)e⁻²"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(π/4)e⁻²"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "化为e⁻²∫₀^∞du/(1+e^{2u})，结果为(π/4)e⁻²。",
+  "search_text": "计算∫₁^∞dx/(e^{x+1}+e^{3−x}) (π/4)e² (π/2)e² (π/2)e⁻² (π/4)e⁻² 化为e⁻²∫₀^∞du/(1+e^{2u})，结果为(π/4)e⁻²。",
+  "sort_order": 7
+}

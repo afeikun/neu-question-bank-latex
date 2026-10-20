@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $y=\\cos x$ 在区间 $(0,\\pi)$ 上的单调性为（　）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "先减后增"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "单调递减"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "单点递增"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "先增后减"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "任取 $0<x_1<x_2<\\pi$，可知 $\\cos x_2-\\cos x_1<0$，所以 $y=\\cos x$ 在 $(0,\\pi)$ 上单调递减。",
+  "search_text": "函数 $y=\\cos x$ 在区间 $(0,\\pi)$ 上的单调性为（ ）。 先减后增 单调递减 单点递增 先增后减 任取 $0<x_1<x_2<\\pi$，可知 $\\cos x_2-\\cos x_1<0$，所以 $y=\\cos x$ 在 $(0,\\pi)$ 上单调递减。",
+  "sort_order": 8
+}

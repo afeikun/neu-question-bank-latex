@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "正态总体方差未知，样本量$n$，以$\\bar X\\pm kS/\\sqrt n$估计均值的$1-\\alpha$置信区间，$k$取（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t_{\\alpha/2}(n-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$u_{1-\\alpha/2}$或$t_\\alpha$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$t_\\alpha(n-1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$t_{1-\\alpha}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方差未知时使用自由度$n-1$的$t$分布双侧分位数$t_{\\alpha/2}(n-1)$。",
+  "search_text": "正态总体方差未知，样本量$n$，以$\\bar X\\pm kS/\\sqrt n$估计均值的$1-\\alpha$置信区间，$k$取（）。 $t_{\\alpha/2}(n-1)$ $u_{1-\\alpha/2}$或$t_\\alpha$ $t_\\alpha(n-1)$ $t_{1-\\alpha}$ 方差未知时使用自由度$n-1$的$t$分布双侧分位数$t_{\\alpha/2}(n-1)$。",
+  "sort_order": 8
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "点 $P(1,2,3)$ 到直线 $\\frac x1=\\frac{y-4}{-3}=\\frac{z-3}{-2}$ 的距离为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt6}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt6}{2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\sqrt3}{2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\sqrt2}{3}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答：由点线距离公式，$Q(0,4,3)\\in l，\\quad \\overrightarrow{QP}=(1,-2,0)，\\quad d=\\frac{|\\vec{s}\\times\\overrightarrow{QP}|}{|\\vec{s}|}=\\frac{|(-4,-2,1)|}{\\sqrt{14}}=\\frac{\\sqrt{21}}{\\sqrt{14}}=\\frac{\\sqrt{6}}{2}。$",
+  "search_text": "点 $P(1,2,3)$ 到直线 $\\frac x1=\\frac{y-4}{-3}=\\frac{z-3}{-2}$ 的距离为(\\quad)。 $\\frac{\\sqrt6}{3}$ $\\frac{\\sqrt6}{2}$ $\\frac{\\sqrt3}{2}$ $\\frac{\\sqrt2}{3}$ 解答：由点线距离公式，$Q(0,4,3)\\in l，\\quad \\overrightarrow{QP}=(1,-2,0)，\\quad d=\\frac{|\\vec{s}\\times\\overrightarrow{QP}|}{|\\vec{s}|}=\\frac{|(-4,-2,1)|}{\\sqrt{14}}=\\frac{\\sqrt{21}}{\\sqrt{14}}=\\frac{\\sqrt{6}}{2}。$",
+  "sort_order": 14
+}

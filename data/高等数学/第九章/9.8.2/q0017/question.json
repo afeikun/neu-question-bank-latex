@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一刚体以等角速度 $\\vec\\omega=\\omega_x\\mathbf i+\\omega_y\\mathbf j+\\omega_z\\mathbf k$ 绕定轴 $l$ 旋转，则刚体内任意一点 $M$ 的线速度 $\\vec v$ 的旋度为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\vec\\omega$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\vec\\omega$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\vec\\omega$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "参考答案：\n取定轴$l$为$z$轴，则$M$的向径\n\n$\\vec r=\\overrightarrow{OM}=x\\vec i+y\\vec j+z\\vec k$\n\n则点$M$的线速度\n\n$\\vec v=\\vec\\omega\\times\\vec r=\\begin{vmatrix}\\vec i&\\vec j&\\vec k\\\\\\omega_x&\\omega_y&\\omega_z\\\\x&y&z\\end{vmatrix}=(\\omega_zy-\\omega_yz)\\vec i+(\\omega_zx-\\omega_xz)\\vec j+(\\omega_xy-\\omega_yx)\\vec k$\n\n于是\n\n$\\operatorname{rot}\\vec v=\\begin{vmatrix}\\vec i&\\vec j&\\vec k\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\\\omega_zy-\\omega_yz&\\omega_zx-\\omega_xz&\\omega_xy-\\omega_yx\\end{vmatrix}=2(\\omega_x\\vec i+\\omega_y\\vec j+\\omega_z\\vec k)=2\\vec\\omega$\n\n即速度场$\\vec v$的旋度等于角速度$\\vec\\omega$的2倍。",
+  "search_text": "一刚体以等角速度 $\\vec\\omega=\\omega_x\\mathbf i+\\omega_y\\mathbf j+\\omega_z\\mathbf k$ 绕定轴 $l$ 旋转，则刚体内任意一点 $M$ 的线速度 $\\vec v$ 的旋度为（ ） $\\vec\\omega$ $0$ $3\\vec\\omega$ $2\\vec\\omega$ 参考答案：\n取定轴$l$为$z$轴，则$M$的向径\n\n$\\vec r=\\overrightarrow{OM}=x\\vec i+y\\vec j+z\\vec k$\n\n则点$M$的线速度\n\n$\\vec v=\\vec\\omega\\times\\vec r=\\begin{vmatrix}\\vec i&\\vec j&\\vec k\\\\\\omega_x&\\omega_y&\\omega_z\\\\x&y&z\\end{vmatrix}=(\\omega_zy-\\omega_yz)\\vec i+(\\omega_zx-\\omega_xz)\\vec j+(\\omega_xy-\\omega_yx)\\vec k$\n\n于是\n\n$\\operatorname{rot}\\vec v=\\begin{vmatrix}\\vec i&\\vec j&\\vec k\\\\\\frac{\\partial}{\\partial x}&\\frac{\\partial}{\\partial y}&\\frac{\\partial}{\\partial z}\\\\\\omega_zy-\\omega_yz&\\omega_zx-\\omega_xz&\\omega_xy-\\omega_yx\\end{vmatrix}=2(\\omega_x\\vec i+\\omega_y\\vec j+\\omega_z\\vec k)=2\\vec\\omega$\n\n即速度场$\\vec v$的旋度等于角速度$\\vec\\omega$的2倍。",
+  "sort_order": 17
+}

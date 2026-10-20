@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $D=\\begin{vmatrix}a_{11}&a_{12}&\\cdots&a_{1n}\\\\a_{21}&a_{22}&\\cdots&a_{2n}\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\a_{n1}&a_{n2}&\\cdots&a_{nn}\\end{vmatrix}$，$\\Delta=\\begin{vmatrix}a_{n1}&a_{n2}&\\cdots&a_{nn}\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\a_{21}&a_{22}&\\cdots&a_{2n}\\\\a_{11}&a_{12}&\\cdots&a_{1n}\\end{vmatrix}$，则 $D$ 与 $\\Delta$ 的关系为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\Delta=(-1)^{\\frac{n(n-1)}{2}}D$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\Delta=(-1)^nD$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\Delta=D$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\Delta=-D$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "将第 $1$ 行交换 $n-1$ 次、第 $2$ 行交换 $n-2$ 次，依此类推至第 $n-1$ 行交换 $1$ 次，共交换 $\\frac{n(n-1)}{2}$ 次，故 $\\Delta=(-1)^{\\frac{n(n-1)}{2}}D$。",
+  "search_text": "设 $D=\\begin{vmatrix}a_{11}&a_{12}&\\cdots&a_{1n}\\\\a_{21}&a_{22}&\\cdots&a_{2n}\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\a_{n1}&a_{n2}&\\cdots&a_{nn}\\end{vmatrix}$，$\\Delta=\\begin{vmatrix}a_{n1}&a_{n2}&\\cdots&a_{nn}\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\a_{21}&a_{22}&\\cdots&a_{2n}\\\\a_{11}&a_{12}&\\cdots&a_{1n}\\end{vmatrix}$，则 $D$ 与 $\\Delta$ 的关系为（ ）。 $\\Delta=(-1)^{\\frac{n(n-1)}{2}}D$ $\\Delta=(-1)^nD$ $\\Delta=D$ $\\Delta=-D$ 将第 $1$ 行交换 $n-1$ 次、第 $2$ 行交换 $n-2$ 次，依此类推至第 $n-1$ 行交换 $1$ 次，共交换 $\\frac{n(n-1)}{2}$ 次，故 $\\Delta=(-1)^{\\frac{n(n-1)}{2}}D$。",
+  "sort_order": 45
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $1/(6-x)$ 在 $x_0=1$ 处展开成幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\sum(x-1)^n/5^{n+1},\\ (-4,6)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\sum(x-1)^n/5^{n+1},\\ (-4,4)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\sum(x-1)^{n+1}/5^{n+1},\\ (-4,6)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sum(x-1)^n/5^n,\\ (-4,6)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "中心1、半径5，得到 $\\sum(x-1)^n/5^{n+1}$。",
+  "search_text": "将 $1/(6-x)$ 在 $x_0=1$ 处展开成幂级数。 $\\sum(x-1)^n/5^{n+1},\\ (-4,6)$ $\\sum(x-1)^n/5^{n+1},\\ (-4,4)$ $\\sum(x-1)^{n+1}/5^{n+1},\\ (-4,6)$ $\\sum(x-1)^n/5^n,\\ (-4,6)$ 中心1、半径5，得到 $\\sum(x-1)^n/5^{n+1}$。",
+  "sort_order": 57
+}

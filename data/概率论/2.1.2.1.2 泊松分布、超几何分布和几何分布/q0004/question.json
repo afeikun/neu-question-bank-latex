@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "印刷错误数服从泊松分布，且错误数为1和2的页数相同，抽检4页均无错误概率。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$e^{-8}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^{-6}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$P(X=1)=P(X=2)$得$\\lambda=2$，单页无错误率$e^{-2}$，4页均无错误概率$e^{-8}$。",
+  "search_text": "印刷错误数服从泊松分布，且错误数为1和2的页数相同，抽检4页均无错误概率。 $e^{-8}$ $e^{-2}$ $e^{-4}$ $e^{-6}$ $P(X=1)=P(X=2)$得$\\lambda=2$，单页无错误率$e^{-2}$，4页均无错误概率$e^{-8}$。",
+  "sort_order": 4
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $\\begin{cases}x=t^2\\\\y=t^3\\end{cases}$ 在点 $(1,1)$ 处的曲率 $k=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\sqrt{13}}{13}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\sqrt{13}}{169}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6\\sqrt{13}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{6\\sqrt{13}}{169}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "点 $(1,1)$ 对应 $t=1$，有 $y\\prime=3/2$、$y\\prime\\prime=3/4$，故 $k=|y\\prime\\prime|/(1+y\\prime^2)^{3/2}=6\\sqrt{13}/169$。",
+  "search_text": "曲线 $\\begin{cases}x=t^2\\\\y=t^3\\end{cases}$ 在点 $(1,1)$ 处的曲率 $k=$（ ）。 $\\frac{\\sqrt{13}}{13}$ $\\frac{\\sqrt{13}}{169}$ $6\\sqrt{13}$ $\\frac{6\\sqrt{13}}{169}$ 点 $(1,1)$ 对应 $t=1$，有 $y\\prime=3/2$、$y\\prime\\prime=3/4$，故 $k=|y\\prime\\prime|/(1+y\\prime^2)^{3/2}=6\\sqrt{13}/169$。",
+  "sort_order": 5
+}

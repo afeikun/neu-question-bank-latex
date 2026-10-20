@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime-2y\\prime-5y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{(1+\\sqrt3)x}+C_2e^{(1-\\sqrt3)x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^{(1+\\sqrt6)x}+C_2e^{(1-\\sqrt6)x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{(1+\\sqrt5)x}+C_2e^{(1-\\sqrt5)x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{-x}+C_2e^{-4x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析 由特征方程 $r^2-2r-5=0$，得特征根 $r_1=1+\\sqrt6,r_2=1-\\sqrt6$，对照通项公式即得\n$$y=C_1e^{(1+\\sqrt6)x}+C_2e^{(1-\\sqrt6)x}.$$",
+  "search_text": "微分方程 $y\\prime\\prime-2y\\prime-5y=0$ 的通解为（ ） $y=C_1e^{(1+\\sqrt3)x}+C_2e^{(1-\\sqrt3)x}$ $y=C_1e^{(1+\\sqrt6)x}+C_2e^{(1-\\sqrt6)x}$ $y=C_1e^{(1+\\sqrt5)x}+C_2e^{(1-\\sqrt5)x}$ $y=C_1e^{-x}+C_2e^{-4x}$ 解析 由特征方程 $r^2-2r-5=0$，得特征根 $r_1=1+\\sqrt6,r_2=1-\\sqrt6$，对照通项公式即得\n$$y=C_1e^{(1+\\sqrt6)x}+C_2e^{(1-\\sqrt6)x}.$$",
+  "sort_order": 25
+}

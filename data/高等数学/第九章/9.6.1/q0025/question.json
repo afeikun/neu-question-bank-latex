@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $L$ 是沿逆时针方向的椭圆 $4x^2+y^2=8x$，计算 $\\oint_L e^{y^2}dx+xdy=(\\ )$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3\\pi$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$24\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\oint_L e^{y^2}dx+xdy=\\iint_D\\left(\\frac{\\partial x}{\\partial x}-\\frac{\\partial e^{y^2}}{\\partial y}\\right)dxdy=\\iint_D(1-2ye^{y^2})dxdy$\n\n其中 $D$ 为由椭圆 $4x^2+y^2=8x$ 围成的区域。\n\n由于 $D$ 关于 $x$ 轴对称，而 $2ye^{y^2}$ 为 $y$ 的奇函数，故由对称性 $\\iint_D2ye^{y^2}dxdy=0$。\n\n图示：椭圆边界标为 $L$，内部标为 $D$；坐标轴标为 $x,y$，原点 $O$ 在椭圆左端，边界上画有正向箭头。",
+  "search_text": "已知 $L$ 是沿逆时针方向的椭圆 $4x^2+y^2=8x$，计算 $\\oint_L e^{y^2}dx+xdy=(\\ )$ $2\\pi$ $3\\pi$ $\\pi$ $24\\pi$ $\\oint_L e^{y^2}dx+xdy=\\iint_D\\left(\\frac{\\partial x}{\\partial x}-\\frac{\\partial e^{y^2}}{\\partial y}\\right)dxdy=\\iint_D(1-2ye^{y^2})dxdy$\n\n其中 $D$ 为由椭圆 $4x^2+y^2=8x$ 围成的区域。\n\n由于 $D$ 关于 $x$ 轴对称，而 $2ye^{y^2}$ 为 $y$ 的奇函数，故由对称性 $\\iint_D2ye^{y^2}dxdy=0$。\n\n图示：椭圆边界标为 $L$，内部标为 $D$；坐标轴标为 $x,y$，原点 $O$ 在椭圆左端，边界上画有正向箭头。",
+  "sort_order": 25
+}

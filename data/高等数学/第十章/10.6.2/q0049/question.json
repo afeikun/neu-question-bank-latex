@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime\\prime-5y\\prime+6y=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=e^x+e^{6x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^x+C_2e^{6x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=e^{2x}+e^{3x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{2x}+C_2e^{3x}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 特征方程 $\\lambda^2-5\\lambda+6=0$，特征根为 $\\lambda_1=2,\\lambda_2=3$，\n故方程的通解为 $y=C_1e^{2x}+C_2e^{3x}$。\n\n因此选 B。",
+  "search_text": "微分方程 $y\\prime\\prime-5y\\prime+6y=0$ 的通解为（ ） $y=e^x+e^{6x}$ $y=C_1e^x+C_2e^{6x}$ $y=e^{2x}+e^{3x}$ $y=C_1e^{2x}+C_2e^{3x}$ 解答 特征方程 $\\lambda^2-5\\lambda+6=0$，特征根为 $\\lambda_1=2,\\lambda_2=3$，\n故方程的通解为 $y=C_1e^{2x}+C_2e^{3x}$。\n\n因此选 B。",
+  "sort_order": 49
+}

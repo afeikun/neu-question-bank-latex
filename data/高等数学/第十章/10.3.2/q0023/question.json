@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$y\\prime+2y=xe^{-x}$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$Ce^{-2x}+(x-1)e^{-x}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$e^{-2x}+C(x-1)e^{-x}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^{-2x}+(x-1)e^{-x}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$Ce^{-2x}+(x-1)e^x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y=e^{-\\int 2\\,dx}\\left[\\int xe^{-x}e^{\\int 2\\,dx}\\,dx+C\\right]=e^{-2x}(xe^x-e^x+C)$",
+  "search_text": "$y\\prime+2y=xe^{-x}$ 的通解为（ ） $Ce^{-2x}+(x-1)e^{-x}$ $e^{-2x}+C(x-1)e^{-x}$ $e^{-2x}+(x-1)e^{-x}+C$ $Ce^{-2x}+(x-1)e^x$ $y=e^{-\\int 2\\,dx}\\left[\\int xe^{-x}e^{\\int 2\\,dx}\\,dx+C\\right]=e^{-2x}(xe^x-e^x+C)$",
+  "sort_order": 23
+}

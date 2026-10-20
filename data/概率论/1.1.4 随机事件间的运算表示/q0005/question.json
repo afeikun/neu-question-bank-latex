@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "甲、乙、丙三个各自向同一目标射击一次，已知目标至少被击中两次，设 $A_i$ 表示第 $i$ 人击中目标的事件，若 $B$ 表示目标被击中，则 $B=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A_1A_2\\cup A_1A_3\\cup A_2A_3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$A_1A_2A_3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$A_1\\cup A_2\\cup A_3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$A_1+A_2+A_3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "目标至少被击中两次等价于三对命中事件的并集 $A_1A_2\\cup A_1A_3\\cup A_2A_3$。",
+  "search_text": "甲、乙、丙三个各自向同一目标射击一次，已知目标至少被击中两次，设 $A_i$ 表示第 $i$ 人击中目标的事件，若 $B$ 表示目标被击中，则 $B=(\\quad)$。 $A_1A_2\\cup A_1A_3\\cup A_2A_3$ $A_1A_2A_3$ $A_1\\cup A_2\\cup A_3$ $A_1+A_2+A_3$ 目标至少被击中两次等价于三对命中事件的并集 $A_1A_2\\cup A_1A_3\\cup A_2A_3$。",
+  "sort_order": 5
+}

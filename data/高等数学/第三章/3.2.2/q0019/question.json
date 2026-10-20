@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=e^x\\cos x$ 的 3 阶 Maclaurin 公式为 $(\\quad)$（$0<\\theta<1$）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1-x-\\frac13x^3-\\frac{x^4e^{\\theta x}\\cos\\theta x}{3!}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1+x+\\frac13x^3+\\frac{x^4e^{\\theta x}\\cos\\theta x}{3!}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$x-\\frac13x^3-\\frac{x^4e^{\\theta x}\\cos\\theta x}{3!}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1+x-\\frac13x^3-\\frac{x^4e^{\\theta x}\\cos\\theta x}{3!}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f(0)=1$，$f'(0)=1$，$f''(0)=0$，$f'''(0)=-2$，$f^{(4)}(x)=-4e^x\\cos x$。故展开为 $1+x-\\frac{x^3}{3}-\\frac{x^4e^{\\theta x}\\cos(\\theta x)}{3!}$。",
+  "search_text": "$f(x)=e^x\\cos x$ 的 3 阶 Maclaurin 公式为 $(\\quad)$（$0<\\theta<1$）。 $1-x-\\frac13x^3-\\frac{x^4e^{\\theta x}\\cos\\theta x}{3!}$ $1+x+\\frac13x^3+\\frac{x^4e^{\\theta x}\\cos\\theta x}{3!}$ $x-\\frac13x^3-\\frac{x^4e^{\\theta x}\\cos\\theta x}{3!}$ $1+x-\\frac13x^3-\\frac{x^4e^{\\theta x}\\cos\\theta x}{3!}$ $f(0)=1$，$f'(0)=1$，$f''(0)=0$，$f'''(0)=-2$，$f^{(4)}(x)=-4e^x\\cos x$。故展开为 $1+x-\\frac{x^3}{3}-\\frac{x^4e^{\\theta x}\\cos(\\theta x)}{3!}$。",
+  "sort_order": 19
+}

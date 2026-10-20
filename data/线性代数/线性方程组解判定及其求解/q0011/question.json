@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "齐次线性方程组 $\\begin{cases}x_1+x_2+x_3=0,\\\\2x_1-x_2+ax_3=0,\\\\x_1-2x_2+3x_3=0\\end{cases}$ 有非零解的充分必要条件是 $a=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "齐次线性方程组有非零解的充分必要条件是系数矩阵的秩小于 $n$。对方阵而言，$|A|=0$，即 $\\begin{vmatrix}1&1&1\\\\2&-1&a\\\\1&-2&3\\end{vmatrix}=0$，则 $a=4$。",
+  "search_text": "齐次线性方程组 $\\begin{cases}x_1+x_2+x_3=0,\\\\2x_1-x_2+ax_3=0,\\\\x_1-2x_2+3x_3=0\\end{cases}$ 有非零解的充分必要条件是 $a=$（ ）。 $3$ $4$ $2$ $1$ 齐次线性方程组有非零解的充分必要条件是系数矩阵的秩小于 $n$。对方阵而言，$|A|=0$，即 $\\begin{vmatrix}1&1&1\\\\2&-1&a\\\\1&-2&3\\end{vmatrix}=0$，则 $a=4$。",
+  "sort_order": 11
+}

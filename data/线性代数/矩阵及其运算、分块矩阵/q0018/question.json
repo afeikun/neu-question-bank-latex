@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $A,B$ 均为 $n$ 阶矩阵，$A^2=A$，$B^2=B$，$(A+B)^2=A+B$，则 $AB=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$A$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$B$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$E$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$O$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$(A+B)^2=(A+B)(A+B)=A^2+AB+BA+B^2=A+AB+BA+B=A+B$，则有 $AB+BA=O$；而 $A(AB+BA)=A^2B+ABA=AB+ABA=O$；$(AB+BA)A=ABA+BA^2=ABA+BA=O$，所以 $AB=-ABA=BA$。又由于 $AB+BA=O$，所以 $AB=O$。",
+  "search_text": "已知 $A,B$ 均为 $n$ 阶矩阵，$A^2=A$，$B^2=B$，$(A+B)^2=A+B$，则 $AB=$（ ）。 $A$ $B$ $E$ $O$ $(A+B)^2=(A+B)(A+B)=A^2+AB+BA+B^2=A+AB+BA+B=A+B$，则有 $AB+BA=O$；而 $A(AB+BA)=A^2B+ABA=AB+ABA=O$；$(AB+BA)A=ABA+BA^2=ABA+BA=O$，所以 $AB=-ABA=BA$。又由于 $AB+BA=O$，所以 $AB=O$。",
+  "sort_order": 18
+}

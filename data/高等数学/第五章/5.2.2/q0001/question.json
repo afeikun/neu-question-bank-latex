@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "级数 $\\sum_{n=1}^{\\infty}(2n-1)/\\sqrt{2^n}$ (1) 与 $\\sum_{n=1}^{\\infty} n^5/2^n$ (2) 的敛散性如何？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(1)(2)都收敛"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1)发散(2)收敛"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1)(2)都发散"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(1)收敛(2)发散"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "比值极限对两级数均小于1，故均收敛。",
+  "search_text": "级数 $\\sum_{n=1}^{\\infty}(2n-1)/\\sqrt{2^n}$ (1) 与 $\\sum_{n=1}^{\\infty} n^5/2^n$ (2) 的敛散性如何？ (1)(2)都收敛 (1)发散(2)收敛 (1)(2)都发散 (1)收敛(2)发散 比值极限对两级数均小于1，故均收敛。",
+  "sort_order": 1
+}

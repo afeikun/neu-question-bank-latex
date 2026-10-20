@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $0<a<b$，则 $\\lim_{n\\to\\infty}\\sqrt[n]{a^n+b^n}=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "$b^n<a^n+b^n<2b^n$，由夹逼准则极限为 $b$。",
+  "search_text": "设 $0<a<b$，则 $\\lim_{n\\to\\infty}\\sqrt[n]{a^n+b^n}=(\\ )$。 $a$ 1 $b$ 0 $b^n<a^n+b^n<2b^n$，由夹逼准则极限为 $b$。",
+  "sort_order": 2
+}

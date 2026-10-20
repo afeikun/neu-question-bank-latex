@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处具有偏导数是它在该点存在全微分的(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "充分条件而非必要条件"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "既非充分也非必要条件"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "必要条件而非充分条件"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "充分必要条件"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "函数可微偏导数一定存在，反之未必例如\n\n$f(x,y)=\\begin{cases}\\dfrac{xy}{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2\\ne0\\end{cases}.$",
+  "search_text": "函数 $z=f(x,y)$ 在点 $(x_0,y_0)$ 处具有偏导数是它在该点存在全微分的(\\quad)。 充分条件而非必要条件 既非充分也非必要条件 必要条件而非充分条件 充分必要条件 函数可微偏导数一定存在，反之未必例如\n\n$f(x,y)=\\begin{cases}\\dfrac{xy}{\\sqrt{x^2+y^2}},&x^2+y^2\\ne0\\\\0,&x^2+y^2\\ne0\\end{cases}.$",
+  "sort_order": 1
+}

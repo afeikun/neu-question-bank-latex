@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某曲线 $C:x^2+y^2=R^2(y>0)$ 型构件，线密度 $\\rho(x,y)=\\sqrt{x^2+y^2}$，则该构件绕 $y$ 轴旋转一周的转动惯量 $I=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi R^4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\pi R^4}{8}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\pi R^4}{4}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi R^4}{2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 曲线 $I=\\int_Lx^2\\rho(x,y)ds=\\int_Lx^2\\sqrt{x^2+y^2}ds=\\int_0^\\pi R^4\\cos^2tdt$\n\n$$\n=\\frac{R^4}{2}\\int_0^\\pi(1+\\cos2t)dt=\\frac{\\pi}{2}R^4\n$$",
+  "search_text": "某曲线 $C:x^2+y^2=R^2(y>0)$ 型构件，线密度 $\\rho(x,y)=\\sqrt{x^2+y^2}$，则该构件绕 $y$ 轴旋转一周的转动惯量 $I=$（ ） $\\pi R^4$ $\\frac{\\pi R^4}{8}$ $\\frac{\\pi R^4}{4}$ $\\frac{\\pi R^4}{2}$ 解答 曲线 $I=\\int_Lx^2\\rho(x,y)ds=\\int_Lx^2\\sqrt{x^2+y^2}ds=\\int_0^\\pi R^4\\cos^2tdt$\n\n$$\n=\\frac{R^4}{2}\\int_0^\\pi(1+\\cos2t)dt=\\frac{\\pi}{2}R^4\n$$",
+  "sort_order": 37
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $C$ 为正向圆周 $|z|=3$，则 $\\displaystyle\\oint_C\\tan(\\pi z)\\,dz=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-12i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$4\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$6\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "圆内 $\\tan(\\pi z)$ 在 $z=\\pm\\frac12,\\pm\\frac32,\\pm\\frac52$ 有六个极点，各留数为 $-1/\\pi$，故积分为 $2\\pi i(-6/\\pi)=-12i$。",
+  "search_text": "设 $C$ 为正向圆周 $|z|=3$，则 $\\displaystyle\\oint_C\\tan(\\pi z)\\,dz=(\\ \\ )$。 $-12i$ $4\\pi i$ $6\\pi i$ $0$ 圆内 $\\tan(\\pi z)$ 在 $z=\\pm\\frac12,\\pm\\frac32,\\pm\\frac52$ 有六个极点，各留数为 $-1/\\pi$，故积分为 $2\\pi i(-6/\\pi)=-12i$。",
+  "sort_order": 24
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$x=\\ln\\sqrt{1+t^2},y=t-\\arctan t$，求 $\\frac{dy}{dx}$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$t^2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1+t^2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac t{1+t^2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\frac{1}{2}\\cdot\\frac{2t}{1+t^2}=\\frac{t}{1+t^2},\\quad \\frac{dy}{dt}=1-\\frac{1}{1+t^2}=\\frac{t^2}{1+t^2},$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{\\frac{t^2}{1+t^2}}{\\frac{t}{1+t^2}}=t.$",
+  "search_text": "$x=\\ln\\sqrt{1+t^2},y=t-\\arctan t$，求 $\\frac{dy}{dx}$。 $t^2$ $t$ $1+t^2$ $\\frac t{1+t^2}$ 解答 方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=\\frac{1}{2}\\cdot\\frac{2t}{1+t^2}=\\frac{t}{1+t^2},\\quad \\frac{dy}{dt}=1-\\frac{1}{1+t^2}=\\frac{t^2}{1+t^2},$$\n\n可得 $\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{\\frac{t^2}{1+t^2}}{\\frac{t}{1+t^2}}=t.$",
+  "sort_order": 25
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$P(X=i)=a/(2N)$，$i=1,2,\\ldots,N$，求$a$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1/2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\sum_{i=1}^N a/(2N)=a/2=1$，故$a=2$。",
+  "search_text": "$P(X=i)=a/(2N)$，$i=1,2,\\ldots,N$，求$a$。 $2$ $1$ $1/2$ $0$ $\\sum_{i=1}^N a/(2N)=a/2=1$，故$a=2$。",
+  "sort_order": 8
+}

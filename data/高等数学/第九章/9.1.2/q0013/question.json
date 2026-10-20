@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $L$ 是由 $y=x,x^2+y^2=1$ 及 $x$ 轴的正半轴所围成的扇形整个边界，则 $I=\\int_L e^{\\sqrt{x^2+y^2}}ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi-\\frac\\pi4e$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2e+\\frac\\pi4e$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2(e-1)+\\frac\\pi4e$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e+\\frac\\pi4e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 不难求出 $A\\left(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2}\\right),B(1,0)$，由可加性：\n\n$$\nI=\\int_{OB}e^{\\sqrt{x^2+y^2}}ds+\\int_{AB}e^{\\sqrt{x^2+y^2}}ds+\\int_{OA}e^{\\sqrt{x^2+y^2}}ds\n$$\n\n由 $\\int_{OB}e^{\\sqrt{x^2+y^2}}ds=\\int_0^1e^x\\,dx=e-1$\n\n由 $\\int_{OA}e^{\\sqrt{x^2+y^2}}ds=\\int_0^{\\frac{\\sqrt{2}}{2}}e^{\\sqrt{2}x}\\sqrt{2}\\,dx=e-1$\n\n又 $\\int_{AB}e^{\\sqrt{x^2+y^2}}ds=\\int_{AB}e\\,ds=e\\cdot\\frac{\\pi}{4}=\\frac{e}{4}\\pi$\n\n于是 $I=2e-2+\\frac{e}{4}\\pi$",
+  "search_text": "若 $L$ 是由 $y=x,x^2+y^2=1$ 及 $x$ 轴的正半轴所围成的扇形整个边界，则 $I=\\int_L e^{\\sqrt{x^2+y^2}}ds=$（ ） $2\\pi-\\frac\\pi4e$ $2e+\\frac\\pi4e$ $2(e-1)+\\frac\\pi4e$ $e+\\frac\\pi4e$ 解答 不难求出 $A\\left(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2}\\right),B(1,0)$，由可加性：\n\n$$\nI=\\int_{OB}e^{\\sqrt{x^2+y^2}}ds+\\int_{AB}e^{\\sqrt{x^2+y^2}}ds+\\int_{OA}e^{\\sqrt{x^2+y^2}}ds\n$$\n\n由 $\\int_{OB}e^{\\sqrt{x^2+y^2}}ds=\\int_0^1e^x\\,dx=e-1$\n\n由 $\\int_{OA}e^{\\sqrt{x^2+y^2}}ds=\\int_0^{\\frac{\\sqrt{2}}{2}}e^{\\sqrt{2}x}\\sqrt{2}\\,dx=e-1$\n\n又 $\\int_{AB}e^{\\sqrt{x^2+y^2}}ds=\\int_{AB}e\\,ds=e\\cdot\\frac{\\pi}{4}=\\frac{e}{4}\\pi$\n\n于是 $I=2e-2+\\frac{e}{4}\\pi$",
+  "sort_order": 13
+}

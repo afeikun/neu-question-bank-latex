@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\xi_1,\\ldots,\\xi_n$独立且均为参数$p$的0-1变量，$\\eta_n=\\sum_{i=1}^n\\xi_i$服从什么分布？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$P(\\eta_n=k)=\\binom nkp^k(1-p)^{n-k}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\binom{n-k}{k}p^{n-k}(1-p)^k$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\binom{n-1}{k}p^k(1-p)^{n-k}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\binom nkp^{n-k}(1-p)^k$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\eta_n$为$n$个独立伯努利变量之和，服从$B(n,p)$。",
+  "search_text": "$\\xi_1,\\ldots,\\xi_n$独立且均为参数$p$的0-1变量，$\\eta_n=\\sum_{i=1}^n\\xi_i$服从什么分布？ $P(\\eta_n=k)=\\binom nkp^k(1-p)^{n-k}$ $\\binom{n-k}{k}p^{n-k}(1-p)^k$ $\\binom{n-1}{k}p^k(1-p)^{n-k}$ $\\binom nkp^{n-k}(1-p)^k$ $\\eta_n$为$n$个独立伯努利变量之和，服从$B(n,p)$。",
+  "sort_order": 2
+}

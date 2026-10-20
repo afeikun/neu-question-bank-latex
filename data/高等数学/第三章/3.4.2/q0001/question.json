@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)$ 在点 $x_0$ 处取极值，则（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f(x_0)$ 必是最值"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f\\prime(x_0)$ 不存在"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "若 $f(x)$ 可导，则 $f\\prime(x_0)=0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f\\prime(x_0)=0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由费马定理，若函数在极值点 $x_0$ 可导，则 $f\\prime(x_0)=0$。函数在极值点处也可能不可导。",
+  "search_text": "若 $f(x)$ 在点 $x_0$ 处取极值，则（ ）。 $f(x_0)$ 必是最值 $f\\prime(x_0)$ 不存在 若 $f(x)$ 可导，则 $f\\prime(x_0)=0$ $f\\prime(x_0)=0$ 由费马定理，若函数在极值点 $x_0$ 可导，则 $f\\prime(x_0)=0$。函数在极值点处也可能不可导。",
+  "sort_order": 1
+}

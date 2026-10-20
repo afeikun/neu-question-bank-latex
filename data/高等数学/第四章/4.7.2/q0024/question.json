@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "双曲线x²/a²−y²/b²=1与y=±b围成区域绕y轴旋转体积",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(8/3)πa²b²"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(8/3)πab²"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(8/3)πa²b"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(7/3)πa²b²"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "柱壳积分V=2π∫₀ᵇ(a²+(a²/b²)y²)dy=8πa²b/3。",
+  "search_text": "双曲线x²/a²−y²/b²=1与y=±b围成区域绕y轴旋转体积 (8/3)πa²b² (8/3)πab² (8/3)πa²b (7/3)πa²b² 柱壳积分V=2π∫₀ᵇ(a²+(a²/b²)y²)dy=8πa²b/3。",
+  "sort_order": 24
+}

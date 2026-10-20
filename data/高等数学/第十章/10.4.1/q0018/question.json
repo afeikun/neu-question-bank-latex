@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$(y-3x^2)dx-(4y-x)dy=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$xy-x^3-2y^2=C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$xy-x^3-2y^3=C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$xy-x^2-y^2=C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$x^2y-x^3-2y^2=C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "方程整理为 $(y\\,dx+x\\,dy)-3x^2dx-4y\\,dy=0$，\n\n即 $dxy-dx^3-2dy^2=0$，\n\n可得 $d(xy-x^3-2y^2)=0$，",
+  "search_text": "$(y-3x^2)dx-(4y-x)dy=0$ 的通解为（ ） $xy-x^3-2y^2=C$ $xy-x^3-2y^3=C$ $xy-x^2-y^2=C$ $x^2y-x^3-2y^2=C$ 方程整理为 $(y\\,dx+x\\,dy)-3x^2dx-4y\\,dy=0$，\n\n即 $dxy-dx^3-2dy^2=0$，\n\n可得 $d(xy-x^3-2y^2)=0$，",
+  "sort_order": 18
+}

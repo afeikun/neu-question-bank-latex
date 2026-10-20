@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)$ 在闭圆域 $|z|\\le1$ 上解析，$\\frac1{2\\pi i}\\oint_{|z|=1}[2+(z+1/z)]f(z)dz/z$ 等于（ ），正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2f(0)+f'(0)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3f(0)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i f'(0)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i f(0)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分拆为两项后由Cauchy公式分别得到 $2f(0)$ 与 $f'(0)$。",
+  "search_text": "设 $f(z)$ 在闭圆域 $|z|\\le1$ 上解析，$\\frac1{2\\pi i}\\oint_{|z|=1}[2+(z+1/z)]f(z)dz/z$ 等于（ ），正向。 $2f(0)+f'(0)$ $3f(0)$ $2\\pi i f'(0)$ $2\\pi i f(0)$ 分拆为两项后由Cauchy公式分别得到 $2f(0)$ 与 $f'(0)$。",
+  "sort_order": 20
+}

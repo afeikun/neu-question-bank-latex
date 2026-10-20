@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "平面 $2x-3y-z+12=0$ 在 $x,y,z$ 轴上的截距分别为(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(6,-4,-12)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(2,-3,-1)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-2,3,1)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-6,4,12)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "分别令其余两个变量为零，得到截距 $(-6,4,12)$。",
+  "search_text": "平面 $2x-3y-z+12=0$ 在 $x,y,z$ 轴上的截距分别为(\\quad)。 $(6,-4,-12)$ $(2,-3,-1)$ $(-2,3,1)$ $(-6,4,12)$ 分别令其余两个变量为零，得到截距 $(-6,4,12)$。",
+  "sort_order": 23
+}

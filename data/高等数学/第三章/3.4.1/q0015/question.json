@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "关于函数 $f(x)=2x^3-9x^2+12x-3$ 的单调区间与单调性，下列叙述正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\infty,1)$ 减，$(1,2)$ 增，$(2,+\\infty)$ 减"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(-\\infty,2)$ 减，$(2,+\\infty)$ 增"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(-\\infty,1)$ 增，$(1,+\\infty)$ 减"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\infty,1)$ 增，$(1,2)$ 减，$(2,+\\infty)$ 增"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "$f\\prime(x)=6(x-1)(x-2)$，所以在 $(-\\infty,1)$ 与 $(2,+\\infty)$ 上增加，在 $(1,2)$ 上减少。",
+  "search_text": "关于函数 $f(x)=2x^3-9x^2+12x-3$ 的单调区间与单调性，下列叙述正确的是（ ）。 $(-\\infty,1)$ 减，$(1,2)$ 增，$(2,+\\infty)$ 减 $(-\\infty,2)$ 减，$(2,+\\infty)$ 增 $(-\\infty,1)$ 增，$(1,+\\infty)$ 减 $(-\\infty,1)$ 增，$(1,2)$ 减，$(2,+\\infty)$ 增 $f\\prime(x)=6(x-1)(x-2)$，所以在 $(-\\infty,1)$ 与 $(2,+\\infty)$ 上增加，在 $(1,2)$ 上减少。",
+  "sort_order": 15
+}

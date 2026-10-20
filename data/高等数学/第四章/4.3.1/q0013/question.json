@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "limₓ→₀ x²/[∫cosx¹e^(−u²)du]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "2e"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "e"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "e⁻¹"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2e⁻¹"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分母等价于e⁻¹(1−cosx)∼x²/(2e)，极限为2e。",
+  "search_text": "limₓ→₀ x²/[∫cosx¹e^(−u²)du] 2e e e⁻¹ 2e⁻¹ 分母等价于e⁻¹(1−cosx)∼x²/(2e)，极限为2e。",
+  "sort_order": 13
+}

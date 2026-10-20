@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算球体体积时，要求精确度在 $1\\%$ 以内，测量半径 $R$ 的相对误差不能超过 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0.33\\%$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0.34\\%$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0.35\\%$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$0.36\\%$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $V=\\frac43\\pi R^3$，有 $\\left|\\frac{dV}{V}\\right|=3\\left|\\frac{dR}{R}\\right|\\le1\\%$，故 $\\left|\\frac{dR}{R}\\right|\\le\\frac13\\%=0.33\\%$。",
+  "search_text": "计算球体体积时，要求精确度在 $1\\%$ 以内，测量半径 $R$ 的相对误差不能超过 $(\\quad)$。 $0.33\\%$ $0.34\\%$ $0.35\\%$ $0.36\\%$ 由 $V=\\frac43\\pi R^3$，有 $\\left|\\frac{dV}{V}\\right|=3\\left|\\frac{dR}{R}\\right|\\le1\\%$，故 $\\left|\\frac{dR}{R}\\right|\\le\\frac13\\%=0.33\\%$。",
+  "sort_order": 19
+}

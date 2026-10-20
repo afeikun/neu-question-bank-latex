@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int\\frac{dx}{x\\sqrt{x^2-1}}$ 的值为",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$-\\arccos\\frac1{|x|}+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arcsin\\frac1{|x|}+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\arccos\\frac1{|x|}+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\arcsin\\frac1{|x|}+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "令 $x=\\sec t$，原积分化为 $t+C=\\arccos\\frac1{|x|}+C$。",
+  "search_text": "$\\int\\frac{dx}{x\\sqrt{x^2-1}}$ 的值为 $-\\arccos\\frac1{|x|}+C$ $\\arcsin\\frac1{|x|}+C$ $\\arccos\\frac1{|x|}+C$ $-\\arcsin\\frac1{|x|}+C$ 令 $x=\\sec t$，原积分化为 $t+C=\\arccos\\frac1{|x|}+C$。",
+  "sort_order": 5
+}

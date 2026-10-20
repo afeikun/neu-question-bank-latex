@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "由参数方程 $x=2t-1,\\ te^y+y+1=0$ 确定 $y=y(x)$，求 $y^{\\prime\\prime}$ 在 $t=0$ 的值。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac2{e^2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2e^2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1{2e^2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{e^2}2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答：由题可知 $t=0，x=-1，y=-1$，方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=2，\\quad e^y+te^y\\frac{dy}{dt}+\\frac{dy}{dt}=0，\\quad\\text{可得 }\\frac{dy}{dt}=-\\frac{e^y}{1+te^y}，\\quad\\frac{dy}{dx}=-\\frac{e^y}{2(1+te^y)}，$$\n\n$$\\left.\\frac{dy}{dx}\\right|_{t=0}=-\\frac{1}{2e}$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }e^y(y')^2+e^yy''+2y'+xy''-e^x=0，\\text{带入初值则有 }\\left.\\frac{d^2y}{dx^2}\\right|_{t=0}=\\frac{1}{2e^2}$$",
+  "search_text": "由参数方程 $x=2t-1,\\ te^y+y+1=0$ 确定 $y=y(x)$，求 $y^{\\prime\\prime}$ 在 $t=0$ 的值。 $\\frac2{e^2}$ $2e^2$ $\\frac1{2e^2}$ $\\frac{e^2}2$ 解答：由题可知 $t=0，x=-1，y=-1$，方程组两边同时对 $t$ 求导可得\n\n$$\\frac{dx}{dt}=2，\\quad e^y+te^y\\frac{dy}{dt}+\\frac{dy}{dt}=0，\\quad\\text{可得 }\\frac{dy}{dt}=-\\frac{e^y}{1+te^y}，\\quad\\frac{dy}{dx}=-\\frac{e^y}{2(1+te^y)}，$$\n\n$$\\left.\\frac{dy}{dx}\\right|_{t=0}=-\\frac{1}{2e}$$\n\n方程两边再同时对 $x$ 求导一次，\n\n$$\\text{则有 }e^y(y')^2+e^yy''+2y'+xy''-e^x=0，\\text{带入初值则有 }\\left.\\frac{d^2y}{dx^2}\\right|_{t=0}=\\frac{1}{2e^2}$$",
+  "sort_order": 26
+}

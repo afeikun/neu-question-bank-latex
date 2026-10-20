@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "积分 $I=\\displaystyle\\int_0^{+\\infty}\\dfrac{x\\sin mx}{x^4+a^4}\\,dx=(\\ \\ )\\quad(m>0,a>0)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi{2a^2}e^{-\\frac{ma}{\\sqrt2}}\\sin\\dfrac{ma}{\\sqrt2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi{2a^2}e^{\\frac{ma}{\\sqrt2}}\\cos\\dfrac{ma}{\\sqrt2}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{\\pi i}{a^2}e^{\\frac{ma}{\\sqrt2}}\\sin\\dfrac{ma}{\\sqrt2}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac\\pi{a^2}e^{-\\frac{ma}{\\sqrt2}}\\cos\\dfrac{ma}{\\sqrt2}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "被积函数为偶函数，可将积分化为全实轴复指数积分虚部的一半。上半平面两个一阶极点的留数给出 $I=\\dfrac\\pi{2a^2}e^{-\\frac{ma}{\\sqrt2}}\\sin\\dfrac{ma}{\\sqrt2}$。",
+  "search_text": "积分 $I=\\displaystyle\\int_0^{+\\infty}\\dfrac{x\\sin mx}{x^4+a^4}\\,dx=(\\ \\ )\\quad(m>0,a>0)$。 $\\dfrac\\pi{2a^2}e^{-\\frac{ma}{\\sqrt2}}\\sin\\dfrac{ma}{\\sqrt2}$ $\\dfrac\\pi{2a^2}e^{\\frac{ma}{\\sqrt2}}\\cos\\dfrac{ma}{\\sqrt2}$ $\\dfrac{\\pi i}{a^2}e^{\\frac{ma}{\\sqrt2}}\\sin\\dfrac{ma}{\\sqrt2}$ $\\dfrac\\pi{a^2}e^{-\\frac{ma}{\\sqrt2}}\\cos\\dfrac{ma}{\\sqrt2}$ 被积函数为偶函数，可将积分化为全实轴复指数积分虚部的一半。上半平面两个一阶极点的留数给出 $I=\\dfrac\\pi{2a^2}e^{-\\frac{ma}{\\sqrt2}}\\sin\\dfrac{ma}{\\sqrt2}$。",
+  "sort_order": 36
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "方程 $z=t^2+\\dfrac{2i}{t^2}$（$t$ 为实参数）表示的曲线为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "双曲线 $xy=2$ 在第一象限部分"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "双曲线 $xy=2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "抛物线 $y^2=2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "抛物线 $y^2=2x$ 在第一象限部分"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $x=t^2>0$，$y=2/t^2>0$，则 $xy=2$。",
+  "search_text": "方程 $z=t^2+\\dfrac{2i}{t^2}$（$t$ 为实参数）表示的曲线为（ ）。 双曲线 $xy=2$ 在第一象限部分 双曲线 $xy=2$ 抛物线 $y^2=2x$ 抛物线 $y^2=2x$ 在第一象限部分 令 $x=t^2>0$，$y=2/t^2>0$，则 $xy=2$。",
+  "sort_order": 17
+}

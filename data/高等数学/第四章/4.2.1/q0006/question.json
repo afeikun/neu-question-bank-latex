@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若 $f(x)=x^2\\int_0^1f(x)\\,dx+x$，则 $f(x)=$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac32x^2+x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac23x^2+x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac34x^2+x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac34x^2+x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $k=\\int_0^1f(x)dx$，则 $f(x)=kx^2+x$，代回得 $k=\\frac34$。",
+  "search_text": "若 $f(x)=x^2\\int_0^1f(x)\\,dx+x$，则 $f(x)=$ $\\frac32x^2+x$ $\\frac23x^2+x$ $\\frac34x^2+x$ $\\frac34x^2+x$ 令 $k=\\int_0^1f(x)dx$，则 $f(x)=kx^2+x$，代回得 $k=\\frac34$。",
+  "sort_order": 6
+}

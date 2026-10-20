@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设袋中装有$a$只红球、$b$只白球，每次从袋中任取一球，观察颜色后放回，并同时再放入$m$只与所取颜色相同的球，连续在袋中取球四次，求第一、二次取到红球且第三次取白球、第四次取红球的概率（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{a+2m}{a+b+3m}\\frac b{a+b+2m}\\frac{a+m}{a+b+m}\\frac a{a+b}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{a+2m}{a+b+3m}\\frac{a+m}{a+b+m}\\frac a{a+b}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{a+2m}{a+b+3m}\\frac b{a+b+2m}\\frac a{a+b}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac b{a+b+2m}\\frac{a+m}{a+b+m}\\frac a{a+b}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "按序取红、红、白、红的条件概率依次为$a/(a+b)$、$(a+m)/(a+b+m)$、$b/(a+b+2m)$、$(a+2m)/(a+b+3m)$，相乘即选项1。",
+  "search_text": "设袋中装有$a$只红球、$b$只白球，每次从袋中任取一球，观察颜色后放回，并同时再放入$m$只与所取颜色相同的球，连续在袋中取球四次，求第一、二次取到红球且第三次取白球、第四次取红球的概率（ ）。 $\\frac{a+2m}{a+b+3m}\\frac b{a+b+2m}\\frac{a+m}{a+b+m}\\frac a{a+b}$ $\\frac{a+2m}{a+b+3m}\\frac{a+m}{a+b+m}\\frac a{a+b}$ $\\frac{a+2m}{a+b+3m}\\frac b{a+b+2m}\\frac a{a+b}$ $\\frac b{a+b+2m}\\frac{a+m}{a+b+m}\\frac a{a+b}$ 按序取红、红、白、红的条件概率依次为$a/(a+b)$、$(a+m)/(a+b+m)$、$b/(a+b+2m)$、$(a+2m)/(a+b+3m)$，相乘即选项1。",
+  "sort_order": 14
+}

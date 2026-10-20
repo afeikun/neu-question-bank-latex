@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列表达式中为常数的是 $(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\arcsin x-\\arccos x$；"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\arcsin x+\\arccos x$；"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\arcsin x/\\arccos x$；"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\arcsin x\\cdot\\arccos x$；"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "只有 $(\\arcsin x+\\arccos x)'=0$，故其和为常数。",
+  "search_text": "下列表达式中为常数的是 $(\\quad)$。 $\\arcsin x-\\arccos x$； $\\arcsin x+\\arccos x$； $\\arcsin x/\\arccos x$； $\\arcsin x\\cdot\\arccos x$； 只有 $(\\arcsin x+\\arccos x)'=0$，故其和为常数。",
+  "sort_order": 26
+}

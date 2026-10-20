@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若级数 $\\sum_{n=1}^{\\infty}a/q^n$ 收敛（$a$ 为常数），$q$ 满足什么条件？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$q=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|q|<1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$q=-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|q|>1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "几何级数公比为 $1/q$，收敛需 $|1/q|<1$，即 $|q|>1$。",
+  "search_text": "若级数 $\\sum_{n=1}^{\\infty}a/q^n$ 收敛（$a$ 为常数），$q$ 满足什么条件？ $q=1$ $|q|<1$ $q=-1$ $|q|>1$ 几何级数公比为 $1/q$，收敛需 $|1/q|<1$，即 $|q|>1$。",
+  "sort_order": 5
+}

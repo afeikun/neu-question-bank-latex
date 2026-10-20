@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "伯努利方程 $\\frac{dy}{dx}+\\frac13y=\\frac13(1-2x)y^4$ 的解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^3=c(e^x-2x-1)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^3=c(e^x-2x-1)^{-1}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^3=ce^x-2x-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^3=(ce^x-2x-1)^{-1}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "令 $z=y^{1-4}=y^{-3}\\Rightarrow y'_x=-\\frac{1}{3}z^{-4/3}z'_x$\n\n代入得 $-\\frac{1}{3}z^{-4/3}\\frac{dz}{dx}+\\frac{1}{3}z^{-1/3}=\\frac{1}{3}(1-2x)z^{-4/3}\\Rightarrow\\frac{dz}{dx}-z=2x-1$，\n\n$$-\\frac{1}{3}z^{-4/3}\\frac{dz}{dx}+\\frac{1}{3}z^{-1/3}=\\frac{1}{3}(1-2x)z^{-4/3}\\Rightarrow\\frac{dz}{dx}-z=2x-1$$\n\n$$z=e^{\\int1\\,dx}\\left[c+\\int(2x-1)e^{-\\int1\\,dx}\\,dx\\right]=e^x\\left[c+\\int(2x-1)e^{-x}\\,dx\\right]$$\n\n所以\n\n$$=e^x\\left[c-\\int(2x-1)\\,de^{-x}\\right]=e^x\\left[c-(2x-1)e^{-x}+2\\int e^{-x}\\,dx\\right]$$\n\n$$=e^x\\left[c-(2x+1)e^{-x}\\right]=ce^x-(2x+1)$$\n\n所求通解为 $y^3=[ce^x-(2x+1)]^{-1}$",
+  "search_text": "伯努利方程 $\\frac{dy}{dx}+\\frac13y=\\frac13(1-2x)y^4$ 的解为（ ） $y^3=c(e^x-2x-1)$ $y^3=c(e^x-2x-1)^{-1}$ $y^3=ce^x-2x-1$ $y^3=(ce^x-2x-1)^{-1}$ 令 $z=y^{1-4}=y^{-3}\\Rightarrow y'_x=-\\frac{1}{3}z^{-4/3}z'_x$\n\n代入得 $-\\frac{1}{3}z^{-4/3}\\frac{dz}{dx}+\\frac{1}{3}z^{-1/3}=\\frac{1}{3}(1-2x)z^{-4/3}\\Rightarrow\\frac{dz}{dx}-z=2x-1$，\n\n$$-\\frac{1}{3}z^{-4/3}\\frac{dz}{dx}+\\frac{1}{3}z^{-1/3}=\\frac{1}{3}(1-2x)z^{-4/3}\\Rightarrow\\frac{dz}{dx}-z=2x-1$$\n\n$$z=e^{\\int1\\,dx}\\left[c+\\int(2x-1)e^{-\\int1\\,dx}\\,dx\\right]=e^x\\left[c+\\int(2x-1)e^{-x}\\,dx\\right]$$\n\n所以\n\n$$=e^x\\left[c-\\int(2x-1)\\,de^{-x}\\right]=e^x\\left[c-(2x-1)e^{-x}+2\\int e^{-x}\\,dx\\right]$$\n\n$$=e^x\\left[c-(2x+1)e^{-x}\\right]=ce^x-(2x+1)$$\n\n所求通解为 $y^3=[ce^x-(2x+1)]^{-1}$",
+  "sort_order": 9
+}

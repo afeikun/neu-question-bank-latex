@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $y=x^3-x^2+x+7$ 和 $x=f(t)$，设 $t=0$ 时 $x=2,f\\prime(0)=1$，则 $t=0$ 时 $\\frac{dy}{dt}=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$8$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$\\frac{19}{2}$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$9$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$19$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\frac{dy}{dt}=(3x^2-2x+1)f\\prime(t)$，代入得 $9$。",
+  "search_text": "已知 $y=x^3-x^2+x+7$ 和 $x=f(t)$，设 $t=0$ 时 $x=2,f\\prime(0)=1$，则 $t=0$ 时 $\\frac{dy}{dt}=$（ ）。 $$8$$ $$\\frac{19}{2}$$ $$9$$ $$19$$ $\\frac{dy}{dt}=(3x^2-2x+1)f\\prime(t)$，代入得 $9$。",
+  "sort_order": 27
+}

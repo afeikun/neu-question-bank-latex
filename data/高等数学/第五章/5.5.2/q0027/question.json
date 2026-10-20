@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "将 $\\cos^2(x/2)$ 展开成 $x$ 的幂级数。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac12-\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n}}{(2n)!}$，$-\\infty<x<+\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac12+\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n}}{(2n)!}$，$-\\infty<x<+\\infty$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac12+\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n}}{(2n)!}$，$-\\infty<x<+\\infty$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac12+\\sum_{n=0}^{\\infty}\\frac{x^{2n}}{(2n)!}$，$-\\infty<x<+\\infty$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$\\cos^2(x/2)=\\frac{1+\\cos x}{2}=\\frac12+\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n}}{(2n)!}$，适用于所有实数 $x$。",
+  "search_text": "将 $\\cos^2(x/2)$ 展开成 $x$ 的幂级数。 $\\frac12-\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n}}{(2n)!}$，$-\\infty<x<+\\infty$ $\\frac12+\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n}}{(2n)!}$，$-\\infty<x<+\\infty$ $\\frac12+\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n}}{(2n)!}$，$-\\infty<x<+\\infty$ $\\frac12+\\sum_{n=0}^{\\infty}\\frac{x^{2n}}{(2n)!}$，$-\\infty<x<+\\infty$ $\\cos^2(x/2)=\\frac{1+\\cos x}{2}=\\frac12+\\frac12\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n}}{(2n)!}$，适用于所有实数 $x$。",
+  "sort_order": 27
+}

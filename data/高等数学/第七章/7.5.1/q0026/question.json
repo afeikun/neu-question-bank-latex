@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=y(x)$ 由方程 $e^y+xy=e$ 确定，求 $(y'(0),y''(0))$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$(-\\frac1e,-\\frac1{e^2})$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$(\\frac1e,\\frac1{e^2})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\frac1e,-\\frac1{e^2})$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(-\\frac1e,\\frac1{e^2})$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "方程两边对 $x$ 求导，得\n\n$$\ne^y y'+y+xy'=0\\quad\\text{①}\n$$\n\n再求导，得\n\n$$\ne^y y'^2+(e^y+x)y''+2y'=0\\quad\\text{②}\n$$\n\n当 $x=0$ 时，$y=1$，故由①得 $y'(0)=-\\frac{1}{e}$\n\n再代入②得 $y''(0)=\\frac{1}{e^2}$",
+  "search_text": "设 $y=y(x)$ 由方程 $e^y+xy=e$ 确定，求 $(y'(0),y''(0))$。 $(-\\frac1e,-\\frac1{e^2})$ $(\\frac1e,\\frac1{e^2})$ $(\\frac1e,-\\frac1{e^2})$ $(-\\frac1e,\\frac1{e^2})$ 方程两边对 $x$ 求导，得\n\n$$\ne^y y'+y+xy'=0\\quad\\text{①}\n$$\n\n再求导，得\n\n$$\ne^y y'^2+(e^y+x)y''+2y'=0\\quad\\text{②}\n$$\n\n当 $x=0$ 时，$y=1$，故由①得 $y'(0)=-\\frac{1}{e}$\n\n再代入②得 $y''(0)=\\frac{1}{e^2}$",
+  "sort_order": 26
+}

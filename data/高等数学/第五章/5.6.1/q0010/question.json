@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "给定周期 $2\\pi$ 分段函数，以下计算正确的有几个？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "3"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "2"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "按周期性与间断点取左右极限平均，恰有2个断言正确。",
+  "search_text": "给定周期 $2\\pi$ 分段函数，以下计算正确的有几个？ 3 1 0 2 按周期性与间断点取左右极限平均，恰有2个断言正确。",
+  "sort_order": 10
+}

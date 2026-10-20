@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "10张奖券中8张2元、2张5元，抽3张，求奖金期望。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$7.8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$6.5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$12$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$9$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "抽中2元张数为6,9,12，概率7/15,7/15,1/15，期望7.8元。",
+  "search_text": "10张奖券中8张2元、2张5元，抽3张，求奖金期望。 $7.8$ $6.5$ $12$ $9$ 抽中2元张数为6,9,12，概率7/15,7/15,1/15，期望7.8元。",
+  "sort_order": 5
+}

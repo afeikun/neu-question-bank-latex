@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "任意投掷4颗均匀的骰子，则投掷这4颗骰子所出现的点数中恰有3个点数相同的事件的概率等于（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$5/54$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$1/54$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3/54$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$7/54$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "4颗骰子共有$6^4$种结果。恰有3个点数相同有$6\\times5\\times\\binom43$种，因此概率为$6\\times5\\times4/6^4=5/54$。",
+  "search_text": "任意投掷4颗均匀的骰子，则投掷这4颗骰子所出现的点数中恰有3个点数相同的事件的概率等于（ ）。 $5/54$ $1/54$ $3/54$ $7/54$ 4颗骰子共有$6^4$种结果。恰有3个点数相同有$6\\times5\\times\\binom43$种，因此概率为$6\\times5\\times4/6^4=5/54$。",
+  "sort_order": 1
+}

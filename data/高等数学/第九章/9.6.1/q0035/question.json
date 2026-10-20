@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "其中 $ABO$ 为由点 $A(a,0)$ 到点 $O(0,0)$ 的上半圆周 $x^2+y^2=ax$，则 $\\int_{ABO}(e^x\\sin y-my)dx+(e^x\\cos y-m)dy=$",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi ma^2}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{\\pi ma^2}{8}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac{\\pi ma^2}{3}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac{\\pi ma^2}{4}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解析：\n\n在 $Ox$ 轴作为连接点 $O(0,0)$ 与点 $A(a,0)$ 的辅助线，它与上半圆周便构成封闭的半圆形 $ABOA$，于是 $\\int_{ABO}=\\oint_{ABOA}-\\int_{OA}$。根据格林公式\n\n$$\\oint_{ABOA}(e^x\\sin y-my)dx+(e^x\\cos y-m)dy=\\iint_D[e^x\\cos y-(e^x\\cos y-m)]dxdy$$\n\n$$=\\iint_Dm dxdy=m\\cdot\\frac{1}{2}\\cdot\\pi\\left(\\frac{a}{2}\\right)^2=\\frac{\\pi ma^2}{8}$$\n\n由于 $OA$ 的方程为 $y=0$，所以\n\n$$\\int_{OA}(e^x\\sin y-my)dx+(e^x\\cos y-m)dy=0$$\n\n综上所述，得\n\n$$\\oint_{ABO}(e^x\\sin y-my)dx+(e^x\\cos y-m)dy=\\frac{\\pi ma^2}{8}$$",
+  "search_text": "其中 $ABO$ 为由点 $A(a,0)$ 到点 $O(0,0)$ 的上半圆周 $x^2+y^2=ax$，则 $\\int_{ABO}(e^x\\sin y-my)dx+(e^x\\cos y-m)dy=$ $\\frac{\\pi ma^2}{2}$ $\\frac{\\pi ma^2}{8}$ $\\frac{\\pi ma^2}{3}$ $\\frac{\\pi ma^2}{4}$ 解析：\n\n在 $Ox$ 轴作为连接点 $O(0,0)$ 与点 $A(a,0)$ 的辅助线，它与上半圆周便构成封闭的半圆形 $ABOA$，于是 $\\int_{ABO}=\\oint_{ABOA}-\\int_{OA}$。根据格林公式\n\n$$\\oint_{ABOA}(e^x\\sin y-my)dx+(e^x\\cos y-m)dy=\\iint_D[e^x\\cos y-(e^x\\cos y-m)]dxdy$$\n\n$$=\\iint_Dm dxdy=m\\cdot\\frac{1}{2}\\cdot\\pi\\left(\\frac{a}{2}\\right)^2=\\frac{\\pi ma^2}{8}$$\n\n由于 $OA$ 的方程为 $y=0$，所以\n\n$$\\int_{OA}(e^x\\sin y-my)dx+(e^x\\cos y-m)dy=0$$\n\n综上所述，得\n\n$$\\oint_{ABO}(e^x\\sin y-my)dx+(e^x\\cos y-m)dy=\\frac{\\pi ma^2}{8}$$",
+  "sort_order": 35
+}

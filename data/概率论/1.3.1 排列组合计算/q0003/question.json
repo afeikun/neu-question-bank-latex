@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "5 个篮球队员，分工打右前锋、左前锋、中锋、左后卫、右后卫 5 个位置共有(\\quad)种分工方法？",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$120$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$60$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$30$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$10$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "5 名队员分配到 5 个不同位置，相当于 5 人全排列，方法数为 $5!=120$。",
+  "search_text": "5 个篮球队员，分工打右前锋、左前锋、中锋、左后卫、右后卫 5 个位置共有(\\quad)种分工方法？ $120$ $60$ $30$ $10$ 5 名队员分配到 5 个不同位置，相当于 5 人全排列，方法数为 $5!=120$。",
+  "sort_order": 3
+}

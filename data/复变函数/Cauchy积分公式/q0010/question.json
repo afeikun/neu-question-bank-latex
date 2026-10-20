@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\oint_{|z-2|=5}\\frac{e^{z^2}}{z^2-6z}\\,dz=(\\quad)$，曲线方向为正向。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{e^{36}-1}{3}\\pi i$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2(e^{36}-1)\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\pi i$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$-\\frac13\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "由 $\\frac{1}{z^2-6z}=\\frac16(\\frac1{z-6}-\\frac1z)$ 得，$\\oint\\frac{e^{z^2}}{z^2-6z}\\,dz=\\frac16\\oint\\frac{e^{z^2}}{z-6}\\,dz-\\frac16\\oint\\frac{e^{z^2}}z\\,dz=\\frac{2\\pi i}{6}(e^{36}-1)=\\frac{e^{36}-1}{3}\\pi i$。",
+  "search_text": "$\\oint_{|z-2|=5}\\frac{e^{z^2}}{z^2-6z}\\,dz=(\\quad)$，曲线方向为正向。 $\\frac{e^{36}-1}{3}\\pi i$ $2(e^{36}-1)\\pi i$ $2\\pi i$ $-\\frac13\\pi i$ 由 $\\frac{1}{z^2-6z}=\\frac16(\\frac1{z-6}-\\frac1z)$ 得，$\\oint\\frac{e^{z^2}}{z^2-6z}\\,dz=\\frac16\\oint\\frac{e^{z^2}}{z-6}\\,dz-\\frac16\\oint\\frac{e^{z^2}}z\\,dz=\\frac{2\\pi i}{6}(e^{36}-1)=\\frac{e^{36}-1}{3}\\pi i$。",
+  "sort_order": 10
+}

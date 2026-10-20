@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "在“近似代替”中，函数 $f(x)$ 在区间 $[x_i,x_{i+1}]$ 上的近似值可以是：",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "左端点函数值 $f(x_i)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "右端点函数值 $f(x_{i+1})$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "区间内任一函数值 $f(\\xi_i)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "以上答案均正确"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "当分割足够细时，区间内任一函数值均可作为近似值。",
+  "search_text": "在“近似代替”中，函数 $f(x)$ 在区间 $[x_i,x_{i+1}]$ 上的近似值可以是： 左端点函数值 $f(x_i)$ 右端点函数值 $f(x_{i+1})$ 区间内任一函数值 $f(\\xi_i)$ 以上答案均正确 当分割足够细时，区间内任一函数值均可作为近似值。",
+  "sort_order": 7
+}

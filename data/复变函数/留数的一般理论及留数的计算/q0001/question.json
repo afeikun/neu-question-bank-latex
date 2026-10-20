@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(z)=\\dfrac1z-z\\sin\\dfrac1{z^2}$，则 $\\operatorname{Res}[f(z),0]=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac56$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在 $z=0$ 处展开 $\\sin(1/z^2)$ 的 Laurent 级数，$f(z)$ 中 $z^{-1}$ 项系数为 $1-1=0$，故留数为 $0$。",
+  "search_text": "设 $f(z)=\\dfrac1z-z\\sin\\dfrac1{z^2}$，则 $\\operatorname{Res}[f(z),0]=(\\ \\ )$。 $0$ $2$ $1$ $\\dfrac56$ 在 $z=0$ 处展开 $\\sin(1/z^2)$ 的 Laurent 级数，$f(z)$ 中 $z^{-1}$ 项系数为 $1-1=0$，故留数为 $0$。",
+  "sort_order": 1
+}

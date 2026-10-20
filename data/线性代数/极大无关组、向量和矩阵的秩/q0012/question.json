@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设向量组 $\\alpha_1=\\begin{pmatrix}a\\\\3\\\\1\\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix}2\\\\b\\\\3\\end{pmatrix},\\ \\alpha_3=\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix},\\ \\alpha_4=\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix}$ 的秩为 $2$，则 $a,b$ 的值分别为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=3,\\ b=4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=2,\\ b=5$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=2,\\ b=4$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=3,\\ b=5$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "行化简可知秩为 $2$ 要求 $a-2=0$ 且 $5-b=0$，所以 $a=2,b=5$。",
+  "search_text": "设向量组 $\\alpha_1=\\begin{pmatrix}a\\\\3\\\\1\\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix}2\\\\b\\\\3\\end{pmatrix},\\ \\alpha_3=\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix},\\ \\alpha_4=\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix}$ 的秩为 $2$，则 $a,b$ 的值分别为（ ）。 $a=3,\\ b=4$ $a=2,\\ b=5$ $a=2,\\ b=4$ $a=3,\\ b=5$ 行化简可知秩为 $2$ 要求 $a-2=0$ 且 $5-b=0$，所以 $a=2,b=5$。",
+  "sort_order": 12
+}

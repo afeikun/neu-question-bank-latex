@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $y\\prime+\\frac yx=\\frac{\\sin x}{x}$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac1x(\\sin x+c)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac1x(-\\sin x+c)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac1x(-\\cos x+c)$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac1x(\\cos x+c)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$P(x)=\\frac{1}{x},Q(x)=\\frac{\\sin x}{x}$，于是所求通解为\n\n$y=e^{-\\int\\frac{1}{x}dx}(\\int\\frac{\\sin x}{x}e^{\\int\\frac{1}{x}dx}dx+c)=\\frac{1}{x}(\\int\\frac{\\sin x}{x}x\\,dx+c)$\n\n$=\\frac{1}{x}(-\\cos x+c)$",
+  "search_text": "微分方程 $y\\prime+\\frac yx=\\frac{\\sin x}{x}$ 的通解为（ ） $\\frac1x(\\sin x+c)$ $\\frac1x(-\\sin x+c)$ $\\frac1x(-\\cos x+c)$ $\\frac1x(\\cos x+c)$ $P(x)=\\frac{1}{x},Q(x)=\\frac{\\sin x}{x}$，于是所求通解为\n\n$y=e^{-\\int\\frac{1}{x}dx}(\\int\\frac{\\sin x}{x}e^{\\int\\frac{1}{x}dx}dx+c)=\\frac{1}{x}(\\int\\frac{\\sin x}{x}x\\,dx+c)$\n\n$=\\frac{1}{x}(-\\cos x+c)$",
+  "sort_order": 18
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+4x_1x_3+4x_2x_3$ 的正、负惯性指数分别为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$1,2$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$2,0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2,1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1,0$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$f=(x_1+2x_3)^2+(x_2+2x_3)^2-8x_3^2=y_1^2+y_2^2-8y_3^2$，所以正、负惯性指数分别为 $2,1$。",
+  "search_text": "二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+4x_1x_3+4x_2x_3$ 的正、负惯性指数分别为（ ）。 $1,2$ $2,0$ $2,1$ $1,0$ $f=(x_1+2x_3)^2+(x_2+2x_3)^2-8x_3^2=y_1^2+y_2^2-8y_3^2$，所以正、负惯性指数分别为 $2,1$。",
+  "sort_order": 29
+}

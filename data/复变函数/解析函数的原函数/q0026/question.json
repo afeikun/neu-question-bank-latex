@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\int_0^{\\pi i}(z-i)e^{2z}\\,dz=(\\quad)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{\\pi i}{2}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi i$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\pi i-1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$2\\pi i$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\int_0^{\\pi i}(z-i)e^{2z}\\,dz=\\frac12\\int_0^{\\pi i}(z-i)(e^{2z})'\\,dz=\\frac12(z-i)e^{2z}\\big|_0^{\\pi i}-\\frac14\\int_0^{\\pi i}e^{2z}\\,dz=\\frac{\\pi i}{2}$。",
+  "search_text": "$\\int_0^{\\pi i}(z-i)e^{2z}\\,dz=(\\quad)$。 $\\frac{\\pi i}{2}$ $\\pi i$ $\\pi i-1$ $2\\pi i$ $\\int_0^{\\pi i}(z-i)e^{2z}\\,dz=\\frac12\\int_0^{\\pi i}(z-i)(e^{2z})'\\,dz=\\frac12(z-i)e^{2z}\\big|_0^{\\pi i}-\\frac14\\int_0^{\\pi i}e^{2z}\\,dz=\\frac{\\pi i}{2}$。",
+  "sort_order": 26
+}

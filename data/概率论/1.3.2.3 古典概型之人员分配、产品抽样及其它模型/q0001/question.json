@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "一个人有8把钥匙，其中有2把能打开办公室的门，从8把中任取2把钥匙，则能打开门的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$13/28$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$12/28$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$14/28$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$15/28$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "总取法$\\binom82$。至少取到一把能开门钥匙的取法为$\\binom21\\binom61+\\binom22$，概率为$13/28$。",
+  "search_text": "一个人有8把钥匙，其中有2把能打开办公室的门，从8把中任取2把钥匙，则能打开门的概率为（ ）。 $13/28$ $12/28$ $14/28$ $15/28$ 总取法$\\binom82$。至少取到一把能开门钥匙的取法为$\\binom21\\binom61+\\binom22$，概率为$13/28$。",
+  "sort_order": 1
+}

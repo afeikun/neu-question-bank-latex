@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$z=0$ 是函数 $f(z)=\\dfrac1{e^z-1}-\\dfrac1z$ 的（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "可去奇点"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "极点"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "本性奇点"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "非孤立奇点"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$\\lim_{z\\to0}\\left(\\dfrac1{e^z-1}-\\dfrac1z\\right)=-\\dfrac12$，故 $z=0$ 是可去奇点。",
+  "search_text": "$z=0$ 是函数 $f(z)=\\dfrac1{e^z-1}-\\dfrac1z$ 的（ ）。 可去奇点 极点 本性奇点 非孤立奇点 $\\lim_{z\\to0}\\left(\\dfrac1{e^z-1}-\\dfrac1z\\right)=-\\dfrac12$，故 $z=0$ 是可去奇点。",
+  "sort_order": 10
+}

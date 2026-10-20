@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$\\displaystyle\\int_0^{+\\infty}\\dfrac{\\cos x}{x^2+1}\\,dx=(\\ \\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\dfrac\\pi{2e}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\dfrac\\pi{3e}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\dfrac{3\\pi}{4e}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\dfrac\\pi e$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$I=\\dfrac12\\operatorname{Re}\\int_{-\\infty}^{+\\infty}\\dfrac{e^{ix}}{x^2+1}\\,dx$。上半平面内极点 $i$ 的留数为 $e^{-1}/(2i)$，故 $I=\\dfrac\\pi{2e}$。",
+  "search_text": "$\\displaystyle\\int_0^{+\\infty}\\dfrac{\\cos x}{x^2+1}\\,dx=(\\ \\ )$。 $\\dfrac\\pi{2e}$ $\\dfrac\\pi{3e}$ $\\dfrac{3\\pi}{4e}$ $\\dfrac\\pi e$ $I=\\dfrac12\\operatorname{Re}\\int_{-\\infty}^{+\\infty}\\dfrac{e^{ix}}{x^2+1}\\,dx$。上半平面内极点 $i$ 的留数为 $e^{-1}/(2i)$，故 $I=\\dfrac\\pi{2e}$。",
+  "sort_order": 4
+}

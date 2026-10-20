@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $A$ 为 $n$ 阶正交矩阵，对于任意 $n$ 维列向量 $\\alpha$ 及范数 $|\\alpha|$ 与 $|A\\alpha|$，以下结论正确的是（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "以上都不对"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$|A\\alpha|=|\\alpha|$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$|A\\alpha|<|\\alpha|$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$|\\alpha|<|A\\alpha|$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "因为 $|A\\alpha|=\\sqrt{(A\\alpha)^T(A\\alpha)}=\\sqrt{\\alpha^TA^TA\\alpha}=\\sqrt{\\alpha^T\\alpha}=|\\alpha|$。",
+  "search_text": "设 $A$ 为 $n$ 阶正交矩阵，对于任意 $n$ 维列向量 $\\alpha$ 及范数 $|\\alpha|$ 与 $|A\\alpha|$，以下结论正确的是（ ）。 以上都不对 $|A\\alpha|=|\\alpha|$ $|A\\alpha|<|\\alpha|$ $|\\alpha|<|A\\alpha|$ 因为 $|A\\alpha|=\\sqrt{(A\\alpha)^T(A\\alpha)}=\\sqrt{\\alpha^TA^TA\\alpha}=\\sqrt{\\alpha^T\\alpha}=|\\alpha|$。",
+  "sort_order": 12
+}

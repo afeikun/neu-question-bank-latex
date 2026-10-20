@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知 $\\Sigma$ 是由 $|x|\\le1,|y|\\le1,|z|\\le1$ 所确定立体 $\\Omega$ 表面的外侧，则 $\\iint_\\Sigma(x+y+z)dxdy+(x+y-z)dzdx+(y+z-x)dydz=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$4$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$3$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$5$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$8$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "参考答案：\n\n由高斯公式\n\n$$\\oiint_{\\Sigma}=\\iiint_{\\Omega}(-1+1+1)dv=\\iiint_{\\Omega}dv=2\\cdot2\\cdot2=8.$$",
+  "search_text": "已知 $\\Sigma$ 是由 $|x|\\le1,|y|\\le1,|z|\\le1$ 所确定立体 $\\Omega$ 表面的外侧，则 $\\iint_\\Sigma(x+y+z)dxdy+(x+y-z)dzdx+(y+z-x)dydz=$（ ） $4$ $3$ $5$ $8$ 参考答案：\n\n由高斯公式\n\n$$\\oiint_{\\Sigma}=\\iiint_{\\Omega}(-1+1+1)dv=\\iiint_{\\Omega}dv=2\\cdot2\\cdot2=8.$$",
+  "sort_order": 7
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "空间曲线 $\\Gamma:\\ x=a\\cos t,y=a\\sin t,z=at\\ (0\\leq t\\leq2\\pi,a>0)$，则 $\\int_\\Gamma(x^2+y^2)ds=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\pi a^3$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$2\\sqrt2\\pi a^3$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\sqrt2\\pi a^3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答 $\\int_\\Gamma(x^2+y^2)ds=\\int_0^{2\\pi}a^2\\bullet\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt=\\int_0^{2\\pi}\\sqrt{2}a^3dt=2\\sqrt{2}\\pi a^3$",
+  "search_text": "空间曲线 $\\Gamma:\\ x=a\\cos t,y=a\\sin t,z=at\\ (0\\leq t\\leq2\\pi,a>0)$，则 $\\int_\\Gamma(x^2+y^2)ds=$（ ） $\\pi a^3$ $0$ $2\\sqrt2\\pi a^3$ $\\sqrt2\\pi a^3$ 解答 $\\int_\\Gamma(x^2+y^2)ds=\\int_0^{2\\pi}a^2\\bullet\\sqrt{x_t'^2+y_t'^2+z_t'^2}\\,dt=\\int_0^{2\\pi}\\sqrt{2}a^3dt=2\\sqrt{2}\\pi a^3$",
+  "sort_order": 18
+}

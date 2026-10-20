@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X$服从拉普拉斯分布，密度$f(x)=\\frac1{2\\lambda}e^{-|x|/\\lambda}$，$\\lambda>0$，求中心矩$\\mu_k$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\mu_k=0$（$k$奇），$\\lambda^k k!$（$k$偶）"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\mu_k=1$（$k$奇），$\\lambda^k k!$（$k$偶）"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\mu_k=0$（$k$偶），$\\lambda^k k!$（$k$奇）"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\mu_k=1$（$k$偶），$\\lambda^k k!$（$k$奇）"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "分布关于0对称，奇数阶中心矩为0；偶数阶中心矩$\\lambda^k k!$。",
+  "search_text": "$X$服从拉普拉斯分布，密度$f(x)=\\frac1{2\\lambda}e^{-|x|/\\lambda}$，$\\lambda>0$，求中心矩$\\mu_k$。 $\\mu_k=0$（$k$奇），$\\lambda^k k!$（$k$偶） $\\mu_k=1$（$k$奇），$\\lambda^k k!$（$k$偶） $\\mu_k=0$（$k$偶），$\\lambda^k k!$（$k$奇） $\\mu_k=1$（$k$偶），$\\lambda^k k!$（$k$奇） 分布关于0对称，奇数阶中心矩为0；偶数阶中心矩$\\lambda^k k!$。",
+  "sort_order": 5
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "位于原点电量为 $q$ 的点电荷产生的电场为 $\\vec E=\\frac{q}{r^3}\\vec r=\\frac{q}{r^3}(x,y,z)$，$r=\\sqrt{x^2+y^2+z^2}$，则 $\\vec E$ 通过球面 $\\Sigma:r=R$ 外侧的电通量 $\\Phi=$（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$2\\pi q$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\pi q$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$3\\pi q$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$4\\pi q$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "图示标记：$q$，红色中心点及从中心向外的箭头。\n\n解答 $\\displaystyle \\Phi=\\iint_{\\Sigma}\\vec{E}\\cdot d\\vec{S}=\\iint_{\\Sigma}\\vec{E}\\cdot\\vec{n}\\,dS=\\iint_{\\Sigma}\\frac{q}{r^3}\\vec{r}\\cdot\\frac{\\vec{r}}{r}\\,dS=\\iint_{\\Sigma}\\frac{q}{r^2}\\,dS=\\frac{q}{R^2}\\iint_{\\Sigma}dS=4\\pi q$。",
+  "search_text": "位于原点电量为 $q$ 的点电荷产生的电场为 $\\vec E=\\frac{q}{r^3}\\vec r=\\frac{q}{r^3}(x,y,z)$，$r=\\sqrt{x^2+y^2+z^2}$，则 $\\vec E$ 通过球面 $\\Sigma:r=R$ 外侧的电通量 $\\Phi=$（ ） $2\\pi q$ $\\pi q$ $3\\pi q$ $4\\pi q$ 图示标记：$q$，红色中心点及从中心向外的箭头。\n\n解答 $\\displaystyle \\Phi=\\iint_{\\Sigma}\\vec{E}\\cdot d\\vec{S}=\\iint_{\\Sigma}\\vec{E}\\cdot\\vec{n}\\,dS=\\iint_{\\Sigma}\\frac{q}{r^3}\\vec{r}\\cdot\\frac{\\vec{r}}{r}\\,dS=\\iint_{\\Sigma}\\frac{q}{r^2}\\,dS=\\frac{q}{R^2}\\iint_{\\Sigma}dS=4\\pi q$。",
+  "sort_order": 10
+}

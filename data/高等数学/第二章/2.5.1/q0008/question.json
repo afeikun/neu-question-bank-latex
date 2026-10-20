@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $y=x^2+ax+b$ 与 $2y=-1+xy^3$ 在 $(1,-1)$ 处相切，求 $a,b$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a=-1,b=1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a=-1,b=-1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$a=1,b=1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$a=1,b=-1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解答 由题可知$(1,-1)$是两条曲线的公共点，且两条曲线在该点的导数相等，则可得，$-1=1^2+a\\cdot1+b$\n$y'(1)=2+a,\\quad 2y'(1)=\\left.(y^3+3xy^2y')\\right|_{(1,-1)}$\n\n联立可得$\\begin{cases}-1=1+a+b\\\\1=2+a\\end{cases}$，解得$a=-1,b=-1$",
+  "search_text": "曲线 $y=x^2+ax+b$ 与 $2y=-1+xy^3$ 在 $(1,-1)$ 处相切，求 $a,b$。 $a=-1,b=1$ $a=-1,b=-1$ $a=1,b=1$ $a=1,b=-1$ 解答 由题可知$(1,-1)$是两条曲线的公共点，且两条曲线在该点的导数相等，则可得，$-1=1^2+a\\cdot1+b$\n$y'(1)=2+a,\\quad 2y'(1)=\\left.(y^3+3xy^2y')\\right|_{(1,-1)}$\n\n联立可得$\\begin{cases}-1=1+a+b\\\\1=2+a\\end{cases}$，解得$a=-1,b=-1$",
+  "sort_order": 8
+}

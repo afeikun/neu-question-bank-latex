@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$X\\sim N(0,1)$，$Y=2X^2+1$，求$Y$的概率密度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$f_Y(y)=\\frac1{2\\sqrt{\\pi(y-1)}}e^{-(y-1)/4},y>1$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$f_Y(y)=\\frac1{2\\sqrt{\\pi(y-1)}}e^{-(y-1)/4},y<1$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$f_Y(y)=0,y>1$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$f_Y(y)=\\frac1{2\\sqrt{\\pi(y-1)}}e^{(y-1)/4},y<1$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$y=2x^2+1$为非单调函数，累加两支密度得$f_Y(y)=\\frac{1}{2\\sqrt{\\pi(y-1)}}e^{-(y-1)/4}$，$y>1$，否则0。",
+  "search_text": "$X\\sim N(0,1)$，$Y=2X^2+1$，求$Y$的概率密度。 $f_Y(y)=\\frac1{2\\sqrt{\\pi(y-1)}}e^{-(y-1)/4},y>1$ $f_Y(y)=\\frac1{2\\sqrt{\\pi(y-1)}}e^{-(y-1)/4},y<1$ $f_Y(y)=0,y>1$ $f_Y(y)=\\frac1{2\\sqrt{\\pi(y-1)}}e^{(y-1)/4},y<1$ $y=2x^2+1$为非单调函数，累加两支密度得$f_Y(y)=\\frac{1}{2\\sqrt{\\pi(y-1)}}e^{-(y-1)/4}$，$y>1$，否则0。",
+  "sort_order": 1
+}

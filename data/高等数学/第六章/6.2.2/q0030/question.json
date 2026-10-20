@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "下列叙述正确的是(\\quad)。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "若 $\\vec a\\times\\vec b=\\vec a\\times\\vec c$，且 $\\vec c\\ne0$，则 $\\vec b=\\vec c$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "若 $\\vec c$ 与 $\\vec a$ 和 $\\vec b$ 都垂直，则 $\\vec c=\\vec a\\times\\vec b$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$(\\vec a+\\vec b)\\times(\\vec a-\\vec b)=-2\\vec a\\times\\vec b$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "若某向量与三个坐标轴的夹角都相等，则其方向角均为 $\\frac\\pi3$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "展开叉积得 $(a+b)\\times(a-b)=-a\\times b+b\\times a=-2a\\times b$。",
+  "search_text": "下列叙述正确的是(\\quad)。 若 $\\vec a\\times\\vec b=\\vec a\\times\\vec c$，且 $\\vec c\\ne0$，则 $\\vec b=\\vec c$ 若 $\\vec c$ 与 $\\vec a$ 和 $\\vec b$ 都垂直，则 $\\vec c=\\vec a\\times\\vec b$ $(\\vec a+\\vec b)\\times(\\vec a-\\vec b)=-2\\vec a\\times\\vec b$ 若某向量与三个坐标轴的夹角都相等，则其方向角均为 $\\frac\\pi3$ 展开叉积得 $(a+b)\\times(a-b)=-a\\times b+b\\times a=-2a\\times b$。",
+  "sort_order": 30
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $X_1,\\ldots,X_n$ 为总体的样本，$x_1,\\ldots,x_n$ 为一组观测值，按非降次序排列为 $x_{(1)}\\le\\cdots\\le x_{(n)}$。与这些观测次序对应的随机变量中，下列（ ）为第 $i$ 个顺序统计量。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$X_{(i)}$为第$i$个顺序统计量"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\min(X_1,\\ldots,X_n)=X_{(1)}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\max(X_1,\\ldots,X_n)=X_{(n)}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "样本中位数由中间顺序统计量定义"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "顺序统计量是样本次序排列后各项；样本最小、最大值分别为$X_{(1)},X_{(n)}$。",
+  "search_text": "设 $X_1,\\ldots,X_n$ 为总体的样本，$x_1,\\ldots,x_n$ 为一组观测值，按非降次序排列为 $x_{(1)}\\le\\cdots\\le x_{(n)}$。与这些观测次序对应的随机变量中，下列（ ）为第 $i$ 个顺序统计量。 $X_{(i)}$为第$i$个顺序统计量 $\\min(X_1,\\ldots,X_n)=X_{(1)}$ $\\max(X_1,\\ldots,X_n)=X_{(n)}$ 样本中位数由中间顺序统计量定义 顺序统计量是样本次序排列后各项；样本最小、最大值分别为$X_{(1)},X_{(n)}$。",
+  "sort_order": 3
+}

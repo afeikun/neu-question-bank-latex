@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$n=9,S^2$已知，右侧检验$H_0:\\sigma^2\\le\\sigma_0^2,H_1:\\sigma^2>\\sigma_0^2$，拒绝域是（）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$S^2\\ge(\\sigma_0^2/8)\\chi^2_{0.05}(8)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$S^2\\le(\\sigma_0^2/8)\\chi^2_{0.05}(8)$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "双侧拒绝域"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$S^2\\ge(\\sigma_0^2/8)\\chi^2_{0.95}(8)$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "右侧卡方检验有$(n-1)S^2/\\sigma_0^2\\ge\\chi^2_{0.05}(8)$。",
+  "search_text": "$n=9,S^2$已知，右侧检验$H_0:\\sigma^2\\le\\sigma_0^2,H_1:\\sigma^2>\\sigma_0^2$，拒绝域是（）。 $S^2\\ge(\\sigma_0^2/8)\\chi^2_{0.05}(8)$ $S^2\\le(\\sigma_0^2/8)\\chi^2_{0.05}(8)$ 双侧拒绝域 $S^2\\ge(\\sigma_0^2/8)\\chi^2_{0.95}(8)$ 右侧卡方检验有$(n-1)S^2/\\sigma_0^2\\ge\\chi^2_{0.05}(8)$。",
+  "sort_order": 11
+}

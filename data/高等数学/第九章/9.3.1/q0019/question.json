@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\int_L(x+y)dx+(y-x)dy$，路径先由 $(1,1)$ 到 $(1,2)$，再由 $(1,2)$ 到 $(4,2)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{34}{3}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$14$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$0$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$11$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "解，过 $(1,1)$，$(1,2)$ 的直线方程为 $x=1，\\mathrm{d}x=0，1\\leq y\\leq2$\n\n所以\n\n$$\nI_1=\\int_1^2(y-1)\\,\\mathrm{d}y=\\frac{1}{2}\n$$\n\n过 $(1,2)$，$(4,2)$ 的直线方程为 $y=2，\\mathrm{d}y=0，1\\leq x\\leq4$\n\n所以\n\n$$\nI_2=\\int_1^4(x+2)\\,\\mathrm{d}x=\\frac{27}{2}\n$$\n\n于是 原式$=I_1+I_2=14$",
+  "search_text": "计算 $\\int_L(x+y)dx+(y-x)dy$，路径先由 $(1,1)$ 到 $(1,2)$，再由 $(1,2)$ 到 $(4,2)$。 $\\frac{34}{3}$ $14$ $0$ $11$ 解，过 $(1,1)$，$(1,2)$ 的直线方程为 $x=1，\\mathrm{d}x=0，1\\leq y\\leq2$\n\n所以\n\n$$\nI_1=\\int_1^2(y-1)\\,\\mathrm{d}y=\\frac{1}{2}\n$$\n\n过 $(1,2)$，$(4,2)$ 的直线方程为 $y=2，\\mathrm{d}y=0，1\\leq x\\leq4$\n\n所以\n\n$$\nI_2=\\int_1^4(x+2)\\,\\mathrm{d}x=\\frac{27}{2}\n$$\n\n于是 原式$=I_1+I_2=14$",
+  "sort_order": 19
+}

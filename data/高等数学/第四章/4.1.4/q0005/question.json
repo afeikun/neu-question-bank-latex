@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "不定积分 $\\int e^x\\sin x\\,dx$ 的值为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac{e^x}{2}(\\sin x-\\cos x)+C$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac{e^x}{2}(\\sin x+\\cos x)+C$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$e^x(\\sin x-\\cos x)+C$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$e^x(\\sin x+\\cos x)+C$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "解答 令$\\int e^x\\sin x\\,dx=\\int\\sin x\\,de^x=e^x\\sin x-\\int e^x\\,d(\\sin x)$\n\n$$=e^x\\sin x-\\int e^x\\cos x\\,dx=e^x\\sin x-(e^x\\cos x-\\int e^x\\,d\\cos x)$$\n\n$$=e^x(\\sin x-\\cos x)-\\int e^x\\sin x\\,dx，$$\n\n于是$\\int e^x\\sin x\\,dx=\\frac{e^x}{2}(\\sin x-\\cos x)+C$。",
+  "search_text": "不定积分 $\\int e^x\\sin x\\,dx$ 的值为（ ） $\\frac{e^x}{2}(\\sin x-\\cos x)+C$ $\\frac{e^x}{2}(\\sin x+\\cos x)+C$ $e^x(\\sin x-\\cos x)+C$ $e^x(\\sin x+\\cos x)+C$ 解答 令$\\int e^x\\sin x\\,dx=\\int\\sin x\\,de^x=e^x\\sin x-\\int e^x\\,d(\\sin x)$\n\n$$=e^x\\sin x-\\int e^x\\cos x\\,dx=e^x\\sin x-(e^x\\cos x-\\int e^x\\,d\\cos x)$$\n\n$$=e^x(\\sin x-\\cos x)-\\int e^x\\sin x\\,dx，$$\n\n于是$\\int e^x\\sin x\\,dx=\\frac{e^x}{2}(\\sin x-\\cos x)+C$。",
+  "sort_order": 5
+}

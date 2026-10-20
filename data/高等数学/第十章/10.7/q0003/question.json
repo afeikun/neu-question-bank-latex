@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $y=f(x)>0$，由曲线、$x$ 轴与直线 $x=0,x$ 围成的梯形面积与 $y^4$ 成正比，且 $f(0)=0,f(1)=1$，求曲线。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y^3=2x^2-x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y^4=x$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y^3=\\sqrt{x}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y^3=x$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：依题意知 $\\int_0^x y\\,dx=ky^4$，其中 $k$ 为常数。两边对 $x$ 求导得 $y=4ky^3y'$。显然 $y\\ne 0$，于是上式可化为 $\\frac{1}{4k}=y^2y'$，于是得 $y^3=\\frac{3}{4k}x+C$。将 $f(0)=0，f(1)=1$ 代入可得曲线方程为 $y^3=x$。",
+  "search_text": "设 $y=f(x)>0$，由曲线、$x$ 轴与直线 $x=0,x$ 围成的梯形面积与 $y^4$ 成正比，且 $f(0)=0,f(1)=1$，求曲线。 $y^3=2x^2-x$ $y^4=x$ $y^3=\\sqrt{x}$ $y^3=x$ 解析：依题意知 $\\int_0^x y\\,dx=ky^4$，其中 $k$ 为常数。两边对 $x$ 求导得 $y=4ky^3y'$。显然 $y\\ne 0$，于是上式可化为 $\\frac{1}{4k}=y^2y'$，于是得 $y^3=\\frac{3}{4k}x+C$。将 $f(0)=0，f(1)=1$ 代入可得曲线方程为 $y^3=x$。",
+  "sort_order": 3
+}

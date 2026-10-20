@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "微分方程 $2y\\prime\\prime+3y\\prime=0$ 的通解为（ ）",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$y=C_1e^{-3x/2}+C_2x$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$y=C_1e^{-3x/2}+C_2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$y=C_1e^{-3x/2}+C_2x$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$y=C_1e^{-3x/2}+C_2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析 由特征方程 $2r^2+3r=0$，得特征根 $r_1=0,r_2=-\\frac32$，对照通项公式即得 $y=C_1e^{-\\frac32x}+C_2$。",
+  "search_text": "微分方程 $2y\\prime\\prime+3y\\prime=0$ 的通解为（ ） $y=C_1e^{-3x/2}+C_2x$ $y=C_1e^{-3x/2}+C_2$ $y=C_1e^{-3x/2}+C_2x$ $y=C_1e^{-3x/2}+C_2$ 解析 由特征方程 $2r^2+3r=0$，得特征根 $r_1=0,r_2=-\\frac32$，对照通项公式即得 $y=C_1e^{-\\frac32x}+C_2$。",
+  "sort_order": 23
+}

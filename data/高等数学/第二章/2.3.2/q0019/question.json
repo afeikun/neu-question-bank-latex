@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "已知函数 $f(x)$ 有任意阶导数且 $f\\prime(x)=[f(x)]^2$，则 $n>2$ 时 $f^{(n)}(x)=$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$$n[f(x)]^{n+1}$$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$$n![f(x)]^{2n}$$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$$n![f(x)]^{n+1}$$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$$[f(x)]^{2n}$$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "由数学归纳法可得 $f^{(n)}(x)=n![f(x)]^{n+1}$。",
+  "search_text": "已知函数 $f(x)$ 有任意阶导数且 $f\\prime(x)=[f(x)]^2$，则 $n>2$ 时 $f^{(n)}(x)=$（ ）。 $$n[f(x)]^{n+1}$$ $$n![f(x)]^{2n}$$ $$n![f(x)]^{n+1}$$ $$[f(x)]^{2n}$$ 由数学归纳法可得 $f^{(n)}(x)=n![f(x)]^{n+1}$。",
+  "sort_order": 19
+}

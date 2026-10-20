@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$D(X)=25,D(Y)=36,\\rho_{XY}=0.4$，求$D(2X-Y)$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$88$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$48$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$68$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$136$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$4(25)+36-4(0.4)(5)(6)=88$。",
+  "search_text": "$D(X)=25,D(Y)=36,\\rho_{XY}=0.4$，求$D(2X-Y)$。 $88$ $48$ $68$ $136$ $4(25)+36-4(0.4)(5)(6)=88$。",
+  "sort_order": 6
+}

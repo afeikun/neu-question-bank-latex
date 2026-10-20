@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "保险收益为缴费$a$（概率$p$）或$a-b$（概率$1-p$），$b>a$，要求期望收益为正。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$a<b<a/(1-p)$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$a<b<a/p$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$pa<b<a$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$(1-p)a<b<a$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "$E=a p+(a-b)(1-p)=a-b(1-p)>0$，所以$a<b<a/(1-p)$。",
+  "search_text": "保险收益为缴费$a$（概率$p$）或$a-b$（概率$1-p$），$b>a$，要求期望收益为正。 $a<b<a/(1-p)$ $a<b<a/p$ $pa<b<a$ $(1-p)a<b<a$ $E=a p+(a-b)(1-p)=a-b(1-p)>0$，所以$a<b<a/(1-p)$。",
+  "sort_order": 15
+}

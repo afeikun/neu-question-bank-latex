@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x)=\\begin{cases}\\frac{\\sqrt{1-\\cos x^2}}{1-\\cos x},&x\\ne0,\\\\a,&x=0,\\end{cases}$，要使 $f(x)$ 在 $x=0$ 连续，$a=(\\ )$。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "不存在"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$-\\sqrt2$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "等于 $\\sqrt2$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$1/\\sqrt2$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "当 $x\\to0$，分子约为 $x^2/\\sqrt2$，分母约为 $x^2/2$，极限为 $\\sqrt2$。",
+  "search_text": "$f(x)=\\begin{cases}\\frac{\\sqrt{1-\\cos x^2}}{1-\\cos x},&x\\ne0,\\\\a,&x=0,\\end{cases}$，要使 $f(x)$ 在 $x=0$ 连续，$a=(\\ )$。 不存在 $-\\sqrt2$ 等于 $\\sqrt2$ $1/\\sqrt2$ 当 $x\\to0$，分子约为 $x^2/\\sqrt2$，分母约为 $x^2/2$，极限为 $\\sqrt2$。",
+  "sort_order": 11
+}

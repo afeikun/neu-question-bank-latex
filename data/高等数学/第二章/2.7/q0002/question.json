@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "以18升/分钟向圆锥形水箱注水，底半径0.5m、高1m，水高0.3m时水位上升速度。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac\\pi8$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac\\pi6$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac6\\pi$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac8\\pi$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 由题，设 $h$ 表示注水 $t$ 分钟后水箱内水位高度，此时水表面为一半径为 $\\frac{h}{2}$ 米的圆，故可求得此时水箱内水的体积 $v=\\frac{1}{3}\\pi\\left(\\frac{h}{2}\\right)^2h=18t$，\n\n化简得 $\\pi h^3=216t$，则 $\\pi h^2\\frac{dh}{dt}=72$，带入初值得 $\\frac{dh}{dt}=\\frac{8}{\\pi}$。",
+  "search_text": "以18升/分钟向圆锥形水箱注水，底半径0.5m、高1m，水高0.3m时水位上升速度。 $\\frac\\pi8$ $\\frac\\pi6$ $\\frac6\\pi$ $\\frac8\\pi$ 解答 由题，设 $h$ 表示注水 $t$ 分钟后水箱内水位高度，此时水表面为一半径为 $\\frac{h}{2}$ 米的圆，故可求得此时水箱内水的体积 $v=\\frac{1}{3}\\pi\\left(\\frac{h}{2}\\right)^2h=18t$，\n\n化简得 $\\pi h^3=216t$，则 $\\pi h^2\\frac{dh}{dt}=72$，带入初值得 $\\frac{dh}{dt}=\\frac{8}{\\pi}$。",
+  "sort_order": 2
+}

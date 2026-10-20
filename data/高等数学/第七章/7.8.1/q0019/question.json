@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "$f(x,y)=4(x-y)-x^2-y^2$ 的极大值点为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "(2,-2)"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "(1,-1)"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "(1,1)"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "(2,2)"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "令 $\\left\\{\\begin{aligned}f_x&=4-2x=0\\\\f_y&=-4-2y=0\\end{aligned}\\right.$，则 $x=2,y=-2$，由于 $f_{xx}=-2,f_{yy}=-2,f_{xy}=0$，则 $f_{xx}f_{yy}-f_{xy}^2>0,f_{xx}<0$，因此原函数在 $(2,-2)$ 上能取的极大值。",
+  "search_text": "$f(x,y)=4(x-y)-x^2-y^2$ 的极大值点为。 (2,-2) (1,-1) (1,1) (2,2) 令 $\\left\\{\\begin{aligned}f_x&=4-2x=0\\\\f_y&=-4-2y=0\\end{aligned}\\right.$，则 $x=2,y=-2$，由于 $f_{xx}=-2,f_{yy}=-2,f_{xy}=0$，则 $f_{xx}f_{yy}-f_{xy}^2>0,f_{xx}<0$，因此原函数在 $(2,-2)$ 上能取的极大值。",
+  "sort_order": 19
+}

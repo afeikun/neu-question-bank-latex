@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "若广义积分I=∫₋∞⁰e^(−kx)dx收敛，则",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "k<0"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "k>0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "k≥0"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "k≤0"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "原函数为−e^(−kx)/k，收敛条件为k<0。",
+  "search_text": "若广义积分I=∫₋∞⁰e^(−kx)dx收敛，则 k<0 k>0 k≥0 k≤0 原函数为−e^(−kx)/k，收敛条件为k<0。",
+  "sort_order": 3
+}

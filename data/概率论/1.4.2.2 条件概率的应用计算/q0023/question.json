@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "某人有两盒火柴，吸烟时从任一盒中取一根火柴，经过若干时间后发现一盒火柴已用完。如果最初两盒各有$n$根火柴，则此时另一盒中还有$r$根火柴的概率为（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\binom{2n-r}{n}/2^{2n-r}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\binom{2n-r}{n-1}/2^{2n-r}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\binom{2n-r}{n}/2^{2n-r-1}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\binom{2n-r}{n}/2^{2n}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_1"
+    ]
+  },
+  "analysis_md": "在最后一根用完时，前$2n-r-1$次中有$n-1$次取自该盒，最后一次取其末根，计数化简得到$\\binom{2n-r}{n}/2^{2n-r}$。",
+  "search_text": "某人有两盒火柴，吸烟时从任一盒中取一根火柴，经过若干时间后发现一盒火柴已用完。如果最初两盒各有$n$根火柴，则此时另一盒中还有$r$根火柴的概率为（ ）。 $\\binom{2n-r}{n}/2^{2n-r}$ $\\binom{2n-r}{n-1}/2^{2n-r}$ $\\binom{2n-r}{n}/2^{2n-r-1}$ $\\binom{2n-r}{n}/2^{2n}$ 在最后一根用完时，前$2n-r-1$次中有$n-1$次取自该盒，最后一次取其末根，计数化简得到$\\binom{2n-r}{n}/2^{2n-r}$。",
+  "sort_order": 23
+}

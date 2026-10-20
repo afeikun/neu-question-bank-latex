@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "计算 $\\lim_{n\\to\\infty}\\left((1+\\frac1n)^{1/2^n}+\\frac{3\\cos n}{n}\\right)$（ ）。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "0"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\infty$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "1"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "-1"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "$1/n\\to0$，$(1+1/n)^{1/2^n}\\to1$，且 $\\cos n/n\\to0$，故极限为 1。",
+  "search_text": "计算 $\\lim_{n\\to\\infty}\\left((1+\\frac1n)^{1/2^n}+\\frac{3\\cos n}{n}\\right)$（ ）。 0 $\\infty$ 1 -1 $1/n\\to0$，$(1+1/n)^{1/2^n}\\to1$，且 $\\cos n/n\\to0$，故极限为 1。",
+  "sort_order": 9
+}

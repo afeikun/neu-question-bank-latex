@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "阻尼自由振动满足 $x^{\\prime\\prime}+2\\nu x^\\prime+\\omega^2x=0$，且 $\\nu>\\omega>0$，写通解。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$C_1e^{-\\nu t}\\cos\\sqrt{\\omega^2-\\nu^2}t+C_2e^{-\\nu t}\\sin\\sqrt{\\omega^2-\\nu^2}t$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$C_1e^{-\\nu t}\\cos\\omega t+C_2e^{-\\nu t}\\sin\\omega t$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$C_1e^{-\\nu t}\\cos\\sqrt{\\nu^2+\\omega^2}t+C_2e^{-\\nu t}\\sin\\sqrt{\\nu^2+\\omega^2}t$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$C_1e^{-(\\nu-\\sqrt{\\nu^2-\\omega^2})t}+C_2e^{-(\\nu+\\sqrt{\\nu^2-\\omega^2})t}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解析：模型的特征方程为 $r^2+2\\nu r+\\omega^2=0$，此时特征方程有两个相异实根：\n\n$$r=\\frac{-2\\nu\\pm\\sqrt{4\\nu^2-4\\omega^2}}{2}=-\\nu\\pm\\sqrt{\\nu^2-\\omega^2}<0$$\n\n故原方程的通解为 $x(t)=C_1e^{(-\\nu+\\sqrt{\\nu^2-\\omega^2})t}+C_2e^{(-\\nu-\\sqrt{\\nu^2-\\omega^2})t}$。",
+  "search_text": "阻尼自由振动满足 $x^{\\prime\\prime}+2\\nu x^\\prime+\\omega^2x=0$，且 $\\nu>\\omega>0$，写通解。 $C_1e^{-\\nu t}\\cos\\sqrt{\\omega^2-\\nu^2}t+C_2e^{-\\nu t}\\sin\\sqrt{\\omega^2-\\nu^2}t$ $C_1e^{-\\nu t}\\cos\\omega t+C_2e^{-\\nu t}\\sin\\omega t$ $C_1e^{-\\nu t}\\cos\\sqrt{\\nu^2+\\omega^2}t+C_2e^{-\\nu t}\\sin\\sqrt{\\nu^2+\\omega^2}t$ $C_1e^{-(\\nu-\\sqrt{\\nu^2-\\omega^2})t}+C_2e^{-(\\nu+\\sqrt{\\nu^2-\\omega^2})t}$ 解析：模型的特征方程为 $r^2+2\\nu r+\\omega^2=0$，此时特征方程有两个相异实根：\n\n$$r=\\frac{-2\\nu\\pm\\sqrt{4\\nu^2-4\\omega^2}}{2}=-\\nu\\pm\\sqrt{\\nu^2-\\omega^2}<0$$\n\n故原方程的通解为 $x(t)=C_1e^{(-\\nu+\\sqrt{\\nu^2-\\omega^2})t}+C_2e^{(-\\nu-\\sqrt{\\nu^2-\\omega^2})t}$。",
+  "sort_order": 20
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^1dx\\int_{2x}^{x^2+1}f(x,y)dy$ 的积分次序为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^1dy\\int_{2y}^{y^2+1}f(x,y)dx$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^2dy\\int_0^{y/2}f(x,y)dx$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^1dy\\int_0^{y/2}f(x,y)dx+\\int_1^2dy\\int_{\\sqrt{y-1}}^{y/2}f(x,y)dx$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^1dy\\int_0^{y/2}f(x,y)dx+\\int_1^2dy\\int_{\\sqrt{y-1}}^{y/2}f(x,y)dx$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_4"
+    ]
+  },
+  "analysis_md": "解答 原式=$\\int_0^1dy\\int_0^{\\frac{y}{2}}f(x,y)dx+\\int_1^2dy\\int_{\\sqrt{y-1}}^{\\frac{y}{2}}f(x,y)dx$。",
+  "search_text": "设 $f(x,y)$ 是连续函数，交换二次积分 $\\int_0^1dx\\int_{2x}^{x^2+1}f(x,y)dy$ 的积分次序为[\\quad] $\\int_0^1dy\\int_{2y}^{y^2+1}f(x,y)dx$ $\\int_0^2dy\\int_0^{y/2}f(x,y)dx$ $\\int_0^1dy\\int_0^{y/2}f(x,y)dx+\\int_1^2dy\\int_{\\sqrt{y-1}}^{y/2}f(x,y)dx$ $\\int_0^1dy\\int_0^{y/2}f(x,y)dx+\\int_1^2dy\\int_{\\sqrt{y-1}}^{y/2}f(x,y)dx$ 解答 原式=$\\int_0^1dy\\int_0^{\\frac{y}{2}}f(x,y)dx+\\int_1^2dy\\int_{\\sqrt{y-1}}^{\\frac{y}{2}}f(x,y)dx$。",
+  "sort_order": 22
+}

@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "二重积分 $\\int_0^a dy\\int_0^{\\sqrt{a^2-y^2}}f(x,y)dx$ 的极坐标形式为[\\quad]",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\int_0^{3\\pi/2}d\\theta\\int_0^af(r\\cos\\theta,r\\sin\\theta)dr$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\int_0^{2\\pi}d\\theta\\int_0^{a^2}f(r\\cos\\theta,r\\sin\\theta)rdr$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\int_0^{\\pi/2}d\\theta\\int_0^af(r\\cos\\theta,r\\sin\\theta)rdr$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\int_0^\\pi d\\theta\\int_0^{2a}f(r\\cos\\theta,r\\sin\\theta)r^2dr$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_3"
+    ]
+  },
+  "analysis_md": "解答　积分区域 $D$ 的积分限为 $D:0\\leq y\\leq a,0\\leq x\\leq\\sqrt{a^2-y^2}$，则\n\n$$\\int_0^a dy\\int_0^{\\sqrt{a^2-y^2}}f(x,y)dx=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^a f(r\\cos\\theta,r\\sin\\theta)rdr.$$ \n\n图示：第一象限内区域 $D$ 由坐标轴和圆弧 $r=a$ 围成；圆弧旁标注 $y=\\sqrt{a^2-x^2}$，横轴交点标记 $a$；坐标轴标记 $x,y$，原点标记 $O$；区域内半径标记 $r$，与正 $x$ 轴夹角标记 $\\theta$。",
+  "search_text": "二重积分 $\\int_0^a dy\\int_0^{\\sqrt{a^2-y^2}}f(x,y)dx$ 的极坐标形式为[\\quad] $\\int_0^{3\\pi/2}d\\theta\\int_0^af(r\\cos\\theta,r\\sin\\theta)dr$ $\\int_0^{2\\pi}d\\theta\\int_0^{a^2}f(r\\cos\\theta,r\\sin\\theta)rdr$ $\\int_0^{\\pi/2}d\\theta\\int_0^af(r\\cos\\theta,r\\sin\\theta)rdr$ $\\int_0^\\pi d\\theta\\int_0^{2a}f(r\\cos\\theta,r\\sin\\theta)r^2dr$ 解答　积分区域 $D$ 的积分限为 $D:0\\leq y\\leq a,0\\leq x\\leq\\sqrt{a^2-y^2}$，则\n\n$$\\int_0^a dy\\int_0^{\\sqrt{a^2-y^2}}f(x,y)dx=\\int_0^{\\frac{\\pi}{2}}d\\theta\\int_0^a f(r\\cos\\theta,r\\sin\\theta)rdr.$$ \n\n图示：第一象限内区域 $D$ 由坐标轴和圆弧 $r=a$ 围成；圆弧旁标注 $y=\\sqrt{a^2-x^2}$，横轴交点标记 $a$；坐标轴标记 $x,y$，原点标记 $O$；区域内半径标记 $r$，与正 $x$ 轴夹角标记 $\\theta$。",
+  "sort_order": 19
+}

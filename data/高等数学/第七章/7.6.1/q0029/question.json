@@ -1,0 +1,30 @@
+{
+  "question_type": "single_choice",
+  "stem_md": "曲线 $x=t^2e^{2t},y=te^{2t},z=e^{2t}$ 在 $t=1$ 处切线与 $yOz$ 平面夹角正弦为。",
+  "options_json": [
+    {
+      "key": "opt_1",
+      "content_md": "$\\frac4{\\sqrt{39}}$"
+    },
+    {
+      "key": "opt_2",
+      "content_md": "$\\frac4{\\sqrt{29}}$"
+    },
+    {
+      "key": "opt_3",
+      "content_md": "$\\frac5{\\sqrt{29}}$"
+    },
+    {
+      "key": "opt_4",
+      "content_md": "$\\frac5{\\sqrt{39}}$"
+    }
+  ],
+  "answer_json": {
+    "option_keys": [
+      "opt_2"
+    ]
+  },
+  "analysis_md": "因为 $x'|_{t=1}=2te^{2t}+2t^2e^{2t}=4e^2$，$y'|_{t=1}=e^{2t}+2te^{2t}=3e^2$，$z'|_{t=1}=2te^{2t}=2e^2$，则切向量为：\n\n$(4e^2,3e^2,2e^2)$，取 $(4,3,2)$，又 $yOz$ 平面所对应的法向量为：$(1,0,0)$，所以\n\n$$\\sin\\varphi=\\frac{4}{\\sqrt{4^2+3^2+2^2}}=\\frac{4}{\\sqrt{29}}.$$",
+  "search_text": "曲线 $x=t^2e^{2t},y=te^{2t},z=e^{2t}$ 在 $t=1$ 处切线与 $yOz$ 平面夹角正弦为。 $\\frac4{\\sqrt{39}}$ $\\frac4{\\sqrt{29}}$ $\\frac5{\\sqrt{29}}$ $\\frac5{\\sqrt{39}}$ 因为 $x'|_{t=1}=2te^{2t}+2t^2e^{2t}=4e^2$，$y'|_{t=1}=e^{2t}+2te^{2t}=3e^2$，$z'|_{t=1}=2te^{2t}=2e^2$，则切向量为：\n\n$(4e^2,3e^2,2e^2)$，取 $(4,3,2)$，又 $yOz$ 平面所对应的法向量为：$(1,0,0)$，所以\n\n$$\\sin\\varphi=\\frac{4}{\\sqrt{4^2+3^2+2^2}}=\\frac{4}{\\sqrt{29}}.$$",
+  "sort_order": 29
+}
